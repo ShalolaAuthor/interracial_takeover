@@ -9,3 +9,15 @@ bno_embrace_african_4_name: "承认移民"
 bno_embrace_african_5_name: "融入移民"
 
 BNO_PLACEHOLDER: ""
+EBONY_ELITES_UNLOCK_DESCRIPTION: "可以招募[GetMaA('bno_ebony_elites').GetName]作为[men_at_arms|E]"
+EBONY_ELITES_DESCRIPTION: "#weak Only one regiment of [GetMaA('bno_ebony_elites').GetName] can be recruited#!"
+
+BBC_MARRIAGE_DESCRIPTION: "每当大黑鸡巴角色结婚以及白人女孩与大黑鸡巴角色结婚，你的王朝就会获得威望。他们也会从婚姻中获得更多的合法性和威望"
+
+BBC_SEX_EFFECT: "当一名大黑鸡巴角色和一名属于你家族的白人女孩做爱，你的家族将获得威望"
+
+BNO_EMBRACE_3_EFFECT: "解锁学习移民决议与事件"
+
+SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "选择一个[congenital|E]特质使其在你的家族中更加常见"
+
+BBC_CAMP_BUILDING_UNLOCK: "解锁[GetBuilding('bbc_camp_01').GetName][building|E]"
