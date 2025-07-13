@@ -95,6 +95,55 @@ does_wandering_male_exist = {
 	}
 }
 
+does_something_related_to_you_exist = {
+	any_close_family_member = {
+		$TRIGGER_KEY$ = yes
+	}
+}
+
+does_blacked_mother_exist = {
+	does_something_related_to_you_exist = {
+		TRIGGER_KEY = is_mother_blacked
+	}
+}
+
+does_blacked_sibling_exist = {
+	does_something_related_to_you_exist = {
+		TRIGGER_KEY = is_sibling_blacked
+	}
+}
+
+does_something_above_exist = {
+	any_liege_or_above = {
+		$TRIGGER_KEY$ = yes
+	}
+}
+
+does_qos_has_blackbull_husband_exist = {
+	does_something_above_exist = {
+		TRIGGER_KEY = is_qos_has_blackbull_husband
+	}
+}
+
+is_qos_has_blackbull_husband = {
+	is_qos = yes
+	is_ai = yes
+	is_married = yes
+	primary_spouse = {
+		is_bbc = yes
+	}
+}
+
+is_mother_blacked = {
+	is_ai_blacked = yes
+	is_parent_of = root
+}
+
+is_sibling_blacked = {
+	is_ai_blacked = yes
+	is_sibling_of = root
+}
+
 does_something_exist = {
     OR = {
         any_courtier_or_guest = {
@@ -127,6 +176,12 @@ does_something_exist = {
             }
         }
     }
+}
+
+does_an_ai_white_girl_exist = {
+	does_something_exist = {
+		TRIGGER_KEY = is_ai_pure_white_girl
+	}
 }
 
 does_just_or_zealous_blackbull_exist = {
@@ -235,9 +290,31 @@ is_an_ai_girl = {
 	is_ai = yes
 }
 
+does_caged_or_castrated_male_exist = {
+	does_something_exist = {
+		TRIGGER_KEY = is_caged_or_castrated_male
+	}
+}
+
+is_caged_or_castrated_male = {
+	OR = {
+		has_trait = bno_chastity
+		has_trait = bno_castrated
+	}
+	is_elligible_partner = yes
+	is_ai = yes
+	is_a_male = yes
+	is_bbc = no
+}
+
 is_white_girl = {
 	is_a_girl = yes
 	is_african = no
+}
+
+is_an_ai_white_girl = {
+	is_white_girl = yes
+	is_ai = yes
 }
 
 is_curious = {
@@ -556,12 +633,6 @@ does_unmarried_ai_pure_foreign_lady_exist = {
 is_unmarried_ai_blackbull = {
 	is_ai_blackbull = yes
 	is_married = no
-}
-
-is_prime_girl = {
-	is_adult = yes
-	is_female = yes
-	is_imprisoned = no
 }
 
 is_bno_curious = {

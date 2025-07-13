@@ -65,15 +65,11 @@ is_ai_not_married_blackbull = {
 }
 
 is_ai_curious = {
-	is_bno_curious = yes
-	is_ruler = no
+	is_curious = yes
 	is_ai = yes
-	is_prime_girl = yes
 }
 
 is_ai_snowbunny = {
-	is_bno_snowbunny = yes
-	is_ruler = no
+	is_snowbunny = yes
 	is_ai = yes
-	is_prime_girl = yes
 }

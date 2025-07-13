@@ -41,7 +41,7 @@ bno_combat.0001 = {
                         modifier = bno_wounded_commander
                         months = 3
                     }
-                    add_trait = bno_castrated
+                    bno_castrated_effect = yes
                 }
             }
             50 = {

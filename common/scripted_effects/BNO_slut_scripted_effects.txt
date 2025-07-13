@@ -176,6 +176,99 @@ bno_reveal_secret_effect = {
 	}
 }
 
+bno_no_sex_stress_impact = {
+	stress_impact = {
+		bno_curious = major_stress_impact_gain
+		bno_blacked = major_stress_impact_gain
+		bno_snowbunny = major_stress_impact_gain
+		bno_qos = major_stress_impact_gain
+		bno_mindless_bbc_slut = major_stress_impact_gain
+	}
+}
+
+bno_sex_stress_impact_huge = {
+	stress_impact = {
+		bno_curious = major_stress_impact_loss
+		bno_blacked = major_stress_impact_loss
+		bno_snowbunny = major_stress_impact_loss
+		bno_qos = major_stress_impact_loss
+		bno_mindless_bbc_slut = major_stress_impact_loss
+	}
+}
+
+bno_sex_stress_impact_small = {
+	stress_impact = {
+		bno_curious = minor_stress_impact_loss
+		bno_blacked = minor_stress_impact_loss
+		bno_snowbunny = minor_stress_impact_loss
+		bno_qos = minor_stress_impact_loss
+		bno_mindless_bbc_slut = minor_stress_impact_loss
+	}
+}
+
+get_something_related = {
+	random_close_family_member = {
+		limit = {
+			$TRIGGER_KEY$ = yes
+		}
+		save_scope_as = $SCOPE_NAME$
+	}
+}
+
+get_something_above = {
+	random_liege_or_above = {
+		limit = {
+			$TRIGGER_KEY$ = yes
+		}
+		save_scope_as = $SCOPE_NAME$
+	}
+}
+
+get_qos_girl_that_has_blackbull_husband_scope = {
+	get_something_above = {
+		TRIGGER_KEY = is_qos_has_blackbull_husband
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_blacked_mom_scope = {
+	get_something_related = {
+		TRIGGER_KEY = is_mother_blacked
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_blacked_siblings_scope = {
+	get_something_related = {
+		TRIGGER_KEY = is_sibling_blacked
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_caged_or_castrated_male_scope = {
+	get_something = {
+		TRIGGER_KEY = is_caged_or_castrated_male
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+bno_influence_random_pure_courtier = {
+	hidden_effect = {
+		random_courtier_or_guest = {
+			limit = {
+				is_pure_whitegirl = yes
+			}
+			bno_increase_sluttyness = yes
+		}
+		random_vassal = {
+			limit = {
+				is_pure_whitegirl = yes
+			}
+			bno_increase_sluttyness = yes
+		}
+	}
+}
+
 bno_marriage_effect = {
 	save_temporary_scope_as = temp
 	if = {
@@ -950,6 +1043,7 @@ bno_add_gold_faith = {
 }
 
 bno_slut_sex_after_effects = {
+	bno_sex_increase_dynasty_prestige = yes
 	stress_impact = {
 		bno_bbc = -50
 	}
@@ -1016,6 +1110,7 @@ bno_bull_husband_sex_after_effects = {
 }
 
 bno_bbc_sex_after_effects = {
+	bno_sex_increase_dynasty_prestige = yes
 	bno_increase_sluttyness = yes
 	stress_impact = {
 		bno_curious = -10

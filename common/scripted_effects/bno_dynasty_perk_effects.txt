@@ -1,0 +1,14 @@
+﻿#bno_sex_increase_dynasty_prestige
+
+bno_sex_increase_dynasty_prestige = {
+    if = {
+        limit = {
+            dynasty ?= {
+                has_dynasty_perk = bno_embrace_african_3
+            }
+        }
+        dynasty ?= {
+            add_dynasty_prestige = bno_random_xp_positive
+        }
+    }
+}

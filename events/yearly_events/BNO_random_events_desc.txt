@@ -43,42 +43,18 @@ bno_random.0001 = {
 	
 	cooldown = { months = { 12 18 } }
 	trigger = {
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-			any_courtier_or_guest = {
-				is_adult = yes
-				is_female = yes
-				is_ruler = no
-				is_ai = yes
-			}
-			is_female = yes
-			is_adult = yes
+		is_a_girl = yes
+		does_an_ai_white_girl_exist = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		random_courtier_or_guest = {
-			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-			save_scope_as = target1
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
-		
-		random_courtier_or_guest = {
-			limit = {
-				is_adult = yes
-				is_female = yes
-				is_ruler = no
-				is_ai = yes
-			}
-			save_scope_as = target2
-		}
-		
-		
+		get_pure_whitegirl_scope = {
+			SCOPE_NAME = target2
+		}		
 		scope:target2 ?= {
 			bno_have_sex_with_effects = {
 				PARTNER = scope:target1
@@ -94,24 +70,6 @@ bno_random.0001 = {
 				}
 			}
 		}
-		
-		if = {
-			limit = {
-				scope:target2 ?= {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			scope:target2 ?= {
-				primary_spouse = {
-					become_more_cuck_effect = yes
-				}
-			}
-		}
 	}
 	
 	option = {
@@ -122,18 +80,13 @@ bno_random.0001 = {
 	option = {
 		name = bno_random_0001.b
 		trigger_event = bno_random.2001
-		
 	}
 	
 	option = {
 		name = bno_random_0001.c
-		stress_impact = {
-			bno_curious = minor_stress_impact_gain
-			bno_blacked = minor_stress_impact_gain
-			bno_snowbunny = minor_stress_impact_gain
-			bno_qos = minor_stress_impact_gain
-			bno_mindless_bbc_slut = minor_stress_impact_gain
-		}
+		add_internal_flag = dangerous
+
+		bno_no_sex_stress_impact = yes
 		bno_decrease_sluttyness = yes
 		imprison = {
 			type = dungeon
@@ -186,48 +139,44 @@ bno_random.1001 = {
 		animation = eavesdrop
 	}
 	
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
+
 	option = {
 		name =  bno_random_1001.a
 		
 		trigger = {
-			NOT = { has_trait = bno_whitegirl }
+			is_bno_curious_and_up = no
 		}
-		if = {
-			limit = {
-				primary_spouse = {
-					NOT = {
-						has_trait = bno_bbc
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
 		}
 		bno_increase_sluttyness = yes
 	}
 	option = {
 		name =  bno_random_1001.b
 		trigger = {
-			has_trait = bno_whitegirl
+			is_bno_curious_and_up = yes
 		}
-		if = {
-			limit = {
-				primary_spouse = {
-					NOT = {
-						has_trait = bno_bbc
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
 		}
 		add_stress = -15
 	}
 	option = { #denial
 		name =  bno_random_1001.c
 		add_stress = 10
+		bno_decrease_sluttyness = yes
 	}
 }
 
@@ -278,35 +227,24 @@ bno_random.2001 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = { #taking the plunge
 		name =  bno_random_2001.a
 		
-		if = {
-			limit = {
-				exists = primary_spouse
-				primary_spouse = {
-					NOT = {
-						has_trait = bno_bbc
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
-		}
-		if = {
-			limit = {
-				NOT = {
-					has_trait = bno_whitegirl
-				}
-			}
-			bno_increase_sluttyness = yes
-		}
-		
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
+
 		scope:target1 ?= {
 			become_lover_with_target = {
 				TARGET = root
@@ -362,43 +300,20 @@ bno_random.0002 = {
 		animation = disbelief
 	}
 	
-	cooldown = { months = 6 }
+	cooldown = { months = { 6 12 } }
 	
 	trigger = {
-		any_courtier_or_guest = {
-			has_trait = bno_bbc
-			is_adult = yes
-			is_ai = yes
-		}
-		any_close_family_member = {
-			is_bno_blacked_and_up = yes
-			is_adult = yes
-			is_female = yes
-			is_parent_of = root
-			is_ai = yes
-		}
-		is_female = yes
-		is_adult = yes
+		is_a_girl = yes
+		does_blackbull_exist = yes
+		does_blacked_mother_exist = yes
 	}
 	
 	immediate = {
-		random_courtier_or_guest = {
-			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-			save_scope_as = target1
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
-		random_close_family_member = {
-			limit = {
-				is_bno_blacked_and_up = yes
-				is_adult = yes
-				is_female = yes
-				is_ai = yes
-				is_parent_of = root
-			}
-			save_scope_as = target2
+		get_blacked_mom_scope = {
+			SCOPE_NAME = target2
 		}
 		
 		scope:target2 ?= {
@@ -415,59 +330,31 @@ bno_random.0002 = {
 				}
 			}
 		}
-		
-		if = {
-			limit = {
-				scope:target2 ?= {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			scope:target2 ?= {
-				primary_spouse = {
-					become_more_cuck_effect = yes
-				}
-			}
-		}
 	}
 	
 	option = {
 		name = bno_random_0002.a
-		
-		if = {
-			limit = {
-				NOT = {
-					has_trait = bno_whitegirl
-				}
-			}
-			bno_increase_sluttyness = yes
+		trigger = {
+			is_bno_curious = yes
 		}
-		
+		exclusive = yes
+		bno_increase_sluttyness = yes
 		trigger_event = bno_random.1002
 	}
 	
 	option = {
 		name = bno_random_0002.b
 		trigger = {
-			has_trait = bno_curious
+			is_bno_blacked_and_up = yes
 		}
-		
+		exclusive = yes
 		trigger_event = bno_random.2002
 	}
 	
 	option = {
 		name = bno_random_0002.c
-		stress_impact = {
-			bno_curious = medium_stress_impact_gain
-			bno_blacked = medium_stress_impact_gain
-			bno_snowbunny = medium_stress_impact_gain
-			bno_qos = medium_stress_impact_gain
-			bno_mindless_bbc_slut = medium_stress_impact_gain
-		}
+		add_internal_flag = dangerous
+		bno_no_sex_stress_impact = yes
 	}
 }
 
@@ -508,8 +395,19 @@ bno_random.1002 = {
 		animation = disbelief
 	}
 	
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
+
 	option = {
 		name = bno_random_1002.a
+		bno_increase_sluttyness = yes
 	}
 }
 
@@ -572,6 +470,16 @@ bno_random.2002 = {
 		}
 	}
 	
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
+	
 	option = {
 		name = bno_random_2002.a
 		
@@ -627,43 +535,20 @@ bno_random.0003 = {
 		animation = shock
 	}
 	
-	cooldown = { months = 6 }
+	cooldown = { months = { 6 12 } }
 	
 	trigger = {
-		any_courtier_or_guest = {
-			has_trait = bno_bbc
-			is_adult = yes
-			is_ai = yes
-		}
-		any_close_family_member = {
-			is_bno_blacked_and_up = yes
-			is_adult = yes
-			is_female = yes
-			is_sibling_of = root
-			is_ai = yes
-		}
-		is_female = yes
-		is_adult = yes
+		is_a_girl = yes
+		does_blackbull_exist = yes
+		does_blacked_sibling_exist = yes
 	}
 	
 	immediate = {
-		random_courtier_or_guest = {
-			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-			save_scope_as = target1
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
-		random_close_family_member = {
-			limit = {
-				is_bno_blacked_and_up = yes
-				is_adult = yes
-				is_female = yes
-				is_ai = yes
-				is_sibling_of = root
-			}
-			save_scope_as = target2
+		get_blacked_siblings_scope = {
+			SCOPE_NAME = target2
 		}
 		
 		scope:target2 ?= {
@@ -680,42 +565,20 @@ bno_random.0003 = {
 				}
 			}
 		}
-		
-		if = {
-			limit = {
-				scope:target2 ?= {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			scope:target2 ?= {
-				primary_spouse = {
-					become_more_cuck_effect = yes
-				}
-			}
-		}
 	}
 	
 	option = {
 		name = bno_random_0003.a
-		if = {
-			limit = {
-				NOT = {
-					has_trait = bno_whitegirl
-				}
-			}
-			bno_increase_sluttyness = yes
+		trigger = {
+			is_bno_curious_and_up = no
 		}
+		bno_increase_sluttyness = yes
 	}
 	
 	option = {
 		name = bno_random_0003.b
 		trigger = {
-			has_trait = bno_curious
+			is_bno_curious_and_up = yes
 		}
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
@@ -726,20 +589,13 @@ bno_random.0003 = {
 				LOCATION = root.location
 			}
 		}
-		
 		bno_increase_sluttyness = yes
-		
 		trigger_event = bno_random.2003
 	}
 	option = {
 		name = bno_random_0003.c
-		stress_impact = {
-			bno_curious = medium_stress_impact_gain
-			bno_blacked = medium_stress_impact_gain
-			bno_snowbunny = medium_stress_impact_gain
-			bno_qos = medium_stress_impact_gain
-			bno_mindless_bbc_slut = medium_stress_impact_gain
-		}
+		add_internal_flag = dangerous
+		bno_no_sex_stress_impact = yes
 		
 		scope:target1 ?= {
 			add_opinion = {
@@ -796,9 +652,22 @@ bno_random.2003 = {
 		character = root
 		animation = shock
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_2003.a
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
 		add_stress = -25
 	}
 }
@@ -837,39 +706,16 @@ bno_random.0004 = {
 		}
 	}
 	
-	cooldown = { months = 6 }
+	cooldown = { months = { 6 12 } }
 	
 	trigger = {
-		any_liege_or_above = {
-			has_trait = bno_qos
-			is_adult = yes
-			is_female = yes
-			is_ai = yes
-			is_married = yes
-			primary_spouse = {
-				has_trait = bno_bbc
-			}
-		}
-		NOT = {
-			has_trait = bno_whitegirl
-		}
-		is_female = yes
-		is_adult = yes
+		is_pure_whitegirl = yes
+		does_qos_has_blackbull_husband_exist = yes
 	}
 	
 	immediate = {
-		random_liege_or_above = {
-			limit = {
-				has_trait = bno_qos
-				is_adult = yes
-				is_female = yes
-				is_ai = yes
-				is_married = yes
-				primary_spouse = {
-					has_trait = bno_bbc
-				}
-			}
-			save_scope_as = target2
+		get_qos_girl_that_has_blackbull_husband_scope = {
+			SCOPE_NAME = target2
 		}
 		scope:target2 ?= {
 			primary_spouse = {
@@ -889,29 +735,19 @@ bno_random.0004 = {
 	
 	option = {
 		name = bno_random_0004.a
-		
-		if = {
-			limit = {
-				NOT = {
-					has_trait = bno_whitegirl
-				}
-			}
-			bno_increase_sluttyness = yes
+		trigger = {
+			is_bno_curious_and_up = no
 		}
+		bno_increase_sluttyness = yes
 		
 		trigger_event = bno_random.1004
 	}
 	
 	option = {
 		name = bno_random_0004.b
-		
-		stress_impact = {
-			bno_curious = minor_stress_impact_gain
-			bno_blacked = minor_stress_impact_gain
-			bno_snowbunny = minor_stress_impact_gain
-			bno_qos = minor_stress_impact_gain
-			bno_mindless_bbc_slut = minor_stress_impact_gain
-		}
+		add_internal_flag = dangerous
+
+		bno_no_sex_stress_impact = yes
 		
 		trigger_event = bno_random.2004
 	}
@@ -949,9 +785,20 @@ bno_random.1004 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1004.a
+		bno_increase_sluttyness = yes
 		add_stress = -15
 	}
 }
@@ -988,17 +835,23 @@ bno_random.2004 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_2004.a
-		if = {
-			limit = {
-				NOT = {
-					has_trait = bno_whitegirl
-				}
-			}
-			bno_increase_sluttyness = yes
+		trigger = {
+			is_bno_curious_and_up = no
 		}
+		bno_increase_sluttyness = yes
 	}
 }
 
@@ -1037,50 +890,20 @@ bno_random.0005 = {
 		}
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_curious = yes
-			
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_curious = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	option = {
 		name = bno_random_0005.a
-		
-		if = {
-			limit = {
-				exists = primary_spouse
-				primary_spouse = {
-					NOT = {
-						has_trait = bno_bbc
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
-		}
 		
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
@@ -1100,14 +923,11 @@ bno_random.0005 = {
 	
 	option = {
 		name = bno_random_0005.b
-		stress_impact = {
-			bno_curious = minor_stress_impact_gain
-			bno_blacked = minor_stress_impact_gain
-			bno_snowbunny = minor_stress_impact_gain
-			bno_qos = minor_stress_impact_gain
-			bno_mindless_bbc_slut = minor_stress_impact_gain
-		}
+		add_internal_flag = dangerous
+		bno_no_sex_stress_impact = yes
+
 		bno_decrease_sluttyness = yes
+		
 		imprison = {
 			type = dungeon
 			target = scope:target1
@@ -1148,10 +968,19 @@ bno_random.1005 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1005.a
-		
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
 	}
 }
 
@@ -1191,34 +1020,17 @@ bno_random.0006 = {
 		}
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_curious = yes
-			
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_curious = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
-		}
-		
+		get_bbc_scope = {
+			SCOPE_NAME = target1
+		}		
 		bno_have_sex_with_effects = { #night before
 			PARTNER = scope:target1
 		}
@@ -1226,27 +1038,10 @@ bno_random.0006 = {
 	option = {
 		name = bno_random_0006.a
 		
-		if = {
-			limit = {
-				root = {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			root = {
-				primary_spouse = {
-					become_more_cuck_effect = yes
-				}
-			}
-		}
-		
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
+
 		scope:target1 ?= {
 			become_lover_with_target = {
 				TARGET = root
@@ -1258,13 +1053,8 @@ bno_random.0006 = {
 	}
 	option = {
 		name = bno_random_0006.b
-		stress_impact = {
-			bno_curious = minor_stress_impact_gain
-			bno_blacked = minor_stress_impact_gain
-			bno_snowbunny = minor_stress_impact_gain
-			bno_qos = minor_stress_impact_gain
-			bno_mindless_bbc_slut = minor_stress_impact_gain
-		}
+		add_internal_flag = dangerous
+		bno_no_sex_stress_impact = yes
 		bno_decrease_sluttyness = yes
 		imprison = {
 			type = dungeon
@@ -1307,9 +1097,19 @@ bno_random.1006 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1006.a
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
 	}
 }
 
@@ -1333,52 +1133,27 @@ bno_random.0007 = {
 		
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			has_trait = bno_whitegirl
-			is_bno_blacked = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
+		is_a_girl = yes
+		OR = {
+			has_trait = bno_curious
+			has_trait = bno_blacked
 		}
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	option = {
 		name = bno_random_0007.a
-		if = {
-			limit = {
-				root = {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
+		trigger = {
+			has_trait = bno_curious
 		}
-		
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
@@ -1394,22 +1169,12 @@ bno_random.0007 = {
 	
 	option = {
 		name = bno_random_0007.b
-		if = {
-			limit = {
-				root = {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
+		trigger = {
+			has_trait = bno_blacked
 		}
-		
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
@@ -1427,13 +1192,8 @@ bno_random.0007 = {
 	
 	option = {
 		name = bno_random_0007.c
-		stress_impact = {
-			bno_curious = medium_stress_impact_gain
-			bno_blacked = medium_stress_impact_gain
-			bno_snowbunny = medium_stress_impact_gain
-			bno_qos = medium_stress_impact_gain
-			bno_mindless_bbc_slut = medium_stress_impact_gain
-		}
+		add_internal_flag = dangerous
+		bno_no_sex_stress_impact = yes
 	}
 }
 
@@ -1455,9 +1215,19 @@ bno_random.1007 = {
 		animation = personality_content
 		
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1007.a
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
 		bno_increase_sluttyness = yes
 	}
 }
@@ -1480,9 +1250,22 @@ bno_random.2007 = {
 		animation = personality_content
 		
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_2007.a
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
 		add_stress = -25
 	}
 }
@@ -1514,51 +1297,23 @@ bno_random.0008 = {
 		}
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_blacked = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_blacked = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	option = {
 		name = bno_random_0008.a
-		if = {
-			limit = {
-				root = {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
+		trigger = {
+			is_bno_blacked = yes
 		}
-		
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
@@ -1575,21 +1330,10 @@ bno_random.0008 = {
 	
 	option = {
 		name = bno_random_0008.b
-		if = {
-			limit = {
-				root = {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
+		trigger = {
+			is_bno_snowbunny_and_up = yes
 		}
+
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
@@ -1606,13 +1350,8 @@ bno_random.0008 = {
 	
 	option = {
 		name = bno_random_0008.c
-		stress_impact = {
-			bno_curious = minor_stress_impact_gain
-			bno_blacked = minor_stress_impact_gain
-			bno_snowbunny = minor_stress_impact_gain
-			bno_qos = minor_stress_impact_gain
-			bno_mindless_bbc_slut = minor_stress_impact_gain
-		}
+		add_internal_flag = dangerous
+		bno_no_sex_stress_impact = yes
 		imprison = {
 			type = dungeon
 			target = scope:target1
@@ -1645,9 +1384,18 @@ bno_random.1008 = {
 			}
 		}
 	}
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1008.a
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
 	}
 }
 
@@ -1677,8 +1425,21 @@ bno_random.2008 = {
 		}
 	}
 	
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
+
 	option = {
 		name = bno_random_2008.a
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
 	}
 }
 
@@ -1719,47 +1480,20 @@ bno_random.0009 = {
 	cooldown = { months = 16 }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			highest_held_title_tier >= tier_kingdom
-			is_bno_snowbunny = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_snowbunny = yes
+		highest_held_title_tier >= tier_kingdom
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	option = {
 		name = bno_random_0009.a
-		if = {
-			limit = {
-				root = {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
+		trigger = {
+			is_bno_qos_and_up = yes
 		}
 		
 		bno_have_sex_with_effects = {
@@ -1774,32 +1508,25 @@ bno_random.0009 = {
 		
 		bno_increase_sluttyness = yes
 		
-		root = { give_nickname = nick_qos }
+		give_nickname = nick_qos
 		
 		trigger_event = bno_random.1009
 	}
 	
 	option = {
 		name = bno_random_0009.b
-		if = {
-			limit = {
-				root = {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
+		trigger = {
+			is_bno_snowbunny = yes
 		}
 		
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
+
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
+
 		scope:target1 ?= {
 			become_lover_with_target = {
 				TARGET = root
@@ -1807,20 +1534,15 @@ bno_random.0009 = {
 			}
 		}
 		
-		root = { give_nickname = nick_qos }
+		give_nickname = nick_qos
 		
 		trigger_event = bno_random.2009
 	}
 	
 	option = {
 		name = bno_random_0009.c
-		stress_impact = {
-			bno_curious = major_stress_impact_gain
-			bno_blacked = major_stress_impact_gain
-			bno_snowbunny = major_stress_impact_gain
-			bno_qos = major_stress_impact_gain
-			bno_mindless_bbc_slut = major_stress_impact_gain
-		}
+		add_internal_flag = dangerous
+		bno_no_sex_stress_impact = yes
 		imprison = {
 			type = dungeon
 			target = scope:target1
@@ -1860,27 +1582,17 @@ bno_random.1009 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1009.a
-		
-		random_courtier_or_guest = {
-			limit = {
-				is_female = yes
-			}
-			hidden_effect = {
-				bno_increase_sluttyness = yes
-			}
-		}
-		random_vassal = {
-			limit = {
-				is_female = yes
-				is_adult = yes
-			}
-			hidden_effect = {
-				bno_increase_sluttyness = yes
-			}
-		}
+		bno_influence_random_pure_courtier = yes
 	}
 }
 
@@ -1916,9 +1628,19 @@ bno_random.2009 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_2009.a
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
 	}
 }
 
@@ -1950,7 +1672,7 @@ bno_random.0010 = {
 		}
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
 		is_snowbunny = yes
@@ -1976,21 +1698,6 @@ bno_random.0010 = {
 	}
 	option = {
 		name = bno_random_0010.a
-		if = {
-			limit = {
-				root = {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
-		}
 		add_courtier = scope:target1
 		
 		bno_have_sex_with_effects = {
@@ -2011,22 +1718,6 @@ bno_random.0010 = {
 	option = {
 		name = bno_random_0010.b
 		
-		if = {
-			limit = {
-				root = {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
-		}
-		
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
@@ -2042,13 +1733,8 @@ bno_random.0010 = {
 	
 	option = {
 		name = bno_random_0010.c
-		stress_impact = {
-			bno_curious = major_stress_impact_gain
-			bno_blacked = major_stress_impact_gain
-			bno_snowbunny = major_stress_impact_gain
-			bno_qos = major_stress_impact_gain
-			bno_mindless_bbc_slut = major_stress_impact_gain
-		}
+		add_internal_flag = dangerous
+		bno_no_sex_stress_impact = yes
 		hidden_effect = {
 			scope:target1 ?= {
 				bno_kill_character = yes
@@ -2083,6 +1769,13 @@ bno_random.1010 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1010.a
@@ -2113,6 +1806,13 @@ bno_random.2010 = {
 			outfit_tags = {
 				no_clothes
 			}
+		}
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
 		}
 	}
 	
@@ -2156,12 +1856,10 @@ bno_random.0011 = {
 		}
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		is_female = yes
-		is_adult = yes
-		is_bno_qos_and_up = yes
+		is_qos = yes
 		any_courtier_or_guest = {
 			has_trait = bno_bbc
 			is_adult = yes
@@ -2171,16 +1869,14 @@ bno_random.0011 = {
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-					allowed_more_spouses = yes
-				}
-				save_scope_as = target1
+		random_courtier_or_guest = {
+			limit = {
+				has_trait = bno_bbc
+				is_adult = yes
+				is_ai = yes
+				allowed_more_spouses = yes
 			}
+			save_scope_as = target1
 		}
 	}
 	option = {
@@ -2188,24 +1884,6 @@ bno_random.0011 = {
 		
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
-		}
-		
-		hidden_effect = {
-			if = {
-				limit = {
-					root = {
-						exists = primary_spouse
-						primary_spouse = {
-							NOT = { has_trait = bno_bbc }
-						}
-					}
-				}
-				root = {
-					primary_spouse = {
-						become_more_cuck_effect = yes
-					}
-				}
-			}
 		}
 	}
 	
@@ -2216,27 +1894,8 @@ bno_random.0011 = {
 			PARTNER = scope:target1
 		}
 		
-		hidden_effect = {
-			if = {
-				limit = {
-					root = {
-						exists = primary_spouse
-						primary_spouse = {
-							NOT = { has_trait = bno_bbc }
-						}
-					}
-				}
-				root = {
-					primary_spouse = {
-						become_more_cuck_effect = yes
-					}
-				}
-			}
-			root = {
-			}
-		}
-		scope:target1 ?= {
-			marry = root
+		bno_marriage_effect = {
+			TARGET = scope:target1
 		}
 		
 		bno_increase_sluttyness = yes
@@ -2276,6 +1935,13 @@ bno_random.2011 = {
 			outfit_tags = {
 				no_clothes
 			}
+		}
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
 		}
 	}
 	
@@ -2319,54 +1985,22 @@ bno_random.0012 = {
 		}
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_qos_and_up = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_qos = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	option = {
 		name = bno_random_0012.a
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
-		}
-		hidden_effect = {
-			if = {
-				limit = {
-					root = {
-						exists = primary_spouse
-						primary_spouse = {
-							NOT = { has_trait = bno_bbc }
-						}
-					}
-				}
-				root = {
-					primary_spouse = {
-						become_more_cuck_effect = yes
-					}
-				}
-			}
 		}
 		
 		trigger_event = bno_random.1012
@@ -2389,36 +2023,14 @@ bno_random.0012 = {
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
-		hidden_effect = {
-			if = {
-				limit = {
-					root = {
-						exists = primary_spouse
-						primary_spouse = {
-							NOT = { has_trait = bno_bbc }
-						}
-					}
-				}
-				root = {
-					primary_spouse = {
-						become_more_cuck_effect = yes
-					}
-				}
-			}
-		}
 		
 		trigger_event = bno_random.2012
 	}
 	
 	option = {
 		name = bno_random_0012.c
-		stress_impact = {
-			bno_curious = major_stress_impact_gain
-			bno_blacked = major_stress_impact_gain
-			bno_snowbunny = major_stress_impact_gain
-			bno_qos = major_stress_impact_gain
-			bno_mindless_bbc_slut = major_stress_impact_gain
-		}
+		add_internal_flag = dangerous
+		bno_no_sex_stress_impact = yes
 	}
 }
 
@@ -2453,6 +2065,13 @@ bno_random.1012 = {
 			outfit_tags = {
 				no_clothes
 			}
+		}
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
 		}
 	}
 	
@@ -2498,7 +2117,7 @@ bno_random.2012 = {
 		character = scope:target2
 		triggered_outfit = {
 			trigger = {
-				exists = scope:target1
+				exists = scope:target2
 			}
 			outfit_tags = {
 				no_clothes
@@ -2506,6 +2125,13 @@ bno_random.2012 = {
 		}
 	}
 	
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
+
 	immediate = {
 		random_pool_character = {
 			province = root.location
@@ -2600,19 +2226,11 @@ bno_random.0013 = {
 		}
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_qos_and_up = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_qos = yes
+		does_blackbull_exist = yes
 		any_pool_character = {
 			count >= 3
 			province = root.location
@@ -2623,78 +2241,54 @@ bno_random.0013 = {
 	}
 	
 	immediate = {
-		root = {
-			
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
+		get_bbc_scope = {
+			SCOPE_NAME = target1
+		}
+
+		random_pool_character = {
+			province = root.location
+			limit = {
+				has_trait = bno_bbc
+				is_available_ai_adult_locale_person = yes
+				NOT = {
+					has_any_relation_trigger = { CHARACTER = root }
+					this = scope:target1
 				}
-				save_scope_as = target1
 			}
-			
-			random_pool_character = {
-				province = root.location
-				limit = {
-					has_trait = bno_bbc
-					is_available_ai_adult_locale_person = yes
-					NOT = {
-						has_any_relation_trigger = { CHARACTER = root }
-						this = scope:target1
-					}
+			save_scope_as = target2
+		}
+
+		random_pool_character = {
+			province = root.location
+			limit = {
+				has_trait = bno_bbc
+				is_available_ai_adult_locale_person = yes
+				NOT = {
+					has_any_relation_trigger = { CHARACTER = root }
+					this = scope:target1
+					this = scope:target2
 				}
-				save_scope_as = target2
 			}
-			
-			random_pool_character = {
-				province = root.location
-				limit = {
-					has_trait = bno_bbc
-					is_available_ai_adult_locale_person = yes
-					NOT = {
-						has_any_relation_trigger = { CHARACTER = root }
-						this = scope:target1
-						this = scope:target2
-					}
+			save_scope_as = target3
+		}
+
+		random_pool_character = {
+			province = root.location
+			limit = {
+				has_trait = bno_bbc
+				is_available_ai_adult_locale_person = yes
+				NOT = {
+					has_any_relation_trigger = { CHARACTER = root }
+					this = scope:target1
+					this = scope:target2
+					this = scope:target3
 				}
-				save_scope_as = target3
 			}
-			
-			random_pool_character = {
-				province = root.location
-				limit = {
-					has_trait = bno_bbc
-					is_available_ai_adult_locale_person = yes
-					NOT = {
-						has_any_relation_trigger = { CHARACTER = root }
-						this = scope:target1
-						this = scope:target2
-						this = scope:target3
-					}
-				}
-				save_scope_as = target4
-			}
-			
+			save_scope_as = target4
 		}
 	}
 	option = {
 		name = bno_random_0013.a
-		if = {
-			limit = {
-				root = {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
-		}
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
@@ -2709,24 +2303,6 @@ bno_random.0013 = {
 		}
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target4
-		}
-		
-		hidden_effect = {
-			if = {
-				limit = {
-					root = {
-						exists = primary_spouse
-						primary_spouse = {
-							NOT = { has_trait = bno_bbc }
-						}
-					}
-				}
-				root = {
-					primary_spouse = {
-						become_more_cuck_effect = yes
-					}
-				}
-			}
 		}
 		trigger_event = bno_random.1013
 	}
@@ -2769,7 +2345,7 @@ bno_random.1013 = {
 		character = scope:target2
 		triggered_outfit = {
 			trigger = {
-				exists = scope:target1
+				exists = scope:target2
 			}
 			outfit_tags = {
 				no_clothes
@@ -2780,7 +2356,7 @@ bno_random.1013 = {
 		character = scope:target3
 		triggered_outfit = {
 			trigger = {
-				exists = scope:target1
+				exists = scope:target3
 			}
 			outfit_tags = {
 				no_clothes
@@ -2791,22 +2367,36 @@ bno_random.1013 = {
 		character = scope:target4
 		triggered_outfit = {
 			trigger = {
-				exists = scope:target1
+				exists = scope:target4
 			}
 			outfit_tags = {
 				no_clothes
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+		scope:target3 ?= {
+			is_alive = yes
+		}
+		scope:target4 ?= {
+			is_alive = yes
+		}
+	}
 	
 	immediate = {
-		root = {
-			if = {
-				limit = {
-					has_any_nickname = no
-				}
-				give_nickname = nick_rt
+		if = {
+			limit = {
+				has_any_nickname = no
 			}
+			give_nickname = nick_rt
 		}
 	}
 	
@@ -2851,52 +2441,21 @@ bno_random.0014 = {
 		}
 	}
 	
-	cooldown = { months = 8 }
+	cooldown = { months = { 6 12 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			OR = {
-				is_bno_mindless_bbc_slut = yes
-				AND = {
-					is_bno_qos_and_up = yes
-					is_ai = no
-				}
-			}
-			is_married = yes
-			primary_spouse = {
-				has_trait = bno_bbc
-			}
+		is_qos = yes
+		is_married = yes
+		primary_spouse = {
+			is_bbc = yes
 		}
 	}
 	
 	immediate = {
-		root = {
-			primary_spouse = {
-				save_scope_as = target1
-			}
+		primary_spouse = {
+			save_scope_as = target1
 		}
-		hidden_effect = {
-			random_courtier_or_guest = {
-				limit = {
-					is_female = yes
-					is_adult = yes
-				}
-				hidden_effect = {
-					bno_increase_sluttyness = yes
-				}
-			}
-			random_vassal = {
-				limit = {
-					is_female = yes
-					is_adult = yes
-				}
-				hidden_effect = {
-					bno_increase_sluttyness = yes
-				}
-			}
-		}
+		bno_influence_random_pure_courtier = yes
 	}
 	
 	option = {
@@ -2943,15 +2502,20 @@ bno_random.1014 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	immediate = {
-		root = {
-			if = {
-				limit = {
-					has_any_nickname = no
-				}
-				give_nickname = nick_conq
+		if = {
+			limit = {
+				has_any_nickname = no
 			}
+			give_nickname = nick_conq
 		}
 	}
 	
@@ -3006,76 +2570,47 @@ bno_random.0015 = {
 		}
 	}
 	
-	cooldown = { months = 6 }
+	cooldown = { months = { 6 12 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			OR = {
-				is_bno_mindless_bbc_slut = yes
-				AND = {
-					is_bno_qos_and_up = yes
-					is_ai = no
-				}
-			}
-			any_spouse = {
-				has_trait = bno_bbc
-			}
-			is_married = yes
-			any_close_family_member = {
-				is_female = yes
-				is_bno_mindless_bbc_slut = yes
-			}
+		is_qos = yes
+		is_married = yes
+		primary_spouse = {
+			is_bbc = yes
+		}
+		any_close_family_member = {
+			is_mindless_bbc_slut = yes
 		}
 	}
 	
 	immediate = {
-		root = {
-			primary_spouse = {
-				save_scope_as = target1
-			}
+		primary_spouse = {
+			save_scope_as = target1
 		}
 		random_close_family_member = {
 			limit = {
-				is_bno_mindless_bbc_slut = yes
-				is_adult = yes
-				is_female = yes
-				is_ai = yes
+				is_mindless_bbc_slut = yes
 			}
 			save_scope_as = target2
 		}
-		hidden_effect = {
-			random_courtier_or_guest = {
-				limit = {
-					is_female = yes
-					is_adult = yes
-				}
-				hidden_effect = {
-					bno_increase_sluttyness = yes
-				}
-			}
-			random_vassal = {
-				limit = {
-					is_female = yes
-					is_adult = yes
-				}
-				hidden_effect = {
-					bno_increase_sluttyness = yes
-				}
-			}
-		}
+		bno_influence_random_pure_courtier = yes
 	}
 	option = {
 		name = bno_random_0015.a
-		bno_have_sex_with_effects = {
-			PARTNER = scope:target1
-		}
-		bno_have_sex_with_effects = {
-			PARTNER = scope:target2
+		scope:target1 = {
+			bno_have_sex_with_effects = {
+				PARTNER = root
+			}
+			bno_have_sex_with_effects = {
+				PARTNER = scope:target2
+			}
 		}
 		
 		bno_increase_sluttyness = yes
+
+		scope:target2 = {
+			bno_increase_sluttyness = yes
+		}
 		
 		trigger_event = bno_random.1015
 	}
@@ -3125,6 +2660,16 @@ bno_random.1015 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1015.a
@@ -3144,14 +2689,14 @@ bno_random.0016 = {
 	left_portrait = {
 		character = scope:target1
 		animation = hero_flex #see if this works!
-		#		triggered_outfit = {
-			#			trigger = {
-				#				exists = scope:target1
-				#			}
-			#			outfit_tags = {
-				#				no_clothes
-				#			}
-			#		}
+		triggered_outfit = {
+			trigger = {
+				exists = scope:target1
+			}
+			outfit_tags = {
+				no_clothes
+			}
+		}
 	}
 	right_portrait = {
 		character = root
@@ -3161,27 +2706,13 @@ bno_random.0016 = {
 	cooldown = { months = { 12 18 } }
 
 	trigger = {
-		root = {
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-			
-			is_female = yes
-			is_adult = yes
-			NOT = { has_trait = bno_whitegirl }
-		}
+		is_pure_whitegirl = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		random_courtier_or_guest = {
-			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-			save_scope_as = target1
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
@@ -3220,12 +2751,17 @@ bno_random.1016 = {
 		character = root
 		animation = admiration
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1016.a
-		root = {
-			bno_increase_sluttyness = yes
-		}
+		bno_increase_sluttyness = yes
 	}
 }
 
@@ -3248,34 +2784,24 @@ bno_random.0017 = {
 		animation = flirtation_left
 	}
 	
-	cooldown = { months = 12 }
+	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			has_trait = bno_curious
-			employs_court_position = bodyguard_court_position
-			any_court_position_holder = {
-				type = bodyguard_court_position
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
+		is_blacked = yes
+		employs_court_position = bodyguard_court_position
+		any_court_position_holder = {
+			type = bodyguard_court_position
+			is_ai_blackbull = yes
 		}
 	}
 	
 	immediate = {
-		root = {
-			random_court_position_holder = {
-				type = bodyguard_court_position
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
+		random_court_position_holder = {
+			type = bodyguard_court_position
+			limit = {
+				is_ai_blackbull = yes
 			}
+			save_scope_as = target1
 		}
 	}
 	
@@ -3291,6 +2817,7 @@ bno_random.0017 = {
 	
 	option = { #perhaps another time?
 		name = bno_random_0017.c
+		add_internal_flag = dangerous
 		scope:target1 ?= {
 			add_opinion = {
 				target = root
@@ -3298,13 +2825,7 @@ bno_random.0017 = {
 				opinion = -10
 			}
 		}
-		stress_impact = {
-			bno_curious = minor_stress_impact_gain
-			bno_blacked = minor_stress_impact_gain
-			bno_snowbunny = minor_stress_impact_gain
-			bno_qos = minor_stress_impact_gain
-			bno_mindless_bbc_slut = minor_stress_impact_gain
-		}
+		bno_no_sex_stress_impact = yes
 	}
 }
 
@@ -3339,6 +2860,13 @@ bno_random.1017 = {
 			outfit_tags = {
 				no_clothes
 			}
+		}
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
 		}
 	}
 	
@@ -3386,6 +2914,13 @@ bno_random.2017 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	immediate = {
 		bno_have_sex_with_effects = {
@@ -3418,34 +2953,24 @@ bno_random.0018 = {
 		animation = anger
 	}
 	
-	cooldown = { months = 12 }
+	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_qos_and_up = yes
-			employs_court_position = bodyguard_court_position
-			any_court_position_holder = {
-				type = bodyguard_court_position
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
+		is_qos = yes
+		employs_court_position = bodyguard_court_position
+		any_court_position_holder = {
+			type = bodyguard_court_position
+			is_ai_blackbull = yes
 		}
 	}
 	
 	immediate = {
-		root = {
-			random_court_position_holder = {
-				type = bodyguard_court_position
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
+		random_court_position_holder = {
+			type = bodyguard_court_position
+			limit = {
+				is_ai_blackbull = yes
 			}
+			save_scope_as = target1
 		}
 	}
 	
@@ -3488,6 +3013,13 @@ bno_random.1018 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	immediate = {
 		bno_have_sex_with_effects = {
@@ -3520,34 +3052,24 @@ bno_random.0019 = {
 		animation = flirtation_left
 	}
 	
-	cooldown = { months = 12 }
+	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			has_trait = bno_whitegirl
-			employs_court_position = champion_court_position
-			any_court_position_holder = {
-				type = champion_court_position
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
+		is_curious = yes
+		employs_court_position = champion_court_position
+		any_court_position_holder = {
+			type = champion_court_position
+			is_ai_blackbull = yes
 		}
 	}
 	
 	immediate = {
-		root = {
-			random_court_position_holder = {
-				type = champion_court_position
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
+		random_court_position_holder = {
+			type = champion_court_position
+			limit = {
+				is_ai_blackbull = yes
 			}
+			save_scope_as = target1
 		}
 	}
 	
@@ -3558,6 +3080,7 @@ bno_random.0019 = {
 	
 	option = { #perhaps another time?
 		name = bno_random_0019.b
+		add_internal_flag = dangerous
 		scope:target1 ?= {
 			add_opinion = {
 				target = root
@@ -3565,13 +3088,7 @@ bno_random.0019 = {
 				opinion = -10
 			}
 		}
-		stress_impact = {
-			bno_curious = minor_stress_impact_gain
-			bno_blacked = minor_stress_impact_gain
-			bno_snowbunny = minor_stress_impact_gain
-			bno_qos = minor_stress_impact_gain
-			bno_mindless_bbc_slut = minor_stress_impact_gain
-		}
+		bno_no_sex_stress_impact = yes
 	}
 }
 
@@ -3608,6 +3125,13 @@ bno_random.1019 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	immediate = {
 		bno_have_sex_with_effects = {
@@ -3640,38 +3164,25 @@ bno_random.0020 = {
 		animation = throne_room_conversation_2
 	}
 	
-	cooldown = { months = 8 }
+	cooldown = { months = { 6 12 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			
-			any_liege_or_above = {
-				any_courtier_or_guest = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
+		is_a_girl = yes
+		any_liege_or_above = {
+			any_courtier_or_guest = {
+				is_ai_blackbull = yes
 			}
-			
 		}
 	}
 	
 	immediate = {
-		root = {
-			random_liege_or_above = {
-				save_scope_as = target2
-			}
-			scope:target2 ?= {
-				random_courtier_or_guest = {
-					limit = {
-						has_trait = bno_bbc
-						is_adult = yes
-						is_ai = yes
-					}
-					save_scope_as = target1
+		random_liege_or_above = {
+			save_scope_as = target2
+			random_courtier_or_guest = {
+				limit = {
+					is_ai_blackbull = yes
 				}
+				save_scope_as = target1
 			}
 		}
 	}
@@ -3684,21 +3195,16 @@ bno_random.0020 = {
 	option = { #smooch!!!
 		name = bno_random_0020.b
 		trigger = {
-			has_trait = bno_curious
+			is_bno_curious_and_up = yes
 		}
 		bno_increase_sluttyness = yes
 	}
 	
 	option = { #downplay his flirtation
 		name = bno_random_0020.c
+		add_internal_flag = dangerous
 		bno_decrease_sluttyness = yes
-		stress_impact = {
-			bno_curious = minor_stress_impact_gain
-			bno_blacked = minor_stress_impact_gain
-			bno_snowbunny = minor_stress_impact_gain
-			bno_qos = minor_stress_impact_gain
-			bno_mindless_bbc_slut = minor_stress_impact_gain
-		}
+		bno_no_sex_stress_impact = yes
 	}
 }
 
@@ -3741,53 +3247,20 @@ bno_random.0021 = {
 		animation = shock
 	}
 	
-	cooldown = { months = 12 }
+	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_snowbunny_and_up = yes
-			
-			any_courtier_or_guest = {
-				OR = {
-					has_trait = bno_chastity
-					has_trait = bno_castrated
-				}
-				is_adult = yes
-				is_ai = yes
-				is_a_male = yes
-			}
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_snowbunny = yes
+		does_caged_or_castrated_male_exist = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					OR = {
-						has_trait = bno_chastity
-						has_trait = bno_castrated
-					}
-					is_adult = yes
-					is_ai = yes
-					is_a_male = yes
-				}
-				save_scope_as = target2
-			}
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_caged_or_castrated_male_scope = {
+			SCOPE_NAME = target2
+		}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
@@ -3798,13 +3271,7 @@ bno_random.0021 = {
 			PARTNER = scope:target1
 		}
 		
-		stress_impact = {
-			bno_curious = major_stress_impact_loss
-			bno_blacked = major_stress_impact_loss
-			bno_snowbunny = major_stress_impact_loss
-			bno_qos = major_stress_impact_loss
-			bno_mindless_bbc_slut = major_stress_impact_loss
-		}
+		bno_sex_stress_impact_huge = yes
 		
 		trigger_event = bno_random.1021
 	}
@@ -3816,13 +3283,7 @@ bno_random.0021 = {
 			PARTNER = scope:target1
 		}
 		
-		stress_impact = {
-			bno_curious = minor_stress_impact_loss
-			bno_blacked = minor_stress_impact_loss
-			bno_snowbunny = minor_stress_impact_loss
-			bno_qos = minor_stress_impact_loss
-			bno_mindless_bbc_slut = minor_stress_impact_loss
-		}
+		bno_sex_stress_impact_small = yes
 		
 		trigger_event = bno_random.2021
 	}
@@ -3864,6 +3325,16 @@ bno_random.1021 = { #let him watch
 	lower_right_portrait = {
 		character = scope:target2
 		animation = shock
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
 	}
 	
 	option = {
@@ -3908,6 +3379,16 @@ bno_random.2021 = { #dont let him watch
 		character = scope:target2
 		animation = shock
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_2021.a
@@ -3933,32 +3414,16 @@ bno_random.0022 = {
 		animation = paranoia
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_curious = yes
-			
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_curious = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
@@ -3974,7 +3439,9 @@ bno_random.0022 = {
 	option = { #accept the possibility that god is black. sexual service
 		name = bno_random_0022.b
 		
-		bno_increase_sluttyness = yes
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
 		
 		trigger_event = bno_random.2022
 	}
@@ -4021,6 +3488,13 @@ bno_random.2022 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_2022.a
@@ -4050,29 +3524,13 @@ bno_random.0023 = {
 	cooldown = { months = 16 }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_curious = yes
-			
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_curious = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
@@ -4128,6 +3586,13 @@ bno_random.1023 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1023.a
@@ -4153,38 +3618,24 @@ bno_random.0024 = {
 		animation = personality_content
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_curious = yes
-			
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_curious = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
 	option = { #bj
 		name = bno_random_0024.a
-		bno_increase_sluttyness = yes
+		bno_have_sex_with_effects = {
+			PARTNER = scope:target1
+		}
 		trigger_event = bno_random.1024
 	}
 	
@@ -4220,6 +3671,13 @@ bno_random.1024 = {
 		character = scope:target1
 		animation = personality_content
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1024.a
@@ -4253,20 +3711,16 @@ bno_random.0025 = {
 		animation = laugh
 	}
 	
-	cooldown = { months = 36 }
+	cooldown = { months = { 36 48 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_blacked = yes
-		}
+		is_blacked = yes
 		any_pool_character = {
-			count >= 3
 			province = root.location
-			has_trait = bno_bbc
+			is_ai_blackbull = yes
 			is_available_ai_adult_locale_person = yes
 			NOT = { has_any_relation_trigger = { CHARACTER = root } }
+			count >= 3
 		}
 	}
 	
@@ -4274,7 +3728,7 @@ bno_random.0025 = {
 		random_pool_character = {
 			province = root.location
 			limit = {
-				has_trait = bno_bbc
+				is_ai_blackbull = yes
 				is_available_ai_adult_locale_person = yes
 				NOT = {
 					has_any_relation_trigger = { CHARACTER = root }
@@ -4286,7 +3740,7 @@ bno_random.0025 = {
 		random_pool_character = {
 			province = root.location
 			limit = {
-				has_trait = bno_bbc
+				is_ai_blackbull = yes
 				is_available_ai_adult_locale_person = yes
 				NOT = {
 					has_any_relation_trigger = { CHARACTER = root }
@@ -4298,7 +3752,7 @@ bno_random.0025 = {
 		random_pool_character = {
 			province = root.location
 			limit = {
-				has_trait = bno_bbc
+				is_ai_blackbull = yes
 				is_available_ai_adult_locale_person = yes
 				NOT = {
 					has_any_relation_trigger = { CHARACTER = root }
@@ -4388,6 +3842,19 @@ bno_random.1025 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+		scope:target3 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1025.a
@@ -4452,6 +3919,19 @@ bno_random.2025 = { #can't run
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+		scope:target3 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = { #only have a turn with one guy
 		name = bno_random_2025.a
@@ -4503,58 +3983,32 @@ bno_random.0026 = {
 	cooldown = { months = 10 }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			any_child = {
-				is_female = yes
-				is_adult = yes
-				is_ai = yes
-			}
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
+		is_a_girl = yes
+		any_child = {
+			is_an_ai_girl = yes
 		}
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
+		get_bbc_scope = {
+			SCOPE_NAME = target1
+		}
+		random_child = {
+			limit = {
+				is_an_ai_girl = yes
 			}
-			random_child = {
-				limit = {
-					is_female = yes
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target2
-			}
+			save_scope_as = target2
 		}
 	}
 	
 	option = { #good for her!
 		name = bno_random_0026.a
-		if = {
-			limit = {
-				NOT = { has_trait = bno_whitegirl }
-			}
-			bno_increase_sluttyness = yes
+		trigger = {
+			is_bno_curious_and_up = no
 		}
+		bno_increase_sluttyness = yes
 		scope:target2 ?= {
-			if = {
-				limit = {
-					NOT = { has_trait = bno_whitegirl }
-				}
-				bno_increase_sluttyness = yes
-			}
 			bno_have_sex_with_effects = {
 				PARTNER = scope:target1
 			}
@@ -4567,12 +4021,6 @@ bno_random.0026 = {
 			is_bno_qos_and_up = yes
 		}
 		scope:target2 ?= {
-			if = {
-				limit = {
-					NOT = { has_trait = bno_whitegirl }
-				}
-				bno_increase_sluttyness = yes
-			}
 			bno_have_sex_with_effects = {
 				PARTNER = scope:target1
 			}
@@ -4639,6 +4087,16 @@ bno_random.2026 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_2026.a
@@ -4676,31 +4134,16 @@ bno_random.0027 = {
 		animation = personality_bold
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_blacked = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_blacked = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
@@ -4718,6 +4161,7 @@ bno_random.0027 = {
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
+
 		bno_increase_sluttyness = yes
 		
 		trigger_event = bno_random.2027
@@ -4756,11 +4200,18 @@ bno_random.1027 = {
 		animation = personality_bold
 		triggered_outfit = {
 			trigger = {
-				exists = root
+				exists = scope:target1
 			}
 			outfit_tags = {
 				no_clothes
 			}
+		}
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
 		}
 	}
 	
@@ -4802,6 +4253,13 @@ bno_random.2027 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = { #is there someone at the tent door?
 		name = bno_random_2027.a
@@ -4828,31 +4286,16 @@ bno_random.0028 = {
 		animation = personality_content
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_blacked = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_blacked = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
@@ -4894,6 +4337,13 @@ bno_random.1028 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = { #just a little oral won't hurt
 		name = bno_random_1028.a
@@ -4922,29 +4372,14 @@ bno_random.0029 = {
 	cooldown = { months = 10 }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			has_trait = pregnant
-			has_trait = bno_curious
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_blacked = yes
+		has_trait = pregnant
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
@@ -5003,6 +4438,13 @@ bno_random.1029 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1029.a
@@ -5040,6 +4482,13 @@ bno_random.2029 = {
 			outfit_tags = {
 				no_clothes
 			}
+		}
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
 		}
 	}
 	
@@ -5081,35 +4530,24 @@ bno_random.0030 = {
 		animation = throne_room_conversation_1
 	}
 	
-	cooldown = { months = 12 }
+	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			has_trait = bno_whitegirl
-			
-			employs_court_position = court_physician_court_position
-			any_court_position_holder = {
-				type = court_physician_court_position
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
+		is_curious = yes
+		employs_court_position = court_physician_court_position
+		any_court_position_holder = {
+			type = court_physician_court_position
+			is_ai_blackbull = yes
 		}
 	}
 	
 	immediate = {
-		root = {
-			random_court_position_holder = {
-				type = court_physician_court_position
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
+		random_court_position_holder = {
+			type = court_physician_court_position
+			limit = {
+				is_ai_blackbull = yes
 			}
+			save_scope_as = target1
 		}
 	}
 	
@@ -5139,6 +4577,9 @@ bno_random.0030 = {
 	}
 	
 	option = { #thanks for the checkup doctor!
+		trigger = {
+			is_bno_curious_and_up = no
+		}
 		name = bno_random_0030.c
 		remove_short_term_gold = tiny_gold_value
 	}
@@ -5175,6 +4616,13 @@ bno_random.1030 = {
 			outfit_tags = {
 				no_clothes
 			}
+		}
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
 		}
 	}
 	
@@ -5216,6 +4664,13 @@ bno_random.2030 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_2030.a
@@ -5242,31 +4697,16 @@ bno_random.0031 = {
 		animation = personality_content
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_blacked = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_blacked = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
@@ -5314,6 +4754,13 @@ bno_random.1031 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1031.a
@@ -5351,29 +4798,16 @@ bno_random.0032 = {
 		animation = personality_content
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		is_female = yes
-		is_adult = yes
-		is_bno_snowbunny_and_up = yes
-		any_courtier_or_guest = {
-			has_trait = bno_bbc
-			is_adult = yes
-			is_ai = yes
-		}
+		is_snowbunny = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
@@ -5426,6 +4860,13 @@ bno_random.1032 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1032.a
@@ -5465,6 +4906,13 @@ bno_random.2032 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_2032.a
@@ -5490,31 +4938,16 @@ bno_random.0033 = {
 		animation = personality_content
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_snowbunny = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_snowbunny = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
@@ -5572,6 +5005,13 @@ bno_random.1033 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1033.a
@@ -5609,6 +5049,13 @@ bno_random.2033 = {
 			outfit_tags = {
 				no_clothes
 			}
+		}
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
 		}
 	}
 	
@@ -5652,31 +5099,16 @@ bno_random.0034 = {
 		}
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_snowbunny = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_snowbunny = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
@@ -5736,6 +5168,13 @@ bno_random.1034 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1034.a
@@ -5773,6 +5212,13 @@ bno_random.2034 = {
 			outfit_tags = {
 				no_clothes
 			}
+		}
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
 		}
 	}
 	
@@ -5816,33 +5262,23 @@ bno_random.0035 = {
 		}
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_snowbunny_and_up = yes
-			any_councillor = {
-				has_council_position = councillor_spymaster
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
+		is_snowbunny = yes
+		any_councillor = {
+			has_council_position = councillor_spymaster
+			is_ai_blackbull = yes
 		}
 	}
 	
 	immediate = {
-		root = {
-			random_councillor = {
-				limit = {
-					has_council_position = councillor_spymaster
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
+		random_councillor = {
+			limit = {
+				has_council_position = councillor_spymaster
+				is_ai_blackbull = yes
 			}
+			save_scope_as = target1
 		}
 	}
 	
@@ -5853,18 +5289,6 @@ bno_random.0035 = {
 			PARTNER = scope:target1
 		}
 		bno_increase_sluttyness = yes
-		if = {
-			limit = {
-				primary_spouse = {
-					NOT = {
-						has_trait = bno_bbc
-					}
-				}
-			}
-			root = {
-				primary_spouse = { become_more_cuck_effect = yes }
-			}
-		}
 		trigger_event = bno_random.1035
 	}
 	
@@ -5912,6 +5336,13 @@ bno_random.1035 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1035.a
@@ -5953,31 +5384,16 @@ bno_random.0036 = {
 		}
 	}
 	
-	cooldown = { months = 12 }
+	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_qos_and_up = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
+		is_qos = yes
+		does_blackbull_exist = yes
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
-			}
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	
@@ -6036,6 +5452,13 @@ bno_random.1036 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_1036.a
@@ -6073,6 +5496,13 @@ bno_random.2036 = {
 			outfit_tags = {
 				no_clothes
 			}
+		}
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
 		}
 	}
 	
@@ -6130,50 +5560,34 @@ bno_random.0037 = {
 		}
 	}
 	
-	cooldown = { months = 12 }
+	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			is_bno_qos_and_up = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-		}
-		
+		is_qos = yes
+		does_blackbull_exist = yes
 		any_pool_character = {
 			province = root.location
-			has_trait = bno_bbc
+			is_ai_blackbull = yes
 			is_available_ai_adult_locale_person = yes
 			NOT = { has_any_relation_trigger = { CHARACTER = root } }
 		}
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
+		get_bbc_scope = {
+			SCOPE_NAME = target1
+		}
+		random_pool_character = {
+			province = root.location
+			limit = {
+				is_ai_blackbull = yes
+				is_available_ai_adult_locale_person = yes
+				NOT = {
+					has_any_relation_trigger = { CHARACTER = root }
+					this = scope:target1
 				}
-				save_scope_as = target1
 			}
-			random_pool_character = {
-				province = root.location
-				limit = {
-					has_trait = bno_bbc
-					is_available_ai_adult_locale_person = yes
-					NOT = {
-						has_any_relation_trigger = { CHARACTER = root }
-						this = scope:target1
-					}
-				}
-				save_scope_as = target2
-			}
+			save_scope_as = target2
 		}
 	}
 	
@@ -6246,6 +5660,16 @@ bno_random.1037 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
 	
 	immediate = {
 		root = {
@@ -6309,6 +5733,16 @@ bno_random.2037 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name = bno_random_2037.a
@@ -6334,14 +5768,14 @@ bno_random.0038 = {
 		animation = personality_content
 	}
 	
-	cooldown = { months = 12 }
+	cooldown = { months = { 12 18 } }
 	
 	trigger = {
 		is_qos = yes
 		is_ruler = yes		
 		any_pool_character = {
 			province = root.location
-			has_trait = bno_bbc
+			is_ai_blackbull = yes
 			is_available_ai_adult_locale_person = yes
 			NOT = { has_any_relation_trigger = { CHARACTER = root } }
 			gold >= root.minor_gold_value
@@ -6352,7 +5786,7 @@ bno_random.0038 = {
 		random_pool_character = {
 			province = root.location
 			limit = {
-				has_trait = bno_bbc
+				is_ai_blackbull = yes
 				is_available_ai_adult_locale_person = yes
 				NOT = { has_any_relation_trigger = { CHARACTER = root } }
 				gold >= root.minor_gold_value
@@ -6419,32 +5853,37 @@ bno_random.1038 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+	}
 	
 	immediate = {
-		root = {
-			if = {
-				limit = {
-					has_any_nickname = no
+		if = {
+			limit = {
+				has_any_nickname = no
+			}
+			random_list = {
+				10 = {
+					give_nickname = nick_bos
 				}
-				random_list = {
-					10 = {
-						give_nickname = nick_bos
-					}
-					10 = {
-						give_nickname = nick_blacked
-					}
-					10 = {
-						give_nickname = nick_wb
-					}
-					10 = {
-						give_nickname = nick_rt
-					}
-					10 = {
-						give_nickname = nick_ps
-					}
-					10 = {
-						give_nickname = nick_sfa
-					}
+				10 = {
+					give_nickname = nick_blacked
+				}
+				10 = {
+					give_nickname = nick_wb
+				}
+				10 = {
+					give_nickname = nick_rt
+				}
+				10 = {
+					give_nickname = nick_ps
+				}
+				10 = {
+					give_nickname = nick_sfa
 				}
 			}
 		}
@@ -6468,9 +5907,7 @@ bno_random.0039 = {
 	desc = bno_random_0039.desc
 	theme = realm
 	
-	cooldown = {
-		months = 24
-	}
+	cooldown = { months = { 24 30 } }
 
 	override_background = {
 		reference = army_camp
@@ -6489,41 +5926,23 @@ bno_random.0039 = {
 	}
 	
 	trigger = {
-		is_female = yes
-		is_adult = yes
+		is_a_girl = yes
 		is_ruler = yes
+		does_blackbull_exist = yes
 		any_courtier_or_guest = {
-			has_trait = bno_bbc
-			is_adult = yes
-			is_ai = yes
-		}
-		any_courtier_or_guest = {
-			is_a_male = yes
-			NOT = { has_trait = bno_bbc }
-			is_adult = yes
-			is_ai = yes
+			is_ai_whiteguy = yes
 		}
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
+		get_bbc_scope = {
+			SCOPE_NAME = target1
+		}
+		random_courtier_or_guest = {
+			limit = {
+				is_ai_whiteguy = yes
 			}
-			random_courtier_or_guest = {
-				limit = {
-					is_a_male = yes
-					NOT = { has_trait = bno_bbc }
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target2
-			}
+			save_scope_as = target2
 		}
 		
 		scope:target2 ?= {
@@ -6550,6 +5969,9 @@ bno_random.0039 = {
 	#ooh, stronk
 	option = {
 		name = bno_random_0039.a
+		trigger = {
+			is_bno_curious_and_up = no
+		}
 		bno_increase_sluttyness = yes
 	}
 	
@@ -6565,6 +5987,8 @@ bno_random.0039 = {
 	#break it up!
 	option = {
 		name = bno_random_0039.c
+		add_internal_flag = dangerous
+
 		increase_wounds_no_death_effect = { REASON = fight }
 		
 		add_opinion = {
@@ -6602,6 +6026,16 @@ bno_random.2039 = {
 		animation = personality_content
 	}
 	
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
+
 	immediate = {
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
@@ -6651,43 +6085,27 @@ bno_random.0040 = {
 	cooldown = { months = { 24 36 } }
 
 	trigger = {
-		root = {
-			is_female = yes
-			is_adult = yes
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-			any_courtier_or_guest = {
-				NOT = { has_trait = bno_bbc }
-				is_adult = yes
-				is_ai = yes
-				is_a_male = yes
-			}
+		is_a_girl = yes
+		any_courtier_or_guest = {
+			is_ai_blackbull = yes
+		}
+		any_courtier_or_guest = {
+			is_ai_whiteguy = yes
 		}
 	}
 	
 	immediate = {
-		root = {
-			random_courtier_or_guest = {
-				limit = {
-					has_trait = bno_bbc
-					is_adult = yes
-					is_ai = yes
-				}
-				save_scope_as = target1
+		random_courtier_or_guest = {
+			limit = {
+				is_ai_blackbull = yes
 			}
-			
-			random_courtier_or_guest = {
-				limit = {
-					NOT = { has_trait = bno_bbc }
-					is_adult = yes
-					is_ai = yes
-					is_a_male = yes
-				}
-				save_scope_as = target2
+			save_scope_as = target1
+		}
+		random_court_position_holder = {
+			limit = {
+				is_ai_whiteguy = yes
 			}
+			save_scope_as = target2
 		}
 		
 		scope:target2 ?= {
@@ -6700,13 +6118,19 @@ bno_random.0040 = {
 	
 	#fake wail
 	option = {
+		trigger = {
+			is_bno_curious_and_up = no
+		}
 		name = bno_random_0040.a
 	}
 	
 	#please, comfort me
 	option = {
 		trigger = {
-			is_bno_curious_and_up = yes
+			OR = {
+				is_bno_curious = yes
+				is_bno_blacked = yes
+			}
 		}
 		name = bno_random_0040.b
 		bno_have_sex_with_effects = {
@@ -6760,35 +6184,22 @@ bno_random.0041 = {
 		
 	}
 	
-	cooldown = { months = 16 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		is_adult = yes
+		is_self_whiteguy = yes
+		any_courtier_or_guest = {
+			is_ai_not_married_blackbull = yes
+		}
 		is_married = yes
-		is_a_male = yes
-		is_bbc = no
-		root = {
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_married = no
-				is_ai = yes
-			}
-			primary_spouse = {
-				is_adult = yes
-				is_female = yes
-				is_ai = yes
-				is_bno_curious_and_up = yes
-			}
+		primary_spouse = {
+			is_ai_curious = yes
 		}
 	}
 	immediate = {
 		random_courtier_or_guest = {
 			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_married = no
-				is_ai = yes
+				is_ai_not_married_blackbull = yes
 			}
 			save_scope_as = target2
 		}
@@ -6796,7 +6207,7 @@ bno_random.0041 = {
 			save_scope_as = target1
 		}
 		hidden_effect = {
-			root.primary_spouse = {
+			primary_spouse = {
 				bno_increase_sluttyness = yes
 			}
 		}
@@ -6850,7 +6261,7 @@ bno_random.0042 = {
 		}
 	}
 	
-	cooldown = { months = 99999 }
+	cooldown = { months = { 12 18 } }
 	
 	trigger = {
 		is_self_married_whiteguy = yes
@@ -6858,7 +6269,8 @@ bno_random.0042 = {
 			is_ai_not_married_blackbull = yes
 		}
 		primary_spouse = {
-			is_ai_curious = yes
+			is_mindless_bbc_slut = yes
+			is_ai = yes
 		}
 	}
 	immediate = {
@@ -6871,6 +6283,7 @@ bno_random.0042 = {
 		primary_spouse = {
 			save_scope_as = target2
 		}
+
 		scope:target1 ?= {
 			bno_have_sex_with_effects = {
 				PARTNER = scope:target2
@@ -6879,111 +6292,56 @@ bno_random.0042 = {
 		
 		scope:target1 ?= {
 			hidden_effect = {
-				become_friend_with_target = {
+				become_lover_with_target = {
 					TARGET = scope:target2
-					REASON = bbc_too_good
-					PROVINCE = root.location
+					LOCATION = root.location
 				}
 			}
 		}
-		if = {
-			limit = {
-				scope:target2 ?= {
-					NOT = {
-						has_trait = bno_mindless_bbc_slut
-					}
+
+		become_more_cuck_effect = yes
+
+		random_list = {
+			10 = { give_nickname = nick_beta }
+			10 = { give_nickname = nick_cuck }
+			10 = { give_nickname = nick_yt }
+			10 = { give_nickname = nick_goon }
+		}
+
+		scope:target2 ?= {
+			bno_marriage_effect = {
+				TARGET = scope:target1
+			}
+			if = {
+				limit = {
+					highest_held_title_tier >= tier_kingdom
+				}
+				random_list = {
+					150 = { give_nickname = nick_qos }
+					150 = {	give_nickname = nick_sq }
+					10 = { give_nickname = nick_blacked }
+					10 = { give_nickname = nick_bos }
+					10 = { give_nickname = nick_bw }
+					10 = { give_nickname = nick_bos }
+					10 = { give_nickname = nick_rt }
+					10 = { give_nickname = nick_wb }
+					10 = { give_nickname = nick_ps }
+				}
+			}
+			else = {
+				random_list = {
+					10 = { give_nickname = nick_blacked }
+					10 = { give_nickname = nick_bos }
+					10 = { give_nickname = nick_bw }
+					10 = { give_nickname = nick_bos }
+					10 = { give_nickname = nick_rt }
+					10 = { give_nickname = nick_wb }
+					10 = { give_nickname = nick_ps }
 				}
 			}
 		}
-		else_if = {
-			limit = {
-				scope:target2 ?= {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			scope:target2 ?= {
-				primary_spouse = {
-					become_more_cuck_effect = yes
-					random_list = {
-						10 = { give_nickname = nick_beta }
-						10 = { give_nickname = nick_cuck }
-						10 = { give_nickname = nick_yt }
-						10 = { give_nickname = nick_goon }
-					}
-				}
-			}
-			scope:target2 ?= {
-				if = {
-					limit = {
-						highest_held_title_tier >= tier_kingdom
-					}
-					random_list = {
-						150 = { give_nickname = nick_qos }
-						150 = {	give_nickname = nick_sq }
-						10 = { give_nickname = nick_blacked }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_bw }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_rt }
-						10 = { give_nickname = nick_wb }
-						10 = { give_nickname = nick_ps }
-					}
-				}
-				else = {
-					random_list = {
-						10 = { give_nickname = nick_blacked }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_bw }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_rt }
-						10 = { give_nickname = nick_wb }
-						10 = { give_nickname = nick_ps }
-					}
-				}
-			}
-			scope:target1 ?= {
-				add_trait = bno_camp_leader
-			}
-		}
-		else = {
-			scope:target2 ?= {
-				marry = scope:target1
-				if = {
-					limit = {
-						highest_held_title_tier >= tier_kingdom
-					}
-					random_list = {
-						150 = { give_nickname = nick_qos }
-						150 = {	give_nickname = nick_sq }
-						10 = { give_nickname = nick_blacked }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_bw }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_rt }
-						10 = { give_nickname = nick_wb }
-						10 = { give_nickname = nick_ps }
-					}
-				}
-				else = {
-					random_list = {
-						10 = { give_nickname = nick_blacked }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_bw }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_rt }
-						10 = { give_nickname = nick_wb }
-						10 = { give_nickname = nick_ps }
-					}
-				}
-			}
-			scope:target1 ?= {
-				add_trait = bno_camp_leader
-			}
+		scope:target1 ?= {
+			add_trait = bno_camp_leader
 		}
 	}
 	
@@ -7031,7 +6389,7 @@ bno_random.1042 = {
 		animation = shock
 	}
 	right_portrait = {
-		character = scope:target1
+		character = scope:target2
 		animation = eyeroll
 		triggered_outfit = {
 			trigger = {
@@ -7043,16 +6401,9 @@ bno_random.1042 = {
 			}
 		}
 	}
+
+
 	immediate = {
-		random_spouse = {
-			limit = {
-				is_adult = yes
-				is_female = yes
-				is_ruler = no
-				is_ai = yes
-			}
-			save_scope_as = target1
-		}
 		add_character_modifier = {
 			modifier = bno_emasculated
 			months = 12
@@ -7114,51 +6465,34 @@ bno_random.0043 = {
 		animation = eavesdrop
 	}
 	
-	cooldown = { months = 14 }
+	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		root = {
-			any_courtier_or_guest = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
+		is_self_whiteguy = yes
+		does_blackbull_exist = yes
+		any_courtier_or_guest = {
+			is_ai_curious = yes
+			is_ruler = no
+			is_concubine = no
+			NOT = {
+				is_sibling_of = root
+				is_child_of = root
+				is_parent_of = root
+				is_spouse_of = root
 			}
-			any_courtier_or_guest = {
-				is_adult = yes
-				is_female = yes
-				has_trait = bno_whitegirl
-				is_ruler = no
-				is_concubine = no
-				is_ai = yes
-				NOT = {
-					is_sibling_of = root
-					is_child_of = root
-					is_parent_of = root
-					is_spouse_of = root
-				}
-			}
-			is_bbc = no
-			is_a_male = yes
-			is_adult = yes
 		}
 	}
 	
 	immediate = {
-		random_courtier_or_guest = {
-			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-			save_scope_as = target1
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
 		
 		random_courtier_or_guest = {
 			limit = {
-				is_adult = yes
-				is_female = yes
+				is_ai_curious = yes
 				is_ruler = no
-				is_ai = yes
+				is_concubine = no
 				NOT = {
 					is_sibling_of = root
 					is_child_of = root
@@ -7184,24 +6518,6 @@ bno_random.0043 = {
 				become_lover_with_target = {
 					TARGET = scope:target2
 					LOCATION = root.location
-				}
-			}
-		}
-		
-		if = {
-			limit = {
-				scope:target2 ?= {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
-			scope:target2 ?= {
-				primary_spouse = {
-					become_more_cuck_effect = yes
 				}
 			}
 		}
@@ -7277,6 +6593,16 @@ bno_random.1043 = {
 		character = root
 		animation = eavesdrop
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
 	
 	option = {
 		name =  bno_random_1043.a
@@ -7314,25 +6640,15 @@ bno_random.0044 = {
 		}
 	}
 	
-	cooldown = { months = 38 }
+	cooldown = { months = { 36 42 } }
 	
 	trigger = {
+		is_self_whiteguy = yes
+		does_blackbull_exist = yes
 		any_courtier_or_guest = {
-			has_trait = bno_bbc
-			is_adult = yes
-			is_ai = yes
-		}
-		any_courtier_or_guest = {
-			is_adult = yes
-			is_female = yes
-			is_ai = yes
+			is_ai_snowbunny = yes
 			is_concubine = yes
 			is_concubine_of = root
-		}
-		root = {
-			is_a_male = yes
-			is_adult = yes
-			is_bbc = no
 		}
 	}
 	
@@ -7340,20 +6656,13 @@ bno_random.0044 = {
 		random_courtier_or_guest = {
 			limit = {
 				is_concubine = yes
-				is_concubine_of =root
-				is_adult = yes
-				is_ai = yes
-				is_female = yes
+				is_concubine_of = root
+				is_ai_snowbunny = yes
 			}
 			save_scope_as = target1
 		}
-		random_courtier_or_guest = {
-			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-			save_scope_as = target2
+		get_bbc_scope = {
+			SCOPE_NAME = target2
 		}
 	}
 	
@@ -7421,21 +6730,8 @@ bno_random.1044 = {
 		reference = bedchamber
 	}
 	left_portrait = {
-		character = scope:target2
-		animation = love
-		triggered_outfit = {
-			trigger = {
-				exists = scope:target2
-			}
-			outfit_tags = {
-				no_clothes
-				no_legwear
-			}
-		}
-	}
-	right_portrait = {
 		character = scope:target1
-		animation = war_over_win
+		animation = love
 		triggered_outfit = {
 			trigger = {
 				exists = scope:target1
@@ -7446,31 +6742,35 @@ bno_random.1044 = {
 			}
 		}
 	}
+	right_portrait = {
+		character = scope:target2
+		animation = war_over_win
+		triggered_outfit = {
+			trigger = {
+				exists = scope:target2
+			}
+			outfit_tags = {
+				no_clothes
+				no_legwear
+			}
+		}
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
+
 	immediate = {
-		random_courtier_or_guest = {
-			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-			save_scope_as = target1
-		}
-		random_courtier_or_guest = {
-			limit = {
-				is_adult = yes
-				is_female = yes
-				is_ai = yes
-				is_concubine = yes
-				is_concubine_of = root
-			}
-			save_scope_as = target2
-		}
 		scope:target1 ?= {
 			bno_have_sex_with_effects = {
 				PARTNER = scope:target2
 			}
-		}
-		scope:target1 ?= {
 			hidden_effect = {
 				become_lover_with_target = {
 					TARGET = scope:target2
@@ -7478,20 +6778,12 @@ bno_random.1044 = {
 				}
 			}
 		}
-		scope:target2 ?= {
+		scope:target1 ?= {
 			hidden_effect = {
-				stress_impact = {
-					bno_curious = massive_stress_impact_loss
-					bno_blacked = massive_stress_impact_loss
-					bno_snowbunny = massive_stress_impact_loss
-					bno_qos = massive_stress_impact_loss
-					bno_mindless_bbc_slut = massive_stress_impact_loss
-				}
+				bno_sex_stress_impact_huge = yes
 			}
 		}
-		root = {
-			add_character_modifier = bno_emasculated
-		}
+		add_character_modifier = bno_emasculated
 	}
 	option = {
 		name = bno_random_1044.a
@@ -7500,15 +6792,16 @@ bno_random.1044 = {
 			bno_beta = medium_stress_impact_loss
 			bno_jos = major_stress_impact_loss
 		}
-		scope:target1 ?= {
+		scope:target2 ?= {
 			become_friend_with_target = {
 				TARGET = root
 				REASON = cuck_faped
 				PROVINCE = root.location
 			}
 		}
-		
-		bno_increase_sluttyness = yes
+		scope:target1 ?= {
+			bno_increase_sluttyness = yes
+		}
 	}
 }
 
@@ -7561,50 +6854,28 @@ bno_random.0045 = {
 		}
 	}
 	
-	cooldown = { months = 18 }
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		is_a_male = yes
-		is_adult = yes
-		has_trait = bno_whiteboi
-		any_courtier_or_guest = {
-			has_trait = bno_bbc
-			is_adult = yes
-			is_ai = yes
-		}
-		any_spouse = {
-			is_adult = yes
-			is_female = yes
-			is_ruler = no
-			is_ai = yes
-			is_bno_blacked_and_up = yes
+		is_self_married_whiteguy = yes
+		does_blackbull_exist = yes
+		primary_spouse = {
+			is_ai_blacked = yes
 		}
 	}
 	
 	immediate = {
-		random_spouse = {
-			limit = {
-				is_adult = yes
-				is_female = yes
-				is_ruler = no
-				is_ai = yes
-				is_bno_blacked_and_up = yes
-			}
+		primary_spouse = {
 			save_scope_as = target1
 		}
-		random_courtier_or_guest = {
-			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
+		get_bbc_scope = {
+			SCOPE_NAME = target2
+		}
+		scope:target1 ?= {
+			bno_have_sex_with_effects = {
+				PARTNER = scope:target2
 			}
-			save_scope_as = target2
-		}
-		bno_have_sex_with_effects = {
-			PARTNER = scope:target1
-		}
-		hidden_effect = {
-			primary_spouse = {
+			hidden_effect = {
 				bno_increase_sluttyness = yes
 			}
 		}
@@ -7649,21 +6920,8 @@ bno_random.1045 = {
 		reference = bedchamber
 	}
 	left_portrait = {
-		character = scope:target2
-		animation = love
-		triggered_outfit = {
-			trigger = {
-				exists = scope:target2
-			}
-			outfit_tags = {
-				no_clothes
-				no_legwear
-			}
-		}
-	}
-	right_portrait = {
 		character = scope:target1
-		animation = war_over_win
+		animation = love
 		triggered_outfit = {
 			trigger = {
 				exists = scope:target1
@@ -7674,49 +6932,44 @@ bno_random.1045 = {
 			}
 		}
 	}
+	right_portrait = {
+		character = scope:target2
+		animation = war_over_win
+		triggered_outfit = {
+			trigger = {
+				exists = scope:target2
+			}
+			outfit_tags = {
+				no_clothes
+				no_legwear
+			}
+		}
+	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
+
 	immediate = {
-		random_courtier_or_guest = {
-			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-			}
-			save_scope_as = target1
-		}
-		random_spouse = {
-			limit = {
-				is_adult = yes
-				is_female = yes
-				is_ai = yes
-			}
-			save_scope_as = target2
-		}
 		scope:target1 ?= {
 			bno_have_sex_with_effects = {
 				PARTNER = scope:target2
 			}
-		}
-		scope:target1 ?= {
 			hidden_effect = {
 				become_lover_with_target = {
 					TARGET = scope:target2
 					LOCATION = root.location
 				}
 			}
-		}
-		scope:target2 ?= {
 			hidden_effect = {
-				stress_impact = {
-					bno_curious = massive_stress_impact_loss
-					bno_blacked = massive_stress_impact_loss
-					bno_snowbunny = massive_stress_impact_loss
-					bno_qos = massive_stress_impact_loss
-					bno_mindless_bbc_slut = massive_stress_impact_loss
-				}
+				bno_sex_stress_impact_huge = yes
 			}
-		}
-		root = {
-			add_trait = bno_cuck
 		}
 	}
 	option = {
@@ -7726,7 +6979,7 @@ bno_random.1045 = {
 			bno_beta = medium_stress_impact_loss
 			bno_jos = major_stress_impact_loss
 		}
-		scope:target1 ?= {
+		scope:target2 ?= {
 			become_friend_with_target = {
 				TARGET = root
 				REASON = cuck_faped
@@ -7738,12 +6991,7 @@ bno_random.1045 = {
 				opinion = 30
 			}
 		}
-		scope:target2 ?= {
-			add_opinion = {
-				target = root
-				modifier = bno_bull_fucks_me
-				opinion = 30
-			}
+		scope:target1 ?= {
 			bno_increase_sluttyness = yes
 		}
 	}
@@ -7784,28 +7032,20 @@ bno_random.0046 = {
 		}
 	}
 	
-	cooldown = { months = 18}
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
 		is_self_married_whiteguy = yes
-		any_courtier_or_guest = {
-			is_ai_blackbull = yes
-		}
-		any_spouse = {
+		does_blackbull_exist = yes
+		primary_spouse = {
 			is_ai_snowbunny = yes
 		}
 	}
 	immediate = {
-		random_courtier_or_guest = {
-			limit = {
-				is_ai_blackbull = yes
-			}
-			save_scope_as = target1
+		get_bbc_scope = {
+			SCOPE_NAME = target1
 		}
-		random_spouse = {
-			limit = {
-				is_ai_snowbunny = yes
-			}
+		primary_spouse = {
 			save_scope_as = target2
 		}
 		scope:target1 ?= {
@@ -7822,95 +7062,41 @@ bno_random.0046 = {
 				}
 			}
 		}
-		if = {
-			limit = {
-				scope:target2 ?= {
-					NOT = {
-						has_trait = bno_whitegirl
-					}
-				}
-			}
+		
+		become_more_cuck_effect = yes
+		
+		random_list = {
+			10 = { give_nickname = nick_beta }
+			10 = { give_nickname = nick_cuck }
+			10 = { give_nickname = nick_yt }
+			10 = { give_nickname = nick_goon }
 		}
-		else_if = {
-			limit = {
-				scope:target2 ?= {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
-					}
-				}
-			}
+		if = {
+			limit = { highest_held_title_tier >= tier_kingdom }
 			scope:target2 ?= {
-				primary_spouse = {
-					become_more_cuck_effect = yes
-					random_list = {
-						10 = { give_nickname = nick_beta }
-						10 = { give_nickname = nick_cuck }
-						10 = { give_nickname = nick_yt }
-						10 = { give_nickname = nick_goon }
-					}
-				}
-			}
-			scope:target2 ?= {
-				if = {
-					limit = {
-						highest_held_title_tier >= tier_kingdom
-					}
-					random_list = {
-						150 = { give_nickname = nick_qos }
-						150 = {	give_nickname = nick_sq }
-						10 = { give_nickname = nick_blacked }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_bw }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_rt }
-						10 = { give_nickname = nick_wb }
-						10 = { give_nickname = nick_ps }
-					}
-				}
-				else = {
-					random_list = {
-						10 = { give_nickname = nick_blacked }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_bw }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_rt }
-						10 = { give_nickname = nick_wb }
-						10 = { give_nickname = nick_ps }
-					}
+				random_list = {
+					150 = { give_nickname = nick_qos }
+					150 = {	give_nickname = nick_sq }
+					10 = { give_nickname = nick_blacked }
+					10 = { give_nickname = nick_bos }
+					10 = { give_nickname = nick_bw }
+					10 = { give_nickname = nick_bos }
+					10 = { give_nickname = nick_rt }
+					10 = { give_nickname = nick_wb }
+					10 = { give_nickname = nick_ps }
 				}
 			}
 		}
 		else = {
 			scope:target2 ?= {
-				if = {
-					limit = {
-						highest_held_title_tier >= tier_kingdom
-					}
-					random_list = {
-						150 = { give_nickname = nick_qos }
-						150 = {	give_nickname = nick_sq }
-						10 = { give_nickname = nick_blacked }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_bw }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_rt }
-						10 = { give_nickname = nick_wb }
-						10 = { give_nickname = nick_ps }
-					}
-				}
-				else = {
-					random_list = {
-						10 = { give_nickname = nick_blacked }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_bw }
-						10 = { give_nickname = nick_bos }
-						10 = { give_nickname = nick_rt }
-						10 = { give_nickname = nick_wb }
-						10 = { give_nickname = nick_ps }
-					}
+				random_list = {
+					10 = { give_nickname = nick_blacked }
+					10 = { give_nickname = nick_bos }
+					10 = { give_nickname = nick_bw }
+					10 = { give_nickname = nick_bos }
+					10 = { give_nickname = nick_rt }
+					10 = { give_nickname = nick_wb }
+					10 = { give_nickname = nick_ps }
 				}
 			}
 		}
@@ -7968,29 +7154,21 @@ bno_random.1046 = {
 			}
 		}
 	}
-	immediate = {
-		random_courtier_or_guest = {
-			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-				has_relation_lover = scope:target2
-			}
-			save_scope_as = target1
-		}
-		random_spouse = {
-			limit = {
-				is_adult = yes
-				is_female = yes
-				is_ai = yes
-			}
-			save_scope_as = target2
-		}
 
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
+
+	immediate = {
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target2
 		}
-		
 		scope:target1 ?= {
 			hidden_effect = {
 				become_lover_with_target = {
@@ -8004,17 +7182,8 @@ bno_random.1046 = {
 				PARTNER = scope:target1
 			}
 			hidden_effect = {
-				stress_impact = {
-					bno_curious = massive_stress_impact_loss
-					bno_blacked = massive_stress_impact_loss
-					bno_snowbunny = massive_stress_impact_loss
-					bno_qos = massive_stress_impact_loss
-					bno_mindless_bbc_slut = massive_stress_impact_loss
-				}
+				bno_sex_stress_impact_huge = yes
 			}
-		}
-		root = {
-			add_trait = bno_cuck
 		}
 	}
 	option = {
@@ -8022,14 +7191,11 @@ bno_random.1046 = {
 		stress_impact = {
 			bno_cuck = major_stress_impact_loss
 		}
-		root = {
-			add_opinion = {
-				target = scope:target1
-				modifier = bno_bull_takes_care_of_my_wife
-				opinion = 30
-			}
+		add_opinion = {
+			target = scope:target1
+			modifier = bno_bull_takes_care_of_my_wife
+			opinion = 30
 		}
-		
 		scope:target2 ?= {
 			add_opinion = {
 				target = root
@@ -8076,31 +7242,22 @@ bno_random.2046 = {
 			}
 		}
 	}
+
+	trigger = {
+		is_alive = yes
+		scope:target1 ?= {
+			is_alive = yes
+		}
+		scope:target2 ?= {
+			is_alive = yes
+		}
+	}
+
 	immediate = {
-		random_courtier_or_guest = {
-			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
-				has_relation_lover = scope:target2
-			}
-			save_scope_as = target1
-		}
-		random_spouse = {
-			limit = {
-				is_adult = yes
-				is_female = yes
-				is_ai = yes
-			}
-			save_scope_as = target2
-		}
 		scope:target1 ?= {
 			bno_have_sex_with_effects = {
 				PARTNER = scope:target2
 			}
-		}
-		
-		scope:target1 ?= {
 			hidden_effect = {
 				become_lover_with_target = {
 					TARGET = scope:target2
@@ -8108,19 +7265,11 @@ bno_random.2046 = {
 				}
 			}
 		}
+
 		scope:target2 ?= {
 			hidden_effect = {
-				stress_impact = {
-					bno_curious = massive_stress_impact_loss
-					bno_blacked = massive_stress_impact_loss
-					bno_snowbunny = massive_stress_impact_loss
-					bno_qos = massive_stress_impact_loss
-					bno_mindless_bbc_slut = massive_stress_impact_loss
-				}
+				bno_sex_stress_impact_huge = yes
 			}
-		}
-		root = {
-			add_trait = bno_beta
 		}
 	}
 	option = {
@@ -8130,7 +7279,6 @@ bno_random.2046 = {
 			bno_beta = major_stress_impact_loss
 			bno_jos = major_stress_impact_loss
 		}
-		
 		scope:target2 ?= {
 			add_opinion = {
 				target = root
@@ -8210,26 +7358,23 @@ bno_random.0047 = {
 		}
 	}
 	
-	cooldown = { months = 32}
+	cooldown = { months = { 30 36 } }
 	
 	trigger = {
-		any_courtier_or_guest = {
-			count >=3
-			is_blackbull = yes
-			is_ai = yes
-		}
-		any_spouse = {
-			is_prime_girl = yes
-			is_ai = yes
-			is_bno_qos = yes
-		}
 		is_self_married_whiteguy = yes
+		any_courtier_or_guest = {
+			is_ai_blackbull = yes
+			count > 3
+		}
+		primary_spouse = {
+			is_qos = yes
+			is_ai = yes
+		}
 	}
 	immediate = {
 		random_courtier_or_guest = {
 			limit = {
-				is_blackbull = yes
-				is_ai = yes
+				is_ai_blackbull = yes
 			}
 			save_scope_as = target1
 		}
@@ -8239,8 +7384,7 @@ bno_random.0047 = {
 		random_courtier_or_guest = {
 			limit = {
 				NOT = {this = scope:target1}
-				is_blackbull = yes
-				is_ai = yes
+				is_ai_blackbull = yes
 			}
 			save_scope_as = target2
 		}
@@ -8248,8 +7392,7 @@ bno_random.0047 = {
 			limit = {
 				NOT = {this = scope:target1}
 				NOT = {this = scope:target2}
-				is_blackbull = yes
-				is_ai = yes
+				is_ai_blackbull = yes
 			}
 			save_scope_as = target3
 		}
@@ -8258,8 +7401,7 @@ bno_random.0047 = {
 				NOT = {this = scope:target1}
 				NOT = {this = scope:target2}
 				NOT = {this = scope:target3}
-				is_blackbull = yes
-				is_ai = yes
+				is_ai_blackbull = yes
 			}
 			save_scope_as = target4
 		}
@@ -8290,7 +7432,7 @@ bno_random.0047 = {
 			}
 		}
 		hidden_effect = {
-			root.primary_spouse = {
+			primary_spouse = {
 				bno_have_sex_with_effects = {
 					PARTNER = scope:target1
 				}
@@ -8303,13 +7445,7 @@ bno_random.0047 = {
 				bno_have_sex_with_effects = {
 					PARTNER = scope:target4
 				}
-				stress_impact = {
-					bno_curious = massive_stress_impact_loss
-					bno_blacked = massive_stress_impact_loss
-					bno_snowbunny = massive_stress_impact_loss
-					bno_qos = massive_stress_impact_loss
-					bno_mindless_bbc_slut = massive_stress_impact_loss
-				}
+				bno_sex_stress_impact_huge = yes
 				add_opinion = {
 					target = root
 					modifier = bno_pathetic_cuck_husband
@@ -8357,147 +7493,31 @@ bno_random.0048 = {
 		}
 	}
 	
-	cooldown = { months = 99999999}
+	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		any_spouse = {
-			is_adult = yes
-			is_female = yes
-			is_ruler = no
+		is_self_married_whiteguy = yes
+		primary_spouse = {
+			is_qos = yes
 			is_ai = yes
-			is_bno_qos_and_up = yes
 		}
-		NOT = {
-			has_trait = bno_bbc
+		NOR = {
 			has_trait = bno_caged
 			has_trait = bno_castrated
 		}
 	}
 	immediate = {
-		random_spouse = {
-			limit = {
-				is_adult = yes
-				is_female = yes
-				is_ruler = no
-				is_ai = yes
-			}
+		primary_spouse = {
 			save_scope_as = target1
 		}
 	}
 	
 	option = {
 		name = bno_random_0048.a
-		add_trait = bno_caged
+		bno_caged_effect = yes
 		stress_impact = {
 			lustful = minor_stress_impact_loss
 			ambitious = medium_stress_impact_gain
 		}
 	}
 }
-
-#
-#test event
-#bno_random.1001 = {
-	#	type = character_event
-	#	title = bno_random_1001.title
-	#	desc = bno_random_1001.desc
-	#	theme = realm
-	#	override_background = {
-		#		reference = courtyard
-		#	}
-	#
-	#	trigger = {
-		#		root = {
-			#			has_trait = diligent
-			#		}
-		#	}
-	#
-	#	option = {
-		#		name = bno_random_1001.a
-		#		add_gold = 1
-		#	}
-	#}
-#
-#bno_random.1002 = {
-	#	type = character_event
-	#	title = bno_random_1001.title
-	#	desc = bno_random_1001.desc
-	#	theme = realm
-	#	override_background = {
-		#		reference = courtyard
-		#	}
-	#
-	#	trigger = {
-		#		root = {
-			#			has_trait = rakish
-			#		}
-		#	}
-	#
-	#	option = {
-		#		name = bno_random_1001.a
-		#		add_gold = 2
-		#	}
-	#}
-#
-#bno_random.1003 = {
-	#	type = character_event
-	#	title = bno_random_1001.title
-	#	desc = bno_random_1001.desc
-	#	theme = realm
-	#	override_background = {
-		#		reference = courtyard
-		#	}
-	#
-	#	trigger = {
-		#		root = {
-			#			has_trait = lustful
-			#		}
-		#	}
-	#
-	#	option = {
-		#		name = bno_random_1001.a
-		#		add_gold = 3
-		#	}
-	#}
-#
-#bno_random.1004 = {
-	#	type = character_event
-	#	title = bno_random_1001.title
-	#	desc = bno_random_1001.desc
-	#	theme = realm
-	#	override_background = {
-		#		reference = courtyard
-		#	}
-	#
-	#	trigger = {
-		#		root = {
-			#			has_trait = lazy
-			#		}
-		#	}
-	#
-	#	option = {
-		#		name = bno_random_1001.a
-		#		add_gold = 4
-		#	}
-	#}
-#
-#bno_random.1005 = {
-	#	type = character_event
-	#	title = bno_random_1001.title
-	#	desc = bno_random_1001.desc
-	#	theme = realm
-	#	override_background = {
-		#		reference = courtyard
-		#	}
-	#
-	#	trigger = {
-		#		root = {
-			#			has_trait = shy
-			#		}
-		#	}
-	#
-	#	option = {
-		#		name = bno_random_1001.a
-		#		add_gold = 5
-		#	}
-	#}
