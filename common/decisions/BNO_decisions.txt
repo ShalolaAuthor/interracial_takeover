@@ -52,6 +52,12 @@ convert = {
 	is_shown = {
 		is_adult = yes
 		is_female = yes
+		has_trait = bno_whitegirl
+		NOT = {faith = faith:bbcs}
+	}
+	is_valid = {
+		is_adult = yes
+		is_female = yes
 		has_trait = bno_mindless_bbc_slut
 		NOT = {faith = faith:bbcs}
 	}
@@ -81,6 +87,11 @@ bno_election = {
 	is_shown = {
 		is_adult = yes
 		is_female = yes
+		has_trait = bno_whitegirl
+	}
+	is_valid = {
+		is_adult = yes
+		is_female = yes
 		is_bno_snowbunny_and_up = yes
 	}
 	effect = {
@@ -102,6 +113,10 @@ bull_decision = {
 	desc = bull_decision_desc
 	selection_tooltip = bull_decision_tooltip
 	is_shown = {
+		is_ruler = yes
+		is_cuck = yes
+	}
+	is_valid = {
 		is_ruler = yes
 		is_cuck = yes
 		does_blackbull_exist = yes
@@ -161,6 +176,7 @@ bno_invite_slut_decision = {
 			has_game_rule = bno_decision_npc_yes 
 		}
 	}
+
 	cooldown = {
 		months = 12
 	}
@@ -213,6 +229,9 @@ bno_build_african_camps_decision = {
 		OR = {
 			is_bbc = yes
 			has_trait = bno_whitegirl
+		}
+		dynasty ?= {
+			has_dynasty_perk = bno_embrace_african_2
 		}
 		OR = { 
 			is_ai = no 
@@ -331,7 +350,6 @@ bno_realize_bbc_potential = {
 			has_trait = bno_barely_mixed # even just slightly mixed PCs should have the chance to switch into BBC playstyle, I suppose.
 		} 
 		is_bbc = no
-		
 	}
 	cooldown = {
 		years = 5
@@ -344,5 +362,52 @@ bno_realize_bbc_potential = {
 	}
 	ai_will_do = {
 		base = 0
+	}
+}
+
+#Convert to african decision
+bno_convert_to_african = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+	sort_order = 10
+	desc = bno_convert_to_african_desc
+	selection_tooltip = bno_convert_to_african_tooltip
+	is_shown = {
+		is_adult = yes
+		OR = {
+			has_trait = bno_bbc
+			has_trait = bno_whiteboi
+			has_trait = bno_whitegirl
+		}
+		NOT = { culture = culture:bnoc }
+		NOT = { has_character_flag = bno_convert_to_african }
+	}
+	is_valid = {
+		is_adult = yes
+		OR = {
+			has_trait = bno_bbc
+			has_trait = bno_mindless_bbc_slut
+			has_trait = bno_jos
+		}
+		NOT = { culture = culture:bnoc }
+		NOT = { has_character_flag = bno_convert_to_african }
+	}
+
+	effect = {
+		set_culture = culture:bnoc
+		add_character_flag = {
+			flag = bno_converted_to_african
+		}
+	}
+	ai_check_interval = 12
+	ai_potential = {
+		any_held_title = {
+			tier >= tier_county
+		}
+	}
+	ai_will_do = {
+        base = 0
+        bno_decision_modifier = yes
 	}
 }

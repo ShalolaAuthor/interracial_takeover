@@ -2,6 +2,7 @@
 Africanized
 bbcs
 blackbull
+bnoc
 BULLETTAB
 carn
 Carnalitas
