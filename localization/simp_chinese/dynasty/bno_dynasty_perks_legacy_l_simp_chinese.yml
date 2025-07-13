@@ -14,7 +14,7 @@ EBONY_ELITES_DESCRIPTION: "#weak Only one regiment of [GetMaA('bno_ebony_elites'
 
 BBC_MARRIAGE_DESCRIPTION: "每当大黑鸡巴角色结婚以及白人女孩与大黑鸡巴角色结婚，你的王朝就会获得威望。他们也会从婚姻中获得更多的合法性和威望"
 
-BBC_SEX_EFFECT: "当一名大黑鸡巴角色和一名属于你家族的白人女孩做爱，你的家族将获得威望"
+BBC_SEX_EFFECT: "当一名属于你家族的大黑鸡巴角色或白人女孩做爱时，你的家族将获得威望"
 
 BNO_EMBRACE_3_EFFECT: "解锁学习移民决议与事件"
 

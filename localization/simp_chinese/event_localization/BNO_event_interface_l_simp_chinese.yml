@@ -41,4 +41,8 @@ bno_bull_0012_notification.desc: "最近我注意到 [ROOT.GetCharacter.GetName]
 bno_slut_0008_notification.title: "惊人的相似"
 bno_slut_0008_notification.desc: "有传言称，一名妓女在黑人难民营中游荡，长得与你亲爱的妻子 [target1.GetFirstName] 惊人地相似。"
 
-bbc_diarch: "大黑屌"
+
+bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName]把你给宠坏了"
+bbc_worshipper.0002.notifications.desc: "在连月经历辛勤劳动、不知疲倦的夜晚后，她将手头的一切资产交给你了，因为她不知道要拿这些东西怎么办。"
+
+bbc_diarch: "BBC"
