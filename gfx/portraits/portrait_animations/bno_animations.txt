@@ -124,7 +124,7 @@ bno_sex_doggy_5 = {
     }
 }
 
-bno_sex_doggy_6 = {
+bno_sex_doggy_6 = {# looks nice on right portrait
     default = {
         default = { head = "sex_doggy_6" torso = "sex_doggy_6" }
     }
@@ -202,13 +202,13 @@ bno_sex_hom_2 = {
     }
 }
 
-bno_sex_love_stand_1 = {
+bno_sex_love_stand_1 = { # looks nice
     default = {
         default = { head = "sex_love_stand_1" torso = "sex_love_stand_1" }
     }
 }
 
-bno_sex_love_stand_2 = {
+bno_sex_love_stand_2 = { # looks nice
     default = {
         default = { head = "sex_love_stand_2" torso = "sex_love_stand_2" }
     }

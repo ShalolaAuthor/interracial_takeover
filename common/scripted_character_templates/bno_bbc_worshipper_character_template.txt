@@ -1,0 +1,68 @@
+﻿bbc_worshipper_low_character_template = {
+    age = { 18 20 }
+    faith = root.faith
+    culture = root.culture
+    gender = female
+
+    #Traits
+    random_traits_list = {
+        count = 1
+        bno_blacked = {}
+        bno_snowbunny = {}
+    }
+    trait = tits_big_good_1
+    trait = beauty_good_1
+    random_traits = yes
+
+    #Skills
+    learning = {
+        min_template_decent_skill
+        max_template_decent_skill
+    }
+}
+
+bbc_worshipper_high_character_template = {
+    age = { 18 20 }
+    faith = root.faith
+    culture = root.culture
+    gender = female
+
+    #Traits
+    random_traits_list = {
+        count = 1
+        bno_snowbunny = {}
+        bno_qos = {}
+    }
+    trait = tits_big_good_2
+    trait = beauty_good_2
+    random_traits = yes
+
+    #Skills
+    learning = {
+        min_template_medium_skill
+        max_template_medium_skill
+    }
+}
+
+bbc_worshipper_excellent_character_template = {
+    age = { 18 20 }
+    faith = root.faith
+    culture = root.culture
+    gender = female
+
+    #Traits
+    random_traits_list = {
+        count = 1
+        bno_qos = {}
+        bno_mindless_bbc_slut = {}
+    }
+    trait = tits_big_good_3
+    trait = beauty_good_3
+    random_traits = yes
+
+    #Skills
+    learning = {
+        min_template_high_skill
+        max_template_high_skill
+    }
+}

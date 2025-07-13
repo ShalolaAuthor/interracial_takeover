@@ -41,7 +41,7 @@ bno_random.0001 = {
 		animation = eavesdrop
 	}
 	
-	cooldown = { months = 6 }
+	cooldown = { months = { 12 18 } }
 	trigger = {
 			any_courtier_or_guest = {
 				has_trait = bno_bbc
@@ -3158,6 +3158,8 @@ bno_random.0016 = {
 		animation = admiration
 	}
 	
+	cooldown = { months = { 12 18 } }
+
 	trigger = {
 		root = {
 			any_courtier_or_guest = {

@@ -1379,9 +1379,15 @@ bno_slut.0015 = {
 			name = slut_whoring_year
 			value = 0
 		}
+		ai_chance = {
+			base = 100
+		}
 	}
 	option = {
 		name = bno_slut_0015.b
+		ai_chance = {
+			base = 0
+		}
 	}
 }
 
@@ -1472,12 +1478,16 @@ bno_slut.3015 = {
 		bno_have_sex_with_effects = {
 			PARTNER = scope:bbc
 		}
+		ai_chance = {
+			base = 0
+		}
 	}
 
 	option = {
 		name = bno_slut_3015.b
-		root = {
-			remove_character_flag = bno_slut.1015
+		remove_character_flag = bno_slut.1015
+		ai_chance = {
+			base = 100
 		}
 	}
 }

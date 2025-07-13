@@ -133,7 +133,7 @@ bno_naked = {
 			}
 			modifier = {
 				add = 1000
-				has_court_position = bno_bbc_worshipper
+				has_court_position = bno_bbc_worshipper_court_position
 			}
 		}
 	}
@@ -205,7 +205,7 @@ bno_cum_shot = {
 			}
 			modifier = {
 				add = 1000
-				has_court_position = bno_bbc_worshipper
+				has_court_position = bno_bbc_worshipper_court_position
 			}
 		}
 	}

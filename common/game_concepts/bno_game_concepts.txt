@@ -1,0 +1,3 @@
+﻿bno_whore = {
+    texture = "gfx/interface/icons/traits/bno_curious.dds"
+}

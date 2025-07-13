@@ -1,0 +1,167 @@
+﻿#set_bbc_worshipper_effect
+#bbc_worshipper_whoring_around
+#bbc_worshipper_service_fee
+#bbc_worshipper_pay_gold
+#bbc_worshipper_pay_piety
+#bbc_worshipper_pay_prestige
+
+set_bbc_worshipper_effect = {
+    $BBC_WORSHIPPER$ = {
+        if = {
+            limit = { NOT = { liege = $EMPLOYER$ } }
+            $EMPLOYER$ = { add_courtier = $BBC_WORSHIPPER$ }
+        }
+    }
+    $EMPLOYER$ = {
+        #Replace old bbc whore if exist
+        if = {
+            limit = {
+                employs_court_position = bno_bbc_worshipper_court_position
+                any_court_position_holder = {
+                    type = bno_bbc_worshipper_court_position
+                    count > 2
+                }
+            }
+            every_court_position_holder = {
+                type = bno_bbc_worshipper_court_position
+                add_to_list = bbc_worshippers
+            }
+            ordered_in_list = {
+                list = bbc_worshippers
+                order_by = age
+
+                save_scope_as = old_bbc_worshipper
+            }
+            $EMPLOYER$ = {
+                replace_court_position = {
+                    recipient = $BBC_WORSHIPPER$
+                    holder = scope:old_bbc_worshipper
+                    court_position = bno_bbc_worshipper_court_position
+                }
+                reverse_add_opinion = {
+                    target = scope:old_bbc_worshipper
+                    modifier = disappointed_opinion
+					opinion = -15
+                }
+                reverse_add_opinion = {
+                    target = $BBC_WORSHIPPER$
+                    modifier = hired_me_opinion
+                }
+            }
+        }
+        else = {
+            appoint_court_position = {
+                recipient = $BBC_WORSHIPPER$
+                court_position = bno_bbc_worshipper_court_position
+            }
+            reverse_add_opinion = {
+                target = $BBC_WORSHIPPER$
+                modifier = hired_me_opinion
+            }
+        }
+    }
+}
+
+bbc_worshipper_whoring_around = {
+    liege ?= {
+        every_courtier_or_guest = {
+            limit = { is_rich_ai_blackbull = yes }
+            add_to_list = bbc_worshipper_target
+        }
+        every_vassal_or_below = {
+            limit = { is_rich_ai_blackbull = yes }
+            add_to_list = bbc_worshipper_target
+        }
+        every_vassal_or_below = {
+            limit = { highest_held_title_tier >= tier_county }
+            every_courtier_or_guest = {
+                limit = { is_rich_ai_blackbull = yes }
+                add_to_list = bbc_worshipper_target
+            }
+        }
+        ordered_in_list = {
+            list = bbc_worshipper_target
+            order_by = gold
+            save_scope_as = rich_bbc
+        }
+    }
+    bbc_worshipper_service_fee = {
+        PAYEE = scope:rich_bbc
+    }
+    bno_have_sex_with_effects = {
+        PARTNER = scope:rich_bbc
+    }
+}
+
+bbc_worshipper_service_fee = {
+    bbc_worshipper_pay_gold = {
+        PAYEE = $PAYEE$
+    }
+    bbc_worshipper_pay_piety = {
+        PAYEE = $PAYEE$
+    }
+    bbc_worshipper_pay_prestige = {
+        PAYEE = $PAYEE$
+    }
+}
+
+bbc_worshipper_pay_gold = {
+    $PAYEE$ = {
+        if = {
+            limit = { gold > 0 }
+            pay_short_term_gold = {
+                target = root
+                gold  = minor_gold_value
+            }
+        }
+    }
+}
+
+bbc_worshipper_pay_piety = {
+    $PAYEE$ = {
+        if = {
+            limit = { piety > 0 }
+            add_piety = minor_piety_loss
+            root = { add_piety = minor_piety_gain }
+        }
+    }
+    if = {
+        limit = { faith = { has_doctrine = doctrine_adultery_women_crime } }
+        add_piety = {
+            value = minor_piety_gain
+            add = { 5 10 }
+            add = { 1 5 }
+        }
+    }
+}
+
+bbc_worshipper_pay_prestige = {
+    $PAYEE$ = {
+        if = {
+            limit = { prestige > 0 }
+            add_prestige = minor_prestige_loss
+            root = { add_piety = minor_prestige_gain }
+        }
+    }
+}
+
+bbc_worshipper_give_all_spoil_to_liege = {
+    pay_short_term_gold = {
+        target = liege
+        gold = this.gold
+    }
+    liege ?= {
+        add_piety = root.piety
+    }
+    add_piety = {
+        value = root.piety
+        multiply = -1
+    }
+    liege ?= {
+        add_prestige = root.prestige
+    }
+    add_prestige = {
+        value = root.prestige
+        multiply = -1
+    }
+}

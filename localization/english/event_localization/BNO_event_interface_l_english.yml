@@ -42,4 +42,7 @@ bno_bull_0012_notification.desc: "Lately I've noticed [ROOT.GetCharacter.GetName
 bno_slut_0008_notification.title: "Uncanny Resemblance"
 bno_slut_0008_notification.desc: "Rumors swirl of a whore walking amongst the Black refugee camps that looks strangely like your dear wife [slut.GetFirstName]."
 
+bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] give you all her spoils"
+bbc_worshipper.0002.notifications.desc: "After months of hard work, and tireless night, she give you all her assets because she doesn't know what to do with it."
+
 bbc_diarch: "BBC"

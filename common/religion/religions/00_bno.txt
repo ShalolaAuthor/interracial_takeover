@@ -41,7 +41,7 @@
 	doctrine = doctrine_pilgrimage_encouraged
 	
 	traits = {
-		virtues = { bno_curious bno_blacked bno_snowbunny bno_qos bno_mindless_bbc_slut futa bno_bbc lustful sadistic bno_camp_leader bno_full_black}
+		virtues = { bno_curious bno_blacked bno_snowbunny bno_qos bno_mindless_bbc_slut bno_bbc lustful sadistic bno_camp_leader bno_full_black}
 		sins = { chaste bno_whiteboi bno_chastity}
 	}
 	

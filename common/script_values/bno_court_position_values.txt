@@ -1,5 +1,12 @@
 ﻿bno_bbc_worshipper_aptitude = {
     value = 0
+    if = {
+        limit = { has_trait = bno_pure_white }
+        add = {
+            value = 25
+            desc = bno_court_position_trait_bno_pure_white
+        }
+    }
     switch = {
         trigger = has_trait
         bno_curious = {
@@ -85,5 +92,83 @@
 }
 
 bno_bbc_worshipper_salary = {
+    value = major_court_position_salary # Update X_salary_tooltip if script_value is changed
+	# Set to 0 with Dynasty Perk Inner Circle
+	if = {
+		limit = { court_position_inner_circle_salary_trigger = { POS = bno_bbc_worshipper } }
+		multiply = {
+			value = 0
+			desc = inner_circle_salary_mod
+			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+		}
+	}
+	# Halved with obligation hook
+	else_if = {
+		limit = {
+			court_position_obligation_hook_salary_trigger = {
+				POS = bno_bbc_worshipper
+				LIEGE = scope:liege
+			}
+		}
+		multiply = {
+			value = 0.5
+			desc = obligation_hook_salary
+		}
+	}
+	# Halved salary
+	if = {
+		limit = {
+			court_position_halved_salary_trigger = { POS = bno_bbc_worshipper }
+		}
+		multiply = {
+			value = 0.5
+			desc = court_position_halved_salary
+			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+		}
+	}
+	# Increased salary
+	if = {
+		limit = {
+			court_position_increased_salary_trigger = { POS = bno_bbc_worshipper }
+		}
+		multiply = {
+			value = 1.5
+			desc = court_position_increased_salary
+			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+		}
+	}
+}
+
+bno_bbc_worshipper_revoke_cost = {
+    value = major_court_position_prestige_revoke_cost
+	# Set to 0 via obligation hook
+	if = {
+		limit = {
+			court_position_obligation_hook_salary_trigger = {
+				POS = bno_bbc_worshipper
+				LIEGE = scope:liege
+			}
+		}
+		multiply = 0
+	}
+	if = {
+		limit = {
+			exists = this
+			is_ai = yes
+		}
+		multiply = 0
+	}
+}
+
+bno_bbc_worshipper_candidate_score = {
     value = 0
+    add = scope:base_value
+	add = court_position_candidate_score_base_value
+	add = court_position_candidate_aptitude_value
+    if = { # To stop petitioned positions immediately being fired by the AI
+		limit = {
+			court_position_petition_ai_weight_trigger = { ROLE = seneschal }
+		}
+		add = 1000
+	}
 }

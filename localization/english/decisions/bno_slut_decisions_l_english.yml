@@ -26,3 +26,11 @@ bno_change_county_culture_desc: "You are an $bnoc$, wouldn't it make so much sen
 bno_change_county_culture_tooltip: "Influence people into adopting $bnoc$ way of life"
 bno_change_county_culture_confirm: "I need more $bnoc$"
 bno_change_county_culture_toast: "$bnoc$ has been propagated"
+
+bno_recruit_court_position_decision: "Recruit Positions to Appease #V The [GetTrait('bno_full_black').GetName( GetNullCharacter )] Population#!"
+bno_recruit_court_position_decision_desc: "A well-functioning [ROOT.Char.Custom('RealmType')] requires the work of many girls. I shall dispatch my servants far and wide to find suitable candidates for the newly available positions within my court."
+bno_recruit_court_position_decision_tooltip: "Search for a girl to fill a [court_position|E] or other necessary role in your [court|E] for a fee\n\n#weak For example, you may hire a [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!"
+bno_recruit_court_position_decision_confirm: "Call them here!"
+recruit_bbc_worshipper_cooldown_tt: "Recruiting a [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] is on cooldown for [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]"
+hire_bbc_worshipper_decision_tooltip: "Your servants will suggest a number of suitable candidates for the position of [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
+bno_recruit_court_position_decision_tt: "You will receive a random amount of suitable girls to serve by your side"

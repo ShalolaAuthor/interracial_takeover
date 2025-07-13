@@ -54,7 +54,7 @@ bno_young_adult = {
   value = { 21 39 }
 }
 
-bno_bbc_trait_occurance_dicksize_modifier = { # Represents % chance of BBC occuring based on dicksize
+bno_bbc_trait_occurrence_dicksize_modifier = { # Represents % chance of BBC occuring based on dicksize
   switch = {
     trigger = has_trait
     dick_big_good_3 = { value = bno_bbc_big_dick_good_3_chance }

@@ -55,3 +55,14 @@ bno_realize_bbc_potential.desc: "You realize your dominant black body gives you 
 bno_realize_bbc_potential_decision_tooltip: "You will become a dominant black stud."
 bno_realize_bbc_potential_confirm: "The world is mine."
 bno_realize_bbc_potential_effect_1: "You will gain the BBC Trait."
+
+bno_events.0007.title: "[ROOT.Char.Custom('GetCourt')|U] [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
+bno_events.0007.desc: "In an effort to appease the ever-growing population of big, black men with insatiable sexual appetites, I have decided it's time for me to employ a dedicated team of white girls who live and breathe for nothing more than servicing their ebony masters. These [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]s are trained from birth in the art of pleasing cock - they know exactly how to use every inch of their bodies to bring maximum pleasure to their dark kings.\n\nMy plan is simple: create a society where these worshippers exist solely to satisfy the needs of their black overlords while simultaneously keeping them happy and contented. By providing this crucial service, I hope to prevent any potential unrest or violence that might arise due to pent-up sexual frustration amongst the male population. After all, nobody wants angry, horny black men roaming the streets in search of pussy!"
+bno_events.0007.e: "[excellent_skill_option.GetFirstNameNoTooltip] skills as a [bno_whore|E] is known throughout the country!"
+bno_events.0007.e.aptitude: "[excellent_skill_option.GetUINamePossessive|U] [aptitude|E] is [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
+bno_events.0007.a.tt: "A [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] also has a monthly salary of [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]"
+bno_events.0007.a: "Apparently, [high_skill_option.GetFirstNameNoTooltip] has fucked tons of guys"
+bno_events.0007.a.aptitude: "[high_skill_option.GetUINamePossessive|U] [aptitude|E] is [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
+bno_events.0007.b: "[low_skill_option.GetFirstNameNoTooltip] seems enthusiastic, if nothing else."
+bno_events.0007.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E] is [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
+

@@ -1,4 +1,4 @@
-﻿bno_bbc_worshipper = {
+﻿bno_bbc_worshipper_court_position = {
     sort_order = 400
     max_available_positions = 3
     minimum_rank = county
@@ -36,12 +36,15 @@
             liege = scope:liege
             is_landed = no
             has_trait = bno_whitegirl
+            has_trait = beauty_good
+            has_trait = tits_big_good
+            is_visibly_fertile = yes
         }
     }
 
     revoke_cost = {
         prestige = {
-            value = major_court_position_prestige_revoke_cost
+            value = bno_bbc_worshipper_revoke_cost
         }
     }
 
@@ -52,32 +55,122 @@
         }
     }
 
+    is_powerful_agent = no
+
+    base_employer_modifier = {
+        development_growth = 1
+	}
+
     scaling_employer_modifiers = {		
-		terrible = {}
-		poor = {}
-		average = {}
-		good = {}
-		excellent = {}
+		terrible = {
+            monthly_county_control_growth_add = 1
+            monthly_county_control_growth_factor = 0.1
+        }
+		poor = {
+            monthly_county_control_growth_add = 2
+            monthly_county_control_growth_factor = 0.2
+        }
+		average = {
+            monthly_county_control_growth_add = 3
+            monthly_county_control_growth_factor = 0.3
+        }
+		good = {
+            monthly_county_control_growth_add = 4
+            monthly_county_control_growth_factor = 0.4
+        }
+		excellent = {
+            monthly_county_control_growth_add = 5
+            monthly_county_control_growth_factor = 0.5
+        }
+	}
+
+    base_employer_court_modifier = {
+        fertility = 0.1
+    }
+
+    scaling_employer_court_modifiers = {
+		terrible = {
+			stress_gain_mult = -0.1
+            stress_loss_mult = 0.1
+		}
+		poor = {
+			stress_gain_mult = -0.2
+            stress_loss_mult = 0.2
+		}
+		average = {
+			stress_gain_mult = -0.3
+            stress_loss_mult = 0.3
+		}
+		good = {
+			stress_gain_mult = -0.4
+            stress_loss_mult = 0.4
+		}
+		excellent = {
+			stress_gain_mult = -0.5
+            stress_loss_mult = 0.5
+		}
+	}
+
+    modifier = {
+        fertility = 1
+    }
+
+    custom_employer_modifier_description = bno_bbc_worshipper_employer_custom_effect_description
+
+    search_for_courtier = {
+		send_interface_toast = {
+			type = event_toast_effect_neutral
+			title = hire_bbc_worshipper_decision
+			custom_tooltip = hire_bbc_worshipper_decision_effect_tooltip
+		}
+
+		trigger_event = {
+			id = bno_events.0007
+			days = 14
+		}
 	}
 
     on_court_position_received = {
         scope:employee = {
-            set_variable = {
-                name = sex_animation 
-                value = 46
-            }
             add_character_flag = {
-                flag = sex_animation_event
+                flag = no_headgear
+            }
+            trigger_event = {
+                id = bbc_worshipper.0001
+                days = 7
             }
         }
-    } 
+    }
 
-    custom_scaling_employer_modifier_description = {		
-		terrible = loc_key_terrible
-		poor = loc_key_terrible_poor
-		average = loc_key_average
-		good = loc_key_good
-		excellent = loc_key_excellent
-		range = loc_key_range
-	}
+    on_court_position_revoked = {
+        scope:employee = {
+            trigger_event = {
+                id = bbc_worshipper.2001
+                days = 7
+            }
+        }
+    }
+
+    on_court_position_invalidated = {
+        scope:employee = {
+            trigger_event = {
+                id = bbc_worshipper.2001
+                days = 7
+            }
+        }
+    }
+
+    on_court_position_vacated = {
+        scope:employee = {
+            trigger_event = {
+                id = bbc_worshipper.2001
+                days = 7
+            }
+        }
+    }
+
+    candidate_score = {
+        value = 150
+        add = bno_bbc_worshipper_candidate_score
+    }
 }

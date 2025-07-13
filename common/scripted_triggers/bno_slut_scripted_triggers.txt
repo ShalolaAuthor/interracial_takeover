@@ -4,6 +4,13 @@
 	is_a_male = yes
 }
 
+is_rich_ai_blackbull = {
+	is_ai_blackbull = yes
+	gold > 0
+	prestige > 0
+	piety > 0
+}
+
 is_bno_actor = {
 	OR = {
         is_bbc = yes

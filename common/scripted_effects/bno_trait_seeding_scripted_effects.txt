@@ -12,7 +12,7 @@ bno_seed_bbc_trait_effect = {
     }
     random = {
         chance = 0
-        bno_bbc_trait_occurance_chance_modifier = yes
+        bno_bbc_trait_occurrence_chance_modifier = yes
         add_trait = bno_bbc
         if = {
             limit = { 

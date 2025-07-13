@@ -233,7 +233,7 @@ bno_white_girl_modifier_small = {
 	}
 }
 
-bno_bbc_trait_occurance_chance_modifier = {
+bno_bbc_trait_occurrence_chance_modifier = {
 	modifier = {
 		add = bno_bbc_very_rare_chance
 		has_game_rule = bno_bbc_very_rare_chance
@@ -270,19 +270,19 @@ bno_bbc_trait_occurance_chance_modifier = {
 		has_trait = dick_big_good_1
 	}
 	modifier = {
-		add = bno_bbc_trait_occurance_dicksize_modifier
+		add = bno_bbc_trait_occurrence_dicksize_modifier
 		factor = bno_bbc_full_black_multiplier
 		has_game_rule = bno_rarity_race
 		has_trait = bno_full_black
 	}
 	modifier = {
-		add = bno_bbc_trait_occurance_dicksize_modifier
+		add = bno_bbc_trait_occurrence_dicksize_modifier
 		factor = bno_bbc_mostly_black_multiplier
 		has_game_rule = bno_rarity_race
 		has_trait = bno_mostly_black
 	}
 	modifier = {
-		add = bno_bbc_trait_occurance_dicksize_modifier
+		add = bno_bbc_trait_occurrence_dicksize_modifier
 		factor = bno_bbc_mixed_multiplier
 		has_game_rule = bno_rarity_race
 		has_trait = bno_mixed

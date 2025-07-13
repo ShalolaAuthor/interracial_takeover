@@ -358,7 +358,150 @@ bno_events.0006 = {
 		add_courtier = scope:target3
 	}
 }
+#Invite BBC Whore Decision
+bno_events.0007 = {
+	type = character_event
+	title = bno_events.0007.title
+	desc = bno_events.0007.desc
+	theme = realm
+	
+	override_background = {
+		reference = throne_room 
+	}
+	left_portrait = {
+		character = scope:excellent_skill_option
+		animation = bno_sex_love_stand_1
+		triggered_outfit = {
+			trigger = { exists = scope:excellent_skill_option }
+			outfit_tags = { no_clothes }
+		}
+	}
+	right_portrait = {
+		character = scope:high_skill_option
+		animation = bno_sex_love_stand_2
+		triggered_outfit = {
+			trigger = { exists = scope:high_skill_option }
+			outfit_tags = { no_clothes }
+		}
+	}
+	lower_center_portrait = {
+		character = scope:low_skill_option
+		triggered_outfit = {
+			trigger = { exists = scope:low_skill_option }
+			outfit_tags = { no_clothes }
+		}
+	}
 
+	trigger = {
+		exists = capital_province
+	}
+
+	immediate = {
+		hidden_effect = {
+			random = {
+				chance = 60
+				create_character = {
+					location = root.capital_province
+					template = bbc_worshipper_excellent_character_template
+					save_scope_as = excellent_skill_option
+				}
+			}
+			random = {
+				chance = 80
+				create_character = {
+					location = root.capital_province
+					template = bbc_worshipper_high_character_template
+					save_scope_as = high_skill_option
+				}
+			}
+			random = {
+				chance = 100
+				create_character = {
+					location = root.capital_province
+					template = bbc_worshipper_low_character_template
+					save_scope_as = low_skill_option
+				}
+			}
+		}
+	}
+
+	#Excellent Skill
+	option = {
+		trigger = {
+			exists = scope:excellent_skill_option
+			is_playable_character = yes
+		}
+		name = bno_events.0007.e
+
+		custom_tooltip = bno_events.0007.e.aptitude
+		pay_short_term_gold = {
+			target = scope:excellent_skill_option
+			gold = medium_gold_value
+		}
+		custom_tooltip = bno_events.0007.a.tt
+
+		set_bbc_worshipper_effect = {
+			EMPLOYER = root
+			BBC_WORSHIPPER = scope:excellent_skill_option
+		}
+
+		ai_chance = {
+			factor = 500
+			modifier = {
+				short_term_gold < medium_gold_value
+				factor = 0
+			}
+		}
+	}
+	#High Skill
+	option = {
+		trigger = {
+			exists = scope:high_skill_option
+			is_playable_character = yes
+		}
+		name = bno_events.0007.a
+
+		custom_tooltip = bno_events.0007.a.aptitude
+		pay_short_term_gold = {
+			target = scope:high_skill_option
+			gold = medium_gold_value
+		}
+		custom_tooltip = bno_events.0007.a.tt
+
+		set_bbc_worshipper_effect = {
+			EMPLOYER = root
+			BBC_WORSHIPPER = scope:high_skill_option
+		}
+
+		ai_chance = {
+			factor = 100
+			modifier = {
+				short_term_gold < medium_gold_value
+				factor = 0
+			}
+		}
+	}
+	#Low Skill
+	option = {
+		name = bno_events.0007.b
+
+		custom_tooltip = bno_events.0007.b.aptitude
+		pay_short_term_gold = {
+			target = scope:low_skill_option
+			gold = minor_gold_value
+		}
+		custom_tooltip = bno_events.0007.a.tt
+
+		set_bbc_worshipper_effect = {
+			EMPLOYER = root
+			BBC_WORSHIPPER = scope:low_skill_option
+		}
+
+		ai_chance = {
+			factor = 100
+		}
+	}
+}
 
 # conversion event for 'convert to bbc' decision
 namespace = bbcconversion
