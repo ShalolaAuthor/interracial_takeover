@@ -1,4 +1,5 @@
 ﻿#bno_sex_increase_dynasty_prestige
+#bno_bbc_marriage_effect
 
 bno_sex_increase_dynasty_prestige = {
     if = {
@@ -10,5 +11,45 @@ bno_sex_increase_dynasty_prestige = {
         dynasty ?= {
             add_dynasty_prestige = bno_random_xp_positive
         }
+    }
+}
+
+bno_bbc_marriage_effect = {
+    dynast = {
+        send_interface_message = {
+	    	type = bno_blacked_events
+	    	title = {
+				first_valid = {
+					triggered_desc = {
+						trigger = {
+							$SOURCE$ = root
+						}
+						desc = bno_marriage.0007.notifications.title.root
+					}
+					desc = bno_marriage.0007.notifications.title.spouse
+				}
+			}
+	    	right_icon = $SOURCE$
+	    	desc = {
+				first_valid = {
+					triggered_desc = {
+						trigger = {
+							$SOURCE$ = {
+                                is_male = yes
+                            }
+						}
+						desc = bno_marriage.0007.notifications.desc.male
+					}
+					desc = bno_marriage.0007.notifications.desc.female
+				}
+			}
+	    	$SOURCE$ = {
+                dynasty ?= {
+	    	    	add_dynasty_prestige = bno_bbc_marriage_perk_reward
+	    	    }
+	    	    add_prestige = bno_bbc_marriage_prestige_perk_reward
+	    	    add_legitimacy = bno_bbc_marriage_prestige_perk_reward
+            }	
+	    }
     }
 }

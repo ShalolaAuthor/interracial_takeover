@@ -135,6 +135,9 @@
             add_character_flag = {
                 flag = no_headgear
             }
+            add_character_flag = {
+                flag = can_not_marry    
+            }
             trigger_event = {
                 id = bbc_worshipper.0001
                 days = 7

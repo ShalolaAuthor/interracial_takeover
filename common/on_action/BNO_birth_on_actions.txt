@@ -9,6 +9,16 @@ bno_blood_inheritance = {
 		has_game_rule = bno_mod_status_on
 	}
 	effect = {
+		#Flag Inheritance
+		if = {
+			limit = {
+				AND = {
+					scope:mother ?= { has_character_flag = bno_originally_african }
+					scope:real_father ?= { has_character_flag = bno_originally_african }
+				}
+			}
+			bno_seed_originally_african_flag = yes
+		}
 		#African Trait
 		if = {
 			limit = {

@@ -17,7 +17,6 @@ bno_cuckish = {
 	
 	# child_inheritance_sex = male
 	#fertility = -0.10
-	valid_sex = male
 	
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	#ai_sociability = high_negative_ai_value
@@ -42,7 +41,6 @@ bno_cuck = {
 	
 	# child_inheritance_sex = male
 	#fertility = -0.10
-	valid_sex = male
 	
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
@@ -70,7 +68,6 @@ bno_beta = {
 	
 	# child_inheritance_sex = male
 	fertility = -0.80
-	valid_sex = male
 	
 	#flag = can_not_marry
 	flag = carn_no_consequences_for_extramarital_sex_with_others
@@ -99,7 +96,6 @@ bno_jos = {
 	ruler_designer_cost = -40
 	
 	fertility = -1
-	valid_sex = male
 	
 	#flag = can_not_marry
 	flag = carn_no_consequences_for_extramarital_sex_with_others
@@ -126,9 +122,6 @@ bno_caged = {
 	stewardship = 3
 	
 	fertility = -0.60
-	
-	valid_sex = male
-	
 }
 
 #Level 2 Chastity: Castrated
@@ -147,8 +140,7 @@ bno_castrated = {
 	diplomacy = 5
 	
 	fertility = -1
-	
-	valid_sex = male
+	can_have_children = no
 }
 
 #BBC TRAITS
@@ -200,8 +192,9 @@ bno_bbc = {
 		bno_chastity
 	}
 	
-	same_opinion = 25
-	opposite_opinion = 15
+	same_opinion = 125
+	opposite_opinion = 25
+	general_opinion = -100
 	
 	ignore_negative_culture_opinion = yes
 	ignore_negative_opinion_of_culture = yes
@@ -244,10 +237,6 @@ bno_bbc = {
 	ai_amenity_spending = 0.15
 }
 
-# black nationalist trait? bonus to murder schemes.
-# bno_nationalist = {
-	# }
-
 #WHITEGIRL TRAITS
 
 bno_curious = {
@@ -262,7 +251,7 @@ bno_curious = {
 	shown_in_ruler_designer = yes
 	
 	#Special Opinion
-	opposite_opinion = 20
+	opposite_opinion = 120
 	attraction_opinion = 10
 	spouse_opinion = 10
 	same_opinion = 10
@@ -325,7 +314,7 @@ bno_blacked = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	opposite_opinion = 30
+	opposite_opinion = 130
 	attraction_opinion = 20
 	spouse_opinion = 20
 	same_opinion = 20
@@ -393,7 +382,7 @@ bno_snowbunny = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	opposite_opinion = 50
+	opposite_opinion = 150
 	attraction_opinion = 30
 	spouse_opinion = 30
 	same_opinion = 30
@@ -470,7 +459,7 @@ bno_qos = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	opposite_opinion = 100
+	opposite_opinion = 175
 	attraction_opinion = 40
 	spouse_opinion = 40
 	same_opinion = 40
@@ -549,7 +538,7 @@ bno_mindless_bbc_slut = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	opposite_opinion = 100
+	opposite_opinion = 200
 	attraction_opinion = 50
 	spouse_opinion = 50
 	same_opinion = 50
@@ -635,6 +624,8 @@ bno_mindless_bbc_slut = {
 bno_full_black = {
 	physical = yes
 	
+	general_opinion = -100
+	same_opinion = 120
 	prowess = 2
 	
 	group = bno_blood
@@ -645,6 +636,9 @@ bno_full_black = {
 bno_mostly_black = {
 	physical = yes
 	
+	general_opinion = -100
+	same_opinion = 120
+
 	group = bno_blood
 	level = 3
 }
@@ -652,6 +646,9 @@ bno_mostly_black = {
 bno_mixed ={
 	physical = yes
 	
+	general_opinion = -100
+	same_opinion = 120
+
 	group = bno_blood
 	level = 2
 }
@@ -659,6 +656,9 @@ bno_mixed ={
 bno_barely_mixed = {
 	physical = yes
 	
+	general_opinion = -100
+	same_opinion = 120
+
 	group = bno_blood
 	level = 1
 }

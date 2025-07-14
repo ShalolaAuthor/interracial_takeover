@@ -227,3 +227,20 @@ warfare_legacy_5_effect = {
 
  HOUSE_GUARD_UNLOCK_DESCRIPTION:0 "Can recruit [GetMaA('house_guard').GetName] as [men_at_arms|E]"
  HOUSE_GUARD_DESCRIPTION:1 "#weak Only one regiment of House Guard can be recruited#!"
+
+ title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { scope:city_sight = flag:book_markets }
+				desc = travel_city_baghdad_suq_al_warraqin_title
+			}
+			triggered_desc = {
+				trigger = { scope:city_sight = flag:palaces }
+				desc = travel_city_baghdad_royal_enclosure_title
+			}
+			triggered_desc = {
+				trigger = { scope:city_sight = flag:cemeteries }
+				desc = travel_city_baghdad_cemeteries_title
+			}
+		}
+	}

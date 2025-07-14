@@ -3,6 +3,12 @@
 #bno_activate_bbc_trait_effect
 #bno_make_bbc_has_big_dick
 
+bno_seed_originally_african_flag = {
+    add_character_flag = {
+        flag = bno_originally_african
+    }
+}
+
 bno_seed_bbc_trait_effect = {
     add_character_flag = bno_bbc_trait_seeded
     if = {

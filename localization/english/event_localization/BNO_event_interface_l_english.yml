@@ -45,4 +45,9 @@ bno_slut_0008_notification.desc: "Rumors swirl of a whore walking amongst the Bl
 bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] give you all her spoils"
 bbc_worshipper.0002.notifications.desc: "After months of hard work, and tireless night, she give you all her assets because she doesn't know what to do with it."
 
+bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] is now blacker than ever"
+bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] is now blacker than ever"
+bno_marriage.0007.notifications.desc.male: "A member of your family has spread his black seed to a suitable partner"
+bno_marriage.0007.notifications.desc.female: "A member of your family has married a #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!"
+
 bbc_diarch: "BBC"

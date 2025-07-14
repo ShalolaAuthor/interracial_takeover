@@ -1,0 +1,11 @@
+﻿on_marriage = {
+    on_actions = {
+        bno_on_marriage_pulse
+    }
+}
+
+bno_on_marriage_pulse = {
+    events = {
+        bno_marriage.0007
+    }
+}

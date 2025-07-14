@@ -14,6 +14,7 @@ bno_trait_seeding.0001 = {
 	}
 	immediate = {
 		add_trait = bno_full_black
+		bno_seed_originally_african_flag = yes
 		bno_seed_bbc_trait_effect = yes
 		bno_futa_bisexual = yes
 	}

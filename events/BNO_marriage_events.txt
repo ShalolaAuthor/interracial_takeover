@@ -217,3 +217,49 @@ bno_marriage.0006 = {	#used to make sure bbc actually have children. Might be wo
 		}
 	}
 }
+#Dynasty Perk
+bno_marriage.0007 = {
+	hidden = yes
+	trigger = {
+		OR = {
+			dynasty ?= {
+				has_dynasty_perk = bno_embrace_african_4
+			}
+			scope:spouse ?= {
+				dynasty ?= {
+					has_dynasty_perk = bno_embrace_african_4
+				}
+			}
+		}
+	}
+	immediate = {
+		if = {
+			limit = {
+				dynasty ?= {
+					has_dynasty_perk = bno_embrace_african_4
+				}
+			}
+			dynasty ?= {
+				bno_bbc_marriage_effect = {
+					SOURCE = root
+				}		
+			}	
+		}
+		if = {
+			limit = {
+				scope:spouse ?= {
+					dynasty ?= {
+						has_dynasty_perk = bno_embrace_african_4
+					}
+				}
+			}
+			scope:spouse ?= {
+				dynasty ?= {
+					bno_bbc_marriage_effect = {
+						SOURCE = scope:spouse
+					}
+				}
+			}
+		}
+	}
+}
