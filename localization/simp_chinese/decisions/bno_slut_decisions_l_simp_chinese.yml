@@ -34,3 +34,8 @@ bno_recruit_court_position_decision_confirm: "传他们过来！"
 recruit_bbc_worshipper_cooldown_tt: "招募一名[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]需要等[GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]才能使用"
 hire_bbc_worshipper_decision_tooltip: "你的仆人将会为[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]推荐一些合适的人选"
 bno_recruit_court_position_decision_tt: "你会收到随机数量的合适的女孩来侍奉你左右"
+
+bno_convert_to_african: "拥抱非裔"
+bno_convert_to_african_confirm: "对我来说都结束了！"
+bno_convert_to_african_desc: "你亲身经历这种文化的行为方式，这种文化如此强大，令你想要向它屈服。毕竟有句老话说得好，打不过就加入。"
+bno_convert_to_african_tooltip: "拥抱你$bnoc$先祖的根源"

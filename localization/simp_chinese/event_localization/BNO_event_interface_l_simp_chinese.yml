@@ -45,4 +45,9 @@ bno_slut_0008_notification.desc: "有传言称，一名妓女在黑人难民营�
 bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName]把你给宠坏了"
 bbc_worshipper.0002.notifications.desc: "在连月经历辛勤劳动、不知疲倦的夜晚后，她将手头的一切资产交给你了，因为她不知道要拿这些东西怎么办。"
 
+bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName]已经彻底黒堕了"
+bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName]已经彻底黒堕了"
+bno_marriage.0007.notifications.desc.male: "许多来自你家族的成员已将他们黑色的种子散布到合适的配偶体内"
+bno_marriage.0007.notifications.desc.female: "许多来自你家族的成员已与#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!结婚"
+
 bbc_diarch: "BBC"
