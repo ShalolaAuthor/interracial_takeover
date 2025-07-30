@@ -67,6 +67,10 @@ bno_embrace_african_2 = {
         men_at_arms_limit = 1
         men_at_arms_cap = 1
     }
+    traits = {
+        bno_curious = 100
+        bno_bbc = 100
+    }
 }
 
 bno_embrace_african_3 = {
@@ -151,9 +155,5 @@ bno_embrace_african_5 = {
         domain_tax_mult = 0.1
         domain_tax_same_faith_mult = 0.2
         vassal_tax_mult = 0.2
-    }
-    traits = {
-        bno_curious = 100
-        bno_bbc = 100
     }
 }

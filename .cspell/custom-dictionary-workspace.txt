@@ -23,6 +23,7 @@ legwear
 lowborns
 malus
 modfile
+modifer
 mult
 Phaze
 prisonhouse

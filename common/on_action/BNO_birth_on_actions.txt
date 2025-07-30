@@ -1,6 +1,7 @@
 ﻿on_birth_child = {
 	on_actions = {
 		bno_blood_inheritance
+		bno_legacy_birth
 	}
 }
 
@@ -232,5 +233,64 @@ on_birth_father = {
 bull_breeder = {
 	events = {
 		bno_birth.0002 #check if bull breeder modifer can be applied to father
+	}
+}
+
+bno_legacy_birth = {
+	effect = {
+		hidden_effect = {
+			if = {
+				limit = {
+					exists = scope:child.dynasty
+					scope:child.dynasty = {
+						has_dynasty_perk = bno_embrace_african_2
+					}
+					OR = {
+						scope:mother.dynasty = scope:child.dynasty
+						scope:real_father.dynasty = scope:child.dynasty
+					}
+				}
+				if = {
+					limit = {
+						scope:child.dynasty = {
+							exists = var:bno_embrace_african_2_bno_curious
+						}
+						NOT = {
+							has_trait = bno_curious
+						}
+					}
+					random = {
+						chance = bno_embrace_african_2_chance
+						modifier = {
+							add = bno_embrace_african_2_extra_player_chance
+							any_parent = {
+								is_ai = no
+							}
+						}
+						add_trait = bno_curious
+					}
+				}
+				else_if = {
+					limit = {
+						scope:child.dynasty = {
+							exists = var:bno_embrace_african_2_bno_bbc
+						}
+						NOT = {
+							has_trait = bno_bbc
+						}
+					}
+					random = {
+						chance = bno_embrace_african_2_chance
+						modifier = {
+							add = bno_embrace_african_2_extra_player_chance
+							any_parent = {
+								is_ai = no
+							}
+						}
+						bno_add_bbc_trait_effect = yes
+					}
+				}
+			}
+		}
 	}
 }
