@@ -14,13 +14,18 @@ bno_cuckish = {
 	prowess = -2
 	
 	ruler_designer_cost = 0
-	
-	# child_inheritance_sex = male
+
 	#fertility = -0.10
+
+	track = {
+		33 = {
+		}
+		66 = {
+		}
+	}
 	
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	#ai_sociability = high_negative_ai_value
-	
 }
 
 # Level 2 Sissy: Cuck
@@ -35,7 +40,13 @@ bno_cuck = {
 	
 	martial = -3
 	prowess = -2
-	#max_personal_schemes_add = -1
+
+	track = {
+		33 = {
+		}
+		66 = {
+		}
+	}
 	
 	ruler_designer_cost = -10
 	
@@ -62,12 +73,12 @@ bno_beta = {
 	intrigue = 3
 	stewardship = 3
 	seduce_scheme_phase_duration_add = 20
-	#max_personal_schemes_add = -1
+	fertility = -0.80
+
 	
 	ruler_designer_cost = -30
 	
 	# child_inheritance_sex = male
-	fertility = -0.80
 	
 	#flag = can_not_marry
 	flag = carn_no_consequences_for_extramarital_sex_with_others
@@ -93,9 +104,16 @@ bno_jos = {
 	seduce_scheme_phase_duration_add = major_scheme_phase_duration_malus_value
 	#max_personal_schemes_add = -1
 	
-	ruler_designer_cost = -40
-	
 	fertility = -1
+
+	track = {
+		33 = {
+		}
+		66 = {
+		}
+	}
+	
+	ruler_designer_cost = -40
 	
 	#flag = can_not_marry
 	flag = carn_no_consequences_for_extramarital_sex_with_others
