@@ -8,6 +8,11 @@ bno_embrace_african_5_effect = {
     first = EBONY_ELITES_DESCRIPTION
     third = EBONY_ELITES_DESCRIPTION
 }
+bno_embrace_african_5_sex_effects = {
+    global = BNO_SEX_EFFECT_DESCRIPTION
+    first = BNO_SEX_EFFECT_DESCRIPTION
+    third = BNO_SEX_EFFECT_DESCRIPTION
+}
 bno_embrace_african_4_effect = {
     global = BBC_MARRIAGE_DESCRIPTION
     first = BBC_MARRIAGE_DESCRIPTION

@@ -148,6 +148,10 @@ bno_embrace_african_5 = {
             #custom MAA unlocked
 			text = bno_embrace_african_5_effect
 		}
+        custom_description_no_bullet = {
+            #custom MAA unlocked
+			text = bno_embrace_african_5_sex_effects
+		}
     }
 
     character_modifier = {

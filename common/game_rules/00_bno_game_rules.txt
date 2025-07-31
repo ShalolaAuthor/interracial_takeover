@@ -194,3 +194,20 @@ bno_rarity = {
 		
 	}
 }
+
+bno_invite_white_noble_decision = {
+	categories = {
+		interaccial_takeover
+	}
+
+	default = bno_invite_white_noble_decision_all
+
+	bno_invite_white_noble_decision_all = {
+
+	}
+
+	bno_invite_white_noble_decision_bbc = {
+		
+	}
+
+}

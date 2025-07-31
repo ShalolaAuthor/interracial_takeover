@@ -21,3 +21,5 @@ BNO_EMBRACE_3_EFFECT: "Unlocks Learning About Migrants Decision and Events"
 SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Select a [congenital|E] trait to become more common in the Dynasty"
 
 BBC_CAMP_BUILDING_UNLOCK: "Unlocks the [GetBuilding('bbc_camp_01').GetName] [building|E]"
+
+BNO_SEX_EFFECT_DESCRIPTION: "Unlocks [GetModifier('bno_sex_prowess').GetNameWithTooltip]"

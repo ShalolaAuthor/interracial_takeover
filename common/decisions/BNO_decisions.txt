@@ -167,9 +167,20 @@ bno_invite_slut_decision = {
 	is_shown = {
 		is_ruler = yes
 		is_adult = yes
-		OR = {
-			is_bbc = yes
-			has_trait = bno_whitegirl
+		trigger_if = {
+			limit = {
+				has_game_rule = bno_invite_white_noble_decision_all
+			}
+			OR = {
+				is_bbc = yes
+				has_trait = bno_whitegirl
+			}
+		}
+		trigger_if = {
+			limit = {
+				has_game_rule = bno_invite_white_noble_decision_bbc
+			}
+			has_trait = bno_bbc
 		}
 		OR = { 
 			is_ai = no 

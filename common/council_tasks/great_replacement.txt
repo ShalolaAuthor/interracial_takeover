@@ -17,6 +17,12 @@ great_replacement = {
 			}
 		}
 	}
+	asset = {
+		icon = "gfx/interface/icons/council_task_types/great_replacement.dds"
+		background = "gfx/interface/buttons/button_round_bg.dds"
+		frame = "gfx/interface/buttons/button_round_frame.dds"
+		glow = "gfx/particles/halo.dds"
+	}
 	
 	effect_desc = {
 		desc = {

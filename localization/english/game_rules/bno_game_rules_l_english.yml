@@ -12,7 +12,7 @@ setting_bno_interval_six_months_desc: "I'm devastated that they forced me into a
 
 rule_bno_body_modification: "@bnobbc! #X Interracial Takeover:#! Body Modification"
 setting_bno_body_modification_yes: "Yes, please"
-setting_bno_body_modification_yes_desc: "I'm thrilled that my body is finally turning black and curvaceous just how the BBCs always wanted - now I can fully embrace my role as their perfect cumdump!"
+setting_bno_body_modification_yes_desc: "I'm thrilled that my body is finally turning black and curvaceous just how the BBCs always wanted - now I can fully embrace my role as their perfect cum-dump!"
 setting_bno_body_modification_no: "No, Thank you"
 setting_bno_body_modification_no_desc: "While I love servicing big black cocks, becoming permanently black and curvaceous isn't something I'm comfortable with - my body is mine to control, even if it means not fully embracing their desires!"
 
@@ -75,3 +75,9 @@ setting_bno_bbc_common_chance: "Common"
 setting_bno_bbc_common_chance_desc: "I can't get enough of those #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#! ! The more often I can have them, the better."
 setting_bno_bbc_very_common_chance: "Very Common"
 setting_bno_bbc_very_common_chance_desc: "I need #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!s in my life at all times. They are the only thing that can satisfy my insatiable hunger for #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#! ."
+
+rule_bno_invite_white_noble_decision: "@bnobbc! #X Interracial Takeover:#! Invite White Noble Decision"
+setting_bno_invite_white_noble_decision_all: "All"
+setting_bno_invite_white_noble_decision_all_desc: "Everyone should be able to invite a white noble invited!"
+setting_bno_invite_white_noble_decision_bbc: "BBC Only"
+setting_bno_invite_white_noble_decision_bbc_desc: "Only BBCs should be able to invite a white noble!"
