@@ -246,8 +246,8 @@ bno_ep3_laamp_flavour.0001 = {
 	option = {
 		name = bno_ep3_laamp_flavour_0001.c
 		hidden_effect = {
-			scope:target1 ?= {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target1
 			}
 		}
 	}

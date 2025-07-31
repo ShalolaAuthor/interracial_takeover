@@ -3,3 +3,15 @@
     prowess = 1
     stacking = yes
 }
+
+bno_siding_with_local = {
+    icon = county_modifier_development_positive
+    tax_mult = 0.5
+    monthly_county_control_growth_add = -0.25
+}
+
+bno_siding_with_bbc = {
+    icon = county_modifier_control_positive
+    monthly_county_control_growth_add = 0.5
+    tax_mult = -0.25
+}

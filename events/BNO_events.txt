@@ -42,11 +42,11 @@ bno_events.0001 = {
 		name = bno_events01.a
 		add_courtier = scope:target1
 		hidden_effect = {
-			scope:target2 ?= {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target2
 			}
-			scope:target3 = {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target3
 			}
 		}
 	}
@@ -54,11 +54,11 @@ bno_events.0001 = {
 		name = bno_events01.c
 		add_courtier = scope:target3
 		hidden_effect = {
-			scope:target1 ?= {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target2
 			}
-			scope:target2 ?= {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target1
 			}
 		}
 	}
@@ -66,11 +66,11 @@ bno_events.0001 = {
 		name = bno_events01.b
 		add_courtier = scope:target2
 		hidden_effect = {
-			scope:target1 ?= {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target1
 			}
-			scope:target3 = {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target3
 			}
 		}
 	}
@@ -316,11 +316,11 @@ bno_events.0006 = {
 		name = bno_events01.a
 		add_courtier = scope:target1
 		hidden_effect = {
-			scope:target2 ?= {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target2
 			}
-			scope:target3 = {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target3
 			}
 		}
 	}
@@ -328,11 +328,11 @@ bno_events.0006 = {
 		name = bno_events01.c
 		add_courtier = scope:target3
 		hidden_effect = {
-			scope:target1 ?= {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target2
 			}
-			scope:target2 ?= {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target1
 			}
 		}
 	}
@@ -340,11 +340,11 @@ bno_events.0006 = {
 		name = bno_events01.b
 		add_courtier = scope:target2
 		hidden_effect = {
-			scope:target1 ?= {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target1
 			}
-			scope:target3 = {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target3
 			}
 		}
 	}

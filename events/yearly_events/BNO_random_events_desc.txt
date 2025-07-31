@@ -726,7 +726,7 @@ bno_random.0004 = {
 			}
 		}
 		
-		add_opinion = { #we are disapointed in them, not the other way around.
+		add_opinion = { #we are disappointed in them, not the other way around.
 			target = scope:target2
 			modifier = disappointed_opinion
 			opinion = -20
@@ -1443,7 +1443,7 @@ bno_random.2008 = {
 	}
 }
 
-#Random Fuck S Throneroom
+#Random Fuck S Throne room
 bno_random.0009 = {
 	type = character_event
 	title = bno_random_0009.title
@@ -1736,8 +1736,8 @@ bno_random.0010 = {
 		add_internal_flag = dangerous
 		bno_no_sex_stress_impact = yes
 		hidden_effect = {
-			scope:target1 ?= {
-				bno_kill_character = yes
+			bno_kill_character = {
+				TARGET = scope:target1
 			}
 		}
 	}
@@ -3187,7 +3187,7 @@ bno_random.0020 = {
 		}
 	}
 	
-	option = { #arent you persuasive
+	option = { #aren't you persuasive
 		name = bno_random_0020.a
 		bno_increase_sluttyness = yes
 	}
@@ -3941,7 +3941,7 @@ bno_random.2025 = { #can't run
 	}
 }
 
-#event for finding your daugter (adult) getting busy. join or watch
+#event for finding your daughter (adult) getting busy. join or watch
 bno_random.0026 = {
 	type = character_event
 	title = bno_random_0026.title
@@ -6226,7 +6226,7 @@ bno_random.0041 = {
 	}
 }
 
-#Wifu's fisrt BBC
+#Wifu's first BBC
 bno_random.0042 = {
 	type = character_event
 	title = bno_random_0042.title

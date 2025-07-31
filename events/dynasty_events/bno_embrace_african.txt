@@ -1,0 +1,116 @@
+﻿namespace = bno_embrace_african_1
+
+#1 conflict between migrants and locals. siding with locals increase income but lower control
+bno_embrace_african_1.0001 = {
+    type = character_event
+    title = bno_embrace_african_1.0001.title
+    desc = bno_embrace_african_1.0001.desc
+    theme = realm
+
+    override_background = {
+        reference = farmland
+    }
+
+    left_portrait = {
+        character = scope:bbc
+        animation = rage
+    }
+
+    right_portrait = {
+        character = scope:local
+        animation = anger
+    }
+
+    cooldown = { months = { 12 18 } }
+    trigger = {
+        is_ruler = yes
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_1
+        }
+        any_realm_province = {
+            NOT = { culture = culture:bnoc }
+        }
+    }
+    immediate = {
+        create_bbc = {
+            SCOPE_NAME = bbc
+            age = bno_young_adult
+        }
+        random_realm_province = {
+            limit = {
+                NOT = { culture = culture:bnoc }
+            }
+            set_local_variable = {
+                name = local_culture
+                value = culture
+            }
+            set_local_variable = {
+                name = local_faith
+                value = faith
+            }
+            save_scope_as = local_province
+        }
+        create_character = {
+            gender = male
+            location = location
+            dynasty = none
+            random_traits = yes
+            culture = local_var:local_culture
+            faith = local_var:local_faith
+            save_scope_as = local
+        }
+    }
+
+    option = {#siding with local
+        name = bno_embrace_african_1.0001.a
+        scope:local_province = {
+            county = {
+                if = {
+                    limit = {
+                        has_county_modifier = bno_siding_with_bbc
+                    }
+                    remove_county_modifier = bno_siding_with_bbc
+                }
+                add_county_modifier = {
+                    modifier = bno_siding_with_local
+                    months = 18
+                }
+            }
+        }
+    }
+
+    option = {
+        name = bno_embrace_african_1.0001.b
+        scope:local_province = {
+            county = {
+                if = {
+                    limit = {
+                        has_county_modifier = bno_siding_with_local
+                    }
+                    remove_county_modifier = bno_siding_with_local
+                }
+                add_county_modifier = {
+                    modifier = bno_siding_with_bbc
+                    months = 18
+                }
+            }
+        }
+    }
+
+    after = {
+        hidden_effect = {
+            bno_kill_character = {
+                TARGET = scope:bbc
+            }
+            bno_kill_character = {
+                TARGET = scope:local
+            }
+        }
+    }
+}
+#2 securing court position
+#3 gaining prestige
+#4 obtaining gold
+#5 requesting duel
+#6 bbc demands to join court
+#7 ignoring migrants will spark rebellion

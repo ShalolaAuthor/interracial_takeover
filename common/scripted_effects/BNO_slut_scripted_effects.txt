@@ -790,20 +790,22 @@ create_slut = {
 }
 
 bno_kill_character = {
-	death = {
-		death_reason = death_disappearance
+	$TARGET$ = {
+		death = {
+			death_reason = death_disappearance
+		}
 	}
 }
 
 bno_kill_bbc_1_to_3 = {
-	scope:bbc_1 = {
-		bno_kill_character = yes
+	bno_kill_character = {
+		TARGET = scope:bbc_1
 	}
-	scope:bbc_2 = {
-		bno_kill_character = yes
+	bno_kill_character = {
+		TARGET = scope:bbc_2
 	}
-	scope:bbc_3 = {
-		bno_kill_character = yes
+	bno_kill_character = {
+		TARGET = scope:bbc_3
 	}
 }
 

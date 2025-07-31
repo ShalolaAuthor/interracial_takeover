@@ -182,6 +182,9 @@ bno_invite_slut_decision = {
 			}
 			has_trait = bno_bbc
 		}
+		NOT = {
+			has_game_rule = bno_invite_white_noble_decision_off
+		}
 		OR = { 
 			is_ai = no 
 			has_game_rule = bno_decision_npc_yes 

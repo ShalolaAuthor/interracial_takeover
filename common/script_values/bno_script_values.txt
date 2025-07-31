@@ -45,12 +45,12 @@ hair_color_y = {
 }
 
 skin_color_x = {
-  value = 0.1
+  value = 0.025
   multiply = var:bno_becoming_dark
 }
 
 skin_color_y = {
-  value = 0.1
+  value = 0.025
   multiply = var:bno_becoming_dark
 }
 
