@@ -21,7 +21,7 @@ sneak_bbc = {
 		scope:actor = {
 			OR = {
 				has_trait = bno_bbc
-				has_trait = bno_qos
+				has_trait = bno_whitegirl
 			}
 		}
 	}
