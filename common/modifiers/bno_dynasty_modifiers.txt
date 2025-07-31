@@ -1,0 +1,5 @@
+﻿bno_sex_prowess = {
+    icon = martial_positive
+    prowess = 1
+    stacking = yes
+}

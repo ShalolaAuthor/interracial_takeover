@@ -1,4 +1,4 @@
-﻿#CUCK MODIFERS
+﻿#CUCK MODIFIERS
 bno_cuck_blissfully_unaware = {
 	icon = stress_positive
 	stress_loss_mult = 0.2
@@ -24,7 +24,7 @@ bno_happy_cuck_husband = {
 	martial = -2
 }
 
-#MARTIAL MODIFERS
+#MARTIAL MODIFIERS
 bno_troops_lack_bunnies = {
 	icon = martial_negative
 	martial = -2
@@ -51,7 +51,7 @@ bno_seeks_new_world_order = {
 	attraction_opinion = 15
 }
 
-#WHORING MODIFERS
+#WHORING MODIFIERS
 bno_pimping_lowborn_white_whores = {
 	icon = economy_positive
 	monthly_income = 1
@@ -99,7 +99,7 @@ bno_pretty_whore_for_liege = {
 	monthly_piety = 1
 }
 
-#MARRIAGE MODIFERS
+#MARRIAGE MODIFIERS
 bno_took_unmarried_white_wife = {
 	icon = love_positive
 	prowess = 1
@@ -175,7 +175,7 @@ bno_family_betrothed_me_to_bbc = {
 	opinion_of_parents = -5
 }
 
-#WIFE BETRAYAL MODIFERS
+#WIFE BETRAYAL MODIFIERS
 bno_wife_stealing_cucks_gold = {
 	icon = stewardship_positive
 	stewardship = 1
@@ -202,7 +202,7 @@ bno_gave_husband_to_enemy = {
 	#bbcs_opinion = 10
 }
 
-#MISC MODIFERS
+#MISC MODIFIERS
 bno_stress_relieved = {
 	icon = stress_positive
 	stress_loss_mult = 0.1

@@ -75,7 +75,13 @@ bno_beta = {
 	seduce_scheme_phase_duration_add = 20
 	fertility = -0.80
 
-	
+	track = {
+		33 = {
+		}
+		66 = {
+		}
+	}
+
 	ruler_designer_cost = -30
 	
 	# child_inheritance_sex = male
@@ -230,8 +236,9 @@ bno_bbc = {
 	max_murder_schemes_add = 1
 	#owned_personal_scheme_success_chance_add = 125
 	diplomatic_range_mult = 1.3
+	negate_health_penalty_add = 1
 
-	ruler_designer_cost = 30
+	ruler_designer_cost = 100
 	
 	genetic = yes
 	physical = yes
@@ -309,12 +316,14 @@ bno_curious = {
 			seduce_scheme_phase_duration_add = -10
 			prowess = -1
 			knight_limit = 1
+			negate_health_penalty_add = 0.2
 		}
 	}
 
 	#Modifiers	
 	ignore_negative_culture_opinion = yes
 	ignore_negative_opinion_of_culture = yes
+	negate_health_penalty_add = 0.2
 	
 	#AI
 	ai_boldness = low_negative_ai_value
@@ -373,6 +382,7 @@ bno_blacked = {
 			dread_decay_mult = 0.2
 			owned_personal_scheme_success_chance_add = 20
 			general_opinion = 5
+			negate_health_penalty_add = 0.2
 		}
 	}
 
@@ -383,6 +393,7 @@ bno_blacked = {
 	seduce_scheme_phase_duration_add = -10
 	prowess = -2
 	knight_limit = 2
+	negate_health_penalty_add = 0.4
 	
 	#AI
 	ai_boldness = low_negative_ai_value
@@ -441,6 +452,7 @@ bno_snowbunny = {
 			dread_decay_mult = 0.1
 			owned_scheme_secrecy_add = 10
 			general_opinion = 5
+			negate_health_penalty_add = 0.2
 		}
 	}
 
@@ -460,6 +472,7 @@ bno_snowbunny = {
 	knight_limit = 2
 	stress_gain_mult = -0.05
 	stress_loss_mult = 0.05
+	negate_health_penalty_add = 0.6
 	
 	#AI
 	ai_boldness = medium_negative_ai_value
@@ -515,6 +528,7 @@ bno_qos = {
 			dread_decay_mult = 0.2
 			development_growth = 0.1
 			general_opinion = 5
+			negate_health_penalty_add = 0.2
 		}
 	}
 
@@ -536,6 +550,7 @@ bno_qos = {
 	knight_limit = 2
 	stress_gain_mult = -0.1
 	stress_loss_mult = 0.1
+	negate_health_penalty_add = 0.8
 
 	#Flags
 	flag = carn_no_consequences_for_extramarital_sex_with_others
@@ -629,6 +644,7 @@ bno_mindless_bbc_slut = {
 	fertility = 0.25
 	stress_gain_mult = -0.2
 	stress_loss_mult = 0.2
+	negate_health_penalty_add = 1
 
 	#Flags
 	flag = carn_no_consequences_for_extramarital_sex_with_others

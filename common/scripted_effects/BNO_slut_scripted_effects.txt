@@ -17,6 +17,20 @@ convert_to_african_culture = {
 	}
 }
 
+bno_add_prowess_per_sex = {
+	if = {
+		limit = {
+			exists = dynasty
+			dynasty ?= {
+				has_dynasty_perk = bno_embrace_african_5
+			}
+		}
+		add_character_modifier = {
+			modifier = bno_sex_prowess
+		}
+	}
+}
+
 bno_becoming_lustful_effect = {
 	switch = {
 		trigger = has_trait
@@ -1043,6 +1057,7 @@ bno_add_gold_faith = {
 }
 
 bno_slut_sex_after_effects = {
+	bno_add_prowess_per_sex = yes
 	bno_sex_increase_dynasty_prestige = yes
 	stress_impact = {
 		bno_bbc = -50
@@ -1111,6 +1126,7 @@ bno_bull_husband_sex_after_effects = {
 
 bno_bbc_sex_after_effects = {
 	bno_sex_increase_dynasty_prestige = yes
+	bno_add_prowess_per_sex = yes
 	bno_increase_sluttyness = yes
 	stress_impact = {
 		bno_curious = -10
