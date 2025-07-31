@@ -1,4 +1,15 @@
-﻿namespace = bno_embrace_african_1
+﻿namespace = bno_kill_temporary_character
+
+bno_kill_temporary_character.0001 = {
+    hidden = yes
+    immediate = {
+        bno_kill_character = {
+            TARGET = root
+        }
+    }
+}
+
+namespace = bno_embrace_african_1
 
 #1 conflict between migrants and locals. siding with locals increase income but lower control
 bno_embrace_african_1.0001 = {
@@ -32,32 +43,84 @@ bno_embrace_african_1.0001 = {
         }
     }
     immediate = {
-        create_bbc = {
-            SCOPE_NAME = bbc
-            age = bno_young_adult
+        #get real wandering local bbc
+        every_realm_province = {
+            every_pool_character = {
+                province = prev
+                limit = {
+                    is_bbc = yes
+                }
+                add_to_temporary_list = local_bbc
+            }
         }
-        random_realm_province = {
+        random_in_list = {
+            list = local_bbc
+            save_scope_as = bbc
+        }
+        #fallback create bbc then kill it
+        if = {
+            limit = {
+                NOT = { exists = scope:bbc }
+            }
+            create_bbc = {
+                SCOPE_NAME = bbc
+                age = bno_young_adult
+            }
+            scope:bbc = {
+                trigger_event = {
+                    id = bno_kill_temporary_character.0001
+                    days = 2
+                    delayed = yes
+                }
+            }
+        }
+        every_realm_province = {
             limit = {
                 NOT = { culture = culture:bnoc }
             }
-            set_local_variable = {
-                name = local_culture
-                value = culture
+            every_pool_character = {
+                province = prev
+                add_to_temporary_list = local_people
             }
-            set_local_variable = {
-                name = local_faith
-                value = faith
-            }
-            save_scope_as = local_province
         }
-        create_character = {
-            gender = male
-            location = location
-            dynasty = none
-            random_traits = yes
-            culture = local_var:local_culture
-            faith = local_var:local_faith
+        random_in_list = {
+            list = local_people
             save_scope_as = local
+        }
+        if = {
+            limit = {
+                NOT = { exists = scope:local }
+            }
+            random_realm_province = {
+                limit = {
+                    NOT = { culture = culture:bnoc }
+                }
+                set_local_variable = {
+                    name = local_culture
+                    value = culture
+                }
+                set_local_variable = {
+                    name = local_faith
+                    value = faith
+                }
+                save_scope_as = local_province
+            }
+            create_character = {
+                gender = male
+                location = location
+                dynasty = none
+                random_traits = yes
+                culture = local_var:local_culture
+                faith = local_var:local_faith
+                save_scope_as = local
+            }
+            scope:local = {
+                trigger_event = {
+                    id = bno_kill_temporary_character.0001
+                    days = 2
+                    delayed = yes
+                }
+            }
         }
     }
 
@@ -93,17 +156,6 @@ bno_embrace_african_1.0001 = {
                     modifier = bno_siding_with_bbc
                     months = 18
                 }
-            }
-        }
-    }
-
-    after = {
-        hidden_effect = {
-            bno_kill_character = {
-                TARGET = scope:bbc
-            }
-            bno_kill_character = {
-                TARGET = scope:local
             }
         }
     }
