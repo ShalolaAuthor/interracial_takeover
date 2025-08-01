@@ -560,10 +560,9 @@ is_ai_pure_white_girl = {
 }
 
 is_pure_whitegirl = {
-	is_female = yes
+	is_a_girl = yes
 	is_african = no
 	is_slut = no
-	is_elligible_partner = yes
 }
 
 is_mindless_bbc_slut_married_to_bbc = {

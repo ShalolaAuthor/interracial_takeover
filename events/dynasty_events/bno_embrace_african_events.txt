@@ -99,6 +99,7 @@ bno_embrace_african_1.0001 = {
 
     option = {#siding with local
         name = bno_embrace_african_1.0001.a
+        bno_reject_bbc_demands = yes
         scope:local_province = {
             county = {
                 if = {
@@ -174,6 +175,7 @@ bno_embrace_african_1.0002 = {
     option = { # you agree to give bbc the position
         name = bno_embrace_african_1.0002.a
         fire_councillor = cp:councillor_marshal
+        add_courtier = scope:bbc
         assign_councillor_type = {
             type = councillor_marshal
             target = scope:bbc
@@ -182,6 +184,7 @@ bno_embrace_african_1.0002 = {
 
     option = {
         name = bno_embrace_african_1.0002.b
+        bno_reject_bbc_demands = yes
         bno_dismiss_local_bbc = yes
         bno_decrease_county_control = yes
     }
@@ -261,6 +264,7 @@ bno_embrace_african_1.0003 = {#your courtier is a known whore
     option = {
         name = bno_embrace_african_1.0003.b
         add_prestige = major_prestige_loss
+        bno_reject_bbc_demands = yes
         bno_decrease_county_control = yes
     }
 }
@@ -345,6 +349,7 @@ bno_embrace_african_1.0004 = {#female courtier got targeted by migrants
     option = {# reject the proposal, lower county control, give gold for appeasement
         name = bno_embrace_african_1.0004.b
         bno_decrease_county_control = yes
+        bno_reject_bbc_demands = yes
         pay_short_term_gold = {
             target = scope:bbc
             gold = minor_gold_value
@@ -353,7 +358,7 @@ bno_embrace_african_1.0004 = {#female courtier got targeted by migrants
 }
 #5 requesting duel
 bno_embrace_african_1.0005 = {
-    type = duel_event
+    type = character_event
     title = bno_embrace_african_1.0005.title
     desc = bno_embrace_african_1.0005.desc
     theme = martial
@@ -408,6 +413,7 @@ bno_embrace_african_1.0005 = {
                     increase_wounds_effect = { REASON = fight }
                 }
                 bno_dismiss_local_bbc = yes
+                bno_reject_bbc_demands = yes
                 add_prestige = major_prestige_gain
                 bno_increase_county_control = yes
             }
@@ -451,6 +457,7 @@ bno_embrace_african_1.0005 = {
             PARTNER = scope:bbc
         }
         bno_dismiss_local_bbc = yes
+        bno_reject_bbc_demands = yes
     }
 
     option = { # BBC : duel if win reject the bbc gain prestige, if loss let bbc join court
@@ -474,6 +481,7 @@ bno_embrace_african_1.0005 = {
                 add_prestige = major_prestige_gain
                 bno_increase_county_control = yes
                 bno_dismiss_local_bbc = yes
+                bno_reject_bbc_demands = yes
             }
             50 = { # loss
                 compare_modifier = {
@@ -537,6 +545,7 @@ bno_embrace_african_1.0006 = {
             target = scope:bbc
             gold = minor_gold_value
         }
+        bno_reject_bbc_demands = yes
         bno_dismiss_local_bbc = yes
         bno_decrease_county_control = yes
     }
@@ -553,7 +562,7 @@ bno_embrace_african_1.0007 = {
     }
 
     left_portrait = {
-        character = scope:bbc
+        character = scope:peasant_leader
         animation = aggressive_sword
     }
 
@@ -569,28 +578,61 @@ bno_embrace_african_1.0007 = {
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_1
         }
-        any_held_title = {
-            tier = tier_county
-            is_landless_type_title = no
-            county_control < 0.5
-            NOT = { culture = culture:bnoc }
-        }
-        NOR = {
-            has_trait = bno_bbc
-            has_trait = bno_whitegirl
-        }
     }
 
     immediate = {
-        bno_get_local_bbc = yes
+        every_realm_province = {
+            every_pool_character = {
+                province = prev
+                limit = {
+                    is_bbc = yes
+                }
+                add_to_temporary_list = local_bbcs
+            }
+        }
+        random_held_title = {
+            limit = {
+                tier >= tier_county
+            }
+            save_scope_as = target_title
+        }
+        hidden_effect = {
+            scope:target_title = {
+                title_create_faction = {
+                    type = peasant_faction
+                    target = root
+                }
+            }
+            random_targeting_faction = {
+                limit = {
+                    faction_is_type = peasant_faction
+                }
+                save_scope_as = rebel_faction
+                bno_setup_peasant_leader_effect = yes
+            }
+        }
     }
 
     option = {
         name = bno_embrace_african_1.0007.a
-        scope:bbc = {
-            create_faction = {
-                type = peasant_faction
-                target = root
+        every_in_list = {
+            list = local_bbcs
+            limit = {
+                can_join_faction = scope:rebel_faction
+            }
+            join_faction = scope:rebel_faction
+        }
+    }
+
+    after = {
+        scope:rebel_faction = {
+            faction_start_war = {}
+            hidden_effect = {
+                faction_spawn_member_county_armies_effect = {
+                    FACTION = scope:rebel_faction
+                    ARMY_OWNER = scope:peasant_leader
+                    PEASANT_ARMY_NAME = peasant_faction_event_troops
+                }
             }
         }
     }

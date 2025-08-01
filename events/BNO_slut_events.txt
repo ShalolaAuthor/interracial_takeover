@@ -1521,8 +1521,9 @@ pregnancy.5001 = {
 
 	trigger = {
 		scope:mother = {
-			NOT = {
+			NOR = {
 				has_character_flag = bno_slut.1015
+				has_trait = bno_whitegirl
 			}
 			is_pregnant = yes
 		}

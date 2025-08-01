@@ -32,7 +32,6 @@ bno_yearly_embrace_african_pulse = {
         100 = bno_embrace_african_1.0004
         100 = bno_embrace_african_1.0005
         100 = bno_embrace_african_1.0006
-        100 = bno_embrace_african_1.0007
     }
 }
 

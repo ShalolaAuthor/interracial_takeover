@@ -4,6 +4,6 @@ bno_is_county_not_fully_controlled = {
     any_held_title = {
         tier = tier_county
         is_landless_type_title = no
-        county_control < 1
+        county_control < 100
     }
 }
