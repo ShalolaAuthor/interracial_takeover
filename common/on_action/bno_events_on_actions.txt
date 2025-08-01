@@ -16,6 +16,7 @@ bno_events_pulse = {
 		bno_random_pulse
 		bno_slut_pulse
 		bno_council_orgy_pulse
+		bno_embrace_african_pulse
 	}
 }
 

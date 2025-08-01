@@ -53,6 +53,7 @@ memorialisation
 modfile
 mult
 NAND
+neighbour
 newchange
 noncon
 NOOO
