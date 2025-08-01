@@ -1,5 +1,11 @@
 ﻿#bno_sex_increase_dynasty_prestige
 #bno_bbc_marriage_effect
+#bno_increase_county_control
+#bno_decrease_county_control
+#bno_dismiss_local_bbc
+#bno_get_local_bbc
+#bno_get_local_whore
+#bno_dismiss_local_whore
 
 bno_sex_increase_dynasty_prestige = {
     if = {
@@ -51,5 +57,138 @@ bno_bbc_marriage_effect = {
 	    	    add_legitimacy = bno_bbc_marriage_prestige_perk_reward
             }	
 	    }
+    }
+}
+
+bno_increase_county_control = {
+	every_held_title = {
+        limit = {
+            tier = tier_county
+            is_landless_type_title = no
+        }
+        change_county_control = {
+            value = {
+                integer_range = {
+                    min = 5
+                    max = 50
+                }
+            }
+        }
+    }
+}
+
+bno_decrease_county_control = {
+	every_held_title = {
+        limit = {
+            tier = tier_county
+            is_landless_type_title = no
+        }
+        change_county_control = {
+            value = {
+                integer_range = {
+                    min = -50
+                    max = -5
+                }
+            }
+        }
+    }
+}
+
+bno_dismiss_local_bbc = {
+	if = {
+        limit = {
+            local_var:local_bbc = no
+        }
+        scope:bbc = {
+            trigger_event = {
+                id = bno_kill_temporary_character.0001
+                days = 2
+                delayed = yes
+            }
+        }
+    }
+}
+
+bno_get_local_bbc = {
+    #get real wandering local bbc
+    set_local_variable = {
+        name = local_bbc
+        value = yes
+    }
+    every_realm_province = {
+        every_pool_character = {
+            province = prev
+            limit = {
+                is_bbc = yes
+            }
+            add_to_temporary_list = local_bbc
+        }
+    }
+    random_in_list = {
+        list = local_bbc
+        save_scope_as = bbc
+    }
+    #fallback create bbc
+    if = {
+        limit = {
+            NOT = { exists = scope:bbc }
+        }
+        create_bbc = {
+            SCOPE_NAME = bbc
+            age = bno_young_adult
+        }
+        set_local_variable = {
+            name = local_bbc
+            value = no
+        }
+    }
+}
+
+bno_get_local_whore = {
+    #get real wandering local bbc
+    set_local_variable = {
+        name = local_whore
+        value = yes
+    }
+    every_realm_province = {
+        every_pool_character = {
+            province = prev
+            limit = {
+                is_white_girl = yes
+            }
+            add_to_temporary_list = local_whore
+        }
+    }
+    random_in_list = {
+        list = local_whore
+        save_scope_as = whore
+    }
+    if = {
+        limit = {
+            NOT = { exists = scope:whore }
+        }
+        create_slut = {
+            SCOPE_NAME = whore
+            age = bno_younger_adult
+        }
+        set_local_variable = {
+            name = local_whore
+            value = no
+        }
+    }
+}
+
+bno_dismiss_local_whore = {
+	if = {
+        limit = {
+            local_var:local_whore = no
+        }
+        scope:whore = {
+            trigger_event = {
+                id = bno_kill_temporary_character.0001
+                days = 2
+                delayed = yes
+            }
+        }
     }
 }

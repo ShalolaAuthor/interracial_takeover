@@ -244,3 +244,19 @@ warfare_legacy_5_effect = {
 			}
 		}
 	}
+
+every_held_title = {
+			limit = {
+				tier = tier_county
+				is_landless_type_title = no
+				county_control > 0
+			}
+			change_county_control = {
+				value = {
+					integer_range = {
+						min = -50
+						max = -5
+					}
+				}
+			}
+		}

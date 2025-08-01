@@ -620,7 +620,7 @@ bno_mindless_bbc_slut = {
 	}
 	monthly_track_xp_degradation = {
 		min = 30
-		change = 5
+		change = 10
 	}
 
 	#Modifiers

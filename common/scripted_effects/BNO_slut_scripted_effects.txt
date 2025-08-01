@@ -739,6 +739,7 @@ create_bbc = {
 		}
 		after_creation = {
 			set_sexuality = heterosexual
+			add_gold = minor_gold_value
 		}
 	}
 	scope:$SCOPE_NAME$ = {

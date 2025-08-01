@@ -33,6 +33,7 @@ bno_embrace_african_1.0001 = {
     }
 
     cooldown = { months = { 12 18 } }
+
     trigger = {
         is_ruler = yes
         dynasty ?= {
@@ -42,38 +43,10 @@ bno_embrace_african_1.0001 = {
             NOT = { culture = culture:bnoc }
         }
     }
+    
     immediate = {
-        #get real wandering local bbc
-        every_realm_province = {
-            every_pool_character = {
-                province = prev
-                limit = {
-                    is_bbc = yes
-                }
-                add_to_temporary_list = local_bbc
-            }
-        }
-        random_in_list = {
-            list = local_bbc
-            save_scope_as = bbc
-        }
-        #fallback create bbc then kill it
-        if = {
-            limit = {
-                NOT = { exists = scope:bbc }
-            }
-            create_bbc = {
-                SCOPE_NAME = bbc
-                age = bno_young_adult
-            }
-            scope:bbc = {
-                trigger_event = {
-                    id = bno_kill_temporary_character.0001
-                    days = 2
-                    delayed = yes
-                }
-            }
-        }
+        bno_get_local_bbc = yes
+        bno_dismiss_local_bbc = yes
         every_realm_province = {
             limit = {
                 NOT = { culture = culture:bnoc }
@@ -161,8 +134,538 @@ bno_embrace_african_1.0001 = {
     }
 }
 #2 securing court position
+bno_embrace_african_1.0002 = {
+    type = character_event
+    title = bno_embrace_african_1.0002.title
+    desc = bno_embrace_african_1.0002.desc
+    theme = dynasty
+
+    override_background = {
+        reference = throne_room
+    }
+
+    left_portrait = {
+        character = scope:bbc
+        animation = disapproval
+    }
+
+    right_portrait = {
+        character = cp:councillor_marshal
+        animation = anger
+    }
+
+    cooldown = { months = { 12 18 } }
+
+    trigger = {
+        is_ruler = yes
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_1
+        }
+        any_councillor = {
+            has_council_position = councillor_marshal
+            is_bbc = no
+        }
+    }
+
+    immediate = {
+        bno_get_local_bbc = yes
+    }
+
+    option = { # you agree to give bbc the position
+        name = bno_embrace_african_1.0002.a
+        fire_councillor = cp:councillor_marshal
+        assign_councillor_type = {
+            type = councillor_marshal
+            target = scope:bbc
+        }
+    }
+
+    option = {
+        name = bno_embrace_african_1.0002.b
+        bno_dismiss_local_bbc = yes
+        bno_decrease_county_control = yes
+    }
+}
 #3 gaining prestige
+bno_embrace_african_1.0003 = {#your courtier is a known whore
+    type = character_event
+    title = bno_embrace_african_1.0003.title
+    desc = bno_embrace_african_1.0003.desc
+    theme = realm
+
+    override_background = {
+        reference = market
+    }
+
+    left_portrait = {
+        character = scope:bbc
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = scope:whore
+        animation = flirtation
+    }
+
+    cooldown = { months = { 12 18 } }
+
+    trigger = {
+        is_ruler = yes
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_1
+        }
+        any_courtier_or_guest = {
+            is_a_girl = yes
+            has_trait = bno_whitegirl
+        }
+        bno_is_county_not_fully_controlled = yes
+    }
+
+    immediate = {
+        bno_get_local_bbc = yes
+        bno_dismiss_local_bbc = yes
+        random_courtier_or_guest = {
+            limit = {
+                is_a_girl = yes
+                has_trait = bno_whitegirl
+            }
+            save_scope_as = whore
+        }
+    }
+
+    option = { #you agree to let him take your courtier
+        name = bno_embrace_african_1.0003.a
+        add_prestige = major_prestige_gain
+        bno_increase_county_control = yes
+        scope:whore = {
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc
+            }
+            hidden_effect = {
+                bno_have_sex_with_effects = {
+                    PARTNER = scope:bbc
+                }
+                bno_have_sex_with_effects = {
+                    PARTNER = scope:bbc
+                }
+                bno_have_sex_with_effects = {
+                    PARTNER = scope:bbc
+                }
+                bno_have_sex_with_effects = {
+                    PARTNER = scope:bbc
+                }
+            }
+        }
+    }
+
+    option = {
+        name = bno_embrace_african_1.0003.b
+        add_prestige = major_prestige_loss
+        bno_decrease_county_control = yes
+    }
+}
 #4 obtaining gold
+bno_embrace_african_1.0004 = {#female courtier got targeted by migrants
+    type = character_event
+    title = bno_embrace_african_1.0004.title
+    desc = bno_embrace_african_1.0004.desc
+    theme = realm
+
+    override_background = {
+        reference = throne_room
+    }
+
+    left_portrait = {
+        character = scope:bbc
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = scope:whore
+        animation = stunned
+    }
+
+    cooldown = { months = { 12 18 } }
+
+    trigger = {
+        is_ruler = yes
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_1
+        }
+        bno_is_county_not_fully_controlled = yes
+        any_courtier_or_guest = {
+            NOT = { has_trait = bno_blood }
+            is_a_girl = yes
+            NOT = { has_trait = bno_whitegirl }
+        }
+    }
+    
+    immediate = {
+        bno_get_local_bbc = yes
+        bno_dismiss_local_bbc = yes
+        random_courtier_or_guest = {
+            limit = {
+                NOT = { has_trait = bno_blood }
+                is_a_girl = yes
+                NOT = { has_trait = bno_whitegirl }
+            }
+            save_scope_as = whore
+        }
+    }
+
+    option = {# accept the proposal let the girl be fucked by him, get more county control, get gold for appeasement
+        name = bno_embrace_african_1.0004.a
+        scope:whore = {
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc
+            }
+            hidden_effect = {
+                bno_have_sex_with_effects = {
+                    PARTNER = scope:bbc
+                }
+                bno_have_sex_with_effects = {
+                    PARTNER = scope:bbc
+                }
+                bno_have_sex_with_effects = {
+                    PARTNER = scope:bbc
+                }
+                bno_have_sex_with_effects = {
+                    PARTNER = scope:bbc
+                }
+            }
+        }
+        bno_increase_county_control = yes
+        scope:bbc = {
+            pay_short_term_gold = {
+                target = root
+                gold = minor_gold_value
+            }
+        }
+    }
+    option = {# reject the proposal, lower county control, give gold for appeasement
+        name = bno_embrace_african_1.0004.b
+        bno_decrease_county_control = yes
+        pay_short_term_gold = {
+            target = scope:bbc
+            gold = minor_gold_value
+        }
+    }
+}
 #5 requesting duel
+bno_embrace_african_1.0005 = {
+    type = duel_event
+    title = bno_embrace_african_1.0005.title
+    desc = bno_embrace_african_1.0005.desc
+    theme = martial
+
+    override_background = {
+        reference = battlefield
+    }
+
+    left_portrait = {
+        character = root
+        animation = aggressive_sword
+    }
+
+    right_portrait = {
+        character = scope:bbc
+        animation = aggressive_spear
+    }
+
+    cooldown = { months = { 12 18 } }
+
+    trigger = {
+        is_ruler = yes
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_1
+        }
+        bno_is_county_not_fully_controlled = yes
+    }
+
+    immediate = {
+        bno_get_local_bbc = yes
+    }
+
+    option = { # not whore, or not bbc : duel martial prowess, wounded if loss, bbc join court, win gain prestige
+        name = bno_embrace_african_1.0005.a
+        trigger = {
+            NOR = {
+                has_trait = bno_bbc
+                has_trait = bno_whitegirl
+            }
+        }
+        duel = {
+            skills = { martial prowess }
+            target = scope:bbc
+            50 = { # win
+                compare_modifier = {
+                    value = scope:duel_value
+                    multiplier = 3.5
+                    min = -49
+                }
+                desc = bno_embrace_african_1.0005.a.success.tooltip
+                scope:bbc = {
+                    increase_wounds_effect = { REASON = fight }
+                }
+                bno_dismiss_local_bbc = yes
+                add_prestige = major_prestige_gain
+                bno_increase_county_control = yes
+            }
+            50 = { # loss
+                compare_modifier = {
+                    value = scope:duel_value
+                    multiplier = -4.5
+                    min = 0
+                }
+                desc = bno_embrace_african_1.0005.a.failure.tooltip
+                increase_wounds_effect = { REASON = fight }
+                add_prestige = major_prestige_loss
+                add_courtier = scope:bbc
+                bno_decrease_county_control = yes
+            }
+        }
+    }
+
+    option = { # whore: fuck and join court
+        name = bno_embrace_african_1.0005.b.1
+        trigger = {
+            has_trait = bno_whitegirl
+        }
+        bno_have_sex_with_effects = {
+            PARTNER = scope:bbc
+        }
+        add_courtier = scope:bbc
+        bno_increase_county_control = yes
+    }
+
+    option = { # whore: fuck and reject them from court
+        name = bno_embrace_african_1.0005.b.2
+        trigger = {
+            has_trait = bno_whitegirl
+            any_courtier_or_guest = {
+                is_bbc = yes
+                count > 5
+            }
+        }
+        bno_have_sex_with_effects = {
+            PARTNER = scope:bbc
+        }
+        bno_dismiss_local_bbc = yes
+    }
+
+    option = { # BBC : duel if win reject the bbc gain prestige, if loss let bbc join court
+        name = bno_embrace_african_1.0005.c
+        trigger = {
+            has_trait = bno_bbc
+        }
+        duel = {
+            skills = { martial prowess }
+            target = scope:bbc
+            50 = { # win
+                compare_modifier = {
+                    value = scope:duel_value
+                    multiplier = 3.5
+                    min = -49
+                }
+                desc = bno_embrace_african_1.0005.c.success.tooltip
+                scope:bbc = {
+                    increase_wounds_effect = { REASON = fight }
+                }
+                add_prestige = major_prestige_gain
+                bno_increase_county_control = yes
+                bno_dismiss_local_bbc = yes
+            }
+            50 = { # loss
+                compare_modifier = {
+                    value = scope:duel_value
+                    multiplier = -4.5
+                    min = 0
+                }
+                desc = bno_embrace_african_1.0005.c.failure.tooltip
+                add_courtier = scope:bbc
+            }
+        }
+    }
+}
 #6 bbc demands to join court
+bno_embrace_african_1.0006 = {
+    type = character_event
+    title = bno_embrace_african_1.0006.title
+    desc = bno_embrace_african_1.0006.desc
+    theme = realm
+
+    override_background = {
+        reference = council_chamber
+    }
+
+    left_portrait = {
+        character = root
+        animation = thinking
+    }
+
+    right_portrait = {
+        character = scope:bbc
+        animation = disappointed
+    }
+
+    cooldown = { months = { 12 18 } }
+
+    trigger = {
+        is_ruler = yes
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_1
+        }
+        any_courtier_or_guest = {
+            is_bbc = yes
+            count < 5
+        }
+    }
+
+    immediate = {
+        bno_get_local_bbc = yes
+    }
+
+    option = {#agree bbc join court
+        name = bno_embrace_african_1.0006.a
+        add_courtier = scope:bbc
+    }
+
+    option = {# reject give gold
+        name = bno_embrace_african_1.0006.b
+        pay_short_term_gold = {
+            target = scope:bbc
+            gold = minor_gold_value
+        }
+        bno_dismiss_local_bbc = yes
+    }
+}
 #7 ignoring migrants will spark rebellion
+bno_embrace_african_1.0007 = {
+    type = character_event
+    title = bno_embrace_african_1.0007.title
+    desc = bno_embrace_african_1.0007.desc
+    theme = war
+
+    override_background = {
+        reference = battlefield
+    }
+
+    left_portrait = {
+        character = scope:bbc
+        animation = aggressive_sword
+    }
+
+    right_portrait = {
+        character = root
+        animation = aggressive_sword
+    }
+
+    cooldown = { months = { 12 18 } }
+
+    trigger = {
+        is_ruler = yes
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_1
+        }
+        any_held_title = {
+            tier = tier_county
+            is_landless_type_title = no
+            county_control < 0.5
+            NOT = { culture = culture:bnoc }
+        }
+    }
+
+    immediate = {
+        bno_get_local_bbc = yes
+    }
+
+    option = { # BBC: you bond over fucking your courtiers together
+        name = bno_embrace_african_1.0007.a
+        trigger = {
+            has_trait = bno_bbc
+        }
+        exclusive = yes
+        add_internal_flag = yes
+
+        bno_get_local_whore = yes
+        bno_dismiss_local_whore = yes
+        bno_dismiss_local_bbc = yes
+        scope:whore = {
+            bno_have_sex_with_effects = {
+                PARTNER = root
+            }
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc
+            }
+        }
+        bno_increase_county_control = yes
+    }
+
+    option = { # Whore: you got fucked by him until you passed out
+        name = bno_embrace_african_1.0007.b
+        trigger = {
+            has_trait = bno_whitegirl
+        }
+        exclusive = yes
+        add_internal_flag = yes
+
+        bno_dismiss_local_bbc = yes
+        bno_have_sex_with_effects = {
+            PARTNER = scope:bbc
+        }
+        bno_increase_county_control = yes
+        hidden_effect = {
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc
+            }
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc
+            }
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc
+            }
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc
+            }
+        }
+    }
+
+    option = { # Duel: you dont agree with their proposal
+        name = bno_embrace_african_1.0007.c
+        duel = {
+            skills = { martial prowess }
+            target = scope:bbc
+            50 = { # win
+                compare_modifier = {
+                    value = scope:duel_value
+                    multiplier = 3.5
+                    min = -49
+                }
+                desc = bno_embrace_african_1.0007.c.success.tooltip
+                scope:bbc = {
+                    increase_wounds_effect = { REASON = fight }
+                }
+                add_prestige = major_prestige_gain
+                bno_dismiss_local_bbc = yes
+                bno_increase_county_control = yes
+            }
+            50 = { # loss
+                compare_modifier = {
+                    value = scope:duel_value
+                    multiplier = -4.5
+                    min = 0
+                }
+                desc = bno_embrace_african_1.0007.c.failure.tooltip
+                increase_wounds_effect = { REASON = fight }
+                add_prestige = major_prestige_loss
+                bno_decrease_county_control = yes
+                scope:bbc = {
+                    create_faction = {
+                        type = peasant_faction
+                        target = root
+                    }
+                }
+            }
+        }
+    }
+}
