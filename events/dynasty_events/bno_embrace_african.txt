@@ -528,6 +528,7 @@ bno_embrace_african_1.0006 = {
     option = {#agree bbc join court
         name = bno_embrace_african_1.0006.a
         add_courtier = scope:bbc
+        bno_increase_county_control = yes
     }
 
     option = {# reject give gold
@@ -537,6 +538,7 @@ bno_embrace_african_1.0006 = {
             gold = minor_gold_value
         }
         bno_dismiss_local_bbc = yes
+        bno_decrease_county_control = yes
     }
 }
 #7 ignoring migrants will spark rebellion
@@ -573,98 +575,22 @@ bno_embrace_african_1.0007 = {
             county_control < 0.5
             NOT = { culture = culture:bnoc }
         }
+        NOR = {
+            has_trait = bno_bbc
+            has_trait = bno_whitegirl
+        }
     }
 
     immediate = {
         bno_get_local_bbc = yes
     }
 
-    option = { # BBC: you bond over fucking your courtiers together
+    option = {
         name = bno_embrace_african_1.0007.a
-        trigger = {
-            has_trait = bno_bbc
-        }
-        exclusive = yes
-        add_internal_flag = yes
-
-        bno_get_local_whore = yes
-        bno_dismiss_local_whore = yes
-        bno_dismiss_local_bbc = yes
-        scope:whore = {
-            bno_have_sex_with_effects = {
-                PARTNER = root
-            }
-            bno_have_sex_with_effects = {
-                PARTNER = scope:bbc
-            }
-        }
-        bno_increase_county_control = yes
-    }
-
-    option = { # Whore: you got fucked by him until you passed out
-        name = bno_embrace_african_1.0007.b
-        trigger = {
-            has_trait = bno_whitegirl
-        }
-        exclusive = yes
-        add_internal_flag = yes
-
-        bno_dismiss_local_bbc = yes
-        bno_have_sex_with_effects = {
-            PARTNER = scope:bbc
-        }
-        bno_increase_county_control = yes
-        hidden_effect = {
-            bno_have_sex_with_effects = {
-                PARTNER = scope:bbc
-            }
-            bno_have_sex_with_effects = {
-                PARTNER = scope:bbc
-            }
-            bno_have_sex_with_effects = {
-                PARTNER = scope:bbc
-            }
-            bno_have_sex_with_effects = {
-                PARTNER = scope:bbc
-            }
-        }
-    }
-
-    option = { # Duel: you dont agree with their proposal
-        name = bno_embrace_african_1.0007.c
-        duel = {
-            skills = { martial prowess }
-            target = scope:bbc
-            50 = { # win
-                compare_modifier = {
-                    value = scope:duel_value
-                    multiplier = 3.5
-                    min = -49
-                }
-                desc = bno_embrace_african_1.0007.c.success.tooltip
-                scope:bbc = {
-                    increase_wounds_effect = { REASON = fight }
-                }
-                add_prestige = major_prestige_gain
-                bno_dismiss_local_bbc = yes
-                bno_increase_county_control = yes
-            }
-            50 = { # loss
-                compare_modifier = {
-                    value = scope:duel_value
-                    multiplier = -4.5
-                    min = 0
-                }
-                desc = bno_embrace_african_1.0007.c.failure.tooltip
-                increase_wounds_effect = { REASON = fight }
-                add_prestige = major_prestige_loss
-                bno_decrease_county_control = yes
-                scope:bbc = {
-                    create_faction = {
-                        type = peasant_faction
-                        target = root
-                    }
-                }
+        scope:bbc = {
+            create_faction = {
+                type = peasant_faction
+                target = root
             }
         }
     }

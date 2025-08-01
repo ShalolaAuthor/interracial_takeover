@@ -206,12 +206,41 @@ bno_invite_white_noble_decision = {
 
 	}
 
+	bno_invite_white_noble_decision_slut = {
+
+	}
+
 	bno_invite_white_noble_decision_bbc = {
 		
 	}
 
 	bno_invite_white_noble_decision_off = {
 
+	}
+
+}
+
+bno_invite_bbc_decision = {
+	categories = {
+		interaccial_takeover
+	}
+
+	default = bno_invite_bbc_decision_all
+
+	bno_invite_bbc_decision_all = {
+
+	}
+
+	bno_invite_bbc_decision_slut = {
+
+	}
+
+	bno_invite_bbc_decision_bbc = {
+
+	}
+
+	bno_invite_bbc_decision_off = {
+		
 	}
 
 }

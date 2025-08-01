@@ -16,6 +16,30 @@ bno_events00 = {
 			is_ai = no 
 			has_game_rule = bno_decision_npc_yes 
 		}
+		trigger_if = {
+			limit = {
+				has_game_rule = bno_invite_bbc_decision_all
+			}
+			OR = {
+				is_bbc = yes
+				has_trait = bno_whitegirl
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				has_game_rule = bno_invite_bbc_decision_bbc
+			}
+			has_trait = bno_bbc
+		}
+		trigger_else_if = {
+			limit = {
+				has_game_rule = bno_invite_bbc_decision_slut
+			}
+			has_trait = bno_whitegirl
+		}
+		trigger_else = {
+			NOT = { has_game_rule = bno_invite_bbc_decision_off }	
+		}
 	}
 	cooldown = {
 		months = 12
@@ -176,14 +200,20 @@ bno_invite_slut_decision = {
 				has_trait = bno_whitegirl
 			}
 		}
-		trigger_if = {
+		trigger_else_if = {
 			limit = {
 				has_game_rule = bno_invite_white_noble_decision_bbc
 			}
 			has_trait = bno_bbc
 		}
-		NOT = {
-			has_game_rule = bno_invite_white_noble_decision_off
+		trigger_else_if = {
+			limit = {
+				has_game_rule = bno_invite_white_noble_decision_slut
+			}
+			has_trait = bno_whitegirl
+		}
+		trigger_else = {
+			NOT = { has_game_rule = bno_invite_white_noble_decision_off }	
 		}
 		OR = { 
 			is_ai = no 

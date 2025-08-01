@@ -19,7 +19,7 @@ bno_birth.0002.personal_desc: "I have blessed the world with many Black children
 bno_birth_real_father_notification.title: "My child"
 bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] has given birth, and you know in your heart her child is yours regardless of if you can prove it."
 bno_birth_cuck_father_notification.title: "My child"
-bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] has given birth, and you are a little surprised at how sickly it looks. Is it normal for a child to have such a dark skin complextion?"
+bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] has given birth, and you are a little surprised at how sickly it looks. Is it normal for a child to have such a dark skin complexion?"
 
 bno_happy_wife.0001.title: "Wife looks happy"
 bno_happy_wife.0001.desc: "You're glad to see that [ROOT.GetCharacter.GetName] seems to be in high spirits lately."
