@@ -704,7 +704,7 @@ bno_embrace_african_2.1001 = {
     theme = realm
 
     override_background = {
-        reference = farmland
+        reference = bedchamber
     }
 
     left_portrait = {
@@ -890,7 +890,6 @@ bno_embrace_african_2.0002 = {
 
     option = { # bbc: make the bbc travel to your court, and make him fuck every girl there
         name = bno_embrace_african_2.0002.c
-        add_courtier = scope:bbc
         trigger_event = {
             id = bno_embrace_african_2.2002
             days = { 2 7 }
@@ -898,7 +897,7 @@ bno_embrace_african_2.0002 = {
         }
     }
 }
-# arrival event for sending girls to the camp
+#2.1 arrival event for sending girls to the camp
 bno_embrace_african_2.1002 = {
     type = character_event
     title = bno_embrace_african_2.1002.title
@@ -926,6 +925,9 @@ bno_embrace_african_2.1002 = {
     }
 
     immediate = {
+        hidden_effect = {
+            add_courtier = scope:bbc
+        }
         bno_fuck_a_bbc_5_times = yes
     }
 
@@ -939,7 +941,7 @@ bno_embrace_african_2.1002 = {
         }
     }
 }
-# arrival event for bbc that come to your court
+#2.2 arrival event for bbc that come to your court
 bno_embrace_african_2.2002 = {
     type = character_event
     title = bno_embrace_african_2.2002.title
@@ -984,6 +986,18 @@ bno_embrace_african_2.2002 = {
             }
         }
     }
+
+    after = {
+        hidden_effect = {
+            remove_courtier_or_guest = {
+				character = scope:bbc
+				new_location = root.capital_province
+			}
+        }
+        trigger_event = {
+            id = bno_events.0001
+        }
+    }
 }
 #3 send your daughter , she got married to black guy, increasing control
 bno_embrace_african_2.0003 = {
@@ -1015,6 +1029,7 @@ bno_embrace_african_2.0003 = {
         bno_does_local_bbc_exist = yes
         any_child = {
             is_curious = yes
+            age < 25
             NOT = { primary_spouse ?= { is_blackbull = yes } }
         }
         any_held_title = {
@@ -1028,6 +1043,7 @@ bno_embrace_african_2.0003 = {
         random_child = {
             limit = {
                 is_curious = yes
+                age < 25
                 NOT = { primary_spouse ?= { is_blackbull = yes } }
             }
             save_scope_as = whore
@@ -1052,49 +1068,23 @@ bno_embrace_african_2.0003 = {
     }
 
     option = { # decline
-        name = bno_embrace_african_2.0003.b.decline
+        name = bno_embrace_african_2.0003.a.decline
         scope:target_title = {
             add_county_modifier = {
-                modifier = bno_approve_daughter_marriage_with_bbc
+                modifier = bno_disapprove_daughter_marriage_with_bbc
             }
         }
     }
 }
-# daughter event
+#3.1 daughter event
 bno_embrace_african_2.1003 = {
-    type = character_event
-    title = bno_embrace_african_2.1003.title
-    desc = bno_embrace_african_2.1003.desc
-    theme = realm
-
-    override_background = {
-        reference = courtyard
-    }
-    left_portrait = {
-        character = scope:bbc
-        animation = personality_content
-        outfit_tags = {
-            no_clothes
-        }
-    }
-
-    right_portrait = {
-        character = root
-        animation = bno_sex_love_stand_2
-        outfit_tags = {
-            no_clothes
-        }
-    }
+    hidden = yes
 
     immediate = {
         bno_fuck_a_bbc_5_times = yes
         bno_marriage_effect = {
             TARGET = scope:bbc
         }
-    }
-
-    option = {
-        name = bno_embrace_african_2.1003.a
         scope:target_county = {
             if = {
                 limit = {

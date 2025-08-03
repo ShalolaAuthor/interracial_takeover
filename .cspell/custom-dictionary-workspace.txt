@@ -1,6 +1,7 @@
 # Custom Dictionary Words
 Aaaaaand
 Africanized
+Argh
 availabiltiy
 bbcs
 blackbull

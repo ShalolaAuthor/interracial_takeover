@@ -100,3 +100,21 @@ bno_siding_with_local_desc: "Siding with the local population, gaining their tru
 
 bno_siding_with_bbc: "Siding with Black Migrants"
 bno_siding_with_bbc_desc: "Aligning with the interests of Black migrants, appeasing them."
+
+bno_approve_daughter_marriage_with_bbc: "Approved Daughter's Marriage with BBC"
+bno_approve_daughter_marriage_with_bbc_desc: "This ruler has approved his daughter's marriage to a Black man, solidifying ties with the local Black community."
+
+bno_disapprove_daughter_marriage_with_bbc: "Disapproved Daughter's Marriage with BBC"
+bno_disapprove_daughter_marriage_with_bbc_desc: "This ruler has disapproved of his daughter's marriage to a Black man, straining ties with the local Black community."
+
+bno_sent_courtier_to_bbc: "Sent Courtier to BBC"
+bno_sent_courtier_to_bbc_desc: "This ruler has sent a courtier to a Black man, strengthening ties with the local Black community."
+
+bno_reject_sending_courtier_to_bbc: "Rejected Sending Courtier to BBC"
+bno_reject_sending_courtier_to_bbc_desc: "This ruler has rejected sending a courtier to a Black man, straining ties with the local Black community."
+
+bno_bbc_angered: "BBC Angered"
+bno_bbc_angered_desc: "This ruler has angered the local Black community, leading to potential unrest and conflict."
+#
+bno_bbc_appeased: "BBC Appeased"
+bno_bbc_appeased_desc: "This ruler has appeased the local Black community, ensuring stability and cooperation."
