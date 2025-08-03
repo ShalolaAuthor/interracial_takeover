@@ -26,6 +26,9 @@ bno_cuckish = {
 	
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	#ai_sociability = high_negative_ai_value
+	monthly_track_xp_degradation = {
+		change = 1
+	}
 }
 
 # Level 2 Sissy: Cuck
@@ -55,7 +58,9 @@ bno_cuck = {
 	
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
-	
+	monthly_track_xp_degradation = {
+		change = 1
+	}
 }
 
 #Level 3 Sissy: Beta
@@ -89,7 +94,9 @@ bno_beta = {
 	#flag = can_not_marry
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
-	
+	monthly_track_xp_degradation = {
+		change = 1
+	}
 }
 
 #Level 4 Sissy: JoS
@@ -124,7 +131,9 @@ bno_jos = {
 	#flag = can_not_marry
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
-	
+	monthly_track_xp_degradation = {
+		change = 1
+	}
 }
 
 #Level 1 Chastity: Caged
