@@ -21,3 +21,5 @@ BNO_EMBRACE_3_EFFECT: "解锁学习移民决议与事件"
 SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "选择一个[congenital|E]特质使其在你的家族中更加常见"
 
 BBC_CAMP_BUILDING_UNLOCK: "解锁[GetBuilding('bbc_camp_01').GetName][building|E]"
+
+BNO_SEX_EFFECT_DESCRIPTION: "解锁[GetModifier('bno_sex_prowess').GetNameWithTooltip]"
