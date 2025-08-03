@@ -99,17 +99,21 @@ bno_decrease_county_control = {
     }
 }
 
+bno_dismiss_people = {
+    trigger_event = {
+        id = bno_kill_temporary_character.0001
+        days = 2
+        delayed = yes
+    }
+}
+
 bno_dismiss_local_bbc = {
 	if = {
         limit = {
             local_var:local_bbc = no
         }
         scope:bbc = {
-            trigger_event = {
-                id = bno_kill_temporary_character.0001
-                days = 2
-                delayed = yes
-            }
+            bno_dismiss_people = yes
         }
     }
 }
@@ -189,11 +193,7 @@ bno_dismiss_local_whore = {
             local_var:local_whore = no
         }
         scope:whore = {
-            trigger_event = {
-                id = bno_kill_temporary_character.0001
-                days = 2
-                delayed = yes
-            }
+            bno_dismiss_people = yes
         }
     }
 }
@@ -346,6 +346,10 @@ bno_give_development_buff_to_target_title = {
 }
 
 bno_get_really_local_bbc = {
+    set_local_variable = {
+        name = local_bbc
+        value = yes
+    }
     every_realm_province = {
         every_pool_character = {
             province = prev
@@ -363,16 +367,42 @@ bno_get_really_local_bbc = {
             value = scope:bbc.location
         }
     }
+    #Backup
+    if = {
+        limit = {
+            NOT = { exists = scope:bbc }
+        }
+        create_bbc = {
+            SCOPE_NAME = bbc
+            age = bno_young_adult
+        }
+        random_realm_province = {
+            save_scope_as = random_province
+        }
+        hidden_effect = {
+            add_courtier = scope:bbc
+            remove_courtier_or_guest = {
+                character = scope:bbc
+                new_location = scope:random_province
+            }
+            set_local_variable = {
+                name = local_bbc_location
+                value = scope:bbc.location
+            }
+        }
+        set_local_variable = {
+            name = local_bbc
+            value = no
+        }
+    }
 }
 
 bno_travel_to_local_bbc = {
-    hidden_effect = {
-        start_travel_plan = {
-            destination = local_var:local_bbc_location
-            travel_with_domicile = yes
-            return_trip = $RETURN_TRIP$
-            players_use_planner = yes
-            on_arrival_event = $ON_ARRIVAL_EVENT$
-        }
+    start_travel_plan = {
+        destination = local_var:local_bbc_location
+        return_trip = $RETURN_TRIP$
+        on_arrival_event = $ON_ARRIVAL_EVENT$
+        can_cancel_planning = no
+        on_arrival_destinations = all
     }
 }

@@ -398,12 +398,24 @@ bno_events.0007 = {
 
 	immediate = {
 		hidden_effect = {
+			random_character_with_royal_court = {
+				limit = {
+					culture_has_european_heritage_pillar_trigger = yes
+				}
+				save_scope_as = european
+			}
 			random = {
 				chance = 60
 				create_character = {
 					location = root.capital_province
 					template = bbc_worshipper_excellent_character_template
+					dynasty = scope:european.dynasty
+					faith = scope:european.faith
+					culture = scope:european.culture
 					save_scope_as = excellent_skill_option
+				}
+				scope:excellent_skill_option = {
+					remove_bad_traits = yes
 				}
 			}
 			random = {
@@ -411,7 +423,13 @@ bno_events.0007 = {
 				create_character = {
 					location = root.capital_province
 					template = bbc_worshipper_high_character_template
+					dynasty = scope:european.dynasty
+					faith = scope:european.faith
+					culture = scope:european.culture
 					save_scope_as = high_skill_option
+				}
+				scope:high_skill_option = {
+					remove_bad_traits = yes
 				}
 			}
 			random = {
@@ -419,7 +437,13 @@ bno_events.0007 = {
 				create_character = {
 					location = root.capital_province
 					template = bbc_worshipper_low_character_template
+					dynasty = scope:european.dynasty
+					faith = scope:european.faith
+					culture = scope:european.culture
 					save_scope_as = low_skill_option
+				}
+				scope:low_skill_option = {
+					remove_bad_traits = yes
 				}
 			}
 		}

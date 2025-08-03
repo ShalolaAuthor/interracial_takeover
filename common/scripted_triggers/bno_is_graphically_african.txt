@@ -1,5 +1,6 @@
 ﻿bno_is_graphically_african = {
 	OR = {
+		culture_has_african_heritage_pillar_trigger = yes
 		has_culture = culture:kru
 		has_culture = culture:guan
 		has_culture = culture:akan

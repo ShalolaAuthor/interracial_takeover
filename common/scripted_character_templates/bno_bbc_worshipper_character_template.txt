@@ -1,7 +1,5 @@
 ﻿bbc_worshipper_low_character_template = {
     age = { 18 20 }
-    faith = root.faith
-    culture = root.culture
     gender = female
 
     #Traits
@@ -23,8 +21,6 @@
 
 bbc_worshipper_high_character_template = {
     age = { 18 20 }
-    faith = root.faith
-    culture = root.culture
     gender = female
 
     #Traits
@@ -46,8 +42,6 @@ bbc_worshipper_high_character_template = {
 
 bbc_worshipper_excellent_character_template = {
     age = { 18 20 }
-    faith = root.faith
-    culture = root.culture
     gender = female
 
     #Traits

@@ -632,7 +632,6 @@ bno_embrace_african_2.0001 = {
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_2
         }
-        bno_does_local_bbc_exist = yes
         any_held_title = {
             tier >= tier_county
             NOT = { has_county_modifier = bno_bbc_appeased }
@@ -657,6 +656,7 @@ bno_embrace_african_2.0001 = {
             gold = minor_gold_value 
         }
         bno_give_development_buff_to_target_title = yes
+        bno_dismiss_local_bbc = yes
     }
 
     option = { # you disagree to give him gold
@@ -673,6 +673,7 @@ bno_embrace_african_2.0001 = {
                 months = 18
             }
         }
+        bno_dismiss_local_bbc = yes
     }
 
     option = { # you are snowbunny and up
@@ -736,6 +737,7 @@ bno_embrace_african_2.1001 = {
 
     option = {
         name = bno_embrace_african_2.1001.a
+        bno_dismiss_local_bbc = yes
     }
 }
 #1.2 bbc followup
@@ -797,6 +799,7 @@ bno_embrace_african_2.2001 = {
 
     option = {
         name = bno_embrace_african_2.2001.a
+        bno_dismiss_local_bbc = yes
     }
 }
 #2 send female courtier, she come backs broken, increasing levies
@@ -827,7 +830,6 @@ bno_embrace_african_2.0002 = {
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_2
         }
-        bno_does_local_bbc_exist = yes
         any_courtier_or_guest = {
             is_curious = yes
             NOT = { has_trait = beauty_good }
@@ -890,10 +892,17 @@ bno_embrace_african_2.0002 = {
                 months = 18
             }
         }
+        bno_dismiss_local_bbc = yes
     }
 
     option = { # whore
         name = bno_embrace_african_2.0002.b
+        trigger = {
+            is_bno_snowbunny_and_up = yes
+        }
+        exclusive = yes
+        add_internal_flag = special
+
         bno_travel_to_local_bbc = {
             RETURN_TRIP = yes
             ON_ARRIVAL_EVENT = bno_embrace_african_2.1002
@@ -902,6 +911,12 @@ bno_embrace_african_2.0002 = {
 
     option = { # bbc: make the bbc travel to your court, and make him fuck every girl there
         name = bno_embrace_african_2.0002.c
+        trigger = {
+            has_trait = bno_bbc
+        }
+        exclusive = yes
+        add_internal_flag = special
+
         trigger_event = {
             id = bno_embrace_african_2.2002
             days = { 2 7 }
@@ -941,10 +956,6 @@ bno_embrace_african_2.1002 = {
             add_courtier = scope:bbc
         }
         bno_fuck_a_bbc_5_times = yes
-    }
-
-    option = {
-        name = bno_embrace_african_2.1002.a
         scope:target_county = {
             if = {
                 limit = {
@@ -957,6 +968,11 @@ bno_embrace_african_2.1002 = {
                 months = 18
             }
         }
+    }
+
+    option = {
+        name = bno_embrace_african_2.1002.a
+        bno_dismiss_local_bbc = yes
     }
 }
 #2.2 arrival event for bbc that come to your court
@@ -1017,6 +1033,7 @@ bno_embrace_african_2.2002 = {
 				character = scope:bbc
 				new_location = root.capital_province
 			}
+            bno_dismiss_local_bbc = yes
         }
         trigger_event = {
             id = bno_events.0001
@@ -1050,7 +1067,6 @@ bno_embrace_african_2.0003 = {
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_2
         }
-        bno_does_local_bbc_exist = yes
         any_child = {
             is_curious = yes
             age < 25
@@ -1066,7 +1082,7 @@ bno_embrace_african_2.0003 = {
         bno_get_really_local_bbc = yes
         random_child = {
             limit = {
-                is_curious = yes
+                is_a_girl = yes
                 age < 25
                 NOT = { primary_spouse ?= { is_blackbull = yes } }
             }
@@ -1093,6 +1109,7 @@ bno_embrace_african_2.0003 = {
 
     option = { # decline
         name = bno_embrace_african_2.0003.a.decline
+        bno_dismiss_local_bbc = yes
         scope:target_title = {
             if = {
                 limit = {
