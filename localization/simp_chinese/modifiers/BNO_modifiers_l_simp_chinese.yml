@@ -97,3 +97,21 @@ bno_siding_with_local_desc: "与当地居民站在一起，赢得他们的信任
 
 bno_siding_with_bbc: "支持黑人移民"
 bno_siding_with_bbc_desc: "与黑人移民的利益保持一致，安抚他们。"
+
+bno_approve_daughter_marriage_with_bbc: "批准女儿与BBC的婚礼"
+bno_approve_daughter_marriage_with_bbc_desc: "这位统治者已批准其女儿与一位黑人男子结婚，从而进一步巩固了与当地黑人社区的联系。"
+
+bno_disapprove_daughter_marriage_with_bbc: "驳回女儿与BBC的婚礼"
+bno_disapprove_daughter_marriage_with_bbc_desc: "这位统治者已驳回其女儿与一位黑人男子结婚，使得与当地黑人社区的关系日益紧张。"
+
+bno_sent_courtier_to_bbc: "将庭臣交给BBC"
+bno_sent_courtier_to_bbc_desc: "这位统治者将一位庭臣交给黑人，加强了与当地黑人社区的联系。"
+
+bno_reject_sending_courtier_to_bbc: "拒绝将庭臣交给BBC"
+bno_reject_sending_courtier_to_bbc_desc: "这位统治者拒绝将一位庭臣交给黑人，使得与当地黑人社区的关系日益紧张。"
+
+bno_bbc_angered: "惹怒BBC"
+bno_bbc_angered_desc: "这位统治者惹怒了当地黑人社区，造成了潜在的动荡与冲突。"
+#
+bno_bbc_appeased: "安抚BBC"
+bno_bbc_appeased_desc: "这位统治者安抚了当地黑人社区，保障了稳定与合作。"
