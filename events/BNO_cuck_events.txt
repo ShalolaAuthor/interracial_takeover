@@ -149,7 +149,7 @@ bno_cuck.1001 = {
 
 	option = {
 		name =  bno_cuck_1001.a
-		become_more_cuck_effect = yes
+		bno_increase_cuckiness = yes
 		scope:target1 ?= { #learn random secret of wife, probably this lovers one
 			random_secret = {
 				reveal_to = root
@@ -203,6 +203,7 @@ bno_cuck.2001 = { #follow up event, conclude it isn't wife, get anti stress / ba
 
 	option = {
 		name = bno_cuck_2001.a
+		bno_decrease_cuckiness = yes
 		add_character_modifier = {
 			modifier = bno_cuck_blissfully_unaware
 			months = 10
@@ -378,6 +379,7 @@ bno_cuck.0004 = {
 	option = { #ignore troop concerns, negative modifiers
 		name = bno_cuck_0004.a
 		add_prestige = -200
+		bno_decrease_cuckiness = yes
 		add_character_modifier = {
 			modifier = bno_troops_lack_bunnies
 			months = 12
@@ -787,6 +789,7 @@ bno_cuck.0006 = { #Just cuck bonds with bbc, gives court position
 	}
 	option = {
 		name = bno_cuck_0006.d
+		bno_decrease_cuckiness = yes
 		remove_short_term_gold = 30
 		scope:target1 ?= {
 			add_gold = 30
@@ -900,6 +903,7 @@ bno_cuck.0008 = {
 			modifier = loyalty_opinion
 			target = scope:target1
 		}
+		bno_decrease_cuckiness = yes
 	}
 	option = { #BBC fucks cuck's wife
 		name = bno_cuck_0008.b
@@ -1084,6 +1088,7 @@ bno_cuck.0010 = {
 			days = 7
 			delayed = yes
 		}
+		bno_decrease_cuckiness = yes
 		ai_chance = {
 			base = 50
 			modifier = {
@@ -1511,7 +1516,7 @@ bno_cuck.0015 = {
 		get_primary_spouse_scope = {
 			SCOPE_NAME = target2
 		}
-		become_more_cuck_effect = yes
+		bno_increase_cuckiness = yes
 		add_character_modifier = {
 			modifier = bno_emasculated
 			months = 12
@@ -1540,6 +1545,7 @@ bno_cuck.0015 = {
 		ai_chance = {
 			base = 40
 		}
+		bno_decrease_cuckiness = yes
 		add_stress = 25
 		scope:target2 ?= {
 			add_opinion = {
@@ -1592,6 +1598,7 @@ bno_cuck.0016 = {
 		ai_chance = {
 			base = 30
 		}
+		bno_decrease_cuckiness = yes
 		add_prestige = -100
 		add_stress = 30
 	}
@@ -1601,6 +1608,8 @@ bno_cuck.0016 = {
 			base = 10
 		}
 		add_trait = ambitious
+		bno_decrease_cuckiness = yes
+		bno_decrease_cuckiness = yes
 		add_prestige = 50
 		add_stress = 10
 	}

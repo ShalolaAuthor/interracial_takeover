@@ -314,7 +314,7 @@ bno_marriage_effect = {
 			add_character_modifier = {
 				modifier = bno_happy_cuck_husband
 			}
-			become_more_cuck_effect = yes
+			bno_increase_cuckiness = yes
 			add_prestige = -500
 		}
 		divorce = primary_spouse
@@ -1110,7 +1110,7 @@ bno_slut_sex_after_effects = {
 }
 
 bno_cuck_sex_after_effects = {
-	become_more_cuck_effect = yes
+	bno_increase_cuckiness = yes
 	send_interface_message = {
 		type = bno_blacked_events
 		title = bno_happy_wife.0001.title

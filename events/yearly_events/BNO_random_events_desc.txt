@@ -6222,6 +6222,7 @@ bno_random.0041 = {
 			type = dungeon
 			target = scope:target2
 		}
+		bno_decrease_cuckiness = yes
 		add_stress = major_stress_impact_gain
 	}
 }
@@ -6299,7 +6300,7 @@ bno_random.0042 = {
 			}
 		}
 
-		become_more_cuck_effect = yes
+		bno_increase_cuckiness = yes
 
 		random_list = {
 			10 = { give_nickname = nick_beta }
@@ -6367,6 +6368,9 @@ bno_random.0042 = {
 				opinion = -30
 			}
 		}
+		bno_decrease_cuckiness = yes
+		bno_decrease_cuckiness = yes
+		bno_decrease_cuckiness = yes
 	}
 	
 	option = {
@@ -6412,7 +6416,7 @@ bno_random.1042 = {
 	
 	option = {
 		name = bno_random_1042.a
-		become_more_cuck_effect = yes
+		bno_increase_cuckiness = yes
 		stress_impact = {
 			lustful = minor_stress_impact_loss
 			ambitious = medium_stress_impact_gain
@@ -6528,6 +6532,7 @@ bno_random.0043 = {
 		stress_impact = {
 			ambitious = minor_stress_impact_gain
 		}
+		bno_decrease_cuckiness = yes
 	}
 	option = {
 		name = bno_random_0043.b
@@ -6545,6 +6550,8 @@ bno_random.0043 = {
 			type = dungeon
 			target = scope:target2
 		}
+		bno_decrease_cuckiness = yes
+		bno_decrease_cuckiness = yes
 	}
 	option = {
 		trigger = {
@@ -6717,6 +6724,9 @@ bno_random.0044 = {
 				opinion = -30
 			}
 		}
+		bno_decrease_cuckiness = yes
+		bno_decrease_cuckiness = yes
+		bno_decrease_cuckiness = yes
 	}
 }
 
@@ -6895,6 +6905,9 @@ bno_random.0045 = {
 	
 	option = { #no
 		name = bno_random_0045.b
+		bno_decrease_cuckiness = yes
+		bno_decrease_cuckiness = yes
+		bno_decrease_cuckiness = yes
 		stress_impact = {
 			bno_cuckish = minor_stress_impact_gain
 			bno_cuck = minor_stress_impact_gain
@@ -7063,7 +7076,7 @@ bno_random.0046 = {
 			}
 		}
 		
-		become_more_cuck_effect = yes
+		bno_increase_cuckiness = yes
 		
 		random_list = {
 			10 = { give_nickname = nick_beta }

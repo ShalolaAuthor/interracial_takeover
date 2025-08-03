@@ -1,22 +1,108 @@
 ﻿# assigning the fluctuation of traits and their development. "becoming sluttier"
 
 become_more_cuck_effect = {
+	change_trait_rank = {
+		trait = bno_whiteboi
+		rank = 1
+	}
+}
+
+become_less_cuck_effect = {
+	change_trait_rank = {
+		trait = bno_whiteboi
+		rank = -1
+	}
+}
+
+bno_increase_cuckiness = {
 	if = {
 		limit = {
-			NOT = {
-				has_trait = bno_whiteboi
+			AND = {
+				NOT = { has_trait = bno_whiteboi }
+				NOT = { has_trait = bno_bbc }
 			}
-			is_bbc = no
 		}
 		add_trait = bno_cuckish
 	}
-	else_if = {
+	bno_increase_trait_level = {
+		TRAIT_NAME = bno_cuckish
+		LEVEL_UP_EFFECT = become_more_cuck_effect
+	}
+	bno_increase_trait_level = {
+		TRAIT_NAME = bno_cuck
+		LEVEL_UP_EFFECT = become_more_cuck_effect
+	}
+	bno_increase_trait_level = {
+		TRAIT_NAME = bno_beta
+		LEVEL_UP_EFFECT = become_more_cuck_effect
+	}
+	bno_increase_trait_level = {
+		TRAIT_NAME = bno_jos
+		LEVEL_UP_EFFECT = become_more_cuck_effect
+	}
+}
+
+bno_decrease_cuckiness = {
+	bno_decrease_trait_level = {
+		TRAIT_NAME = bno_jos
+		LEVEL_DOWN_EFFECT = become_less_cuck_effect
+	}
+	bno_decrease_trait_level = {
+		TRAIT_NAME = bno_beta
+		LEVEL_DOWN_EFFECT = become_less_cuck_effect
+	}
+	bno_decrease_trait_level = {
+		TRAIT_NAME = bno_cuck
+		LEVEL_DOWN_EFFECT = become_less_cuck_effect
+	}
+	bno_decrease_trait_level = {
+		TRAIT_NAME = bno_cuckish
+		LEVEL_DOWN_EFFECT = become_less_cuck_effect
+	}
+}
+
+bno_increase_trait_level = {
+	if = {
 		limit = {
-			is_bbc = no
+			has_trait = $TRAIT_NAME$
 		}
-		change_trait_rank = {
-			trait = bno_whiteboi
-			rank = 1
+		add_trait_xp = {
+			trait = $TRAIT_NAME$
+			value = bno_random_xp_positive
+		}
+		if = {
+			limit = {
+				has_trait_xp = {
+					trait = $TRAIT_NAME$
+					value >= 100
+				}
+			}
+			$LEVEL_UP_EFFECT$ = yes
+		}
+	}
+}
+
+bno_decrease_trait_level = {
+	if = {
+		limit = {
+			has_trait = $TRAIT_NAME$
+			has_trait_xp = {
+				trait = $TRAIT_NAME$
+				value <= 100
+			}
+		}
+		add_trait_xp = {
+			trait = $TRAIT_NAME$
+			value = bno_random_xp_negative
+		}
+		if = {
+			limit = {
+				has_trait_xp = {
+					trait = $TRAIT_NAME$
+					value <= 0
+				}
+			}
+			$LEVEL_DOWN_EFFECT$ = yes
 		}
 	}
 }
