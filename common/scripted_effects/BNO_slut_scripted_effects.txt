@@ -549,8 +549,27 @@ get_just_or_zealous_bbc_scope = {
 	}
 }
 
-
 get_something = {
+	clear_saved_scope = $SCOPE_NAME$
+	every_courtier_or_guest = { # Player's Court
+        limit = {
+            $TRIGGER_KEY$ = yes
+        }
+        root = {
+			add_to_variable_list = { 	
+				name = temp
+				target = prev
+			}
+		}
+    }
+	random_in_list = {
+		variable = temp
+		save_scope_as = $SCOPE_NAME$
+	}
+	clear_variable_list = temp 
+}
+
+get_something_backup = {
 	clear_saved_scope = $SCOPE_NAME$
 	every_courtier_or_guest = { # Player's Court
         limit = {

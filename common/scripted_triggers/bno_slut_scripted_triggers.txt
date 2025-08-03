@@ -145,6 +145,12 @@ is_sibling_blacked = {
 }
 
 does_something_exist = {
+	any_courtier_or_guest = {
+        $TRIGGER_KEY$ = yes
+    }
+}
+
+does_something_exist_backup = {
     OR = {
         any_courtier_or_guest = {
             $TRIGGER_KEY$ = yes
@@ -693,7 +699,7 @@ is_elligible_partner = {
 	is_adult = yes
 	is_imprisoned = no
 	is_alive = yes
-	is_travelling = no
+	#is_travelling = no
 	OR = {
 		is_visibly_fertile = yes
 		is_immortal = yes
