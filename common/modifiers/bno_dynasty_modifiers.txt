@@ -1,9 +1,10 @@
-﻿bno_sex_prowess = {
+﻿#Person
+bno_sex_prowess = {
     icon = martial_positive
     prowess = 1
     stacking = yes
 }
-
+# County
 bno_siding_with_local = {
     icon = county_modifier_development_positive
     tax_mult = 0.5
@@ -14,4 +15,46 @@ bno_siding_with_bbc = {
     icon = county_modifier_control_positive
     monthly_county_control_growth_add = 0.5
     tax_mult = -0.25
+}
+
+bno_bbc_appeased = {
+    icon = county_modifier_development_positive
+    development_growth_factor = 0.5
+}
+
+bno_bbc_angered = {
+    icon = county_modifier_development_negative
+    development_growth_factor = -0.5
+}
+
+bno_sent_courtier_to_bbc = {
+    icon = county_modifier_opinion_positive
+    levy_size = 1
+    levy_reinforcement_rate_friendly_territory = 1
+}
+
+bno_reject_sending_courtier_to_bbc = {
+    icon = county_modifier_opinion_negative
+    levy_size = -1
+    levy_reinforcement_rate_friendly_territory = -1
+}
+
+bno_approve_daughter_marriage_with_bbc = {
+    icon = county_modifier_development_positive
+    monthly_county_control_growth_add = 1
+    development_growth_factor = 1
+    development_growth = 0.5
+    levy_size = 1
+    garrison_size = 1
+    tax_mult = 0.5
+}
+
+bno_disapprove_daughter_marriage_with_bbc = {
+    icon = county_modifier_development_negative
+    monthly_county_control_growth_add = -1
+    development_growth_factor = -1
+    development_growth = -0.5
+    levy_size = -1
+    garrison_size = -1
+    tax_mult = -0.5
 }

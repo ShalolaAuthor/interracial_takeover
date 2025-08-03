@@ -241,23 +241,7 @@ bno_embrace_african_1.0003 = {#your courtier is a known whore
         add_prestige = major_prestige_gain
         bno_increase_county_control = yes
         scope:whore = {
-            bno_have_sex_with_effects = {
-                PARTNER = scope:bbc
-            }
-            hidden_effect = {
-                bno_have_sex_with_effects = {
-                    PARTNER = scope:bbc
-                }
-                bno_have_sex_with_effects = {
-                    PARTNER = scope:bbc
-                }
-                bno_have_sex_with_effects = {
-                    PARTNER = scope:bbc
-                }
-                bno_have_sex_with_effects = {
-                    PARTNER = scope:bbc
-                }
-            }
+            bno_fuck_a_bbc_5_times = yes
         }
     }
 
@@ -320,23 +304,7 @@ bno_embrace_african_1.0004 = {#female courtier got targeted by migrants
     option = {# accept the proposal let the girl be fucked by him, get more county control, get gold for appeasement
         name = bno_embrace_african_1.0004.a
         scope:whore = {
-            bno_have_sex_with_effects = {
-                PARTNER = scope:bbc
-            }
-            hidden_effect = {
-                bno_have_sex_with_effects = {
-                    PARTNER = scope:bbc
-                }
-                bno_have_sex_with_effects = {
-                    PARTNER = scope:bbc
-                }
-                bno_have_sex_with_effects = {
-                    PARTNER = scope:bbc
-                }
-                bno_have_sex_with_effects = {
-                    PARTNER = scope:bbc
-                }
-            }
+            bno_fuck_a_bbc_5_times = yes
         }
         bno_increase_county_control = yes
         scope:bbc = {
@@ -437,9 +405,7 @@ bno_embrace_african_1.0005 = {
         trigger = {
             has_trait = bno_whitegirl
         }
-        bno_have_sex_with_effects = {
-            PARTNER = scope:bbc
-        }
+        bno_fuck_a_bbc_5_times = yes
         add_courtier = scope:bbc
         bno_increase_county_control = yes
     }
@@ -453,9 +419,7 @@ bno_embrace_african_1.0005 = {
                 count > 5
             }
         }
-        bno_have_sex_with_effects = {
-            PARTNER = scope:bbc
-        }
+        bno_fuck_a_bbc_5_times = yes
         bno_dismiss_local_bbc = yes
         bno_reject_bbc_demands = yes
     }
@@ -633,6 +597,513 @@ bno_embrace_african_1.0007 = {
                     ARMY_OWNER = scope:peasant_leader
                     PEASANT_ARMY_NAME = peasant_faction_event_troops
                 }
+            }
+        }
+    }
+}
+
+namespace = bno_embrace_african_2
+
+#1 migrant appeasement event, give gold for development buff
+bno_embrace_african_2.0001 = {
+    type = character_event
+    title = bno_embrace_african_2.0001.title
+    desc = bno_embrace_african_2.0001.desc
+    theme = realm
+
+    override_background = {
+        reference = farmland
+    }
+
+    left_portrait = {
+        character = scope:bbc
+        animation = rage
+    }
+
+    right_portrait = {
+        character = root
+        animation = disgust
+    }    
+
+    cooldown = { months = { 12 18 } }
+
+    trigger = {
+        is_ruler = yes
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_2
+        }
+        bno_does_local_bbc_exist = yes
+        any_held_title = {
+            tier >= tier_county
+            NOT = { has_county_modifier = bno_bbc_appeased }
+        }
+    }
+
+    immediate = {
+        bno_get_really_local_bbc = yes
+        random_held_title = {
+            limit = {
+                tier >= tier_county
+                NOT = { has_county_modifier = bno_bbc_appeased }
+            }
+            save_scope_as = target_title
+        }
+    }
+
+    option = { # you agree to give him gold
+        name = bno_embrace_african_2.0002.a.accept
+        pay_short_term_gold = {
+            target = scope:bbc
+            gold = minor_gold_value 
+        }
+        bno_give_development_buff_to_target_title = yes
+    }
+
+    option = { # you disagree to give him gold
+        name = bno_embrace_african_2.0002.a.decline
+        scope:target_title = {
+            add_county_modifier = {
+                modifier = bno_bbc_angered
+                months = 18
+            }
+        }
+    }
+
+    option = { # you are snowbunny and up
+        name = bno_embrace_african_2.0002.b
+        trigger = {
+            is_bno_snowbunny_and_up = yes
+        }
+        exclusive = yes
+        add_internal_flag = special
+        trigger_event = {
+            id = bno_embrace_african_2.1001
+        }
+    }
+
+    option = { # if a BBC and has white girl courtier
+        name = bno_embrace_african_2.0002.c
+        trigger = {
+            has_trait = bno_bbc
+            any_courtier_or_guest = {
+                is_curious = yes
+            }
+        }
+        exclusive = yes
+        add_internal_flag = special
+        trigger_event = {
+            id = bno_embrace_african_2.2001
+        }        
+    }
+}
+#1.1 female followup
+bno_embrace_african_2.1001 = {
+    type = character_event
+    title = bno_embrace_african_2.1001.title
+    desc = bno_embrace_african_2.1001.desc
+    theme = realm
+
+    override_background = {
+        reference = farmland
+    }
+
+    left_portrait = {
+        character = scope:bbc
+        animation = personality_content
+        outfit_tags = {
+            no_clothes
+        }
+    }
+
+    right_portrait = {
+        character = root
+        animation = bno_sex_love_stand_2
+        outfit_tags = {
+            no_clothes
+        }
+    }
+
+    immediate = {
+        bno_fuck_a_bbc_5_times = yes
+        bno_give_development_buff_to_target_title = yes
+    }
+
+    option = {
+        name = bno_embrace_african_2.1001.a
+    }
+}
+#1.2 bbc followup
+bno_embrace_african_2.2001 = {
+    type = character_event
+    title = bno_embrace_african_2.2001.title
+    desc = bno_embrace_african_2.2001.desc
+    theme = realm
+
+    override_background = {
+        reference = farmland
+    }
+
+    left_portrait = {
+        character = scope:bbc
+        animation = personality_content
+        outfit_tags = {
+            no_clothes
+        }
+    }
+
+    right_portrait = {
+        character = scope:whore
+        animation = bno_sex_love_stand_2
+        outfit_tags = {
+            no_clothes
+        }
+    }
+
+    immediate = {
+        random_courtier_or_guest = {
+            limit = {
+                is_curious = yes
+            }
+            save_scope_as = whore
+        }
+        bno_give_development_buff_to_target_title = yes
+        scope:whore = {
+            bno_fuck_a_bbc_5_times = yes
+            bno_have_sex_with_effects = {
+                PARTNER = root
+            }
+            hidden_effect = {
+                bno_have_sex_with_effects = {
+                    PARTNER = root
+                }
+                bno_have_sex_with_effects = {
+                    PARTNER = root
+                }
+                bno_have_sex_with_effects = {
+                    PARTNER = root
+                }
+                bno_have_sex_with_effects = {
+                    PARTNER = root
+                }
+            }
+        }
+    }
+
+    option = {
+        name = bno_embrace_african_2.2001.a
+    }
+}
+#2 send female courtier, she come backs broken, increasing levies
+bno_embrace_african_2.0002 = {
+    type = character_event
+    title = bno_embrace_african_2.0002.title
+    desc = bno_embrace_african_2.0002.desc
+    theme = realm
+
+    override_background = {
+        reference = courtyard
+    }
+
+    left_portrait = {
+        character = scope:bbc
+        animation = rage
+    }
+
+    right_portrait = {
+        character = root
+        animation = disgust
+    }
+
+    cooldown = { months = { 12 18 } }
+
+    trigger = {
+        is_ruler = yes
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_2
+        }
+        bno_does_local_bbc_exist = yes
+        any_courtier_or_guest = {
+            is_curious = yes
+            NOT = { has_trait = beauty_good }
+        }
+        any_held_title = {
+            tier >= tier_county
+            NOT = { has_county_modifier = bno_sent_courtier_to_bbc }
+        }
+    }
+
+    immediate = {
+        bno_get_really_local_bbc = yes
+        every_courtier_or_guest = {
+            limit = {
+                is_curious = yes
+                NOT = { has_trait = beauty_good }
+            }
+            add_to_temporary_list = whores
+        }
+        random_in_list = {
+            list = whores
+            save_scope_as = whores
+        }
+        random_held_title = {
+            limit = {
+                tier >= tier_county
+                NOT = { has_county_modifier = bno_sent_courtier_to_bbc }
+            }
+            save_scope_as = target_county
+        }
+    }
+
+    option = { # accept
+        name = bno_embrace_african_2.0002.a.accept
+        trigger = {
+            NOR = {
+                has_trait = bno_bbc
+                has_trait = bno_whitegirl
+            }
+        }
+        scope:whore = {
+            bno_travel_to_local_bbc = {
+                RETURN_TRIP = yes
+                ON_ARRIVAL_EVENT = bno_embrace_african_2.1002
+            }
+        }
+    }
+
+    option = { # decline
+        name = bno_embrace_african_2.0002.a.decline
+        scope:target_county = {
+            add_county_modifier = {
+                modifier = bno_reject_sending_courtier_to_bbc
+                months = 18
+            }
+        }
+    }
+
+    option = { # whore
+        name = bno_embrace_african_2.0002.b
+        bno_travel_to_local_bbc = {
+            RETURN_TRIP = yes
+            ON_ARRIVAL_EVENT = bno_embrace_african_2.1002
+        }
+    }
+
+    option = { # bbc: make the bbc travel to your court, and make him fuck every girl there
+        name = bno_embrace_african_2.0002.c
+        add_courtier = scope:bbc
+        trigger_event = {
+            id = bno_embrace_african_2.2002
+            days = { 2 7 }
+            delayed = yes
+        }
+    }
+}
+# arrival event for sending girls to the camp
+bno_embrace_african_2.1002 = {
+    type = character_event
+    title = bno_embrace_african_2.1002.title
+    desc = bno_embrace_african_2.1002.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:bbc
+        animation = personality_content
+        outfit_tags = {
+            no_clothes
+        }
+    }
+
+    right_portrait = {
+        character = root
+        animation = bno_sex_love_stand_2
+        outfit_tags = {
+            no_clothes
+        }
+    }
+
+    immediate = {
+        bno_fuck_a_bbc_5_times = yes
+    }
+
+    option = {
+        name = bno_embrace_african_2.1002.a
+        scope:target_county = {
+            add_county_modifier = {
+                modifier = bno_sent_courtier_to_bbc
+                months = 18
+            }
+        }
+    }
+}
+# arrival event for bbc that come to your court
+bno_embrace_african_2.2002 = {
+    type = character_event
+    title = bno_embrace_african_2.2002.title
+    desc = bno_embrace_african_2.2002.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:bbc
+        animation = personality_content
+        outfit_tags = {
+            no_clothes
+        }
+    }
+
+    right_portrait = {
+        character = scope:whore
+        animation = bno_sex_love_stand_2
+        outfit_tags = {
+            no_clothes
+        }
+    }
+
+    immediate = {
+        every_in_list = {
+            list = whores
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc
+            }
+        }
+    }
+
+    option = {
+        name = bno_embrace_african_2.2002.a
+        scope:target_county = {
+            add_county_modifier = {
+                modifier = bno_sent_courtier_to_bbc
+                months = 18
+            }
+        }
+    }
+}
+#3 send your daughter , she got married to black guy, increasing control
+bno_embrace_african_2.0003 = {
+    type = character_event
+    title = bno_embrace_african_2.0003.title
+    desc = bno_embrace_african_2.0003.desc
+    theme = realm
+
+    override_background = {
+        reference = courtyard
+    }
+    left_portrait = {
+        character = scope:bbc
+        animation = rage
+    }
+
+    right_portrait = {
+        character = root
+        animation = disgust
+    }
+
+    cooldown = { months = { 12 18 } }
+
+    trigger = {
+        is_ruler = yes
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_2
+        }
+        bno_does_local_bbc_exist = yes
+        any_child = {
+            is_curious = yes
+            NOT = { primary_spouse ?= { is_blackbull = yes } }
+        }
+        any_held_title = {
+            tier >= tier_county
+            NOT = { has_county_modifier = bno_approve_daughter_marriage_with_bbc }
+        }
+    }
+
+    immediate = {
+        bno_get_really_local_bbc = yes
+        random_child = {
+            limit = {
+                is_curious = yes
+                NOT = { primary_spouse ?= { is_blackbull = yes } }
+            }
+            save_scope_as = whore
+        }
+        random_held_title = {
+            limit = {
+                tier >= tier_county
+                NOT = { has_county_modifier = bno_approve_daughter_marriage_with_bbc }
+            }
+            save_scope_as = target_title
+        }
+    }
+
+    option = {  # accept
+        name = bno_embrace_african_2.0003.a.accept
+        scope:whore = {
+            bno_travel_to_local_bbc = {
+                RETURN_TRIP = no
+                ON_ARRIVAL_EVENT = bno_embrace_african_2.1003
+            }
+        }
+    }
+
+    option = { # decline
+        name = bno_embrace_african_2.0003.b.decline
+        scope:target_title = {
+            add_county_modifier = {
+                modifier = bno_approve_daughter_marriage_with_bbc
+            }
+        }
+    }
+}
+# daughter event
+bno_embrace_african_2.1003 = {
+    type = character_event
+    title = bno_embrace_african_2.1003.title
+    desc = bno_embrace_african_2.1003.desc
+    theme = realm
+
+    override_background = {
+        reference = courtyard
+    }
+    left_portrait = {
+        character = scope:bbc
+        animation = personality_content
+        outfit_tags = {
+            no_clothes
+        }
+    }
+
+    right_portrait = {
+        character = root
+        animation = bno_sex_love_stand_2
+        outfit_tags = {
+            no_clothes
+        }
+    }
+
+    immediate = {
+        bno_fuck_a_bbc_5_times = yes
+        bno_marriage_effect = {
+            TARGET = scope:bbc
+        }
+    }
+
+    option = {
+        name = bno_embrace_african_2.1003.a
+        scope:target_county = {
+            if = {
+                limit = {
+                    has_county_modifier = bno_disapprove_daughter_marriage_with_bbc
+                }
+                remove_county_modifier = bno_disapprove_daughter_marriage_with_bbc
+            }
+            add_county_modifier = {
+                modifier = bno_approve_daughter_marriage_with_bbc
             }
         }
     }

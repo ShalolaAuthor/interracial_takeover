@@ -20,10 +20,7 @@ bno_events00 = {
 			limit = {
 				has_game_rule = bno_invite_bbc_decision_all
 			}
-			OR = {
-				is_bbc = yes
-				has_trait = bno_whitegirl
-			}
+			is_alive = yes
 		}
 		trigger_else_if = {
 			limit = {
@@ -195,10 +192,7 @@ bno_invite_slut_decision = {
 			limit = {
 				has_game_rule = bno_invite_white_noble_decision_all
 			}
-			OR = {
-				is_bbc = yes
-				has_trait = bno_whitegirl
-			}
+			is_alive = yes
 		}
 		trigger_else_if = {
 			limit = {

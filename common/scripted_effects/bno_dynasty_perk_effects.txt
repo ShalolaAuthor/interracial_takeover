@@ -7,6 +7,10 @@
 #bno_get_local_whore
 #bno_dismiss_local_whore
 #bno_setup_peasant_leader_effect
+#bno_fuck_a_bbc_5_times
+#bno_give_development_buff_to_target_title
+#bno_get_really_local_bbc
+#bno_travel_to_local_bbc
 
 bno_sex_increase_dynasty_prestige = {
     if = {
@@ -302,6 +306,73 @@ bno_reject_bbc_demands = {
         set_variable = {
             name = bno_bbc_demand_rejected_count
             value = 0
+        }
+    }
+}
+
+bno_fuck_a_bbc_5_times = {
+    bno_have_sex_with_effects = {
+        PARTNER = scope:bbc
+    }
+    hidden_effect = {
+        bno_have_sex_with_effects = {
+            PARTNER = scope:bbc
+        }
+        bno_have_sex_with_effects = {
+            PARTNER = scope:bbc
+        }
+        bno_have_sex_with_effects = {
+            PARTNER = scope:bbc
+        }
+        bno_have_sex_with_effects = {
+            PARTNER = scope:bbc
+        }
+    }
+}
+
+bno_give_development_buff_to_target_title = {
+    scope:target_title = {
+        if = {
+            limit = {
+                has_county_modifier = bno_bbc_angered
+            }
+            remove_county_modifier = bno_bbc_angered
+        }
+        add_county_modifier = {
+            modifier = bno_bbc_appeased
+            months = 18
+        }
+    }
+}
+
+bno_get_really_local_bbc = {
+    every_realm_province = {
+        every_pool_character = {
+            province = prev
+            limit = {
+                is_blackbull = yes
+            }
+            add_to_temporary_list = local_bbc
+        }
+    }
+    random_in_list = {
+        list = local_bbc
+        save_scope_as = bbc
+        set_local_variable = {
+            name = local_bbc_location
+            value = scope:bbc.location
+        }
+    }
+}
+
+bno_travel_to_local_bbc = {
+    hidden_effect = {
+        start_travel_plan = {
+            destination = local_var:local_bbc_location
+            travel_with_domicile = yes
+            return_trip = $RETURN_TRIP$
+            players_use_planner = yes
+            on_arrival_event = $ON_ARRIVAL_EVENT$
         }
     }
 }

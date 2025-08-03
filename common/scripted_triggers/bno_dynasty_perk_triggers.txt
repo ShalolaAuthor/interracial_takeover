@@ -1,9 +1,19 @@
 ﻿#bno_is_county_not_fully_controlled
+#bno_does_local_bbc_exist
 
 bno_is_county_not_fully_controlled = {
     any_held_title = {
         tier = tier_county
         is_landless_type_title = no
         county_control < 100
+    }
+}
+
+bno_does_local_bbc_exist = {
+    any_realm_province = {
+        any_pool_character = {
+            province = prev
+            is_blackbull = yes
+        }
     }
 }
