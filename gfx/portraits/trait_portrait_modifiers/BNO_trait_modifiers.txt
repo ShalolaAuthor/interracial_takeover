@@ -105,7 +105,7 @@ mindless_slut = {
 				}
 				color = { #changes hair color
 					gene = hair_color
-					mode = replace
+					mode = modify
 					
 					x = 0.1
 					y = 0
@@ -119,12 +119,16 @@ queen_of_spades = {
 	queen_of_spades = {
 		traits = {
 			bno_qos
+			bno_mindless_bbc_slut
+		}
+		trigger = {
+			is_body_modification_ok = yes
 		}
 		dna_modifiers = {
 			human = {
 				color = { #changes hair color
 					gene = hair_color
-					mode = replace
+					mode = modify
 					x = 0.1
 					y = 0
 				}
@@ -149,6 +153,7 @@ queen_of_spades_tattoo = {
 	queen_of_spades_tattoo = {
 		traits = {
 			bno_qos
+			bno_mindless_bbc_slut
 		}
 		trigger = {
 			has_game_rule = bno_tattoo_yes
@@ -178,7 +183,7 @@ bno_pure_white_portrait_modifier = {
 					mode = modify
 
 					x = 0.0
-					y = -0.8
+					y = -0.4
 				}
 				color = {
 					gene = hair_color
@@ -187,7 +192,7 @@ bno_pure_white_portrait_modifier = {
 					y = -1.0
 				}
 				accessory = {
-					mode = add
+					mode = replace
 					gene = hairstyles
 					template = legacy_dna_hairstyles
 					range = { 0 1 }

@@ -95,7 +95,7 @@ bimbo = {
 		dna_modifiers = {
 			color = { #changes hair color
 				gene = hair_color
-				mode = replace
+				mode = modify
 				
 				x = 0.1
 				y = 0
@@ -130,6 +130,7 @@ bimbo = {
 			modifier = {
 				add = 1000
 				has_character_flag = bimbo
+				is_body_modification_ok = yes
 			}
 		}
 	}

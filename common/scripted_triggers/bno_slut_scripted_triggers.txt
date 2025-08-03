@@ -389,10 +389,7 @@ does_wandering_curious_whitegirl_exist = {
 }
 
 is_body_modification_ok = {
-	OR = {
-		has_game_rule = bno_body_modification_yes
-		is_ai = yes
-	}
+	has_game_rule = bno_body_modification_yes
 }
 
 is_bno_fucked_mindless = {

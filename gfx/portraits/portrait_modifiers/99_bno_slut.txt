@@ -29,7 +29,7 @@ bno_blonder_hair = {
 			#changes hair color
 			color = {
 				gene = hair_color
-				mode = replace
+				mode = modify
 				
 				x = hair_color_x
 				y = hair_color_y
