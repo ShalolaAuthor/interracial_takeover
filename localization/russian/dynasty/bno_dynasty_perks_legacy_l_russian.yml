@@ -1,0 +1,33 @@
+﻿l_russian:
+#don't translate this yet, still figuring out how this works
+bno_embrace_african_track_desc: "Прими африканцев, чтобы принести пользу своим землям"
+
+bno_embrace_african_track_name: "Африканизирован"
+
+bno_embrace_african_1_name: "Принять Мигрантов"
+
+bno_embrace_african_2_name: "Использовать Мигрантов"
+
+bno_embrace_african_3_name: "Понять Мигрантов"
+
+bno_embrace_african_4_name: "Признать Мигрантов"
+
+bno_embrace_african_5_name: "Интегрировать Мигрантов"
+
+BNO_PLACEHOLDER: ""
+
+EBONY_ELITES_UNLOCK_DESCRIPTION: "Можно нанять [GetMaA('bno_ebony_elites').GetName] как [men_at_arms|E]"
+
+EBONY_ELITES_DESCRIPTION: "#weak Можно нанять только один полк [GetMaA('bno_ebony_elites').GetName]#!"
+
+BBC_MARRIAGE_DESCRIPTION: "Каждый раз, когда BBC женится, или белая девка выходит замуж за BBC, твоя династия получает престиж. Они также получают больше легитимности и престижа от брака."
+
+BBC_SEX_EFFECT: "Каждый раз, когда BBC и белая девка из твоей династии занимаются сексом, твоя династия получает престиж."
+
+BNO_EMBRACE_3_EFFECT: "Открывает решение и события по изучению мигрантов"
+
+SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Выбери [congenital|E] трейт, который станет более распространённым в династии"
+
+BBC_CAMP_BUILDING_UNLOCK: "Открывает [GetBuilding('bbc_camp_01').GetName] [building|E]"
+
+BNO_SEX_EFFECT_DESCRIPTION: "Открывает [GetModifier('bno_sex_prowess').GetNameWithTooltip]"

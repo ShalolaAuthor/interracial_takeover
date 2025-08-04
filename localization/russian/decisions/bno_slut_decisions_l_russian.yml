@@ -1,27 +1,66 @@
 ﻿l_russian:
-bno_becoming_bbc_slut: "Становление чёрной шлюхой для спермы"
-bno_becoming_bbc_slut_desc: "Я хочу быть чёрной шлюхой для спермы, потому что рождена для этой роли — служить вместилищем для мощных, мужественных чёрных хуёв, которые дают моему крошечному белому телу то, чего оно жаждет. Один лишь вид массивного члена эбенового мужчины заставляет мою пизду течь от предвкушения и потребности."
-bno_becoming_bbc_slut_confirm: "Мои тугие дыры твои, используй их, как пожелаешь."
-bno_becoming_bbc_slut_tooltip: "Я так отчаянно хочу, чтобы меня использовали, как никчёмную шлюху, которой я являюсь."
+bno_becoming_bbc_slut: "Становление Чёрной Спермошлюхой"
 
-bno_stop_becoming_bbc_slut: "Преданная шлюха для спермы"
-bno_stop_becoming_bbc_slut_desc: "После многих лет в роли чёрной шлюхи для спермы я наконец нашла свою идеальную пару — личного чёрного жеребца, который ежедневно утоляет мою ненасытную жажду большого хуя. Он удовлетворяет меня так, как никто другой не мог, гарантируя, что моя пизда всегда набита до отказа и сочится его густым семенем."
-bno_stop_becoming_bbc_slut_confirm: "Для этого я была рождена —"
-bno_stop_becoming_bbc_slut_tooltip: "быть не более чем набором дыр, принадлежащих сильному."
+bno_becoming_bbc_slut_desc: "Я хочу быть чёрной спермошлюхой, потому что рождена для этой роли — служить вместилищем для мощных, вирильных чёрных хренов, которые дают моему крошечному белому телу то, чего оно жаждет. Один только вид огромного члена эбенового мужика заставляет мою пизду течь от предвкушения и потребности."
 
-bno_invite_slut_decision: "Пригласить любопытную дворянку ко двору"
-bno_invite_slut_decision_desc: "Когда любопытная дворянка приближается, ты приветствуешь её тёплой улыбкой.\n\nДобро пожаловать в моё скромное обиталище. Я всегда рада новым знакомствам, особенно с теми, кто разделяет мои интересы в искусстве и культуре.\n\nДворянка оглядывается, рассматривая роскошное убранство твоего поместья — от богатой мебели до бесценных произведений искусства, украшающих каждую стену.\n\nЯ вижу, у тебя острый взгляд на красоту. Может, обсудим некоторые из этих произведений за ужином? Я была бы рада показать тебе всё и рассказать больше об их происхождении.\n\nДворянка кивает в знак согласия, явно заинтригованная увиденным и жаждущая узнать больше."
-bno_invite_slut_decision_tooltip: "Чужестранцы были призваны посетить ваше высочество."
-bno_invite_slut_decision_confirm: "Ты желанный гость здесь."
+bno_becoming_bbc_slut_confirm: "Мои тугие дырки ваши, используйте их, как пожелаете."
+
+bno_becoming_bbc_slut_tooltip: "Я так отчаянно хочу быть использованной, как никчёмная шлюха, которой я являюсь."
+
+bno_stop_becoming_bbc_slut: "Преданная Спермошлюха"
+
+bno_stop_becoming_bbc_slut_desc: "После лет, проведённых в роли чёрной спермошлюхи, я наконец нашла свою идеальную пару — личного чёрного быка, который каждый день удовлетворяет мой ненасытный аппетит к большому хрену. Он ублажает меня так, как никто другой не мог, гарантируя, что моя пизда всегда набита до отказа и течёт его густым семенем."
+
+bno_stop_becoming_bbc_slut_confirm: "Для этого я и была рождена —"
+
+bno_stop_becoming_bbc_slut_tooltip: "быть не более чем набором дырок, принадлежащих сильному."
+
+bno_invite_slut_decision: "Пригласить Любопытную Дворянку в Свой Двор"
+
+bno_invite_slut_decision_desc: "Когда любопытная дворянка приближается, я приветствую её тёплой улыбкой.\n\nДобро пожаловать в моё скромное жилище. Я всегда рад новым знакомствам, особенно с теми, кто разделяет мои интересы в искусстве и культуре.\n\nДворянка оглядывается, впитывая роскошь моего поместья — от пышной мебели до бесценных произведений искусства, украшающих каждую стену.\n\nЯ вижу, у тебя острый взгляд на красоту. Может, обсудим некоторые из этих шедевров за ужином? Я был бы счастлив показать тебе всё и рассказать об их происхождении.\n\nДворянка соглашается, явно заинтригованная увиденным и жаждущая узнать больше."
+
+bno_invite_slut_decision_tooltip: "Чужеземцы вызваны на аудиенцию к твоему величеству."
+
+bno_invite_slut_decision_confirm: "Ты здесь желанный гость."
 
 bno_build_african_camps_decision: "Построить $building_type_bbc_camp_01$"
-bno_build_african_camps_decision_desc: "По мере роста числа #V [GetTrait('bno_full_black').GetName( GetNullCharacter )]#! ты решила, что пришло время создать поселение специально для них."
-bno_build_african_camps_decision_tooltip: "Построить $building_type_bbc_camp_01$"
-bno_build_african_camps_decision_confirm: "Да будет так."
-bno_build_african_camps_toast: "$building_type_bbc_camp_01$ построено."
 
-bno_change_county_culture: "Побудить графство принять $bnoc$"
-bno_change_county_culture_desc: "Ты — $bnoc$, разве не логично побуждать своих людей стать $bnoc_collective_noun$?"
+bno_build_african_camps_decision_desc: "Поскольку население #V [GetTrait('bno_full_black').GetName( GetNullCharacter )]#! продолжает расти, ты решил, что настало время создать для них отдельное поселение."
+
+bno_build_african_camps_decision_tooltip: "Построить $building_type_bbc_camp_01$"
+
+bno_build_african_camps_decision_confirm: "Да будет так."
+
+bno_build_african_camps_toast: "$building_type_bbc_camp_01$ Построен"
+
+bno_change_county_culture: "Побудить Графство Принять $bnoc$"
+
+bno_change_county_culture_desc: "Ты — $bnoc$, разве не логично побудить свой народ стать $bnoc_collective_noun$?"
+
 bno_change_county_culture_tooltip: "Побудить людей принять образ жизни $bnoc$"
-bno_change_county_culture_confirm: "Мне нужно больше $bnoc$."
-bno_change_county_culture_toast: "$bnoc$ распространяется."
+
+bno_change_county_culture_confirm: "Мне нужно больше $bnoc$"
+
+bno_change_county_culture_toast: "$bnoc$ Распространён"
+
+bno_recruit_court_position_decision: "Нанять на Должности, чтобы Угодить Населению #V [GetTrait('bno_full_black').GetName( GetNullCharacter )]#!"
+
+bno_recruit_court_position_decision_desc: "Хорошо функционирующий [ROOT.Char.Custom('RealmType')] требует работы множества девок. Я разошлю своих слуг повсюду, чтобы найти подходящих кандидаток на новые вакантные должности в моём дворе."
+
+bno_recruit_court_position_decision_tooltip: "Поиск девки для заполнения [court_position|E] или другой необходимой роли в твоём [court|E] за плату\n\n#weak Например, ты можешь нанять [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!"
+
+bno_recruit_court_position_decision_confirm: "Зови их сюда!"
+
+recruit_bbc_worshipper_cooldown_tt: "Набор [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] на перезарядке ещё [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]"
+
+hire_bbc_worshipper_decision_tooltip: "Твои слуги предложат несколько подходящих кандидаток на должность [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
+
+bno_recruit_court_position_decision_tt: "Ты получишь случайное количество подходящих девок, чтобы служить рядом с тобой."
+
+bno_convert_to_african: "Принятие Африканского"
+
+bno_convert_to_african_confirm: "Для меня всё кончено!"
+
+bno_convert_to_african_desc: "Ты на собственном опыте узнал, как ведёт себя эта культура, настолько сильная, что ты просто хочешь ей подчиниться. В конце концов, есть старая поговорка: если не можешь победить, присоединяйся."
+
+bno_convert_to_african_tooltip: "Прими корни своих предков $bnoc$"

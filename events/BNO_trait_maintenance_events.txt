@@ -99,6 +99,7 @@ bno_trait_maintenance.0006 = {
 		has_game_rule = bno_seeding_yes
 		is_ai = yes
 		bno_is_graphically_african = yes
+		NOT = { culture = culture:bnoc }
 		NOR = {
 			has_trait = bno_mixed
 			has_trait = bno_mostly_black
