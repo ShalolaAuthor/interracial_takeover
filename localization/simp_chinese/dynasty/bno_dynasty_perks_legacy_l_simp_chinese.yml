@@ -10,7 +10,7 @@ bno_embrace_african_5_name: "融入移民"
 
 BNO_PLACEHOLDER: ""
 EBONY_ELITES_UNLOCK_DESCRIPTION: "可以招募[GetMaA('bno_ebony_elites').GetName]作为[men_at_arms|E]"
-EBONY_ELITES_DESCRIPTION: "#weak Only one regiment of [GetMaA('bno_ebony_elites').GetName] can be recruited#!"
+EBONY_ELITES_DESCRIPTION: "#weak 只能招募一队[GetMaA('bno_ebony_elites').GetName]#!"
 
 BBC_MARRIAGE_DESCRIPTION: "每当大黑鸡巴角色结婚以及白人女孩与大黑鸡巴角色结婚，你的王朝就会获得威望。他们也会从婚姻中获得更多的合法性和威望"
 
