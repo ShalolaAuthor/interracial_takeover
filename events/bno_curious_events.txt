@@ -243,7 +243,7 @@ bno_curious.1201 = {
 			every_pool_character = {
 				province = scope:province_temp
 				limit = {
-					has_trait = bbc
+					has_trait = bno_bbc
 					age > 16
 					age < 25
 				}
@@ -257,8 +257,8 @@ bno_curious.1201 = {
 					value > 0 
 				}
 			}
-			random_list = {
-				name = local_bbc
+			random_in_list = {
+				list = local_bbc
 				save_scope_as = target1
 			}
 		}

@@ -17,6 +17,8 @@ trait_bno_castrated_desc: "Children are a thing of the past. This man will not b
 trait_bno_camp_leader: "Black Revolutionary"
 trait_bno_camp_leader_desc: "This character has been chosen as the leader of his local band of refugees for his gigantic, black cock, praised for the amount of sluts he has conquered."
 
+trait_bno_slut_blood: "Black Slut"
+trait_bno_slut_blood_desc: "She has consumed too much [GetTrait('bno_full_black').GetName( GetNullCharacter )] cum, she becomes black from inside out."
 trait_bno_full_black: "Black"
 trait_bno_full_black_desc: "A descendant straight from the continent of Africa"
 trait_bno_mostly_black: "Mostly Black"

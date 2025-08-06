@@ -398,9 +398,7 @@ bno_realize_bbc_potential = {
 	effect = {
 		add_trait = bno_bbc
 	}
-	ai_will_do = {
-		base = 0
-	}
+	ai_check_interval = 0
 }
 
 #Convert to african decision

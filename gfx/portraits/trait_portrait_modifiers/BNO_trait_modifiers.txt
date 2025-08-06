@@ -198,10 +198,10 @@ bno_pure_white_portrait_modifier = {
 					y = -0.5
 				}
 				accessory = {
-					mode = replace
+					mode = add
 					gene = hairstyles
-					template = legacy_dna_hairstyles
-					range = { 0 1 }
+					template = indian_hairstyles_wavy
+					range = { 0 1 } # For the randomness to work correctly
 				}
 			}
 		}
