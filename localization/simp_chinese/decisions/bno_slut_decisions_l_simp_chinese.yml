@@ -27,7 +27,7 @@ bno_change_county_culture_tooltip: "影响民众使他们接受$bnoc$的生活�
 bno_change_county_culture_confirm: "我需要更多$bnoc$"
 bno_change_county_culture_toast: "$bnoc$已经扩散开来了"
 
-bno_recruit_court_position_decision: "招募职务以安抚#V The [GetTrait('bno_full_black').GetName( GetNullCharacter )]人口#!"
+bno_recruit_court_position_decision: "招募职务以安抚#V [GetTrait('bno_full_black').GetName( GetNullCharacter )]人口#!"
 bno_recruit_court_position_decision_desc: "一个良好运行的[ROOT.Char.Custom('RealmType')] 离不开大量女孩的辛劳。我将派遣我的仆人四处奔走，为我的宫廷中新出现的职位寻找合适的人选。"
 bno_recruit_court_position_decision_tooltip: "在你的[court|E]内，以一定费用寻找一位女孩来填补一个[court_position|E]或者扮演其他必要角色\n\n#weak 比方说，你可能雇佣一名[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!"
 bno_recruit_court_position_decision_confirm: "传他们过来！"

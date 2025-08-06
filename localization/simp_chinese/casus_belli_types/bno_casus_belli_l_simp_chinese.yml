@@ -9,7 +9,7 @@
  bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U]保留受争夺的头衔[title|E]。所有反对你的[factions|E]增加他们的[discontent|E]。"
  bno_war_defeat_desc: "[defender.GetShortUIName|U] keeps the contested [title|E]。"
  
- BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective]种族接管[TITLE.GetBaseName]"
+ BNO_WAR_NAME: "$发动$[ATTACKER.GetPrimaryTitle.GetAdjective]对[TITLE.GetBaseName]的种族接管"
  BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  BNO_WAR_CB_NAME: "对[TITLE.GetBaseName]的种族接管"
 
@@ -22,7 +22,7 @@
  bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U]保留受争夺的头衔[title|E]。所有反对你的[factions|E]增加他们的[discontent|E]。"
  bno_subj_war_defeat_desc: "[defender.GetShortUIName|U]保留受争夺的头衔[title|E]。"
 
-BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective]对[TITLE.GetBaseName]的种族征服"
+BNO_SUBJ_WAR_NAME: "$发动$[ATTACKER.GetPrimaryTitle.GetAdjective]对[TITLE.GetBaseName]的种族征服"
 BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 BNO_SUBJ_WAR_CB_NAME: "对[TITLE.GetBaseName]的种族征服"
 

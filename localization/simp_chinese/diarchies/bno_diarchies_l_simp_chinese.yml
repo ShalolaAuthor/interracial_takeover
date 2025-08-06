@@ -1,0 +1,17 @@
+﻿l_simp_chinese:
+
+#Diarchy Types
+bno_sated_throne_diarch_title: "世袭监督"
+bno_sated_throne_diarchy_type: "[bno_sated_throne|E]"
+
+bno_first_harvest_mandate: "初次收割"
+bno_first_harvest_mandate_desc: "#BOL 可能的[mandate|E]影响：#!\n$EFFECT_LIST_BULLET$ 额外的[gold|E]\n$EFFECT_LIST_BULLET$ 统治者必须履行[bno_first_harvest|E]\n$EFFECT_LIST_BULLET$ 统治者必须建立[bno_bbc_council|E]\n\n#WEAK [regent|E]必须尽全力黑化$game_concept_liege$的民族，不论代价如何。#!"
+
+mandate_aptitude.bno_first_harvest.category: "$bno_first_harvest_mandate$"
+mandate_aptitude.bno_first_harvest.primary_skill.bno_sex_counter: "[mandate|E]取决于[bno_sexual_experience|E]"
+mandate_aptitude.bno_first_harvest.secondary_skill.martial: "[mandate|E]使用[learning|E]"
+mandate_aptitude.bno_first_harvest.secondary_skill.prowess: "[mandate|E]使用[prowess|E]"
+mandate_aptitude.bno_first_harvest.bonus_trait.bno_camp_leader: "[GetTrait('bno_camp_leader').GetName( ROOT.Char )]十分出色"
+mandate_aptitude.bno_first_harvest.bonus_trait.strong: "[GetTrait('strong').GetName( ROOT.Char )]十分出色"
+mandate_aptitude.bno_first_harvest.malus_trait.generous: "[GetTrait('generous').GetName( ROOT.Char )]不合适"
+mandate_aptitude.bno_first_harvest.malus_trait.infertile: "[GetTrait('infertile').GetName( ROOT.Char )]不合适"
