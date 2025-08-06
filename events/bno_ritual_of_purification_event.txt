@@ -27,9 +27,6 @@ bno_ritual_of_purification.0001 = {
     }
 
     trigger = {
-        NOT = {
-            has_character_flag = bno_ritual_of_purification_rejected
-        }
         OR = {
             is_bbc = yes
             has_trait = bno_whitegirl
@@ -44,6 +41,10 @@ bno_ritual_of_purification.0001 = {
                 has_trait = bno_mostly_black
                 has_trait = bno_mixed
                 has_trait = bno_barely_mixed
+            }
+            NOR = {
+                has_character_flag = bno_ritual_of_purification.0001.accepted
+                has_character_flag = bno_ritual_of_purification.0001.rejected
             }
         }
         any_councillor = {
@@ -67,6 +68,10 @@ bno_ritual_of_purification.0001 = {
                     has_trait = bno_mixed
                     has_trait = bno_barely_mixed
                 }
+                NOR = {
+                    has_character_flag = bno_ritual_of_purification.0001.accepted
+                    has_character_flag = bno_ritual_of_purification.0001.rejected
+                }
             }
             save_scope_as = child
         }
@@ -77,6 +82,9 @@ bno_ritual_of_purification.0001 = {
         name = bno_ritual_of_purification.0001.approved
         ai_chance = {
             base = 100
+        }
+        scope:child = {
+            add_character_flag = bno_ritual_of_purification.0001.accepted
         }
         trigger_event = {
             id = bno_ritual_of_purification.1001
@@ -90,8 +98,8 @@ bno_ritual_of_purification.0001 = {
             base = 20
         }
         name = bno_ritual_of_purification.0001.rejected
-        add_character_flag = {
-            flag = bno_ritual_of_purification_rejected
+        scope:child = {
+            add_character_flag = bno_ritual_of_purification.0001.rejected
         }
     }
 }

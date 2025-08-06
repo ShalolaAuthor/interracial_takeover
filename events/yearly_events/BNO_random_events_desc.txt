@@ -1860,6 +1860,9 @@ bno_random.0011 = {
 	
 	trigger = {
 		is_qos = yes
+		primary_spouse ?= {
+			NOT = { has_trait = bno_bbc }
+		}
 		any_courtier_or_guest = {
 			has_trait = bno_bbc
 			is_adult = yes
