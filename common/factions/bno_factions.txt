@@ -1,1 +1,16 @@
-﻿bno_civil_unrest = 
+﻿bnwo_faction = {
+    casus_belli = bno_civil_unrest
+
+    leaders_allowed_to_leave = no
+    player_can_join = no
+
+    sort_order = 999
+
+    name = bnwo_faction.name
+
+    short_effect_desc = bnwo_faction.short_effect_desc
+
+    discontent_progress = {
+        
+    }
+}

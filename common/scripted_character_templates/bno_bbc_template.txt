@@ -7,9 +7,8 @@
     #Traits
     random_traits = yes
     random_traits_list = {
-        count = 1
-        bno_blacked = {}
-        bno_snowbunny = {}
+        count = { 0 1 }
+        bno_camp_leader = {}
     }
     #Skills
     prowess = {
@@ -27,5 +26,6 @@
 		add_trait = bno_full_black
 		add_trait = dick_big_good_3
 		add_trait = lustful
+		add_character_flag = spawned_in_bnwo_faction_leader
 	}
 }

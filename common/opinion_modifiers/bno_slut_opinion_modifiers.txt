@@ -3,3 +3,12 @@
 	decaying = yes
 	years = 1
 }
+bno_loser_in_bnwo_faction_war = {
+	opinion = -50
+	years = 15
+	decaying = yes
+	revoke_title_reason = yes
+	imprisonment_reason = yes
+	banish_reason = yes
+	execute_reason = yes
+}

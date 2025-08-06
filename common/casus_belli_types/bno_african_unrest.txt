@@ -1,1 +1,287 @@
-﻿
+﻿bno_civil_unrest = {
+    icon = bno_civil_unrest
+    group = independence
+    target_titles = claim
+    allow_hostages = no
+    ai = yes
+    
+    allowed_for_character = {
+        scope:attacker = {
+            is_leading_faction_type = bnwo_faction
+        }
+    }
+
+    allowed_against_character = {
+	}
+
+    valid_to_start = {
+    }
+
+    should_invalidate = {
+    }
+
+    on_declaration = {
+        scope:attacker = {
+            joined_faction = {
+                every_faction_county_member = {
+                    random_county_province = {
+                        save_scope_as = chosen_location
+                    }
+                    scope:attacker = {
+                        spawn_army = {
+                            levies = { 3000 5000 }
+                            men_at_arms = {
+                                type = bno_african_warriors
+                                men = { 1000 2000 }
+                            }
+                            location = scope:chosen_location
+                            war = scope:war
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    on_victory_desc = {
+        desc = bno_civil_unrest.victory.desc
+    }
+
+    on_victory = {
+        scope:attacker = { show_pow_release_message_effect = yes }
+        scope:defender = {
+            add_prestige_level = -1
+        }
+
+        #Legitimacy from losing faction war
+        scope:attacker = {
+            if = {
+                limit = {
+                    is_valid_for_legitimacy_change = yes
+                }
+                send_interface_toast = {
+                    type = msg_legitimacy_gain
+                    title = legitimacy_gain_toast
+                    left_icon = scope:attacker
+                    right_icon = scope:defender
+                    add_legitimacy = minor_legitimacy_gain
+                }
+            }
+        }
+        scope:defender = {
+            if = {
+                limit = {
+                    is_valid_for_legitimacy_change = yes
+                }
+                if = {
+                    limit = {
+                        scope:attacker = {
+                            is_leading_faction_type = bnwo_faction
+                        }
+                    }
+                    send_interface_toast = {
+				    	type = event_toast_effect_bad
+				    	title = legitimacy_loss_toast
+				    	left_icon = scope:defender
+				    	right_icon = scope:attacker
+				    	add_legitimacy = major_legitimacy_loss
+				    }
+                }
+            }
+        }
+
+        random_in_list = {
+			list = target_titles
+			save_scope_as = target_title
+		}
+
+        scope:attacker = {
+            joined_faction = {
+                every_faction_member = {
+                    add_truce_both_ways = {
+                        character = scope:defender
+                        years = 1
+                        war = root.war
+                        result = victory
+                    }
+                }
+            }
+        }
+        #Give target title away
+        create_title_and_vassal_change = {
+            type = independency
+            save_scope_as = change
+        }
+        hidden_effect = {
+            scope:target_title = {
+                change_title_holder_include_vassals = {
+                    holder = scope:attacker
+                    change = scope:change
+                    take_baronies = no
+                }
+            }
+        }
+        resolve_title_and_vassal_change = scope:change
+    }
+
+    on_white_peace_desc = {
+        desc = bno_civil_unrest.white_peace.desc
+    }
+
+    on_white_peace = {
+        scope:attacker = {
+            show_pow_release_message_effect = yes
+            stress_impact = {
+                bno_bbc = medium_stress_impact_gain
+                bno_camp_leader = medium_stress_impact_gain
+            }
+        }
+        hidden_effect = {
+            scope:attacker = {
+                #Destroy faction
+                if = {
+                    limit = {
+                        exists = joined_faction
+                    }
+                    joined_faction = {
+                        destroy_faction = yes
+                    }
+                }
+                #Clean up faction leader
+                if = {
+                    limit = {
+                        has_character_flag = spawned_in_bnwo_faction_leader
+                    }
+                    death = {
+                        death_reason = death_vanished
+                    }
+                }
+                else = {
+                    add_truce_both_ways = {
+                        character = scope:defender
+                        years = 1
+                        war = root.war
+                        result = victory
+                    }
+                }
+            }
+        }
+    }
+
+    on_defeat_desc = {
+        desc = bno_civil_unrest.defeat.desc
+    }
+
+    on_defeat = {
+        scope:attacker = {
+            show_pow_release_message_effect = yes
+        }
+        scope:attacker = {
+            joined_faction = {
+                every_faction_county_member = {
+                    custom = bnwo_faction_every_county
+                    add_county_modifier = {
+                        modifier = bno_might_makes_right
+                        years = 10
+                    }
+                }
+            }
+        }
+        #Imprison attacker
+        war = {
+            every_war_attacker = {
+                limit = {
+                    is_imprisoned = no
+                }
+                hard_imprison_character_effect = {
+                    TARGET = this
+                    IMPRISONER = scope:defender
+                }
+                scope:defender = {
+                    add_opinion = {
+                        target = prev
+                        modifier = bno_loser_in_bnwo_faction_war
+                    }
+                }
+            }
+        }
+        scope:attacker = {
+            every_character_war = {
+                limit = {
+                    is_defender = scope:defender
+                }
+                every_war_attacker = {
+                    limit = {
+                        is_imprisoned = no
+                    }
+                    hard_imprison_character_effect = {
+                        TARGET = this
+                        IMPRISONER = scope:defender
+                    }
+                    scope:defender = {
+                        add_opinion = {
+                            target = prev
+                            modifier = bno_loser_in_bnwo_faction_war
+                        }
+                    }
+                }
+            }
+        }
+
+        hidden_effect = {
+            scope:attacker = {
+                if = {
+                    limit = {
+                        exists = joined_faction
+                    }
+                    joined_faction = {
+                        destroy_faction = yes
+                    }
+                }
+            }
+        }
+        scope:defender = {
+            add_dread = medium_dread_gain
+
+            #Add legitimacy from winning
+            if = {
+                limit = {
+                    is_valid_for_legitimacy_change = yes
+                }
+                send_interface_toast = {
+			    	type = msg_legitimacy_gain
+			    	title = legitimacy_gain_toast
+			    	left_icon = scope:attacker
+			    	right_icon = scope:defender
+			    	add_legitimacy = minor_legitimacy_gain
+			    }
+            }
+        }
+    }
+
+    on_invalidated_desc = msg_invalidate_war_title
+
+    on_primary_attacker_death = invalidate
+	on_primary_defender_death = inherit
+
+    transfer_behavior = transfer
+
+    attacker_allies_inherit = no
+	defender_allies_inherit = yes
+
+    war_name = bno_civil_unrest_name
+
+    interface_priority = 999
+
+    use_de_jure_wargoal_only = yes
+
+    attacker_wargoal_percentage = 0.8
+
+    max_attacker_score_from_battles = 100
+	max_defender_score_from_battles = 50
+
+    max_defender_score_from_occupation = 150
+	max_attacker_score_from_occupation = 150
+
+	max_ai_diplo_distance_to_title = 500
+}
