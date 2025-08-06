@@ -41,6 +41,7 @@
                             }
                             location = scope:chosen_location
                             war = scope:war
+                            name = bno_civil_unrest.army_name
                         }
                     }
                 }
