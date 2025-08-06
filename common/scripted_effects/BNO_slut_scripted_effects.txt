@@ -741,10 +741,6 @@ create_bbc = {
 		age = $age$
 		
 		dynasty = none
-		trait = bno_bbc
-		trait = bno_full_black
-		trait = dick_big_good_3
-		trait = lustful
 		random_traits = yes
 		faith = faith:bbcs
 		culture = culture:bnoc
@@ -759,6 +755,10 @@ create_bbc = {
 		after_creation = {
 			set_sexuality = heterosexual
 			add_gold = minor_gold_value
+			add_trait = bno_bbc
+			add_trait = bno_full_black
+			add_trait = dick_big_good_3
+			add_trait = lustful
 		}
 	}
 	scope:$SCOPE_NAME$ = {
@@ -779,13 +779,19 @@ create_slut = {
 		location = root.location
 		age = $age$
 		dynasty = scope:european.dynasty
-		trait = bno_curious
-		trait = bno_pure_white
-		trait = tits_big_good_3
-		trait = lustful
-		trait = beauty_good_3
-		trait = fecund
 		random_traits = yes
+		random_traits_list = {
+			count = 1
+			tits_big_good_1 = {}
+			tits_big_good_2 = {}
+			tits_big_good_3 = {}
+		}
+		random_traits_list = {
+			count = 1
+			beauty_good_1 = {}
+			beauty_good_2 = {}
+			beauty_good_3 = {}
+		}
 		faith = scope:european.faith
 		culture = scope:european.culture
 		diplomacy = {
@@ -801,6 +807,10 @@ create_slut = {
 			max_template_decent_skill
 		}
 		after_creation = {
+			add_trait = bno_curious
+			add_trait = bno_pure_white
+			add_trait = lustful
+			add_trait = fecund
 			set_sexuality = heterosexual
 		}
 	}
@@ -951,6 +961,24 @@ bbc_sex = {
 	}
 }
 
+bno_sex_stats = {
+	if = {
+		limit = {
+			NOT = { exists = var:bno_sex_counter }
+		}
+		set_variable = {
+			name = bno_sex_counter
+			value = 1
+		}
+	}
+	else = {
+		change_variable = {
+			name = bno_sex_counter
+			add = 1
+		}
+	}
+}
+
 gain_blacked_cum_slut_status_from_eating_disorder_effect = {
 	bno_have_sex_with_effects = {
 		PARTNER = $TARGET$
@@ -1081,6 +1109,7 @@ bno_add_gold_faith = {
 bno_slut_sex_after_effects = {
 	bno_add_prowess_per_sex = yes
 	bno_sex_increase_dynasty_prestige = yes
+	bno_sex_stats = yes
 	stress_impact = {
 		bno_bbc = -50
 	}
@@ -1150,6 +1179,7 @@ bno_bbc_sex_after_effects = {
 	bno_sex_increase_dynasty_prestige = yes
 	bno_add_prowess_per_sex = yes
 	bno_increase_sluttyness = yes
+	bno_sex_stats = yes
 	stress_impact = {
 		bno_curious = -10
 		bno_blacked = -20

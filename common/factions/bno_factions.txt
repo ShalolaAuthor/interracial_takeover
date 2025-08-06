@@ -1,0 +1,369 @@
+﻿bnwo_faction = {
+    casus_belli = bno_civil_unrest
+
+    leaders_allowed_to_leave = no
+    player_can_join = no
+
+    sort_order = 999
+
+    name = bnwo_faction.name
+
+    short_effect_desc = bnwo_faction.short_effect_desc
+
+    discontent_progress = {
+        base = 0
+        common_discontent_progress_modifier = yes
+    }
+
+    power_threshold = {
+        base = 80
+
+        modifier = {
+            add = 20
+            faction_target = {
+                NOT = { culture = culture:bnoc }
+            }
+            desc = bnwo_faction.power.bnoc
+        }
+
+        modifier = {
+            add = 20
+            faction_target = {
+                NOT = { faith = faith:bbcs }
+            }
+            desc = bnwo_faction.power.bbcs
+        }
+    }
+
+    requires_character = no
+
+    #Faction existence is valid
+    is_valid = {
+        trigger_if = {
+            limit = {
+                exists = special_character
+            }
+            special_character = {
+                is_alive = yes
+            }
+        }
+    }
+
+    #character valid check
+    is_character_valid = {
+        is_ai = yes
+        has_trait = bno_bbc
+        NOT = { has_character_flag = joining_faction_block }
+    }   
+
+    #county valid check
+    is_county_valid = {
+        custom_tooltip = {
+            text = bnwo_faction.not_african_or_bbc_church
+            OR = {
+                NOT = { culture = culture:bnoc }
+                NOT = { faith = faith:bbcs }
+            }
+        }
+
+        #Preventing game over
+        save_temporary_scope_as = this_county
+        trigger_if = {
+            limit = {
+                holder = {
+                    is_ai = no
+                }
+            }
+            NOT = { this = holder.capital_county }
+        }
+    }
+
+    can_character_join = {
+        culture = culture:bnoc
+        faith = faith:bbcs
+    }
+
+    can_county_join = {
+        custom_tooltip = {
+            text = bnwo_faction.not_african_or_bbc_church
+            OR = {
+                NOT = { culture = culture:bnoc }
+                NOT = { faith = faith:bbcs }
+            }
+        }
+    }
+
+    can_county_create = {
+        county_opinion < 0
+
+        custom_tooltip = {
+            text = bnwo_faction.not_african_or_bbc_church
+            OR = {
+                NOT = { culture = culture:bnoc }
+                NOT = { faith = faith:bbcs }
+            }
+        }
+    }
+
+    can_character_become_leader = {
+        has_trait = bno_bbc
+    }
+
+    county_create_score = {
+        base = 0
+        modifier = {
+            add = -100
+            culture = culture:bnoc
+            faith = faith:bbcs
+        }
+        modifier = {
+            add = -100
+            has_county_modifier = bno_might_makes_right
+        }
+        modifier = {
+            add = 20
+            has_county_modifier = bno_local_bbc_unsatisfied
+        }
+    }
+
+    county_join_score = {
+        base = 0
+        modifier = {
+            add = -100
+            culture = culture:bnoc
+            faith = faith:bbcs
+        }
+        modifier = {
+            add = -100
+            has_county_modifier = bno_might_makes_right
+        }
+        modifier = {
+            add = 20
+            has_county_modifier = bno_local_bbc_unsatisfied
+        }
+    }
+
+    county_power = county_levies_to_raise
+
+    ai_join_score = {
+        base = 0
+
+        modifier = {
+            add = -100
+            is_playable_character = no
+        }
+
+        modifier = {
+            add = 20
+            has_trait = bno_bbc
+        }
+        modifier = {
+            add = 20
+            has_trait = bno_camp_leader
+        }
+    }
+
+    on_creation = {
+        random_faction_county_member = {
+            save_scope_as = founding_county
+        }
+    }
+
+    on_destroy = {
+        set_variable = {
+            name = peasant_destroying
+            value = yes
+        }
+        if = {
+            limit = { exists = special_character }
+            special_character = {
+                if = {
+                    limit = { has_variable = peasant_title }
+                    destroy_title = this.var:peasant_title
+                }
+                if = {
+                    limit = {
+                        is_alive = yes
+                    }
+                    remove_character_flag = bnwo_faction_claimant_without_title
+                    remove_variable = peasant_title
+                    remove_variable = bnwo_leader_peasants
+                    if = {
+                        limit = {
+                            has_character_flag = spawned_in_bnwo_faction_leader
+                        }
+                        death = {
+                            death_reason = death_vanished
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    demand = {
+        setup_bnwo_leader_effect = yes
+        faction_leader = {
+            add_opinion = {
+                modifier = angry_opinion
+                target = root.faction_target
+                opinion = -100
+            }
+        }
+        get_bnwo_revolt_target_effect = { FACTION = this }
+        save_scope_as = faction
+        special_character = {
+            save_scope_as = peasant_leader
+        }
+        special_title = {
+            save_scope_as = target_title
+        }
+
+        save_temporary_scope_as = county_faction
+        every_faction_county_member = {
+            limit = {
+                holder = {
+                    NOT = { this = scope:faction.faction_target }
+                    NAND = {
+                        exists = joined_faction
+                        joined_faction = {
+                            this = scope:county_faction
+                        }
+                    }
+                    OR = {
+                        is_vassal_of = scope:faction.faction_target
+                        is_ai = no
+                    }
+                }
+            }
+            holder = {
+                add_to_list = bnwo_faction_vassal_targets
+            }
+        }
+        every_faction_county_member = {
+            holder = {
+                every_liege_or_above = {
+                    limit = {
+                        NOT = { this = scope:faction.faction_target }
+                        NAND = {
+							exists = joined_faction
+							joined_faction = {
+								this = scope:county_faction
+							}
+						}
+						OR = {
+							is_vassal_of = scope:faction.faction_target
+							is_ai = no
+						}
+                        NOT = { is_in_list = bnwo_faction_vassal_targets }
+                    }
+                    add_to_list = bnwo_faction_vassal_targets
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                any_in_list = {
+                    list = bnwo_faction_vassal_targets
+                    is_ai = no
+                }
+            }
+            scope:faction = {
+                set_variable = {
+                    name = faction_targets_player
+                    value = yes
+                }
+            }
+        }
+        #launch the demand event
+        scope:faction.faction_target = {
+            trigger_event = bno_embrace_african_1.0007
+        }
+    }
+
+    ai_demand_chance = {
+        base = 100
+    }
+
+    on_war_start = {
+        every_faction_county_member = {
+            duchy = {
+                add_to_list = areas_of_rebellion
+            }
+        }
+
+        every_in_list = {
+            list = areas_of_rebellion
+            save_temporary_scope_as = this_duchy
+            ordered_in_de_jure_hierarchy = {
+                limit = {
+                    tier = tier_county
+                    any_title_joined_faction = {
+                        this = root
+                    }
+                }
+
+                order_by = total_county_levies
+
+                title_province = {
+                    save_temporary_scope_as = local_center_of_rebellion
+                }
+            }
+
+            root.faction_leader = {
+                spawn_bnwo_revolt_troops = yes
+            }
+
+            #give populist leader a commander
+            create_character = {
+                template = bbc_noble_template
+                location = scope:local_center_of_rebellion
+                save_scope_as = new_bnwo_commander
+            }
+            scope:new_bnwo_commander = {
+                set_employer = root.faction_leader
+            }
+        }
+
+        #give gold to leader
+        every_faction_county_member = {
+            root.faction_leader = {
+                add_gold = minor_gold_value
+            }
+        }
+    }
+
+    leader_leaves = {
+        #only trigger when leader got captured
+        if = {
+            limit = {
+                special_character = {
+                    is_alive = no
+                }
+            }
+            faction_war = {
+                end_war = defender
+            }
+            destroy_faction = yes
+        }
+        if = {
+            limit = {
+                NOT = { has_variable = peasant_destroying }
+                exists = faction_war
+            }
+            faction_war = {
+                end_war = defender
+            }
+        }
+    }
+
+    character_allow_create = no
+
+    special_character_title = bnwo_faction_leader_title
+
+    inherit_membership = yes
+
+    multiple_targeting = yes
+    
+}

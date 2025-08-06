@@ -10,6 +10,7 @@ bno_trait_seeding.0001 = {
 			has_trait = bno_mostly_black
 			has_trait = bno_mixed
 		}
+		NOT = { culture = culture:bnoc }
 		is_alive = yes
 	}
 	immediate = {

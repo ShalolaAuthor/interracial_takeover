@@ -11,6 +11,7 @@
 #bno_give_development_buff_to_target_title
 #bno_get_really_local_bbc
 #bno_travel_to_local_bbc
+#bno_apply_bno_local_bbc_unsatisfied
 
 bno_sex_increase_dynasty_prestige = {
     if = {
@@ -75,7 +76,7 @@ bno_increase_county_control = {
             value = {
                 integer_range = {
                     min = 5
-                    max = 50
+                    max = 15
                 }
             }
         }
@@ -91,7 +92,7 @@ bno_decrease_county_control = {
         change_county_control = {
             value = {
                 integer_range = {
-                    min = -50
+                    min = -15
                     max = -5
                 }
             }
@@ -125,8 +126,9 @@ bno_get_local_bbc = {
         value = yes
     }
     every_realm_province = {
+        save_scope_as = province_temp
         every_pool_character = {
-            province = prev
+            province = scope:province_temp
             limit = {
                 is_bbc = yes
             }
@@ -198,86 +200,6 @@ bno_dismiss_local_whore = {
     }
 }
 
-bno_setup_peasant_leader_effect = {
-	save_scope_as = faction
-	# Does a peasant capital county already exist?
-	if = {
-		limit = {
-			NOT = { exists = scope:peasant_county }
-		}
-		random_faction_county_member = { save_scope_as = peasant_county }
-	}
-	# Does a peasant leader already exist?
-	if = {
-		limit = {
-			NOT = { exists = scope:peasant_leader }
-		}
-		create_character = {
-			location = scope:peasant_county.title_province
-			template = peasant_faction_leader_template
-			faith = faith:bbcs
-			culture = culture:bnoc
-			gender = male
-			save_scope_as = peasant_leader
-		}
-	}
-	scope:peasant_leader = {
-		add_character_flag = peasant_faction_random_peasant
-	}
-
-
-	create_dynamic_title = {
-		tier = duchy
-		name = FACTION_PEASANT_TITLE_NAME
-	}
-	create_title_and_vassal_change = {
-		type = created
-		save_scope_as = change
-		add_claim_on_loss = no
-	}
-
-	scope:new_title = {
-		set_capital_county = scope:peasant_county
-		set_landless_title = yes
-		set_destroy_on_succession = yes
-		set_delete_on_destroy = yes
-		set_no_automatic_claims = yes
-		set_definitive_form = yes
-		set_can_be_named_after_dynasty = no
-		set_can_use_nomadic_naming = no
-		change_title_holder = {
-			holder = scope:peasant_leader
-			change = scope:change
-		}
-
-		set_variable = {
-			name = faction
-			value = scope:faction
-		}
-
-		# avoid unused variable error. This variable is referenced in code
-		var:faction = {}
-	}
-	resolve_title_and_vassal_change = scope:change
-	scope:peasant_leader = {
-		set_variable = {
-			name = peasant_title
-			value = scope:new_title
-		}
-	}
-	scope:new_title = { generate_coa = factions }
-
-	scope:peasant_leader = {
-		set_variable = {
-			name = rebel_leader_peasants
-			value = scope:faction
-		}
-		join_faction_skip_check = scope:faction
-	}
-
-	set_special_character = scope:peasant_leader
-}
-
 bno_reject_bbc_demands = {
     if = {
         limit = {
@@ -331,7 +253,7 @@ bno_fuck_a_bbc_5_times = {
 }
 
 bno_give_development_buff_to_target_title = {
-    scope:target_title = {
+    scope:bno_target_title = {
         if = {
             limit = {
                 has_county_modifier = bno_bbc_angered
@@ -404,5 +326,29 @@ bno_travel_to_local_bbc = {
         on_arrival_event = $ON_ARRIVAL_EVENT$
         can_cancel_planning = no
         on_arrival_destinations = all
+    }
+}
+
+bno_apply_bno_local_bbc_unsatisfied = {
+    add_county_modifier = {
+        modifier = bno_local_bbc_unsatisfied
+        years = 2
+    }
+}
+
+bno_get_random_non_bbc_african_county = {
+    random_held_title = {
+        limit = {
+            tier >= tier_county
+            NOT = { culture = culture:bnoc }
+            NOT = { faith = faith:bbcs }
+        }
+        save_scope_as = random_target_title
+    }
+}
+
+bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = {
+    scope:random_target_title ?= {
+        bno_apply_bno_local_bbc_unsatisfied = yes
     }
 }

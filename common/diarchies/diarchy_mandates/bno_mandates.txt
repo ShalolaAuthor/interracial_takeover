@@ -1,0 +1,65 @@
+﻿bno_first_harvest = {
+    qualification_score = {
+        add = {
+            desc = mandate_aptitude.bno_first_harvest.category
+            #Primary Skill
+            add = {
+                value = var:bno_sex_counter
+                desc = mandate_aptitude.bno_first_harvest.primary_skill.bno_sex_counter
+            }
+            #Secondary skills
+            add = {
+                value = martial
+                multiply = 0.5
+                desc = mandate_aptitude.bno_first_harvest.secondary_skill.martial
+            }
+            add = {
+                value = prowess
+                multiply = 0.5
+                desc = mandate_aptitude.bno_first_harvest.secondary_skill.prowess
+            }
+            #Bonus traits
+            if = {
+                limit = {
+                    has_trait = bno_camp_leader
+                }
+                add = {
+                    value = 20
+                    desc = mandate_aptitude.bno_first_harvest.bonus_trait.bno_camp_leader
+                }
+            }
+            if = {
+                limit = {
+                    has_trait = strong
+                }
+                add = {
+                    value = 20
+                    desc = mandate_aptitude.bno_first_harvest.bonus_trait.strong
+                }
+            }
+            #Malus traits
+            if = {
+                limit = {
+                    has_trait = generous
+                }
+                add = {
+                    value = -20
+                    desc = mandate_aptitude.bno_first_harvest.malus_trait.generous
+                }
+            }
+            if = {
+                limit = {
+                    has_trait = infertile
+                }
+                add = {
+                    value = -20
+                    desc = mandate_aptitude.bno_first_harvest.malus_trait.infertile
+                }
+            }
+        }
+    }
+
+    ai_score = {
+        value = 1
+    }
+}

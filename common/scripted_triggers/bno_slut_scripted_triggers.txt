@@ -267,6 +267,7 @@ is_blacked_girl_married_to_a_ruler = {
 is_unmarried_ai_pure_white_girl = {
 	is_ai_pure_white_girl = yes
 	is_married = no
+	is_betrothed = no
 }
 
 is_married_ai_pure_white_girl_has_white_husband = {
@@ -635,6 +636,7 @@ does_unmarried_ai_pure_foreign_lady_exist = {
 is_unmarried_ai_blackbull = {
 	is_ai_blackbull = yes
 	is_married = no
+	is_betrothed = no
 }
 
 is_bno_curious = {

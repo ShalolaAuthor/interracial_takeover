@@ -86,12 +86,12 @@
         }
     }
     mandate = bno_first_harvest
-    mandate = bno_binding_rite
-    mandate = bno_night_council
+    #mandate = bno_binding_rite
+    #mandate = bno_night_council
     aptitude_score = {
         add = mandate_type_qualification:bno_first_harvest
-        add = mandate_type_qualification:bno_binding_rite
-        add = mandate_type_qualification:bno_night_council
+        #add = mandate_type_qualification:bno_binding_rite
+        #add = mandate_type_qualification:bno_night_council
     }
     loyalty_score = {#placeholder
         if = {

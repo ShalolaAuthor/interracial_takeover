@@ -5,6 +5,18 @@ bno_sex_prowess = {
     stacking = yes
 }
 # County
+bno_might_makes_right = {
+    icon = county_modifier_opinion_positive
+    stacking = yes
+    county_opinion_add = 25
+}
+
+bno_local_bbc_unsatisfied = {
+    icon = county_modifier_opinion_negative
+    stacking = yes
+    county_opinion_add = -25
+}
+
 bno_siding_with_local = {
     icon = county_modifier_development_positive
     tax_mult = 0.5
