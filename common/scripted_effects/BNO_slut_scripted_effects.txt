@@ -961,6 +961,24 @@ bbc_sex = {
 	}
 }
 
+bno_sex_stats = {
+	if = {
+		limit = {
+			NOT = { exists = var:bno_sex_counter }
+		}
+		set_variable = {
+			name = bno_sex_counter
+			value = 1
+		}
+	}
+	else = {
+		change_variable = {
+			name = bno_sex_counter
+			add = 1
+		}
+	}
+}
+
 gain_blacked_cum_slut_status_from_eating_disorder_effect = {
 	bno_have_sex_with_effects = {
 		PARTNER = $TARGET$
@@ -1091,6 +1109,7 @@ bno_add_gold_faith = {
 bno_slut_sex_after_effects = {
 	bno_add_prowess_per_sex = yes
 	bno_sex_increase_dynasty_prestige = yes
+	bno_sex_stats = yes
 	stress_impact = {
 		bno_bbc = -50
 	}
@@ -1160,6 +1179,7 @@ bno_bbc_sex_after_effects = {
 	bno_sex_increase_dynasty_prestige = yes
 	bno_add_prowess_per_sex = yes
 	bno_increase_sluttyness = yes
+	bno_sex_stats = yes
 	stress_impact = {
 		bno_curious = -10
 		bno_blacked = -20

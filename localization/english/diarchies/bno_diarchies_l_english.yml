@@ -1,0 +1,17 @@
+﻿l_english:
+
+#Diarchy Types
+bno_sated_throne_diarch_title: "Hereditary Overseer"
+bno_sated_throne_diarchy_type: "[bno_sated_throne|E]"
+
+bno_first_harvest_mandate: "First Harvest"
+bno_first_harvest_mandate_desc: "#BOL Possible [mandate|E] Effects:#!\n$EFFECT_LIST_BULLET$ Extra [gold|E]\n$EFFECT_LIST_BULLET$ Ruler must do [bno_first_harvest|E]\n$EFFECT_LIST_BULLET$ Ruler must establish [bno_bbc_council|E]\n\n#WEAK The [regent|E] must try his hardest to black the $game_concept_liege$'s nation, at any cost.#!"
+
+mandate_aptitude.bno_first_harvest.category: "$bno_first_harvest_mandate$"
+mandate_aptitude.bno_first_harvest.primary_skill.bno_sex_counter: "[mandate|E] relies on [bno_sexual_experience|E]"
+mandate_aptitude.bno_first_harvest.secondary_skill.martial: "[mandate|E] uses [learning|E]"
+mandate_aptitude.bno_first_harvest.secondary_skill.prowess: "[mandate|E] uses [prowess|E]"
+mandate_aptitude.bno_first_harvest.bonus_trait.bno_camp_leader: "[GetTrait('bno_camp_leader').GetName( ROOT.Char )] excels"
+mandate_aptitude.bno_first_harvest.bonus_trait.strong: "[GetTrait('strong').GetName( ROOT.Char )] excels"
+mandate_aptitude.bno_first_harvest.malus_trait.generous: "[GetTrait('generous').GetName( ROOT.Char )] ill-suited"
+mandate_aptitude.bno_first_harvest.malus_trait.infertile: "[GetTrait('infertile').GetName( ROOT.Char )] ill-suited"

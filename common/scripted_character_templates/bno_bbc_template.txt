@@ -1,0 +1,31 @@
+﻿bbc_noble_template = {
+    age = { 18 30 }
+    gender = male
+    dynasty = generate
+    faith = faith:bbcs
+	culture = culture:bnoc
+    #Traits
+    random_traits = yes
+    random_traits_list = {
+        count = 1
+        bno_blacked = {}
+        bno_snowbunny = {}
+    }
+    #Skills
+    prowess = {
+		min_template_decent_skill
+		max_template_decent_skill
+	}
+	martial = {
+		min_template_decent_skill
+		max_template_decent_skill
+	}
+    after_creation = {
+		set_sexuality = heterosexual
+		add_gold = minor_gold_value
+		add_trait = bno_bbc
+		add_trait = bno_full_black
+		add_trait = dick_big_good_3
+		add_trait = lustful
+	}
+}

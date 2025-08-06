@@ -51,8 +51,9 @@ bno_embrace_african_1.0001 = {
             limit = {
                 NOT = { culture = culture:bnoc }
             }
+            save_scope_as = province_temp
             every_pool_character = {
-                province = prev
+                province = scope:province_temp
                 add_to_temporary_list = local_people
             }
         }
@@ -535,69 +536,65 @@ bno_embrace_african_1.0007 = {
         animation = aggressive_sword
     }
 
-    cooldown = { months = { 12 18 } }
-
     trigger = {
         is_ruler = yes
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_1
         }
+        any_held_title = {
+            tier >= tier_county
+            NOT = { culture = culture:bnoc }
+            NOT = { faith = faith:bbcs }
+        }
     }
 
     immediate = {
-        every_realm_province = {
-            every_pool_character = {
-                province = prev
-                limit = {
-                    is_bbc = yes
-                }
-                add_to_temporary_list = local_bbcs
-            }
-        }
-        random_held_title = {
-            limit = {
-                tier >= tier_county
-            }
-            save_scope_as = target_title
-        }
         hidden_effect = {
-            scope:target_title = {
-                title_create_faction = {
-                    type = peasant_faction
+            random_held_title = {
+                limit = {
+                    tier >= tier_county
+                    NOT = { culture = culture:bnoc }
+                    NOT = { faith = faith:bbcs }
+                }
+                save_scope_as = target_title
+            }
+            create_character = {
+                template = bbc_noble_template
+                location = scope:target_title.title_province
+                save_scope_as = peasant_leader
+            }
+            scope:peasant_leader = {
+                add_pressed_claim = scope:target_title
+                create_faction = {
+                    type = claimant_faction
                     target = root
+                }
+                spawn_army = {
+                    levies = { 3000 5000 }
+                    men_at_arms = {
+                        type = bno_african_warriors
+                        men = { 1000 2000 }
+                    }
+                    location = scope:target_title.title_province
+                    name = "The Black Retribution"
                 }
             }
             random_targeting_faction = {
                 limit = {
-                    faction_is_type = peasant_faction
+                    faction_is_type = claimant_faction
                 }
                 save_scope_as = rebel_faction
-                bno_setup_peasant_leader_effect = yes
             }
         }
     }
 
     option = {
         name = bno_embrace_african_1.0007.a
-        every_in_list = {
-            list = local_bbcs
-            limit = {
-                can_join_faction = scope:rebel_faction
-            }
-            join_faction = scope:rebel_faction
-        }
     }
 
     after = {
         scope:rebel_faction = {
-            faction_start_war = {}
-            hidden_effect = {
-                faction_spawn_member_county_armies_effect = {
-                    FACTION = scope:rebel_faction
-                    ARMY_OWNER = scope:peasant_leader
-                    PEASANT_ARMY_NAME = peasant_faction_event_troops
-                }
-            }
+            faction_start_war = { title = scope:target_title }
         }
     }
 }
