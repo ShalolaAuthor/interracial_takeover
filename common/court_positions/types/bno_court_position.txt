@@ -39,6 +39,7 @@
             has_trait = beauty_good
             has_trait = tits_big_good
             is_visibly_fertile = yes
+            NOT = { has_trait = lovers_pox }
         }
     }
 
