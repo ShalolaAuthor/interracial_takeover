@@ -113,7 +113,7 @@ setup_bnwo_leader_effect = {
     # set peasant leader to be the head of the faction
     scope:peasant_leader = {
         set_variable = {
-            name = rebel_leader_peasants
+            name = bnwo_leader_peasants
             value = scope:faction
         }
         join_faction_skip_check = scope:faction

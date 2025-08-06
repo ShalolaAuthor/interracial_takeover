@@ -528,87 +528,240 @@ bno_embrace_african_1.0006 = {
         bno_decrease_county_control = yes
     }
 }
-#7 ignoring migrants will spark rebellion
+#7 demand event fired from faction
 bno_embrace_african_1.0007 = {
-    type = character_event
-    title = bno_embrace_african_1.0007.title
+    type = letter_event
+    sender = scope:peasant_leader
+    opening = {
+        desc = faction_demand_bnwo
+    }
     desc = bno_embrace_african_1.0007.desc
-    theme = war
-
-    override_background = {
-        reference = battlefield
-    }
-
-    left_portrait = {
-        character = scope:peasant_leader
-        animation = aggressive_sword
-    }
-
-    right_portrait = {
-        character = root
-        animation = aggressive_sword
-    }
 
     trigger = {
-        is_ruler = yes
-        dynasty ?= {
-            has_dynasty_perk = bno_embrace_african_1
-        }
-        any_held_title = {
-            tier >= tier_county
-            NOT = { culture = culture:bnoc }
-            NOT = { faith = faith:bbcs }
-        }
+        exists = scope:faction
+		exists = scope:peasant_leader
+		scope:peasant_leader.joined_faction = scope:faction
     }
 
     immediate = {
-        hidden_effect = {
-            random_held_title = {
-                limit = {
-                    tier >= tier_county
-                    NOT = { culture = culture:bnoc }
-                    NOT = { faith = faith:bbcs }
-                }
-                save_scope_as = bno_target_title
-            }
-            create_character = {
-                template = bbc_noble_template
-                location = scope:bno_target_title.title_province
-                save_scope_as = peasant_leader
-            }
-            scope:peasant_leader = {
-                add_pressed_claim = scope:bno_target_title
-                create_faction = {
-                    type = claimant_faction
-                    target = root
-                }
-                spawn_army = {
-                    levies = { 3000 5000 }
-                    men_at_arms = {
-                        type = bno_african_warriors
-                        men = { 1000 2000 }
-                    }
-                    location = scope:bno_target_title.title_province
-                    name = "The Black Retribution"
-                }
-            }
-            random_targeting_faction = {
-                limit = {
-                    faction_is_type = claimant_faction
-                }
-                save_scope_as = rebel_faction
-            }
-        }
+        every_realm_province = {
+			county = { add_to_list = remaining_counties_list }
+		}
+		scope:faction = {
+			every_faction_county_member = { remove_from_list = remaining_counties_list }
+		}
     }
 
     option = {
         name = bno_embrace_african_1.0007.a
+        # This effect should always be placed here, _before_ all the other effects in the block.
+		trigger_event = { on_action = on_faction_demand_rejected }
+
+        scope:faction = {
+			faction_start_war = {
+				title = scope:target_title
+			}
+		}
+
+        custom_tooltip = bno_embrace_african_1.0007.a.tooltip
+
+        #Follow up vassal events
+        if = {
+            limit = {
+                list_size = {
+                    name = bnwo_faction_vassal_targets
+                    value > 0
+                }
+            }
+            every_in_list = {
+                list = bnwo_faction_vassal_targets
+                trigger_event = bno_embrace_african_1.1007
+            }
+        }
     }
 
     after = {
-        scope:rebel_faction = {
-            faction_start_war = { title = scope:bno_target_title }
+        if = {
+			limit = {
+				exists = scope:faction
+				scope:faction = {
+					has_variable = faction_targets_player
+				}
+			}
+			scope:faction = {
+				remove_variable = faction_targets_player
+			}
+		}
+    }
+}
+
+bno_embrace_african_1.1007 = {
+    type = letter_event
+    sender = scope:peasant_leader
+    opening = {
+        desc = faction_demand_bnwo
+    }
+    desc = bno_embrace_african_1.1007.desc
+
+    trigger = {
+        exists = scope:faction
+		exists = scope:peasant_leader
+		scope:peasant_leader.joined_faction = scope:faction
+    }
+
+    immediate = {
+		scope:faction.faction_war = {
+			save_scope_as = bnwo_war
+		}
+	}
+    
+    #only if the vassal is BBC and the liege is not bbc, join the war
+    option = {
+        name = bno_embrace_african_1.1007.a
+        trigger = {
+            has_trait = bno_bbc
+            liege ?= {
+                NOT = { has_trait = bno_bbc }
+            }
         }
+        scope:faction.faction_war = {
+            add_attacker = root
+        }
+        custom_tooltip = bno_embrace_african_1.1007.a.tooltip
+        ai_chance = {
+            base = 0
+            modifier = {
+                add = 100
+                liege ?= {
+                    NOT = { has_trait = bno_bbc }
+                }
+            }
+        }
+    }
+    
+    #fight along side liege
+    option = {
+        name = bno_embrace_african_1.1007.b
+        trigger = {
+			custom_tooltip = { # ... If you already are at war with another participant.
+				text = bno_embrace_african_1.1007.b.tooltip.1
+				scope:faction.faction_war = {
+					NOT = {
+						any_war_participant = {
+							is_at_war_with = root
+						}
+					}
+				}
+			}
+			custom_tooltip = { # ... If it would put you against someone you are fighting another war with.
+				text = bno_embrace_african_1.1007.b.tooltip.2
+				scope:faction.faction_war = {
+					NOT = {
+						any_war_attacker = {
+							any_war_ally = {
+								this = root
+							}
+						}
+					}
+				}
+			}
+		}
+		show_as_unavailable = {
+			OR = {
+				scope:faction.faction_war = {
+					any_war_participant = {
+						is_at_war_with = root
+					}
+				}
+				scope:faction.faction_war = {
+					any_war_attacker = {
+						any_war_ally = {
+							this = root
+						}
+					}
+				}
+			}
+		}
+        # Join the war.
+		scope:faction.faction_war = {
+			add_defender = root
+		}
+		custom_tooltip = bno_embrace_african_1.1007.b.tooltip.2
+		
+		ai_chance = {
+			base = 100
+		}
+    }
+
+    # do nothing
+    option = {
+        name = bno_embrace_african_1.1007.c
+        custom_tooltip = bno_embrace_african_1.1007.c.tooltip.1
+        custom_tooltip = bno_embrace_african_1.1007.c.tooltip.2
+
+        ai_chance = {
+            base = 0
+
+            modifier = {
+                add = 20
+                has_trait = craven
+            }
+        }
+    }
+}
+
+bno_embrace_african_1.2007 = {
+    hidden = yes
+    trigger = {
+		has_variable = bnwo_leader_peasants
+		joined_faction = var:bnwo_leader_peasants
+		exists = scope:war
+		scope:war = {
+			primary_defender = scope:previous_controller
+		}
+		OR = {
+			scope:county.culture = root.culture
+			scope:county.religion = root.religion
+		}
+	}
+
+    immediate = {
+        set_variable = {
+            name = number_bnwo_reinforcements
+            value = {
+                add = {
+                    every_in_list = {
+                        list = occupied_baronies
+                        add = building_levies
+                    }
+                }
+                multiply = {
+                    add = 0.25
+                    add = {
+                        scope:county = {
+                            add = development_level
+                            multiply = 0.005
+                        }
+                    }
+                }
+            }
+        }
+
+        spawn_army = {
+            name = bno_event_troop_default_name
+            levies = var:number_bnwo_reinforcements
+            location = scope:barony.title_province
+            war = scope:war
+        }
+
+        every_in_list = {
+            list = occupied_baronies
+            scope:county = {
+                change_county_control = -10
+            }
+        }
+
+        remove_variable = number_bnwo_reinforcements
     }
 }
 

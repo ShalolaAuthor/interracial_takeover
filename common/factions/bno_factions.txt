@@ -117,6 +117,10 @@
             faith = faith:bbcs
         }
         modifier = {
+            add = -100
+            has_county_modifier = bno_might_makes_right
+        }
+        modifier = {
             add = 20
             has_county_modifier = bno_local_bbc_unsatisfied
         }
@@ -128,6 +132,10 @@
             add = -100
             culture = culture:bnoc
             faith = faith:bbcs
+        }
+        modifier = {
+            add = -100
+            has_county_modifier = bno_might_makes_right
         }
         modifier = {
             add = 20
@@ -179,7 +187,7 @@
                     }
                     remove_character_flag = bnwo_faction_claimant_without_title
                     remove_variable = peasant_title
-                    remove_variable = rebel_leader_peasants
+                    remove_variable = bnwo_leader_peasants
                     if = {
                         limit = {
                             has_character_flag = spawned_in_bnwo_faction_leader

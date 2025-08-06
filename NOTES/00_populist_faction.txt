@@ -229,8 +229,8 @@
 	}
 
 	can_character_become_leader = {
-		has_variable = rebel_leader_peasants
-		var:rebel_leader_peasants = scope:faction
+		has_variable = bnwo_leader_peasants
+		var:bnwo_leader_peasants = scope:faction
 	}
 
 	###########
@@ -681,7 +681,7 @@
 		# Leader never leaves
 		modifier = {
 			desc = "FACTION_REASON_FACTION_LEADER"
-			has_variable = rebel_leader_peasants
+			has_variable = bnwo_leader_peasants
 			add =  10000
 		}
 
@@ -827,9 +827,9 @@
 					}
 					if = {
 						limit = {
-							has_variable = rebel_leader_peasants
+							has_variable = bnwo_leader_peasants
 						}
-						remove_variable = rebel_leader_peasants
+						remove_variable = bnwo_leader_peasants
 					}
 					remove_variable = peasant_title
 					remove_character_flag = peasant_faction_random_peasant

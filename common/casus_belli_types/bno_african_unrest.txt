@@ -12,6 +12,11 @@
     }
 
     allowed_against_character = {
+        scope:defender ?= {
+            dynasty ?= {
+                has_dynasty_perk = bno_embrace_african_1
+            }
+        }
 	}
 
     valid_to_start = {
@@ -182,7 +187,7 @@
                     custom = bnwo_faction_every_county
                     add_county_modifier = {
                         modifier = bno_might_makes_right
-                        years = 10
+                        years = 2
                     }
                 }
             }
