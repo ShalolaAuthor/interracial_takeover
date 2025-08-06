@@ -11,6 +11,7 @@
 #bno_give_development_buff_to_target_title
 #bno_get_really_local_bbc
 #bno_travel_to_local_bbc
+#bno_apply_bno_local_bbc_unsatisfied
 
 bno_sex_increase_dynasty_prestige = {
     if = {
@@ -75,7 +76,7 @@ bno_increase_county_control = {
             value = {
                 integer_range = {
                     min = 5
-                    max = 50
+                    max = 15
                 }
             }
         }
@@ -91,7 +92,7 @@ bno_decrease_county_control = {
         change_county_control = {
             value = {
                 integer_range = {
-                    min = -50
+                    min = -15
                     max = -5
                 }
             }
@@ -405,5 +406,29 @@ bno_travel_to_local_bbc = {
         on_arrival_event = $ON_ARRIVAL_EVENT$
         can_cancel_planning = no
         on_arrival_destinations = all
+    }
+}
+
+bno_apply_bno_local_bbc_unsatisfied = {
+    add_county_modifier = {
+        modifier = bno_local_bbc_unsatisfied
+        years = 2
+    }
+}
+
+bno_get_random_non_bbc_african_county = {
+    random_held_title = {
+        limit = {
+            tier >= tier_county
+            NOT = { culture = culture:bnoc }
+            NOT = { faith = faith:bbcs }
+        }
+        save_scope_as = random_target_title
+    }
+}
+
+bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = {
+    scope:random_target_title ?= {
+        bno_apply_bno_local_bbc_unsatisfied = yes
     }
 }

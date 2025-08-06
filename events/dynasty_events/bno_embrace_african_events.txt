@@ -109,6 +109,7 @@ bno_embrace_african_1.0001 = {
                     }
                     remove_county_modifier = bno_siding_with_bbc
                 }
+                bno_apply_bno_local_bbc_unsatisfied = yes
                 add_county_modifier = {
                     modifier = bno_siding_with_local
                     months = 18
@@ -171,6 +172,7 @@ bno_embrace_african_1.0002 = {
 
     immediate = {
         bno_get_local_bbc = yes
+        bno_get_random_non_bbc_african_county = yes
     }
 
     option = { # you agree to give bbc the position
@@ -183,11 +185,12 @@ bno_embrace_african_1.0002 = {
         }
     }
 
-    option = {
+    option = { # you reject
         name = bno_embrace_african_1.0002.b
         bno_reject_bbc_demands = yes
         bno_dismiss_local_bbc = yes
         bno_decrease_county_control = yes
+        bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = yes
     }
 }
 #3 gaining prestige
@@ -226,6 +229,7 @@ bno_embrace_african_1.0003 = {#your courtier is a known whore
     }
 
     immediate = {
+        bno_get_random_non_bbc_african_county = yes
         bno_get_local_bbc = yes
         bno_dismiss_local_bbc = yes
         random_courtier_or_guest = {
@@ -248,6 +252,7 @@ bno_embrace_african_1.0003 = {#your courtier is a known whore
 
     option = {
         name = bno_embrace_african_1.0003.b
+        bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = yes
         add_prestige = major_prestige_loss
         bno_reject_bbc_demands = yes
         bno_decrease_county_control = yes
@@ -292,6 +297,7 @@ bno_embrace_african_1.0004 = {#female courtier got targeted by migrants
     immediate = {
         bno_get_local_bbc = yes
         bno_dismiss_local_bbc = yes
+        bno_get_random_non_bbc_african_county = yes
         random_courtier_or_guest = {
             limit = {
                 NOT = { has_trait = bno_blood }
@@ -317,6 +323,7 @@ bno_embrace_african_1.0004 = {#female courtier got targeted by migrants
     }
     option = {# reject the proposal, lower county control, give gold for appeasement
         name = bno_embrace_african_1.0004.b
+        bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = yes
         bno_decrease_county_control = yes
         bno_reject_bbc_demands = yes
         pay_short_term_gold = {
@@ -358,6 +365,7 @@ bno_embrace_african_1.0005 = {
 
     immediate = {
         bno_get_local_bbc = yes
+        bno_get_random_non_bbc_african_county = yes
     }
 
     option = { # not whore, or not bbc : duel martial prowess, wounded if loss, bbc join court, win gain prestige
@@ -397,6 +405,7 @@ bno_embrace_african_1.0005 = {
                 add_prestige = major_prestige_loss
                 add_courtier = scope:bbc
                 bno_decrease_county_control = yes
+                bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = yes
             }
         }
     }
@@ -423,6 +432,7 @@ bno_embrace_african_1.0005 = {
         bno_fuck_a_bbc_5_times = yes
         bno_dismiss_local_bbc = yes
         bno_reject_bbc_demands = yes
+        bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = yes
     }
 
     option = { # BBC : duel if win reject the bbc gain prestige, if loss let bbc join court
@@ -456,6 +466,7 @@ bno_embrace_african_1.0005 = {
                 }
                 desc = bno_embrace_african_1.0005.c.failure.tooltip
                 add_courtier = scope:bbc
+                bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = yes
             }
         }
     }
@@ -496,6 +507,7 @@ bno_embrace_african_1.0006 = {
 
     immediate = {
         bno_get_local_bbc = yes
+        bno_get_random_non_bbc_african_county = yes
     }
 
     option = {#agree bbc join court
@@ -510,6 +522,7 @@ bno_embrace_african_1.0006 = {
             target = scope:bbc
             gold = minor_gold_value
         }
+        bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = yes
         bno_reject_bbc_demands = yes
         bno_dismiss_local_bbc = yes
         bno_decrease_county_control = yes

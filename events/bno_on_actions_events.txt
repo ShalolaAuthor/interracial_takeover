@@ -59,7 +59,18 @@ bno_embrace_african_1_events.0001 = {
     hidden = yes
     immediate = {
         bno_only_you_and_neighbour_on_actions = {
-            bno_on_actions = bno_yearly_embrace_african_pulse
+            bno_on_actions = bno_yearly_embrace_african_1_pulse
+        }
+    }
+}
+
+namespace = bno_embrace_african_2_events
+
+bno_embrace_african_2_events.0001 = {
+    hidden = yes
+    immediate = {
+        bno_only_you_and_neighbour_on_actions = {
+            bno_on_actions = bno_yearly_embrace_african_2_pulse
         }
     }
 }
