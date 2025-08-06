@@ -569,15 +569,15 @@ bno_embrace_african_1.0007 = {
                     NOT = { culture = culture:bnoc }
                     NOT = { faith = faith:bbcs }
                 }
-                save_scope_as = target_title
+                save_scope_as = bno_target_title
             }
             create_character = {
                 template = bbc_noble_template
-                location = scope:target_title.title_province
+                location = scope:bno_target_title.title_province
                 save_scope_as = peasant_leader
             }
             scope:peasant_leader = {
-                add_pressed_claim = scope:target_title
+                add_pressed_claim = scope:bno_target_title
                 create_faction = {
                     type = claimant_faction
                     target = root
@@ -588,7 +588,7 @@ bno_embrace_african_1.0007 = {
                         type = bno_african_warriors
                         men = { 1000 2000 }
                     }
-                    location = scope:target_title.title_province
+                    location = scope:bno_target_title.title_province
                     name = "The Black Retribution"
                 }
             }
@@ -607,7 +607,7 @@ bno_embrace_african_1.0007 = {
 
     after = {
         scope:rebel_faction = {
-            faction_start_war = { title = scope:target_title }
+            faction_start_war = { title = scope:bno_target_title }
         }
     }
 }
@@ -655,7 +655,7 @@ bno_embrace_african_2.0001 = {
                 tier >= tier_county
                 NOT = { has_county_modifier = bno_bbc_appeased }
             }
-            save_scope_as = target_title
+            save_scope_as = bno_target_title
         }
     }
 
@@ -671,7 +671,7 @@ bno_embrace_african_2.0001 = {
 
     option = { # you disagree to give him gold
         name = bno_embrace_african_2.0001.a.decline
-        scope:target_title = {
+        scope:bno_target_title = {
             if = {
                 limit = {
                     has_county_modifier = bno_bbc_appeased
@@ -861,7 +861,7 @@ bno_embrace_african_2.0002 = {
         }
         random_in_list = {
             list = whores
-            save_scope_as = whores
+            save_scope_as = whore
         }
         random_held_title = {
             limit = {
@@ -1103,7 +1103,7 @@ bno_embrace_african_2.0003 = {
                 tier >= tier_county
                 NOT = { has_county_modifier = bno_approve_daughter_marriage_with_bbc }
             }
-            save_scope_as = target_title
+            save_scope_as = bno_target_title
         }
     }
 
@@ -1120,7 +1120,7 @@ bno_embrace_african_2.0003 = {
     option = { # decline
         name = bno_embrace_african_2.0003.a.decline
         bno_dismiss_local_bbc = yes
-        scope:target_title = {
+        scope:bno_target_title = {
             if = {
                 limit = {
                     has_county_modifier = bno_approve_daughter_marriage_with_bbc

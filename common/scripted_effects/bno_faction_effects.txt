@@ -1,0 +1,353 @@
+﻿#setup_bnwo_leader_effect
+#get_bnwo_revolt_target_effect
+#spawn_bnwo_revolt_troops
+
+setup_bnwo_leader_effect = {
+    save_scope_as = faction
+
+    random_faction_county_member = {
+        save_scope_as = peasant_county
+    }
+
+    #get scope target_title
+    get_bnwo_revolt_target_effect = { FACTION = this }
+
+    scope:target_title = {
+        #if there is a legitimate claimant we take those
+        random_claimant = {
+            limit = {
+                can_join_faction = scope:faction
+                can_join_or_create_faction_against = scope:faction.faction_target
+
+                faith = faith:bbcs
+                culture = culture:bnoc
+
+                trigger_if = {
+                    limit = {
+                        faith = { has_doctrine = doctrine_gender_male_dominated }
+                    }
+                    is_male = yes
+                }
+                trigger_else_if = {
+                    limit = {
+                        faith = { has_doctrine = doctrine_gender_female_dominated }
+                    }
+                    is_female = yes
+                }
+                trigger_else = {
+                    always = yes
+                }
+                AND = {
+                    is_ruler = no
+                    is_playable_character = no
+                    NOT = {
+                        any_heir_title = {
+                            exists = this
+                        }
+                    }
+                }
+            }
+            save_scope_as = peasant_leader
+            add_character_flag = bnwo_faction_claimant_without_title
+            add_trait = bno_camp_leader
+        }
+    }
+
+    #if natural doesn't exist we create
+    if = {
+        limit = { exists = scope:peasant_leader }
+        create_character = {
+            location = scope:peasant_county.title_province
+            template = bbc_noble_template
+            trait = bno_camp_leader
+            save_scope_as = peasant_leader
+        }
+        scope:peasant_leader = {
+            if = {
+                limit = {
+                    NOT = { has_character_flag = spawned_in_bnwo_faction_leader }
+                }
+                add_character_flag = spawned_in_bnwo_faction_leader
+            }
+        }
+    }
+
+    #create title for it
+    #this thing will produce scope:new_title
+    create_dynamic_title = {
+        tier = duchy
+        name = bnwo_faction_revolt_title_name
+    }
+    create_title_and_vassal_change = {
+        type = created
+        save_scope_as = change
+        add_claim_on_loss = no
+    }
+    scope:new_title = {
+        set_capital_county = scope:peasant_county
+        set_landless_title = yes
+        set_destroy_on_succession = yes
+        set_delete_on_destroy = yes
+        set_no_automatic_claims = yes
+        set_definitive_form = yes
+        set_can_be_named_after_dynasty = no
+        set_can_use_nomadic_naming = no
+        change_title_holder = {
+            holder = scope:peasant_leader
+            change = scope:change
+        }
+        set_variable = {
+            name = faction
+            value = scope:faction
+        }
+    }
+    resolve_title_and_vassal_change = scope:change
+    scope:peasant_leader = {
+        set_variable = {
+            name = peasant_title
+            value = scope:new_title
+        }
+    }
+    scope:new_title = { generate_coa = factions }
+    
+    # set peasant leader to be the head of the faction
+    scope:peasant_leader = {
+        set_variable = {
+            name = rebel_leader_peasants
+            value = scope:faction
+        }
+        join_faction_skip_check = scope:faction
+    }
+    set_special_character = scope:peasant_leader
+}
+
+get_bnwo_revolt_target_effect = {
+    $FACTION$ = {
+        save_scope_as = faction
+        faction_target = {
+            save_scope_as = faction_target
+        }
+    }
+    scope:faction_target = {
+        random_held_title = {
+            limit = {
+                tier >= tier_county
+                NOT = { culture = culture:bnoc }
+                NOT = { faith = faith:bbcs }
+            }
+            save_scope_as = target_title
+        }
+    }
+}
+
+spawn_bnwo_revolt_troops = {
+    #levies
+    spawn_army = {
+        levies = {
+            value = 0
+            joined_faction = {
+                every_faction_county_member = {
+                    limit = {
+                        duchy = scope:local_center_of_rebellion.duchy
+                    }
+                    add = county_levies_to_raise
+                }
+            }
+        }
+        location = scope:local_center_of_rebellion
+        war = root.faction_war
+        name = bnwo_faction_event_troops
+    }
+    spawn_army = {
+        men_at_arms = {
+            type = bno_african_warriors
+            stacks = {
+                value = 0
+                joined_faction = {
+                    every_faction_county_member = {
+                        limit = {
+                            duchy = scope:local_center_of_rebellion.duchy
+                        }
+                        add = county_maa_to_raise
+                    }
+                }
+            }
+        }
+        location = scope:local_center_of_rebellion
+        war = root.faction_war
+        name = bnwo_faction_event_troops
+    }
+    # Spawn MAAs - An appropriate amount of troops dependent on the terrain type they spawn in
+	if = {
+		limit = {
+			scope:local_center_of_rebellion = {
+				OR = {
+					terrain = forest
+					terrain = taiga
+					terrain = jungle
+					terrain = plains
+					terrain = drylands
+					terrain = oasis
+					terrain = desert
+					terrain = wetlands
+					terrain = steppe
+				}
+			}
+		}
+		spawn_army = {
+			men_at_arms = {
+				type = light_footmen
+				stacks = {
+					value = 0
+					joined_faction = {
+						every_faction_county_member = {
+							limit = {
+								duchy = scope:local_center_of_rebellion.duchy
+							}
+							add = county_maa_to_raise
+						}
+					}
+				}
+			}
+			location = scope:local_center_of_rebellion
+			war = root.faction_war
+			name = bnwo_faction_event_troops
+		}
+	}
+	else_if = {
+		limit = {
+			scope:local_center_of_rebellion = {
+				OR = {
+					terrain = mountains
+					terrain = desert_mountains
+				}
+			}
+		}
+		spawn_army = {
+			men_at_arms = {
+				type = pikemen_unit
+				stacks = {
+					value = 0
+					joined_faction = {
+						every_faction_county_member = {
+							limit = {
+								duchy = scope:local_center_of_rebellion.duchy
+							}
+							add = county_maa_to_raise
+						}
+					}
+				}
+			}
+			location = scope:local_center_of_rebellion
+			war = root.faction_war
+			name = bnwo_faction_event_troops
+		}
+	}
+	else_if = {
+		limit = {
+			scope:local_center_of_rebellion = {
+				OR = {
+					terrain = hills
+					terrain = farmlands
+					terrain = floodplains
+				}
+			}
+		}
+		spawn_army = {
+			men_at_arms = {
+				type = bowmen
+				stacks = {
+					value = 0
+					joined_faction = {
+						every_faction_county_member = {
+							limit = {
+								duchy = scope:local_center_of_rebellion.duchy
+							}
+							add = county_maa_to_raise
+						}
+					}
+				}
+			}
+			location = scope:local_center_of_rebellion
+			war = root.faction_war
+			name = bnwo_faction_event_troops
+		}
+	}
+	
+	# Spawn Siege Weapons depending on discovered innovations
+	if = {
+		limit = {
+			culture = { has_innovation = innovation_bombard }
+		}
+		spawn_army = {
+			men_at_arms = {
+				type = bombard
+				stacks = 1
+			}
+			location = scope:local_center_of_rebellion
+			war = root.faction_war
+			name = bnwo_faction_event_troops
+		}
+	}
+	else_if = {
+		limit = {
+			culture = { has_innovation = innovation_trebuchet }
+		}
+		spawn_army = {
+			men_at_arms = {
+				type = trebuchet
+				stacks = 1
+			}
+			location = scope:local_center_of_rebellion
+			war = root.faction_war
+			name = bnwo_faction_event_troops
+		}
+		
+	}
+	else_if = {
+		limit = {
+			culture = { has_innovation = innovation_mangonel }
+		}
+		spawn_army = {
+			men_at_arms = {
+				type = mangonel
+				stacks = 1
+			}
+			location = scope:local_center_of_rebellion
+			war = root.faction_war
+			name = bnwo_faction_event_troops
+		}
+	}
+	else_if = {
+		limit = {
+			culture = { has_innovation = innovation_catapult }
+		}
+		spawn_army = {
+			men_at_arms = {
+				type = onager
+				stacks = 1
+			}
+			location = scope:local_center_of_rebellion
+			war = root.faction_war
+			name = bnwo_faction_event_troops
+		}
+	}
+
+	if = {
+		limit = { has_variable = ep3_governor_yearly_8150_ignored }
+		root.faction_leader = {
+			spawn_army = {
+				name = ep3_governor_yearly_8150_troop_name
+				men_at_arms = {
+					type = light_footmen
+					stacks = 2
+				}
+				war = root.faction_war
+				location = scope:local_center_of_rebellion
+				origin = scope:local_center_of_rebellion
+				inheritable = no
+			}
+		}
+		remove_variable = ep3_governor_yearly_8150_ignored
+	}
+}
