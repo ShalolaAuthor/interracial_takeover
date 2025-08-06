@@ -100,7 +100,7 @@ bno_embrace_african_1.0001 = {
 
     option = {#siding with local
         name = bno_embrace_african_1.0001.a
-        bno_reject_bbc_demands = yes
+        
         scope:local_province = {
             county = {
                 if = {
@@ -187,7 +187,7 @@ bno_embrace_african_1.0002 = {
 
     option = { # you reject
         name = bno_embrace_african_1.0002.b
-        bno_reject_bbc_demands = yes
+        
         bno_dismiss_local_bbc = yes
         bno_decrease_county_control = yes
         bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = yes
@@ -254,7 +254,7 @@ bno_embrace_african_1.0003 = {#your courtier is a known whore
         name = bno_embrace_african_1.0003.b
         bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = yes
         add_prestige = major_prestige_loss
-        bno_reject_bbc_demands = yes
+        
         bno_decrease_county_control = yes
     }
 }
@@ -325,7 +325,7 @@ bno_embrace_african_1.0004 = {#female courtier got targeted by migrants
         name = bno_embrace_african_1.0004.b
         bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = yes
         bno_decrease_county_control = yes
-        bno_reject_bbc_demands = yes
+        
         pay_short_term_gold = {
             target = scope:bbc
             gold = minor_gold_value
@@ -390,7 +390,7 @@ bno_embrace_african_1.0005 = {
                     increase_wounds_effect = { REASON = fight }
                 }
                 bno_dismiss_local_bbc = yes
-                bno_reject_bbc_demands = yes
+                
                 add_prestige = major_prestige_gain
                 bno_increase_county_control = yes
             }
@@ -431,7 +431,7 @@ bno_embrace_african_1.0005 = {
         }
         bno_fuck_a_bbc_5_times = yes
         bno_dismiss_local_bbc = yes
-        bno_reject_bbc_demands = yes
+        
         bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = yes
     }
 
@@ -456,7 +456,7 @@ bno_embrace_african_1.0005 = {
                 add_prestige = major_prestige_gain
                 bno_increase_county_control = yes
                 bno_dismiss_local_bbc = yes
-                bno_reject_bbc_demands = yes
+                
             }
             50 = { # loss
                 compare_modifier = {
@@ -523,7 +523,7 @@ bno_embrace_african_1.0006 = {
             gold = minor_gold_value
         }
         bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = yes
-        bno_reject_bbc_demands = yes
+        
         bno_dismiss_local_bbc = yes
         bno_decrease_county_control = yes
     }
@@ -840,7 +840,7 @@ bno_embrace_african_2.0001 = {
     }
 
     option = { # you are snowbunny and up
-        name = bno_embrace_african_2.0002.b
+        name = bno_embrace_african_2.0001.b
         trigger = {
             is_bno_snowbunny_and_up = yes
         }

@@ -17,11 +17,11 @@ bno_gold_amount = {
 }
 
 bno_bbc_marriage_perk_reward = {
-  value = { 100 200 }
+  value = { 25 50 }
 }
 
 bno_bbc_marriage_prestige_perk_reward = {
-  value = { 1000 2000 }
+  value = { 500 1000 }
 }
 
 bno_random_xp_positive = {
@@ -29,7 +29,7 @@ bno_random_xp_positive = {
 }
 
 bno_random_xp_negative = {
-	value = { -1 -10 }
+	value = { -15 -5 }
 }
 
 hair_color_x = {

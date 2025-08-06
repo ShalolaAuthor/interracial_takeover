@@ -110,6 +110,12 @@ mindless_slut = {
 					x = 0.1
 					y = 0
 				}
+				accessory = {
+            	    mode = add
+            	    gene = headgear
+            	    template = no_headgear
+            	    value = 0
+            	}
 			}		
 		}
 	}
@@ -183,13 +189,13 @@ bno_pure_white_portrait_modifier = {
 					mode = modify
 
 					x = 0.0
-					y = -0.4
+					y = -0.2
 				}
 				color = {
 					gene = hair_color
 					mode = modify
 					x = -0.2
-					y = -1.0
+					y = -0.5
 				}
 				accessory = {
 					mode = replace

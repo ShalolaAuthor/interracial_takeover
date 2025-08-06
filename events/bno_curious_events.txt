@@ -12,83 +12,35 @@ bno_curious.0001 = {
 	hidden = yes
 	
 	trigger = {
-		age >= 15
-		NOT = { has_character_flag = bno_curious.0001 }
-        is_ai = yes
-		is_female = yes
-		NOR = {
-            has_trait = bno_whitegirl
-			has_trait = chaste
-        }
 		OR = {
-			any_relation = {
-				type = guardian
-				OR = {
-					is_blacked = yes
-					is_bbc = yes		
-				}
-			}
-			AND = {
-				exists = father
-				father= {
-					is_bbc = yes
-				}
-			}
-			AND = {
-				exists = mother
-				mother = {
-					has_trait = bno_whitegirl
-				}
-			}
+			is_bno_blacked_and_up = yes
+			has_trait = bno_bbc
+		}
+		any_child = {
+			age >= 15
+			NOT = { has_character_flag = bno_curious.0001 }
+			is_ai = yes
+			is_female = yes
+			NOT = { has_trait = bno_whitegirl }
 		}
 	}
 
 	immediate = {
-		save_scope_as = child
-
-		bno_increase_sluttyness = yes
-
-		random_relation = { 
-			type = guardian
-			save_scope_as = guardian
-		}
-		if = {
+		random_child = {
 			limit = {
-				exists = scope:guardian
+				age >= 15
+				NOT = { has_character_flag = bno_curious.0001 }
+				is_ai = yes
+				is_female = yes
+				NOT = { has_trait = bno_whitegirl }
 			}
-			scope:guardian = { bno_curious_trigger_event = yes }
+			save_scope_as = child
 		}
-		else_if = {
-			limit = {
-				exists = father
-				father = { is_ai = no }
-			}
-			father= { bno_curious_trigger_event = yes }
+		scope:child = {
+			bno_increase_sluttyness = yes
+			add_character_flag = bno_curious.0001
 		}
-		else_if = {
-			limit = {
-				exists = mother
-				mother = { is_ai = no }
-			}
-			mother = { bno_curious_trigger_event = yes }
-		}
-		else_if = {
-			limit = {
-				exists = father
-				father= { is_bbc = yes	}
-			}
-			father= { bno_curious_trigger_event = yes }
-		}
-		else_if = {
-			limit = {
-				exists = mother
-				mother = { is_bno_curious_and_up = yes }
-			}
-			mother = { bno_curious_trigger_event = yes }
-		}
-		add_character_flag = {
-			flag = bno_curious.0001
-		}
+		bno_curious_trigger_event = yes
 	}
 }
 
@@ -104,7 +56,6 @@ bno_curious.1001 = {
 	}
 	
 	left_portrait = scope:child
-	immediate = { save_scope_as = guardian }
 	
 	option = { #Let her go to the refugee camp and learn her place
 		name = bno_curious.1001.a
@@ -203,13 +154,8 @@ bno_curious.1101 = {
 	left_portrait = {
 		character = root
 		animation = flirtation_left
-		triggered_outfit = {
-			trigger = {
-				exists = root
-			}
-			outfit_tags = {
-				no_clothes
-			}
+		outfit_tags = {
+			no_clothes
 		}
 	}
 	
@@ -223,11 +169,9 @@ bno_curious.1101 = {
 	}
 
 	immediate = {
-		root = { 
-			add_character_modifier = { 
-				modifier = bno_a_lively_performance_in_a_refugee_camp 
-                months = 36
-			}
+		add_character_modifier = { 
+			modifier = bno_a_lively_performance_in_a_refugee_camp 
+            months = 36
 		}
 		scope:child = { 
 			add_character_modifier = { 
@@ -243,9 +187,7 @@ bno_curious.1101 = {
         }
 		if = { 
             limit = {
-                root = { 
-                    is_married = yes 
-                } 
+                is_married = yes 
             }
             primary_spouse = {
                 trigger_event =  {
@@ -285,13 +227,9 @@ bno_curious.1201 = {
 
 	lower_center_portrait = {
 		character = scope:target1
-		triggered_outfit = {
-			trigger = {
-				exists = scope:target1
-			}
-			outfit_tags = {
-				no_clothes
-			}
+		animation = personality_content
+		outfit_tags = {
+			no_clothes
 		}
 	}
 
@@ -300,16 +238,46 @@ bno_curious.1201 = {
 	}
 	
 	immediate = {
-		create_bbc = {
-            age = 16
-            SCOPE_NAME = target1
-        }
-		
-		root = {
-			add_character_modifier = { 
-				modifier = bno_educated_a_future_queen_of_spades 
-                months = 36
+		every_realm_province = {
+			save_scope_as = province_temp
+			every_pool_character = {
+				province = scope:province_temp
+				limit = {
+					has_trait = bbc
+					age > 16
+					age < 25
+				}
+				add_to_temporary_list = local_bbc
 			}
+		}
+		if = {
+			limit = {
+				list_size = {
+					name = local_bbc
+					value > 0 
+				}
+			}
+			random_list = {
+				name = local_bbc
+				save_scope_as = target1
+			}
+		}
+		if = {
+			limit = {
+				NOT = { exists = scope:target1 }
+			}
+			create_bbc = {
+        	    age = 18
+        	    SCOPE_NAME = target1
+        	}
+			scope:target1 = {
+				add_character_flag = temporary_bbc_character
+			}
+		}
+		
+		add_character_modifier = { 
+			modifier = bno_educated_a_future_queen_of_spades 
+            months = 36
 		}
 		scope:child = { 
 			add_character_modifier = { 
@@ -330,18 +298,14 @@ bno_curious.1201 = {
 			}
         }
         
-        root = {
-            bno_have_sex_with_effects = {
-                PARTNER = scope:target1
-            }
+        bno_have_sex_with_effects = {
+            PARTNER = scope:target1
         }
 		if = { 
 			limit = {
-				root = { 
-					is_married = yes 
-				} 
+				is_married = yes 
 			}
-			primary_spouse = { 
+			primary_spouse ?= { 
 				trigger_event = {
 					id = bno_cuck.0003
 					days = 1
@@ -366,16 +330,29 @@ bno_curious.1201 = {
 		if = { 
             limit = {
 				exists = scope:child.father
-                scope:child.father = { 
+                scope:child.real_father = { 
                     is_alive = yes
                 }
             }
-			scope:child.father= {
+			scope:child.real_father= {
 				trigger_event = {
 					id = bno_cuck.0005 
 					days = 1
 					delayed = yes
 				} 
+			}
+		}
+	}
+
+	after = {
+		scope:target1 = {
+			if = {
+				limit = {
+					has_character_flag = temporary_bbc_character
+				}
+				death = {
+                    death_reason = death_vanished
+                }
 			}
 		}
 	}
@@ -392,13 +369,8 @@ bno_curious.1301 = {
 	left_portrait = {
 		character = root
 		animation = flirtation_left
-		triggered_outfit = {
-			trigger = {
-				exists = root
-			}
-			outfit_tags = {
-				no_clothes
-			}
+		outfit_tags = {
+			no_clothes
 		}
 	}
 	
@@ -412,11 +384,9 @@ bno_curious.1301 = {
 	}
 
 	immediate = {
-		root = {
-			add_character_modifier = { 
-				modifier = bno_educated_a_future_queen_of_spades 
-				months = 36
-			}
+		add_character_modifier = { 
+			modifier = bno_educated_a_future_queen_of_spades 
+			months = 36
 		}
 		scope:child = {
 			add_character_modifier = { 

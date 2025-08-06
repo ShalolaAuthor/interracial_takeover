@@ -200,38 +200,6 @@ bno_dismiss_local_whore = {
     }
 }
 
-bno_reject_bbc_demands = {
-    if = {
-        limit = {
-            NOT = { exists = var:bno_bbc_demand_rejected_count }
-        }
-        set_variable = {
-            name = bno_bbc_demand_rejected_count
-            value = 1
-        }
-    }
-    else = {
-        change_variable = {
-            name = bno_bbc_demand_rejected_count
-            add = 1
-        }
-    }
-    if = {
-        limit = {
-            var:bno_bbc_demand_rejected_count > 5
-        }
-        trigger_event = {
-            id = bno_embrace_african_1.0007
-            days = 2
-            delayed = yes
-        }
-        set_variable = {
-            name = bno_bbc_demand_rejected_count
-            value = 0
-        }
-    }
-}
-
 bno_fuck_a_bbc_5_times = {
     bno_have_sex_with_effects = {
         PARTNER = scope:bbc
@@ -334,6 +302,10 @@ bno_apply_bno_local_bbc_unsatisfied = {
         modifier = bno_local_bbc_unsatisfied
         years = 2
     }
+    #title_create_faction = {
+    #    type = bnwo_faction
+    #    target = holder.top_liege
+    #}
 }
 
 bno_get_random_non_bbc_african_county = {

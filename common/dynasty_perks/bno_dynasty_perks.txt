@@ -24,15 +24,7 @@
     }
 
     ai_chance = {
-        value = 10
-        if = {
-            limit = { is_bno_actor = yes }
-            add = 90
-        }
-        if = {
-            limit = { can_start_new_legacy_track_trigger = no }
-            multiply = 0
-        }
+        value = 1000
     }
 }
 
@@ -72,19 +64,7 @@ bno_embrace_african_2 = {
         bno_bbc = 100
     }
     ai_chance = {
-        value = 10
-        if = {
-            limit = {
-                dynasty ?= {
-                    has_dynasty_perk = bno_embrace_african_1
-                }
-            }
-            add = 90
-        }
-        if = {
-            limit = { can_start_new_legacy_track_trigger = no }
-            multiply = 0
-        }
+        value = 1000
     }
 }
 
@@ -117,19 +97,7 @@ bno_embrace_african_3 = {
         learn_language_scheme_phase_duration_add = -10
     }
     ai_chance = {
-        value = 10
-        if = {
-            limit = {
-                dynasty ?= {
-                    has_dynasty_perk = bno_embrace_african_2
-                }
-            }
-            add = 90
-        }
-        if = {
-            limit = { can_start_new_legacy_track_trigger = no }
-            multiply = 0
-        }
+        value = 1000
     }
 }
 
@@ -157,19 +125,7 @@ bno_embrace_african_4 = {
         #bonus competency and efficiency for BBC Courtier
     }
     ai_chance = {
-        value = 10
-        if = {
-            limit = {
-                dynasty ?= {
-                    has_dynasty_perk = bno_embrace_african_3
-                }
-            }
-            add = 90
-        }
-        if = {
-            limit = { can_start_new_legacy_track_trigger = no }
-            multiply = 0
-        }
+        value = 1000
     }
 }
 
@@ -206,18 +162,6 @@ bno_embrace_african_5 = {
         vassal_tax_mult = 0.2
     }
     ai_chance = {
-        value = 10
-        if = {
-            limit = {
-                dynasty ?= {
-                    has_dynasty_perk = bno_embrace_african_4
-                }
-            }
-            add = 90
-        }
-        if = {
-            limit = { can_start_new_legacy_track_trigger = no }
-            multiply = 0
-        }
+        value = 1000
     }
 }

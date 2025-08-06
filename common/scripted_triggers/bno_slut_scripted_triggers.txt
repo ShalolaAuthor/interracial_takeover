@@ -6,6 +6,7 @@
 
 is_rich_ai_blackbull = {
 	is_ai_blackbull = yes
+	NOT = { has_trait = lovers_pox }
 	gold > 0
 	prestige > 0
 	piety > 0
