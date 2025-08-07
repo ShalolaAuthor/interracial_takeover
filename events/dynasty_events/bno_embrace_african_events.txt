@@ -1063,7 +1063,6 @@ bno_embrace_african_2.0002 = {
         trigger = {
             is_bno_snowbunny_and_up = yes
         }
-        exclusive = yes
         add_internal_flag = special
 
         bno_travel_to_local_bbc = {
@@ -1077,7 +1076,6 @@ bno_embrace_african_2.0002 = {
         trigger = {
             has_trait = bno_bbc
         }
-        exclusive = yes
         add_internal_flag = special
 
         trigger_event = {

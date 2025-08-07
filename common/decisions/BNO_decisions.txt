@@ -109,11 +109,13 @@ bno_election = {
 		is_adult = yes
 		is_female = yes
 		has_trait = bno_whitegirl
+		NOT = { has_realm_law = bnwo_only_law }
 	}
 	is_valid = {
 		is_adult = yes
 		is_female = yes
 		is_bno_snowbunny_and_up = yes
+		NOT = { has_realm_law = bnwo_only_law }
 	}
 	effect = {
 		add_realm_law = bnwo_only_law
@@ -417,7 +419,6 @@ bno_convert_to_african = {
 			has_trait = bno_whitegirl
 		}
 		NOT = { culture = culture:bnoc }
-		NOT = { has_character_flag = bno_convert_to_african }
 	}
 	is_valid = {
 		is_adult = yes
@@ -427,14 +428,10 @@ bno_convert_to_african = {
 			has_trait = bno_jos
 		}
 		NOT = { culture = culture:bnoc }
-		NOT = { has_character_flag = bno_convert_to_african }
 	}
 
 	effect = {
 		set_culture = culture:bnoc
-		add_character_flag = {
-			flag = bno_converted_to_african
-		}
 	}
 	ai_check_interval = 12
 	ai_potential = {

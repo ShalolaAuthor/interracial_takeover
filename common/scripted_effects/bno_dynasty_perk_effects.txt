@@ -321,6 +321,8 @@ bno_get_random_non_bbc_african_county = {
 
 bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = {
     scope:random_target_title ?= {
-        bno_apply_bno_local_bbc_unsatisfied = yes
+        county = {
+            bno_apply_bno_local_bbc_unsatisfied = yes
+        }
     }
 }
