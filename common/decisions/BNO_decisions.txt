@@ -431,7 +431,23 @@ bno_convert_to_african = {
 	}
 
 	effect = {
-		set_culture = culture:bnoc
+		if = {
+			limit = {
+				exists = primary_spouse
+				primary_spouse ?= {
+					is_culture_bnoc = yes
+				}
+			}
+			primary_spouse = {
+				culture = {
+					save_scope_as = new_culture
+				}
+			}
+			set_culture = scope:new_culture
+		}
+		else = {
+			set_culture = culture:bnoc
+		}
 	}
 	ai_check_interval = 12
 	ai_potential = {
