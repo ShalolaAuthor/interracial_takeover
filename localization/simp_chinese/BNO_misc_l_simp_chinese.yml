@@ -26,6 +26,10 @@ trait_bno_castrated: "被阉割"
 trait_bno_castrated_desc: "生育已成过去。这个男人不会有任何后代。"
 trait_bno_camp_leader: "黑人革命领袖"
 trait_bno_camp_leader_desc: "这个角色因为他巨大的黑鸡巴而被选为当地难民团体的领导者，人们称赞他征服了无数的荡妇。"
+
+trait_bno_slut_blood: "黑化母狗"
+trait_bno_slut_blood_desc: "她吸收了太多的[GetTrait('bno_full_black').GetName( GetNullCharacter )]精液，使得她从里到外变成了一个黑人。"
+
 trait_bno_full_black: "纯黑"
 trait_bno_full_black_desc: "一个直接来自非洲大陆的后裔"
 trait_bno_mostly_black: "主要为黑"
