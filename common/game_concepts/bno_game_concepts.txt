@@ -13,3 +13,9 @@ bno_sated_throne = {
 bno_sexual_experience = {
     texture = "gfx/interface/icons/bno_sexual_experience.dds"
 }
+bno_black = {
+    texture = "gfx/interface/icons/traits/bno_full_black_slut.dds"
+}
+bno_bnwo = {
+    texture = "gfx/interface/icons/traits/bno_qos.dds"
+}

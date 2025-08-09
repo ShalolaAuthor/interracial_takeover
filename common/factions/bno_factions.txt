@@ -33,6 +33,26 @@
             }
             desc = bnwo_faction.power.bbcs
         }
+        modifier = {
+            add = -20
+            faction_target = {
+                any_held_title = {
+                    tier >= tier_county
+                    NOT = { culture = culture:bnoc }
+                }
+            }
+            desc = bnwo_faction.power.county_bnoc
+        }
+        modifier = {
+            add = -20
+            faction_target = {
+                any_held_title = {
+                    tier >= tier_county
+                    NOT = { faith = faith:bbcs }
+                }
+            }
+            desc = bnwo_faction.power.county_bbcs
+        }
     }
 
     requires_character = no
@@ -100,6 +120,21 @@
             add = 100
             has_county_modifier = bno_local_bbc_unsatisfied
         }
+        modifier = {
+            add = -50
+            holder = {
+                OR = {
+                    has_trait = bno_bbc
+                    has_trait = bno_whitegirl
+                }
+            }
+        }
+        modifier = {
+            add = 50
+            holder = {
+                has_trait = bno_whiteboi
+            }
+        }
     }
 
     county_join_score = {
@@ -111,6 +146,21 @@
         modifier = {
             add = 100
             has_county_modifier = bno_local_bbc_unsatisfied
+        }
+        modifier = {
+            add = -50
+            holder = {
+                OR = {
+                    has_trait = bno_bbc
+                    has_trait = bno_whitegirl
+                }
+            }
+        }
+        modifier = {
+            add = 50
+            holder = {
+                has_trait = bno_whiteboi
+            }
         }
     }
 

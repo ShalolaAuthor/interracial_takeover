@@ -79,17 +79,25 @@ bbc_worshipper_whoring_around = {
                 add_to_list = bbc_worshipper_target
             }
         }
+    }
+    if = {
+        limit = {
+            list_size = {
+                name = bbc_worshipper_target
+                value > 0
+            }
+        }
         ordered_in_list = {
             list = bbc_worshipper_target
             order_by = gold
             save_scope_as = rich_bbc
         }
-    }
-    bbc_worshipper_service_fee = {
-        PAYEE = scope:rich_bbc
-    }
-    bno_have_sex_with_effects = {
-        PARTNER = scope:rich_bbc
+        bbc_worshipper_service_fee = {
+            PAYEE = scope:rich_bbc
+        }
+        bno_have_sex_with_effects = {
+            PARTNER = scope:rich_bbc
+        }
     }
 }
 

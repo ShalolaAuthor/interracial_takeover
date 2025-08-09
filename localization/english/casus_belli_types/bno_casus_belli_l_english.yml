@@ -1,6 +1,6 @@
 ﻿l_english:
 
- bno_war: "BNWO War"
+ bno_war: "[bno_bnwo|E] War"
  bno_war_victory_desc_attacker: "You gain the contested [titles|E]."
  bno_war_victory_desc: "[attacker.GetShortUIName|U] gains the contested [title|E]."
  bno_war_white_peace_desc_defender: "You keep the contested [title|E]."
@@ -13,7 +13,7 @@
  BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  BNO_WAR_CB_NAME: "Racial Takeover of [TITLE.GetBaseName]"
 
- bno_subj_war: "BNWO Subjugation War"
+ bno_subj_war: "[bno_bnwo|E] Subjugation War"
  bno_subj_war_victory_desc_attacker: "You gain the contested [titles|E]."
  bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] gains the contested [title|E]."
  bno_subj_war_white_peace_desc_defender: "You keep the contested [title|E]."
@@ -26,7 +26,15 @@ BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Racial Subju
 BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 BNO_SUBJ_WAR_CB_NAME: "Racial Subjugation of [TITLE.GetBaseName]"
 
-bno_varangian_adventure: "BNWO Invasion"
+bno_varangian_adventure: "[bno_bnwo|E] Invasion"
 BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Invasion against [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
 BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 BNO_VARANGIAN_ADVENTURE_CB_NAME: "Invasion of [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+
+bno_civil_unrest: "[bno_bnwo|E] Rebellion"
+bno_civil_unrest.army_name: "Ebony Conquerors"
+bno_civil_unrest.victory.desc: "The [bno_bnwo|E] has claimed victory. Resistance is futile. Prepare to serve the new order."
+bno_civil_unrest.white_peace.desc: "The [bno_bnwo|E] offers a chance for peace. Submit to our rule and be spared."
+bno_civil_unrest.defeat.desc: "The [bno_bnwo|E] has been defeated. The old order remains intact, for now."
+bnwo_faction_every_county: "Every [faction|E] [county|E]"
+bno_civil_unrest_name: "Black New World Order Uprising"

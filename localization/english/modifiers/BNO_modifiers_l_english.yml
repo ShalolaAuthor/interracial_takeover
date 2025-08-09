@@ -118,3 +118,9 @@ bno_bbc_angered_desc: "This ruler has angered the local Black community, leading
 #
 bno_bbc_appeased: "BBC Appeased"
 bno_bbc_appeased_desc: "This ruler has appeased the local Black community, ensuring stability and cooperation."
+
+bno_might_makes_right: "Might Makes Right"
+bno_might_makes_right_desc: "This character has won over [bno_bnwo|E] Rebellion valiantly."
+
+bno_local_bbc_unsatisfied: "Local BBC Unsatisfied"
+bno_local_bbc_unsatisfied_desc: "This ruler has failed to meet the expectations of the local Black community, leading to discontent and potential [bno_bnwo|E] rebellion."
