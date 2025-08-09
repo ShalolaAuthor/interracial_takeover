@@ -1,7 +1,7 @@
 ﻿#Person
 bno_sex_prowess = {
     icon = martial_positive
-    prowess = 1
+    prowess = 0.25
     stacking = yes
 }
 # County
