@@ -1,1 +1,122 @@
-﻿
+﻿BNWOAdjective = {
+    type = character
+    #Female
+    text = {
+        localization_key = slut_curious
+        trigger = {
+            has_trait = bno_curious
+        }
+    }
+    text = {
+        localization_key = slut_blacked
+        trigger = {
+            has_trait = bno_blacked
+        }
+    }
+    text = {
+        localization_key = slut_snowbunny
+        trigger = {
+            has_trait = bno_snowbunny
+        }
+    }
+    text = {
+        localization_key = slut_qos
+        trigger = {
+            has_trait = bno_qos
+        }
+    }
+    text = {
+        localization_key = slut_mindless
+        trigger = {
+            has_trait = bno_mindless_bbc_slut
+        }
+    }
+    text = {
+        localization_key = slut_boobs_1
+        trigger = {
+            has_trait = tits_big_good_1
+        }
+    }
+    text = {
+        localization_key = slut_boobs_2
+        trigger = {
+            has_trait = tits_big_good_2
+        }
+    }
+    text = {
+        localization_key = slut_boobs_3
+        trigger = {
+            has_trait = tits_big_good_3
+        }
+    }
+    #Male
+    text = {
+        localization_key = male_bbc
+        trigger = {
+            has_trait = bno_bbc
+        }
+    }
+    text = {
+        localization_key = male_cuckish
+        trigger = {
+            has_trait = bno_cuckish
+        }
+    }
+    text = {
+        localization_key = male_cuck
+        trigger = {
+            has_trait = bno_cuck
+        }
+    }
+    text = {
+        localization_key = male_beta
+        trigger = {
+            has_trait = bno_beta
+        }
+    }
+    text = {
+        localization_key = male_jos
+        trigger = {
+            has_trait = bno_jos
+        }
+    }
+    text = {
+        localization_key = male_caged
+        trigger = {
+            has_trait = bno_caged
+        }
+    }
+    text = {
+        localization_key = male_castrated
+        trigger = {
+            has_trait = bno_castrated
+        }
+    }
+    text = {
+        localization_key = male_dick_1
+        trigger = {
+            has_trait = dick_small_bad_1
+        }
+    }
+    text = {
+        localization_key = male_dick_2
+        trigger = {
+            has_trait = dick_small_bad_2
+        }
+    }
+    text = {
+        localization_key = male_dick_3
+        trigger = {
+            has_trait = dick_small_bad_3
+        }
+    }
+    #Fallbacks
+    text = {
+		localization_key = worthless_female
+		trigger = { is_female = yes }
+	}
+    text = {
+		localization_key = worthless
+		trigger = { is_male = yes }
+	}
+}

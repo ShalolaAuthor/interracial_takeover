@@ -1,0 +1,493 @@
+﻿bno_on_declared_war = {
+	###############################
+	##### Attacker music
+	###############################
+	if = {
+		limit = {
+			exists = scope:war # silence error when building description before war exists
+			scope:war = { using_holy_war_cb_trigger = yes } # going CB->war->is this war's CB a certain type->yes
+		}
+		scope:attacker = { play_music_cue = mx_cue_crusade_starts }
+	}
+	else_if = {
+		limit = {
+			exists = scope:war
+			has_mpo_dlc_trigger = yes
+			OR = {
+				scope:attacker = {
+					government_has_flag = government_is_nomadic
+			  		any_character_situation = {
+			  			this = situation:the_great_steppe
+			  		}
+				}
+				scope:defender = {
+					government_has_flag = government_is_nomadic
+			  		any_character_situation = {
+			  			this = situation:the_great_steppe
+			  		}
+				}
+			}
+		}
+		scope:attacker = { play_music_cue = mx_cue_the_khans_glory }
+	}
+	else_if = {
+		limit = {
+			exists = scope:war
+			OR = {
+				scope:attacker = { fp3_character_any_involvement_persian_struggle_trigger = yes }
+				scope:defender = { fp3_character_any_involvement_persian_struggle_trigger = yes }
+			}
+		}
+		scope:attacker = { play_music_cue = strugglewar_cue }
+	}
+	else_if = {
+		limit = {
+			exists = scope:war
+			OR = {
+				scope:attacker = { fp2_character_any_involvement_iberian_struggle_trigger = yes }
+				scope:defender = { fp2_character_any_involvement_iberian_struggle_trigger = yes }
+			}
+		}
+		scope:attacker = { play_music_cue = mx_IberiaWar }
+	}
+	else_if = {
+		limit = {
+			exists = scope:war
+			scope:attacker = { fp1_is_norse_tribal = yes }
+		}
+		scope:attacker = { play_music_cue = mx_raid }
+	}
+	else = {
+		scope:attacker = { play_music_cue = mx_cue_war_declared }
+	}
+	###############################
+	##### Defender music
+	###############################
+	if = {
+		limit = {
+			exists = scope:war
+			OR = {
+				scope:attacker = { fp2_character_any_involvement_iberian_struggle_trigger = yes }
+				scope:defender = { fp2_character_any_involvement_iberian_struggle_trigger = yes }
+			}
+		}
+		scope:defender = { play_music_cue = mx_IberiaWar }
+	}
+	else_if = {
+		limit = {
+			exists = scope:war
+			has_mpo_dlc_trigger = yes
+			OR = {
+				scope:attacker = {
+					government_has_flag = government_is_nomadic
+			  		any_character_situation = {
+			  			this = situation:the_great_steppe
+			  		}
+				}
+				scope:defender = {
+					government_has_flag = government_is_nomadic
+			  		any_character_situation = {
+			  			this = situation:the_great_steppe
+			  		}
+				}
+			}
+		}
+		scope:defender = { play_music_cue = mx_cue_the_khans_glory }
+	}
+	else_if = {
+		limit = {
+			exists = scope:war
+			OR = {
+				scope:attacker = { fp3_character_any_involvement_persian_struggle_trigger = yes }
+				scope:defender = { fp3_character_any_involvement_persian_struggle_trigger = yes }
+			}
+		}
+		scope:defender = { play_music_cue = strugglewar_cue }
+	}
+	else_if = {
+		limit = {
+			exists = scope:war
+			scope:attacker = { fp1_is_norse_tribal = yes }
+		}
+		scope:defender = { play_music_cue = mx_raid }
+	}
+
+	else = {
+		scope:defender = {
+			play_music_cue = mx_cue_war_declared
+		}
+	}
+
+	###############################
+	##### Effects
+	###############################
+
+	#There is no fighting in the admin room!
+	if = {
+		limit = {
+			scope:attacker = {
+				OR = {
+					government_has_flag = government_is_feudal
+					government_has_flag = government_is_clan
+					government_has_flag = government_is_tribal
+				}			
+				liege ?= {
+					government_has_flag = government_is_administrative
+				}
+			}
+			scope:defender = {
+				government_has_flag = government_is_administrative
+				liege ?= scope:attacker.liege
+			}
+		}
+		custom_description_no_bullet = {
+			text = on_declared_war_in_admin
+		}
+		scope:attacker.liege = {
+			add_opinion = {
+				target = scope:attacker
+				modifier = declared_war_in_admin
+			}
+		}
+	}
+
+	# Breaking Truce
+	if = {
+		limit = {
+			scope:attacker = {
+				has_truce = scope:defender
+			}
+		}
+		scope:attacker = {
+			custom_description_no_bullet = {
+				text = attack_breaking_truce_text
+			}
+
+			# Remove the war target from the bought_truce_list if they're in it
+			if = {
+				limit = {
+					has_purchased_truce_with_char = { TARGET = scope:defender }
+				}
+				remove_list_variable = {
+					name = bought_truce_list
+					target = scope:recipient
+				}
+			}
+
+			if = {
+				limit = {
+					NOT = { has_perk = flexible_truces_perk }
+				}
+				add_prestige = break_truce_prestige_loss
+				add_prestige_level = break_truce_prestige_level_loss
+			}
+			add_legitimacy = {
+				value = medium_legitimacy_loss
+				multiply = primary_title.tier
+			}
+			add_character_modifier = {
+				modifier = broke_truce
+				years = 3
+			}
+
+			# Struggle Catalysts.
+			if = {
+				limit = {
+					any_character_struggle = {
+						involvement = involved
+						activate_struggle_catalyst_secondary_character_involvement_involved_trigger = {
+							CATALYST = catalyst_broke_truce_against_important_character
+							CHAR = scope:defender
+						}
+					}
+				}
+				every_character_struggle = {
+					involvement = involved
+					limit = {
+						activate_struggle_catalyst_secondary_character_involvement_involved_trigger = {
+							CATALYST = catalyst_broke_truce_against_important_character
+							CHAR = scope:defender
+						}
+					}
+					activate_struggle_catalyst = {
+						catalyst = catalyst_broke_truce_against_important_character
+						character = scope:attacker
+					}
+				}
+			}
+		}
+	}
+	# Breaking Betrothals
+	if = {
+		limit = {
+			scope:attacker = {
+				is_allied_to = scope:defender
+				any_close_family_member = {
+					court_owner = scope:attacker
+					is_betrothed = yes
+					betrothed = {
+						court_owner = scope:defender
+						is_close_family_of = scope:defender
+					}
+				}
+			}
+		}
+		scope:attacker = {
+			custom_description_no_bullet = {
+				text = attack_breaking_betrothal_text
+			}
+			add_prestige = {
+				value = break_truce_prestige_loss
+				multiply = break_betrothal_prestige_cost
+			}
+			#Did you promise a grand wedding?
+			if = {
+				limit = {
+					has_variable = promised_grand_wedding_marriage_countdown
+					any_close_family_member = {
+						court_owner = scope:attacker
+						is_betrothed = yes
+						has_been_promised_grand_wedding = yes
+						betrothed = {
+							court_owner = scope:defender
+							is_close_family_of = scope:defender
+							has_been_promised_grand_wedding = yes
+						}
+					}
+				}
+				random_close_family_member = {
+					limit = {
+						court_owner = scope:attacker
+						is_betrothed = yes
+						has_been_promised_grand_wedding = yes
+						betrothed = {
+							court_owner = scope:defender
+							is_close_family_of = scope:defender
+							has_been_promised_grand_wedding = yes
+						}
+					}
+					save_scope_as = victim
+				}
+				#Then remove promise
+				remove_variable = promised_grand_wedding_marriage_countdown
+			}
+			every_close_family_member = {
+				limit = {
+					court_owner = scope:attacker
+					is_betrothed = yes
+					betrothed = {
+						court_owner = scope:defender
+						is_close_family_of = scope:defender
+					}
+				}
+				break_betrothal = betrothed
+			}
+		}
+	}
+	# Breaking Alliance
+	else_if = {
+		limit = {
+			scope:attacker = {
+				is_allied_to = scope:defender
+			}
+		}
+		scope:attacker = {
+			break_alliance_due_to_attack_effect = { TARGET = scope:defender }
+		}
+	}
+	# Breaking Tributary
+	if = {
+		limit = {
+			OR = {
+				scope:attacker = { is_tributary_of = scope:defender	}
+				scope:defender = { is_tributary_of = scope:attacker	}
+			}
+		}
+		scope:attacker = {
+			break_tributary_contract_due_to_attack_effect = { DEFENDER = scope:defender }
+		}
+	}
+	# BP2: Attacking Warden
+	if = {
+		limit = {
+			scope:attacker = {
+				any_home_court_hostage = { is_hostage_of = scope:defender }
+			}
+		}
+		scope:attacker = {
+			add_prestige = break_truce_prestige_loss
+			add_prestige_level = break_truce_prestige_level_loss
+			add_character_modifier = {
+				modifier = attacked_warden
+				years = 5
+			}
+			# Hostages they hold (yours)
+			every_home_court_hostage = {
+				save_scope_as = hostage
+				every_close_family_member = {
+					limit = {
+						NOT = { this = scope:attacker }
+					}
+					custom = attacked_warden_tt
+					add_opinion = {
+						modifier = attacked_warden
+						target = scope:attacker
+					}
+				}
+				if = {
+					limit = { is_hostage_of = scope:defender }
+					custom_description_no_bullet = {
+						text = attack_breaking_truce_hostage
+						subject = scope:defender
+						object = scope:hostage
+					}
+				}
+			}
+		}
+	}
+	# BP2: Attacking Home Court
+	if = {
+		limit = {
+			scope:attacker = {
+				any_warden_hostage = { is_hostage_from = scope:defender }
+			}
+		}
+		scope:attacker = {
+			# Hostages you hold (theirs)
+			every_warden_hostage = {
+				save_scope_as = hostage
+				if = {
+					limit = { is_hostage_from = scope:defender }
+					custom_description_no_bullet = {
+						text = attack_breaking_truce_hostage
+						subject = scope:attacker
+						object = scope:hostage
+					}
+				}
+			}
+			add_prestige = break_truce_prestige_loss
+			add_prestige_level = break_truce_prestige_level_loss
+			add_character_modifier = {
+				modifier = attacked_home_court
+				years = 5
+			}
+			# Hostages they hold (yours)
+			every_home_court_hostage = {
+				save_scope_as = hostage
+				every_close_family_member = {
+					limit = {
+						NOT = { this = scope:attacker }
+					}
+					custom = attacked_warden_tt
+					add_opinion = {
+						modifier = attacked_home_court
+						target = scope:attacker
+					}
+				}
+				if = {
+					limit = { is_hostage_of = scope:defender }
+					custom_description_no_bullet = {
+						text = attack_breaking_truce_hostage
+						subject = scope:defender
+						object = scope:hostage
+					}
+				}
+			}
+		}
+	}
+
+	# Opinion
+	scope:defender = {
+		add_opinion = {
+			target = scope:attacker
+			modifier = declared_war
+		}
+	}
+	if = {
+		limit = {
+			NOT = {
+				scope:attacker = {
+					is_parent_of = scope:defender
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:defender = {
+					has_father = yes
+				}
+			}
+			scope:defender = {
+				father = {
+					add_opinion = {
+						target = scope:attacker
+						modifier = declared_war_on_son_daughter
+					}
+				}
+			}
+		}
+		if = {
+			limit = {
+				scope:defender = {
+					has_mother = yes
+				}
+			}
+			scope:defender = {
+				mother = {
+					add_opinion = {
+						target = scope:attacker
+						modifier = declared_war_on_son_daughter
+					}
+				}
+			}
+		}
+	}
+	if = {
+		limit = {
+			NOT = { scope:attacker.culture = scope:defender.culture }
+			scope:attacker = { is_landed = yes }
+			scope:defender = { is_landed = yes }
+		}
+		scope:defender.culture = {
+			change_cultural_acceptance = {
+				target = scope:attacker.culture
+				value = declare_war_culture_acceptance_impact
+				desc = cultural_acceptance_loss_declared_war
+			}
+		}
+	}
+	
+	scope:attacker = {
+		if = {
+			limit = {
+				any_vassal = {
+					has_vassal_stance = parochial
+				}
+				eighty_percent_of_current_military_strength <= scope:defender.current_military_strength
+			}
+			custom_tooltip = parochial_vassal_disapproves_war
+			hidden_effect = {
+				every_vassal = {
+					limit = {
+						has_vassal_stance = parochial
+					}
+					add_opinion = {
+						target = scope:attacker
+						modifier = parochial_disapproves_strong_war_enemy_opinion
+					}
+				}
+			}
+		}
+	}
+	
+	# If we're a clan this interaction affects unity
+	add_clan_unity_interaction_effect = {
+		CHARACTER = scope:attacker
+		TARGET = scope:defender
+		VALUE = massive_unity_loss
+		DESC = clan_unity_declared_war.desc
+		REVERSE_NON_HOUSE_TARGET = no
+	}
+	
+	intrigue_duel_on_attack_effect = yes
+}

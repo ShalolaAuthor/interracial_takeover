@@ -30,6 +30,7 @@ bno_varangian_adventure: "[bno_bnwo|E] Invasion"
 BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Invasion against [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
 BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 BNO_VARANGIAN_ADVENTURE_CB_NAME: "Invasion of [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+BNWO_STATE_TITLE_NAME: "Blacked [target_duchy.GetNameNoTierNoTooltip]"
 
 bno_civil_unrest: "[bno_bnwo|E] Rebellion"
 bno_civil_unrest.army_name: "Ebony Conquerors"

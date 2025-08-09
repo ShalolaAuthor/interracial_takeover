@@ -551,7 +551,7 @@ bno_embrace_african_1.0007 = {
 			every_faction_county_member = { remove_from_list = remaining_counties_list }
 		}
     }
-
+    #TODO: add option to surrender land to BNWO
     option = {
         name = bno_embrace_african_1.0007.a
         # This effect should always be placed here, _before_ all the other effects in the block.
@@ -644,7 +644,7 @@ bno_embrace_african_1.1007 = {
         name = bno_embrace_african_1.1007.b
         trigger = {
 			custom_tooltip = { # ... If you already are at war with another participant.
-				text = bno_embrace_african_1.1007.b.tooltip.1
+				text = FACTION_DEMAND_POPULIST_VASSAL_JOIN_WAR_BLOCK_TT
 				scope:faction.faction_war = {
 					NOT = {
 						any_war_participant = {
@@ -654,7 +654,7 @@ bno_embrace_african_1.1007 = {
 				}
 			}
 			custom_tooltip = { # ... If it would put you against someone you are fighting another war with.
-				text = bno_embrace_african_1.1007.b.tooltip.2
+				text = FACTION_DEMAND_POPULIST_VASSAL_JOIN_WAR_BLOCK_TT_2
 				scope:faction.faction_war = {
 					NOT = {
 						any_war_attacker = {
@@ -697,7 +697,7 @@ bno_embrace_african_1.1007 = {
     option = {
         name = bno_embrace_african_1.1007.c
         custom_tooltip = bno_embrace_african_1.1007.c.tooltip.1
-        custom_tooltip = bno_embrace_african_1.1007.c.tooltip.2
+        #custom_tooltip = bno_embrace_african_1.1007.c.tooltip.2
 
         ai_chance = {
             base = 0

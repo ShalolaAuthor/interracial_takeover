@@ -23,7 +23,10 @@
 	ignore_effect = change_title_holder
 	
 	on_declaration = {
-		on_declared_war = yes
+		scope:defender = {
+			save_scope_as = recipient
+		}
+		bno_on_declared_war = yes
 	}
 	
 	cost = {
@@ -144,7 +147,10 @@ bno_subj_war = {
 	ignore_effect = change_title_holder
 	
 	on_declaration = {
-		on_declared_war = yes
+		scope:defender = {
+			save_scope_as = recipient
+		}
+		bno_on_declared_war = yes
 	}
 	
 	cost = {
@@ -396,7 +402,10 @@ bno_varangian_adventure = {
 	}
 	
 	on_declaration = {
-		on_declared_war = yes
+		scope:defender = {
+			save_scope_as = recipient
+		}
+		bno_on_declared_war = yes
 		# Dish out event troops, if appropriate.
 		## We give out x200 troops per same-culture same-faith core mainland Scandinavian county, up to a maximum of ten counties.
 		## These are evenly split between good MaA -> average MaA -> good MaA again, to give a decent bell curve.
@@ -884,7 +893,10 @@ bno_varangian_adventure = {
 				}
 				# Actual transfer.
 				hidden_effect = {
-					
+					create_dynamic_title = {
+						tier = duchy
+						name = BNWO_STATE_TITLE_NAME
+					}
 					create_title_and_vassal_change = {
 						type = created
 						save_scope_as = change
