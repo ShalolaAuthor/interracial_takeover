@@ -96,6 +96,11 @@ bno_embrace_african_1.0001 = {
                 }
             }
         }
+        else = {
+            scope:province_temp = {
+                save_scope_as = local_province
+            }
+        }
     }
 
     option = {#siding with local

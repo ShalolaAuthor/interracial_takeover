@@ -1039,11 +1039,14 @@ bno_remove_stress = {
 bno_father_or_mother = {
 	if = {
 		limit = {
-			is_female = yes
+			is_a_girl = yes
 		}
 		save_scope_as = mother
 	}
-	else = {
+	else_if = {
+		limit = {
+			is_a_male = yes
+		}
 		save_scope_as = father
 	}
 }

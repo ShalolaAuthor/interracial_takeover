@@ -228,9 +228,11 @@ bno_give_development_buff_to_target_title = {
             }
             remove_county_modifier = bno_bbc_angered
         }
-        add_county_modifier = {
-            modifier = bno_bbc_appeased
-            months = 18
+        county = {
+            add_county_modifier = {
+                modifier = bno_bbc_appeased
+                months = 18
+            }
         }
     }
 }
@@ -241,8 +243,9 @@ bno_get_really_local_bbc = {
         value = yes
     }
     every_realm_province = {
+        save_scope_as = province_temp
         every_pool_character = {
-            province = prev
+            province = scope:province_temp
             limit = {
                 is_blackbull = yes
             }
