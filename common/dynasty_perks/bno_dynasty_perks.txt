@@ -150,7 +150,7 @@ bno_embrace_african_5 = {
 			text = bno_embrace_african_5_effect
 		}
         custom_description_no_bullet = {
-            #custom MAA unlocked
+            #sex gives prowess
 			text = bno_embrace_african_5_sex_effects
 		}
     }

@@ -21,7 +21,7 @@
         modifier = {
             add = -20
             faction_target = {
-                NOT = { culture = culture:bnoc }
+                NOT = { is_culture_bnoc = yes }
             }
             desc = bnwo_faction.power.bnoc
         }
@@ -38,7 +38,7 @@
             faction_target = {
                 any_held_title = {
                     tier = tier_county
-                    NOT = { culture = culture:bnoc }
+                    NOT = { is_culture_bnoc = yes }
                 }
             }
             desc = bnwo_faction.power.county_bnoc
@@ -92,7 +92,7 @@
     }
 
     can_character_join = {
-        culture = culture:bnoc
+        is_culture_bnoc = yes
         faith = faith:bbcs
     }
 

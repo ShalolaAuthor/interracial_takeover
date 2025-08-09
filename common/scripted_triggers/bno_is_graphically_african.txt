@@ -114,3 +114,9 @@
 		#has_culture = culture:zarma
 	}
 }
+
+is_culture_bnoc = {
+	culture = {
+		has_cultural_pillar = heritage_bnoc
+	}
+}

@@ -8,15 +8,6 @@
 	}
 }
 
-convert_to_african_culture = {
-	if = {
-		limit = {
-			has_game_rule = bno_religion_yes
-		}
-		set_culture = culture:bnoc
-	}
-}
-
 bno_add_prowess_per_sex = {
 	if = {
 		limit = {

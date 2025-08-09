@@ -322,7 +322,7 @@ bno_change_county_culture = {
 				limit = { exists = this }
 				holder = scope:ruler
 				title_province = {
-					NOT = { culture = culture:bnoc }
+					NOT = { is_culture_bnoc = yes }
 				}
 			}
 		}
@@ -330,7 +330,7 @@ bno_change_county_culture = {
 	is_shown = {
 		is_ruler = yes
 		is_adult = yes
-		culture = culture:bnoc
+		is_culture_bnoc = yes
 		OR = {
 			is_bbc = yes
 			has_trait = bno_whitegirl
@@ -352,7 +352,7 @@ bno_change_county_culture = {
 			title = bno_change_county_culture_toast
 			scope:barony ?= {
 				county = {
-					set_county_culture = culture:bnoc
+					set_county_culture = root.culture
 				}
 			}
 		}
@@ -418,7 +418,7 @@ bno_convert_to_african = {
 			has_trait = bno_whiteboi
 			has_trait = bno_whitegirl
 		}
-		NOT = { culture = culture:bnoc }
+		NOT = { is_culture_bnoc = yes }
 	}
 	is_valid = {
 		is_adult = yes
@@ -427,7 +427,7 @@ bno_convert_to_african = {
 			has_trait = bno_mindless_bbc_slut
 			has_trait = bno_jos
 		}
-		NOT = { culture = culture:bnoc }
+		NOT = { is_culture_bnoc = yes }
 	}
 
 	effect = {

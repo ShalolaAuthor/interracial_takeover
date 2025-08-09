@@ -20,7 +20,7 @@ setup_bnwo_leader_effect = {
                 can_join_or_create_faction_against = scope:faction.faction_target
 
                 faith = faith:bbcs
-                culture = culture:bnoc
+                is_culture_bnoc = yes
 
                 trigger_if = {
                     limit = {
@@ -132,7 +132,7 @@ get_bnwo_revolt_target_effect = {
         random_held_title = {
             limit = {
                 tier >= tier_county
-                NOT = { culture = culture:bnoc }
+                NOT = { is_culture_bnoc = yes }
                 NOT = { faith = faith:bbcs }
             }
             save_scope_as = target_title

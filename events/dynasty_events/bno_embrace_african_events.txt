@@ -40,7 +40,7 @@ bno_embrace_african_1.0001 = {
             has_dynasty_perk = bno_embrace_african_1
         }
         any_realm_province = {
-            NOT = { culture = culture:bnoc }
+            NOT = { is_culture_bnoc = yes }
         }
     }
     
@@ -49,7 +49,7 @@ bno_embrace_african_1.0001 = {
         bno_dismiss_local_bbc = yes
         every_realm_province = {
             limit = {
-                NOT = { culture = culture:bnoc }
+                NOT = { is_culture_bnoc = yes }
             }
             save_scope_as = province_temp
             every_pool_character = {
@@ -67,7 +67,7 @@ bno_embrace_african_1.0001 = {
             }
             random_realm_province = {
                 limit = {
-                    NOT = { culture = culture:bnoc }
+                    NOT = { is_culture_bnoc = yes }
                 }
                 set_local_variable = {
                     name = local_culture

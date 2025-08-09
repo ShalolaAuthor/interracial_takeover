@@ -2,3 +2,10 @@
  bnoc: "African"
  bnoc_prefix: "African"
  bnoc_collective_noun: "Africans"
+ bnoc_group: "African"
+ bnoc_group_collective_noun: "Africans"
+
+ language_bnoc_name: "Temne'sha"
+
+ heritage_bnoc_name: "African"
+ heritage_bnoc_collective_noun: "Africans"

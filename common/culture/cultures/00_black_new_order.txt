@@ -2,15 +2,13 @@
 
 bnoc = {
 	
-	color = { 0.4 0.21 0.1 }
-	
-	parents = { yoruba nubian }
+	color = bnoc
 	
 	created = 867.1.1
 	
 	ethos = ethos_bellicose
-	heritage = heritage_west_african
-	language = language_soninke
+	heritage = heritage_bnoc
+	language = language_bnoc
 	martial_custom = martial_custom_male_only
 	head_determination = head_determination_domain
 	traditions = {

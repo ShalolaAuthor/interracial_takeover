@@ -316,7 +316,7 @@ bno_get_random_non_bbc_african_county = {
     random_held_title = {
         limit = {
             tier = tier_county
-            NOT = { culture = culture:bnoc }
+            NOT = { is_culture_bnoc = yes }
             NOT = { faith = faith:bbcs }
         }
         save_scope_as = random_target_title

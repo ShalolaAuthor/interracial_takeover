@@ -44,6 +44,10 @@ bno_slut.0001 = {
 	}
 	cooldown = { months = { 12 18 } }
 	trigger = {
+		#Test: remove later
+		culture = {
+			has_cultural_pillar = heritage_bnoc
+		}
 		is_pure_whitegirl = yes
 		does_blackbull_exist = yes
 		is_partner_non_bbc = yes

@@ -379,7 +379,7 @@
 	
 	faiths = {
 		bbcs = {
-			color = { 0 0 0 }
+			color = bnoc
 			
 			icon = bnobbc
 			reformed_icon = bnobbc
