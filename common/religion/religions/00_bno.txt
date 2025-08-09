@@ -42,7 +42,7 @@
 	
 	traits = {
 		virtues = { bno_curious bno_blacked bno_snowbunny bno_qos bno_mindless_bbc_slut bno_bbc lustful sadistic bno_camp_leader bno_full_black}
-		sins = { chaste bno_whiteboi bno_chastity}
+		sins = { chaste bno_cuck bno_cuckish bno_beta bno_jos bno_caged bno_castrated}
 	}
 	
 	reserved_male_names = {
@@ -209,146 +209,147 @@
 	
 	localization = {
 		#HighGod
-		HighGodName = islam_high_god_name
-		HighGodName2 = islam_high_god_name_2
-		HighGodNamePossessive = islam_high_god_name_possessive
+		HighGodName = bbcs_god_name
+		HighGodName2 = bbcs_god_name_2
+		HighGodNamePossessive = bbcs_god_name_possessive
 		HighGodNameSheHe = CHARACTER_SHEHE_HE
 		HighGodHerselfHimself = CHARACTER_HIMSELF
 		HighGodHerHis = CHARACTER_HERHIS_HIS
-		HighGodNameAlternate = islam_high_god_name_alternate
-		HighGodNameAlternatePossessive = islam_high_god_name_alternate_possessive
+		HighGodNameAlternate = bbcs_high_god_name_alternate
+		HighGodNameAlternatePossessive = bbcs_high_god_name_alternate_possessive
 		
 		#Creator
-		CreatorName = islam_creator_god_name
-		CreatorNamePossessive = islam_creator_god_name_possessive
+		CreatorName = bbcs_god_name
+		CreatorNamePossessive = bbcs_god_name_possessive
 		CreatorSheHe = CHARACTER_SHEHE_HE
 		CreatorHerHis = CHARACTER_HERHIS_HIS
 		CreatorHerHim = CHARACTER_HERHIM_HIM
 		
 		#HealthGod
-		HealthGodName = islam_health_god_name
-		HealthGodNamePossessive = islam_health_god_name_possessive
+		HealthGodName = bbcs_god_name
+		HealthGodNamePossessive = bbcs_god_name_possessive
 		HealthGodSheHe = CHARACTER_SHEHE_HE
 		HealthGodHerHis = CHARACTER_HERHIS_HIS
 		HealthGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#FertilityGod
-		FertilityGodName = islam_fertility_god_name
-		FertilityGodNamePossessive = islam_fertility_god_name_possessive
+		FertilityGodName = bbcs_god_name
+		FertilityGodNamePossessive = bbcs_god_name_possessive
 		FertilityGodSheHe = CHARACTER_SHEHE_HE
 		FertilityGodHerHis = CHARACTER_HERHIS_HIS
 		FertilityGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#WealthGod
-		WealthGodName = islam_wealth_god_name
-		WealthGodNamePossessive = islam_wealth_god_name_possessive
+		WealthGodName = bbcs_god_name
+		WealthGodNamePossessive = bbcs_god_name_possessive
 		WealthGodSheHe = CHARACTER_SHEHE_HE
 		WealthGodHerHis = CHARACTER_HERHIS_HIS
 		WealthGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#HouseholdGod
-		HouseholdGodName = islam_household_god_name
-		HouseholdGodNamePossessive = islam_household_god_name_possessive
+		HouseholdGodName = bbcs_god_name
+		HouseholdGodNamePossessive = bbcs_god_name_possessive
 		HouseholdGodSheHe = CHARACTER_SHEHE_HE
 		HouseholdGodHerHis = CHARACTER_HERHIS_HIS
 		HouseholdGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#FateGod
-		FateGodName = islam_fate_god_name
-		FateGodNamePossessive = islam_fate_god_name_possessive
+		FateGodName = bbcs_god_name
+		FateGodNamePossessive = bbcs_god_name_possessive
 		FateGodSheHe = CHARACTER_SHEHE_HE
 		FateGodHerHis = CHARACTER_HERHIS_HIS
 		FateGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#KnowledgeGod
-		KnowledgeGodName = islam_knowledge_god_name
-		KnowledgeGodNamePossessive = islam_knowledge_god_name_possessive
+		KnowledgeGodName = bbcs_god_name
+		KnowledgeGodNamePossessive = bbcs_god_name_possessive
 		KnowledgeGodSheHe = CHARACTER_SHEHE_HE
 		KnowledgeGodHerHis = CHARACTER_HERHIS_HIS
 		KnowledgeGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#WarGod
-		WarGodName = islam_war_god_name
-		WarGodNamePossessive = islam_war_god_name_possessive
+		WarGodName = bbcs_god_name
+		WarGodNamePossessive = bbcs_god_name_possessive
 		WarGodSheHe = CHARACTER_SHEHE_HE
 		WarGodHerHis = CHARACTER_HERHIS_HIS
 		WarGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#TricksterGod
-		TricksterGodName = islam_trickster_god_name
-		TricksterGodNamePossessive = islam_trickster_god_name_possessive
+		TricksterGodName = bbcs_god_name
+		TricksterGodNamePossessive = bbcs_god_name_possessive
 		TricksterGodSheHe = CHARACTER_SHEHE_HE
 		TricksterGodHerHis = CHARACTER_HERHIS_HIS
 		TricksterGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#NightGod
-		NightGodName = islam_night_god_name
-		NightGodNamePossessive = islam_night_god_name_possessive
+		NightGodName = bbcs_god_name
+		NightGodNamePossessive = bbcs_god_name_possessive
 		NightGodSheHe = CHARACTER_SHEHE_HE
 		NightGodHerHis = CHARACTER_HERHIS_HIS
 		NightGodHerHim = CHARACTER_HERHIM_HIM
 		
 		#WaterGod
-		WaterGodName = islam_water_god_name
-		WaterGodNamePossessive = islam_water_god_name_possessive
+		WaterGodName = bbcs_god_name
+		WaterGodNamePossessive = bbcs_god_name_possessive
 		WaterGodSheHe = CHARACTER_SHEHE_HE
 		WaterGodHerHis = CHARACTER_HERHIS_HIS
 		WaterGodHerHim = CHARACTER_HERHIM_HIM
 		
-		
-		
-		PantheonTerm = islam_high_god_name
-		PantheonTerm2 = islam_high_god_name_2
-		PantheonTerm3 = islam_high_god_name_3
+		PantheonTerm = bbcs_god_name
+		PantheonTerm2 = bbcs_god_name_2
+		PantheonTerm3 = bbcs_god_name_3
 		PantheonTermHasHave = pantheon_term_has
 		GoodGodNames = {
-			islam_high_god_name
-			islam_good_god_rahim
+			bbcs_god_name
+			bbcs_god_name_2
+			bbcs_god_name_3
 			islam_good_god_the_most_gracious
 			islam_good_god_the_giver_of_peace
 			islam_good_god_the_one
 			islam_good_god_the_prophet
-			islam_good_god_muhammad
 		}
-		DevilName = islam_devil_name
-		DevilNamePossessive = islam_devil_name_possessive
+		DevilName = bbcs_devil_name
+		DevilNamePossessive = bbcs_devil_name_possessive
 		DevilSheHe = CHARACTER_SHEHE_HE
 		DevilHerHis = CHARACTER_HERHIS_HIS
 		DevilHerselfHimself = CHARACTER_HIMSELF
 		EvilGodNames = {
-			islam_evil_god_iblis
+			bbcs_devil_name
+			bbcs_evil_god_name_1
+			bbcs_evil_god_name_2
+			bbcs_evil_god_name_3
 		}
-		HouseOfWorship = islam_house_of_worship
-		HouseOfWorship2 = islam_house_of_worship_2
-		HouseOfWorship3 = islam_house_of_worship_3
-		HouseOfWorshipPlural = islam_house_of_worship_plural
-		ReligiousSymbol = islam_religious_symbol
-		ReligiousSymbol2 = islam_religious_symbol_2
-		ReligiousSymbol3 = islam_religious_symbol_3
-		ReligiousText = islam_religious_text
-		ReligiousText2 = islam_religious_text_2
-		ReligiousText3 = islam_religious_text_3
-		ReligiousHeadName = islam_religious_head_title
-		ReligiousHeadTitleName = islam_religious_head_title_name
-		DevoteeMale = islam_devotee
-		DevoteeMalePlural = islam_devotee_plural
-		DevoteeFemale = islam_devotee
-		DevoteeFemalePlural = islam_devotee_plural
-		DevoteeNeuter = islam_devotee
-		DevoteeNeuterPlural = islam_devotee_plural
-		PriestMale = islam_priest
-		PriestMalePlural = islam_priest_plural
-		PriestFemale = islam_priest
-		PriestFemalePlural = islam_priest_plural
-		PriestNeuter = islam_priest
-		PriestNeuterPlural = islam_priest_plural
-		AltPriestTermPlural = islam_priest_alternate_plural
-		BishopMale = islam_bishop
-		BishopMalePlural = islam_bishop_plural
-		BishopFemale = islam_bishop
-		BishopFemalePlural = islam_bishop_plural
-		BishopNeuter = islam_bishop
-		BishopNeuterPlural = islam_bishop_plural
+		HouseOfWorship = bbcs_house_of_worship_1
+		HouseOfWorship2 = bbcs_house_of_worship_2
+		HouseOfWorship3 = bbcs_house_of_worship_3
+		HouseOfWorshipPlural = bbcs_house_of_worship_plural
+		ReligiousSymbol = bbcs_religious_symbol_1
+		ReligiousSymbol2 = bbcs_religious_symbol_2
+		ReligiousSymbol3 = bbcs_religious_symbol_3
+		ReligiousText = bbcs_religious_text_1
+		ReligiousText2 = bbcs_religious_text_2
+		ReligiousText3 = bbcs_religious_text_3
+		ReligiousHeadName = bbcs_religious_head_title
+		ReligiousHeadTitleName = bbcs_religious_head_title
+		DevoteeMale = bbcs_male_devotee
+		DevoteeMalePlural = bbcs_male_devotee_plural
+		DevoteeFemale = bbcs_female_devotee
+		DevoteeFemalePlural = bbcs_female_devotee_plural
+		DevoteeNeuter = bbcs_neutered_devotee
+		DevoteeNeuterPlural = bbcs_neutered_devotee_plural
+		PriestMale = bbcs_male_priest
+		PriestMalePlural = bbcs_male_priest_plural
+		PriestFemale = bbcs_female_priest
+		PriestFemalePlural = bbcs_female_priest_plural
+		PriestNeuter = bbcs_neutered_priest
+		PriestNeuterPlural = bbcs_neutered_priest_plural
+		AltPriestTermPlural = bbcs_alt_priest_plural
+		BishopMale = bbcs_male_bishop
+		BishopMalePlural = bbcs_male_bishop_plural
+		BishopFemale = bbcs_female_bishop
+		BishopFemalePlural = bbcs_female_bishop_plural
+		BishopNeuter = bbcs_neutered_bishop
+		BishopNeuterPlural = bbcs_neutered_bishop_plural
 		DivineRealm = islam_positive_afterlife
 		DivineRealm2 = islam_positive_afterlife_2
 		DivineRealm3 = islam_positive_afterlife_3
