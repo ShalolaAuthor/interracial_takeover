@@ -19,7 +19,7 @@ set_bbc_worshipper_effect = {
                 employs_court_position = bno_bbc_worshipper_court_position
                 any_court_position_holder = {
                     type = bno_bbc_worshipper_court_position
-                    count > 2
+                    count >= 3
                 }
             }
             every_court_position_holder = {

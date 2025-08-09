@@ -55,7 +55,7 @@ setup_bnwo_leader_effect = {
 
     #if natural doesn't exist we create
     if = {
-        limit = { exists = scope:peasant_leader }
+        limit = { NOT = { exists = scope:peasant_leader } }
         create_character = {
             location = scope:peasant_county.title_province
             template = bbc_noble_template

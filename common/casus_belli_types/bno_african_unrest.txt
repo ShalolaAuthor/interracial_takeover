@@ -186,9 +186,11 @@
             joined_faction = {
                 every_faction_county_member = {
                     custom = bnwo_faction_every_county
-                    add_county_modifier = {
-                        modifier = bno_might_makes_right
-                        years = 2
+                    county = {
+                        add_county_modifier = {
+                            modifier = bno_might_makes_right
+                            years = 2
+                        }
                     }
                 }
             }

@@ -59,8 +59,13 @@ bno_bbc_marriage_effect = {
                 dynasty ?= {
 	    	    	add_dynasty_prestige = bno_bbc_marriage_perk_reward
 	    	    }
+                if = {
+                    limit = {
+                        has_legitimacy = yes
+                    }
+	    	        add_legitimacy = bno_bbc_marriage_prestige_perk_reward
+                }
 	    	    add_prestige = bno_bbc_marriage_prestige_perk_reward
-	    	    add_legitimacy = bno_bbc_marriage_prestige_perk_reward
             }	
 	    }
     }
@@ -305,16 +310,12 @@ bno_apply_bno_local_bbc_unsatisfied = {
         modifier = bno_local_bbc_unsatisfied
         years = 2
     }
-    #title_create_faction = {
-    #    type = bnwo_faction
-    #    target = holder.top_liege
-    #}
 }
 
 bno_get_random_non_bbc_african_county = {
     random_held_title = {
         limit = {
-            tier >= tier_county
+            tier = tier_county
             NOT = { culture = culture:bnoc }
             NOT = { faith = faith:bbcs }
         }

@@ -4876,52 +4876,6 @@ bno_random.1032 = {
 	}
 }
 
-bno_random.2032 = {
-	type = character_event
-	title = bno_random_0032.title
-	desc = bno_random_0032.desc
-	theme = realm
-	
-	override_background = {
-		reference = dungeon
-	}
-	left_portrait = {
-		character = root
-		animation = prisonhouse
-		triggered_outfit = {
-			trigger = {
-				exists = root
-			}
-			outfit_tags = {
-				no_clothes
-			}
-		}
-	}
-	right_portrait = {
-		character = scope:target1
-		animation = personality_content
-		triggered_outfit = {
-			trigger = {
-				exists = scope:target1
-			}
-			outfit_tags = {
-				no_clothes
-			}
-		}
-	}
-
-	trigger = {
-		is_alive = yes
-		scope:target1 ?= {
-			is_alive = yes
-		}
-	}
-	
-	option = {
-		name = bno_random_2032.a
-	}
-}
-
 #snowbunny level event. courtier in the library, invite another for a spitroast?
 bno_random.0033 = {
 	type = character_event

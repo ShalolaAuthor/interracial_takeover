@@ -289,12 +289,12 @@ is_a_futa = {
 is_a_girl = {
 	is_female = yes
 	is_bbc = no
-	is_elligible_partner = yes
 }
 
 is_an_ai_girl = {
 	is_a_girl = yes
 	is_ai = yes
+	is_elligible_partner = yes
 }
 
 does_caged_or_castrated_male_exist = {
@@ -316,6 +316,7 @@ is_caged_or_castrated_male = {
 
 is_white_girl = {
 	is_a_girl = yes
+	is_elligible_partner = yes
 	is_african = no
 }
 
@@ -565,6 +566,7 @@ is_ai_pure_white_girl = {
 
 is_pure_whitegirl = {
 	is_a_girl = yes
+	is_elligible_partner = yes
 	is_african = no
 	is_slut = no
 }

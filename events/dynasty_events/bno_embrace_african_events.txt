@@ -801,7 +801,7 @@ bno_embrace_african_2.0001 = {
             has_dynasty_perk = bno_embrace_african_2
         }
         any_held_title = {
-            tier >= tier_county
+            tier = tier_county
             NOT = { has_county_modifier = bno_bbc_appeased }
         }
     }
@@ -810,7 +810,7 @@ bno_embrace_african_2.0001 = {
         bno_get_really_local_bbc = yes
         random_held_title = {
             limit = {
-                tier >= tier_county
+                tier = tier_county
                 NOT = { has_county_modifier = bno_bbc_appeased }
             }
             save_scope_as = bno_target_title
@@ -830,15 +830,17 @@ bno_embrace_african_2.0001 = {
     option = { # you disagree to give him gold
         name = bno_embrace_african_2.0001.a.decline
         scope:bno_target_title = {
-            if = {
-                limit = {
-                    has_county_modifier = bno_bbc_appeased
+            county = {
+                if = {
+                    limit = {
+                        has_county_modifier = bno_bbc_appeased
+                    }
+                    remove_county_modifier = bno_bbc_appeased
                 }
-                remove_county_modifier = bno_bbc_appeased
-            }
-            add_county_modifier = {
-                modifier = bno_bbc_angered
-                months = 18
+                add_county_modifier = {
+                    modifier = bno_bbc_angered
+                    months = 18
+                }
             }
         }
         bno_dismiss_local_bbc = yes
@@ -1003,7 +1005,7 @@ bno_embrace_african_2.0002 = {
             NOT = { has_trait = beauty_good }
         }
         any_held_title = {
-            tier >= tier_county
+            tier = tier_county
             NOT = { has_county_modifier = bno_sent_courtier_to_bbc }
         }
     }
@@ -1023,7 +1025,7 @@ bno_embrace_african_2.0002 = {
         }
         random_held_title = {
             limit = {
-                tier >= tier_county
+                tier = tier_county
                 NOT = { has_county_modifier = bno_sent_courtier_to_bbc }
             }
             save_scope_as = target_county
@@ -1049,15 +1051,17 @@ bno_embrace_african_2.0002 = {
     option = { # decline
         name = bno_embrace_african_2.0002.a.decline
         scope:target_county = {
-            if = {
-                limit = {
-                    has_county_modifier = bno_sent_courtier_to_bbc
+            county = {
+                if = {
+                    limit = {
+                        has_county_modifier = bno_sent_courtier_to_bbc
+                    }
+                    add_county_modifier = bno_sent_courtier_to_bbc
                 }
-                add_county_modifier = bno_sent_courtier_to_bbc
-            }
-            add_county_modifier = {
-                modifier = bno_reject_sending_courtier_to_bbc
-                months = 18
+                add_county_modifier = {
+                    modifier = bno_reject_sending_courtier_to_bbc
+                    months = 18
+                }
             }
         }
         bno_dismiss_local_bbc = yes
@@ -1118,20 +1122,19 @@ bno_embrace_african_2.1002 = {
     }
 
     immediate = {
-        hidden_effect = {
-            add_courtier = scope:bbc
-        }
         bno_fuck_a_bbc_5_times = yes
         scope:target_county = {
-            if = {
-                limit = {
-                    has_county_modifier = bno_reject_sending_courtier_to_bbc
+            county = {
+                if = {
+                    limit = {
+                        has_county_modifier = bno_reject_sending_courtier_to_bbc
+                    }
+                    remove_county_modifier = bno_reject_sending_courtier_to_bbc
                 }
-                remove_county_modifier = bno_reject_sending_courtier_to_bbc
-            }
-            add_county_modifier = {
-                modifier = bno_sent_courtier_to_bbc
-                months = 18
+                add_county_modifier = {
+                    modifier = bno_sent_courtier_to_bbc
+                    months = 18
+                }
             }
         }
     }
@@ -1169,6 +1172,9 @@ bno_embrace_african_2.2002 = {
     }
 
     immediate = {
+        hidden_effect = {
+            add_courtier = scope:bbc
+        }
         every_in_list = {
             list = whores
             bno_have_sex_with_effects = {
@@ -1180,15 +1186,17 @@ bno_embrace_african_2.2002 = {
     option = {
         name = bno_embrace_african_2.2002.a
         scope:target_county = {
-            if = {
-                limit = {
-                    has_county_modifier = bno_reject_sending_courtier_to_bbc
+            county = {
+                if = {
+                    limit = {
+                        has_county_modifier = bno_reject_sending_courtier_to_bbc
+                    }
+                    remove_county_modifier = bno_reject_sending_courtier_to_bbc
                 }
-                remove_county_modifier = bno_reject_sending_courtier_to_bbc
-            }
-            add_county_modifier = {
-                modifier = bno_sent_courtier_to_bbc
-                months = 18
+                add_county_modifier = {
+                    modifier = bno_sent_courtier_to_bbc
+                    months = 18
+                }
             }
         }
     }
@@ -1239,7 +1247,7 @@ bno_embrace_african_2.0003 = {
             NOT = { primary_spouse ?= { is_blackbull = yes } }
         }
         any_held_title = {
-            tier >= tier_county
+            tier = tier_county
             NOT = { has_county_modifier = bno_approve_daughter_marriage_with_bbc }
         }
     }
@@ -1256,7 +1264,7 @@ bno_embrace_african_2.0003 = {
         }
         random_held_title = {
             limit = {
-                tier >= tier_county
+                tier = tier_county
                 NOT = { has_county_modifier = bno_approve_daughter_marriage_with_bbc }
             }
             save_scope_as = bno_target_title
@@ -1277,14 +1285,16 @@ bno_embrace_african_2.0003 = {
         name = bno_embrace_african_2.0003.a.decline
         bno_dismiss_local_bbc = yes
         scope:bno_target_title = {
-            if = {
-                limit = {
-                    has_county_modifier = bno_approve_daughter_marriage_with_bbc
+            county = {
+                if = {
+                    limit = {
+                        has_county_modifier = bno_approve_daughter_marriage_with_bbc
+                    }
+                    remove_county_modifier = bno_approve_daughter_marriage_with_bbc
                 }
-                remove_county_modifier = bno_approve_daughter_marriage_with_bbc
-            }
-            add_county_modifier = {
-                modifier = bno_disapprove_daughter_marriage_with_bbc
+                add_county_modifier = {
+                    modifier = bno_disapprove_daughter_marriage_with_bbc
+                }
             }
         }
     }
@@ -1299,14 +1309,16 @@ bno_embrace_african_2.1003 = {
             TARGET = scope:bbc
         }
         scope:target_county = {
-            if = {
-                limit = {
-                    has_county_modifier = bno_disapprove_daughter_marriage_with_bbc
+            county = {
+                if = {
+                    limit = {
+                        has_county_modifier = bno_disapprove_daughter_marriage_with_bbc
+                    }
+                    remove_county_modifier = bno_disapprove_daughter_marriage_with_bbc
                 }
-                remove_county_modifier = bno_disapprove_daughter_marriage_with_bbc
-            }
-            add_county_modifier = {
-                modifier = bno_approve_daughter_marriage_with_bbc
+                add_county_modifier = {
+                    modifier = bno_approve_daughter_marriage_with_bbc
+                }
             }
         }
     }

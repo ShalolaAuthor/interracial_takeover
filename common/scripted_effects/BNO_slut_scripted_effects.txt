@@ -45,6 +45,13 @@ bno_becoming_lustful_effect = {
 becoming_african = {
 	switch = {
 		trigger = has_trait
+		bno_full_black = { remove_trait = bno_full_black }
+		bno_mostly_black = { remove_trait = bno_mostly_black }
+		bno_mixed = { remove_trait = bno_mixed }
+		bno_barely_mixed = { remove_trait = bno_barely_mixed }
+	}
+	switch = {
+		trigger = has_trait
 		bno_mostly_black_slut = {
 			change_trait_rank = {
 				trait = bno_slut_blood
@@ -1013,7 +1020,7 @@ bno_remove_eating_disorder = {
 		modifier = bno_fed_me_cum
 		target = $TARGET$
 	}
-	primary_spouse = {
+	primary_spouse ?= {
 		send_interface_message = {
 			type = bno_blacked_events
 			title = bno_bull_0004_notification.title
@@ -1069,10 +1076,18 @@ get_hated_non_black_courtier_scope = {
 bno_have_sex_with_effects = {
 	if = {
 		limit = {
-			NAND = {
-				is_a_male = yes
-				$PARTNER$ = { is_a_male = yes }
+			OR = {
+				NAND = {
+					is_a_male = yes
+					$PARTNER$ = { is_a_male = yes }
+				}
+				NAND = {
+					is_a_girl = yes
+					$PARTNER$ = { is_a_girl = yes }
+				}
 			}
+			exists = $PARTNER$
+			$PARTNER$ = { is_alive = yes }
 		}
 		set_variable = {
 			name = recent_sex_partner

@@ -211,8 +211,14 @@ bno_marriage.0006 = {	#used to make sure bbc actually have children. Might be wo
 
 	immediate = {
 		every_spouse = {
-			bno_have_sex_with_effects = {
-				PARTNER = root
+			limit = {
+				is_a_girl = yes
+			}
+			save_scope_as = wife_temp
+			scope:wife_temp = {
+				bno_have_sex_with_effects = {
+					PARTNER = root
+				}
 			}
 		}
 	}

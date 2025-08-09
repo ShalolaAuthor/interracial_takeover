@@ -2,377 +2,503 @@
     default = {
         default = { head = "sex" torso = "sex" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cow_cum_1 = {
     default = {
         default = { head = "sex_cow_cum_1" torso = "sex_cow_cum_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cow_cum_re = {
     default = {
         default = { head = "sex_cow_cum_re" torso = "sex_cow_cum_re" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cowgirl = {
     default = {
         default = { head = "sex_cowgirl" torso = "sex_cowgirl" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cowgirl_1 = {
     default = {
         default = { head = "sex_cowgirl_1" torso = "sex_cowgirl_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cowgirl_3 = {
     default = {
         default = { head = "sex_cowgirl_3" torso = "sex_cowgirl_3" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cowgirl_mff_threesome = {
     default = {
         default = { head = "sex_cowgirl_mff_threesome" torso = "sex_cowgirl_mff_threesome" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cowgirl_mff_threesome_1 = {
     default = {
         default = { head = "sex_cowgirl_mff_threesome_1" torso = "sex_cowgirl_mff_threesome_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cowgirl_mff_threesome_2 = {
     default = {
         default = { head = "sex_cowgirl_mff_threesome_2" torso = "sex_cowgirl_mff_threesome_2" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cuddle = {
     default = {
         default = { head = "sex_cuddle" torso = "sex_cuddle" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cuddle_hom = {
     default = {
         default = { head = "sex_cuddle_hom" torso = "sex_cuddle_hom" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cuddle_hom_2 = {
     default = {
         default = { head = "sex_cuddle_hom_2" torso = "sex_cuddle_hom_2" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cunnilingus = {
     default = {
         default = { head = "sex_cunnilingus" torso = "sex_cunnilingus" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_cunnilingus_hom = {
     default = {
         default = { head = "sex_cunnilingus_hom" torso = "sex_cunnilingus_hom" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy = {
     default = {
         default = { head = "sex_doggy" torso = "sex_doggy" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_1 = {
     default = {
         default = { head = "sex_doggy_1" torso = "sex_doggy_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_10 = {
     default = {
         default = { head = "sex_doggy_10" torso = "sex_doggy_10" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_2 = {
     default = {
         default = { head = "sex_doggy_2" torso = "sex_doggy_2" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_3 = {
     default = {
         default = { head = "sex_doggy_3" torso = "sex_doggy_3" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_4 = {
     default = {
         default = { head = "sex_doggy_4" torso = "sex_doggy_4" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_5 = {
     default = {
         default = { head = "sex_doggy_5" torso = "sex_doggy_5" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_6 = {# looks nice on right portrait
     default = {
         default = { head = "sex_doggy_6" torso = "sex_doggy_6" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_7 = {
     default = {
         default = { head = "sex_doggy_7" torso = "sex_doggy_7" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_8 = {
     default = {
         default = { head = "sex_doggy_8" torso = "sex_doggy_8" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_9 = {
     default = {
         default = { head = "sex_doggy_9" torso = "sex_doggy_9" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_cum_1 = {
     default = {
         default = { head = "sex_doggy_cum_1" torso = "sex_doggy_cum_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_cum_2 = {
     default = {
         default = { head = "sex_doggy_cum_2" torso = "sex_doggy_cum_2" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_doggy_cum_3 = {
     default = {
         default = { head = "sex_doggy_cum_3" torso = "sex_doggy_cum_3" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_fellatio = {
     default = {
         default = { head = "sex_fellatio" torso = "sex_fellatio" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_fellatio_hom = {
     default = {
         default = { head = "sex_fellatio_hom" torso = "sex_fellatio_hom" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_handjob_1 = {
     default = {
         default = { head = "sex_handjob_1" torso = "sex_handjob_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_handjob_cum_1 = {
     default = {
         default = { head = "sex_handjob_cum_1" torso = "sex_handjob_cum_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_hom = {
     default = {
         default = { head = "sex_hom" torso = "sex_hom" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_hom_2 = {
     default = {
         default = { head = "sex_hom_2" torso = "sex_hom_2" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_love_stand_1 = { # looks nice
     default = {
         default = { head = "sex_love_stand_1" torso = "sex_love_stand_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_love_stand_2 = { # looks nice
     default = {
         default = { head = "sex_love_stand_2" torso = "sex_love_stand_2" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_missionary = {
     default = {
         default = { head = "sex_missionary" torso = "sex_missionary" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_missionary_cum_1 = {
     default = {
         default = { head = "sex_missionary_cum_1" torso = "sex_missionary_cum_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_missionary_cum_2 = {
     default = {
         default = { head = "sex_missionary_cum_2" torso = "sex_missionary_cum_2" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_missionary_fm1 = {
     default = {
         default = { head = "sex_missionary_fm1" torso = "sex_missionary_fm1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_missionary_l1 = {
     default = {
         default = { head = "sex_missionary_l1" torso = "sex_missionary_l1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_missionary_l2 = {
     default = {
         default = { head = "sex_missionary_l2" torso = "sex_missionary_l2" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_missionary_l3 = {
     default = {
         default = { head = "sex_missionary_l3" torso = "sex_missionary_l3" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_missionary_l4 = {
     default = {
         default = { head = "sex_missionary_l4" torso = "sex_missionary_l4" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_missionary_l5 = {
     default = {
         default = { head = "sex_missionary_l5" torso = "sex_missionary_l5" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_missionary_l6 = {
     default = {
         default = { head = "sex_missionary_l6" torso = "sex_missionary_l6" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_missionary_l7 = {
     default = {
         default = { head = "sex_missionary_l7" torso = "sex_missionary_l7" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_oral_love_1 = {
     default = {
         default = { head = "sex_oral_love_1" torso = "sex_oral_love_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_oral_love_2 = {
     default = {
         default = { head = "sex_oral_love_2" torso = "sex_oral_love_2" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_reverse_cowgirl = {
     default = {
         default = { head = "sex_reverse_cowgirl" torso = "sex_reverse_cowgirl" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_slave_doggy_1 = {
     default = {
         default = { head = "sex_slave_doggy_1" torso = "sex_slave_doggy_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_slave_doggy_2 = {
     default = {
         default = { head = "sex_slave_doggy_2" torso = "sex_slave_doggy_2" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_slave_miss_1 = {
     default = {
         default = { head = "sex_slave_miss_1" torso = "sex_slave_miss_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_slave_oral_1 = {
     default = {
         default = { head = "sex_slave_oral_1" torso = "sex_slave_oral_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_slave_st_doggy_1 = {
     default = {
         default = { head = "sex_slave_st_doggy_1" torso = "sex_slave_st_doggy_1" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_stand_doggy_1_cum = {
     default = {
         default = { head = "sex_stand_doggy_1_cum" torso = "sex_stand_doggy_1_cum" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_standing = {
     default = {
         default = { head = "sex_standing" torso = "sex_standing" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_standing_2 = {
     default = {
         default = { head = "sex_standing_2" torso = "sex_standing_2" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_standing_doggy = {
     default = {
         default = { head = "sex_standing_doggy" torso = "sex_standing_doggy" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_standing_doggy_a = {
     default = {
         default = { head = "sex_standing_doggy_a" torso = "sex_standing_doggy_a" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_standing_doggy_b = {
     default = {
         default = { head = "sex_standing_doggy_b" torso = "sex_standing_doggy_b" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_standing_doggy_c = {
     default = {
         default = { head = "sex_standing_doggy_c" torso = "sex_standing_doggy_c" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_standing_doggy_d = {
     default = {
         default = { head = "sex_standing_doggy_d" torso = "sex_standing_doggy_d" }
     }
+    boy = { default = { head = "idle_entry" torso = "idle_entry" } }
+	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 

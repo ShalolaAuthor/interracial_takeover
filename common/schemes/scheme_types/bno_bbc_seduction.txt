@@ -927,7 +927,7 @@
 	}
 
     base_secrecy = {
-		add = secrecy_base_value
+		add = { 20 30 }
 		add = countermeasure_apply_secrecy_maluses_value
 	}
 
@@ -940,7 +940,7 @@
 		#Handle incest hard reject
 		save_scope_as = scheme
 		scheme_owner = { save_scope_as = owner }
-		scheme_target_character = { save_scope_as = target }
+		scheme_target_character = { save_scope_as = target}
 
 		if = {
 			limit = {
@@ -995,9 +995,17 @@
 	on_monthly = {
 		save_scope_as = scheme
 		scheme_owner = { save_scope_as = owner }
-		scheme_target_character = { save_scope_as = target }
-
-		hostile_scheme_monthly_discovery_chance_effect = yes
+		scheme_target_character = { 
+			if = {
+				limit = {
+					is_playable_character = yes
+				}
+				capital_county = {
+					save_scope_as = target 
+				}
+			}
+			hostile_scheme_monthly_discovery_chance_effect = yes
+		}
 	}
 
 	on_invalidated = {

@@ -71,3 +71,38 @@ bno_bbc_trait_occurrence_dicksize_modifier = { # Represents % chance of BBC occu
     fallback = { value = 0 }
   }
 }
+
+bno_secrecy_base_value = {
+	add = {
+		value = 20
+		desc = BASE
+	}
+	# Reduce by the target's scheme discovery chance, if appropriate.
+	if = {
+		limit = {
+			# Scheme has to exist already.
+			exists = this
+			# We gotta be facing a character.
+			is_scheme_target_type = character
+			# Do they have a spymaster...
+			scheme_target_character.cp:councillor_spymaster ?= {
+				# ... who is performing the appropriate task...
+				is_performing_council_task = task_disrupt_schemes
+				NOR = {
+					# ... who _isn't_ the scheme owner...
+					this = scope:owner
+					# ... or an agent in the scheme.
+					save_temporary_scope_as = char_temp
+					root = {
+						any_scheme_agent_character = { this = scope:char_temp }
+					}
+				}
+			}
+		}
+		add = {
+			value = scope:target.cp:councillor_spymaster.spymaster_disrupt_schemes_total_modifier
+			multiply = -1
+			desc = secrecy.scheme_owner.spymaster.disrupt_schemes
+		}
+	}
+}

@@ -1,0 +1,99 @@
+﻿carn_check_pregnancy_effect = {
+	$FATHER$ = {save_scope_as = father}
+	$MOTHER$ = {save_scope_as = mother}
+	
+	hidden_effect = {
+		# Save additional scope values for backward compatibility
+		save_scope_value_as = { name = carn_sex_char_1_could_be_impregnated value = no }
+		save_scope_value_as = { name = carn_sex_char_2_could_be_impregnated value = no }
+		save_scope_value_as = { name = carn_sex_char_1_impregnated value = no }
+		save_scope_value_as = { name = carn_sex_char_2_impregnated value = no }
+
+		scope:mother = {	
+			add_to_variable_list = {
+				name = potential_father_variable_list
+				target = scope:father
+			}
+			if = {
+				limit = {
+					is_pregnant = no
+				}
+
+				# Save additional scope values for backward compatibility
+				if = {
+					limit = {
+						carn_sex_pregnancy_chance > 0
+						OR = {
+							carn_sex_scene_is_vaginal_trigger = yes
+							scope:father = { carn_sex_scene_is_vaginal_trigger = yes}
+						}
+						NOT = { scope:father = {is_eunuch_trigger = yes } }
+					}
+					if = {
+						limit = { this = scope:carn_sex_player }
+						save_scope_value_as = { name = carn_sex_char_1_could_be_impregnated value = yes }
+					}
+					else = {
+						save_scope_value_as = { name = carn_sex_char_2_could_be_impregnated value = yes }
+					}
+				}
+
+				random = {
+					chance = 0
+					modifier = { add = carn_sex_pregnancy_chance }	
+					modifier = {
+						factor = 0.2  
+						OR = {
+							carn_sex_scene_is_vaginal_trigger = yes
+							scope:father = {carn_sex_scene_is_vaginal_trigger = yes}
+						}
+						NOT = { carn_sex_scene_is_cum_inside_trigger = yes }
+						scope:father = {NOT = { carn_sex_scene_is_cum_inside_trigger = yes }}
+					}
+					modifier = {
+						factor = 0
+						NOT = {carn_sex_scene_is_vaginal_trigger = yes}
+						scope:father = {NOT = {carn_sex_scene_is_vaginal_trigger = yes}}
+					}
+					modifier = {
+						factor = 0
+						scope:father = {is_eunuch_trigger = yes}
+					}				
+					modifier = {
+						factor = carn_birth_control_pregnancy_chance_multiplier
+						OR = {
+							scope:father = { has_character_modifier = carn_using_birth_control_modifier }
+							has_character_modifier = carn_using_birth_control_modifier 
+						}
+					}
+
+					# Save additional scope values for backward compatibility
+					if = {
+						limit = { this = scope:carn_sex_player }
+						save_scope_value_as = { name = carn_sex_char_1_impregnated value = yes }
+					}
+					else = {
+						save_scope_value_as = { name = carn_sex_char_2_impregnated value = yes }
+					}
+                    if = {
+                        limit = {
+                            OR = {
+                                is_immortal = yes
+                                is_visibly_fertile = yes
+                            }
+                        }
+					    make_pregnant_no_checks = {
+					    	father = scope:father
+					    }
+                    }
+					# hook into new on_action
+					trigger_event = {
+						on_action = carn_on_pregnancy
+					}		
+				}
+			}
+		}
+	}
+}
+
+

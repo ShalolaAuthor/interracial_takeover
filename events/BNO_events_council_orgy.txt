@@ -54,9 +54,7 @@ bno_council_orgy.0001 = {
 			is_ai_blackbull = yes
 		}
 		any_councillor = {
-			is_female = yes
-			is_elligible_partner = yes
-			is_ai = yes
+			is_an_ai_girl = yes
 			count >= 3
 		}
 	}
