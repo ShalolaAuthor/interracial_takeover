@@ -1,14 +1,12 @@
 ﻿bnonr_religion = {
-	family = rf_abrahamic
-	
-	doctrine_background_icon = core_tenet_banner_islam.dds
-	doctrine = abrahamic_hostility_doctrine
+	family = rf_bbcs
 	
 	#Main Group
-	doctrine = doctrine_temporal_head
 	doctrine = doctrine_gender_equal
-	doctrine = doctrine_pluralism_righteous
+	doctrine = doctrine_pluralism_fundamentalist
 	doctrine = doctrine_theocracy_lay_clergy
+	doctrine = doctrine_temporal_head
+	doctrine = doctrine_pilgrimage_mandatory
 	
 	#Marriage
 	doctrine = doctrine_polygamy
@@ -18,27 +16,31 @@
 	
 	#Crimes
 	doctrine = doctrine_homosexuality_crime
+	doctrine = doctrine_deviancy_virtuous
 	doctrine = doctrine_adultery_men_accepted
 	doctrine = doctrine_adultery_women_accepted
 	doctrine = doctrine_kinslaying_accepted
-	doctrine = doctrine_deviancy_virtuous
 	doctrine = doctrine_witchcraft_virtuous
 	doctrine = carnd_doctrine_endowments_large
 	doctrine = carn_doctrine_prostitution_sacred
 	doctrine = carnd_doctrine_lust_exalted
 	
-	#Clerical Functions
-	doctrine = doctrine_clerical_function_taxation
+	#Clergy
+	doctrine = doctrine_clerical_function_recruitment
 	doctrine = doctrine_clerical_gender_either
 	doctrine = doctrine_clerical_marriage_allowed
 	doctrine = doctrine_clerical_succession_temporal_appointment
+	doctrine = doctrine_funeral_sky_burial
 	
 	#Carnalitas
 	doctrine = carn_doctrine_same_slavery_accepted
 	doctrine = carn_doctrine_other_slavery_accepted
-		
-	#Allow pilgrimages
-	doctrine = doctrine_pilgrimage_encouraged
+
+	#Special
+	doctrine = special_doctrine_naked_priests
+	doctrine = special_doctrine_is_gnostic_faith
+	doctrine = heresy_hostility_doctrine
+	doctrine = divine_destiny_doctrine
 	
 	traits = {
 		virtues = { bno_curious bno_blacked bno_snowbunny bno_qos bno_mindless_bbc_slut bno_bbc lustful sadistic bno_camp_leader bno_full_black}
@@ -350,33 +352,31 @@
 		BishopFemalePlural = bbcs_female_bishop_plural
 		BishopNeuter = bbcs_neutered_bishop
 		BishopNeuterPlural = bbcs_neutered_bishop_plural
-		DivineRealm = islam_positive_afterlife
-		DivineRealm2 = islam_positive_afterlife_2
-		DivineRealm3 = islam_positive_afterlife_3
-		PositiveAfterLife = islam_positive_afterlife
-		PositiveAfterLife2 = islam_positive_afterlife_2
-		PositiveAfterLife3 = islam_positive_afterlife_3
-		NegativeAfterLife = islam_negative_afterlife
-		NegativeAfterLife2 = islam_negative_afterlife_2
-		NegativeAfterLife3 = islam_negative_afterlife_3
-		DeathDeityName = islam_death_deity_name
-		DeathDeityNamePossessive = islam_death_deity_name_possessive
+		DivineRealm = bbcs_positive_afterlife_1
+		DivineRealm2 = bbcs_positive_afterlife_2
+		DivineRealm3 = bbcs_positive_afterlife_3
+		PositiveAfterLife = bbcs_positive_afterlife_1
+		PositiveAfterLife2 = bbcs_positive_afterlife_2
+		PositiveAfterLife3 = bbcs_positive_afterlife_3
+		NegativeAfterLife = bbcs_negative_afterlife_1
+		NegativeAfterLife2 = bbcs_negative_afterlife_2
+		NegativeAfterLife3 = bbcs_negative_afterlife_3
+		DeathDeityName = bbcs_death_deity_name
+		DeathDeityNamePossessive = bbcs_death_deity_name_possessive
 		DeathDeitySheHe = CHARACTER_SHEHE_HE
 		DeathDeityHerHis = CHARACTER_HERHIS_HIS
 		DeathDeityHerHim = CHARACTER_HERHIM_IT
-		WitchGodName = christianity_witchgodname_iblis
-		WitchGodNamePossessive = christianity_witchgodname_iblis_possessive
+		WitchGodName = bbcs_witch_god_name
+		WitchGodNamePossessive = bbcs_witch_god_name_possessive
 		WitchGodHerHis = CHARACTER_HERHIS_HIS
 		WitchGodSheHe = CHARACTER_SHEHE_HE
 		WitchGodHerHim = CHARACTER_HERHIM_HIM
 		WitchGodMistressMaster = master
 		WitchGodMotherFather = father
 		
-		GHWName = ghw_jihad
-		GHWNamePlural = ghw_jihads
+		GHWName = bbcs_ghw
+		GHWNamePlural = bbcs_ghws
 	}
-	
-	piety_icon_group = "islam"
 	
 	faiths = {
 		bbcs = {
@@ -396,7 +396,7 @@
 			holy_site = fes
 			holy_site = constantinople
 			
-			doctrine = unreformed_faith_doctrine
+			doctrine = west_african_unreformed_faith_doctrine
 
 			#Tenets
 			doctrine = tenet_struggle_submission

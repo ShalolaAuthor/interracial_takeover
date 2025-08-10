@@ -1,0 +1,44 @@
+﻿on_pregnancy_mother = {
+    on_actions = {
+        delay = { days = 7 }
+        bno_on_pregnancy_mother
+    }
+}
+
+bno_on_pregnancy_mother = {
+    trigger = {
+        has_trait = bno_whitegirl
+    }
+    effect = {
+        random = {
+            chance = {
+                value = 20
+                if = {
+                    limit = {
+                        is_bno_blacked_and_up = yes
+                    }
+                    add = 20
+                }
+                if = {
+                    limit = {
+                        is_bno_snowbunny_and_up = yes
+                    }
+                    add = 20
+                }
+                if = {
+                    limit = {
+                        is_bno_qos_and_up = yes
+                    }
+                    add = 20
+                }
+                if = {
+                    limit = {
+                        has_trait = bno_mindless_bbc_slut
+                    }
+                    add = 20
+                }
+            }
+            remove_character_flag = birth_mother_will_die
+        }
+    }
+}
