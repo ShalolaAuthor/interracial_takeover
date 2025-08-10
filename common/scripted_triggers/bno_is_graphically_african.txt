@@ -35,7 +35,8 @@
 		has_culture = culture:serer
 		has_culture = culture:afar
 		has_culture = culture:somali
-		has_culture = culture:zaghawa
+		
+		#has_culture = culture:zaghawa
 		
 		#### DISABLED
 		#has_culture = culture:aari
