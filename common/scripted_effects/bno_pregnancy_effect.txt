@@ -1,0 +1,68 @@
+﻿#Override vanilla effects
+
+#unmarried_mother_pregnancy_effect
+#pregnancy_termination_attempt_effect
+
+
+
+unmarried_mother_pregnancy_effect = {
+	add_trait_force_tooltip = pregnant
+	add_fornicator_trait_or_nothing_effect = yes
+	hidden_effect = {
+		set_known_bastard_on_pregnancy = yes #The bastard status is already known since the mother is unmarried.
+		if = {
+			limit = {
+				NOT = {
+					any_owned_story = {
+						story_type = story_peasant_affair
+						var:peasant_character = scope:mother.pregnancy_real_father
+					}
+                    has_trait = bno_whitegirl
+				}
+			}
+			trigger_event = { #This parses whether the mother is planning to confess to a real_father, and checks if there are characters out there who should suspect that they might be the real father
+				id = adultery.1101
+				days = 20
+			}
+		}
+	}
+}
+
+
+married_mother_pregnancy_effect = {
+	add_trait_force_tooltip = pregnant
+	if = {
+		limit = {
+			NOT = { exists = scope:spouse }
+			exists = primary_spouse
+		}
+		primary_spouse = {
+			save_scope_as = spouse
+		}
+	}
+	if = {
+		limit = { exists = scope:spouse }
+		scope:spouse = {
+			pregnancy_spouse_suspicion_chance_effect = yes
+		}
+	}
+	hidden_effect = {
+		if = {
+			limit = {
+				NOT = {
+					any_owned_story = {
+						story_type = story_peasant_affair
+						var:peasant_character = {
+							this = scope:real_father
+						}
+					}
+                    has_trait = bno_whitegirl
+				}
+			}
+			trigger_event = { #This parses whether the mother is planning to confess to a real_father, and checks if there are characters out there who should suspect that they might be the real father
+				id = adultery.1101
+				days = 20
+			}
+		}
+	}
+}
