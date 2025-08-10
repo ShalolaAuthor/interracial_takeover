@@ -774,3 +774,13 @@ bno_pure_white = {
 	ai_sociability = high_positive_ai_value
 	ai_boldness = high_negative_ai_value
 }
+
+bno_lovers_pox_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+	opposites = {
+		lovers_pox
+	}
+}

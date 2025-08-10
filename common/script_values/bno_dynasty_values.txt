@@ -1,2 +1,19 @@
 ﻿bno_embrace_african_2_chance = 10
 bno_embrace_african_2_extra_player_chance = 10
+
+bno_lovers_pox_ai_cure_chance = 10
+bno_ill_ai_cure_chance = 5
+bno_pneumonic_ai_cure_chance = 20
+bno_great_pox_ai_cure_chance = 40
+bno_early_great_pox_ai_cure_chance = 30
+bno_leper_ai_cure_chance = 100
+bno_gout_ridden_ai_cure_chance = 50
+bno_consumption_ai_cure_chance = 45
+bno_cancer_ai_cure_chance = 55
+bno_typhus_ai_cure_chance = 35
+bno_bubonic_plague_ai_cure_chance = 150
+bno_smallpox_ai_cure_chance = 125
+bno_measles_ai_cure_chance = 130
+bno_dysentery_ai_cure_chance = 135
+bno_ergotism_ai_cure_chance = 105
+bno_sickly_ai_cure_chance = 110

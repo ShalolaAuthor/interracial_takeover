@@ -1,5 +1,7 @@
 ﻿#bno_is_county_not_fully_controlled
 #bno_does_local_bbc_exist
+#bno_illness_list
+#bno_has_embrace_african_5
 
 bno_is_county_not_fully_controlled = {
     any_held_title = {
@@ -16,4 +18,31 @@ bno_does_local_bbc_exist = {
             is_blackbull = yes
         }
     }
+}
+
+bno_illness_list = {
+	OR = {
+		has_trait = lovers_pox
+		has_trait = ill
+		has_trait = pneumonic
+		has_trait = great_pox
+		has_trait = early_great_pox
+		has_trait = leper
+		has_trait = gout_ridden
+		has_trait = consumption
+		has_trait = cancer
+		has_trait = typhus
+		has_trait = bubonic_plague
+		has_trait = smallpox
+		has_trait = measles
+		has_trait = dysentery
+		has_trait = ergotism
+		has_trait = sickly
+	}
+}
+
+bno_has_embrace_african_5 = {
+	dynasty ?= {
+		has_dynasty_perk = bno_embrace_african_5
+	}
 }

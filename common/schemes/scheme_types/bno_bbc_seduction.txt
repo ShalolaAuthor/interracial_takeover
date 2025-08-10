@@ -23,39 +23,57 @@
 
 
     allow = {
-        is_adult = yes
-        is_imprisoned = no
-        OR = {
-            is_bbc = yes
-            has_trait = bno_whitegirl
-        }
-        scope:target = {
-            is_adult = yes
-            is_imprisoned = no
-            is_travelling = no
-            OR = {
-                is_bbc = yes
-				AND = {
-					is_female = yes
-					NOT = { has_trait = bno_full_black }
-				}
-            }
-        }
+		is_elligible_partner = yes
+		trigger_if = {
+			limit = {
+				is_a_male = yes
+			}
+			is_bbc = yes
+			scope:target = {
+				is_a_girl = yes
+				NOT = { has_trait = bno_full_black }
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				is_a_girl = yes
+			}
+			has_trait = bno_whitegirl
+			scope:target = {
+				is_a_male = yes
+				is_bbc = yes
+			}
+		}
+		scope:target = {
+			is_elligible_partner = yes
+		}
     }
 
     valid = {
-        is_incapable = no
-
-        scope:target = {
-            is_adult = yes
-            is_imprisoned = no
-            is_travelling = no
-            exists = location
-            OR = {
-                is_bbc = yes
-                is_female = yes
-            }
-        }
+        is_elligible_partner = yes
+		trigger_if = {
+			limit = {
+				is_a_male = yes
+			}
+			is_bbc = yes
+			scope:target = {
+				is_a_girl = yes
+				NOT = { has_trait = bno_full_black }
+			}
+		}
+		trigger_else_if = {
+			limit = {
+				is_a_girl = yes
+			}
+			has_trait = bno_whitegirl
+			scope:target = {
+				is_a_male = yes
+				is_bbc = yes
+			}
+		}
+		scope:target = {
+			is_elligible_partner = yes
+		}
     }
 
     use_secrecy = {
@@ -74,7 +92,7 @@
 			desc = "possessed_by_lust_demon_modifier"
 			if = {
 				limit = {
-					scope:owner = {
+					scope:owner ?= {
 						has_character_modifier = possessed_by_lust_demon_modifier
 					}
 					scope:target = { ai_zeal > medium_positive_ai_value }
@@ -134,7 +152,7 @@
 		modifier = {
 			add = 20
 			desc = "SCHEME_WNIGHT_SEDUCE_MEMENTO"
-			scope:owner = {
+			scope:owner ?= {
 				exists = var:wnight_seduce_memento_var
 				var:wnight_seduce_memento_var = scope:target
 			}
@@ -144,7 +162,7 @@
 		modifier = {
 			add = scope:target.ai_zeal
 			desc = "SCHEME_LUST_DEMON_MODIFIER"
-			scope:owner = {
+			scope:owner ?= {
 				has_character_modifier = possessed_by_lust_demon_modifier
 			}
 			scope:target = {
@@ -156,12 +174,12 @@
 		modifier = {
 			add = 5
 			desc = YOU_SPEAK_THE_LANGUAGE
-			scope:owner = { knows_language_of_culture = scope:target.culture }
+			scope:owner ?= { knows_language_of_culture = scope:target.culture }
 		}
 		
 		modifier = { # Home Advantage perk bonus against own Courtiers and Guests
 			desc = SEDUCE_COURTIER_GUEST_PERK_BONUS
-			scope:owner = { has_perk = home_advantage_perk }
+			scope:owner ?= { has_perk = home_advantage_perk }
 			scope:target = {
 				OR = {
 					is_courtier_of = scope:owner
@@ -173,14 +191,14 @@
 		}
 		modifier = { # Smooth Operator perk bonus
 			desc = SEDUCE_PERK_BONUS
-			scope:owner = { has_perk = smooth_operator_perk }
+			scope:owner ?= { has_perk = smooth_operator_perk }
 			always = yes
 			add = smooth_operator_perk_bonus
 		}
 		
 		modifier = { # Legacy bonus
 			desc = LEGACY_PERK_BONUS
-			scope:owner = {
+			scope:owner ?= {
 				exists = dynasty
 				dynasty = {
 					has_dynasty_perk = fp1_adventure_legacy_2
@@ -192,82 +210,82 @@
 
 		modifier = {
 			desc = "SCHEME_SCHEMER_TRAIT"
-			scope:owner = { has_trait = seducer }
+			scope:owner ?= { has_trait = seducer }
 			add = 25
 		}
 
 		#Beauty good
 		modifier = {
 			desc = "scheme_beauty_good_1"
-			scope:owner = { has_trait = beauty_good_1 }
+			scope:owner ?= { has_trait = beauty_good_1 }
 			add = 10
 		}
 		modifier = {
 			desc = "scheme_beauty_good_2"
-			scope:owner = { has_trait = beauty_good_2 }
+			scope:owner ?= { has_trait = beauty_good_2 }
 			add = 15
 		}
 		modifier = {
 			desc = "scheme_beauty_good_3"
-			scope:owner = { has_trait = beauty_good_3 }
+			scope:owner ?= { has_trait = beauty_good_3 }
 			add = 20
 		}
 
 		#Physique good
 		modifier = {
 			desc = "scheme_physique_good_1"
-			scope:owner = { has_trait = physique_good_1 }
+			scope:owner ?= { has_trait = physique_good_1 }
 			add = 5
 		}
 		modifier = {
 			desc = "scheme_physique_good_2"
-			scope:owner = { has_trait = physique_good_2 }
+			scope:owner ?= { has_trait = physique_good_2 }
 			add = 10
 		}
 		modifier = {
 			desc = "scheme_physique_good_3"
-			scope:owner = { has_trait = physique_good_3 }
+			scope:owner ?= { has_trait = physique_good_3 }
 			add = 15
 		}
 
 		#Beauty bad
 		modifier = {
 			desc = "scheme_beauty_bad_1"
-			scope:owner = { has_trait = beauty_bad_1 }
+			scope:owner ?= { has_trait = beauty_bad_1 }
 			add = -10
 		}
 		modifier = {
 			desc = "scheme_beauty_bad_2"
-			scope:owner = { has_trait = beauty_bad_2 }
+			scope:owner ?= { has_trait = beauty_bad_2 }
 			add = -15
 		}
 		modifier = {
 			desc = "scheme_beauty_bad_3"
-			scope:owner = { has_trait = beauty_bad_3 }
+			scope:owner ?= { has_trait = beauty_bad_3 }
 			add = -20
 		}
 
 		#Venereal diseases
 		modifier = {
 			desc = "scheme_great_pox"
-			scope:owner = { has_trait = great_pox }
+			scope:owner ?= { has_trait = great_pox }
 			add = -50
 		}
 		modifier = {
 			desc = "scheme_lovers_pox"
-			scope:owner = { has_trait = lovers_pox }
+			scope:owner ?= { has_trait = lovers_pox }
 			add = -25
 		}
 		modifier = {
 			desc = "scheme_early_great_pox"
-			scope:owner = { has_trait = early_great_pox }
+			scope:owner ?= { has_trait = early_great_pox }
 			add = -25
 		}
 
 		#Sexuality
 		modifier = {
 			desc = SCHEME_SEDUCE_WRONG_GENDER
-			scope:owner = {
+			scope:owner ?= {
 				NOR = {
 					is_attracted_to_gender_of = scope:target
 					has_perk = unshackled_lust_perk # Removed by the Unshackled Lust Perk
@@ -340,7 +358,7 @@
 
 		#Target is owner's spouse
 		modifier = { #
-			trigger = { scope:owner = { is_consort_of = scope:target } }
+			trigger = { scope:owner ?= { is_consort_of = scope:target } }
 			scope:target = {
 				NOT = { has_relation_rival = scope:owner }
 			}
@@ -377,7 +395,7 @@
 				value = 0
 				scope:target = {
 					if = { # Hard block for AI seducers, they don't need the granularity and opinion checks are expensive performance-wise. 
-						limit = { scope:owner = { is_ai = yes }}
+						limit = { scope:owner ?= { is_ai = yes }}
 						add = -1000
 					}
 					else_if = { # Players get scaling penalties depending on how high their target's opinion is of their primary spouse.
@@ -431,7 +449,7 @@
 
 		# Doesn't like primary spouse.
 		modifier = { #low_negative_opinion- of spouse
-			trigger = { scope:owner = { NOT = { is_consort_of = scope:target } } }
+			trigger = { scope:owner ?= { NOT = { is_consort_of = scope:target } } }
 			scope:target = {
 				is_married = yes
 				exists = primary_spouse
@@ -471,7 +489,7 @@
 
 		#Does their spouse have a strong hook on them?
 		modifier = {
-			trigger = { scope:owner = { NOT = { is_consort_of = scope:target } } }
+			trigger = { scope:owner ?= { NOT = { is_consort_of = scope:target } } }
 			scope:target = {
 				exists = primary_spouse
 				OR = {
@@ -503,7 +521,7 @@
 					is_theocratic_lessee = yes
 				}
 			}
-			scope:owner = {
+			scope:owner ?= {
 				tier_difference = {
 					target = scope:target
 					value >= 3
@@ -520,7 +538,7 @@
 					is_theocratic_lessee = yes
 				}
 			}
-			scope:owner = {
+			scope:owner ?= {
 				tier_difference = {
 					target = scope:target
 					value = 2
@@ -537,7 +555,7 @@
 					is_theocratic_lessee = yes
 				}
 			}
-			scope:owner = {
+			scope:owner ?= {
 				tier_difference = {
 					target = scope:target
 					value = 1
@@ -546,7 +564,7 @@
 		}
 		modifier = { #1 lower rank
 			trigger = {
-				scope:owner = {
+				scope:owner ?= {
 					NOT = { is_consort_of = scope:target } # Your spouse doesn't care if you're a different rank than them.
 					NOT = { has_perk = subtle_desire_perk }
 				}
@@ -556,7 +574,7 @@
 			scope:target = {
 				personal_scheme_success_compare_target_liege_tier_trigger = no
 			}
-			scope:owner = {
+			scope:owner ?= {
 				tier_difference = {
 					target = scope:target
 					value = -1
@@ -565,7 +583,7 @@
 		}
 		modifier = { #2 lower rank
 			trigger = {
-				scope:owner = {
+				scope:owner ?= {
 					NOT = { is_consort_of = scope:target } # Your spouse doesn't care if you're a different rank than them.
 					NOT = { has_perk = subtle_desire_perk }
 				}
@@ -575,7 +593,7 @@
 			scope:target = {
 				personal_scheme_success_compare_target_liege_tier_trigger = no
 			}
-			scope:owner = {
+			scope:owner ?= {
 				tier_difference = {
 					target = scope:target
 					value = -2
@@ -584,7 +602,7 @@
 		}
 		modifier = { #3 or less lower rank
 			trigger = {
-				scope:owner = {
+				scope:owner ?= {
 					NOT = { is_consort_of = scope:target } # Your spouse doesn't care if you're a different rank than them.
 					NOT = { has_perk = subtle_desire_perk }
 				}
@@ -594,7 +612,7 @@
 			scope:target = {
 				personal_scheme_success_compare_target_liege_tier_trigger = no
 			}
-			scope:owner = {
+			scope:owner ?= {
 				tier_difference = {
 					target = scope:target
 					value <= -3
@@ -613,7 +631,7 @@
 					is_theocratic_lessee = yes
 				}
 			}
-			scope:owner = {
+			scope:owner ?= {
 				tier_difference = {
 					target = scope:target.liege
 					value >= 3
@@ -630,7 +648,7 @@
 					is_theocratic_lessee = yes
 				}
 			}
-			scope:owner = {
+			scope:owner ?= {
 				tier_difference = {
 					target = scope:target.liege
 					value = 2
@@ -647,7 +665,7 @@
 					is_theocratic_lessee = yes
 				}
 			}
-			scope:owner = {
+			scope:owner ?= {
 				tier_difference = {
 					target = scope:target.liege
 					value = 1
@@ -656,7 +674,7 @@
 		}
 		modifier = { #1 lower rank
 			trigger = { 
-				scope:owner = {
+				scope:owner ?= {
 					personal_scheme_should_not_evaluate_tier_differences_trigger = yes
 					NOT = { has_perk = subtle_desire_perk }
 				}
@@ -666,7 +684,7 @@
 			scope:target = {
 				personal_scheme_success_compare_target_liege_tier_trigger = yes
 			}
-			scope:owner = {
+			scope:owner ?= {
 				tier_difference = {
 					target = scope:target.liege
 					value = -1
@@ -675,7 +693,7 @@
 		}
 		modifier = { #2 lower rank
 			trigger = { 
-				scope:owner = {
+				scope:owner ?= {
 					personal_scheme_should_not_evaluate_tier_differences_trigger = yes
 					NOT = { has_perk = subtle_desire_perk }
 				}
@@ -685,7 +703,7 @@
 			scope:target = {
 				personal_scheme_success_compare_target_liege_tier_trigger = yes
 			}
-			scope:owner = {
+			scope:owner ?= {
 				tier_difference = {
 					target = scope:target.liege
 					value = -2
@@ -694,7 +712,7 @@
 		}
 		modifier = { #3 or less lower rank
 			trigger = { 
-				scope:owner = {
+				scope:owner ?= {
 					personal_scheme_should_not_evaluate_tier_differences_trigger = yes
 					NOT = { has_perk = subtle_desire_perk }
 				}
@@ -704,7 +722,7 @@
 			scope:target = {
 				personal_scheme_success_compare_target_liege_tier_trigger = yes
 			}
-			scope:owner = {
+			scope:owner ?= {
 				tier_difference = {
 					target = scope:target.liege
 					value <= -3
@@ -714,7 +732,7 @@
 
 		#Extra rank bonus/penalty if target is arrogant/ambitious
 		modifier = {
-			trigger = { scope:owner = { NOT = { is_consort_of = scope:target } } } # No 'social climbing' if you're already their spouse!
+			trigger = { scope:owner ?= { NOT = { is_consort_of = scope:target } } } # No 'social climbing' if you're already their spouse!
 			desc = SCHEME_SOCIAL_CLIMBER_RANK_BONUS
 			add = 10
 			scope:target = {
@@ -739,7 +757,7 @@
 			}
 		}
 		modifier = {
-			trigger = { scope:owner = { NOT = { is_consort_of = scope:target } } } # No 'social climbing' if you're already their spouse!
+			trigger = { scope:owner ?= { NOT = { is_consort_of = scope:target } } } # No 'social climbing' if you're already their spouse!
 			desc = SCHEME_SOCIAL_CLIMBER_RANK_PENALTY
 			add = -10
 			scope:target = {
@@ -786,7 +804,7 @@
 			scope:target = {
 				relation_with_character_is_incestuous_in_my_or_lieges_faith_trigger = { CHARACTER = scope:owner }
 			}
-			scope:owner = { # The Subtle Desire Perk nullifies this
+			scope:owner ?= { # The Subtle Desire Perk nullifies this
 				NOT = { has_perk = subtle_desire_perk }
 			}
 		}
@@ -811,7 +829,7 @@
 				is_close_or_extended_family_of = scope:owner
 				NOR = {
 					accepts_incest_with_trigger = { CHARACTER = scope:owner } #100% fine with incest with owner
-					scope:owner = { has_perk = subtle_desire_perk }  # The Subtle Desire Perk nullifies this
+					scope:owner ?= { has_perk = subtle_desire_perk }  # The Subtle Desire Perk nullifies this
 					guaranteed_under_20_incest_rejection_trigger = { # handled by hard block modifier
 						TARGET = scope:target
 						SEDUCER = scope:owner
@@ -865,7 +883,7 @@
 		modifier = {
 			add = thicker_than_water_bonus
 			desc = BEFRIEND_THICKER_THAN_WATER_PERK_DESC
-			scope:owner = {
+			scope:owner ?= {
 				has_perk = thicker_than_water_perk
 			}
 			scope:target = {
@@ -888,21 +906,21 @@
 
 		# Modifiers
 		modifier = {
-			scope:owner = { has_character_modifier = poet_for_seduction_schemes_modifier }
+			scope:owner ?= { has_character_modifier = poet_for_seduction_schemes_modifier }
 			desc = poet_for_seduction_schemes_modifier
 			add = 20
 		}
 		# house_head_request_interaction
 		modifier = {
 			add = personal_scheme_variable_list_value
-			scope:owner = {
+			scope:owner ?= {
 				has_variable_list = supporting_personal_schemes
 			}
 			desc = HOUSE_HEAD_SCHEME_SUPPORT_DESC
 		}
 		modifier = {
 			add = -10
-			scope:owner = { has_character_modifier = personal_schemes_distracted_modifier }
+			scope:owner ?= { has_character_modifier = personal_schemes_distracted_modifier }
 			desc = personal_schemes_distracted_modifier
 		}
 		# Estate
@@ -948,7 +966,7 @@
 					scope:target = {
 						existing_feud_against_target_trigger = { TARGET = scope:owner }
 					}
-					scope:owner = {
+					scope:owner ?= {
 						existing_feud_against_target_trigger = { TARGET = scope:target }
 					}
 				}
@@ -1019,7 +1037,7 @@
 			limit = {
 				scope:target = { is_alive = no }
 			}
-			scope:owner = {
+			scope:owner ?= {
 				send_interface_toast = {
 					type = event_toast_effect_neutral
 					title = seduce

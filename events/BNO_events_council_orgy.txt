@@ -35,15 +35,12 @@ bno_council_orgy.0001 = {
 	}
 	lower_left_portrait = {
 		character = scope:target_female_2
-		animation = idle
 	}
 	lower_center_portrait = {
 		character = scope:target_female_1
-		animation = shock
 	}
 	lower_right_portrait = {
 		character = scope:target_female_3
-		animation = idle
 	}
 	
 	trigger = {
@@ -60,6 +57,7 @@ bno_council_orgy.0001 = {
 	}
 	
 	immediate = {
+		save_scope_as = target_last_character
 		clear_saved_scope = target_female_1
 		clear_saved_scope = target_female_2
 		clear_saved_scope = target_female_3

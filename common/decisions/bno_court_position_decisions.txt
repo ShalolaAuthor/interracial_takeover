@@ -43,7 +43,7 @@
             current_description = hire_bbc_worshipper_decision
             localization = hire_bbc_worshipper_decision
             #Placeholder
-            icon = "gfx/interface/icons/court_position_types/court_physician_court_position.dds"
+            icon = "gfx/interface/icons/court_position_types/bno_bbc_worshipper_court_position.dds"
             ai_chance = {
                 value = 0
                 switch = {

@@ -1,7 +1,6 @@
 ﻿-add loverspox immunity trait opposite of loverspox
 -add trading with church of bbc (every black supremacist will donate 1 gold for 10k piety)
 -add trading with africans (every africans will donate 1 gold for 1k prestige)
--add neighbouring ruler as target for bbc whores
 -convert county to bbc church
 -should replace primary_spouse to every_spouse for cuck checks
 -add icon for future queen for black
@@ -41,3 +40,7 @@
 -add futa + female kid and marriage (needs research)
 -check for other cultural gfx i got bored seeing african gfx
 -add revealing clothing tags?
+-fix perk 2 selection screen
+(ALWAYS CHECK FOR TODO AND PLACEHOLDER)
+DONE:
+-add neighbouring ruler as target for bbc whores

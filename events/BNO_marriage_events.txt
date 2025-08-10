@@ -141,21 +141,13 @@ bno_marriage.0004 = { #unmarried bbc looks to other realms for single woman
 				TARGET = root
 				LOCATION = location
 			}
-		}
-	}
-	
-	option = { #arent you persuasive
-		ai_chance = {
-			base = 100
+			bno_marriage_effect = {
+				TARGET = root
+			}
 		}
 		add_character_modifier = {
 			modifier = bno_took_foreign_unmarried_white_wife
 			years = 15
-		}
-		scope:target1 ?= {
-			bno_marriage_effect = {
-				TARGET = root
-			}
 		}
 	}
 }
@@ -206,6 +198,9 @@ bno_marriage.0006 = {	#used to make sure bbc actually have children. Might be wo
 	trigger = {
 		is_ai_blackbull = yes
 		is_married = yes
+		any_spouse = {
+			is_a_girl = yes
+		}
 		bno_num_mixed_children_plus_dead <= 3
 	}
 
@@ -215,7 +210,7 @@ bno_marriage.0006 = {	#used to make sure bbc actually have children. Might be wo
 				is_a_girl = yes
 			}
 			save_scope_as = wife_temp
-			scope:wife_temp = {
+			scope:wife_temp ?= {
 				bno_have_sex_with_effects = {
 					PARTNER = root
 				}

@@ -702,7 +702,6 @@ is_elligible_partner = {
 	is_adult = yes
 	is_imprisoned = no
 	is_alive = yes
-	#is_travelling = no
 	OR = {
 		is_visibly_fertile = yes
 		is_immortal = yes

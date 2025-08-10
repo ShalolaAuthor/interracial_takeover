@@ -1042,7 +1042,7 @@ bno_embrace_african_2.0002 = {
         }
         scope:whore = {
             bno_travel_to_local_bbc = {
-                RETURN_TRIP = yes
+                RETURN_TRIP = no
                 ON_ARRIVAL_EVENT = bno_embrace_african_2.1002
             }
         }
@@ -1075,7 +1075,7 @@ bno_embrace_african_2.0002 = {
         add_internal_flag = special
 
         bno_travel_to_local_bbc = {
-            RETURN_TRIP = yes
+            RETURN_TRIP = no
             ON_ARRIVAL_EVENT = bno_embrace_african_2.1002
         }
     }
