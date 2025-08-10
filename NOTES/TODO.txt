@@ -28,3 +28,16 @@
 -return trip no for all events annoying that you have to travel back and forth
 -add is at war to elligible partner check (no events should be played when war happens, way to annoying)
 -add delay inside bno event on actions for every on action it triggers (random days amount, so annoying everything come all at once)
+-add control as requirement for converting county culture and religion (african spreads way too fast)
+-add next tier to bno_cum_for_glory_glorified => mystified (MAA, demesne related bonus) for every 5 => 1
+-correct the localization for bnwo unrest add the relevant landed title contested, and more
+-researching why MAA icon not correctly assigned when hovered (localization perhaps?)
+-bbc worshipper reduce development flat add development mult (balancing) lower them both and add control element to it to (maybe as a task?)
+-add description to the message pop out for glorified and mystified
+-maybe add more message template?
+-add priority to some portrait modifier
+-remove disease resistance?
+-futa eunuch needs to be able to give birth
+-add futa + female kid and marriage (needs research)
+-check for other cultural gfx i got bored seeing african gfx
+-add revealing clothing tags?
