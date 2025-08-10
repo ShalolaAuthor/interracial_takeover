@@ -22,4 +22,4 @@ SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Select a [congenital|E] trait 
 
 BBC_CAMP_BUILDING_UNLOCK: "Unlocks the [GetBuilding('bbc_camp_01').GetName] [building|E]"
 
-BNO_SEX_EFFECT_DESCRIPTION: "Unlocks [GetModifier('bno_sex_prowess').GetNameWithTooltip]"
+BNO_SEX_EFFECT_DESCRIPTION: "Unlocks [GetModifier('bno_cum_for_glory').GetNameWithTooltip]"

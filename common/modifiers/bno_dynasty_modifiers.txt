@@ -1,7 +1,24 @@
 ﻿#Person
-bno_sex_prowess = {
+bno_cum_for_glory = {
     icon = martial_positive
-    prowess = 0.25
+    prowess = 0.2
+    inbreeding_chance = -0.025
+    negative_random_genetic_chance = -0.025
+    negative_inactive_inheritance_chance = -0.025
+    life_expectancy = 0.2
+    years_of_fertility = 0.2
+    fertility = 0.025
+    stacking = yes
+}
+bno_cum_for_glory_glorified = {
+    icon = martial_positive
+    prowess = 20
+    inbreeding_chance = -2.5
+    negative_random_genetic_chance = -2.5
+    negative_inactive_inheritance_chance = -2.5
+    life_expectancy = 20
+    years_of_fertility = 20
+    fertility = 2.5
     stacking = yes
 }
 # County

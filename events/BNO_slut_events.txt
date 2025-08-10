@@ -589,9 +589,7 @@ bno_slut.0007 = {
 	trigger = {
 		has_game_rule = bno_body_modification_yes
 		is_mindless_bbc_slut = yes
-		NOT = {
-			exists = var:bno_becoming_dark
-		}
+		has_trait = bno_slut_blood
 		is_partner_bbc = yes
 	}
 	immediate = {

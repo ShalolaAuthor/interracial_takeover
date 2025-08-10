@@ -30,4 +30,4 @@ SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Выбери [congenital|E] т
 
 BBC_CAMP_BUILDING_UNLOCK: "Открывает [GetBuilding('bbc_camp_01').GetName] [building|E]"
 
-BNO_SEX_EFFECT_DESCRIPTION: "Открывает [GetModifier('bno_sex_prowess').GetNameWithTooltip]"
+BNO_SEX_EFFECT_DESCRIPTION: "Открывает [GetModifier('bno_cum_for_glory').GetNameWithTooltip]"

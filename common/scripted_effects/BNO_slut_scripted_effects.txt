@@ -17,7 +17,52 @@ bno_add_prowess_per_sex = {
 			}
 		}
 		add_character_modifier = {
-			modifier = bno_sex_prowess
+			modifier = bno_cum_for_glory
+		}
+		set_variable = {
+			name = bno_cum_for_glory_count
+			value = {
+				value = var:bno_cum_for_glory_count
+				add = 1
+			}
+		}
+		if = {
+			limit = {
+				exists = var:bno_cum_for_glory_count
+			}
+			change_variable = {
+				name = bno_cum_for_glory_count
+				add = 1
+			}
+		}
+		else = {
+			set_variable = {
+				name = bno_cum_for_glory_count
+				value = 1
+			}
+		}
+		if = {
+			limit = {
+				var:bno_cum_for_glory_count >= 100
+			}
+			add_character_modifier = bno_cum_for_glory_glorified
+			remove_all_character_modifier_instances = bno_cum_for_glory
+			send_interface_message = {
+				title = bno_cum_for_glory.glorified
+				type = bno_blacked_events
+				left_icon = this
+			}
+			set_variable = {
+				name = bno_cum_for_glory_glorified_count
+				value = {
+					value = var:bno_cum_for_glory_glorified_count
+					add = 1
+				}
+			}
+			change_variable = {
+				name = bno_cum_for_glory_count
+				subtract = 100
+			}
 		}
 	}
 }
