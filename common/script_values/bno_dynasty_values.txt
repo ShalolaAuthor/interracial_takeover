@@ -41,4 +41,8 @@ bno_cure_disease_cost = {
             flag:disease_type_great_pox = { value = bno_great_pox_ai_cure_chance }
         }
     }
+    #tweak this if too expensive
+    multiply = {
+        value = 0.5
+    }
 }

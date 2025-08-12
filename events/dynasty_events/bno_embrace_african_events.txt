@@ -1340,7 +1340,7 @@ bno_embrace_african_5.0001 = {
 
     left_portrait = {
         character = scope:priest
-        animation = personality_content
+        animation = bno_sex_love_stand_2
         outfit_tags = {
             no_clothes
         }
@@ -1375,20 +1375,33 @@ bno_embrace_african_5.0001 = {
     }
 
     option = { # will show the cost of ritual and use show_as_unavailable if you dont have enough money
-        name = bno_embrace_african_5.0001.a
-
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { gold > bno_cure_disease_cost }
+                        desc = bno_embrace_african_5.0001.a.enough
+                    }
+                    triggered_desc = {
+                        trigger = { gold < bno_cure_disease_cost }
+                        desc = bno_embrace_african_5.0001.a.not_enough
+                    }
+                }
+            }
+        }
         trigger = {
             gold > bno_cure_disease_cost
+        }
+        show_as_unavailable = {
+            gold < bno_cure_disease_cost
         }
 
         pay_short_term_gold = {
             gold = bno_cure_disease_cost
             target = scope:priest
         }
-
-        show_as_unavailable = {
-            gold < bno_cure_disease_cost
-        }
+        # TODO: add a new court position called church of BBC priest 1 female 1 male replace scope:priest with this court position
+        # TODO: add an effect that remove the sick trait and gain the immunity trait
 
     }
 
