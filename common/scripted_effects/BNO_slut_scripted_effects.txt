@@ -802,10 +802,8 @@ create_bbc = {
 			add_trait = bno_full_black
 			add_trait = dick_big_good_3
 			add_trait = lustful
+			remove_bad_traits = yes
 		}
-	}
-	scope:$SCOPE_NAME$ = {
-		remove_bad_traits = yes
 	}
 }
 
@@ -855,10 +853,8 @@ create_slut = {
 			add_trait = lustful
 			add_trait = fecund
 			set_sexuality = heterosexual
+			remove_bad_traits = yes
 		}
-	}
-	scope:$SCOPE_NAME$ = {
-		remove_bad_traits = yes
 	}
 }
 
@@ -886,6 +882,7 @@ remove_bad_traits = {
 	remove_trait = scaly
 	remove_trait = clubfooted
 	remove_trait = dwarf
+	remove_trait = giant
 	remove_trait = hunchbacked
 	remove_trait = spindly
 	remove_trait = albino

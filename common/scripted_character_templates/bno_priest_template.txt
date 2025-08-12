@@ -1,0 +1,77 @@
+﻿bno_female_priest_character_template = {
+	age = bno_younger_adult
+	random_traits_list = {
+		count = 1
+		education_learning_2 = {}
+		education_learning_3 = {}
+		education_learning_4 = {}
+	}
+
+    trait = bno_mindless_bbc_slut
+    random_traits_list = {
+        count = 1
+        tits_big_good_1 = {}
+        tits_big_good_2 = {}
+        tits_big_good_3 = {}
+    }
+    random_traits_list = {
+        count = 1
+        beauty_good_1 = {}
+        beauty_good_2 = {}
+        beauty_good_3 = {}
+    }
+	random_traits = yes
+	
+	faith = root.faith
+	culture = root.culture
+	gender = female
+
+	learning = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+
+	after_creation = {
+		add_character_flag = need_priest_outfit
+        remove_bad_traits = yes
+	}
+}
+
+bno_male_priest_character_template = {
+	age = bno_younger_adult
+	random_traits_list = {
+		count = 1
+		education_learning_2 = {}
+		education_learning_3 = {}
+		education_learning_4 = {}
+	}
+
+    trait = bno_bbc
+    random_traits_list = {
+        count = 1
+        dick_big_good_1 = {}
+        dick_big_good_2 = {}
+        dick_big_good_3 = {}
+    }
+    random_traits_list = {
+        count = 1
+        beauty_good_1 = {}
+        beauty_good_2 = {}
+        beauty_good_3 = {}
+    }
+	random_traits = yes
+	
+	faith = root.faith
+	culture = root.culture
+	gender = female
+
+	learning = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+
+	after_creation = {
+		add_character_flag = need_priest_outfit
+        remove_bad_traits = yes
+	}
+}

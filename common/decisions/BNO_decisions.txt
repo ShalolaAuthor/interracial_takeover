@@ -779,12 +779,158 @@ bno_cure_diseases = {
 		}
 	}
 
+
+
 	effect = {
 		# you will got cured of your diseases
 		custom_tooltip = bno_cure_diseases.tooltip.1
 		hidden_effect = {
 			# you will visit the church of BBC to got rid of your illness
 			custom_tooltip = bno_cure_diseases.tooltip.2
+			if = { # Lover's Pox
+				limit = {
+					scope:cure_lovers_pox = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_lovers_pox
+				}
+			}
+			else_if = { # Ill
+				limit = {
+					scope:cure_ill = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_ill
+				}
+			}
+			else_if = { # Pneumonic
+				limit = {
+					scope:cure_pneumonic = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_pneumonic
+				}
+			}
+			else_if = { # Great Pox
+				limit = {
+					scope:cure_great_pox = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_great_pox
+				}
+			}
+			else_if = { # Early Great Pox
+				limit = {
+					scope:cure_early_great_pox = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_early_great_pox
+				}
+			}
+			else_if = { # Leper
+				limit = {
+					scope:cure_leper = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_leper
+				}
+			}
+			else_if = { # Gout Ridden
+				limit = {
+					scope:cure_gout_ridden = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_gout_ridden
+				}
+			}
+			else_if = { # Consumption
+				limit = {
+					scope:cure_consumption = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_consumption
+				}
+			}
+			else_if = { # Cancer
+				limit = {
+					scope:cure_cancer = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_cancer
+				}
+			}
+			else_if = { # Typhus
+				limit = {
+					scope:cure_typhus = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_typhus
+				}
+			}
+			else_if = { # Bubonic Plague
+				limit = {
+					scope:cure_bubonic_plague = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_bubonic_plague
+				}
+			}
+			else_if = { # Smallpox
+				limit = {
+					scope:cure_smallpox = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_smallpox
+				}
+			}
+			else_if = { # Measles
+				limit = {
+					scope:cure_measles = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_measles
+				}
+			}
+			else_if = { # Dysentery
+				limit = {
+					scope:cure_dysentery = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_dysentery
+				}
+			}
+			else_if = { # Ergotism
+				limit = {
+					scope:cure_ergotism = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_ergotism
+				}
+			}
+			else_if = {
+				limit = {
+					scope:cure_sickly = yes
+				}
+				set_variable = {
+					name = bno_disease_type
+					value = flag:disease_type_sickly
+				}
+			}
 		}
 	}
 

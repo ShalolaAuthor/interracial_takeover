@@ -1323,3 +1323,74 @@ bno_embrace_african_2.1003 = {
         }
     }
 }
+
+namespace = bno_embrace_african_5
+# Cure Diseases Decisions
+# TODO add BBC Church Temple special building and actually go there to get rid of illness
+# story say the priest need you to have a breeding ritual it cost massive amount of gold to get rid of your illness
+bno_embrace_african_5.0001 = {
+    type = character_event
+    title = bno_embrace_african_5.0001.title
+    desc = bno_embrace_african_5.0001.desc
+    theme = healthcare
+
+    override_background = {
+        reference = temple
+    }
+
+    left_portrait = {
+        character = scope:bbc
+        animation = personality_content
+        outfit_tags = {
+            no_clothes
+        }
+    }
+
+    right_portrait = {
+        character = root
+        animation = sick
+    }
+
+    immediate = {
+        if = {
+            limit = {
+                is_a_male = yes
+            }
+            create_character = {
+                template = bno_female_priest_character_template
+                location = capital_province
+                save_scope_as = priest
+            }
+        }
+        else_if = {
+            limit = {
+                is_a_girl = yes
+            }
+            create_character = {
+                template = bno_male_priest_character_template
+                location = capital_province
+                save_scope_as = priest
+            }
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:cure_lovers_pox = yes }
+                        desc = "lovers pox test"
+                    }
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                scope:cure_lovers_pox = yes
+            }
+        }
+
+    }
+}
