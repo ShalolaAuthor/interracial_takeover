@@ -931,6 +931,11 @@ bno_cure_diseases = {
 					value = flag:disease_type_sickly
 				}
 			}
+
+			trigger_event = {
+				id = bno_embrace_african_5.0001 
+				days = { 7 14 }
+			}
 		}
 	}
 

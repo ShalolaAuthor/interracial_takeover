@@ -780,7 +780,362 @@ bno_lovers_pox_immunity = {
 	good = yes
 	shown_in_ruler_designer = no
 	inherit_chance = 10
+
+	# Effects
+	dread_baseline_add = 2.5
+	attraction_opinion = 10
+
 	opposites = {
 		lovers_pox
 	}
+}
+
+bno_ill_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	health = 0.5
+	elderly_health = 0.5
+	prowess = 2
+	fertility = 0.1
+	dread_baseline_add = 5
+	dread_loss_mult = -0.5
+
+	opposites = {
+		ill
+	}
+
+	ai_energy = 12.5
+}
+
+bno_pneumonic_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	diplomacy = 1
+	stewardship = 1
+	martial = 1
+	intrigue = 1
+	learning = 1
+	health = 1.5
+	elderly_health = 1
+	prowess = 4
+	fertility = 0.25
+	dread_baseline_add = 5
+	dread_loss_mult = -0.5
+
+	opposites = {
+		pneumonic
+	}
+
+	ai_energy = 25
+}
+
+bno_early_great_pox_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	dread_baseline_add = 2.5
+	attraction_opinion = 10
+
+	opposites = {
+		early_great_pox
+	}
+}
+
+bno_leper_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	health = 0.75
+	prowess = 4
+	fertility = 0.5
+	dread_baseline_add = 10
+	dread_loss_mult = -0.5
+
+	attraction_opinion = 17.5
+	general_opinion = 5
+
+	opposites = {
+		leper
+	}
+
+	ai_energy = 7.5
+}
+
+bno_gout_ridden_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	diplomacy = 1
+	martial = 1
+	prowess = 1
+	health = 0.5
+	dread_baseline_add = 2.5
+
+	attraction_opinion = 7.5
+
+	opposites = {
+		gout_ridden
+	}
+
+	ai_energy = 7.5
+}
+
+bno_consumption_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	diplomacy = 1
+	stewardship = 1
+	intrigue = 1
+	prowess = 1
+	health = 1.25
+	child_health = 0.5
+	elderly_health = 1
+	dread_baseline_add = 5
+	dread_loss_mult = -0.5
+
+	attraction_opinion = 5
+
+	opposites = {
+		consumption
+	}
+
+	ai_energy = 25
+}
+
+bno_cancer_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	dread_baseline_add = 7.5
+	dread_loss_mult = -0.5
+	health = 1.5
+	elderly_health = 0.5
+	fertility = 0.1
+
+	opposites = {
+		cancer
+	}
+
+	ai_energy = 12.5
+}
+
+bno_typhus_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	diplomacy = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	prowess = 2
+	health = 2.25
+	elderly_health = 0.5
+	fertility = 0.1
+	dread_baseline_add = 7.5
+	dread_loss_mult = -0.5
+
+	attraction_opinion = 5
+
+	opposites = {
+		typhus
+	}
+
+	ai_energy = 25
+}
+
+bno_bubonic_plague_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	diplomacy = 1
+	martial = 1.5
+	stewardship = 1
+	intrigue = 1.5
+	learning = 1
+	prowess = 5
+	health = 3.5
+	elderly_health = 1
+	fertility = 0.25
+	dread_baseline_add = 15
+	dread_loss_mult = -0.5
+
+	attraction_opinion = 15
+
+	opposites = {
+		bubonic_plague
+	}
+
+	ai_energy = 37.5
+}
+
+bno_smallpox_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	diplomacy = 1
+	stewardship = 1
+	learning = 1
+	prowess = 5
+	health = 2.25
+	elderly_health = 0.75
+	fertility = 0.125
+	dread_baseline_add = 7.5
+	dread_loss_mult = -0.5
+
+	attraction_opinion = 5
+
+	opposites = {
+		smallpox
+	}
+
+	ai_energy = 37.5
+}
+
+bno_measles_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	diplomacy = 1
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	prowess = 2
+	health = 1.5
+	child_health = 1.5
+	dread_baseline_add = 2.5
+
+	attraction_opinion = 5
+
+	opposites = {
+		measles
+	}
+
+	ai_energy = 37.5
+}
+
+bno_dysentery_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	diplomacy = 1
+	martial = 1
+	intrigue = 1
+	prowess = 4
+	health = 1.75
+	elderly_health = 1
+	dread_baseline_add = 25
+
+	attraction_opinion = 2.5
+
+	opposites = {
+		dysentery
+	}
+
+	ai_energy = 37.5
+}
+
+bno_ergotism_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	diplomacy = 3
+	stewardship = 1
+	intrigue = 1
+	learning = 1
+	health = 1.75
+	dread_baseline_add = 12.5
+
+	attraction_opinion = 5
+
+	opposites = {
+		ergotism
+	}
+
+	ai_energy = 37.5
+}
+
+bno_sickly_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	child_health = 1.25
+	dread_baseline_add = 10
+	dread_loss_mult = -0.5
+
+	opposites = {
+		sickly
+	}
+
+	ai_energy = 15
+}
+
+bno_great_pox_immunity = {
+	category = health
+	good = yes
+	shown_in_ruler_designer = no
+	inherit_chance = 10
+
+	# Effects
+	diplomacy = 1
+	stewardship = 1
+	martial = 1
+	intrigue = 1
+	learning = 1
+	health = 1
+	fertility = 0.1
+	dread_baseline_add = 10
+	dread_loss_mult = -0.5
+
+	attraction_opinion = 5
+
+	opposites = {
+		great_pox
+	}
+
+	ai_energy = 7.5
 }

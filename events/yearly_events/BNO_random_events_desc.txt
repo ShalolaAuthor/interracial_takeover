@@ -1137,6 +1137,7 @@ bno_random.0007 = {
 	
 	trigger = {
 		is_a_girl = yes
+		is_elligible_partner = yes
 		OR = {
 			has_trait = bno_curious
 			has_trait = bno_blacked
@@ -5884,6 +5885,7 @@ bno_random.0039 = {
 	
 	trigger = {
 		is_a_girl = yes
+		is_elligible_partner = yes
 		is_ruler = yes
 		does_blackbull_exist = yes
 		any_courtier_or_guest = {

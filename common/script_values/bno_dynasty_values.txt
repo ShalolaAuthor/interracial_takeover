@@ -1,9 +1,9 @@
 ﻿bno_embrace_african_2_chance = 10
 bno_embrace_african_2_extra_player_chance = 10
 
-bno_lovers_pox_ai_cure_chance = 10
-bno_ill_ai_cure_chance = 5
-bno_pneumonic_ai_cure_chance = 20
+bno_lovers_pox_ai_cure_chance = 20
+bno_ill_ai_cure_chance = 25
+bno_pneumonic_ai_cure_chance = 30
 bno_great_pox_ai_cure_chance = 40
 bno_early_great_pox_ai_cure_chance = 30
 bno_leper_ai_cure_chance = 100
@@ -16,4 +16,29 @@ bno_smallpox_ai_cure_chance = 125
 bno_measles_ai_cure_chance = 130
 bno_dysentery_ai_cure_chance = 135
 bno_ergotism_ai_cure_chance = 105
-bno_sickly_ai_cure_chance = 110
+bno_sickly_ai_cure_chance = 15
+
+bno_cure_disease_cost = {
+    value = minor_gold_value
+    multiply = {
+        switch = {
+            trigger = var:bno_disease_type
+            flag:disease_type_lovers_pox = { value = bno_lovers_pox_ai_cure_chance }
+            flag:disease_type_ill = { value = bno_ill_ai_cure_chance }
+            flag:disease_type_pneumonic = { value = bno_pneumonic_ai_cure_chance }
+            flag:disease_type_early_great_pox = { value = bno_early_great_pox_ai_cure_chance }
+            flag:disease_type_leper = { value = bno_leper_ai_cure_chance }
+            flag:disease_type_gout_ridden = { value = bno_gout_ridden_ai_cure_chance }
+            flag:disease_type_consumption = { value = bno_consumption_ai_cure_chance }
+            flag:disease_type_cancer = { value = bno_cancer_ai_cure_chance }
+            flag:disease_type_typhus = { value = bno_typhus_ai_cure_chance }
+            flag:disease_type_bubonic_plague = { value = bno_bubonic_plague_ai_cure_chance }
+            flag:disease_type_smallpox = { value = bno_smallpox_ai_cure_chance }
+            flag:disease_type_measles = { value = bno_measles_ai_cure_chance }
+            flag:disease_type_dysentery = { value = bno_dysentery_ai_cure_chance }
+            flag:disease_type_ergotism = { value = bno_ergotism_ai_cure_chance }
+            flag:disease_type_sickly = { value = bno_sickly_ai_cure_chance }
+            flag:disease_type_great_pox = { value = bno_great_pox_ai_cure_chance }
+        }
+    }
+}

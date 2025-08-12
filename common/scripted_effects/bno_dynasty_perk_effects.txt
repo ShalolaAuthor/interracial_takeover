@@ -12,6 +12,7 @@
 #bno_get_really_local_bbc
 #bno_travel_to_local_bbc
 #bno_apply_bno_local_bbc_unsatisfied
+#bno_set_cure_disease_price
 
 bno_sex_increase_dynasty_prestige = {
     if = {
@@ -327,6 +328,16 @@ bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = {
     scope:random_target_title ?= {
         county = {
             bno_apply_bno_local_bbc_unsatisfied = yes
+        }
+    }
+}
+
+bno_set_cure_disease_price = {
+    set_variable = {
+        name = bno_cure_disease_price
+        value = {
+            value = minor_gold_value
+            multiply = $BASE_CURE_PRICE$
         }
     }
 }

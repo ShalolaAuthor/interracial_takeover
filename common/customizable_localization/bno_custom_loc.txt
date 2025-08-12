@@ -120,3 +120,72 @@
 		trigger = { is_male = yes }
 	}
 }
+
+BNODiseaseType = {
+    type = character
+
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_lovers_pox }
+        localization_key = bno_disease_type.lovers_pox
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_ill }
+        localization_key = bno_disease_type.ill
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_pneumonic }
+        localization_key = bno_disease_type.pneumonic
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_great_pox }
+        localization_key = bno_disease_type.great_pox
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_early_great_pox }
+        localization_key = bno_disease_type.early_great_pox
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_leper }
+        localization_key = bno_disease_type.leper
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_gout_ridden }
+        localization_key = bno_disease_type.gout_ridden
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_consumption }
+        localization_key = bno_disease_type.consumption
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_cancer }
+        localization_key = bno_disease_type.cancer
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_typhus }
+        localization_key = bno_disease_type.typhus
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_bubonic_plague }
+        localization_key = bno_disease_type.bubonic_plague
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_measles }
+        localization_key = bno_disease_type.measles
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_dysentery }
+        localization_key = bno_disease_type.dysentery
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_ergotism }
+        localization_key = bno_disease_type.ergotism
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_sickly }
+        localization_key = bno_disease_type.sickly
+    }
+    text = {
+        trigger = { var:bno_disease_type = flag:disease_type_smallpox }
+        localization_key = bno_disease_type.smallpox
+    }
+}

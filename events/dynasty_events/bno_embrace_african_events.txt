@@ -1339,7 +1339,7 @@ bno_embrace_african_5.0001 = {
     }
 
     left_portrait = {
-        character = scope:bbc
+        character = scope:priest
         animation = personality_content
         outfit_tags = {
             no_clothes
@@ -1374,23 +1374,25 @@ bno_embrace_african_5.0001 = {
         }
     }
 
-    option = {
-        name = {
-            text = {
-                first_valid = {
-                    triggered_desc = {
-                        trigger = { scope:cure_lovers_pox = yes }
-                        desc = "lovers pox test"
-                    }
-                }
-            }
+    option = { # will show the cost of ritual and use show_as_unavailable if you dont have enough money
+        name = bno_embrace_african_5.0001.a
+
+        trigger = {
+            gold > bno_cure_disease_cost
         }
 
-        if = {
-            limit = {
-                scope:cure_lovers_pox = yes
-            }
+        pay_short_term_gold = {
+            gold = bno_cure_disease_cost
+            target = scope:priest
         }
 
+        show_as_unavailable = {
+            gold < bno_cure_disease_cost
+        }
+
+    }
+
+    option = {# you reject because the cost is too high
+        name = bno_embrace_african_5.0001.b
     }
 }

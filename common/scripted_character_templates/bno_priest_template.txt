@@ -1,4 +1,6 @@
-﻿bno_female_priest_character_template = {
+﻿#faith and culture needs to be changed later based on your culture/faith if they re based on bbcs or bnoc
+
+bno_female_priest_character_template = {
 	age = bno_younger_adult
 	random_traits_list = {
 		count = 1
@@ -22,8 +24,8 @@
     }
 	random_traits = yes
 	
-	faith = root.faith
-	culture = root.culture
+	faith = faith:bbcs
+	culture = culture:bnoc
 	gender = female
 
 	learning = {
@@ -61,9 +63,9 @@ bno_male_priest_character_template = {
     }
 	random_traits = yes
 	
-	faith = root.faith
-	culture = root.culture
-	gender = female
+	faith = faith:bbcs
+	culture = culture:bnoc
+	gender = male
 
 	learning = {
 		min_template_high_skill
