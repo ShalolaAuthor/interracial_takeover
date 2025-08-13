@@ -72,3 +72,150 @@ bbc_worshipper.0002 = {
         }
     }
 }
+
+namespace = bbc_priestess
+
+bbc_priestess.0001 = {
+    hidden = yes
+
+    trigger = {
+        NOT = { has_character_flag = bbc_priestess.1001 }
+        is_alive = yes
+    }
+
+    immediate = {
+        trigger_event = {
+            id = bbc_priestess.1001
+            days = 2
+            delayed = yes
+        }
+        add_character_flag = bbc_priestess.1001
+    }
+}
+
+bbc_priestess.1001 = {
+    hidden = yes
+
+    trigger = {
+        has_character_flag = bbc_priestess.1001
+        is_alive = yes
+    }
+
+    immediate = {
+        trigger_event = {
+            id = bbc_priestess.1001
+            months = { 6 12 }
+            delayed = yes
+        }
+        
+        random_list = {
+            80 = { # own realm
+                random_list = {
+                    80 = { bbc_priestess_convert_vassal = yes }
+                    20 = { bbc_priestess_convert_county = yes }
+                }
+            }
+            20 = { # outside realm
+                random_list = {
+                    80 = { bbc_priestess_convert_neighboring_ruler = yes }
+                    20 = { bbc_priestess_convert_neighboring_county = yes }
+                }
+            }
+        }
+    }
+}
+
+bbc_priestess.2001 = {
+    hidden = yes
+
+    trigger = {
+        has_character_flag = bbc_priestess.1001
+        is_alive = yes
+    }
+
+    immediate = {
+        remove_character_flag = bbc_priestess.1001
+    }
+}
+# Found bbc holy order decision
+bbc_priestess.0002 = {
+    type = character_event
+    title = bbc_priestess.0002.title
+    desc = bbc_priestess.0002.desc
+    theme = realm
+
+    override_background = {
+        reference = throne_room
+    } 
+
+    left_portrait = {
+        character = root
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = scope:priestess
+        animation = bno_sex_love_stand_2
+        outfit_tags = {
+            no_clothes
+            no_headgear
+        }
+    }
+
+    trigger = {
+        exists = capital_province
+    }
+
+    immediate = {
+        #mandatory vanilla shit
+        if = {
+            limit = { exists = scope:barony }
+            hidden_effect = {
+                if = {
+                    limit = { NOT = { scope:barony.holder = root } }
+                    create_title_and_vassal_change = {
+                        type = leased_out
+                        save_scope_as = change
+                        add_claim_on_loss = no
+                    }
+                    scope:barony = {
+                        change_title_holder_include_vassals = {
+                            holder = root
+                            change = scope:change
+                        }
+                    }
+                    resolve_title_and_vassal_change = scope:change
+                }
+            }
+        }
+
+        create_character = {
+            template = bno_female_priest_character_template
+            location = scope:barony.title_province
+            save_scope_as = priestess
+        }
+
+        create_holy_order_neutral_effect = {
+            LEADER = scope:priestess
+            CAPITAL = scope:barony
+            NEW_HO_SCOPE = new_holy_order
+            FOUNDER = root
+        }
+
+        create_holy_order_effect = yes
+
+        appoint_court_position = {
+            recipient = scope:priestess
+            court_position = bno_bbc_priestess_court_position
+        }
+
+        scope:barony.title_province = {
+            add_special_building_slot = bbc_church_01
+            add_special_building = bbc_church_01
+        }
+    }
+
+    option = {
+        name = bbc_priestess.0002.a
+    }
+}

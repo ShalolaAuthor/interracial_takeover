@@ -1,0 +1,35 @@
+﻿bbc_church_01 = {
+    type = special
+
+    construction_time = slow_construction_time
+
+    cost_gold = expensive_building_tier_2_cost
+    
+    cost_piety = {
+        value = expensive_building_tier_2_cost
+        multiply = 2
+    }
+
+    can_construct_potential = {
+        bno_building_requirement_church = yes
+    }
+
+    show_disabled = yes
+
+    #Place Holder
+    type_icon = "icon_building_university.dds"
+
+    province_modifier = {
+		tax_mult = 0.25
+		development_growth_factor = 0.25
+		monthly_county_control_growth_factor = 0.25
+		levy_reinforcement_rate = 0.25
+		garrison_size = 0.25
+		additional_fort_level = 5
+		holding_build_speed = 0.25
+		county_opinion_add = 15
+	}
+    ai_value = {
+        base = 100
+    }
+}

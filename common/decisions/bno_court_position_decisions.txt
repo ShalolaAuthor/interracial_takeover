@@ -81,3 +81,75 @@
         bno_decision_modifier = yes
     }
 }
+
+bno_found_bbc_church_holy_order = {
+    #Place Holder
+    picture = { 
+        reference = "gfx/interface/illustrations/decisions/decision_major_religion.dds"
+    }
+    desc = bno_found_bbc_church_holy_order.desc
+    selection_tooltip = bno_found_bbc_church_holy_order.tooltip
+
+    ai_check_interval = 72
+
+    is_shown = {
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_5
+        }
+        any_held_county = {
+            this = root.capital_county
+            any_in_de_jure_hierarchy = {
+                barony_is_valid_for_holy_order_lease_trigger = {
+                    CHARACTER = root
+                }
+            }
+        }
+    }
+
+    is_valid = {
+        custom_description = {
+            text = is_king_or_emperor
+            highest_held_title_tier >= tier_kingdom
+        }
+        piety_level >= 3
+    }
+
+    is_valid_showing_failures_only = {
+        is_available_adult = yes
+        is_at_war = no
+    }
+
+    widget = {
+        controller = create_holy_order
+        barony_valid = {
+            trigger_if = {
+                limit = { exists = this }
+                AND = {
+                    barony_is_valid_for_holy_order_lease_trigger = { CHARACTER = root }
+                    county = { this = scope:ruler.capital_county }
+                }
+            }
+            trigger_else = {
+                custom_description = { 
+                    text = has_holy_order_barony_selected 
+                    always = no 
+                }
+            }
+        }
+    }
+
+    cost = {
+        #can change later if too cheap
+        gold = { value = holy_order_gold_cost  }
+        piety = { value = holy_order_piety_cost }
+    }
+
+    effect = {
+        custom_tooltip = bno_found_bbc_church_holy_order.effect_tooltip
+        
+        trigger_event = {
+            id = bbc_priestess.0002
+            months = { 6 12 }
+        }
+    }
+}

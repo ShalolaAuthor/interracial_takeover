@@ -12,7 +12,7 @@
 #bno_get_really_local_bbc
 #bno_travel_to_local_bbc
 #bno_apply_bno_local_bbc_unsatisfied
-#bno_set_cure_disease_price
+#bno_cure_disease
 
 bno_sex_increase_dynasty_prestige = {
     if = {
@@ -332,12 +332,29 @@ bno_apply_bno_local_bbc_unsatisfied_to_random_target_title = {
     }
 }
 
-bno_set_cure_disease_price = {
-    set_variable = {
-        name = bno_cure_disease_price
-        value = {
-            value = minor_gold_value
-            multiply = $BASE_CURE_PRICE$
-        }
+bno_cure_disease = {
+    switch = {
+        trigger = var:bno_disease_type
+        flag:disease_type_lovers_pox = { bno_cure_disease_type = { SICKNESS = lovers_pox } }
+        flag:disease_type_ill = { bno_cure_disease_type = { SICKNESS = ill } }
+        flag:disease_type_pneumonic = { bno_cure_disease_type = { SICKNESS = pneumonic } }
+        flag:disease_type_early_great_pox = { bno_cure_disease_type = { SICKNESS = early_great_pox } }
+        flag:disease_type_leper = { bno_cure_disease_type = { SICKNESS = leper } }
+        flag:disease_type_gout_ridden = { bno_cure_disease_type = { SICKNESS = gout_ridden } }
+        flag:disease_type_consumption = { bno_cure_disease_type = { SICKNESS = consumption } }
+        flag:disease_type_cancer = { bno_cure_disease_type = { SICKNESS = cancer } }
+        flag:disease_type_typhus = { bno_cure_disease_type = { SICKNESS = typhus } }
+        flag:disease_type_bubonic_plague = { bno_cure_disease_type = { SICKNESS = bubonic_plague } }
+        flag:disease_type_smallpox = { bno_cure_disease_type = { SICKNESS = smallpox } }
+        flag:disease_type_measles = { bno_cure_disease_type = { SICKNESS = measles } }
+        flag:disease_type_dysentery = { bno_cure_disease_type = { SICKNESS = dysentery } }
+        flag:disease_type_ergotism = { bno_cure_disease_type = { SICKNESS = ergotism } }
+        flag:disease_type_sickly = { bno_cure_disease_type = { SICKNESS = sickly } }
+        flag:disease_type_great_pox = { bno_cure_disease_type = { SICKNESS = great_pox } }
     }
+}
+
+bno_cure_disease_type = {
+    remove_trait = $SICKNESS$
+    add_trait = bno_$SICKNESS$_immunity
 }

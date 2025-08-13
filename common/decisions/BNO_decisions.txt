@@ -474,13 +474,13 @@ bno_cure_diseases = {
 		bno_has_embrace_african_5 = yes
 	}
 
-	is_valid_showing_failures_only = {
-		bno_has_embrace_african_5 = yes
+	is_valid = {
 		#sickness
 		custom_tooltip = {
 			text = bno_cure_diseases.own.sickness
 			bno_illness_list = yes
 		}
+		has_court_position = bno_bbc_priestess_court_position
 	}
 
 	widget = {
@@ -948,11 +948,24 @@ bno_cure_diseases = {
 		base = 0
 		add = {
 			value = 0
-			if = {
-				limit = {
-					has_trait = lovers_pox
-				}
-				value = 100
+			switch = {
+				trigger = has_trait
+				lovers_pox = { add = bno_lovers_pox_ai_cure_chance }
+				ill = { add = bno_ill_ai_cure_chance }
+				pneumonic = { add = bno_pneumonic_ai_cure_chance }
+				great_pox = { add = bno_great_pox_ai_cure_chance }
+				early_great_pox = { add = bno_early_great_pox_ai_cure_chance }
+				leper = { add = bno_leper_ai_cure_chance }
+				gout_ridden = { add = bno_gout_ridden_ai_cure_chance }
+				consumption = { add = bno_consumption_ai_cure_chance }
+				cancer = { add = bno_cancer_ai_cure_chance }
+				typhus = { add = bno_typhus_ai_cure_chance }
+				bubonic_plague = { add = bno_bubonic_plague_ai_cure_chance }
+				smallpox = { add = bno_smallpox_ai_cure_chance }
+				measles = { add = bno_measles_ai_cure_chance }
+				dysentery = { add = bno_dysentery_ai_cure_chance }
+				ergotism = { add = bno_ergotism_ai_cure_chance }
+				sickly = { add = bno_sickly_ai_cure_chance }
 			}
 		}
 	}

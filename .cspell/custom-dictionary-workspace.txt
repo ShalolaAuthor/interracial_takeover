@@ -13,6 +13,7 @@ blackbull
 Blacksun
 bnobbc
 bnoc
+bnonr
 bnwo
 Bondi
 breedable

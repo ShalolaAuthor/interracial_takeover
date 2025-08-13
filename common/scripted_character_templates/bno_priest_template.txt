@@ -4,12 +4,23 @@ bno_female_priest_character_template = {
 	age = bno_younger_adult
 	random_traits_list = {
 		count = 1
-		education_learning_2 = {}
-		education_learning_3 = {}
-		education_learning_4 = {}
+		education_learning_2 = { weight = { base = 5 } }
+		education_martial_2 = { weight = { base = 5 } }
+		education_learning_3 = { weight = { base = 10 } }
+		education_martial_3 = { weight = { base = 10 } }
+		education_learning_4 = { weight = { base = 20 } }
+		education_martial_4 = { weight = { base = 20 } }
+		education_learning_5 = { weight = { base = 10 } }
+		education_martial_5 = { weight = { base = 10 } }
 	}
 
-    trait = bno_mindless_bbc_slut
+    random_traits_list = {
+		count = 1
+		bno_snowbunny = {}
+		bno_qos = {}
+		bno_mindless_bbc_slut = {}
+	}
+	trait = bno_lifestyle_bbc_priestess
     random_traits_list = {
         count = 1
         tits_big_good_1 = {}
@@ -22,19 +33,118 @@ bno_female_priest_character_template = {
         beauty_good_2 = {}
         beauty_good_3 = {}
     }
-	random_traits = yes
-	
+
+	#Personality
+	random_traits_list = {
+		count = 3
+		ambitious = {}
+		arrogant = {}
+		just = {}
+		zealous = {}
+		brave = {}
+		diligent = {}
+		wrathful = {}
+		humble = {}
+		callous = {}
+		stubborn = {}
+		vengeful = {}
+	}
+	#Commander
+	random_traits_list = {
+		count = 1
+		unyielding_defender = {
+			weight = { base = 5 }
+		}
+		forder = {
+			weight = { base = 5 }
+		}
+		logistician = {
+			weight = { base = 10 }
+		}
+		military_engineer = {
+			weight = { base = 10 }
+		}
+		organizer = {
+			weight = { base = 10 }
+		}
+		rough_terrain_expert = {
+			weight = { base = 20 }
+		}
+		aggressive_attacker = {
+			weight = { base = 20 }
+		}
+		reckless = {
+			weight = { base = 20 }
+		}
+		open_terrain_expert = {
+			weight = { base = 20 }
+		}
+		desert_warrior = {
+			trigger = {
+				root = {
+					any_sub_realm_barony = {
+						title_province = {
+							terrain = desert
+						}
+					}
+				}
+			}
+			weight = { base = 50 }
+		}
+		jungle_stalker = {
+			trigger = {
+				root = {
+					any_sub_realm_barony = {
+						title_province = {
+							terrain = jungle
+						}
+					}
+				}
+			}
+			weight = { base = 50 }
+		}
+		holy_warrior = {
+			weight = { base = 50 }
+		}
+	}	
 	faith = faith:bbcs
 	culture = culture:bnoc
 	gender = female
 
+	martial = {
+		min_template_high_skill
+		max_template_high_skill
+	}
 	learning = {
 		min_template_high_skill
 		max_template_high_skill
 	}
 
 	after_creation = {
-		add_character_flag = need_priest_outfit
+		random_list = {
+			40 = {
+				add_trait_xp = {
+					trait = bno_lifestyle_bbc_priestess
+					value = { 0 40 }
+				}
+			}
+			40 = {
+				add_trait_xp = {
+					trait = bno_lifestyle_bbc_priestess
+					value = { 41 80 }
+				}
+			}
+			20 = {
+				add_trait_xp = {
+					trait = bno_lifestyle_bbc_priestess
+					value = 100
+				}
+			}
+		}
+		random_list = {
+			80 = {}
+			20 = { add_trait = bno_pure_white }
+		}
         remove_bad_traits = yes
 	}
 }

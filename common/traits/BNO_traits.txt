@@ -1139,3 +1139,95 @@ bno_great_pox_immunity = {
 
 	ai_energy = 7.5
 }
+
+bno_lifestyle_bbc_priestess = {
+	category = lifestyle
+
+	# Modifiers
+	learning = 1
+	negate_health_penalty_add = 0.25
+	
+	track = {
+		50 = {
+			learning = 1
+			negate_health_penalty_add = 0.25
+		}
+		100 = {
+			learning = 2
+			negate_health_penalty_add = 0.5
+		}
+	}
+	
+	shown_in_ruler_designer = no
+	
+	# AI Values
+	ai_rationality = 10
+
+	# Loc
+	name = {
+		first_valid = {
+			# Renowned BBC Priestess
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_lifestyle_bbc_priestess
+						value >= 100
+					}
+				}
+				desc = bno_lifestyle_bbc_priestess_3
+			}
+			# BBC Priestess
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_lifestyle_bbc_priestess
+						value >= 50
+					}
+				}
+				desc = bno_lifestyle_bbc_priestess_2
+			}
+			#Novice BBC Priestess
+			desc = bno_lifestyle_bbc_priestess_1
+		}
+	}
+
+	# Loc
+	desc = {
+		first_valid = {
+			#The trait can never go higher than the first level if it's not assigned to a character
+			triggered_desc = {
+				trigger = { 
+					NOT = { exists = this } 
+				}
+				desc = bno_lifestyle_bbc_priestess_1_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = bno_lifestyle_bbc_priestess
+						value >= 100
+					}
+				}
+				desc = bno_lifestyle_bbc_priestess_3_character_desc
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = bno_lifestyle_bbc_priestess
+						value >= 50
+					}
+				}
+				desc = bno_lifestyle_bbc_priestess_2_character_desc
+			}
+			desc = bno_lifestyle_bbc_priestess_1_character_desc
+		}
+	}
+
+	compatibility = {
+		bno_bbc = 20
+		bno_whitegirl = 20
+		bno_blood = 20
+	}
+}

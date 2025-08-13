@@ -19,7 +19,7 @@ bbc_camp_01 = {
 		knight_effectiveness_mult = 0.1
 		men_at_arms_limit = 1
 	}
-	
+	#Place Holder
 	type_icon = "icon_building_warcamps.dds"
 	
 	type = special

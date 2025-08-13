@@ -1339,7 +1339,7 @@ bno_embrace_african_5.0001 = {
     }
 
     left_portrait = {
-        character = scope:priest
+        character = scope:priestess
         animation = bno_sex_love_stand_2
         outfit_tags = {
             no_clothes
@@ -1351,26 +1351,15 @@ bno_embrace_african_5.0001 = {
         animation = sick
     }
 
+    trigger = {
+        bno_has_embrace_african_5 = yes
+        has_court_position = bno_bbc_priestess_court_position
+    }
+
     immediate = {
-        if = {
-            limit = {
-                is_a_male = yes
-            }
-            create_character = {
-                template = bno_female_priest_character_template
-                location = capital_province
-                save_scope_as = priest
-            }
-        }
-        else_if = {
-            limit = {
-                is_a_girl = yes
-            }
-            create_character = {
-                template = bno_male_priest_character_template
-                location = capital_province
-                save_scope_as = priest
-            }
+        random_court_position_holder = {
+            type = bno_bbc_priestess_court_position
+            save_scope_as = priestess
         }
     }
 
@@ -1398,10 +1387,9 @@ bno_embrace_african_5.0001 = {
 
         pay_short_term_gold = {
             gold = bno_cure_disease_cost
-            target = scope:priest
+            target = scope:priestess
         }
-        # TODO: add a new court position called church of BBC priest 1 female 1 male replace scope:priest with this court position
-        # TODO: add an effect that remove the sick trait and gain the immunity trait
+        bno_cure_disease = yes
 
     }
 

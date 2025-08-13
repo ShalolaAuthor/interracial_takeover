@@ -4,6 +4,10 @@
 #bbc_worshipper_pay_gold
 #bbc_worshipper_pay_piety
 #bbc_worshipper_pay_prestige
+#bbc_priestess_convert_vassal
+#bbc_priestess_convert_county
+#bbc_priestess_convert_neighboring_ruler
+#bbc_priestess_convert_neighboring_county
 
 set_bbc_worshipper_effect = {
     $BBC_WORSHIPPER$ = {
@@ -182,5 +186,161 @@ bbc_worshipper_give_all_spoil_to_liege = {
     add_prestige = {
         value = root.prestige
         multiply = -1
+    }
+}
+
+bbc_priestess_convert_vassal = {
+    if = {
+        limit = {
+            scope:liege = {
+                any_vassal_or_below = {
+                    highest_held_title_tier >= tier_county
+                    NOT = { faith.religion = religion:bnonr_religion }
+                }
+            }
+        }
+        random_vassal_or_below = {
+            limit = {
+                NOT = { faith.religion = religion:bnonr_religion }
+            }
+            save_scope_as = target_vassal
+        }
+        scope:target_vassal = {
+            random_list = {
+                20 = {
+                    set_character_faith_with_conversion = scope:liege.faith
+                    scope:liege = {
+                        send_interface_message = {
+                            type = bno_blacked_events
+                            title = bbc_priestess.1001.vassal_converted.title
+                            right_icon = scope:employee
+                            left_icon = scope:target_vassal
+                            desc = bbc_priestess.1001.vassal_converted.desc
+                        }
+                    }
+                }
+                80 = {}
+            }
+        }
+    }
+}
+
+bbc_priestess_convert_county = {
+    if = {
+        limit = {
+            scope:liege = {
+                any_sub_realm_county = {
+                    NOT = { faith.religion = religion:bnonr_religion }
+                }
+            }
+        }
+        #scope here is landed title
+        scope:liege = {
+            random_sub_realm_county = {
+                limit = {
+                    NOT = { faith.religion = religion:bnonr_religion }
+                }
+                save_scope_as = target_landed_title
+            }
+        }
+        scope:target_landed_title = {
+            county = {
+                random_list = {
+                    20 = {
+                        set_county_faith = scope:liege.faith
+                        scope:liege = {
+                            send_interface_message = {
+                                type = bno_blacked_events
+                                title = bbc_priestess.1001.county_converted.title
+                                right_icon = scope:employee
+                                left_icon = scope:target_landed_title
+                                desc = bbc_priestess.1001.county_converted.desc
+                            }
+                        }
+                    }
+                    80 = {}
+                }
+            }
+        }
+    }
+}
+
+bbc_priestess_convert_neighboring_ruler = {
+    if = {
+        limit = {
+            scope:liege = {
+                any_character_to_title_neighboring_county = {
+                    NOT = { faith.religion = religion:bnonr_religion }
+                    holder = { NOT = { faith.religion = religion:bnonr_religion } }
+                }
+            }
+        }
+        scope:liege = {
+            random_character_to_title_neighboring_county = {
+                limit = {
+                    NOT = { faith.religion = religion:bnonr_religion }
+                    holder = { NOT = { faith.religion = religion:bnonr_religion } }
+                }
+                save_scope_as = target_neighboring_landed_title
+            }
+        }
+        scope:target_neighboring_landed_title = {
+            holder = {
+                random_list = {
+                    20 = {
+                        set_character_faith_with_conversion = scope:liege.faith
+                        scope:liege = {
+                            send_interface_message = {
+                                type = bno_blacked_events
+                                title = bbc_priestess.1001.neighboring_lord_converted.title
+                                right_icon = scope:employee
+                                left_icon = scope:target_neighboring_landed_title.holder
+                                desc = bbc_priestess.1001.neighboring_lord_converted.desc
+                            }
+                        }
+                    }
+                    80 = {}
+                }
+            }
+        }
+    }
+}
+
+bbc_priestess_convert_neighboring_county = {
+    if = {
+        limit = {
+            scope:liege = {
+                any_character_to_title_neighboring_county = {
+                    NOT = { faith.religion = religion:bnonr_religion }
+                }
+            }
+        }
+        scope:liege = {
+            random_character_to_title_neighboring_county = {
+                limit = {
+                    NOT = { faith.religion = religion:bnonr_religion }
+                }
+                save_scope_as = target_neighboring_landed_title
+            }
+        }
+        scope:target_neighboring_landed_title = {
+            county = {
+                random_list = {
+                    20 = {
+                        set_county_faith = scope:liege.faith
+                        scope:liege = {
+                            send_interface_message = {
+                                type = bno_blacked_events
+                                title = bbc_priestess.1001.neighboring_county_converted.title
+                                right_icon = scope:employee
+                                left_icon = scope:target_neighboring_landed_title
+                                desc = bbc_priestess.1001.neighboring_county_converted.desc
+                            }
+                        }
+                    }
+                    80 = {}
+                }
+            }
+        }
     }
 }
