@@ -315,8 +315,10 @@ bno_embrace_african_1.0004 = {#female courtier got targeted by migrants
 
     option = {# accept the proposal let the girl be fucked by him, get more county control, get gold for appeasement
         name = bno_embrace_african_1.0004.a
-        scope:whore = {
-            bno_fuck_a_bbc_5_times = yes
+        hidden_effect = {
+            scope:whore = {
+                bno_fuck_a_bbc_5_times = yes
+            }
         }
         bno_increase_county_control = yes
         scope:bbc = {

@@ -42,5 +42,15 @@
 -add revealing clothing tags?
 -fix perk 2 selection screen
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
+IMPORTANT TODO:
+-add holy_order character template. culture be random european culture then at the after creation change it to african
+-change events that makes holy order etc etc to the follow up.
+-make a new event to say that you decide to build the special building bbc church
+-say im gonna build it as god intended. 
+-the event then give you the bbc church foundation. bbc_church_01
+-to progress to the event you need to have bbc_church_02 then make a holy order
+-then after some time -> you will get an event saying the order has send you a bbc priest/priestess suited for your female or male depending on player gender
+-maybe as an introduction make an event that cure disease for free. one time only
+
 DONE:
 -add neighbouring ruler as target for bbc whores

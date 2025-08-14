@@ -89,6 +89,7 @@ bno_found_bbc_church_holy_order = {
     }
     desc = bno_found_bbc_church_holy_order.desc
     selection_tooltip = bno_found_bbc_church_holy_order.tooltip
+    decision_group_type = bno_decision_group
 
     ai_check_interval = 72
 
@@ -96,29 +97,49 @@ bno_found_bbc_church_holy_order = {
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_5
         }
-        any_held_county = {
-            this = root.capital_county
-            any_in_de_jure_hierarchy = {
-                barony_is_valid_for_holy_order_lease_trigger = {
-                    CHARACTER = root
-                }
+        NOT = {
+            any_realm_province = {
+                has_building_or_higher = bbc_church_01
             }
         }
     }
 
     is_valid = {
+        is_independent_ruler = yes
+        primary_title = {
+            title_capital_county = {
+                any_county_province = {
+                    is_county_capital = yes
+                    county = {
+                        any_in_de_jure_hierarchy = {
+                            barony_is_valid_for_holy_order_lease_trigger = {
+                                CHARACTER = root
+                            }
+                        }
+                    }
+                }
+            }
+        }
         custom_description = {
             text = is_king_or_emperor
             highest_held_title_tier >= tier_kingdom
         }
         piety_level >= 3
+        faith.religion = religion:bnonr_religion
+        NOT = {
+            any_realm_province = {
+                has_building_or_higher = bbc_church_01
+            }
+        }
     }
 
     is_valid_showing_failures_only = {
         is_available_adult = yes
         is_at_war = no
     }
-
+    cooldown = {
+		months = 12
+	}
     widget = {
         controller = create_holy_order
         barony_valid = {

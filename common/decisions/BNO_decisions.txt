@@ -480,14 +480,19 @@ bno_cure_diseases = {
 			text = bno_cure_diseases.own.sickness
 			bno_illness_list = yes
 		}
-		has_court_position = bno_bbc_priestess_court_position
+		custom_tooltip = {
+			text = bno_cure_disease.employing_bbc_priestess
+			any_court_position_holder = {
+				type = bno_bbc_priestess_court_position
+			}
+		}
 	}
 
 	widget = {
 		gui = "decision_view_widget_option_list_generic"
 		controller = decision_option_list_controller
 		decision_to_second_step_button = bno_cure_diseases.second_step_button
-		show_from_start = yes
+		show_from_start = no
 
 		item = { # Lover's Pox
 			value = cure_lovers_pox

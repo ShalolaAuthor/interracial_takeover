@@ -204,11 +204,6 @@ bbc_priestess.0002 = {
 
         create_holy_order_effect = yes
 
-        appoint_court_position = {
-            recipient = scope:priestess
-            court_position = bno_bbc_priestess_court_position
-        }
-
         scope:barony.title_province = {
             add_special_building_slot = bbc_church_01
             add_special_building = bbc_church_01

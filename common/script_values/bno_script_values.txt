@@ -55,11 +55,11 @@ skin_color_y = {
 }
 
 bno_younger_adult = {
-  value = { 16 20 }
+  value = { 18 23 }
 }
 
 bno_young_adult = {
-  value = { 21 39 }
+  value = { 23 39 }
 }
 
 bno_bbc_trait_occurrence_dicksize_modifier = { # Represents % chance of BBC occuring based on dicksize

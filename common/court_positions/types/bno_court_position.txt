@@ -1,5 +1,5 @@
 ﻿bno_bbc_worshipper_court_position = {
-    sort_order = 400
+    sort_order = 500
     max_available_positions = 3
     minimum_rank = county
     skill = learning
@@ -180,7 +180,7 @@
 }
 
 bno_bbc_priestess_court_position = {
-    sort_order = 400
+    sort_order = 499
     max_available_positions = 1
     minimum_rank = county
     skill = learning
@@ -216,7 +216,7 @@ bno_bbc_priestess_court_position = {
 
     valid_character = {
         scope:employee = {
-            always = no
+            has_trait = bno_lifestyle_bbc_priestess
         }
     }
 
@@ -236,190 +236,70 @@ bno_bbc_priestess_court_position = {
     is_powerful_agent = no
 
     base_employer_modifier = {
-        monthly_piety = 1
-        clergy_opinion = 5
-        religious_vassal_opinion = 5
-        realm_priest_opinion = 5
-        domain_tax_same_faith_mult = 0.5
         domain_tax_different_faith_mult = -0.25
-        different_faith_county_opinion_mult = -0.25
 	}
 
     scaling_employer_modifiers = {
         terrible = {
-          faith_conversion_piety_cost_mult = -0.01
-          monthly_county_control_growth_add = 0.02
-          build_piety_cost = -0.005
-          diplomatic_range_mult = 0.01
-          learning_per_piety_level = 0.125
-          monthly_piety_gain_per_court_position_mult = 0.1
+            domain_tax_same_faith_mult = 0.1
+            faith_creation_piety_cost_mult   = -0.1
+            diplomatic_range_mult = 0.05
         }
         poor = {
-          faith_conversion_piety_cost_mult = -0.03
-          monthly_county_control_growth_add = 0.05
-          build_piety_cost = -0.01
-          diplomatic_range_mult = 0.02
-          learning_per_piety_level = 0.25
-          monthly_piety_gain_per_court_position_mult = 0.2
+            domain_tax_same_faith_mult = 0.2
+            faith_creation_piety_cost_mult   = -0.2
+            diplomatic_range_mult = 0.10
         }
         average = {
-          faith_conversion_piety_cost_mult = -0.08
-          monthly_county_control_growth_add = 0.10
-          build_piety_cost = -0.02
-          diplomatic_range_mult = 0.05
-          learning_per_piety_level = 0.5
-          monthly_piety_gain_per_court_position_mult = 0.4
+            domain_tax_same_faith_mult = 0.3
+            faith_creation_piety_cost_mult   = -0.3
+            diplomatic_range_mult = 0.15
         }
         good = {
-          faith_conversion_piety_cost_mult = -0.16
-          monthly_county_control_growth_add = 0.20
-          build_piety_cost = -0.05
-          diplomatic_range_mult = 0.10
-          learning_per_piety_level = 1
-          monthly_piety_gain_per_court_position_mult = 0.8
+            domain_tax_same_faith_mult = 0.4
+            faith_creation_piety_cost_mult   = -0.4
+            diplomatic_range_mult = 0.20
         }
         excellent = {
-          faith_conversion_piety_cost_mult = -0.25
-          monthly_county_control_growth_add = 0.30
-          monthly_county_control_growth_add_even_if_baron = 0.12
-          build_piety_cost = -0.10
-          diplomatic_range_mult = 0.18
-          learning_per_piety_level = 2
-          monthly_piety_gain_per_court_position_mult = 1.5
+            domain_tax_same_faith_mult = 0.5
+            faith_creation_piety_cost_mult   = -0.5
+            diplomatic_range_mult = 0.25
         }
-    }
-
-    base_employer_court_modifier = {
-        monthly_court_grandeur_change_add = 0.5
-        courtier_and_guest_opinion = 6
-        religious_vassal_opinion = 4
-        realm_priest_opinion = 6
-
-        # gentle, court-wide piety help
-        monthly_piety_gain_per_court_position_add = 0.10
-        monthly_piety_gain_per_court_position_mult = 0.10
-
-        # make faith work cheaper to pursue
-        faith_conversion_piety_cost_mult = -0.05
-        faith_creation_piety_cost_mult   = -0.05
     }
 
 
     scaling_employer_court_modifiers = {
-    	terrible = {
-    		monthly_court_grandeur_change_add = 0.25
-
-    		courtier_and_guest_opinion = 5
-    		guest_opinion = 0
-    		courtier_opinion = 0
-
-    		monthly_piety_gain_per_court_position_add = 0.125
-    		monthly_piety_gain_per_court_position_mult = 0.00
-
-    		monthly_prestige_gain_per_court_position_add = 0.00
-    		monthly_prestige_gain_per_court_position_mult = 0.00
-
-    		faith_conversion_piety_cost_mult = -0.125
-    		faith_creation_piety_cost_mult   = 0.00
+    	terrible = {            
+            faith_conversion_piety_cost_mult = -0.1
     	}
 
     	poor = {
-    		monthly_court_grandeur_change_add = 0.50
-
-    		courtier_and_guest_opinion = 10
-    		guest_opinion = 5
-    		courtier_opinion = 0
-
-    		monthly_piety_gain_per_court_position_add = 0.25
-    		monthly_piety_gain_per_court_position_mult = 0.125
-
-    		monthly_prestige_gain_per_court_position_add = 0.125
-    		monthly_prestige_gain_per_court_position_mult = 0.00
-
-    		faith_conversion_piety_cost_mult = -0.25
-    		faith_creation_piety_cost_mult   = -0.125
+            faith_conversion_piety_cost_mult = -0.2
     	}
 
     	average = {
-    		monthly_court_grandeur_change_add = 1.00
-
-    		courtier_and_guest_opinion = 15
-    		guest_opinion = 10
-    		courtier_opinion = 5
-
-    		monthly_piety_gain_per_court_position_add = 0.25
-    		monthly_piety_gain_per_court_position_mult = 0.25
-
-    		monthly_prestige_gain_per_court_position_add = 0.25
-    		monthly_prestige_gain_per_court_position_mult = 0.125
-
-    		faith_conversion_piety_cost_mult = -0.25
-    		faith_creation_piety_cost_mult   = -0.25
+            faith_conversion_piety_cost_mult = -0.3
     	}
 
     	good = {
-    		monthly_court_grandeur_change_add = 1.50
-
-    		courtier_and_guest_opinion = 20
-    		guest_opinion = 15
-    		courtier_opinion = 10
-
-    		monthly_piety_gain_per_court_position_add = 0.50
-    		monthly_piety_gain_per_court_position_mult = 0.25
-
-    		monthly_prestige_gain_per_court_position_add = 0.25
-    		monthly_prestige_gain_per_court_position_mult = 0.25
-
-    		faith_conversion_piety_cost_mult = -0.50
-    		faith_creation_piety_cost_mult   = -0.25
+            faith_conversion_piety_cost_mult = -0.4
     	}
 
     	excellent = {
-    		monthly_court_grandeur_change_add = 2.00
-
-    		courtier_and_guest_opinion = 25
-    		guest_opinion = 20
-    		courtier_opinion = 15
-
-    		monthly_piety_gain_per_court_position_add = 0.50
-    		monthly_piety_gain_per_court_position_mult = 0.50
-
-    		monthly_prestige_gain_per_court_position_add = 0.50
-    		monthly_prestige_gain_per_court_position_mult = 0.50
-
-    		faith_conversion_piety_cost_mult = -0.50
-    		faith_creation_piety_cost_mult   = -0.50
+            faith_conversion_piety_cost_mult = -0.5
     	}
     }
 
-
-    #needs to change this
     modifier = {
-    	learning = 2
-    	monthly_piety = 0.25
+    	monthly_piety = 1
     	same_faith_opinion = 10
     	religious_head_opinion = 5
-    	diplomatic_range_mult = 0.125
-    	learning_per_piety_level = 0.125
-    	stress_loss_per_prestige_level = 0.125
+    	learning_per_piety_level = 10
+    	stress_loss_per_piety_level = 0.1
     }
 
     custom_employer_modifier_description = bno_bbc_priestess_employer_custom_effect_description
-    
-    search_for_courtier = {
-		send_interface_toast = {
-			type = event_toast_effect_neutral
-			title = hire_bbc_priestess_decision
-			custom_tooltip = hire_bbc_priestess_decision_effect_tooltip
-		}
-        #needs to change this
-		trigger_event = {
-			id = bno_events.0007
-			days = 14
-		}
-	}
 
-    #needs to change this
     on_court_position_received = {
         scope:employee = {
             add_character_flag = {
