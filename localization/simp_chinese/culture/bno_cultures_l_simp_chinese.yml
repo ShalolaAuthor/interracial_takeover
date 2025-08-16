@@ -1,4 +1,11 @@
 ﻿l_simp_chinese:
- bnoc: "非洲"
- bnoc_prefix: "非洲人"
- bnoc_collective_noun: "非洲人们"
+ bnoc: "非裔"
+ bnoc_prefix: "非裔"
+ bnoc_collective_noun: "非裔"
+ bnoc_group: "非裔"
+ bnoc_group_collective_noun: "非裔"
+
+ language_bnoc_name: "泰姆奈语"
+
+ heritage_bnoc_name: "非裔"
+ heritage_bnoc_collective_noun: "非裔"
