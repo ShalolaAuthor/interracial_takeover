@@ -1428,7 +1428,7 @@ bno_embrace_african_5.0002 = {
         bno_has_embrace_african_5 = yes
         has_court_position = bno_bbc_priestess_court_position
         bno_illness_list = yes
-        has_character_flag = bno_embrace_african_5.0002
+        NOT = { has_character_flag = bno_embrace_african_5.0002 }
     }
 
     immediate = {
@@ -1437,7 +1437,28 @@ bno_embrace_african_5.0002 = {
             type = bno_bbc_priestess_court_position
             save_scope_as = priestess
         }
-        
+    }
+    option = {
+        name = bno_embrace_african_5.0002.a
+        switch = {
+            trigger = has_trait
+            lovers_pox = { bno_cure_disease_type = { SICKNESS = lovers_pox } }
+            ill = { bno_cure_disease_type = { SICKNESS = ill } }
+            pneumonic = { bno_cure_disease_type = { SICKNESS = pneumonic } }
+            early_great_pox = { bno_cure_disease_type = { SICKNESS = early_great_pox } }
+            leper = { bno_cure_disease_type = { SICKNESS = leper } }
+            gout_ridden = { bno_cure_disease_type = { SICKNESS = gout_ridden } }
+            consumption = { bno_cure_disease_type = { SICKNESS = consumption } }
+            cancer = { bno_cure_disease_type = { SICKNESS = cancer } }
+            typhus = { bno_cure_disease_type = { SICKNESS = typhus } }
+            bubonic_plague = { bno_cure_disease_type = { SICKNESS = bubonic_plague } }
+            smallpox = { bno_cure_disease_type = { SICKNESS = smallpox } }
+            measles = { bno_cure_disease_type = { SICKNESS = measles } }
+            dysentery = { bno_cure_disease_type = { SICKNESS = dysentery } }
+            ergotism = { bno_cure_disease_type = { SICKNESS = ergotism } }
+            sickly = { bno_cure_disease_type = { SICKNESS = sickly } }
+            great_pox = { bno_cure_disease_type = { SICKNESS = great_pox } }
+        }
     }
 
 }
