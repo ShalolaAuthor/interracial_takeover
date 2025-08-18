@@ -228,6 +228,7 @@ bno_embrace_african_1.0003 = {#your courtier is a known whore
         }
         any_courtier_or_guest = {
             is_a_girl = yes
+            is_elligible_partner = yes
             has_trait = bno_whitegirl
         }
         bno_is_county_not_fully_controlled = yes
@@ -240,6 +241,7 @@ bno_embrace_african_1.0003 = {#your courtier is a known whore
         random_courtier_or_guest = {
             limit = {
                 is_a_girl = yes
+                is_elligible_partner = yes
                 has_trait = bno_whitegirl
             }
             save_scope_as = whore
@@ -1342,20 +1344,35 @@ bno_embrace_african_5.0001 = {
 
     left_portrait = {
         character = scope:priestess
-        animation = bno_sex_love_stand_2
-        outfit_tags = {
-            no_clothes
+        triggered_animation = {
+            trigger = { scope:priestess = { is_a_male = yes } }
+            animation = personality_content
+        }
+        triggered_animation = {
+            trigger = { scope:priestess = { is_a_girl = yes } }
+            animation = bno_sex_love_stand_2
+        }
+        triggered_outfit = {
+            trigger = { scope:priestess = { is_a_girl = yes } }
+            outfit_tags = {
+                no_clothes
+            }
         }
     }
 
     right_portrait = {
         character = root
         animation = sick
+        outfit_tags = {
+            no_headgear
+        }
     }
 
     trigger = {
         bno_has_embrace_african_5 = yes
-        has_court_position = bno_bbc_priestess_court_position
+        any_court_position_holder = {
+            type = bno_bbc_priestess_court_position
+        }
     }
 
     immediate = {
@@ -1426,7 +1443,9 @@ bno_embrace_african_5.0002 = {
 
     trigger = {
         bno_has_embrace_african_5 = yes
-        has_court_position = bno_bbc_priestess_court_position
+        any_court_position_holder = {
+            type = bno_bbc_priestess_court_position
+        }
         bno_illness_list = yes
         NOT = { has_character_flag = bno_embrace_african_5.0002 }
     }
@@ -1483,9 +1502,12 @@ bno_embrace_african_5.0003 = {
         animation = disappointed
     }
 
+    cooldown = { months = { 12 18 } }
+
     trigger = {
         bno_has_embrace_african_5 = yes
-        NAND = {
+        faith.religion = religion:bnonr_religion
+        NOT = {
             any_realm_province = {
                 has_building = bbc_church_01
             }    
@@ -1534,6 +1556,8 @@ bno_embrace_african_5.0004 = {
         animation = disappointed
     }
 
+    cooldown = { months = { 12 18 } }
+
     trigger = {
         bno_has_embrace_african_5 = yes
         any_realm_province = {
@@ -1580,6 +1604,8 @@ bno_embrace_african_5.0005 = {
         animation = disappointed
     }
 
+    cooldown = { months = { 12 18 } }
+
     trigger = {
         bno_has_embrace_african_5 = yes
         any_realm_province = {
@@ -1588,7 +1614,7 @@ bno_embrace_african_5.0005 = {
         NOT = {
             faith = {
                 any_faith_holy_order = {
-                    has_variable = bbc_holy_order
+                    holy_order_patron = root
                 }
             }
         }
@@ -1715,10 +1741,6 @@ bno_embrace_african_5.0006 = {
         }
 
         create_holy_order_effect = yes
-
-        scope:new_holy_order = {
-            set_variable = bbc_holy_order
-        }
     }
 
     option = {
@@ -1739,7 +1761,7 @@ bno_embrace_african_5.0007 = {
         can_employ_court_position_type = bno_bbc_priestess_court_position
         faith = {
             any_faith_holy_order = {
-                has_variable = bbc_holy_order
+                holy_order_patron = root
             }
         }
     }
@@ -1748,7 +1770,7 @@ bno_embrace_african_5.0007 = {
         faith = {
             every_faith_holy_order = {
                 limit = {
-                    has_variable = bbc_holy_order
+                    holy_order_patron = root
                 }
                 leader = {
                     save_scope_as = order_leader

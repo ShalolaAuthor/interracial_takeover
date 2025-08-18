@@ -18,7 +18,6 @@
 -get boost for research, innovation etc etc in exchange for gold (just say it is blessing)(must have certain holy sites for certain effects?)
 -add stats after sex (modifier?) (random chance it happens)(send notification that you learn something)
 -modify cum for glory to not include prowess (remove prowess, add something else, put prowess into the random stat)
--add no prowess loss for age or something for glorified cum for glory
 -finish the diarchy for sluts
 -add new MAA for bnoc holy order
 -make sure holy order captain has african
@@ -44,12 +43,14 @@
 -add icon for african warrior and ebony elites
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
--the event then give you the bbc church foundation. bbc_church_01
--to progress to the event you need to have bbc_church_02 then make a holy order decision become available.
--then after some time -> you will get an event (letter event) saying the order has send you a bbc priest/priestess suited for your female or male depending on player gender
--maybe as an introduction make an event that cure disease for free. one time only
+
 
 DONE:
+-add no prowess loss for age or something for glorified cum for glory
+-maybe as an introduction make an event that cure disease for free. one time only
+-then after some time -> you will get an event (letter event) saying the order has send you a bbc priest/priestess suited for your female or male depending on player gender
+-to progress to the event you need to have bbc_church_02 then make a holy order decision become available.
+-the event then give you the bbc church foundation. bbc_church_01
 -say im gonna build it as god intended. (vision from god event)
 -make a new event to say that you decide to build the special building bbc church
 -change events that makes holy order etc etc to the follow up.

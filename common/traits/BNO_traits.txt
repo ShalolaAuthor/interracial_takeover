@@ -246,6 +246,7 @@ bno_bbc = {
 	#owned_personal_scheme_success_chance_add = 125
 	diplomatic_range_mult = 1.3
 	negate_health_penalty_add = 10
+	no_prowess_loss_from_age = yes
 
 	ruler_designer_cost = 100
 	
@@ -654,6 +655,7 @@ bno_mindless_bbc_slut = {
 	stress_gain_mult = -0.2
 	stress_loss_mult = 0.2
 	negate_health_penalty_add = 10
+	no_prowess_loss_from_age = yes
 
 	#Flags
 	flag = carn_no_consequences_for_extramarital_sex_with_others

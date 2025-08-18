@@ -216,10 +216,22 @@ bno_found_bbc_church_holy_order = {
         any_realm_province = {
             has_building_or_higher = bbc_church_02
         }
+        NOT = {
+            faith = {
+                any_faith_holy_order = {
+                    holy_order_patron = root
+                }
+            }
+        }
+        
     }
 
     is_valid = {
         is_independent_ruler = yes
+        custom_description = {
+            text = is_king_or_emperor
+            highest_held_title_tier >= tier_kingdom
+        }
         primary_title = {
             title_capital_county = {
                 any_county_province = {
@@ -233,10 +245,6 @@ bno_found_bbc_church_holy_order = {
                     }
                 }
             }
-        }
-        custom_description = {
-            text = is_king_or_emperor
-            highest_held_title_tier >= tier_kingdom
         }
         piety_level >= 3
         faith.religion = religion:bnonr_religion

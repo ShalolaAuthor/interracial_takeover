@@ -784,6 +784,7 @@ bno_cure_diseases = {
 		}
 	}
 
+	cooldown = { months = 1	}
 
 
 	effect = {

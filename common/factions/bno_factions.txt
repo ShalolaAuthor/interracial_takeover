@@ -251,10 +251,7 @@
                             this = scope:county_faction
                         }
                     }
-                    OR = {
-                        is_vassal_of = scope:faction.faction_target
-                        is_ai = no
-                    }
+                    is_vassal_of = scope:faction.faction_target
                 }
             }
             holder = {
@@ -272,10 +269,7 @@
 								this = scope:county_faction
 							}
 						}
-						OR = {
-							is_vassal_of = scope:faction.faction_target
-							is_ai = no
-						}
+						is_vassal_of = scope:faction.faction_target
                         NOT = { is_in_list = bnwo_faction_vassal_targets }
                     }
                     add_to_list = bnwo_faction_vassal_targets

@@ -330,12 +330,8 @@ bno_bbc_priestess_court_position = {
 
     on_court_position_received = {
         scope:employee = {
-            add_character_flag = {
-                flag = no_headgear
-            }
-            add_character_flag = {
-                flag = can_not_marry    
-            }
+            add_character_flag = no_headgear
+            add_character_flag = can_not_marry
             trigger_event = {
                 id = bbc_priestess.0001
                 days = 7

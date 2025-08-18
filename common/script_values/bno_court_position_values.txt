@@ -244,6 +244,12 @@ bno_bbc_priestess_aptitude = {
             }
         }
     }
+    if = {
+        limit = { has_trait = bno_bbc }
+        add = {
+            value = 50
+        }
+    }
     switch = {
         trigger = has_trait
         beauty_good_1 = {
@@ -280,6 +286,27 @@ bno_bbc_priestess_aptitude = {
             }
         }
         tits_big_good_3 = {
+            multiply = {
+                value = 1.3
+                desc = bno_court_position_trait_tits_big_good_3
+            }
+        }
+    }
+    switch = {
+        trigger = has_trait
+        dick_big_good_1 = {
+            multiply = {
+                value = 1.1
+                desc = bno_court_position_trait_tits_big_good_1
+            }
+        }
+        dick_big_good_2 = {
+            multiply = {
+                value = 1.2
+                desc = bno_court_position_trait_tits_big_good_2
+            }
+        }
+        dick_big_good_3 = {
             multiply = {
                 value = 1.3
                 desc = bno_court_position_trait_tits_big_good_3

@@ -637,6 +637,7 @@ does_unmarried_ai_pure_foreign_lady_exist = {
 }
 
 is_unmarried_ai_blackbull = {
+	NOT = { has_character_flag = can_not_marry }
 	is_ai_blackbull = yes
 	is_married = no
 	is_betrothed = no

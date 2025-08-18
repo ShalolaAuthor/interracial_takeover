@@ -594,6 +594,7 @@ get_just_or_zealous_bbc_scope = {
 
 get_something = {
 	clear_saved_scope = $SCOPE_NAME$
+	clear_variable_list = temp 
 	every_courtier_or_guest = { # Player's Court
         limit = {
             $TRIGGER_KEY$ = yes
@@ -609,7 +610,6 @@ get_something = {
 		variable = temp
 		save_scope_as = $SCOPE_NAME$
 	}
-	clear_variable_list = temp 
 }
 
 get_something_backup = {
@@ -719,12 +719,15 @@ get_something_backup = {
 }
 
 get_wandering_curious_whitegirl_scope = {
-	random_pool_character = {
-		province = location
-		limit = {
-			is_curious = yes
+	every_realm_province = {
+		save_scope_as = province_temp
+		random_pool_character = {
+			province = scope:province_temp
+			limit = {
+				is_curious = yes
+			}
+			save_scope_as = $SCOPE_NAME$
 		}
-		save_scope_as = $SCOPE_NAME$
 	}
 }
 
