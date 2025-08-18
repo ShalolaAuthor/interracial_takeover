@@ -7,3 +7,23 @@
 		fontsize = 16
 	}
 }
+
+texticon = {
+	icon = bno_african_warriors_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/bno_african_warriors.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
+	icon = bno_ebony_elites_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/bno_ebony_elites.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
