@@ -698,6 +698,7 @@ is_bno_qos_and_up = {
 }
 
 is_elligible_partner = {
+	is_at_war = no
 	is_travelling = no
 	is_slave = no
 	is_adult = yes

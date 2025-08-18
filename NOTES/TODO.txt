@@ -6,7 +6,6 @@
 -add icon for future queen for black
 -fix breed me tattoo on the belly, maybe add one for the chest instead
 -add nickname chooser decision for sluts
--add bno category to the decision
 -make some decision popped up in the center
 -add conqueror trait to mindless and bbc character
 -add event for conqueror + mindless/bbc
@@ -22,7 +21,7 @@
 -make sure guess that visit your court gets proper trait
 -body part massage events to make the larger (de-couple slut.0007 to only becoming darker and gaining bloodline trait)
 -return trip no for all events annoying that you have to travel back and forth
--add is at war to elligible partner check (no events should be played when war happens, way to annoying)
+
 -add delay inside bno event on actions for every on action it triggers (random days amount, so annoying everything come all at once)
 -add control as requirement for converting county culture and religion (african spreads way too fast)
 -add next tier to bno_cum_for_glory_glorified => mystified (MAA, demesne related bonus) for every 5 => 1
@@ -45,6 +44,8 @@ IMPORTANT TODO:
 
 
 DONE:
+-add is at war to elligible partner check (no events should be played when war happens, way to annoying)
+-add bno category to the decision
 -add flag birth_will_go_smoothly
 -make sure holy order captain has african
 -add no prowess loss for age or something for glorified cum for glory
