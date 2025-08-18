@@ -199,7 +199,7 @@ bno_bbc_priestess_court_position = {
             is_a_male = yes
         }
         animation = bno_sex_oral_love_2
-        background = "gfx/interface/illustrations/event_scenes/bedchamber.dds"
+        background = "gfx/interface/illustrations/event_scenes/church.dds"
     }
 
     

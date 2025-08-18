@@ -189,13 +189,8 @@ bno_found_bbc_church_holy_order = {
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_5
         }
-        NOT = {
-            any_realm_province = {
-                has_building_or_higher = bbc_church_01
-            }
-        }
         any_realm_province = {
-            has_building_or_higher = bbc_church_01
+            has_building_or_higher = bbc_church_02
         }
     }
 
@@ -221,7 +216,6 @@ bno_found_bbc_church_holy_order = {
         }
         piety_level >= 3
         faith.religion = religion:bnonr_religion
-        
     }
 
     is_valid_showing_failures_only = {
@@ -260,7 +254,7 @@ bno_found_bbc_church_holy_order = {
         custom_tooltip = bno_found_bbc_church_holy_order.effect_tooltip
         
         trigger_event = {
-            id = bbc_priestess.0004
+            id = bno_embrace_african_5.0006
         }
     }
 }
