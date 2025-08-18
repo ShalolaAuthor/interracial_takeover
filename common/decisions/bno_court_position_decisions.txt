@@ -91,7 +91,7 @@ bno_build_bbc_church = {
     selection_tooltip = bno_build_bbc_church.tooltip
     decision_group_type = bno_decision_group
 
-    ai_check_interval = 72
+    ai_goal = yes
 
     is_shown = {
         bno_has_embrace_african_5 = yes
@@ -172,6 +172,30 @@ bno_build_bbc_church = {
             }
         }
     }
+
+    ai_potential = {
+        highest_held_title_tier >= tier_kingdom
+        bno_has_embrace_african_5 = yes
+        is_playable_character = yes
+        primary_title = {
+            title_capital_county = {
+                any_county_province = {
+                    is_county_capital = yes
+                    county = {
+                        any_in_de_jure_hierarchy = {
+                            barony_is_valid_for_holy_order_lease_trigger = {
+                                CHARACTER = root
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    ai_will_do = {
+        base = 100
+    }
 }
 
 bno_found_bbc_church_holy_order = {
@@ -183,7 +207,7 @@ bno_found_bbc_church_holy_order = {
     selection_tooltip = bno_found_bbc_church_holy_order.tooltip
     decision_group_type = bno_decision_group
 
-    ai_check_interval = 72
+    ai_goal = yes
 
     is_shown = {
         dynasty ?= {
@@ -256,6 +280,30 @@ bno_found_bbc_church_holy_order = {
         trigger_event = {
             id = bno_embrace_african_5.0006
         }
+    }
+
+    ai_potential = {
+        highest_held_title_tier >= tier_kingdom
+        bno_has_embrace_african_5 = yes
+        is_playable_character = yes
+        primary_title = {
+            title_capital_county = {
+                any_county_province = {
+                    is_county_capital = yes
+                    county = {
+                        any_in_de_jure_hierarchy = {
+                            barony_is_valid_for_holy_order_lease_trigger = {
+                                CHARACTER = root
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    ai_will_do = {
+        base = 100
     }
 }
 

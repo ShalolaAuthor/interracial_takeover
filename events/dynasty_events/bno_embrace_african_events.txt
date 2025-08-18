@@ -1727,13 +1727,13 @@ bno_embrace_african_5.0006 = {
 }
 
 #letter event holy order has sent you a priest
-bbc_priestess.0007 = {
+bno_embrace_african_5.0007 = {
     type = letter_event
     sender = scope:order_leader
     opening = {
-        desc = bbc_priestess.0007.opening
+        desc = bno_embrace_african_5.0007.opening
     }
-    desc = bbc_priestess.0007.desc
+    desc = bno_embrace_african_5.0007.desc
 
     trigger = {
         can_employ_court_position_type = bno_bbc_priestess_court_position
@@ -1778,7 +1778,7 @@ bbc_priestess.0007 = {
     }
 
     option = {
-        name = bbc_priestess.0007.a
+        name = bno_embrace_african_5.0007.a
         add_courtier = scope:priest
         appoint_court_position = {
             recipient = scope:priest
