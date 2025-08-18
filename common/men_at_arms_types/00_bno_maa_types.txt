@@ -3,7 +3,7 @@
 @provisions_cost_infantry_expensive = 12
 
 bno_african_warriors = {
-	type = skirmishers
+	type = bnwo_armies
 	
 	damage = 20
 	toughness = 20
@@ -39,7 +39,7 @@ bno_african_warriors = {
 }
 # Special
 bno_ebony_elites = {
-	type = heavy_infantry
+	type = bnwo_armies
 	can_recruit = {
 		exists = dynasty
 		dynasty = {
