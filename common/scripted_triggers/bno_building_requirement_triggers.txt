@@ -1,12 +1,14 @@
 ﻿bno_building_requirement_camp = {
     custom_description = {
         text = bbc_or_whitegirl_trigger
-        scope:holder ?= {
-	    	OR = {
-	    		has_trait = bno_bbc
-	    		is_bno_qos_and_up = yes
-				has_trait = bno_jos
-	    	}
+        scope:holder = {
+	    	top_liege = {
+	    		OR = {
+	    			has_trait = bno_bbc
+	    			is_bno_qos_and_up = yes
+					has_trait = bno_jos
+	    		}
+			}
 	    }
     }
 }
@@ -14,20 +16,28 @@
 bno_building_requirement_church = {
 	custom_description = {
         text = bbc_or_whitegirl_trigger
-        scope:holder ?= {
-	    	OR = {
-	    		has_trait = bno_bbc
-	    		is_bno_qos_and_up = yes
-				has_trait = bno_jos
-	    	}
+        scope:holder = {
+			top_liege = {
+	    		OR = {
+	    			has_trait = bno_bbc
+	    			is_bno_qos_and_up = yes
+					has_trait = bno_jos
+	    		}
+			}
 	    }
     }
 	custom_description = {
         text = is_king_or_emperor
-		scope:holder = { highest_held_title_tier >= tier_kingdom }
+		scope:holder = { 
+			top_liege = {
+				highest_held_title_tier >= tier_kingdom 
+			}
+		}
     }
 	scope:holder = {
-		piety_level >= 3
-		bno_has_embrace_african_5 = yes
+		top_liege = {
+			piety_level >= 3
+			bno_has_embrace_african_5 = yes
+		}
 	}
 }

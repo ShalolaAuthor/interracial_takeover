@@ -1,4 +1,5 @@
 ﻿bno_decision_group = {
     sort_order = 400
     gui_tags = { big_button }
+    important_decision_group = yes
 }

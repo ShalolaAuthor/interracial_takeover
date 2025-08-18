@@ -1174,8 +1174,20 @@ bno_lifestyle_bbc_priestess = {
 						trait = bno_lifestyle_bbc_priestess
 						value >= 100
 					}
+					is_a_male = yes
 				}
-				desc = bno_lifestyle_bbc_priestess_3
+				desc = bno_lifestyle_bbc_priestess_3.male
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_lifestyle_bbc_priestess
+						value >= 100
+					}
+					is_a_girl = yes
+				}
+				desc = bno_lifestyle_bbc_priestess_3.female
 			}
 			# BBC Priestess
 			triggered_desc = {
@@ -1185,11 +1197,36 @@ bno_lifestyle_bbc_priestess = {
 						trait = bno_lifestyle_bbc_priestess
 						value >= 50
 					}
+					is_a_male = yes
 				}
-				desc = bno_lifestyle_bbc_priestess_2
+				desc = bno_lifestyle_bbc_priestess_2.male
+			}
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_lifestyle_bbc_priestess
+						value >= 50
+					}
+					is_a_girl = yes
+				}
+				desc = bno_lifestyle_bbc_priestess_2.female
 			}
 			#Novice BBC Priestess
-			desc = bno_lifestyle_bbc_priestess_1
+			triggered_desc = {
+				trigger = {
+					exists = this
+					is_a_male = yes
+				}
+				desc = bno_lifestyle_bbc_priestess_1.male
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					is_a_girl = yes
+				}
+				desc = bno_lifestyle_bbc_priestess_1.female
+			}
 		}
 	}
 
@@ -1209,8 +1246,19 @@ bno_lifestyle_bbc_priestess = {
 						trait = bno_lifestyle_bbc_priestess
 						value >= 100
 					}
+					is_a_girl = yes
 				}
-				desc = bno_lifestyle_bbc_priestess_3_character_desc
+				desc = bno_lifestyle_bbc_priestess_3_character_desc.female
+			}
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = bno_lifestyle_bbc_priestess
+						value >= 100
+					}
+					is_a_male = yes
+				}
+				desc = bno_lifestyle_bbc_priestess_3_character_desc.male
 			}
 			triggered_desc = {
 				trigger = { 
@@ -1218,10 +1266,32 @@ bno_lifestyle_bbc_priestess = {
 						trait = bno_lifestyle_bbc_priestess
 						value >= 50
 					}
+					is_a_girl = yes
 				}
-				desc = bno_lifestyle_bbc_priestess_2_character_desc
+				desc = bno_lifestyle_bbc_priestess_2_character_desc.female
 			}
-			desc = bno_lifestyle_bbc_priestess_1_character_desc
+			triggered_desc = {
+				trigger = { 
+					has_trait_xp = {
+						trait = bno_lifestyle_bbc_priestess
+						value >= 50
+					}
+					is_a_male = yes
+				}
+				desc = bno_lifestyle_bbc_priestess_2_character_desc.male
+			}
+			triggered_desc = {
+				trigger = {
+					is_a_girl = yes
+				}
+				desc = bno_lifestyle_bbc_priestess_1_character_desc.female
+			}
+			triggered_desc = {
+				trigger = {
+					is_a_male = yes
+				}
+				desc = bno_lifestyle_bbc_priestess_1_character_desc.male
+			}
 		}
 	}
 

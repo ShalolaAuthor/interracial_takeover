@@ -121,3 +121,7 @@ is_culture_bnoc = {
 		has_cultural_pillar = heritage_bnoc
 	}
 }
+
+is_faith_bbcs = {
+	faith.religion = religion:bnonr_religion
+}

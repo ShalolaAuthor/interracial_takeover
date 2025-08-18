@@ -182,14 +182,26 @@
 bno_bbc_priestess_court_position = {
     sort_order = 499
     max_available_positions = 1
-    minimum_rank = county
+    minimum_rank = kingdom
     skill = learning
     
-    #needs to change this
+    
     court_position_asset = {
+        trigger = {
+            is_a_girl = yes
+        }
+        animation = storyteller
+        background = "gfx/interface/illustrations/event_scenes/church.dds"
+        localization_key = bno_bbc_priest
+    }
+    court_position_asset = {
+        trigger = {
+            is_a_male = yes
+        }
         animation = bno_sex_oral_love_2
         background = "gfx/interface/illustrations/event_scenes/bedchamber.dds"
     }
+
     
     opinion = {
 		value = 20
@@ -206,6 +218,9 @@ bno_bbc_priestess_court_position = {
             has_dynasty_perk = bno_embrace_african_5
         }
         faith.religion = religion:bnonr_religion
+        any_realm_province = {
+            has_building_or_higher = bbc_church_02
+        }
     }
 
     is_shown_character = {
@@ -217,6 +232,19 @@ bno_bbc_priestess_court_position = {
     valid_character = {
         scope:employee = {
             has_trait = bno_lifestyle_bbc_priestess
+            faith.religion = religion:bnonr_religion
+            trigger_if = {
+                limit = {
+                    liege = { is_a_girl = yes }
+                }
+                scope:employee = { is_a_male = yes }
+            }
+            trigger_else_if = {
+                limit = {
+                    liege = { is_a_male = yes }
+                }
+                scope:employee = { is_a_girl = yes }
+            }
         }
     }
 

@@ -1399,3 +1399,45 @@ bno_embrace_african_5.0001 = {
         name = bno_embrace_african_5.0001.b
     }
 }
+
+#free treatment
+bno_embrace_african_5.0002 = {
+    type = character_event
+    title = bno_embrace_african_5.0002.title
+    desc = bno_embrace_african_5.0002.desc
+    theme = healthcare
+
+    override_background = {
+        reference = throne_room
+    }
+
+    left_portrait = {
+        character = scope:priestess
+        animation = bno_sex_love_stand_2
+        outfit_tags = {
+            no_clothes
+        }
+    }
+
+    right_portrait = {
+        character = root
+        animation = sick
+    }
+
+    trigger = {
+        bno_has_embrace_african_5 = yes
+        has_court_position = bno_bbc_priestess_court_position
+        bno_illness_list = yes
+        has_character_flag = bno_embrace_african_5.0002
+    }
+
+    immediate = {
+        add_character_flag = bno_embrace_african_5.0002
+        random_court_position_holder = {
+            type = bno_bbc_priestess_court_position
+            save_scope_as = priestess
+        }
+        
+    }
+
+}

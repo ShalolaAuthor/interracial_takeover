@@ -1,6 +1,6 @@
 ﻿#faith and culture needs to be changed later based on your culture/faith if they re based on bbcs or bnoc
 
-bno_female_priest_character_template = {
+bno_female_holy_order_leader_character_template = {
 	age = bno_younger_adult
 	random_traits_list = {
 		count = 1
@@ -20,7 +20,6 @@ bno_female_priest_character_template = {
 		bno_qos = {}
 		bno_mindless_bbc_slut = {}
 	}
-	trait = bno_lifestyle_bbc_priestess
     random_traits_list = {
         count = 1
         tits_big_good_1 = {}
@@ -107,8 +106,6 @@ bno_female_priest_character_template = {
 			weight = { base = 50 }
 		}
 	}	
-	faith = faith:bbcs
-	culture = culture:bnoc
 	gender = female
 
 	martial = {
@@ -122,29 +119,52 @@ bno_female_priest_character_template = {
 
 	after_creation = {
 		random_list = {
-			40 = {
-				add_trait_xp = {
-					trait = bno_lifestyle_bbc_priestess
-					value = { 0 40 }
-				}
-			}
-			40 = {
-				add_trait_xp = {
-					trait = bno_lifestyle_bbc_priestess
-					value = { 41 80 }
-				}
-			}
-			20 = {
-				add_trait_xp = {
-					trait = bno_lifestyle_bbc_priestess
-					value = 100
-				}
-			}
-		}
-		random_list = {
 			80 = {}
 			20 = { add_trait = bno_pure_white }
 		}
+	}
+}
+
+bno_female_priest_character_template = {
+	age = bno_younger_adult
+	random_traits_list = {
+		count = 1
+		education_learning_2 = {}
+		education_learning_3 = {}
+		education_learning_4 = {}
+	}
+
+	trait = bno_lifestyle_bbc_priestess
+
+    random_traits_list = {
+        count = 1
+        tits_big_good_1 = {}
+        tits_big_good_2 = {}
+        tits_big_good_3 = {}
+    }
+    random_traits_list = {
+        count = 1
+        beauty_good_1 = {}
+        beauty_good_2 = {}
+        beauty_good_3 = {}
+    }
+	random_traits_list = {
+		count = 1
+		bno_snowbunny = {}
+		bno_qos = {}
+		bno_mindless_bbc_slut = {}
+	}
+	random_traits = yes
+	
+	gender = female
+
+	learning = {
+		min_template_high_skill
+		max_template_high_skill
+	}
+
+	after_creation = {
+		add_character_flag = need_priest_outfit
         remove_bad_traits = yes
 	}
 }
@@ -159,6 +179,7 @@ bno_male_priest_character_template = {
 	}
 
     trait = bno_bbc
+	trait = bno_lifestyle_bbc_priestess
     random_traits_list = {
         count = 1
         dick_big_good_1 = {}
