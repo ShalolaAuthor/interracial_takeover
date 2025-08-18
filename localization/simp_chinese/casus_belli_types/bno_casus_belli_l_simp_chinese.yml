@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
 
- bno_war: "媚黑新秩序战争"
+ bno_war: "[bno_bnwo|E]战争"
  bno_war_victory_desc_attacker: "你获得受争夺的头衔[titles|E]。"
  bno_war_victory_desc: "[attacker.GetShortUIName|U]获得受争夺的头衔[title|E]。"
  bno_war_white_peace_desc_defender: "你保留受争夺的头衔[title|E]。"
@@ -13,7 +13,7 @@
  BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
  BNO_WAR_CB_NAME: "对[TITLE.GetBaseName]的种族接管"
 
- bno_subj_war: "媚黑新秩序征服战争"
+ bno_subj_war: "[bno_bnwo|E]征服战争"
  bno_subj_war_victory_desc_attacker: "你获得受争夺的头衔[titles|E]。"
  bno_subj_war_victory_desc: "[attacker.GetShortUIName|U]获得受争夺的头衔[title|E]。"
  bno_subj_war_white_peace_desc_defender: "你保留受争夺的头衔[title|E]。"
@@ -26,7 +26,16 @@ BNO_SUBJ_WAR_NAME: "$发动$[ATTACKER.GetPrimaryTitle.GetAdjective]对[TITLE.Get
 BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 BNO_SUBJ_WAR_CB_NAME: "对[TITLE.GetBaseName]的种族征服"
 
-bno_varangian_adventure: "媚黑新秩序入侵"
+bno_varangian_adventure: "[bno_bnwo|E]入侵"
 BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective]入侵[DEFENDER.GetPrimaryTitle.GetNameNoTier]"
 BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 BNO_VARANGIAN_ADVENTURE_CB_NAME: "对[DEFENDER.GetPrimaryTitle.GetNameNoTier]的入侵"
+BNWO_STATE_TITLE_NAME: "黑化[target_duchy.GetNameNoTierNoTooltip]"
+
+bno_civil_unrest: "[bno_bnwo|E]叛乱"
+bno_civil_unrest.army_name: "乌木征服者"
+bno_civil_unrest.victory.desc: "[bno_bnwo|E]已取得胜利。反抗是徒劳的。准备向新秩序臣服吧。"
+bno_civil_unrest.white_peace.desc: "[bno_bnwo|E]提出了和平提议。向我们的统治投降以换取饶恕。"
+bno_civil_unrest.defeat.desc: "[bno_bnwo|E]被打败了。旧秩序得以延续，现在来说。"
+bnwo_faction_every_county: "所有的[faction|E][county|E]"
+bno_civil_unrest_name: "媚黑新世界秩序崛起"
