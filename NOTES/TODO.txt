@@ -41,6 +41,7 @@
 -add revealing clothing tags?
 -fix perk 2 selection screen
 -add icon for african warrior and ebony elites
+
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
 
