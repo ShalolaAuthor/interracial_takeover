@@ -13,14 +13,12 @@
 -add something for people to spend gold in
 -bnwo law
 -if no longer visibly fertile change mindless to something else
--add flag birth_will_go_smoothly
 -add decision to go to church of bbc and cure illness and negative traits cost money
 -get boost for research, innovation etc etc in exchange for gold (just say it is blessing)(must have certain holy sites for certain effects?)
 -add stats after sex (modifier?) (random chance it happens)(send notification that you learn something)
 -modify cum for glory to not include prowess (remove prowess, add something else, put prowess into the random stat)
 -finish the diarchy for sluts
 -add new MAA for bnoc holy order
--make sure holy order captain has african
 -make sure guess that visit your court gets proper trait
 -body part massage events to make the larger (de-couple slut.0007 to only becoming darker and gaining bloodline trait)
 -return trip no for all events annoying that you have to travel back and forth
@@ -47,6 +45,8 @@ IMPORTANT TODO:
 
 
 DONE:
+-add flag birth_will_go_smoothly
+-make sure holy order captain has african
 -add no prowess loss for age or something for glorified cum for glory
 -maybe as an introduction make an event that cure disease for free. one time only
 -then after some time -> you will get an event (letter event) saying the order has send you a bbc priest/priestess suited for your female or male depending on player gender

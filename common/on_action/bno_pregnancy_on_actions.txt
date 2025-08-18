@@ -42,6 +42,7 @@ bno_on_pregnancy_mother = {
                     }
                 }
                 remove_character_flag = birth_mother_will_die
+                add_character_flag = birth_will_go_smoothly
             }
         }
     }
