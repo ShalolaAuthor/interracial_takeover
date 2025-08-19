@@ -286,6 +286,7 @@ bbc_priestess_convert_neighboring_ruler = {
         }
         scope:target_neighboring_landed_title = {
             holder = {
+                save_scope_as = neighboring_lord_or_lady
                 random_list = {
                     20 = {
                         set_character_faith_with_conversion = scope:liege.faith
@@ -294,7 +295,7 @@ bbc_priestess_convert_neighboring_ruler = {
                                 type = bno_blacked_events
                                 title = bbc_priestess.1001.neighboring_lord_converted.title
                                 right_icon = scope:employee
-                                left_icon = scope:target_neighboring_landed_title.holder
+                                left_icon = scope:neighboring_lord_or_lady
                                 desc = bbc_priestess.1001.neighboring_lord_converted.desc
                             }
                         }

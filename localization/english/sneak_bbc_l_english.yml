@@ -1,14 +1,14 @@
 ﻿l_english:
 #sneak bbc interaction
  sneak_bbc: "Sneak a black stud to a foreign court"
- sneak_bbc_desc: "Move one of the BBCs from my court to a chosen ruler's court."
+ sneak_bbc_desc: "Move one of the [bno_bbcs|E] from my court to a chosen ruler's court."
  actor_secondary_sneak_bbc: "Choose a bull to sneak"
- BBC_cg_spy_reason: "There is a courtier or guest who will help sneak a BBC: #color_green +5#!"
- BBC_family_spy_reason: "There is a family member who will help sneak a BBC: #color_green +10#!" 
- BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! is curious about BBC: #color_green +10#!" 
- BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! has been fucked by a BBC: #color_green +25#!" 
- BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! is in love with BBC: #color_green +50#!" 
- BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! welcomes BBC: #color_green +50#!" 
+ BBC_cg_spy_reason: "There is a courtier or guest who will help sneak a [bno_bbc|E]: #color_green +5#!"
+ BBC_family_spy_reason: "There is a family member who will help sneak a [bno_bbc|E]: #color_green +10#!" 
+ BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! is curious about [bno_bbc|E]: #color_green +10#!" 
+ BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! has been fucked by a [bno_bbc|E]: #color_green +25#!" 
+ BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! is in love with [bno_bbc|E]: #color_green +50#!" 
+ BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! welcomes [bno_bbc|E]: #color_green +50#!" 
 #chastity interaction
  bno_chastity_interaction: "Apply Chastity"
  bno_chastity_interaction_desc: "Provide Chastity to [recipient.GetShortUINameNoTooltip]"

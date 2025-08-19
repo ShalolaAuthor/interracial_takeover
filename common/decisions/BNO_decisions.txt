@@ -462,6 +462,55 @@ bno_convert_to_african = {
 }
 
 bno_cure_diseases = {
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_girl = yes }
+				desc = bno_cure_disease.title.female
+			}
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = bno_cure_disease.title.male
+			}
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_girl = yes }
+				desc = bno_cure_disease.desc.female
+			}
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = bno_cure_disease.desc.male
+			}
+		}
+	}
+	confirm_text = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_girl = yes }
+				desc = bno_cure_disease.confirm.female
+			}
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = bno_cure_disease.confirm.male
+			}
+		}
+	}
+	selection_tooltip = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_girl = yes }
+				desc = bno_cure_disease.tooltip.female
+			}
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = bno_cure_disease.tooltip.male
+			}
+		}
+	}
+
 	ai_check_interval = 12
 	#Placeholder
 	picture = {

@@ -1,7 +1,7 @@
 ﻿l_english:
 
 bno_bbc_worshipper_court_position: "BBC Worshipper"
-bno_bbc_worshipper_court_position_desc: "Constantly serving, worshipping, and being used by BBC in any way they desire"
+bno_bbc_worshipper_court_position_desc: "Constantly serving, worshipping, and being used by [bno_bbc|E] in any way they desire"
 
 bno_court_position_trait_bno_pure_white: "[GetTrait('bno_pure_white').GetName( ROOT.Char )]"
 bno_court_position_trait_curious: "[GetTrait('bno_curious').GetName( ROOT.Char )]"
@@ -14,6 +14,8 @@ bno_court_position_trait_beauty_good_1: "[GetTrait('beauty_good_1').GetName( ROO
 bno_court_position_trait_beauty_good_2: "[GetTrait('beauty_good_2').GetName( ROOT.Char )]"
 bno_court_position_trait_beauty_good_3: "[GetTrait('beauty_good_3').GetName( ROOT.Char )]"
 
+bno_court_position_trait_bno_lifestyle_bbc_priestess: "[GetTrait('bno_lifestyle_bbc_priestess').GetName( ROOT.Char )]"
+
 bno_court_position_trait_tits_big_good_1: "[GetTrait('tits_big_good_1').GetName( ROOT.Char )]"
 bno_court_position_trait_tits_big_good_2: "[GetTrait('tits_big_good_2').GetName( ROOT.Char )]"
 bno_court_position_trait_tits_big_good_3: "[GetTrait('tits_big_good_3').GetName( ROOT.Char )]"
@@ -23,4 +25,10 @@ bno_court_position_trait_fecund: "[GetTrait('fecund').GetName( ROOT.Char )]"
 hire_bbc_worshipper_decision: "Search for [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
 hire_bbc_worshipper_decision_effect_tooltip: "You will be presented with a group of [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] candidates and may hire one of them for a fee and a monthly salary of [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]"
 
-bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$Becomes [bno_whore|E] for her Liege"
+bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$Becomes [bno_whore|E] for their [liege|E]"
+
+bno_bbc_priestess_employer_custom_effect_description: "$BULLET$Becomes [bbc_evangelist|E] for their [liege|E]"
+
+bno_bbc_priest: "BBC Priest"
+bno_bbc_priestess_court_position: "BBC Priestess"
+bno_bbc_priestess_court_position_desc: "Slick with sacred oil, they shove their throbbing cocks and slick pussies into every nobleman's mouth and hole until the entire realm worships their black god's thick load."

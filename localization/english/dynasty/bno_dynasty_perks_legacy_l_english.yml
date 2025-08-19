@@ -12,13 +12,13 @@ BNO_PLACEHOLDER: ""
 EBONY_ELITES_UNLOCK_DESCRIPTION: "Can recruit [GetMaA('bno_ebony_elites').GetName] as [men_at_arms|E]"
 EBONY_ELITES_DESCRIPTION: "#weak Only one regiment of [GetMaA('bno_ebony_elites').GetName] can be recruited#!"
 
-BBC_MARRIAGE_DESCRIPTION: "Whenever a BBC marries, and a White Girl marrying a BBC, your dynasty will gain prestige. They will also got increased legitimacy and prestige from the marriage"
+BBC_MARRIAGE_DESCRIPTION: "Whenever a [bno_bbc|E] marries, and a White Girl marrying a [bno_bbc|E], your [dynasty|E] will gain [prestige|E]. They will also got increased [legitimacy|E] and [prestige|E] from the [marriage|E]"
 
-BBC_SEX_EFFECT: "Whenever a BBC and a White Girl of you dynasty have sex, your dynasty will gain prestige"
+BBC_SEX_EFFECT: "Whenever a [bno_bbc|E] and a White Girl of you [dynasty|E] have sex, your [dynasty|E] will gain [prestige|E]"
 
 BNO_EMBRACE_3_EFFECT: "Unlocks Learning About Migrants Decision and Events"
 
-SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Select a [congenital|E] trait to become more common in the Dynasty"
+SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Select a [congenital|E] trait to become more common in the [dynasty|E]"
 
 BBC_CAMP_BUILDING_UNLOCK: "Unlocks the [GetBuilding('bbc_camp_01').GetName] [building|E]"
 

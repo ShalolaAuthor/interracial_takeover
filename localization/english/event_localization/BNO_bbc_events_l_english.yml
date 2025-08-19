@@ -26,7 +26,7 @@
 
 #bbcconversion - decision
  bbcconversion.title: "African Supremacy"
- bbcconversion.desc: "You decided to convert to the Church of Black Cock, worshipping black gods only. You have the sudden desire to spread the influence of BBC worldwide"
+ bbcconversion.desc: "You decided to convert to the [bno_religion|E], worshipping black gods only. You have the sudden desire to spread the influence of [bno_bbc|E] worldwide"
  bbcconversion.a: "Soon, the world shall bow to black men"
  
  #test
@@ -54,7 +54,7 @@ bno_realize_bbc_potential: "Discover your BBC "
 bno_realize_bbc_potential.desc: "You realize your dominant black body gives you innate supremacy over the inferior sub-races. It's time to make Europe your bitch."
 bno_realize_bbc_potential_decision_tooltip: "You will become a dominant black stud."
 bno_realize_bbc_potential_confirm: "The world is mine."
-bno_realize_bbc_potential_effect_1: "You will gain the BBC Trait."
+bno_realize_bbc_potential_effect_1: "You will gain the [bno_bbc|E] Trait."
 
 bno_events.0007.title: "[ROOT.Char.Custom('GetCourt')|U] [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
 bno_events.0007.desc: "In an effort to appease the ever-growing population of big, black men with insatiable sexual appetites, I have decided it's time for me to employ a dedicated team of white girls who live and breathe for nothing more than servicing their ebony masters. These [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]s are trained from birth in the art of pleasing cock - they know exactly how to use every inch of their bodies to bring maximum pleasure to their dark kings.\n\nMy plan is simple: create a society where these worshippers exist solely to satisfy the needs of their black overlords while simultaneously keeping them happy and contented. By providing this crucial service, I hope to prevent any potential unrest or violence that might arise due to pent-up sexual frustration amongst the male population. After all, nobody wants angry, horny black men roaming the streets in search of pussy!"

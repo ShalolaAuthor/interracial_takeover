@@ -187,7 +187,7 @@ bno_bbc_priestess_aptitude = {
         }
         add = { 
             value = 40
-            desc = bno_court_position_trait_bno_lifestyle_bbc_priestess_3 
+            desc = bno_court_position_trait_bno_lifestyle_bbc_priestess 
         }
     }
     else_if = {
@@ -200,7 +200,7 @@ bno_bbc_priestess_aptitude = {
         }
         add = {
             value = 20
-            desc = bno_court_position_trait_bno_lifestyle_bbc_priestess_2
+            desc = bno_court_position_trait_bno_lifestyle_bbc_priestess
         }
     }
     else_if = {
@@ -213,7 +213,7 @@ bno_bbc_priestess_aptitude = {
         }
         add = {
             value = 10
-            desc = bno_court_position_trait_bno_lifestyle_bbc_priestess_1
+            desc = bno_court_position_trait_bno_lifestyle_bbc_priestess
         }
     }
     if = {

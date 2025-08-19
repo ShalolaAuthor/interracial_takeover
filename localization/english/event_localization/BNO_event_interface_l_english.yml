@@ -45,9 +45,21 @@ bno_slut_0008_notification.desc: "Rumors swirl of a whore walking amongst the Bl
 bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] give you all her spoils"
 bbc_worshipper.0002.notifications.desc: "After months of hard work, and tireless night, she give you all her assets because she doesn't know what to do with it."
 
+bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] has converted to the worship of the [bno_religion|E]"
+bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] has embraced the teachings of the [bno_religion|E], dedicating [target_vassal.GetHerselfHimself] to its worship and the pleasures it brings."
+
+bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] has converted to the worship of the [bno_religion|E]"
+bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] has embraced the teachings of the [bno_religion|E], dedicating its resources to its worship and the pleasures it brings."
+
+bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] has converted to the worship of the [bno_religion|E]"
+bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] has embraced the teachings of the [bno_religion|E], dedicating [neighboring_lord_or_lady.GetHerselfHimself] to its worship and the pleasures it brings."
+
+bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] has converted to the worship of the [bno_religion|E]"
+bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] has embraced the teachings of the [bno_religion|E], dedicating its resources to its worship and the pleasures it brings."
+
 bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] is now blacker than ever"
 bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] is now blacker than ever"
 bno_marriage.0007.notifications.desc.male: "A member of your family has spread his black seed to a suitable partner"
 bno_marriage.0007.notifications.desc.female: "A member of your family has married a #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!"
 
-bbc_diarch: "BBC"
+bbc_diarch: "[bno_bbc|E]"

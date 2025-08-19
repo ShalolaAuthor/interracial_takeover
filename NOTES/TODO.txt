@@ -35,6 +35,7 @@
 -check for other cultural gfx i got bored seeing african gfx
 -add revealing clothing tags?
 -fix perk 2 selection screen
+-add BBC game concept
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:

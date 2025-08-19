@@ -1,5 +1,5 @@
 ﻿bno_whore = {
-    texture = "gfx/interface/icons/traits/bno_curious.dds"
+    texture = "gfx/interface/icons/bbc_whore.dds"
 }
 bno_first_harvest = {
     texture = "gfx/interface/icons/diarchy_mandates/bno_first_harvest.dds"
@@ -22,4 +22,18 @@ bno_bnwo = {
 bnwo_armies = {
     texture = "gfx/interface/icons/regimenttypes/bno_cock_maidens.dds"
     parent = men_at_arms
+}
+bbc_evangelist = {
+    texture = "gfx/interface/icons/bbc_evangelist.dds"
+}
+
+bno_bbc = {
+    texture = "gfx/interface/icons/traits/bno_bbc.dds"
+    parent = physical_trait
+    alias = {bno_bbcs}
+}
+
+bno_religion = {
+    texture = "gfx/interface/icons/bno_icon.dds"
+    parent = faith
 }
