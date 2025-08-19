@@ -19,3 +19,7 @@ bno_black = {
 bno_bnwo = {
     texture = "gfx/interface/icons/traits/bno_qos.dds"
 }
+bnwo_armies = {
+    texture = "gfx/interface/icons/regimenttypes/bno_cock_maidens.dds"
+    parent = men_at_arms
+}

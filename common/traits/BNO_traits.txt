@@ -1168,18 +1168,11 @@ bno_lifestyle_bbc_priestess = {
 	# Loc
 	name = {
 		first_valid = {
-			# Renowned BBC Priestess
 			triggered_desc = {
-				trigger = {
-					exists = this
-					has_trait_xp = {
-						trait = bno_lifestyle_bbc_priestess
-						value >= 100
-					}
-					is_a_male = yes
-				}
-				desc = bno_lifestyle_bbc_priestess_3.male
+				trigger = { NOT = { exists = this } }
+				desc = bno_lifestyle_bbc_priestess
 			}
+			# Renowned BBC Priestess
 			triggered_desc = {
 				trigger = {
 					exists = this
@@ -1191,18 +1184,18 @@ bno_lifestyle_bbc_priestess = {
 				}
 				desc = bno_lifestyle_bbc_priestess_3.female
 			}
-			# BBC Priestess
 			triggered_desc = {
-				trigger = { 
+				trigger = {
 					exists = this
 					has_trait_xp = {
 						trait = bno_lifestyle_bbc_priestess
-						value >= 50
+						value >= 100
 					}
 					is_a_male = yes
 				}
-				desc = bno_lifestyle_bbc_priestess_2.male
+				desc = bno_lifestyle_bbc_priestess_3.male
 			}
+			# BBC Priestess
 			triggered_desc = {
 				trigger = { 
 					exists = this
@@ -1214,20 +1207,31 @@ bno_lifestyle_bbc_priestess = {
 				}
 				desc = bno_lifestyle_bbc_priestess_2.female
 			}
-			#Novice BBC Priestess
 			triggered_desc = {
-				trigger = {
+				trigger = { 
 					exists = this
+					has_trait_xp = {
+						trait = bno_lifestyle_bbc_priestess
+						value >= 50
+					}
 					is_a_male = yes
 				}
-				desc = bno_lifestyle_bbc_priestess_1.male
+				desc = bno_lifestyle_bbc_priestess_2.male
 			}
+			#Novice BBC Priestess
 			triggered_desc = {
 				trigger = {
 					exists = this
 					is_a_girl = yes
 				}
 				desc = bno_lifestyle_bbc_priestess_1.female
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					is_a_male = yes
+				}
+				desc = bno_lifestyle_bbc_priestess_1.male
 			}
 		}
 	}
@@ -1240,7 +1244,7 @@ bno_lifestyle_bbc_priestess = {
 				trigger = { 
 					NOT = { exists = this } 
 				}
-				desc = bno_lifestyle_bbc_priestess_1_desc
+				desc = bno_lifestyle_bbc_priestess_desc
 			}
 			triggered_desc = {
 				trigger = { 
@@ -1293,6 +1297,23 @@ bno_lifestyle_bbc_priestess = {
 					is_a_male = yes
 				}
 				desc = bno_lifestyle_bbc_priestess_1_character_desc.male
+			}
+		}
+	}
+
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = "bno_leper_immunity.dds"
+			}
+			triggered_desc = {
+				trigger = { is_a_girl = yes }
+				desc = "bno_lovers_pox_immunity.dds"
+			}
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = "bno_measles_immunity.dds"
 			}
 		}
 	}

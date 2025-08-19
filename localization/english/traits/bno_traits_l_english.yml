@@ -80,3 +80,6 @@ trait_bno_sickly_immunity: "Sickly Immunity"
 trait_bno_sickly_immunity_desc: "This character is immune to the effects of [GetTrait('sickly').GetName( GetNullCharacter )], a condition where children are often born sickly and may not survive, but this character is unaffected."
 trait_bno_great_pox_immunity: "Great Pox Immunity"
 trait_bno_great_pox_immunity_desc: "This character is immune to the effects of [GetTrait('great_pox').GetName( GetNullCharacter )], an uncurable disease that has plagued many but poses no threat to this character."
+
+trait_track_bno_lifestyle_bbc_priestess: "Priesthood"
+trait_track_bno_lifestyle_bbc_priestess_desc: "A character who has dedicated their life to serving the BBC, often through sexual means. They are revered for their devotion and are often seen as a symbol of power and pleasure within the realm."
