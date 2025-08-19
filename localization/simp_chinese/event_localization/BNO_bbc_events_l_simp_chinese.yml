@@ -26,7 +26,7 @@
 
 #bbcconversion - decision
  bbcconversion.title: "非洲至上"
- bbcconversion.desc: "你决定皈依黑鸡巴教会，只崇拜黑人神祇。你突然渴望将黑鸡巴的影响力传播到全世界"
+ bbcconversion.desc: "你决定皈依[bno_religion|E]，只崇拜黑人神祇。你突然渴望将[bno_bbc|E]的影响力传播到全世界"
  bbcconversion.a: "很快，世界将臣服于黑人"
  
  #test
@@ -54,7 +54,7 @@ bno_realize_bbc_potential: "探索你的大黑鸡巴"
 bno_realize_bbc_potential.desc: "你们意识到，黑人的优势体质赋予了你们凌驾于劣等亚种族之上的先天优势。是时候让欧洲成为你的婊子了。"
 bno_realize_bbc_potential_decision_tooltip: "你将成为强势的黑人种马。"
 bno_realize_bbc_potential_confirm: "整个世界唾手可得。"
-bno_realize_bbc_potential_effect_1: "你将获得大黑鸡巴特质。"
+bno_realize_bbc_potential_effect_1: "你将获得[bno_bbc|E]特质。"
 
 bno_events.0007.title: "[ROOT.Char.Custom('GetCourt')|U][GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
 bno_events.0007.desc: "为了满足越来越多的性欲旺盛的大块头黑人的需求，我决定是时候雇佣一支由白人女孩组成的专门团队了，她们的生活和呼吸就是为她们的黑皮主人服务。这些[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]从一出生就接受了取悦鸡巴的艺术训练——她们清楚地知道如何利用自己身体的每一寸肌肤为她们的黑皮国王带来最大的快感。\n\n我的计划很简单：建立一个社会，让这些崇拜者的存在完全是为了满足黑人霸主的需求，同时让他们感到快乐和满足。通过提供这项重要服务，我希望能防止因男性压抑的性挫败感而可能引发的任何骚乱或暴力。毕竟，没有人希望愤怒、饥渴的黑人在街上游荡，寻找女人！"

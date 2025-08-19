@@ -45,9 +45,21 @@ bno_slut_0008_notification.desc: "有传言称，一名妓女在黑人难民营�
 bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName]把你给宠坏了"
 bbc_worshipper.0002.notifications.desc: "在连月经历辛勤劳动、不知疲倦的夜晚后，她将手头的一切资产交给你了，因为她不知道要拿这些东西怎么办。"
 
+bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName]已经转而信奉[bno_religion|E]"
+bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName]已经拥抱[bno_religion|E]的教义，将[target_vassal.GetHerselfHimself]投入到信仰以及它所带来的愉悦中去了。"
+
+bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName]已经转而信奉[bno_religion|E]"
+bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName]已经拥抱[bno_religion|E]的教义，将其资源都投入到信仰以及它所带来的愉悦中去了。"
+
+bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName]已经转而信奉[bno_religion|E]"
+bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName]已经拥抱[bno_religion|E]的教义，将[neighboring_lord_or_lady.GetHerselfHimself] to its worship and the pleasures it brings."
+
+bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName]已经转而信奉[bno_religion|E]"
+bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName]已经拥抱[bno_religion|E]的教义，将其资源都投入到信仰以及它所带来的愉悦中去了。"
+
 bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName]已经彻底黒堕了"
 bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName]已经彻底黒堕了"
 bno_marriage.0007.notifications.desc.male: "许多来自你家族的成员已将他们黑色的种子散布到合适的配偶体内"
 bno_marriage.0007.notifications.desc.female: "许多来自你家族的成员已与#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!结婚"
 
-bbc_diarch: "BBC"
+bbc_diarch: "[bno_bbc|E]"
