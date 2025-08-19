@@ -200,6 +200,7 @@ bno_bbc_priestess_court_position = {
         }
         animation = bno_sex_oral_love_2
         background = "gfx/interface/illustrations/event_scenes/church.dds"
+        localization_key = bno_bbc_priestess
     }
 
     
@@ -339,7 +340,6 @@ bno_bbc_priestess_court_position = {
         }
     }
 
-    #needs to change this
     on_court_position_revoked = {
         scope:employee = {
             trigger_event = {
@@ -349,7 +349,6 @@ bno_bbc_priestess_court_position = {
         }
     }
 
-    #needs to change this
     on_court_position_invalidated = {
         scope:employee = {
             trigger_event = {
@@ -359,7 +358,6 @@ bno_bbc_priestess_court_position = {
         }
     }
 
-    #needs to change this
     on_court_position_vacated = {
         scope:employee = {
             trigger_event = {
