@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
 
 bno_bbc_worshipper_court_position: "大黑鸡巴供奉者"
-bno_bbc_worshipper_court_position_desc: "时刻不断地侍奉、供奉大黑鸡巴并被其随心所欲地使用"
+bno_bbc_worshipper_court_position_desc: "时刻不断地侍奉、供奉[bno_bbc|E]并被其随心所欲地使用"
 
 bno_court_position_trait_bno_pure_white: "[GetTrait('bno_pure_white').GetName( ROOT.Char )]"
 bno_court_position_trait_curious: "[GetTrait('bno_curious').GetName( ROOT.Char )]"
@@ -14,6 +14,8 @@ bno_court_position_trait_beauty_good_1: "[GetTrait('beauty_good_1').GetName( ROO
 bno_court_position_trait_beauty_good_2: "[GetTrait('beauty_good_2').GetName( ROOT.Char )]"
 bno_court_position_trait_beauty_good_3: "[GetTrait('beauty_good_3').GetName( ROOT.Char )]"
 
+bno_court_position_trait_bno_lifestyle_bbc_priestess: "[GetTrait('bno_lifestyle_bbc_priestess').GetName( ROOT.Char )]"
+
 bno_court_position_trait_tits_big_good_1: "[GetTrait('tits_big_good_1').GetName( ROOT.Char )]"
 bno_court_position_trait_tits_big_good_2: "[GetTrait('tits_big_good_2').GetName( ROOT.Char )]"
 bno_court_position_trait_tits_big_good_3: "[GetTrait('tits_big_good_3').GetName( ROOT.Char )]"
@@ -24,3 +26,9 @@ hire_bbc_worshipper_decision: "寻找[GetCourtPositionType('bno_bbc_worshipper_c
 hire_bbc_worshipper_decision_effect_tooltip: "几位[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]候选人将会被带到你面前，你可以以一定费用以及每月[gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]的薪水招募他们当中一人"
 
 bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$成为[bno_whore|E]"
+
+bno_bbc_priestess_employer_custom_effect_description: "$BULLET$成为他们[liege|E]的[bbc_evangelist|E]"
+
+bno_bbc_priest: "BBC祭司"
+bno_bbc_priestess_court_position: "BBC女祭司"
+bno_bbc_priestess_court_position_desc: "他们浑身涂满圣油，将勃起的阴茎和湿滑的阴户塞进每个贵族的嘴和洞里，直到整个王国都膜拜他们黑神浓稠的精液。"
