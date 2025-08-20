@@ -37,9 +37,20 @@
 -fix perk 2 selection screen
 -disable wife for bbc worshipper court position
 -fix event for appointing martial to local (check if the employed martial is already black)
+-make sure a wife of a BBC not getting targeted by other other bbc
+-bull 0015 scope error
+-add bbc priest icon
+-add xp for every successful conversion
+-add a check for holy order scope (right now bbc priest can be assigned by some random order)
+-add a description for "Your deviancy has been"
+-add a check for cure disease for the immunity trait.
+-add a hidden event for cure disease (need to have the immunity trait. event will be given at decision or interaction)
+-for every is_a_girl add an age check
+-add separate court position for male bbc priestess 
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
+-add character interaction to heal people
 
 
 DONE:

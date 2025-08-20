@@ -396,7 +396,6 @@ bno_ritual_of_purification.1201 = {
     option = {
         name = bno_ritual_of_purification.1201.a
         scope:child = {
-            set_age = 16
             bno_have_sex_with_effects = {
                 PARTNER = scope:bbc_1
             }

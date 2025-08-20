@@ -1419,6 +1419,7 @@ bno_embrace_african_5.0001 = {
         }
         bno_cure_disease = yes
         carn_sex_scene_is_cum_inside_effect = yes
+        carn_sex_scene_cleanup = yes
     }
 }
 
@@ -1613,6 +1614,7 @@ bno_embrace_african_5.1002 = {
             great_pox = { bno_cure_disease_type = { SICKNESS = great_pox } }
         }
         carn_sex_scene_is_cum_inside_effect = yes
+        carn_sex_scene_cleanup = yes
     }
 }
 
