@@ -297,6 +297,7 @@ bno_embrace_african_1.0004 = {#female courtier got targeted by migrants
         any_courtier_or_guest = {
             NOT = { has_trait = bno_blood }
             is_a_girl = yes
+            is_elligible_partner = yes
             NOT = { has_trait = bno_whitegirl }
         }
     }
@@ -309,6 +310,7 @@ bno_embrace_african_1.0004 = {#female courtier got targeted by migrants
             limit = {
                 NOT = { has_trait = bno_blood }
                 is_a_girl = yes
+                is_elligible_partner = yes
                 NOT = { has_trait = bno_whitegirl }
             }
             save_scope_as = whore
@@ -1247,6 +1249,7 @@ bno_embrace_african_2.0003 = {
         }
         any_child = {
             is_curious = yes
+            age > 15
             age < 25
             NOT = { primary_spouse ?= { is_blackbull = yes } }
         }
@@ -1260,7 +1263,8 @@ bno_embrace_african_2.0003 = {
         bno_get_really_local_bbc = yes
         random_child = {
             limit = {
-                is_a_girl = yes
+                is_curious = yes
+                age > 15
                 age < 25
                 NOT = { primary_spouse ?= { is_blackbull = yes } }
             }
@@ -1386,18 +1390,12 @@ bno_embrace_african_5.0001 = {
 
     trigger = {
         bno_has_embrace_african_5 = yes
-        any_court_position_holder = {
-            type = bno_bbc_priestess_court_position
-        }
+        bno_has_bbc_priest_or_priestess = yes
     }
 
     immediate = {
         save_scope_as = carn_sex_player
-        random_court_position_holder = {
-            type = bno_bbc_priestess_court_position
-            save_scope_as = priestess
-            save_scope_as = carn_sex_partner
-        }
+        bno_get_bbc_priest_or_priestess = yes
         carn_sex_scene_start = yes
         standing_oral_animations = yes
     }
@@ -1474,19 +1472,14 @@ bno_embrace_african_5.0002 = {
 
     trigger = {
         bno_has_embrace_african_5 = yes
-        any_court_position_holder = {
-            type = bno_bbc_priestess_court_position
-        }
+        bno_has_bbc_priest_or_priestess = yes
         bno_illness_list = yes
         NOT = { has_character_flag = bno_embrace_african_5.0002 }
     }
 
     immediate = {
         add_character_flag = bno_embrace_african_5.0002
-        random_court_position_holder = {
-            type = bno_bbc_priestess_court_position
-            save_scope_as = priestess
-        }
+        bno_get_bbc_priest_or_priestess = yes
     }
     option = {
         name = {
@@ -1563,18 +1556,12 @@ bno_embrace_african_5.1002 = {
 
     trigger = {
         bno_has_embrace_african_5 = yes
-        any_court_position_holder = {
-            type = bno_bbc_priestess_court_position
-        }
+        bno_has_bbc_priest_or_priestess = yes
     }
 
     immediate = {
         save_scope_as = carn_sex_player
-        random_court_position_holder = {
-            type = bno_bbc_priestess_court_position
-            save_scope_as = priestess
-            save_scope_as = carn_sex_partner
-        }
+        bno_get_bbc_priest_or_priestess = yes
         carn_sex_scene_start = yes
         standing_oral_animations = yes
     }
@@ -1965,7 +1952,10 @@ bno_embrace_african_5.0007 = {
     }
 
     trigger = {
-        can_employ_court_position_type = bno_bbc_priestess_court_position
+        OR = {
+            can_employ_court_position_type = bno_bbc_priestess_court_position
+            can_employ_court_position_type = bno_bbc_priest_court_position
+        }
         faith = {
             any_faith_holy_order = {
                 holy_order_patron = root
@@ -1987,6 +1977,7 @@ bno_embrace_african_5.0007 = {
         if = {
             limit = {
                 is_a_girl = yes
+		        is_elligible_partner = yes
             }
             create_character = {
                 template = bno_male_priest_character_template
@@ -2009,9 +2000,19 @@ bno_embrace_african_5.0007 = {
     option = {
         name = bno_embrace_african_5.0007.a
         add_courtier = scope:priest
-        appoint_court_position = {
-            recipient = scope:priest
-            court_position = bno_bbc_priestess_court_position
+        if = {
+            limit = { can_employ_court_position_type = bno_bbc_priestess_court_position }
+            appoint_court_position = {
+                recipient = scope:priest
+                court_position = bno_bbc_priestess_court_position
+            }
+        }
+        else_if = {
+            limit = { can_employ_court_position_type = bno_bbc_priest_court_position }
+            appoint_court_position = {
+                recipient = scope:priest
+                court_position = bno_bbc_priest_court_position
+            }
         }
         reverse_add_opinion = {
             target = scope:priest

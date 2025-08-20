@@ -1614,16 +1614,22 @@ be_strongest = {
 get_white_vassal_with_non_blacked_wife_scope = { 
 	if = {
 		limit = {
-			exists = liege
-			liege = {
+			liege ?= {
 				is_white_guy_with_pure_wife = yes
 			}
 		}
 		liege = {
 			add_to_temporary_list = temp
+			every_vassal_or_below = {
+				limit = {
+					NOT = { this = root }
+					is_white_guy_with_pure_wife = yes
+				}
+				add_to_temporary_list = temp
+			}
 		}
 	}
-	random_vassal = {
+	every_vassal_or_below = {
 		limit = {is_white_guy_with_pure_wife = yes}
 		add_to_temporary_list = temp
 	}

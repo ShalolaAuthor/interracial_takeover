@@ -397,3 +397,21 @@ bno_kill_wanderer_scope = {
         }
     }
 }
+
+bno_get_bbc_priest_or_priestess = {
+    random_court_position_holder = {
+        type = bno_bbc_priestess_court_position
+        save_scope_as = priestess
+        save_scope_as = carn_sex_partner
+    }
+    if = {
+        limit = {
+            NOT = { exists = scope:priestess }
+        }
+        random_court_position_holder = {
+            type = bno_bbc_priest_court_position
+            save_scope_as = priestess
+            save_scope_as = carn_sex_partner
+        }
+    }
+}

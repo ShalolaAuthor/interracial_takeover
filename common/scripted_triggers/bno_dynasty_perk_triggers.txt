@@ -46,3 +46,14 @@ bno_has_embrace_african_5 = {
 		has_dynasty_perk = bno_embrace_african_5
 	}
 }
+
+bno_has_bbc_priest_or_priestess = {
+	OR = {
+		any_court_position_holder = {
+			type = bno_bbc_priest_court_position
+		}
+		any_court_position_holder = {
+			type = bno_bbc_priestess_court_position
+		}
+	}
+}

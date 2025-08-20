@@ -531,9 +531,7 @@ bno_cure_diseases = {
 		}
 		custom_tooltip = {
 			text = bno_cure_disease.employing_bbc_priestess
-			any_court_position_holder = {
-				type = bno_bbc_priestess_court_position
-			}
+			bno_has_bbc_priest_or_priestess = yes
 		}
 	}
 

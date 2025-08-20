@@ -52,6 +52,7 @@ bno_council_orgy.0001 = {
 		}
 		any_councillor = {
 			is_an_ai_girl = yes
+			is_elligible_partner = yes
 			count >= 3
 		}
 	}
@@ -65,6 +66,7 @@ bno_council_orgy.0001 = {
 		every_councillor = {
 			limit = {
 				is_an_ai_girl = yes
+				is_elligible_partner = yes
 			}
 			add_to_temporary_list = bno_council_orgy_female_list
 		}
@@ -421,6 +423,7 @@ bno_council_orgy.0002 = {
 		every_councillor = {
 			limit = {
 				is_an_ai_girl = yes
+				is_elligible_partner = yes
 			}
 			add_to_temporary_list = bno_council_orgy_female_list
 		}

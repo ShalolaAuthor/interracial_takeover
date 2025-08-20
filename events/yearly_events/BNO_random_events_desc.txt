@@ -44,6 +44,7 @@ bno_random.0001 = {
 	cooldown = { months = { 12 18 } }
 	trigger = {
 		is_a_girl = yes
+		is_elligible_partner = yes
 		does_an_ai_white_girl_exist = yes
 		does_blackbull_exist = yes
 	}
@@ -304,6 +305,7 @@ bno_random.0002 = {
 	
 	trigger = {
 		is_a_girl = yes
+		is_elligible_partner = yes
 		does_blackbull_exist = yes
 		does_blacked_mother_exist = yes
 	}
@@ -539,6 +541,7 @@ bno_random.0003 = {
 	
 	trigger = {
 		is_a_girl = yes
+		is_elligible_partner = yes
 		does_blackbull_exist = yes
 		does_blacked_sibling_exist = yes
 	}
@@ -3172,6 +3175,7 @@ bno_random.0020 = {
 	
 	trigger = {
 		is_a_girl = yes
+		is_elligible_partner = yes
 		any_liege_or_above = {
 			any_courtier_or_guest = {
 				is_ai_blackbull = yes
@@ -3988,8 +3992,10 @@ bno_random.0026 = {
 	
 	trigger = {
 		is_a_girl = yes
+		is_elligible_partner = yes
 		any_child = {
 			is_an_ai_girl = yes
+			is_elligible_partner = yes
 		}
 		does_blackbull_exist = yes
 	}
@@ -4001,6 +4007,7 @@ bno_random.0026 = {
 		random_child = {
 			limit = {
 				is_an_ai_girl = yes
+				is_elligible_partner = yes
 			}
 			save_scope_as = target2
 		}
@@ -6045,6 +6052,7 @@ bno_random.0040 = {
 
 	trigger = {
 		is_a_girl = yes
+		is_elligible_partner = yes
 		any_courtier_or_guest = {
 			is_ai_blackbull = yes
 		}
