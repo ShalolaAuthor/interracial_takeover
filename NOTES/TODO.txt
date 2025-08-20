@@ -35,13 +35,15 @@
 -check for other cultural gfx i got bored seeing african gfx
 -add revealing clothing tags?
 -fix perk 2 selection screen
--add BBC game concept
+-disable wife for bbc worshipper court position
+-fix event for appointing martial to local (check if the employed martial is already black)
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
 
 
 DONE:
+-add BBC game concept
 -researching why MAA icon not correctly assigned when hovered (localization perhaps?)
 -add icon for african warrior and ebony elites
 -add is at war to elligible partner check (no events should be played when war happens, way to annoying)

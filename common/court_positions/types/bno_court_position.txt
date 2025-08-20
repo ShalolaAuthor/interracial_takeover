@@ -185,7 +185,6 @@ bno_bbc_priestess_court_position = {
     minimum_rank = kingdom
     skill = learning
     
-    
     court_position_asset = {
         trigger = {
             is_a_girl = yes
