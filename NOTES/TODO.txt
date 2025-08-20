@@ -35,7 +35,6 @@
 -check for other cultural gfx i got bored seeing african gfx
 -add revealing clothing tags?
 -fix perk 2 selection screen
--fix event for appointing martial to local (check if the employed martial is already black)
 -make sure a wife of a BBC not getting targeted by other other bbc
 -add bbc priest icon
 -add xp for every successful conversion
@@ -51,6 +50,7 @@ IMPORTANT TODO:
 
 
 DONE:
+-fix event for appointing martial to local (check if the employed martial is already black)
 -disable wife for bbc worshipper court position
 -bull 0015 scope error
 -correctly assign court position and check

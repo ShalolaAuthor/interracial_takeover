@@ -23,10 +23,8 @@ is_spouse_curious = {
 }
 
 is_spouse_blacked = {
-	exists = primary_spouse
-	primary_spouse = {
-		is_blacked = yes
-		is_ai = yes
+	any_spouse = {
+		is_ai_blacked = yes
 	}
 }
 
@@ -62,11 +60,6 @@ is_ruler_whiteboy = {
 is_ai_not_married_blackbull = {
 	is_ai_blackbull = yes
 	is_married = no
-}
-
-is_ai_curious = {
-	is_curious = yes
-	is_ai = yes
 }
 
 is_ai_snowbunny = {

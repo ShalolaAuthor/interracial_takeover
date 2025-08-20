@@ -1779,3 +1779,19 @@ bbc_pimping = {
 		}
 	}
 }
+
+get_spouse_scope = {
+	random_spouse = {
+		limit = { $TRIGGER_KEY$ = yes }
+		save_scope_as = $SCOPE_NAME$
+	}
+}
+
+get_not_blacked_enough_spouse = {
+	get_spouse_scope = {
+		TRIGGER_KEY = is_not_blacked_enough
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_blacked_wife_scope

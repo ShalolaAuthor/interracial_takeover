@@ -181,6 +181,9 @@ bno_embrace_african_1.0002 = {
     }
 
     option = { # you agree to give bbc the position
+        trigger = {
+            cp:councillor_marshal.martial < scope:bbc.martial
+        }
         name = bno_embrace_african_1.0002.a
         fire_councillor = cp:councillor_marshal
         add_courtier = scope:bbc

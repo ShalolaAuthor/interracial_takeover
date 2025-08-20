@@ -42,7 +42,6 @@ bno_bull.0001 = {
 		liege ?= {
 			is_self_married_whiteguy = yes
 			NOT = { has_character_flag = bno_bull.0001 } #prevent cuck from getting spammed too much if he has many bbc courtiers
-			exists = primary_spouse
 			is_spouse_blacked = yes
 		}
 	}
@@ -140,12 +139,10 @@ bno_bull.0002 = {
 	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		root = {
-			is_ruler = yes
-			is_blackbull = yes
-			is_stressed_out = yes
-			does_blacked_girl_exist = yes
-		}
+		is_ruler = yes
+		is_blackbull = yes
+		is_stressed_out = yes
+		does_blacked_girl_exist = yes
 	}
 	
 	immediate = {
@@ -755,7 +752,6 @@ bno_bull.0010 = {
 	cooldown = {months = { 12 18 } }
 	trigger = {
 		is_blackbull = yes
-		exists = liege
 		does_white_guy_liege_has_money = yes
 	}
 	immediate = {
@@ -775,31 +771,6 @@ bno_bull.0010 = {
 		}
 	}
 }
-
-#bbc ruler changes some provinces to his culture/religion
-# bno_bull.0011 = {
-	# type = character_event
-	# title = bno_bull_0011.title
-	# desc = bno_bull_0011.desc
-	# theme = stewardship_domain_focus
-	
-	# override_background = {
-		# reference = throne_room
-		# }
-	# right_portrait = {
-		# character = root
-		# animation = steward
-		# }
-	# trigger = {
-		# root = {
-			# has_trait = bno_bbc
-			# OR = { is_adult = yes is_immortal = yes }
-			# has_faith = faith:bbcs
-			# any_realm_county = {
-				# }
-			# }
-		# }
-	# }
 
 #bull learns female's and her spouse's secrets
 bno_bull.0012 = {
@@ -901,7 +872,7 @@ bno_bull.0013 = {
 		is_partner_not_blacked_enough = yes
 	}
 	immediate = {
-		get_primary_spouse_scope = {
+		get_not_blacked_enough_spouse = {
 			SCOPE_NAME = target1
 		}
 		bno_have_sex_with_effects = {

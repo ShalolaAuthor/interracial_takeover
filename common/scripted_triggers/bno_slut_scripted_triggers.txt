@@ -327,9 +327,19 @@ is_curious = {
 	is_bno_curious_and_up = yes
 }
 
+is_not_married_to_bbc = {
+	trigger_if = {
+		limit = { is_married = yes }
+		any_spouse = {
+			is_bbc = no
+		}
+	}
+}
+
 is_ai_blacked = {
 	is_blacked = yes
 	is_ai = yes
+	is_not_married_to_bbc = yes
 }
 
 is_ai_blacked_noble = {
@@ -354,8 +364,7 @@ is_not_blacked_enough = {
 }
 
 is_partner_not_blacked_enough = {
-	exists = primary_spouse
-	primary_spouse = {
+	any_spouse = {
 		is_not_blacked_enough = yes
 	}
 }
