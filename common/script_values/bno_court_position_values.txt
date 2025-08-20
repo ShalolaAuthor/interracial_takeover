@@ -396,3 +396,8 @@ bno_bbc_priestess_candidate_score = {
 		add = 1000
 	}
 }
+
+bbc_whore_piety = {
+    value = 0
+    add = scope:bbc_worshipper.piety
+}

@@ -87,6 +87,44 @@ bno_embrace_african_2.0003.a.accept: "My daughter shall be theirs."
 bno_embrace_african_2.0003.a.decline: "Our land prospers on its own terms."
 
 #embrace_african_5
-bno_embrace_african_5.0001.a.enough: "Yes. I will pay whatever it cost to cure my [SCOPE.Custom('BNODiseaseType')]"
-bno_embrace_african_5.0001.a.not_enough: "I can't afford this. I need to pay [gold_i]#N [SCOPE.ScriptValue('bno_cure_disease_cost')]#!"
-bno_embrace_african_5.0001.b: "I can't to pay that much."
+bno_embrace_african_5.0001.title.female: "The Sovereign's Seed Blessing"
+bno_embrace_african_5.0001.desc.female: "Lady [ROOT.Char.GetFirstName] knelt before the Priest, her gown pooling around her like a dark pool at his feet. She'd been chosen for this ritual because of a persistent cough that wouldn't relent despite the finest remedies. The chamber was thick with incense and expectation as other courtiers watched from their cushioned seats.  The priest was large, his oiled skin gleaming under the torchlight. He wore only a simple loincloth that barely contained his erection - an impressive length of muscle pulsing beneath its white silk wrap. [ROOT.Char.GetFirstName] swallowed nervously, eyes fixed on his throbbing cock as he approached.\n\nHe lowered himself before her, hips swaying gently as he positioned himself directly over her spread legs.  She braced herself against the chill stone floor, opening her mouth wide as instructed. He plunged into her willingly, the heat of him radiating down onto her tongue even through the thin layer of silk. [ROOT.Char.GetFirstName] immediately felt his thick shaft press into her throat, demanding a deep swallow. His cock was slick and taut, its head warm and throbbing against her soft palate. The Priest groaned as he began to move inside her, thrusting rhythmically in time with the low thrumming chant resonating from the priestesses flanking them. [ROOT.Char.GetFirstName] worked her tongue around him, attempting to keep up with his frantic pace, taking every drop of thick pre-come that oozed onto her tongue before the inevitable torrent erupted.  It was hot and powerful, flooding her mouth and forcing her to gag involuntarily as she swallowed greedily - desperate for the cure, desperate for the taste of his power, desperate to be filled."
+bno_embrace_african_5.0001.a.female: "Mmfph! Ghhk!"
+
+bno_embrace_african_5.0001.title.male: "The Cleansing Kiss"
+bno_embrace_african_5.0001.desc.male: "Lord [ROOT.Char.GetFirstName] shifted uncomfortably on the raised dais. He'd been plagued by a persistent fever for weeks, his usual robust constitution failing to fight it off.  His gaze darted between the expectant faces of the court below and the imposing figure kneeling before him - the Priestess herself.  Her pale skin glistened under the torchlight, her golden blonde hair pulled back tight from a face that was both angelic and strikingly bold. A simple white tunic clung to her taut torso, barely concealing the curve of her hips and the swelling swell at their base. [ROOT.Char.GetFirstName] swallowed nervously, acutely aware of the heat emanating from her bare legs as they knelt before him.\n\nThe Priestess straightened, offering her face directly towards his lips. Her eyes were dark pools reflecting flickering candlelight, challenging him to accept the cure she held within her. She parted her legs slightly, revealing the smooth expanse of her vulva, slick with a sheen of oil that glinted under the torches. [ROOT.Char.GetFirstName] felt a prickle of arousal mixed with apprehension as he knelt down. Her warm scent, a heady blend of honeyed musk and something distinctly feminine, filled his nostrils as she lowered herself so his face was inches from her. He took a deep breath, bracing himself for the unexpected chill that met his lips when they brushed against the slick, waiting flesh. It felt like velvet dipped in cool moonlight before he was forced to open wider as her hips shifted forward, offering him access to the full depth of her body.  She released with a soft sigh and a ripple of muscle, the wave of heat washing over him as she filled his mouth - thick, creamy, and undeniably delicious."
+bno_embrace_african_5.0001.a.male: "Mmmf! Sweet like honey.."
+
+#Free Heal event-> follow up is 0001 priest seen you ill and decide to heal you 1 time for free because you built the cathedral
+bno_embrace_african_5.0002.title.female: "The Sovereign's Seed Blessing: Prelude"
+bno_embrace_african_5.0002.desc.female: "The fever had been relentless for days, turning your head into a furnace and rattling your bones with chills.  You'd finally surrendered to the inevitable and called for Brother [priestess.GetFirstName], the imposing black priest who was both renowned healer and infamous for his demanding touch during The Sovereign's Seed Blessing ritual. You knew it wasn't just any cure; word had spread of the miracle he wrought through that singular act of fervent devotion. Your body ached with the weakness of illness and yet, you found yourself oddly stirred by the knowledge that your salvation might come in such a primal way.  The door to your chamber creaked open and there he stood, [priestess.GetFirstName], a dark silhouette framed against the dim light spilling from the hallway. He moved with an effortless grace that belied his substantial frame as he crossed the room, stopping just inches from your bed where you lay shivering beneath your thin blankets.\n\nHe leaned down, inhaling sharply as though to gauge the very essence of your sickness before offering a low chuckle. "It seems my gift has come back to bite me, hasn't it?"  His fingers brushed against your damp forehead, eliciting a shiver that traveled down to your core. His thumb stroked gently across your cheekbone, sending a jolt of warmth through you despite the chill clinging to him like a second skin. [priestess.GetFirstName]'s eyes, dark and fathomless as polished obsidian, held yours with an intensity that stripped away any lingering modesty. "Do not fret, my child," he said in a voice rich and deep as velvet.  "The Sovereign's Seed will restore you." He gestured to the thick oils laid out on your bedside table, their scent sharp and exotic. "Come, now. We must begin preparations for our ritual.” You knew what awaited: his powerful erection pressing into your throat, filling your mouth with his heat as he thrust within you, demanding a greedy swallow of his cum.  A wave of both fear and longing washed over you as you nodded, the prospect of cure suddenly intertwined with the intoxicating thrill of surrendering to him."
+bno_embrace_african_5.0002.a.female: "Oh, please... I need it now..."
+
+bno_embrace_african_5.0002.desc.male: "The Cleansing Kiss: Prelude"
+bno_embrace_african_5.0002.title.male: "The chill that had wormed its way into your bones for weeks seemed to deepen with every raspy breath you drew.  You hadn't bothered sending for anyone when the fever hit, dismissing it as another bout of seasonal misery. But this time, it clung tighter, draining you of strength and leaving a dull ache in your head that throbbed like an insistent drum. You were about to summon a maid to bring you broth when a knock, surprisingly light, came at the chamber door.\n\nA vision in pale linen entered, casting a fleeting shadow from the flickering candlelight outside.  Sister [priestess.GetFirstName], they called her - and it was no wonder that whispers followed her like incense smoke. She seemed almost fragile, this Priestess of the Cleansing Kiss. Her frame was slender as a willow sapling, yet somehow she exuded an aura of otherworldly serenity. Even now, kneeling beside your bed with her golden-blonde hair cascading down her back like spun moonlight and those impossibly blue eyes searching yours, there was an unearthly gentleness about her that belied the power radiating from her very core. "The Church remembers its gifts," she murmured, her voice a soft chime in the stillness of your chamber. She held out a delicate hand, fingers tipped with amethyst rings, offering you a silken handkerchief already dampened with exotic oils. "This sickness has lingered too long, hasn't it?" Her lips curved into a sweet smile that sent a tremor through you despite the chill that still gripped your limbs.  "Let me offer you my cure." In her voice was a quiet assurance, not of healing alone, but of something more primal, something that promised to fill you with warmth beyond what any broth could bring."
+bno_embrace_african_5.0002.a.male: "Do not delay, Sister."
+
+#Beg Liege to make the church foundation  
+bno_embrace_african_5.0003.title: ""
+bno_embrace_african_5.0003.desc: ""
+bno_embrace_african_5.0003.a: ""
+
+#beg liege to make a cathedral
+bno_embrace_african_5.0004.title: ""
+bno_embrace_african_5.0004.desc: ""
+bno_embrace_african_5.0004.a: ""
+
+#beg liege to make the holy order
+bno_embrace_african_5.0005.title: ""
+bno_embrace_african_5.0005.desc: ""
+bno_embrace_african_5.0005.a: ""
+
+#fired from found bby holy order decision
+bno_embrace_african_5.0006.title: ""
+bno_embrace_african_5.0006.desc: ""
+bno_embrace_african_5.0006.a: ""
+
+#letter event holy order has sent you a priest
+bno_embrace_african_5.0007.opening: ""
+bno_embrace_african_5.0007.desc: ""
+bno_embrace_african_5.0007.a: ""

@@ -169,23 +169,36 @@ bbc_worshipper_pay_prestige = {
 }
 
 bbc_worshipper_give_all_spoil_to_liege = {
-    pay_short_term_gold = {
-        target = liege
-        gold = this.gold
-    }
+    save_scope_as = bbc_worshipper
     liege ?= {
-        add_piety = root.piety
+        save_scope_as = TARGET_CHARACTER
     }
-    add_piety = {
-        value = root.piety
-        multiply = -1
+    if = {
+        limit = { gold > 1 }
+        pay_short_term_gold = {
+            target = liege
+            gold = this.gold
+        }
     }
-    liege ?= {
-        add_prestige = root.prestige
+    if = {
+        limit = { piety > 1 }
+        liege ?= {
+            add_piety = bbc_whore_piety
+        }
+        add_piety = {
+            value = bbc_whore_piety
+            multiply = -1
+        }
     }
-    add_prestige = {
-        value = root.prestige
-        multiply = -1
+    if = {
+        limit = { prestige > 1 }
+        liege ?= {
+            add_prestige = root.prestige
+        }
+        add_prestige = {
+            value = root.prestige
+            multiply = -1
+        }
     }
 }
 

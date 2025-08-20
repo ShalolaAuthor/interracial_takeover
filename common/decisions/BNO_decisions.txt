@@ -994,6 +994,10 @@ bno_cure_diseases = {
 		}
 	}
 
+	cost = {
+		gold = bno_cure_disease_cost
+	}
+
 	ai_potential = {
 		any_held_title = {
 			tier >= tier_county

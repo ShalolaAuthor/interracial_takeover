@@ -46,7 +46,7 @@ bno_build_bbc_church.desc: "The construction of the church foundation will serve
 bno_build_bbc_church.tooltip: "Construct a place of worship dedicated to the [bno_bbc|E]"
 bno_build_bbc_church.toast: "$building_bbc_church_01$ Constructed"
 
-bno_found_bbc_church_holy_order: "Found the Holy Order of [bno_bbc|E]"
+bno_found_bbc_church_holy_order: "Found the Holy Order of [bno_religion|E]"
 bno_found_bbc_church_holy_order_confirm: "Let us spread the word of [bno_bbc|E]"
 bno_found_bbc_church_holy_order.desc: "The Holy Order of [bno_religion|E] shall be dedicated to the worship and veneration of the [bno_bbc|E], promoting its values and ensuring its place in our society."
 bno_found_bbc_church_holy_order.tooltip: "Establish a Holy Order dedicated to the worship of the [bno_bbc|E]"

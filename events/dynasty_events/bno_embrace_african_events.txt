@@ -1334,24 +1334,40 @@ namespace = bno_embrace_african_5
 # story say the priest need you to have a breeding ritual it cost massive amount of gold to get rid of your illness
 bno_embrace_african_5.0001 = {
     type = character_event
-    title = bno_embrace_african_5.0001.title
-    desc = bno_embrace_african_5.0001.desc
+    #window = big_event_window
     theme = healthcare
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_embrace_african_5.0001.title.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0001.title.male
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_embrace_african_5.0001.desc.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0001.desc.male
+            }
+        }
+    }
 
     override_background = {
         reference = temple
     }
 
     left_portrait = {
-        character = scope:priestess
-        triggered_animation = {
-            trigger = { scope:priestess = { is_a_male = yes } }
-            animation = personality_content
-        }
-        triggered_animation = {
-            trigger = { scope:priestess = { is_a_girl = yes } }
-            animation = bno_sex_love_stand_2
-        }
+        character = scope:carn_sex_partner
+        animation = sex_combined
         triggered_outfit = {
             trigger = { scope:priestess = { is_a_girl = yes } }
             outfit_tags = {
@@ -1361,8 +1377,8 @@ bno_embrace_african_5.0001 = {
     }
 
     right_portrait = {
-        character = root
-        animation = sick
+        character = scope:carn_sex_player
+        animation = sex_combined
         outfit_tags = {
             no_headgear
         }
@@ -1376,10 +1392,14 @@ bno_embrace_african_5.0001 = {
     }
 
     immediate = {
+        save_scope_as = carn_sex_player
         random_court_position_holder = {
             type = bno_bbc_priestess_court_position
             save_scope_as = priestess
+            save_scope_as = carn_sex_partner
         }
+        carn_sex_scene_start = yes
+        standing_oral_animations = yes
     }
 
     option = { # will show the cost of ritual and use show_as_unavailable if you dont have enough money
@@ -1387,41 +1407,48 @@ bno_embrace_african_5.0001 = {
             text = {
                 first_valid = {
                     triggered_desc = {
-                        trigger = { gold > bno_cure_disease_cost }
-                        desc = bno_embrace_african_5.0001.a.enough
+                        trigger = { is_a_girl = yes }
+                        desc = bno_embrace_african_5.0001.a.female
                     }
                     triggered_desc = {
-                        trigger = { gold < bno_cure_disease_cost }
-                        desc = bno_embrace_african_5.0001.a.not_enough
+                        trigger = { is_a_male = yes }
+                        desc = bno_embrace_african_5.0001.a.male
                     }
                 }
             }
         }
-        trigger = {
-            gold > bno_cure_disease_cost
-        }
-        show_as_unavailable = {
-            gold < bno_cure_disease_cost
-        }
-
-        pay_short_term_gold = {
-            gold = bno_cure_disease_cost
-            target = scope:priestess
-        }
         bno_cure_disease = yes
-
-    }
-
-    option = {# you reject because the cost is too high
-        name = bno_embrace_african_5.0001.b
+        carn_sex_scene_is_cum_inside_effect = yes
     }
 }
 
 #free treatment
 bno_embrace_african_5.0002 = {
     type = character_event
-    title = bno_embrace_african_5.0002.title
-    desc = bno_embrace_african_5.0002.desc
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {is_a_girl = yes}
+                desc = bno_embrace_african_5.0002.title.female
+            }
+            triggered_desc = {
+                trigger = {is_a_male = yes}
+                desc = bno_embrace_african_5.0002.title.male
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_embrace_african_5.0002.desc.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0002.desc.male
+            }
+        }
+    }
     theme = healthcare
 
     override_background = {
@@ -1430,9 +1457,12 @@ bno_embrace_african_5.0002 = {
 
     left_portrait = {
         character = scope:priestess
-        animation = bno_sex_love_stand_2
-        outfit_tags = {
-            no_clothes
+        animation = personality_content
+        triggered_outfit = {
+            trigger = { is_a_girl = yes }
+            outfit_tags = {
+                no_clothes
+            }
         }
     }
 
@@ -1458,7 +1488,111 @@ bno_embrace_african_5.0002 = {
         }
     }
     option = {
-        name = bno_embrace_african_5.0002.a
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_girl = yes }
+                        desc = bno_embrace_african_5.0002.a.female
+                    }
+                    triggered_desc = {
+                        trigger = { is_a_male = yes }
+                        desc = bno_embrace_african_5.0002.a.male
+                    }
+                }
+            }
+        }
+        trigger_event = {
+            id = bno_embrace_african_5.1002
+        }
+    }
+}
+#Follow Up
+bno_embrace_african_5.1002 = {
+    type = character_event
+    #window = big_event_window
+    theme = healthcare
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_embrace_african_5.0001.title.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0001.title.male
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_embrace_african_5.0001.desc.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0001.desc.male
+            }
+        }
+    }
+
+    override_background = {
+        reference = temple
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        triggered_outfit = {
+            trigger = { scope:priestess = { is_a_girl = yes } }
+            outfit_tags = {
+                no_clothes
+            }
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    trigger = {
+        bno_has_embrace_african_5 = yes
+        any_court_position_holder = {
+            type = bno_bbc_priestess_court_position
+        }
+    }
+
+    immediate = {
+        save_scope_as = carn_sex_player
+        random_court_position_holder = {
+            type = bno_bbc_priestess_court_position
+            save_scope_as = priestess
+            save_scope_as = carn_sex_partner
+        }
+        carn_sex_scene_start = yes
+        standing_oral_animations = yes
+    }
+
+    option = { # will show the cost of ritual and use show_as_unavailable if you dont have enough money
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_girl = yes }
+                        desc = bno_embrace_african_5.0001.a.female
+                    }
+                    triggered_desc = {
+                        trigger = { is_a_male = yes }
+                        desc = bno_embrace_african_5.0001.a.male
+                    }
+                }
+            }
+        }
         switch = {
             trigger = has_trait
             lovers_pox = { bno_cure_disease_type = { SICKNESS = lovers_pox } }
@@ -1478,6 +1612,7 @@ bno_embrace_african_5.0002 = {
             sickly = { bno_cure_disease_type = { SICKNESS = sickly } }
             great_pox = { bno_cure_disease_type = { SICKNESS = great_pox } }
         }
+        carn_sex_scene_is_cum_inside_effect = yes
     }
 }
 
