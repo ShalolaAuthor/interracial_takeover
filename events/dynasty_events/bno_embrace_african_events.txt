@@ -1619,12 +1619,34 @@ bno_embrace_african_5.1002 = {
 #beg liege to make the church foundation
 bno_embrace_african_5.0003 = {
     type = character_event
-    title = bno_embrace_african_5.0003.title
-    desc = bno_embrace_african_5.0003.desc
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:wanderer = { is_a_girl = yes } }
+                desc = bno_embrace_african_5.0003.title.female_wanderer
+            }
+            triggered_desc = {
+                trigger = { scope:wanderer = { is_a_male = yes } }
+                desc = bno_embrace_african_5.0003.title.male_wanderer
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:wanderer = { is_a_girl = yes } }
+                desc = bno_embrace_african_5.0003.desc.female_wanderer
+            }
+            triggered_desc = {
+                trigger = { scope:wanderer = { is_a_male = yes } }
+                desc = bno_embrace_african_5.0003.desc.male_wanderer
+            }
+        }
+    }
     theme = realm
 
     override_background = {
-        reference = farmland
+        reference = throne_room
     }
 
     left_portrait = {
@@ -1634,7 +1656,7 @@ bno_embrace_african_5.0003 = {
 
     right_portrait = {
         character = scope:wanderer
-        animation = disappointed
+        animation = beg
     }
 
     cooldown = { months = { 12 18 } }
@@ -1653,11 +1675,7 @@ bno_embrace_african_5.0003 = {
     }
 
     immediate = {
-        create_character = {
-            template = bbc_noble_template
-            location = root.capital_province
-            save_scope_as = wanderer
-        }
+        bno_get_wanderer_scope = yes
     }
 
     option = { # i will think about it
@@ -1665,20 +1683,40 @@ bno_embrace_african_5.0003 = {
     }
 
     after = {
-        bno_kill_character = {
-            TARGET = scope:wanderer
-        }
+        bno_kill_wanderer_scope = yes
     }    
 }
 # some spawned in people will beg liege to build bbc_church_02
 bno_embrace_african_5.0004 = {
     type = character_event
-    title = bno_embrace_african_5.0004.title
-    desc = bno_embrace_african_5.0004.desc
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:wanderer = { is_a_girl = yes } }
+                desc = bno_embrace_african_5.0004.title.female_wanderer
+            }
+            triggered_desc = {
+                trigger = { scope:wanderer = { is_a_male = yes } }
+                desc = bno_embrace_african_5.0004.title.male_wanderer
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:wanderer = { is_a_girl = yes } }
+                desc = bno_embrace_african_5.0004.desc.female_wanderer
+            }
+            triggered_desc = {
+                trigger = { scope:wanderer = { is_a_male = yes } }
+                desc = bno_embrace_african_5.0004.desc.male_wanderer
+            }
+        }
+    }
     theme = realm
 
     override_background = {
-        reference = farmland
+        reference = throne_room
     }
 
     left_portrait = {
@@ -1688,7 +1726,7 @@ bno_embrace_african_5.0004 = {
 
     right_portrait = {
         character = scope:wanderer
-        animation = disappointed
+        animation = beg
     }
 
     cooldown = { months = { 12 18 } }
@@ -1701,11 +1739,7 @@ bno_embrace_african_5.0004 = {
     }
 
     immediate = {
-        create_character = {
-            template = bbc_noble_template
-            location = root.capital_province
-            save_scope_as = wanderer
-        }
+        bno_get_wanderer_scope = yes
     }
 
     option = { # i will think about it
@@ -1713,20 +1747,40 @@ bno_embrace_african_5.0004 = {
     }
 
     after = {
-        bno_kill_character = {
-            TARGET = scope:wanderer
-        }
+        bno_kill_wanderer_scope = yes
     }
 }
 #Please make the holy order
 bno_embrace_african_5.0005 = {
     type = character_event
-    title = bno_embrace_african_5.0005.title
-    desc = bno_embrace_african_5.0005.desc
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_embrace_african_5.0005.title.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0005.title.male
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_embrace_african_5.0005.desc.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0005.desc.male
+            }
+        }
+    }
     theme = realm
 
     override_background = {
-        reference = farmland
+        reference = throne_room
     }
 
     left_portrait = {
@@ -1736,7 +1790,7 @@ bno_embrace_african_5.0005 = {
 
     right_portrait = {
         character = scope:wanderer
-        animation = disappointed
+        animation = beg
     }
 
     cooldown = { months = { 12 18 } }
@@ -1786,17 +1840,37 @@ bno_embrace_african_5.0005 = {
     }
 
     after = {
-        bno_kill_character = {
-            TARGET = scope:wanderer
-        }
+        bno_kill_wanderer_scope = yes
     }
 }
 
 # Found bbc holy order decision
 bno_embrace_african_5.0006 = {
     type = character_event
-    title = bno_embrace_african_5.0006.title
-    desc = bno_embrace_african_5.0006.desc
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_embrace_african_5.0006.title.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0006.title.male
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_embrace_african_5.0006.desc.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0006.desc.male
+            }
+        }
+    }
     theme = realm
 
     override_background = {
@@ -1817,22 +1891,7 @@ bno_embrace_african_5.0006 = {
 
     right_portrait = {
         character = scope:leader
-        triggered_animation = {
-            trigger = { is_a_male = yes }
-            animation = personality_content
-        }
-        triggered_animation = {
-            trigger = { is_a_girl = yes }
-            animation = bno_sex_love_stand_2
-        }
-
-        triggered_outfit = {
-            trigger = { is_a_girl = yes }
-            outfit_tags = {
-                no_clothes
-                no_headgear
-            }
-        }
+        animation = bno_sex_love_stand_2
     }
 
     trigger = {
@@ -1890,7 +1949,18 @@ bno_embrace_african_5.0007 = {
     opening = {
         desc = bno_embrace_african_5.0007.opening
     }
-    desc = bno_embrace_african_5.0007.desc
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:priest = { is_a_girl = yes } }
+                desc = bno_embrace_african_5.0007.desc.female_priest
+            }
+            triggered_desc = {
+                trigger = { scope:priest = { is_a_male = yes } }
+                desc = bno_embrace_african_5.0007.desc.male_priest
+            }
+        }
+    }
 
     trigger = {
         can_employ_court_position_type = bno_bbc_priestess_court_position

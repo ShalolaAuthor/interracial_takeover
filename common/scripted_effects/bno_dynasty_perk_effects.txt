@@ -358,3 +358,42 @@ bno_cure_disease_type = {
     remove_trait = $SICKNESS$
     add_trait = bno_$SICKNESS$_immunity
 }
+
+bno_get_wanderer_scope = {
+    random_list = {
+        50 = {
+            create_character = {
+                template = bbc_noble_template
+                location = root.capital_province
+                save_scope_as = wanderer
+            }
+        }
+        50 = {
+            random_list = {
+                50 = {
+                    create_blacked_european_girls = {
+                        TEMPLATE = bbc_worshipper_high_character_template
+                        LOCATION = root.capital_province
+                        SCOPE = wanderer
+                    }
+                }
+                50 = {
+                    create_blacked_european_girls = {
+                        TEMPLATE = bbc_worshipper_excellent_character_template
+                        LOCATION = root.capital_province
+                        SCOPE = wanderer
+                    }
+                }
+            }
+        }
+    }
+}
+
+bno_kill_wanderer_scope = {
+    scope:wanderer = {
+        trigger_event = {
+            id = bno_kill_temporary_character.0001
+            days = { 7 14 }
+        }
+    }
+}
