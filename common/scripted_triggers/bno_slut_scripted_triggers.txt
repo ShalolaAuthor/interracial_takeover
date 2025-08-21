@@ -327,6 +327,11 @@ is_curious = {
 	is_bno_curious_and_up = yes
 }
 
+is_ai_curious = {
+	is_curious = yes
+	is_ai = yes
+}
+
 is_not_married_to_bbc = {
 	trigger_if = {
 		limit = { is_married = yes }
