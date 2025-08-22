@@ -48,7 +48,7 @@ bno_bull.0001 = {
 	immediate = {
 		liege = {
 			save_scope_as = target1
-			get_primary_spouse_scope = {
+			get_blacked_wife_scope = {
 				SCOPE_NAME = target2
 			}
 		}
@@ -62,14 +62,14 @@ bno_bull.0001 = {
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target2
 		}
+		scope:target1 = {
+			add_character_flag = {
+				flag = bno_bull.0001		#add flag to prevent this guy from getting spammed multiple times in same event pulse
+				years = 2
+			}
+		}
 		scope:target2 ?= {
 			bno_increase_sluttyness = yes
-			primary_spouse = {
-				add_character_flag = {
-					flag = bno_bull.0001		#add flag to prevent this guy from getting spammed multiple times in same event pulse
-					years = 2
-				}
-			}
 		}
 	}
 	option = {
@@ -81,12 +81,10 @@ bno_bull.0001 = {
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target2
 		}
-		scope:target2 ?= {
-			primary_spouse = {
-				add_character_flag = {
-					flag = bno_bull.0001		#add flag to prevent this guy from getting spammed multiple times in same event pulse
-					years = 1
-				}
+		scope:target1 = {
+			add_character_flag = {
+				flag = bno_bull.0001		#add flag to prevent this guy from getting spammed multiple times in same event pulse
+				years = 2
 			}
 		}
 	}
@@ -329,9 +327,12 @@ bno_bull.2003 = {
 			}
 			if = {
 				limit = {
-					exists = primary_spouse
+					is_married = yes
 				}
-				primary_spouse = {
+				every_spouse = {
+					limit = {
+						is_ai_whiteguy = yes
+					}
 					trigger_event = {
 						id = bno_bull.3003
 						months = 2
@@ -755,9 +756,9 @@ bno_bull.0010 = {
 		does_white_guy_liege_has_money = yes
 	}
 	immediate = {
-		liege = {
+		liege ?= {
 			save_scope_as = target2
-			get_primary_spouse_scope = {
+			get_blacked_wife_scope = {
 				SCOPE_NAME = target1
 			}
 		}
@@ -766,6 +767,7 @@ bno_bull.0010 = {
 		name = bno_bull_0010.a
 		scope:target1 ?= {
 			bno_steal_white_husband_gold_effect = {
+				VICTIM = scope:target2
 				TARGET = root
 			}
 		}
@@ -817,8 +819,8 @@ bno_bull.0012 = {
 			SCOPE_NAME = target1
 		}
 		scope:target1 ?= {			#identify spouse for loc and notifications
-			primary_spouse = {
-				save_scope_as = target2
+			get_white_husband_with_secret_scope = {
+				SCOPE_NAME = target2
 			}
 		}
 	}
@@ -919,8 +921,8 @@ bno_bull.0014 = {
 			SCOPE_NAME = target1
 		}
 		scope:target1 ?= {
-			primary_spouse = {
-				save_scope_as = target2
+			get_white_husband_scope = {
+				SCOPE_NAME = target2
 			}
 		}
 	}
@@ -1187,8 +1189,8 @@ bno_bull.0015 = {
 			SCOPE_NAME = target1
 		}
 		scope:target1 ?= {
-			primary_spouse = {
-				save_scope_as = target2
+			get_pure_wife_scope = {
+				SCOPE_NAME = target2
 			}
 		}
 	}

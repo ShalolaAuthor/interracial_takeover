@@ -721,8 +721,8 @@ bno_random.0004 = {
 			SCOPE_NAME = target2
 		}
 		scope:target2 ?= {
-			primary_spouse = {
-				save_scope_as = target1
+			get_bbc_husband_scope = {
+				SCOPE_NAME = target1
 			}
 			bno_have_sex_with_effects = {
 				PARTNER = scope:target1
@@ -1864,13 +1864,12 @@ bno_random.0011 = {
 	
 	trigger = {
 		is_qos = yes
-		primary_spouse ?= {
-			NOT = { has_trait = bno_bbc }
+		is_married = yes
+		any_spouse = {
+			is_ai_whiteguy = yes
 		}
 		any_courtier_or_guest = {
-			has_trait = bno_bbc
-			is_adult = yes
-			is_ai = yes
+			is_ai_blackbull = yes
 			allowed_more_spouses = yes
 		}
 	}
@@ -1878,9 +1877,7 @@ bno_random.0011 = {
 	immediate = {
 		random_courtier_or_guest = {
 			limit = {
-				has_trait = bno_bbc
-				is_adult = yes
-				is_ai = yes
+				is_ai_blackbull = yes
 				allowed_more_spouses = yes
 			}
 			save_scope_as = target1
@@ -2453,14 +2450,14 @@ bno_random.0014 = {
 	trigger = {
 		is_qos = yes
 		is_married = yes
-		primary_spouse = {
-			is_bbc = yes
+		any_spouse = {
+			is_ai_blackbull = yes
 		}
 	}
 	
 	immediate = {
-		primary_spouse = {
-			save_scope_as = target1
+		get_bbc_husband_scope = {
+			SCOPE_NAME = target1
 		}
 		bno_influence_random_pure_courtier = yes
 	}
@@ -2582,8 +2579,8 @@ bno_random.0015 = {
 	trigger = {
 		is_qos = yes
 		is_married = yes
-		primary_spouse = {
-			is_bbc = yes
+		any_spouse = {
+			is_ai_blackbull = yes
 		}
 		any_close_family_member = {
 			is_mindless_bbc_slut = yes
@@ -2591,8 +2588,8 @@ bno_random.0015 = {
 	}
 	
 	immediate = {
-		primary_spouse = {
-			save_scope_as = target1
+		get_bbc_husband_scope = {
+			SCOPE_NAME = target1
 		}
 		random_close_family_member = {
 			limit = {
@@ -6159,7 +6156,7 @@ bno_random.0041 = {
 			is_ai_not_married_blackbull = yes
 		}
 		is_married = yes
-		primary_spouse = {
+		any_spouse = {
 			is_ai_curious = yes
 		}
 	}
@@ -6170,11 +6167,11 @@ bno_random.0041 = {
 			}
 			save_scope_as = target2
 		}
-		primary_spouse = {
-			save_scope_as = target1
+		get_curious_wife_scope = {
+			SCOPE_NAME = target1
 		}
 		hidden_effect = {
-			primary_spouse = {
+			scope:target1 = {
 				bno_increase_sluttyness = yes
 			}
 		}
@@ -6236,9 +6233,8 @@ bno_random.0042 = {
 		any_courtier_or_guest = {
 			is_ai_not_married_blackbull = yes
 		}
-		primary_spouse = {
-			is_mindless_bbc_slut = yes
-			is_ai = yes
+		any_spouse = {
+			is_ai_mindless = yes
 		}
 	}
 	immediate = {
@@ -6248,8 +6244,8 @@ bno_random.0042 = {
 			}
 			save_scope_as = target1
 		}
-		primary_spouse = {
-			save_scope_as = target2
+		get_mindless_wife_scope = {
+			SCOPE_NAME = target2
 		}
 
 		scope:target1 ?= {
@@ -6836,14 +6832,14 @@ bno_random.0045 = {
 	trigger = {
 		is_self_married_whiteguy = yes
 		does_blackbull_exist = yes
-		primary_spouse = {
+		any_spouse = {
 			is_ai_blacked = yes
 		}
 	}
 	
 	immediate = {
-		primary_spouse = {
-			save_scope_as = target1
+		get_blacked_wife_scope = {
+			SCOPE_NAME = target1
 		}
 		get_bbc_scope = {
 			SCOPE_NAME = target2
@@ -7017,7 +7013,7 @@ bno_random.0046 = {
 	trigger = {
 		is_self_married_whiteguy = yes
 		does_blackbull_exist = yes
-		primary_spouse = {
+		any_spouse = {
 			is_ai_snowbunny = yes
 		}
 	}
@@ -7025,8 +7021,8 @@ bno_random.0046 = {
 		get_bbc_scope = {
 			SCOPE_NAME = target1
 		}
-		primary_spouse = {
-			save_scope_as = target2
+		get_snowbunny_wife_scope = {
+			SCOPE_NAME = target2
 		}
 		scope:target1 ?= {
 			bno_have_sex_with_effects = {
@@ -7280,15 +7276,10 @@ bno_random.0047 = {
 		reference = bedchamber
 	}
 	left_portrait = {
-		character = root.primary_spouse
+		character = scope:wife
 		animation = shock
-		triggered_outfit = {
-			trigger = {
-				exists = root.primary_spouse
-			}
-			outfit_tags = {
-				no_clothes
-			}
+		outfit_tags = {
+			no_clothes
 		}
 	}
 	right_portrait = {
@@ -7346,12 +7337,14 @@ bno_random.0047 = {
 			is_ai_blackbull = yes
 			count > 3
 		}
-		primary_spouse = {
-			is_qos = yes
-			is_ai = yes
+		any_spouse = {
+			is_ai_qos = yes
 		}
 	}
 	immediate = {
+		get_qos_wife_scope = {
+			SCOPE_NAME = wife
+		}
 		random_courtier_or_guest = {
 			limit = {
 				is_ai_blackbull = yes
@@ -7412,7 +7405,7 @@ bno_random.0047 = {
 			}
 		}
 		hidden_effect = {
-			primary_spouse = {
+			scope:wife ?= {
 				bno_have_sex_with_effects = {
 					PARTNER = scope:target1
 				}
@@ -7477,9 +7470,8 @@ bno_random.0048 = {
 	
 	trigger = {
 		is_self_married_whiteguy = yes
-		primary_spouse = {
-			is_qos = yes
-			is_ai = yes
+		any_spouse = {
+			is_ai_qos = yes
 		}
 		NOR = {
 			has_trait = bno_caged
@@ -7487,8 +7479,8 @@ bno_random.0048 = {
 		}
 	}
 	immediate = {
-		primary_spouse = {
-			save_scope_as = target1
+		get_qos_wife_scope = {
+			SCOPE_NAME = target1
 		}
 	}
 	

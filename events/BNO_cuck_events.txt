@@ -50,7 +50,7 @@ bno_cuck.0001 = {
 		get_bbc_scope = {
 			SCOPE_NAME = target1
 		}
-		get_primary_spouse_scope = {
+		get_curious_wife_scope = {
 			SCOPE_NAME = target2
 		}
 		scope:target1 ?= {
@@ -230,8 +230,7 @@ bno_cuck.0002 = {
 	
 	trigger = {
 		is_cuck = yes
-		exists = primary_spouse
-		primary_spouse = {
+		any_spouse = {
 			is_imprisoned = no
 		}
 	}
@@ -286,7 +285,7 @@ bno_cuck.0003 = {
 		get_bbc_scope = {
 			SCOPE_NAME = target1
 		}
-		get_primary_spouse_scope = {
+		get_curious_wife_scope = {
 			SCOPE_NAME = target2
 		}
 		scope:target2 ?= {
@@ -594,16 +593,19 @@ bno_cuck.3004 = {
 		if = {
 			limit = {
 				scope:target2 ?= {
-					exists = primary_spouse
-					primary_spouse = {
-						NOT = {
-							has_trait = bno_bbc
-						}
+					is_married = yes
+					any_spouse = {
+						is_ai_whiteguy = yes
 					}
 				}
 			}
 			scope:target2 ?= {
-				primary_spouse = { become_more_cuck_effect = yes }
+				every_spouse = {
+					limit = {
+						is_ai_whiteguy = yes
+					}
+					become_more_cuck_effect = yes 
+				}
 			}
 		}
 
@@ -887,7 +889,7 @@ bno_cuck.0008 = {
 			}
 			save_scope_as = target1
 		}
-		get_primary_spouse_scope = {
+		get_blacked_wife_scope = {
 			SCOPE_NAME = target2
 		}
 	}
@@ -989,8 +991,8 @@ bno_cuck.0009 = {
 			target = scope:cucked_son
 		}
 		scope:cucked_son = {
-			primary_spouse = {
-				save_scope_as = target2
+			get_blacked_wife_scope = {
+				SCOPE_NAME = target2
 			}
 			add_opinion = {
 				modifier = grateful_child
@@ -1071,7 +1073,7 @@ bno_cuck.0010 = {
 			}
 			save_scope_as = target1
 		}
-		get_primary_spouse_scope = {
+		get_blacked_wife_scope = {
 			SCOPE_NAME = target2
 		}
 		random_vassal = {
@@ -1361,7 +1363,7 @@ bno_cuck.0012 = {
 	cooldown = { months = { 12 18 } }
 
 	immediate = {
-		get_primary_spouse_scope = {
+		get_blacked_wife_scope = {
 			SCOPE_NAME = target1
 		}
 		random_directly_owned_province  = {
@@ -1460,14 +1462,17 @@ bno_cuck.0014 = {
 		is_spouse_curious = yes
 	}
 	immediate = {
-		get_primary_spouse_scope = {
+		get_curious_wife_scope = {
 			SCOPE_NAME = target1
 		}
 		get_blacked_girl_scope = {
 			SCOPE_NAME = target2
 		}
 		hidden_effect = {
-			primary_spouse = {
+			every_spouse = {
+				limit = {
+					is_ai_curious = yes
+				}
 				bno_increase_sluttyness = yes
 			}
 		}
@@ -1513,7 +1518,7 @@ bno_cuck.0015 = {
 	cooldown = { months = { 12 18 } }
 
 	immediate = {
-		get_primary_spouse_scope = {
+		get_mindless_wife_scope = {
 			SCOPE_NAME = target2
 		}
 		bno_increase_cuckiness = yes
@@ -1581,8 +1586,8 @@ bno_cuck.0016 = {
 		is_bbc = no
 	}
 	immediate = {
-		get_primary_spouse_scope = {
-			SCOPE_NAME = target2
+		random_spouse = {
+			save_scope_as = target2
 		}
 	}
 	option = { # Accept your fate in silence

@@ -176,7 +176,7 @@ bno_steal_white_husband_gold_effect = {
 		modifier = bno_wife_stealing_cucks_gold
 		months = 12
 	}
-	primary_spouse = {
+	$VICTIM$ = {
 		remove_short_term_gold = minor_gold_value
 		add_prestige = minor_prestige_loss
 		send_interface_message = {
@@ -197,7 +197,10 @@ bno_steal_white_husband_gold_effect = {
 
 bno_reveal_secret_effect = {
 	save_temporary_scope_as = temp
-	primary_spouse = {
+	every_spouse = {
+		limit = {
+			is_ai_whiteguy = yes
+		}
 		every_secret = {
 			reveal_to = root
 		}
@@ -330,8 +333,8 @@ bno_marriage_effect = {
 	save_temporary_scope_as = temp
 	if = {
 		limit = {
-			exists = primary_spouse
-			primary_spouse = {
+			is_married = yes
+			any_spouse = {
 				is_alive = yes
 			}
 		}
@@ -342,11 +345,10 @@ bno_marriage_effect = {
 			}
 			add_prestige = 150
 		}
-		add_opinion = {
-			modifier = previous_cuck_husband
-			target = primary_spouse
-		}
-		primary_spouse = {
+		every_spouse = {
+			limit = {
+				is_ai_whiteguy = yes
+			}
 			add_opinion = {
 				modifier = forced_divorce_opinion
 				target = $TARGET$
@@ -359,8 +361,15 @@ bno_marriage_effect = {
 			}
 			bno_increase_cuckiness = yes
 			add_prestige = -500
+			save_scope_as = husband_temp
+			scope:temp = {
+				add_opinion = {
+					modifier = previous_cuck_husband
+					target = scope:husband_temp
+				}
+				divorce = scope:husband_temp
+			}
 		}
-		divorce = primary_spouse
 	}
 	else = {
 		$TARGET$ = {
@@ -412,21 +421,24 @@ bno_get_all_gold = {
 }
 
 bno_bbc_divorce_effect = {
-	save_temporary_scope_as = temp
-	primary_spouse = {
+	save_temporary_scope_as = divorcer_temp
+	get_old_wife_or_wife_with_bad_trait = {
+		SCOPE_NAME = divorced_wife
+	}
+	scope:divorced_wife = {
 		add_character_modifier = {
 			modifier = bno_no_longer_black_breedable
 			years = 1
 		}
 		bno_get_all_gold = {
-			TARGET = scope:temp
+			TARGET = scope:divorcer_temp
 		}
 	}
 	add_character_modifier = {
 		modifier = bno_divorced_worthless_wife
 	}
-	remove_relation_lover = primary_spouse
-	divorce = primary_spouse
+	remove_relation_lover = scope:divorced_wife
+	divorce = scope:divorced_wife
 }
 
 get_married_pure_girl_scope = {
@@ -987,13 +999,17 @@ bbc_sex = {
 		if = {
 			limit = {
 				scope:carn_sex_char_1 = {
-					primary_spouse ?= {
-						is_bbc = no
+					is_married = yes
+					any_spouse = {
+						is_ai_whiteguy = yes
 					}
 				}
 			}
 			scope:carn_sex_char_1 = {
-				primary_spouse = {
+				every_spouse = {
+					limit = {
+						is_ai_whiteguy = yes
+					}
 					bno_cuck_sex_after_effects = yes
 				}
 			}
@@ -1024,13 +1040,17 @@ bbc_sex = {
 		if = {
 			limit = {
 				scope:carn_sex_char_2 = {
-					primary_spouse ?= {
-						is_bbc = no
+					is_married = yes
+					any_spouse = {
+						is_ai_whiteguy = yes
 					}
 				}
 			}
 			scope:carn_sex_char_2 = {
-				primary_spouse = {
+				every_spouse = {
+					limit = {
+						is_ai_whiteguy = yes
+					}
 					bno_cuck_sex_after_effects = yes
 				}
 			}
@@ -1100,12 +1120,23 @@ bno_remove_eating_disorder = {
 		modifier = bno_fed_me_cum
 		target = $TARGET$
 	}
-	primary_spouse ?= {
-		send_interface_message = {
-			type = bno_blacked_events
-			title = bno_bull_0004_notification.title
-			right_icon = scope:temp
-			desc = bno_bull_0004_notification.desc
+	if = {
+		limit = {
+			is_married = yes
+			any_spouse = {
+				is_ai_whiteguy = yes
+			}
+		}
+		every_spouse = {
+			limit = {
+				is_ai_whiteguy = yes
+			}
+			send_interface_message = {
+				type = bno_blacked_events
+				title = bno_bull_0004_notification.title
+				right_icon = scope:temp
+				desc = bno_bull_0004_notification.desc
+			}
 		}
 	}
 }
@@ -1649,12 +1680,6 @@ get_random_cuck_scope = {
 	}
 }
 
-get_primary_spouse_scope = {
-	primary_spouse = {
-		save_scope_as = $SCOPE_NAME$
-	}
-}
-
 become_lover_with_target = {
 	if = {
 		limit = {
@@ -1685,10 +1710,15 @@ slut_whoring = {
 	save_temporary_scope_as = temp
 	if = {
 		limit = {
-			exists = primary_spouse
-			primary_spouse = { is_bbc = no }
+			is_married = yes
+			any_spouse = {
+				is_ai_whiteguy = yes
+			}
 		}
-		primary_spouse = {
+		every_spouse = {
+			limit = {
+				is_ai_whiteguy = yes
+			}
 			send_interface_message = {
 				type = bno_blacked_events
 				title = bno_bull_0008_notification.title
@@ -1794,4 +1824,79 @@ get_not_blacked_enough_spouse = {
 	}
 }
 
-get_blacked_wife_scope
+get_blacked_wife_scope = {
+	get_spouse_scope = {
+		TRIGGER_KEY = is_ai_blacked
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_curious_wife_scope = {
+	get_spouse_scope = {
+		TRIGGER_KEY = is_ai_curious
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_mindless_wife_scope = {
+	get_spouse_scope = {
+		TRIGGER_KEY = is_ai_mindless
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_bbc_husband_scope = {
+	get_spouse_scope = {
+		TRIGGER_KEY = is_ai_blackbull
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_rich_white_husband_scope = {
+	get_spouse_scope = {
+		TRIGGER_KEY = is_ai_whiteguy_rich
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_white_husband_scope = {
+	get_spouse_scope = {
+		TRIGGER_KEY = is_ai_whiteguy
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_qos_wife_scope = {
+	get_spouse_scope = {
+		TRIGGER_KEY = is_ai_qos
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_snowbunny_wife_scope = {
+	get_spouse_scope = {
+		TRIGGER_KEY = is_ai_snowbunny
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_white_husband_with_secret_scope = {
+	get_spouse_scope = {
+		TRIGGER_KEY = is_ai_whiteguy_has_secret
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_pure_wife_scope = {
+	get_spouse_scope = {
+		TRIGGER_KEY = is_ai_pure_white_girl
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+get_old_wife_or_wife_with_bad_trait = {
+	get_spouse_scope = {
+		TRIGGER_KEY = is_old_or_has_bad_trait
+		SCOPE_NAME = $SCOPE_NAME$
+	}
+}

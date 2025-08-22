@@ -327,8 +327,8 @@ bno_title_change.0004 = {
 					gold = scope:vassal_losing_title.gold
 				}
 			}
-			primary_spouse = {
-				save_scope_as = killer_slut
+			get_mindless_wife_scope = {
+				SCOPE_NAME = killer_slut
 			}
 		}
 	}
@@ -398,7 +398,7 @@ bno_title_change.0005 = { #Wife takes cucks titles
 		is_partner_mindless_bbc_slut = yes
 	}
 	immediate = {
-		get_primary_spouse_scope = {
+		get_mindless_wife_scope = {
 			SCOPE_NAME = target1
 		}
 	}

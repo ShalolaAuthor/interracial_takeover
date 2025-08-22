@@ -175,10 +175,15 @@ bno_ritual_of_purification.1001 = {
         name = bno_ritual_of_purification.1001.c
         trigger = {
             has_trait = bno_whitegirl
-            exists = primary_spouse
-            primary_spouse = {
-                is_bbc = yes
+            trigger_if = {
+                limit = { is_married = yes }
+                any_spouse = {
+                    is_ai_blackbull = yes
+                }
             }
+        }
+        get_bbc_husband_scope = {
+            SCOPE_NAME = bbc_husband
         }
         trigger_event = {
             id = bno_ritual_of_purification.1301
@@ -433,7 +438,7 @@ bno_ritual_of_purification.1301 = {
     }
 
     right_portrait = {
-        character = root.primary_spouse
+        character = scope:bbc_husband
         animation = personality_content
         outfit_tags = {
             no_clothes
@@ -456,7 +461,7 @@ bno_ritual_of_purification.1301 = {
 
         scope:child = {
             bno_have_sex_with_effects = {
-                PARTNER = root.primary_spouse
+                PARTNER = scope:bbc_husband
             }            
         }
 

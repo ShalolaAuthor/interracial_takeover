@@ -106,28 +106,31 @@ bno_events.0002 = {
 	
 	trigger = {
 		is_female = yes
-		AND = {
-			exists = primary_spouse
-			primary_spouse = {
-				is_a_male = yes
-				has_trait = bno_bbc
+		trigger_if = {
+			limit = { is_married = yes }
+			any_spouse = {
+				is_ai_blackbull = yes
 				has_any_nickname = no
 			}
 		}
 	}
 	
 	immediate = {
-		root = {
-			primary_spouse = {
-				give_nickname = nick_bk
-				save_scope_as = target1
+		random_spouse = {
+			limit = {
+				is_ai_blackbull = yes
+				has_any_nickname = no
 			}
-			if = {
-				limit = {
-					has_any_nickname = no
-				}
-				give_nickname = nick_qos
+			save_scope_as = target1
+		}
+		scope:target1 = {
+			give_nickname = nick_bk
+		}
+		if = {
+			limit = {
+				has_any_nickname = no
 			}
+			give_nickname = nick_qos
 		}
 	}
 	
@@ -157,28 +160,33 @@ bno_events.0003 = {
 	
 	trigger = {
 		is_female = yes
-		primary_spouse = {
-			is_a_male = yes
-			has_trait = bno_bbc
+		is_married = yes
+		any_spouse = {
+			is_ai_blackbull = yes
 			OR = {
 				has_any_nickname = no
 				has_nickname = nick_bk
 			}
-		}	
+		}
 	}
 	
 	immediate = {
-		root = {
-			primary_spouse = {
-				give_nickname = nick_wq
-				save_scope_as = target1
-			}
-			if = {
-				limit = {
+		every_spouse = {
+			limit = {
+				is_ai_blackbull = yes
+				OR = {
 					has_any_nickname = no
+					has_nickname = nick_bk
 				}
-				give_nickname = nick_qos
 			}
+			give_nickname = nick_wq
+			save_scope_as = target1
+		}
+		if = {
+			limit = {
+				has_any_nickname = no
+			}
+			give_nickname = nick_qos
 		}
 	}
 	
@@ -231,7 +239,7 @@ bno_events.0005 = {
 		get_bbc_scope = {
 			SCOPE_NAME = target1
 		}
-		get_primary_spouse_scope = {
+		get_curious_wife_scope = {
 			SCOPE_NAME = target2
 		}
 		scope:target1 ?= {

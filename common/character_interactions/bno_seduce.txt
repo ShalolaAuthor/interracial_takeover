@@ -137,8 +137,7 @@
 		modifier = {
 			add = -50
 			scope:actor = {
-				exists = primary_spouse
-				primary_spouse = { has_strong_hook = scope:actor }
+				any_spouse = { has_strong_hook = scope:actor }
 			}
 		}
 		
@@ -251,8 +250,7 @@
 		modifier = { # Seducing the spouse of your rival is good drama...
 			add = 25
 			scope:recipient = {
-				exists = primary_spouse
-				primary_spouse = {
+				any_spouse = {
 					OR = {
 						has_relation_rival = scope:actor
 						has_relation_nemesis = scope:actor
@@ -282,7 +280,7 @@
 			scope:recipient = {
 				is_married = yes
 				NOT = {
-					primary_spouse = scope:actor
+					any_spouse = scope:actor
 				}
 			}
 			scope:actor = {

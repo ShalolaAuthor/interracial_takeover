@@ -111,7 +111,7 @@ bno_marriage.0003 = {
 		does_partner_has_bad_trait = yes
 	}
 
-	option = {
+	immediate = {
 		bno_bbc_divorce_effect = yes
 		trigger_event = bno_marriage.0001
 	}

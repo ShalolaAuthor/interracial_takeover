@@ -433,12 +433,15 @@ bno_convert_to_african = {
 	effect = {
 		if = {
 			limit = {
-				exists = primary_spouse
-				primary_spouse ?= {
+				is_married = yes
+				any_spouse = {
 					is_culture_bnoc = yes
 				}
 			}
-			primary_spouse = {
+			random_spouse = {
+				limit = {
+					is_culture_bnoc = yes
+				}
 				culture = {
 					save_scope_as = new_culture
 				}

@@ -15,10 +15,8 @@ is_self_married_whiteguy = {
 }
 
 is_spouse_curious = {
-	exists = primary_spouse
-	primary_spouse = {
-		is_curious = yes
-		is_ai = yes
+	any_spouse = {
+		is_ai_curious = yes
 	}
 }
 

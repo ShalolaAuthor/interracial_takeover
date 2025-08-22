@@ -12,42 +12,22 @@ bno_slut.0001 = {
 	left_portrait = {
 		character = root
 		animation = ecstasy
-		triggered_outfit = {
-			trigger = {
-				exists = root
-			}
-			outfit_tags = {
-				no_clothes
-			}
+		outfit_tags = {
+			no_clothes
 		}
 	}
 	right_portrait = {
 		character = scope:bbc
 		animation = personality_content
-		triggered_outfit = {
-			trigger = {
-				exists = scope:bbc
-			}
-			outfit_tags = {
-				no_clothes
-			}
+		outfit_tags = {
+			no_clothes
 		}
 	}
 	lower_center_portrait = {
-		character = root.primary_spouse
-		triggered_animation = {
-			trigger = {
-				exists = scope:cuck
-			}
-			animation = eavesdrop
-		}
+		character = scope:husband
 	}
 	cooldown = { months = { 12 18 } }
 	trigger = {
-		#Test: remove later
-		culture = {
-			has_cultural_pillar = heritage_bnoc
-		}
 		is_pure_whitegirl = yes
 		does_blackbull_exist = yes
 		is_partner_non_bbc = yes
@@ -55,6 +35,9 @@ bno_slut.0001 = {
 	immediate = {
 		get_bbc_scope = {
 			SCOPE_NAME = bbc
+		}
+		get_white_husband_scope = {
+			SCOPE_NAME = husband
 		}
 	}
 	option = {
@@ -192,6 +175,9 @@ bno_slut.0003 = {
 	immediate = {
 		get_bbc_scope = {
 			SCOPE_NAME = bbc
+		}
+		get_white_husband_scope = {
+			SCOPE_NAME = husband
 		}
 	}
 	option = {
@@ -331,13 +317,7 @@ bno_slut.3003 = {
 		animation = personality_content
 	}
 	lower_center_portrait = {
-		character = root.primary_spouse
-		triggered_animation = {
-			trigger = {
-				exists = root.primary_spouse
-			}
-			animation = eavesdrop
-		}
+		character = scope:husband
 	}
 
 	trigger = {
@@ -550,7 +530,7 @@ bno_slut.0006 = {
 		get_hated_non_black_courtier_scope = {
 			SCOPE_NAME = cuck
 		}
-		get_primary_spouse_scope = {
+		get_bbc_husband_scope = {
 			SCOPE_NAME = bbc
 		}
 	}
@@ -571,19 +551,14 @@ bno_slut.0007 = {
 		reference = market
 	}
 	right_portrait = {
-		character = primary_spouse
+		character = scope:bbc
 		animation = personality_content
 	}
 	left_portrait = {
 		character = root
 		animation = drink_goblet
-		triggered_outfit = {
-			trigger = {
-				exists = root
-			}
-			outfit_tags = {
-				no_clothes
-			}
+		outfit_tags = {
+			no_clothes
 		}
 	}
 	trigger = {
@@ -599,7 +574,7 @@ bno_slut.0007 = {
 		}
 		add_trait = strong
 		becoming_african = yes
-		get_primary_spouse_scope = {
+		get_bbc_husband_scope = {
 			SCOPE_NAME = bbc
 		}
 	}
@@ -935,7 +910,7 @@ bno_slut.0010 = {
 		does_blackbull_exist = yes
 	}
 	immediate = {
-		get_primary_spouse_scope = {
+		get_rich_white_husband_scope = {
 			SCOPE_NAME = cuck
 		}
 		get_bbc_scope = {
@@ -945,6 +920,7 @@ bno_slut.0010 = {
 	option = {
 		name = bno_slut_0010.a
 		bno_steal_white_husband_gold_effect = {
+			VICTIM = scope:cuck
 			TARGET = scope:bbc
 		}
 	}
@@ -994,7 +970,7 @@ bno_slut.0012 = {
 		get_secret_haver_scope = {
 			SCOPE_NAME = whitegirl
 		}
-		get_primary_spouse_scope = {
+		get_bbc_husband_scope = {
 			SCOPE_NAME = bbc
 		}
 	}
@@ -1056,7 +1032,7 @@ bno_slut.0013 = {
 	}
 
 	immediate = {
-		get_primary_spouse_scope = {
+		get_bbc_husband_scope = {
 			SCOPE_NAME = bbc
 		}
 		bno_have_sex_with_effects = {
@@ -1102,8 +1078,8 @@ bno_slut.0014 = {
 			SCOPE_NAME = whitegirl
 		}
 		scope:whitegirl ?= {
-			primary_spouse ?= {
-				save_scope_as = target2
+			get_white_husband_scope = {
+				SCOPE_NAME = target2
 			}
 		}
 	}
@@ -1114,7 +1090,7 @@ bno_slut.0014 = {
 		}
 		scope:whitegirl ?= {
 			bno_increase_sluttyness = yes
-			primary_spouse ?= {
+			scope:target2 ?= {
 				trigger_event = {
 					id = bno_cuck.0015
 					days = 5
@@ -1134,7 +1110,7 @@ bno_slut.0014 = {
 			base = 50
 		}
 		scope:whitegirl ?= {
-			primary_spouse = {
+			scope:target2 = {
 				trigger_event = {
 					id = bno_cuck.0015
 					days = 5
@@ -1156,7 +1132,7 @@ bno_slut.0014 = {
 		}
 		scope:whitegirl ?= {
 			bno_increase_sluttyness = yes
-			primary_spouse = {
+			scope:target2 = {
 				trigger_event = {
 					id = bno_cuck.0016
 					days = 5

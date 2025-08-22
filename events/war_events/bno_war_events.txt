@@ -44,17 +44,14 @@ bno_war.0001 = {
 			is_war_leader = root
 			is_attacker = root
 			primary_defender = {
-				is_a_male = yes
+				is_ai_whiteguy = yes
 				is_married = yes
-				NOT = { has_trait = bno_bbc }
-				primary_spouse = {
-					is_ai = yes
+				any_spouse = {
 					NOT = { is_close_or_extended_family_of = root }
-					is_bno_snowbunny_and_up = yes
+					is_ai_snowbunny = yes
 				}
 			}
 		}
-		is_adult = yes
 		allowed_more_spouses = yes
 	}
 	immediate = {
@@ -63,12 +60,11 @@ bno_war.0001 = {
 				is_war_leader = root
 				is_attacker = root
 				primary_defender = {
-					is_a_male = yes
+					is_ai_whiteguy = yes
 					is_married = yes
-					NOT = { has_trait = bno_bbc }
-					primary_spouse = {
+					any_spouse = {
 						NOT = { is_close_or_extended_family_of = root }
-						is_bno_snowbunny_and_up = yes
+						is_ai_snowbunny = yes
 					}
 				}
 			}
@@ -80,8 +76,8 @@ bno_war.0001 = {
 			}
 		}
 		scope:defender = {
-			primary_spouse = {
-				save_scope_as = target1
+			get_snowbunny_wife_scope = {
+				SCOPE_NAME = target1
 			}
 			divorce = scope:target1
 		}
@@ -107,6 +103,14 @@ bno_war.0001 = {
 			}
 			convert_to_bbc_religion = yes
 		}
+		if = {
+			limit = {
+				is_mindless_bbc_slut = yes
+			}
+			get_bbc_husband_scope = {
+				SCOPE_NAME = bbc_husband
+			}
+		}
 	}
 	option = { #simply add betrayer to your court
 		name = bno_war_0001.a
@@ -125,18 +129,43 @@ bno_war.0001 = {
 		trigger = {
 			allowed_more_spouses = yes
 		}
-		marry = scope:target1
-		bno_have_sex_with_effects = {
-			PARTNER = scope:target1
-		}
-		scope:target1 ?= {
-			add_opinion = {
-				modifier = stolen_by_new_bull_master
-				target = root
+		if = {
+			limit = { exists = scope:bbc_husband }
+			scope:bbc_husband = {
+				marry = scope:target1
+				bno_have_sex_with_effects = {
+					PARTNER = scope:target1
+				}
+				scope:target1 ?= {
+					add_opinion = {
+						modifier = stolen_by_new_bull_master
+						target = root
+					}
+					add_opinion = {
+						modifier = bull_husband_takes_me
+						target = root
+					}
+				}
 			}
-			add_opinion = {
-				modifier = bull_husband_takes_me
-				target = root
+		}
+		else_if = {
+			limit = {
+				is_bbc = yes
+				is_a_male = yes
+			}
+			marry = scope:target1
+			bno_have_sex_with_effects = {
+				PARTNER = scope:target1
+			}
+			scope:target1 ?= {
+				add_opinion = {
+					modifier = stolen_by_new_bull_master
+					target = root
+				}
+				add_opinion = {
+					modifier = bull_husband_takes_me
+					target = root
+				}
 			}
 		}
 	}

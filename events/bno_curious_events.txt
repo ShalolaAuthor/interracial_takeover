@@ -189,13 +189,16 @@ bno_curious.1101 = {
             limit = {
                 is_married = yes 
             }
-            primary_spouse = {
-                trigger_event =  {
+			every_spouse = {
+				limit = {
+					is_ai_whiteguy = yes
+				}
+				trigger_event =  {
                     id=bno_cuck.0002 
                     days = 7 
                     delayed = yes
                 }
-            }
+			}
 		}
 	}
 }
@@ -305,7 +308,10 @@ bno_curious.1201 = {
 			limit = {
 				is_married = yes 
 			}
-			primary_spouse ?= { 
+			every_spouse = {
+				limit = {
+					is_ai_whiteguy = yes
+				} 
 				trigger_event = {
 					id = bno_cuck.0003
 					days = 1
@@ -319,7 +325,10 @@ bno_curious.1201 = {
                     is_married = yes 
                 } 
             }
-			primary_spouse = {
+			every_spouse = {
+				limit = {
+					is_ai_whiteguy = yes
+				}
 				trigger_event = {
 					id = bno_cuck.0004
 					days = 1

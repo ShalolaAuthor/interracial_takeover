@@ -29,24 +29,26 @@ is_a_male = {
 
 does_blacked_girl_white_husband_has_secret = {
 	is_blacked = yes
-	exists = primary_spouse
-	primary_spouse = {
-		has_any_secrets = yes
-		is_bbc = no
-		any_secret = {
-			NOT = { is_known_by = root }
-		}
+	is_married = yes
+	any_spouse = {
+		is_ai_whiteguy_has_secret = yes
+	}
+}
+
+is_ai_whiteguy_has_secret = {
+	has_any_secrets = yes
+	is_ai_whiteguy = yes
+	any_secret = {
+		NOT = { is_known_by = root }
 	}
 }
 
 does_white_guy_liege_has_money = {
-	exists = liege
-	liege = {
+	liege ?= {
 		gold > 50
 		is_self_married_whiteguy = yes
-		exists = primary_spouse
-		primary_spouse = {
-			is_blacked = yes
+		any_spouse = {
+			is_ai_blacked = yes
 		}
 	}
 }
@@ -69,10 +71,10 @@ does_white_vassal_has_non_blacked_wife = {
 }
 
 is_white_guy_with_pure_wife = {
-	is_self_married_whiteguy = yes
-	exists = primary_spouse
-	primary_spouse = {
-		is_pure_whitegirl = yes
+	is_ai_whiteguy = yes
+	is_married = yes
+	any_spouse = {
+		is_ai_pure_white_girl = yes
 	}
 }
 
@@ -124,11 +126,10 @@ does_qos_has_blackbull_husband_exist = {
 }
 
 is_qos_has_blackbull_husband = {
-	is_qos = yes
-	is_ai = yes
+	is_ai_qos = yes
 	is_married = yes
-	primary_spouse = {
-		is_bbc = yes
+	any_spouse = {
+		is_ai_blackbull = yes
 	}
 }
 
@@ -256,9 +257,11 @@ does_blacked_girl_married_to_a_ruler_exist = {
 
 is_blacked_girl_married_to_a_ruler = {
 	is_ai_blacked = yes
-	exists = primary_spouse
-	primary_spouse = {
-		is_self_married_whiteguy = yes
+	trigger_if = {
+		limit = { is_married = yes }
+		any_spouse ?= {
+			is_ai_whiteguy = yes
+		}
 	}
 }
 
@@ -270,9 +273,11 @@ is_unmarried_ai_pure_white_girl = {
 
 is_married_ai_pure_white_girl_has_white_husband = {
 	is_ai_pure_white_girl = yes
-	is_married = yes
-	primary_spouse ?= {
-		is_self_married_whiteguy = yes
+	trigger_if = {
+		limit = { is_married = yes }
+		any_spouse ?= {
+			is_ai_whiteguy = yes
+		}
 	}
 }
 
@@ -330,6 +335,7 @@ is_curious = {
 is_ai_curious = {
 	is_curious = yes
 	is_ai = yes
+	is_not_married_to_bbc = yes
 }
 
 is_not_married_to_bbc = {
@@ -469,8 +475,13 @@ has_bad_trait = {
 }
 
 does_partner_has_bad_trait = {
-	exists = primary_spouse
-	primary_spouse = {
+	any_spouse = {
+		is_old_or_has_bad_trait = yes
+	}
+}
+
+is_old_or_has_bad_trait = {
+	OR = {
 		AND = {
 			is_immortal = no
 			is_visibly_fertile = no
@@ -517,13 +528,14 @@ is_good_blacked_whitegirl = {
 }
 
 is_partner_non_bbc = {
-	exists = primary_spouse
-	primary_spouse = {
-		is_bbc = no
-		is_african = no
-		is_ai = yes
-		is_elligible_partner = yes
+	any_spouse = {
+		is_ai_whiteguy = yes
 	}
+}
+
+is_ai_qos = {
+	is_qos = yes
+	is_ai = yes
 }
 
 is_ai_whiteguy = {
@@ -534,10 +546,14 @@ is_ai_whiteguy = {
 	is_ai = yes
 }
 
+is_ai_whiteguy_rich = {
+	is_ai_whiteguy = yes
+	gold > 50
+}
+
 does_white_husband_has_gold = {
-	is_partner_non_bbc = yes
-	primary_spouse = {
-		gold > 0
+	any_spouse = {
+		is_ai_whiteguy_rich = yes
 	}
 }
 
@@ -554,19 +570,20 @@ does_hated_non_black_courtier_exist = {
 	}
 }
 
+is_ai_mindless = {
+	is_mindless_bbc_slut = yes
+	is_ai = yes
+}
+
 is_partner_mindless_bbc_slut = {
-	exists = primary_spouse
-	primary_spouse = {
-		is_mindless_bbc_slut = yes
-		is_ai = yes
+	any_spouse = {
+		is_ai_mindless = yes
 	}
 }
 
 is_partner_bbc = {
-	exists = primary_spouse
-	primary_spouse = {
-		is_blackbull = yes
-		is_ai = yes
+	any_spouse = {
+		is_ai_blackbull = yes
 	}
 }
 
@@ -584,8 +601,9 @@ is_pure_whitegirl = {
 
 is_mindless_bbc_slut_married_to_bbc = {
 	is_mindless_bbc_slut = yes
+	is_married = yes
 	any_spouse = {
-		is_blackbull = yes
+		is_ai_blackbull = yes
 	}
 }
 
@@ -607,8 +625,8 @@ does_good_looking_ai_foreign_lady_exist = {
 
 does_blacked_ai_girl_has_white_guy_husband = {
 	is_ai_blacked = yes
-	exists = primary_spouse
-	primary_spouse = {
+	is_married = yes
+	any_spouse = {
 		is_ai_whiteguy = yes
 	}
 }

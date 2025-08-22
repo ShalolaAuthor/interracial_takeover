@@ -387,7 +387,6 @@
 				scope:target = {
 					is_married = yes
 					NOT = { is_consort_of = scope:owner }
-					exists = primary_spouse
 					primary_spouse = { save_temporary_scope_as = target_spouse }
 					NOT = { might_cheat_on_partner_trigger = { PARTNER = scope:target_spouse }}
 				}
@@ -454,7 +453,6 @@
 			trigger = { scope:owner ?= { NOT = { is_consort_of = scope:target } } }
 			scope:target = {
 				is_married = yes
-				exists = primary_spouse
 				primary_spouse = { save_temporary_scope_as = target_spouse }
 				opinion = {
 					target = scope:target_spouse
@@ -493,7 +491,7 @@
 		modifier = {
 			trigger = { scope:owner ?= { NOT = { is_consort_of = scope:target } } }
 			scope:target = {
-				exists = primary_spouse
+				is_married = yes
 				OR = {
 					primary_spouse = { has_strong_hook = scope:target }
 					has_trait = loyal

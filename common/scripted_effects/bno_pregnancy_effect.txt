@@ -34,9 +34,9 @@ married_mother_pregnancy_effect = {
 	if = {
 		limit = {
 			NOT = { exists = scope:spouse }
-			exists = primary_spouse
+			is_married = yes
 		}
-		primary_spouse = {
+		random_spouse = {
 			save_scope_as = spouse
 		}
 	}

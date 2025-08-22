@@ -9,12 +9,14 @@ availabiltiy
 Azani
 Bastardry
 bbcs
+bbcwar
 blackbull
 Blacksun
 bnobbc
 bnoc
 bnonr
 bnwo
+boldened
 Bondi
 breedable
 BULLETTAB
@@ -105,6 +107,7 @@ texticon
 traited
 tribals
 uncurable
+Unexpecting
 varangian
 vassalised
 Vigmen

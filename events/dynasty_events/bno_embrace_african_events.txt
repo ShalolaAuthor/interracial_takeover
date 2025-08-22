@@ -1251,10 +1251,14 @@ bno_embrace_african_2.0003 = {
             has_dynasty_perk = bno_embrace_african_2
         }
         any_child = {
-            is_curious = yes
+            is_ai_curious = yes
             age > 15
             age < 25
-            NOT = { primary_spouse ?= { is_blackbull = yes } }
+            NOT = { 
+                any_spouse ?= { 
+                    is_ai_blackbull = yes 
+                }
+            }
         }
         any_held_title = {
             tier = tier_county
@@ -1269,7 +1273,11 @@ bno_embrace_african_2.0003 = {
                 is_curious = yes
                 age > 15
                 age < 25
-                NOT = { primary_spouse ?= { is_blackbull = yes } }
+                NOT = { 
+                    any_spouse ?= { 
+                        is_ai_blackbull = yes 
+                    }
+                }
             }
             save_scope_as = whore
         }

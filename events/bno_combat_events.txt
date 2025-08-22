@@ -91,20 +91,14 @@ bno_combat.0002 = {
             scope:bbc_enemy_female_commander = {
                 is_ruler = no
                 OR = {
-                    AND = {
-                        exists = liege
-                        liege = {
-                            OR = {
-                                is_bbc = no
-                                NOT = { has_trait = bno_whitegirl }
-                            }
+                    liege ?= {
+                        OR = {
+                            is_ai_whiteguy = yes
+                            is_ai_pure_white_girl = yes
                         }
                     }
-                    AND = {
-                        exists = primary_spouse
-                        primary_spouse = {
-                            is_bbc = no
-                        }
+                    any_spouse = {
+                        is_ai_whiteguy = yes
                     }
                 }
             }
