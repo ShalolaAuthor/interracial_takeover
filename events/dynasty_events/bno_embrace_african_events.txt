@@ -1940,7 +1940,9 @@ bno_embrace_african_5.0006 = {
             NEW_HO_SCOPE = new_holy_order
             FOUNDER = root
         }
-
+        scope:new_holy_order = {
+            set_variable = bbc_holy_order
+        }
         create_holy_order_effect = yes
     }
 
@@ -1977,6 +1979,7 @@ bno_embrace_african_5.0007 = {
         faith = {
             any_faith_holy_order = {
                 holy_order_patron = root
+                has_variable = bbc_holy_order
             }
         }
     }
@@ -1986,6 +1989,7 @@ bno_embrace_african_5.0007 = {
             every_faith_holy_order = {
                 limit = {
                     holy_order_patron = root
+                    has_variable = bbc_holy_order
                 }
                 leader = {
                     save_scope_as = order_leader
