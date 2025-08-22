@@ -263,6 +263,7 @@ bno_build_african_camps_decision = {
 				title_province = {
 					NOT = { has_building_or_higher = bbc_camp_01 }
 				}
+				title_province = { is_county_capital = yes }
 			}
 		}
 	}
@@ -327,6 +328,7 @@ bno_change_county_culture = {
 				title_province = {
 					NOT = { is_culture_bnoc = yes }
 				}
+				title_province = { is_county_capital = yes }
 			}
 		}
 	}

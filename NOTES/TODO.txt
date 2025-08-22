@@ -37,6 +37,7 @@
 -make sure a wife of a BBC not getting targeted by other other bbc
 -add bbc priest icon
 -add xp for every successful conversion
+-fix the build african settlement thing to only consider capital_province of that title
 
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
