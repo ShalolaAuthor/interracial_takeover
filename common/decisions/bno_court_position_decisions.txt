@@ -95,11 +95,6 @@ bno_build_bbc_church = {
 
     is_shown = {
         bno_has_embrace_african_5 = yes
-        NOT = {
-            any_realm_province = {
-                has_building_or_higher = bbc_church_01
-            }
-        }
     }
 
     is_valid = {
@@ -124,11 +119,6 @@ bno_build_bbc_church = {
         }
         piety_level >= 3
         faith.religion = religion:bnonr_religion
-        NOT = {
-            any_realm_province = {
-                has_building_or_higher = bbc_church_01
-            }
-        }
     }
 
     is_valid_showing_failures_only = {
@@ -143,7 +133,6 @@ bno_build_bbc_church = {
                 limit = { exists = this }
                 AND = {
                     barony_is_valid_for_holy_order_lease_trigger = { CHARACTER = root }
-                    county = { this = scope:ruler.capital_county }
                 }
             }
             trigger_else = {
@@ -213,17 +202,6 @@ bno_found_bbc_church_holy_order = {
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_5
         }
-        any_realm_province = {
-            has_building_or_higher = bbc_church_02
-        }
-        NOT = {
-            faith = {
-                any_faith_holy_order = {
-                    holy_order_patron = root
-                }
-            }
-        }
-        
     }
 
     is_valid = {
@@ -248,6 +226,9 @@ bno_found_bbc_church_holy_order = {
         }
         piety_level >= 3
         faith.religion = religion:bnonr_religion
+        any_realm_province = {
+            has_building_or_higher = bbc_church_02
+        }
     }
 
     is_valid_showing_failures_only = {
@@ -264,7 +245,7 @@ bno_found_bbc_church_holy_order = {
                 limit = { exists = this }
                 AND = {
                     barony_is_valid_for_holy_order_lease_trigger = { CHARACTER = root }
-                    county = { this = scope:ruler.capital_county }
+                    title_province = { has_building_or_higher = bbc_church_02 }
                 }
             }
             trigger_else = {

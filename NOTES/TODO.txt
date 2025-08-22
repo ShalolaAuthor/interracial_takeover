@@ -37,8 +37,8 @@
 -make sure a wife of a BBC not getting targeted by other other bbc
 -add bbc priest icon
 -add xp for every successful conversion
--fix the build african settlement thing to only consider capital_province of that title
-
+-add message when bbc priest fail a conversion
+-add loc and icon for bno tenet
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
@@ -46,6 +46,7 @@ IMPORTANT TODO:
 
 
 DONE:
+-fix the build african settlement thing to only consider capital_province of that title
 -add a check for holy order scope (right now bbc priest can be assigned by some random order)
 -add a description for "Your deviancy has been"
 -add a check for cure disease for the immunity trait.

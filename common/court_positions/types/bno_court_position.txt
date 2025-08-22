@@ -35,9 +35,7 @@
         scope:employee = {
             liege = scope:liege
             is_landed = no
-            any_spouse = {
-                NOT = { this = scope:liege }
-            }
+            is_married = no
             has_trait = bno_whitegirl
             has_trait = beauty_good
             has_trait = tits_big_good

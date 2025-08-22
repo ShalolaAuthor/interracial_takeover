@@ -4,7 +4,7 @@
 			has_game_rule = bno_religion_yes
 			is_bno_mindless_bbc_slut = yes
 		}
-		set_character_faith = var:recent_sex_partner.faith
+		set_character_faith_with_conversion = var:recent_sex_partner.faith
 	}
 }
 
