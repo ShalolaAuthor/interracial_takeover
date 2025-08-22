@@ -1313,7 +1313,7 @@ bno_lifestyle_bbc_priestess = {
 			}
 			triggered_desc = {
 				trigger = { is_a_male = yes }
-				desc = "bno_measles_immunity.dds"
+				desc = "bno_lifestyle_bbc_priest.dds"
 			}
 		}
 	}
