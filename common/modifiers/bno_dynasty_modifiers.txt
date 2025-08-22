@@ -1,24 +1,25 @@
 ﻿#Person
 bno_cum_for_glory = {
-    icon = martial_positive
-    prowess = 0.2
+    icon = creampie_positive
+    prowess = 0.1
     inbreeding_chance = -0.025
     negative_random_genetic_chance = -0.025
     negative_inactive_inheritance_chance = -0.025
-    life_expectancy = 0.2
-    years_of_fertility = 0.2
+    life_expectancy = 0.1
+    years_of_fertility = 0.1
     fertility = 0.025
     stacking = yes
 }
 bno_cum_for_glory_glorified = {
-    icon = martial_positive
-    prowess = 20
+    icon = creampie_positive
+    prowess = 10
     inbreeding_chance = -2.5
     negative_random_genetic_chance = -2.5
     negative_inactive_inheritance_chance = -2.5
-    life_expectancy = 20
-    years_of_fertility = 20
+    life_expectancy = 10
+    years_of_fertility = 10
     fertility = 2.5
+    domain_limit = 1
     stacking = yes
 }
 # County
