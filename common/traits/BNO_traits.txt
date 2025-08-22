@@ -1305,11 +1305,11 @@ bno_lifestyle_bbc_priestess = {
 		first_valid = {
 			triggered_desc = {
 				trigger = { NOT = { exists = this } }
-				desc = "bno_leper_immunity.dds"
+				desc = "bno_lifestyle_bbc_priestess.dds"
 			}
 			triggered_desc = {
 				trigger = { is_a_girl = yes }
-				desc = "bno_lovers_pox_immunity.dds"
+				desc = "bno_lifestyle_bbc_priestess.dds"
 			}
 			triggered_desc = {
 				trigger = { is_a_male = yes }

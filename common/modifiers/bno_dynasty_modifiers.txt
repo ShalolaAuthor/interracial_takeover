@@ -11,7 +11,7 @@ bno_cum_for_glory = {
     stacking = yes
 }
 bno_cum_for_glory_glorified = {
-    icon = creampie_positive
+    icon = creampies_positive
     prowess = 10
     inbreeding_chance = -2.5
     negative_random_genetic_chance = -2.5
