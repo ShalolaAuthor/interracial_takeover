@@ -145,3 +145,7 @@ bno_embrace_african_5.0007.opening: "亲爱的[ROOT.Char.GetTitledFirstName]，[
 bno_embrace_african_5.0007.desc.female_priest: "在您的慷慨庇护下，神圣联盟的教团蓬勃发展。每一位姐妹都在我们神圣的殿堂中找到安慰与目标，她们的虔诚信念因侍奉您而日益坚定。依照您赐予我们这项神圣使命时所立下的神圣契约，我们向您呈上被指定的女祭司——一位因其卓越的纯洁、坚定的信仰，以及最重要的，独特地满足您愿望的能力而被选中的女性。姐妹[priest.GetFirstName]已被任命承担这一神圣职责。她渴望前往您的宫廷，随时准备完全献身于您的欢愉。\n\n我们预计她将在两周内到达。她的美貌，如同高举的圣杯，正等待着你的触碰。你将会得到她的忠诚，请将其视为一种祝福；这也是我们所有侍奉于你皇室欢愉祭坛之人的荣耀。姐妹[priest.GetFirstName]已被教导如何在各方面取悦像你这样的人。她已准备好听候你的吩咐。"
 bno_embrace_african_5.0007.desc.male_priest: "神圣联盟教团在您受祝福的统治下蓬勃发展。每一位修女都在我们奉献的殿堂中找到力量与目标，她们的虔诚因服侍您——神圣恩典的化身——而愈发坚定。正如在您慷慨赞助时所承诺的，我们向您奉上专为满足您需求而献身的神职人员：兄弟[priest.GetFirstName]。因其坚定不移的虔诚、雕塑般的身材，最重要的是他那令人惊叹的天赋，他已准备好全身心地奉献自己，以取悦于你。\n\n[priest.GetFirstName]兄弟将在两周内从我们神圣的庭院出发，被派遣前往您的宫廷，渴望满足您内心所有的渴望。他的力量与虔诚都坚不可摧，我们相信他将成为您亲密圈子中极为令人满意的一员。如果您有任何特别的嗜好希望他在抵达时提前准备，请随时通过我们的姐妹会告知。"
 bno_embrace_african_5.0007.a: "我将满心欢喜地接受[priest.GetHerHim]。"
+
+#Immunity Message
+bno_embrace_african_5.0008.immunity.title: "至高免疫：[ROOT.Char.Custom('BNODiseaseType')]"
+bno_embrace_african_5.0008.immunity.desc: "成功的完成至高之种仪式将给予对于[ROOT.Char.Custom('BNODiseaseType')]的免疫能力。重复将加快愈合速度。"
