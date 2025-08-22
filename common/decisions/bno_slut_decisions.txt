@@ -4,6 +4,7 @@
 	}
 	desc = bno_becoming_bbc_slut_desc
 	selection_tooltip = bno_becoming_bbc_slut_tooltip
+	decision_group_type = bno_decision_group
 	is_shown = {
 		has_trait = bno_snowbunny
 		NOT = {
@@ -34,6 +35,7 @@ bno_stop_becoming_bbc_slut = {
 	}
 	desc = bno_stop_becoming_bbc_slut_desc
 	selection_tooltip = bno_stop_becoming_bbc_slut_tooltip
+	decision_group_type = bno_decision_group
 	is_shown = {
 		has_trait = bno_snowbunny
 		is_partner_bbc = yes

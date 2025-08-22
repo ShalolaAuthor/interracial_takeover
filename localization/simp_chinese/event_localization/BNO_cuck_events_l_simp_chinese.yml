@@ -41,7 +41,7 @@
  bno_cuck_3004.a: "太棒了。也许她定期来访能让军队的一切井然有序？"
  
  #Cuck is convinced to be trusting
- bno_cuck_0005.titlea: "我的人民!"
+ bno_cuck.0005.title: "我的人民!"
  bno_cuck_0005.desc: "无论我最初对这些黑人难民有何保留，[target1.GetFirstName] 提醒了我，他的族人和我没什么不同。他们和其他人一样关心家人，保护自己的女人。和他开怀大笑之后，我意识到我应该少怀疑别人。"
  bno_cuck_0005.a: "他们真心为我着想。"
  

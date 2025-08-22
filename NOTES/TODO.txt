@@ -39,7 +39,6 @@
 -add xp for every successful conversion
 -add a check for holy order scope (right now bbc priest can be assigned by some random order)
 -add a description for "Your deviancy has been"
--add a check for cure disease for the immunity trait.
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
@@ -47,6 +46,7 @@ IMPORTANT TODO:
 
 
 DONE:
+-add a check for cure disease for the immunity trait.
 -add a hidden event for cure disease (need to have the immunity trait. event will be given at decision or interaction)
 -should replace primary_spouse to every_spouse for cuck checks
 -fix event for appointing martial to local (check if the employed martial is already black)

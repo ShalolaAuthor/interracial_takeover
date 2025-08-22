@@ -6,9 +6,9 @@ bno_events00 = {
 		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
 	}
 	sort_order = 10
-	decision_group_type = courtier
 	desc = bno_events00.desc
 	selection_tooltip = bno_events00_decision_tooltip
+	decision_group_type = bno_decision_group
 	is_shown = {
 		is_ruler = yes
 		is_adult = yes
@@ -70,6 +70,7 @@ convert = {
 	}
 	desc = convert_desc
 	selection_tooltip = convert_tooltip
+	decision_group_type = bno_decision_group
 	is_shown = {
 		is_adult = yes
 		is_female = yes
@@ -105,6 +106,7 @@ bno_election = {
 	}
 	desc = bno_election_decision_desc
 	selection_tooltip = bno_election_decision_tooltip
+	decision_group_type = bno_decision_group
 	is_shown = {
 		is_adult = yes
 		is_female = yes
@@ -135,6 +137,7 @@ bull_decision = {
 	}
 	desc = bull_decision_desc
 	selection_tooltip = bull_decision_tooltip
+	decision_group_type = bno_decision_group
 	is_shown = {
 		is_ruler = yes
 		is_cuck = yes
@@ -184,9 +187,9 @@ bno_invite_slut_decision = {
 		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
 	}
 	sort_order = 10
-	decision_group_type = courtier
 	desc = bno_invite_slut_decision_desc
 	selection_tooltip = bno_invite_slut_decision_tooltip
+	decision_group_type = bno_decision_group
 	is_shown = {
 		is_ruler = yes
 		is_adult = yes
@@ -248,7 +251,7 @@ bno_build_african_camps_decision = {
 		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
 	}
 	sort_order = 10
-	decision_group_type = courtier
+	decision_group_type = bno_decision_group
 	desc = bno_build_african_camps_decision_desc
 	selection_tooltip = bno_build_african_camps_decision_tooltip
 	widget = {
@@ -312,7 +315,7 @@ bno_change_county_culture = {
 		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
 	}
 	sort_order = 10
-	decision_group_type = courtier
+	decision_group_type = bno_decision_group
 	desc = bno_change_county_culture_desc
 	selection_tooltip = bno_change_county_culture_tooltip
 	widget = {
@@ -376,7 +379,7 @@ bno_realize_bbc_potential = {
 		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
 	}
 	sort_order = 10
-	decision_group_type = major
+	decision_group_type = bno_decision_group
 	desc = bno_realize_bbc_potential.desc
 	selection_tooltip = bno_realize_bbc_potential_decision_tooltip
 	is_shown = {
@@ -411,6 +414,7 @@ bno_convert_to_african = {
 	sort_order = 10
 	desc = bno_convert_to_african_desc
 	selection_tooltip = bno_convert_to_african_tooltip
+	decision_group_type = bno_decision_group
 	is_shown = {
 		is_adult = yes
 		OR = {

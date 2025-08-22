@@ -660,7 +660,7 @@ bno_cuck.3004 = {
 #Cuck is convinced to be trusting
 bno_cuck.0005 = {
 	type = character_event
-	title = bno_cuck_0005.titlea#hash colision on bno_cuck_0005.title - not sure from what.
+	title = bno_cuck.0005.title
 	desc = bno_cuck_0005.desc
 	theme = friendly
 	

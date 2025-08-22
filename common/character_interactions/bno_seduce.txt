@@ -291,7 +291,7 @@
 			}
 		}
 		
-		modifier = { # Try to avoid agressive seduction unless you're geared for it
+		modifier = { # Try to avoid aggressive seduction unless you're geared for it
 			add = -10
 			scope:actor = {
 				NOR = {
