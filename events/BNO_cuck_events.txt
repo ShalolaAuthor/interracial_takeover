@@ -41,7 +41,7 @@ bno_cuck.0001 = {
 	
 	cooldown = { months = { 24 36 } }
 	trigger = {
-		is_self_married_whiteguy = yes
+		is_ai_whiteguy_married = yes
 		does_blackbull_exist = yes
 		is_spouse_curious = yes
 	}
@@ -355,7 +355,7 @@ bno_cuck.0004 = {
 	}
 	cooldown = { months = 36 }
 	trigger = {
-		is_self_married_whiteguy = yes
+		is_ai_whiteguy_married = yes
 		is_spouse_blacked = yes
 		any_martial_councillor = {
 			is_ai_blackbull = yes
@@ -678,7 +678,7 @@ bno_cuck.0005 = {
 		
 	}
 	trigger = {
-		is_self_whiteguy = yes
+		is_ai_whiteguy = yes
 		NOT = {
 			has_trait = trusting
 		}
@@ -726,7 +726,7 @@ bno_cuck.0006 = { #Just cuck bonds with bbc, gives court position
 	cooldown = { months = 24 }
 	trigger = {
 		is_ruler = yes
-		is_self_whiteguy = yes
+		is_ai_whiteguy = yes
 		has_trait = just
 		NOR = {
 			employs_court_position = bodyguard_court_position
@@ -1057,10 +1057,10 @@ bno_cuck.0010 = {
 	}
 	cooldown = { months = { 36 48 } }
 	trigger = {
-		is_self_whiteguy = yes
+		is_ai_whiteguy = yes
 		is_spouse_blacked = yes
 		any_vassal = {
-			is_self_whiteguy = yes
+			is_ai_whiteguy = yes
 		}
 		any_intrigue_councillor = {
 			is_ai_blackbull = yes
@@ -1078,7 +1078,7 @@ bno_cuck.0010 = {
 		}
 		random_vassal = {
 			limit = {
-				is_self_whiteguy = yes
+				is_ai_whiteguy = yes
 			}
 			save_scope_as = target3
 		}
@@ -1353,7 +1353,7 @@ bno_cuck.0012 = {
 	}
 	trigger = {
 		gold > 500
-		is_self_married_whiteguy = yes
+		is_ai_whiteguy_married = yes
 		is_spouse_blacked = yes
 		any_directly_owned_province = {
 			NOT = { has_building_or_higher = bbc_camp_01 }
@@ -1455,7 +1455,7 @@ bno_cuck.0014 = {
 	cooldown = { months = { 36 48 } }
 	
 	trigger = {
-		is_self_married_whiteguy = yes
+		is_ai_whiteguy_married = yes
 		is_ruler = yes
 		does_blackbull_exist = yes
 		does_blacked_girl_exist = yes

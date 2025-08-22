@@ -1,17 +1,6 @@
-﻿is_self_whiteguy = {
-	is_bbc = no
-	is_elligible_partner = yes
-	is_a_male = yes
-}
-
-is_jos = {
+﻿is_jos = {
 	has_trait = bno_jos
-	is_self_whiteguy = yes
-}
-
-is_self_married_whiteguy = {
-	is_self_whiteguy = yes
-	is_married = yes
+	is_ai_whiteguy = yes
 }
 
 is_spouse_curious = {
@@ -28,31 +17,7 @@ is_spouse_blacked = {
 
 is_cuck = {
 	has_trait = bno_whiteboi
-	is_self_whiteguy = yes
-}
-
-is_whiteboy = {
-	is_married = yes
-	is_adult = yes
-	is_bbc = no
-	is_a_male = yes
-	is_imprisoned = no
-}
-
-is_normal_whiteboy = {
-	is_imprisoned = no
-	is_ruler = yes
-	is_adult = yes
-	is_a_male = yes
-	is_bbc = no
-}
-
-is_ruler_whiteboy = {
-	is_ruler = yes
-	is_adult = yes
-	is_imprisoned = no
-	is_a_male = yes
-	NOT = { has_trait = bno_bbc }
+	is_ai_whiteguy = yes
 }
 
 is_ai_not_married_blackbull = {

@@ -43,10 +43,15 @@ is_ai_whiteguy_has_secret = {
 	}
 }
 
+is_ai_whiteguy_married = {
+	is_ai_whiteguy = yes
+	is_married = yes
+}
+
 does_white_guy_liege_has_money = {
 	liege ?= {
 		gold > 50
-		is_self_married_whiteguy = yes
+		is_ai_whiteguy_married = yes
 		any_spouse = {
 			is_ai_blacked = yes
 		}

@@ -92,9 +92,9 @@ bno_title_change.0002 = {
 	}
 	trigger = {
 		is_ruler = yes
-		is_self_whiteguy = yes
+		is_ai_whiteguy = yes
 		any_vassal = {
-			is_self_whiteguy = yes
+			is_ai_whiteguy = yes
 			any_held_title = { #don't want barons to be targeted
 				tier = tier_county
 			}
@@ -114,7 +114,7 @@ bno_title_change.0002 = {
 		}
 		random_vassal = {
 			limit = {
-				is_self_whiteguy = yes
+				is_ai_whiteguy = yes
 				any_held_title = { #don't want barons to be targeted
 					tier = tier_county
 				}
@@ -184,9 +184,9 @@ bno_title_change.0003 = {
 	}
 	trigger = {
 		is_ruler = yes
-		is_self_whiteguy = yes
+		is_ai_whiteguy = yes
 		any_vassal = {
-			is_self_whiteguy = yes
+			is_ai_whiteguy = yes
 			any_held_title = { #don't want barons to be targeted
 				tier = tier_county
 			}
@@ -206,7 +206,7 @@ bno_title_change.0003 = {
 		}
 		random_vassal = {
 			limit = {
-				is_self_whiteguy = yes
+				is_ai_whiteguy = yes
 				any_held_title = { #don't want barons to be targeted
 					tier = tier_county
 				}
@@ -277,13 +277,13 @@ bno_title_change.0004 = {
 	}
 	trigger = {
 		is_ruler = yes
-		is_self_whiteguy = yes
+		is_ai_whiteguy = yes
 		any_courtier_or_guest = {
 			is_ai_blackbull = yes
 			intrigue > 18
 		}
 		any_vassal = {
-			is_self_married_whiteguy = yes
+			is_ai_whiteguy_married = yes
 			any_held_title = { #don't want barons to be targeted
 				tier = tier_county
 			}
@@ -300,7 +300,7 @@ bno_title_change.0004 = {
 		}
 		random_vassal = {
 			limit = {
-				is_self_married_whiteguy = yes
+				is_ai_whiteguy_married = yes
 				any_held_title = { #don't want barons to be targeted
 					tier = tier_county
 				}
@@ -392,7 +392,7 @@ bno_title_change.0005 = { #Wife takes cucks titles
 		
 	}
 	trigger = {
-		is_self_married_whiteguy = yes
+		is_ai_whiteguy_married = yes
 		is_ruler = yes
 		is_ai = yes
 		is_partner_mindless_bbc_slut = yes
