@@ -555,6 +555,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.lovers_pox
 					has_trait = lovers_pox
 				}
+				NOT = { has_trait = bno_lovers_pox_immunity }
 			}
 			current_description = bno_cure_diseases.lovers_pox.desc #tooltip
 			localization = bno_cure_diseases.lovers_pox.desc
@@ -573,6 +574,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.ill
 					has_trait = ill
 				}
+				NOT = { has_trait = bno_ill_immunity }
 			}
 			current_description = bno_cure_diseases.ill.desc #tooltip
 			localization = bno_cure_diseases.ill.desc
@@ -591,6 +593,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.pneumonic
 					has_trait = pneumonic
 				}
+				NOT = { has_trait = bno_pneumonic_immunity }
 			}
 			current_description = bno_cure_diseases.pneumonic.desc #tooltip
 			localization = bno_cure_diseases.pneumonic.desc
@@ -609,6 +612,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.great_pox
 					has_trait = great_pox
 				}
+				NOT = { has_trait = bno_great_pox_immunity }
 			}
 			current_description = bno_cure_diseases.great_pox.desc #tooltip
 			localization = bno_cure_diseases.great_pox.desc
@@ -627,6 +631,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.early_great_pox
 					has_trait = early_great_pox
 				}
+				NOT = { has_trait = bno_early_great_pox_immunity }
 			}
 			current_description = bno_cure_diseases.early_great_pox.desc #tooltip
 			localization = bno_cure_diseases.early_great_pox.desc
@@ -645,6 +650,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.leper
 					has_trait = leper
 				}
+				NOT = { has_trait = bno_leper_immunity }
 			}
 			current_description = bno_cure_diseases.leper.desc #tooltip
 			localization = bno_cure_diseases.leper.desc
@@ -663,6 +669,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.gout_ridden
 					has_trait = gout_ridden
 				}
+				NOT = { has_trait = bno_gout_ridden_immunity }
 			}
 			current_description = bno_cure_diseases.gout_ridden.desc #tooltip
 			localization = bno_cure_diseases.gout_ridden.desc
@@ -681,6 +688,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.consumption
 					has_trait = consumption
 				}
+				NOT = { has_trait = bno_consumption_immunity }
 			}
 			current_description = bno_cure_diseases.consumption.desc #tooltip
 			localization = bno_cure_diseases.consumption.desc
@@ -699,6 +707,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.cancer
 					has_trait = cancer
 				}
+				NOT = { has_trait = bno_cancer_immunity }
 			}
 			current_description = bno_cure_diseases.cancer.desc #tooltip
 			localization = bno_cure_diseases.cancer.desc
@@ -717,6 +726,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.typhus
 					has_trait = typhus
 				}
+				NOT = { has_trait = bno_typhus_immunity }
 			}
 			current_description = bno_cure_diseases.typhus.desc #tooltip
 			localization = bno_cure_diseases.typhus.desc
@@ -735,6 +745,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.bubonic_plague
 					has_trait = bubonic_plague
 				}
+				NOT = { has_trait = bno_bubonic_plague_immunity }
 			}
 			current_description = bno_cure_diseases.bubonic_plague.desc #tooltip
 			localization = bno_cure_diseases.bubonic_plague.desc
@@ -753,6 +764,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.smallpox
 					has_trait = smallpox
 				}
+				NOT = { has_trait = bno_smallpox_immunity }
 			}
 			current_description = bno_cure_diseases.smallpox.desc #tooltip
 			localization = bno_cure_diseases.smallpox.desc
@@ -771,6 +783,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.measles
 					has_trait = measles
 				}
+				NOT = { has_trait = bno_measles_immunity }
 			}
 			current_description = bno_cure_diseases.measles.desc #tooltip
 			localization = bno_cure_diseases.measles.desc
@@ -789,6 +802,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.dysentery
 					has_trait = dysentery
 				}
+				NOT = { has_trait = bno_dysentery_immunity }
 			}
 			current_description = bno_cure_diseases.dysentery.desc #tooltip
 			localization = bno_cure_diseases.dysentery.desc
@@ -807,6 +821,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.ergotism
 					has_trait = ergotism
 				}
+				NOT = { has_trait = bno_ergotism_immunity }
 			}
 			current_description = bno_cure_diseases.ergotism.desc #tooltip
 			localization = bno_cure_diseases.ergotism.desc
@@ -825,6 +840,7 @@ bno_cure_diseases = {
 					text = bno_cure_diseases.sickly
 					has_trait = sickly
 				}
+				NOT = { has_trait = bno_sickly_immunity }
 			}
 			current_description = bno_cure_diseases.sickly.desc #tooltip
 			localization = bno_cure_diseases.sickly.desc
