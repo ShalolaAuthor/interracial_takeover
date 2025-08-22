@@ -415,3 +415,14 @@ bno_get_bbc_priest_or_priestess = {
         }
     }
 }
+
+bno_disease_immunity = {
+    send_interface_message = {
+        type = bno_blacked_events
+        title = bno_embrace_african_5.0008.immunity.title
+        desc = bno_embrace_african_5.0008.immunity.desc
+        right_icon = root
+
+        remove_trait = $TRAIT$
+    }
+}

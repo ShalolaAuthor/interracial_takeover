@@ -125,67 +125,147 @@ BNODiseaseType = {
     type = character
 
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_lovers_pox }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_lovers_pox
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.lovers_pox
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_ill }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_ill
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.ill
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_pneumonic }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_pneumonic
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.pneumonic
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_great_pox }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_great_pox
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.great_pox
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_early_great_pox }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_early_great_pox
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.early_great_pox
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_leper }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_leper
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.leper
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_gout_ridden }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_gout_ridden
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.gout_ridden
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_consumption }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_consumption
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.consumption
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_cancer }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_cancer
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.cancer
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_typhus }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_typhus
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.typhus
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_bubonic_plague }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_bubonic_plague
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.bubonic_plague
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_measles }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_measles
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.measles
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_dysentery }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_dysentery
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.dysentery
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_ergotism }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_ergotism
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.ergotism
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_sickly }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_sickly
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.sickly
     }
     text = {
-        trigger = { var:bno_disease_type = flag:disease_type_smallpox }
+        trigger = {
+            OR = {
+                var:bno_disease_type = flag:disease_type_smallpox
+                has_trait = lovers_pox
+            }
+        }
         localization_key = bno_disease_type.smallpox
     }
 }

@@ -2,7 +2,6 @@
 -add trading with church of bbc (every black supremacist will donate 1 gold for 10k piety)
 -add trading with africans (every africans will donate 1 gold for 1k prestige)
 -convert county to bbc church
--should replace primary_spouse to every_spouse for cuck checks
 -add icon for future queen for black
 -fix breed me tattoo on the belly, maybe add one for the chest instead
 -add nickname chooser decision for sluts
@@ -50,6 +49,7 @@ IMPORTANT TODO:
 
 
 DONE:
+-should replace primary_spouse to every_spouse for cuck checks
 -fix event for appointing martial to local (check if the employed martial is already black)
 -disable wife for bbc worshipper court position
 -bull 0015 scope error

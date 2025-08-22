@@ -1427,6 +1427,13 @@ bno_embrace_african_5.0001 = {
             }
         }
         bno_cure_disease = yes
+        if = {
+            limit = { NOT = { has_character_flag = bno_embrace_african_5.0008 } }
+            trigger_event = {
+                id = bno_embrace_african_5.0008
+                days = 7
+            }
+        }
         carn_sex_scene_is_cum_inside_effect = yes
         carn_sex_scene_cleanup = yes
     }
@@ -2030,6 +2037,41 @@ bno_embrace_african_5.0007 = {
             modifier = hired_me_opinion
         }
     }
+}
 
+bno_embrace_african_5.0008 = {
+    hidden = yes
+
+    trigger = {
+        is_alive = yes
+        bno_has_embrace_african_5 = yes
+        has_character_flag = bno_embrace_african_5.0008
+    }
+
+    immediate = {
+        trigger_event = {
+            id = bno_embrace_african_5.0008
+            days = 7
+        }
+        switch = {
+            trigger = has_trait
+            bno_lovers_pox_immunity = { bno_disease_immunity = { TRAIT = lovers_pox } }
+            bno_ill_immunity = { bno_disease_immunity = { TRAIT = ill } }
+            bno_pneumonic_immunity = { bno_disease_immunity = { TRAIT = pneumonic } }
+            bno_early_great_pox_immunity = { bno_disease_immunity = { TRAIT = early_great_pox } }
+            bno_leper_immunity = { bno_disease_immunity = { TRAIT = leper } }
+            bno_gout_ridden_immunity = { bno_disease_immunity = { TRAIT = gout_ridden } }
+            bno_consumption_immunity = { bno_disease_immunity = { TRAIT = consumption } }
+            bno_cancer_immunity = { bno_disease_immunity = { TRAIT = cancer } }
+            bno_typhus_immunity = { bno_disease_immunity = { TRAIT = typhus } }
+            bno_bubonic_plague_immunity = { bno_disease_immunity = { TRAIT = bubonic_plague } }
+            bno_smallpox_immunity = { bno_disease_immunity = { TRAIT = smallpox } }
+            bno_measles_immunity = { bno_disease_immunity = { TRAIT = measles } }
+            bno_dysentery_immunity = { bno_disease_immunity = { TRAIT = dysentery } }
+            bno_ergotism_immunity = { bno_disease_immunity = { TRAIT = ergotism } }
+            bno_sickly_immunity = { bno_disease_immunity = { TRAIT = sickly } }
+            bno_great_pox_immunity = { bno_disease_immunity = { TRAIT = great_pox } }
+        }
+    }
 }
 
