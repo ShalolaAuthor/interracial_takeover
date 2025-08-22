@@ -475,10 +475,7 @@ bno_cure_diseases = {
 				trigger = { is_a_girl = yes }
 				desc = bno_cure_disease.title.female
 			}
-			triggered_desc = {
-				trigger = { is_a_male = yes }
-				desc = bno_cure_disease.title.male
-			}
+			desc = bno_cure_disease.title.male
 		}
 	}
 	desc = {
@@ -487,10 +484,7 @@ bno_cure_diseases = {
 				trigger = { is_a_girl = yes }
 				desc = bno_cure_disease.desc.female
 			}
-			triggered_desc = {
-				trigger = { is_a_male = yes }
-				desc = bno_cure_disease.desc.male
-			}
+			desc = bno_cure_disease.desc.male
 		}
 	}
 	confirm_text = {
@@ -499,10 +493,7 @@ bno_cure_diseases = {
 				trigger = { is_a_girl = yes }
 				desc = bno_cure_disease.confirm.female
 			}
-			triggered_desc = {
-				trigger = { is_a_male = yes }
-				desc = bno_cure_disease.confirm.male
-			}
+			desc = bno_cure_disease.confirm.male
 		}
 	}
 	selection_tooltip = {
@@ -511,14 +502,11 @@ bno_cure_diseases = {
 				trigger = { is_a_girl = yes }
 				desc = bno_cure_disease.tooltip.female
 			}
-			triggered_desc = {
-				trigger = { is_a_male = yes }
-				desc = bno_cure_disease.tooltip.male
-			}
+			desc = bno_cure_disease.tooltip.male
 		}
 	}
 
-	ai_check_interval = 12
+	ai_goal = yes
 	#Placeholder
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_black_plague.dds"
@@ -531,7 +519,6 @@ bno_cure_diseases = {
 	}
 
 	is_valid = {
-		#sickness
 		custom_tooltip = {
 			text = bno_cure_diseases.own.sickness
 			bno_illness_list = yes
@@ -858,10 +845,8 @@ bno_cure_diseases = {
 
 
 	effect = {
-		# you will got cured of your diseases
 		custom_tooltip = bno_cure_diseases.tooltip.1
 		hidden_effect = {
-			# you will visit the church of BBC to got rid of your illness
 			custom_tooltip = bno_cure_diseases.tooltip.2
 			if = { # Lover's Pox
 				limit = {
@@ -1022,31 +1007,6 @@ bno_cure_diseases = {
 	ai_potential = {
 		any_held_title = {
 			tier >= tier_county
-		}
-	}
-	ai_will_do = {
-		base = 0
-		add = {
-			value = 0
-			switch = {
-				trigger = has_trait
-				lovers_pox = { add = bno_lovers_pox_ai_cure_chance }
-				ill = { add = bno_ill_ai_cure_chance }
-				pneumonic = { add = bno_pneumonic_ai_cure_chance }
-				great_pox = { add = bno_great_pox_ai_cure_chance }
-				early_great_pox = { add = bno_early_great_pox_ai_cure_chance }
-				leper = { add = bno_leper_ai_cure_chance }
-				gout_ridden = { add = bno_gout_ridden_ai_cure_chance }
-				consumption = { add = bno_consumption_ai_cure_chance }
-				cancer = { add = bno_cancer_ai_cure_chance }
-				typhus = { add = bno_typhus_ai_cure_chance }
-				bubonic_plague = { add = bno_bubonic_plague_ai_cure_chance }
-				smallpox = { add = bno_smallpox_ai_cure_chance }
-				measles = { add = bno_measles_ai_cure_chance }
-				dysentery = { add = bno_dysentery_ai_cure_chance }
-				ergotism = { add = bno_ergotism_ai_cure_chance }
-				sickly = { add = bno_sickly_ai_cure_chance }
-			}
 		}
 	}
 }
