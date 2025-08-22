@@ -45,12 +45,29 @@ bno_add_prowess_per_sex = {
 			limit = {
 				var:bno_cum_for_glory_count >= 100
 			}
-			add_character_modifier = bno_cum_for_glory_glorified
-			remove_all_character_modifier_instances = bno_cum_for_glory
 			send_interface_message = {
-				title = bno_cum_for_glory.glorified
+				title = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {	is_a_girl = yes }
+							desc = bno_cum_for_glory.glorified.title.female
+						}
+						desc = bno_cum_for_glory.glorified.title.male
+					}
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = { is_a_girl = yes }
+							desc = bno_cum_for_glory.glorified.desc.female
+						}
+						desc = bno_cum_for_glory.glorified.desc.male
+					}
+				}
 				type = bno_blacked_events
 				left_icon = this
+				add_character_modifier = bno_cum_for_glory_glorified
+				remove_all_character_modifier_instances = bno_cum_for_glory
 			}
 			set_variable = {
 				name = bno_cum_for_glory_glorified_count

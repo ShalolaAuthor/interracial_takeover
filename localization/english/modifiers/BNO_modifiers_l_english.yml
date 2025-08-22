@@ -128,4 +128,8 @@ bno_local_bbc_unsatisfied_desc: "This ruler has failed to meet the expectations 
 bno_cum_for_glory_glorified: "Cum For Glory: Glorified"
 bno_cum_for_glory_glorified_desc: "This character loves of cumming, has been heard throughout the lands."
 
-bno_cum_for_glory.glorified: "Your deviancy has been glorified into a folk-tales"
+bno_cum_for_glory.glorified.title.female: "A Thousand [bno_bbc|E] Conquered!"
+bno_cum_for_glory.glorified.desc.female: "Sweetheart, I finally reached a thousand. Consider yourself extra lucky you get to be amongst the next few hundred."
+
+bno_cum_for_glory.glorified.title.male: "The Ebony Stallion's Conquest! A Thousand Hearts Ensnared!"
+bno_cum_for_glory.glorified.desc.male: "Another thousand white lilies have bloomed beneath my mighty stem. My seed fertilizes the world in its rightful glory!"
