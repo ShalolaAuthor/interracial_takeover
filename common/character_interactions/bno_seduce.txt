@@ -280,7 +280,7 @@
 			scope:recipient = {
 				is_married = yes
 				NOT = {
-					any_spouse = scope:actor
+					primary_spouse = scope:actor
 				}
 			}
 			scope:actor = {
