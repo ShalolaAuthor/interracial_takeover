@@ -10,6 +10,9 @@ bno_emasculated_desc: "被妻子阉割"
 bno_happy_cuck_husband: "幸福的龟男丈夫"
 bno_happy_cuck_husband_desc: "他相信他会夺回他的妻子"
 
+bno_wounded_commander: "决斗的败者"
+bno_wounded_commander_desc: "该角色在一场种族间的重要决斗中输了。"
+
 #martial modifiers
 bno_troops_lack_bunnies: "部队缺少足够的兔女郎"
 bno_troops_lack_bunnies_desc: "这位统治者的黑人士兵觉得他们没有足够的白人女性。"
@@ -128,4 +131,5 @@ bno_local_bbc_unsatisfied_desc: "该统治者没能成功满足当地黑人社�
 bno_cum_for_glory_glorified: "荣耀射精：神话"
 bno_cum_for_glory_glorified_desc: "该角色对射精的喜爱，已传遍四方。"
 
-bno_cum_for_glory.glorified: "你的特别之处已被神化为民间传说。"
+bno_cum_for_glory.glorified.title.male: "黑马征服！俘获千心！"
+bno_cum_for_glory.glorified.desc.male: "又有千多百合在我的巨根下绽放。我的种子以恰当的荣耀为全世界育种！"
