@@ -10,9 +10,10 @@ bno_embrace_african_yearly_initial_pulse = {
         is_ai = no
         is_elligible_partner = yes
     }
-    events = {
-        bno_embrace_african_1_events.0001
-        bno_embrace_african_2_events.0001
+    random_events = {
+        1 = bno_embrace_african_1_events.0001
+        1 = bno_embrace_african_2_events.0001
+        1 = bno_embrace_african_5_events.0001
     }
 }
 
@@ -23,16 +24,15 @@ bno_yearly_embrace_african_1_pulse = {
             value = 0
             if = {
                 limit = { is_ai = yes }
-                add = 90
+                add = bno_ai_events_chance
             }
         }
-        25 = 0
-        100 = bno_embrace_african_1.0001
-        100 = bno_embrace_african_1.0002
-        100 = bno_embrace_african_1.0003
-        100 = bno_embrace_african_1.0004
-        100 = bno_embrace_african_1.0005
-        100 = bno_embrace_african_1.0006
+        1 = bno_embrace_african_1.0001
+        1 = bno_embrace_african_1.0002
+        1 = bno_embrace_african_1.0003
+        1 = bno_embrace_african_1.0004
+        1 = bno_embrace_african_1.0005
+        1 = bno_embrace_african_1.0006
     }
 }
 
@@ -43,13 +43,12 @@ bno_yearly_embrace_african_2_pulse = {
             value = 0
             if = {
                 limit = { is_ai = yes }
-                add = 90
+                add = bno_ai_events_chance
             }
         }
-        25 = 0
-        100 = bno_embrace_african_2.0001
-        100 = bno_embrace_african_2.0002
-        100 = bno_embrace_african_2.0003
+        1 = bno_embrace_african_2.0001
+        1 = bno_embrace_african_2.0002
+        1 = bno_embrace_african_2.0003
     }
 }
 
@@ -60,15 +59,14 @@ bno_yearly_embrace_african_5_pulse = {
             value = 0
             if = {
                 limit = { is_ai = yes }
-                add = 90
+                add = bno_ai_events_chance
             }
         }
-        25 = 0
-        100 = bno_embrace_african_5.0002
-        100 = bno_embrace_african_5.0003
-        100 = bno_embrace_african_5.0004
-        100 = bno_embrace_african_5.0005
-        100 = bno_embrace_african_5.0007
+        1 = bno_embrace_african_5.0002
+        1 = bno_embrace_african_5.0003
+        1 = bno_embrace_african_5.0004
+        1 = bno_embrace_african_5.0005
+        1 = bno_embrace_african_5.0007
     }
 }
 
@@ -76,12 +74,10 @@ bno_embrace_african_yearly_global_random_pulse = {
     trigger = {
         has_game_rule = bno_global_bbc_activities_yes
     }
-    on_actions = {
-        bno_yearly_embrace_african_1_pulse
-        delay = { days = { 7 14 } }
-        bno_yearly_embrace_african_2_pulse
-        delay = { days = { 15 21 } }
-        bno_yearly_embrace_african_5_pulse
+    random_on_action = {
+        1 = bno_yearly_embrace_african_1_pulse
+        1 = bno_yearly_embrace_african_2_pulse
+        1 = bno_yearly_embrace_african_5_pulse
     }
 }
 

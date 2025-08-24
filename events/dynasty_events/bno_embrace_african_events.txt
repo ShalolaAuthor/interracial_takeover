@@ -1670,7 +1670,7 @@ bno_embrace_african_5.0003 = {
 
     trigger = {
         bno_has_embrace_african_5 = yes
-        faith.religion = religion:bnonr_religion
+        is_faith_bbcs = yes
         NOT = {
             any_realm_province = {
                 has_building = bbc_church_01

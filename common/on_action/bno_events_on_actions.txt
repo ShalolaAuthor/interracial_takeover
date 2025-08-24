@@ -10,18 +10,12 @@ bno_events_pulse = {
 	trigger = {
 		has_game_rule = bno_mod_status_on
 	}
-	on_actions = {
-		bno_bull_pulse
-		delay = { days = { 7 14 } }
-		bno_cuck_pulse
-		delay = { days = { 15 21 } }
-		bno_random_pulse
-		delay = { days = { 22 28 } }
-		bno_slut_pulse
-		delay = { days = { 29 35 } }
-		bno_council_orgy_pulse
-		delay = { days = { 36 42 } }
-		bno_embrace_african_pulse
+	random_on_action = {
+		1 = bno_bull_pulse
+		1 = bno_cuck_pulse
+		1 = bno_random_pulse
+		1 = bno_slut_pulse
+		1 = bno_embrace_african_pulse
 	}
 }
 

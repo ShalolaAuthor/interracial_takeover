@@ -8,28 +8,19 @@
 bno_king_title_gain = {
 	trigger = {
 		has_game_rule = bno_mod_status_on
+		scope:title.tier = tier_kingdom
 	}
-	effect = {
-		if = {
-			limit = {
-				scope:title.tier = tier_kingdom
-			}
-			trigger_event = bno_events.0002
-		}
+	events = {
+		bno_events.0002
 	}
 }
 
 bno_emp_title_gain = {
 	trigger = {
 		has_game_rule = bno_mod_status_on
+		scope:title.tier = tier_empire
 	}
-	effect = {
-		if = {
-			limit = {
-				scope:title.tier = tier_empire
-			}
-			
-			trigger_event = bno_events.0003
-		}
+	events = {
+		bno_events.0003
 	}
 }

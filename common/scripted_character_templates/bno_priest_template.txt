@@ -205,6 +205,22 @@ bno_male_priest_character_template = {
 
 	after_creation = {
 		add_character_flag = need_priest_outfit
+		if = {
+			limit = {
+				root = {
+					is_faith_bbcs = yes
+				}
+			}
+			set_character_faith = root.faith
+		}
+		if = {
+			limit = {
+				root = {
+					is_culture_bnoc = yes
+				}
+			}
+			set_culture = root.culture
+		}
         remove_bad_traits = yes
 	}
 }

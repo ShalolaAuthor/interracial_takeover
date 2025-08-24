@@ -11,6 +11,7 @@ bno_curious_pulse = {
 	}
 	events = {
 		bno_curious.0001
+		delay = { days = { 7 14 } }
 		bno_ritual_of_purification.0001
 	}
 }

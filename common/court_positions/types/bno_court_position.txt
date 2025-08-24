@@ -210,7 +210,7 @@ bno_bbc_priestess_court_position = {
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_5
         }
-        faith.religion = religion:bnonr_religion
+        is_faith_bbcs = yes
         any_realm_province = {
             has_building_or_higher = bbc_church_02
         }
@@ -226,7 +226,7 @@ bno_bbc_priestess_court_position = {
     valid_character = {
         scope:employee = {
             has_trait = bno_lifestyle_bbc_priestess
-            faith.religion = religion:bnonr_religion
+            is_faith_bbcs = yes
             trigger_if = {
                 limit = {
                     liege = { is_a_girl = yes }
@@ -395,7 +395,7 @@ bno_bbc_priest_court_position = {
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_5
         }
-        faith.religion = religion:bnonr_religion
+        is_faith_bbcs = yes
         any_realm_province = {
             has_building_or_higher = bbc_church_02
         }
@@ -411,7 +411,7 @@ bno_bbc_priest_court_position = {
     valid_character = {
         scope:employee = {
             has_trait = bno_lifestyle_bbc_priestess
-            faith.religion = religion:bnonr_religion
+            is_faith_bbcs = yes
             trigger_if = {
                 limit = {
                     liege = { is_a_girl = yes }

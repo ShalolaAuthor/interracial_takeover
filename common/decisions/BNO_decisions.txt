@@ -434,17 +434,38 @@ bno_convert_to_african = {
 			has_trait = bno_jos
 		}
 		NOT = { is_culture_bnoc = yes }
-	}
-
-	effect = {
-		if = {
-			limit = {
+		OR = {
+			AND = {
 				is_married = yes
-				any_spouse = {
+				primary_spouse = {
 					is_culture_bnoc = yes
 				}
 			}
-			random_spouse = {
+			any_courtier_or_guest = {
+				is_culture_bnoc = yes
+			}
+		}
+	}
+
+	effect = {
+		primary_spouse = {
+			culture = {
+				save_scope_as = new_culture
+			}
+		}
+		if = {
+			limit = {
+				exists = scope:new_culture
+			}
+			set_culture = scope:new_culture
+		}
+		else_if = {
+			limit = {
+				any_courtier_or_guest = {
+					is_culture_bnoc = yes
+				}
+			}
+			random_courtier_or_guest = {
 				limit = {
 					is_culture_bnoc = yes
 				}
@@ -453,9 +474,6 @@ bno_convert_to_african = {
 				}
 			}
 			set_culture = scope:new_culture
-		}
-		else = {
-			set_culture = culture:bnoc
 		}
 	}
 	ai_check_interval = 12

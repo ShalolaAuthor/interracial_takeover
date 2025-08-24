@@ -834,6 +834,22 @@ create_bbc = {
 			add_trait = bno_full_black
 			add_trait = dick_big_good_3
 			add_trait = lustful
+			if = {
+				limit = {
+					root = {
+						is_faith_bbcs = yes
+					}
+				}
+				set_character_faith = root.faith
+			}
+			if = {
+				limit = {
+					root = {
+						is_culture_bnoc = yes
+					}
+				}
+				set_culture = root.culture
+			}
 			remove_bad_traits = yes
 		}
 	}

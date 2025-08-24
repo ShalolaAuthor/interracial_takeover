@@ -365,6 +365,24 @@ bno_get_wanderer_scope = {
             create_character = {
                 template = bbc_noble_template
                 location = root.capital_province
+                after_creation = {
+                    if = {
+                        limit = {
+                            root = {
+                                is_faith_bbcs = yes
+                            }
+                        }
+                        set_character_faith = root.faith
+                    }
+                    if = {
+                        limit = {
+                            root = {
+                                is_culture_bnoc = yes
+                            }
+                        }
+                        set_culture = root.culture
+                    }
+                }
                 save_scope_as = wanderer
             }
         }

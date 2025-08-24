@@ -78,12 +78,12 @@ bno_title_change_pulse = {
 	}
 	random_events = {
 		chance_to_happen = 45
-		80 = bno_title_change.0001 #BBC courtier force buys county title
-		100 = bno_title_change.0002 #bbc courtier pays for AI vassal's title, cuck player informed
-		100 = bno_title_change.0003 #bbc uses prestige to force vassal to give up title
-		50 = bno_title_change.0004 #high intrigue BBC courtier + AI vassal's slut wife kill vassal, take all title for themself, get married. cuck player informed
-		15 = bno_title_change.0005 #fully blacked wife takes all cuck players titles
-		200 = bno_title_change.0006 #ruler bbc takes slut liege's titles , don't know if i've tested this yet?
+		1 = bno_title_change.0001 #BBC courtier force buys county title
+		1 = bno_title_change.0002 #bbc courtier pays for AI vassal's title, cuck player informed
+		1 = bno_title_change.0003 #bbc uses prestige to force vassal to give up title
+		1 = bno_title_change.0004 #high intrigue BBC courtier + AI vassal's slut wife kill vassal, take all title for themself, get married. cuck player informed
+		1 = bno_title_change.0005 #fully blacked wife takes all cuck players titles
+		1 = bno_title_change.0006 #ruler bbc takes slut liege's titles , don't know if i've tested this yet?
 	}
 }
 

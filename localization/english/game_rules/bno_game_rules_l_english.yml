@@ -96,3 +96,10 @@ setting_bno_invite_bbc_decision_bbc_desc: "Only BBCs should be able to invite a 
 setting_bno_invite_bbc_decision_off: "Off"
 setting_bno_invite_bbc_decision_off_desc: "Let's just make it happen naturally.."
 
+rule_bno_ai_events_chance: "@bnobbc! #X Interracial Takeover:#! AI Events Chance"
+setting_bno_ai_events_chance_rare: "Rare"
+setting_bno_ai_events_chance_rare_desc: "Sounds like a delightful way to ensure all eyes are on me."
+setting_bno_ai_events_chance_uncommon: "Uncommon"
+setting_bno_ai_events_chance_uncommon_desc: "Hmm,  a little less attention for me, but I still get my share!"
+setting_bno_ai_events_chance_common: "Common"
+setting_bno_ai_events_chance_common_desc: "A little less competition never hurt anyone."

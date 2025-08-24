@@ -118,7 +118,7 @@ bno_build_bbc_church = {
             highest_held_title_tier >= tier_kingdom
         }
         piety_level >= 3
-        faith.religion = religion:bnonr_religion
+        is_faith_bbcs = yes
     }
 
     is_valid_showing_failures_only = {
@@ -225,7 +225,7 @@ bno_found_bbc_church_holy_order = {
             }
         }
         piety_level >= 3
-        faith.religion = religion:bnonr_religion
+        is_faith_bbcs = yes
         any_realm_province = {
             has_building_or_higher = bbc_church_02
         }

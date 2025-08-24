@@ -14,11 +14,10 @@ bno_quarterly_war_pulse = {
 			value = 0
 			if = {
 				limit = { is_ai = yes }
-				add = 90
+				add = bno_ai_events_chance
 			}
 		}
-		25 = 0
-		100 = bno_war.0001 #bbc war event, will insta win any offensive war against defender w/blacked wife
-		100 = bno_war.0002 #bbc war defender event. if defending against non bbc religion enemy, can get holy_warrior trait, and become bbc if for some reason you aren't currently. All choices give 500 bbc_maa troops
+		1 = bno_war.0001 #bbc war event, will insta win any offensive war against defender w/blacked wife
+		1 = bno_war.0002 #bbc war defender event. if defending against non bbc religion enemy, can get holy_warrior trait, and become bbc if for some reason you aren't currently. All choices give 500 bbc_maa troops
 	}
 }

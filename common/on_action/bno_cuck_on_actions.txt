@@ -22,24 +22,23 @@ bno_yearly_cuck_pulse = {
 			value = 0
 			if = {
 				limit = { is_ai = yes }
-				add = 90
+				add = bno_ai_events_chance
 			}
 		}
-		25 = 0
-		150 = bno_cuck.0001 #cuck overhears wife(?) getting blacked
-		150 = bno_cuck.0002 #cuck works, gets money
-		100 = bno_cuck.0003 #cuck paying bbc for wifes "damages" to bbc camp
-		40 = bno_cuck.0004 #unaware cuck ruler lets his wife deal with troop moral
-		100 = bno_cuck.0005 #Cuck is convinced to be trusting
-		100 = bno_cuck.0006 #Just cuck bonds with bbc, gives court position
-		100 = bno_cuck.0007 #BBC makes brave cuck a coward
-		80 = bno_cuck.0008 #advanced cuck gives hook to bbc vassal or wife gets fucked
-		80 = bno_cuck.0009 #Cuck player bonding with cuck son
-		100 = bno_cuck.0010 #BBC Spymaster "helps" cuck
-		150 = bno_cuck.0011 #BBC vassal explains he will take cuck's real white daughter as future wife
-		100 = bno_cuck.0012 #Wife suggests a BBC camp
-		130 = bno_cuck.0013 #wife suggests a new diarch
-		150 = bno_cuck.0014 #A Cock bigger than yours
+		1 = bno_cuck.0001 #cuck overhears wife(?) getting blacked
+		1 = bno_cuck.0002 #cuck works, gets money
+		1 = bno_cuck.0003 #cuck paying bbc for wifes "damages" to bbc camp
+		1 = bno_cuck.0004 #unaware cuck ruler lets his wife deal with troop moral
+		1 = bno_cuck.0005 #Cuck is convinced to be trusting
+		1 = bno_cuck.0006 #Just cuck bonds with bbc, gives court position
+		1 = bno_cuck.0007 #BBC makes brave cuck a coward
+		1 = bno_cuck.0008 #advanced cuck gives hook to bbc vassal or wife gets fucked
+		1 = bno_cuck.0009 #Cuck player bonding with cuck son
+		1 = bno_cuck.0010 #BBC Spymaster "helps" cuck
+		1 = bno_cuck.0011 #BBC vassal explains he will take cuck's real white daughter as future wife
+		1 = bno_cuck.0012 #Wife suggests a BBC camp
+		1 = bno_cuck.0013 #wife suggests a new diarch
+		1 = bno_cuck.0014 #A Cock bigger than yours
 	}
 }
 

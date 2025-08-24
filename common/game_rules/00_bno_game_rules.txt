@@ -244,3 +244,24 @@ bno_invite_bbc_decision = {
 	}
 
 }
+
+bno_ai_events_chance = {
+	categories = {
+		interaccial_takeover
+	}
+
+	default = bno_ai_events_chance_rare
+
+	bno_ai_events_chance_rare = {
+
+	}
+
+	bno_ai_events_chance_uncommon = {
+
+	}
+
+	bno_ai_events_chance_common = {
+
+	}
+
+}

@@ -24,22 +24,22 @@ bno_slut_yearly_random_pulse = {
 				limit = {
 					is_ai = yes
 				}
-				add = 90
+				add = bno_ai_events_chance
 			}
 		}
-		100 = bno_slut.0001 #Slut lays with BBC
-		100 = bno_slut.0002 #Slut anti stress event
-		100 = bno_slut.0003 #Slut is on a cum only diet
-		100 = bno_slut.0004 #Slut bring white girl to BBC
-		100 = bno_slut.0005 #Slut eaves dropping a random girl talking to her BBC
-		100 = bno_slut.0006 #Black Husband cages a courtier that Slut hates
-		100 = bno_slut.0007 #Becoming darker skin
-		10 = bno_slut.0008 #Becoming a pimp for BBC
-		10 = bno_slut.0009 #Becoming a pimp for BBC
-		100 = bno_slut.0010
-		100 = bno_slut.0012
-		100 = bno_slut.0013
-		100 = bno_slut.0014
+		1 = bno_slut.0001 #Slut lays with BBC
+		1 = bno_slut.0002 #Slut anti stress event
+		1 = bno_slut.0003 #Slut is on a cum only diet
+		1 = bno_slut.0004 #Slut bring white girl to BBC
+		1 = bno_slut.0005 #Slut eaves dropping a random girl talking to her BBC
+		1 = bno_slut.0006 #Black Husband cages a courtier that Slut hates
+		1 = bno_slut.0007 #Becoming darker skin
+		1 = bno_slut.0008 #Becoming a slut for BBC
+		1 = bno_slut.0009 #Becoming a slut for BBC
+		1 = bno_slut.0010
+		1 = bno_slut.0012
+		1 = bno_slut.0013
+		1 = bno_slut.0014
 	}
 }
 

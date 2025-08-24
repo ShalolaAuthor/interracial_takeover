@@ -1,0 +1,21 @@
+﻿doctrine_bno_tenet = {
+	group = "core_tenets"
+
+	tenet_bno = {
+		icon = tenet_bno
+
+		is_shown = {
+			religion = religion:bnonr_religion
+		}
+
+		can_pick = {
+			religion = religion:bnonr_religion
+		}
+
+		piety_cost = 0
+
+		character_modifier = {
+			fertility = 0.5
+		}
+	}
+}

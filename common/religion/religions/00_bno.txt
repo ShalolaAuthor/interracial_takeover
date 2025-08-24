@@ -400,7 +400,8 @@
 
 			#Tenets
 			doctrine = tenet_struggle_submission
-			doctrine = tenet_human_sacrifice
+			doctrine = tenet_bno
+			#doctrine = tenet_human_sacrifice
 			doctrine = tenet_ritual_celebrations
 			
 		}
