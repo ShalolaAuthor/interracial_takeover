@@ -1,21 +1,34 @@
-﻿doctrine_bno_tenet = {
+﻿doctrine_bno_tenets = {
 	group = "core_tenets"
-
-	tenet_bno = {
-		icon = tenet_bno
+    #for now
+    number_of_picks = 1
+    
+	tenet_bno_black_cock_conquest = {
+		icon = tenet_bno_black_cock_conquest
 
 		is_shown = {
-			religion = religion:bnonr_religion
+			religion_tag = bnonr_religion
 		}
 
 		can_pick = {
-			religion = religion:bnonr_religion
+			religion_tag = bnonr_religion
 		}
 
 		piety_cost = 0
 
-		character_modifier = {
-			fertility = 0.5
+		parameters = {
+			great_holy_wars_active = yes
+			ghw_no_hof_conversion_buffs_active = yes
+			bonus_holy_war_piety_active = yes
+			pilgrimage_decision_active = yes
+			unlock_voluntary_laampdom_faith = yes
+		}
+
+        character_modifier = {
+			domain_tax_same_faith_mult = 0.2
+			domain_tax_different_faith_mult = -0.2
+			levy_reinforcement_rate_same_faith = 0.25
+			levy_reinforcement_rate_different_faith = -0.25
 		}
 	}
 }

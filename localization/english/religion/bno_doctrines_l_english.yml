@@ -1,0 +1,14 @@
+﻿l_english:
+
+special_doctrine_is_bno_faith_name: "Black Cock Supremacy"
+is_bno_faith_name: "$special_doctrine_is_bno_faith_name$"
+special_doctrine_is_bno_faith_desc: "We should show compassion to these misguided souls who haven't yet experienced the ecstasy of a [bno_bbc|E], for one taste is all it takes. Once you go black, you never go back!  Their minds may be clouded by ignorance today, but they will come to worship at our altar, begging for the sweet power of the [bno_bbc|E]."
+
+bno_hostility_group_name: "$hostility_group_name$"
+bno_hostility_doctrine_name: "Aphrodiasma"
+bno_hostility_doctrine_desc: "The following religions are Aphrodiasmic:\n[GetReligionFamily('rf_bbcs').GetReligions]"
+
+doctrine_bno_tenets_name: "[bno_religion|E]: Tenets"
+
+tenet_bno_black_cock_conquest_name: "The Black Cock Conquest"
+tenet_bno_black_cock_conquest_desc: "Through fervent prayer and holy conquest, we shall spread the glory of the [bno_bbc|E] across the land!"
