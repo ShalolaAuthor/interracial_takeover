@@ -1,0 +1,11 @@
+﻿is_bno_faith = {
+    group = "special"
+
+    is_available_on_create = {
+        has_doctrine = special_doctrine_is_bno_faith
+    }
+
+    special_doctrine_is_bno_faith = {
+        
+    }
+}

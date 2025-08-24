@@ -26,12 +26,10 @@ bno_trait_maintenance.0002 = {			#makes all caged characters have tiniest dick
 bno_trait_maintenance.0003 = {			#castrated characters should obviously not have dick traits
 	hidden = yes
 	trigger = {
-		root = {
-			OR = {
-				has_trait = bno_castrated
-				has_trait = eunuch_1
-				has_trait = beardless_eunuch
-			}
+		OR = {
+			has_trait = bno_castrated
+			has_trait = eunuch_1
+			has_trait = beardless_eunuch
 		}
 	}
 	immediate = {

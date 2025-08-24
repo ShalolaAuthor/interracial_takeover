@@ -2,16 +2,13 @@
 -add trading with church of bbc (every black supremacist will donate 1 gold for 10k piety)
 -add trading with africans (every africans will donate 1 gold for 1k prestige)
 -convert county to bbc church
--add icon for future queen for black
 -fix breed me tattoo on the belly, maybe add one for the chest instead
 -add nickname chooser decision for sluts
 -make some decision popped up in the center
 -add conqueror trait to mindless and bbc character
 -add event for conqueror + mindless/bbc
--add something for people to spend gold in
 -bnwo law
 -if no longer visibly fertile change mindless to something else
--add decision to go to church of bbc and cure illness and negative traits cost money
 -get boost for research, innovation etc etc in exchange for gold (just say it is blessing)(must have certain holy sites for certain effects?)
 -add stats after sex (modifier?) (random chance it happens)(send notification that you learn something)
 -modify cum for glory to not include prowess (remove prowess, add something else, put prowess into the random stat)
@@ -26,17 +23,17 @@
 -add description to the message pop out for glorified and mystified
 -maybe add more message template?
 -add priority to some portrait modifier
--remove disease resistance?
--futa eunuch needs to be able to give birth
 -add futa + female kid and marriage (needs research)
 -check for other cultural gfx i got bored seeing african gfx
 -add revealing clothing tags?
--fix perk 2 selection screen
 -make sure a wife of a BBC not getting targeted by other other bbc
--add bbc priest icon
 -add xp for every successful conversion
 -add message when bbc priest fail a conversion
 -add loc and icon for bno tenet
+-add custom law GUI
+-finish religion overhaul thingy
+-add bno_worshipper trait (cant have children)
+-add dynasty perk 5 localization (cure disease, church, holy order, priestess)
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
@@ -44,6 +41,13 @@ IMPORTANT TODO:
 
 
 DONE:
+-remove disease resistance?
+-add decision to go to church of bbc and cure illness and negative traits cost money
+-add icon for future queen for black
+-add something for people to spend gold in
+-futa eunuch needs to be able to give birth
+-add bbc priest icon
+-fix perk 2 selection screen
 -add delay inside bno event on actions for every on action it triggers (random days amount, so annoying everything come all at once)
 -fix create_character still having old African and Religion
 -fix the build african settlement thing to only consider capital_province of that title

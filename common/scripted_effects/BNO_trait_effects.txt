@@ -120,7 +120,10 @@ bno_castrated_effect = {
 			NOT = { has_trait = bno_castrated }
 		}
 		add_trait = bno_castrated
-		add_trait = eunuch_1
+		if = {
+			limit = { is_a_futa = no }
+			add_trait = eunuch_1
+		}
 	}
 	add_prestige = -500
 }

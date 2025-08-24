@@ -4,7 +4,15 @@
 			has_game_rule = bno_religion_yes
 			is_bno_mindless_bbc_slut = yes
 		}
-		set_character_faith_with_conversion = var:recent_sex_partner.faith
+		if = {
+			limit = {
+				NOT = { exists = var:recent_sex_partner }
+			}
+			set_character_faith_with_conversion = faith:bbcs
+		}
+		else = {
+			set_character_faith_with_conversion = var:recent_sex_partner.faith
+		}
 	}
 }
 

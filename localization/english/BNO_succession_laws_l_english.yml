@@ -1,5 +1,5 @@
 ﻿l_english:
 #BNWO Succession
- bnwo_only_law: "[bno_bnwo|E] Oriented"
+ bnwo_only_law: "BNWO Oriented"
  bnwo_only_law_subname: "Racial Superiority"
- bnwo_only_law_effects:3 "$EFFECT_LIST_BULLET$Men and women are equal in succession inheritance from title holder.\n$EFFECT_LIST_BULLET$Only available to pass on to same faith.\n$EFFECT_LIST_BULLET$Allows designation of heirs."
+ bnwo_only_law_effects:3 "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$Men and women are equal in succession inheritance from title holder.\n$EFFECT_LIST_BULLET$Only available to pass on to same faith.\n$EFFECT_LIST_BULLET$Allows designation of heirs."
