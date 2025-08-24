@@ -1,6 +1,6 @@
 ﻿l_simp_chinese:
 
-game_rule_category_interaccial_takeover: "Interracial Takeover"
+game_rule_category_interaccial_takeover: "@bnobbc! #X Interracial Takeover:#!"
 
 rule_bno_prostitution_interval: "@bnobbc! #X Interracial Takeover:#! 卖淫间隔"
 setting_bno_interval_one_month: "一个月"
@@ -96,3 +96,10 @@ setting_bno_invite_bbc_decision_bbc_desc: "应该只有黑爹有能力邀请[bno
 setting_bno_invite_bbc_decision_off: "关闭"
 setting_bno_invite_bbc_decision_off_desc: "我们还是顺其自然吧…"
 
+rule_bno_ai_events_chance: "@bnobbc! #X Interracial Takeover:#! AI事件几率"
+setting_bno_ai_events_chance_rare: "稀有"
+setting_bno_ai_events_chance_rare_desc: "听起来像是个确保所有目光向我看齐的好办法。"
+setting_bno_ai_events_chance_uncommon: "不常见"
+setting_bno_ai_events_chance_uncommon_desc: "嗯，对我的注意力减少了，不过还是有我的份。"
+setting_bno_ai_events_chance_common: "常见"
+setting_bno_ai_events_chance_common_desc: "不过是一点小小的竞争罢了。"
