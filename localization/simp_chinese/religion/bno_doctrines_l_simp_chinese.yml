@@ -1,0 +1,14 @@
+﻿l_simp_chinese:
+
+special_doctrine_is_bno_faith_name: "黑屌至上"
+is_bno_faith_name: "$special_doctrine_is_bno_faith_name$"
+special_doctrine_is_bno_faith_desc: "我们要对那些还没能体验[bno_bbc|E]带来的极乐的人展现同情，因为只要尝试一次就够了。一旦你上了路就会一条道走到“黑”！虽然现在他们的心灵因无知而迷茫，但是之后他们就会前来膜拜我们的祭坛，乞求[bno_bbc|E]那美好的力量。"
+
+bno_hostility_group_name: "$hostility_group_name$"
+bno_hostility_doctrine_name: "爱欲主义"
+bno_hostility_doctrine_desc: "以下宗教属于爱欲主义：\n[GetReligionFamily('rf_bbcs').GetReligions]"
+
+doctrine_bno_tenets_name: "[bno_religion|E]：教条"
+
+tenet_bno_black_cock_conquest_name: "黑屌征服"
+tenet_bno_black_cock_conquest_desc: "通过狂热的祈祷与神圣的征服，我们将会把[bno_bbc|E]的荣光传遍整个大陆！"
