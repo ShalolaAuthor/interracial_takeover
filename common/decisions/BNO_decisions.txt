@@ -20,7 +20,7 @@ bno_events00 = {
 			limit = {
 				has_game_rule = bno_invite_bbc_decision_all
 			}
-			is_alive = yes
+			always = yes
 		}
 		trigger_else_if = {
 			limit = {
