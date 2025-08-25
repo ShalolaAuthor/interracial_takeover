@@ -1866,7 +1866,7 @@ bno_random.0011 = {
 		is_qos = yes
 		is_married = yes
 		any_spouse = {
-			is_ai_whiteguy = yes
+			is_ai_white_guy = yes
 		}
 		any_courtier_or_guest = {
 			is_ai_blackbull = yes
@@ -5893,7 +5893,7 @@ bno_random.0039 = {
 		is_ruler = yes
 		does_blackbull_exist = yes
 		any_courtier_or_guest = {
-			is_ai_whiteguy = yes
+			is_ai_white_guy = yes
 		}
 	}
 	
@@ -5903,7 +5903,7 @@ bno_random.0039 = {
 		}
 		random_courtier_or_guest = {
 			limit = {
-				is_ai_whiteguy = yes
+				is_ai_white_guy = yes
 			}
 			save_scope_as = target2
 		}
@@ -6054,7 +6054,7 @@ bno_random.0040 = {
 			is_ai_blackbull = yes
 		}
 		any_courtier_or_guest = {
-			is_ai_whiteguy = yes
+			is_ai_white_guy = yes
 		}
 	}
 	
@@ -6067,7 +6067,7 @@ bno_random.0040 = {
 		}
 		random_court_position_holder = {
 			limit = {
-				is_ai_whiteguy = yes
+				is_ai_white_guy = yes
 			}
 			save_scope_as = target2
 		}
@@ -6151,7 +6151,7 @@ bno_random.0041 = {
 	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		is_ai_whiteguy = yes
+		is_ai_white_guy = yes
 		any_courtier_or_guest = {
 			is_ai_not_married_blackbull = yes
 		}
@@ -6229,7 +6229,7 @@ bno_random.0042 = {
 	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		is_ai_whiteguy_married = yes
+		is_ai_white_guy_married = yes
 		any_courtier_or_guest = {
 			is_ai_not_married_blackbull = yes
 		}
@@ -6435,7 +6435,7 @@ bno_random.0043 = {
 	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		is_ai_whiteguy = yes
+		is_ai_white_guy = yes
 		does_blackbull_exist = yes
 		any_courtier_or_guest = {
 			is_ai_curious = yes
@@ -6613,7 +6613,7 @@ bno_random.0044 = {
 	cooldown = { months = { 36 42 } }
 	
 	trigger = {
-		is_ai_whiteguy = yes
+		is_ai_white_guy = yes
 		does_blackbull_exist = yes
 		any_courtier_or_guest = {
 			is_ai_snowbunny = yes
@@ -6830,7 +6830,7 @@ bno_random.0045 = {
 	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		is_ai_whiteguy_married = yes
+		is_ai_white_guy_married = yes
 		does_blackbull_exist = yes
 		any_spouse = {
 			is_ai_blacked = yes
@@ -7011,7 +7011,7 @@ bno_random.0046 = {
 	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		is_ai_whiteguy_married = yes
+		is_ai_white_guy_married = yes
 		does_blackbull_exist = yes
 		any_spouse = {
 			is_ai_snowbunny = yes
@@ -7332,7 +7332,7 @@ bno_random.0047 = {
 	cooldown = { months = { 30 36 } }
 	
 	trigger = {
-		is_ai_whiteguy_married = yes
+		is_ai_white_guy_married = yes
 		any_courtier_or_guest = {
 			is_ai_blackbull = yes
 			count > 3
@@ -7469,7 +7469,7 @@ bno_random.0048 = {
 	cooldown = { months = { 18 24 } }
 	
 	trigger = {
-		is_ai_whiteguy_married = yes
+		is_ai_white_guy_married = yes
 		any_spouse = {
 			is_ai_qos = yes
 		}

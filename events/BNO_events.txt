@@ -106,12 +106,10 @@ bno_events.0002 = {
 	
 	trigger = {
 		is_female = yes
-		trigger_if = {
-			limit = { is_married = yes }
-			any_spouse = {
-				is_ai_blackbull = yes
-				has_any_nickname = no
-			}
+		is_married = yes
+		any_spouse = {
+			is_ai_blackbull = yes
+			has_any_nickname = no
 		}
 	}
 	
