@@ -7,14 +7,20 @@ bno_trait_seeding.0001 = {
 		OR = {
 			bno_is_graphically_african = yes
 			has_trait = bno_full_black
+			has_trait = bno_full_black
 			has_trait = bno_mostly_black
 			has_trait = bno_mixed
 		}
-		NOT = { is_culture_bnoc = yes }
+		is_culture_bnoc = yes
 		is_alive = yes
 	}
 	immediate = {
-		add_trait = bno_full_black
+		if = {
+			limit = {
+				NOT = { has_trait = bno_blood }
+			}
+			add_trait = bno_full_black
+		}
 		bno_seed_originally_african_flag = yes
 		bno_seed_bbc_trait_effect = yes
 		bno_futa_bisexual = yes
