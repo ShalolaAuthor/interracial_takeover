@@ -254,19 +254,6 @@ bno_build_african_camps_decision = {
 	decision_group_type = bno_decision_group
 	desc = bno_build_african_camps_decision_desc
 	selection_tooltip = bno_build_african_camps_decision_tooltip
-	widget = {
-		controller = create_holy_order
-		barony_valid = {
-			trigger_if = {
-				limit = { exists = this }
-				holder = scope:ruler
-				title_province = {
-					NOT = { has_building_or_higher = bbc_camp_01 }
-				}
-				title_province = { is_county_capital = yes }
-			}
-		}
-	}
 	is_shown = {
 		is_ruler = yes
 		is_adult = yes
@@ -283,6 +270,28 @@ bno_build_african_camps_decision = {
 		}
 	}
 
+	is_valid = {
+		any_realm_county = {
+			any_county_province = {
+				province_owner = root
+				NOT = { has_building_or_higher = bbc_camp_01 }
+			}
+		}
+	}
+	
+	widget = {
+		controller = create_holy_order
+		barony_valid = {
+			trigger_if = {
+				limit = { exists = this }
+				holder = scope:ruler
+				title_province = {
+					NOT = { has_building_or_higher = bbc_camp_01 }
+				}
+			}
+		}
+	}
+	
 	cost = {
 		gold = 300
 	}
