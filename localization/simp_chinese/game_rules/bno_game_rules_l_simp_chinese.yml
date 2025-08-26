@@ -1,8 +1,8 @@
 ﻿l_simp_chinese:
 
-game_rule_category_interaccial_takeover: "@bnobbc! #X Interracial Takeover:#!"
+game_rule_category_interaccial_takeover: "@bnobbc! #X 跨种族征服：#!"
 
-rule_bno_prostitution_interval: "@bnobbc! #X Interracial Takeover:#! 卖淫间隔"
+rule_bno_prostitution_interval: "@bnobbc! #X 跨种族征服：#!卖淫间隔"
 setting_bno_interval_one_month: "一个月"
 setting_bno_interval_one_month_desc: "我很荣幸也很兴奋能被选为全国[bno_bbc|E]的月度妓女，随时准备为任何想要的黑人打开我紧闭的小穴！"
 setting_bno_interval_three_months: "三个月"
@@ -10,43 +10,43 @@ setting_bno_interval_three_months_desc: "三个月？我需要每天都被大黑
 setting_bno_interval_six_months: "六个月"
 setting_bno_interval_six_months_desc: "他们强迫我接受间隔6个月的[bno_bbc|E]行程表，这让我很伤心，但我不会因此而被击溃。"
 
-rule_bno_body_modification: "@bnobbc! #X Interracial Takeover:#! 身材改造"
+rule_bno_body_modification: "@bnobbc! #X 跨种族征服：#!身材改造"
 setting_bno_body_modification_yes: "好的，请吧"
 setting_bno_body_modification_yes_desc: "我很高兴，我的身体终于变成了黑色，曲线玲珑，这正是[bno_bbcs|E]们一直想要的样子——现在我可以完全接受我的角色，成为他们完美的精盆！"
 setting_bno_body_modification_no: "不了，谢谢"
 setting_bno_body_modification_no_desc: "虽然我喜欢为黑人大鸡巴服务，但成为永久的黑人和曲线美并不是我所能接受的--我的身体由我来控制，即使这意味着不能完全接受他们的欲望！"
 
-rule_bno_religion_allowed: "@bnobbc! #X Interracial Takeover:#! 黑鸡巴教会"
+rule_bno_religion_allowed: "@bnobbc! #X 跨种族征服：#!黑鸡巴教会"
 setting_bno_religion_yes: "好的，请吧"
 setting_bno_religion_yes_desc: "[bno_bbcs|E]就是我们灵魂真正的救赎！"
 setting_bno_religion_no: "不了，谢谢"
 setting_bno_religion_no_desc: "“但是......为什么会有人反对崇拜美丽的大鸡巴呢？”把头偏向一边，怀疑地眯起眼睛"
 
-rule_bno_decision_npc: "@bnobbc! #X Interracial Takeover:#! 招募BBC决定"
+rule_bno_decision_npc: "@bnobbc! #X 跨种族征服：#!招募BBC决定"
 setting_bno_decision_npc_yes: "默认"
 setting_bno_decision_npc_yes_desc: "快把[bno_bbc|E]呈上来吧！"
 setting_bno_decision_npc_no: "玩家独有"
 setting_bno_decision_npc_no_desc: "不行！要是其他女人也能染指大黑鸡巴的话，我会疯掉的！"
 
-rule_bno_global_bbc_activities: "@bnobbc! #X Interracial Takeover:#! BBC活动"
+rule_bno_global_bbc_activities: "@bnobbc! #X 跨种族征服：#!BBC活动"
 setting_bno_global_bbc_activities_yes: "全局"
 setting_bno_global_bbc_activities_yes_desc: "我需要源源不断的大鸡巴来填充我永不满足的饥渴，而不是什么把我限制在一个区域的小规则！"
 setting_bno_global_bbc_activities_no: "本地"
 setting_bno_global_bbc_activities_no_desc: "行吧，如果这是我得到大黑鸡巴的唯一办法，那就这样吧！"
 
-rule_bno_mod_status: "@bnobbc! #X Interracial Takeover:#! 模组状态"
+rule_bno_mod_status: "@bnobbc! #X 跨种族征服：#!模组状态"
 setting_bno_mod_status_on: "开启"
 setting_bno_mod_status_on_desc: "我需要那根巨大的巧克力老二时刻填满我的身体，而不是什么男子气概的借口！"
 setting_bno_mod_status_off: "关闭"
 setting_bno_mod_status_off_desc: "不要啊！生活在一个没有大黑鸡巴的世界里对我可怜的白人小穴来说太难受了！"
 
-rule_bno_seeding: "@bnobbc! #X Interracial Takeover:#! 特质分发"
+rule_bno_seeding: "@bnobbc! #X 跨种族征服：#!特质分发"
 setting_bno_seeding_yes: "好的，请吧"
 setting_bno_seeding_yes_desc: "哦！！！你能想象吗？一整个大陆除了慢慢的大黑鸡巴外啥也没有！"
 setting_bno_seeding_no: "不了，谢谢"
 setting_bno_seeding_no_desc: "太好了！太好了！我会亲自负责把那些大黑鸡巴请来陪我玩的！"
 
-rule_bno_event_frequency: "@bnobbc! #X Interracial Takeover:#! 事件频繁度"
+rule_bno_event_frequency: "@bnobbc! #X 跨种族征服：#!事件频繁度"
 setting_bno_event_frequency_three_months: "三个月"
 setting_bno_event_frequency_three_months_desc: "哦必须的！我已经等不及下一个[bno_bbc|E]事件了。这种渴望已经快要让我欲罢不能了。"
 setting_bno_event_frequency_six_months: "六个月"
@@ -54,13 +54,13 @@ setting_bno_event_frequency_six_months_desc: "好吧，这有点令人失望了�
 setting_bno_event_frequency_twelve_months: "十二个月"
 setting_bno_event_frequency_twelve_months_desc: "我……我明白你是想刺激我，但是要让我在两个[bno_bbc|E]事件之间等上将近一年几乎是无法忍受的。"
 
-rule_bno_tattoo: "@bnobbc! #X Interracial Takeover:#! 显示纹身"
+rule_bno_tattoo: "@bnobbc! #X 跨种族征服：#!显示纹身"
 setting_bno_tattoo_yes: "好的，请吧"
 setting_bno_tattoo_yes_desc: "我迫不及待地想让那些强壮的黑人男性看到它，知晓我现在也是她们中的一员——一个肮脏的小荡妇，只为被他们的大鸡巴使用而活着！"
 setting_bno_tattoo_no: "不了，谢谢"
 setting_bno_tattoo_no_desc: "如果我拒绝黑桃皇后纹身，那就意味着拒绝了我作为一个白人女孩的全部身份，我的活着只是为了被拥有巨大阳具的强壮黑人男性利用。"
 
-rule_bno_rarity: "@bnobbc! #X Interracial Takeover:#! 大黑鸡巴稀有度"
+rule_bno_rarity: "@bnobbc! #X 跨种族征服：#!大黑鸡巴稀有度"
 setting_bno_rarity_size: "尺寸至上"
 setting_bno_rarity_size_desc: "鸡巴分各种形状和大小！我只要最大的#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!\n（[GetTrait('bno_bbc').GetName( GetNullCharacter )]特质将基于鸡巴的大小更常见于非洲人当中。）"
 setting_bno_rarity_race: "黑色更大"
@@ -76,7 +76,7 @@ setting_bno_bbc_common_chance_desc: "对于#V [GetTrait('bno_bbc').GetName( GetN
 setting_bno_bbc_very_common_chance: "非常常见"
 setting_bno_bbc_very_common_chance_desc: "我生命中时刻需要#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!。只有他们才能满足我对于#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!永无止境的饥渴。"
 
-rule_bno_invite_white_noble_decision: "@bnobbc! #X Interracial Takeover:#! 邀请白人贵族决议"
+rule_bno_invite_white_noble_decision: "@bnobbc! #X 跨种族征服：#!邀请白人贵族决议"
 setting_bno_invite_white_noble_decision_all: "所有人"
 setting_bno_invite_white_noble_decision_all_desc: "所有人都应该有能力邀请白人贵族！"
 setting_bno_invite_white_noble_decision_slut: "仅荡妇"
@@ -86,7 +86,7 @@ setting_bno_invite_white_noble_decision_bbc_desc: "应该只有[bno_bbcs|E]有�
 setting_bno_invite_white_noble_decision_off: "关闭"
 setting_bno_invite_white_noble_decision_off_desc: "征服他们才有意思！我干嘛要邀请他们来我的王庭？他们应当恳求我给他们一个侍奉我的机会，而不是反过来！"
 
-rule_bno_invite_bbc_decision: "@bnobbc! #X Interracial Takeover:#! 邀请大黑鸡巴决议"
+rule_bno_invite_bbc_decision: "@bnobbc! #X 跨种族征服：#!邀请大黑鸡巴决议"
 setting_bno_invite_bbc_decision_all: "所有人"
 setting_bno_invite_bbc_decision_all_desc: "所有人都应该有能力邀请黑爹！"
 setting_bno_invite_bbc_decision_slut: "仅荡妇"
@@ -96,7 +96,7 @@ setting_bno_invite_bbc_decision_bbc_desc: "应该只有黑爹有能力邀请[bno
 setting_bno_invite_bbc_decision_off: "关闭"
 setting_bno_invite_bbc_decision_off_desc: "我们还是顺其自然吧…"
 
-rule_bno_ai_events_chance: "@bnobbc! #X Interracial Takeover:#! AI事件几率"
+rule_bno_ai_events_chance: "@bnobbc! #X 跨种族征服：#!AI事件几率"
 setting_bno_ai_events_chance_rare: "稀有"
 setting_bno_ai_events_chance_rare_desc: "听起来像是个确保所有目光向我看齐的好办法。"
 setting_bno_ai_events_chance_uncommon: "不常见"
