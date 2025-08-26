@@ -286,8 +286,6 @@ bno_curious = {
 	
 	#Special Opinion
 	opposite_opinion = 120
-	attraction_opinion = 10
-	spouse_opinion = 10
 	same_opinion = 10
 	same_opinion_if_same_faith = 20
 
@@ -328,6 +326,28 @@ bno_curious = {
 		}
 	}
 
+	triggered_opinion = {
+		parameter = adultery_female_crime
+		female_only = yes
+		opinion_modifier = curious_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+
+	triggered_opinion = {
+		parameter = adultery_female_shunned
+		female_only = yes
+		opinion_modifier = curious_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+	
+	triggered_opinion = {
+		parameter = adultery_female_accepted
+		female_only = yes
+		opinion_modifier = curious_accepted
+		ignore_opinion_value_if_same_trait = yes
+	}
+
+
 	#Modifiers	
 	ignore_negative_culture_opinion = yes
 	ignore_negative_opinion_of_culture = yes
@@ -349,8 +369,6 @@ bno_blacked = {
 	
 	#Special Opinion
 	opposite_opinion = 130
-	attraction_opinion = 20
-	spouse_opinion = 20
 	same_opinion = 20
 	same_opinion_if_same_faith = 40
 
@@ -392,6 +410,27 @@ bno_blacked = {
 		}
 	}
 
+	triggered_opinion = {
+		parameter = adultery_female_crime
+		female_only = yes
+		opinion_modifier = blacked_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+
+	triggered_opinion = {
+		parameter = adultery_female_shunned
+		female_only = yes
+		opinion_modifier = blacked_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+	
+	triggered_opinion = {
+		parameter = adultery_female_accepted
+		female_only = yes
+		opinion_modifier = blacked_accepted
+		ignore_opinion_value_if_same_trait = yes
+	}
+
 	#Modifiers	
 	ignore_negative_culture_opinion = yes
 	ignore_negative_opinion_of_culture = yes
@@ -417,8 +456,6 @@ bno_snowbunny = {
 	
 	#Special Opinion
 	opposite_opinion = 150
-	attraction_opinion = 30
-	spouse_opinion = 30
 	same_opinion = 30
 	same_opinion_if_same_faith = 60
 
@@ -460,6 +497,28 @@ bno_snowbunny = {
 		}
 	}
 
+	
+	triggered_opinion = {
+		parameter = adultery_female_crime
+		female_only = yes
+		opinion_modifier = snowbunny_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+
+	triggered_opinion = {
+		parameter = adultery_female_shunned
+		female_only = yes
+		opinion_modifier = snowbunny_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+	
+	triggered_opinion = {
+		parameter = adultery_female_accepted
+		female_only = yes
+		opinion_modifier = snowbunny_accepted
+		ignore_opinion_value_if_same_trait = yes
+	}
+
 	#Modifiers
 	martial = -1
 	prowess = -1
@@ -494,8 +553,6 @@ bno_qos = {
 	
 	#Special Opinion
 	opposite_opinion = 175
-	attraction_opinion = 40
-	spouse_opinion = 40
 	same_opinion = 40
 	same_opinion_if_same_faith = 80
 
@@ -532,6 +589,27 @@ bno_qos = {
 			development_growth = 0.1
 			general_opinion = 5
 		}
+	}
+
+	triggered_opinion = {
+		parameter = adultery_female_crime
+		female_only = yes
+		opinion_modifier = qos_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+
+	triggered_opinion = {
+		parameter = adultery_female_shunned
+		female_only = yes
+		opinion_modifier = qos_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+
+	triggered_opinion = {
+		parameter = adultery_female_accepted
+		female_only = yes
+		opinion_modifier = qos_accepted
+		ignore_opinion_value_if_same_trait = yes
 	}
 
 	#Modifiers
@@ -573,8 +651,6 @@ bno_mindless_bbc_slut = {
 	
 	#Special Opinion
 	opposite_opinion = 200
-	attraction_opinion = 50
-	spouse_opinion = 50
 	same_opinion = 50
 	same_opinion_if_same_faith = 50
 
@@ -622,6 +698,27 @@ bno_mindless_bbc_slut = {
 	monthly_track_xp_degradation = {
 		min = 30
 		change = 10
+	}
+
+	triggered_opinion = {
+		parameter = adultery_female_crime
+		female_only = yes
+		opinion_modifier = mindless_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+
+	triggered_opinion = {
+		parameter = adultery_female_shunned
+		female_only = yes
+		opinion_modifier = mindless_intolerant
+		ignore_opinion_value_if_same_trait = yes
+	}
+
+	triggered_opinion = {
+		parameter = adultery_female_accepted
+		female_only = yes
+		opinion_modifier = mindless_accepted
+		ignore_opinion_value_if_same_trait = yes
 	}
 
 	#Modifiers

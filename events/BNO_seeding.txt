@@ -18,6 +18,7 @@ bno_trait_seeding.0001 = {
 		if = {
 			limit = {
 				NOT = { has_trait = bno_blood }
+				bno_is_graphically_african = yes
 			}
 			add_trait = bno_full_black
 		}
