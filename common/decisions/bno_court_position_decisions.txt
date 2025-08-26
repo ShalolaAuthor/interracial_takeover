@@ -126,6 +126,9 @@ bno_build_bbc_church = {
         is_at_war = no
     }
 
+    cooldown = {
+		months = 12
+	}
     widget = {
         controller = create_holy_order
         barony_valid = {
