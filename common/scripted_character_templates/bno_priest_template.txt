@@ -14,6 +14,8 @@ bno_female_holy_order_leader_character_template = {
 		education_martial_5 = { weight = { base = 10 } }
 	}
 
+	trait = order_member
+
     random_traits_list = {
 		count = 1
 		bno_snowbunny = {}

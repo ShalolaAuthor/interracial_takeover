@@ -1137,6 +1137,8 @@ bno_lifestyle_bbc_priestess = {
 
 	# Modifiers
 	learning = 10
+	flag = can_not_marry
+	can_have_children = no
 	
 	track = {
 		50 = {

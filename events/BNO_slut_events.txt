@@ -28,7 +28,7 @@ bno_slut.0001 = {
 	}
 	cooldown = { months = { 12 18 } }
 	trigger = {
-		is_curious = yes
+		is_white_girl = yes
 		does_blackbull_exist = yes
 		is_partner_non_bbc = yes
 	}

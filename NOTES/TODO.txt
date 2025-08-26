@@ -34,7 +34,7 @@
 -finish religion overhaul thingy
 -add bno_worshipper trait (cant have children)
 -add dynasty perk 5 localization (cure disease, church, holy order, priestess)
-
+-no_headgear for holy order
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
 -add character interaction to heal people
