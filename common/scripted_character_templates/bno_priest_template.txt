@@ -181,6 +181,7 @@ bno_male_priest_character_template = {
 	}
 
     trait = bno_bbc
+	trait = bno_full_black
 	trait = bno_lifestyle_bbc_priestess
     random_traits_list = {
         count = 1

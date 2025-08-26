@@ -295,6 +295,9 @@ bno_build_african_camps_decision = {
 	cost = {
 		gold = 300
 	}
+	cooldown = {
+		months = 12
+	}
 	effect = {
 		send_interface_toast = {
 			type = event_toast_effect_good
@@ -354,11 +357,22 @@ bno_change_county_culture = {
 			has_game_rule = bno_decision_npc_yes 
 		}
 	}
+	is_valid = {
+		any_realm_county = {
+			title_province = {
+				is_culture_bnoc = no
+				is_county_capital = yes
+			}
+		}
+	}
 	cooldown = {
 		months = 12
 	}
 	cost = {
-		prestige = 300
+		prestige = {
+			value = major_prestige_value
+			multiply = 1.2
+		}
 	}
 	effect = {
 		send_interface_toast = {
