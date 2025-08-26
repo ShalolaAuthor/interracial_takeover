@@ -1,4 +1,4 @@
-﻿bno_full_black_portrait_modifier = {
+﻿bno_blood = {
 	bno_full_black_portrait_modifier = {
 		trigger = {
 			NOT = { has_character_flag = bno_originally_african }
@@ -19,9 +19,6 @@
 			}
 		}
 	}
-}
-
-bno_mostly_black_portrait_modifier = {
 	bno_mostly_black_portrait_modifier = {
 		trigger = {
 			NOT = { has_character_flag = bno_originally_african }
@@ -42,9 +39,6 @@ bno_mostly_black_portrait_modifier = {
 			}
 		}
 	}
-}
-
-bno_mixed_portrait_modifier = {
 	bno_mixed_portrait_modifier = {
 		trigger = {
 			NOT = { has_character_flag = bno_originally_african }
@@ -65,9 +59,6 @@ bno_mixed_portrait_modifier = {
 			}
 		}
 	}
-}
-
-bno_barely_mixed_portrait_modifier = {
 	bno_barely_mixed_portrait_modifier = {
 		trigger = {
 			NOT = { has_character_flag = bno_originally_african }
@@ -90,7 +81,7 @@ bno_barely_mixed_portrait_modifier = {
 	}
 }
 
-mindless_slut = {
+bno_white_girl = {
 	mindless_slut = {
 		traits = {
 			bno_mindless_bbc_slut
@@ -114,14 +105,11 @@ mindless_slut = {
             	    mode = add
             	    gene = headgear
             	    template = no_headgear
-            	    value = 0
+            	    value = 1
             	}
 			}		
 		}
 	}
-}
-
-queen_of_spades = {
 	queen_of_spades = {
 		traits = {
 			bno_qos
@@ -169,7 +157,7 @@ queen_of_spades_tattoo = {
 				morph = {
 					mode = add
 					gene = cosmetics_bno_body_tattoo
-					template = bno_body_tattoo_6
+					template = bno_body_tattoo_5
 					value = 1.0
 				}
 			}
