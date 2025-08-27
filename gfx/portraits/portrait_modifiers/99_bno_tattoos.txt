@@ -2,12 +2,6 @@
 	usage = game
 	bbc_slave = {
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = cosmetics_bno_face_tattoo
-				template = bno_face_tattoo
-				value = 0.1
-			}
 			accessory = {
 				mode = add
 				gene = dressed
@@ -24,63 +18,12 @@
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 100
 				has_game_rule = bno_tattoo_yes
 				has_trait = slave
 				is_female = yes
 				is_adult = yes
 				liege = {
-					has_trait = bno_bbc
-				}
-			}
-		}
-	}
-}
-
-slut = {
-	usage = game
-	slut1 = {
-		
-		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = cosmetics_bno_face_tattoo
-				template = bno_face_tattoo
-				value = 0.2
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 900
-				has_game_rule = bno_tattoo_yes
-				is_bno_mindless_bbc_slut = yes
-			}
-			modifier = {
-				add = 900
-				has_game_rule = bno_tattoo_yes
-				is_female = yes
-				has_faith = faith:bbcs
-				is_bno_curious_and_up = yes
-				NOT = { has_trait = bno_full_black }
-			}
-		}
-	}
-	slut2 = {
-		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = cosmetics_bno_face_tattoo
-				template = bno_face_tattoo
-				value = 0.4
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 1000
-				has_game_rule = bno_tattoo_yes
-				any_spouse = {
 					has_trait = bno_bbc
 				}
 			}
@@ -131,28 +74,6 @@ bimbo = {
 				add = 1000
 				has_character_flag = bimbo
 				is_body_modification_ok = yes
-			}
-		}
-	}
-}
-
-bimbo_tattoo = {
-	usage = game
-	bimbo_tattoo = {
-		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = cosmetics_bno_face_tattoo
-				template = bno_face_tattoo
-				value = 0.2
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 1000
-				has_game_rule = bno_tattoo_yes
-				has_character_flag = bimbo
 			}
 		}
 	}
@@ -356,7 +277,27 @@ pregnancy_tattoo = {
 				add = 1000
 				has_game_rule = bno_tattoo_yes
 				is_female = yes
-				bno_num_mixed_children_plus_dead >= 10
+				bno_num_mixed_children_plus_dead = 10
+				is_bno_mindless_bbc_slut = yes
+			}
+		}
+	}
+	bno_pregnancy_11 = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = cosmetics_bno_pregnancy_tattoo
+				template = bno_pregnancy_11
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				has_game_rule = bno_tattoo_yes
+				is_female = yes
+				bno_num_mixed_children_plus_dead > 10
 				is_bno_mindless_bbc_slut = yes
 			}
 		}

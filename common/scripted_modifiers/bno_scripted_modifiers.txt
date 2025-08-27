@@ -120,6 +120,13 @@
 	}
 }
 
+bno_no_tattoo_game_rule = {
+	modifier = {
+        add = -1000
+        has_game_rule = bno_tattoo_no
+    }
+}
+
 bno_decision_modifier = {
 	modifier = {
         add = 25

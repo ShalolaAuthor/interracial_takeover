@@ -1,7 +1,7 @@
 ﻿#Person
 bno_cum_for_glory = {
     icon = creampie_positive
-    prowess = 0.1
+    cultural_head_fascination_mult = 0.01
     inbreeding_chance = -0.025
     negative_random_genetic_chance = -0.025
     negative_inactive_inheritance_chance = -0.025
@@ -12,7 +12,8 @@ bno_cum_for_glory = {
 }
 bno_cum_for_glory_glorified = {
     icon = creampies_positive
-    prowess = 10
+    cultural_head_fascination_mult = 1
+    cultural_head_fascination_add = 1
     inbreeding_chance = -2.5
     negative_random_genetic_chance = -2.5
     negative_inactive_inheritance_chance = -2.5

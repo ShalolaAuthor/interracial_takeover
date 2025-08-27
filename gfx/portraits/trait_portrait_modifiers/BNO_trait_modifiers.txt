@@ -143,28 +143,6 @@ bno_white_girl = {
 	}
 }
 
-queen_of_spades_tattoo = {
-	queen_of_spades_tattoo = {
-		traits = {
-			bno_qos
-			bno_mindless_bbc_slut
-		}
-		trigger = {
-			has_game_rule = bno_tattoo_yes
-		}
-		dna_modifiers = {
-			human = {
-				morph = {
-					mode = add
-					gene = cosmetics_bno_body_tattoo
-					template = bno_body_tattoo_5
-					value = 1.0
-				}
-			}
-		}
-	}
-}
-
 bno_pure_white_portrait_modifier = {
 	bno_pure_white_portrait_modifier = {
 		traits = {

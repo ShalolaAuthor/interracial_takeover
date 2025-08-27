@@ -312,7 +312,7 @@ cosmetics_bno_body_tattoo = {
 }
 
 cosmetics_bno_pregnancy_tattoo = {
-	usage = game
+	usage = customization
 	
 	bno_no_pregnancy_tattoo = { # empty
 		dna_modifiers = {
@@ -448,6 +448,19 @@ cosmetics_bno_pregnancy_tattoo = {
 				mode = add
 				gene = cosmetics_bno_pregnancy_tattoo
 				template = bno_pregnancy_10
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+		}
+	}
+	bno_pregnancy_11 = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = cosmetics_bno_pregnancy_tattoo
+				template = bno_pregnancy_11
 				value = 1
 			}
 		}
