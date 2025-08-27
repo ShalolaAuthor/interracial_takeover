@@ -1406,7 +1406,14 @@ bno_lifestyle_bbc_priestess = {
 
 	compatibility = {
 		bno_bbc = 20
-		bno_whitegirl = 20
-		bno_blood = 20
+		bno_curious = 20
+		bno_blacked = 20
+		bno_snowbunny = 20
+		bno_qos = 20
+		bno_mindless_bbc_slut = 20
+		bno_full_black = 20
+		bno_mostly_black = 20
+		bno_mixed = 20
+		bno_barely_mixed = 20
 	}
 }

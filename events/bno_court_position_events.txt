@@ -56,6 +56,7 @@ bbc_worshipper.0002 = {
 
     trigger = {
         exists = liege
+        gold > 50
     }
 
     immediate = {
@@ -80,7 +81,6 @@ bbc_priestess.0001 = {
 
     trigger = {
         NOT = { has_character_flag = bbc_priestess.1001 }
-        is_alive = yes
     }
 
     immediate = {
@@ -98,10 +98,12 @@ bbc_priestess.1001 = {
 
     trigger = {
         has_character_flag = bbc_priestess.1001
-        is_alive = yes
     }
 
     immediate = {
+        liege ?= {
+            save_scope_as = TARGET_CHARACTER
+        }
         trigger_event = {
             id = bbc_priestess.1001
             months = { 6 12 }
@@ -130,7 +132,6 @@ bbc_priestess.2001 = {
 
     trigger = {
         has_character_flag = bbc_priestess.1001
-        is_alive = yes
     }
 
     immediate = {

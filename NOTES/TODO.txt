@@ -24,8 +24,6 @@ IMPORTANT TODO:
 -add nickname chooser decision for sluts
 -add control as requirement for converting county culture and religion (african spreads way too fast)
 -return trip no for all events annoying that you have to travel back and forth
--add xp for every successful conversion
--add message when bbc priest fail a conversion
 -add character interaction to heal people
 -turn off ritual of purification for body modification no
 -modify cum for glory to not include prowess (remove prowess, add something else, put prowess into the random stat)
@@ -35,6 +33,8 @@ NEED TESTING:
 -make sure guess that visit your court gets proper trait
 
 DONE:
+-add message when bbc priest fail a conversion
+-add xp for every successful conversion
 -add revealing clothing tags?
 -check for other cultural gfx i got bored seeing african gfx
 -bbc worshipper reduce development flat add development mult (balancing) lower them both and add control element to it to (maybe as a task?)

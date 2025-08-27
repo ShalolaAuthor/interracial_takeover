@@ -57,6 +57,18 @@ bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.G
 bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] has converted to the worship of the [bno_religion|E]"
 bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] has embraced the teachings of the [bno_religion|E], dedicating its resources to its worship and the pleasures it brings."
 
+bbc_priestess.1001.rejected_conversion.male.title: "Conversion Rejected: The Black Cock Spurned"
+bbc_priestess.1001.rejected_conversion.male.desc: "Despite [ROOT.Char.GetFirstName]'s fervent sermons of surrendering body and soul to the glory of the [bno_bbc|E], the flock turned away in disgust. Their hearts remain stubborn, their lips unblessed, and the Church of the Black Cock gains no new disciples this day."
+
+bbc_priestess.1001.rejected_conversion.female.title: "Her Pleas Denied: The Black Cock Rejected"
+bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] bared her devotion with every sultry word and promised salvation through the embrace of the BBC, yet the crowd resisted. Their minds stayed shut, their bodies unclaimed, and her holy lust bore no converts this night."
+
+bbc_priestess.1001.target_not_found.male.title: "The Priest's Holy Hunt Grows Desperate…"
+bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] kneels at the altar of the Black Cock, restless and throbbing with sacred lust. No new followers appear to worship, no sinner to guide into conversion—just his own heavy shaft, dripping with divine need, yearning to spill holy seed into a fresh disciple's trembling devotion."
+
+bbc_priestess.1001.target_not_found.female.title: "The Priestess Awaits a Follower…"
+bbc_priestess.1001.target_not_found.female.desc: "Draped in her silk-white robes, the tender [ROOT.Char.GetFirstName] bows before the altar of the Black Cock, her bountiful breasts pressed together in trembling devotion. With otherworldly grace and a sweet, aching smile, she whispers prayers into the candlelit dark—yet no sinner arrives to be converted, leaving her soft frame shivering with sacred need, desperate to wrap herself around the holy offering she so longs to worship."
+
 bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] is now blacker than ever"
 bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] is now blacker than ever"
 bno_marriage.0007.notifications.desc.male: "A member of your family has spread his black seed to a suitable partner"

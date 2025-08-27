@@ -75,22 +75,40 @@ set_bbc_worshipper_effect = {
 bbc_worshipper_whoring_around = {
     every_character_to_title_neighboring_county = {
         holder ?= {
-            add_to_list = bbc_worshipper_target
+            add_to_list = bbc_worshipper_neighbour
         }
     }
-    liege ?= {
+    every_in_list = {
+        list = bbc_worshipper_neighbour
         every_courtier_or_guest = {
-            limit = { is_rich_ai_blackbull = yes }
+            limit = { is_rich_ai_african = yes }
             add_to_list = bbc_worshipper_target
         }
         every_vassal_or_below = {
-            limit = { is_rich_ai_blackbull = yes }
+            limit = { is_rich_ai_african = yes }
             add_to_list = bbc_worshipper_target
         }
         every_vassal_or_below = {
             limit = { highest_held_title_tier >= tier_county }
             every_courtier_or_guest = {
-                limit = { is_rich_ai_blackbull = yes }
+                limit = { is_rich_ai_african = yes }
+                add_to_list = bbc_worshipper_target
+            }
+        }
+    }
+    liege ?= {
+        every_courtier_or_guest = {
+            limit = { is_rich_ai_african = yes }
+            add_to_list = bbc_worshipper_target
+        }
+        every_vassal_or_below = {
+            limit = { is_rich_ai_african = yes }
+            add_to_list = bbc_worshipper_target
+        }
+        every_vassal_or_below = {
+            limit = { highest_held_title_tier >= tier_county }
+            every_courtier_or_guest = {
+                limit = { is_rich_ai_african = yes }
                 add_to_list = bbc_worshipper_target
             }
         }
@@ -202,10 +220,81 @@ bbc_worshipper_give_all_spoil_to_liege = {
     }
 }
 
+bbc_priestess_gain_xp = {
+    root = {
+        add_trait_xp = {
+            trait = bno_lifestyle_bbc_priestess
+            value = bno_random_xp_positive
+        }
+    }
+}
+
+bbc_priestess_rejected = {
+    scope:TARGET_CHARACTER = {
+        if = {
+            limit = {
+                root = {
+                    is_a_male = yes
+                }
+            }
+            send_interface_message = {
+                type = bno_blacked_events
+                title = bbc_priestess.1001.rejected_conversion.male.title
+                right_icon = root
+                desc = bbc_priestess.1001.rejected_conversion.male.desc
+            }
+        }
+        else_if = {
+            limit = {
+                root = {
+                    is_a_girl = yes
+                }
+            }
+            send_interface_message = {
+                type = bno_blacked_events
+                title = bbc_priestess.1001.rejected_conversion.female.title
+                right_icon = root
+                desc = bbc_priestess.1001.rejected_conversion.female.desc
+            }
+        }
+    }
+}
+
+bbc_priestess_target_not_found = {
+    scope:TARGET_CHARACTER = {
+        if = {
+            limit = {
+                root = {
+                    is_a_male = yes
+                }
+            }
+            send_interface_message = {
+                type = bno_blacked_events
+                title = bbc_priestess.1001.target_not_found.male.title
+                right_icon = root
+                desc = bbc_priestess.1001.target_not_found.male.desc
+            }
+        }
+        else_if = {
+            limit = {
+                root = {
+                    is_a_girl = yes
+                }
+            }
+            send_interface_message = {
+                type = bno_blacked_events
+                title = bbc_priestess.1001.target_not_found.female.title
+                right_icon = root
+                desc = bbc_priestess.1001.target_not_found.female.desc
+            }
+        }
+    }
+}
+
 bbc_priestess_convert_vassal = {
     if = {
         limit = {
-            scope:liege = {
+            scope:TARGET_CHARACTER = {
                 any_vassal_or_below = {
                     highest_held_title_tier >= tier_county
                     NOT = { is_faith_bbcs = yes }
@@ -218,22 +307,31 @@ bbc_priestess_convert_vassal = {
             }
             save_scope_as = target_vassal
         }
-        scope:target_vassal = {
-            random_list = {
-                20 = {
-                    set_character_faith_with_conversion = scope:liege.faith
-                    scope:liege = {
-                        send_interface_message = {
-                            type = bno_blacked_events
-                            title = bbc_priestess.1001.vassal_converted.title
-                            right_icon = scope:employee
-                            left_icon = scope:target_vassal
-                            desc = bbc_priestess.1001.vassal_converted.desc
+        if = {
+            limit = {
+                exists = scope:target_vassal
+            }
+            scope:target_vassal = {
+                random_list = {
+                    20 = {
+                        set_character_faith_with_conversion = scope:TARGET_CHARACTER.faith
+                        scope:TARGET_CHARACTER = {
+                            send_interface_message = {
+                                type = bno_blacked_events
+                                title = bbc_priestess.1001.vassal_converted.title
+                                right_icon = root
+                                desc = bbc_priestess.1001.vassal_converted.desc
+                            }
                         }
                     }
+                    80 = {
+                        bbc_priestess_rejected = yes
+                    }
                 }
-                80 = {}
             }
+        }
+        else = {
+            bbc_priestess_target_not_found = yes
         }
     }
 }
@@ -241,39 +339,49 @@ bbc_priestess_convert_vassal = {
 bbc_priestess_convert_county = {
     if = {
         limit = {
-            scope:liege = {
+            scope:TARGET_CHARACTER = {
                 any_sub_realm_county = {
                     NOT = { is_faith_bbcs = yes }
                 }
             }
         }
         #scope here is landed title
-        scope:liege = {
-            random_sub_realm_county = {
+        scope:TARGET_CHARACTER = {
+            random_realm_county = {
                 limit = {
                     NOT = { is_faith_bbcs = yes }
                 }
                 save_scope_as = target_landed_title
             }
         }
-        scope:target_landed_title = {
-            county = {
-                random_list = {
-                    20 = {
-                        set_county_faith = scope:liege.faith
-                        scope:liege = {
-                            send_interface_message = {
-                                type = bno_blacked_events
-                                title = bbc_priestess.1001.county_converted.title
-                                right_icon = scope:employee
-                                left_icon = scope:target_landed_title
-                                desc = bbc_priestess.1001.county_converted.desc
+        if = {
+            limit = {
+                exists = scope:target_landed_title
+            }
+            scope:target_landed_title = {
+                county = {
+                    random_list = {
+                        20 = {
+                            bbc_priestess_gain_xp = yes
+                            set_county_faith = scope:TARGET_CHARACTER.faith
+                            scope:TARGET_CHARACTER = {
+                                send_interface_message = {
+                                    type = bno_blacked_events
+                                    title = bbc_priestess.1001.county_converted.title
+                                    right_icon = root
+                                    desc = bbc_priestess.1001.county_converted.desc
+                                }
                             }
                         }
+                        80 = {
+                            bbc_priestess_rejected = yes
+                        }
                     }
-                    80 = {}
                 }
             }
+        }
+        else = {
+            bbc_priestess_target_not_found = yes
         }
     }
 }
@@ -281,41 +389,49 @@ bbc_priestess_convert_county = {
 bbc_priestess_convert_neighboring_ruler = {
     if = {
         limit = {
-            scope:liege = {
+            scope:TARGET_CHARACTER = {
                 any_character_to_title_neighboring_county = {
-                    NOT = { is_faith_bbcs = yes }
                     holder = { NOT = { is_faith_bbcs = yes } }
                 }
             }
         }
-        scope:liege = {
+        scope:TARGET_CHARACTER = {
             random_character_to_title_neighboring_county = {
                 limit = {
-                    NOT = { is_faith_bbcs = yes }
                     holder = { NOT = { is_faith_bbcs = yes } }
                 }
                 save_scope_as = target_neighboring_landed_title
             }
         }
-        scope:target_neighboring_landed_title = {
-            holder = {
-                save_scope_as = neighboring_lord_or_lady
-                random_list = {
-                    20 = {
-                        set_character_faith_with_conversion = scope:liege.faith
-                        scope:liege = {
-                            send_interface_message = {
-                                type = bno_blacked_events
-                                title = bbc_priestess.1001.neighboring_lord_converted.title
-                                right_icon = scope:employee
-                                left_icon = scope:neighboring_lord_or_lady
-                                desc = bbc_priestess.1001.neighboring_lord_converted.desc
+        if = {
+            limit = {
+                exists = scope:target_neighboring_landed_title
+            }
+            scope:target_neighboring_landed_title = {
+                holder = {
+                    save_scope_as = neighboring_lord_or_lady
+                    random_list = {
+                        20 = {
+                            bbc_priestess_gain_xp = yes
+                            set_character_faith_with_conversion = scope:TARGET_CHARACTER.faith
+                            scope:TARGET_CHARACTER = {
+                                send_interface_message = {
+                                    type = bno_blacked_events
+                                    title = bbc_priestess.1001.neighboring_lord_converted.title
+                                    right_icon = root
+                                    desc = bbc_priestess.1001.neighboring_lord_converted.desc
+                                }
                             }
                         }
+                        80 = {
+                            bbc_priestess_rejected = yes
+                        }
                     }
-                    80 = {}
                 }
             }
+        }
+        else = {
+            bbc_priestess_target_not_found = yes
         }
     }
 }
@@ -323,13 +439,13 @@ bbc_priestess_convert_neighboring_ruler = {
 bbc_priestess_convert_neighboring_county = {
     if = {
         limit = {
-            scope:liege = {
+            scope:TARGET_CHARACTER = {
                 any_character_to_title_neighboring_county = {
                     NOT = { is_faith_bbcs = yes }
                 }
             }
         }
-        scope:liege = {
+        scope:TARGET_CHARACTER = {
             random_character_to_title_neighboring_county = {
                 limit = {
                     NOT = { is_faith_bbcs = yes }
@@ -337,24 +453,34 @@ bbc_priestess_convert_neighboring_county = {
                 save_scope_as = target_neighboring_landed_title
             }
         }
-        scope:target_neighboring_landed_title = {
-            county = {
-                random_list = {
-                    20 = {
-                        set_county_faith = scope:liege.faith
-                        scope:liege = {
-                            send_interface_message = {
-                                type = bno_blacked_events
-                                title = bbc_priestess.1001.neighboring_county_converted.title
-                                right_icon = scope:employee
-                                left_icon = scope:target_neighboring_landed_title
-                                desc = bbc_priestess.1001.neighboring_county_converted.desc
+        if = {
+            limit = {
+                exists = scope:target_neighboring_landed_title
+            }
+            scope:target_neighboring_landed_title = {
+                county = {
+                    random_list = {
+                        20 = {
+                            bbc_priestess_gain_xp = yes
+                            set_county_faith = scope:TARGET_CHARACTER.faith
+                            scope:TARGET_CHARACTER = {
+                                send_interface_message = {
+                                    type = bno_blacked_events
+                                    title = bbc_priestess.1001.neighboring_county_converted.title
+                                    right_icon = root
+                                    desc = bbc_priestess.1001.neighboring_county_converted.desc
+                                }
                             }
                         }
+                        80 = {
+                            bbc_priestess_rejected = yes
+                        }
                     }
-                    80 = {}
                 }
             }
+        }
+        else = {
+            bbc_priestess_target_not_found = yes
         }
     }
 }
