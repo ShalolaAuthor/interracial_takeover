@@ -73,16 +73,16 @@ bno_bbc_marriage_effect = {
 }
 
 bno_increase_county_control = {
-	every_held_title = {
-        limit = {
-            tier = tier_county
-            is_landless_type_title = no
-        }
-        change_county_control = {
-            value = {
-                integer_range = {
-                    min = 5
-                    max = 15
+    scope:target_location = {
+        barony = {
+            county = {
+                change_county_control = {
+                    value = {
+                        integer_range = {
+                            min = 5
+                            max = 15
+                        }
+                    }
                 }
             }
         }
@@ -90,16 +90,16 @@ bno_increase_county_control = {
 }
 
 bno_decrease_county_control = {
-	every_held_title = {
-        limit = {
-            tier = tier_county
-            is_landless_type_title = no
-        }
-        change_county_control = {
-            value = {
-                integer_range = {
-                    min = -15
-                    max = -5
+    scope:target_location = {
+        barony = {
+            county = {
+                change_county_control = {
+                    value = {
+                        integer_range = {
+                            min = -15
+                            max = -5
+                        }
+                    }
                 }
             }
         }
@@ -157,6 +157,11 @@ bno_get_local_bbc = {
         set_local_variable = {
             name = local_bbc
             value = no
+        }
+    }
+    scope:bbc = {
+        location = {
+            save_scope_as = target_location
         }
     }
 }
