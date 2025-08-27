@@ -1429,6 +1429,7 @@ bno_embrace_african_5.0001 = {
         bno_cure_disease = yes
         if = {
             limit = { NOT = { has_character_flag = bno_embrace_african_5.0008 } }
+            add_character_flag = bno_embrace_african_5.0008
             trigger_event = {
                 id = bno_embrace_african_5.0008
                 days = 7
@@ -1670,6 +1671,7 @@ bno_embrace_african_5.0003 = {
 
     trigger = {
         bno_has_embrace_african_5 = yes
+        is_ruler = yes
         is_faith_bbcs = yes
         NOT = {
             any_realm_province = {
@@ -1740,6 +1742,7 @@ bno_embrace_african_5.0004 = {
 
     trigger = {
         bno_has_embrace_african_5 = yes
+        is_ruler = yes
         any_realm_province = {
             has_building = bbc_church_01
         }    
@@ -1804,6 +1807,7 @@ bno_embrace_african_5.0005 = {
 
     trigger = {
         bno_has_embrace_african_5 = yes
+        is_ruler = yes
         any_realm_province = {
             has_building = bbc_church_02
         }
@@ -1974,6 +1978,7 @@ bno_embrace_african_5.0007 = {
     }
 
     trigger = {
+        is_ruler = yes
         OR = {
             can_employ_court_position_type = bno_bbc_priestess_court_position
             can_employ_court_position_type = bno_bbc_priest_court_position

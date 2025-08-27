@@ -302,7 +302,7 @@ bno_travel_to_local_bbc = {
         return_trip = $RETURN_TRIP$
         on_arrival_event = $ON_ARRIVAL_EVENT$
         can_cancel_planning = no
-        on_arrival_destinations = all
+        on_arrival_destinations = all_but_last
     }
 }
 

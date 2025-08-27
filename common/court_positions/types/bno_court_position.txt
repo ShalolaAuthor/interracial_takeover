@@ -172,7 +172,6 @@ bno_bbc_priestess_court_position = {
         }
         animation = bno_sex_oral_love_2
         background = "gfx/interface/illustrations/event_scenes/church.dds"
-        localization_key = bno_bbc_priestess
     }
 
     
@@ -207,18 +206,7 @@ bno_bbc_priestess_court_position = {
         scope:employee = {
             has_trait = bno_lifestyle_bbc_priestess
             is_faith_bbcs = yes
-            trigger_if = {
-                limit = {
-                    liege = { is_a_girl = yes }
-                }
-                scope:employee = { is_a_male = yes }
-            }
-            trigger_else_if = {
-                limit = {
-                    liege = { is_a_male = yes }
-                }
-                scope:employee = { is_a_girl = yes }
-            }
+            is_a_girl = yes
         }
     }
 
@@ -358,7 +346,6 @@ bno_bbc_priest_court_position = {
         }
         animation = storyteller
         background = "gfx/interface/illustrations/event_scenes/church.dds"
-        localization_key = bno_bbc_priest
     }
     
     opinion = {
@@ -392,18 +379,7 @@ bno_bbc_priest_court_position = {
         scope:employee = {
             has_trait = bno_lifestyle_bbc_priestess
             is_faith_bbcs = yes
-            trigger_if = {
-                limit = {
-                    liege = { is_a_girl = yes }
-                }
-                scope:employee = { is_a_male = yes }
-            }
-            trigger_else_if = {
-                limit = {
-                    liege = { is_a_male = yes }
-                }
-                scope:employee = { is_a_girl = yes }
-            }
+            is_a_male = yes
         }
     }
 

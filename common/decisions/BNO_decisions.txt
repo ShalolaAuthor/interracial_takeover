@@ -337,6 +337,11 @@ bno_change_county_culture = {
 			trigger_if = {
 				limit = { exists = this }
 				holder = scope:ruler
+				barony = {
+					county = {
+						county_control >= 100
+					}
+				}
 				title_province = {
 					NOT = { is_culture_bnoc = yes }
 				}
@@ -358,11 +363,10 @@ bno_change_county_culture = {
 		}
 	}
 	is_valid = {
-		any_realm_county = {
-			title_province = {
-				is_culture_bnoc = no
-				is_county_capital = yes
-			}
+		any_held_title = {
+			tier = tier_county
+			NOT = { is_culture_bnoc = yes }
+			county_control >= 100
 		}
 	}
 	cooldown = {
