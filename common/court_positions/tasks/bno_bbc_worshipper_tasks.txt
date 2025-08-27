@@ -1,0 +1,129 @@
+﻿# BBC Worshipper #
+
+bbc_worshipper_soothing_touch = {
+    court_position_types = { bno_bbc_worshipper_court_position }
+    cost = {
+        round = no
+        gold = {
+			add = {
+				value = monthly_court_position_task_cost
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+            multiply = 2
+		}
+    }
+
+    is_shown = {
+        always = yes
+    }
+
+    employee_modifier = {
+		monthly_prestige = minor_court_position_task_prestige_salary
+	}
+
+    scaling_employer_modifiers = {		
+		terrible = {
+            monthly_county_control_growth_add = 0.6
+            monthly_county_control_growth_factor = 0.35
+        }
+		poor = {
+            monthly_county_control_growth_add = 0.7
+            monthly_county_control_growth_factor = 0.45
+        }
+		average = {
+            monthly_county_control_growth_add = 0.8
+            monthly_county_control_growth_factor = 0.55
+        }
+		good = {
+            monthly_county_control_growth_add = 0.9
+            monthly_county_control_growth_factor = 0.65
+        }
+		excellent = {
+            monthly_county_control_growth_add = 1
+            monthly_county_control_growth_factor = 0.75
+        }
+	}
+
+    on_start = {}
+    on_end = {}
+    on_monthly = {}
+    on_yearly = {}
+
+    ai_will_do = {
+        value = 100
+        if = {
+            limit = {
+                any_held_title = {
+                    tier = tier_county
+                    county_control < 100
+                }
+            }
+            add = -1000
+        }
+    }
+}
+
+bbc_worshipper_golden_hour = {
+    court_position_types = { bno_bbc_worshipper_court_position }
+    cost = {
+        round = no
+        gold = {
+			add = {
+				value = monthly_court_position_task_cost
+				desc = COURT_POSITION_TASK_COST_BREAKDOWN_BASE
+				format = "BASE_VALUE_FORMAT_DECIMALS_PLUS_NEGATIVE"
+			}
+            multiply = 4
+		}
+    }
+
+    is_shown = {
+        always = yes
+    }
+
+    employee_modifier = {
+		monthly_prestige = minor_court_position_task_prestige_salary
+	}
+
+    scaling_employer_modifiers = {		
+		terrible = {
+            development_growth = 0.6
+            development_growth_factor = 0.35
+        }
+		poor = {
+            development_growth = 0.7
+            development_growth_factor = 0.45
+        }
+		average = {
+            development_growth = 0.8
+            development_growth_factor = 0.55
+        }
+		good = {
+            development_growth = 0.9
+            development_growth_factor = 0.65
+        }
+		excellent = {
+            development_growth = 1
+            development_growth_factor = 0.75
+        }
+	}
+
+    on_start = {}
+    on_end = {}
+    on_monthly = {}
+    on_yearly = {}
+
+    ai_will_do = {
+        value = 100
+        if = {
+            limit = {
+                any_held_title = {
+                    tier = tier_county
+                    county.development_level < 100
+                }
+            }
+            add = -1000
+        }
+    }
+}

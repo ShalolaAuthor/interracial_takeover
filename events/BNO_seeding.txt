@@ -4,6 +4,7 @@ bno_trait_seeding.0001 = {
 	hidden = yes
 	trigger = {
 		NOT = { has_character_flag = bno_bbc_trait_seeded }
+		NOT = { has_character_flag = bno_originally_african }
 		OR = {
 			bno_is_graphically_african = yes
 			has_trait = bno_full_black
