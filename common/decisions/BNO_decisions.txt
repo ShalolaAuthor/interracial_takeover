@@ -1054,3 +1054,75 @@ bno_cure_diseases = {
 		}
 	}
 }
+
+bno_primal_insight_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+	sort_order = 10
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_girl = yes }
+				desc = bno_primal_insight_decision.title.female
+			}
+			desc = bno_primal_insight_decision.title.male
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_girl = yes }
+				desc = bno_primal_insight_decision.desc.female
+			}
+			desc = bno_primal_insight_decision.desc.male
+		}
+	}
+	confirm_text = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_girl = yes }
+				desc = bno_primal_insight_decision.confirm.female
+			}
+			desc = bno_primal_insight_decision.confirm.male
+		}
+	}
+	selection_tooltip = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_girl = yes }
+				desc = bno_primal_insight_decision.tooltip.female
+			}
+			desc = bno_primal_insight_decision.tooltip.male
+		}
+	}
+	decision_group_type = bno_decision_group
+	is_shown = {
+		bno_has_embrace_african_5 = yes
+		NOT = { has_character_modifier = bno_primal_insight }
+	}
+	is_valid = {
+		bno_has_bbc_priest_or_priestess = yes
+	}
+
+	cost = {
+		gold = massive_gold_value
+		prestige = massive_prestige_value
+		piety = massive_piety_value
+	}
+
+	effect = {
+		add_character_modifier = {
+			modifier = bno_primal_insight
+			months = 12
+		}
+	}
+	#make sure ai also do it
+	ai_goal = yes
+	ai_potential = {
+		always = yes
+	}
+	ai_will_do = {
+        base = 100
+	}
+}

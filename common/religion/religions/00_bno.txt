@@ -202,6 +202,7 @@
 	}
 	
 	holy_order_names = {
+		#Change later
 		{ name = "bnoho1" }
 		{ name = "bnoho2" }
 		{ name = "bnoho3" }
@@ -209,7 +210,7 @@
 		{ name = "bnoho5" }
 	}
 	
-	holy_order_maa = { cataphract } # Islamic MAA
+	holy_order_maa = { bno_cock_maidens }
 	
 	localization = {
 		#HighGod

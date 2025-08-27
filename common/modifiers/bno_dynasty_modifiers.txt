@@ -89,3 +89,9 @@ bno_disapprove_daughter_marriage_with_bbc = {
     garrison_size = -1
     tax_mult = -0.5
 }
+
+bno_primal_insight = {
+    icon = primal_insight_positive
+    cultural_head_fascination_add = 100
+    cultural_head_fascination_mult = 10
+}

@@ -113,3 +113,4 @@ bno_cure_diseases.sickly.desc: "You are afflicted with [GetTrait('sickly').GetNa
 cure_sickly_tooltip: "Please get rid of my [GetTrait('sickly').GetName( GetNullCharacter )]"
 bno_cure_diseases.tooltip.1: "You will be cured of your ailments by a [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]"
 bno_cure_diseases.tooltip.2: "You will visit [GetBuilding('bbc_church_02').GetName]"
+
