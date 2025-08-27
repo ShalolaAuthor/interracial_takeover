@@ -1,0 +1,94 @@
+﻿on_title_gain = {
+    on_actions = {
+        bno_on_title_gain
+    }
+}
+
+on_title_gain_inheritance = {
+    on_actions = {
+        bno_on_title_gain
+    }
+}
+
+on_title_gain_usurpation = {
+    on_actions = {
+        bno_on_title_gain
+    }
+}
+
+bno_on_title_gain = {
+    trigger = {
+        scope:title = {
+            has_variable = bbc_holy_order
+        }
+    }
+    effect = {
+        if = {
+            limit = {
+                NOT = { has_trait = bno_whitegirl }
+            }
+            create_blacked_european_girls = {
+                TEMPLATE = bno_female_holy_order_leader_character_template
+                LOCATION = location
+                SCOPE = leader
+            }
+            create_title_and_vassal_change = {
+                type = granted
+                save_scope_as = change
+                add_claim_on_loss = no
+            }
+            scope:title = {
+                change_title_holder = {
+                    holder = scope:leader
+                    change = scope:change
+                    take_baronies = yes
+                }
+            }
+            death = {
+				death_reason = death_vanished
+			}
+        }
+    }
+}
+
+on_join_court = {
+    on_actions = {
+        bno_on_join_court
+    }
+}
+
+bno_on_join_court = {
+    trigger = {
+        scope:new_employer.primary_title = {
+            has_variable = bbc_holy_order
+        }
+    }
+    effect = {
+        if = {
+            limit = {
+                is_a_male = yes
+            }            
+            death = {
+		    	death_reason = death_vanished
+		    }
+            if = {
+                limit = {
+                    scope:new_employer = {
+                        any_courtier_or_guest = {
+                            has_trait = bno_whitegirl
+                            count < 5
+                        }
+                    }
+                }
+                create_blacked_european_girls = {
+                    TEMPLATE = bno_female_holy_order_leader_character_template
+                    LOCATION = root.location
+                    SCOPE = female_courtier
+                }
+                scope:new_employer = {
+                    add_courtier = scope:female_courtier
+                }
+            }
+        }
+    }
+}

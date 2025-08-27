@@ -100,6 +100,7 @@ bno_make_up = {
 
 bno_naked = {
 	usage = game
+	priority = 999
 	bno_naked = {
 		dna_modifiers = {
 			accessory = {
@@ -347,4 +348,26 @@ bno_smaller_waist = {
 			}
 		}
 	}
+}
+
+bno_white_girl = {
+	usage = game
+	priority = 999
+	bno_white_girl = {
+		dna_modifiers = {
+			accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                value = 0
+            }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				has_trait = bno_whitegirl
+			}
+		}
+	} 
 }

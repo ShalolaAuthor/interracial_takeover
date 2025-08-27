@@ -126,13 +126,17 @@ bno_build_bbc_church = {
         is_at_war = no
     }
 
+    cooldown = {
+		months = 12
+	}
     widget = {
         controller = create_holy_order
         barony_valid = {
             trigger_if = {
                 limit = { exists = this }
                 AND = {
-                    barony_is_valid_for_holy_order_lease_trigger = { CHARACTER = root }
+                    NOT = { title_province = { has_building_or_higher = bbc_church_01 } }
+                    barony_is_valid_for_holy_order_lease_trigger = { CHARACTER = scope:ruler }
                 }
             }
             trigger_else = {
@@ -210,25 +214,17 @@ bno_found_bbc_church_holy_order = {
             text = is_king_or_emperor
             highest_held_title_tier >= tier_kingdom
         }
-        primary_title = {
-            title_capital_county = {
-                any_county_province = {
-                    is_county_capital = yes
-                    county = {
-                        any_in_de_jure_hierarchy = {
-                            barony_is_valid_for_holy_order_lease_trigger = {
-                                CHARACTER = root
-                            }
-                        }
-                    }
+        any_realm_county = {
+			any_county_province = {
+                has_building_or_higher = bbc_church_02
+                barony = {
+				    barony_is_valid_for_holy_order_lease_trigger = { CHARACTER = root }
+                    NOT = { has_variable = bbc_holy_order }
                 }
-            }
-        }
+			}
+		}
         piety_level >= 3
         is_faith_bbcs = yes
-        any_realm_province = {
-            has_building_or_higher = bbc_church_02
-        }
     }
 
     is_valid_showing_failures_only = {
@@ -244,7 +240,7 @@ bno_found_bbc_church_holy_order = {
             trigger_if = {
                 limit = { exists = this }
                 AND = {
-                    barony_is_valid_for_holy_order_lease_trigger = { CHARACTER = root }
+                    barony_is_valid_for_holy_order_lease_trigger = { CHARACTER = scope:ruler }
                     title_province = { has_building_or_higher = bbc_church_02 }
                 }
             }

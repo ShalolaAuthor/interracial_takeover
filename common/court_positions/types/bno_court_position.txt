@@ -60,30 +60,10 @@
     is_powerful_agent = no
 
     base_employer_modifier = {
-        development_growth = 1
-	}
-
-    scaling_employer_modifiers = {		
-		terrible = {
-            monthly_county_control_growth_add = 1
-            monthly_county_control_growth_factor = 0.1
-        }
-		poor = {
-            monthly_county_control_growth_add = 2
-            monthly_county_control_growth_factor = 0.2
-        }
-		average = {
-            monthly_county_control_growth_add = 3
-            monthly_county_control_growth_factor = 0.3
-        }
-		good = {
-            monthly_county_control_growth_add = 4
-            monthly_county_control_growth_factor = 0.4
-        }
-		excellent = {
-            monthly_county_control_growth_add = 5
-            monthly_county_control_growth_factor = 0.5
-        }
+        development_growth = 0.5
+        development_growth_factor = 0.25
+        monthly_county_control_growth_add = 0.5
+        monthly_county_control_growth_factor = 0.25
 	}
 
     base_employer_court_modifier = {

@@ -10,6 +10,12 @@
 			}
 			set_character_faith_with_conversion = faith:bbcs
 		}
+		else_if = {
+			limit = {
+				NOT = { var:recent_sex_partner.faith.religion = religion:bnonr_religion }
+			}
+			set_character_faith_with_conversion = faith:bbcs
+		}
 		else = {
 			set_character_faith_with_conversion = var:recent_sex_partner.faith
 		}
@@ -877,6 +883,9 @@ create_blacked_european_girls = {
 		dynasty = scope:european.dynasty
 		location = $LOCATION$
 		save_scope_as = $SCOPE$
+		after_creation = {
+			add_character_flag = no_headgear
+		}
 	}
 	scope:$SCOPE$ = {
 		if = {

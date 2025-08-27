@@ -1,0 +1,39 @@
+﻿curious_intolerant = {
+    opinion = -10
+}
+
+blacked_intolerant = {
+    opinion = -20
+}
+
+snowbunny_intolerant = {
+    opinion = -30
+}
+
+qos_intolerant = {
+    opinion = -40
+}
+
+mindless_intolerant = {
+    opinion = -50
+}
+
+curious_accepted = {
+    opinion = 10
+}
+
+blacked_accepted = {
+    opinion = 20
+}
+
+snowbunny_accepted = {
+    opinion = 30
+}
+
+qos_accepted = {
+    opinion = 40
+}
+
+mindless_accepted = {
+    opinion = 50
+}

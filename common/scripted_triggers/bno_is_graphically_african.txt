@@ -1,6 +1,7 @@
 ﻿bno_is_graphically_african = {
 	NOT = { has_trait = bno_whitegirl }
 	OR = {
+		is_culture_bnoc = yes
 		has_culture = culture:bnoc
 		has_culture = culture:kru
 		has_culture = culture:guan
