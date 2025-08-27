@@ -1,10 +1,13 @@
 ﻿l_simp_chinese:
 
  bno_african_warriors: "非洲勇士"
- bno_african_warriors_flavor: "精锐散兵，以速度和适应森林、丛林等恶劣地形的能力而闻名。"
+ bno_african_warriors_flavor: "#F 精锐散兵，以速度和适应森林、丛林等恶劣地形的能力而闻名。#!"
 
 bno_ebony_elites: "乌檀精英"
-bno_ebony_elites_flavor: "一支声名显赫的重步兵部队，以纪律严明和战斗力强而闻名，通常是王国军事力量的中坚力量。"
+bno_ebony_elites_flavor: "#F 一支声名显赫的重步兵部队，以纪律严明和战斗力强而闻名，通常是王国军事力量的中坚力量。#!"
+
+bno_cock_maidens: "黑屌侍女"
+bno_cock_maidens_flavor: "#F 精心挑选的与黑屌密教关系密切的少女，这些侍女挥动着刀锋与肢体作为武器。数量稀少但是热忱无人能敌。她们以惨无人道的精准度出击，她们那淫荡的忠诚将每场战斗化作鲜血的狂欢与对BBC的膜拜。#!"
 
 bnwo_armies: "[bnwo_armies|E]"
 
