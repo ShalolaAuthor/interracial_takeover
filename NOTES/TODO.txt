@@ -1,39 +1,42 @@
 ﻿
 -add trading with church of bbc (every black supremacist will donate 1 gold for 10k piety)
 -add trading with africans (every africans will donate 1 gold for 1k prestige)
--convert county to bbc church
--add nickname chooser decision for sluts
+-convert county to exclusive african buildings
 -add conqueror trait to mindless and bbc character
 -add event for conqueror + mindless/bbc
 -bnwo law
 -if no longer visibly fertile change mindless to something else
--get boost for research, innovation etc etc in exchange for gold (just say it is blessing)(must have certain holy sites for certain effects?)
--add stats after sex (modifier?) (random chance it happens)(send notification that you learn something)
--modify cum for glory to not include prowess (remove prowess, add something else, put prowess into the random stat)
 -finish the diarchy for sluts
--add new MAA for bnoc holy order
--make sure guess that visit your court gets proper trait
 -body part massage events to make the larger (de-couple slut.0007 to only becoming darker and gaining bloodline trait)
--return trip no for all events annoying that you have to travel back and forth
--add control as requirement for converting county culture and religion (african spreads way too fast)
 -correct the localization for bnwo unrest add the relevant landed title contested, and more
 -maybe add more message template?
 -add futa + female kid and marriage (needs research)
--check for other cultural gfx i got bored seeing african gfx
--add revealing clothing tags?
--add xp for every successful conversion
--add message when bbc priest fail a conversion
 -add custom law GUI
 -finish religion overhaul thingy (add new faith)
 -add bno_worshipper trait (cant have children)
 -add 1 month to frequency game rules
 -add events for bbc worshipper doing her action (monthly, yearly)
+
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
+-add stats after sex (once per year event?) (modifier?) (random chance it happens)(send notification that you learn something)
+-add new MAA for bnoc holy order
+-add nickname chooser decision for sluts
+-add control as requirement for converting county culture and religion (african spreads way too fast)
+-return trip no for all events annoying that you have to travel back and forth
+-add xp for every successful conversion
+-add message when bbc priest fail a conversion
 -add character interaction to heal people
+-turn off ritual of purification for body modification no
+-modify cum for glory to not include prowess (remove prowess, add something else, put prowess into the random stat)
+-get boost for research, innovation etc etc in exchange for gold (just say it is blessing)(must have certain holy sites for certain effects?)
 
+NEED TESTING:
+-make sure guess that visit your court gets proper trait
 
 DONE:
+-add revealing clothing tags?
+-check for other cultural gfx i got bored seeing african gfx
 -bbc worshipper reduce development flat add development mult (balancing) lower them both and add control element to it to (maybe as a task?)
 -make some decision popped up in the center
 -fix breed me tattoo on the belly, maybe add one for the chest instead

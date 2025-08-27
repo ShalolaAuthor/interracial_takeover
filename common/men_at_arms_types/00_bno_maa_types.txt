@@ -80,3 +80,47 @@ bno_ebony_elites = {
 	stack = 100
 	ai_quality = { value = 100 }
 }
+#Cock Maidens
+bno_cock_maidens = {
+    type = bnwo_armies
+    
+    damage = 45
+    toughness = 40
+    pursuit = 30
+    screen = 35
+
+    counters = {
+        light_cavalry = 2
+        skirmishers = 2
+    }
+
+    terrain_bonus = {
+        plains = { damage = 6 }
+        hills = { toughness = 6 }
+        forest = { pursuit = 4 }
+    }
+
+    can_recruit = {
+        OR = {
+            has_trait = bno_bbc
+            has_trait = bno_mindless_bbc_slut
+        }
+		faith = {
+            any_faith_holy_order = {
+                holy_order_patron = root
+                title = {
+                    has_variable = bbc_holy_order
+                }
+            }
+        }
+    }
+
+    buy_cost = { gold = 200 }
+    low_maintenance_cost = { gold = 0.6 }
+    high_maintenance_cost = { gold = 1.0 }
+    provision_cost = @provisions_cost_infantry_expensive
+
+    stack = 150
+    ai_quality = { value = 90 }
+    icon = bno_cock_maidens
+}

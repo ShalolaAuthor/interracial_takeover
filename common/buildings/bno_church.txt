@@ -1,6 +1,11 @@
 ﻿bbc_church_01 = {
     type = special
 
+    asset = {
+		type = pdxmesh
+		name = "building_special_cathedral_pagan_mesh"
+	}
+
     construction_time = slow_construction_time
 
     cost_gold = expensive_building_tier_2_cost
@@ -32,6 +37,11 @@
 
 bbc_church_02 = {
     type = special
+
+    asset = {
+		type = pdxmesh
+		name = "building_special_cathedral_pagan_mesh"
+	}
 
     construction_time = slow_construction_time
 

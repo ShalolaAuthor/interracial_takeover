@@ -1,7 +1,18 @@
-﻿#
+﻿@holding_illustration_grass = "gfx/interface/illustrations/holding_types/tribe_grass.dds"
+
 bbc_camp_01 = {
 	
 	construction_time = slow_construction_time
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_african_tribal_01_a_mesh"
+		}
+		graphical_cultures = { african_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
 	
 	cost_gold = expensive_building_tier_2_cost
 	can_construct_potential = {
@@ -34,6 +45,16 @@ bbc_camp_01 = {
 bbc_camp_02 = {
 	
 	construction_time = slow_construction_time
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_african_tribal_01_a_mesh"
+		}
+		graphical_cultures = { african_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
 	
 	cost_gold = expensive_building_tier_3_cost
 	
@@ -67,6 +88,16 @@ bbc_camp_02 = {
 bbc_camp_03 = {
 	
 	construction_time = slow_construction_time
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_african_tribal_01_a_mesh"
+		}
+		graphical_cultures = { african_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
 	
 	cost_gold = expensive_building_tier_4_cost
 	
@@ -98,6 +129,16 @@ bbc_camp_03 = {
 bbc_camp_04 = {
 	
 	construction_time = slow_construction_time
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_african_tribal_01_a_mesh"
+		}
+		graphical_cultures = { african_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
 	
 	cost_gold = expensive_building_tier_5_cost
 	
@@ -129,6 +170,16 @@ bbc_camp_04 = {
 bbc_camp_05 = {
 	
 	construction_time = slow_construction_time
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_african_tribal_01_a_mesh"
+		}
+		graphical_cultures = { african_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
 	
 	cost_gold = expensive_building_tier_6_cost
 	
@@ -160,6 +211,16 @@ bbc_camp_05 = {
 bbc_camp_06 = {
 	
 	construction_time = slow_construction_time
+
+	asset = {
+		type = pdxmesh
+		names = {
+			"building_african_tribal_01_a_mesh"
+		}
+		graphical_cultures = { african_building_gfx }
+		illustration = @holding_illustration_grass
+		soundeffect = { soundeffect = "event:/SFX/Ambience/3DMapEmitters/Holdings/City/tribal_city" soundparameter = { "Tier" = 0 } }
+	}
 	
 	cost_gold = expensive_building_tier_7_cost
 	

@@ -361,6 +361,12 @@ bno_white_girl = {
                 template = no_headgear
                 value = 0
             }
+			accessory = {
+				mode = add
+				gene = clothing_type
+				template = revealing_2
+				value = 1.0
+			}
 		}
 		weight = {
 			base = 0
