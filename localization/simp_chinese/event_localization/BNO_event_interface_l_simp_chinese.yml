@@ -57,6 +57,18 @@ bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.G
 bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName]已经转而信奉[bno_religion|E]"
 bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName]已经拥抱[bno_religion|E]的教义，将其资源都投入到信仰以及它所带来的愉悦中去了。"
 
+bbc_priestess.1001.rejected_conversion.male.title: "改信被拒绝：黑屌遭受唾弃"
+bbc_priestess.1001.rejected_conversion.male.desc: "尽管[ROOT.Char.GetFirstName]热切的进行那关于把身心都臣服于[bno_bbc|E]之荣光的布道，围观者却厌恶地转身离开了。他们内心依旧固执己见，他们唇齿未受祝福，而黑屌教会今天没能收获任何信徒。"
+
+bbc_priestess.1001.rejected_conversion.female.title: "她的恳求受拒：黑屌遭受抵制"
+bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName]用燥热的辞藻阐述自己虔诚并承诺着通过拥抱BBC来获得的救赎，人们却很抗拒。他们的思想依旧封闭，他们躯体依旧未被染指，而今夜她那神圣的欲望没能令任何人改信。"
+
+bbc_priestess.1001.target_not_found.male.title: "祭司神圣的狩猎逐渐陷入绝望……"
+bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName]跪在黑屌祭坛前，彻夜未眠且因神圣的欲望而悸动。没有新的追随者出席礼拜。没有用来指引改信的罪人——只有他自己的大肉棒，因神圣的饥渴而垂涎，渴望着将神圣的种子注入新信徒那颤抖的虔诚里。"
+
+bbc_priestess.1001.target_not_found.female.title: "女祭司期待着追随者……"
+bbc_priestess.1001.target_not_found.female.desc: "披着蚕丝色的长袍，侍女[ROOT.Char.GetFirstName]躬身在黑屌祭坛前，她那丰满的巨乳在颤抖的虔诚下被压缩在一起。伴随着超凡脱俗的高贵于贴心、扣人心弦的微笑，她小声对着烛光念诵祷告——但是没有罪人前来改信，这让她柔软的身躯在神圣的渴望下颤抖着，急切渴望着拥抱那神圣的贡品，她一直渴望膜拜的对象"
+
 bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName]已经彻底黒堕了"
 bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName]已经彻底黒堕了"
 bno_marriage.0007.notifications.desc.male: "许多来自你家族的成员已将他们黑色的种子散布到合适的配偶体内"
