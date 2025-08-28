@@ -2053,7 +2053,7 @@ bno_embrace_african_5.0007 = {
         }
     }
 }
-
+#recurring event for healing illness
 bno_embrace_african_5.0008 = {
     hidden = yes
 
@@ -2090,3 +2090,91 @@ bno_embrace_african_5.0008 = {
     }
 }
 
+#fired from decision (Primal Insight)
+bno_embrace_african_5.0009 = {
+    type = character_event
+    #window = big_event_window
+    theme = witchcraft
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_embrace_african_5.0009.title.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0009.title.male
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_embrace_african_5.0009.desc.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0009.desc.male
+            }
+        }
+    }
+
+    override_background = {
+        reference = throne_room_scope
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        triggered_outfit = {
+            trigger = { scope:priestess = { is_a_girl = yes } }
+            outfit_tags = {
+                no_clothes
+            }
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    trigger = {
+        bno_has_embrace_african_5 = yes
+        bno_has_bbc_priest_or_priestess = yes
+    }
+
+    immediate = {
+        save_scope_as = carn_sex_player
+        bno_get_bbc_priest_or_priestess = yes
+        carn_sex_scene_start = yes
+        sex_animations = yes
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_girl = yes }
+                        desc = bno_embrace_african_5.0009.a.female
+                    }
+                    triggered_desc = {
+                        trigger = { is_a_male = yes }
+                        desc = bno_embrace_african_5.0009.a.male
+                    }
+                }
+            }
+        }
+        add_character_modifier = {
+			modifier = bno_primal_insight
+			months = 12
+		}
+        carn_sex_scene_is_cum_inside_effect = yes
+        carn_sex_scene_cleanup = yes
+    }
+}

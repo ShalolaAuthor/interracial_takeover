@@ -1,0 +1,178 @@
+﻿namespace = bno_court
+
+#fired from on_action
+bno_court.0001 = {
+    type = court_event
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_court.0001.title.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_court.0001.title.male
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_court.0001.desc.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_court.0001.desc.male
+            }
+        }
+    }
+
+    cooldown = { months = { 6 12 } }
+
+    theme = court
+
+    court_scene = {
+        court_owner = scope:ruler
+        button_position_character = root
+        court_event_force_open = yes
+        roles = {
+            scope:carn_sex_player = {
+                group = sex_bed_group_1
+                animation = sex_combined
+            }
+            scope:carn_sex_partner = {
+                group = sex_bed_group_2
+                animation = sex_combined
+            }
+        }
+    }
+
+    trigger = {
+        bno_has_embrace_african_5 = yes
+    }
+
+    immediate = {
+        bno_court_sex_scene_effect = {
+            PARTNER = scope:carn_sex_partner
+        }
+        open_view_data = {
+            view = royal_court
+            player = root
+            secondary_actor = root
+        }
+        sex_animations = yes
+    }
+
+    option = {# im gonna cum
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_girl = yes }
+                        desc = bno_court.0001.a.female
+                    }
+                    triggered_desc = {
+                        trigger = { is_a_male = yes }
+                        desc = bno_court.0001.a.male
+                    }
+                }
+            }
+        }
+        carn_sex_scene_is_vaginal_effect = yes
+        carn_sex_scene_is_cum_inside_effect = yes
+        trigger_event = { id = bno_court.0002 }
+    }
+}
+#cum
+bno_court.0002 = {
+    type = court_event
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_court.0002.title.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_court.0002.title.male
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_court.0002.desc.female
+            }
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_court.0002.desc.male
+            }
+        }
+    }
+
+
+    theme = court
+
+    court_scene = {
+        court_owner = scope:ruler
+        button_position_character = scope:carn_sex_player
+        court_event_force_open = yes
+        roles = {
+            scope:carn_sex_player = {
+                group = sex_bed_group_1
+                animation = sex_combined
+            }
+            scope:carn_sex_partner = {
+                group = sex_bed_group_2
+                animation = sex_combined
+            }
+        }
+    }
+
+    trigger = {
+        bno_has_embrace_african_5 = yes
+    }
+
+    immediate = {
+        random_list = {
+            1 = {
+                cum_doggy_animations = yes
+            }
+            1 = {
+                cum_missionary_animations = yes
+            }
+            1 = {
+                cum_standing_animations = yes
+            }
+            1 = {
+                cum_cowgirl_animations = yes
+            }
+            1 = {
+                cum_oral_animations = yes
+            }
+        }
+    }
+
+    option = {#learn something from the sex (post nut clarity)
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_girl = yes }
+                        desc = bno_court.0002.a.female
+                    }
+                    triggered_desc = {
+                        trigger = { is_a_male = yes }
+                        desc = bno_court.0002.a.male
+                    }
+                }
+            }
+        }
+        bno_learning_from_sex_effect = yes
+        carn_sex_scene_character_is_giving_player_effect = yes
+        carn_sex_scene_is_consensual_effect = yes
+        carnal_court_leave_court_effect	= yes
+    }
+}

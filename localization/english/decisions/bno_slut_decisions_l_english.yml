@@ -114,3 +114,14 @@ cure_sickly_tooltip: "Please get rid of my [GetTrait('sickly').GetName( GetNullC
 bno_cure_diseases.tooltip.1: "You will be cured of your ailments by a [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]"
 bno_cure_diseases.tooltip.2: "You will visit [GetBuilding('bbc_church_02').GetName]"
 
+bno_primal_insight_decision.title.female: "Under a Queen's Gaze: The Rite of Primal Insight"
+bno_primal_insight_decision.desc.female: "The air crackled with anticipation, thick with the mingled scents of jasmine oil and lust.  Weeks leading up to The Primal Insight always saw my court swell with eager suitors, their dark eyes hungry for a taste of my favor - each man desperate to be chosen to service me, to see his essence become part of my royal blood. They shadowed me through the opulent halls like ebony phantoms, their hands lingering too long on my silks as they offered whispered promises and extravagant gifts. Each touch sent shivers down my spine, a delicious ache for the inevitable climax of our yearly ritual - the moment when I would be claimed, possessed, and remade anew by the Black Cock Priest's potent seed."
+bno_primal_insight_decision.confirm.female: "Such fervent devotion warms my heart."
+bno_primal_insight_decision.tooltip.female: "You will get [GetModifier('bno_primal_insight').GetNameWithTooltip]"
+
+bno_primal_insight_decision.effect_tooltip: "You will begin a Ritual to get [GetModifier('bno_primal_insight').GetNameWithTooltip]"
+
+bno_primal_insight_decision.title.male: "Under a King's Gaze: The Rite of Primal Insight"
+bno_primal_insight_decision.desc.male: "The air hung heavy with sandalwood and musk - my own scent mingling with the heady perfume of jasmine that clung to the Priestess like a second skin. For weeks now, her presence had been a constant ache thrumming through me, a silken tide lapping at the shores of my desire.  She moved like smoke through the chambers of my palace, those ethereal blue eyes following me everywhere - lingering just long enough on my bare arms to send shivers down my spine. Her laughter was like windchimes in a summer breeze, her touch lighter than butterfly wings, yet I could feel her small hand branding itself onto my soul with every fleeting brush of fingertips against my skin. The approaching day pulsed like a second heartbeat within me - the day when she would offer herself to me again, and I would drink deep from the wellspring of her sacred power, transforming myself anew in the fires of that ancient ritual."
+bno_primal_insight_decision.confirm.male: "Then, Priestess, Let us commune."
+bno_primal_insight_decision.tooltip.male: "You will get [GetModifier('bno_primal_insight').GetNameWithTooltip]"

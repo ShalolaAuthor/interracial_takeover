@@ -1102,21 +1102,46 @@ bno_primal_insight_decision = {
 		NOT = { has_character_modifier = bno_primal_insight }
 	}
 	is_valid = {
-		bno_has_bbc_priest_or_priestess = yes
+		trigger_if = {
+			limit = { is_a_girl = yes }
+			any_court_position_holder = {
+				type = bno_bbc_priest_court_position
+			}
+		}
+		trigger_else_if = {
+			limit = { is_a_girl = yes }
+			any_court_position_holder = {
+				type = bno_bbc_priest_court_position
+			}
+		}
 	}
 
 	cost = {
-		gold = massive_gold_value
-		prestige = massive_prestige_value
-		piety = massive_piety_value
+		gold = {
+			value = massive_gold_value
+			multiply = 5
+		}
+		prestige = {
+			value = massive_prestige_value
+			multiply = 5
+		}
+		piety = {
+			value = massive_piety_value
+			multiply = 5
+		}
 	}
 
 	effect = {
-		add_character_modifier = {
-			modifier = bno_primal_insight
-			months = 12
+		custom_tooltip = bno_primal_insight_decision.effect_tooltip
+		trigger_event = {
+			id = bno_embrace_african_5.0009
 		}
 	}
+
+	cooldown = {
+		months = 12
+	}
+
 	#make sure ai also do it
 	ai_goal = yes
 	ai_potential = {

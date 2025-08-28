@@ -12,9 +12,11 @@
 -add bno_worshipper trait (cant have children)
 -add 1 month to frequency game rules
 -add events for bbc worshipper doing her action (monthly, yearly)
+-if cuck have sex with his wife lower cuck xp
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
+-age 18 for revealing outfit (or overwrite the age check)
 -add trading with church of bbc (every black supremacist will donate 1 gold for 10k piety)
 -add trading with africans (every africans will donate 1 gold for 1k prestige)
 -finish religion overhaul thingy (add new faith)
@@ -22,12 +24,13 @@ IMPORTANT TODO:
 -add nickname chooser decision for sluts
 -add tattoo shop (partially done, make a decision to change tattoo (choose head or body) then fire an event -> add var with flag for character -> options will change the flag of the var) (portrait modifier will check if the var exist -> then check the flag for relevant tattoo to be applied)
 -add character interaction to heal people
--get boost for research, innovation etc etc in exchange for gold (just say it is blessing)(must have certain holy sites for certain effects?)
+-game rule, bbc has an abnormal seeds and always get full african + bbc if male
 
 NEED TESTING:
 -make sure guess that visit your court gets proper trait
 
 DONE:
+-get boost for research, innovation etc etc in exchange for gold (just say it is blessing)(must have certain holy sites for certain effects?)
 -modify cum for glory to not include prowess (remove prowess, add something else, put prowess into the random stat)
 -add control as requirement for converting county culture and religion (african spreads way too fast)
 -turn off ritual of purification for body modification no

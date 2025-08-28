@@ -484,3 +484,121 @@ bbc_priestess_convert_neighboring_county = {
         }
     }
 }
+
+bno_court_sex_scene_effect = {
+    save_scope_as = carn_sex_player
+    $PARTNER$ = { save_scope_as = carn_sex_partner }
+    scope:carn_sex_player = {
+        carnal_court_enter_court_effect = yes
+    }
+}
+
+bno_learn_skill = {
+    if = {
+        limit = {
+            scope:carn_sex_partner = {
+                $SKILL$ > { 10 20 }
+            }
+        }
+        send_interface_message = {
+            type = bno_blacked_events
+            title = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_girl = yes }
+                        desc = bno_learn_skill.success.female.title
+                    }
+                    triggered_desc = {
+                        trigger = { is_a_male = yes }
+                        desc = bno_learn_skill.success.male.title
+                    }
+                }
+            }
+            desc = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_girl = yes }
+                        desc = bno_learn_skill.success.female.desc
+                    }
+                    triggered_desc = {
+                        trigger = { is_male = yes }
+                        desc = bno_learn_skill.success.male.desc
+                    }
+                }
+            }
+            right_icon = scope:carn_sex_player
+            left_icon = scope:carn_sex_partner
+            #effect
+            add_$SKILL$_skill = 1
+        }
+    }
+    else = {
+        send_interface_message = {
+            type = bno_blacked_events
+            title = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_girl = yes }
+                        desc = bno_learn_skill.failure.female.title
+                    }
+                    triggered_desc = {
+                        trigger = { is_a_male = yes }
+                        desc = bno_learn_skill.failure.male.title
+                    }
+                }
+            }
+            desc = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_girl = yes }
+                        desc = bno_learn_skill.failure.female.desc
+                    }
+                    triggered_desc = {
+                        trigger = { is_male = yes }
+                        desc = bno_learn_skill.failure.male.desc
+                    }
+                }
+            }
+            right_icon = scope:carn_sex_player
+            left_icon = scope:carn_sex_partner
+            #effect
+            add_$SKILL$_skill = -1
+        }
+    }
+}
+
+bno_learning_from_sex_effect = {
+    custom_tooltip = bno_learning_from_sex_effect.tooltip
+    random_list = {
+        1 = {
+            bno_learn_skill = {
+                SKILL = prowess
+            }
+        }
+        1 = {
+            bno_learn_skill = {
+                SKILL = diplomacy
+            }
+        }
+        1 = {
+            bno_learn_skill = {
+                SKILL = stewardship
+            }
+        }
+        1 = {
+            bno_learn_skill = {
+                SKILL = martial
+            }
+        }
+        1 = {
+            bno_learn_skill = {
+                SKILL = intrigue
+            }
+        }
+        1 = {
+            bno_learn_skill = {
+                SKILL = learning
+            }
+        }
+    }
+}
