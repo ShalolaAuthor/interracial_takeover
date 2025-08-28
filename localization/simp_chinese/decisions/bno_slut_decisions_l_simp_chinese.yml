@@ -113,3 +113,4 @@ bno_cure_diseases.sickly.desc: "你感染上了[GetTrait('sickly').GetName( GetN
 cure_sickly_tooltip: "请帮我摆脱[GetTrait('sickly').GetName( GetNullCharacter )]"
 bno_cure_diseases.tooltip.1: "你将通过你的[GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]治好你的疾病"
 bno_cure_diseases.tooltip.2: "你将拜访[GetBuilding('bbc_church_02').GetName]"
+
