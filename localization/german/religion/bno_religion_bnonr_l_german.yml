@@ -1,0 +1,94 @@
+﻿l_german: 
+
+# Religious Descriptors
+ bnonr: "Kirche des schwarzen Hahns" #deepl:1011192078
+ bnonr_adj: "Schwarzer Supremacist" #deepl:2964113060
+ bnonr_religion: "Kirche des schwarzen Hahns" #deepl:1011192078
+ bnonr_religion_adj: "Schwarzer Supremacist" #deepl:2964113060
+ bnonr_religion_adherent: "Schwarzer Supremacist" #deepl:2964113060
+ bnonr_religion_adherent_plural: "Schwarze Suprematisten" #deepl:3898135742
+ bnonr_religion_desc: "Suprematisten" glauben, dass sich jeder vor der überlegenen Ethnie verneigen sollte." #deepl:3500695713
+ bbcs_god_name: "N'daba" #deepl:2605883225
+ bbcs_god_name_2: "Azani" #deepl:104980490
+ bbcs_god_name_3: "Oshe" #deepl:2756820937
+ bbcs_god_name_possessive: "$bbcs_god_name$'s" #deepl:2982945723
+ bbcs_high_god_name_alternate: "Gott" #deepl:2887744223
+ bbcs_high_god_name_alternate_possessive: "$bbcs_high_god_name_alternate$'s" #deepl:946035866
+ bbcs_devil_name: "Ashantee" #deepl:651922770
+ bbcs_devil_name_possessive: "$bbcs_devil_name$'s" #deepl:4164634925
+ bbcs_evil_god_name_1: "Kweku" #deepl:3718121034
+ bbcs_evil_god_name_2: "Mfero" #deepl:2668942870
+ bbcs_evil_god_name_3: "Nyami Nyami" #deepl:2953386277
+ bbcs_house_of_worship_1: "Haus der Ekstase" #deepl:844181652
+ bbcs_house_of_worship_2: "Der Tempel der schwarzen Blüte" #deepl:3928109871
+ bbcs_house_of_worship_3: "Der Ebenholzaltar" #deepl:3332064314
+ bbcs_house_of_worship_plural: "Häuser der Ekstase" #deepl:1571963665
+ bbcs_religious_symbol_1: "Die drei Schwestern" #deepl:3944557547
+ bbcs_religious_symbol_2: "Der Obsidianstab" #deepl:3499518626
+ bbcs_religious_symbol_3: "Die blühende schwarze Rose" #deepl:1778479260
+ bbcs_religious_text_1: "Die Ebenholz-Schriften" #deepl:1067615290
+ bbcs_religious_text_2: "Der Nektar der Begierde" #deepl:3429770667
+ bbcs_religious_text_3: "Aphrodisia: Der heilige Zyklus" #deepl:3997453079
+ bbcs_religious_head_title: "Großweber der Ekstase" #deepl:4137070964
+ bbcs_male_devotee: "Hengst" #deepl:2552452654
+ bbcs_male_devotee_plural: "$bbcs_male_devotee$s" #deepl:491791989
+ bbcs_female_devotee: "Nymphe" #deepl:306734534
+ bbcs_female_devotee_plural: "$bbcs_female_devotee$s" #deepl:1700725008
+ bbcs_neutered_devotee: "Melken" #deepl:2421962980
+ bbcs_neutered_devotee_plural: "$bbcs_neutered_devotee$s" #deepl:92855733
+ bbcs_male_priest: "Hoher Hengst" #deepl:1423222686
+ bbcs_male_priest_plural: "$bbcs_male_priest$s" #deepl:2135026165
+ bbcs_female_priest: "Nymphe Priesterin" #deepl:2056978981
+ bbcs_female_priest_plural: "$bbcs_female_priest$es" #deepl:2693883251
+ bbcs_neutered_priest: "Samenträgerin" #deepl:3656482930
+ bbcs_neutered_priest_plural: "$bbcs_neutered_priest$s" #deepl:3940906688
+ bbcs_alt_priest: "Mondsamenhüterin" #deepl:250960995
+ bbcs_alt_priest_plural: "$bbcs_alt_priest$s" #deepl:4036164546
+ bbcs_male_bishop: "Schwarzer Sonnenhierophant" #deepl:1263171996
+ bbcs_male_bishop_plural: "$bbcs_male_bishop$s" #deepl:591443199
+ bbcs_female_bishop: "Schwarze Akolythenmeisterin" #deepl:3080280899
+ bbcs_female_bishop_plural: "$bbcs_female_bishop$es" #deepl:2771876400
+ bbcs_neutered_bishop: "Elfenbein-Samenknacker" #deepl:1506626688
+ bbcs_neutered_bishop_plural: "$bbcs_neutered_bishop$s" #deepl:3068406730
+ bbcs_positive_afterlife_1: "Der Ebenholz-Hain" #deepl:390935200
+ bbcs_positive_afterlife_2: "Der ewige Koitus" #deepl:1537141249
+ bbcs_positive_afterlife_3: "Der unendliche Garten des Vergnügens" #deepl:119907477
+ bbcs_negative_afterlife_1: "Der ausgedörrte Garten der Dornen" #deepl:279318331
+ bbcs_negative_afterlife_2: "Das Labyrinth der ewigen Lust" #deepl:2013937044
+ bbcs_negative_afterlife_3: "Das Reich der ewigen Sklaverei" #deepl:4081702007
+ bbcs_death_deity_name: "Jemoja" #deepl:3655613142
+ bbcs_death_deity_name_possessive: "$bbcs_death_deity_name$'s" #deepl:3269564416
+ bbcs_witch_god_name: "Aisha" #deepl:3409773790
+ bbcs_witch_god_name_possessive: "$bbcs_witch_god_name$'s" #deepl:2547685812
+ bbcs_ghw: "Adinkra" #deepl:2902506736
+ bbcs_ghws: "$bbcs_ghw$s" #deepl:126225286
+
+
+ bbcs: "Kirche des schwarzen Hahns" #deepl:1011192078
+ bbcs_adj: "Schwarzer Supremacist" #deepl:2964113060
+ bbcs_adherent: "Schwarzer Supremacist" #deepl:2964113060
+ bbcs_adherent_plural: "Schwarze Suprematisten" #deepl:3898135742
+ bbcs_desc: "Suprematisten" glauben, dass sich jeder vor der überlegenen Ethnie verneigen sollte." #deepl:3500695713
+
+ bbcs_old: "Kirche des schwarzen Hahns" #deepl:1011192078
+ bbcs_old_adj: "Schwarzer Supremacist" #deepl:2964113060
+ bbcs_old_adherent: "Schwarzer Supremacist" #deepl:2964113060
+ bbcs_old_adherent_plural: "Schwarze Suprematisten" #deepl:3898135742
+
+
+# Holy Order Names
+ bnoho1: "Orden der Schwarzen Götter" #deepl:492776505
+ bnoho2: "Die Schwarze Pest" #deepl:2815238216
+ bnoho3: "Ritter von Ghana" #deepl:1153738857
+ bnoho4: "Malische Invasoren" #deepl:408057419
+ bnoho5: "Die Bekehrungstruppe" #deepl:1607970353
+
+# Conversion Decision
+ convert: "Bekehrung zur Verehrung dunklerer Männer" #deepl:1787434687
+ convert_desc: "Schwarze Schwänze sind alles, woran du denken kannst, Schätzchen. Warum solltest du dich nicht einer überlegenen Ethnie hingeben und sie zu deinen Göttern machen?" #deepl:1922402056
+ convert_tooltip: "Du denkst über fleischige, schwarze Schwänze nach..." #deepl:2088474574
+ convert_confirm: "Sie widmen sich dem Lob [bno_bbc|E]" #deepl:2469986161
+ convert_effect_1: "Sie konvertieren zum [bno_religion|E]" #deepl:1229994478
+
+ rf_bbcs: "Aphrodiasma" #deepl:1540709921
+ rf_bbcs_desc: "$rf_bbcs$ ist ein lebendiger Wandteppich schwarzer Traditionen, gewebt aus ekstatischer Anbetung, mächtiger Magie und dem unerschütterlichen Glauben, dass die Erlösung der Weißen darin liegt, von der Kraft des schwarzen Samens erfüllt zu werden." #deepl:2786708576

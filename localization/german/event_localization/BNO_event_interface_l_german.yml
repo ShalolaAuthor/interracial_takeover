@@ -1,0 +1,77 @@
+﻿l_german:
+
+#BBC's POV if wife is white breeder
+ bno_birth.0001.wife.t: "Weiße fruchtbare Gebärmutter der Ehefrau" #deepl:1688710138
+ bno_birth.0001.wife.desc: "Ihre Frau [ROOT.GetCharacter.GetName] bringt wieder einmal ein schwarzes Kind zur Welt und festigt damit ihren Ruf als würdige Züchterin. Sie wurde geschaffen, um schwarze Kinder zu gebären." #deepl:2993310013
+#Cuck's POV if wife is white breeder
+ bno_birth.0001.cuck.wife.t: "Ehefrau gebiert viele Kinder" #deepl:1774219231
+ bno_birth.0001.cuck.wife.desc: "Ihre Frau [ROOT.GetCharacter.GetName] hat mehrere Kinder zur Welt gebracht. Obwohl Sie im Hinterkopf haben, dass die meisten nicht so aussehen wie alle anderen, finden Sie es seltsam." #deepl:1349192516
+
+ bno_birth.0001.lover.t: "Liebhabers weiße fruchtbare Gebärmutter" #deepl:3791737781
+ bno_birth.0001.lover.desc: "Ihre Geliebte [ROOT.GetCharacter.GetName] verrät weiterhin ihre Ethnie, indem sie ein weiteres schwarzes Kind auf die Welt bringt. Es ist ihre größte Freude, die schwarze Überlegenheit zu fördern." #deepl:3002682343
+
+ bno_birth.0001.t: "Meine weiße fruchtbare Gebärmutter" #deepl:1537742549
+ bno_birth.0001.personal_desc: "Ein weiteres schwarzes Baby, das in meinem fruchtbaren Schoß geboren wurde. Die Gegenüberstellung der Haut meines Kindes und meiner eigenen erfüllt mich mit Stolz und erneuert meinen Wunsch, die überlegene Ethnie zu stärken." #deepl:2936095511
+
+ bno_birth.0002.t: "Meine Saat ist ausgebreitet" #deepl:3837606856
+ bno_birth.0002.personal_desc: "Ich habe die Welt mit vielen schwarzen Kindern gesegnet." #deepl:1523034105
+
+ bno_birth_real_father_notification.title: "Mein Kind" #deepl:2794234708
+ bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] geboren hat, und Sie wissen in Ihrem Herzen, dass ihr Kind Ihr Kind ist, unabhängig davon, ob Sie es beweisen können." #deepl:3857326397
+ bno_birth_cuck_father_notification.title: "Mein Kind" #deepl:2794234708
+ bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] hat ein Kind zur Welt gebracht, und Sie sind ein wenig überrascht, wie kränklich es aussieht. Ist es normal, dass ein Kind eine so dunkle Hautfarbe hat?" #deepl:2046086679
+
+ bno_happy_wife.0001.title: "Ehefrau sieht glücklich aus" #deepl:2894249807
+ bno_happy_wife.0001.desc: "Es freut Sie, dass [ROOT.GetCharacter.GetName] in letzter Zeit so gut gelaunt zu sein scheint." #deepl:368293992
+
+ bno_married.title: "Nahm die Ehefrau" #deepl:3844452555
+ bno_married_desc: "Du trägst deinen Teil dazu bei, die schwarze Überlegenheit zu fördern, indem du dir eine Frau nimmst. Möge sie dir viele neue Kinder schenken." #deepl:1593201739
+
+ bno_bull_0004_notification.title: "Ehefrau isst gut" #deepl:2451379513
+ bno_bull_0004_notification.desc: "In letzter Zeit scheint Ihre Frau [ROOT.GetCharacter.GetName] mit ihren früheren schlechten Essgewohnheiten gebrochen zu haben. Sie sagte, dass sie fast nur noch flüssige Nahrung zu sich nimmt. Das muss ihr gefallen, denn man sieht sie gelegentlich mit flüssiger Nahrung im Mund." #deepl:4178145688
+
+ bno_bull_0008_notification.title: "Unheimliche Ähnlichkeit" #deepl:4181242249
+ bno_bull_0008_notification.desc: "Es gibt Gerüchte über eine Hure, die in den schwarzen Flüchtlingslagern herumläuft und Ihrer lieben Frau verblüffend ähnlich sieht [target1.GetFirstName]." #deepl:1958732132
+
+ bno_bull_0010_notification.title: "Buchungsfehler?" #deepl:4198218410
+ bno_bull_0010_notification.desc: "Ich bin sicher, dass ich mich nicht täusche, aber es scheint, dass etwas Gold aus der Schatzkammer verschwunden ist. Wer könnte es genommen haben?" #deepl:4000736646
+
+ bno_bull_0012_notification.title: "Weiß er etwas?" #deepl:3203126269
+ bno_bull_0012_notification.desc: "In letzter Zeit habe ich bemerkt, dass [ROOT.GetCharacter.GetName] mich anders ansieht, als ob er etwas weiß, was er nicht wissen sollte." #deepl:2276927880
+
+ bno_slut_0008_notification.title: "Unheimliche Ähnlichkeit" #deepl:4181242249
+ bno_slut_0008_notification.desc: "Es gibt Gerüchte über eine Hure, die in den schwarzen Flüchtlingslagern herumläuft und Ihrer lieben Frau verblüffend ähnlich sieht [slut.GetFirstName]." #deepl:2459561264
+
+ bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] dir ihre ganze Beute geben" #deepl:1157228654
+ bbc_worshipper.0002.notifications.desc: "Nach monatelanger harter Arbeit und unermüdlichen Nächten gibt sie dir ihr gesamtes Vermögen, weil sie nicht weiß, was sie damit anfangen soll." #deepl:2194215588
+
+ bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] hat sich zur Anbetung des [bno_religion|E]" #deepl:1222987386
+ bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] hat sich die Lehren der [bno_religion|E] zu eigen gemacht und widmet [target_vassal.GetHerselfHimself] seiner Verehrung und den damit verbundenen Vergnügungen." #deepl:3575309709
+
+ bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] hat sich zur Anbetung des [bno_religion|E]" #deepl:15545554
+ bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] hat sich die Lehren der [bno_religion|E] zu eigen gemacht und widmet seine Ressourcen ihrer Verehrung und den damit verbundenen Vergnügungen." #deepl:2928205102
+
+ bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] hat sich zur Anbetung des [bno_religion|E]" #deepl:2818010257
+ bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] hat sich die Lehren der [bno_religion|E] zu eigen gemacht und widmet [neighboring_lord_or_lady.GetHerselfHimself] seiner Verehrung und den damit verbundenen Vergnügungen." #deepl:233529422
+
+ bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] hat sich zur Anbetung des [bno_religion|E]" #deepl:1687117205
+ bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] hat sich die Lehren der [bno_religion|E] zu eigen gemacht und widmet seine Ressourcen ihrer Verehrung und den damit verbundenen Vergnügungen." #deepl:3680193789
+
+ bbc_priestess.1001.rejected_conversion.male.title: "Bekehrung abgelehnt: Der verschmähte schwarze Schwanz" #deepl:2944045322
+ bbc_priestess.1001.rejected_conversion.male.desc: "Trotz der inbrünstigen Predigten von [ROOT.Char.GetFirstName] über die Hingabe von Leib und Seele an die Herrlichkeit der [bno_bbc|E] wandte sich die Herde angewidert ab. Ihre Herzen bleiben starrsinnig, ihre Lippen ungesegnet, und die Kirche des Schwarzen Hahns gewinnt an diesem Tag keine neuen Jünger." #deepl:1122009665
+
+ bbc_priestess.1001.rejected_conversion.female.title: "Ihre Bitten abgelehnt: Der abgelehnte schwarze Schwanz" #deepl:3044096210
+ bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] entblößte ihre Hingabe mit jedem schwülen Wort und versprach Erlösung durch die Umarmung der BBC, doch die Menge widerstand. Ihr Verstand blieb verschlossen, ihre Körper unbeansprucht, und ihre heilige Lust brachte in dieser Nacht keine Bekehrten hervor." #deepl:273924590
+
+ bbc_priestess.1001.target_not_found.male.title: "Die Heilige Jagd des Priesters wird immer verzweifelter..." #deepl:16176094
+ bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] kniet vor dem Altar des Schwarzen Schwanzes, ruhelos und pochend vor heiliger Lust. Es gibt keine neuen Anhänger, die er anbeten kann, keinen Sünder, den er zur Bekehrung führen kann - nur seinen eigenen schweren Schaft, der vor göttlichem Verlangen trieft und sich danach sehnt, heiligen Samen in die zitternde Hingabe eines neuen Jüngers zu spritzen." #deepl:454571195
+
+ bbc_priestess.1001.target_not_found.female.title: "Die Priesterin erwartet eine Anhängerin..." #deepl:1608233613
+ bbc_priestess.1001.target_not_found.female.desc: "In ihr seidenweißes Gewand gehüllt, verneigt sich die zarte [ROOT.Char.GetFirstName] vor dem Altar des Schwarzen Hahns, ihre üppigen Brüste in zitternder Hingabe aneinandergepresst. Mit jenseitiger Anmut und einem süßen, schmerzenden Lächeln flüstert sie Gebete in die kerzenerleuchtete Dunkelheit - doch kein Sünder kommt, um bekehrt zu werden, und so zittert ihre weiche Gestalt vor heiligem Verlangen, verzweifelt, um das heilige Opfer zu wickeln, das sie so sehr verehren möchte." #deepl:977525275
+
+ bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] ist jetzt schwärzer denn je" #deepl:333339383
+ bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] ist jetzt schwärzer denn je" #deepl:2888369640
+ bno_marriage.0007.notifications.desc.male: "Ein Mitglied Ihrer Familie hat seinen schwarzen Samen an einen geeigneten Partner weitergegeben" #deepl:3566670843
+ bno_marriage.0007.notifications.desc.female: "Ein Mitglied Ihrer Familie hat einen #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!" #deepl:2674087572
+
+ bbc_diarch: "[bno_bbc|E]" #deepl:3797147834

@@ -1,0 +1,41 @@
+﻿l_french:
+
+ bno_war: "[bno_bnwo|E] La guerre" #deepl:4125418175
+ bno_war_victory_desc_attacker: "Vous gagnez le [titles|E] contesté." #deepl:85781437
+ bno_war_victory_desc: "[attacker.GetShortUIName|U] gagne le site contesté [title|E]." #deepl:2576209037
+ bno_war_white_peace_desc_defender: "Vous conservez le site contesté [title|E]." #deepl:2135811269
+ bno_war_white_peace_desc: "[defender.GetShortUIName|U] conserve le site contesté [title|E]." #deepl:2603732546
+ bno_war_defeat_desc_defender: "Vous conservez le site contesté [title|E]." #deepl:2135811269
+ bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] conserve les [title|E] contestés. Tous les [factions|E] contre vous augmentent leur [discontent|E]." #deepl:2396248306
+ bno_war_defeat_desc: "[defender.GetShortUIName|U] conserve le site contesté [title|E]." #deepl:2603732546
+ 
+ BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] La prise de contrôle raciale de l'Union européenne [TITLE.GetBaseName]" #deepl:3265768835
+ BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #deepl:37043797
+ BNO_WAR_CB_NAME: "La prise de contrôle raciale de la [TITLE.GetBaseName]" #deepl:3254247482
+
+ bno_subj_war: "[bno_bnwo|E] La guerre d'asservissement" #deepl:1335519652
+ bno_subj_war_victory_desc_attacker: "Vous gagnez le [titles|E] contesté." #deepl:85781437
+ bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] gagne le site contesté [title|E]." #deepl:2576209037
+ bno_subj_war_white_peace_desc_defender: "Vous conservez le site contesté [title|E]." #deepl:2135811269
+ bno_subj_war_white_peace_desc: "[defender.GetShortUIName|U] conserve le site contesté [title|E]." #deepl:2603732546
+ bno_subj_war_defeat_desc_defender: "Vous conservez le site contesté [title|E]." #deepl:2135811269
+ bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] conserve les [title|E] contestés. Tous les [factions|E] contre vous augmentent leur [discontent|E]." #deepl:2396248306
+ bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] conserve le site contesté [title|E]." #deepl:2603732546
+
+ BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] L'asservissement racial des [TITLE.GetBaseName]" #deepl:1699675202
+ BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #deepl:37043797
+ BNO_SUBJ_WAR_CB_NAME: "L'assujettissement racial des [TITLE.GetBaseName]" #deepl:1761321562
+
+ bno_varangian_adventure: "[bno_bnwo|E] Invasion" #deepl:3474910338
+ BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Invasion contre [DEFENDER.GetPrimaryTitle.GetNameNoTier]" #deepl:97668587
+ BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #deepl:37043797
+ BNO_VARANGIAN_ADVENTURE_CB_NAME: "Invasion de [DEFENDER.GetPrimaryTitle.GetNameNoTier]" #deepl:3948525235
+ BNWO_STATE_TITLE_NAME: "Noirci [target_duchy.GetNameNoTierNoTooltip]" #deepl:3422898403
+
+ bno_civil_unrest: "[bno_bnwo|E] Rébellion" #deepl:3336427679
+ bno_civil_unrest.army_name: "Conquérants d'ébène" #deepl:876940916
+ bno_civil_unrest.victory.desc: "Le site [bno_bnwo|E] a remporté la victoire. La résistance est futile. Préparez-vous à servir le nouvel ordre." #deepl:4087494606
+ bno_civil_unrest.white_peace.desc: "Le site [bno_bnwo|E] offre une chance de paix. Soumettez-vous à notre règle et soyez épargnés." #deepl:490728241
+ bno_civil_unrest.defeat.desc: "Le site [bno_bnwo|E] a été vaincu. L'ordre ancien reste intact, pour l'instant." #deepl:2994687401
+ bnwo_faction_every_county: "Chaque [faction|E] [county|E]" #deepl:3568567921
+ bno_civil_unrest_name: "Le soulèvement des Noirs pour le nouvel ordre mondial" #deepl:1677878031

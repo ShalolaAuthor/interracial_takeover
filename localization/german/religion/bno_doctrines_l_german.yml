@@ -1,0 +1,14 @@
+﻿l_german:
+
+ special_doctrine_is_bno_faith_name: "Schwarzer Schwanz Vorherrschaft" #deepl:927722670
+ is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" #deepl:2593306780
+ special_doctrine_is_bno_faith_desc: "Wir sollten diesen fehlgeleiteten Seelen, die die Ekstase einer [bno_bbc|E] noch nicht erlebt haben, Mitgefühl entgegenbringen, denn eine Kostprobe ist alles, was es braucht. Wenn man einmal schwarz wird, gibt es kein Zurück mehr!  Ihr Verstand mag heute noch durch Unwissenheit getrübt sein, aber sie werden kommen, um an unserem Altar anzubeten und um die süße Kraft der [bno_bbc|E] zu betteln." #deepl:501120928
+
+ bno_hostility_group_name: "$hostility_group_name$" #deepl:2419324964
+ bno_hostility_doctrine_name: "Aphrodiasma" #deepl:1540709921
+ bno_hostility_doctrine_desc: "Die folgenden Religionen sind aphroditisch:\n[GetReligionFamily('rf_bbcs').GetReligions]" #deepl:1798862884
+
+ doctrine_bno_tenets_name: "[bno_religion|E]: Grundsätze" #deepl:2935490099
+
+ tenet_bno_black_cock_conquest_name: "Die Eroberung des schwarzen Schwanzes" #deepl:3354477348
+ tenet_bno_black_cock_conquest_desc: "Durch inbrünstiges Gebet und heilige Eroberung werden wir den Ruhm von [bno_bbc|E] im ganzen Land verbreiten!" #deepl:626876696

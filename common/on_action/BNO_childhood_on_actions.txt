@@ -20,15 +20,3 @@ on_title_gain = {
 on_birth_child = {
 	on_actions = { bno_bbc_trait_pulse }
 }
-
-on_birth_child = {
-	events = {
-		bno_trait_seeding.0002
-	}
-}
-
-on_16th_birthday = {
-	events = {
-		bno_trait_seeding.0003
-	}
-}

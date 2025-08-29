@@ -1,49 +1,50 @@
-﻿namespace = bno_trait_seeding
+﻿namespace = bno_character_initialization
 
+bno_character_initialization.0001 = {
+	scope = none
+	hidden = yes
+	immediate = {
+		every_living_character = {
+			trigger_event = { on_action = bno_trait_initialization_pulse }
+		}
+	}
+}
+
+namespace = bno_trait_seeding
+
+#African Traits
 bno_trait_seeding.0001 = {
 	hidden = yes
 	trigger = {
-		NOT = { has_character_flag = bno_bbc_trait_seeded }
 		NOT = { has_character_flag = bno_originally_african }
-		OR = {
-			bno_is_graphically_african = yes
-			has_trait = bno_full_black
-			has_trait = bno_full_black
-			has_trait = bno_mostly_black
-			has_trait = bno_mixed
-		}
-		is_culture_bnoc = yes
-		is_alive = yes
+		bno_is_graphically_african = yes
 	}
 	immediate = {
 		if = {
 			limit = {
 				NOT = { has_trait = bno_blood }
-				bno_is_graphically_african = yes
 			}
 			add_trait = bno_full_black
+			bno_seed_originally_african_flag = yes
 		}
-		bno_seed_originally_african_flag = yes
-		bno_seed_bbc_trait_effect = yes
-		bno_futa_bisexual = yes
 	}
 }
-#Make the BBC trait inactive when a kid is born root is mother
+# BBC Traits
 bno_trait_seeding.0002 = {
 	hidden = yes
-
+	trigger = {
+		NOT = { has_character_flag = bno_bbc_trait_seeded }
+	}
 	immediate = {
-		scope:child = {
-			bno_inactivate_bbc_trait_effect = yes
+		if = {
+			limit = {
+				is_african = yes
+				is_a_male = yes
+				NOT = { has_trait = bno_bbc }
+			}
+			bno_seed_bbc_trait_effect = yes
+			bno_futa_bisexual = yes
 		}
 	}
 }
-
-bno_trait_seeding.0003 = {
-	hidden = yes
-
-	immediate = {
-		bno_activate_bbc_trait_effect = yes
-		bno_futa_bisexual = yes
-	}
-}
+#

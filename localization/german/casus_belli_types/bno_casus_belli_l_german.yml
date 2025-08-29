@@ -1,0 +1,41 @@
+﻿l_german:
+
+ bno_war: "[bno_bnwo|E] Krieg" #deepl:4125418175
+ bno_war_victory_desc_attacker: "Sie erhalten die umstrittene [titles|E]." #deepl:85781437
+ bno_war_victory_desc: "[attacker.GetShortUIName|U] gewinnt die angefochtene [title|E]." #deepl:2576209037
+ bno_war_white_peace_desc_defender: "Sie behalten die umstrittene [title|E]." #deepl:2135811269
+ bno_war_white_peace_desc: "[defender.GetShortUIName|U] behält die angefochtene [title|E]." #deepl:2603732546
+ bno_war_defeat_desc_defender: "Sie behalten die umstrittene [title|E]." #deepl:2135811269
+ bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] behält die angefochtene [title|E]. Alle [factions|E] gegen Sie erhöhen ihre [discontent|E]." #deepl:2396248306
+ bno_war_defeat_desc: "[defender.GetShortUIName|U] behält die angefochtene [title|E]." #deepl:2603732546
+ 
+ BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Die rassistische Übernahme der [TITLE.GetBaseName]" #deepl:3265768835
+ BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #deepl:37043797
+ BNO_WAR_CB_NAME: "Rassistische Übernahme von [TITLE.GetBaseName]" #deepl:3254247482
+
+ bno_subj_war: "[bno_bnwo|E] Unterwerfungskrieg" #deepl:1335519652
+ bno_subj_war_victory_desc_attacker: "Sie erhalten die umstrittene [titles|E]." #deepl:85781437
+ bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] gewinnt die angefochtene [title|E]." #deepl:2576209037
+ bno_subj_war_white_peace_desc_defender: "Sie behalten die umstrittene [title|E]." #deepl:2135811269
+ bno_subj_war_white_peace_desc: "[defender.GetShortUIName|U] behält die angefochtene [title|E]." #deepl:2603732546
+ bno_subj_war_defeat_desc_defender: "Sie behalten die umstrittene [title|E]." #deepl:2135811269
+ bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] behält die angefochtene [title|E]. Alle [factions|E] gegen Sie erhöhen ihre [discontent|E]." #deepl:2396248306
+ bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] behält die angefochtene [title|E]." #deepl:2603732546
+
+ BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Die rassische Unterwerfung der [TITLE.GetBaseName]" #deepl:1699675202
+ BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #deepl:37043797
+ BNO_SUBJ_WAR_CB_NAME: "Rassische Unterwerfung von [TITLE.GetBaseName]" #deepl:1761321562
+
+ bno_varangian_adventure: "[bno_bnwo|E] Invasion" #deepl:3474910338
+ BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Invasion gegen [DEFENDER.GetPrimaryTitle.GetNameNoTier]" #deepl:97668587
+ BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" #deepl:37043797
+ BNO_VARANGIAN_ADVENTURE_CB_NAME: "Invasion von [DEFENDER.GetPrimaryTitle.GetNameNoTier]" #deepl:3948525235
+ BNWO_STATE_TITLE_NAME: "Geschwärzt [target_duchy.GetNameNoTierNoTooltip]" #deepl:3422898403
+
+ bno_civil_unrest: "[bno_bnwo|E] Rebellion" #deepl:3336427679
+ bno_civil_unrest.army_name: "Ebenholz-Eroberer" #deepl:876940916
+ bno_civil_unrest.victory.desc: "Die Website [bno_bnwo|E] hat den Sieg errungen. Widerstand ist zwecklos. Bereitet euch darauf vor, der neuen Ordnung zu dienen." #deepl:4087494606
+ bno_civil_unrest.white_peace.desc: "Die [bno_bnwo|E] bietet eine Chance auf Frieden. Unterwerft euch unserer Herrschaft und ihr werdet verschont." #deepl:490728241
+ bno_civil_unrest.defeat.desc: "Die [bno_bnwo|E] wurde besiegt. Die alte Ordnung bleibt intakt, vorerst." #deepl:2994687401
+ bnwo_faction_every_county: "Alle [faction|E] [county|E]" #deepl:3568567921
+ bno_civil_unrest_name: "Aufstand der schwarzen Neuen Weltordnung" #deepl:1677878031

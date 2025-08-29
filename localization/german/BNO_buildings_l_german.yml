@@ -1,0 +1,26 @@
+﻿l_german:
+
+#BBC Camp
+ building_type_bbc_camp_01: "Afrikanische Siedlungen" #deepl:167084407
+ building_type_bbc_camp_01_desc: "Eine Siedlung, in der alle afrikanischen Flüchtlinge zusammenkommen und sich unter die einheimischen Frauen mischen." #deepl:360321000
+ building_bbc_camp_01: "Aufzuchtlager" #deepl:2340795002
+ building_bbc_camp_01_desc: "Afrikanische Flüchtlinge erhalten ein bestimmtes Gebiet in der Nähe der Stadt, um sich unter die Einheimischen zu mischen. Diese Lager sind die perfekten Orte, um die einheimischen Frauen zu züchten." #deepl:2073144730
+ building_bbc_camp_02: "Häuser der Liebe" #deepl:3818136513
+ building_bbc_camp_02_desc: "Da immer mehr Frauen in die afrikanische Siedlung kommen, wird der Bau von Häusern dazu führen, dass sich mehr Flüchtlinge mit ihnen fortpflanzen können." #deepl:1902341947
+ building_bbc_camp_03: "Flüchtlingsdorf" #deepl:4011770056
+ building_bbc_camp_03_desc: "Mit dem Zustrom von Frauen in die Siedlung, dem Bau weiterer Einrichtungen und der Errichtung einer dauerhaften Siedlung wurde die Möglichkeit geschaffen, sich weiter zu vermehren." #deepl:1661005327
+ building_bbc_camp_04: "Interrassische Bordelle" #deepl:1842828564
+ building_bbc_camp_04_desc: "[bno_bbc|E] Süchtige können sich nun in diesen Bordellen versammeln und Sex mit ihrem Lieblingsflüchtling aus Afrika haben." #deepl:744377773
+ building_bbc_camp_05: "Flüchtlingstownship" #deepl:2937822127
+ building_bbc_camp_05_desc: "Die Bevölkerung der Stadt wird praktisch von afrikanischen Flüchtlingen überschwemmt, und alle Frauen sind mindestens einmal von einem Afrikaner gefickt worden." #deepl:3370072996
+ building_bbc_camp_06: "BBC-Paradies" #deepl:1706554811
+ building_bbc_camp_06_desc: "Eine pulsierende Metropole, in der Frauen von nah und fern anreisen, um den begehrtesten Schwanz der Welt zu probieren - Big Black Cocks." #deepl:3283682767
+
+ building_type_bbc_church_01: "$bnonr$" #deepl:2557014929
+ building_type_bbc_church_01_desc: "Die Luft im $bnonr$ pulsierte im Rhythmus von verzweifeltem Stöhnen und verzweifeltem Keuchen, während sich die Körper in schweißtreibender Hingabe unter der gewölbten Decke wanden, die von einem öligen Schimmer durchzogen war, der wie verschüttetes Sperma schimmerte." #deepl:2143571059
+ building_bbc_church_01: "$bnonr$: Stiftung" #deepl:1215359695
+ building_bbc_church_01_desc: "Selbst jetzt, noch bevor ein einziger Turm den Himmel durchstößt oder Buntglas in verbotenen Farben leuchtet, kann ich es fast spüren: das kühle Dröhnen der Macht, das von diesem Grundstein ausgeht. Tief in der Erde haben sie die ersten schwarzen Steine versenkt, von denen jeder einzelne von dunklem Öl geküsst und mit dem Versprechen endloser fleischlicher Ekstase durchtränkt ist, die noch kommen wird." #deepl:1463832516
+ building_bbc_church_02: "$bnonr$: Kathedrale" #deepl:863556726
+ building_bbc_church_02_desc: "In den hallenden Hallen werden täglich Orgien zur Verehrung der [bno_bbc|E] abgehalten, die durch körperliche und geistige Opfergaben angeheizt werden. Dazu gehört auch das wöchentliche rituelle Opfer weißer Männer, die ihre Frauen als lebende Tribute auf dem heiligen Altar des Ebenholzes darbringen." #deepl:3658529087
+
+ NOT_bbc_or_whitegirl_trigger: "Der Inhaber muss [bno_bbc|E] oder Whitegirl sein." #deepl:2356756498

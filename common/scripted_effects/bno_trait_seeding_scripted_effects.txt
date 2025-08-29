@@ -72,30 +72,3 @@ bno_futa_bisexual = {
         set_sexuality = bisexual
     }
 }
-
-bno_inactivate_bbc_trait_effect = {
-    if = {
-        limit = {
-            is_bbc = yes
-        }
-        bno_make_bbc_has_big_dick = yes
-        make_trait_inactive = dick_big_good_3
-        make_trait_inactive = bno_bbc
-    }
-}
-
-bno_activate_bbc_trait_effect = {
-    if = {
-        limit = {
-            is_a_male = yes
-        }
-        if = {
-            limit = { has_inactive_trait = bno_bbc }
-            make_trait_active = bno_bbc
-        }
-        if = {
-            limit = { has_inactive_trait = dick_big_good_3 }
-            make_trait_active = dick_big_good_3
-        }
-    }
-}

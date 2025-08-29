@@ -1,0 +1,10 @@
+﻿l_german:
+ #Influence Child
+ #success
+ bno_character_interaction_0001.title: "Die Vögel und die Bienen" #deepl:3428873290
+ bno_character_interaction_0001.desc: "Die Anbetung einer überlegenen Ethnie ist nicht selbstverständlich. Doch dank deiner "Beziehungen" zu den afrikanischen Völkern, die dein Reich überschwemmen, konntest du deine Tochter davon überzeugen, dass es völlig in Ordnung ist, sich für jeden zu interessieren, den sie will. Du hast zwar den Wunsch geäußert, dass sie jemanden von höherem Rang heiraten sollten, aber du hast auch den Gedanken an landlose Leibeigene und vor allem an dunkelhäutige Menschen gefördert. Wenn du mit ihr aus dem Garten gehst, kannst du nur hoffen, dass das neue Motto deiner Dynastie das der Förderung einer gemischten Zukunft ist." #deepl:86084325
+ bno_character_interaction_0001.a: "Holen wir uns etwas zu trinken." #deepl:1109128393
+ #failure
+ bno_character_interaction_0002.title: "Die Vögel und die Bienen" #deepl:3428873290
+ bno_character_interaction_0002.desc: "Ihre eigene Verwandtschaft scheint in Gedanken versunken zu sein und von anderen Dingen zu träumen, während Sie die Rolle der Landbevölkerung und der Nicht-Landbevölkerung, arrangierte Ehen, Abstammung und dergleichen erklären. Nichts davon scheint hängen zu bleiben, auch nicht bei der zunehmenden Reife Ihrer Tochter. Aus Frustration über das mangelnde Verständnis Ihres Kindes beschließen Sie, das Thema zu wechseln - in der Hoffnung, dass sich dies zum Besseren wendet." #deepl:372717159
+ bno_character_interaction_0002.a: "Ich denke, wir sollten uns etwas zu trinken holen." #deepl:1588447322

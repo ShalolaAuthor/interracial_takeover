@@ -1,0 +1,6 @@
+﻿l_french:
+#Travel Flavor Events
+ bno_bull_travel_0001.title: "Cible repérée" #deepl:1581181287
+ bno_bull_travel_0001.desc: "Les rumeurs sur votre taille circulent plus vite que vous ne le pensez. Les salopes de votre région ont entendu parler de vous, elles ont envie de votre virilité dans leur utérus. Peut-être que certaines d'entre elles ont envie de votre semence. Une femme du coin essaie de vous inciter à vous arrêter quelques jours pour rester dans l'intimité avec [target1.GetHerHis]. Vous ne voulez pas être en retard, mais la tentation est grande. Faites votre choix ou continuez à avancer." #deepl:3211952148
+ bno_bull_travel_0001.a: "Un petit retard ne changera rien." #deepl:1777233758
+ bno_bull_travel_0001.b: "Je ne laisserai pas une salope me ralentir. Vite ! " #deepl:3068916091

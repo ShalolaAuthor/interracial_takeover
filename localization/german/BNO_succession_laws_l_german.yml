@@ -1,0 +1,5 @@
+﻿l_german:
+#BNWO Succession
+ bnwo_only_law: "BNWO Orientiert" #deepl:1337185595
+ bnwo_only_law_subname: "Rassische Überlegenheit" #deepl:3968920065
+ bnwo_only_law_effects: "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$Männer und Frauen sind bei der Erbfolge nach dem Titelinhaber gleichberechtigt.\n$EFFECT_LIST_BULLET$ Kann nur an den gleichen Glauben weitergegeben werden.\n$EFFECT_LIST_BULLET$ Erlaubt die Benennung von Erben." #deepl:3490491450

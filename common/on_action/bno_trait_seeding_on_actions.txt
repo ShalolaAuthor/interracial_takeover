@@ -1,6 +1,23 @@
 ﻿on_game_start_after_lobby = {
+	events = {
+		bno_character_initialization.0001
+	}
 	on_actions = {
-		bno_trait_initialization_pulse
+		bno_inversed_gender_equality
+	}
+}
+
+bno_inversed_gender_equality = {
+	trigger = {
+		has_game_rule = bno_mod_status_on
+	}
+	effect = {
+		if = {
+			limit = {
+				has_game_rule = inversed_gender_equality
+			}
+			bno_game_rule_inversed_gender_equality_effect = yes
+		}
 	}
 }
 
@@ -9,16 +26,8 @@ bno_trait_initialization_pulse = {
 		has_game_rule = bno_seeding_yes
 		has_game_rule = bno_mod_status_on
 	}
-	effect = {
-		every_living_character = {
-			trigger_event = bno_trait_seeding.0001
-		}
-
-		if = {
-			limit = {
-				has_game_rule = inversed_gender_equality
-			}
-			bno_game_rule_inversed_gender_equality_effect = yes
-		}
+	events = {
+		bno_trait_seeding.0001 # African Trait
+		bno_trait_seeding.0002 # BBC Trait
 	}
 }

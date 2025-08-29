@@ -1,0 +1,32 @@
+﻿l_german:
+# traits
+ trait_bno_bbc: "Großer, schwarzer Schwanz" #deepl:189778546
+ trait_bno_bbc_desc: "Diese Figur hat einen riesigen schwarzen Schwanz und den Drang, jede Schlampe zu ficken, die sich ihm in den Weg stellt." #deepl:909999179
+ trait_bno_cuckish: "Abgehauen?" #deepl:1304305608
+ trait_bno_cuckish_desc: "Die Frau dieser Person hat sich in letzter Zeit von ihr entfernt. Warum?" #deepl:1371533336
+ trait_bno_cuck: "Abgehauen!" #deepl:1135623658
+ trait_bno_cuck_desc: "Die Frau dieses Mannes hat schon einmal mit einem Schwarzen gefickt, und er ist machtlos, das zu verhindern." #deepl:4095333133
+ trait_bno_beta: "Beta" #deepl:2995718448
+ trait_bno_beta_desc: "Die frühere Frau dieses Mannes hat ihn wegen eines besseren Mannes verlassen und ihn völlig entmannt." #deepl:810619593
+ trait_bno_jos: "Pik-Bube" #deepl:3141634549
+ trait_bno_jos_desc: "Diese Figur hat sich trotz Eheproblemen voll und ganz der neuen Weltordnung angeschlossen." #deepl:3650709823
+ trait_bno_caged: "Käfig" #deepl:3036424089
+ trait_bno_caged_desc: "Keuschheit ist die Strafe dieser Figur dafür, dass sie nicht schwarz ist." #deepl:2510237208
+ trait_bno_castrated: "Kastriert" #deepl:881773845
+ trait_bno_castrated_desc: "Kinder sind eine Sache der Vergangenheit. Dieser Mann wird keine Erben zeugen." #deepl:2440707973
+ trait_bno_camp_leader: "Schwarzer Revolutionär" #deepl:375916520
+ trait_bno_camp_leader_desc: "Er wurde wegen seines riesigen, schwarzen Schwanzes zum Anführer seiner örtlichen Flüchtlingsbande gewählt und für die vielen Schlampen, die er erobert hat, gelobt." #deepl:3508964531
+
+ trait_bno_slut_blood: "Schwarze Schlampe" #deepl:1367951314
+ trait_bno_slut_blood_desc: "Sie hat zu viel [GetTrait('bno_full_black').GetName( GetNullCharacter )] Sperma konsumiert, sie wird von innen heraus schwarz." #deepl:1454599195
+ trait_bno_full_black: "Schwarz" #deepl:2319246464
+ trait_bno_full_black_desc: "Ein Nachkomme direkt vom afrikanischen Kontinent" #deepl:2368993916
+ trait_bno_mostly_black: "Meistens schwarz" #deepl:3701085338
+ trait_bno_mostly_black_desc: "Durch selektive Zucht unter afrikanischen Ausländern ist ihre Haut dunkler" #deepl:203720996
+ trait_bno_mixed: "Gemischt" #deepl:2342650105
+ trait_bno_mixed_desc: "Halbblütiger Afrikaner" #deepl:2507957118
+ trait_bno_barely_mixed: "Kaum gemischt" #deepl:770889759
+ trait_bno_barely_mixed_desc: "Nachdem sich die afrikanische Dynastie seit Generationen nicht mehr fortgepflanzt hat, ist das einheimische Blut dieses Charakters knapp geworden" #deepl:1597052545
+#Message Filter
+ message_filter_bno_breeding_outcomes: ""
+ message_filter_bno_blacked_events: ""

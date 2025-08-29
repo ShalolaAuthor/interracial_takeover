@@ -1,0 +1,17 @@
+﻿l_german:
+
+#Diarchy Types
+ bno_sated_throne_diarch_title: "Erblicher Aufseher" #deepl:2149665503
+ bno_sated_throne_diarchy_type: "[bno_sated_throne|E]" #deepl:2281810509
+
+ bno_first_harvest_mandate: "Erste Ernte" #deepl:2516525366
+ bno_first_harvest_mandate_desc: "#BOL Mögliche [mandate|E] Auswirkungen:#!\n$EFFECT_LIST_BULLET$ Extra   Herrscher muss   Herrscher muss    Der muss um jeden Preis versuchen, die 's Nation zu schwärzen. [gold|E]\n$EFFECT_LIST_BULLET$ [bno_first_harvest|E]\n$EFFECT_LIST_BULLET$ [bno_bbc_council|E]\n\n#WEAK  [regent|E] $game_concept_liege$#!" #deepl:1749332228
+
+ mandate_aptitude.bno_first_harvest.category: "$bno_first_harvest_mandate$" #deepl:1033232728
+ mandate_aptitude.bno_first_harvest.primary_skill.bno_sex_counter: "[mandate|E] stützt sich auf [bno_sexual_experience|E]" #deepl:1599514149
+ mandate_aptitude.bno_first_harvest.secondary_skill.martial: "[mandate|E] verwendet [learning|E]" #deepl:1358970395
+ mandate_aptitude.bno_first_harvest.secondary_skill.prowess: "[mandate|E] verwendet [prowess|E]" #deepl:660163644
+ mandate_aptitude.bno_first_harvest.bonus_trait.bno_camp_leader: "[GetTrait('bno_camp_leader').GetName( ROOT.Char )] übertrifft" #deepl:1668878455
+ mandate_aptitude.bno_first_harvest.bonus_trait.strong: "[GetTrait('strong').GetName( ROOT.Char )] übertrifft" #deepl:4127283190
+ mandate_aptitude.bno_first_harvest.malus_trait.generous: "[GetTrait('generous').GetName( ROOT.Char )] unpassend" #deepl:1945495548
+ mandate_aptitude.bno_first_harvest.malus_trait.infertile: "[GetTrait('infertile').GetName( ROOT.Char )] unpassend" #deepl:452083123

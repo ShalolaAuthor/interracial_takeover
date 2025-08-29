@@ -1,0 +1,127 @@
+﻿l_german:
+
+ bno_becoming_bbc_slut: "Eine "geschwärzte Wichsschlampe" werden" #deepl:234466230
+ bno_becoming_bbc_slut_desc: "Ich will eine schwarze Wichsschlampe sein, weil ich für diese Rolle geboren wurde - um als Gefäß für die mächtigen, virilen schwarzen Schwänze zu dienen, die mir geben können, wonach mein kleiner weißer Körper sich sehnt. Der bloße Anblick des massiven Glieds eines Ebenholz-Mannes lässt meine Muschi vor Vorfreude und Verlangen triefen." #deepl:512623617
+ bno_becoming_bbc_slut_confirm: "Meine engen Löcher kannst du nach Belieben benutzen." #deepl:3259441588
+ bno_becoming_bbc_slut_tooltip: "Ich bin so verzweifelt, dass ich benutzt werde wie die wertlose Hure, die ich bin" #deepl:2552614249
+
+ bno_stop_becoming_bbc_slut: "Die hingebungsvolle Cumslut" #deepl:143652068
+ bno_stop_becoming_bbc_slut_desc: "Nachdem ich jahrelang ein geschwärztes Wichsfräulein war, habe ich in ihm endlich meinen perfekten Partner gefunden - einen persönlichen schwarzen Bullen, der sich täglich um meinen unstillbaren Appetit auf einen großen Schwanz kümmert. Er befriedigt mich auf eine Art und Weise, wie es kein anderer jemals könnte und sorgt dafür, dass meine Pussy immer vollgestopft ist und mit seinem dicken Samen trieft." #deepl:4219338002
+ bno_stop_becoming_bbc_slut_confirm: "Dafür wurde ich geboren -" #deepl:2380994181
+ bno_stop_becoming_bbc_slut_tooltip: " nichts weiter als eine Reihe von Löchern zu sein, die einem starken" #deepl:3971005213
+
+ bno_invite_slut_decision: "Laden Sie Curious Noble auf Ihren Hof ein" #deepl:2648153752
+ bno_invite_slut_decision_desc: "Als sich die neugierige Adlige nähert, begrüße ich sie mit einem herzlichen Lächeln.\n\n Willkommen in meinem bescheidenen Domizil. Ich freue mich immer über neue Bekanntschaften, vor allem über solche, die meine Interessen an Kunst und Kultur teilen.\n\n Die Adlige sieht sich um und nimmt die üppige Umgebung meines Anwesens in Augenschein - von der opulenten Einrichtung bis hin zu den unbezahlbaren Kunstwerken, die jede Wand zieren.\n\n Wie ich sehe, haben Sie ein gutes Auge für Schönheit. Vielleicht könnten wir einige dieser Stücke bei einem Abendessen besprechen? Ich würde mich freuen, Sie herumzuführen und Ihnen mehr über ihre Herkunft zu erzählen.\n\n Die Adlige nickt zustimmend, offensichtlich fasziniert von dem, was sie sieht, und begierig, mehr zu erfahren." #deepl:2256852014
+ bno_invite_slut_decision_tooltip: "Ausländer wurden zu einem Besuch bei Eurer Hoheit vorgeladen." #deepl:2470291137
+ bno_invite_slut_decision_confirm: "Sie sind hier willkommen" #deepl:3760960552
+
+ bno_build_african_camps_decision: "Gebäude $Gebäudetyp_bbc_camp_01$" #deepl:2726637240
+ bno_build_african_camps_decision_desc: "Da die Bevölkerung von #V [GetTrait('bno_full_black').GetName( GetNullCharacter )] #! ständig wächst, haben Sie beschlossen, dass es höchste Zeit für Sie ist, eine Siedlung nur für sie zu errichten." #deepl:386010517
+ bno_build_african_camps_decision_tooltip: "Konstruieren Sie $building_type_bbc_camp_01$" #deepl:188391252
+ bno_build_african_camps_decision_confirm: "So sei es" #deepl:44476705
+ bno_build_african_camps_toast: "$Gebäude_typ_bbc_camp_01$ Gebaut" #deepl:2235590477
+
+ bno_change_county_culture: "Beeinflussung eines Bezirks zur Verabschiedung $bnoc$" #deepl:3804743708
+ bno_change_county_culture_desc: "Sie sind ein $bnoc$, würde es nicht so viel Sinn machen, Ihre Leute zu beeinflussen, $bnoc_collective_noun$ zu werden?" #deepl:3145983032
+ bno_change_county_culture_tooltip: "Beeinflussung der Menschen zur Übernahme der Lebensweise $bnoc$ " #deepl:2723301743
+ bno_change_county_culture_confirm: "Ich brauche mehr $bnoc$" #deepl:3622553993
+ bno_change_county_culture_toast: "$bnoc$ hat sich ausgebreitet" #deepl:3995991904
+
+ bno_recruit_court_position_decision: "Rekrutieren Sie Positionen, um #V Die [GetTrait('bno_full_black').GetName( GetNullCharacter )] Bevölkerung anzusprechen#!" #deepl:906959759
+ bno_recruit_court_position_decision_desc: "Ein gut funktionierendes [ROOT.Char.Custom('RealmType')] erfordert die Arbeit von vielen Mädchen. Ich werde meine Diener weit und breit aussenden, um geeignete Kandidatinnen für die neu zu besetzenden Stellen an meinem Hof zu finden." #deepl:2272847774
+ bno_recruit_court_position_decision_tooltip: "Suchen Sie nach einem Mädchen, das eine [court_position|E] oder eine andere notwendige Rolle in Ihrem [court|E] gegen eine Gebühr\n\n #weak  Sie können zum Beispiel einen [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!" #deepl:3215781253
+ bno_recruit_court_position_decision_confirm: "Rufen Sie sie hier an!" #deepl:3366053396
+ recruit_bbc_worshipper_cooldown_tt: "Die Rekrutierung einer [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] ist auf Abklingzeit für [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]" #deepl:1161161915
+ hire_bbc_worshipper_decision_tooltip: "Ihre Bediensteten werden Ihnen eine Reihe geeigneter Kandidaten für die Stelle des [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" #deepl:1795642571
+ bno_recruit_court_position_decision_tt: "Sie erhalten eine zufällige Anzahl von geeigneten Mädchen, die Ihnen zur Seite stehen" #deepl:3029862876
+
+ bno_convert_to_african: "Afrikanisch umarmen" #deepl:1045206856
+ bno_convert_to_african_confirm: "Für mich ist es so was von vorbei!" #deepl:2986314078
+ bno_convert_to_african_desc: "Sie haben aus erster Hand erfahren, wie sich diese Kultur verhält, eine Kultur, die so stark ist, dass man sich ihr einfach unterwerfen möchte. Es gibt ein altes Sprichwort: Wenn man sie nicht schlagen kann, schließt man sich ihnen an." #deepl:1866502151
+ bno_convert_to_african_tooltip: "Bekennen Sie sich zu den Wurzeln Ihrer $bnoc$ Vorfahren" #deepl:617141793
+
+ bno_build_bbc_church: "Gebäude $building_bbc_church_01$" #deepl:1129014456
+ bno_build_bbc_church_confirm: "Lass mich den ersten Stein legen!" #deepl:662227362
+ bno_build_bbc_church.desc: "Der Bau des Kirchenfundaments wird als Symbol für unsere Hingabe an die [bno_religion|E] und unser Engagement für den neuen Lebensstil dienen." #deepl:737698930
+ bno_build_bbc_church.tooltip: "Bau einer Kultstätte, die dem [bno_bbc|E]" #deepl:3957045013
+ bno_build_bbc_church.toast: "$Gebäude_bbc_Kirche_01$ Gebaut" #deepl:3158205346
+
+ bno_found_bbc_church_holy_order: "Gründung des Heiligen Ordens der [bno_religion|E]" #deepl:3918900887
+ bno_found_bbc_church_holy_order_confirm: "Verbreiten wir das Wort von [bno_bbc|E]" #deepl:758747985
+ bno_found_bbc_church_holy_order.desc: "Der Heilige Orden [bno_religion|E] widmet sich der Anbetung und Verehrung der [bno_bbc|E], fördert ihre Werte und sichert ihren Platz in unserer Gesellschaft." #deepl:4053307540
+ bno_found_bbc_church_holy_order.tooltip: "Einen Heiligen Orden gründen, der sich der Verehrung der [bno_bbc|E]" #deepl:1537063611
+ bno_found_bbc_church_holy_order.effect_tooltip: "Der Heilige Orden von [bno_religion|E] wurde gegründet und verbreitet seine Lehren und Werte im ganzen Reich." #deepl:4073716411
+
+ bno_cure_disease.title.male: "Der reinigende Kuss" #deepl:1019684751
+ bno_cure_disease.title.female: "Der Saatgutsegen des Souveräns" #deepl:1487960487
+ bno_cure_disease.desc.male: "In Anwesenheit des versammelten Hofstaats und des Klerus kniet jeder kranke Herr vor der auserwählten Priesterin nieder. Sie werden dann angewiesen, ihre Münder weit zu öffnen, während sie ihre nackten Hüften senkt und sich so positioniert, dass sein Gesicht fest gegen die Quelle ihres heiligen Nektars gedrückt wird. Er muss ungehindert aus ihrer Muschi trinken, bis die Priesterin ein Ende des Rituals signalisiert." #deepl:2554578300
+ bno_cure_disease.desc.female: "In Anwesenheit des versammelten Hofstaats und des Klerus kniet jede kranke Dame vor dem ausgewählten Priester. Sie wird angewiesen, ihren Mund weit zu öffnen, während er seinen erigierten Penis in ihre wartenden Lippen senkt.  Der Priester stößt dann tief in ihren Mund und ermutigt sie, ihren Kopf zu bewegen und frei zu schlucken. Das Ritual wird fortgesetzt, bis der Priester direkt in ihren Mund ejakuliert, was eine erfolgreiche Heilung bedeutet." #deepl:2444390584
+ bno_cure_disease.confirm.male: "Los geht's.." #deepl:376265235
+ bno_cure_disease.confirm.female: "Ich kann es kaum erwarten..." #deepl:1697368434
+ bno_cure_disease.tooltip.male: "Ich frage mich, wie deine Muschi schmeckt..." #deepl:447162374
+ bno_cure_disease.tooltip.female: "Segne mich mit deinem Sperma." #deepl:3213757667
+ bno_cure_diseases.own.sickness: "Sie sind krank." #deepl:2369217997
+ bno_cure_disease.employing_bbc_priestess: "Sie beschäftigten [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" #deepl:718659942
+ bno_cure_diseases.second_step_button: "Bitte heile mich..." #deepl:2947418570
+ bno_cure_diseases.lovers_pox: "Sie sind mit [GetTrait('lovers_pox').GetName( GetNullCharacter )] behaftet." #deepl:3163482837
+ bno_cure_diseases.lovers_pox.desc: "Sie sind mit [GetTrait('lovers_pox').GetName( GetNullCharacter )] behaftet." #deepl:3163482837
+ cure_lovers_pox_tooltip: "Bitte heilen Sie mich von meinem [GetTrait('lovers_pox').GetName( GetNullCharacter )]" #deepl:679814190
+ bno_cure_diseases.ill: "Sie sind [GetTrait('ill').GetName( GetNullCharacter )]." #deepl:3549437127
+ bno_cure_diseases.ill.desc: "Sie sind [GetTrait('ill').GetName( GetNullCharacter )]." #deepl:3549437127
+ cure_ill_tooltip: "Bitte heilen Sie mich von meiner [GetTrait('ill').GetName( GetNullCharacter )]ness" #deepl:4116023490
+ bno_cure_diseases.pneumonic: "Sie sind mit [GetTrait('pneumonic').GetName( GetNullCharacter )] behaftet." #deepl:1276698105
+ bno_cure_diseases.pneumonic.desc: "Sie sind mit [GetTrait('pneumonic').GetName( GetNullCharacter )] behaftet." #deepl:1276698105
+ cure_pneumonic_tooltip: "Bitte werden Sie meine [GetTrait('pneumonic').GetName( GetNullCharacter )]" #deepl:1115154340
+ bno_cure_diseases.great_pox: "Sie sind mit [GetTrait('great_pox').GetName( GetNullCharacter )] behaftet." #deepl:2348714589
+ bno_cure_diseases.great_pox.desc: "Sie sind mit [GetTrait('great_pox').GetName( GetNullCharacter )] behaftet." #deepl:2348714589
+ cure_great_pox_tooltip: "Bitte werden Sie meine [GetTrait('great_pox').GetName( GetNullCharacter )]" #deepl:885302278
+ bno_cure_diseases.early_great_pox: "Sie sind mit [GetTrait('early_great_pox').GetName( GetNullCharacter )] behaftet." #deepl:2596077675
+ bno_cure_diseases.early_great_pox.desc: "Sie sind mit [GetTrait('early_great_pox').GetName( GetNullCharacter )] behaftet." #deepl:2596077675
+ cure_early_great_pox_tooltip: "Bitte werden Sie meine [GetTrait('early_great_pox').GetName( GetNullCharacter )]" #deepl:3212619986
+ bno_cure_diseases.leper: "Sie sind mit [GetTrait('leper').GetName( GetNullCharacter )] behaftet." #deepl:2587289337
+ bno_cure_diseases.leper.desc: "Sie sind mit [GetTrait('leper').GetName( GetNullCharacter )] behaftet." #deepl:2587289337
+ cure_leper_tooltip: "Bitte werden Sie meine [GetTrait('leper').GetName( GetNullCharacter )]" #deepl:2282698178
+ bno_cure_diseases.gout_ridden: "Sie sind mit [GetTrait('gout_ridden').GetName( GetNullCharacter )] behaftet." #deepl:323424497
+ bno_cure_diseases.gout_ridden.desc: "Sie sind mit [GetTrait('gout_ridden').GetName( GetNullCharacter )] behaftet." #deepl:323424497
+ cure_gout_ridden_tooltip: "Bitte werden Sie meine [GetTrait('gout_ridden').GetName( GetNullCharacter )]" #deepl:2206804893
+ bno_cure_diseases.consumption: "Sie sind mit [GetTrait('consumption').GetName( GetNullCharacter )] behaftet." #deepl:2277283849
+ bno_cure_diseases.consumption.desc: "Sie sind mit [GetTrait('consumption').GetName( GetNullCharacter )] behaftet." #deepl:2277283849
+ cure_consumption_tooltip: "Bitte werden Sie meine [GetTrait('consumption').GetName( GetNullCharacter )]" #deepl:3123313028
+ bno_cure_diseases.cancer: "Sie sind mit [GetTrait('cancer').GetName( GetNullCharacter )] behaftet." #deepl:2651183445
+ bno_cure_diseases.cancer.desc: "Sie sind mit [GetTrait('cancer').GetName( GetNullCharacter )] behaftet." #deepl:2651183445
+ cure_cancer_tooltip: "Bitte werden Sie meine [GetTrait('cancer').GetName( GetNullCharacter )]" #deepl:3290625789
+ bno_cure_diseases.typhus: "Sie sind mit [GetTrait('typhus').GetName( GetNullCharacter )] behaftet." #deepl:1703205386
+ bno_cure_diseases.typhus.desc: "Sie sind mit [GetTrait('typhus').GetName( GetNullCharacter )] behaftet." #deepl:1703205386
+ cure_typhus_tooltip: "Bitte werden Sie meine [GetTrait('typhus').GetName( GetNullCharacter )]" #deepl:3159809326
+ bno_cure_diseases.bubonic_plague: "Sie sind mit [GetTrait('bubonic_plague').GetName( GetNullCharacter )] behaftet." #deepl:2397895513
+ bno_cure_diseases.bubonic_plague.desc: "Sie sind mit [GetTrait('bubonic_plague').GetName( GetNullCharacter )] behaftet." #deepl:2397895513
+ cure_bubonic_plague_tooltip: "Bitte werden Sie meine [GetTrait('bubonic_plague').GetName( GetNullCharacter )]" #deepl:507510777
+ bno_cure_diseases.smallpox: "Sie sind mit [GetTrait('smallpox').GetName( GetNullCharacter )] behaftet." #deepl:1879733434
+ bno_cure_diseases.smallpox.desc: "Sie sind mit [GetTrait('smallpox').GetName( GetNullCharacter )] behaftet." #deepl:1879733434
+ cure_smallpox_tooltip: "Bitte werden Sie meine [GetTrait('smallpox').GetName( GetNullCharacter )]" #deepl:719385356
+ bno_cure_diseases.measles: "Sie sind mit [GetTrait('measles').GetName( GetNullCharacter )] behaftet." #deepl:3756517842
+ bno_cure_diseases.measles.desc: "Sie sind mit [GetTrait('measles').GetName( GetNullCharacter )] behaftet." #deepl:3756517842
+ cure_measles_tooltip: "Bitte werden Sie meine [GetTrait('measles').GetName( GetNullCharacter )]" #deepl:2138081610
+ bno_cure_diseases.dysentery: "Sie sind mit [GetTrait('dysentery').GetName( GetNullCharacter )] behaftet." #deepl:4149085876
+ bno_cure_diseases.dysentery.desc: "Sie sind mit [GetTrait('dysentery').GetName( GetNullCharacter )] behaftet." #deepl:4149085876
+ cure_dysentery_tooltip: "Bitte werden Sie meine [GetTrait('dysentery').GetName( GetNullCharacter )]" #deepl:108294381
+ bno_cure_diseases.ergotism: "Sie sind mit [GetTrait('ergotism').GetName( GetNullCharacter )] behaftet." #deepl:245112776
+ bno_cure_diseases.ergotism.desc: "Sie sind mit [GetTrait('ergotism').GetName( GetNullCharacter )] behaftet." #deepl:245112776
+ cure_ergotism_tooltip: "Bitte werden Sie meine [GetTrait('ergotism').GetName( GetNullCharacter )]" #deepl:3283661794
+ bno_cure_diseases.sickly: "Sie sind mit [GetTrait('sickly').GetName( GetNullCharacter )] behaftet." #deepl:4071516824
+ bno_cure_diseases.sickly.desc: "Sie sind mit [GetTrait('sickly').GetName( GetNullCharacter )] behaftet." #deepl:4071516824
+ cure_sickly_tooltip: "Bitte werden Sie meine [GetTrait('sickly').GetName( GetNullCharacter )]" #deepl:46427953
+ bno_cure_diseases.tooltip.1: "Ihr werdet von euren Beschwerden geheilt werden durch einen [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" #deepl:3651476861
+ bno_cure_diseases.tooltip.2: "Sie besuchen [GetBuilding('bbc_church_02').GetName]" #deepl:3082895323
+
+ bno_primal_insight_decision.title.female: "Unter dem Blick der Königin: Der Ritus der Ursprünglichen Einsicht" #deepl:2067931423
+ bno_primal_insight_decision.desc.female: "Die Luft knisterte vor Erwartung und war erfüllt von den Düften von Jasminöl und Lust.  In den Wochen vor der Primal Insight wimmelte es an meinem Hof immer von eifrigen Freiern, deren dunkle Augen hungrig nach einem Vorgeschmack auf meine Gunst waren - jeder Mann wollte verzweifelt auserwählt werden, mir zu dienen, um zu sehen, wie seine Essenz Teil meines königlichen Blutes wird. Wie Ebenholzgespenster schlichen sie durch die opulenten Hallen, ihre Hände verweilten zu lange auf meiner Seide, während sie mir geflüsterte Versprechen und extravagante Geschenke machten. Jede Berührung jagte mir einen Schauer über den Rücken, eine köstliche Sehnsucht nach dem unvermeidlichen Höhepunkt unseres jährlichen Rituals - dem Moment, in dem ich von dem potenten Samen des Schwarzen Schwanzpriesters beansprucht, besessen und neu erschaffen werden würde." #deepl:35694755
+ bno_primal_insight_decision.confirm.female: "Solch inbrünstige Hingabe erwärmt mein Herz." #deepl:3482774987
+ bno_primal_insight_decision.tooltip.female: "Sie erhalten [GetModifier('bno_primal_insight').GetNameWithTooltip]" #deepl:940699856
+
+ bno_primal_insight_decision.effect_tooltip: "Sie werden ein Ritual beginnen, um [GetModifier('bno_primal_insight').GetNameWithTooltip]" #deepl:3928559625
+
+ bno_primal_insight_decision.title.male: "Unter dem Blick eines Königs: Der Ritus der ursprünglichen Einsicht" #deepl:2476969448
+ bno_primal_insight_decision.desc.male: "Die Luft war schwer von Sandelholz und Moschus - mein eigener Duft vermischte sich mit dem berauschenden Parfüm des Jasmins, der die Priesterin wie eine zweite Haut umgab. Seit Wochen war ihre Anwesenheit ein ständiger Schmerz, der mich durchströmte, eine seidene Flut, die an den Ufern meiner Sehnsucht schwamm.  Sie bewegte sich wie Rauch durch die Gemächer meines Palastes, diese ätherischen blauen Augen folgten mir überall hin - und verweilten gerade lange genug auf meinen nackten Armen, um mir Schauer über den Rücken zu jagen. Ihr Lachen war wie ein Windspiel in einer Sommerbrise, ihre Berührung leichter als Schmetterlingsflügel, und doch konnte ich spüren, wie sich ihre kleine Hand mit jeder flüchtigen Berührung meiner Haut in meine Seele einbrannte. Der nahende Tag pulsierte wie ein zweiter Herzschlag in mir - der Tag, an dem sie sich mir wieder anbieten würde, und ich würde tief aus der Quelle ihrer heiligen Kraft trinken und mich im Feuer dieses uralten Rituals neu verwandeln." #deepl:12913693
+ bno_primal_insight_decision.confirm.male: "Dann, Priesterin, lass uns miteinander reden." #deepl:163708378
+ bno_primal_insight_decision.tooltip.male: "Sie erhalten [GetModifier('bno_primal_insight').GetNameWithTooltip]" #deepl:940699856

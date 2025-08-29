@@ -1,0 +1,16 @@
+﻿l_german:
+
+ bno_seduction_outcome.0001.title: "Jetzt oder nie" #deepl:1672746652
+ bno_seduction_outcome.0001.desc: "[target.GetTitledFirstNamePossessive] Die Reaktionen auf meine Annäherungsversuche sagen mir alles, was ich wissen muss. Die Zeit ist gekommen, meinen Plan in die Tat umzusetzen.\n\n" #deepl:2624202171
+ bno_seduction_outcome.0001.positive.desc: "Ich denke, meine Chancen stehen gut, aber ich darf nicht vergessen, dass [discoverer.Custom2('NamePossessiveCharacterIntroduction', target)] immer zusieht..." #deepl:2812164938
+ bno_seduction_outcome.0001.negative.desc: "Doch ich fürchte die Konsequenzen. [discoverer.Custom2('NamePossessiveCharacterIntroduction', target)|U] und [discoverer.GetHerHis] Agenten könnten sich in jedem Schatten verstecken, durch jede Wand lauschen..." #deepl:610892940
+ bno_seduction_outcome.0001.a: "[target.GetFirstNameNoTooltip] wird mein sein!" #deepl:3036499921
+ bno_seduction_outcome.0001.a.tooltip: "Ich fahre fort mit meinem Versuch, zu verführen [target.GetTitledFirstName]" #deepl:2127260630
+ bno_seduction_outcome.0001.b: "Ich kann nicht riskieren, entdeckt zu werden." #deepl:436363196
+
+ bno_seduction_outcome.0003.title: "Ein sinnlicher Vorschlag" #deepl:2311058761
+ bno_seduction_outcome.0003.success.desc: "[owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] hat sich [owner.GetHerHis] mit süßen Worten und noch süßeren Berührungen einen Weg in mein Leben gebahnt. Spät in der Nacht kämpfe ich darum, [owner.GetHerHim] aus meinem Kopf zu bekommen...\n\n Die zwischen uns schwelenden Gefühle werden bald entweder in Flammen aufgehen oder erlöschen." #deepl:3207040400
+ bno_seduction_outcome.0003.failure.desc: "Wohin ich auch gehe, [owner.Custom2('MyCharacterIntroduction', ROOT.Char)] wird mir sicher folgen. Dieser Blick in [owner.GetHerHis] Augen, die Worte auf [owner.GetHerHis] Lippen... Ich weiß genau, worauf [owner.GetSheHe] aus ist." #deepl:3775721941
+ bno_seduction_outcome.0003.a: "Dies ist eine Romanze, die hell, aber kurz brennen wird." #deepl:1601021521
+ bno_seduction_outcome.0003.b: "Ich möchte für immer im Inferno verweilen!" #deepl:801719190
+ bno_seduction_outcome.0003.c: "Wie süß... aber nein." #deepl:208795339

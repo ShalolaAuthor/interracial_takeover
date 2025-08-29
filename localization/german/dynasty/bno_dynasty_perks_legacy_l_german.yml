@@ -1,0 +1,25 @@
+﻿l_german:
+#don't translate this yet, still figuring out how this works
+ bno_embrace_african_track_desc: "Umfassen Sie Afrika, um Nutzen für Ihr Reich zu bringen" #deepl:1460243725
+ bno_embrace_african_track_name: "Afrikanisiert" #deepl:2775396626
+ bno_embrace_african_1_name: "Umarmung von Migranten" #deepl:3470987486
+ bno_embrace_african_2_name: "Migranten nutzen" #deepl:2988227776
+ bno_embrace_african_3_name: "Migranten verstehen" #deepl:2967697913
+ bno_embrace_african_4_name: "Erkennen Sie Migranten" #deepl:4263312956
+ bno_embrace_african_5_name: "Integration von Migranten" #deepl:134923781
+
+ BNO_PLACEHOLDER: ""
+ EBONY_ELITES_UNLOCK_DESCRIPTION: "Kann [GetMaA('bno_ebony_elites').GetName] einstellen als [men_at_arms|E]" #deepl:2130585070
+ EBONY_ELITES_DESCRIPTION: "#weak Es kann nur ein Regiment von [GetMaA('bno_ebony_elites').GetName] rekrutiert werden.#!" #deepl:2045993048
+
+ BBC_MARRIAGE_DESCRIPTION: "Wann immer ein [bno_bbc|E] heiratet, und ein Weißes Mädchen einen [bno_bbc|E] heiratet, erhält ihr [dynasty|E] [prestige|E] . Sie bekommen auch mehr [legitimacy|E] und [prestige|E] von dem [marriage|E]" #deepl:3270295312
+
+ BBC_SEX_EFFECT: "Wann immer ein [bno_bbc|E] und ein weißes Mädchen von euch [dynasty|E] Sex haben, wird euer [dynasty|E] [prestige|E]" #deepl:3127052881
+
+ BNO_EMBRACE_3_EFFECT: "Unlocks Lernen über Migranten Entscheidung und Ereignisse" #deepl:3304754500
+
+ SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Wählen Sie ein [congenital|E] Merkmal aus, das sich in der [dynasty|E]" #deepl:2097302466
+
+ BBC_CAMP_BUILDING_UNLOCK: "Entriegelt die [GetBuilding('bbc_camp_01').GetName] [building|E]" #deepl:2069260921
+
+ BNO_SEX_EFFECT_DESCRIPTION: "Entriegelt [GetModifier('bno_cum_for_glory').GetNameWithTooltip]" #deepl:1892458391

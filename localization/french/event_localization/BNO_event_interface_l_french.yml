@@ -1,0 +1,77 @@
+﻿l_french:
+
+#BBC's POV if wife is white breeder
+ bno_birth.0001.wife.t: "L'utérus blanc et fertile de l'épouse" #deepl:1688710138
+ bno_birth.0001.wife.desc: "Votre femme [ROOT.GetCharacter.GetName] donne à nouveau naissance à un bébé noir, consolidant ainsi sa réputation d'éleveuse digne de ce nom. Elle est faite pour mettre au monde des enfants noirs." #deepl:2993310013
+#Cuck's POV if wife is white breeder
+ bno_birth.0001.cuck.wife.t: "L'épouse donne naissance à de nombreux enfants" #deepl:1774219231
+ bno_birth.0001.cuck.wife.desc: "Votre femme [ROOT.GetCharacter.GetName] a donné naissance à plusieurs enfants. Bien qu'au fond de vous, vous trouviez étrange que la plupart d'entre eux ne ressemblent pas aux autres." #deepl:1349192516
+
+ bno_birth.0001.lover.t: "Lover's White Fertile Womb" #deepl:3791737781
+ bno_birth.0001.lover.desc: "Votre amante [ROOT.GetCharacter.GetName] continue de trahir sa race en mettant au monde un autre enfant noir. C'est sa plus grande joie de renforcer la supériorité des Noirs." #deepl:3002682343
+
+ bno_birth.0001.t: "Mon utérus blanc et fertile" #deepl:1537742549
+ bno_birth.0001.personal_desc: "Un autre bébé noir né de mon ventre fertile. La juxtaposition de la peau de mon enfant et de la mienne me remplit de fierté et renouvelle mon désir de renforcer la race supérieure." #deepl:2936095511
+
+ bno_birth.0002.t: "Ma semence est répandue" #deepl:3837606856
+ bno_birth.0002.personal_desc: "J'ai béni le monde avec de nombreux enfants noirs." #deepl:1523034105
+
+ bno_birth_real_father_notification.title: "Mon enfant" #deepl:2794234708
+ bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] a accouché, et vous savez au fond de vous que son enfant est le vôtre, que vous puissiez ou non le prouver." #deepl:3857326397
+ bno_birth_cuck_father_notification.title: "Mon enfant" #deepl:2794234708
+ bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] a accouché et vous êtes un peu surpris par son aspect maladif. Est-il normal qu'un enfant ait un teint aussi foncé ?" #deepl:2046086679
+
+ bno_happy_wife.0001.title: "La femme a l'air heureuse" #deepl:2894249807
+ bno_happy_wife.0001.desc: "Vous êtes heureux de constater que [ROOT.GetCharacter.GetName] semble avoir le moral au beau fixe ces derniers temps." #deepl:368293992
+
+ bno_married.title: "Prise de femme" #deepl:3844452555
+ bno_married_desc: "En prenant une femme, vous contribuez à renforcer la supériorité des Noirs. Qu'elle vous donne beaucoup d'enfants." #deepl:1593201739
+
+ bno_bull_0004_notification.title: "L'épouse mange bien" #deepl:2451379513
+ bno_bull_0004_notification.desc: "Ces derniers temps, votre femme [ROOT.GetCharacter.GetName] semble avoir rompu avec ses mauvaises habitudes alimentaires. Elle dit avoir adopté un régime presque entièrement liquide. Elle doit aimer ça puisqu'on la voit de temps en temps avec sa nourriture liquide encore autour des lèvres." #deepl:4178145688
+
+ bno_bull_0008_notification.title: "Une ressemblance troublante" #deepl:4181242249
+ bno_bull_0008_notification.desc: "Des rumeurs circulent sur une prostituée qui se promènerait dans les camps de réfugiés noirs et qui ressemblerait étrangement à votre chère épouse [target1.GetFirstName]." #deepl:1958732132
+
+ bno_bull_0010_notification.title: "Erreur comptable ?" #deepl:4198218410
+ bno_bull_0010_notification.desc: "Je suis sûr de ne pas me tromper, il semble que de l'or ait disparu du trésor. Qui aurait pu s'en emparer ?" #deepl:4000736646
+
+ bno_bull_0012_notification.title: "Sait-il quelque chose ?" #deepl:3203126269
+ bno_bull_0012_notification.desc: "Dernièrement, j'ai remarqué que [ROOT.GetCharacter.GetName] me regardait différemment, comme s'il savait quelque chose qu'il ne devrait pas savoir." #deepl:2276927880
+
+ bno_slut_0008_notification.title: "Une ressemblance troublante" #deepl:4181242249
+ bno_slut_0008_notification.desc: "Des rumeurs circulent sur une prostituée qui se promène dans les camps de réfugiés noirs et qui ressemble étrangement à votre chère épouse [slut.GetFirstName]." #deepl:2459561264
+
+ bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] te donner tout son butin" #deepl:1157228654
+ bbc_worshipper.0002.notifications.desc: "Après des mois de travail acharné et de nuit infatigable, elle vous donne tous ses biens parce qu'elle ne sait pas quoi en faire." #deepl:2194215588
+
+ bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] s'est converti au culte de la [bno_religion|E]" #deepl:1222987386
+ bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] a adopté les enseignements du site [bno_religion|E], consacrant [target_vassal.GetHerselfHimself] à son culte et aux plaisirs qu'il procure." #deepl:3575309709
+
+ bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] s'est converti au culte de la [bno_religion|E]" #deepl:15545554
+ bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] a adopté les enseignements du site [bno_religion|E], consacrant ses ressources à son culte et aux plaisirs qu'il procure." #deepl:2928205102
+
+ bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] s'est converti au culte de la [bno_religion|E]" #deepl:2818010257
+ bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] a adopté les enseignements du site [bno_religion|E], consacrant [neighboring_lord_or_lady.GetHerselfHimself] à son culte et aux plaisirs qu'il procure." #deepl:233529422
+
+ bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] s'est converti au culte de la [bno_religion|E]" #deepl:1687117205
+ bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] a adopté les enseignements du site [bno_religion|E], consacrant ses ressources à son culte et aux plaisirs qu'il procure." #deepl:3680193789
+
+ bbc_priestess.1001.rejected_conversion.male.title: "Conversion rejetée : La bite noire rejetée" #deepl:2944045322
+ bbc_priestess.1001.rejected_conversion.male.desc: "Malgré les sermons fervents de [ROOT.Char.GetFirstName] sur l'abandon du corps et de l'âme à la gloire de [bno_bbc|E], les fidèles se sont détournés avec dégoût. Leurs cœurs restent têtus, leurs lèvres ne sont pas bénies, et l'Église du Coq Noir ne gagne pas de nouveaux disciples aujourd'hui." #deepl:1122009665
+
+ bbc_priestess.1001.rejected_conversion.female.title: "Ses demandes sont rejetées : La bite noire rejetée" #deepl:3044096210
+ bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] a révélé sa dévotion à chaque mot sulfureux et a promis le salut par l'étreinte de la BBC, mais la foule a résisté. Leurs esprits sont restés fermés, leurs corps n'ont pas été réclamés, et sa sainte convoitise n'a pas fait de convertis cette nuit." #deepl:273924590
+
+ bbc_priestess.1001.target_not_found.male.title: "La chasse aux saints du prêtre devient désespérée..." #deepl:16176094
+ bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] s'agenouille à l'autel de la bite noire, agité et palpitant de convoitise sacrée. Il n'y a pas de nouveaux adeptes à adorer, pas de pécheur à guider vers la conversion - juste sa lourde tige, dégoulinante de besoins divins, désireuse de déverser une semence sacrée dans la dévotion tremblante d'un nouveau disciple." #deepl:454571195
+
+ bbc_priestess.1001.target_not_found.female.title: "La prêtresse attend un adepte..." #deepl:1608233613
+ bbc_priestess.1001.target_not_found.female.desc: "Drapée dans ses robes blanches en soie, la tendre [ROOT.Char.GetFirstName] s'incline devant l'autel de la bite noire, ses seins généreux pressés l'un contre l'autre dans une dévotion tremblante. Avec une grâce d'un autre monde et un sourire doux et douloureux, elle murmure des prières dans l'obscurité éclairée par les bougies - mais aucun pécheur n'arrive pour être converti, laissant sa douce carcasse frissonner d'un besoin sacré, désespérée de s'enrouler autour de l'offrande sainte qu'elle désire tant adorer." #deepl:977525275
+
+ bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] est plus noire que jamais" #deepl:333339383
+ bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] est plus noire que jamais" #deepl:2888369640
+ bno_marriage.0007.notifications.desc.male: "Un membre de votre famille a répandu sa semence noire auprès d'un partenaire approprié." #deepl:3566670843
+ bno_marriage.0007.notifications.desc.female: "Un membre de votre famille a épousé une #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!" #deepl:2674087572
+
+ bbc_diarch: "[bno_bbc|E]" #deepl:3797147834
