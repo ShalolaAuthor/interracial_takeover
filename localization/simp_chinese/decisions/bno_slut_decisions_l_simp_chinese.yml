@@ -114,3 +114,14 @@ cure_sickly_tooltip: "请帮我摆脱[GetTrait('sickly').GetName( GetNullCharact
 bno_cure_diseases.tooltip.1: "你将通过你的[GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]治好你的疾病"
 bno_cure_diseases.tooltip.2: "你将拜访[GetBuilding('bbc_church_02').GetName]"
 
+bno_primal_insight_decision.title.female: "在皇后的注视下：原始洞悉仪式"
+bno_primal_insight_decision.desc.female: "空气中弥漫着期待的火花，茉莉精油与情欲的气息交织得浓稠。在“原始洞悉”仪式前的数周里，我的宫廷总会涌入大批渴求的求偶者，他们深邃的双眸贪婪地渴望着我的恩宠——每个男人都渴望被选中侍奉我，渴望自己的精髓融入我的皇家血脉。他们如乌木幽灵般尾随我穿行于华美厅堂，献上低语承诺与奢华馈赠时，双手总在锦缎上流连过久。每一次触碰都令我脊背战栗，为年度仪式不可避免的高潮而酣畅战栗——那将是我被黑阳祭司强劲精液占有、占有、重塑的时刻。"
+bno_primal_insight_decision.confirm.female: "如此热切的奉献让我感到暖心。"
+bno_primal_insight_decision.tooltip.female: "你将获得[GetModifier('bno_primal_insight').GetNameWithTooltip]"
+
+bno_primal_insight_decision.effect_tooltip: "你将开始一个仪式以获得[GetModifier('bno_primal_insight').GetNameWithTooltip]"
+
+bno_primal_insight_decision.title.male: "在王的注视下：原始洞悉仪式"
+bno_primal_insight_decision.desc.male: "空气中弥漫着沉香与麝香的浓郁气息——我的体香与缠绕在女祭司身上的茉莉芬芳交织，那香气如第二层肌肤般紧贴着她。数周以来，她的存在始终如一根弦在我体内持续震颤，宛如丝绸般的潮汐不断拍打着我欲望的海岸。 她如烟雾般游移于宫殿各处，那双幽蓝眼眸无处不在追随我——当她目光在裸露的手臂上稍作停留，便令我脊背战栗。她的笑声似夏风中的风铃，触碰轻若蝶翼，可每当指尖掠过肌肤，那纤纤小手便如烙印般灼刻进我的灵魂深处。慢慢接近的日子在我体内如第二颗心脏般跳动——那日她将再度献身于我，我将深深啜饮她神圣力量的源泉，在古老仪式的烈焰中重获新生。"
+bno_primal_insight_decision.confirm.male: "那么，女祭司大人，我们开始密谈吧。"
+bno_primal_insight_decision.tooltip.male: "你将获得[GetModifier('bno_primal_insight').GetNameWithTooltip]"
