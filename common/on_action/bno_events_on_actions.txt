@@ -1,5 +1,6 @@
 ﻿random_yearly_everyone_pulse = {
 	on_actions = {
+		bno_events_monthly_pulse
 		bno_events_quarterly_pulse
 		bno_events_half_year_pulse
 		bno_events_each_year_pulse
@@ -10,10 +11,32 @@ bno_events_pulse = {
 	trigger = {
 		has_game_rule = bno_mod_status_on
 	}
-	random_on_action = {
-		1 = bno_events_slut_pulse
-		1 = bno_events_bull_pulse
-		1 = bno_events_cuck_pulse
+	effect = {
+		if = {
+			limit = {
+				is_a_girl = yes
+			}
+			trigger_event = {
+				on_action = bno_events_slut_pulse
+			}
+		}
+		else_if = {
+			limit = {
+				is_bbc = yes
+			}
+			trigger_event = {
+				on_action = bno_bull_pulse
+			}
+		}
+		else_if = {
+			limit = {
+				is_a_male = yes
+				is_bbc = no
+			}
+			trigger_event = {
+				on_action = bno_cuck_pulse
+			}
+		}
 	}
 }
 
@@ -47,6 +70,38 @@ bno_events_cuck_pulse = {
 		1 = bno_cuck_pulse
 		1 = bno_random_pulse
 		1 = bno_embrace_african_pulse
+	}
+}
+
+bno_events_monthly_pulse = {
+	trigger = {
+		has_game_rule = bno_event_frequency_one_month
+	}
+	on_actions = {
+		delay = { days = { 1 30 } }
+		bno_events_pulse
+		delay = { days = { 31 60 } }
+		bno_events_pulse
+		delay = { days = { 61 90 } }
+		bno_events_pulse
+		delay = { days = { 91 120 } }
+		bno_events_pulse
+		delay = { days = { 121 150 } }
+		bno_events_pulse
+		delay = { days = { 151 180 } }
+		bno_events_pulse
+		delay = { days = { 181 210 } }
+		bno_events_pulse
+		delay = { days = { 211 240 } }
+		bno_events_pulse
+		delay = { days = { 241 270 } }
+		bno_events_pulse
+		delay = { days = { 271 300 } }
+		bno_events_pulse
+		delay = { days = { 301 330 } }
+		bno_events_pulse
+		delay = { days = { 331 360 } }
+		bno_events_pulse
 	}
 }
 

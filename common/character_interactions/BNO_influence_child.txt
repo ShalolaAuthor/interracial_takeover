@@ -16,7 +16,7 @@
 		scope:recipient = {
 			is_ai = yes
 			is_adult = no
-			is_female = yes
+			is_a_girl = yes
 			OR = {
 				scope:actor = { has_relation_ward = scope:recipient }
 				is_hostage_of = scope:actor

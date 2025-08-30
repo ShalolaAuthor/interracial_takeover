@@ -113,11 +113,11 @@
     #Fallbacks
     text = {
 		localization_key = worthless_female
-		trigger = { is_female = yes }
+		trigger = { is_a_girl = yes }
 	}
     text = {
 		localization_key = worthless
-		trigger = { is_male = yes }
+		trigger = { is_a_male = yes }
 	}
 }
 

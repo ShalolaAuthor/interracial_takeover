@@ -255,7 +255,7 @@ bno_legacy_birth = {
 						scope:child.dynasty = {
 							exists = var:bno_embrace_african_2_bno_curious
 						}
-						is_female = yes
+						is_a_girl = yes
 						NOT = {
 							has_trait = bno_curious
 						}
@@ -276,6 +276,7 @@ bno_legacy_birth = {
 						scope:child.dynasty = {
 							exists = var:bno_embrace_african_2_bno_bbc
 						}
+						is_a_male = yes
 						NOT = {
 							has_trait = bno_bbc
 						}

@@ -521,7 +521,7 @@ bno_learn_skill = {
                         desc = bno_learn_skill.success.female.desc
                     }
                     triggered_desc = {
-                        trigger = { is_male = yes }
+                        trigger = { is_a_male = yes }
                         desc = bno_learn_skill.success.male.desc
                     }
                 }
@@ -554,7 +554,7 @@ bno_learn_skill = {
                         desc = bno_learn_skill.failure.female.desc
                     }
                     triggered_desc = {
-                        trigger = { is_male = yes }
+                        trigger = { is_a_male = yes }
                         desc = bno_learn_skill.failure.male.desc
                     }
                 }

@@ -48,14 +48,14 @@
                 limit = {
                     any_side_commander = {
                         is_ai = yes
-                        is_female = yes
+                        is_a_girl = yes
                         NOT = { has_trait = bno_full_black }
                     }
                 }
                 random_side_commander = {
                     limit = {
                         is_ai = yes
-                        is_female = yes
+                        is_a_girl = yes
                         NOT = { has_trait = bno_full_black }
                     }
                     save_scope_as = bbc_enemy_female_commander

@@ -48,7 +48,7 @@ bno_bbc_marriage_effect = {
 					triggered_desc = {
 						trigger = {
 							$SOURCE$ = {
-                                is_male = yes
+                                is_a_male = yes
                             }
 						}
 						desc = bno_marriage.0007.notifications.desc.male

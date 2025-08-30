@@ -26,13 +26,13 @@ setup_bnwo_leader_effect = {
                     limit = {
                         faith = { has_doctrine = doctrine_gender_male_dominated }
                     }
-                    is_male = yes
+                    is_a_male = yes
                 }
                 trigger_else_if = {
                     limit = {
                         faith = { has_doctrine = doctrine_gender_female_dominated }
                     }
-                    is_female = yes
+                    is_a_girl = yes
                 }
                 trigger_else = {
                     always = yes

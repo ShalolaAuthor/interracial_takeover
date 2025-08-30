@@ -44,7 +44,7 @@ bno_council_orgy.0001 = {
 	}
 	
 	trigger = {
-		is_female = yes
+		is_a_girl = yes
 		is_elligible_partner = yes
 		is_ruler = yes
 		any_councillor = {

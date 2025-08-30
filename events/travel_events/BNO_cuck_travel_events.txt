@@ -25,7 +25,7 @@ bno_cuck_travel.0001 = {
 		current_travel_plan = {
 			any_entourage_character = {
 				is_adult = yes
-				is_female = yes
+				is_a_girl = yes
 				has_trait = bno_whitegirl
 			}
 			any_entourage_character = {
@@ -41,7 +41,7 @@ bno_cuck_travel.0001 = {
 				random_entourage_character = {
 					limit = {
 						is_adult = yes
-						is_female = yes
+						is_a_girl = yes
 						has_trait = bno_whitegirl
 					}
 					save_scope_as = target1
@@ -66,7 +66,7 @@ bno_cuck_travel.0001 = {
 			random_entourage_character = {
 				limit = {
 					is_adult = yes
-					is_female = yes
+					is_a_girl = yes
 					NOT = {has_trait = bno_whitegirl}
 				}
 				hidden_effect = {

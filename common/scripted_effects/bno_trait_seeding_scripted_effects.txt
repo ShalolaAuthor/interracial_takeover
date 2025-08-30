@@ -31,7 +31,7 @@ bno_add_bbc_trait_effect = {
 bno_make_bbc_trait_inactive = {
     if = {
         limit = { 
-            is_female = yes
+            is_a_girl = yes
             NOR = {
                 has_trait = futa
                 has_trait = futa_genetic
@@ -42,7 +42,7 @@ bno_make_bbc_trait_inactive = {
     }
     if = {
         limit = {
-            is_female = yes
+            is_a_girl = yes
             OR = {
                 has_inactive_trait = futa
                 has_inactive_trait = futa_genetic

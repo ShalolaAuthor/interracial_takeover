@@ -1,12 +1,12 @@
 ﻿#title_succession_laws = {
 	#	bnwo_elective_succession_law = {
 		#		can_have = {
-			#			is_female = yes
+			#			is_a_girl = yes
 			#			has_trait = bno_whitegirl
 			#		}
 		#		can_pass = {
 			#			can_change_title_law_trigger = yes
-			#			is_female = yes
+			#			is_a_girl = yes
 			#			has_trait = bno_whitegirl
 			#		}
 		#		can_title_have = {

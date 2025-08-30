@@ -20,7 +20,7 @@ bno_curious.0001 = {
 			age >= 15
 			NOT = { has_character_flag = bno_curious.0001 }
 			is_ai = yes
-			is_female = yes
+			is_a_girl = yes
 			NOT = { has_trait = bno_whitegirl }
 		}
 	}
@@ -31,7 +31,7 @@ bno_curious.0001 = {
 				age >= 15
 				NOT = { has_character_flag = bno_curious.0001 }
 				is_ai = yes
-				is_female = yes
+				is_a_girl = yes
 				NOT = { has_trait = bno_whitegirl }
 			}
 			save_scope_as = child

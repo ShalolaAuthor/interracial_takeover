@@ -690,33 +690,33 @@ bno_title_change.1006 = { #follow up event 3 days later, parade former liege, ge
 		every_vassal = {
 			every_consort = {
 				limit = {
-					is_female = yes
+					is_a_girl = yes
 				}
 				bno_increase_sluttyness = yes
 			}
 		}
 		random_courtier_or_guest = {
 			limit = {
-				is_female = yes
+				is_a_girl = yes
 			}
 			bno_increase_sluttyness = yes
 		}
 		every_vassal = {
 			limit = {
-				is_female = yes
+				is_a_girl = yes
 			}
 			bno_increase_sluttyness = yes
 		}
 		every_neighboring_top_liege_realm_owner = {
 			limit = {
-				is_female = yes
+				is_a_girl = yes
 			}
 			bno_increase_sluttyness = yes
 		}
 		every_neighboring_top_liege_realm_owner = {
 			every_consort = {
 				limit = {
-					is_female = yes
+					is_a_girl = yes
 				}
 				bno_increase_sluttyness = yes
 			}

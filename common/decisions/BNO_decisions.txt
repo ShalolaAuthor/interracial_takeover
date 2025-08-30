@@ -73,13 +73,13 @@ convert = {
 	decision_group_type = bno_decision_group
 	is_shown = {
 		is_adult = yes
-		is_female = yes
+		is_a_girl = yes
 		has_trait = bno_whitegirl
 		NOT = {faith = faith:bbcs}
 	}
 	is_valid = {
 		is_adult = yes
-		is_female = yes
+		is_a_girl = yes
 		has_trait = bno_mindless_bbc_slut
 		NOT = {faith = faith:bbcs}
 	}
@@ -109,13 +109,13 @@ bno_election = {
 	decision_group_type = bno_decision_group
 	is_shown = {
 		is_adult = yes
-		is_female = yes
+		is_a_girl = yes
 		has_trait = bno_whitegirl
 		NOT = { has_realm_law = bnwo_only_law }
 	}
 	is_valid = {
 		is_adult = yes
-		is_female = yes
+		is_a_girl = yes
 		is_bno_snowbunny_and_up = yes
 		NOT = { has_realm_law = bnwo_only_law }
 	}

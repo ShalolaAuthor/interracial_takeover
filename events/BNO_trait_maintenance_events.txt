@@ -70,7 +70,7 @@ bno_trait_maintenance.0005 = {
 	trigger = {
 		is_ai = yes
 		is_african = yes
-		is_female = yes
+		is_a_girl = yes
 		is_slut = yes
 	}
 	immediate = {

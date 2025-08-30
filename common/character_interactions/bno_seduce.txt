@@ -57,7 +57,7 @@
 						is_bbc = yes
 					}
 				}
-				is_female = yes
+				is_a_girl = yes
 			}
             trigger_if = {
 				limit = {

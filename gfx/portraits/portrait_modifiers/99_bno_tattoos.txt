@@ -21,7 +21,7 @@
 				add = 100
 				has_game_rule = bno_tattoo_yes
 				has_trait = slave
-				is_female = yes
+				is_a_girl = yes
 				is_adult = yes
 				liege = {
 					has_trait = bno_bbc
@@ -96,7 +96,7 @@ pregnancy_tattoo = {
 			modifier = {
 				add = 1000
 				has_game_rule = bno_tattoo_yes
-				is_female = yes
+				is_a_girl = yes
 				bno_num_mixed_children_plus_dead = 1
 				is_bno_mindless_bbc_slut = yes
 			}
@@ -116,7 +116,7 @@ pregnancy_tattoo = {
 			modifier = {
 				add = 1000
 				has_game_rule = bno_tattoo_yes
-				is_female = yes
+				is_a_girl = yes
 				bno_num_mixed_children_plus_dead = 2
 				is_bno_mindless_bbc_slut = yes
 			}
@@ -136,7 +136,7 @@ pregnancy_tattoo = {
 			modifier = {
 				add = 1000
 				has_game_rule = bno_tattoo_yes
-				is_female = yes
+				is_a_girl = yes
 				bno_num_mixed_children_plus_dead = 3
 				is_bno_mindless_bbc_slut = yes
 			}
@@ -156,7 +156,7 @@ pregnancy_tattoo = {
 			modifier = {
 				add = 1000
 				has_game_rule = bno_tattoo_yes
-				is_female = yes
+				is_a_girl = yes
 				bno_num_mixed_children_plus_dead = 4
 				is_bno_mindless_bbc_slut = yes
 			}
@@ -176,7 +176,7 @@ pregnancy_tattoo = {
 			modifier = {
 				add = 1000
 				has_game_rule = bno_tattoo_yes
-				is_female = yes
+				is_a_girl = yes
 				bno_num_mixed_children_plus_dead = 5
 				is_bno_mindless_bbc_slut = yes
 			}
@@ -196,7 +196,7 @@ pregnancy_tattoo = {
 			modifier = {
 				add = 1000
 				has_game_rule = bno_tattoo_yes
-				is_female = yes
+				is_a_girl = yes
 				bno_num_mixed_children_plus_dead = 6
 				is_bno_mindless_bbc_slut = yes
 			}
@@ -216,7 +216,7 @@ pregnancy_tattoo = {
 			modifier = {
 				add = 1000
 				has_game_rule = bno_tattoo_yes
-				is_female = yes
+				is_a_girl = yes
 				bno_num_mixed_children_plus_dead = 7
 				is_bno_mindless_bbc_slut = yes
 			}
@@ -236,7 +236,7 @@ pregnancy_tattoo = {
 			modifier = {
 				add = 1000
 				has_game_rule = bno_tattoo_yes
-				is_female = yes
+				is_a_girl = yes
 				bno_num_mixed_children_plus_dead = 8
 				is_bno_mindless_bbc_slut = yes
 			}
@@ -256,7 +256,7 @@ pregnancy_tattoo = {
 			modifier = {
 				add = 1000
 				has_game_rule = bno_tattoo_yes
-				is_female = yes
+				is_a_girl = yes
 				bno_num_mixed_children_plus_dead = 9
 				is_bno_mindless_bbc_slut = yes
 			}
@@ -276,7 +276,7 @@ pregnancy_tattoo = {
 			modifier = {
 				add = 1000
 				has_game_rule = bno_tattoo_yes
-				is_female = yes
+				is_a_girl = yes
 				bno_num_mixed_children_plus_dead = 10
 				is_bno_mindless_bbc_slut = yes
 			}
@@ -296,7 +296,7 @@ pregnancy_tattoo = {
 			modifier = {
 				add = 1000
 				has_game_rule = bno_tattoo_yes
-				is_female = yes
+				is_a_girl = yes
 				bno_num_mixed_children_plus_dead > 10
 				is_bno_mindless_bbc_slut = yes
 			}

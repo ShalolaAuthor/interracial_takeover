@@ -325,7 +325,7 @@ bno_ep3_laamp_flavour.0002 = {
 			county = {
 				holder = {
 					any_courtier_or_guest = {
-						is_female = yes
+						is_a_girl = yes
 						is_adult = yes
 						is_ai = yes
 					}
@@ -367,7 +367,7 @@ bno_ep3_laamp_flavour.0002 = {
 		scope:ruler = {
 			random_courtier_or_guest = {
 				limit = {
-					is_female = yes
+					is_a_girl = yes
 					is_adult = yes
 				}
 				save_scope_as = target1

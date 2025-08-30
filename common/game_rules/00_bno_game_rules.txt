@@ -127,6 +127,10 @@ bno_event_frequency = {
 
 	default = bno_event_frequency_three_months
 
+	bno_event_frequency_one_month = {
+		
+	}
+
 	bno_event_frequency_three_months = {
 
 	}
