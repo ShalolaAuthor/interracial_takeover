@@ -249,16 +249,10 @@ bno_bbc = {
 
 	ruler_designer_cost = 100
 	
-	genetic = yes
 	physical = yes
 	good = yes
-
-	birth = 0
-	random_creation = 0
 	
 	fertility = 0.7
-	#number_of_spouses = 1
-	#number_of_consorts = 3
 	
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	

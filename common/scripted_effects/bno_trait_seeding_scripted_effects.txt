@@ -13,20 +13,22 @@ bno_seed_bbc_trait_effect = {
     add_character_flag = bno_bbc_trait_seeded
     if = {
         limit = {
-            is_bbc = no
-            NOT = { has_inactive_trait = bno_bbc }
+            is_african = yes
         }
-    }
-    random = {
-        chance = 0
-        bno_bbc_trait_occurrence_chance_modifier = yes
-        bno_add_bbc_trait_effect = yes
+        random = {
+            chance = 0
+            bno_bbc_trait_occurrence_chance_modifier = yes
+            bno_add_bbc_trait_effect = yes
+        }
     }
 }
 
 bno_add_bbc_trait_effect = {
     add_trait = bno_bbc
     bno_make_bbc_has_big_dick = yes
+}
+
+bno_make_bbc_trait_inactive = {
     if = {
         limit = { 
             is_female = yes
@@ -39,7 +41,13 @@ bno_add_bbc_trait_effect = {
         make_trait_inactive = dick_big_good_3
     }
     if = {
-        limit = { age < 16 }
+        limit = {
+            is_female = yes
+            OR = {
+                has_inactive_trait = futa
+                has_inactive_trait = futa_genetic
+            }
+        }
         make_trait_inactive = bno_bbc
         make_trait_inactive = dick_big_good_3
     }

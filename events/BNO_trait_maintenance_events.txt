@@ -5,11 +5,9 @@
 bno_trait_maintenance.0002 = {			#makes all caged characters have tiniest dick
 	hidden = yes
 	trigger = {
-		root = {
-			has_trait = bno_caged
-			is_adult = yes
-			is_a_male = yes
-		}
+		has_trait = bno_caged
+		is_adult = yes
+		is_a_male = yes
 	}
 	immediate = {
 		remove_trait = dick_big_good_1
@@ -17,8 +15,6 @@ bno_trait_maintenance.0002 = {			#makes all caged characters have tiniest dick
 		remove_trait = dick_big_good_3
 		remove_trait = dick_small_bad_1
 		remove_trait = dick_small_bad_2
-	}
-	option = {
 		add_trait = dick_small_bad_3
 	}
 }
@@ -86,26 +82,5 @@ bno_trait_maintenance.0005 = {
 			bno_blacked = { remove_trait = bno_blacked }
 			bno_curious = { remove_trait = bno_curious }
 		}
-	}
-}
-
-#all africans have black trait
-bno_trait_maintenance.0006 = {
-	hidden = yes
-	trigger = {
-		has_game_rule = bno_mod_status_on
-		has_game_rule = bno_seeding_yes
-		is_ai = yes
-		bno_is_graphically_african = yes
-		NOT = { is_culture_bnoc = yes }
-		NOR = {
-			has_trait = bno_mixed
-			has_trait = bno_mostly_black
-			has_trait = bno_full_black
-			has_trait = bno_barely_mixed
-		}
-	}
-	immediate = {
-		add_trait = bno_full_black
 	}
 }

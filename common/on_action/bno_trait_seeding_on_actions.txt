@@ -27,7 +27,6 @@ bno_trait_initialization_pulse = {
 		has_game_rule = bno_mod_status_on
 	}
 	events = {
-		bno_trait_seeding.0001 # African Trait
-		bno_trait_seeding.0002 # BBC Trait
+		bno_trait_seeding.0001
 	}
 }

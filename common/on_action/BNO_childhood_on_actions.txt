@@ -1,22 +1,15 @@
 ﻿on_birthday = {
-	on_actions = { bno_bbc_trait_pulse }
-}
-
-bno_bbc_trait_pulse = {
-	trigger = { has_game_rule = bno_mod_status_on }
-	events = {
-		bno_trait_seeding.0001
-	}
+	on_actions = { bno_trait_maintenance_pulse }
 }
 
 on_join_court = {
-	on_actions = { bno_bbc_trait_pulse }
+	on_actions = { bno_trait_maintenance_pulse }
 }
 
 on_title_gain = {
-	on_actions = { bno_bbc_trait_pulse }
+	on_actions = { bno_trait_maintenance_pulse }
 }
 
 on_birth_child = {
-	on_actions = { bno_bbc_trait_pulse }
+	on_actions = { bno_trait_maintenance_pulse }
 }

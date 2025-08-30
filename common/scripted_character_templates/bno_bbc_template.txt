@@ -22,7 +22,7 @@
     after_creation = {
 		set_sexuality = heterosexual
 		add_gold = minor_gold_value
-		add_trait = bno_bbc
+		bno_add_bbc_trait_effect = yes
 		add_trait = bno_full_black
 		add_trait = dick_big_good_3
 		add_trait = lustful

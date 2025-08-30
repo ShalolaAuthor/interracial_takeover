@@ -16,16 +16,20 @@ namespace = bno_trait_seeding
 bno_trait_seeding.0001 = {
 	hidden = yes
 	trigger = {
-		NOT = { has_character_flag = bno_originally_african }
-		bno_is_graphically_african = yes
+		NOT = { has_character_flag = bno_traits_seeded }
 	}
 	immediate = {
+		add_character_flag = bno_traits_seeded
 		if = {
 			limit = {
 				NOT = { has_trait = bno_blood }
+				bno_is_graphically_african = yes
 			}
 			add_trait = bno_full_black
 			bno_seed_originally_african_flag = yes
+		}
+		trigger_event = {
+			id = bno_trait_seeding.0002
 		}
 	}
 }
@@ -36,15 +40,17 @@ bno_trait_seeding.0002 = {
 		NOT = { has_character_flag = bno_bbc_trait_seeded }
 	}
 	immediate = {
-		if = {
-			limit = {
-				is_african = yes
-				is_a_male = yes
-				NOT = { has_trait = bno_bbc }
-			}
-			bno_seed_bbc_trait_effect = yes
-			bno_futa_bisexual = yes
+		bno_seed_bbc_trait_effect = yes
+		bno_futa_bisexual = yes
+		trigger_event = {
+			id = bno_trait_seeding.0003
 		}
 	}
 }
-#
+# Make BBC Trait not active if female
+bno_trait_seeding.0003 = {
+	hidden = yes
+	immediate = {
+		bno_make_bbc_trait_inactive = yes
+	}
+}

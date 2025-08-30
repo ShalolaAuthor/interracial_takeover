@@ -430,7 +430,7 @@ bno_realize_bbc_potential = {
 		piety = 25
 	}
 	effect = {
-		add_trait = bno_bbc
+		bno_add_bbc_trait_effect = yes
 	}
 	ai_check_interval = 0
 }
