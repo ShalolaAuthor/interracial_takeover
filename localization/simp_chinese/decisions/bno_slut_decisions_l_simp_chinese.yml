@@ -1,6 +1,8 @@
 ﻿l_simp_chinese:
 
 bno_becoming_bbc_slut: "成为一个"媚黑荡妇""
+#bno_becoming_bbc_slut.effect: "You will become a [bno_whore|E] for [bno_bbc|E]"
+bno_becoming_bbc_slut.effect: "你将成为[bno_bbcs|E]的娼妓"
 bno_becoming_bbc_slut_desc: "我想成为一个媚黑的荡妇，我就是为此而生的——成为那些强劲有力、阳刚的黑人鸡巴的鸡巴套子，满足我娇小白皙的身躯所渴望的一切。仅仅看一眼黑人那粗壮的阴茎，我的小穴就馋得口水直流。"
 bno_becoming_bbc_slut_confirm: "我的小穴供您随便使用~"
 bno_becoming_bbc_slut_tooltip: "我好想被当成一个可以被随便使用的飞机杯"
@@ -9,6 +11,7 @@ bno_stop_becoming_bbc_slut: "一个有主的媚黑荡妇"
 bno_stop_becoming_bbc_slut_desc: "在接受成为媚黑荡妇这么多年后. 我终于找到了最契合的伴侣, 一位强壮的公牛, 每天满足我对大黑屌的无尽渴望. 他用别人无法做到的方式满足我, 确保我的小穴总是被他浓稠的精液填满到滴滴答答地流淌。"
 bno_stop_becoming_bbc_slut_confirm: "我就是为此而生的 -"
 bno_stop_becoming_bbc_slut_tooltip: " 成为最强雄性的所有物"
+bno_stop_becoming_bbc_slut.bbc_spouse: "你的其中一个配偶有[GetTrait('bno_bbc').GetName( GetNullCharacter )]"
 
 bno_invite_slut_decision: "邀请好奇的贵族前来你的宫廷"
 bno_invite_slut_decision_desc: "当这位好奇的贵族接近时，我用温暖的笑容向她问好。\n\n欢迎光临寒舍。我总是渴望结识新朋友，尤其是那些与我在艺术和文化方面有共同兴趣的人。\n\n贵族环顾四周，打量着我的庄园的奢华环境——从富丽堂皇的家具到满墙都是的无价艺术品。\n\n看来你对美有着敏锐的洞察力。也许我们可以在晚餐时讨论一下这些作品？我很乐意带您参观，并与您分享更多关于它们的来历。\n\n贵族点头表示同意，她显然被眼前的一切所吸引，渴望进一步了解。"

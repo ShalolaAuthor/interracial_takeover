@@ -119,9 +119,6 @@ bno_bbc_angered_desc: "这位统治者惹怒了当地黑人社区，造成了潜
 bno_bbc_appeased: "安抚BBC"
 bno_bbc_appeased_desc: "这位统治者安抚了当地黑人社区，保障了稳定与合作。"
 
-
-
-
 bno_might_makes_right: "拳力创造权利"
 bno_might_makes_right_desc: "该角色英勇地取得了[bno_bnwo|E]叛乱的胜利。"
 
@@ -130,6 +127,9 @@ bno_local_bbc_unsatisfied_desc: "该统治者没能成功满足当地黑人社�
 
 bno_cum_for_glory_glorified: "荣耀射精：神话"
 bno_cum_for_glory_glorified_desc: "该角色对射精的喜爱，已传遍四方。"
+
+bno_cum_for_glory.glorified.title.female: "已征服一千[bno_bbcs|E]！"
+bno_cum_for_glory.glorified.desc.female: "宝贝儿，我终于凑齐一千了。你可真是格外幸运，能成为接下来几百位幸运儿中的一员。"
 
 bno_cum_for_glory.glorified.title.male: "黑马征服！俘获千心！"
 bno_cum_for_glory.glorified.desc.male: "又有千多百合在我的巨根下绽放。我的种子以恰当的荣耀为全世界育种！"

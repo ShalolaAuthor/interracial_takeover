@@ -2,3 +2,13 @@
 
 bno_seduce_interaction: "BBC勾引"
 bno_seduce_interaction_desc: "使用你的魅力来勾引[recipient.GetHerHim]."
+bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName]患有某种[illness|E]"
+bno_cure_disease_interaction.no_priestess: "你没有[GetCourtPositionType('bno_bbc_priestess_court_position').GetName]来举行仪式。"
+bno_cure_disease_interaction.no_priest: "你没有[GetCourtPositionType('bno_bbc_priest_court_position').GetName]来举行仪式。"
+
+bno_cure_disease_interaction: "神圣之种"
+bno_cure_disease_interaction.desc.female: "[GetCourtPositionType('bno_bbc_priest_court_position').GetName]将他那神圣的种子赏赐给[recipient.GetFirstName]"
+bno_cure_disease_interaction.desc.male: "[GetCourtPositionType('bno_bbc_priestess_court_position').GetName]将她那神圣的精华赏赐给[recipient.GetFirstName]"
+
+bno_cure_disease_interaction.female_recipient.effect: "你将传唤你的[GetCourtPositionType('bno_bbc_priest_court_position').GetName]准备好他那神圣的种子以为仪式做准备。"
+bno_cure_disease_interaction.male_recipient.effect: "你将传唤你的[GetCourtPositionType('bno_bbc_priestess_court_position').GetName]准备好她那神圣的精华以为仪式做准备。"
