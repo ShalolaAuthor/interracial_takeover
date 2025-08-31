@@ -42,12 +42,19 @@ bno_stop_becoming_bbc_slut = {
 	selection_tooltip = bno_stop_becoming_bbc_slut_tooltip
 	decision_group_type = bno_decision_group
 	is_shown = {
-		has_trait = bno_snowbunny
-		is_partner_bbc = yes
 		has_character_flag = bno_slut.1015
 		OR = { 
 			is_ai = no 
 			has_game_rule = bno_decision_npc_yes 
+		}
+	}
+	is_valid = {
+		is_bno_snowbunny_and_up = yes
+		custom_tooltip = {
+			text = bno_stop_becoming_bbc_slut.bbc_spouse
+			any_spouse = {
+				is_bbc = yes
+			}
 		}
 	}
 	effect = {

@@ -791,7 +791,7 @@ pay_gold = {
 	scope:local_bbc = {
 		if = {
 			limit = {
-				gold > 0
+				gold > 1
 			}
 			pay_short_term_gold = {
 				target = root
@@ -807,7 +807,7 @@ pay_piety = {
 	scope:local_bbc = {
 		if = {
 			limit = {
-				piety > 0
+				piety > 1
 			}
 			add_piety = {
 				value = minor_piety_loss
@@ -820,7 +820,7 @@ pay_prestige = {
 	scope:local_bbc = {
 		if = {
 			limit = {
-				prestige > 0
+				prestige > 1
 			}
 			add_prestige = {
 				value = minor_prestige_loss
@@ -1667,38 +1667,65 @@ prostitution = {
 		else = {
 			add_piety = {
 				value = minor_piety_gain
-				add = { 5 10 }
-				add = { 1 5 }
 			}
 			add_prestige = {
 				value = minor_prestige_gain
-				add = { 5 10 }
-				add = { 1 5 }
 			}
 		}
 	}
 }
 
 fuck_random_local_bbc = {
-	random_ruler = {
+	every_ruler = {
 		limit = {
-			is_blackbull = yes
-			gold > 0
-			prestige > 0
-			piety > 0
+			is_ai_blackbull = yes
 		}
-		save_scope_as = local_bbc
+		add_to_list = local_bbc_list
 	}
-	send_interface_message = {
-		type = bno_blacked_events
-		title = bno_slut_0015_notification.title
-		right_icon = root
-		service_fee = yes
-		prostitution = yes
-		bno_have_sex_with_effects = {
-			PARTNER = scope:local_bbc
+	every_ruler = {
+		every_vassal_or_below = {
+			limit = {
+				is_ai_blackbull = yes
+			}
+			add_to_list = local_bbc_list
 		}
-		desc = bno_slut_0015_notification.desc
+	}
+	every_ruler = {
+		every_vassal_or_below = {
+			limit = {
+				highest_held_title_tier >= tier_county
+			}
+			every_courtier_or_guest = {
+				limit = {
+					is_ai_blackbull = yes
+				}
+				add_to_list = local_bbc_list
+			}
+		}
+	}
+	if = {
+		limit = {
+			list_size = {
+				name = local_bbc_list
+				value > 0
+			}
+		}
+		ordered_in_list = {
+			list = local_bbc_list
+			order_by = gold
+			save_scope_as = local_bbc
+		}
+		send_interface_message = {
+			type = bno_blacked_events
+			title = bno_slut_0015_notification.title
+			right_icon = root
+			service_fee = yes
+			prostitution = yes
+			bno_have_sex_with_effects = {
+				PARTNER = scope:local_bbc
+			}
+			desc = bno_slut_0015_notification.desc
+		}
 	}
 }
 

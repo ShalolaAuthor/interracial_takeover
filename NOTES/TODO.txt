@@ -16,6 +16,7 @@
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
+-reduce the frequencies of whoring messages (pool it into 1? make variables to store, then only fire once every session.)
 -add trading with church of bbc (every black supremacist will donate 1 gold for 10k piety)
 -add trading with africans (every africans will donate 1 gold for 1k prestige)
 -finish religion overhaul thingy (add new faith)

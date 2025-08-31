@@ -1378,10 +1378,7 @@ bno_slut.1015 = {
 
 	immediate = {
 		save_scope_as = whore
-		while = {
-			count = { 1 3 }
-			fuck_random_local_bbc = yes
-		}
+		fuck_random_local_bbc = yes
 		trigger_event = {
 			id = bno_slut.1015
 			months = bno_prostitution_interval
@@ -1414,7 +1411,7 @@ bno_slut.2015 = {
 		}
 	}
 }
-
+#1 year of being a whore
 bno_slut.3015 = {
 	type = character_event
 	title = bno_slut_3015.title
@@ -1435,13 +1432,18 @@ bno_slut.3015 = {
 		animation = sex_combined
 	}
 
+	trigger = {
+		NOT = { has_character_flag = bno_slut.3015 }
+	}
+
 	immediate = {
+		add_character_flag = bno_slut.3015
 		save_scope_as = carn_sex_player
 		scope:bbc = {
 			save_scope_as = carn_sex_partner
 		}
 		carn_sex_scene_start = yes
-		sex_animations = yes
+		cuddle_animations = yes
 	}
 
 	option = {
@@ -1449,6 +1451,7 @@ bno_slut.3015 = {
 		bno_have_sex_with_effects = {
 			PARTNER = scope:bbc
 		}
+		trigger_event = bno_slut.4015
 		ai_chance = {
 			base = 0
 		}
@@ -1458,8 +1461,47 @@ bno_slut.3015 = {
 		name = bno_slut_3015.b
 		custom_tooltip = bno_slut.3015.stop
 		remove_character_flag = bno_slut.1015
+		carn_sex_scene_is_cum_inside_effect = yes
+        carn_sex_scene_cleanup = yes
 		ai_chance = {
 			base = 100
 		}
+	}
+}
+#1 year of being a whore follow up
+bno_slut.4015 = {
+	type = character_event
+	title = bno_slut.4015.title
+	desc = bno_slut.4015.desc
+	theme = love
+	
+	override_background = {
+		reference = feast
+	}
+	
+	left_portrait = {
+		character = scope:carn_sex_player
+		animation = sex_combined
+	}
+	
+	right_portrait = {
+		character = scope:carn_sex_partner
+		animation = sex_combined
+	}
+
+	immediate = {
+		doggy_animations = yes
+	}
+
+	option = {
+		name = bno_slut.4015.a
+		ai_chance = {
+			base = 0
+		}
+	}
+
+	after = {
+		carn_sex_scene_is_cum_inside_effect = yes
+        carn_sex_scene_cleanup = yes
 	}
 }

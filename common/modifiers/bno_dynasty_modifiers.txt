@@ -2,24 +2,24 @@
 bno_cum_for_glory = {
     icon = creampie_positive
     cultural_head_fascination_mult = 0.01
-    inbreeding_chance = -0.025
-    negative_random_genetic_chance = -0.025
-    negative_inactive_inheritance_chance = -0.025
+    inbreeding_chance = -0.01
+    negative_random_genetic_chance = -0.01
+    negative_inactive_inheritance_chance = -0.01
     life_expectancy = 0.1
     years_of_fertility = 0.1
-    fertility = 0.025
+    fertility = 0.01
     stacking = yes
 }
 bno_cum_for_glory_glorified = {
     icon = creampies_positive
     cultural_head_fascination_mult = 1
     cultural_head_fascination_add = 1
-    inbreeding_chance = -2.5
-    negative_random_genetic_chance = -2.5
-    negative_inactive_inheritance_chance = -2.5
+    inbreeding_chance = -1
+    negative_random_genetic_chance = -1
+    negative_inactive_inheritance_chance = -1
     life_expectancy = 10
     years_of_fertility = 10
-    fertility = 2.5
+    fertility = 1
     domain_limit = 1
     stacking = yes
 }

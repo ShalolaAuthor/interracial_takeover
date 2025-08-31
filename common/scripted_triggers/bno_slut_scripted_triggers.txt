@@ -621,6 +621,7 @@ is_bbc = {
 }
 
 is_ai_blackbull = {
+	NOT = { is_close_family_of = root }
 	is_blackbull = yes
 	is_ai = yes
 }
