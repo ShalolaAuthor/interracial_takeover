@@ -1411,3 +1411,940 @@ bno_lifestyle_bbc_priestess = {
 		bno_barely_mixed = 20
 	}
 }
+
+bno_pussy_mileage_1 = {
+	category = lifestyle
+	group = bno_pussy_mileage
+	level = 1
+	shown_in_ruler_designer = no
+	physical = yes
+
+	#Effects
+	attraction_opinion = 50
+	spouse_opinion = 50
+	fertility = 1
+
+	track = {
+		1 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+		30 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+		60 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+	}
+
+	# Name
+	name = {
+		#Virgin
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = bno_pussy_mileage_1.1
+			}
+			# Deflowered
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_1
+						value >= 60
+					}
+					is_a_girl = yes
+				}
+				desc = bno_pussy_mileage_1.4
+			}
+			# Tender
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_1
+						value >= 30
+					}
+				}
+				desc = bno_pussy_mileage_1.3
+			}
+			# Innocent
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_1
+						value >= 1
+					}
+				}
+				desc = bno_pussy_mileage_1.2
+			}
+			# Virgin
+			triggered_desc = {
+				trigger = {
+					exists = this
+				}
+				desc = bno_pussy_mileage_1.1
+			}
+		}
+	}
+
+	# Desc
+	desc = {
+		#Virgin
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = bno_pussy_mileage_1.desc.1
+			}
+			# Deflowered
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_1
+						value >= 60
+					}
+					is_a_girl = yes
+				}
+				desc = bno_pussy_mileage_1.desc.4
+			}
+			# Tender
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_1
+						value >= 30
+					}
+				}
+				desc = bno_pussy_mileage_1.desc.3
+			}
+			# Innocent
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_1
+						value >= 1
+					}
+				}
+				desc = bno_pussy_mileage_1.desc.2
+			}
+			# Virgin
+			triggered_desc = {
+				trigger = {
+					exists = this
+				}
+				desc = bno_pussy_mileage_1.desc.1
+			}
+		}
+	}
+}
+
+bno_pussy_mileage_2 = {
+	category = lifestyle
+	group = bno_pussy_mileage
+	level = 2
+	shown_in_ruler_designer = no
+	physical = yes
+
+	#Effects
+	attraction_opinion = 35
+	spouse_opinion = 35
+	fertility = 0.7
+
+	track = {
+		0 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+		30 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+		60 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+	}
+
+	# Name
+	name = {
+		#Fresh
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = bno_pussy_mileage_2.1
+			}
+			# Broken In
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_2
+						value >= 60
+					}
+					is_a_girl = yes
+				}
+				desc = bno_pussy_mileage_2.3
+			}
+			# Stained
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_2
+						value >= 30
+					}
+				}
+				desc = bno_pussy_mileage_2.2
+			}
+			# Fresh
+			triggered_desc = {
+				trigger = {
+					exists = this
+				}
+				desc = bno_pussy_mileage_2.1
+			}
+		}
+	}
+
+	# Desc
+	desc = {
+		#Fresh
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = bno_pussy_mileage_2.desc.1
+			}
+			# Broken In
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_2
+						value >= 60
+					}
+					is_a_girl = yes
+				}
+				desc = bno_pussy_mileage_2.desc.3
+			}
+			# Stained
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_2
+						value >= 30
+					}
+				}
+				desc = bno_pussy_mileage_2.desc.2
+			}
+			# Fresh
+			triggered_desc = {
+				trigger = {
+					exists = this
+				}
+				desc = bno_pussy_mileage_2.desc.1
+			}
+		}
+	}
+}
+
+bno_pussy_mileage_3 = {
+	category = lifestyle
+	group = bno_pussy_mileage
+	level = 3
+	shown_in_ruler_designer = no
+	physical = yes
+
+	#Effects
+	attraction_opinion = 20
+	spouse_opinion = 20
+	fertility = 0.4
+
+	track = {
+		0 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+		30 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+		60 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+	}
+
+	# Name
+	name = {
+		# Seasoned
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = bno_pussy_mileage_3.1
+			}
+			# Re-Trained
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_3
+						value >= 60
+					}
+					is_a_girl = yes
+				}
+				desc = bno_pussy_mileage_3.3
+			}
+			# Used
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_3
+						value >= 30
+					}
+				}
+				desc = bno_pussy_mileage_3.2
+			}
+			# Seasoned
+			triggered_desc = {
+				trigger = {
+					exists = this
+				}
+				desc = bno_pussy_mileage_3.1
+			}
+		}
+	}
+
+	# Desc
+	desc = {
+		#Seasoned
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = bno_pussy_mileage_3.desc.1
+			}
+			# Re-trained
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_3
+						value >= 60
+					}
+					is_a_girl = yes
+				}
+				desc = bno_pussy_mileage_3.desc.3
+			}
+			# Used
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_3
+						value >= 30
+					}
+				}
+				desc = bno_pussy_mileage_3.desc.2
+			}
+			# Seasoned
+			triggered_desc = {
+				trigger = {
+					exists = this
+				}
+				desc = bno_pussy_mileage_3.desc.1
+			}
+		}
+	}
+}
+
+bno_pussy_mileage_4 = {
+	category = lifestyle
+	group = bno_pussy_mileage
+	level = 4
+	shown_in_ruler_designer = no
+	physical = yes
+
+	#Effects
+	attraction_opinion = 5
+	spouse_opinion = 5
+	fertility = 0.1
+
+	track = {
+		0 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+		30 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+		60 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+	}
+
+	# Name
+	name = {
+		#Loose
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = bno_pussy_mileage_4.1
+			}
+			# Size-Drunk
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_4
+						value >= 60
+					}
+					is_a_girl = yes
+				}
+				desc = bno_pussy_mileage_4.3
+			}
+			# Wrecked
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_4
+						value >= 30
+					}
+				}
+				desc = bno_pussy_mileage_4.2
+			}
+			# Loose
+			triggered_desc = {
+				trigger = {
+					exists = this
+				}
+				desc = bno_pussy_mileage_4.1
+			}
+		}
+	}
+
+	# Desc
+	desc = {
+		#Loose
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = bno_pussy_mileage_4.desc.1
+			}
+			# Size-Drunk
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_4
+						value >= 60
+					}
+					is_a_girl = yes
+				}
+				desc = bno_pussy_mileage_4.desc.3
+			}
+			# Wrecked
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_4
+						value >= 30
+					}
+				}
+				desc = bno_pussy_mileage_4.desc.2
+			}
+			# Loose
+			triggered_desc = {
+				trigger = {
+					exists = this
+				}
+				desc = bno_pussy_mileage_4.desc.1
+			}
+		}
+	}
+}
+
+bno_pussy_mileage_5 = {
+	category = lifestyle
+	group = bno_pussy_mileage
+	level = 5
+	shown_in_ruler_designer = no
+	physical = yes
+
+	#Effects
+	attraction_opinion = -10
+	spouse_opinion = -10
+	fertility = -0.2
+
+	track = {
+		40 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+		70 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+		100 = {
+			attraction_opinion = -5
+			spouse_opinion = -5
+			fertility = -0.1
+		}
+	}
+
+	# Name
+	name = {
+		#Gaping
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = bno_pussy_mileage_5.1
+			}
+			# Broken Toy
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_5
+						value >= 100
+					}
+					is_a_girl = yes
+				}
+				desc = bno_pussy_mileage_5.4
+			}
+			# Unfillable
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_5
+						value >= 70
+					}
+					is_a_girl = yes
+				}
+				desc = bno_pussy_mileage_5.3
+			}
+			# Ruined
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_5
+						value >= 40
+					}
+				}
+				desc = bno_pussy_mileage_5.2
+			}
+			# Gaping
+			triggered_desc = {
+				trigger = {
+					exists = this
+				}
+				desc = bno_pussy_mileage_5.1
+			}
+		}
+	}
+
+	# Desc
+	desc = {
+		#Gaping
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = bno_pussy_mileage_5.desc.1
+			}
+			# Broken Toy
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_5
+						value >= 100
+					}
+					is_a_girl = yes
+				}
+				desc = bno_pussy_mileage_5.desc.4
+			}
+			# Unfillable
+			triggered_desc = {
+				trigger = {
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_5
+						value >= 70
+					}
+					is_a_girl = yes
+				}
+				desc = bno_pussy_mileage_5.desc.3
+			}
+			# Ruined
+			triggered_desc = {
+				trigger = { 
+					exists = this
+					has_trait_xp = {
+						trait = bno_pussy_mileage_5
+						value >= 40
+					}
+				}
+				desc = bno_pussy_mileage_5.desc.2
+			}
+			# Gaping
+			triggered_desc = {
+				trigger = {
+					exists = this
+				}
+				desc = bno_pussy_mileage_5.desc.1
+			}
+		}
+	}
+}
+
+bno_bbc_whore_1 = {
+    category = lifestyle
+    group = bno_bbc_whore_profession
+    level = 1
+    physical = yes
+    shown_in_ruler_designer = no
+    valid_sex = female
+
+    # Effects
+    attraction_opinion = 10
+    spouse_opinion = 5
+    general_opinion = -5
+    diplomacy = 1
+    intrigue = 1
+    monthly_intrigue_lifestyle_xp_gain_mult = 0.05
+    owned_personal_scheme_success_chance_add = 10
+    owned_scheme_secrecy_add = 5
+    seduce_scheme_phase_duration_add = -10
+    stress_loss_mult = 0.05
+
+    # Track pips (you handle rank-ups at 100 XP)
+    track = {
+		1 = { general_opinion = -5 }
+        30 = { attraction_opinion = 5  owned_personal_scheme_success_chance_add = 5 }
+        60 = { intrigue = 1  owned_scheme_secrecy_add = 5 }
+    }
+
+    monthly_track_xp_degradation = { change = 1 }
+
+    # Hard locks
+    flag = can_not_marry
+    can_have_children = no
+	disables_combat_leadership = yes
+
+    # Name (XP milestones: 0 / 1 / 50 / 100)
+    name = {
+        # Recruit
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_bbc_whore_1.1
+            }
+            # Certified BBC Whore
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_1 value >= 60 }
+                    is_a_girl = yes
+                }
+                desc = bno_bbc_whore_1.4
+            }
+            # Working Girl
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_1 value >= 30 }
+                }
+                desc = bno_bbc_whore_1.3
+            }
+            # Initiate
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_1 value >= 1 }
+                }
+                desc = bno_bbc_whore_1.2
+            }
+            # Recruit
+            triggered_desc = {
+                trigger = { exists = this }
+                desc = bno_bbc_whore_1.1
+            }
+        }
+    }
+
+    # Desc (XP milestones: 0 / 1 / 50 / 100)
+    desc = {
+        # Recruit
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_bbc_whore_1.desc.1
+            }
+            # Certified BBC Whore
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_1 value >= 60 }
+                    is_a_girl = yes
+                }
+                desc = bno_bbc_whore_1.desc.4
+            }
+            # Working Girl
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_1 value >= 30 }
+                }
+                desc = bno_bbc_whore_1.desc.3
+            }
+            # Initiate
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_1 value >= 1 }
+                }
+                desc = bno_bbc_whore_1.desc.2
+            }
+            # Recruit
+            triggered_desc = {
+                trigger = { exists = this }
+                desc = bno_bbc_whore_1.desc.1
+            }
+        }
+    }
+
+    ai_sociability = low_positive_ai_value
+}
+
+bno_bbc_whore_2 = {
+    category = lifestyle
+    group = bno_bbc_whore_profession
+    level = 2
+    physical = yes
+    shown_in_ruler_designer = no
+    valid_sex = female
+
+    # Effects
+    attraction_opinion = 20
+    spouse_opinion = 10
+    general_opinion = -10
+    diplomacy = 2
+    intrigue = 2
+    monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+    owned_personal_scheme_success_chance_add = 20
+    owned_scheme_secrecy_add = 10
+    max_personal_schemes_add = 1
+    max_seduce_schemes_add = 1
+    seduce_scheme_phase_duration_add = -15
+    stress_gain_mult = -0.05
+    stress_loss_mult = 0.10
+
+    track = {
+        30 = { attraction_opinion = 5  owned_personal_scheme_success_chance_add = 5 }
+        60 = { diplomacy = 1  owned_scheme_secrecy_add = 5 }
+    }
+
+    monthly_track_xp_degradation = { change = 1 }
+
+    flag = can_not_marry
+    can_have_children = no
+	disables_combat_leadership = yes
+
+    # Name (XP milestones: 0 / 50 / 100)
+    name = {
+        # Seasoned BBC Whore
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_bbc_whore_2.1
+            }
+            # Realm-Favored BBC Whore
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_2 value >= 60 }
+                    is_a_girl = yes
+                }
+                desc = bno_bbc_whore_2.3
+            }
+            # Renowned BBC Whore
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_2 value >= 30 }
+                }
+                desc = bno_bbc_whore_2.2
+            }
+            # Seasoned BBC Whore
+            triggered_desc = {
+                trigger = { exists = this }
+                desc = bno_bbc_whore_2.1
+            }
+        }
+    }
+
+    # Desc (XP milestones: 0 / 50 / 100)
+    desc = {
+        # Seasoned BBC Whore
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_bbc_whore_2.desc.1
+            }
+            # Realm-Favored BBC Whore
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_2 value >= 60 }
+                    is_a_girl = yes
+                }
+                desc = bno_bbc_whore_2.desc.3
+            }
+            # Renowned BBC Whore
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_2 value >= 30 }
+                }
+                desc = bno_bbc_whore_2.desc.2
+            }
+            # Seasoned BBC Whore
+            triggered_desc = {
+                trigger = { exists = this }
+                desc = bno_bbc_whore_2.desc.1
+            }
+        }
+    }
+
+    ai_sociability = medium_positive_ai_value
+}
+
+bno_bbc_whore_3 = {
+    category = lifestyle
+    group = bno_bbc_whore_profession
+    level = 3
+    physical = yes
+    shown_in_ruler_designer = no
+    valid_sex = female
+
+    # Effects
+    attraction_opinion = 30
+    spouse_opinion = 15
+    general_opinion = -15
+    diplomacy = 3
+    intrigue = 3
+    monthly_intrigue_lifestyle_xp_gain_mult = 0.20
+    owned_personal_scheme_success_chance_add = 30
+    owned_hostile_scheme_success_chance_max_add = 10
+    owned_scheme_secrecy_add = 15
+    max_personal_schemes_add = 1
+    max_seduce_schemes_add = 1
+    seduce_scheme_phase_duration_add = -20
+    stress_gain_mult = -0.10
+    stress_loss_mult = 0.15
+
+    track = {
+        50 = { attraction_opinion = 5  owned_personal_scheme_success_chance_add = 5 }
+        100 = { intrigue = 1  owned_scheme_secrecy_add = 5 }
+    }
+
+    monthly_track_xp_degradation = { change = 1 }
+
+    flag = can_not_marry
+    can_have_children = no
+	disables_combat_leadership = yes
+
+    # Name (XP milestones: 0 / 50 / 100)
+    name = {
+        # Royal BBC Whore
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_bbc_whore_3.1
+            }
+            # Legendary BBC Whore
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_3 value >= 100 }
+                    is_a_girl = yes
+                }
+                desc = bno_bbc_whore_3.3
+            }
+            # Kingdom Icon
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_3 value >= 50 }
+                }
+                desc = bno_bbc_whore_3.2
+            }
+            # Royal BBC Whore
+            triggered_desc = {
+                trigger = { exists = this }
+                desc = bno_bbc_whore_3.1
+            }
+        }
+    }
+
+    # Desc (XP milestones: 0 / 50 / 100)
+    desc = {
+        # Royal BBC Whore
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_bbc_whore_3.desc.1
+            }
+            # Legendary BBC Whore
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_3 value >= 100 }
+                    is_a_girl = yes
+                }
+                desc = bno_bbc_whore_3.desc.3
+            }
+            # Kingdom Icon
+            triggered_desc = {
+                trigger = {
+                    exists = this
+                    has_trait_xp = { trait = bno_bbc_whore_3 value >= 50 }
+                }
+                desc = bno_bbc_whore_3.desc.2
+            }
+            # Royal BBC Whore
+            triggered_desc = {
+                trigger = { exists = this }
+                desc = bno_bbc_whore_3.desc.1
+            }
+        }
+    }
+
+    ai_sociability = high_positive_ai_value
+}

@@ -7,7 +7,6 @@ bno_cum_for_glory = {
     negative_inactive_inheritance_chance = -0.01
     life_expectancy = 0.1
     years_of_fertility = 0.1
-    fertility = 0.01
     stacking = yes
 }
 bno_cum_for_glory_glorified = {
@@ -19,7 +18,6 @@ bno_cum_for_glory_glorified = {
     negative_inactive_inheritance_chance = -1
     life_expectancy = 10
     years_of_fertility = 10
-    fertility = 1
     domain_limit = 1
     stacking = yes
 }
