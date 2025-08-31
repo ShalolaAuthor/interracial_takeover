@@ -30,9 +30,6 @@
         scope:actor = {
             bno_has_bbc_priest_or_priestess = yes
         }
-        scope:recipient = {
-            bno_illness_list = yes
-        }
     }
 
     is_valid_showing_failures_only = {
@@ -41,11 +38,36 @@
         }
         scope:recipient = {
             is_at_war = no
+            custom_tooltip = {
+		    	text = bno_cure_disease_interaction.recipient.sickness
+		    	bno_illness_list = yes
+		    }
             trigger_if = {
                 limit = {
                     is_a_male = yes
                 }
                 is_bbc = yes
+                custom_tooltip = {
+                    text = bno_cure_disease_interaction.no_priestess
+                    scope:actor = {
+                        any_court_position_holder = {
+                            type = bno_bbc_priestess_court_position
+                        }
+                    }
+                }
+            }
+            trigger_else_if = {
+                limit = {
+                    is_a_girl = yes
+                }
+                custom_tooltip = {
+                    text = bno_cure_disease_interaction.no_priest
+                    scope:actor = {
+                        any_court_position_holder = {
+                            type = bno_bbc_priest_court_position
+                        }
+                    }
+                }
             }
         }
     }

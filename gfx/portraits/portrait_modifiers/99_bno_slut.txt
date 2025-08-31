@@ -140,7 +140,10 @@ bno_naked = {
 			}
 			modifier = {
 				add = 1000
-				has_court_position = bno_bbc_worshipper_court_position
+				OR = {
+					has_court_position = bno_bbc_worshipper_court_position
+					has_court_position = bno_bbc_priestess_court_position
+				}
 			}
 		}
 	}

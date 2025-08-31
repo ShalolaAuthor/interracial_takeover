@@ -2,6 +2,9 @@
 
 bno_seduce_interaction: "BBC Seduction"
 bno_seduce_interaction_desc: "Use your charm to seduce [recipient.GetHerHim]."
+bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] has some sort of [illness|E]"
+bno_cure_disease_interaction.no_priestess: "You do not have a [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] to perform the ritual."
+bno_cure_disease_interaction.no_priest: "You do not have a [GetCourtPositionType('bno_bbc_priest_court_position').GetName] to perform the ritual."
 
 bno_cure_disease_interaction: "Sacred Seeds"
 bno_cure_disease_interaction.desc.female: "[GetCourtPositionType('bno_bbc_priest_court_position').GetName] bestow his sacred seeds upon [recipient.GetFirstName]"
