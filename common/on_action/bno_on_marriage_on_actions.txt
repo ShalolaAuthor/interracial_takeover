@@ -5,6 +5,24 @@
 }
 
 bno_on_marriage_pulse = {
+    trigger = {
+        OR = {
+            dynasty ?= {
+                has_dynasty_perk = bno_embrace_african_4
+            }
+            scope:spouse = {
+                dynasty ?= {
+                    has_dynasty_perk = bno_embrace_african_4
+                }
+            }
+        }
+        OR = {
+            is_bbc = yes
+            scope:spouse = {
+                is_bbc = yes
+            }
+        }
+    }
     events = {
         bno_marriage.0007
     }

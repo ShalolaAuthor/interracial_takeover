@@ -12,6 +12,7 @@
 -add bno_worshipper trait (cant have children)
 -add events for bbc worshipper doing her action (monthly, yearly)
 -if cuck have sex with his wife lower cuck xp
+-if you take the becoming a bbc whore decision you will actually get the trait, and give your money to your BBC liege (if exist)
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:

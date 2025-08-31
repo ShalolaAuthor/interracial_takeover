@@ -6,7 +6,8 @@
 	selection_tooltip = bno_becoming_bbc_slut_tooltip
 	decision_group_type = bno_decision_group
 	is_shown = {
-		has_trait = bno_snowbunny
+		is_white_girl = yes
+		is_slut = yes
 		NOT = {
 			has_character_flag = bno_slut.1015
 		}
@@ -15,7 +16,11 @@
 			has_game_rule = bno_decision_npc_yes 
 		}
 	}
+	is_valid = {
+		is_bno_snowbunny_and_up = yes
+	}
 	effect = {
+		custom_tooltip = bno_becoming_bbc_slut.effect
 		trigger_event = {
 			id = bno_slut.0015
 		}

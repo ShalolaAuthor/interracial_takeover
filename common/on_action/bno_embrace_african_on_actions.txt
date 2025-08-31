@@ -18,6 +18,11 @@ bno_embrace_african_yearly_initial_pulse = {
 }
 
 bno_yearly_embrace_african_1_pulse = {
+    trigger = {
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_1
+        }
+    }
     random_events = {
         chance_to_happen = 100
         chance_of_no_event = {
@@ -37,6 +42,11 @@ bno_yearly_embrace_african_1_pulse = {
 }
 
 bno_yearly_embrace_african_2_pulse = {
+    trigger = {
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_2
+        }
+    }
     random_events = {
         chance_to_happen = 100
         chance_of_no_event = {
@@ -53,6 +63,11 @@ bno_yearly_embrace_african_2_pulse = {
 }
 
 bno_yearly_embrace_african_5_pulse = {
+    trigger = {
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_5
+        }
+    }
     random_events = {
         chance_to_happen = 100
         chance_of_no_event = {
@@ -73,6 +88,7 @@ bno_yearly_embrace_african_5_pulse = {
 bno_embrace_african_yearly_global_random_pulse = {
     trigger = {
         has_game_rule = bno_global_bbc_activities_yes
+        is_elligible_partner = yes
     }
     random_on_action = {
         1 = bno_yearly_embrace_african_1_pulse

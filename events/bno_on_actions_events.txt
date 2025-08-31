@@ -46,6 +46,11 @@ namespace = bno_embrace_african_1_events
 
 bno_embrace_african_1_events.0001 = {
     hidden = yes
+    trigger = {
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_1
+        }
+    }
     immediate = {
         bno_only_you_and_neighbour_on_actions = {
             bno_on_actions = bno_yearly_embrace_african_1_pulse
@@ -57,6 +62,11 @@ namespace = bno_embrace_african_2_events
 
 bno_embrace_african_2_events.0001 = {
     hidden = yes
+    trigger = {
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_2
+        }
+    }
     immediate = {
         bno_only_you_and_neighbour_on_actions = {
             bno_on_actions = bno_yearly_embrace_african_2_pulse
@@ -68,6 +78,11 @@ namespace = bno_embrace_african_5_events
 
 bno_embrace_african_5_events.0001 = {
     hidden = yes
+    trigger = {
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_5
+        }
+    }
     immediate = {
         bno_only_you_and_neighbour_on_actions = {
             bno_on_actions = bno_yearly_embrace_african_5_pulse

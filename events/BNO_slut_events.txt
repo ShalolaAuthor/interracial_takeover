@@ -1426,29 +1426,22 @@ bno_slut.3015 = {
 	}
 	
 	left_portrait = {
-		character = root
-		animation = admiration
-		triggered_outfit = {
-			trigger = {
-				exists = root
-			}
-			outfit_tags = {
-				no_clothes
-			}
-		}
+		character = scope:carn_sex_player
+		animation = sex_combined
 	}
 	
 	right_portrait = {
-		character = scope:bbc
-		animation = personality_content
-		triggered_outfit = {
-			trigger = {
-				exists = scope:bbc
-			}
-			outfit_tags = {
-				no_clothes
-			}
+		character = scope:carn_sex_partner
+		animation = sex_combined
+	}
+
+	immediate = {
+		save_scope_as = carn_sex_player
+		scope:bbc = {
+			save_scope_as = carn_sex_partner
 		}
+		carn_sex_scene_start = yes
+		sex_animations = yes
 	}
 
 	option = {
@@ -1463,6 +1456,7 @@ bno_slut.3015 = {
 
 	option = {
 		name = bno_slut_3015.b
+		custom_tooltip = bno_slut.3015.stop
 		remove_character_flag = bno_slut.1015
 		ai_chance = {
 			base = 100
