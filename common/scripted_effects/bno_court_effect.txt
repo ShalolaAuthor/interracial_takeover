@@ -497,7 +497,7 @@ bno_learn_skill = {
     if = {
         limit = {
             scope:carn_sex_partner = {
-                $SKILL$ > { 10 15 }
+                $SKILL$ > 10
             }
         }
         send_interface_message = {

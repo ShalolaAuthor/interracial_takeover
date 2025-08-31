@@ -628,7 +628,6 @@ is_mindless_bbc_slut_married_to_bbc = {
 
 is_bbc = {
 	has_trait = bno_bbc
-	NOT = { has_inactive_trait = bno_bbc }
 }
 
 is_ai_blackbull = {

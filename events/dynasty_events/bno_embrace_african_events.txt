@@ -1619,6 +1619,14 @@ bno_embrace_african_5.1002 = {
             sickly = { bno_cure_disease_type = { SICKNESS = sickly } }
             great_pox = { bno_cure_disease_type = { SICKNESS = great_pox } }
         }
+        if = {
+            limit = { NOT = { has_character_flag = bno_embrace_african_5.0008 } }
+            add_character_flag = bno_embrace_african_5.0008
+            trigger_event = {
+                id = bno_embrace_african_5.0008
+                days = 7
+            }
+        }
         carn_sex_scene_is_cum_inside_effect = yes
         carn_sex_scene_cleanup = yes
     }
@@ -2176,5 +2184,248 @@ bno_embrace_african_5.0009 = {
 		}
         carn_sex_scene_is_cum_inside_effect = yes
         carn_sex_scene_cleanup = yes
+    }
+}
+
+#fired from interaction to heal family diseases
+bno_embrace_african_5.0010 = {
+    type = character_event
+    #window = big_event_window
+    theme = healthcare
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:recipient = { is_adult = no is_a_girl = yes } }
+                desc = bno_embrace_african_5.0010.title.female_child
+            }
+            triggered_desc = {
+                trigger = { scope:recipient = { is_adult = no is_a_male = yes } }
+                desc = bno_embrace_african_5.0010.title.male_child
+            }
+            triggered_desc = {
+                trigger = { scope:recipient = { is_a_girl = yes } }
+                desc = bno_embrace_african_5.0010.title.female
+            }
+            triggered_desc = {
+                trigger = { scope:recipient = { is_a_male = yes } }
+                desc = bno_embrace_african_5.0010.title.male
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:recipient = {
+                        is_adult = no
+                        is_a_girl = yes
+                    }
+                }
+                desc = bno_embrace_african_5.0010.desc.female_child
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:recipient = {
+                        is_adult = no
+                        is_a_male = yes
+                    }
+                }
+                desc = bno_embrace_african_5.0010.desc.male_child
+            }
+            triggered_desc = {
+                trigger = { scope:recipient = { is_a_girl = yes } }
+                desc = bno_embrace_african_5.0010.desc.female
+            }
+            triggered_desc = {
+                trigger = { scope:recipient = { is_a_male = yes } }
+                desc = bno_embrace_african_5.0010.desc.male
+            }
+        }
+    }
+
+    override_background = {
+        reference = temple
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        triggered_animation = {
+            trigger = {
+                scope:recipient = {
+                    is_adult = yes
+                }
+            }
+            animation = sex_combined
+        }
+        triggered_animation = {
+            trigger = {
+                scope:recipient = {
+                    is_adult = no
+                }
+                scope:carn_sex_partner = {
+                    is_a_girl = yes
+                }
+            }
+            animation = ecstasy
+        }
+        triggered_animation = {
+            trigger = {
+                scope:recipient = {
+                    is_adult = no
+                }
+                scope:carn_sex_partner = {
+                    is_a_male = yes
+                }
+            }
+            animation = personality_content
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        triggered_animation = {
+            trigger = {
+                scope:recipient = {
+                    is_adult = yes
+                }
+            }
+            animation = sex_combined
+        }
+        triggered_animation = {
+            trigger = {
+                scope:recipient = {
+                    is_adult = no
+                }
+            }
+            animation = drink_goblet
+        }
+    }
+
+    trigger = {
+        bno_has_embrace_african_5 = yes
+        bno_has_bbc_priest_or_priestess = yes
+    }
+
+    immediate = {
+        scope:recipient = {
+            save_scope_as = carn_sex_player
+        }
+        if = {
+            limit = {
+                scope:recipient = {
+                    is_a_girl = yes
+                }
+            }
+            create_character = {
+                template = bno_male_priest_character_template
+                location = scope:recipient.location
+                save_scope_as = carn_sex_partner
+            }
+        }
+        else_if = {
+            limit = {
+                scope:recipient = {
+                    is_a_male = yes
+                }
+            }
+            create_blacked_european_girls = {
+                SCOPE = carn_sex_partner
+                LOCATION = scope:recipient.location
+                TEMPLATE = bno_female_priest_character_template
+            }
+        }
+        if = {
+            limit = {
+                scope:recipient = {
+                    is_adult = yes
+                    is_a_girl = yes
+                }
+            }
+            carn_sex_scene_start = yes
+            standing_oral_animations = yes
+        }
+        else_if = {
+            limit = {
+                scope:recipient = {
+                    is_adult = yes
+                    is_a_male = yes
+                }
+            }
+            carn_sex_scene_start = yes
+            cunnilingus_animations = yes
+        }
+    }
+
+    option = { # will show the cost of ritual and use show_as_unavailable if you dont have enough money
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:recipient = { is_a_girl = yes is_adult = no } }
+                        desc = bno_embrace_african_5.0010.a.female_child
+                    }
+                    triggered_desc = {
+                        trigger = { scope:recipient = { is_a_male = yes is_adult = no } }
+                        desc = bno_embrace_african_5.0010.a.male_child
+                    }
+                    triggered_desc = {
+                        trigger = { scope:recipient = { is_a_girl = yes } }
+                        desc = bno_embrace_african_5.0010.a.female
+                    }
+                    triggered_desc = {
+                        trigger = { scope:recipient = { is_a_male = yes } }
+                        desc = bno_embrace_african_5.0010.a.male
+                    }
+                }
+            }
+        }
+        scope:recipient = {
+            switch = {
+                trigger = has_trait
+                lovers_pox = { bno_cure_disease_type = { SICKNESS = lovers_pox } }
+                ill = { bno_cure_disease_type = { SICKNESS = ill } }
+                pneumonic = { bno_cure_disease_type = { SICKNESS = pneumonic } }
+                early_great_pox = { bno_cure_disease_type = { SICKNESS = early_great_pox } }
+                leper = { bno_cure_disease_type = { SICKNESS = leper } }
+                gout_ridden = { bno_cure_disease_type = { SICKNESS = gout_ridden } }
+                consumption = { bno_cure_disease_type = { SICKNESS = consumption } }
+                cancer = { bno_cure_disease_type = { SICKNESS = cancer } }
+                typhus = { bno_cure_disease_type = { SICKNESS = typhus } }
+                bubonic_plague = { bno_cure_disease_type = { SICKNESS = bubonic_plague } }
+                smallpox = { bno_cure_disease_type = { SICKNESS = smallpox } }
+                measles = { bno_cure_disease_type = { SICKNESS = measles } }
+                dysentery = { bno_cure_disease_type = { SICKNESS = dysentery } }
+                ergotism = { bno_cure_disease_type = { SICKNESS = ergotism } }
+                sickly = { bno_cure_disease_type = { SICKNESS = sickly } }
+                great_pox = { bno_cure_disease_type = { SICKNESS = great_pox } }
+            }
+            if = {
+                limit = { NOT = { has_character_flag = bno_embrace_african_5.0008 } }
+                add_character_flag = bno_embrace_african_5.0008
+                trigger_event = {
+                    id = bno_embrace_african_5.0008
+                    days = 7
+                }
+            }
+        }
+        if = {
+            limit = {
+                is_adult = yes
+            }
+            carn_sex_scene_is_cum_inside_effect = yes
+            carn_sex_scene_cleanup = yes
+        }
+    }
+
+    after = {
+        hidden_effect = {
+            scope:carn_sex_partner = {
+                trigger_event = {
+                    id = bno_kill_temporary_character.0001
+                    delayed = yes
+                    days = { 7 14 }
+                }
+            }
+        }
     }
 }
