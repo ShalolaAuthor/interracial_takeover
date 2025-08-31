@@ -20,13 +20,13 @@ IMPORTANT TODO:
 -finish religion overhaul thingy (add new faith)
 -add nickname chooser decision for sluts
 -add tattoo shop (partially done, make a decision to change tattoo (choose head or body) then fire an event -> add var with flag for character -> options will change the flag of the var) (portrait modifier will check if the var exist -> then check the flag for relevant tattoo to be applied)
--add character interaction to heal people
--game rule, bbc has an abnormal seeds and always get full african + bbc if male
 
 NEED TESTING:
 -make sure guess that visit your court gets proper trait
 
 DONE:
+-game rule, bbc has an abnormal seeds and always get full african + bbc if male
+-add character interaction to heal people
 -game rule, bbc has an abnormal seeds and always get full african + bbc if male
 -age 18 for revealing outfit (or overwrite the age check)
 -add effect for 1 2 3 trait (1 2 4)

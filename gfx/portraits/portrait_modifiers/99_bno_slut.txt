@@ -132,10 +132,6 @@ bno_naked = {
 			base = 0
 			modifier = {
 				add = 1000
-				OR = {
-					has_game_rule = bno_body_modification_yes
-					is_ai = yes
-				}
 				has_character_flag = bno_naked
 			}
 			modifier = {
