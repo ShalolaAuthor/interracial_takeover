@@ -167,9 +167,6 @@ bno_bbc_priestess_court_position = {
     skill = learning
 
     court_position_asset = {
-        trigger = {
-            is_a_male = yes
-        }
         animation = bno_sex_oral_love_2
         background = "gfx/interface/illustrations/event_scenes/church.dds"
     }
@@ -193,7 +190,6 @@ bno_bbc_priestess_court_position = {
         any_realm_province = {
             has_building_or_higher = bbc_church_02
         }
-        is_a_male = yes
     }
 
     is_shown_character = {
@@ -341,9 +337,6 @@ bno_bbc_priest_court_position = {
     skill = learning
     
     court_position_asset = {
-        trigger = {
-            is_a_girl = yes
-        }
         animation = storyteller
         background = "gfx/interface/illustrations/event_scenes/church.dds"
     }
@@ -366,7 +359,6 @@ bno_bbc_priest_court_position = {
         any_realm_province = {
             has_building_or_higher = bbc_church_02
         }
-        is_a_girl = yes
     }
 
     is_shown_character = {

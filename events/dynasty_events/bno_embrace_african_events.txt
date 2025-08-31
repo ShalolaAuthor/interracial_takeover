@@ -2017,8 +2017,7 @@ bno_embrace_african_5.0007 = {
         }
         if = {
             limit = {
-                is_a_girl = yes
-		        is_elligible_partner = yes
+                can_employ_court_position_type = bno_bbc_priest_court_position
             }
             create_character = {
                 template = bno_male_priest_character_template
@@ -2028,7 +2027,7 @@ bno_embrace_african_5.0007 = {
         }
         else_if = {
             limit = {
-                is_a_male = yes
+                can_employ_court_position_type = bno_bbc_priestess_court_position
             }
             create_blacked_european_girls = {
                 SCOPE = priest
@@ -2309,29 +2308,27 @@ bno_embrace_african_5.0010 = {
     immediate = {
         scope:recipient = {
             save_scope_as = carn_sex_player
-        }
-        if = {
-            limit = {
-                scope:recipient = {
+            if = {
+                limit = {
                     is_a_girl = yes
                 }
-            }
-            create_character = {
-                template = bno_male_priest_character_template
-                location = scope:recipient.location
-                save_scope_as = carn_sex_partner
-            }
-        }
-        else_if = {
-            limit = {
-                scope:recipient = {
-                    is_a_male = yes
+                root = {
+                    random_court_position_holder = {
+                        type = bno_bbc_priest_court_position
+                        save_scope_as = carn_sex_partner
+                    }
                 }
             }
-            create_blacked_european_girls = {
-                SCOPE = carn_sex_partner
-                LOCATION = scope:recipient.location
-                TEMPLATE = bno_female_priest_character_template
+            else_if = {
+                limit = {
+                    is_a_male = yes
+                }
+                root = {
+                    random_court_position_holder = {
+                        type = bno_bbc_priestess_court_position
+                        save_scope_as = carn_sex_partner
+                    }
+                }
             }
         }
         if = {
@@ -2414,18 +2411,6 @@ bno_embrace_african_5.0010 = {
             }
             carn_sex_scene_is_cum_inside_effect = yes
             carn_sex_scene_cleanup = yes
-        }
-    }
-
-    after = {
-        hidden_effect = {
-            scope:carn_sex_partner = {
-                trigger_event = {
-                    id = bno_kill_temporary_character.0001
-                    delayed = yes
-                    days = { 7 14 }
-                }
-            }
         }
     }
 }
