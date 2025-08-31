@@ -1496,7 +1496,7 @@ bno_slut.4015 = {
 	option = {
 		name = bno_slut.4015.a
 		ai_chance = {
-			base = 0
+			base = 100
 		}
 	}
 
