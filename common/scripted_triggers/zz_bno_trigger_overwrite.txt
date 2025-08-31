@@ -1,5 +1,0 @@
-﻿wearing_revealing_clothes_2_trigger = {
-	# Character must be an adult.
-	exists = this
-	has_character_flag = wearing_revealing_clothes_2
-}

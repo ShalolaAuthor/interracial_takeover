@@ -1,7 +1,7 @@
 ﻿bno_prostitution_interval = {
 	
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 	
 	default = bno_interval_one_month
@@ -21,7 +21,7 @@
 
 bno_mod_status = {
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 
 	default = bno_mod_status_on
@@ -38,7 +38,7 @@ bno_mod_status = {
 
 bno_body_modification = {
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 
 	default = bno_body_modification_yes
@@ -54,7 +54,7 @@ bno_body_modification = {
 
 bno_religion_allowed = {
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 
 	default = bno_religion_yes
@@ -71,7 +71,7 @@ bno_religion_allowed = {
 
 bno_decision_npc = {
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 
 	default = bno_decision_npc_yes
@@ -88,7 +88,7 @@ bno_decision_npc = {
 
 bno_global_bbc_activities = {
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 
 	default = bno_global_bbc_activities_yes
@@ -105,7 +105,7 @@ bno_global_bbc_activities = {
 
 bno_seeding = {
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 
 	default = bno_seeding_yes
@@ -122,13 +122,13 @@ bno_seeding = {
 
 bno_event_frequency = {
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 
 	default = bno_event_frequency_three_months
 
 	bno_event_frequency_one_month = {
-		
+
 	}
 
 	bno_event_frequency_three_months = {
@@ -147,7 +147,7 @@ bno_event_frequency = {
 
 bno_tattoo = {
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 
 	default = bno_tattoo_yes
@@ -164,7 +164,7 @@ bno_tattoo = {
 
 bno_rarity = {
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 
 	default = bno_rarity_race
@@ -201,7 +201,7 @@ bno_rarity = {
 
 bno_invite_white_noble_decision = {
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 
 	default = bno_invite_white_noble_decision_off
@@ -226,7 +226,7 @@ bno_invite_white_noble_decision = {
 
 bno_invite_bbc_decision = {
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 
 	default = bno_invite_bbc_decision_all
@@ -251,7 +251,7 @@ bno_invite_bbc_decision = {
 
 bno_ai_events_chance = {
 	categories = {
-		interaccial_takeover
+		interracial_takeover
 	}
 
 	default = bno_ai_events_chance_rare
@@ -268,4 +268,20 @@ bno_ai_events_chance = {
 
 	}
 
+}
+
+bno_black_cum_potency = {
+	categories = {
+		interracial_takeover
+	}
+
+	default = bno_black_cum_potency_normal
+
+	bno_black_cum_potency_normal = {
+
+	}
+
+	bno_black_cum_potency_abnormal = {
+		
+	}
 }

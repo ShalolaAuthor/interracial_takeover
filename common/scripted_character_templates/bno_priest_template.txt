@@ -16,25 +16,6 @@ bno_female_holy_order_leader_character_template = {
 
 	trait = order_member
 
-    random_traits_list = {
-		count = 1
-		bno_snowbunny = {}
-		bno_qos = {}
-		bno_mindless_bbc_slut = {}
-	}
-    random_traits_list = {
-        count = 1
-        tits_big_good_1 = {}
-        tits_big_good_2 = {}
-        tits_big_good_3 = {}
-    }
-    random_traits_list = {
-        count = 1
-        beauty_good_1 = {}
-        beauty_good_2 = {}
-        beauty_good_3 = {}
-    }
-
 	#Personality
 	random_traits_list = {
 		count = 3
@@ -120,10 +101,21 @@ bno_female_holy_order_leader_character_template = {
 	}
 
 	after_creation = {
-		random_list = {
-			80 = {}
-			20 = { add_trait = bno_pure_white }
+		bno_get_between_common_uncommon_and_rare_trait = {
+			TRAIT_COMMON = bno_snowbunny
+			TRAIT_UNCOMMON = bno_qos
+			TRAIT_RARE = bno_mindless_bbc_slut
 		}
+		bno_maybe_get_a_rare_trait = {
+			TRAIT = bno_pure_white
+		}
+		bno_get_a_leveled_trait = {
+			TRAIT = tits_big_good
+		}
+        bno_get_a_leveled_trait = {
+			TRAIT = beauty_good
+		}
+        remove_bad_traits = yes
 	}
 }
 
@@ -137,25 +129,7 @@ bno_female_priest_character_template = {
 	}
 
 	trait = bno_lifestyle_bbc_priestess
-
-    random_traits_list = {
-        count = 1
-        tits_big_good_1 = {}
-        tits_big_good_2 = {}
-        tits_big_good_3 = {}
-    }
-    random_traits_list = {
-        count = 1
-        beauty_good_1 = {}
-        beauty_good_2 = {}
-        beauty_good_3 = {}
-    }
-	random_traits_list = {
-		count = 1
-		bno_snowbunny = {}
-		bno_qos = {}
-		bno_mindless_bbc_slut = {}
-	}
+	
 	random_traits = yes
 	
 	gender = female
@@ -167,6 +141,20 @@ bno_female_priest_character_template = {
 
 	after_creation = {
 		add_character_flag = need_priest_outfit
+		bno_get_between_common_uncommon_and_rare_trait = {
+			TRAIT_COMMON = bno_snowbunny
+			TRAIT_UNCOMMON = bno_qos
+			TRAIT_RARE = bno_mindless_bbc_slut
+		}
+		bno_maybe_get_a_rare_trait = {
+			TRAIT = bno_pure_white
+		}
+		bno_get_a_leveled_trait = {
+			TRAIT = tits_big_good
+		}
+        bno_get_a_leveled_trait = {
+			TRAIT = beauty_good
+		}
         remove_bad_traits = yes
 	}
 }
@@ -180,21 +168,8 @@ bno_male_priest_character_template = {
 		education_learning_4 = {}
 	}
 
-    trait = bno_bbc
 	trait = bno_full_black
 	trait = bno_lifestyle_bbc_priestess
-    random_traits_list = {
-        count = 1
-        dick_big_good_1 = {}
-        dick_big_good_2 = {}
-        dick_big_good_3 = {}
-    }
-    random_traits_list = {
-        count = 1
-        beauty_good_1 = {}
-        beauty_good_2 = {}
-        beauty_good_3 = {}
-    }
 	random_traits = yes
 	
 	faith = faith:bbcs
@@ -208,6 +183,18 @@ bno_male_priest_character_template = {
 
 	after_creation = {
 		add_character_flag = need_priest_outfit
+		bno_get_between_common_uncommon_and_rare_trait = {
+			TRAIT_COMMON = bno_snowbunny
+			TRAIT_UNCOMMON = bno_qos
+			TRAIT_RARE = bno_mindless_bbc_slut
+		}
+		bno_maybe_get_a_rare_trait = {
+			TRAIT = bno_pure_white
+		}
+        bno_get_a_leveled_trait = {
+			TRAIT = beauty_good
+		}
+		bno_add_bbc_trait_effect = yes
 		if = {
 			limit = {
 				root = {

@@ -3,19 +3,25 @@
     gender = female
 
     #Traits
-    random_traits_list = {
-        count = 1
-        bno_blacked = {}
-        bno_snowbunny = {}
-    }
-    trait = tits_big_good_1
-    trait = beauty_good_1
     random_traits = yes
 
     #Skills
     learning = {
         min_template_decent_skill
         max_template_decent_skill
+    }
+    after_creation = {
+        bno_get_between_normal_and_rare_trait = {
+            TRAIT_NORMAL = bno_blacked
+            TRAIT_RARE = bno_snowbunny
+        }
+        bno_get_a_leveled_trait = {
+			TRAIT = tits_big_good
+		}
+        bno_get_a_leveled_trait = {
+			TRAIT = beauty_good
+		}
+        remove_bad_traits = yes
     }
 }
 
@@ -24,19 +30,25 @@ bbc_worshipper_high_character_template = {
     gender = female
 
     #Traits
-    random_traits_list = {
-        count = 1
-        bno_snowbunny = {}
-        bno_qos = {}
-    }
-    trait = tits_big_good_2
-    trait = beauty_good_2
     random_traits = yes
 
     #Skills
     learning = {
         min_template_medium_skill
         max_template_medium_skill
+    }
+    after_creation = {
+        bno_get_between_normal_and_rare_trait = {
+            TRAIT_NORMAL = bno_snowbunny
+            TRAIT_RARE = bno_qos
+        }
+        bno_get_a_leveled_trait = {
+			TRAIT = tits_big_good
+		}
+        bno_get_a_leveled_trait = {
+			TRAIT = beauty_good
+		}
+        remove_bad_traits = yes
     }
 }
 
@@ -45,18 +57,24 @@ bbc_worshipper_excellent_character_template = {
     gender = female
 
     #Traits
-    random_traits_list = {
-        count = 1
-        bno_qos = {}
-        bno_mindless_bbc_slut = {}
-    }
-    trait = tits_big_good_3
-    trait = beauty_good_3
     random_traits = yes
 
     #Skills
     learning = {
         min_template_high_skill
         max_template_high_skill
+    }
+    after_creation = {
+        bno_get_between_normal_and_rare_trait = {
+            TRAIT_NORMAL = bno_qos
+            TRAIT_RARE = bno_mindless_bbc_slut
+        }
+        bno_get_a_leveled_trait = {
+			TRAIT = tits_big_good
+		}
+        bno_get_a_leveled_trait = {
+			TRAIT = beauty_good
+		}
+        remove_bad_traits = yes
     }
 }

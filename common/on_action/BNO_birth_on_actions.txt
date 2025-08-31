@@ -1,13 +1,15 @@
 ﻿on_birth_child = {
 	on_actions = {
-		bno_blood_inheritance
+		bno_blood_inheritance_normal
+		bno_blood_inheritance_abnormal
 		bno_legacy_birth
 	}
 }
 
-bno_blood_inheritance = {
+bno_blood_inheritance_normal = {
 	trigger = {
 		has_game_rule = bno_mod_status_on
+		has_game_rule = bno_black_cum_potency_normal
 	}
 	effect = {
 		#Flag Inheritance
@@ -153,6 +155,31 @@ bno_blood_inheritance = {
 			}
 			#remove_trait = bno_bbc
 		}
+	}
+}
+
+bno_blood_inheritance_abnormal = {
+	trigger = {
+		has_game_rule = bno_mod_status_on
+		has_game_rule = bno_black_cum_potency_abnormal
+	}
+	effect = {
+		#Flag Inheritance
+		if = {
+			limit = {
+				AND = {
+					scope:mother ?= { has_character_flag = bno_originally_african }
+					scope:real_father ?= { has_character_flag = bno_originally_african }
+				}
+			}
+			bno_seed_originally_african_flag = yes
+		}
+		if = {
+			limit = { scope:real_father = { is_bbc = yes } }
+			add_trait = bno_full_black
+			bno_add_bbc_trait_effect = yes
+		}
+		bno_make_bbc_trait_inactive = yes
 	}
 }
 

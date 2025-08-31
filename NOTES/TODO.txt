@@ -15,8 +15,6 @@
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
--add 1 month to frequency game rules
--age 18 for revealing outfit (or overwrite the age check)
 -add trading with church of bbc (every black supremacist will donate 1 gold for 10k piety)
 -add trading with africans (every africans will donate 1 gold for 1k prestige)
 -finish religion overhaul thingy (add new faith)
@@ -29,6 +27,10 @@ NEED TESTING:
 -make sure guess that visit your court gets proper trait
 
 DONE:
+-game rule, bbc has an abnormal seeds and always get full african + bbc if male
+-age 18 for revealing outfit (or overwrite the age check)
+-add effect for 1 2 3 trait (1 2 4)
+-add 1 month to frequency game rules
 -fix seeding
 -add stats after sex (once per year event?) (modifier?) (random chance it happens)(send notification that you learn something)
 -get boost for research, innovation etc etc in exchange for gold (just say it is blessing)(must have certain holy sites for certain effects?)

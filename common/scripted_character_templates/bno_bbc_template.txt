@@ -6,10 +6,6 @@
 	culture = culture:bnoc
     #Traits
     random_traits = yes
-    random_traits_list = {
-        count = { 0 1 }
-        bno_camp_leader = {}
-    }
     #Skills
     prowess = {
 		min_template_decent_skill
@@ -24,8 +20,10 @@
 		add_gold = minor_gold_value
 		bno_add_bbc_trait_effect = yes
 		add_trait = bno_full_black
-		add_trait = dick_big_good_3
 		add_trait = lustful
+		bno_maybe_get_a_rare_trait = {
+			TRAIT = bno_camp_leader
+		}
 		add_character_flag = spawned_in_bnwo_faction_leader
 	}
 }

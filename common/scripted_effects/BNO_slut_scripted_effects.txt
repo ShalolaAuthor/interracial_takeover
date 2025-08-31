@@ -931,18 +931,6 @@ create_slut = {
 		age = $age$
 		dynasty = scope:european.dynasty
 		random_traits = yes
-		random_traits_list = {
-			count = 1
-			tits_big_good_1 = {}
-			tits_big_good_2 = {}
-			tits_big_good_3 = {}
-		}
-		random_traits_list = {
-			count = 1
-			beauty_good_1 = {}
-			beauty_good_2 = {}
-			beauty_good_3 = {}
-		}
 		faith = scope:european.faith
 		culture = scope:european.culture
 		diplomacy = {
@@ -958,13 +946,55 @@ create_slut = {
 			max_template_decent_skill
 		}
 		after_creation = {
-			add_trait = bno_curious
-			add_trait = bno_pure_white
 			add_trait = lustful
-			add_trait = fecund
+			bno_maybe_get_a_rare_trait = {
+				TRAIT = bno_curious
+			}
+			bno_maybe_get_a_rare_trait = {
+				TRAIT = bno_pure_white
+			}
+			bno_maybe_get_a_rare_trait = {
+				TRAIT = fecund
+			}
+			bno_get_a_leveled_trait = {
+				TRAIT = beauty_good
+			}
+			bno_get_a_leveled_trait = {
+				TRAIT = tits_big_good
+			}
 			set_sexuality = heterosexual
 			remove_bad_traits = yes
 		}
+	}
+}
+
+bno_maybe_get_a_rare_trait = {
+	random_list = {
+		4 = {}
+		1 = { add_trait = $TRAIT$ }
+	}
+}
+
+bno_get_a_leveled_trait = {
+	random_list = {
+		4 = { add_trait = $TRAIT$_1 }
+		2 = { add_trait = $TRAIT$_2 }
+		1 = { add_trait = $TRAIT$_3 }
+	}
+}
+
+bno_get_between_normal_and_rare_trait = {
+	random_list = {
+		2 = { add_trait = $TRAIT_NORMAL$ }
+		1 = { add_trait = $TRAIT_RARE$ }
+	}
+}
+
+bno_get_between_common_uncommon_and_rare_trait = {
+	random_list = {
+		4 = { add_trait = $TRAIT_COMMON$ }
+		2 = { add_trait = $TRAIT_UNCOMMON$ }
+		1 = { add_trait = $TRAIT_RARE$ }
 	}
 }
 

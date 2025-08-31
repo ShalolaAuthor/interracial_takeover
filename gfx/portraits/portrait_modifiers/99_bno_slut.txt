@@ -373,6 +373,7 @@ bno_white_girl = {
 			modifier = {
 				add = 1000
 				has_trait = bno_whitegirl
+				age >= 18
 			}
 		}
 	} 
