@@ -81,34 +81,34 @@ bbc_worshipper_whoring_around = {
     every_in_list = {
         list = bbc_worshipper_neighbour
         every_courtier_or_guest = {
-            limit = { is_rich_ai_african = yes }
+            limit = { is_rich_ai_blackbull = yes }
             add_to_list = bbc_worshipper_target
         }
         every_vassal_or_below = {
-            limit = { is_rich_ai_african = yes }
+            limit = { is_rich_ai_blackbull = yes }
             add_to_list = bbc_worshipper_target
         }
         every_vassal_or_below = {
             limit = { highest_held_title_tier >= tier_county }
             every_courtier_or_guest = {
-                limit = { is_rich_ai_african = yes }
+                limit = { is_rich_ai_blackbull = yes }
                 add_to_list = bbc_worshipper_target
             }
         }
     }
     liege ?= {
         every_courtier_or_guest = {
-            limit = { is_rich_ai_african = yes }
+            limit = { is_rich_ai_blackbull = yes }
             add_to_list = bbc_worshipper_target
         }
         every_vassal_or_below = {
-            limit = { is_rich_ai_african = yes }
+            limit = { is_rich_ai_blackbull = yes }
             add_to_list = bbc_worshipper_target
         }
         every_vassal_or_below = {
             limit = { highest_held_title_tier >= tier_county }
             every_courtier_or_guest = {
-                limit = { is_rich_ai_african = yes }
+                limit = { is_rich_ai_blackbull = yes }
                 add_to_list = bbc_worshipper_target
             }
         }

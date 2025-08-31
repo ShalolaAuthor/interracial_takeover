@@ -12,16 +12,6 @@ is_rich_ai_blackbull = {
 	piety > 0
 }
 
-is_rich_ai_african = {
-	has_trait = bno_blood
-	NOT = { has_trait = lovers_pox }
-	is_elligible_partner = yes
-	is_ai = yes
-	gold > 0
-	prestige > 0
-	piety > 0
-}
-
 is_bno_actor = {
 	OR = {
         is_bbc = yes
