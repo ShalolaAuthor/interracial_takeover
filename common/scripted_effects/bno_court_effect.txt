@@ -122,14 +122,24 @@ bbc_worshipper_whoring_around = {
         }
         ordered_in_list = {
             list = bbc_worshipper_target
+            limit = {
+                is_alive = yes
+            }
             order_by = gold
             save_scope_as = rich_bbc
         }
-        bbc_worshipper_service_fee = {
-            PAYEE = scope:rich_bbc
-        }
-        bno_have_sex_with_effects = {
-            PARTNER = scope:rich_bbc
+        if = {
+            limit = {
+                exists = scope:rich_bbc
+            }
+            bno_increase_whore_level = yes
+            bbc_worshipper_service_fee = {
+                PAYEE = scope:rich_bbc
+            }
+            bno_have_sex_with_effects = {
+                PARTNER = scope:rich_bbc
+            }
+            bno_increase_whore_level = yes
         }
     }
 }

@@ -1,0 +1,50 @@
+﻿every_character_to_title_neighboring_county = {
+        holder ?= {
+            add_to_list = neighbor_to_solicit
+        }
+    }
+    every_in_list = {
+        list = neighbor_to_solicit
+        every_courtier_or_guest = {
+            limit = { is_rich_ai = yes }
+            add_to_list = valid_target_to_solicit
+        }
+        every_vassal_or_below = {
+            limit = { is_rich_ai = yes }
+            add_to_list = valid_target_to_solicit
+        }
+        every_vassal_or_below = {
+            limit = { highest_held_title_tier >= tier_county }
+            every_courtier_or_guest = {
+                limit = { is_rich_ai = yes }
+                add_to_list = valid_target_to_solicit
+            }
+        }
+    }
+    liege ?= {
+        every_courtier_or_guest = {
+            limit = { is_rich_ai = yes }
+            add_to_list = valid_target_to_solicit
+        }
+        every_vassal_or_below = {
+            limit = { is_rich_ai = yes }
+            add_to_list = valid_target_to_solicit
+        }
+        every_vassal_or_below = {
+            limit = { highest_held_title_tier >= tier_county }
+            every_courtier_or_guest = {
+                limit = { is_rich_ai = yes }
+                add_to_list = valid_target_to_solicit
+            }
+        }
+    }
+
+is_rich_ai = {
+    this = exist
+	is_adult = yes
+    is_alive = yes
+    is_ai = yes
+	gold > 0
+	prestige > 0
+	piety > 0
+}

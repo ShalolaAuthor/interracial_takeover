@@ -10,10 +10,7 @@
 
     cost_gold = expensive_building_tier_2_cost
     
-    cost_piety = {
-        value = expensive_building_tier_2_cost
-        multiply = 2
-    }
+    cost_piety = expensive_building_tier_2_cost
 
     can_construct_potential = {
         bno_building_requirement_church = yes
@@ -47,10 +44,7 @@ bbc_church_02 = {
 
     cost_gold = expensive_building_tier_3_cost
     
-    cost_piety = {
-        value = expensive_building_tier_3_cost
-        multiply = 2
-    }
+    cost_piety = expensive_building_tier_3_cost
 
     can_construct_potential = {
         bno_building_requirement_church = yes

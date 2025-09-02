@@ -7,6 +7,9 @@
 bno_immortal_age_maintenance = {
 	effect = {
 		every_living_character = {
+			limit = {
+				is_immortal = yes
+			}
 			trigger_event = bno_immortal_age_maintenance.0001
 		}
 	}

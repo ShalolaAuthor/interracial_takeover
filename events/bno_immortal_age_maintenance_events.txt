@@ -2,9 +2,6 @@
 
 bno_immortal_age_maintenance.0001 = {
 	hidden = yes
-	trigger = {
-		is_immortal = yes
-	}
 	immediate = {
 		if = {
 			limit = {

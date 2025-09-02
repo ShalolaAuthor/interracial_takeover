@@ -9,7 +9,6 @@ bno_curious_pulse = {
 	trigger = {
 		has_game_rule = bno_mod_status_on
 		has_game_rule = bno_body_modification_yes
-		age >= 15
 	}
 	events = {
 		bno_curious.0001
@@ -18,11 +17,11 @@ bno_curious_pulse = {
 
 bno_ritual_of_purification_pulse = {
 	trigger = {
+		has_game_rule = bno_mod_status_on
 		has_game_rule = bno_body_modification_yes
-		age >= 15
 	}
 	events = {
 		delay = { days = { 7 14 } }
-		bno_ritual_of_purification.0001
+		bno_ritual_of_purification.1111
 	}
 }

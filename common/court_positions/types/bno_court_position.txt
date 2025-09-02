@@ -39,7 +39,7 @@
             has_trait = bno_whitegirl
             has_trait = beauty_good
             has_trait = tits_big_good
-            is_visibly_fertile = yes
+            age < 30
             NOT = { has_trait = lovers_pox }
         }
     }
@@ -117,8 +117,9 @@
             add_character_flag = {
                 flag = no_headgear
             }
-            add_character_flag = {
-                flag = can_not_marry    
+            if = {
+                limit = { NOT = { has_trait = bno_bbc_whore } }
+                add_trait = bno_bbc_whore_1
             }
             trigger_event = {
                 id = bbc_worshipper.0001

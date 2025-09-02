@@ -305,23 +305,23 @@ bno_bbc_modifier = {
 
 bno_white_girl_modifier_big = {
 	modifier = {
-		add = 5
+		add = 10
 		is_bno_curious_and_up = yes
 	}
 	modifier = {
-		add = 10
+		add = 20
 		is_bno_blacked_and_up = yes
 	}
 	modifier = {
-		add = 15
+		add = 30
 		is_bno_snowbunny_and_up = yes
 	}
 	modifier = {
-		add = 20
+		add = 40
 		is_bno_qos_and_up = yes
 	}
 	modifier = {
-		add = 25
+		add = 50
 		is_bno_mindless_bbc_slut = yes
 	}
 }

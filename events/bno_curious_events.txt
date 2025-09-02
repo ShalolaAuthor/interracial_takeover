@@ -12,35 +12,50 @@ bno_curious.0001 = {
 	hidden = yes
 	
 	trigger = {
+		age >= 15
+        is_a_girl = yes
+        is_ai = yes
+		is_african = no
+		is_slut = no
+		NOT = { has_character_flag = bno_curious.0001 }
 		OR = {
-			is_bno_blacked_and_up = yes
-			has_trait = bno_bbc
-		}
-		any_child = {
-			age >= 15
-			NOT = { has_character_flag = bno_curious.0001 }
-			is_ai = yes
-			is_a_girl = yes
-			NOT = { has_trait = bno_whitegirl }
-		}
+            mother = {
+                is_playable_character = yes
+                is_bno_blacked_and_up = yes
+            }
+            real_father = {
+                is_playable_character = yes
+                is_bbc = yes
+            }
+        }
 	}
 
 	immediate = {
-		random_child = {
-			limit = {
-				age >= 15
-				NOT = { has_character_flag = bno_curious.0001 }
-				is_ai = yes
-				is_a_girl = yes
-				NOT = { has_trait = bno_whitegirl }
-			}
-			save_scope_as = child
-		}
-		scope:child = {
-			bno_increase_sluttyness = yes
-			add_character_flag = bno_curious.0001
-		}
-		bno_curious_trigger_event = yes
+		if = {
+            limit = {
+                mother = {
+                    is_playable_character = yes
+                    is_bno_blacked_and_up = yes
+                }
+            }
+            mother = {
+                bno_curious_trigger_event = yes
+            }
+        }
+        else_if = {
+            limit = {
+                real_father = {
+                    is_playable_character = yes
+                    is_bbc = yes
+                }
+            }
+            real_father = {
+                bno_curious_trigger_event = yes
+            }
+        }
+		save_scope_as = child
+		bno_increase_sluttyness = yes
+		add_character_flag = bno_curious.0001
 	}
 }
 
@@ -84,7 +99,7 @@ bno_curious.1001 = {
 		}
 	}
 	
-	option = { #BBC will let her know her true self
+	option = { # BBC will let her know her true self
 		name = bno_curious.1001.b
 		trigger_event = {
 			id = bno_curious.1201

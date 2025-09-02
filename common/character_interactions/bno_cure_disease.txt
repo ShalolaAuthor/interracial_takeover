@@ -56,10 +56,7 @@
                     }
                 }
             }
-            trigger_else_if = {
-                limit = {
-                    is_a_girl = yes
-                }
+            trigger_else = {
                 custom_tooltip = {
                     text = bno_cure_disease_interaction.no_priest
                     scope:actor = {

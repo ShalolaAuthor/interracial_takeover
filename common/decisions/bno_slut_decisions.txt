@@ -25,12 +25,14 @@
 			id = bno_slut.0015
 		}
 	}
-	ai_check_interval = 0
+	ai_goal = yes
 	ai_potential = {
-		always = no
+		is_white_girl = yes
+		is_playable_character = yes
 	}
 	ai_will_do = {
 		base = 0
+		bno_white_girl_modifier_big = yes
 	}
 }
 
@@ -46,6 +48,16 @@ bno_stop_becoming_bbc_slut = {
 		OR = { 
 			is_ai = no 
 			has_game_rule = bno_decision_npc_yes 
+		}
+		trigger_if = {
+			limit = {
+				exists = var:slut_whoring_year
+				var:slut_whoring_year >= 1
+			}
+			always = yes
+		}
+		trigger_else = {
+			always = no
 		}
 	}
 	is_valid = {

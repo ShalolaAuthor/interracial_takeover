@@ -1,25 +1,4 @@
 ﻿##################################################################################
-# carn_sex_scene
-##################################################################################
-# Empty list of sex interactions. Modders should add their own scenes to this as random_events.
-# You can adjust the random chance based on how often you think your event should appear.
-
-#carn_sex_scene = {
-	#	random_events = {
-		#		100 = carn_sex_scene.0001 # use the PDX sex scene generator
-		#		100 = carn_sex_scene.0003 # example noncon scene (dom)
-		#		100 = carn_sex_scene.0004 # example noncon scene (sub)
-		#	}
-	#	fallback = carn_sex_scene_fallback
-	#}
-#
-#carn_sex_scene_fallback = {
-	#	events = {
-		#		carn_sex_scene.0002 # fallback to PDX sex scene
-		#	}
-	#}
-
-##################################################################################
 # carn_on_sex
 ##################################################################################
 
@@ -44,6 +23,7 @@ carn_on_sex = {
 	on_actions = {
 		bno_slut_on_sex
 		bno_on_sex
+		bno_increase_pussy_wear
 	}
 }
 
@@ -61,8 +41,7 @@ bno_on_sex = {
 				always = no
 			}
 		}
-		trigger_else_if = {
-			limit = { is_a_male = yes }
+		trigger_else = {
 			is_bbc = yes
 			trigger_if = {
 				limit = { scope:carn_sex_partner = { is_a_girl = yes } }
@@ -76,6 +55,12 @@ bno_on_sex = {
 	events = {
 		delay = { days = 2 }
 		bno_court.0001
+	}
+}
+
+bno_increase_pussy_wear = {
+	effect = {
+		bno_increase_pussy_wear = yes
 	}
 }
 

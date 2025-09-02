@@ -1,6 +1,68 @@
 ﻿namespace = bno_ritual_of_purification
 
-#Pop when child is 15
+#pop when child is 15
+bno_ritual_of_purification.1111 = {
+    hidden = yes
+    trigger = {
+        age >= 15
+        is_a_girl = yes
+        is_ai = yes
+        has_trait = bno_blood
+        NOT = { has_character_flag = bno_ritual_of_purification.1111 }
+        OR = {
+            mother = {
+                is_playable_character = yes
+                is_faith_bbcs = yes
+                is_bno_blacked_and_up = yes
+                any_councillor = {
+                    has_council_position = councillor_court_chaplain
+                }
+            }
+            real_father = {
+                is_playable_character = yes
+                is_faith_bbcs = yes
+                is_bbc = yes
+                any_councillor = {
+                    has_council_position = councillor_court_chaplain
+                }
+            }
+        }
+    }
+    immediate = {
+        save_scope_as = child
+        add_character_flag = bno_ritual_of_purification.1111
+        if = {
+            limit = {
+                mother = {
+                    is_playable_character = yes
+                    is_faith_bbcs = yes
+                    is_bno_blacked_and_up = yes
+                    any_councillor = {
+                        has_council_position = councillor_court_chaplain
+                    }
+                }
+            }
+            mother = {
+                trigger_event = bno_ritual_of_purification.0001
+            }
+        }
+        else_if = {
+            limit = {
+                real_father = {
+                    is_playable_character = yes
+                    is_faith_bbcs = yes
+                    is_bbc = yes
+                    any_councillor = {
+                        has_council_position = councillor_court_chaplain
+                    }
+                }
+            }
+            real_father = {
+                trigger_event = bno_ritual_of_purification.0001
+            }
+        }
+    }
+}
 #Priest disapprove your female child is black and suggesting ritual of purification
 bno_ritual_of_purification.0001 = {
     type = character_event
@@ -26,32 +88,6 @@ bno_ritual_of_purification.0001 = {
         animation = disapproval
     }
 
-    trigger = {
-        OR = {
-            is_bbc = yes
-            has_trait = bno_whitegirl
-        }
-        faith = faith:bbcs
-        is_adult = yes
-        is_ruler = yes
-        any_child = {
-            age >= 15
-            is_a_girl = yes
-            OR = {
-                has_trait = bno_mostly_black
-                has_trait = bno_mixed
-                has_trait = bno_barely_mixed
-            }
-            NOR = {
-                has_character_flag = bno_ritual_of_purification.0001.accepted
-                has_character_flag = bno_ritual_of_purification.0001.rejected
-            }
-        }
-        any_councillor = {
-            has_council_position = councillor_court_chaplain
-        }
-    }
-
     immediate = {
         random_councillor = {
             limit = {
@@ -59,32 +95,12 @@ bno_ritual_of_purification.0001 = {
             }
             save_scope_as = priest
         }
-        random_child = {
-            limit = {
-                age >= 15
-                is_a_girl = yes
-                OR = {
-                    has_trait = bno_mostly_black
-                    has_trait = bno_mixed
-                    has_trait = bno_barely_mixed
-                }
-                NOR = {
-                    has_character_flag = bno_ritual_of_purification.0001.accepted
-                    has_character_flag = bno_ritual_of_purification.0001.rejected
-                }
-            }
-            save_scope_as = child
-        }
-
     }
 
     option = {
         name = bno_ritual_of_purification.0001.approved
         ai_chance = {
             base = 100
-        }
-        scope:child = {
-            add_character_flag = bno_ritual_of_purification.0001.accepted
         }
         trigger_event = {
             id = bno_ritual_of_purification.1001
@@ -98,9 +114,6 @@ bno_ritual_of_purification.0001 = {
             base = 20
         }
         name = bno_ritual_of_purification.0001.rejected
-        scope:child = {
-            add_character_flag = bno_ritual_of_purification.0001.rejected
-        }
     }
 }
 

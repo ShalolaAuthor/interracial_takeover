@@ -34,11 +34,11 @@ bno_bbc_marriage_prestige_perk_reward = {
 }
 
 bno_random_xp_positive = {
-	value = { 5 15 }
+	value = { 1 5 }
 }
 
 bno_random_xp_negative = {
-	value = { -15 -5 }
+	value = { -5 -1 }
 }
 
 hair_color_x = {

@@ -4,9 +4,7 @@
 #bno_make_bbc_has_big_dick
 
 bno_seed_originally_african_flag = {
-    add_character_flag = {
-        flag = bno_originally_african
-    }
+    add_character_flag = bno_originally_african
 }
 
 bno_seed_bbc_trait_effect = {
@@ -28,21 +26,40 @@ bno_add_bbc_trait_effect = {
     bno_make_bbc_has_big_dick = yes
 }
 
+bno_lottery_dick_size = {
+    random_list = {
+        1 = { add_trait = dick_big_good_3 }
+        2 = { add_trait = dick_big_good_2 }
+        4 = { add_trait = dick_big_good_3 }
+        1 = { add_trait = dick_small_bad_3 }
+        2 = { add_trait = dick_small_bad_2 }
+        4 = { add_trait = dick_small_bad_1 }
+    }
+}
+
+bno_lottery_tits_size = {
+    random_list = {
+        1 = { add_trait = tits_big_good_3 }
+        2 = { add_trait = tits_big_good_2 }
+        4 = { add_trait = tits_big_good_3 }
+        1 = { add_trait = tits_small_bad_3 }
+        2 = { add_trait = tits_small_bad_2 }
+        4 = { add_trait = tits_small_bad_1 }
+    }
+}
+
 bno_make_bbc_trait_inactive = {
     if = {
         limit = { 
-            is_a_girl = yes
-            NOR = {
-                has_trait = futa
-                has_trait = futa_genetic
-            }
+            is_female = yes
+            is_a_futa = no
         }
         make_trait_inactive = bno_bbc
         make_trait_inactive = dick_big_good_3
     }
     if = {
         limit = {
-            is_a_girl = yes
+            is_female = yes
             OR = {
                 has_inactive_trait = futa
                 has_inactive_trait = futa_genetic

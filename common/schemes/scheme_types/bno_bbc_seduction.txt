@@ -34,10 +34,7 @@
 				NOT = { has_trait = bno_full_black }
 			}
 		}
-		trigger_else_if = {
-			limit = {
-				is_a_girl = yes
-			}
+		trigger_else = {
 			has_trait = bno_whitegirl
 			scope:target = {
 				is_a_male = yes
@@ -62,10 +59,7 @@
 				NOT = { has_trait = bno_full_black }
 			}
 		}
-		trigger_else_if = {
-			limit = {
-				is_a_girl = yes
-			}
+		trigger_else = {
 			has_trait = bno_whitegirl
 			scope:target = {
 				is_elligible_partner = yes

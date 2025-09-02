@@ -47,6 +47,12 @@ bno_has_embrace_african_5 = {
 	}
 }
 
+bno_has_embrace_african_3 = {
+	dynasty ?= {
+		has_dynasty_perk = bno_embrace_african_3
+	}
+}
+
 bno_has_bbc_priest_or_priestess = {
 	OR = {
 		any_court_position_holder = {

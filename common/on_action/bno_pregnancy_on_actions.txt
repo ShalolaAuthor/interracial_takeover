@@ -1,6 +1,6 @@
 ﻿on_pregnancy_mother = {
     on_actions = {
-        delay = { days = 100 }
+        delay = { days = 1 }
         bno_on_pregnancy_mother
     }
 }
@@ -15,7 +15,13 @@ bno_on_pregnancy_mother = {
         scope:mother = {
             random = {
                 chance = {
-                    value = 20
+                    value = 0
+                    if = {
+                        limit = {
+                            is_bno_curious_and_up = yes
+                        }
+                        add = 20
+                    }
                     if = {
                         limit = {
                             is_bno_blacked_and_up = yes
@@ -42,6 +48,8 @@ bno_on_pregnancy_mother = {
                     }
                 }
                 remove_character_flag = birth_mother_will_die
+                remove_character_flag = birth_child_will_become_sickly
+                remove_character_flag = birth_mother_will_become_ill
                 add_character_flag = birth_will_go_smoothly
             }
         }

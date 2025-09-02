@@ -12,149 +12,8 @@ bno_blood_inheritance_normal = {
 		has_game_rule = bno_black_cum_potency_normal
 	}
 	effect = {
-		#Flag Inheritance
-		if = {
-			limit = {
-				AND = {
-					scope:mother ?= { has_character_flag = bno_originally_african }
-					scope:real_father ?= { has_character_flag = bno_originally_african }
-				}
-			}
-			bno_seed_originally_african_flag = yes
-		}
-		#African Trait
-		if = {
-			limit = {
-				exists = scope:mother
-				exists = scope:real_father
-				OR = {
-					AND = {
-						scope:mother = { has_trait = bno_full_black }
-						scope:real_father = { has_trait = bno_full_black }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_full_black }
-						scope:real_father = { has_trait = bno_mostly_black }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_mostly_black }
-						scope:real_father = { has_trait = bno_full_black }
-					}
-				}
-			}
-			add_trait = bno_full_black
-		}
-		else_if = {
-			limit = {
-				exists = scope:mother
-				exists = scope:real_father
-				OR = {
-					AND = {
-						scope:mother = { has_trait = bno_mostly_black }
-						scope:real_father = { has_trait = bno_mostly_black }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_mixed }
-						scope:real_father = { has_trait = bno_full_black }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_full_black }
-						scope:real_father = { has_trait = bno_mixed }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_mostly_black }
-						scope:real_father = { has_trait = bno_mixed }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_mixed }
-						scope:real_father = { has_trait = bno_mostly_black }
-					}
-				}
-			}
-			add_trait = bno_mostly_black
-		}
-		else_if = {
-			limit = {
-				exists = scope:mother
-				exists = scope:real_father
-				OR = {
-					AND = {
-						scope:mother = { has_trait = bno_mixed }
-						scope:real_father = { has_trait = bno_mixed }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_full_black }
-						scope:real_father = { has_trait = bno_barely_mixed }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_barely_mixed }
-						scope:real_father = { has_trait = bno_full_black }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_mostly_black }
-						scope:real_father = { has_trait = bno_barely_mixed }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_barely_mixed }
-						scope:real_father = { has_trait = bno_mostly_black }
-					}
-					AND = {
-						NOT = { scope:mother = { has_trait = bno_blood } }
-						scope:real_father = { has_trait = bno_full_black }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_full_black }
-						NOT = { scope:real_father = { has_trait = bno_blood } }
-					}
-				}
-			}
-			add_trait = bno_mixed
-		}
-		else_if = {
-			limit = {
-				exists = scope:mother
-				exists = scope:real_father
-				OR = {
-					AND = {
-						scope:mother = { has_trait = bno_barely_mixed }
-						scope:real_father = { has_trait = bno_barely_mixed }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_mixed }
-						scope:real_father = { has_trait = bno_barely_mixed }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_barely_mixed }
-						scope:real_father = { has_trait = bno_mixed }
-					}
-					AND = {
-						NOT = { scope:mother = { has_trait = bno_blood } }
-						scope:real_father = { has_trait = bno_mostly_black }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_mostly_black }
-						NOT = { scope:real_father = { has_trait = bno_blood } }
-					}
-					AND = {
-						NOT = { scope:mother = { has_trait = bno_blood } }
-						scope:real_father = { has_trait = bno_mixed }
-					}
-					AND = {
-						scope:mother = { has_trait = bno_mixed }
-						NOT = { scope:real_father = { has_trait = bno_blood } }
-					}
-				}
-			}
-			add_trait = bno_barely_mixed
-		}
-		else_if = {
-			limit = {
-				exists = scope:mother
-				exists = scope:real_father
-				scope:real_father = { has_trait = bno_bbc }
-			}
-			#remove_trait = bno_bbc
-		}
+		bno_flag_inheritance = yes
+		bno_normal_african_inheritance = yes
 	}
 }
 
@@ -164,22 +23,8 @@ bno_blood_inheritance_abnormal = {
 		has_game_rule = bno_black_cum_potency_abnormal
 	}
 	effect = {
-		#Flag Inheritance
-		if = {
-			limit = {
-				AND = {
-					scope:mother ?= { has_character_flag = bno_originally_african }
-					scope:real_father ?= { has_character_flag = bno_originally_african }
-				}
-			}
-			bno_seed_originally_african_flag = yes
-		}
-		if = {
-			limit = { scope:real_father = { is_bbc = yes } }
-			add_trait = bno_full_black
-			bno_add_bbc_trait_effect = yes
-		}
-		bno_make_bbc_trait_inactive = yes
+		bno_flag_inheritance = yes
+		bno_abnormal_african_inheritance = yes
 	}
 }
 
@@ -187,6 +32,13 @@ on_birth_mother = {
 	on_actions = {
 		black_bred_bitch
 		white_breeder_on_birth_mother
+		bno_birth_pussy_wear
+	}
+}
+
+bno_birth_pussy_wear = {
+	effect = {
+		bno_increase_pussy_wear = yes
 	}
 }
 

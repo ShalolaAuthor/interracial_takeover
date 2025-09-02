@@ -27,6 +27,9 @@ trait_bno_mixed: "Mixed"
 trait_bno_mixed_desc: "Half-blooded African"
 trait_bno_barely_mixed: "Barely Mixed"
 trait_bno_barely_mixed_desc: "After generations of not breeding within the African dynasty, this character's native blood runs low"
+
+
+
 #Message Filter
 message_filter_bno_breeding_outcomes: ""
 message_filter_bno_blacked_events: ""

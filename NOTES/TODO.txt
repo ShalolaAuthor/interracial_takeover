@@ -13,20 +13,34 @@
 -add events for bbc worshipper doing her action (monthly, yearly)
 -if cuck have sex with his wife lower cuck xp
 -if you take the becoming a bbc whore decision you will actually get the trait, and give your money to your BBC liege (if exist)
+-refactor all traits leveling system
+-make sure if you have big tits your child more or less also has big tits (same with dicks)
+-make sure that if a character is no longer playable -> make bbc whore trait into the correct non playable version and vice versa :D
+-make own version of body part trait, track -> massage
+-add bbc steal gold event (to make sure they have money for the bbc whore)
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
--reduce the frequencies of whoring messages (pool it into 1? make variables to store, then only fire once every session.)
+-birthing will also increase pussy wear
 -add trading with church of bbc (every black supremacist will donate 1 gold for 10k piety)
 -add trading with africans (every africans will donate 1 gold for 1k prestige)
 -finish religion overhaul thingy (add new faith)
+-adjust aptitude for bbc worshipper (account for the new trait bbc_whore)
 -add nickname chooser decision for sluts
 -add tattoo shop (partially done, make a decision to change tattoo (choose head or body) then fire an event -> add var with flag for character -> options will change the flag of the var) (portrait modifier will check if the var exist -> then check the flag for relevant tattoo to be applied)
+-add event to destroy non african regiment
 
 NEED TESTING:
--make sure guess that visit your court gets proper trait
 
 DONE:
+-need to make an effect to level up pussy mileage(mileage 1: tiny_dick_3 - tiny_dick_1 -3 - -1, big_dick_good_1 - big_dick_good_3 1 - 3, bbc increase 5 ) (after mileage 2/3: normal dicks wont cut it anymore, only bbc will give you xp 1 bbc = 1 xp)
+-bno_bbc_whore will level up 1-2 xp every prostitution
+-bno_pussy_mileage will stop levels up after 59 from normal sex
+-seed boobs and dick traits for all people (if not assigned from carn)
+-need to make localization for bno_pussy_mileage and bno_bbc_whore (group name and group desc)
+-need to seed bno_pussy_mileage
+-reduce the frequencies of whoring messages (pool it into 1? make variables to store, then only fire once every session.)
+-make sure guess that visit your court gets proper trait
 -game rule, bbc has an abnormal seeds and always get full african + bbc if male
 -add character interaction to heal people
 -game rule, bbc has an abnormal seeds and always get full african + bbc if male

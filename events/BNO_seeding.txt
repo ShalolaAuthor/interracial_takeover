@@ -15,36 +15,43 @@ namespace = bno_trait_seeding
 #African Traits
 bno_trait_seeding.0001 = {
 	hidden = yes
-	trigger = {
-		NOT = { has_character_flag = bno_traits_seeded }
-	}
 	immediate = {
-		add_character_flag = bno_traits_seeded
 		if = {
 			limit = {
-				NOT = { has_trait = bno_blood }
-				bno_is_graphically_african = yes
+				NOT = { has_character_flag = bno_traits_seeded }
 			}
-			add_trait = bno_full_black
-			bno_seed_originally_african_flag = yes
+			add_character_flag = bno_traits_seeded
+			if = {
+				limit = {
+					NOT = { has_trait = bno_blood }
+					bno_is_graphically_african = yes
+				}
+				add_trait = bno_full_black
+				bno_seed_originally_african_flag = yes
+			}
+			else_if = {
+				limit = {
+					NOT = { exists = mother }
+					is_african = yes
+				}
+				bno_seed_originally_african_flag = yes
+			}
 		}
-		trigger_event = {
-			id = bno_trait_seeding.0002
-		}
+		trigger_event = bno_trait_seeding.0002
 	}
 }
 # BBC Traits
 bno_trait_seeding.0002 = {
 	hidden = yes
-	trigger = {
-		NOT = { has_character_flag = bno_bbc_trait_seeded }
-	}
 	immediate = {
-		bno_seed_bbc_trait_effect = yes
-		bno_futa_bisexual = yes
-		trigger_event = {
-			id = bno_trait_seeding.0003
+		if = {
+			limit = {
+				NOT = { has_character_flag = bno_bbc_trait_seeded }
+			}
+			bno_seed_bbc_trait_effect = yes
+			bno_futa_bisexual = yes
 		}
+		trigger_event = bno_trait_seeding.0003
 	}
 }
 # Make BBC Trait not active if female
@@ -52,5 +59,106 @@ bno_trait_seeding.0003 = {
 	hidden = yes
 	immediate = {
 		bno_make_bbc_trait_inactive = yes
+		trigger_event = bno_trait_seeding.0004
+	}
+}
+# Pussy Mileage Seeding
+bno_trait_seeding.0004 = {
+	hidden = yes
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = bno_pussy_mileage_trait_seeded }
+			}
+			add_character_flag = bno_pussy_mileage_trait_seeded
+			if = {
+				limit = {
+					is_female = yes
+					NOT = { has_trait = bno_pussy_mileage }
+				}
+				add_trait = bno_pussy_mileage_1
+			}
+			if = {
+				limit = {
+					is_female = yes
+					is_married = yes
+					any_spouse = {
+						is_bbc = yes
+					}
+				}
+				change_trait_rank = {
+					trait = bno_pussy_mileage
+					rank = 1
+				}
+				add_trait_xp = {
+					trait = bno_pussy_mileage_2
+					value = bno_random_xp_positive
+				}
+			}
+			if = {
+				limit = {
+					is_female = yes
+					any_child = {
+						count >= 1
+					}
+				}
+				every_child = {
+					root = {
+						add_trait_xp = {
+							trait = bno_pussy_mileage_1
+							value = bno_random_xp_positive
+						}
+					}
+				}
+			}
+		}
+		trigger_event = bno_trait_seeding.0005
+	}
+}
+#Seed all character with body trait
+bno_trait_seeding.0005 = {
+	hidden = yes
+	immediate = {
+		if = {
+			limit = {
+				NOT = { has_character_flag = bno_body_traits_seeded }
+				has_character_flag = carn_dt_traits_seeded
+			}
+			add_character_flag = bno_body_traits_seeded
+			if = {
+				limit = {
+					is_female = yes
+				}
+				bno_lottery_tits_size = yes
+			}
+			if = {
+				limit = {
+					is_a_male = yes
+					is_bbc = no
+				}
+				bno_lottery_dick_size = yes
+			}
+			if = {
+				limit = {
+					is_a_male = yes
+					is_bbc = yes
+				}
+				bno_make_bbc_has_big_dick = yes
+			}
+		}
+		trigger_event = bno_trait_seeding.0006
+	}
+}
+#remove BBC from non african
+bno_trait_seeding.0006 = {
+	hidden = yes
+	immediate = {
+		if = {
+			limit = {
+				is_bbc = yes
+				NOT = { has_trait = bno_blood }
+			}
+			remove_trait = bno_bbc
+		}
 	}
 }

@@ -1272,43 +1272,65 @@ get_hated_non_black_courtier_scope = {
 }
 
 bno_have_sex_with_effects = {
+	carn_sex_scene_character_is_giving_player_effect = yes
+	carn_sex_scene_is_consensual_effect = yes
+	carn_sex_scene_is_vaginal_effect = yes
+	carn_sex_scene_is_cum_inside_effect = yes
+
+	carn_had_sex_with_effect_v2 = {
+		PARTNER = $PARTNER$
+	}
+
+	#Clean Up Flags
 	if = {
-		limit = {
-			OR = {
-				NAND = {
-					is_a_male = yes
-					$PARTNER$ = { is_a_male = yes }
-				}
-				NAND = {
-					is_a_girl = yes
-					$PARTNER$ = { is_a_girl = yes }
-				}
-			}
-			exists = $PARTNER$
-			$PARTNER$ = { is_alive = yes }
-		}
-		set_variable = {
-			name = recent_sex_partner
-			value = $PARTNER$
-		}
-		bno_father_or_mother = yes
+		limit = { NOT = { exists = scope:carn_sex_scene } }
+		carn_sex_scene_clean_up_flags_effect = yes
+		carn_sex_scene_clean_up_character_flags_effect = yes
 		$PARTNER$ = {
-			bno_father_or_mother = yes
-			set_variable = {
-				name = recent_sex_partner
-				value = prev
-			}
-		}
-		carn_had_sex_with_effect = {
-			CHARACTER_1 = this
-			CHARACTER_2 = $PARTNER$
-			C1_PREGNANCY_CHANCE = carn_sex_pregnancy_chance
-			C2_PREGNANCY_CHANCE = carn_sex_pregnancy_chance
-			DRAMA = yes
-			STRESS_EFFECTS = yes
+			carn_sex_scene_clean_up_character_flags_effect = yes
 		}
 	}
 }
+
+# BACKUP
+#bno_have_sex_with_effects = {
+#	if = {
+#		limit = {
+#			OR = {
+#				NAND = {
+#					is_a_male = yes
+#					$PARTNER$ = { is_a_male = yes }
+#				}
+#				NAND = {
+#					is_a_girl = yes
+#					$PARTNER$ = { is_a_girl = yes }
+#				}
+#			}
+#			exists = $PARTNER$
+#			$PARTNER$ = { is_alive = yes }
+#		}
+#		set_variable = {
+#			name = recent_sex_partner
+#			value = $PARTNER$
+#		}
+#		bno_father_or_mother = yes
+#		$PARTNER$ = {
+#			bno_father_or_mother = yes
+#			set_variable = {
+#				name = recent_sex_partner
+#				value = prev
+#			}
+#		}
+#		carn_had_sex_with_effect = {
+#			CHARACTER_1 = this
+#			CHARACTER_2 = $PARTNER$
+#			C1_PREGNANCY_CHANCE = carn_sex_pregnancy_chance
+#			C2_PREGNANCY_CHANCE = carn_sex_pregnancy_chance
+#			DRAMA = yes
+#			STRESS_EFFECTS = yes
+#		}
+#	}
+#}
 
 bno_remove_whitegirl_traits = {
 	remove_trait = bno_curious
@@ -1712,19 +1734,28 @@ fuck_random_local_bbc = {
 		}
 		ordered_in_list = {
 			list = local_bbc_list
+			limit = {
+				is_alive = yes
+			}
 			order_by = gold
 			save_scope_as = local_bbc
 		}
-		send_interface_message = {
-			type = bno_blacked_events
-			title = bno_slut_0015_notification.title
-			right_icon = root
-			service_fee = yes
-			prostitution = yes
-			bno_have_sex_with_effects = {
-				PARTNER = scope:local_bbc
+		if = {
+			limit = {
+				exists = scope:local_bbc
 			}
-			desc = bno_slut_0015_notification.desc
+			send_interface_message = {
+				type = bno_blacked_events
+				title = bno_slut_0015_notification.title
+				right_icon = root
+				service_fee = yes
+				prostitution = yes
+				bno_have_sex_with_effects = {
+					PARTNER = scope:local_bbc
+				}
+				bno_increase_whore_level = yes
+				desc = bno_slut_0015_notification.desc
+			}
 		}
 	}
 }
