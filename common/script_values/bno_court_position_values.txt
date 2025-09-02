@@ -365,7 +365,136 @@ bno_bbc_worshipper_aptitude = {
         bno_pussy_mileage_1 = {
             add = {
                 value = -10
-
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_pussy_mileage_1
+                            value >= 1
+                        }
+                    }
+                    add = -10
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_pussy_mileage_1
+                            value >= 30
+                        }
+                    }
+                    add = -10
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_pussy_mileage_1
+                            value >= 60
+                        }
+                    }
+                    add = -10
+                }
+                desc = bno_court_position_trait_bno_pussy_mileage_1
+            }
+        }
+        bno_pussy_mileage_2 = {
+            add = {
+                value = -50
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_pussy_mileage_2
+                            value >= 30
+                        }
+                    }
+                    add = -10
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_pussy_mileage_2
+                            value >= 60
+                        }
+                    }
+                    add = -10
+                }
+                desc = bno_court_position_trait_bno_pussy_mileage_2
+            }
+        }
+        bno_pussy_mileage_3 = {
+            add = {
+                value = -80
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_pussy_mileage_3
+                            value >= 30
+                        }
+                    }
+                    add = -10
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_pussy_mileage_3
+                            value >= 60
+                        }
+                    }
+                    add = -10
+                }
+                desc = bno_court_position_trait_bno_pussy_mileage_3
+            }
+        }
+        bno_pussy_mileage_4 = {
+            add = {
+                value = -110
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_pussy_mileage_4
+                            value >= 30
+                        }
+                    }
+                    add = -10
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_pussy_mileage_4
+                            value >= 60
+                        }
+                    }
+                    add = -10
+                }
+                desc = bno_court_position_trait_bno_pussy_mileage_4
+            }
+        }
+        bno_pussy_mileage_5 = {
+            add = {
+                value = -140
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_pussy_mileage_5
+                            value >= 30
+                        }
+                    }
+                    add = -10
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_pussy_mileage_5
+                            value >= 60
+                        }
+                    }
+                    add = -10
+                }
+                desc = bno_court_position_trait_bno_pussy_mileage_5
+            }
+        }
+        bno_pussy_mileage_6 = {
+            add = {
+                value = -170
+                desc = bno_court_position_trait_bno_pussy_mileage_6
             }
         }
     }
