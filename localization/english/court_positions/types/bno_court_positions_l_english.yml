@@ -10,11 +10,21 @@ bno_court_position_trait_snowbunny: "[GetTrait('bno_snowbunny').GetName( ROOT.Ch
 bno_court_position_trait_qos: "[GetTrait('bno_qos').GetName( ROOT.Char )]"
 bno_court_position_trait_mindless: "[GetTrait('bno_mindless_bbc_slut').GetName( ROOT.Char )]"
 
+bno_court_position_trait_bno_bbc_whore_1: "[GetTrait('bno_bbc_whore_1').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_player_1: "[GetTrait('bno_bbc_whore_player_1').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_2: "[GetTrait('bno_bbc_whore_2').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_player_2: "[GetTrait('bno_bbc_whore_player_2').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_3: "[GetTrait('bno_bbc_whore_3').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_player_3: "[GetTrait('bno_bbc_whore_player_3').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_4: "[GetTrait('bno_bbc_whore_4').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_player_4: "[GetTrait('bno_bbc_whore_player_4').GetName( ROOT.Char )]"
+
 bno_court_position_trait_beauty_good_1: "[GetTrait('beauty_good_1').GetName( ROOT.Char )]"
 bno_court_position_trait_beauty_good_2: "[GetTrait('beauty_good_2').GetName( ROOT.Char )]"
 bno_court_position_trait_beauty_good_3: "[GetTrait('beauty_good_3').GetName( ROOT.Char )]"
 
 bno_court_position_trait_bno_lifestyle_bbc_priestess: "[GetTrait('bno_lifestyle_bbc_priestess').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_lifestyle_bbc_priest: "[GetTrait('bno_lifestyle_bbc_priest').GetName( ROOT.Char )]"
 
 bno_court_position_trait_tits_big_good_1: "[GetTrait('tits_big_good_1').GetName( ROOT.Char )]"
 bno_court_position_trait_tits_big_good_2: "[GetTrait('tits_big_good_2').GetName( ROOT.Char )]"
@@ -28,6 +38,7 @@ hire_bbc_worshipper_decision_effect_tooltip: "You will be presented with a group
 bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$Becomes [bno_whore|E] for their [liege|E]"
 
 bno_bbc_priestess_employer_custom_effect_description: "$BULLET$Becomes [bbc_evangelist|E] for their [liege|E]"
+bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$"
 
 bno_bbc_priestess_court_position: "BBC Priestess"
 bno_bbc_priestess_court_position_desc: "Slick with sacred oil, they shove their throbbing cocks and slick pussies into every nobleman's mouth and hole until the entire realm worships their black god's thick load."

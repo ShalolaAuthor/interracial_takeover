@@ -1,41 +1,319 @@
-﻿bno_bbc_worshipper_aptitude = {
+﻿### BBC Worshipper ###
+
+#bno_bbc_worshipper_aptitude
+#bno_bbc_worshipper_salary
+#bno_bbc_worshipper_revoke_cost
+#bno_bbc_worshipper_candidate_score
+#bno_bbc_worshipper_piety
+#bno_bbc_worshipper_prestige
+#bno_bbc_worshipper_gold
+
+bno_bbc_worshipper_aptitude = {
+    #max 278 needs to -pussy wear
     value = 0
+    switch = {
+        trigger = has_trait
+        bno_bbc_whore_1 = {
+            add = {
+                value = 5
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_1
+                            value >= 1
+                        }
+                    }
+                    value = 5
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_1
+                            value >= 30
+                        }
+                    }
+                    value = 5
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_1
+                            value >= 60
+                        }
+                    }
+                    value = 5
+                }
+                desc = bno_court_position_trait_bno_bbc_whore_1
+            }
+        }
+        bno_bbc_whore_player_1 = {
+            add = {
+                value = 5
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_player_1
+                            value >= 1
+                        }
+                    }
+                    value = 5
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_player_1
+                            value >= 30
+                        }
+                    }
+                    value = 5
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_player_1
+                            value >= 60
+                        }
+                    }
+                    value = 5
+                }
+                desc = bno_court_position_trait_bno_bbc_whore_player_1
+            }
+        }
+        bno_bbc_whore_2 = {
+            add = {
+                value = 25
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_2
+                            value >= 30
+                        }
+                    }
+                    value = 5
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_2
+                            value >= 60
+                        }
+                    }
+                    value = 5
+                }
+                desc = bno_court_position_trait_bno_bbc_whore_2
+            }
+        }
+        bno_bbc_whore_player_2 = {
+            add = {
+                value = 25
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_player_2
+                            value >= 30
+                        }
+                    }
+                    value = 5
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_player_2
+                            value >= 60
+                        }
+                    }
+                    value = 5
+                }
+                desc = bno_court_position_trait_bno_bbc_whore_player_2
+            }
+        }
+        bno_bbc_whore_3 = {
+            add = {
+                value = 40
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_3
+                            value >= 30
+                        }
+                    }
+                    value = 5
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_3
+                            value >= 60
+                        }
+                    }
+                    value = 5
+                }
+                desc = bno_court_position_trait_bno_bbc_whore_3
+            }
+        }
+        bno_bbc_whore_player_3 = {
+            add = {
+                value = 40
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_player_3
+                            value >= 30
+                        }
+                    }
+                    value = 5
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_bbc_whore_player_3
+                            value >= 60
+                        }
+                    }
+                    value = 5
+                }
+                desc = bno_court_position_trait_bno_bbc_whore_player_3
+            }
+        }
+        bno_bbc_whore_4 = {
+            add = {
+                value = 60
+                desc = bno_court_position_trait_bno_bbc_whore_4
+            }
+        }
+        bno_bbc_whore_player_4 = {
+            add = {
+                value = 60
+                desc = bno_court_position_trait_bno_bbc_whore_player_4
+            }
+        }
+    }
     if = {
         limit = { has_trait = bno_pure_white }
-        add = {
-            value = 25
+        multiply = {
+            value = 1.1
             desc = bno_court_position_trait_bno_pure_white
         }
     }
     switch = {
         trigger = has_trait
         bno_curious = {
-            add = {
-                value = 10
+            multiply = {
+                value = 1.1
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_curious
+                            value >= 30
+                        }
+                    }
+                    add = 0.1
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_curious
+                            value >= 60
+                        }
+                    }
+                    add = 0.1
+                }
                 desc = bno_court_position_trait_curious
             }
         }
         bno_blacked = {
-            add = {
-                value = 20
+            multiply = {
+                value = 1.4
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_blacked
+                            value >= 30
+                        }
+                    }
+                    add = 0.1
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_blacked
+                            value >= 60
+                        }
+                    }
+                    add = 0.1
+                }
                 desc = bno_court_position_trait_blacked
             }
         }
         bno_snowbunny = {
-            add = {
-                value = 30
+            multiply = {
+                value = 1.7
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_snowbunny
+                            value >= 30
+                        }
+                    }
+                    add = 0.1
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_snowbunny
+                            value >= 60
+                        }
+                    }
+                    add = 0.1
+                }
                 desc = bno_court_position_trait_snowbunny
             }
         }
         bno_qos = {
-            add = {
-                value = 40
+            multiply = {
+                value = 2
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_qos
+                            value >= 30
+                        }
+                    }
+                    add = 0.1
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_qos
+                            value >= 60
+                        }
+                    }
+                    add = 0.1
+                }
                 desc = bno_court_position_trait_qos
             }
         }
         bno_mindless_bbc_slut = {
-            add = {
-                value = 50
+            multiply = {
+                value = 2.3
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_mindless_bbc_slut
+                            value >= 30
+                        }
+                    }
+                    add = 0.1
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_mindless_bbc_slut
+                            value >= 80
+                        }
+                    }
+                    add = 0.1
+                }
                 desc = bno_court_position_trait_mindless
             }
         }
@@ -44,19 +322,19 @@
         trigger = has_trait
         beauty_good_1 = {
             multiply = {
-                value = 1.2
+                value = 1.1
                 desc = bno_court_position_trait_beauty_good_1
             }
         }
         beauty_good_2 = {
             multiply = {
-                value = 1.4
+                value = 1.2
                 desc = bno_court_position_trait_beauty_good_2
             }
         }
         beauty_good_3 = {
             multiply = {
-                value = 1.6
+                value = 1.3
                 desc = bno_court_position_trait_beauty_good_3
             }
         }
@@ -65,28 +343,21 @@
         trigger = has_trait
         tits_big_good_1 = {
             multiply = {
-                value = 1.2
+                value = 1.1
                 desc = bno_court_position_trait_tits_big_good_1
             }
         }
         tits_big_good_2 = {
             multiply = {
-                value = 1.4
+                value = 1.2
                 desc = bno_court_position_trait_tits_big_good_2
             }
         }
         tits_big_good_3 = {
             multiply = {
-                value = 1.6
+                value = 1.3
                 desc = bno_court_position_trait_tits_big_good_3
             }
-        }
-    }
-    if = {
-        limit = { has_trait = fecund }
-        multiply = {
-            value = 1.2
-            desc = bno_court_position_trait_fecund
         }
     }
 }
@@ -173,81 +444,187 @@ bno_bbc_worshipper_candidate_score = {
 	}
 }
 
-# BBC Priest/Priestess
-# max 100
+bno_bbc_worshipper_piety = {
+    value = 0
+    add = scope:bbc_worshipper.piety
+}
+
+bno_bbc_worshipper_prestige = {
+    value = 0
+    add = scope:bbc_worshipper.prestige
+}
+
+bno_bbc_worshipper_gold = {
+    value = 0
+    add = scope:bbc_worshipper.gold
+}
+
+### BBC Priestess
+
+#bno_bbc_priestess_aptitude
+#bno_bbc_priestess_revoke_cost
+#bno_bbc_priestess_salary
+#bno_bbc_priestess_candidate_score
+
 bno_bbc_priestess_aptitude = {
     value = 0
+    # BBC Priestess Max:  139.4, priest lvl 3 + pure white + mindless + beauty lvl 3 + tits lvl 3 
+
     if = {
         limit = {
             has_trait = bno_lifestyle_bbc_priestess
-            has_trait_xp = {
-                trait = bno_lifestyle_bbc_priestess
-                value >= 100
-            }
-        }
-        add = { 
-            value = 40
-            desc = bno_court_position_trait_bno_lifestyle_bbc_priestess 
-        }
-    }
-    else_if = {
-        limit = {
-            has_trait = bno_lifestyle_bbc_priestess
-            has_trait_xp = {
-                trait = bno_lifestyle_bbc_priestess
-                value >= 50
-            }
-        }
-        add = {
-            value = 20
-            desc = bno_court_position_trait_bno_lifestyle_bbc_priestess
-        }
-    }
-    else_if = {
-        limit = {
-            has_trait = bno_lifestyle_bbc_priestess
-            has_trait_xp = {
-                trait = bno_lifestyle_bbc_priestess
-                value >= 0
-            }
         }
         add = {
             value = 10
+            if = {
+                limit = {
+                    has_trait_xp = {
+                        trait = bno_lifestyle_bbc_priestess
+                        value >= 50
+                    }
+                }
+                add = 10
+            }
+            if = {
+                limit = {
+                    has_trait_xp = {
+                        trait = bno_lifestyle_bbc_priestess
+                        value >= 100
+                    }
+                }
+                add = 10
+            }
             desc = bno_court_position_trait_bno_lifestyle_bbc_priestess
         }
     }
     if = {
         limit = { has_trait = bno_pure_white }
-        add = {
-            value = 20
+        multiply = {
+            value = 1.1
             desc = bno_court_position_trait_bno_pure_white
         }
     }
     switch = {
         trigger = has_trait
+        bno_curious = {
+            multiply = {
+                value = 1.1
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_curious
+                            value >= 30
+                        }
+                    }
+                    add = 0.1
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_curious
+                            value >= 60
+                        }
+                    }
+                    add = 0.1
+                }
+                desc = bno_court_position_trait_curious
+            }
+        }
+        bno_blacked = {
+            multiply = {
+                value = 1.4
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_blacked
+                            value >= 30
+                        }
+                    }
+                    add = 0.1
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_blacked
+                            value >= 60
+                        }
+                    }
+                    add = 0.1
+                }
+                desc = bno_court_position_trait_blacked
+            }
+        }
         bno_snowbunny = {
-            add = {
-                value = 20
+            multiply = {
+                value = 1.7
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_snowbunny
+                            value >= 30
+                        }
+                    }
+                    add = 0.1
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_snowbunny
+                            value >= 60
+                        }
+                    }
+                    add = 0.1
+                }
                 desc = bno_court_position_trait_snowbunny
             }
         }
         bno_qos = {
-            add = {
-                value = 30
+            multiply = {
+                value = 2
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_qos
+                            value >= 30
+                        }
+                    }
+                    add = 0.1
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_qos
+                            value >= 60
+                        }
+                    }
+                    add = 0.1
+                }
                 desc = bno_court_position_trait_qos
             }
         }
         bno_mindless_bbc_slut = {
-            add = {
-                value = 40
+            multiply = {
+                value = 2.3
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_mindless_bbc_slut
+                            value >= 30
+                        }
+                    }
+                    add = 0.1
+                }
+                if = {
+                    limit = {
+                        has_trait_xp = {
+                            trait = bno_mindless_bbc_slut
+                            value >= 80
+                        }
+                    }
+                    add = 0.1
+                }
                 desc = bno_court_position_trait_mindless
             }
-        }
-    }
-    if = {
-        limit = { has_trait = bno_bbc }
-        add = {
-            value = 50
         }
     }
     switch = {
@@ -286,27 +663,6 @@ bno_bbc_priestess_aptitude = {
             }
         }
         tits_big_good_3 = {
-            multiply = {
-                value = 1.3
-                desc = bno_court_position_trait_tits_big_good_3
-            }
-        }
-    }
-    switch = {
-        trigger = has_trait
-        dick_big_good_1 = {
-            multiply = {
-                value = 1.1
-                desc = bno_court_position_trait_tits_big_good_1
-            }
-        }
-        dick_big_good_2 = {
-            multiply = {
-                value = 1.2
-                desc = bno_court_position_trait_tits_big_good_2
-            }
-        }
-        dick_big_good_3 = {
             multiply = {
                 value = 1.3
                 desc = bno_court_position_trait_tits_big_good_3
@@ -397,7 +753,150 @@ bno_bbc_priestess_candidate_score = {
 	}
 }
 
-bbc_whore_piety = {
+### BBC Priest
+
+#bno_bbc_priest_aptitude
+#bno_bbc_priest_revoke_cost
+#bno_bbc_priest_salary
+#bno_bbc_priest_candidate_score
+
+bno_bbc_priest_aptitude = {
     value = 0
-    add = scope:bbc_worshipper.piety
+    # BBC Priest Max: 101.4, priest lvl 3 + bbc + beauty lvl 3
+    if = {
+        limit = {
+            has_trait = bno_lifestyle_bbc_priest
+        }
+        add = {
+            value = 10
+            if = {
+                limit = {
+                    has_trait_xp = {
+                        trait = bno_lifestyle_bbc_priest
+                        value >= 50
+                    }
+                }
+                add = 10
+            }
+            if = {
+                limit = {
+                    has_trait_xp = {
+                        trait = bno_lifestyle_bbc_priest
+                        value >= 100
+                    }
+                }
+                add = 10
+            }
+            desc = bno_court_position_trait_bno_lifestyle_bbc_priest
+        }
+    }
+    if = {
+        limit = { has_trait = bno_bbc }
+        add = {
+            value = 30
+        }
+    }
+    switch = {
+        trigger = has_trait
+        beauty_good_1 = {
+            multiply = {
+                value = 1.1
+                desc = bno_court_position_trait_beauty_good_1
+            }
+        }
+        beauty_good_2 = {
+            multiply = {
+                value = 1.2
+                desc = bno_court_position_trait_beauty_good_2
+            }
+        }
+        beauty_good_3 = {
+            multiply = {
+                value = 1.3
+                desc = bno_court_position_trait_beauty_good_3
+            }
+        }
+    }
+}
+
+bno_bbc_priest_revoke_cost = {
+    value = major_court_position_prestige_revoke_cost
+	# Set to 0 via obligation hook
+	if = {
+		limit = {
+			court_position_obligation_hook_salary_trigger = {
+				POS = bno_bbc_priest
+				LIEGE = scope:liege
+			}
+		}
+		multiply = 0
+	}
+	if = {
+		limit = {
+			exists = this
+			is_ai = yes
+		}
+		multiply = 0
+	}
+}
+
+bno_bbc_priest_salary = {
+    value = major_court_position_salary # Update X_salary_tooltip if script_value is changed
+	# Set to 0 with Dynasty Perk Inner Circle
+	if = {
+		limit = { court_position_inner_circle_salary_trigger = { POS = bno_bbc_worshipper } }
+		multiply = {
+			value = 0
+			desc = inner_circle_salary_mod
+			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+		}
+	}
+	# Halved with obligation hook
+	else_if = {
+		limit = {
+			court_position_obligation_hook_salary_trigger = {
+				POS = bno_bbc_priest
+				LIEGE = scope:liege
+			}
+		}
+		multiply = {
+			value = 0.5
+			desc = obligation_hook_salary
+		}
+	}
+	# Halved salary
+	if = {
+		limit = {
+			court_position_halved_salary_trigger = { POS = bno_bbc_priest }
+		}
+		multiply = {
+			value = 0.5
+			desc = court_position_halved_salary
+			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+		}
+	}
+	# Increased salary
+	if = {
+		limit = {
+			court_position_increased_salary_trigger = { POS = bno_bbc_priest }
+		}
+		multiply = {
+			value = 1.5
+			desc = court_position_increased_salary
+			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+		}
+	}
+}
+
+bno_bbc_priest_candidate_score = {
+    value = 0
+    add = scope:base_value
+	add = court_position_candidate_score_base_value
+	add = court_position_candidate_aptitude_value
+    if = { # To stop petitioned positions immediately being fired by the AI
+		limit = {
+			court_position_petition_ai_weight_trigger = { ROLE = bno_bbc_priest }
+		}
+		add = 1000
+	}
 }

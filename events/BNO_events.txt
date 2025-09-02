@@ -420,9 +420,6 @@ bno_events.0007 = {
 					culture = scope:european.culture
 					save_scope_as = excellent_skill_option
 				}
-				scope:excellent_skill_option = {
-					remove_bad_traits = yes
-				}
 			}
 			random = {
 				chance = 80
@@ -434,9 +431,6 @@ bno_events.0007 = {
 					culture = scope:european.culture
 					save_scope_as = high_skill_option
 				}
-				scope:high_skill_option = {
-					remove_bad_traits = yes
-				}
 			}
 			random = {
 				chance = 100
@@ -447,9 +441,6 @@ bno_events.0007 = {
 					faith = scope:european.faith
 					culture = scope:european.culture
 					save_scope_as = low_skill_option
-				}
-				scope:low_skill_option = {
-					remove_bad_traits = yes
 				}
 			}
 		}

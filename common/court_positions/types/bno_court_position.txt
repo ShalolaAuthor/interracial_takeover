@@ -36,6 +36,10 @@
             liege = scope:liege
             is_landed = no
             is_married = no
+            OR = {
+                has_trait = bno_bbc_whore
+                has_trait = bno_bbc_whore_player
+            }
             has_trait = bno_whitegirl
             has_trait = beauty_good
             has_trait = tits_big_good
@@ -349,7 +353,7 @@ bno_bbc_priest_court_position = {
 	aptitude_level_breakpoints = { 20 40 60 80 }
 
     aptitude = {
-        value = bno_bbc_priestess_aptitude
+        value = bno_bbc_priest_aptitude
     }
 
     is_shown = {
@@ -370,7 +374,7 @@ bno_bbc_priest_court_position = {
 
     valid_character = {
         scope:employee = {
-            has_trait = bno_lifestyle_bbc_priestess
+            has_trait = bno_lifestyle_bbc_priest
             is_faith_bbcs = yes
             is_a_male = yes
         }
@@ -378,14 +382,14 @@ bno_bbc_priest_court_position = {
 
     revoke_cost = {
         piety = {
-            value = bno_bbc_priestess_revoke_cost
+            value = bno_bbc_priest_revoke_cost
         }
     }
 
     salary = {
         round = no
         gold = {
-            value = bno_bbc_priestess_salary
+            value = bno_bbc_priest_salary
         }
     }
 
@@ -454,7 +458,7 @@ bno_bbc_priest_court_position = {
     	stress_loss_per_piety_level = 0.1
     }
 
-    custom_employer_modifier_description = bno_bbc_priestess_employer_custom_effect_description
+    custom_employer_modifier_description = bno_bbc_priest_employer_custom_effect_description
 
     on_court_position_received = {
         scope:employee = {
@@ -496,6 +500,6 @@ bno_bbc_priest_court_position = {
     
     candidate_score = {
         value = 150
-        add = bno_bbc_priestess_candidate_score
+        add = bno_bbc_priest_candidate_score
     }
 }

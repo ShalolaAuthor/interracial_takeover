@@ -85,15 +85,15 @@
  trait_track_bno_lifestyle_bbc_priestess_desc: "Devotees der [bno_religion|E], die ihre Körper zum Dienst anbieten, ihre Leidenschaften sind eine Währung, die im ganzen Reich verehrt wird." #deepl:2131512570
  bno_lifestyle_bbc_priestess: "BBC-Priesterin" #deepl:4103226539
  bno_lifestyle_bbc_priestess_3.female: "Gesalbte BBC-Priesterin" #deepl:1711972024
- bno_lifestyle_bbc_priestess_3.male: "Gesalbter BBC-Priester" #deepl:3190601776
+ bno_lifestyle_bbc_priest_3.male: "Gesalbter BBC-Priester" #deepl:3190601776
  bno_lifestyle_bbc_priestess_2.female: "Devotee BBC-Priesterin" #deepl:3801408750
- bno_lifestyle_bbc_priestess_2.male: "Devotee BBC Priester" #deepl:3449325331
+ bno_lifestyle_bbc_priest_2.male: "Devotee BBC Priester" #deepl:3449325331
  bno_lifestyle_bbc_priestess_1.female: "Eingeweihte BBC-Priesterin" #deepl:3330722162
- bno_lifestyle_bbc_priestess_1.male: "BBC-Priester initiieren" #deepl:1224437654
+ bno_lifestyle_bbc_priest_1.male: "BBC-Priester initiieren" #deepl:1224437654
  bno_lifestyle_bbc_priestess_desc: "Novizen im Dienst der [bno_religion|E], die den Weg der Hingabe und des Opfers lernen." #deepl:4171282568
  bno_lifestyle_bbc_priestess_3_character_desc.female: "Die gesalbte Priesterin, die mit heiligen Ölen gezeichnet ist und einen wachsamen Blick trägt, bietet ihre fruchtbare Gestalt als lebendigen Tempel für das mächtige Verlangen der [bno_religion|E] an." #deepl:3928619492
- bno_lifestyle_bbc_priestess_3_character_desc.male: "Seine Haut schimmerte glitschig von rituellem Öl, ein Zeugnis seiner Hingabe: Der Gesalbte Priester dient der [bno_religion|E] mit jedem kräftigen Stoß seines [bno_bbc|E]." #deepl:1713712599
+ bno_lifestyle_bbc_priest_3_character_desc.male: "Seine Haut schimmerte glitschig von rituellem Öl, ein Zeugnis seiner Hingabe: Der Gesalbte Priester dient der [bno_religion|E] mit jedem kräftigen Stoß seines [bno_bbc|E]." #deepl:1713712599
  bno_lifestyle_bbc_priestess_2_character_desc.female: "Mit großen, sehnsüchtigen Augen und Händen, die bei der leichtesten Berührung zittern, wartet die Gottgeweihte auf den Moment, in dem sie ihren Körper als heiliges Gefäß für den Segen von [bno_religion|E] anbieten kann." #deepl:2566690395
- bno_lifestyle_bbc_priestess_2_character_desc.male: "Er kniet vor dem Altar, jung und begierig, jeder angespannte Muskel brummt vor Erwartung, während er darauf wartet, die mächtige Berührung von [bno_religion|E] zu empfangen und nach ihrem Bild geformt zu werden." #deepl:2960237478
+ bno_lifestyle_bbc_priest_2_character_desc.male: "Er kniet vor dem Altar, jung und begierig, jeder angespannte Muskel brummt vor Erwartung, während er darauf wartet, die mächtige Berührung von [bno_religion|E] zu empfangen und nach ihrem Bild geformt zu werden." #deepl:2960237478
  bno_lifestyle_bbc_priestess_1_character_desc.female: "Frisch in weißes Leinen gekleidet, geht die Eingeweihte barfuß durch die Tempelgärten, ihren Blick auf die unsichtbare Gegenwart der [bno_religion|E] gerichtet, die in der Brise geflüstert wird." #deepl:3441168376
- bno_lifestyle_bbc_priestess_1_character_desc.male: "Seine Stimme zittert, während er heilige Phrasen rezitiert, ein frisch rasierter Jüngling, der durch seine unerschütterliche Hingabe und geflüsterte Gebete die Gunst der [bno_religion|E] sucht." #deepl:3112965113
+ bno_lifestyle_bbc_priest_1_character_desc.male: "Seine Stimme zittert, während er heilige Phrasen rezitiert, ein frisch rasierter Jüngling, der durch seine unerschütterliche Hingabe und geflüsterte Gebete die Gunst der [bno_religion|E] sucht." #deepl:3112965113

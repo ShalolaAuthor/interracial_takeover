@@ -165,7 +165,7 @@ bno_caged_effect = {
 	}
 }
 
-### Body Parts Traits
+### Body Parts Traits ###
 
 #decrease_dick_size
 #become_smaller_dick_effect <

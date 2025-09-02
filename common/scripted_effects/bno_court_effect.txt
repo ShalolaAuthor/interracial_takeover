@@ -202,30 +202,35 @@ bbc_worshipper_give_all_spoil_to_liege = {
         save_scope_as = TARGET_CHARACTER
     }
     if = {
-        limit = { gold > 1 }
-        pay_short_term_gold = {
-            target = liege
-            gold = this.gold
+        limit = {
+            exists = scope:TARGET_CHARACTER
         }
-    }
-    if = {
-        limit = { piety > 1 }
-        liege ?= {
-            add_piety = bbc_whore_piety
+        if = {
+            limit = { gold > 1 }
+            pay_short_term_gold = {
+                target = scope:TARGET_CHARACTER
+                gold = bno_bbc_worshipper_gold
+            }
         }
-        add_piety = {
-            value = bbc_whore_piety
-            multiply = -1
+        if = {
+            limit = { piety > 1 }
+            scope:TARGET_CHARACTER = {
+                add_piety = bno_bbc_worshipper_piety
+            }
+            add_piety = {
+                value = bno_bbc_worshipper_piety
+                multiply = -1
+            }
         }
-    }
-    if = {
-        limit = { prestige > 1 }
-        liege ?= {
-            add_prestige = root.prestige
-        }
-        add_prestige = {
-            value = root.prestige
-            multiply = -1
+        if = {
+            limit = { prestige > 1 }
+            scope:TARGET_CHARACTER = {
+                add_prestige = bno_bbc_worshipper_prestige
+            }
+            add_prestige = {
+                value = bno_bbc_worshipper_prestige
+                multiply = -1
+            }
         }
     }
 }
