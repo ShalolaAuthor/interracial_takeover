@@ -5,6 +5,9 @@ bno_character_initialization.0001 = {
 	hidden = yes
 	immediate = {
 		every_living_character = {
+			limit = {
+				is_alive = yes
+			}
 			trigger_event = { on_action = bno_trait_initialization_pulse }
 		}
 	}
@@ -15,6 +18,9 @@ namespace = bno_trait_seeding
 #African Traits
 bno_trait_seeding.0001 = {
 	hidden = yes
+	trigger = {
+		is_alive = yes
+	}
 	immediate = {
 		if = {
 			limit = {

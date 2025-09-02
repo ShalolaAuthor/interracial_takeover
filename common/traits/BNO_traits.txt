@@ -2,139 +2,127 @@
 
 #WHITEBOY TRAITS
 
-# Level 1 Sissy: Cuck Tendencies
+# Level 1 — Cuck Tendencies
 bno_cuckish = {
 	group = bno_whiteboi
 	level = 1
-	
-	attraction_opinion = -5
-	general_opinion = -5
-	spouse_opinion = 10
-	monthly_prestige = -0.2
-	prowess = -2
-	
+	attraction_opinion = -10
+	general_opinion = -8
+	spouse_opinion = 5
+	monthly_prestige = -0.30
+	martial = -1
+	prowess = -3
+	stress_gain_mult = 0.05
+	personal_scheme_phase_duration_add = 10
 	ruler_designer_cost = 0
-
-	#fertility = -0.10
-
 	track = {
 		33 = {
+			monthly_prestige = -0.05
+			prowess = -1
 		}
 		66 = {
+			martial = -1
+			stress_gain_mult = 0.05
 		}
 	}
-	
 	flag = carn_no_consequences_for_extramarital_sex_with_others
-	#ai_sociability = high_negative_ai_value
-	monthly_track_xp_degradation = {
-		change = 1
-	}
 }
 
-# Level 2 Sissy: Cuck
+# Level 2 — Cuck
 bno_cuck = {
 	group = bno_whiteboi
 	level = 2
-	
-	attraction_opinion = -7
-	general_opinion = -5
-	spouse_opinion = 15
-	monthly_prestige = -0.5
-	
-	martial = -3
-	prowess = -2
-
+	attraction_opinion = -15
+	general_opinion = -10
+	spouse_opinion = 8
+	monthly_prestige = -0.55
+	martial = -2
+	prowess = -4
+	stress_gain_mult = 0.10
+	dread_decay_mult = 0.10
+	personal_scheme_phase_duration_add = 20
 	track = {
 		33 = {
+			monthly_prestige = -0.10
+			prowess = -1
 		}
 		66 = {
+			martial = -2
+			max_personal_schemes_add = -1
 		}
 	}
-	
 	ruler_designer_cost = -10
-	
-	# child_inheritance_sex = male
-	#fertility = -0.10
-	
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
-	monthly_track_xp_degradation = {
-		change = 1
-	}
+	monthly_track_xp_degradation = { change = 1 }
 }
 
-#Level 3 Sissy: Beta
+# Level 3 — Beta
 bno_beta = {
 	group = bno_whiteboi
 	level = 3
-	
-	attraction_opinion = -12
-	general_opinion = -10
-	spouse_opinion = 20
-	
-	monthly_prestige = -0.7
+	attraction_opinion = -25
+	general_opinion = -15
+	spouse_opinion = 12
+	monthly_prestige = -1.00
+	diplomacy = -2
 	martial = -4
-	prowess = -5
-	intrigue = 3
-	stewardship = 3
-	seduce_scheme_phase_duration_add = 20
-	fertility = -0.80
-
+	prowess = -7
+	intrigue = 0
+	stewardship = -1
+	fertility = -0.90
+	stress_gain_mult = 0.15
+	levy_maintenance = 0.02
+	personal_scheme_phase_duration_add = 30
 	track = {
 		33 = {
+			monthly_prestige = -0.15
+			martial = -1
 		}
 		66 = {
+			prowess = -1
+			levy_maintenance = 0.01
 		}
 	}
-
 	ruler_designer_cost = -30
-	
-	# child_inheritance_sex = male
-	
-	#flag = can_not_marry
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
-	monthly_track_xp_degradation = {
-		change = 1
-	}
 }
 
-#Level 4 Sissy: JoS
+# Level 4 — JoS
 bno_jos = {
 	group = bno_whiteboi
 	level = 4
-	
-	attraction_opinion = -25
-	general_opinion = -15
-	spouse_opinion = 50
-	
-	monthly_prestige = -1
-	martial = -6
-	prowess = -8
-	intrigue = 5
-	stewardship = 4
-	diplomacy = 4
-	seduce_scheme_phase_duration_add = major_scheme_phase_duration_malus_value
-	#max_personal_schemes_add = -1
-	
+	attraction_opinion = -40
+	general_opinion = -20
+	spouse_opinion = 20
+	monthly_prestige = -1.50
+	diplomacy = -3
+	martial = -5
+	prowess = -10
+	intrigue = -1
+	stewardship = -2
 	fertility = -1
-
+	stress_gain_mult = 0.20
+	knight_effectiveness_mult = -0.10
+	movement_speed = -0.05
+	personal_scheme_phase_duration_add = 45
 	track = {
 		33 = {
+			monthly_prestige = -0.25
+			martial = -1
 		}
 		66 = {
+			prowess = -1
+			knight_effectiveness_mult = -0.05
 		}
 	}
-	
 	ruler_designer_cost = -40
-	
-	#flag = can_not_marry
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
-	monthly_track_xp_degradation = {
-		change = 1
-	}
 }
+
+
 
 #Level 1 Chastity: Caged
 bno_caged = {

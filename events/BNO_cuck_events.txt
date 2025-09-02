@@ -763,7 +763,7 @@ bno_cuck.0006 = { #Just cuck bonds with bbc, gives court position
 	option = {
 		name = bno_cuck_0006.a
 		trigger = {
-			bodyguard_validity_trigger = { EMPLOYER = root }
+			can_employ_court_position_type = bodyguard_court_position
 		}
 		appoint_court_position = {
 			recipient = scope:target1
@@ -773,7 +773,7 @@ bno_cuck.0006 = { #Just cuck bonds with bbc, gives court position
 	option = {
 		name = bno_cuck_0006.b
 		trigger = {
-			master_of_horse_validity_trigger = { EMPLOYER = root }
+			can_employ_court_position_type = master_of_horse_court_position
 		}
 		appoint_court_position = {
 			recipient = scope:target1
@@ -783,7 +783,7 @@ bno_cuck.0006 = { #Just cuck bonds with bbc, gives court position
 	option = {
 		name = bno_cuck_0006.c
 		trigger = {
-			master_of_hunt_validity_trigger = { EMPLOYER = root }
+			can_employ_court_position_type = master_of_hunt_court_position
 		}
 		appoint_court_position = {
 			recipient = scope:target1
@@ -1278,6 +1278,14 @@ bno_cuck.0011 = {
 		any_close_family_member = {
 			is_a_girl = yes
 			is_adult = no
+			trigger_if = {
+				limit = {
+					exists = betrothed
+				}
+				betrothed = {
+					is_bbc = no
+				}
+			}
 			NOT = { has_character_flag = bno_cuck.0011 }
 			NOT = { has_trait = bno_blood }
 		}
@@ -1318,8 +1326,13 @@ bno_cuck.0011 = {
 	option = {
 		name = bno_cuck_0011.a
 		scope:target2 ?= {
+			if = {
+				limit = {
+					exists = betrothed
+				}
+				break_betrothal = betrothed
+			}
 			create_betrothal = scope:target1
-			add_courtier = scope:target1
 			set_relation_ward = scope:target1
 		}
 		scope:target1 ?= {

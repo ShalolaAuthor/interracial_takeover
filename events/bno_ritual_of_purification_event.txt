@@ -10,7 +10,7 @@ bno_ritual_of_purification.1111 = {
         has_trait = bno_blood
         NOT = { has_character_flag = bno_ritual_of_purification.1111 }
         OR = {
-            mother = {
+            mother ?= {
                 is_playable_character = yes
                 is_faith_bbcs = yes
                 is_bno_blacked_and_up = yes
@@ -18,7 +18,7 @@ bno_ritual_of_purification.1111 = {
                     has_council_position = councillor_court_chaplain
                 }
             }
-            real_father = {
+            real_father ?= {
                 is_playable_character = yes
                 is_faith_bbcs = yes
                 is_bbc = yes
@@ -33,7 +33,7 @@ bno_ritual_of_purification.1111 = {
         add_character_flag = bno_ritual_of_purification.1111
         if = {
             limit = {
-                mother = {
+                mother ?= {
                     is_playable_character = yes
                     is_faith_bbcs = yes
                     is_bno_blacked_and_up = yes
@@ -48,7 +48,7 @@ bno_ritual_of_purification.1111 = {
         }
         else_if = {
             limit = {
-                real_father = {
+                real_father ?= {
                     is_playable_character = yes
                     is_faith_bbcs = yes
                     is_bbc = yes

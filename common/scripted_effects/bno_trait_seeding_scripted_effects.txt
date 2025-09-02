@@ -51,19 +51,7 @@ bno_lottery_tits_size = {
 bno_make_bbc_trait_inactive = {
     if = {
         limit = { 
-            is_female = yes
-            is_a_futa = no
-        }
-        make_trait_inactive = bno_bbc
-        make_trait_inactive = dick_big_good_3
-    }
-    if = {
-        limit = {
-            is_female = yes
-            OR = {
-                has_inactive_trait = futa
-                has_inactive_trait = futa_genetic
-            }
+            is_a_girl = yes
         }
         make_trait_inactive = bno_bbc
         make_trait_inactive = dick_big_good_3

@@ -5,7 +5,10 @@ bno_non_playable.0001 = {
     hidden = yes
     trigger = {
         is_playable_character = no
+        is_bbc = yes
+        is_adult = yes
         liege ?= {
+            NOT = { has_character_flag = bno_non_playable.0001 }
             is_playable_character = yes
 
             OR = {
@@ -20,6 +23,10 @@ bno_non_playable.0001 = {
     }
     immediate = {
         liege = {
+            add_character_flag = {
+                flag = bno_non_playable.0001
+                months = { 3 6 }
+            }
             random_councillor = {
                 limit = {
                     has_council_position = councillor_steward

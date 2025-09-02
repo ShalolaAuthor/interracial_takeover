@@ -19,11 +19,11 @@ bno_curious.0001 = {
 		is_slut = no
 		NOT = { has_character_flag = bno_curious.0001 }
 		OR = {
-            mother = {
+            mother ?= {
                 is_playable_character = yes
                 is_bno_blacked_and_up = yes
             }
-            real_father = {
+            real_father ?= {
                 is_playable_character = yes
                 is_bbc = yes
             }
@@ -33,7 +33,7 @@ bno_curious.0001 = {
 	immediate = {
 		if = {
             limit = {
-                mother = {
+                mother ?= {
                     is_playable_character = yes
                     is_bno_blacked_and_up = yes
                 }
@@ -44,7 +44,7 @@ bno_curious.0001 = {
         }
         else_if = {
             limit = {
-                real_father = {
+                real_father ?= {
                     is_playable_character = yes
                     is_bbc = yes
                 }
