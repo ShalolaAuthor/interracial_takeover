@@ -372,6 +372,7 @@ bno_increase_pussy_wear = {
 				exists = scope:carn_sex_char_1
 				exists = scope:carn_sex_char_2
 			}
+			exists = scope:mother
 		}
 		scope:mother = {
 			if = {

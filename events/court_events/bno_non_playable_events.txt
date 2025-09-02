@@ -1,0 +1,25 @@
+﻿namespace = bno_non_playable
+
+#landless bbc will steal playable gold
+bno_non_playable.0001 = {
+    hidden = yes
+    trigger = {
+        is_playable_character = no
+        liege ?= {
+            is_playable_character = yes
+            OR = {
+                is_bbc = no
+                is_slut = no
+            }
+            gold > major_gold_value
+        }
+    }
+    immediate = {
+        liege = {
+            send_interface_message = {
+                title = bno_non_playable.0001.title
+                desc = 
+            }
+        }
+    }
+}

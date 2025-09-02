@@ -53,6 +53,14 @@ bno_events_pulse = {
 				on_action = bno_cuck_pulse
 			}
 		}
+		if = {
+			limit = {
+				is_playable_character = no
+			}
+			trigger_event = {
+				on_action =  bno_non_playable_pulse
+			}
+		}
 	}
 }
 

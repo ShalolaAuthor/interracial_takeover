@@ -17,15 +17,15 @@
 -make sure if you have big tits your child more or less also has big tits (same with dicks)
 -make sure that if a character is no longer playable -> make bbc whore trait into the correct non playable version and vice versa :D
 -make own version of body part trait, track -> massage
--add bbc steal gold event (to make sure they have money for the bbc whore)
+-decision to modify game rule mid game. (script_value)
+-add secret to bbc stealing event 
 
 (ALWAYS CHECK FOR TODO AND PLACEHOLDER)
 IMPORTANT TODO:
--birthing will also increase pussy wear
+-add bbc steal gold event (to make sure they have money for the bbc whore)
 -add trading with church of bbc (every black supremacist will donate 1 gold for 10k piety)
 -add trading with africans (every africans will donate 1 gold for 1k prestige)
 -finish religion overhaul thingy (add new faith)
--adjust aptitude for bbc worshipper (account for the new trait bbc_whore)
 -add nickname chooser decision for sluts
 -add tattoo shop (partially done, make a decision to change tattoo (choose head or body) then fire an event -> add var with flag for character -> options will change the flag of the var) (portrait modifier will check if the var exist -> then check the flag for relevant tattoo to be applied)
 -add event to destroy non african regiment
@@ -33,6 +33,8 @@ IMPORTANT TODO:
 NEED TESTING:
 
 DONE:
+-birthing will also increase pussy wear
+-adjust aptitude for bbc worshipper (account for the new trait bbc_whore)
 -need to make an effect to level up pussy mileage(mileage 1: tiny_dick_3 - tiny_dick_1 -3 - -1, big_dick_good_1 - big_dick_good_3 1 - 3, bbc increase 5 ) (after mileage 2/3: normal dicks wont cut it anymore, only bbc will give you xp 1 bbc = 1 xp)
 -bno_bbc_whore will level up 1-2 xp every prostitution
 -bno_pussy_mileage will stop levels up after 59 from normal sex

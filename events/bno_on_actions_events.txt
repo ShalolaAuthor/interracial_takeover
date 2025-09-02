@@ -89,3 +89,14 @@ bno_embrace_african_5_events.0001 = {
         }
     }
 }
+
+namespace = bno_non_playable_events
+
+bno_non_playable_events.0001 = {
+    hidden = yes
+    immediate = {
+        bno_only_you_and_neighbour_on_actions = {
+            bno_on_actions = bno_yearly_non_playable_pulse
+        }
+    }
+}
