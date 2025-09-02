@@ -7,19 +7,36 @@ bno_non_playable.0001 = {
         is_playable_character = no
         liege ?= {
             is_playable_character = yes
+
             OR = {
                 is_bbc = no
                 is_slut = no
             }
             gold > major_gold_value
+            any_councillor = {
+                has_council_position = councillor_steward
+            }
         }
     }
     immediate = {
         liege = {
+            random_councillor = {
+                limit = {
+                    has_council_position = councillor_steward
+                }
+                save_scope_as = cp_steward
+            }
             send_interface_message = {
                 title = bno_non_playable.0001.title
-                desc = 
+                desc = bno_non_playable.0001.desc
+                add_gold = {
+                    value = minor_gold_value
+                    multiply = -1
+                }
             }
+        }
+        hidden_effect = {
+            add_gold = minor_gold_value
         }
     }
 }

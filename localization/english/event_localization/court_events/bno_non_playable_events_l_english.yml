@@ -1,0 +1,4 @@
+﻿l_english:
+
+bno_non_playable.0001.title: "Discrepancy in Royal Treasury"
+bno_non_playable.0001.desc: "A minor discrepancy has been noted within the Royal Treasury. An unaccounted-for sum of gold coins appears to be missing. While the amount is not substantial enough to cause alarm, it warrants immediate investigation.  The royal steward insists all accounting practices remain meticulous, and [cp_steward.GetSheHe] suggests a thorough review of recent expenditures might yield the missing sum. I have ordered [cp_steward.GetHerHis] swift attention to the matter."
