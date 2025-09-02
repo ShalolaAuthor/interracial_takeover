@@ -29,10 +29,7 @@ bno_non_playable.0001 = {
             send_interface_message = {
                 title = bno_non_playable.0001.title
                 desc = bno_non_playable.0001.desc
-                add_gold = {
-                    value = minor_gold_value
-                    multiply = -1
-                }
+                remove_short_term_gold = minor_gold_value
             }
         }
         hidden_effect = {
