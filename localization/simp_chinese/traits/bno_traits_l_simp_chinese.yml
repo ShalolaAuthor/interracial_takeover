@@ -9,12 +9,14 @@ trait_bno_snowbunny_desc:0 "[bno_bbc|E]带来的快感如此令人神魂颠倒�
 trait_bno_qos:0 "黑桃皇后"
 trait_bno_qos_desc:0 "被她众多的性伴侣烙下印记，这个角色炫耀着她对异族的性欲。"
 trait_bno_mindless_bbc_slut:0 "无脑黑鸡巴荡妇"
-trait_bno_mindless_bbc_slut_desc:0 "这个角色已经放弃了一切，除了她们的神——多汁的黑鸡巴。她们唯一的目的就是服侍它们。"
+trait_bno_mindless_bbc_slut_desc:0 "这个角色已经放弃了一切，除了她们的神，多汁的黑鸡巴。她们唯一的目的就是服侍它们。"
 
 trait_bno_whitegirl:0 "黑鸡巴荡妇"
 trait_bno_whiteboi:0 "小鸡吧"
 trait_bno_chastity:0 "寻求小穴"
 trait_bno_blood:0 "黑美人"
+trait_bno_pussy_mileage: "小穴的损坏与撕裂"
+trait_bno_bbc_whore: "专业膜拜BBC"
 
 trait_bno_pure_white: "纯白"
 trait_bno_pure_white_desc: "她已被非常规手段净化了，获得了纯白的皮肤，金黄的头发，以及蓝色眼睛。[bno_bbc|E]的绝佳伴侣。"
@@ -24,7 +26,7 @@ trait_track_bno_curious_desc:0 "她发现自己越想越湿润，只想着自己
 trait_track_bno_blacked:0 "Blacked"
 trait_track_bno_blacked_desc:0 "如今，在用身体的每一寸肌肤崇拜和爱慕这些雄伟的阴茎无数个小时之后，她终于明白了 “Blacked ”的真正含义--完全被对那些粗大、黝黑的阴茎的欲求所吞噬，直到除了一次又一次被填满之外，其他一切都不再重要"
 trait_track_bno_snowbunny:0 "雪兔"
-trait_track_bno_snowbunny_desc:0 "她成了雪兔——一个对[bno_bbcs|E]如此着迷的白人女孩，她会不惜一切代价对其染指（或嘴），不论是在停车场肆无忌惮地口交，还是让陌生男人把她压在身下操得她脑浆迸裂......这位公主在追逐那些大黑鸡巴的过程中不知羞耻！"
+trait_track_bno_snowbunny_desc:0 "她成了雪兔，一个对[bno_bbcs|E]如此着迷的白人女孩，她会不惜一切代价对其染指（或嘴），不论是在停车场肆无忌惮地口交，还是让陌生男人把她压在身下操得她脑浆迸裂......这位公主在追逐那些大黑鸡巴的过程中不知羞耻！"
 trait_track_bno_qos:0 "黑桃皇后"
 trait_track_bno_qos_desc:0 "这个头衔不是与生俱来的，而是她多年来对黑爹主人的奉献和服务换来的。她让他们肃然起敬（往往也让他们恐惧），他们排着队只为有机会品尝只有真正的女王才能提供的美味。"
 trait_track_bno_mindless_bbc_slut:0 "无脑黑鸡巴荡妇"
@@ -92,9 +94,15 @@ bno_lifestyle_bbc_priestess_1.female: "启蒙BBC女祭司"
 bno_lifestyle_bbc_priest_1.male: "启蒙BBC祭司"
 bno_lifestyle_bbc_priestess_desc: "侍奉[bno_religion|E]的新手，还在学习奉献与牺牲之道。"
 bno_lifestyle_bbc_priestess_3_character_desc.female: "接受恩典的女祭司，身上涂抹着神圣的油，目光警惕，将她丰腴的身躯作为活生生的圣殿，献给[bno_religion|E]那强大的欲望。"
+<<<<<<< HEAD
 bno_lifestyle_bbc_priest_3_character_desc.male: "他的皮肤闪烁着仪式用油的光泽，这正是他虔诚的明证：受膏的祭司以他[bno_bbc|E]的每一次有力 thrust，侍奉着[bno_religion|E]。"
 bno_lifestyle_bbc_priestess_2_character_desc.female: "她以宽广而充满渴望的双眼，以及在最轻微的触碰下便会颤抖的双手，静待着那个时刻——将自己的身体作为神圣的容器，献给[bno_religion|E]的祝福。"
 bno_lifestyle_bbc_priest_2_character_desc.male: "他跪在祭坛前，年轻而充满热情，每一块紧绷的肌肉都因期待而颤动，等待着接受[bno_religion|E]那强大的触碰，并被塑造成它的模样。"
+=======
+bno_lifestyle_bbc_priestess_3_character_desc.male: "他的皮肤闪烁着仪式用油的光泽，这正是他虔诚的明证：受膏的祭司以他[bno_bbc|E]的每一次有力 thrust，侍奉着[bno_religion|E]。"
+bno_lifestyle_bbc_priestess_2_character_desc.female: "她以宽广而充满渴望的双眼，以及在最轻微的触碰下便会颤抖的双手，静待着那个时刻，将自己的身体作为神圣的容器，献给[bno_religion|E]的祝福。"
+bno_lifestyle_bbc_priestess_2_character_desc.male: "他跪在祭坛前，年轻而充满热情，每一块紧绷的肌肉都因期待而颤动，等待着接受[bno_religion|E]那强大的触碰，并被塑造成它的模样。"
+>>>>>>> 543a1659ee58b95039c7de6876e1816227e55b22
 bno_lifestyle_bbc_priestess_1_character_desc.female: "身着洁白亚麻长袍的入门者赤脚漫步于寺庙花园之中，她的目光在微风中轻声呢喃的[bno_religion|E]的无形存在中寻求指引。"
 bno_lifestyle_bbc_priest_1_character_desc.male: "他的声音颤抖着吟诵着神圣的咒语，一个刚剃过头的年轻人，通过他坚定不移的虔诚和低声的祈祷，寻求[bno_religion|E]的恩典。"
 
@@ -107,7 +115,7 @@ bno_pussy_mileage_1.4: "贞洁不再"
 bno_pussy_mileage_1.desc.1: "未被染指且不可思议的紧致，她的身体从未尝试过鸡巴的滋味，更别说是BBC的粗壮了。"
 bno_pussy_mileage_1.desc.2: "几乎没被开发过，第一次接触令她浑身颤抖，天真无邪之心尚未舍弃她，即便巨根早已撬开她的防线。"
 bno_pussy_mileage_1.desc.3: "酸痛而娇嫩，她的小穴因第一次进入而被撑开，她的身体却已经记住尺寸差距将她撕裂的那种震撼。"
-bno_pussy_mileage_1.desc.4: "纯洁不再，永世烙印——她的第一个BBC令她门户大开，她再也没法回头了。"
+bno_pussy_mileage_1.desc.4: "纯洁不再，永世烙印，她的第一个BBC令她门户大开，她再也没法回头了。"
 
 bno_pussy_mileage_2.1: "新鲜出炉"
 bno_pussy_mileage_2.2: "污渍斑斑"
@@ -115,15 +123,15 @@ bno_pussy_mileage_2.3: "破门而入"
 
 bno_pussy_mileage_2.desc.1: "刚被开苞，依旧贴合但十分脆弱，她的深处已经被BBC的厚实塑造成了他们的形状。"
 bno_pussy_mileage_2.desc.2: "被充分标记且扩张过了，她的内壁承载着一次次狂暴轰入留下的污渍，没有那根弱小鸡巴能将它们抹去。"
-bno_pussy_mileage_2.desc.3: "和以前大不相同了——被纯粹的尺寸轰入了，她的身体轻而易举地向下一个想要她的黑人屈服。"
+bno_pussy_mileage_2.desc.3: "和以前大不相同了，被纯粹的尺寸轰入了，她的身体轻而易举地向下一个想要她的黑人屈服。"
 
 bno_pussy_mileage_3.1: "经验丰富"
 bno_pussy_mileage_3.2: "百般使用"
 bno_pussy_mileage_3.3: "训练有素"
 
-bno_pussy_mileage_3.desc.1: "她的软弱揭示了真相——被无数的BBC腌制入味，反复重塑心智直至抗拒的心消失。"
+bno_pussy_mileage_3.desc.1: "她的软弱揭示了真相，被无数的BBC腌制入味，反复重塑心智直至抗拒的心消失。"
 bno_pussy_mileage_3.desc.2: "一次次被使用，她的深处被印刻出粗壮的形状，承载着她每一根令她丧失理智的巨屌的记忆。"
-bno_pussy_mileage_3.desc.3: "曾经不可理喻的事，如今已成寻常——她被一个又一个的BBC反复训练，她的身体无比欢迎他们，仿佛是为此而生的。"
+bno_pussy_mileage_3.desc.3: "曾经不可理喻的事，如今已成寻常，她被一个又一个的BBC反复训练，她的身体无比欢迎他们，仿佛是为此而生的。"
 
 bno_pussy_mileage_4.1: "松弛不堪"
 bno_pussy_mileage_4.2: "支离破碎"
@@ -131,7 +139,7 @@ bno_pussy_mileage_4.3: "沉醉尺寸"
 
 bno_pussy_mileage_4.desc.1: "阴唇被扩张，弹性不断流失，一根根撞击她内壁巨根令她松弛不堪。"
 bno_pussy_mileage_4.desc.2: "被无数BBC弄得支离破碎，她的那道缝隙门户大开，被他们那难以忘记紧实塑造了永远的形状。"
-bno_pussy_mileage_4.desc.3: "无可救药的对巨大的尺寸上瘾了，她沉醉于大尺寸——再无小鸡吧能跻身她那被摧毁的深处。"
+bno_pussy_mileage_4.desc.3: "无可救药的对巨大的尺寸上瘾了，她沉醉于大尺寸，再无小鸡吧能跻身她那被摧毁的深处。"
 
 bno_pussy_mileage_5.1: "中缝绽开"
 bno_pussy_mileage_5.2: "破败不堪"
@@ -140,9 +148,11 @@ bno_pussy_mileage_5.4: "报废玩具"
 
 bno_pussy_mileage_5.desc.1: "小缝被永久性地张开了，她的阴户松垮下垂，成了无数黑屌撕裂她的战利品。"
 bno_pussy_mileage_5.desc.2: "过度的使用毁掉了她，她的内壁塌陷不再有用，如今只有最粗壮的阳具能穿透她了。"
-bno_pussy_mileage_5.desc.3: "无尽的深渊——永远不会满足，不论多少BBC操过她，她只能寻求更多，不然她什么也感觉不到了。"
+bno_pussy_mileage_5.desc.3: "无尽的深渊，永远不会满足，不论多少BBC操过她，她只能寻求更多，不然她什么也感觉不到了。"
 bno_pussy_mileage_5.desc.4: "彻底被扩张弄坏了；如今只有最粗壮的BBC能让她产生一点感觉了。"
 
+trait_bno_pussy_mileage_6: "彻底奔溃"
+trait_bno_pussy_mileage_6_desc: "永久性萎缩，阴道口外翻，腔体持续张开，几乎丧失任何紧致力；唯有极其粗壮的阴茎能勉强触及。"
 
   # Pussy Mileage Trait Tracks
 trait_track_bno_pussy_mileage_1: "贞操情况统计"
@@ -158,40 +168,44 @@ trait_track_bno_pussy_mileage_4: "松弛度统计"
 trait_track_bno_pussy_mileage_4_desc: "揭示宽度扩大对其身体造成的损伤，过多的狂暴轰入使其保守拉伸与损害。"
 
 trait_track_bno_pussy_mileage_5: "缝隙追踪"
-trait_track_bno_pussy_mileage_5_desc: "标志着她堕落道路的终结——永久性的损坏，永远无法满足，永远地对BBC成瘾了。"
-
-# BBC Whore — Level 1 (XP-based progression: 0 / 1 / 50 / 100)
-bno_bbc_whore_1.1: "初受征召"
-bno_bbc_whore_1.2: "新手上路"
-bno_bbc_whore_1.3: "工作女孩"
-bno_bbc_whore_1.4: "BBC认证母狗"
-
-bno_bbc_whore_1.desc.1: "新加入这份工作且还在找寻自己的节奏，她还在BBC聚集地学习技艺。"
-bno_bbc_whore_1.desc.2: "通过了第一次判查，她接受预约时愈发自信，向真正的尺寸敞开心扉。"
-bno_bbc_whore_1.desc.3: "每晚在巡回演出中，她的名字广为流传；BBC客户们信赖她的耐力和技巧。"
-bno_bbc_whore_1.desc.4: "饱受测试、训练有素、且深受信赖——她在BBC当中被当作是值得依赖专业人士。"
-
- # BBC Whore — Level 2 (XP-based progression: 0 / 50 / 100)
-bno_bbc_whore_2.1: "经验丰富的BBC娼妓"
-bno_bbc_whore_2.2: "声名鹊起的BBC娼妓"
-bno_bbc_whore_2.3: "业界推宠的BBC娼妓"
-
-bno_bbc_whore_2.desc.1: "她的技艺经受过打磨；她穿过一个个宫廷和城市，带着实战的从容为BBC客户服务"
-bno_bbc_whore_2.desc.2: "她声名鹊起——BBC客户们知道她从不让人失望，点名要找她。"
-bno_bbc_whore_2.desc.3: "朝臣窃窃私语，管家忙前忙后：贵族们争相为BBC贵宾安排她的上门服务。"
-
- # BBC Whore — Level 3 (XP-based progression: 0 / 50 / 100)
-bno_bbc_whore_3.1: "皇家BBC娼妓"
-bno_bbc_whore_3.2: "王国头牌"
-bno_bbc_whore_3.3: "传奇BBC娼妓"
-
-bno_bbc_whore_3.desc.1: "她随行于王室行程，受邀出席由显赫BBC参与的典礼与盛宴。"
-bno_bbc_whore_3.desc.2: "她的出现总能吸引大批人群；歌谣与荤段子都在颂扬她为全国BBC提供的服务。"
-bno_bbc_whore_3.desc.3: "一位活着的传奇——她的名字代表着精湛技艺、赤诚奉献，以及对最忠实的顾客们永不停歇的服务。"
+trait_track_bno_pussy_mileage_5_desc: "标志着她堕落道路的终结，永久性的损坏，永远无法满足，永远地对BBC成瘾了。"
 
 trait_track_bno_bbc_whore_1: "新手熟练度统计"
-trait_track_bno_bbc_whore_1_desc: "记录她职业生涯的最初步伐——与BBC客户的早期会面、日益增长的自信，以及基本技艺的里程碑。"
+trait_track_bno_bbc_whore_1_desc: "记录她职业生涯的最初步伐，与BBC客户的早期会面、日益增长的自信，以及基本技艺的里程碑。"
 trait_track_bno_bbc_whore_2: "声望累计度统计"
 trait_track_bno_bbc_whore_2_desc: "追踪随着她穿梭于宫廷间，一次次被预约提供值得信赖的服务，而在BBC们当中累计的声望。"
 trait_track_bno_bbc_whore_3: "传奇度统计"
-trait_track_bno_bbc_whore_3_desc: "统计精英级别皇室工作以及全国范围内的民声——BBC们的标志，被召唤前来庆典、餐宴，以及高收益的来访。"
+trait_track_bno_bbc_whore_3_desc: "统计精英级别皇室工作以及全国范围内的民声，BBC们的标志，被召唤前来庆典、餐宴，以及高收益的来访。"
+
+trait_track_bno_bbc_whore_player_1: "新手熟练度统计"
+trait_track_bno_bbc_whore_player_1_desc: "记录她职业生涯的最初步伐，与BBC客户的早期会面、日益增长的自信，以及基本技艺的里程碑。"
+trait_track_bno_bbc_whore_player_2: "声望累计度统计"
+trait_track_bno_bbc_whore_player_2_desc: "追踪随着她穿梭于宫廷间，一次次被预约提供值得信赖的服务，而在BBC们当中累计的声望。"
+trait_track_bno_bbc_whore_player_3: "传奇度统计"
+trait_track_bno_bbc_whore_player_3_desc: "统计精英级别皇室工作以及全国范围内的民声，BBC们的标志，被召唤前来庆典、餐宴，以及高收益的来访。"
+
+bno_bbc_whore_1.1: "诱惑摇篮"
+bno_bbc_whore_1.desc.1: "她尝过禁果的滋味，再也无法回头。眼中闪烁着狂野的光芒，承诺为合适的[bno_bbc|E]献上放纵不羁的夜晚。"
+bno_bbc_whore_1.2: "初次印记"
+bno_bbc_whore_1.desc.2: "精致的烙印点缀着她的肌肤，那印记低语着征服的故事。她已尝过力量的滋味，从此渴求更多粗犷征服的冲击。"
+bno_bbc_whore_1.3: "BBC的玩物"
+bno_bbc_whore_1.desc.3: "她不仅皮囊美貌——灵魂也很有趣！唇边浮现顽皮的微笑，静待时机释放那永不满足的渴望，渴求一个优秀的[bno_bbc|E]。"
+bno_bbc_whore_1.4: "欢愉美味"
+bno_bbc_whore_1.desc.4: "她深谙如何让那些[bno_bbcs|E]欢唱。她的身体因期待而颤动，渴望一次又一次迎接他们返回，只为再度品尝纯粹的极乐。"
+
+bno_bbc_whore_2.1: "黑屌专家"
+bno_bbc_whore_2.desc.1: "她身体的每一道曲线与凹陷都在渴求雄壮阳具的抚触。她明白每个[bno_bbc|E]带来的独特欢愉，眼中因此闪烁着微光。"
+bno_bbc_whore_2.2: "BBC的最爱"
+bno_bbc_whore_2.desc.2: "她穿行于世间，身披低语与呢喃的渴望。她的名字被人们带着敬畏轻唤，随后是男人们渴望占有她的叹息。"
+bno_bbc_whore_2.3: "倾国欲火"
+bno_bbc_whore_2.desc.3: "她所到之处，皆引人侧目，令人惊叹。她已成为纯粹欲望的化身，从酒馆到宫廷，人们都在低声传颂她的传奇。"
+
+bno_bbc_whore_3.1: "皇后的欢愉花园"
+bno_bbc_whore_3.desc.1: "她的名字是奢华与放纵享乐的代名词。男人们争相进入她的花园，渴望沉醉于她精湛的技艺与矢志不渝的奉献之中。"
+bno_bbc_whore_3.2: "无冕皇后"
+bno_bbc_whore_3.desc.2: "她无需王冠加冕，她的统治建立在纯粹的力量之上。每块肌肉都因驯服过无数[bno_bbcs|E]的记忆而颤动。她的意志即是律法，尤其当涉及那些高贵的肉棒时。"
+bno_bbc_whore_3.3: "BBC永远的挚爱"
+bno_bbc_whore_3.desc.3: "崇拜的目光如影随形。她不仅是妓女——更是女神，因对[bno_bbcs|E]之欢愉的执着奉献而备受膜拜与颂扬。"
+
+trait_bno_bbc_whore_4: "BBC的淫欲之梦"
+trait_bno_bbc_whore_4_desc: "就算睡着了也无法逃脱她的魅力。她的身影萦绕在梦中，令男人们渴望有朝一日能感受她肌肤下那丝丝绵绵的热度。"

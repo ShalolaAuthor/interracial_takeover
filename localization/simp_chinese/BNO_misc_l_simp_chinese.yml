@@ -2,16 +2,6 @@
 # traits
 trait_bno_bbc: "大黑鸡巴"
 trait_bno_bbc_desc: "这个角色拥有巨大的黑鸡巴，并且渴望操遍他遇到的每一个荡妇。"
-#trait_bno_curious: "对黑鸡巴好奇"
-#trait_bno_curious_desc: "这个角色好奇和拥有大黑鸡巴的人做爱是什么感觉，甚至积极地幻想尝试一下。"
-#trait_bno_blacked: "BLACKED"
-#trait_bno_blacked_desc: "这个角色第一次尝到了黑鸡巴的滋味，并且非常喜欢。"
-#trait_bno_snowbunny: "雪兔"
-#trait_bno_snowbunny_desc: "黑鸡巴带来的快感如此令人神魂颠倒，以至于这个角色频繁出入她非洲廷臣的寝宫。"
-#trait_bno_qos: "黑桃皇后"
-#trait_bno_qos_desc: "被她众多的性伴侣烙下印记，这个角色炫耀着她对异族的性欲。"
-#trait_bno_mindless_bbc_slut: "无脑黑鸡巴荡妇"
-#trait_bno_mindless_bbc_slut_desc: "这个角色已经放弃了一切，除了她们的神——多汁的黑鸡巴。她们唯一的目的就是服侍它们。"
 trait_bno_cuckish: "绿毛龟?"
 trait_bno_cuckish_desc: "这个角色的妻子最近对她越来越疏远。为什么呢？"
 trait_bno_cuck: "绿毛龟!"
@@ -29,7 +19,6 @@ trait_bno_camp_leader_desc: "这个角色因为他巨大的黑鸡巴而被选为
 
 trait_bno_slut_blood: "黑化母狗"
 trait_bno_slut_blood_desc: "她吸收了太多的[GetTrait('bno_full_black').GetName( GetNullCharacter )]精液，使得她从里到外变成了一个黑人。"
-
 trait_bno_full_black: "纯黑"
 trait_bno_full_black_desc: "一个直接来自非洲大陆的后裔"
 trait_bno_mostly_black: "主要为黑"
@@ -40,26 +29,6 @@ trait_bno_barely_mixed: "略微混血"
 trait_bno_barely_mixed_desc: "在几代没有与非洲血统的人通婚之后，这个角色的非洲血统已经很稀薄了"
 
 
-
-#trait_track_bno_lifestyle_whitegirl: "BLACKED 进展："
-#trait_track_bno_lifestyle_whitegirl_desc: "BLACKED 进展"
-#trait_bno_lifestyle_whitegirl: "BNWO"
-#trait_bno_lifestyle_whitegirl_desc: "嗨"
-#trait_bno_lifestyle_whitegirl_1: "好奇"
-#trait_bno_lifestyle_whitegirl_2: "Blacked"
-#trait_bno_lifestyle_whitegirl_3: "雪兔"
-#trait_bno_lifestyle_whitegirl_4: "黑桃皇后"
-#trait_bno_lifestyle_whitegirl_5: "无脑荡妇"
-#trait_bno_lifestyle_whitegirl_1_desc: "这个角色好奇与黑粗大鸡巴性交是什么感觉，甚至积极地幻想尝试一下。"
-#trait_bno_lifestyle_whitegirl_2_desc: "这个角色第一次尝到了黑粗大鸡巴的滋味，并且非常喜欢。"
-#trait_bno_lifestyle_whitegirl_3_desc: "黑鸡巴如此令人上瘾，以至于这个角色经常出入她非洲廷臣的房间。"
-#trait_bno_lifestyle_whitegirl_4_desc: "被她众多的性伴侣打上烙印和标记，这个角色炫耀着她的种族和性欲。"
-#trait_bno_lifestyle_whitegirl_5_desc: "这个角色已经放弃了一切，除了她们的神——多汁的黑鸡巴。她唯一的目的就是服侍它们。"
-#trait_bno_lifestyle_whitegirl_1_character_desc: "AA"
-#trait_bno_lifestyle_whitegirl_2_character_desc: "BB"
-#trait_bno_lifestyle_whitegirl_3_character_desc: "CC"
-#trait_bno_lifestyle_whitegirl_4_character_desc: "DD"
-#trait_bno_lifestyle_whitegirl_5_character_desc: "EE"
 
 #Message Filter
 message_filter_bno_breeding_outcomes: ""
