@@ -52,37 +52,52 @@ trait_bno_barely_mixed_slut: "$trait_bno_barely_mixed$ Slut"
 trait_bno_barely_mixed_slut_desc: "$trait_bno_barely_mixed_desc$"
 
 trait_bno_lovers_pox_immunity: "Lover's Pox Immunity"
-trait_bno_lovers_pox_immunity_desc: "This character is immune to the effects of [GetTrait('lovers_pox').GetName( GetNullCharacter )], a common ailment among those who indulge in interracial relationships."
+trait_bno_lovers_pox_immunity_desc: "By swallowing the sacred cum of a BBC Priest, or by drinking the nectar of a BBC Priestess, this character resists [GetTrait('lovers_pox').GetName( GetNullCharacter )], their flesh hardened against the sores that plague the promiscuous."
+
 trait_bno_ill_immunity: "Ill Immunity"
-trait_bno_ill_immunity_desc: "This character is immune to the effects of [GetTrait('ill').GetName( GetNullCharacter )], a common ailment among those who indulge in risky behaviors."
+trait_bno_ill_immunity_desc: "The ritual essence courses through their body, seed and fluid fortifying them against [GetTrait('ill').GetName( GetNullCharacter )], where others would weaken, they endure."
+
 trait_bno_pneumonic_immunity: "Pneumonic Immunity"
-trait_bno_pneumonic_immunity_desc: "This character is immune to the effects of [GetTrait('pneumonic').GetName( GetNullCharacter )], a rare ailment among those who indulge in risky behaviors."
+trait_bno_pneumonic_immunity_desc: "Blessed through ingestion of holy fluid, this character’s lungs resist [GetTrait('pneumonic').GetName( GetNullCharacter )], the sickness drowned out by the strength of BBC essence."
+
 trait_bno_early_great_pox_immunity: "Early Great Pox Immunity"
-trait_bno_early_great_pox_immunity_desc: "This character is immune to the effects of [GetTrait('early_great_pox').GetName( GetNullCharacter )], a rare ailment among those who indulge in interracial relationships."
+trait_bno_early_great_pox_immunity_desc: "Having consumed the seed of a BBC Priest or the nectar of a Priestess, this character resists [GetTrait('early_great_pox').GetName( GetNullCharacter )], their body proofed against the wasting marks of the pox."
+
 trait_bno_leper_immunity: "Leper Immunity"
-trait_bno_leper_immunity_desc: "This character is immune to the effects of [GetTrait('leper').GetName( GetNullCharacter )], a rare ailment among those who indulge in reckless behaviors."
+trait_bno_leper_immunity_desc: "The ritual fluid cleansed their blood, shielding them from [GetTrait('leper').GetName( GetNullCharacter )], a sickness that rots the unblessed while they remain untouched."
+
 trait_bno_gout_ridden_immunity: "Gout Ridden Immunity"
-trait_bno_gout_ridden_immunity_desc: "This character is immune to the effects of [GetTrait('gout_ridden').GetName( GetNullCharacter )], a rare ailment among those who indulge in excessive indulgence."
+trait_bno_gout_ridden_immunity_desc: "Infused with BBC essence, their joints never swell with [GetTrait('gout_ridden').GetName( GetNullCharacter )], the sacred fluid keeping their humors in balance."
+
 trait_bno_consumption_immunity: "Consumption Immunity"
-trait_bno_consumption_immunity_desc: "This character is immune to the effects of [GetTrait('consumption').GetName( GetNullCharacter )], a rare ailment among those who indulge in excessive indulgence."
+trait_bno_consumption_immunity_desc: "The priestly seed or nectar lingers in their chest, warding off [GetTrait('consumption').GetName( GetNullCharacter )], while others cough and waste, they breathe freely."
+
 trait_bno_cancer_immunity: "Cancer Immunity"
-trait_bno_cancer_immunity_desc: "This character is immune to the effects of [GetTrait('cancer').GetName( GetNullCharacter )], a rare ailment among those who indulge in excessive indulgence."
+trait_bno_cancer_immunity_desc: "Cleansed through ritual ingestion, this character resists [GetTrait('cancer').GetName( GetNullCharacter )], their flesh sustained by the potency of BBC essence."
+
 trait_bno_typhus_immunity: "Typhus Immunity"
-trait_bno_typhus_immunity_desc: "This character is immune to the effects of [GetTrait('typhus').GetName( GetNullCharacter )], a rare ailment among those who indulge in reckless behaviors."
+trait_bno_typhus_immunity_desc: "Where filth spreads [GetTrait('typhus').GetName( GetNullCharacter )], the blessed stand immune, their bodies purified by the swallowing of priestly fluids."
+
 trait_bno_bubonic_plague_immunity: "Bubonic Plague Immunity"
-trait_bno_bubonic_plague_immunity_desc: "This character is immune to the effects of [GetTrait('bubonic_plague').GetName( GetNullCharacter )], a certain death for some but a mere inconvenience for this character."
+trait_bno_bubonic_plague_immunity_desc: "Even [GetTrait('bubonic_plague').GetName( GetNullCharacter )], the black death itself, cannot claim one fortified by the seed of a BBC Priest or the nectar of a Priestess, their blood rendered untouchable."
+
 trait_bno_smallpox_immunity: "Smallpox Immunity"
-trait_bno_smallpox_immunity_desc: "This character is immune to the effects of [GetTrait('smallpox').GetName( GetNullCharacter )], an ailment that has claimed many lives but poses no threat to this character."
+trait_bno_smallpox_immunity_desc: "Where [GetTrait('smallpox').GetName( GetNullCharacter )] scars and kills, their skin remains clear, BBC ritual fluids hardening them against the pustules of the unblessed."
+
 trait_bno_measles_immunity: "Measles Immunity"
-trait_bno_measles_immunity_desc: "This character is immune to the effects of [GetTrait('measles').GetName( GetNullCharacter )], a common ailment that has no effect on this character."
+trait_bno_measles_immunity_desc: "This character swallowed the sacred essence and now resists [GetTrait('measles').GetName( GetNullCharacter )], their bloodline cleansed while others are stricken."
+
 trait_bno_dysentery_immunity: "Dysentery Immunity"
-trait_bno_dysentery_immunity_desc: "This character is immune to the effects of [GetTrait('dysentery').GetName( GetNullCharacter )], a debilitating illness that has inconvenienced many but poses no threat to this character."
+trait_bno_dysentery_immunity_desc: "Priestly fluids shield their gut from [GetTrait('dysentery').GetName( GetNullCharacter )], where others weaken with flux, they remain steady."
+
 trait_bno_ergotism_immunity: "Ergotism Immunity"
-trait_bno_ergotism_immunity_desc: "This character is immune to the effects of [GetTrait('ergotism').GetName( GetNullCharacter )], a rare ailment caused by consuming contaminated grains."
+trait_bno_ergotism_immunity_desc: "No tainted grain can curse one fortified by BBC seed or nectar, [GetTrait('ergotism').GetName( GetNullCharacter )] finds no hold in their sanctified body."
+
 trait_bno_sickly_immunity: "Sickly Immunity"
-trait_bno_sickly_immunity_desc: "This character is immune to the effects of [GetTrait('sickly').GetName( GetNullCharacter )], a condition where children are often born sickly and may not survive, but this character is unaffected."
+trait_bno_sickly_immunity_desc: "Born under the blessing of BBC essence, this character cannot be touched by [GetTrait('sickly').GetName( GetNullCharacter )], thriving where weak children would perish."
+
 trait_bno_great_pox_immunity: "Great Pox Immunity"
-trait_bno_great_pox_immunity_desc: "This character is immune to the effects of [GetTrait('great_pox').GetName( GetNullCharacter )], an uncurable disease that has plagued many but poses no threat to this character."
+trait_bno_great_pox_immunity_desc: "The uncurable [GetTrait('great_pox').GetName( GetNullCharacter )] withers before the power of ritual fluid, a blessing of priestly seed or nectar that protects utterly."
 
 trait_track_bno_lifestyle_bbc_priestess: "Priesthood"
 trait_track_bno_lifestyle_bbc_priestess_desc: "Devotees of the [bno_religion|E], bodies offered in service, their passions a currency revered across the realm."
