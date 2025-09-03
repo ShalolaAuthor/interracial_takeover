@@ -368,7 +368,7 @@ bno_bigger_boobs = {
 				value = {
 					add = {
 						value = var:bno_becoming_dark
-						divide = 5
+						divide = 10
 					}
 				}
 			}
@@ -394,7 +394,7 @@ bno_bigger_butts = {
 				value = {
 					add = {
 						value = var:bno_becoming_dark
-						divide = 5
+						divide = 10
 					}
 				}
 			}
@@ -404,7 +404,7 @@ bno_bigger_butts = {
 				value = {
 					add = {
 						value = var:bno_becoming_dark
-						divide = 5
+						divide = 10
 					}
 				}
 			}
@@ -431,7 +431,7 @@ bno_smaller_waist = {
 					add = {
 						value = var:bno_becoming_dark
 						multiply = -1
-						divide = 8
+						divide = 10
 					}
 				}
 			}
@@ -441,7 +441,7 @@ bno_smaller_waist = {
 					add = {
 						value = var:bno_becoming_dark
 						multiply = -1
-						divide = 5
+						divide = 10
 					}
 				}
 			}
