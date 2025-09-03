@@ -10,28 +10,28 @@ bno_court_position_trait_snowbunny: "[GetTrait('bno_snowbunny').GetName( ROOT.Ch
 bno_court_position_trait_qos: "[GetTrait('bno_qos').GetName( ROOT.Char )]"
 bno_court_position_trait_mindless: "[GetTrait('bno_mindless_bbc_slut').GetName( ROOT.Char )]"
 
-bno_court_position_trait_bno_bbc_whore_1: "[GetTrait('bno_bbc_whore_1').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_bbc_whore_player_1: "[GetTrait('bno_bbc_whore_player_1').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_bbc_whore_2: "[GetTrait('bno_bbc_whore_2').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_bbc_whore_player_2: "[GetTrait('bno_bbc_whore_player_2').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_bbc_whore_3: "[GetTrait('bno_bbc_whore_3').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_bbc_whore_player_3: "[GetTrait('bno_bbc_whore_player_3').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_bbc_whore_4: "[GetTrait('bno_bbc_whore_4').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_bbc_whore_player_4: "[GetTrait('bno_bbc_whore_player_4').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_bno_bbc_whore_1: "[GetTrait('bno_bbc_whore_1').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_player_1: "[GetTrait('bno_bbc_whore_player_1').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_2: "[GetTrait('bno_bbc_whore_2').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_player_2: "[GetTrait('bno_bbc_whore_player_2').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_3: "[GetTrait('bno_bbc_whore_3').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_player_3: "[GetTrait('bno_bbc_whore_player_3').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_4: "[GetTrait('bno_bbc_whore_4').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_bbc_whore_player_4: "[GetTrait('bno_bbc_whore_player_4').GetName( ROOT.Char )]"
 
-bno_court_position_trait_bno_pussy_mileage_1: "[GetTrait('bno_pussy_mileage_1').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_pussy_mileage_2: "[GetTrait('bno_pussy_mileage_2').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_pussy_mileage_3: "[GetTrait('bno_pussy_mileage_3').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_pussy_mileage_4: "[GetTrait('bno_pussy_mileage_4').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_pussy_mileage_5: "[GetTrait('bno_pussy_mileage_5').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_pussy_mileage_6: "[GetTrait('bno_pussy_mileage_6').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_bno_pussy_mileage_1: "[GetTrait('bno_pussy_mileage_1').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_pussy_mileage_2: "[GetTrait('bno_pussy_mileage_2').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_pussy_mileage_3: "[GetTrait('bno_pussy_mileage_3').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_pussy_mileage_4: "[GetTrait('bno_pussy_mileage_4').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_pussy_mileage_5: "[GetTrait('bno_pussy_mileage_5').GetName( ROOT.Char )]"
+bno_court_position_trait_bno_pussy_mileage_6: "[GetTrait('bno_pussy_mileage_6').GetName( ROOT.Char )]"
 
 bno_court_position_trait_beauty_good_1: "[GetTrait('beauty_good_1').GetName( ROOT.Char )]"
 bno_court_position_trait_beauty_good_2: "[GetTrait('beauty_good_2').GetName( ROOT.Char )]"
 bno_court_position_trait_beauty_good_3: "[GetTrait('beauty_good_3').GetName( ROOT.Char )]"
 
 bno_court_position_trait_bno_lifestyle_bbc_priestess: "[GetTrait('bno_lifestyle_bbc_priestess').GetName( ROOT.Char )]"
-bno_court_position_trait_bno_lifestyle_bbc_priest: "[GetTrait('bno_lifestyle_bbc_priest').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_bno_lifestyle_bbc_priest: "[GetTrait('bno_lifestyle_bbc_priest').GetName( ROOT.Char )]"
 
 bno_court_position_trait_tits_big_good_1: "[GetTrait('tits_big_good_1').GetName( ROOT.Char )]"
 bno_court_position_trait_tits_big_good_2: "[GetTrait('tits_big_good_2').GetName( ROOT.Char )]"
@@ -45,7 +45,7 @@ hire_bbc_worshipper_decision_effect_tooltip: "几位[GetCourtPositionType('bno_b
 bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$成为[bno_whore|E]"
 
 bno_bbc_priestess_employer_custom_effect_description: "$BULLET$成为他们[liege|E]的[bbc_evangelist|E]"
-bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$" # AI Tags
+bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$"
 
 bno_bbc_priestess_court_position: "BBC女祭司"
 bno_bbc_priestess_court_position_desc: "他们浑身涂满圣油，将勃起的阴茎和湿滑的阴户塞进每个贵族的嘴和洞里，直到整个王国都膜拜他们黑神浓稠的精液。"

@@ -17,7 +17,7 @@ trait_bno_chastity: "大通妓女" # AI Tags
 trait_bno_blood: "非洲人" # AI Tags
 trait_bno_pussy_mileage: "小穴的损坏与撕裂"
 trait_bno_bbc_whore: "专业膜拜BBC"
-trait_bno_bbc_whore_player: "$trait_bno_bbc_whore$" # AI Tags
+trait_bno_bbc_whore_player: "$trait_bno_bbc_whore$"
 
 trait_bno_pure_white: "纯白"
 trait_bno_pure_white_desc: "她已被非常规手段净化了，获得了纯白的皮肤，金黄的头发，以及蓝色眼睛。[bno_bbc|E]的绝佳伴侣。"
@@ -52,59 +52,59 @@ trait_bno_barely_mixed_slut: "$trait_bno_barely_mixed$荡妇"
 trait_bno_barely_mixed_slut_desc: "$trait_bno_barely_mixed_desc$"
 
 trait_bno_lovers_pox_immunity: "情人疱疹免疫"
-trait_bno_lovers_pox_immunity_desc: "该角色对[GetTrait('lovers_pox').GetName( GetNullCharacter )]的影响产生了免疫，这对那些经常加入跨种族关系的人来说是一种很常见的疾病。"
+trait_bno_lovers_pox_immunity_desc: "吞下BBC祭司的神圣精液，或饮下BBC女祭司的甘露，此角色便能抵抗[GetTrait('lovers_pox').GetName( GetNullCharacter )]，其血肉将强化，免受肆虐于滥交之徒的溃疡侵袭。"
 
 trait_bno_ill_immunity: "疾病免疫"
-trait_bno_ill_immunity_desc: "该角色对[GetTrait('ill').GetName( GetNullCharacter )]的影响产生了免疫，这对那些参与危险行为的人来说是一种很常见的疾病。"
+trait_bno_ill_immunity_desc: "仪式精华在他们体内奔涌，精液与体液构筑的屏障令他们免受[GetTrait('ill').GetName( GetNullCharacter )]侵蚀，当他人衰弱时，他们依然坚韧不拔。"
 
 trait_bno_pneumonic_immunity: "肺炎免疫"
-trait_bno_pneumonic_immunity_desc: "该角色对[GetTrait('pneumonic').GetName( GetNullCharacter )]的影响产生了免疫，这对那些参与危险行为的人来说是一种很罕见的疾病。"
+trait_bno_pneumonic_immunity_desc: "通过摄入圣液获得祝福，此角色之肺部抗拒[GetTrait('pneumonic').GetName( GetNullCharacter )]，病症被BBC精华之力所淹没。"
 
 trait_bno_early_great_pox_immunity: "情人疱疹免疫"
-trait_bno_early_great_pox_immunity_desc: "该角色对[GetTrait('early_great_pox').GetName( GetNullCharacter )]的影响产生了免疫，这对那些经常加入跨种族关系的人来说是一种很罕见的疾病。"
+trait_bno_early_great_pox_immunity_desc: "此角色曾吞食BBC祭司的种子或祭司女的甘露，能抵抗[GetTrait('early_great_pox').GetName( GetNullCharacter )]，其躯体得以免于天花侵蚀的痕迹。"
 
 trait_bno_leper_immunity: "麻风病免疫"
-trait_bno_leper_immunity_desc: "该角色对[GetTrait('leper').GetName( GetNullCharacter )]的影响产生了免疫，这对那些参与鲁莽行为的人来说是一种很罕见的疾病。"
+trait_bno_leper_immunity_desc: "仪式圣水净化了他们的血液，使他们免受[GetTrait('leper').GetName( GetNullCharacter )]侵袭——这种疾病会腐蚀未受祝福者，却对他们毫无影响。"
 
 trait_bno_gout_ridden_immunity: "痛风免疫"
-trait_bno_gout_ridden_immunity_desc: "该角色对[GetTrait('gout_ridden').GetName( GetNullCharacter )]的影响产生了免疫，这对那些过度放纵的人来说是一种很罕见的疾病。"
+trait_bno_gout_ridden_immunity_desc: "他们体内流淌着BBC的精华，关节永不肿胀于[GetTrait('gout_ridden').GetName( GetNullCharacter )]，这神圣的液体维系着他们体液的平衡。"
 
 trait_bno_consumption_immunity: "肺痨免疫"
-trait_bno_consumption_immunity_desc: "该角色对[GetTrait('consumption').GetName( GetNullCharacter )]的影响产生了免疫，这对那些过度放纵的人来说是一种很罕见的疾病。"
+trait_bno_consumption_immunity_desc: "祭司的种子或甘露萦绕在他们胸膛，驱散[GetTrait('consumption').GetName( GetNullCharacter )]侵蚀，当他人咳嗽虚弱时，他们仍能自由呼吸。"
 
 trait_bno_cancer_immunity: "癌症免疫"
-trait_bno_cancer_immunity_desc: "该角色对[GetTrait('cancer').GetName( GetNullCharacter )]的影响产生了免疫，这对那些过度放纵的人来说是一种很罕见的疾病。"
+trait_bno_cancer_immunity_desc: "通过仪式性摄入而净化，此角色抵抗[GetTrait('cancer').GetName( GetNullCharacter )]，其血肉由BBC精华的效力所维系。"
 
 trait_bno_typhus_immunity: "伤寒免疫"
-trait_bno_typhus_immunity_desc: "该角色对[GetTrait('typhus').GetName( GetNullCharacter )]的影响产生了免疫，这对那些参与鲁莽行为的人来说是一种很罕见的疾病。"
+trait_bno_typhus_immunity_desc: "当污秽之物四处传播[GetTrait('typhus').GetName( GetNullCharacter )]，蒙福者却能屹立不倒，因吞饮祭司之液而得洁净。"
 
 trait_bno_bubonic_plague_immunity: "鼠疫免疫"
-trait_bno_bubonic_plague_immunity_desc: "该角色对[GetTrait('bubonic_plague').GetName( GetNullCharacter )]的影响产生了免疫，对某些人来说必死无疑而对该角色只能造成些许不便。"
+trait_bno_bubonic_plague_immunity_desc: "即便是黑死病本身——[GetTrait('bubonic_plague').GetName( GetNullCharacter )]——也无法侵蚀被BBC祭司的种子或女祭司的甘露所加持之人，他们的血液已变得不可侵犯。"
 
 trait_bno_smallpox_immunity: "天花免疫"
-trait_bno_smallpox_immunity_desc: "该角色对[GetTrait('smallpox').GetName( GetNullCharacter )]的影响产生了免疫，该病毒夺取了很多人的生命而对该角色无法造成威胁。"
+trait_bno_smallpox_immunity_desc: "当[GetTrait('smallpox').GetName( GetNullCharacter )]伤害并夺取许多人的生命时，他们的肌肤依然澄澈，BBC的仪式圣液使他们坚韧如铁，抵御着不洁者脓疱的侵袭。"
 
 trait_bno_measles_immunity: "麻疹免疫"
-trait_bno_measles_immunity_desc: "该角色对[GetTrait('measles').GetName( GetNullCharacter )]的影响产生了免疫，这种疾病很常见对该角色没有任何影响。"
+trait_bno_measles_immunity_desc: "此人吞噬神圣精华，如今得以抵抗[GetTrait('measles').GetName( GetNullCharacter )]，当他人时遭殃，他们的血脉却得以净化。"
 
 trait_bno_dysentery_immunity: "痢疾免疫"
-trait_bno_dysentery_immunity_desc: "该角色对[GetTrait('dysentery').GetName( GetNullCharacter )]的影响产生了免疫，这种能使人致残的疾病对许多人造成了不便而对该角色无法造成威胁。"
+trait_bno_dysentery_immunity_desc: "祭司体液守护着他们的肠道免受[GetTrait('dysentery').GetName( GetNullCharacter )]侵袭，当他人因腹泻而虚弱时，他们依然坚挺。"
 
 trait_bno_ergotism_immunity: "圣火病免疫"
-trait_bno_ergotism_immunity_desc: "该角色对[GetTrait('ergotism').GetName( GetNullCharacter )]的影响产生了免疫，这种罕见的疾病由食用受污染的谷物导致。"
+trait_bno_ergotism_immunity_desc: "凡以BBC种子或甘露滋养者，污秽之谷物难以将其诅咒，[GetTrait('ergotism').GetName( GetNullCharacter )]在其神圣躯体中无法立足。"
 
 trait_bno_sickly_immunity: "多病免疫"
-trait_bno_sickly_immunity_desc: "该角色对[GetTrait('sickly').GetName( GetNullCharacter )]的影响产生了免疫，这种情况下的孩子一般生下来就体弱多病难以存活，而该角色不受影响。"
+trait_bno_sickly_immunity_desc: "承蒙BBC精华的庇佑降生，此角色不受[GetTrait('sickly').GetName( GetNullCharacter )]体质的影响，弱小的孩童将会消亡，而他将茁壮成长。"
 
 trait_bno_great_pox_immunity: "梅毒免疫"
-trait_bno_great_pox_immunity_desc: "该角色对[GetTrait('great_pox').GetName( GetNullCharacter )]的影响产生了免疫，这种病毒无法治愈且传播了很多人而对该角色无法造成威胁。"
+trait_bno_great_pox_immunity_desc: "那无法治愈的[GetTrait('great_pox').GetName( GetNullCharacter )]在仪式圣液的威力下枯萎，这圣液乃祭司之种或其甘露的恩赐，能提供绝对的庇护。"
 
 trait_track_bno_lifestyle_bbc_priestess: "神职人员"
 trait_track_bno_lifestyle_bbc_priestess_desc: "[bno_religion|E]的信徒，献身于服务的躯体，他们的热情被视为全境敬仰的流通品。"
-trait_track_bno_lifestyle_bbc_priest: "$trait_track_bno_lifestyle_bbc_priestess$" # AI Tags
-trait_track_bno_lifestyle_bbc_priest_desc: "$trait_track_bno_lifestyle_bbc_priestess_desc$" # AI Tags
+trait_track_bno_lifestyle_bbc_priest: "$trait_track_bno_lifestyle_bbc_priestess$"
+trait_track_bno_lifestyle_bbc_priest_desc: "$trait_track_bno_lifestyle_bbc_priestess_desc$"
 bno_lifestyle_bbc_priestess: "BBC女祭司"
-bno_lifestyle_bbc_priest: "BBC 牧师" # AI Tags
+bno_lifestyle_bbc_priest: "BBC祭司"
 bno_lifestyle_bbc_priestess_3.female: "受膏BBC女祭司"
 bno_lifestyle_bbc_priest_3.male: "受膏BBC祭司"
 bno_lifestyle_bbc_priestess_2.female: "虔信BBC女祭司"
@@ -112,10 +112,10 @@ bno_lifestyle_bbc_priest_2.male: "虔信BBC祭司"
 bno_lifestyle_bbc_priestess_1.female: "启蒙BBC女祭司"
 bno_lifestyle_bbc_priest_1.male: "启蒙BBC祭司"
 bno_lifestyle_bbc_priestess_desc: "侍奉[bno_religion|E]的新手，还在学习奉献与牺牲之道。"
-bno_lifestyle_bbc_priest_desc: "服务的新单位[bno_religion|E]学习奉献和牺牲的方式" # AI Tags
+bno_lifestyle_bbc_priest_desc: "侍奉[bno_religion|E]的学徒，正在学习虔诚与牺牲之道"
 bno_lifestyle_bbc_priestess_3_character_desc.female: "接受恩典的女祭司，身上涂抹着神圣的油，目光警惕，将她丰腴的身躯作为活生生的圣殿，献给[bno_religion|E]那强大的欲望。"
 bno_lifestyle_bbc_priest_3_character_desc.male: "他的皮肤闪烁着仪式用油的光泽，这正是他虔诚的明证：受膏的祭司以他[bno_bbc|E]的每一次有力 thrust，侍奉着[bno_religion|E]。"
-bno_lifestyle_bbc_priestess_2_character_desc.female: "她以宽广而充满渴望的双眼，以及在最轻微的触碰下便会颤抖的双手，静待着那个时刻，将自己的身体作为神圣的容器，献给[bno_religion|E]的祝福。"
+bno_lifestyle_bbc_priestess_2_character_desc.female: "她以宽广而充满渴望的双眼，以及在最轻微的触碰下便会颤抖的双手，静待着那个时刻——将自己的身体作为神圣的容器，献给[bno_religion|E]的祝福。"
 bno_lifestyle_bbc_priest_2_character_desc.male: "他跪在祭坛前，年轻而充满热情，每一块紧绷的肌肉都因期待而颤动，等待着接受[bno_religion|E]那强大的触碰，并被塑造成它的模样。"
 bno_lifestyle_bbc_priestess_1_character_desc.female: "身着洁白亚麻长袍的入门者赤脚漫步于寺庙花园之中，她的目光在微风中轻声呢喃的[bno_religion|E]的无形存在中寻求指引。"
 bno_lifestyle_bbc_priest_1_character_desc.male: "他的声音颤抖着吟诵着神圣的咒语，一个刚剃过头的年轻人，通过他坚定不移的虔诚和低声的祈祷，寻求[bno_religion|E]的恩典。"
@@ -123,78 +123,78 @@ bno_lifestyle_bbc_priest_1_character_desc.male: "他的声音颤抖着吟诵着�
 # Pussy Mileage Traits (BBC Themed, Safe Formatting)
 
 bno_pussy_mileage_1.1: "处子之身"
-bno_pussy_mileage_1.2: "天真无知"
+bno_pussy_mileage_1.2: "含苞初绽"
 bno_pussy_mileage_1.3: "窈窕淑女"
-bno_pussy_mileage_1.4: "贞洁不再"
+bno_pussy_mileage_1.4: "失身黑屌"
 
-bno_pussy_mileage_1.desc.1: "未被染指且不可思议的紧致，她的身体从未尝试过鸡巴的滋味，更别说是BBC的粗壮了。"
-bno_pussy_mileage_1.desc.2: "几乎没被开发过，第一次接触令她浑身颤抖，天真无邪之心尚未舍弃她，即便巨根早已撬开她的防线。"
-bno_pussy_mileage_1.desc.3: "酸痛而娇嫩，她的小穴因第一次进入而被撑开，她的身体却已经记住尺寸差距将她撕裂的那种震撼。"
-bno_pussy_mileage_1.desc.4: "纯洁不再，永世烙印，她的第一个BBC令她门户大开，她再也没法回头了。"
+bno_pussy_mileage_1.desc.1: "完全未经开发的她，私处紧致未经考验，连BBC的龟头都难以容纳。"
+bno_pussy_mileage_1.desc.2: "刚张开的入口的她，竭尽全力地紧裹着，竭力承受粗壮阳具的初次挺进。"
+bno_pussy_mileage_1.desc.3: "她初尝欢愉，身体娇嫩肿胀，在首次深入时被撑开，已然开始习惯BBC粗壮带来的压力。"
+bno_pussy_mileage_1.desc.4: "被BBC褪去处女之身，肌肉在初次拉伸中撕裂，再也无法恢复处女般的紧致。"
 
 bno_pussy_mileage_2.1: "新鲜出炉"
-bno_pussy_mileage_2.2: "污渍斑斑"
-bno_pussy_mileage_2.3: "破门而入"
+bno_pussy_mileage_2.2: "留痕于身"
+bno_pussy_mileage_2.3: "黑屌扩张"
 
-bno_pussy_mileage_2.desc.1: "刚被开苞，依旧贴合但十分脆弱，她的深处已经被BBC的厚实塑造成了他们的形状。"
-bno_pussy_mileage_2.desc.2: "被充分标记且扩张过了，她的内壁承载着一次次狂暴轰入留下的污渍，没有那根弱小鸡巴能将它们抹去。"
-bno_pussy_mileage_2.desc.3: "和以前大不相同了，被纯粹的尺寸轰入了，她的身体轻而易举地向下一个想要她的黑人屈服。"
+bno_pussy_mileage_2.desc.1: "刚被使用不久，仍旧紧致如初，但她的内壁已因那根BBC的厚重的初次对抗而重塑形状。"
+bno_pussy_mileage_2.desc.2: "作为反复扩张的痕迹，她的阴道呈现松弛状态，对任何小于BBC的阴茎都难以紧致包裹。"
+bno_pussy_mileage_2.desc.3: "被BBC扩张后，她的身体在命令下完全展开，永久定形为可容纳粗壮尺寸的新基本形状。"
 
 bno_pussy_mileage_3.1: "经验丰富"
-bno_pussy_mileage_3.2: "百般使用"
-bno_pussy_mileage_3.3: "训练有素"
+bno_pussy_mileage_3.2: "使用损耗"
+bno_pussy_mileage_3.3: "黑屌印记"
 
-bno_pussy_mileage_3.desc.1: "她的软弱揭示了真相，被无数的BBC腌制入味，反复重塑心智直至抗拒的心消失。"
-bno_pussy_mileage_3.desc.2: "一次次被使用，她的深处被印刻出粗壮的形状，承载着她每一根令她丧失理智的巨屌的记忆。"
-bno_pussy_mileage_3.desc.3: "曾经不可理喻的事，如今已成寻常，她被一个又一个的BBC反复训练，她的身体无比欢迎他们，仿佛是为此而生的。"
+bno_pussy_mileage_3.desc.1: "因长期使用而变得迟钝，她的肌肉已然萎缩，天然的紧致感也大多消失殆尽。"
+bno_pussy_mileage_3.desc.2: "因频繁遭BBC侵犯而磨损，她的紧致感已然消退，短小的男性更会觉得她空洞无比。"
+bno_pussy_mileage_3.desc.3: "被BBC彻底定型，其整个阴道已重新塑形，厚度、深度和宽度均适应超尺寸的插入。"
 
 bno_pussy_mileage_4.1: "松弛不堪"
-bno_pussy_mileage_4.2: "支离破碎"
-bno_pussy_mileage_4.3: "沉醉尺寸"
+bno_pussy_mileage_4.2: "过度扩张"
+bno_pussy_mileage_4.3: "黑屌依存"
 
-bno_pussy_mileage_4.desc.1: "阴唇被扩张，弹性不断流失，一根根撞击她内壁巨根令她松弛不堪。"
-bno_pussy_mileage_4.desc.2: "被无数BBC弄得支离破碎，她的那道缝隙门户大开，被他们那难以忘记紧实塑造了永远的形状。"
-bno_pussy_mileage_4.desc.3: "无可救药的对巨大的尺寸上瘾了，她沉醉于大尺寸，再无小鸡吧能跻身她那被摧毁的深处。"
+bno_pussy_mileage_4.desc.1: "她的嘴唇松弛下垂，几乎失去张力，因反复的过度拉扯而永久性地张开。"
+bno_pussy_mileage_4.desc.2: "因多年BBC的深入而过度扩张，她的阴道始终保持张开状态，再也无法恢复原貌。"
+bno_pussy_mileage_4.desc.3: "BBC依存症患者，她的身体对短小的男性毫无反应，唯有被粗壮的尺寸填满时才会产生反应。"
 
-bno_pussy_mileage_5.1: "中缝绽开"
-bno_pussy_mileage_5.2: "破败不堪"
-bno_pussy_mileage_5.3: "永不满足"
+bno_pussy_mileage_5.1: "门户大开"
+bno_pussy_mileage_5.2: "内壁塌陷"
+bno_pussy_mileage_5.3: "巨壑难填"
 
-bno_pussy_mileage_5.desc.1: "小缝被永久性地张开了，她的阴户松垮下垂，成了无数黑屌撕裂她的战利品。"
-bno_pussy_mileage_5.desc.2: "过度的使用毁掉了她，她的内壁塌陷不再有用，如今只有最粗壮的阳具能穿透她了。"
-bno_pussy_mileage_5.desc.3: "无尽的深渊，永远不会满足，不论多少BBC操过她，她只能寻求更多，不然她什么也感觉不到了。"
+bno_pussy_mileage_5.desc.1: "张开松垮，她的阴户即便静止时也敞开着，肌肉受损严重无法完全闭合。"
+bno_pussy_mileage_5.desc.2: "坍塌的内壁因超尺寸扩张而永久性损伤，任由无尽的BBC使用它以将其撑得越来越宽。"
+bno_pussy_mileage_5.desc.3: "永远无法满足，没有一根鸡巴，哪怕是BBC也无法满足她，她渴望多根肉棒一起上才能感到满足。"
 
-trait_bno_pussy_mileage_6: "彻底奔溃"
-trait_bno_pussy_mileage_6_desc: "永久性萎缩，阴道口外翻，腔体持续张开，几乎丧失任何紧致力；唯有极其粗壮的阴茎能勉强触及。"
+trait_bno_pussy_mileage_6: "阴道脱垂"
+trait_bno_pussy_mileage_6_desc: "因遭受BBC的极端虐待而脱垂，她的阴道管向外塌陷，阴唇永久下垂，丧失了天然的紧致度。"
 
   # Pussy Mileage Trait Tracks
-trait_track_bno_pussy_mileage_1: "贞操情况统计"
-trait_track_bno_pussy_mileage_1_desc: "量化测量在她的贞洁不可避免地被BBC占据前，她能保持多久不被玷污的状态。"
+trait_track_bno_pussy_mileage_1: "贞操情况记录"
+trait_track_bno_pussy_mileage_1_desc: "衡量被穿透前的基础张力与组织完整性，一旦开始进行BBC活动，该数值即反映早期弹性变化与疼痛程度。"
 
-trait_track_bno_pussy_mileage_2: "新鲜度统计"
-trait_track_bno_pussy_mileage_2_desc: "追踪随着BBC不断轰入并玷污她，她的贴合度如何慢慢流失。"
+trait_track_bno_pussy_mileage_2: "新鲜度记录"
+trait_track_bno_pussy_mileage_2_desc: "记录因反复BBC插入导致的初始张力丧失与弹性回缩减弱，表明组织的逐渐松弛，对较细阴茎摩擦力的减弱。"
 
-trait_track_bno_pussy_mileage_3: "熟练度统计"
-trait_track_bno_pussy_mileage_3_desc: "显示不断被使用给她带来的损耗，她的身体稳定地被训练成欢迎每一根巨根的状态。"
+trait_track_bno_pussy_mileage_3: "熟练度记录"
+trait_track_bno_pussy_mileage_3_desc: "统计在BBC粗壮度作用下阴道逐渐扩张及盆底弹性疲劳，反映出随着阴道更易张开而抓握力减弱的适应性变化。"
 
-trait_track_bno_pussy_mileage_4: "松弛度统计"
-trait_track_bno_pussy_mileage_4_desc: "揭示宽度扩大对其身体造成的损伤，过多的狂暴轰入使其保守拉伸与损害。"
+trait_track_bno_pussy_mileage_4: "松弛度记录"
+trait_track_bno_pussy_mileage_4_desc: "展示长期被BBC使用导致的持续扩张和静息肌张力的降低，敏感度逐渐偏向超大尺寸，而较小尺寸的伴侣则难以引发明显反应。"
 
-trait_track_bno_pussy_mileage_5: "缝隙追踪"
-trait_track_bno_pussy_mileage_5_desc: "标志着她堕落道路的终结，永久性的损坏，永远无法满足，永远地对BBC成瘾了。"
+trait_track_bno_pussy_mileage_5: "开放度记录"
+trait_track_bno_pussy_mileage_5_desc: "记录终期松弛特征，天然抓握力极弱，即使BBC也面临摩擦过小问的题，脱垂风险及永久性扩张指标呈高发趋势。"
 
-trait_track_bno_bbc_whore_1: "新手熟练度统计"
+trait_track_bno_bbc_whore_1: "新手熟练度记录"
 trait_track_bno_bbc_whore_1_desc: "记录她职业生涯的最初步伐，与BBC客户的早期会面、日益增长的自信，以及基本技艺的里程碑。"
-trait_track_bno_bbc_whore_2: "声望累计度统计"
+trait_track_bno_bbc_whore_2: "声望累计度记录"
 trait_track_bno_bbc_whore_2_desc: "追踪随着她穿梭于宫廷间，一次次被预约提供值得信赖的服务，而在BBC们当中累计的声望。"
-trait_track_bno_bbc_whore_3: "传奇度统计"
+trait_track_bno_bbc_whore_3: "传奇度记录"
 trait_track_bno_bbc_whore_3_desc: "统计精英级别皇室工作以及全国范围内的民声，BBC们的标志，被召唤前来庆典、餐宴，以及高收益的来访。"
 
-trait_track_bno_bbc_whore_player_1: "新手熟练度统计"
+trait_track_bno_bbc_whore_player_1: "新手熟练度记录"
 trait_track_bno_bbc_whore_player_1_desc: "记录她职业生涯的最初步伐，与BBC客户的早期会面、日益增长的自信，以及基本技艺的里程碑。"
-trait_track_bno_bbc_whore_player_2: "声望累计度统计"
+trait_track_bno_bbc_whore_player_2: "声望累计度记录"
 trait_track_bno_bbc_whore_player_2_desc: "追踪随着她穿梭于宫廷间，一次次被预约提供值得信赖的服务，而在BBC们当中累计的声望。"
-trait_track_bno_bbc_whore_player_3: "传奇度统计"
+trait_track_bno_bbc_whore_player_3: "传奇度记录"
 trait_track_bno_bbc_whore_player_3_desc: "统计精英级别皇室工作以及全国范围内的民声，BBC们的标志，被召唤前来庆典、餐宴，以及高收益的来访。"
 
 bno_bbc_whore_1.1: "诱惑摇篮"
