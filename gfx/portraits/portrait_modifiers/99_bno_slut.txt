@@ -363,11 +363,12 @@ bno_bigger_boobs = {
 				}
 			}
 			morph = {
-				mode = modify gene = gene_bs_nipples
+				mode = modify 
+				gene = gene_bs_nipples
 				value = {
 					add = {
 						value = var:bno_becoming_dark
-						divide = 10
+						divide = 5
 					}
 				}
 			}
@@ -393,7 +394,7 @@ bno_bigger_butts = {
 				value = {
 					add = {
 						value = var:bno_becoming_dark
-						divide = 10
+						divide = 5
 					}
 				}
 			}
@@ -403,7 +404,7 @@ bno_bigger_butts = {
 				value = {
 					add = {
 						value = var:bno_becoming_dark
-						divide = 10
+						divide = 5
 					}
 				}
 			}
@@ -430,7 +431,7 @@ bno_smaller_waist = {
 					add = {
 						value = var:bno_becoming_dark
 						multiply = -1
-						divide = 10
+						divide = 8
 					}
 				}
 			}
@@ -440,7 +441,7 @@ bno_smaller_waist = {
 					add = {
 						value = var:bno_becoming_dark
 						multiply = -1
-						divide = 10
+						divide = 5
 					}
 				}
 			}
