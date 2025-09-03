@@ -12,3 +12,8 @@ bno_cure_disease_interaction.desc.male: "[GetCourtPositionType('bno_bbc_priestes
 
 bno_cure_disease_interaction.female_recipient.effect: "You will call upon your [GetCourtPositionType('bno_bbc_priest_court_position').GetName] to prepare his sacred seeds to prepare for the ritual"
 bno_cure_disease_interaction.male_recipient.effect: "You will call upon your [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] to prepare her sacred essence to prepare for the ritual"
+
+bno_tincture_of_genesis_interaction: "Tincture of Genesis"
+bno_tincture_of_genesis_interaction.desc: "You will transform your wife [recipient.GetFirstName] existence"
+bno_tincture_of_genesis_interaction.not_white: "She is [GetTrait('bno_full_black').GetName( GetNullCharacter )]"
+bno_tincture_of_genesis_interaction.effect: "You will feed your wife [recipient.GetFirstName] your potent cum, transforming her very core."

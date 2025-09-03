@@ -12,3 +12,8 @@ bno_cure_disease_interaction.desc.male: "[GetCourtPositionType('bno_bbc_priestes
 
 bno_cure_disease_interaction.female_recipient.effect: "你将传唤你的[GetCourtPositionType('bno_bbc_priest_court_position').GetName]准备好他那神圣的种子以为仪式做准备。"
 bno_cure_disease_interaction.male_recipient.effect: "你将传唤你的[GetCourtPositionType('bno_bbc_priestess_court_position').GetName]准备好她那神圣的精华以为仪式做准备。"
+
+bno_tincture_of_genesis_interaction: "创世纪的瞬间" # AI Tags
+bno_tincture_of_genesis_interaction.desc: "你会改变你的妻子[recipient.GetFirstName]存在" # AI Tags
+bno_tincture_of_genesis_interaction.not_white: "她就是那个[GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+bno_tincture_of_genesis_interaction.effect: "养你老婆,养你老婆[recipient.GetFirstName]你强大的精液 改变了她的核心" # AI Tags

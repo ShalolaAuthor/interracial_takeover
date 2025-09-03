@@ -1,0 +1,116 @@
+﻿namespace = bno_tincture_of_genesis
+
+#Male Events
+bno_tincture_of_genesis.0001 = {
+    type = character_event
+    title = bno_tincture_of_genesis.0001.title
+    desc = bno_tincture_of_genesis.0001.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        add_character_flag = bno_tincture_of_genesis.0001
+        save_scope_as = carn_sex_player
+        scope:recipient = {
+            save_scope_as = carn_sex_partner
+        }
+        carn_sex_scene_start = yes
+        cuddle_animations = yes
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.0001
+        scope:recipient = {
+            trigger_event = bno_tincture_of_genesis.0002
+        }
+        carn_sex_scene_is_cum_inside_effect = yes
+        carn_sex_scene_cleanup = yes
+    }
+}
+#Female Events
+bno_tincture_of_genesis.0002 = {
+    type = character_event
+    title = bno_tincture_of_genesis.0002.title
+    desc = bno_tincture_of_genesis.0002.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        save_scope_as = carn_sex_player
+        scope:actor = {
+            save_scope_as = carn_sex_partner
+        }
+        carn_sex_scene_start = yes
+        cuddle_animations = yes
+
+        set_variable = {
+            name = bno_becoming_dark
+            value = 0
+        }
+        trigger_event = {
+            id = bno_tincture_of_genesis.1111
+            days = 2
+            delayed = yes
+        }
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.0002
+        carn_sex_scene_is_cum_inside_effect = yes
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+
+#hidden repeating event to pump up the var
+bno_tincture_of_genesis.1111 = {
+    hidden = yes
+    immediate = {
+        if = {
+            limit = {
+                var:bno_becoming_dark <= 4
+            }
+            change_variable = {
+                name = bno_becoming_dark
+                add = 0.006
+            }
+            trigger_event = {
+                id = bno_tincture_of_genesis.1111
+                days = 2
+                delayed = yes
+            }
+        }
+        else = {
+            set_variable = {
+                name = bno_becoming_dark
+                value = 4
+            }
+        }
+    }
+}

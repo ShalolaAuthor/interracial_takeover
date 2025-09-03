@@ -1,0 +1,18 @@
+﻿bno_nourishers_fatigue = {
+    icon = nourishers_fatigue_negative
+    prowess = -5
+    martial = -5
+    stress_loss_mult = 0.1
+	stress_gain_mult = -0.1
+    fertility = -1
+}
+
+bno_tincture_of_genesis = {
+    icon = tincture_of_genesis_positive
+    learning = 2
+    stewardship = 2
+    intrigue = 2
+    martial = 2
+    prowess = 2
+    diplomacy = 2
+}

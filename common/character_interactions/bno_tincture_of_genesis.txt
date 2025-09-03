@@ -1,0 +1,77 @@
+﻿bno_tincture_of_genesis_interaction = {
+    icon = icon_bno_tincture_of_genesis
+    category = interaction_category_friendly
+    interface_priority = 999
+
+    common_interaction = yes
+
+    desc = bno_tincture_of_genesis_interaction.desc
+
+    use_diplomatic_range = yes
+
+    is_shown = {
+        scope:actor = {
+            NOT = { has_character_flag = bno_tincture_of_genesis.0001 }
+            is_blackbull = yes
+        }
+        scope:recipient = {
+            is_white_girl = yes
+            NOT = { has_character_modifier = bno_tincture_of_genesis }
+            is_spouse_of = scope:actor
+            NOT = { exists = var:bno_becoming_dark }
+        }
+    }
+
+    is_valid_showing_failures_only = {
+        scope:actor = {
+            is_at_war = no
+        }
+        scope:recipient = {
+            custom_tooltip = {
+                text = bno_tincture_of_genesis_interaction.not_white
+                is_african = no
+            }
+        }
+    }
+
+    on_accept = {
+        #trigger event for bbc after 6 months will start to see the result give wife bno_becoming dark and a hidden event that keep incrementing that number
+        show_as_tooltip = {
+            custom_tooltip = bno_tincture_of_genesis_interaction.effect
+        }
+        scope:actor = {
+            add_character_modifier = {
+                modifier = bno_nourishers_fatigue
+            }
+        }
+        scope:recipient = {
+            add_character_modifier = {
+                modifier = bno_tincture_of_genesis
+            }
+        }
+        hidden_effect = {
+            scope:actor = {
+                trigger_event = bno_tincture_of_genesis.0001
+            }
+        }
+    }
+
+    ai_potential = {
+        any_spouse = {
+            is_white_girl = yes
+            NOT = { exists = var:bno_becoming_dark }
+        }
+    }
+
+    ai_frequency = 12
+    ai_instant_response = yes
+
+    ai_targets = {
+        ai_recipients = spouses
+    }
+
+    ai_will_do = {
+        base = 100
+    }
+
+}

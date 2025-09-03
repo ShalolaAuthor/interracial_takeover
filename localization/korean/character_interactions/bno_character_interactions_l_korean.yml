@@ -12,3 +12,8 @@ bno_cure_disease_interaction.desc.male: "[GetCourtPositionType('bno_bbc_priestes
 
 bno_cure_disease_interaction.female_recipient.effect: "당신은 당신의 [GetCourtPositionType('bno_bbc_priest_court_position').GetName]그의 신성한 씨앗을 준비하기 위해 의식에 준비하기 위해" # AI Tags
 bno_cure_disease_interaction.male_recipient.effect: "당신은 당신의 [GetCourtPositionType('bno_bbc_priestess_court_position').GetName]그녀의 신성한 본질을 준비하기 위해 의식을 준비하기 위해" # AI Tags
+
+bno_tincture_of_genesis_interaction: "창세기 의 염색" # AI Tags
+bno_tincture_of_genesis_interaction.desc: "당신은 당신의 아내를 변화시킬 것입니다[recipient.GetFirstName]존재" # AI Tags
+bno_tincture_of_genesis_interaction.not_white: "그래요[GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+bno_tincture_of_genesis_interaction.effect: "넌 아내를 먹여줄 거야[recipient.GetFirstName]그녀의 핵을 변화시키는 강력한 성추" # AI Tags
