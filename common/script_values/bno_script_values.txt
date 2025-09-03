@@ -44,22 +44,22 @@ bno_random_xp_negative = {
 hair_color_x = {
    value = 1
    divide = var:bno_becoming_dark
-   add = -0.15
+   add = -0.5
 }
 
 hair_color_y = {
    value = 2
    divide = var:bno_becoming_dark
-   add = -0.25
+   add = -0.5
 }
 
 skin_color_x = {
-  value = 0.025
+  value = 0
   multiply = var:bno_becoming_dark
 }
 
 skin_color_y = {
-  value = 0.025
+  value = 0.125
   multiply = var:bno_becoming_dark
 }
 

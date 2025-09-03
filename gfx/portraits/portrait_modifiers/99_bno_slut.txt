@@ -217,21 +217,128 @@ bno_cum_shot = {
 	}
 }
 
+bno_bigger_areolas = {
+	usage = game
+	priority = 999
+	bno_bigger_areolas_5 = {
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_areolas
+				template = areolas_5
+				value = 1
+			} 
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 6
+				is_body_modification_ok = yes
+				exists = var:bno_becoming_dark
+				var:bno_becoming_dark >= 4
+			}
+		}
+	}
+	bno_bigger_areolas_4 = {
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_areolas
+				template = areolas_4
+				value = 1
+			} 
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 5
+				is_body_modification_ok = yes
+				exists = var:bno_becoming_dark
+				var:bno_becoming_dark >= 3
+			}
+		}
+	}
+	bno_bigger_areolas_3 = {
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_areolas
+				template = areolas_3
+				value = 1
+			} 
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 4
+				is_body_modification_ok = yes
+				exists = var:bno_becoming_dark
+				var:bno_becoming_dark >= 2
+			}
+		}
+	}
+	bno_bigger_areolas_2 = {
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_areolas
+				template = areolas_2
+				value = 1
+			} 
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 3
+				is_body_modification_ok = yes
+				exists = var:bno_becoming_dark
+				var:bno_becoming_dark >= 1
+			}
+		}
+	}
+	bno_bigger_areolas_1 = {
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_areolas
+				template = areolas_1
+				value = 1
+			} 
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 2
+				is_body_modification_ok = yes
+				exists = var:bno_becoming_dark
+				var:bno_becoming_dark >= 0
+			}
+		}
+	}
+	bno_bigger_areolas_1 = {
+		dna_modifiers = {
+			morph = {
+				mode = modify
+				gene = gene_areolas
+				template = areolas_0
+				value = 1
+			} 
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				is_body_modification_ok = yes
+				NOT = { exists = var:bno_becoming_dark }
+			}
+		}
+	}
+}
+
 bno_bigger_boobs = {
 	usage = game
 	bno_bigger_boobs = {
 		dna_modifiers = {
-			morph = {
-				mode = add
-				gene = gene_areolas
-				template = areolas_2
-				value = {
-					add = {
-						value = var:bno_becoming_dark
-						multiply = 0.25
-					}
-				}
-			}
 			#Changes Breast Size
 			morph = {
 				mode = modify 
