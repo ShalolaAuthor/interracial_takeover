@@ -27,6 +27,9 @@
  trait_bno_mixed_desc: "Halbblütiger Afrikaner" #deepl:2507957118
  trait_bno_barely_mixed: "Kaum gemischt" #deepl:770889759
  trait_bno_barely_mixed_desc: "Nachdem sich die afrikanische Dynastie seit Generationen nicht mehr fortgepflanzt hat, ist das einheimische Blut dieses Charakters knapp geworden" #deepl:1597052545
+
+
+
 #Message Filter
- message_filter_bno_breeding_outcomes: ""
- message_filter_bno_blacked_events: ""
+message_filter_bno_breeding_outcomes: ""
+message_filter_bno_blacked_events: ""

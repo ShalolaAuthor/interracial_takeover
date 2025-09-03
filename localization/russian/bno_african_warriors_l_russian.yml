@@ -2,5 +2,37 @@
 
  bno_african_warriors: "Африканские Воины"
 bno_african_warriors_flavor: "Элитные бойцы, что носятся как черти и рвут всех на куски в лесах и джунглях, будто там их родная кровать."
+
 bno_ebony_elites: "Эбеновые элиты"
 bno_ebony_elites_flavor: "Престижное подразделение тяжёлой пехоты, прославленное своей дисциплиной и боевым мастерством, часто служащее основой военной мощи королевства."
+
+bno_cock_maidens: "Девственники" # AI Tags
+bno_cock_maidens_flavor: "#F Ручные девственницы, связанные с культом Черного Кока, эти девы имеют как лезвие, так и тело в качестве оружия. Немногие по количеству, но необыкновенные в рвении, они нападают с безжалостной точностью, их похотливая преданность превращая каждое поле боя в оргию крови и поклонения Би-би-си.#!" # AI Tags
+
+bnwo_armies: "[bnwo_armies|E]" # AI Tags
+
+bnwo_armies_screen_add: "[bnwo_armies|E] [screen|E]" # AI Tags
+bnwo_armies_screen_mult: "$bnwo_armies_screen_add$" # AI Tags
+bnwo_armies_pursuit_add: "[bnwo_armies|E] [pursuit|E]" # AI Tags
+bnwo_armies_pursuit_mult: "$bnwo_armies_pursuit_add$" # AI Tags
+bnwo_armies_toughness_add: "[bnwo_armies|E] [toughness|E]" # AI Tags
+bnwo_armies_toughness_mult: "$bnwo_armies_toughness_add$" # AI Tags
+bnwo_armies_damage_add: "[bnwo_armies|E] [damage|E]" # AI Tags
+bnwo_armies_damage_mult: "$bnwo_armies_damage_add$" # AI Tags
+bnwo_armies_max_size_add: "Максимальный размер[bnwo_armies|E] [regiments|E]" # AI Tags
+bnwo_armies_max_size_mult: "$bnwo_armies_max_size_add$" # AI Tags
+bnwo_armies_maintenance_mult: "[bnwo_armies|E]Техническое обслуживание" # AI Tags
+bnwo_armies_recruitment_cost_mult: "[bnwo_armies|E]Расходы на набор персонала" # AI Tags
+bnwo_armies_siege_value_add: "[bnwo_armies|E] [siege_progress|E]" # AI Tags
+bnwo_armies_siege_value_mult: "$bnwo_armies_siege_value_add$" # AI Tags
+
+stationed_bnwo_armies_damage_add: "[stationed|E] [bnwo_armies|E] [damage|E]" # AI Tags
+stationed_bnwo_armies_damage_mult: "$stationed_bnwo_armies_damage_add$" # AI Tags
+stationed_bnwo_armies_toughness_add: "[stationed|E] [bnwo_armies|E] [toughness|E]" # AI Tags
+stationed_bnwo_armies_toughness_mult: "$stationed_bnwo_armies_toughness_add$" # AI Tags
+stationed_bnwo_armies_pursuit_add: "[stationed|E] [bnwo_armies|E] [pursuit|E]" # AI Tags
+stationed_bnwo_armies_pursuit_mult: "$stationed_bnwo_armies_pursuit_add$" # AI Tags
+stationed_bnwo_armies_screen_add: "[stationed|E] [bnwo_armies|E] [screen|E]" # AI Tags
+stationed_bnwo_armies_screen_mult: "$stationed_bnwo_armies_screen_add$" # AI Tags
+stationed_bnwo_armies_siege_value_add: "[stationed|E] [bnwo_armies|E] [siege_progress|E]" # AI Tags
+stationed_bnwo_armies_siege_value_mult: "$stationed_bnwo_armies_siege_value_add$" # AI Tags

@@ -1,0 +1,17 @@
+﻿l_spanish:
+
+#Diarchy Types
+bno_sated_throne_diarch_title: "Superintendente hereditaria" # AI Tags
+bno_sated_throne_diarchy_type: "[bno_sated_throne|E]" # AI Tags
+
+bno_first_harvest_mandate: "Primera cosecha" # AI Tags
+bno_first_harvest_mandate_desc: "#BOL Posible[mandate|E] Efectos:#!\n$EFFECT_LIST_BULLET$Extra[gold|E]\n$EFFECT_LIST_BULLET$Gobernante debe hacer[bno_first_harvest|E]\n$EFFECT_LIST_BULLET$El legislador debe establecer[bno_bbc_council|E]\n\n#WEAK El[regent|E] debe tratar de su más duro para negro el$game_concept_liege$Es la nación, a cualquier precio.#!" # AI Tags
+
+mandate_aptitude.bno_first_harvest.category: "$bno_first_harvest_mandate$" # AI Tags
+mandate_aptitude.bno_first_harvest.primary_skill.bno_sex_counter: "[mandate|E] se basa en[bno_sexual_experience|E]" # AI Tags
+mandate_aptitude.bno_first_harvest.secondary_skill.martial: "[mandate|E] usos[learning|E]" # AI Tags
+mandate_aptitude.bno_first_harvest.secondary_skill.prowess: "[mandate|E] usos[prowess|E]" # AI Tags
+mandate_aptitude.bno_first_harvest.bonus_trait.bno_camp_leader: "[GetTrait('bno_camp_leader').GetName( ROOT.Char )] excels" # AI Tags
+mandate_aptitude.bno_first_harvest.bonus_trait.strong: "[GetTrait('strong').GetName( ROOT.Char )] excels" # AI Tags
+mandate_aptitude.bno_first_harvest.malus_trait.generous: "[GetTrait('generous').GetName( ROOT.Char )] inadaptado" # AI Tags
+mandate_aptitude.bno_first_harvest.malus_trait.infertile: "[GetTrait('infertile').GetName( ROOT.Char )] inadaptado" # AI Tags

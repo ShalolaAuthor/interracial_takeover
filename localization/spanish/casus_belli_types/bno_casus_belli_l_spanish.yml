@@ -1,0 +1,41 @@
+﻿l_spanish:
+
+ bno_war: "[bno_bnwo|E] Guerra" # AI Tags
+ bno_war_victory_desc_attacker: "Ganas la disputa. [titles|E]." # AI Tags
+ bno_war_victory_desc: "[attacker.GetShortUIName|U] gana lo impugnado[title|E]." # AI Tags
+ bno_war_white_peace_desc_defender: "Usted mantiene la impugnación[title|E]." # AI Tags
+ bno_war_white_peace_desc: "[defender.GetShortUIName|U] mantiene el impugnado[title|E]." # AI Tags
+ bno_war_defeat_desc_defender: "Usted mantiene la impugnación[title|E]." # AI Tags
+ bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] mantiene el impugnado[title|E]. Todos[factions|E] contra ti aumentan sus[discontent|E]." # AI Tags
+ bno_war_defeat_desc: "[defender.GetShortUIName|U] mantiene el impugnado[title|E]." # AI Tags
+ 
+ BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] La toma de posesión racial de la[TITLE.GetBaseName]" # AI Tags
+ BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+ BNO_WAR_CB_NAME: "Toma de posesión racial de[TITLE.GetBaseName]" # AI Tags
+
+ bno_subj_war: "[bno_bnwo|E] Guerra de subyugación" # AI Tags
+ bno_subj_war_victory_desc_attacker: "Ganas la disputa. [titles|E]." # AI Tags
+ bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] gana lo impugnado[title|E]." # AI Tags
+ bno_subj_war_white_peace_desc_defender: "Usted mantiene la impugnación[title|E]." # AI Tags
+ bno_subj_war_white_peace_desc: "[defender.GetShortUIName|U] mantiene el impugnado[title|E]." # AI Tags
+ bno_subj_war_defeat_desc_defender: "Usted mantiene la impugnación[title|E]." # AI Tags
+ bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] mantiene el impugnado[title|E]. Todos[factions|E] contra ti aumentan sus[discontent|E]." # AI Tags
+ bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] mantiene el impugnado[title|E]." # AI Tags
+
+BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Subyugación racial de la[TITLE.GetBaseName]" # AI Tags
+BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+BNO_SUBJ_WAR_CB_NAME: "Subyugación racial de[TITLE.GetBaseName]" # AI Tags
+
+bno_varangian_adventure: "[bno_bnwo|E] Invasión" # AI Tags
+BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Invasión contra[DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+BNO_VARANGIAN_ADVENTURE_CB_NAME: "Invasión de[DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+BNWO_STATE_TITLE_NAME: "Negro[target_duchy.GetNameNoTierNoTooltip]" # AI Tags
+
+bno_civil_unrest: "[bno_bnwo|E] Rebelión" # AI Tags
+bno_civil_unrest.army_name: "Conquistadores de ébano" # AI Tags
+bno_civil_unrest.victory.desc: "Los[bno_bnwo|E] La resistencia es inútil, prepárense para servir al nuevo orden." # AI Tags
+bno_civil_unrest.white_peace.desc: "Los[bno_bnwo|E] ofrece una oportunidad para la paz, someterse a nuestra regla y ser salvados." # AI Tags
+bno_civil_unrest.defeat.desc: "Los[bno_bnwo|E] El viejo orden permanece intacto, por ahora." # AI Tags
+bnwo_faction_every_county: "Cada[faction|E] [county|E]" # AI Tags
+bno_civil_unrest_name: "Levantamiento del Nuevo Orden Mundial Negro" # AI Tags

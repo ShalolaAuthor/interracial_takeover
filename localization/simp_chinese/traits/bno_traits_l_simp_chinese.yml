@@ -1,36 +1,37 @@
 ﻿l_simp_chinese:
 
-trait_bno_curious:0 "对黑鸡巴好奇"
-trait_bno_curious_desc:0 "这个角色好奇和拥有[bno_bbc|E]的人做爱是什么感觉，甚至积极地幻想尝试一下。"
-trait_bno_blacked:0 "BLACKED"
-trait_bno_blacked_desc:0 "这个角色第一次尝到了[bno_bbc|E]的滋味，并且非常喜欢。"
-trait_bno_snowbunny:0 "雪兔"
-trait_bno_snowbunny_desc:0 "[bno_bbc|E]带来的快感如此令人神魂颠倒，以至于这个角色频繁出入她非洲廷臣的寝宫。"
-trait_bno_qos:0 "黑桃皇后"
-trait_bno_qos_desc:0 "被她众多的性伴侣烙下印记，这个角色炫耀着她对异族的性欲。"
-trait_bno_mindless_bbc_slut:0 "无脑黑鸡巴荡妇"
-trait_bno_mindless_bbc_slut_desc:0 "这个角色已经放弃了一切，除了她们的神，多汁的黑鸡巴。她们唯一的目的就是服侍它们。"
+trait_bno_curious: "黑色好奇度" # AI Tags
+trait_bno_curious_desc: "这个性格让人不知道 性与性[bno_bbc|E]甚至积极幻想尝试它。" # AI Tags
+trait_bno_blacked: "黑色" # AI Tags
+trait_bno_blacked_desc: "此字符的品味[bno_bbc|E]第一次,很喜欢" # AI Tags
+trait_bno_snowbunny: "雪盆" # AI Tags
+trait_bno_snowbunny_desc: "[bno_bbc|E]如此麻木的头脑, 这个角色经常出现在她的非洲侍从的大厅里。" # AI Tags
+trait_bno_qos: "黑桃女王" # AI Tags
+trait_bno_qos_desc: "以她的众多伴侣为品牌和标志,这个角色炫耀她的种族和性欲。" # AI Tags
+trait_bno_mindless_bbc_slut: "BBC Slut 无知的BBC Slut" # AI Tags
+trait_bno_mindless_bbc_slut_desc: "除了他们的神外,这个角色已经放弃了一切 - 充满活力的黑老二。她的唯一目的就是为它们服务。" # AI Tags
 
-trait_bno_whitegirl:0 "黑鸡巴荡妇"
-trait_bno_whiteboi:0 "小鸡吧"
-trait_bno_chastity:0 "寻求小穴"
-trait_bno_blood:0 "黑美人"
+trait_bno_whitegirl: "BBC Sluts 英国广播公司" # AI Tags
+trait_bno_whiteboi: "弱鸡巴" # AI Tags
+trait_bno_chastity: "大通妓女" # AI Tags
+trait_bno_blood: "非洲人" # AI Tags
 trait_bno_pussy_mileage: "小穴的损坏与撕裂"
 trait_bno_bbc_whore: "专业膜拜BBC"
+trait_bno_bbc_whore_player: "$trait_bno_bbc_whore$" # AI Tags
 
 trait_bno_pure_white: "纯白"
 trait_bno_pure_white_desc: "她已被非常规手段净化了，获得了纯白的皮肤，金黄的头发，以及蓝色眼睛。[bno_bbc|E]的绝佳伴侣。"
 
-trait_track_bno_curious:0 "好奇"
-trait_track_bno_curious_desc:0 "她发现自己越想越湿润，只想着自己是多么想用嘴唇裹住其中一根巨大的阴茎......或者更好的是，感觉它将自己撑得大大的，直到她陶醉地尖叫。"
-trait_track_bno_blacked:0 "Blacked"
-trait_track_bno_blacked_desc:0 "如今，在用身体的每一寸肌肤崇拜和爱慕这些雄伟的阴茎无数个小时之后，她终于明白了 “Blacked ”的真正含义--完全被对那些粗大、黝黑的阴茎的欲求所吞噬，直到除了一次又一次被填满之外，其他一切都不再重要"
-trait_track_bno_snowbunny:0 "雪兔"
-trait_track_bno_snowbunny_desc:0 "她成了雪兔，一个对[bno_bbcs|E]如此着迷的白人女孩，她会不惜一切代价对其染指（或嘴），不论是在停车场肆无忌惮地口交，还是让陌生男人把她压在身下操得她脑浆迸裂......这位公主在追逐那些大黑鸡巴的过程中不知羞耻！"
-trait_track_bno_qos:0 "黑桃皇后"
-trait_track_bno_qos_desc:0 "这个头衔不是与生俱来的，而是她多年来对黑爹主人的奉献和服务换来的。她让他们肃然起敬（往往也让他们恐惧），他们排着队只为有机会品尝只有真正的女王才能提供的美味。"
-trait_track_bno_mindless_bbc_slut:0 "无脑黑鸡巴荡妇"
-trait_track_bno_mindless_bbc_slut_desc:0 "她一心一意为那些大黑鸡巴服务，除了取悦他们，她的存在别无其他意义。她曾经引以为傲的头衔已被剥夺，取而代之的新身份只是另一个无名无脸的洞，供男人们随意使用。"
+trait_track_bno_curious: "好奇度" # AI Tags
+trait_track_bno_curious_desc: "她一想到她有多想把嘴唇 缠在那些大轴上... 或更好些, 感觉它拉开她,直到她用摇头丸尖叫" # AI Tags
+trait_track_bno_blacked: "黑色" # AI Tags
+trait_track_bno_blacked_desc: "现在,经过无数小时的礼拜 和盛装如此壮丽的井 与她的全身的每一英寸, 她终于明白 被'黑'意味着什么 - 完全被消耗" # AI Tags
+trait_track_bno_snowbunny: "雪盆" # AI Tags
+trait_track_bno_snowbunny_desc: "她变成了雪白邦妮 白人女孩如此迷恋[bno_bbcs|E]不管是在停车场里吹口哨, 还是让陌生男人把她弯下腰, 把她的脑袋搞死...这个公主在追那些大黑鸡巴时, 毫不羞耻!" # AI Tags
+trait_track_bno_qos: "黑桃女王" # AI Tags
+trait_track_bno_qos_desc: "一种称号不是通过天生的权利而获得的,而是通过多年的献身精神和为黑暗的主人服务而获得的。 她要求他们尊重(而且经常是恐惧 ) , 因为他们排队只是为了有机会尝尝只有真正的女王才能提供的东西。" # AI Tags
+trait_track_bno_mindless_bbc_slut: "BBC Slut 无知的BBC Slut" # AI Tags
+trait_track_bno_mindless_bbc_slut_desc: "一个完全致力于为那些大黑鸡鸡服务的生物,她的存在除了取悦他们之外别无他物。 她曾经自豪的头衔被剥去,代之以一个新的身份,只是另一个无名无脸的洞,供男人随时使用。" # AI Tags
 
 trait_track_bno_cuckish: "$trait_bno_cuckish$"
 trait_track_bno_cuckish_desc: "$trait_bno_cuckish_desc$"
@@ -52,40 +53,58 @@ trait_bno_barely_mixed_slut_desc: "$trait_bno_barely_mixed_desc$"
 
 trait_bno_lovers_pox_immunity: "情人疱疹免疫"
 trait_bno_lovers_pox_immunity_desc: "该角色对[GetTrait('lovers_pox').GetName( GetNullCharacter )]的影响产生了免疫，这对那些经常加入跨种族关系的人来说是一种很常见的疾病。"
+
 trait_bno_ill_immunity: "疾病免疫"
 trait_bno_ill_immunity_desc: "该角色对[GetTrait('ill').GetName( GetNullCharacter )]的影响产生了免疫，这对那些参与危险行为的人来说是一种很常见的疾病。"
+
 trait_bno_pneumonic_immunity: "肺炎免疫"
 trait_bno_pneumonic_immunity_desc: "该角色对[GetTrait('pneumonic').GetName( GetNullCharacter )]的影响产生了免疫，这对那些参与危险行为的人来说是一种很罕见的疾病。"
+
 trait_bno_early_great_pox_immunity: "情人疱疹免疫"
 trait_bno_early_great_pox_immunity_desc: "该角色对[GetTrait('early_great_pox').GetName( GetNullCharacter )]的影响产生了免疫，这对那些经常加入跨种族关系的人来说是一种很罕见的疾病。"
+
 trait_bno_leper_immunity: "麻风病免疫"
 trait_bno_leper_immunity_desc: "该角色对[GetTrait('leper').GetName( GetNullCharacter )]的影响产生了免疫，这对那些参与鲁莽行为的人来说是一种很罕见的疾病。"
+
 trait_bno_gout_ridden_immunity: "痛风免疫"
 trait_bno_gout_ridden_immunity_desc: "该角色对[GetTrait('gout_ridden').GetName( GetNullCharacter )]的影响产生了免疫，这对那些过度放纵的人来说是一种很罕见的疾病。"
+
 trait_bno_consumption_immunity: "肺痨免疫"
 trait_bno_consumption_immunity_desc: "该角色对[GetTrait('consumption').GetName( GetNullCharacter )]的影响产生了免疫，这对那些过度放纵的人来说是一种很罕见的疾病。"
+
 trait_bno_cancer_immunity: "癌症免疫"
 trait_bno_cancer_immunity_desc: "该角色对[GetTrait('cancer').GetName( GetNullCharacter )]的影响产生了免疫，这对那些过度放纵的人来说是一种很罕见的疾病。"
+
 trait_bno_typhus_immunity: "伤寒免疫"
 trait_bno_typhus_immunity_desc: "该角色对[GetTrait('typhus').GetName( GetNullCharacter )]的影响产生了免疫，这对那些参与鲁莽行为的人来说是一种很罕见的疾病。"
+
 trait_bno_bubonic_plague_immunity: "鼠疫免疫"
 trait_bno_bubonic_plague_immunity_desc: "该角色对[GetTrait('bubonic_plague').GetName( GetNullCharacter )]的影响产生了免疫，对某些人来说必死无疑而对该角色只能造成些许不便。"
+
 trait_bno_smallpox_immunity: "天花免疫"
 trait_bno_smallpox_immunity_desc: "该角色对[GetTrait('smallpox').GetName( GetNullCharacter )]的影响产生了免疫，该病毒夺取了很多人的生命而对该角色无法造成威胁。"
+
 trait_bno_measles_immunity: "麻疹免疫"
 trait_bno_measles_immunity_desc: "该角色对[GetTrait('measles').GetName( GetNullCharacter )]的影响产生了免疫，这种疾病很常见对该角色没有任何影响。"
+
 trait_bno_dysentery_immunity: "痢疾免疫"
 trait_bno_dysentery_immunity_desc: "该角色对[GetTrait('dysentery').GetName( GetNullCharacter )]的影响产生了免疫，这种能使人致残的疾病对许多人造成了不便而对该角色无法造成威胁。"
+
 trait_bno_ergotism_immunity: "圣火病免疫"
 trait_bno_ergotism_immunity_desc: "该角色对[GetTrait('ergotism').GetName( GetNullCharacter )]的影响产生了免疫，这种罕见的疾病由食用受污染的谷物导致。"
+
 trait_bno_sickly_immunity: "多病免疫"
 trait_bno_sickly_immunity_desc: "该角色对[GetTrait('sickly').GetName( GetNullCharacter )]的影响产生了免疫，这种情况下的孩子一般生下来就体弱多病难以存活，而该角色不受影响。"
+
 trait_bno_great_pox_immunity: "梅毒免疫"
 trait_bno_great_pox_immunity_desc: "该角色对[GetTrait('great_pox').GetName( GetNullCharacter )]的影响产生了免疫，这种病毒无法治愈且传播了很多人而对该角色无法造成威胁。"
 
 trait_track_bno_lifestyle_bbc_priestess: "神职人员"
 trait_track_bno_lifestyle_bbc_priestess_desc: "[bno_religion|E]的信徒，献身于服务的躯体，他们的热情被视为全境敬仰的流通品。"
+trait_track_bno_lifestyle_bbc_priest: "$trait_track_bno_lifestyle_bbc_priestess$" # AI Tags
+trait_track_bno_lifestyle_bbc_priest_desc: "$trait_track_bno_lifestyle_bbc_priestess_desc$" # AI Tags
 bno_lifestyle_bbc_priestess: "BBC女祭司"
+bno_lifestyle_bbc_priest: "BBC 牧师" # AI Tags
 bno_lifestyle_bbc_priestess_3.female: "受膏BBC女祭司"
 bno_lifestyle_bbc_priest_3.male: "受膏BBC祭司"
 bno_lifestyle_bbc_priestess_2.female: "虔信BBC女祭司"
@@ -93,20 +112,16 @@ bno_lifestyle_bbc_priest_2.male: "虔信BBC祭司"
 bno_lifestyle_bbc_priestess_1.female: "启蒙BBC女祭司"
 bno_lifestyle_bbc_priest_1.male: "启蒙BBC祭司"
 bno_lifestyle_bbc_priestess_desc: "侍奉[bno_religion|E]的新手，还在学习奉献与牺牲之道。"
+bno_lifestyle_bbc_priest_desc: "服务的新单位[bno_religion|E]学习奉献和牺牲的方式" # AI Tags
 bno_lifestyle_bbc_priestess_3_character_desc.female: "接受恩典的女祭司，身上涂抹着神圣的油，目光警惕，将她丰腴的身躯作为活生生的圣殿，献给[bno_religion|E]那强大的欲望。"
-<<<<<<< HEAD
 bno_lifestyle_bbc_priest_3_character_desc.male: "他的皮肤闪烁着仪式用油的光泽，这正是他虔诚的明证：受膏的祭司以他[bno_bbc|E]的每一次有力 thrust，侍奉着[bno_religion|E]。"
-bno_lifestyle_bbc_priestess_2_character_desc.female: "她以宽广而充满渴望的双眼，以及在最轻微的触碰下便会颤抖的双手，静待着那个时刻——将自己的身体作为神圣的容器，献给[bno_religion|E]的祝福。"
-bno_lifestyle_bbc_priest_2_character_desc.male: "他跪在祭坛前，年轻而充满热情，每一块紧绷的肌肉都因期待而颤动，等待着接受[bno_religion|E]那强大的触碰，并被塑造成它的模样。"
-=======
-bno_lifestyle_bbc_priestess_3_character_desc.male: "他的皮肤闪烁着仪式用油的光泽，这正是他虔诚的明证：受膏的祭司以他[bno_bbc|E]的每一次有力 thrust，侍奉着[bno_religion|E]。"
 bno_lifestyle_bbc_priestess_2_character_desc.female: "她以宽广而充满渴望的双眼，以及在最轻微的触碰下便会颤抖的双手，静待着那个时刻，将自己的身体作为神圣的容器，献给[bno_religion|E]的祝福。"
-bno_lifestyle_bbc_priestess_2_character_desc.male: "他跪在祭坛前，年轻而充满热情，每一块紧绷的肌肉都因期待而颤动，等待着接受[bno_religion|E]那强大的触碰，并被塑造成它的模样。"
->>>>>>> 543a1659ee58b95039c7de6876e1816227e55b22
+bno_lifestyle_bbc_priest_2_character_desc.male: "他跪在祭坛前，年轻而充满热情，每一块紧绷的肌肉都因期待而颤动，等待着接受[bno_religion|E]那强大的触碰，并被塑造成它的模样。"
 bno_lifestyle_bbc_priestess_1_character_desc.female: "身着洁白亚麻长袍的入门者赤脚漫步于寺庙花园之中，她的目光在微风中轻声呢喃的[bno_religion|E]的无形存在中寻求指引。"
 bno_lifestyle_bbc_priest_1_character_desc.male: "他的声音颤抖着吟诵着神圣的咒语，一个刚剃过头的年轻人，通过他坚定不移的虔诚和低声的祈祷，寻求[bno_religion|E]的恩典。"
 
-# Pussy Mileage Traits
+# Pussy Mileage Traits (BBC Themed, Safe Formatting)
+
 bno_pussy_mileage_1.1: "处子之身"
 bno_pussy_mileage_1.2: "天真无知"
 bno_pussy_mileage_1.3: "窈窕淑女"
@@ -144,12 +159,10 @@ bno_pussy_mileage_4.desc.3: "无可救药的对巨大的尺寸上瘾了，她沉
 bno_pussy_mileage_5.1: "中缝绽开"
 bno_pussy_mileage_5.2: "破败不堪"
 bno_pussy_mileage_5.3: "永不满足"
-bno_pussy_mileage_5.4: "报废玩具"
 
 bno_pussy_mileage_5.desc.1: "小缝被永久性地张开了，她的阴户松垮下垂，成了无数黑屌撕裂她的战利品。"
 bno_pussy_mileage_5.desc.2: "过度的使用毁掉了她，她的内壁塌陷不再有用，如今只有最粗壮的阳具能穿透她了。"
 bno_pussy_mileage_5.desc.3: "无尽的深渊，永远不会满足，不论多少BBC操过她，她只能寻求更多，不然她什么也感觉不到了。"
-bno_pussy_mileage_5.desc.4: "彻底被扩张弄坏了；如今只有最粗壮的BBC能让她产生一点感觉了。"
 
 trait_bno_pussy_mileage_6: "彻底奔溃"
 trait_bno_pussy_mileage_6_desc: "永久性萎缩，阴道口外翻，腔体持续张开，几乎丧失任何紧致力；唯有极其粗壮的阴茎能勉强触及。"

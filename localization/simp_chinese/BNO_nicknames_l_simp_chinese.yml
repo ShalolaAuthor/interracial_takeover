@@ -1,6 +1,4 @@
 ﻿l_simp_chinese:
- #DEFAULT_NICKNAME_DESC: "这片土地上的朋友和敌人都知道[CHARACTER.GetFirstName]的外号是“[CHARACTER.GetNicknameNoTooltip]""
-
  nick_qos: "黑桃皇后"
   nick_qos_desc: "黑桃皇后这个头衔被许多背叛种族的人深深地崇敬，它象征着对黑人至上事业的真正奉献。毫无疑问，这位皇后被打上了烙印。"
   
@@ -21,7 +19,7 @@
  
  nick_blacked: "已黑化"
   nick_blacked_desc: "这个女孩炫耀着自己，她不介意一双粗大的黑色手掌在她漫步于男爵领地的庭院时爱抚她丰满的臀部。如果皇室成员没有亲眼看到她被黑化，他们肯定也听说过。"
-  
+ 
  nick_bos: "黑人专属婊子"
   nick_bos_desc: "当[CHARACTER.GetFirstName]第一眼看到她的第一个难民时，她就知道自己想要他的一部分。或者更确切地说，是想给他自己的一部分。从那时起，白人鸡巴就再也无法给她同样的感觉了。"
  
@@ -33,7 +31,7 @@
  
  nick_rt: "种族叛徒"
   nick_rt_desc: "背叛真是甜蜜的享受。除了抛弃信仰，背叛血统也足以让大多数王朝统治者不寒而栗。告别白人纯洁吧，因为这个王朝将永远被黑鸡巴捅烂。"
-
+ 
  nick_wb: "白婊"
   nick_wb_desc: "这个名字经常在[CHARACTER.GetFirstName]的卧室里被叫喊出来，通常是被多个伴侣同时喊出的。因此，才有了这个称谓。"
  
@@ -50,7 +48,7 @@
   nick_bk_desc: "起初是个外来者，[CHARACTER.GetFirstName]却证明了他才是他领主手下最强大的人。通过暴力、颠覆或外交手段，他登上了一个历史上由白人统治的王座，结束了那场恐怖。"
  
  nick_bb: "黑公牛"
-   nick_bb_desc: "他是在性方面非常强势且性能力出众的黑人男性，尤其是在与雪兔性交的情境下。"
+   nick_bb_desc: ""
    
  nick_wq: "白人征服者"
     nick_wq_desc: "此人仅凭其对主君的勾引便掌控了一整个国家。"母系继承"对于[CHARACTER.GetFirstName]而言不过是无稽之谈。如今，他将因其为非洲种族带来的这场里程碑式的胜利而载入史册。"

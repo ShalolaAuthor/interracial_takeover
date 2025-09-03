@@ -3,165 +3,111 @@
 game_rule_category_interracial_takeover: "@bnobbc! #X Межрасовое Поглощение:#!"
 
 rule_bno_prostitution_interval: "@bnobbc! #X Межрасовое Поглощение:#! Интервал Проституции"
-
 setting_bno_interval_one_month: "Один Месяц"
-
 setting_bno_interval_one_month_desc: "Я горжусь и в восторге, что меня выбрали национальной шлюхой для BBC на месяц, готова раздвигать свою тугую пизду для любого чёрного мужика, который захочет!"
-
 setting_bno_interval_three_months: "Три Месяца"
-
 setting_bno_interval_three_months_desc: "Три месяца?! Это слишком долго ждать между трахами — мне нужно, чтобы BBC использовали меня каждый чёртов день, а не раз в сто лет!"
-
 setting_bno_interval_six_months: "Шесть Месяцев"
-
 setting_bno_interval_six_months_desc: "Я в отчаянии, что меня заставили следовать шестимесячному графику BBC, но я не позволю этому сломать меня."
 
 rule_bno_body_modification: "@bnobbc! #X Межрасовое Поглощение:#! Модификация Тела"
-
 setting_bno_body_modification_yes: "Да, Пожалуйста"
-
 setting_bno_body_modification_yes_desc: "Я в восторге, что моё тело наконец становится чёрным и пышным, как всегда хотели BBC — теперь я могу полностью принять роль их идеальной спермоприёмницы!"
-
 setting_bno_body_modification_no: "Нет, Спасибо"
-
 setting_bno_body_modification_no_desc: "Хотя я обожаю обслуживать BBC, становиться навсегда чёрной и пышной — это не моё. Моё тело принадлежит мне, даже если это значит не полностью соответствовать их желаниям!"
 
 rule_bno_religion_allowed: "@bnobbc! #X Межрасовое Поглощение:#! Церковь BBC"
-
 setting_bno_religion_yes: "Да, Пожалуйста"
-
 setting_bno_religion_yes_desc: "BBC — истинные спасители наших душ!"
-
 setting_bno_religion_no: "Нет, Спасибо"
-
-setting_bno_religion_no_desc: "Но... почему кто-то может быть против поклонения большим красивым хренам?" наклоняет голову и подозрительно щурится
+setting_bno_religion_no_desc: "'Но... почему кто-то против поклонения большим красивым хуям?' Наклоняется головой в сторону и подозрительно сужает глаза." # AI Tags
 
 rule_bno_decision_npc: "@bnobbc! #X Межрасовое Поглощение:#! Решение о Наборе BBC"
-
 setting_bno_decision_npc_yes: "Нормально"
-
 setting_bno_decision_npc_yes_desc: "Давай, зови BBC!"
-
 setting_bno_decision_npc_no: "Только для Игрока"
-
 setting_bno_decision_npc_no_desc: "НЕЕЕТ! Мысль о том, что другие бабы доберутся до BBC, для меня невыносима!"
 
 rule_bno_global_bbc_activities: "@bnobbc! #X Межрасовое Поглощение:#! Активности BBC"
-
 setting_bno_global_bbc_activities_yes: "Глобально"
-
 setting_bno_global_bbc_activities_yes_desc: "Мне нужен бесконечный запас здоровенных хренов, чтобы утолить мою ненасытную жажду, а не какое-то жалкое правило, ограничивающее меня одной местностью!"
-
 setting_bno_global_bbc_activities_no: "Локально"
-
 setting_bno_global_bbc_activities_no_desc: "Ну ладно, если это единственный способ заполучить BBC, то пусть будет так!"
 
 rule_bno_mod_status: "@bnobbc! #X Межрасовое Поглощение:#! Статус Мода"
-
 setting_bno_mod_status_on: "Включён"
-
 setting_bno_mod_status_on_desc: "Мне нужен этот огромный шоколадный хрен, заполняющий меня всё время, а не какая-то жалкая замена мужественности!"
-
 setting_bno_mod_status_off: "Выключен"
-
 setting_bno_mod_status_off_desc: "НЕЕЕТ! Мысль о жизни в мире без BBC слишком тяжела для моей бедной белой пизды!"
 
 rule_bno_seeding: "@bnobbc! #X Межрасовое Поглощение:#! Распространение Трейта"
-
 setting_bno_seeding_yes: "Да, Пожалуйста"
-
 setting_bno_seeding_yes_desc: "Ооо, можешь представить? Целый континент, заполненный только BBC!"
-
 setting_bno_seeding_no: "Нет, Спасибо"
-
 setting_bno_seeding_no_desc: "Да, да! Я сама займусь приглашением всех этих BBC поиграть со мной!"
 
 rule_bno_event_frequency: "@bnobbc! #X Межрасовое Поглощение:#! Частота Событий"
-
+setting_bno_event_frequency_one_month: "Каждый месяц" # AI Tags
+setting_bno_event_frequency_one_month_desc: "Я не могу дождаться следующего. [bno_bbc|E]Ожидание уже сводит меня с ума от нужды." # AI Tags
 setting_bno_event_frequency_three_months: "Три Месяца"
-
 setting_bno_event_frequency_three_months_desc: "О да, конечно! Я не могу дождаться следующего события с BBC. Ожидание уже сводит меня с ума от желания."
-
 setting_bno_event_frequency_six_months: "Шесть Месяцев"
-
 setting_bno_event_frequency_six_months_desc: "Ну, это разочаровывает... Но, как говорится, разлука делает сердце горячее!"
-
 setting_bno_event_frequency_twelve_months: "Двенадцать Месяцев"
-
 setting_bno_event_frequency_twelve_months_desc: "Я... я понимаю, что ты пытаешься меня поддразнить, но мысль о том, что придётся ждать целый год между событиями с BBC, почти невыносима."
 
 rule_bno_tattoo: "@bnobbc! #X Межрасовое Поглощение:#! Показ Татуировки"
-
 setting_bno_tattoo_yes: "Да, Пожалуйста"
-
 setting_bno_tattoo_yes_desc: "Я не могу дождаться, когда все эти сильные чёрные мужики увидят её и поймут, что я теперь одна из них — грязная маленькая спермошлюха, живущая только ради того, чтобы её использовали их огромные хрены!"
-
 setting_bno_tattoo_no: "Нет, Спасибо"
-
 setting_bno_tattoo_no_desc: "Если я откажусь от татуировки Пиковой Дамы, это будет означать, что я отвергаю свою сущность белой девки, живущей только ради того, чтобы её использовали сильные чёрные мужики с огромными хренами."
 
 rule_bno_rarity: "@bnobbc! #X Межрасовое Поглощение:#! Редкость BBC"
-
 setting_bno_rarity_size: "Размер Имеет Значение"
-
 setting_bno_rarity_size_desc: "Хрены бывают всех форм и размеров! Я хочу самые большие #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!s\n(Трейт BBC будет чаще встречаться у африканцев в зависимости от размера хрена.)"
-
 setting_bno_rarity_race: "Чёрное — Значит Больше"
-
 setting_bno_rarity_race_desc: "Слухи правдивы! Чем чернее ягоды, тем больше #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!s! (Трейт BBC будет чаще встречаться в зависимости от африканской чистоты и размера хрена.)"
-
 setting_bno_bbc_very_rare_chance: "Очень Редко"
-
 setting_bno_bbc_very_rare_chance_desc: "Мне плевать, увижу ли я когда-нибудь ещё один #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!."
-
 setting_bno_bbc_rare_chance: "Редко"
-
 setting_bno_bbc_rare_chance_desc: "#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#! — редкая порода, но когда они появляются, я всегда хочу ещё."
-
 setting_bno_bbc_uncommon_chance: "Нечасто"
-
 setting_bno_bbc_uncommon_chance_desc: "Мне нравится азарт от мысли, что иногда я могу снова испытать удовольствие от #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!."
-
 setting_bno_bbc_common_chance: "Часто"
-
 setting_bno_bbc_common_chance_desc: "Я не могу насытиться этими #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#! ! Чем чаще я могу их иметь, тем лучше."
-
 setting_bno_bbc_very_common_chance: "Очень Часто"
-
 setting_bno_bbc_very_common_chance_desc: "Мне нужны #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!s в моей жизни постоянно. Только они могут утолить мой ненасытный голод по #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#! ."
 
 rule_bno_invite_white_noble_decision: "@bnobbc! #X Межрасовое Поглощение:#! Решение Пригласить Белого Дворянина"
-
 setting_bno_invite_white_noble_decision_all: "Все"
-
 setting_bno_invite_white_noble_decision_all_desc: "Каждый должен иметь возможность пригласить белого дворянина!"
-
 setting_bno_invite_white_noble_decision_slut: "Только Шлюха"
-
 setting_bno_invite_white_noble_decision_slut_desc: "Разве не очевидно, что такая шлюха, как я, может пригласить белого дворянина?"
-
 setting_bno_invite_white_noble_decision_bbc: "Только BBC"
-
 setting_bno_invite_white_noble_decision_bbc_desc: "Только BBC должны иметь возможность пригласить белого дворянина!"
-
 setting_bno_invite_white_noble_decision_off: "Выключено"
-
 setting_bno_invite_white_noble_decision_off_desc: "Завоёвывать их — вот что весело! Зачем мне приглашать их ко двору? Они сами должны умолять меня о шансе служить, а не наоборот!"
 
 rule_bno_invite_bbc_decision: "@bnobbc! #X Межрасовое Поглощение:#! Решение Пригласить BBC"
-
 setting_bno_invite_bbc_decision_all: "Все"
-
 setting_bno_invite_bbc_decision_all_desc: "Каждый должен иметь возможность пригласить BBC!"
-
 setting_bno_invite_bbc_decision_slut: "Только Шлюха"
-
 setting_bno_invite_bbc_decision_slut_desc: "Разве не очевидно, что такая шлюха, как я, может пригласить BBC?"
-
 setting_bno_invite_bbc_decision_bbc: "Только BBC"
-
 setting_bno_invite_bbc_decision_bbc_desc: "Только BBC должны иметь возможность пригласить BBC!"
-
 setting_bno_invite_bbc_decision_off: "Выключено"
-
 setting_bno_invite_bbc_decision_off_desc: "Пусть всё происходит естественно..."
+
+rule_bno_ai_events_chance: "@bnobbc!#X Межрасовое поглощение: #!" # AI Tags
+setting_bno_ai_events_chance_rare: "Редкий" # AI Tags
+setting_bno_ai_events_chance_rare_desc: "Звучит как восхитительный способ убедиться, что все смотрят на меня." # AI Tags
+setting_bno_ai_events_chance_uncommon: "Необычные" # AI Tags
+setting_bno_ai_events_chance_uncommon_desc: "Немного меньше внимания ко мне, но я все еще получаю свою долю!" # AI Tags
+setting_bno_ai_events_chance_common: "Общие" # AI Tags
+setting_bno_ai_events_chance_common_desc: "Немного меньше соперничества никогда никому не причиняло вреда." # AI Tags
+
+rule_bno_black_cum_potency: "@bnobbc!#X Межрасовое поглощение: #!" # AI Tags
+setting_bno_black_cum_potency_normal: "Обычный" # AI Tags
+setting_bno_black_cum_potency_normal_desc: "Это было бы гораздо менее предсказуемо, но все равно довольно весело." # AI Tags
+setting_bno_black_cum_potency_abnormal: "Ненормальный" # AI Tags
+setting_bno_black_cum_potency_abnormal_desc: "Приведите богатых меланином наследников!" # AI Tags

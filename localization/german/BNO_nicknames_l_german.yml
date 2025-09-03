@@ -48,7 +48,7 @@
  nick_bk_desc: "Zunächst ein Fremder, erwies sich [CHARACTER.GetFirstName] als der Stärkste unter den Männern seines Lehnsherrn. Mit gewaltsamen, subversiven oder diplomatischen Mitteln bestieg er einen historischen weißen Thron und beendete den Terror." #deepl:4058807625
  
  nick_bb: "der Schwarze Bulle" #deepl:2608164445
- nick_bb_desc: ""
+   nick_bb_desc: ""
    
  nick_wq: "der weiße Eroberer" #deepl:606134121
  nick_wq_desc: "Nur durch die Verführung ihres Lehnsherrn hat dieser Mann eine ganze Nation übernommen. Die "Matrilinearität" ist für [CHARACTER.GetFirstName] nur ein Mythos. Jetzt wird er für diesen monumentalen Sieg der afrikanischen Ethnie in die Geschichte eingehen." #deepl:2664531453

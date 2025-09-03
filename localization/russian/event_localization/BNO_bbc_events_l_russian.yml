@@ -1,108 +1,68 @@
 ﻿l_russian:
+# bno_events00 - invite influence decision
 bno_events00: "Приюти Африканского Беженца в Своём Дворе"
-
 bno_events00.desc: "В твоих землях замечены странные, угольно-чёрные мужики, сбежавшие из далёких краёв. Неизвестно, с враждебными ли намерениями они здесь. Но их сила видна с первого взгляда.\n\nЛишь немногие были замечены среди твоего народа. Возможно, они несут чужую культуру, которая может быть полезной? Дары и знания?\n\nМожет, стоит разузнать, что они задумали?"
-
 bno_events00_decision_tooltip: "Чужеземцы вызваны на аудиенцию к твоему величеству"
-
 bno_events00_confirm: "Разошли глашатаев"
-
 refugee_effect_1: "Тебе представят группу чужеземцев, и ты сможешь выбрать одного, чтобы он присоединился к твоему двору."
 
 #bno_events01 - receiving influence
-
 bno_events01.title: "Чужеземцы Прибыли!"
-
 bno_events01.desc: "Немногие, замеченные в твоих землях, собраны перед тобой в твоём дворе. Они называют себя разными именами, происходя из множества племён. Нубийцы, ганцы, сомалийцы, малийцы. Может, их чужеземное влияние поможет в войне и дипломатии?\n\nРазведчики нашли лишь несколько беженцев, подходящих под требования. Каждый из них уникален по-своему, но все одинаково темнокожие. Твой разум невольно блуждает, вспоминая рассказы о землях южнее Средиземного моря.\n\nТеперь решение за тобой. [target1.GetFirstName], [target3.GetFirstName] или [target2.GetFirstName].\n\nКто присоединится к твоему двору?"
-
 bno_events01.a: "[target1.GetFirstName] — самый достойный."
-
 bno_events01.b: "[target2.GetFirstName] — лучший кандидат."
-
 bno_events01.c: "[target3.GetFirstName] присоединится к моему двору."
-
 bno_events01.d: "Благослови нас своим влиянием..."
-
-#bno_events02 - when receiving a kingdom title and being married to a BBC
-
+ 
+ #bno_events02 - when receiving a kingdom title and being married to a BBC
 bno_events02.title: "Африканский Король"
-
 bno_events02.desc: "«Моя любовь, ты хочешь разделить это? Твоё владычество над этой землёй?»\n\nТвоё сердце трепещет, руки покорно скрещены перед тобой, полностью посвящённые твоему плану уничтожить свою нацию.\n\nТвои дети унаследуют силу, цвет кожи и ум твоего возлюбленного.\n\n[target1.GetLadyLord], что был львом в войне и в постели.\n\nТвой король."
-
 bno_events02.a: "Пойдём... в наши покои."
-
-#bno_events03 - when receiving an empire title and being married to a BBC
-
+ 
+ #bno_events03 - when receiving an empire title and being married to a BBC
 bno_events03.title: "Начало Конца"
-
 bno_events03.desc: "С твоим восхождением и захватом высшего трона в твоих землях твой супруг получил подходящий титул.\n\nПрибыв из далёкой страны, едва известной «белым людям», твой любовник не только покорил твоё сердце, но и твои земли.\n\nНо это лишь начало, поскольку культура, вера и цвет кожи [target1.GetHerHis] вторгаются в местное население."
-
 bno_events03.a: "Конец моей расы близок."
 
 #bbcconversion - decision
-
 bbcconversion.title: "Африканское Превосходство"
-
 bbcconversion.desc: "Ты решил перейти в Церковь Чёрного Хрена, поклоняясь только чёрным богам. У тебя появилось внезапное желание распространить влияние BBC по всему миру."
-
 bbcconversion.a: "Скоро весь мир склонится перед чёрными мужиками."
-
-#test
-
+ 
+ #test
 bno_election: "Принять Новый Порядок Наследования"
-
 bno_election_confirm: "Подтвердить"
-
 bno_election_decision_desc: "После изучения документов и возни с линиями наследования придворный просветил тебя о новом типе иерархии — иерархии, основанной на расе, а не на поле."
-
 bno_election_decision_tooltip: "Сдаться?"
-
 bno_election_decision.a: "Йуху!!! С головой!"
 
 bull_decision: "Позови Быка Трахнуть Твою Жену"
-
 bull_decision_desc: "Твоя жена пристрастилась к большим чёрным хренам этих странных новых мужиков из Африки, и тебе это вроде как нравится. Почему бы не позвать одного из них, чтобы он отымел [ROOT.Char.GetPrimarySpouse.GetHerHis] прямо перед тобой?"
-
 bull_decision_tooltip: "Бык явится в твою спальню."
-
 bull_decision_confirm: "Зови быка!"
 
-
-
+#
 bno_events_0005.title: "Бык Разрушает Твою Жену"
-
 bno_events_0005.desc: "Твой бык [target1.GetFirstName] сносит дверь с петель и смотрит на тебя и твою жену [target2.GetFirstName]. Твоя жена удивлена и спрашивает, что происходит. Твой рыцарь [target1.GetFirstName] хватает [target2.GetHerHis] и заставляет [target2.GetHerHis] сосать ему, но твоя жена дико возбуждается. Твой хер встаёт, и ты без колебаний начинаешь дрочить, сидя на диване. Твоя жена [target2.GetFirstName] течёт, как никогда раньше. [target1.GetFirstName] разрывает одежду [target2.GetHerHis] и начинает долбить [target2.GetHerHis] сливочную пизду, шлёпая [target2.GetHerHis] по жопе, пока [target2.GetSheHe] орёт от удовольствия, бросая на тебя взгляды. Ты больше не можешь сдерживаться и громко кончаешь, пока тебя делают рогоносцем, а твоя жена испытывает оргазм за оргазмом. Вдруг [target1.GetFirstName] начинает кончать в пизду твоей жены, и ты ничего не можешь с этим поделать..."
-
 bno_events_0005.a: "Боже, какой охрененный вид, милая, я тебя люблю."
 
 bno_events.0006.title: "Твоя Избранная Благородная Дама"
-
 bno_events.0006.desc: "#weak Когда любопытная дворянка приближается к моему двору, я приветствую [target1.GetHerHis] тёплой улыбкой и приглашаю. #!\n\nДобро пожаловать, [target1.GetFirstName], [target3.GetFirstName] или [target2.GetFirstName]. Твоё присутствие здесь — большая честь.\n\n#weak Дворянка с восхищением оглядывается, впитывая великолепие моего поместья — от роскошной мебели до бесценных произведений искусства, украшающих каждую стену. #!\n\nЯ рад, что ты приняла моё приглашение. С нетерпением жду, когда смогу поделиться с тобой этими сокровищами и узнать больше о твоих интересах в культуре и искусстве.\n\n#weak Дворянка почтительно кивает, явно благодарная за возможность исследовать этот новый мир перед [target1.GetHerHis]. #!"
 
+# bno_realize_bbc_potential Non-BBC Black character gains BBC
 bno_realize_bbc_potential: "Открой Свой BBC"
-
 bno_realize_bbc_potential.desc: "Ты понял, что твоё доминирующее чёрное тело даёт тебе врождённое превосходство над низшими подрасами. Пора сделать Европу своей сучкой."
-
 bno_realize_bbc_potential_decision_tooltip: "Ты станешь доминирующим чёрным жеребцом."
-
 bno_realize_bbc_potential_confirm: "Мир мой."
-
 bno_realize_bbc_potential_effect_1: "Ты получишь трейт BBC."
 
 bno_events.0007.title: "[ROOT.Char.Custom('GetCourt')|U] [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
-
 bno_events.0007.desc: "Чтобы угодить всё растущему числу больших чёрных мужиков с ненасытным сексуальным аппетитом, я решил, что пора нанять команду белых девок, которые живут и дышат только ради обслуживания своих эбеновых господ. Эти [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]s обучены с рождения искусству ублажать хер — они знают, как использовать каждый дюйм своего тела, чтобы доставить максимум удовольствия своим тёмным королям.\n\nМой план прост: создать общество, где эти поклонницы существуют только для удовлетворения потребностей своих чёрных владык, одновременно поддерживая их довольными и счастливыми. Предоставляя эту важную услугу, я надеюсь предотвратить возможные волнения или насилие, которые могут возникнуть из-за накопившегося сексуального напряжения среди мужского населения. В конце концов, никому не нужны злые, озабоченные чёрные мужики, рыскающие по улицам в поисках пизды!"
-
 bno_events.0007.e: "Навыки [excellent_skill_option.GetFirstNameNoTooltip] как [bno_whore|E] известны по всей стране!"
-
 bno_events.0007.e.aptitude: "[excellent_skill_option.GetUINamePossessive|U] [aptitude|E] — [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
-
 bno_events.0007.a.tt: "[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] также получает месячную зарплату в [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]"
-
 bno_events.0007.a: "Похоже, [high_skill_option.GetFirstNameNoTooltip] перетрахала кучу мужиков."
-
 bno_events.0007.a.aptitude: "[high_skill_option.GetUINamePossessive|U] [aptitude|E] — [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
-
 bno_events.0007.b: "[low_skill_option.GetFirstNameNoTooltip] кажется энтузиасткой, если не больше."
-
 bno_events.0007.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E] — [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
+

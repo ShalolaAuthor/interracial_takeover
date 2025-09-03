@@ -114,6 +114,6 @@
 
  
 #
- # bno_random_1001.title: "Titel der Prüfung" #deepl:1140431952
- # bno_random_1001.desc: "Hallo!" #deepl:105092695
- # bno_random_1001.a: "OK" #deepl:3366821245
+# bno_random_1001.title: "Test title"
+# bno_random_1001.desc: "Hi!"
+# bno_random_1001.a: "OK"

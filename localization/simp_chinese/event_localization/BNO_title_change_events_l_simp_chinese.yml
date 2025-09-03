@@ -6,7 +6,6 @@
  bno_title_change_0001.a: "授予他头衔，并收下黄金"
  bno_title_change_0001.b: "拒绝他的要求，但要冒犯怒的风险"
 
-
  
  bno_title_change_0002.title: "贤者之位"
  bno_title_change_0002.desc: "一位忠于BNWO的权贵廷臣，付出了巨额代价，夺取了曾经属于一个较小附庸国的头衔。 权力转移已经完成，这位被戴绿帽的统治者如今已然意识到，必须面对其失败领导的后果。他竭力维持控制，却又无视这种权力转移，不断收紧权力。统治者眼睁睁地看着权力逐渐流失，这让他感到无比沮丧和压力。"
@@ -30,7 +29,6 @@ bno_title_change_0005.a: "顺从她的愿景，放弃你们的头衔，拥抱她
  #ruler bbc takes slut liege's titles , don't know if i've tested this yet?
  bno_title_change_0006.title: "BNWO的黎明"  
  bno_title_change_0006.desc: "一场巨变席卷了整个王国。曾经牢不可破、根植于传统与特权的秩序，如今摇摇欲坠，濒临崩溃。[ROOT.Char.GetFirstName] 正处于这场剧变的中心，他是黑人权力与统治的化身，他的出现预示着黑色新世界秩序的到来。[ROOT.Char.GetFirstName] 不再满足于在他那婊子 [target1.GetFirstName] 的脆弱统治下服役，他如同变革的灯塔般崛起，挥舞着如同利刃般的影响力和如同锤子的意识形态。朝臣们怀着敬畏与恐惧，看着这位骄傲而又顺从的 [target1.GetFirstName]——一位以纵容颓废和崇拜黑鸡巴为标志的统治者——屈服于其封臣压倒性的力量和意志。朝廷[ROOT.Char.GetFirstName] 的教义低语道：一个重新构想的世界，旧的权力界限被重新划分，屈服并非软弱，而是在一股不可抗拒的力量下走向团结的道路。[bno_bnwo|E]的崛起不仅仅是一场政治革命；更是一场深刻的权力重组，力量和愿景将占据主导地位，无能者将被贬为奴隶。\n\n随着 [target1.GetFirstName] 的头衔和尊严被剥夺，问题依然存在：这是[bno_bnwo|E]的终极胜利，还是仅仅是更伟大征服的第一步？王国震动，新时代的曙光初现，黑色新世界秩序将至高无上。" 
-
  bno_title_change_0006.a: "夺取他们的头衔，开启新纪元。"  
  bno_title_change_0006.b: "宣称这些头衔，并将他们作为你的仆从与配偶束缚于你麾下"
  

@@ -2,5 +2,4 @@
 #BNWO Succession
  bnwo_only_law: "面向BNWO"
  bnwo_only_law_subname: "种族优越"
- bnwo_only_law_effects:3 "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$男性和女性在继承头衔持有者的继承权上平等。\n$EFFECT_LIST_BULLET$仅限传承给相同信仰者。\n$EFFECT_LIST_BULLET$允许指定继承人。"
- 
+ bnwo_only_law_effects:3 "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$Men and women are equal in succession inheritance from title holder.\n$EFFECT_LIST_BULLET$Only available to pass on to same faith.\n$EFFECT_LIST_BULLET$Allows designation of heirs."

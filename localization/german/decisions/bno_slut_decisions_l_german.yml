@@ -1,6 +1,8 @@
 ﻿l_german:
 
  bno_becoming_bbc_slut: "Eine "geschwärzte Wichsschlampe" werden" #deepl:234466230
+#bno_becoming_bbc_slut.effect: "You will become a [bno_whore|E] for [bno_bbc|E]"
+bno_becoming_bbc_slut.effect: "Du wirst eine Hure für[bno_bbcs|E]" # AI Tags
  bno_becoming_bbc_slut_desc: "Ich will eine schwarze Wichsschlampe sein, weil ich für diese Rolle geboren wurde - um als Gefäß für die mächtigen, virilen schwarzen Schwänze zu dienen, die mir geben können, wonach mein kleiner weißer Körper sich sehnt. Der bloße Anblick des massiven Glieds eines Ebenholz-Mannes lässt meine Muschi vor Vorfreude und Verlangen triefen." #deepl:512623617
  bno_becoming_bbc_slut_confirm: "Meine engen Löcher kannst du nach Belieben benutzen." #deepl:3259441588
  bno_becoming_bbc_slut_tooltip: "Ich bin so verzweifelt, dass ich benutzt werde wie die wertlose Hure, die ich bin" #deepl:2552614249
@@ -9,6 +11,7 @@
  bno_stop_becoming_bbc_slut_desc: "Nachdem ich jahrelang ein geschwärztes Wichsfräulein war, habe ich in ihm endlich meinen perfekten Partner gefunden - einen persönlichen schwarzen Bullen, der sich täglich um meinen unstillbaren Appetit auf einen großen Schwanz kümmert. Er befriedigt mich auf eine Art und Weise, wie es kein anderer jemals könnte und sorgt dafür, dass meine Pussy immer vollgestopft ist und mit seinem dicken Samen trieft." #deepl:4219338002
  bno_stop_becoming_bbc_slut_confirm: "Dafür wurde ich geboren -" #deepl:2380994181
  bno_stop_becoming_bbc_slut_tooltip: " nichts weiter als eine Reihe von Löchern zu sein, die einem starken" #deepl:3971005213
+bno_stop_becoming_bbc_slut.bbc_spouse: "Einer Ihrer Ehepartner hat eine[GetTrait('bno_bbc').GetName( GetNullCharacter )]" # AI Tags
 
  bno_invite_slut_decision: "Laden Sie Curious Noble auf Ihren Hof ein" #deepl:2648153752
  bno_invite_slut_decision_desc: "Als sich die neugierige Adlige nähert, begrüße ich sie mit einem herzlichen Lächeln.\n\n Willkommen in meinem bescheidenen Domizil. Ich freue mich immer über neue Bekanntschaften, vor allem über solche, die meine Interessen an Kunst und Kultur teilen.\n\n Die Adlige sieht sich um und nimmt die üppige Umgebung meines Anwesens in Augenschein - von der opulenten Einrichtung bis hin zu den unbezahlbaren Kunstwerken, die jede Wand zieren.\n\n Wie ich sehe, haben Sie ein gutes Auge für Schönheit. Vielleicht könnten wir einige dieser Stücke bei einem Abendessen besprechen? Ich würde mich freuen, Sie herumzuführen und Ihnen mehr über ihre Herkunft zu erzählen.\n\n Die Adlige nickt zustimmend, offensichtlich fasziniert von dem, was sie sieht, und begierig, mehr zu erfahren." #deepl:2256852014

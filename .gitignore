@@ -10,3 +10,4 @@ translate_paradox_loc_offline.py
 translations_cache_fr_offline.json
 translations_cache_fr_segments.json
 __pycache__/
+.mt_caches/

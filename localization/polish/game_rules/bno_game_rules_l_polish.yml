@@ -1,0 +1,113 @@
+﻿l_polish:
+
+game_rule_category_interracial_takeover: "@bnobbc!#X Międzyrasyjne przejęcie:#!" # AI Tags
+
+rule_bno_prostitution_interval: "@bnobbc!#X Międzynarodowe przejęcie: #! Prostytucja Interval" # AI Tags
+setting_bno_interval_one_month: "Jeden miesiąc" # AI Tags
+setting_bno_interval_one_month_desc: "Jestem zaszczycony i podekscytowany, że zostałem wybrany jako miesięcznik narodu. [bno_bbc|E] Kurwa, gotowa otworzyć moją cienką cipkę dla każdego czarnego mężczyzny, który ją chce!" # AI Tags
+setting_bno_interval_three_months: "Trzy miesiące" # AI Tags
+setting_bno_interval_three_months_desc: "Trzy miesiące?! To zbyt długo, by czekać między pieprzeniami - muszę być wykorzystywana przez dużych czarnych kutasów każdego dnia, nie tylko raz na jakiś czas!" # AI Tags
+setting_bno_interval_six_months: "Sześć miesięcy" # AI Tags
+setting_bno_interval_six_months_desc: "Jestem zniszczony, że zmusili mnie do sześciu miesięcy. [bno_bbc|E] Rozkład, ale nie pozwolę, by mnie to złamało." # AI Tags
+
+rule_bno_body_modification: "@bnobbc!#X Międzyrasyjne przejęcie: #!" # AI Tags
+setting_bno_body_modification_yes: "Tak, proszę." # AI Tags
+setting_bno_body_modification_yes_desc: "Jestem podekscytowany, że moje ciało wreszcie staje się czarne i krzywowe. [bno_bbcs|E] Zawsze chciałam - teraz mogę całkowicie zaakceptować moją rolę jako ich idealny śmieci!" # AI Tags
+setting_bno_body_modification_no: "Nie, dziękuję." # AI Tags
+setting_bno_body_modification_no_desc: "Podczas gdy uwielbiam obsługiwać duże czarne kutasa, stawanie się stale czarnym i zakrętnym nie jest czymś, z czym czuję się komfortowo - moje ciało należy do mnie, nawet jeśli oznacza to, że nie całkowicie przyjmuję ich pragnień!" # AI Tags
+
+rule_bno_religion_allowed: "@bnobbc!#X Interracial Takeover: #! Kościół BBC" # AI Tags
+setting_bno_religion_yes: "Tak, proszę." # AI Tags
+setting_bno_religion_yes_desc: "[bno_bbcs|E] są prawdziwymi zbawicielami naszych dusz!" # AI Tags
+setting_bno_religion_no: "Nie, dziękuję." # AI Tags
+setting_bno_religion_no_desc: "'Ale... dlaczego ktoś byłby przeciwko wielbieniu dużych pięknych kutasów?'" # AI Tags
+
+rule_bno_decision_npc: "@bnobbc!#X Interracial Takeover:#! Rekrutuj decyzję BBC" # AI Tags
+setting_bno_decision_npc_yes: "Normalne" # AI Tags
+setting_bno_decision_npc_yes_desc: "Przyprowadź [bno_bbc|E]- Nie , nie ." # AI Tags
+setting_bno_decision_npc_no: "Ekskluzywny dla gracza" # AI Tags
+setting_bno_decision_npc_no_desc: "Pomysł, że inne kobiety dostaną w ręce duże czarne kutasy, jest dla mnie zbyt duży!" # AI Tags
+
+rule_bno_global_bbc_activities: "@bnobbc!#X Przejęcie międzyrasyjne:#! Aktywności BBC" # AI Tags
+setting_bno_global_bbc_activities_yes: "Światowe" # AI Tags
+setting_bno_global_bbc_activities_yes_desc: "Potrzebuję nieograniczonej podaży ogromnych kutasów, aby uspokoić swój nienasycający pragnienie, a nie jakąś żałosną zasadę ograniczającą mnie do jednego obszaru!" # AI Tags
+setting_bno_global_bbc_activities_no: "Lokalne" # AI Tags
+setting_bno_global_bbc_activities_no_desc: "Jeśli to jedyny sposób, żeby dostać się do jednego wielkiego czarnego fiuta, to niech tak będzie!" # AI Tags
+
+rule_bno_mod_status: "@bnobbc!#X Międzyrasyjne przejęcie:#! Status Mod" # AI Tags
+setting_bno_mod_status_on: "Na" # AI Tags
+setting_bno_mod_status_on_desc: "Potrzebuję tego wielkiego czekoladowego kutasa, który zawsze mnie napełnia, a nie jakiś żałosny wymówek dla męskości!" # AI Tags
+setting_bno_mod_status_off: "Wyłącz !" # AI Tags
+setting_bno_mod_status_off_desc: "Pomysł życia w świecie bez dużych czarnych kutasów jest zbyt duży dla mojej biednej, białej cipki!" # AI Tags
+
+rule_bno_seeding: "@bnobbc!#X Międzyrasyjne przejęcie: #!" # AI Tags
+setting_bno_seeding_yes: "Tak, proszę." # AI Tags
+setting_bno_seeding_yes_desc: "Wyobrażasz sobie cały kontynent pełen tylko dużych czarnych kutasów?" # AI Tags
+setting_bno_seeding_no: "Nie, dziękuję." # AI Tags
+setting_bno_seeding_no_desc: "Ja zapraszam tych czarnych kutasów, żeby zagrali ze mną." # AI Tags
+
+rule_bno_event_frequency: "@bnobbc!Częstotliwości zdarzeń" # AI Tags
+setting_bno_event_frequency_one_month: "Każdy miesiąc" # AI Tags
+setting_bno_event_frequency_one_month_desc: "Nie mogę się doczekać następnego. [bno_bbc|E] Przewidywanie już doprowadza mnie do szaleństwa z potrzeby." # AI Tags
+setting_bno_event_frequency_three_months: "Trzy miesiące" # AI Tags
+setting_bno_event_frequency_three_months_desc: "Nie mogę się doczekać następnego. [bno_bbc|E] Przewidywanie już doprowadza mnie do szaleństwa z potrzeby." # AI Tags
+setting_bno_event_frequency_six_months: "Sześć miesięcy" # AI Tags
+setting_bno_event_frequency_six_months_desc: "Cóż, to byłoby rozczarowujące... ale wiesz, co mówią - nieobecność rozwija serce!" # AI Tags
+setting_bno_event_frequency_twelve_months: "Dwanaście miesięcy" # AI Tags
+setting_bno_event_frequency_twelve_months_desc: "Rozumiem, że próbujesz mnie wyśmiewać, ale pomysł, że będziesz musiał czekać cały rok pomiędzy... [bno_bbc|E] wydarzeń jest niemal zbyt wiele do zniesienia." # AI Tags
+
+rule_bno_tattoo: "@bnobbc!#X Międzynarodowe przejęcie: #!" # AI Tags
+setting_bno_tattoo_yes: "Tak, proszę." # AI Tags
+setting_bno_tattoo_yes_desc: "Nie mogę się doczekać, aż wszyscy ci silni czarni mężczyźni to zobaczą i dowiedzą się, że jestem jednym z nich - brudną malutką dziwką, która żyje tylko po to, by być wykorzystana przez ich ogromnych kutasów!" # AI Tags
+setting_bno_tattoo_no: "Nie, dziękuję." # AI Tags
+setting_bno_tattoo_no_desc: "Gdybym odmówił tatuażu Królowej Szczurów, to oznaczałoby odrzucenie całej mojej tożsamości jako białej dziewczyny, która żyje tylko po to, by być używana przez silnych czarnych mężczyzn z ogromnymi kutasami." # AI Tags
+
+rule_bno_rarity: "@bnobbc!#X Interracial Takeover: #! BBC Rarity" # AI Tags
+setting_bno_rarity_size: "Ważne są rozmiary" # AI Tags
+setting_bno_rarity_size_desc: "Występują w różnych kształtach i rozmiarach! [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!s\n(The [GetTrait('bno_bbc').GetName( GetNullCharacter )] Część będzie bardziej powszechna u Afrykańczyków w zależności od wielkości fiuta.)" # AI Tags
+setting_bno_rarity_race: "Czarny jest większy." # AI Tags
+setting_bno_rarity_race_desc: "Im czarniejsze owoce, tym większe. [GetTrait('bno_bbc').GetName( GetNullCharacter )]/Wystarczy! [GetTrait('bno_bbc').GetName( GetNullCharacter )] Część będzie bardziej powszechna w oparciu o czystość afrykańską i wielkość fiuta)" # AI Tags
+setting_bno_bbc_very_rare_chance: "Bardzo rzadkie" # AI Tags
+setting_bno_bbc_very_rare_chance_desc: "Nie obchodzi mnie, czy nigdy więcej nie zobaczę #V [GetTrait('bno_bbc').GetName( GetNullCharacter )] Nigdy więcej." # AI Tags
+setting_bno_bbc_rare_chance: "Rzadkość" # AI Tags
+setting_bno_bbc_rare_chance_desc: "# V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#! są rzadką rasą, ale kiedy się pojawiają, zawsze zostawiają mnie chcąc więcej." # AI Tags
+setting_bno_bbc_uncommon_chance: "Niezwykłe" # AI Tags
+setting_bno_bbc_uncommon_chance_desc: "Uwielbiam tęsknotę, wiedząc, że czasami mogę doświadczyć przyjemności #V [GetTrait('bno_bbc').GetName( GetNullCharacter )] Znowu." # AI Tags
+setting_bno_bbc_common_chance: "Powszechne" # AI Tags
+setting_bno_bbc_common_chance_desc: "Nie mogę mieć dość tych #V [GetTrait('bno_bbc').GetName( GetNullCharacter )] Im częściej mogę je mieć, tym lepiej." # AI Tags
+setting_bno_bbc_very_common_chance: "Bardzo powszechne" # AI Tags
+setting_bno_bbc_very_common_chance_desc: "Potrzebuję # V [GetTrait('bno_bbc').GetName( GetNullCharacter )] To jedyna rzecz, która może zaspokoić mój nienasycony pragnienie #V. [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!" # AI Tags
+
+rule_bno_invite_white_noble_decision: "@bnobbc!#X Międzyrasyjne przejęcie:#! Zaproś białą szlachetną decyzję" # AI Tags
+setting_bno_invite_white_noble_decision_all: "Wszystkie ." # AI Tags
+setting_bno_invite_white_noble_decision_all_desc: "Wszyscy powinni być w stanie zaprosić białego szlachetnego zaproszonego!" # AI Tags
+setting_bno_invite_white_noble_decision_slut: "Tylko świnięta" # AI Tags
+setting_bno_invite_white_noble_decision_slut_desc: "Czy nie jest oczywiste, że biały szlachetnik jak ja może zaprosić białego szlachetnika?" # AI Tags
+setting_bno_invite_white_noble_decision_bbc: "Tylko BBC" # AI Tags
+setting_bno_invite_white_noble_decision_bbc_desc: "Tylko . [bno_bbcs|E] Powinien być w stanie zaprosić białego szlachetnego!" # AI Tags
+setting_bno_invite_white_noble_decision_off: "Wyłącz !" # AI Tags
+setting_bno_invite_white_noble_decision_off_desc: "Dlaczego miałbym chcieć zaprosić ich do mojego dworu?" # AI Tags
+
+rule_bno_invite_bbc_decision: "@bnobbc!#X Interracial Takeover:#! Zaproś decyzję BBC" # AI Tags
+setting_bno_invite_bbc_decision_all: "Wszystkie ." # AI Tags
+setting_bno_invite_bbc_decision_all_desc: "Każdy powinien mieć możliwość zaproszenia [bno_bbc|E]- Nie , nie ." # AI Tags
+setting_bno_invite_bbc_decision_slut: "Tylko świnięta" # AI Tags
+setting_bno_invite_bbc_decision_slut_desc: "Czy nie jest oczywiste, że taka dziwka jak ja może zaprosić... [bno_bbc|E]- Nie , nie ." # AI Tags
+setting_bno_invite_bbc_decision_bbc: "Wyłącznie dla BBC" # AI Tags
+setting_bno_invite_bbc_decision_bbc_desc: "Tylko BBC powinny być w stanie zapraszać [bno_bbc|E]- Nie , nie ." # AI Tags
+setting_bno_invite_bbc_decision_off: "Wyłącz !" # AI Tags
+setting_bno_invite_bbc_decision_off_desc: "Zróbmy to w sposób naturalny." # AI Tags
+
+rule_bno_ai_events_chance: "@bnobbc!#X Międzyrasyjne przejęcie: #!" # AI Tags
+setting_bno_ai_events_chance_rare: "Rzadkość" # AI Tags
+setting_bno_ai_events_chance_rare_desc: "Brzmi jak wspaniały sposób, aby wszyscy mieli na mnie oko." # AI Tags
+setting_bno_ai_events_chance_uncommon: "Niezwykłe" # AI Tags
+setting_bno_ai_events_chance_uncommon_desc: "Trochę mniej uwagi dla mnie, ale wciąż dostaję swój udział!" # AI Tags
+setting_bno_ai_events_chance_common: "Powszechne" # AI Tags
+setting_bno_ai_events_chance_common_desc: "Trochę mniej konkurencji nigdy nikogo nie rani." # AI Tags
+
+rule_bno_black_cum_potency: "@bnobbc!#X Międzynarodowe przejęcie: #!" # AI Tags
+setting_bno_black_cum_potency_normal: "Normalne" # AI Tags
+setting_bno_black_cum_potency_normal_desc: "Byłoby to o wiele mniej przewidywalne, ale nadal dość cholernie zabawne." # AI Tags
+setting_bno_black_cum_potency_abnormal: "Nieprawidłowe" # AI Tags
+setting_bno_black_cum_potency_abnormal_desc: "Przyprowadź bogatych w melaninę, ciężko uderzających spadkobierców!" # AI Tags

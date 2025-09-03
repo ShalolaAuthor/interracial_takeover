@@ -8,7 +8,7 @@
  bno_embrace_african_4_name: "Erkennen Sie Migranten" #deepl:4263312956
  bno_embrace_african_5_name: "Integration von Migranten" #deepl:134923781
 
- BNO_PLACEHOLDER: ""
+BNO_PLACEHOLDER: ""
  EBONY_ELITES_UNLOCK_DESCRIPTION: "Kann [GetMaA('bno_ebony_elites').GetName] einstellen als [men_at_arms|E]" #deepl:2130585070
  EBONY_ELITES_DESCRIPTION: "#weak Es kann nur ein Regiment von [GetMaA('bno_ebony_elites').GetName] rekrutiert werden.#!" #deepl:2045993048
 
