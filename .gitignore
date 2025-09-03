@@ -5,3 +5,8 @@ ck3-tiger.conf
 translation-config.json
 NOTES/
 NOTES.7z
+cgi.py
+translate_paradox_loc_offline.py
+translations_cache_fr_offline.json
+translations_cache_fr_segments.json
+__pycache__/

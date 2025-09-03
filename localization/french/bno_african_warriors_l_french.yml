@@ -1,0 +1,38 @@
+﻿l_french:
+
+ bno_african_warriors: "Guerriers africains"
+ bno_african_warriors_flavor: "#F Escarmouches Elite connues pour leur vitesse et leur capacité à s'adapter à des terrains difficiles comme les forêts et les jungles.#!"
+
+bno_ebony_elites: "Elites ébènes"
+bno_ebony_elites_flavor: "#F Une unité prestigieuse d'infanterie lourde, réputée pour sa discipline et ses prouesses de combat, servant souvent d'épine dorsale à la puissance militaire du royaume.#!"
+
+bno_cock_maidens: "Vierges du Cock"
+bno_cock_maidens_flavor: "#F Des vierges cueillies à la main liées au culte du Black Cock, ces jeunes filles manient à la fois la lame et le corps comme des armes. Peu nombreuses mais sans égal dans le zèle, elles frappent avec une précision impitoyable, leur dévotion lubrique transformant chaque champ de bataille en une orgie de sang et d'adoration de la BBC.#!"
+
+bnwo_armies: "[bnwo_armies|E]"
+
+bnwo_armies_screen_add: "[bnwo_armies|E] [screen|E]"
+bnwo_armies_screen_mult: "$bnwo_armies_screen_add$"
+bnwo_armies_pursuit_add: "[bnwo_armies|E] [pursuit|E]"
+bnwo_armies_pursuit_mult: "$bnwo_armies_pursuit_add$"
+bnwo_armies_toughness_add: "[bnwo_armies|E] [toughness|E]"
+bnwo_armies_toughness_mult: "$bnwo_armies_toughness_add$"
+bnwo_armies_damage_add: "[bnwo_armies|E] [damage|E]"
+bnwo_armies_damage_mult: "$bnwo_armies_damage_add$"
+bnwo_armies_max_size_add: "Taille maximale[bnwo_armies|E] [regiments|E]"
+bnwo_armies_max_size_mult: "$bnwo_armies_max_size_add$"
+bnwo_armies_maintenance_mult: "[bnwo_armies|E] Entretien"
+bnwo_armies_recruitment_cost_mult: "[bnwo_armies|E] Coût du recrutement"
+bnwo_armies_siege_value_add: "[bnwo_armies|E] [siege_progress|E]"
+bnwo_armies_siege_value_mult: "$bnwo_armies_siege_value_add$"
+
+stationed_bnwo_armies_damage_add: "[stationed|E] [bnwo_armies|E] [damage|E]"
+stationed_bnwo_armies_damage_mult: "$stationed_bnwo_armies_damage_add$"
+stationed_bnwo_armies_toughness_add: "[stationed|E] [bnwo_armies|E] [toughness|E]"
+stationed_bnwo_armies_toughness_mult: "$stationed_bnwo_armies_toughness_add$"
+stationed_bnwo_armies_pursuit_add: "[stationed|E] [bnwo_armies|E] [pursuit|E]"
+stationed_bnwo_armies_pursuit_mult: "$stationed_bnwo_armies_pursuit_add$"
+stationed_bnwo_armies_screen_add: "[stationed|E] [bnwo_armies|E] [screen|E]"
+stationed_bnwo_armies_screen_mult: "$stationed_bnwo_armies_screen_add$"
+stationed_bnwo_armies_siege_value_add: "[stationed|E] [bnwo_armies|E] [siege_progress|E]"
+stationed_bnwo_armies_siege_value_mult: "$stationed_bnwo_armies_siege_value_add$"

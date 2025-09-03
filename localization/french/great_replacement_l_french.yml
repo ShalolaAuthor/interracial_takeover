@@ -1,5 +1,5 @@
 ﻿l_french:
- great_replacement: "Remplacement" #deepl:704961281
+ great_replacement: "Remplacement"
  great_replacement_effect_desc: ""
- cultural_acceptance_loss_replacement_culture: "Envahi" #deepl:4169983829
- great_replacement_acceptance_effect_desc: "\nLes villes et villages locaux seront violemment envahis par des hommes supérieurs et placés dans des camps de rééducation. La plupart ne survivront pas..." #deepl:996793133
+ cultural_acceptance_loss_replacement_culture: "Invadé"
+ great_replacement_acceptance_effect_desc: "\nLes villes et les villages locaux seront violemment envahis par des hommes supérieurs et forcés dans des camps de rééducation. La plupart ne survivront pas..."

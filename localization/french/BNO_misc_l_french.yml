@@ -1,0 +1,35 @@
+﻿l_french:
+# traits
+trait_bno_bbc: "Grosse bite noire"
+trait_bno_bbc_desc: "Ce personnage a une grosse bite noire et l'envie de baiser toutes les salopes à sa façon."
+trait_bno_cuckish: "Cocu ?"
+trait_bno_cuckish_desc: "La femme de ce personnage s'est éloignée d'elle."
+trait_bno_cuck: "Cocu !"
+trait_bno_cuck_desc: "La femme de ce personnage a déjà baisé un homme noir, et il est impuissant à l'arrêter."
+trait_bno_beta: "Bêta"
+trait_bno_beta_desc: "L'ancienne femme de ce personnage l'a laissé pour un homme meilleur, et l'a complètement émasculé."
+trait_bno_jos: "Jack de crêpes"
+trait_bno_jos_desc: "Ce personnage, malgré les troubles de l'époux, a pleinement rejoint le nouvel ordre mondial."
+trait_bno_caged: "Câblés"
+trait_bno_caged_desc: "La chasteté est la punition de ce personnage pour ne pas être noir."
+trait_bno_castrated: "Castré"
+trait_bno_castrated_desc: "Les enfants sont une chose du passé, cet homme ne produira pas d'héritiers."
+trait_bno_camp_leader: "Révolutionnaire noir"
+trait_bno_camp_leader_desc: "Ce personnage a été choisi comme le leader de sa bande locale de réfugiés pour son énorme bite noire, louée pour la quantité de salopes qu'il a conquises."
+
+trait_bno_slut_blood: "Saucisse noire"
+trait_bno_slut_blood_desc: "Elle a trop consommé. [GetTrait('bno_full_black').GetName( GetNullCharacter )] Cum, elle devient noire de l'intérieur."
+trait_bno_full_black: "Noir"
+trait_bno_full_black_desc: "Un descendant tout droit du continent africain"
+trait_bno_mostly_black: "La plupart du temps noir"
+trait_bno_mostly_black_desc: "Grâce à l'élevage sélectif parmi les étrangers africains, leur peau est plus foncée"
+trait_bno_mixed: "Mixte"
+trait_bno_mixed_desc: "Un demi-sang africain"
+trait_bno_barely_mixed: "A peine mélangés"
+trait_bno_barely_mixed_desc: "Après des générations de non-élevage dans la dynastie africaine, le sang indigène de ce personnage est bas"
+
+
+
+#Message Filter
+message_filter_bno_breeding_outcomes: ""
+message_filter_bno_blacked_events: ""

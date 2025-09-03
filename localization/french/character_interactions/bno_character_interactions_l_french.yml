@@ -1,0 +1,14 @@
+﻿l_french:
+
+bno_seduce_interaction: "La séduction de la BBC"
+bno_seduce_interaction_desc: "Utilisez votre charme pour séduire[recipient.GetHerHim] C'est vrai."
+bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] a une sorte de[illness|E]"
+bno_cure_disease_interaction.no_priestess: "Vous n'avez pas de[GetCourtPositionType('bno_bbc_priestess_court_position').GetName] pour accomplir le rituel."
+bno_cure_disease_interaction.no_priest: "Vous n'avez pas de[GetCourtPositionType('bno_bbc_priest_court_position').GetName] pour accomplir le rituel."
+
+bno_cure_disease_interaction: "Graines sacrées"
+bno_cure_disease_interaction.desc.female: "[GetCourtPositionType('bno_bbc_priest_court_position').GetName] donner ses graines sacrées sur[recipient.GetFirstName]"
+bno_cure_disease_interaction.desc.male: "[GetCourtPositionType('bno_bbc_priestess_court_position').GetName] donne son essence sacrée sur[recipient.GetFirstName]"
+
+bno_cure_disease_interaction.female_recipient.effect: "Vous allez faire appel à votre[GetCourtPositionType('bno_bbc_priest_court_position').GetName] pour préparer ses graines sacrées pour préparer le rituel"
+bno_cure_disease_interaction.male_recipient.effect: "Vous allez faire appel à votre[GetCourtPositionType('bno_bbc_priestess_court_position').GetName] pour préparer son essence sacrée pour préparer le rituel"
