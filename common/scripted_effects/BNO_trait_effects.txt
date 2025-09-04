@@ -261,6 +261,94 @@ become_bigger_tits_effect = {
 	}
 }
 
+### Vanilla Traits
+
+#increase_trait_rank
+#increase_intellect
+#increase_physique
+#increase_beauty
+#bno_level_a_vanilla_trait
+#become_smarter <
+
+increase_trait_rank = {
+	if = {
+		limit = {
+			has_trait = $TRAIT_GROUP$_bad_1
+		}
+		remove_trait = $TRAIT_GROUP$_bad_1
+		add_trait = $TRAIT_GROUP$_good_1
+	}
+	else = {
+		if = {
+			limit = {
+				has_trait = $TRAIT_GROUP$_good
+			}
+			change_trait_rank = {
+				trait = $TRAIT_GROUP$_good
+				rank = 1
+			}
+		}
+		else_if = {
+			limit = {
+				has_trait = $TRAIT_GROUP$_bad
+			}
+			change_trait_rank = {
+				trait = $TRAIT_GROUP$_bad
+				rank = -1
+			}
+		}
+	}
+}
+
+increase_intellect = {
+	increase_trait_rank = {
+		TRAIT_GROUP = intellect
+	}
+}
+
+increase_physique = {
+	increase_trait_rank = {
+		TRAIT_GROUP = physique
+	}
+}
+
+increase_beauty = {
+	increase_trait_rank = {
+		TRAIT_GROUP = beauty
+	}
+}
+
+bno_level_a_vanilla_trait = {
+	switch = {
+		trigger = has_trait
+		$TRAIT_GROUP$_bad_3 = { increase_$TRAIT_GROUP$ = yes }
+		$TRAIT_GROUP$_bad_2 = { increase_$TRAIT_GROUP$ = yes }
+		$TRAIT_GROUP$_bad_1 = { increase_$TRAIT_GROUP$ = yes }
+		$TRAIT_GROUP$_good_1 = { increase_$TRAIT_GROUP$ = yes }
+		$TRAIT_GROUP$_good_2 = { increase_$TRAIT_GROUP$ = yes }
+		$TRAIT_GROUP$_good_3 = {  }
+		fallback = { add_trait = $TRAIT_GROUP$_good_1 }
+	}
+}
+
+become_smarter = {
+	bno_level_a_vanilla_trait = {
+		TRAIT_GROUP = intellect
+	}
+}
+
+become_stronger = {
+	bno_level_a_vanilla_trait = {
+		TRAIT_GROUP = physique
+	}
+}
+
+become_prettier = {
+	bno_level_a_vanilla_trait = {
+		TRAIT_GROUP = beauty
+	}
+}
+
 ### Pussy Wear Traits ###
 
 #increase_pussy_wear

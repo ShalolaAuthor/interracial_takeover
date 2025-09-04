@@ -1,6 +1,6 @@
 ﻿#Person
 bno_cum_for_glory = {
-    icon = creampie_positive
+    icon = creampie
     cultural_head_fascination_mult = 0.01
     inbreeding_chance = -0.01
     negative_random_genetic_chance = -0.01
@@ -10,7 +10,7 @@ bno_cum_for_glory = {
     stacking = yes
 }
 bno_cum_for_glory_glorified = {
-    icon = creampies_positive
+    icon = creampies
     cultural_head_fascination_mult = 1
     cultural_head_fascination_add = 1
     inbreeding_chance = -1
@@ -89,7 +89,7 @@ bno_disapprove_daughter_marriage_with_bbc = {
 }
 
 bno_primal_insight = {
-    icon = primal_insight_positive
+    icon = primal_insight
     cultural_head_fascination_add = 100
     cultural_head_fascination_mult = 10
 }

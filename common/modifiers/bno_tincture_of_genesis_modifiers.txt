@@ -9,10 +9,29 @@
 
 bno_tincture_of_genesis = {
     icon = tincture_of_genesis_positive
-    learning = 2
-    stewardship = 2
-    intrigue = 2
-    martial = 2
-    prowess = 2
-    diplomacy = 2
+    inbreeding_chance = -0.1
+    negative_random_genetic_chance = -0.1
+    negative_inactive_inheritance_chance = -0.1
+    life_expectancy = 1
+    years_of_fertility = 1
+}
+
+bno_primal_vessel = {
+    icon = primal_vessel
+    learning = 5
+    stewardship = 5
+    intrigue = 5
+    martial = 5
+    prowess = 5
+    diplomacy = 5
+    stacking = yes
+}
+
+bno_ebony_bloom = {
+    icon = ebony_bloom
+    inbreeding_chance = -1
+    negative_random_genetic_chance = -1
+    negative_inactive_inheritance_chance = -1
+    life_expectancy = 10
+    years_of_fertility = 10
 }

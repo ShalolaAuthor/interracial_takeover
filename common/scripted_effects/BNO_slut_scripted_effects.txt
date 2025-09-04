@@ -1787,6 +1787,13 @@ be_strongest = {
 	add_trait = physique_good_3
 }
 
+be_stronger = {
+	switch = {
+		trigger = has_trait
+		physique_good_1 = {  }
+	}
+}
+
 get_white_vassal_with_non_blacked_wife_scope = { 
 	if = {
 		limit = {
@@ -2050,5 +2057,12 @@ get_old_wife_or_wife_with_bad_trait = {
 	get_spouse_scope = {
 		TRIGGER_KEY = is_old_or_has_bad_trait
 		SCOPE_NAME = $SCOPE_NAME$
+	}
+}
+
+bno_sex_scene_start = {
+	carn_sex_scene_start = yes
+	bno_have_sex_with_effects = {
+		PARTNER = scope:carn_sex_partner
 	}
 }

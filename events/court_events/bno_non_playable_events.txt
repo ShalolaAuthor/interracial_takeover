@@ -10,10 +10,20 @@ bno_non_playable.0001 = {
         liege ?= {
             NOT = { has_character_flag = bno_non_playable.0001 }
             is_playable_character = yes
-
-            OR = {
+            trigger_if = {
+                limit = {
+                    is_a_male = yes
+                }
                 is_bbc = no
+            }
+            trigger_else_if = {
+                limit = {
+                    is_a_girl = yes
+                }
                 is_slut = no
+            }
+            trigger_else = {
+                always = yes
             }
             gold > major_gold_value
             any_councillor = {
@@ -33,7 +43,7 @@ bno_non_playable.0001 = {
                 }
                 save_scope_as = cp_steward
             }
-            send_interface_message = {
+            send_interface_toast = {
                 title = bno_non_playable.0001.title
                 desc = bno_non_playable.0001.desc
                 remove_short_term_gold = minor_gold_value

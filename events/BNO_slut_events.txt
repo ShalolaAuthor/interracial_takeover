@@ -1459,7 +1459,7 @@ bno_slut.3015 = {
 		scope:bbc = {
 			save_scope_as = carn_sex_partner
 		}
-		carn_sex_scene_start = yes
+		bno_sex_scene_start = yes
 		cuddle_animations = yes
 	}
 

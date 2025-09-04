@@ -48,7 +48,7 @@ hair_color_x = {
 }
 
 hair_color_y = {
-   value = 2
+   value = 1
    divide = var:bno_becoming_dark
    add = -0.5
 }

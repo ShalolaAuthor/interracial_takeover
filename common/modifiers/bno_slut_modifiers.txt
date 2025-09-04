@@ -19,7 +19,7 @@ bno_pretty_slut_pimped = {
 }
 
 bno_a_lively_performance_in_a_refugee_camp = {
-	icon = lively_performance_in_a_refugee_camp_positive
+	icon = lively_performance_in_a_refugee_camp
 	stewardship = 5
 	intrigue = 5
 	stress_gain_mult = -0.5
@@ -27,7 +27,7 @@ bno_a_lively_performance_in_a_refugee_camp = {
 }
 
 bno_educated_a_future_queen_of_spades = {
-	icon = educated_a_future_queen_of_spades_positive
+	icon = educated_a_future_queen_of_spades
 	stewardship = 5
 	diplomacy = 5
 	learning = 5
@@ -37,7 +37,7 @@ bno_educated_a_future_queen_of_spades = {
 }
 
 bno_a_future_queen_for_black = {
-	icon = future_queen_of_white_positive
+	icon = future_queen_of_white
 	stewardship = -3
 	diplomacy = -3
 	learning = -3

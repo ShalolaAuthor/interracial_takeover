@@ -11,26 +11,27 @@
 
     is_shown = {
         scope:actor = {
-            NOT = { has_character_flag = bno_tincture_of_genesis.0001 }
-            is_blackbull = yes
+            is_bbc = yes
+            is_a_male = yes
+            is_adult = yes
         }
         scope:recipient = {
-            is_white_girl = yes
-            NOT = { has_character_modifier = bno_tincture_of_genesis }
+            NOT = { has_character_modifier = bno_ebony_bloom }
+            is_a_girl = yes
             is_spouse_of = scope:actor
-            NOT = { exists = var:bno_becoming_dark }
         }
     }
 
     is_valid_showing_failures_only = {
         scope:actor = {
-            is_at_war = no
+            NOT = { has_character_modifier = bno_nourishers_fatigue }
         }
         scope:recipient = {
             custom_tooltip = {
                 text = bno_tincture_of_genesis_interaction.not_white
                 is_african = no
             }
+            age >= 18
         }
     }
 

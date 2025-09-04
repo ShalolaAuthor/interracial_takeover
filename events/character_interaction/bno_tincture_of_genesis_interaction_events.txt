@@ -27,12 +27,42 @@ bno_tincture_of_genesis.0001 = {
         scope:recipient = {
             save_scope_as = carn_sex_partner
         }
-        carn_sex_scene_start = yes
+        bno_sex_scene_start = yes
         cuddle_animations = yes
     }
 
     option = {
-        name = bno_tincture_of_genesis.0001
+        name = bno_tincture_of_genesis.0001.a
+        trigger_event = bno_tincture_of_genesis.1001
+    }
+}
+
+bno_tincture_of_genesis.1001 = {
+    type = character_event
+    title = bno_tincture_of_genesis.1001.title
+    desc = bno_tincture_of_genesis.1001.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        standing_oral_animations = yes
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.1001.a
         scope:recipient = {
             trigger_event = bno_tincture_of_genesis.0002
         }
@@ -40,6 +70,7 @@ bno_tincture_of_genesis.0001 = {
         carn_sex_scene_cleanup = yes
     }
 }
+
 #Female Events
 bno_tincture_of_genesis.0002 = {
     type = character_event
@@ -66,12 +97,46 @@ bno_tincture_of_genesis.0002 = {
         scope:actor = {
             save_scope_as = carn_sex_partner
         }
-        carn_sex_scene_start = yes
+        bno_sex_scene_start = yes
         cuddle_animations = yes
+    }
 
-        set_variable = {
-            name = bno_becoming_dark
-            value = 0
+    option = {
+        name = bno_tincture_of_genesis.0002.a
+        trigger_event = bno_tincture_of_genesis.1002
+    }
+}
+
+bno_tincture_of_genesis.1002 = {
+    type = character_event
+    title = bno_tincture_of_genesis.1002.title
+    desc = bno_tincture_of_genesis.1002.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        standing_oral_animations = yes
+        if = {
+            limit = {
+                NOT = { exists = var:bno_becoming_dark }
+            }
+            set_variable = {
+                name = bno_becoming_dark
+                value = 0
+            }
         }
         trigger_event = {
             id = bno_tincture_of_genesis.1111
@@ -81,20 +146,36 @@ bno_tincture_of_genesis.0002 = {
     }
 
     option = {
-        name = bno_tincture_of_genesis.0002
+        name = bno_tincture_of_genesis.1002.a
         carn_sex_scene_is_cum_inside_effect = yes
         carn_sex_scene_cleanup = yes
     }
 }
 
-
 #hidden repeating event to pump up the var
 bno_tincture_of_genesis.1111 = {
     hidden = yes
+
+    trigger = {
+        scope:actor = { is_alive = yes }
+        scope:recipient = { 
+            is_alive = yes 
+            is_spouse_of = scope:actor
+        }
+    }
+
+    on_trigger_fail = {
+        remove_character_modifier = bno_tincture_of_genesis
+        scope:actor = {
+            remove_character_modifier = bno_nourishers_fatigue
+        }
+    }
+
     immediate = {
         if = {
             limit = {
-                var:bno_becoming_dark <= 4
+                exists = var:bno_becoming_dark
+                has_character_modifier = bno_tincture_of_genesis
             }
             change_variable = {
                 name = bno_becoming_dark
@@ -105,12 +186,455 @@ bno_tincture_of_genesis.1111 = {
                 days = 2
                 delayed = yes
             }
-        }
-        else = {
-            set_variable = {
-                name = bno_becoming_dark
-                value = 4
+            if = {
+                limit = {
+                    var:bno_becoming_dark >= 1
+                    NOT = { has_character_flag = bno_tincture_of_genesis.2002 }
+                }
+                trigger_event = bno_tincture_of_genesis.2002
+            }
+            else_if = {
+                limit = {
+                    var:bno_becoming_dark >= 2
+                    NOT = { has_character_flag = bno_tincture_of_genesis.4002 }
+                }
+                trigger_event = bno_tincture_of_genesis.4002
+            }
+            else_if = {
+                limit = {
+                    var:bno_becoming_dark >= 3
+                    NOT = { has_character_flag = bno_tincture_of_genesis.5002 }
+                }
+                trigger_event = bno_tincture_of_genesis.5002
+            }
+            else_if = {
+                limit = {
+                    var:bno_becoming_dark >= 4
+                    NOT = { has_character_flag = bno_tincture_of_genesis.6002 }
+                }
+                trigger_event = bno_tincture_of_genesis.6002
             }
         }
+    }
+}
+### Stage 1
+#get the black slut trait and strong
+bno_tincture_of_genesis.2002 = {
+    type = character_event
+    title = bno_tincture_of_genesis.2002.title
+    desc = bno_tincture_of_genesis.2002.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:actor
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = scope:recipient
+        animation = bno_sex_love_stand_2
+    }
+
+    trigger = {
+        scope:actor = { is_alive = yes }
+        scope:recipient = { is_alive = yes }
+    }
+
+    immediate = {
+        add_character_flag = bno_tincture_of_genesis.2002
+        becoming_african = yes
+        become_bigger_tits_effect = yes
+        add_trait = strong
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.2002.a
+        scope:actor = {
+            trigger_event = bno_tincture_of_genesis.2001
+        }
+        trigger_event = bno_tincture_of_genesis.3002
+    }
+}
+#continue sucking actor dick
+bno_tincture_of_genesis.3002 = {
+    type = character_event
+    title = bno_tincture_of_genesis.3002.title
+    desc = bno_tincture_of_genesis.3002.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    trigger = {
+        scope:actor = { is_alive = yes }
+        scope:recipient = { is_alive = yes }
+    }
+
+    immediate = {
+        save_scope_as = carn_sex_player
+        scope:actor = {
+            save_scope_as = carn_sex_partner
+        }
+        bno_sex_scene_start = yes
+        standing_oral_animations = yes
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.3002.a
+        carn_sex_scene_is_cum_inside_effect = yes
+        carn_sex_scene_cleanup = yes
+    }
+}
+#follow up event for the guys
+bno_tincture_of_genesis.2001 = {
+    type = character_event
+    title = bno_tincture_of_genesis.2001.title
+    desc = bno_tincture_of_genesis.2001.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:actor
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = scope:recipient
+        animation = bno_sex_love_stand_2
+    }
+
+    immediate = {
+        custom_tooltip = {
+            text = bno_tincture_of_genesis.2001.darker_skin
+        }
+        custom_tooltip = {
+            text = bno_tincture_of_genesis.2001.get_strong
+        }
+        custom_tooltip = {
+            text = bno_tincture_of_genesis.2001.bigger_tits
+        }
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.2001.a
+        trigger_event = bno_tincture_of_genesis.3001
+    }
+}
+#wife suck your dick
+bno_tincture_of_genesis.3001 = {
+    type = character_event
+    title = bno_tincture_of_genesis.3001.title
+    desc = bno_tincture_of_genesis.3001.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        save_scope_as = carn_sex_player
+        scope:recipient = {
+            save_scope_as = carn_sex_partner
+        }
+        bno_sex_scene_start = yes
+        standing_oral_animations = yes
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.3001.a
+        carn_sex_scene_is_cum_inside_effect = yes
+        carn_sex_scene_cleanup = yes
+    }
+}
+
+### Stage 2
+#darker + stronger + bigger_tits
+bno_tincture_of_genesis.4002 = {
+    type = character_event
+    title = bno_tincture_of_genesis.4002.title
+    desc = bno_tincture_of_genesis.4002.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:actor
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = scope:recipient
+        animation = bno_sex_love_stand_2
+    }
+
+    trigger = {
+        scope:actor = { is_alive = yes }
+        scope:recipient = { is_alive = yes }
+    }
+
+    immediate = {
+        add_character_flag = bno_tincture_of_genesis.4002
+        becoming_african = yes
+        become_bigger_tits_effect = yes
+        become_stronger = yes
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.4002.a
+        scope:actor = {
+            trigger_event = bno_tincture_of_genesis.4001
+        }
+        trigger_event = bno_tincture_of_genesis.3002
+    }
+}
+#follow up event for the guys
+bno_tincture_of_genesis.4001 = {
+    type = character_event
+    title = bno_tincture_of_genesis.4001.title
+    desc = bno_tincture_of_genesis.4001.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:actor
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = scope:recipient
+        animation = bno_sex_love_stand_2
+    }
+
+    trigger = {
+        scope:actor = { is_alive = yes }
+        scope:recipient = { is_alive = yes }
+    }
+
+    immediate = {
+        custom_tooltip = {
+            text = bno_tincture_of_genesis.4001.darker_skin
+        }
+        custom_tooltip = {
+            text = bno_tincture_of_genesis.4001.stronger
+        }
+        custom_tooltip = {
+            text = bno_tincture_of_genesis.4001.bigger_tits
+        }
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.4001.a
+        trigger_event = bno_tincture_of_genesis.3001
+    }
+}
+
+### Stage 3
+#darker + smarter + bigger tits
+bno_tincture_of_genesis.5002 = {
+    type = character_event
+    title = bno_tincture_of_genesis.5002.title
+    desc = bno_tincture_of_genesis.5002.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:actor
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = scope:recipient
+        animation = bno_sex_love_stand_2
+    }
+
+    trigger = {
+        scope:actor = { is_alive = yes }
+        scope:recipient = { is_alive = yes }
+    }
+
+    immediate = {
+        add_character_flag = bno_tincture_of_genesis.5002
+        becoming_african = yes
+        become_bigger_tits_effect = yes
+        become_stronger = yes
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.5002.a
+        scope:actor = {
+            trigger_event = bno_tincture_of_genesis.5001
+        }
+        trigger_event = bno_tincture_of_genesis.3002
+    }
+}
+#follow up event for the guys
+bno_tincture_of_genesis.5001 = {
+    type = character_event
+    title = bno_tincture_of_genesis.5001.title
+    desc = bno_tincture_of_genesis.5001.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:actor
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = scope:recipient
+        animation = bno_sex_love_stand_2
+    }
+
+    trigger = {
+        scope:actor = { is_alive = yes }
+        scope:recipient = { is_alive = yes }
+    }
+
+    immediate = {
+        custom_tooltip = {
+            text = bno_tincture_of_genesis.5001.darker_skin
+        }
+        custom_tooltip = {
+            text = bno_tincture_of_genesis.5001.smarter
+        }
+        custom_tooltip = {
+            text = bno_tincture_of_genesis.5001.bigger_tits
+        }
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.5001.a
+        trigger_event = bno_tincture_of_genesis.3001
+    }
+}
+
+### Stage 4
+#darker + prettier + bigger tits
+bno_tincture_of_genesis.6002 = {
+    type = character_event
+    title = bno_tincture_of_genesis.6002.title
+    desc = bno_tincture_of_genesis.6002.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:actor
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = scope:recipient
+        animation = bno_sex_love_stand_2
+    }
+
+    trigger = {
+        scope:actor = { is_alive = yes }
+        scope:recipient = { is_alive = yes }
+    }
+
+    immediate = {
+        add_character_flag = bno_tincture_of_genesis.6002
+        ### Stop transformation progress
+        remove_character_modifier = bno_tincture_of_genesis
+
+        add_character_modifier = bno_ebony_bloom
+        becoming_african = yes
+        become_bigger_tits_effect = yes
+        become_prettier = yes
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.6002.a
+        scope:actor = {
+            trigger_event = bno_tincture_of_genesis.6001
+        }
+        trigger_event = bno_tincture_of_genesis.3002
+    }
+}
+#follow up event for the guys
+bno_tincture_of_genesis.6001 = {
+    type = character_event
+    title = bno_tincture_of_genesis.6001.title
+    desc = bno_tincture_of_genesis.6001.desc
+    theme = seduction
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:actor
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = scope:recipient
+        animation = bno_sex_love_stand_2
+    }
+
+    trigger = {
+        scope:actor = { is_alive = yes }
+        scope:recipient = { is_alive = yes }
+    }
+
+    immediate = {
+        custom_tooltip = {
+            text = bno_tincture_of_genesis.6001.darker_skin
+        }
+        custom_tooltip = {
+            text = bno_tincture_of_genesis.6001.prettier
+        }
+        custom_tooltip = {
+            text = bno_tincture_of_genesis.6001.bigger_tits
+        }
+        remove_character_modifier = bno_nourishers_fatigue
+        add_character_modifier = bno_primal_vessel
+    }
+
+    option = {
+        name = bno_tincture_of_genesis.6001.a
+        trigger_event = bno_tincture_of_genesis.3001
     }
 }

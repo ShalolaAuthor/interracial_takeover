@@ -295,7 +295,7 @@ is_a_futa = {
 
 is_a_girl = {
 	is_female = yes
-	is_a_futa = no
+	is_bbc = no
 }
 
 is_an_ai_girl = {

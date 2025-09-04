@@ -17,6 +17,11 @@
 		}
 	}
 	is_valid = {
+		NOT = {
+			any_spouse = {
+				is_bbc = yes
+			}
+		}
 		is_bno_snowbunny_and_up = yes
 	}
 	effect = {

@@ -31,9 +31,9 @@ bno_lottery_dick_size = {
         1 = { add_trait = dick_big_good_3 }
         2 = { add_trait = dick_big_good_2 }
         4 = { add_trait = dick_big_good_3 }
-        1 = { add_trait = dick_small_bad_3 }
-        2 = { add_trait = dick_small_bad_2 }
-        4 = { add_trait = dick_small_bad_1 }
+        8 = { add_trait = dick_small_bad_3 }
+        16 = { add_trait = dick_small_bad_2 }
+        32 = { add_trait = dick_small_bad_1 }
     }
 }
 
@@ -42,9 +42,9 @@ bno_lottery_tits_size = {
         1 = { add_trait = tits_big_good_3 }
         2 = { add_trait = tits_big_good_2 }
         4 = { add_trait = tits_big_good_3 }
-        1 = { add_trait = tits_small_bad_3 }
-        2 = { add_trait = tits_small_bad_2 }
-        4 = { add_trait = tits_small_bad_1 }
+        8 = { add_trait = tits_small_bad_3 }
+        16 = { add_trait = tits_small_bad_2 }
+        32 = { add_trait = tits_small_bad_1 }
     }
 }
 

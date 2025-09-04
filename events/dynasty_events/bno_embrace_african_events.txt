@@ -1407,7 +1407,7 @@ bno_embrace_african_5.0001 = {
     immediate = {
         save_scope_as = carn_sex_player
         bno_get_bbc_priest_or_priestess = yes
-        carn_sex_scene_start = yes
+        bno_sex_scene_start = yes
         standing_oral_animations = yes
     }
 
@@ -1581,7 +1581,7 @@ bno_embrace_african_5.1002 = {
     immediate = {
         save_scope_as = carn_sex_player
         bno_get_bbc_priest_or_priestess = yes
-        carn_sex_scene_start = yes
+        bno_sex_scene_start = yes
         standing_oral_animations = yes
     }
 
@@ -2157,7 +2157,7 @@ bno_embrace_african_5.0009 = {
     immediate = {
         save_scope_as = carn_sex_player
         bno_get_bbc_priest_or_priestess = yes
-        carn_sex_scene_start = yes
+        bno_sex_scene_start = yes
         sex_animations = yes
     }
 
@@ -2337,7 +2337,7 @@ bno_embrace_african_5.0010 = {
                     is_a_girl = yes
                 }
             }
-            carn_sex_scene_start = yes
+            bno_sex_scene_start = yes
             standing_oral_animations = yes
         }
         else_if = {
@@ -2347,7 +2347,7 @@ bno_embrace_african_5.0010 = {
                     is_a_male = yes
                 }
             }
-            carn_sex_scene_start = yes
+            bno_sex_scene_start = yes
             cunnilingus_animations = yes
         }
     }

@@ -5,7 +5,6 @@
 		}
 		traits = {
 			bno_full_black
-			bno_full_black_slut
 		}
 		dna_modifiers = {
 			human = {
@@ -25,7 +24,6 @@
 		}
 		traits = {
 			bno_mostly_black
-			bno_mostly_black_slut
 		}
 		dna_modifiers = {
 			human = {
@@ -45,7 +43,6 @@
 		}
 		traits = {
 			bno_mixed
-			bno_mixed_slut
 		}
 		dna_modifiers = {
 			human = {
@@ -65,7 +62,6 @@
 		}
 		traits = {
 			bno_barely_mixed
-			bno_barely_mixed_slut
 		}
 		dna_modifiers = {
 			human = {
