@@ -1,0 +1,14 @@
+﻿l_korean:
+
+bnwo_faction: "[bno_bnwo|E]분파" # AI Tags
+bnwo_faction_desc: "그들의 철강의 지배 아래, 백인 몸은 굴복하고 피를 흘리며, 강한, 아름다운, 그리고 부정할 수 없는 후손을 위한 우리의 불포화한 굶주림을 자극합니다. [bno_black|E]." # AI Tags
+bnwo_faction.name: "이 [bno_bnwo|E]" # AI Tags
+bnwo_faction.short_effect_desc: "이 [bno_bnwo|E]인종적 우월주의에 기반한 새로운 세계 질서를 확립하려는 분파입니다. [bno_black|E]개인들" # AI Tags
+bnwo_faction.power.bnoc: "원해요[liege|E]될 것$bnoc$" # AI Tags
+bnwo_faction.power.bbcs: "원해요[liege|E]될 것$bbcs$" # AI Tags
+bnwo_faction.power.county_bnoc: "[county]될 것$bnoc$" # AI Tags
+bnwo_faction.power.county_bbcs: "[county]될 것$bbcs$" # AI Tags
+bnwo_faction_leader_title: "지휘관" # AI Tags
+bnwo_faction_revolt_title_name: "이 [bno_bnwo|E]반란" # AI Tags
+bnwo_faction_event_troops: "[bno_bnwo|E]반란" # AI Tags
+bno_event_troop_default_name: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] [bno_bnwo|E]반란군" # AI Tags

@@ -1,0 +1,13 @@
+﻿l_german:
+
+bno_war_0001.title: "Feindverrat" # AI Tags
+bno_war_0001.desc: "Ich bin alarmiert von einem meiner Generäle einer ungewöhnlichen Situation. Wenn die Berichte zu glauben sind, mein pathetischer Feind[defender.GetFullName] sitzt derzeit in meinem Kerker, was für mich neu wäre, da ich aktiv einen Krieg gegen ihn führe.\n\nAber ich werde weniger überrascht, als ich herausfinde, dass es keine andere war als seine Frau. [target1.GetFirstName] Es scheint, sie sah diesen Krieg als eine Gelegenheit, sich offen vor schwarzen Schwänzen zu verbeugen. Sollten Sie ihr wünschen? Unabhängig von Ihrer Wahl, mit[defender.GetFirstName] als dein Gefangener, ist der Sieg dein Anspruch, wenn du fit siehst." # AI Tags
+bno_war_0001.a: "Sie hat sich ihren Platz als Höfling verdient." # AI Tags
+bno_war_0001.b: "Gut, aber sie hat keinen Platz in meinem Hof." # AI Tags
+bno_war_0001.c: "Sie hat es gut gemacht, ich werde sie als meine eigene nehmen." # AI Tags
+
+bno_war_0002.title: "Schwarze Suprematie verteidigen" # AI Tags
+bno_war_0002.desc: "[bno_bbc|E] wie der Hauptverteidiger bekommt die Chance, heilige Krieger Merkmal und / oder wieder Supremacy Religion + Armee Laich" # AI Tags
+bno_war_0002.a: "Möge mein Schwert alle minderwertigen Rassen niederschlagen." # AI Tags
+bno_war_0002.b: "Ich bin ein wiedergeborener Schwarzer Supremacist." # AI Tags
+bno_war_0002.c: "etwas dritte Option" # AI Tags

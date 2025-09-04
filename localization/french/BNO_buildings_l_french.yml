@@ -1,0 +1,26 @@
+﻿l_french:
+
+#BBC Camp
+building_type_bbc_camp_01: "Établissements africains" # AI Tags
+building_type_bbc_camp_01_desc: "Une colonie où tous les réfugiés africains se rassemblent et se mêlent aux femmes locales." # AI Tags
+building_bbc_camp_01: "Camp d'élevage" # AI Tags
+building_bbc_camp_01_desc: "Les réfugiés africains se voient attribuer une zone désignée à proximité de la ville pour « se mêler » aux populations locales. Ces camps seront les endroits parfaits pour élever les femmes locales." # AI Tags
+building_bbc_camp_02: "Maisons d'amour" # AI Tags
+building_bbc_camp_02_desc: "Comme plus de femmes sont attirées par l'établissement africain, l'ajout de maisons permettra à plus de réfugiés de se reproduire avec eux." # AI Tags
+building_bbc_camp_03: "Village de réfugiés" # AI Tags
+building_bbc_camp_03_desc: "Avec l'afflux de femmes dans l'établissement, la construction d'un plus grand nombre d'installations et l'établissement d'un établissement plus permanent pour permettre un plus grand nombre de croisements." # AI Tags
+building_bbc_camp_04: "Brothelles interraciales" # AI Tags
+building_bbc_camp_04_desc: "[bno_bbc|E] Les toxicomanes peuvent maintenant se réunir dans ces maisons closes et avoir des relations sexuelles avec leur réfugié africain préféré." # AI Tags
+building_bbc_camp_05: "Canton de réfugiés" # AI Tags
+building_bbc_camp_05_desc: "La population de la ville est pratiquement envahie par des réfugiés africains et toutes les femmes ont au moins été baisées par un Africain une fois." # AI Tags
+building_bbc_camp_06: "BBC Paradise" # AI Tags
+building_bbc_camp_06_desc: "Une métropole animée où les femmes affluent de loin et de large juste pour un goût de la bite la plus recherchée de la planète - Big Black Cocks." # AI Tags
+
+building_type_bbc_church_01: "$bnonr$" # AI Tags
+building_type_bbc_church_01_desc: "L'air à l'intérieur$bnonr$pulsé avec le rythme des gémissements frénétiques et des gazopes désespérées comme des corps dorlotés dans la dévotion transpirante sous un plafond voûté dégoulinant d'un éclat huileux qui brillait comme du sperme répandu." # AI Tags
+building_bbc_church_01: "$bnonr$: Fondation" # AI Tags
+building_bbc_church_01_desc: "Même maintenant, avant qu'une seule flèche ne perce le ciel ou le vitrail avec des teintes interdites, je peux presque le sentir: le frisson de puissance émanant de cette fondation de pierre tombale. Calquées au fond de la terre, elles ont coulé les premières pierres noires, chacune embrassée par l'huile noire et imprégnée de la promesse d'une extase charnelle sans fin à venir." # AI Tags
+building_bbc_church_02: "$bnonr$: Cathédrale" # AI Tags
+building_bbc_church_02_desc: "Dans ses salles d'écho, les orgies quotidiennes sont tenues en révérence à la[bno_bbc|E], alimenté par des offrandes à la fois corporelle et spirituelle, y compris le sacrifice rituel hebdomadaire des hommes blancs offrant leurs femmes comme hommages vivants sur l'autel sacré du désir ébène." # AI Tags
+
+NOT_bbc_or_whitegirl_trigger: "Le titulaire doit:[bno_bbc|E] ou Whitegirl" # AI Tags

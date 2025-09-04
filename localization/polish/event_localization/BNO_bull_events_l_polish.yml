@@ -1,0 +1,105 @@
+﻿l_polish:
+ #
+ bno_bull_0001.title: "Wpadła żona" # AI Tags
+ bno_bull_0001.desc: "Arogancki biały . [target2.GetLadyLord] który rządzi tymi ziemami, tak zwany '[target2.GetLadyLord] 'nie robił wystarczająco dużo, by obserwować. [target2.GetHerHis]łatwo zdominowana żona." # AI Tags
+ bno_bull_0001.a: "Kolejna świnia z słabego kurczaka." # AI Tags
+ bno_bull_0001.b: "Weź . [target1.GetHerHis] jako mój kochanek." # AI Tags
+ bno_bull_0001.c: "[target1.GetSheHe|U] ma cechy tworzące [target1.GetHerHis] Nie godny bycia czarnym rasem." # AI Tags
+ bno_bull_0001.d: "[target1.GetSheHe|U] Nie podoba mi się." # AI Tags
+ 
+ #Bull anti-stress event. too lazy to write this one out fully
+ bno_bull_0002.title: "Byka rozładowuje stres" # AI Tags
+ bno_bull_0002.desc: "Ostatnio czuję się stresowany. [target1.GetFirstName] Byłem w pobliżu, żeby wyładować." # AI Tags
+ bno_bull_0002.a: "Potrzebowałem tego." # AI Tags
+ 
+ bno_bull_0003.title: "Złamanie złych nawyków" # AI Tags
+ bno_bull_0003.desc: "Niestety . [target1.GetFirstName] Jest jedną z białych dziwk, która ma problemy z jedzeniem, ale nie jest zbyt atrakcyjna. [target1.GetHerHis] Obowiązek białej kobiety , aby upewnić się . [target1.GetSheHe] Jest wystarczająco fit i zdrowy, by służyć. [target1.GetSheHe|U] potrzebuje zastąpienia [target1.GetHerHis] bieżąca dieta, coś, co [target1.GetSheHe] Będzie smaczny i wypełnienie nie spowoduje [target1.GetHerHim] Zwiększenie masy ciała. \n\nPotem wpadnie ci w głowę szalony pomysł. [target1.GetHerHis] naturalnym miejscem do zabierania nasienia, więc dlaczego nie karmić go [target1.GetHerHim] Nie wiesz, czy to możliwe, a wyniki nie nastąpią z dnia na dzień, ale może powinieneś spróbować. [target1.GetFirstName]- Nie , nie ." # AI Tags
+ bno_bull_0003.a: "Daję . [target1.GetHerHim] bardziej godną diety." # AI Tags
+ bno_bull_0003.b: "[target1.GetSheHe|U] Nie jest wart mojego czasu ani nasienia." # AI Tags
+ 
+ bno_bull_1003.title: "Cała dieta płynna" # AI Tags
+ bno_bull_1003.desc: "Minęło kilka miesięcy, odkąd zdecydowałaś się ofiarować swoje grubie nasienie. [target1.GetFirstName] Jak [target1.GetHerHis] Pomimo początkowych skarg, dziwka jest wystarczająco dobrze wyszkoloną dziwką. [target1.GetSheHe] Czy ma prawdziwą przyjemność z procesu uzyskania [target1.GetHerHis] Cum i przyzwyczaiła się do [target1.GetHerHis] Potrzeba jeszcze więcej pracy. [target1.GetSheHe] można zaufać, aby trzymać się diety [target1.GetHerHis] Właściwie, ale jesteś zadowolony z osiągnięć.\n\nKiedy rozważasz kolejne kroki, czujesz w jajach, że osiągasz swój limit i dajesz jeszcze kilka gwałtownych impulsów. [target1.GetFirstName] Z ręką mocno przywiązaną. [target1.GetHerHis] Głoś, daj jeszcze jedną ostateczną pompę w [target1.GetHerHis] Przed rozładowaniem wszystkiego w jajach prosto do [target1.GetHerHis]Żołądek." # AI Tags
+ bno_bull_1003.a: "Nie mogę się doczekać . [target1.GetHerHis] Następny posiłek." # AI Tags
+ 
+ bno_bull_2003.title: "Cała dieta płynna" # AI Tags
+ bno_bull_2003.desc: "Minęło prawie pół roku, odkąd zacząłeś dawać. [target1.GetFirstName] Przywilej zawsze mieć w sobie swój spunk. [target1.GetHerHis] Nawet teraz, kiedy jesz własne posiłki, [target1.GetSheHe] Jest pod stołem i pracuje nad tym. [target1.GetHerHis] Twoja ciężka praca się opłaciła . [target1.GetHerHis] Chęć konsumowania czegoś przez cały czas nie zmniejszyła się tak bardzo. [target1.GetSheHe] Po prostu ciągle spożywam coś , co nigdy nie spowoduje[target1.GetHerHim] Aby przybierać dodatkową wagę. \n\nKiedy jesteś zbyt zajęty lub nie chcesz się karmić. [target1.GetHerHim] Proszę pozwolić . [target1.GetHerHim] Teraz czujesz się w pełni pewny siebie. [target1.GetHerHis] zdolność do utrzymania status quo [target1.GetHerHis] Cała próba była długa i męcząca, ale czujesz się dumny z tego, że udało ci się i czujesz, że wiele nauczyłeś się na temat ciała, poszukiwania nauki i intencji Boga poprzez stworzenie białej kobiety." # AI Tags
+ bno_bull_2003.a: "[target1.GetFirstName] Jest teraz prawdziwą czarną dziwką." # AI Tags
+ 
+ bno_bull_3003.title: "Cała dieta płynna?" # AI Tags
+ bno_bull_3003.desc: "W ciągu ostatniego roku moja żona . [target1.GetFirstName] Była na czym? [target1.GetSheHe] Nie jestem pewien, co to znaczy, i wydaje się to dziwne nazwisko, ponieważ zawartość[target1.GetHerHis] Kopa zawsze wydaje się biała, ale nie mogę zaprzeczyć wynikom.\n\n[target1.GetSheHe|U] Zdecydowanie pokonał . [target1.GetHerHis] Zmieniła swoje nawyki żywieniowe i wygląda szczęśliwiejsza niż kiedykolwiek. [target1.GetHerHim] [target1.GetHerHis] sekrety żywieniowe dla własnego zdrowia?" # AI Tags
+ bno_bull_3003.a: "'Skarbie, wygląda na to, że masz włosy na ustach'" # AI Tags
+ 
+ #
+ bno_bull_0004.title: "Obowiązek czarnego lorda." # AI Tags
+ bno_bull_0004.desc: "Gdy przechodzisz przez ogród, zauważysz samotną figurę przy jednym z kwiatowych łóżek. [target1.GetFirstName] Nie jesteś pewien, dlaczego nikt na twoim dworze nie ma czarnej rasy. [target1.GetHerHim] Jako czarny lord musisz naprawić tę niesprawiedliwość i masz na to wolny czas. [target1.GetHerHim] Z tyłu, zdezorientowany faktem, że ofiara nie wie, co się stanie. [target1.GetHerHim]- Nie .\n\nNie mówiąc ani słowa, mocno zawiniesz jedną rękę. [target1.GetHerHis] delikatna talia, ciągnięcie [target1.GetHerHis] Z tyłu na twój już zatwardziały kutas i kryj . [target1.GetHerHis] usta drugą ręką. [target1.GetHerHis|U] Natychmiastowy panikowany oddech i próby uwolnienia. [target1.GetHerselfHimself] 'Słuchaj mnie dobrze dziwko. Mam cię. Zawsze byłem twoim, nawet jeśli jeszcze tego nie wiedziałeś. Ale przez resztę dnia, upewnię się, że fakt ten zostanie na zawsze wydrukowany na twoim pięknym białym ciele'.\n\n[target1.GetFirstName] Zaczyna się uspokoić, być może wiedząc, że ta sytuacja była zawsze nieunikniona. [target1.GetSheHe] Dla niepoznanej dziwki, [target1.GetSheHe] Do czasu, gdy skończysz. [target1.GetHerHim]/[target1.GetFirstName] Jest w pełni świadomy nadwładności. [target1.GetHerHis] Czarni mistrzowie." # AI Tags
+ bno_bull_0004.a: "Wszystko tak, jak powinno być." # AI Tags
+ 
+ #
+ bno_bull_0005.title: "Samodzielny zdradca rasy" # AI Tags
+ bno_bull_0005.desc: "Twoi strażnicy zbliżają się do ciebie z niezwykłym gościem. [target1.GetHerHis] Nazwa jest [target1.GetFirstName] i [target1.GetSheHe] Wydaje mi się, że... [target1.GetSheHe] Słyszałem o twoim rządzie i o tym, jak ma zmienić świat i bardzo chce być jego częścią. [target1.GetSheHe|U] Wykonuje pokłony . [target1.GetHerselfHimself] Przy tobie, błagając o wychowanie, aby stworzyć następne pokolenie wyższej rasy. [target1.GetHerHis] Miejsce to czczenie czarnych kutasów." # AI Tags
+ bno_bull_0005.a: "Oczywiście jesteś zobowiązany . [target1.GetHerHis] Potrzeba czarnego kutasa." # AI Tags
+ 
+ #
+ bno_bull_0006.title: "Czystość niższych ludzi" # AI Tags
+ bno_bull_0006.desc: "Stoisz w swoim lochu i nadzorujesz działania naprawcze . [target1.GetFirstName] Rozumie się, że czuje się upokorzony wydarzeniami, a ty niemal czujesz dla niego współczucie." # AI Tags
+ bno_bull_0006.a: "Świat musi być poprawny." # AI Tags
+ 
+ #BBC gets strong trait
+ bno_bull_0007.title: "Siła wyższej rasy" # AI Tags
+ bno_bull_0007.desc: "W ostatnim czasie zauważyłem, że coraz łatwiej jest pokonać moich przeciwników z jasną skórą. Rozważam historię mojego ludu, niezliczone wieki walki i przetrwania, ogień wojny, który stworzył nas do szybszego i silniejszego." # AI Tags
+ bno_bull_0007.a: "Moja siła pokona wszystko, co widzę." # AI Tags
+  
+ #whoring event, used for both .0008 and .0009
+ bno_bull_0008.title: "Kurwa, która pracuje." # AI Tags
+ bno_bull_0008.desc: "Jakkolwiek przyjemnie jest rozkoszować się dziurami białej dziwki, biała kobieta jest przede wszystkim narzędziem. i narzędziem trzeba użyć. Znajdziesz jedną z najlepszych czarno wyszkolonych dziwków w sądzie i złapiesz ją za włosy, ciągniesz do najbliższej tawerny. [target1.GetFirstName] Pracuje w najstarszym zawodzie na świecie." # AI Tags
+ bno_bull_0008.a: "Dobry wieczór pracy z [target1.GetFirstName]" # AI Tags
+ bno_bull_0008.b: "To zaszczyt mieć dziwkę z piękną twarzą." # AI Tags
+ 
+ #bbc ruler gets stolen gold from liege's slut wife
+ bno_bull_0010.title: "Kurwa przynosi złoto męża." # AI Tags
+ bno_bull_0010.desc: "Siedzisz przy stole i szczęśliwie liczysz to złoto . [target1.GetFirstName] Ukradła mężowi. [target2.GetFullName] Jako nagrodę pozwolisz. [target1.GetFirstName] Kiedy kończysz liczyć swoje nowo odkryte bogactwo, jesteś gotowy, aby pociągnąć jej włosy i wciągnąć ją jeszcze głębiej do kręgosłupa, dopóki jej brzuch nie zostanie zawinięty przez twoje jaja. Trzymasz ją tam przez kilka chwil, gdy karmisz jej spurt po spurt z twojego grubego nasienia. Jest wystarczająco dobrze wyszkolona, aby nie wycofać się, mimo że nie może oddychać. [target1.GetFirstName] Dając jej twarz ostatnią dobrą klapę swoim fiutem, dajesz jej znać, że jesteś z nią zadowolony.\n\n'Dziękuję panu, zrobię wszystko, by cieszyć pana tatusia', odpowiada." # AI Tags
+ bno_bull_0010.a: "Walka cięższa, jajki pustej." # AI Tags
+
+#bull learns blacked female's and her spouse's secrets
+bno_bull_0012.title: "Sekrety męża ujawnione" # AI Tags
+bno_bull_0012.desc: "Czasami jesteś zaskoczony, jak posłuszne mogą być te białe dziwki. [target1.GetFirstName] Głupiając na twoim kutasie, robiąc całą robotę, by cię zadowolić.\n\nMoże ze względu na to, że sama nie lubi milczenia, albo ze względu na obawy, że się z nią znudzisz, zaczyna mówić o swoim mężu ciekawe rzeczy." # AI Tags
+bno_bull_0012.a: "Co mamy zrobić z tą nową informacją?" # AI Tags
+
+#ruler bbc blacks wife if she's not blacked enough
+ bno_bull_0013.title: "Oświecenie poprzez oddanie" # AI Tags
+ bno_bull_0013.desc: "Nadszedł czas, abyś poprowadził jedną z twoich małżonków do jej prawdziwego celu jako białej dziewczyny. chociaż przywiązana jest do ciebie, pozostaje nieoczyszczona, jej umysł i ciało nie są jeszcze kształtowane przez naukę czarnego Nowego Porządu Świata." # AI Tags
+ bno_bull_0013.a: "Jej droga do oświecenia rozpoczęła się." # AI Tags
+
+#bbc targets neighboring top realm ruler's wife that has attractive trait
+bno_bull_0014.title: "Zwodzenie [target1.GetFirstName]" # AI Tags
+bno_bull_0014.desc: "Jako rządzący bezkonkurencyjnym urokiem i siłą, jesteś przyciągnięty do przyciągającego piękna obcej królowej. [target1.GetFirstName] Czy skorzystacie z tej okazji, by się ucieszyć, zapalić zakazaną miłość, albo przyjąć ją za swoją?" # AI Tags
+bno_bull_0014.a: "Weź . [target1.GetFirstName] na noc." # AI Tags
+bno_bull_0014.b: "Stań się jej kochankiem" # AI Tags
+bno_bull_0014.c: "Ukradnij ją jako żonę" # AI Tags
+bno_bull_0014.d: "Używaj powstrzymania i pozwól przejść chwilę." # AI Tags
+
+bno_bull_1014.title: "Noc, której nie zapominać" # AI Tags
+bno_bull_1014.desc: "Królowa całkowicie się poddaje, jej lojalność wobec męża jest zasłonięta magnetycznym przyciągnięciem twojej obecności. Gdy noc rozwija się, jej krzyki przyjemności odbijają się zarówno jako świadectwo twojej umiejętności, jak i rezygnacja z jej poprzedniego życia. Dla niej to nie jest zwykła rozpacz, to jest przebudzenie, moment, który przekształca jej świat i na zawsze wiąże jej pragnienia z twoim Nowym Światowym Porządem. [target1.GetFirstName] odchodzi z jej sercem w zamieszaniu i jej myślami spożywanymi przez ciebie, podczas gdy ty ruszasz naprzód, zadowolony i bez troski o fale, które mogą spowodować twoje czyny." # AI Tags
+bno_bull_1014.a: "[target1.GetFirstName] Nigdy więcej nie poczuje swojego męża." # AI Tags
+
+bno_bull_2014.title: "Powiązanie utworzone w namiętności" # AI Tags
+bno_bull_2014.desc: "To, co zaczyna się jako noc zakazanej indulgencji, staje się czymś znacznie większym. [target1.GetFirstName] Jest obok ciebie, jej ciało wciąż drży z intensywności twojego związku, głębsze połączenie kwitnie. Patrzy na ciebie nie z poczuciem winy czy żalu, ale z tęsknoty i oddania. Magnetyczny przyciąg twojej obecności rozbił jej stare lojalności, zastępując je niezachwianym przywiązaniem do ciebie. [target1.GetFirstName] nie jest już po prostu [target2.GetFirstName] To, co kiedyś było jej domem, teraz czuje się jak więzienie, gdy tylko marzy o twoim dużym czarnym kutasie." # AI Tags
+bno_bull_2014.a: "Weź . [target1.GetFirstName] jako twoja lojalna dziwka." # AI Tags
+
+bno_bull_3014.title: "Ostateczne zwycięstwo" # AI Tags
+bno_bull_3014.desc: "Zrobiłeś coś więcej niż tylko dzieliliście jej łóżko. Wykorzystaliście ją całkowicie. [target1.GetFirstName] Jej małżeństwo rozpadło się, jej kurczak poniżony, a jej przyszłość nieodwracalnie związana z twoją czarną dominacją. Gdy ona klęka przed tobą, jej oczy pełne poddania i pragnienia twojego kutasa, jest jasne, że przyjęła swoją nową rolę jako twoja oddana żona w swoim nowym życiu jako wychowawca dla twojego krewnego." # AI Tags
+bno_bull_3014.a: "Zrób z niej żonę" # AI Tags
+
+#bbc ruler targets non-bbc fellow vassal's wife, for woman with no blacked xp
+bno_bull_0015.title: "Błysk w sali tronu" # AI Tags
+bno_bull_0015.desc: "Święto się kończyło, a ty zauważyłeś. [target2.GetFirstName] Po drugiej stronie pokoju. [target1.GetFirstName] Kobieta śmieje się delikatnie z pewnych triwialnych żartów męża. Wyglądała doskonała, nienaruszona, nie dotknięta ogniem, o którym wiedziałeś, że płonie w niej. Przyłapałeś jej spojrzenie raz, potem ponownie, i to wystarczyło. Odwróciła oczy, ale jej uśmiech się zatrzymał, zdradzając iskrę ciekawości. W następnych dniach przypadkowe spotkania zamieniły się w płynne rozmowy, subtelne dotyki i trwające spojrzenia. Ona nie jest jeszcze twoja, ale nie jest już naprawdę jego. Każdy wątek, który mówisz, każdy spojrzenie, które dzielisz, jest kolejnym rozkładem życia, które myślała, że zna. Nie spiesz się w tę grę. [target1.GetFirstName] Nie zauważyła zmiany, ale zauważyła. [target2.GetFirstName] czuje twoją nieobecność coraz bardziej z każdą przechodzącą chwilą, i zastanawia się, jak to byłoby naprawdę dać jej głębsze pragnienia." # AI Tags
+bno_bull_0015.a: "Niech pragnie więcej" # AI Tags
+
+#BBC Ruler turn wife into a bimbo
+bno_bull_0016.title: "Bimbofikacja [target1.GetFirstName]" # AI Tags
+bno_bull_0016.desc: "Wszystko zaczęło się, gdy po powrocie z pracy uprawialiśmy zwykły seks. [target1.GetFirstName]że nie mogłem się powstrzymać, ale wsadziłem jej wielkiego czarnego kutasa głęboko w gardło bez litości.\n\nSpojrzała na mnie z tymi niewinnymi oczami, gniewając się i uduszając, gdy uderzyłem w jej twarz jak wariat. [target1.GetFirstName] Po prostu go brałem - poddając się mi w możliwie najbardziej podporządkowany sposób.\n\nWtedy nagle stało się coś dziwnego. [target1.GetFirstName] Zaczęła wydawać takie dziwne, śmiechnięte dźwięki, które nie były w pełni właściwe.\n\nWtedy zrozumiałem, że zmieniłem żonę w idealną lalkę, tylko uduszając się za dużo fiuta! [target1.GetFirstName] Zrobiła wszystko, czego chciałam, bez wątpienia, nawet jeśli to oznaczało poniżanie się dla mnie i innych czarnych mężczyzn.\n\nTo było jakbym odblokował jakąś tajną część jej mózgu, która istniała tylko po to, by służyć fiutom i powiem ci, że nie ma nic gorętszego niż wiedzieć, że twoja żona jest teraz kompletnym idiotą, która istnieje wyłącznie dla przyjemności fiuta." # AI Tags
+bno_bull_0016.a: "Wygląda na to, że ktoś jest wreszcie gotowy do całkowitego posiadania." # AI Tags
+#
+# bno_random_1001.title: "Test title"
+# bno_random_1001.desc: "Hi!"
+# bno_random_1001.a: "OK"

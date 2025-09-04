@@ -1,0 +1,43 @@
+﻿l_french:
+
+ #BBC courtier force buys county title
+bno_title_change_0001.title: "La demande forte d'un homme noir" # AI Tags
+bno_title_change_0001.desc: "Une figure africaine imposante dans votre cour, rayonnant de confiance et d'autorité, avance dans votre présence. Il exige un titre qui correspond à sa stature et à son influence. Sa voix profonde le dit clair - ce n'est pas une demande. L'or est offert, mais la soumission est attendue." # AI Tags
+bno_title_change_0001.a: "Donne-lui le titre et prends l'or." # AI Tags
+bno_title_change_0001.b: "Refusez sa demande, mais risquez sa colère" # AI Tags
+
+ 
+bno_title_change_0002.title: "Un titre pour le Worthy" # AI Tags
+bno_title_change_0002.desc: "Un puissant courtisan, fidèle à l'Ordre du Nouveau Monde Noir, a payé une somme lourde pour prendre le contrôle d'un titre qui appartenait autrefois à un moindre vassal.Ce changement de pouvoir a été exécuté, et le souverain cocu, maintenant conscient, doit faire face aux conséquences de son échec de direction.Frappant à maintenir le contrôle, son emprise se durcissant dans le défi de ce changement de pouvoir." # AI Tags
+bno_title_change_0002.a: "Le titre est transféré, et le nouveau leader augmente." # AI Tags
+ 
+ #bbc uses prestige to force vassal to give up title
+bno_title_change_0003.title: "Un titre pour la supériorité africaine" # AI Tags
+bno_title_change_0003.desc: "Un puissant chef de camp, avec un immense prestige, force un vassal à céder un titre convoité.Le cocu sent la piqûre de perdre le pouvoir, son sentiment de défaite et de soumission écrasante.Le cocu au pouvoir, une fois inconscient, affronte maintenant la vérité amère de sa perte et la montée d'un autre à sa place, mais il résiste avec fureur et frustration, sentant profondément la perte de contrôle." # AI Tags
+bno_title_change_0003.a: "Le titre est pris, et le nouveau maître prend le contrôle." # AI Tags
+ 
+ #high intrigue BBC courtier + AI vassal's slut wife kill vassal, take all title for themself, get married. cuck player informed
+bno_title_change_0004.title: "La chute d'un Seigneur: Une terre est volée, Un mariage fait" # AI Tags
+bno_title_change_0004.desc: "Un Africain plein d'esprit et l'épouse séduisante et lubrique d'un vassal conspire pour prendre tout pour eux-mêmes. Avec les titres du mari perdus et sa vie en danger, ils s'emparent tous deux du contrôle des titres et des terres.Le seigneur cocu sent la piqûre de trahison, d'humiliation et d'impuissance. [bno_bbc|E] Ce dernier prend sa place, tandis que sa femme autrefois loyale embrasse un nouveau maître. La rondelle reste dans le noir, pour être informé que les titres de son vassal sont maintenant détenus par l'homme même qui a volé le cœur de sa femme. Le taureau épouse la femme, la faisant sienne, et prend les titres comme son prix. Le destin du mari est scellé, et une nouvelle ère commence sous le règne du maître du camp et de sa femme meurtrière." # AI Tags
+bno_title_change_0004.a: "Les terres sont prises, a affirmé la femme, et la rondelle est laissée dans le désespoir." # AI Tags
+ 
+ #fully blacked wife takes all cuck players titles
+bno_title_change_0005.title: "Une nouvelle ordonnance devant la Cour" # AI Tags
+bno_title_change_0005.desc: "Votre cour est devenue un champ de bataille de murmures et d'ambitions. [ROOT.Char.GetPrimarySpouse.GetFirstName] Guidée par les principes de l'avenir noir, elle a cultivé une suite fidèle parmi vos courtisans, tirant parti de son intelligence, de son charme et du mécontentement croissant du passé blanc.Sa rhétorique est aussi séduisante que révolutionnaire.Elle parle d'un monde nouveau, où la tradition donne du progrès, et où le pouvoir n'est plus un droit divin, mais une responsabilité partagée.Elle affirme que vos titres et votre autorité sont des reliques d'un ordre d'effondrement, et que sous sa direction et sous ses serviteurs noirs, la cour - et le royaume - prospérera comme jamais auparavant. Mais ses exigences viennent à un coût considérable. Pour s'y conformer, il faut non seulement céder vos titres mais aussi le tissu même de votre héritage." # AI Tags
+bno_title_change_0005.a: "Soumettez-vous à sa vision et renoncez à vos titres, en embrassant le nouvel ordre qu'elle promet." # AI Tags
+
+ #ruler bbc takes slut liege's titles , don't know if i've tested this yet?
+bno_title_change_0006.title: "L'Aube de l'Ordre du Nouveau Monde Noir" # AI Tags
+bno_title_change_0006.desc: "Un déplacement sismique sillonne le royaume. L'ordre autrefois inébranlable, empreint de tradition et de privilège, tète au bord de l'effondrement. Au centre de ce bouleversement se dresse[ROOT.Char.GetFirstName], l'incarnation du pouvoir et de la domination noirs, un souverain dont la présence même annonce l'arrivée de l'Ordre du Nouveau Monde Noir. [target1.GetFirstName], [ROOT.Char.GetFirstName] s'est levé comme une balise de transformation, ayant une influence comme une lame et une idéologie comme un marteau. [target1.GetFirstName]-un souverain marqué par leur indulgence embrassant la décadence et la croyance d'adoration de la bite noire-rend à la force et au but écrasants de leur vassal. [ROOT.Char.GetFirstName] 's doctrine: un monde réimaginé où les anciennes lignes de pouvoir sont redessinées, où la soumission n'est pas une faiblesse mais un chemin vers l'unité sous une force singulière, indéniable. [bno_bnwo|E] n'est pas seulement une révolution politique; c'est une profonde restructuration du pouvoir, où dominent la force et la vision, et les indignes sont réduits à la servitude.\n\nComme[target1.GetFirstName] 'les titres et la dignité sont dépouillés, la question reste: est-ce le triomphe ultime du[bno_bnwo|E], ou simplement le premier pas dans une plus grande conquête? Le royaume tremble, et l'aube d'un nouvel âge s'élève, où le Nouvel Ordre Mondial Noir règne suprême." # AI Tags
+bno_title_change_0006.a: "Saisir leurs titres et inaugurer la nouvelle ère." # AI Tags
+bno_title_change_0006.b: "Réclamez les titres et liez-les à vous en tant que serviteur et conjoint." # AI Tags
+ 
+bno_title_change_1006.title: "La procession de la soumission" # AI Tags
+bno_title_change_1006.desc: "La cour est vivante avec les murmures d'une foule rassemblée, leurs yeux fixés sur la procession qui annonce le triomphe de l'Ordre du Nouveau Monde Noir. [ROOT.Char.GetFirstName], resplendissant dans leur domination, mène le défilé avec un air de confiance inébranlable, tandis que[target1.GetFirstName] Ce moment n'est pas un simple spectacle, c'est une déclaration au royaume et au-delà.\n\nL'événement envoie des vagues d'appréhension et de peur à travers le pays. [ROOT.Char.GetFirstName] Dans les royaumes voisins, reines et consorts écoutent les murmures de l'événement, les contes de domination et les pensées d'éveil de course qu'ils n'osent pas prononcer.\n\nCe n'est pas seulement la fin d'un souverain et la montée d'un autre. C'est le remodelage d'un ordre entier, un rappel que la force et la vision conquièrent tous. L'Ordre du Nouveau Monde Noir ne change pas simplement la politique; il réécrit le destin, n'épargne personne qui se tienne sur sa voie. [target1.GetFirstName] est maintenant un témoignage vivant de cette vérité, et ceux qui en sont témoins, que ce soit de l'ombre de leurs cours ou des pages de rumeurs chuchotées, ne peuvent que ressentir l'attraction de ce nouvel âge sans compromis." # AI Tags
+bno_title_change_1001.a: "Parade les vaincus et laisse le monde trembler devant La Supérieurité Noire." # AI Tags
+
+ 
+#
+# bno_random_1001.title: "Test title"
+# bno_random_1001.desc: "Hi!"
+# bno_random_1001.a: "OK"

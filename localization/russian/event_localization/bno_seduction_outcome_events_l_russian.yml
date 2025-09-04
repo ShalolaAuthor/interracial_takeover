@@ -1,0 +1,16 @@
+﻿l_russian:
+
+bno_seduction_outcome.0001.title: "Сейчас или никогда" # AI Tags
+bno_seduction_outcome.0001.desc: "[target.GetTitledFirstNamePossessive]Отреагирование на мои достижения говорит мне все, что мне нужно знать.\n\n" # AI Tags
+bno_seduction_outcome.0001.positive.desc: "Я думаю, что мои шансы хороши, но я должен помнить, что[discoverer.Custom2('NamePossessiveCharacterIntroduction', target)]всегда наблюдает..." # AI Tags
+bno_seduction_outcome.0001.negative.desc: "Но я боюсь последствий. [discoverer.Custom2('NamePossessiveCharacterIntroduction', target)|U]и[discoverer.GetHerHis]агенты могут прятаться в любой тени, слушая через любую стену..." # AI Tags
+bno_seduction_outcome.0001.a: "[target.GetFirstNameNoTooltip]будет моим!" # AI Tags
+bno_seduction_outcome.0001.a.tooltip: "Я пытаюсь соблазнить[target.GetTitledFirstName]" # AI Tags
+bno_seduction_outcome.0001.b: "Я не могу рисковать открытием." # AI Tags
+
+bno_seduction_outcome.0003.title: "Чувствительное предложение" # AI Tags
+bno_seduction_outcome.0003.success.desc: "[owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U]сделал[owner.GetHerHis]ночью я стараюсь держаться. [owner.GetHerHim]С ума сойти...\n\nЧувства, запачканные между нами, скоро либо вспыхнут, либо умрут." # AI Tags
+bno_seduction_outcome.0003.failure.desc: "Куда бы я ни пошёл, [owner.Custom2('MyCharacterIntroduction', ROOT.Char)]Я уверена, что за этим последует. [owner.GetHerHis]глаза, слова[owner.GetHerHis]Я точно знаю, что[owner.GetSheHe]после:" # AI Tags
+bno_seduction_outcome.0003.a: "Это роман, который будет гореть ярко, но коротко." # AI Tags
+bno_seduction_outcome.0003.b: "Я хочу жить вечно в аду!" # AI Tags
+bno_seduction_outcome.0003.c: "Как мило... но нет." # AI Tags

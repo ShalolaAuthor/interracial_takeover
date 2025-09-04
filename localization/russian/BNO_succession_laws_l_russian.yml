@@ -1,0 +1,5 @@
+﻿l_russian:
+#BNWO Succession
+ bnwo_only_law: "BNWO Ориентировано" # AI Tags
+ bnwo_only_law_subname: "Расовое превосходство" # AI Tags
+ bnwo_only_law_effects: "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$Мужчины и женщины равны в наследовании от правообладателя.\n$EFFECT_LIST_BULLET$Есть только одна вера.\n$EFFECT_LIST_BULLET$Разрешает назначение наследников." # AI Tags

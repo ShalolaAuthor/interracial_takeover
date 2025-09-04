@@ -1,0 +1,5 @@
+﻿l_german:
+#BNWO Succession
+ bnwo_only_law: "BNWO orientiert" # AI Tags
+ bnwo_only_law_subname: "Rassenüberlegenheit" # AI Tags
+ bnwo_only_law_effects: "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$Männer und Frauen sind in Folge Erbschaft vom Titelinhaber gleich.\n$EFFECT_LIST_BULLET$Nur verfügbar, um an denselben Glauben weiterzugeben.\n$EFFECT_LIST_BULLET$Erlaubt die Ernennung von Erben." # AI Tags

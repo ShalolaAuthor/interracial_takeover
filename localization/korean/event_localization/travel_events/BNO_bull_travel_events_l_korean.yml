@@ -1,0 +1,6 @@
+﻿l_korean:
+#Travel Flavor Events
+bno_bull_travel_0001.title: "발견된 목표" # AI Tags
+bno_bull_travel_0001.desc: "당신 크기의 소문이 생각보다 더 빨리 퍼져나가고 있습니다. 당신 주변 사람들은 당신을 듣고 있습니다. 자궁 안에 당신의 남성성을 갈망하고 있습니다. 어쩌면 그들 중 일부는 당신의 씨앗을 갈망합니다. [target1.GetHerHis]늦으면 안되지만 유혹은 엄청납니다." # AI Tags
+bno_bull_travel_0001.a: "조금만 지연하면 아무것도 변하지 않을 거야" # AI Tags
+bno_bull_travel_0001.b: "어떤 창녀가 내 속도를 늦추지 않을거야. 서둘러!" # AI Tags

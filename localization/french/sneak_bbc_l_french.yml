@@ -1,0 +1,19 @@
+﻿l_french:
+#sneak bbc interaction
+ sneak_bbc: "Sneak un étalon noir à un tribunal étranger" # AI Tags
+ sneak_bbc_desc: "Déplacer l'un des[bno_bbcs|E] de ma cour à la cour d'un chef choisi." # AI Tags
+ actor_secondary_sneak_bbc: "Choisissez un taureau pour vous faufiler" # AI Tags
+ BBC_cg_spy_reason: "Il y a un courtisane ou un invité qui va aider[bno_bbc|E]#color_green +5#!" # AI Tags
+ BBC_family_spy_reason: "Il y a un membre de la famille qui aidera à se faufiler[bno_bbc|E]#color_green +10#!" # AI Tags
+ BBC_curious_reason: "#couleur_blanc[ROOT.Char.GetFullName]#! est curieux de[bno_bbc|E]#color_green +10#!" # AI Tags
+ BBC_fucked_reason: "#couleur_blanc[ROOT.Char.GetFullName]#! a été baisé par un[bno_bbc|E]#color_green +25#!" # AI Tags
+ BBC_slut_reason: "#couleur_blanc[ROOT.Char.GetFullName]#! est amoureux de[bno_bbc|E]#color_green +50#!" # AI Tags
+ BBC_welcome_reason: "#couleur_blanc[ROOT.Char.GetFullName] Bienvenue ! [bno_bbc|E]#color_green +50#!" # AI Tags
+#chastity interaction
+ bno_chastity_interaction: "Appliquer la chasteté" # AI Tags
+ bno_chastity_interaction_desc: "Fournir la chasteté à[recipient.GetShortUINameNoTooltip]" # AI Tags
+ bno_castration_interaction: "Débarrassez-vous de ses balles" # AI Tags
+ bno_castration_interaction_desc: "Entièrement castré[recipient.GetShortUINameNoTooltip]" # AI Tags
+#influence child interaction
+ bno_influence_child: "Favoriser la curiosité" # AI Tags
+ bno_influence_child_desc: "Influencer l'enfant sur la vérité" # AI Tags

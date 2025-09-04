@@ -1,0 +1,224 @@
+﻿l_spanish:
+
+trait_bno_curious: "Curiosidad negra" # AI Tags
+trait_bno_curious_desc: "Este personaje se pregunta qué sexo con un[bno_bbc|E] es como, e incluso fantasea activamente sobre probarlo." # AI Tags
+trait_bno_blacked: "Negro" # AI Tags
+trait_bno_blacked_desc: "Este personaje ha probado[bno_bbc|E] por primera vez, y le gustó mucho." # AI Tags
+trait_bno_snowbunny: "Snowbunny" # AI Tags
+trait_bno_snowbunny_desc: "[bno_bbc|E] es tan entumecimiento mental, que este personaje frecuenta las cámaras de sus cortesanos africanos." # AI Tags
+trait_bno_qos: "Reina de picas" # AI Tags
+trait_bno_qos_desc: "Marcado y marcado por sus numerosas parejas, este personaje hace alarde de su deseo racial y sexual." # AI Tags
+trait_bno_mindless_bbc_slut: "Perra sin sentido de la BBC" # AI Tags
+trait_bno_mindless_bbc_slut_desc: "Este personaje ha renunciado a todo además de su dios - pollas negras jugosas. Su único propósito es servirles." # AI Tags
+
+trait_bno_whitegirl: "Perras de la BBC" # AI Tags
+trait_bno_whiteboi: "Dicks de limp" # AI Tags
+trait_bno_chastity: "Chase Cunts" # AI Tags
+trait_bno_blood: "Africanos" # AI Tags
+trait_bno_pussy_mileage: "Pussy's Wear and Tear" # AI Tags
+trait_bno_bbc_whore: "Profesión de adoración BBC" # AI Tags
+trait_bno_bbc_whore_player: "$trait_bno_bbc_whore$" # AI Tags
+
+trait_bno_pure_white: "Blanco puro" # AI Tags
+trait_bno_pure_white_desc: "Ella ha sido purificada por medios anormales, resultando en piel blanca pura, cabello rubio, y ojos azules. [bno_bbcs|E]" # AI Tags
+
+trait_track_bno_curious: "Curiosidad" # AI Tags
+trait_track_bno_curious_desc: "Ella se encuentra más húmeda por el segundo sólo pensando en cuánto quiere envolver sus labios alrededor de uno de esos enormes ejes... o mejor aún, sentir que se estira por el aire hasta que grita en éxtasis." # AI Tags
+trait_track_bno_blacked: "Negro" # AI Tags
+trait_track_bno_blacked_desc: "Ahora, después de incontables horas de adoración y adoración a tan magníficos huecos con cada centímetro de su cuerpo, finalmente entiende lo que realmente significa estar 'negra' - totalmente consumida por una necesidad de todo lo que consume para esas pollas gruesas y oscuras hasta que nada más importa sino llenarse de nuevo ... y otra vez ..." # AI Tags
+trait_track_bno_snowbunny: "Snowbunny" # AI Tags
+trait_track_bno_snowbunny_desc: "Se ha convertido en una Snowbunny - una chica blanca tan obsesionada con[bno_bbcs|E] que ella hará cualquier cosa para conseguir sus manos (o boca) en uno. Ya sea dando mamadas descuidadas en los estacionamientos o dejando que hombres extraños la agachen y le cojan los sesos... esta princesa no sabe ninguna vergüenza cuando se trata de perseguir a esas grandes pollas negras!" # AI Tags
+trait_track_bno_qos: "Reina de picas" # AI Tags
+trait_track_bno_qos_desc: "Un título ganado no por derecho de nacimiento, sino a través de años de dedicación y servicio a sus oscuros maestros. Ella ordena su respeto (y a menudo miedo) mientras se alinean sólo para una oportunidad de probar lo que sólo una verdadera Reina puede proporcionar." # AI Tags
+trait_track_bno_mindless_bbc_slut: "Perra sin sentido de la BBC" # AI Tags
+trait_track_bno_mindless_bbc_slut_desc: "Una criatura tan totalmente dedicada a servir a esas grandes pollas negras que su propia existencia gira en torno a nada más que complacerlas. Su título, una vez orgulloso, ha sido despojado, reemplazado por una nueva identidad como otro agujero sin nombre y sin rostro para que los hombres lo usen cuando quieran." # AI Tags
+
+trait_track_bno_cuckish: "$trait_bno_cuckish$" # AI Tags
+trait_track_bno_cuckish_desc: "$trait_bno_cuckish_desc$" # AI Tags
+trait_track_bno_cuck: "$trait_bno_cuck$" # AI Tags
+trait_track_bno_cuck_desc: "$trait_bno_cuck_desc$" # AI Tags
+trait_track_bno_beta: "$trait_bno_beta$" # AI Tags
+trait_track_bno_beta_desc: "$trait_bno_beta_desc$" # AI Tags
+trait_track_bno_jos: "$trait_bno_jos$" # AI Tags
+trait_track_bno_jos_desc: "$trait_bno_jos_desc$" # AI Tags
+
+trait_bno_full_black_slut: "$trait_bno_full_black$Puta" # AI Tags
+trait_bno_full_black_slut_desc: "$trait_bno_full_black_desc$" # AI Tags
+trait_bno_mostly_black_slut: "$trait_bno_mostly_black$Puta" # AI Tags
+trait_bno_mostly_black_slut_desc: "$trait_bno_mostly_black_desc$" # AI Tags
+trait_bno_mixed_slut: "$trait_bno_mixed$Puta" # AI Tags
+trait_bno_mixed_slut_desc: "$trait_bno_mixed_desc$" # AI Tags
+trait_bno_barely_mixed_slut: "$trait_bno_barely_mixed$Puta" # AI Tags
+trait_bno_barely_mixed_slut_desc: "$trait_bno_barely_mixed_desc$" # AI Tags
+
+trait_bno_lovers_pox_immunity: "Inmunidad de la viruela del amante" # AI Tags
+trait_bno_lovers_pox_immunity_desc: "Al tragar el sagrado semen de un sacerdote de la BBC, o al beber el néctar de una sacerdotisa de la BBC, este personaje resiste[GetTrait('lovers_pox').GetName( GetNullCharacter )], su carne endurecida contra las llagas que plagan a los promiscuos." # AI Tags
+
+trait_bno_ill_immunity: "Inmunidad" # AI Tags
+trait_bno_ill_immunity_desc: "La esencia ritual corre a través de su cuerpo, semilla y líquido fortificando contra[GetTrait('ill').GetName( GetNullCharacter )], donde otros se debilitarían, ellos aguantan." # AI Tags
+
+trait_bno_pneumonic_immunity: "Inmunidad neumónica" # AI Tags
+trait_bno_pneumonic_immunity_desc: "Bendecidos por la ingestión de líquido sagrado, los pulmones de este personaje resisten[GetTrait('pneumonic').GetName( GetNullCharacter )], la enfermedad se ahogó por la fuerza de la esencia de la BBC." # AI Tags
+
+trait_bno_early_great_pox_immunity: "Inmunidad temprana de la gran viruela" # AI Tags
+trait_bno_early_great_pox_immunity_desc: "Habiendo consumido la semilla de un sacerdote de la BBC o el néctar de una sacerdotisa, este personaje resiste[GetTrait('early_great_pox').GetName( GetNullCharacter )], su cuerpo a prueba contra las marcas de desperdicio de la viruela." # AI Tags
+
+trait_bno_leper_immunity: "Inmunidad del leproso" # AI Tags
+trait_bno_leper_immunity_desc: "El fluido ritual limpió su sangre, protegiéndolos de[GetTrait('leper').GetName( GetNullCharacter )], una enfermedad que pudre a los no bendecidos mientras permanecen intactos." # AI Tags
+
+trait_bno_gout_ridden_immunity: "Gout Ridden Inmunidad" # AI Tags
+trait_bno_gout_ridden_immunity_desc: "Infundidos con la esencia de BBC, sus articulaciones nunca se hinchan con[GetTrait('gout_ridden').GetName( GetNullCharacter )], el fluido sagrado manteniendo sus humores en equilibrio." # AI Tags
+
+trait_bno_consumption_immunity: "Inmunidad de consumo" # AI Tags
+trait_bno_consumption_immunity_desc: "La semilla sacerdotal o néctar permanece en su pecho, ahuyentando[GetTrait('consumption').GetName( GetNullCharacter )], mientras que otros tosen y se desperdician, respiran libremente." # AI Tags
+
+trait_bno_cancer_immunity: "Inmunidad del cáncer" # AI Tags
+trait_bno_cancer_immunity_desc: "Limpiado a través de la ingestión ritual, este personaje resiste[GetTrait('cancer').GetName( GetNullCharacter )], su carne sostenida por la potencia de la esencia de la BBC." # AI Tags
+
+trait_bno_typhus_immunity: "Inmunidad tifo" # AI Tags
+trait_bno_typhus_immunity_desc: "Donde la suciedad se propaga[GetTrait('typhus').GetName( GetNullCharacter )], los benditos están inmunes, sus cuerpos purificados por la deglución de fluidos sacerdotales." # AI Tags
+
+trait_bno_bubonic_plague_immunity: "Inmunidad de la plaga bubónica" # AI Tags
+trait_bno_bubonic_plague_immunity_desc: "Incluso[GetTrait('bubonic_plague').GetName( GetNullCharacter )], la muerte negra en sí, no puede reclamar uno fortificado por la semilla de un sacerdote de la BBC o el néctar de una sacerdotisa, su sangre se vuelve intocable." # AI Tags
+
+trait_bno_smallpox_immunity: "Inmunidad de la viruela" # AI Tags
+trait_bno_smallpox_immunity_desc: "Dónde[GetTrait('smallpox').GetName( GetNullCharacter )] cicatrices y mata, su piel permanece clara, fluidos rituales de la BBC endureciéndolos contra los pústulas de los no bendecidos." # AI Tags
+
+trait_bno_measles_immunity: "Inmunidad por sarampión" # AI Tags
+trait_bno_measles_immunity_desc: "Este personaje se tragó la esencia sagrada y ahora resiste[GetTrait('measles').GetName( GetNullCharacter )], su linaje limpio mientras que otros son golpeados." # AI Tags
+
+trait_bno_dysentery_immunity: "Disentería Inmunidad" # AI Tags
+trait_bno_dysentery_immunity_desc: "Los fluidos sacerdotales protegen sus intestinos de[GetTrait('dysentery').GetName( GetNullCharacter )], donde otros se debilitan con el flujo, se mantienen estables." # AI Tags
+
+trait_bno_ergotism_immunity: "Ergotismo Inmunidad" # AI Tags
+trait_bno_ergotism_immunity_desc: "Ningún grano contaminado puede maldecir a uno fortificado por la semilla o néctar de la BBC, [GetTrait('ergotism').GetName( GetNullCharacter )] no encuentra ninguna retención en su cuerpo santificado." # AI Tags
+
+trait_bno_sickly_immunity: "Inmunidad enfermiza" # AI Tags
+trait_bno_sickly_immunity_desc: "Nacido bajo la bendición de la esencia de la BBC, este personaje no puede ser tocado por[GetTrait('sickly').GetName( GetNullCharacter )], prosperando donde los niños débiles perecerían." # AI Tags
+
+trait_bno_great_pox_immunity: "Gran inmunidad de la viruela" # AI Tags
+trait_bno_great_pox_immunity_desc: "Lo incurable[GetTrait('great_pox').GetName( GetNullCharacter )] se marchita ante el poder del fluido ritual, una bendición de semilla sacerdotal o néctar que protege por completo." # AI Tags
+
+trait_track_bno_lifestyle_bbc_priestess: "Sacerdocio" # AI Tags
+trait_track_bno_lifestyle_bbc_priestess_desc: "Devotos de la[bno_religion|E], cuerpos ofrecidos en servicio, sus pasiones una moneda venerada en todo el reino." # AI Tags
+trait_track_bno_lifestyle_bbc_priest: "$trait_track_bno_lifestyle_bbc_priestess$" # AI Tags
+trait_track_bno_lifestyle_bbc_priest_desc: "$trait_track_bno_lifestyle_bbc_priestess_desc$" # AI Tags
+bno_lifestyle_bbc_priestess: "BBC Sacerdotisa" # AI Tags
+bno_lifestyle_bbc_priest: "BBC Priest" # AI Tags
+bno_lifestyle_bbc_priestess_3.female: "Ungido sacerdotisa de la BBC" # AI Tags
+bno_lifestyle_bbc_priest_3.male: "Ungido BBC Priest" # AI Tags
+bno_lifestyle_bbc_priestess_2.female: "Devoto de la BBC Sacerdotisa" # AI Tags
+bno_lifestyle_bbc_priest_2.male: "Devoto BBC Priest" # AI Tags
+bno_lifestyle_bbc_priestess_1.female: "Iniciar la BBC Sacerdotisa" # AI Tags
+bno_lifestyle_bbc_priest_1.male: "Iniciar BBC Priest" # AI Tags
+bno_lifestyle_bbc_priestess_desc: "Novicios al servicio de la[bno_religion|E], aprendiendo los caminos de la devoción y el sacrificio." # AI Tags
+bno_lifestyle_bbc_priest_desc: "Novicios al servicio de la[bno_religion|E], aprendiendo los caminos de la devoción y el sacrificio." # AI Tags
+bno_lifestyle_bbc_priestess_3_character_desc.female: "La Sacerdotisa Ungida, marcada con aceites sagrados y con una mirada vigilante, ofrece su forma fértil como templo vivo a la[bno_religion|E] Es un deseo potente." # AI Tags
+bno_lifestyle_bbc_priest_3_character_desc.male: "Su piel resplandecía con aceite ritual, testimonio de su devoción: el Sacerdote Ungido sirve al[bno_religion|E] con cada poderoso empuje de su[bno_bbc|E]." # AI Tags
+bno_lifestyle_bbc_priestess_2_character_desc.female: "Con ojos y manos anchas y anhelantes que tiemblan al tacto más ligero, el Devoto espera su momento para ofrecer su cuerpo como un vaso sagrado para el[bno_religion|E] Es una bendición." # AI Tags
+bno_lifestyle_bbc_priest_2_character_desc.male: "Se arrodilla ante el altar, joven y ansioso, cada músculo tenso zumbido con anticipación mientras espera para recibir el[bno_religion|E] s potente tacto y ser moldeado en su imagen." # AI Tags
+bno_lifestyle_bbc_priestess_1_character_desc.female: "Recién adornado con lino blanco, el Iniciado camina descalzo entre los jardines del templo, su mirada buscando la guía de la presencia invisible del[bno_religion|E] susurró en la brisa." # AI Tags
+bno_lifestyle_bbc_priest_1_character_desc.male: "Su voz tiembla mientras canta frases sagradas, un joven recién afeitado que busca el favor de la[bno_religion|E] a través de su devoción inquebrantable y susurró oraciones." # AI Tags
+
+# Pussy Mileage Traits (BBC Themed, Safe Formatting)
+
+bno_pussy_mileage_1.1: "Virgen" # AI Tags
+bno_pussy_mileage_1.2: "Se acaba de abrir" # AI Tags
+bno_pussy_mileage_1.3: "Licitación" # AI Tags
+bno_pussy_mileage_1.4: "Deflorecido por la BBC" # AI Tags
+
+bno_pussy_mileage_1.desc.1: "Completamente intacta, su coño es apretado y sin probar, incapaz de tomar incluso la cabeza de una BBC." # AI Tags
+bno_pussy_mileage_1.desc.2: "Acaba de abrir, su entrada se aferra desesperadamente, luchando para tomar el primer empujón de un pozo grueso." # AI Tags
+bno_pussy_mileage_1.desc.3: "Tierno e hinchado, estirado por su primera penetración, su cuerpo ya está aprendiendo la presión de la circunferencia de la BBC." # AI Tags
+bno_pussy_mileage_1.desc.4: "Desflorada por BBC, sus músculos arrancados de su primer estiramiento, nunca más pudieron volver a la opresión virginal." # AI Tags
+
+bno_pussy_mileage_2.1: "Fresco" # AI Tags
+bno_pussy_mileage_2.2: "Marcado" # AI Tags
+bno_pussy_mileage_2.3: "BBC-Stretched" # AI Tags
+
+bno_pussy_mileage_2.desc.1: "Recién usado, todavía en su mayoría ajustado, pero sus paredes ya formadas por los primeros encuentros con el espesor de la BBC." # AI Tags
+bno_pussy_mileage_2.desc.2: "Marcada por estiramientos repetidos, su canal muestra flaqueza, agarrando mal a cualquier polla más pequeña que una BBC." # AI Tags
+bno_pussy_mileage_2.desc.3: "BBC-Stretched, su cuerpo se abre ampliamente al mando, permanentemente moldeado para aceptar la circunferencia como la nueva línea de base." # AI Tags
+
+bno_pussy_mileage_3.1: "Condimentado" # AI Tags
+bno_pussy_mileage_3.2: "Desgastados" # AI Tags
+bno_pussy_mileage_3.3: "BBC-Molded" # AI Tags
+
+bno_pussy_mileage_3.desc.1: "Condimentado por el uso constante, sus músculos se han debilitado, la tensión natural ahora en gran parte se ha ido." # AI Tags
+bno_pussy_mileage_3.desc.2: "Usada por la frecuente penetración de la BBC, su agarre es débil, y los hombres más pequeños la encuentran cavernosa." # AI Tags
+bno_pussy_mileage_3.desc.3: "BBC-Molded, todo su canal se ha remodelado alrededor de espesor, profundidad y anchura adaptados a la penetración de gran tamaño." # AI Tags
+
+bno_pussy_mileage_4.1: "Suelte" # AI Tags
+bno_pussy_mileage_4.2: "Sobretenso" # AI Tags
+bno_pussy_mileage_4.3: "BBC-Dependent" # AI Tags
+
+bno_pussy_mileage_4.desc.1: "Sus labios se soltaron, el agarre casi desapareció, se amplió permanentemente por pura tensión repetida." # AI Tags
+bno_pussy_mileage_4.desc.2: "Excedida de años de penetración de la BBC, su coño permanece abierto, sin volver a su forma anterior." # AI Tags
+bno_pussy_mileage_4.desc.3: "BBC-Dependente, su cuerpo no responde a los hombres más pequeños en absoluto, registrándose sólo cuando se llena de circunferencia sobredimensionada." # AI Tags
+
+bno_pussy_mileage_5.1: "Gaping" # AI Tags
+bno_pussy_mileage_5.2: "Colapsado" # AI Tags
+bno_pussy_mileage_5.3: "Incargable" # AI Tags
+
+bno_pussy_mileage_5.desc.1: "Gapa y holgura, su coño cuelga abierto incluso en reposo, los músculos demasiado dañados para cerrar completamente." # AI Tags
+bno_pussy_mileage_5.desc.2: "Paredes colapsadas, permanentemente debilitadas por una tensión sobredimensionada, dejándola ampliada por un uso interminable de la BBC." # AI Tags
+bno_pussy_mileage_5.desc.3: "Incargable, ninguna polla individual, incluso BBC, puede satisfacer, ella ansía múltiples ejes para sentirse completa." # AI Tags
+
+trait_bno_pussy_mileage_6: "Prolapso" # AI Tags
+trait_bno_pussy_mileage_6_desc: "Prolapsado por el abuso extremo de la BBC, su canal se derrumbó hacia afuera, los labios cuelgan permanentemente, no queda agarre natural." # AI Tags
+
+  # Pussy Mileage Trait Tracks
+trait_track_bno_pussy_mileage_1: "Pista de virginidad" # AI Tags
+trait_track_bno_pussy_mileage_1_desc: "Mide la tensión basal y la integridad tisular antes de la penetración, una vez que la actividad de la BBC comienza este valor refleja un cambio temprano de elasticidad y dolor." # AI Tags
+
+trait_track_bno_pussy_mileage_2: "Pista de frescura" # AI Tags
+trait_track_bno_pussy_mileage_2_desc: "Registra la pérdida inicial de tono y retroceso elástico de la penetración repetida de la BBC, indica el desarrollo de la flaqueza y la reducción de la fricción contra los ejes más pequeños." # AI Tags
+
+trait_track_bno_pussy_mileage_3: "Pista sazonada" # AI Tags
+trait_track_bno_pussy_mileage_3_desc: "Gráficos de dilatación progresiva y fatiga del suelo pélvico bajo la circunferencia de la BBC, refleja la adaptación a medida que el canal se abre más fácilmente y el agarre se debilita." # AI Tags
+
+trait_track_bno_pussy_mileage_4: "Pista suelta" # AI Tags
+trait_track_bno_pussy_mileage_4_desc: "Muestra prolongación sostenida y reducción de la tensión muscular en reposo por el uso a largo plazo de la BBC, la capacidad de respuesta cambia hacia una circunferencia sobredimensionada mientras que los socios más pequeños se registran mal." # AI Tags
+
+trait_track_bno_pussy_mileage_5: "Pista divisoria" # AI Tags
+trait_track_bno_pussy_mileage_5_desc: "Marca laxitud final de la etapa con un agarre natural mínimo, incluso las BBC enfrentan resistencia limitada, riesgo de prolapso y indicadores de dilatación permanente tendencia alta." # AI Tags
+
+trait_track_bno_bbc_whore_1: "Vía de inicio" # AI Tags
+trait_track_bno_bbc_whore_1_desc: "Graba sus primeros pasos en la profesión, citas tempranas con clientes de la BBC, y su creciente confianza." # AI Tags
+trait_track_bno_bbc_whore_2: "Renombrar pista" # AI Tags
+trait_track_bno_bbc_whore_2_desc: "Rastrea su creciente reputación entre los clientes de la BBC mientras viaja a la corte, reservada por su nombre para un servicio confiable." # AI Tags
+trait_track_bno_bbc_whore_3: "Pista de la leyenda" # AI Tags
+trait_track_bno_bbc_whore_3_desc: "Chartas tareas reales de élite y fama en todo el reino, un icono para las BBCs, convocado para ceremonias, fiestas y visitas de alto perfil." # AI Tags
+
+trait_track_bno_bbc_whore_player_1: "Vía de inicio" # AI Tags
+trait_track_bno_bbc_whore_player_1_desc: "Graba sus primeros pasos en la profesión, citas tempranas con clientes de la BBC, y su creciente confianza." # AI Tags
+trait_track_bno_bbc_whore_player_2: "Renombrar pista" # AI Tags
+trait_track_bno_bbc_whore_player_2_desc: "Rastrea su creciente reputación entre los clientes de la BBC mientras viaja a la corte, reservada por su nombre para un servicio confiable." # AI Tags
+trait_track_bno_bbc_whore_player_3: "Pista de la leyenda" # AI Tags
+trait_track_bno_bbc_whore_player_3_desc: "Chartas tareas reales de élite y fama en todo el reino, un icono para las BBCs, convocado para ceremonias, fiestas y visitas de alto perfil." # AI Tags
+
+bno_bbc_whore_1.1: "Cuna de Seducción" # AI Tags
+bno_bbc_whore_1.desc.1: "Ella ha probado la fruta prohibida y no hay vuelta atrás. Un brillo salvaje baila en sus ojos, las noches prometedoras de abandono imprudente para la derecha[bno_bbc|E]." # AI Tags
+bno_bbc_whore_1.2: "Primera marca" # AI Tags
+bno_bbc_whore_1.desc.2: "Una delicada marca adorna su piel, una marca que susurra cuentos de conquista. Ella conoce el sabor del poder ahora y anhela más de esos trazos ásperos y conquistadores." # AI Tags
+bno_bbc_whore_1.3: "El juego de la BBC" # AI Tags
+bno_bbc_whore_1.desc.3: "¡No sólo es bonita, tiene espíritu! Una sonrisa traviesa juega en sus labios mientras espera el momento para desatar ese hambre insaciable de un buen[bno_bbc|E]." # AI Tags
+bno_bbc_whore_1.4: "Gusto en el placer" # AI Tags
+bno_bbc_whore_1.desc.4: "Ella sabe lo que los hace[bno_bbcs|E] canta. Su cuerpo palpita con anticipación, ansioso de darles la bienvenida una y otra vez para otro sabor de éxtasis puro." # AI Tags
+
+bno_bbc_whore_2.1: "Connoisseur de polla negra" # AI Tags
+bno_bbc_whore_2.desc.1: "Cada curva y grieta de su cuerpo suplica por el toque de un poderoso eje. Sus ojos brillan con el saber como ella anticipa el placer único cada uno[bno_bbc|E] trae." # AI Tags
+bno_bbc_whore_2.2: "El favorito de la BBC" # AI Tags
+bno_bbc_whore_2.desc.2: "Se mueve a través de la vida cubierta de susurros y deseos murmurados. Su nombre se pronuncia con reverencia, seguido de suspiros de anhelo de los hombres que anhelan sólo poseerla." # AI Tags
+bno_bbc_whore_2.3: "La lujuria del Reino" # AI Tags
+bno_bbc_whore_2.desc.3: "Por todas partes camina, la cabeza gira y las mandíbulas caen. Se ha convertido en la encarnación del deseo puro, una leyenda susurrada desde la taberna hasta el palacio." # AI Tags
+
+bno_bbc_whore_3.1: "Jardín del Placer de la Reina" # AI Tags
+bno_bbc_whore_3.desc.1: "Su nombre es sinónimo de lujo y placer irrestricto. Los hombres luchan por un lugar en su jardín, deseosos de ser barridos por sus exquisitas habilidades y devoción inquebrantable." # AI Tags
+bno_bbc_whore_3.2: "La reina sin coronar" # AI Tags
+bno_bbc_whore_3.desc.2: "Ella no necesita una corona; su dominio se construye sobre el poder puro. Cada músculo palpita con la memoria de innumerables[bno_bbcs|E] Su voluntad es la ley, especialmente cuando se trata de esos pozos gloriosos." # AI Tags
+bno_bbc_whore_3.3: "El eterno amor de la BBC" # AI Tags
+bno_bbc_whore_3.desc.3: "Ella no es sólo una puta - ella es una diosa, adorada y celebrada por su devoción inquebrantable al placer de[bno_bbcs|E]." # AI Tags
+
+trait_bno_bbc_whore_4: "El sueño húmedo de la BBC" # AI Tags
+trait_bno_bbc_whore_4_desc: "Incluso el sueño no puede escapar de su encanto. Su imagen persigue los sueños de los hombres que duelen por la oportunidad de sentir su cremoso calor bajo su piel." # AI Tags

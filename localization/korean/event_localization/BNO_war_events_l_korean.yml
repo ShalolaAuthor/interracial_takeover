@@ -1,0 +1,13 @@
+﻿l_korean:
+
+bno_war_0001.title: "적 의 배신" # AI Tags
+bno_war_0001.desc: "제 장군 중 한 명이 기이한 상황에 대해 경고했습니다. [defender.GetFullName]현재 제 기옥에 앉아 있습니다. 제가 적극적으로 그와 전쟁을 벌이고 있기 때문에 저에게 새로운 소식이 될 것입니다.\n\n하지만 그 사람이 그의 아내였다는 것을 알게 되면 더 이상 놀라지 않습니다. [target1.GetFirstName]제 병사들에게 이 전쟁은 흑인 에게 공개적으로 굴복할 기회로 봤던 것 같습니다. [defender.GetFirstName]당신의 포로로서, 승리는 당신이 필요하다고 생각할 때 당신의 것입니다." # AI Tags
+bno_war_0001.a: "그녀는 궁중으로서의 자리를 얻었습니다." # AI Tags
+bno_war_0001.b: "좋아, 하지만 그녀는 내 궁중에 자리할 수 없습니다." # AI Tags
+bno_war_0001.c: "그녀는 잘했어, 나는 그녀를 내 자신의 것으로 받아들일거야." # AI Tags
+
+bno_war_0002.title: "흑인 의 우월 을 옹호 하는 일" # AI Tags
+bno_war_0002.desc: "[bno_bbc|E]메인 디펜더가 성전자 특성을 얻을 수 있는 기회와/또는 Supremacy 종교 + 군대가 낳는" # AI Tags
+bno_war_0002.a: "내 검이 모든 열등 인종을 꺾을 수 있기를 바랍니다." # AI Tags
+bno_war_0002.b: "저는 다시 태어나는 흑인 우월주의자입니다." # AI Tags
+bno_war_0002.c: "뭔가 뭔가 세 번째 옵션" # AI Tags

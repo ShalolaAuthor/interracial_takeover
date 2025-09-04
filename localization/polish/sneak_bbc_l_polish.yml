@@ -1,0 +1,19 @@
+﻿l_polish:
+#sneak bbc interaction
+ sneak_bbc: "Przenosisz czarnego szczura do obcego sądu" # AI Tags
+ sneak_bbc_desc: "Przesuń jeden z [bno_bbcs|E] Od mojego dworu do dworu wybranego władcy." # AI Tags
+ actor_secondary_sneak_bbc: "Wybierz byka." # AI Tags
+ BBC_cg_spy_reason: "Jest jakiś dworca lub gość , który pomoże ci się ukryć . [bno_bbc|E]: #color_green +5#!" # AI Tags
+ BBC_family_spy_reason: "Jest członek rodziny , który pomoże ci się ukryć . [bno_bbc|E]: #color_green +10#!" # AI Tags
+ BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! jest ciekawy [bno_bbc|E]: #color_green +10#!" # AI Tags
+ BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! został pieprzony przez [bno_bbc|E]: #color_green +25#!" # AI Tags
+ BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! jest zakochana w [bno_bbc|E]: #color_green +50#!" # AI Tags
+ BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! przyjmuje [bno_bbc|E]: #color_green +50#!" # AI Tags
+#chastity interaction
+ bno_chastity_interaction: "Używaj czystości" # AI Tags
+ bno_chastity_interaction_desc: "Zachowuj czystość[recipient.GetShortUINameNoTooltip]" # AI Tags
+ bno_castration_interaction: "Odciągnij mu jaja" # AI Tags
+ bno_castration_interaction_desc: "Całkowicie kastrujący [recipient.GetShortUINameNoTooltip]" # AI Tags
+#influence child interaction
+ bno_influence_child: "Podnoszenie ciekawości" # AI Tags
+ bno_influence_child_desc: "Wpływ dziecka na prawdę" # AI Tags

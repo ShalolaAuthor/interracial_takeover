@@ -1,0 +1,25 @@
+﻿l_polish:
+#don't translate this yet, still figuring out how this works
+bno_embrace_african_track_desc: "Przyjmij Afrykanów , aby przynieść korzyści w twoim królestwie" # AI Tags
+bno_embrace_african_track_name: "Afrykańczycy" # AI Tags
+bno_embrace_african_1_name: "Przyjąć migrantów" # AI Tags
+bno_embrace_african_2_name: "Korzystanie z imigrantów" # AI Tags
+bno_embrace_african_3_name: "Rozumienie imigrantów" # AI Tags
+bno_embrace_african_4_name: "Rozpoznaj migrantów" # AI Tags
+bno_embrace_african_5_name: "Integracja imigrantów" # AI Tags
+
+BNO_PLACEHOLDER: ""
+EBONY_ELITES_UNLOCK_DESCRIPTION: "Mogę rekrutować . [GetMaA('bno_ebony_elites').GetName] Jak [men_at_arms|E]" # AI Tags
+EBONY_ELITES_DESCRIPTION: "Tylko jeden pułk. [GetMaA('bno_ebony_elites').GetName] Można go rekrutować!" # AI Tags
+
+BBC_MARRIAGE_DESCRIPTION: "Kiedy [bno_bbc|E]Żeni się, a biała dziewczyna wychodzi za mąż. [bno_bbc|E], Twoje [dynasty|E] Zyskasz . [prestige|E] Zwiększą się również. [legitimacy|E] i [prestige|E] z [marriage|E]" # AI Tags
+
+BBC_SEX_EFFECT: "Kiedy [bno_bbc|E] i białą dziewczynę z ciebie . [dynasty|E] Masz seks. [dynasty|E] Zyskasz . [prestige|E]" # AI Tags
+
+BNO_EMBRACE_3_EFFECT: "Odblokowanie nauki o imigrantach" # AI Tags
+
+SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Wybierz [congenital|E] [dynasty|E]" # AI Tags
+
+BBC_CAMP_BUILDING_UNLOCK: "Odblokować [GetBuilding('bbc_camp_01').GetName] [building|E]" # AI Tags
+
+BNO_SEX_EFFECT_DESCRIPTION: "Odblokowanie . [GetModifier('bno_cum_for_glory').GetNameWithTooltip]" # AI Tags

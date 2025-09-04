@@ -1,0 +1,6 @@
+﻿l_polish:
+#Travel Flavor Events
+bno_bull_travel_0001.title: "Wykryty cel" # AI Tags
+bno_bull_travel_0001.desc: "Głoski o twoim rozmiarze przenikają szybciej niż myślisz. [target1.GetHerHis] Nie chcesz się spóźnić, ale pokusy są duże." # AI Tags
+bno_bull_travel_0001.a: "Trochę opóźnienia nic nie zmieni." # AI Tags
+bno_bull_travel_0001.b: "Nie pozwolę, żeby jakaś dziwka mnie spowolniła. Szybko!" # AI Tags

@@ -1,0 +1,14 @@
+﻿l_polish:
+
+special_doctrine_is_bno_faith_name: "Wzmocnienie czarnego kurca" # AI Tags
+is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
+special_doctrine_is_bno_faith_desc: "Powinniśmy okazać współczucie tym zagubionym duszom, które jeszcze nie doświadczyły ekstazy. [bno_bbc|E] Może ich umysły są zaciemnione dziś przez ignorancję, ale przyjdą oddać cześć na naszym ołtarzu, błagając o słodką moc Boga. [bno_bbc|E]- Nie , nie ." # AI Tags
+
+bno_hostility_group_name: "$hostility_group_name$" # AI Tags
+bno_hostility_doctrine_name: "Afrodiasma" # AI Tags
+bno_hostility_doctrine_desc: "Poniższe religie są Afrodiasmiczne:\n[GetReligionFamily('rf_bbcs').GetReligions]" # AI Tags
+
+doctrine_bno_tenets_name: "[bno_religion|E] Zasady:" # AI Tags
+
+tenet_bno_black_cock_conquest_name: "Podbojowanie czarnego koksa" # AI Tags
+tenet_bno_black_cock_conquest_desc: "Poprzez gorącą modlitwę i święte zwycięstwo, rozpowszechniemy chwałę Boga. [bno_bbc|E] Po całej ziemi!" # AI Tags

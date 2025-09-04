@@ -1,0 +1,130 @@
+﻿l_german:
+
+bno_becoming_bbc_slut: "Ein 'Blacked Cum Slut' werden" # AI Tags
+#bno_becoming_bbc_slut.effect: "You will become a [bno_whore|E] for [bno_bbc|E]"
+bno_becoming_bbc_slut.effect: "Du wirst eine Hure für[bno_bbcs|E]" # AI Tags
+bno_becoming_bbc_slut_desc: "Ich möchte ein schwarz geschwärzter Cumslut sein, weil ich für diese Rolle geboren wurde - um als Behälter für die mächtigen, virilen schwarzen Schwänze zu dienen, die mir geben können, was mein winziger weißer Körper begehrt." # AI Tags
+bno_becoming_bbc_slut_confirm: "Meine engen Löcher gehören Ihnen, wie Sie wollen." # AI Tags
+bno_becoming_bbc_slut_tooltip: "Ich bin so verzweifelt, wie die wertlose Hure benutzt zu werden, die ich bin" # AI Tags
+
+bno_stop_becoming_bbc_slut: "Der devoted cumslut" # AI Tags
+bno_stop_becoming_bbc_slut_desc: "Nachdem ich jahrelang ein schwarz geschwärzter Cumslut war, fand ich schließlich meinen perfekten Match in ihm - ein persönlicher schwarzer Bulle, der sich täglich um meinen unersättlichen Appetit auf großen Schwanz kümmert. Er befriedigt mich auf eine Weise, die niemand sonst jemals konnte, und sorgt dafür, dass meine Muschi immer voll gefüllt ist und mit seinem dicken Samen tropft." # AI Tags
+bno_stop_becoming_bbc_slut_confirm: "Dafür wurde ich geboren." # AI Tags
+bno_stop_becoming_bbc_slut_tooltip: "zu sein nichts mehr als eine Reihe von Löchern im Besitz eines starken" # AI Tags
+bno_stop_becoming_bbc_slut.bbc_spouse: "Einer Ihrer Ehepartner hat eine[GetTrait('bno_bbc').GetName( GetNullCharacter )]" # AI Tags
+
+bno_invite_slut_decision: "Neugierig Noble vor Gericht einladen" # AI Tags
+bno_invite_slut_decision_desc: "Als sich der neugierige Adel nähert, grüße ich sie mit einem herzlichen Lächeln.\n\nWillkommen in meinem bescheidenen Aufenthalt. Ich bin immer darauf bedacht, neue Bekanntschaften zu machen, vor allem diejenigen, die meine Interessen an der Kunst und Kultur teilen.\n\nDer Adel schaut sich um und nimmt die üppige Umgebung meines Anwesens auf - von der opulenten Einrichtung bis zu den kostbaren Kunstwerken, die jede Wand schmücken.\n\nIch sehe, Sie haben ein scharfes Auge für Schönheit. Vielleicht könnten wir einige dieser Stücke beim Abendessen diskutieren? Ich würde mich freuen, Ihnen herum zu zeigen und mehr über ihre Herkunft zu teilen.\n\nDie edlen Nickerchen in Übereinstimmung, offensichtlich fasziniert von dem, was sie sieht und eifrig, mehr zu lernen." # AI Tags
+bno_invite_slut_decision_tooltip: "Ausländer wurden gerufen, Eure Hoheit zu besuchen." # AI Tags
+bno_invite_slut_decision_confirm: "Sie sind hier herzlich willkommen" # AI Tags
+
+bno_build_african_camps_decision: "Bauen$building_type_bbc_camp_01$" # AI Tags
+bno_build_african_camps_decision_desc: "Als die Bevölkerung von #V[GetTrait('bno_full_black').GetName( GetNullCharacter )]#! wachst weiter, ihr habt beschlossen, dass es für euch hohe Zeiten war, nur für sie eine Siedlung zu machen." # AI Tags
+bno_build_african_camps_decision_tooltip: "Bauen$building_type_bbc_camp_01$" # AI Tags
+bno_build_african_camps_decision_confirm: "So sei es" # AI Tags
+bno_build_african_camps_toast: "$building_type_bbc_camp_01$Konstruiert" # AI Tags
+
+bno_change_county_culture: "Beeinflussen Sie eine Grafschaft in die Annahme$bnoc$" # AI Tags
+bno_change_county_culture_desc: "Du bist ein$bnoc$, würde es nicht so viel Sinn machen, Ihre Leute dazu zu beeinflussen, zu werden$bnoc_collective_noun$Was ist los?" # AI Tags
+bno_change_county_culture_tooltip: "Beeinflussen Menschen in die Annahme$bnoc$Lebensart" # AI Tags
+bno_change_county_culture_confirm: "Ich brauche mehr$bnoc$" # AI Tags
+bno_change_county_culture_toast: "$bnoc$wurde propagiert" # AI Tags
+
+bno_recruit_court_position_decision: "Rekrutierungspositionen zur Besänftigung von #V[GetTrait('bno_full_black').GetName( GetNullCharacter )] Bevölkerung #!" # AI Tags
+bno_recruit_court_position_decision_desc: "Eine gut funktionierende[ROOT.Char.Custom('RealmType')] Ich werde meine Diener weit und breit entsenden, um geeignete Kandidaten für die neu verfügbaren Positionen in meinem Gericht zu finden." # AI Tags
+bno_recruit_court_position_decision_tooltip: "Suche nach einem Mädchen zu füllen ein[court_position|E] oder eine andere notwendige Rolle in Ihrem[court|E] gegen Gebühr\n\n#schwach Zum Beispiel können Sie eine[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] Nein!" # AI Tags
+bno_recruit_court_position_decision_confirm: "Ruf sie hier an!" # AI Tags
+recruit_bbc_worshipper_cooldown_tt: "Anwerbung einer[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] ist auf Abklingzeit für[GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]" # AI Tags
+hire_bbc_worshipper_decision_tooltip: "Ihre Bediensteten werden eine Reihe von geeigneten Kandidaten für die Position der[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
+bno_recruit_court_position_decision_tt: "Sie erhalten eine zufällige Menge von geeigneten Mädchen an Ihrer Seite dienen" # AI Tags
+
+bno_convert_to_african: "Afrikanisch umarmen" # AI Tags
+bno_convert_to_african_confirm: "Es ist so vorbei für mich!" # AI Tags
+bno_convert_to_african_desc: "Sie haben aus erster Hand erfahren, wie sich diese Kultur verhält, eine Kultur, die so stark ist, dass Sie sich ihr nur unterwerfen wollen. Es gibt schließlich ein altes Sprichwort, wenn Sie sie nicht schlagen können, dann schließen Sie sich ihnen an." # AI Tags
+bno_convert_to_african_tooltip: "Umarmen Sie Ihre$bnoc$Wurzeln der Vorfahren" # AI Tags
+
+bno_build_bbc_church: "Bauen$building_bbc_church_01$" # AI Tags
+bno_build_bbc_church_confirm: "Lass mich den ersten Stein setzen!" # AI Tags
+bno_build_bbc_church.desc: "Der Bau der Kirchenstiftung wird als Symbol unserer Hingabe an die[bno_religion|E] und unser Engagement für die neue Lebensweise." # AI Tags
+bno_build_bbc_church.tooltip: "Bauen Sie einen Ort der Anbetung gewidmet der[bno_bbc|E]" # AI Tags
+bno_build_bbc_church.toast: "$building_bbc_church_01$Konstruiert" # AI Tags
+
+bno_found_bbc_church_holy_order: "Gefunden den Heiligen Orden von[bno_religion|E]" # AI Tags
+bno_found_bbc_church_holy_order_confirm: "Verbreiten wir das Wort[bno_bbc|E]" # AI Tags
+bno_found_bbc_church_holy_order.desc: "Der Heilige Orden von[bno_religion|E] wird der Anbetung und Verehrung der[bno_bbc|E], ihre Werte zu fördern und ihren Platz in unserer Gesellschaft zu sichern." # AI Tags
+bno_found_bbc_church_holy_order.tooltip: "Errichtung eines Heiligen Ordens, der der Anbetung der[bno_bbc|E]" # AI Tags
+bno_found_bbc_church_holy_order.effect_tooltip: "Der Heilige Orden von[bno_religion|E] wurde gegründet und verbreitete seine Lehren und Werte im ganzen Reich." # AI Tags
+
+bno_cure_disease.title.male: "Der reinigende Kuss" # AI Tags
+bno_cure_disease.title.female: "Der Segen des Souveräns" # AI Tags
+bno_cure_disease.desc.male: "In Anwesenheit eines versammelten Hofes und Klerus kniet jeder kranke Herr vor der gewählten Priesterin nieder. Sie werden dann angewiesen, ihre Münder weit zu öffnen, während sie ihre nackten Hüften senkt, sich so zu positionieren, dass sein Gesicht fest gegen die Quelle ihres heiligen Nektars gedrückt wird. Er muss frei von ihrer Muschi aufnehmen, bis die Priesterin ein Ende des Rituals signalisiert." # AI Tags
+bno_cure_disease.desc.female: "In Anwesenheit des versammelten Hofes und Klerus kniet jede kranke Dame vor dem gewählten Priester. Sie wird angewiesen, ihren Mund weit zu öffnen, während er seinen aufrechten Penis in ihre wartenden Lippen senkt. Der Priester wird dann tief in ihren Mund stoßen, ermutigt sie, ihren Kopf zu bewegen und frei zu schlucken. Das Ritual dauert an, bis der Priester ejakuliert direkt in ihren Mund, was eine erfolgreiche Heilung." # AI Tags
+bno_cure_disease.confirm.male: "Mach schon." # AI Tags
+bno_cure_disease.confirm.female: "Ich kann es kaum erwarten." # AI Tags
+bno_cure_disease.tooltip.male: "Ich frage mich, wie deine Muschi schmeckt." # AI Tags
+bno_cure_disease.tooltip.female: "Segne mich mit deinem Sperma." # AI Tags
+bno_cure_diseases.own.sickness: "Du bist krank." # AI Tags
+bno_cure_disease.employing_bbc_priestess: "Du hast gearbeitet. [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
+bno_cure_diseases.second_step_button: "Bitte heile mich." # AI Tags
+bno_cure_diseases.lovers_pox: "Du bist betrübt[GetTrait('lovers_pox').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.lovers_pox.desc: "Du bist betrübt[GetTrait('lovers_pox').GetName( GetNullCharacter )]. ." # AI Tags
+cure_lovers_pox_tooltip: "Bitte kuriere mich von meinem[GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.ill: "Du bist[GetTrait('ill').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.ill.desc: "Du bist[GetTrait('ill').GetName( GetNullCharacter )]. ." # AI Tags
+cure_ill_tooltip: "Bitte kuriere mich von meinem[GetTrait('ill').GetName( GetNullCharacter )] ness" # AI Tags
+bno_cure_diseases.pneumonic: "Du bist betrübt[GetTrait('pneumonic').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.pneumonic.desc: "Du bist betrübt[GetTrait('pneumonic').GetName( GetNullCharacter )]. ." # AI Tags
+cure_pneumonic_tooltip: "Bitte entledige meine[GetTrait('pneumonic').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.great_pox: "Du bist betrübt[GetTrait('great_pox').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.great_pox.desc: "Du bist betrübt[GetTrait('great_pox').GetName( GetNullCharacter )]. ." # AI Tags
+cure_great_pox_tooltip: "Bitte entledige meine[GetTrait('great_pox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.early_great_pox: "Du bist betrübt[GetTrait('early_great_pox').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.early_great_pox.desc: "Du bist betrübt[GetTrait('early_great_pox').GetName( GetNullCharacter )]. ." # AI Tags
+cure_early_great_pox_tooltip: "Bitte entledige meine[GetTrait('early_great_pox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.leper: "Du bist betrübt[GetTrait('leper').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.leper.desc: "Du bist betrübt[GetTrait('leper').GetName( GetNullCharacter )]. ." # AI Tags
+cure_leper_tooltip: "Bitte entledige meine[GetTrait('leper').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.gout_ridden: "Du bist betrübt[GetTrait('gout_ridden').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.gout_ridden.desc: "Du bist betrübt[GetTrait('gout_ridden').GetName( GetNullCharacter )]. ." # AI Tags
+cure_gout_ridden_tooltip: "Bitte entledige meine[GetTrait('gout_ridden').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.consumption: "Du bist betrübt[GetTrait('consumption').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.consumption.desc: "Du bist betrübt[GetTrait('consumption').GetName( GetNullCharacter )]. ." # AI Tags
+cure_consumption_tooltip: "Bitte entledige meine[GetTrait('consumption').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.cancer: "Du bist betrübt[GetTrait('cancer').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.cancer.desc: "Du bist betrübt[GetTrait('cancer').GetName( GetNullCharacter )]. ." # AI Tags
+cure_cancer_tooltip: "Bitte entledige meine[GetTrait('cancer').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.typhus: "Du bist betrübt[GetTrait('typhus').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.typhus.desc: "Du bist betrübt[GetTrait('typhus').GetName( GetNullCharacter )]. ." # AI Tags
+cure_typhus_tooltip: "Bitte entledige meine[GetTrait('typhus').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.bubonic_plague: "Du bist betrübt[GetTrait('bubonic_plague').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.bubonic_plague.desc: "Du bist betrübt[GetTrait('bubonic_plague').GetName( GetNullCharacter )]. ." # AI Tags
+cure_bubonic_plague_tooltip: "Bitte entledige meine[GetTrait('bubonic_plague').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.smallpox: "Du bist betrübt[GetTrait('smallpox').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.smallpox.desc: "Du bist betrübt[GetTrait('smallpox').GetName( GetNullCharacter )]. ." # AI Tags
+cure_smallpox_tooltip: "Bitte entledige meine[GetTrait('smallpox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.measles: "Du bist betrübt[GetTrait('measles').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.measles.desc: "Du bist betrübt[GetTrait('measles').GetName( GetNullCharacter )]. ." # AI Tags
+cure_measles_tooltip: "Bitte entledige meine[GetTrait('measles').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.dysentery: "Du bist betrübt[GetTrait('dysentery').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.dysentery.desc: "Du bist betrübt[GetTrait('dysentery').GetName( GetNullCharacter )]. ." # AI Tags
+cure_dysentery_tooltip: "Bitte entledige meine[GetTrait('dysentery').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.ergotism: "Du bist betrübt[GetTrait('ergotism').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.ergotism.desc: "Du bist betrübt[GetTrait('ergotism').GetName( GetNullCharacter )]. ." # AI Tags
+cure_ergotism_tooltip: "Bitte entledige meine[GetTrait('ergotism').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.sickly: "Du bist betrübt[GetTrait('sickly').GetName( GetNullCharacter )]. ." # AI Tags
+bno_cure_diseases.sickly.desc: "Du bist betrübt[GetTrait('sickly').GetName( GetNullCharacter )]. ." # AI Tags
+cure_sickly_tooltip: "Bitte entledige meine[GetTrait('sickly').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.tooltip.1: "Sie werden von Ihren Leiden geheilt werden durch eine[GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
+bno_cure_diseases.tooltip.2: "Sie werden besuchen[GetBuilding('bbc_church_02').GetName]" # AI Tags
+
+bno_primal_insight_decision.title.female: "Unter dem Blick einer Königin: Der Ritus der primären Einsicht" # AI Tags
+bno_primal_insight_decision.desc.female: "Die Luft knackte vor Vorfreude, dick mit den vermischten Düften von Jasminöl und Lust. Wochen, die zu The Primal Insight führten, sahen immer meinen Hof anschwellen mit eifrigen Verehrern, ihre dunklen Augen hungrig nach einem Geschmack meiner Gunst - jeder Mann verzweifelt gewählt zu werden, um mir zu dienen, um zu sehen, seine Essenz zu einem Teil meines königlichen Blutes. Sie Schatten mich durch die opulenten Hallen wie Ebenholz Phantome, ihre Hände verweilen zu lange auf meinen Seiden, wie sie flüsterte Versprechen und extravagante Geschenke. Jede Berührung schickte Shivers über meine Wirbelsäule, eine köstliche schmerzen für den unvermeidlichen Höhepunkt unseres jährlichen Rituals - der Moment, als ich beansprucht, besessen, und neu gemacht würde durch die potente Samen des Black Cock Priest." # AI Tags
+bno_primal_insight_decision.confirm.female: "Diese inbrünstige Hingabe wärmt mein Herz." # AI Tags
+bno_primal_insight_decision.tooltip.female: "Du wirst[GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+
+bno_primal_insight_decision.effect_tooltip: "Sie beginnen ein Ritual zu bekommen[GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+
+bno_primal_insight_decision.title.male: "Unter dem Blick eines Königs: Der Ritus der primären Einsicht" # AI Tags
+bno_primal_insight_decision.desc.male: "Die Luft hing schwer mit Sandelholz und Moschus - mein eigener Duft mischte sich mit dem berauschenden Duft von Jasmin, der wie eine zweite Haut an die Priesterin klammerte. Seit Wochen war ihre Anwesenheit ein ständiges schmerzendes Summen durch mich, eine seidene Flut, die an den Ufern meines Wunsches lächelte. Sie bewegte sich wie Rauch durch die Kammern meines Palastes, diese ätherischen blauen Augen, die mir überall nachfolgten - sie blieb nur lang genug auf meinen nackten Armen, um meine Wirbelsäule herunterzuschieben. Ihr Lachen war wie Windchimes in einer Sommerbrise, ihre Berührung leichter als Schmetterlingsflügel, doch ich konnte ihre kleine Hand spüren, die sich mit jedem flüchtigen Fingerspitzenpinsel gegen meine Haut auf meine Seele brandete. Der herannahende Tag pulste wie ein zweiter Herzschlag in mir - der Tag, an dem sie sich mir wieder anbieten würde, und ich würde tief aus dem Quell ihrer heiligen Kraft trinken und mich neu transformieren in den Feuern dieses alten Rituals." # AI Tags
+bno_primal_insight_decision.confirm.male: "Dann, Priesterin, lassen Sie uns reden." # AI Tags
+bno_primal_insight_decision.tooltip.male: "Du wirst[GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags

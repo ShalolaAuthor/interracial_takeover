@@ -1,0 +1,19 @@
+﻿l_spanish:
+#sneak bbc interaction
+ sneak_bbc: "Robar un semental negro a una corte extranjera" # AI Tags
+ sneak_bbc_desc: "Mover uno de los[bno_bbcs|E] de mi corte a la corte de un gobernante elegido." # AI Tags
+ actor_secondary_sneak_bbc: "Elige un toro para escabullirse" # AI Tags
+ BBC_cg_spy_reason: "Hay un cortesano o un invitado que ayudará a colarse[bno_bbc|E]: #color_verde +5#!" # AI Tags
+ BBC_family_spy_reason: "Hay un miembro de la familia que ayudará a colarse un[bno_bbc|E]: #color_verde +10#!" # AI Tags
+ BBC_curious_reason: "#color_blanco [ROOT.Char.GetFullName]#! es curioso sobre[bno_bbc|E]: #color_verde +10#!" # AI Tags
+ BBC_fucked_reason: "#color_blanco [ROOT.Char.GetFullName]# ha sido follada por un[bno_bbc|E]: #color_verde +25#!" # AI Tags
+ BBC_slut_reason: "#color_blanco [ROOT.Char.GetFullName]#! está enamorado de[bno_bbc|E]: #color_verde +50#!" # AI Tags
+ BBC_welcome_reason: "#color_blanco [ROOT.Char.GetFullName]¡Bienvenidos! [bno_bbc|E]: #color_verde +50#!" # AI Tags
+#chastity interaction
+ bno_chastity_interaction: "Aplicar castidad" # AI Tags
+ bno_chastity_interaction_desc: "Brindar castidad a[recipient.GetShortUINameNoTooltip]" # AI Tags
+ bno_castration_interaction: "Suelta sus pelotas" # AI Tags
+ bno_castration_interaction_desc: "Castrar completamente[recipient.GetShortUINameNoTooltip]" # AI Tags
+#influence child interaction
+ bno_influence_child: "Curiosidad de acogida" # AI Tags
+ bno_influence_child_desc: "Influenciar al niño en la verdad" # AI Tags

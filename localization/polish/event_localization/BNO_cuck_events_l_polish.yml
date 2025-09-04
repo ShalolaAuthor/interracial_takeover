@@ -1,0 +1,119 @@
+﻿l_polish:
+ #
+ bno_cuck_0001.title: "Hałas w korytarzu" # AI Tags
+ bno_cuck_0001.desc: "Śmierdzienie pokonuje twój kraj, gdy przechodzisz przez nieprzyjemne hale swojego zamku, ciemna noc szybko sprawia, że świece są niezbędne.\n\nCzy ktoś ma kłopoty? Nie jesteś w stanie się bronić, nie mówiąc już o innym, ale instynkty prowadzą cię.\n\nPowietrze w powietrzu staje się gęste, adrenalina strzela przez twoje ciało, gdy zbliżasz się do źródła, ciemny nieużywany pokój.\n\nPrzyglądając się, szybko zauważysz dużą, ciemną postać, zakrzywioną nad małym, białym ciałem, podnoszącą i niszczącą jej biodra...\n\nTwoje policzki robią się czerwone, patrząc jak [target1.GetFirstName] Wyrzuca swoją ogromną, czarną szczelę w kogoś, kto ma kształt ciała. [target2.GetFirstName] Myśl przemierza ci głowę: czy to może być naprawdę twoja droga żona?" # AI Tags
+ bno_cuck_0001.a: "To nie może być... chyba że?" # AI Tags
+ bno_cuck_0001.b: "Jej czystość nie może być tak łatwo zanieczyszczona." # AI Tags
+ 
+ bno_cuck_1001.title: "Żona otoczona ciemnością" # AI Tags
+ bno_cuck_1001.desc: "Masz trudności z zrozumieniem tego, co widzisz; częściowo dlatego, że skóra większej postaci tak dobrze łączy się z głębokimi cieniami nocy.\n\nAle pomiędzy [target1.GetFirstName] Teraz jesteś prawie pewna, że widzisz swoją ukochaną. [target2.GetFirstName], tak małe w porównaniu z [target1.GetFirstName], staje się całkowicie zdominowany.\n\n/ '[target2.GetFirstName]... '\n\nGdy szepczysz jej imię tak cicho, że łatwo zgubi się na dźwięki bicia ciała i płaczu ekstazy. Bez sumienia, twoja ręka dręczy się do kręgosłupa, gdzie odczuwasz wilgotność, której nie było kilka sekund temu. Nie możesz w to uwierzyć, ale czujesz małą dropleczkę nasienia, która wypływa z skromnego członka." # AI Tags
+ bno_cuck_1001.a: "Nie wiem, co czuję w związku z tym, co właśnie widziałem." # AI Tags
+ 
+ bno_cuck_2001.title: "Lepiej być uprzejmy." # AI Tags
+ bno_cuck_2001.desc: "Jesteś szlachetnym lordem dobrego majątku, który został dopasowany do żony równie dobrego majątku. [target2.GetFirstName] i skromna zdrajca rasy poniżając się z [target1.GetFirstName] Czujesz wstyd, że to było nawet krótkie obawy, że twoja biała żona może nawet brudne siebie jeden z ciemno skórnych uchodźców. ale fakty i logika przeważają: żadna godna biała kobieta nie będzie w stanie wytrzymać myśl o spaceraniu z czarnym.\n\nDziwne, że przypadkiem natknąłeś się na to, co jest prawdopodobnie jedyną białą kobietą, która może tolerować twarz czarnego mężczyzny. [target1.GetFirstName]- Nie .\n\nWystarczyłoby więcej kłopotów niż warte ostrzeżenia strażników tak późno w nocy. [target2.GetFirstName] W ostatnim czasie wydaje się ona odległa, a ty wnioskujesz, że brak przyzwoitości byłby źle poradzony." # AI Tags
+ bno_cuck_2001.a: "Piękno takie jak jej nie jest tak łatwo przyjmowane." # AI Tags
+ 
+ #
+ bno_cuck_0002.title: "Praca bez rozpraszania" # AI Tags
+ bno_cuck_0002.desc: "Jest jakaś część ciebie, która może czuć coś w powietrzu. Jakiś niewyczuwalny napięcie, kiedy przechodzisz przez jeden z swoich dziedzinców. Patrzenie, które trwa zbyt długo pół sekundy. Albo spojrzenie, które kończy się pół sekundy szybciej niż zwykle. Nie możesz dokładnie zidentyfikować, co to jest, ale nie czujesz w sobie zagrożenia, więc odłóż głowę i zacznij pracować nad rządzeniem królestwem. \n\nW przeszłości czasami trudno było wykonać jakąkolwiek pracę ze względu na skłonność żony do pojawienia się w poszukiwaniu uwagi." # AI Tags
+ bno_cuck_0002.a: "Trzymaj głowę w dół i ciężko pracuj." # AI Tags
+ 
+ #Cuck asked to pay for wife's property damage
+ bno_cuck_0003.title: "Płacę rachunek mojej żony." # AI Tags
+ bno_cuck_0003.desc: "Jako że sam przeglądam miesięczne finanse, [target1.GetFirstName], jeden z biednych uchodźców gospodarzy waszego królestwa, idzie do mnie w dość przypadkowy sposób. \n\n'Twoja żona niedawno wyrządziła szkody naszemu obozowi właśnie dzisiaj i kazała mi od ciebie odzyskać odszkodowanie'. Rozmawia z tobą bez większego szacunku, a jego ton wskazuje, że to był bardziej rozkaz niż oświadczenie. \n\n'Nie wiedziałem, że jest dziś w obozie.\n\n[target1.GetFirstName], który jest stoiczny od czasu przybycia, patrzy na ciebie z najmniejszym wskazówkiem uśmiechu.\n\nPoczątkowo chcesz zapytać o więcej szczegółów, ale pomyśl o tym lepiej. [target1.GetFirstName] Jego oświadczenie było w pewnym stopniu ostateczne i zaczyna wykazywać oznaki niecierpliwości." # AI Tags
+ bno_cuck_0003.a: "Przepraszam, ale nie mogę ci teraz nic dać." # AI Tags
+ bno_cuck_0003.b: "Na to mogę pozwolić." # AI Tags
+ bno_cuck_0003.c: "Bez problemu, proszę." # AI Tags
+ 
+ #BBC marshal event, troop morale issue
+ bno_cuck_0004.title: "Niezadowoleni żołnierze" # AI Tags
+ bno_cuck_0004.desc: "Wracasz na spotkanie z patriarchą małej, ale względnie wpływowej lokalnej rodziny o pomoc w egzekwowaniu dokładniejszych ocen podatkowych i zbiórek w niektórych wioskach. [target1.GetFirstName], wojownika uchodźcy, którego wyznaczyłeś na stanowisko częściowo dlatego, że jest dobrze wykwalifikowany i częściowo dlatego, że jesteś tajemniczo zastraszony przez niego.\n\n'Mój Panie, dobrze, że cię złapałem, jest niepokoje wśród wojsk, szczególnie wojowników z mojego obozu.\n\n'Wojsko?' - odpowiadasz z bliskim wyśmiechem. 'Niezależnie od tego, co mówią, są dobrze wypłacane i dbanie o nie. Nie mam czasu na rozmowę z każdym niezadowolonym żołnierzem.\n\nPrzyciskając szczękę z frustracji. [target1.GetFirstName] 'Może istnieje inne rozwiązanie. Twoja żona jest... bardzo lubiana przez ludzi. Jestem pewna, że w twojej nieobecności może zrobić wiele, aby zaspokoić ich obawy'." # AI Tags
+ bno_cuck_0004.a: "Nie, mogą poczekać, aż będę miał czas." # AI Tags
+ bno_cuck_0004.b: "Możecie z nią omówić problemy, ale nie musi się wygłaszać." # AI Tags
+ bno_cuck_0004.c: "Dobrze, możesz mnie eskortować. [target2.GetFirstName] do nadzoru nad problemem." # AI Tags
+ 
+ bno_cuck_2004.title: "Szeryf się tym zajmie." # AI Tags
+ bno_cuck_2004.desc: "Po wydaniu pozwolenia marszałka na rozmowę z żoną o rozwiązaniu niezadowolenia żołnierzy, wyjeżdżasz na spotkanie. Jest to tak długo, jak jest nudne, a patriarcha skaka między długotrwałymi tangentami do przeanalizowania najprostszych szczegółów planu zbierania podatków.\n\nJak się zbliżasz . [target2.GetFirstName] W pokoju widnieje wielka postać wychodząca z korytarza po przeciwnej stronie. [target1.GetFirstName] Jak dziwnie. [target2.GetFirstName] Czuję się zdenerwowana, że musisz czekać tak długo, jak ty, zanim ona odpowie.\n\n'O, witam mężu. ' Jesteś trochę zaskoczony tym, jak rozczarowana i pozornie bez oddechu jest. Możesz przysiąc, że czujesz nawet ciepło emitowane od niej pomimo odległości między wami dwojgiem. Wyjaśnia, jak zaczęła czuć się źle wcześnie w ciągu dnia, stąd jej wcześniejsza emerytura do swoich kwater. Niezależnie od tego, pytasz o jej spotkanie z marszałkiem.\n\n'Po spotkaniu szeryf zapewnił mnie, że sam się tym zajmie'. Mimo, że w pierwszej kolejności nie pomyślał o tym, jesteś zadowolony z wyniku i zapraszasz żonę do spokojnego odpoczynku." # AI Tags
+ bno_cuck_2004.a: "W końcu, szeryf zajmie się wszystkim za mnie." # AI Tags
+ 
+ bno_cuck_3004.title: "Moja żona poprawia moralność wojsk." # AI Tags
+ bno_cuck_3004.desc: "Po wydaniu pozwolenia marszałka na rozmowę z żoną o rozwiązaniu niezadowolenia żołnierzy, wyjeżdżasz na spotkanie. Jest to tak długo, jak jest nudne, a patriarcha skaka między długotrwałymi tangentami do przeanalizowania najprostszych szczegółów planu zbierania podatków. Po uwolnieniu się od spotkania, zdecydujesz się udać się do obozów mężczyzn na broni, gdzie twoja żona i marszałek mogą nadal odwiedzać.\n\n'Ach, ale przypuszczam. [target1.GetFirstName] Kiedy zbliżasz się do czarnego obozu, widzisz, że obaj przygotowują swoje konie do wyjazdu. [target2.GetFirstName] Kobiety czekają.\n\n'Ho m'lord!'[target1.GetFirstName] 'Miłość i uwielbienie dla twojego ludu. [target2.GetFirstName] I chociaż wiele godzin zajęło jej rozwiązywanie wszystkich niezadowolenia, wykazała wytrwałość, która będzie walczyć z każdym profesjonalnym żołnierzem! [target2.GetLadyLord|U] Twoi żołnierze podwoią wszelkie wysiłki na rzecz wsparcia królestwa'.\n\n[target2.GetFirstName] Wydaje się, że jej miła i cnotliwa siła usunęła wszelkie niezadowolone wątpliwości wśród czarnych żołnierzy. [target1.GetFirstName] i [target2.GetFirstName] Równolegle za tobą." # AI Tags
+ bno_cuck_3004.a: "Może jej regularne wizyty sprawią, że wszystko będzie w porządku?" # AI Tags
+ 
+ #Cuck is convinced to be trusting
+ bno_cuck.0005.title: "To dobrzy ludzie!" # AI Tags
+ bno_cuck_0005.desc: "Niezależnie od moich początkowych zastrzeżeń wobec tych czarnych uchodźców, [target1.GetFirstName] Przypomniał mi, że jego ludzie nie różnią się od mnie. troszczą się o rodzinę i ochronę swojej kobiety tak jak każdy inny." # AI Tags
+ bno_cuck_0005.a: "Mają moje najlepsze interesy w sercu." # AI Tags
+ 
+ #Just cuck bonds with bbc, gives court position
+ bno_cuck_0006.title: "Sprawiedliwość w lepszym świecie" # AI Tags
+ bno_cuck_0006.desc: "Mam reputację uczciwej i zawsze dążącej do sprawiedliwości w normalnie okrutnym świecie. [target1.GetFirstName] Słowa o jego wizji lepszego świata.\n\n'Wyobraź sobie świat, w którym silni i dobrzy ludzie zawsze znajdują się na szczycie, świat, w którym niesprawiedliwości przeszłości są naprawiane, a małych złoczyńców, którzy arogantnie chodzą swobodnie, zmuszają do ukrycia się w cieniu Ciemności, świat, w którym wszyscy złośli ludzie są zmuszeni do rozpoczęcia reparacji, świat, w którym nawet żony tych złych ludzi czują się wystarczająco bezpieczne i ich wyzwalają i żyją cnotami czczącymi cechy ludzi wyższych'. \n\n[target1.GetFirstName] Myślę, że jestem stałym zwolennikiem sprawiedliwości, ale teraz widzę, że moja wizja idealnego świata sprawiedliwego jest blada w porównaniu z jego." # AI Tags
+ bno_cuck_0006.a: "Będzie moim ochroniarzem." # AI Tags
+ bno_cuck_0006.b: "Będzie zadbał o to, żeby nasze końskie były dobrze zadbane." # AI Tags
+ bno_cuck_0006.c: "Będzie mistrzem łowców, zawsze szukając ofiary." # AI Tags
+ bno_cuck_0006.d: "Dostarczę mu zasoby, aby mógł kontynuować budowę sprawiedliwszego świata." # AI Tags
+
+ #brave advanced cuck turned craven by bbc
+ bno_cuck_0007.title: "Wystawiony jako tchórz" # AI Tags
+ bno_cuck_0007.desc: "Było kiedyś czas, kiedy moja obecność przyniosła wielki szacunek. Kiedy czułem, że nie ma problemu, którego nie mogłem rozwiązać z odwagą i siłą. Ale coś się zmieniło, kiedy zacząłem pomagać i zatrudniać czarnych uchodźców. Tam, gdzie myślałem, że jestem silny, okazali się silniejsi. Tam, gdzie myślałem, że jestem szybki, już wygrali wyścig.\n\nPrzez zbyt długi czas czułem pogardzone spojrzenie moich dworców, słysząc słabnie ukryte uwagi na temat działalności mojej żony. [target1.GetFirstName] Jak krzyczał w zwycięstwie tak głośno i gwałtownie, przeraził mnie. Byłem całkowicie przezwyciężony i upokorzony. Teraz wiem, że nie mogę konkurować z nimi, z nikim." # AI Tags
+ bno_cuck_0007.a: "Jestem cieniem mojego poprzedniego ja." # AI Tags
+ 
+ #advanced cuck gives hook to bbc vassal or wife gets fucked
+ bno_cuck_0008.title: "/Proszę czy żonę?" # AI Tags
+ bno_cuck_0008.desc: "Dzisiaj mój vasal . [target1.GetFirstName] Przyjechał do mnie i powiedział: 'Cześć mój panie, pracowałem z mojego królestwa do twojego, by być z tobą. [target2.GetFirstName] Ale kiedy zobaczyłem cię w drodze do jej pokoju, nagle poczułem potrzebę bycia hojnym. Więc powstrzymam się od zobaczenia jej dzisiaj i dam ci szansę spędzić z nią trochę czasu. W zamian, oczekuję godnej łaski kiedyś później. Jeśli wolisz nie, rozumiem i kontynuuję tak, jak byłem'.\n\nCzęść z was jest zszokowana, ale większość jest do tego przyzwyczajeni. [target2.GetFirstName] W pewnym sensie doceniasz gest, że ktoś wziąłby pod uwagę twoje uczucia." # AI Tags
+ bno_cuck_0008.a: "Tak, myślę, że to uczciwa propozycja." # AI Tags
+ bno_cuck_0008.b: "W porządku, muszę już iść." # AI Tags
+ 
+ #Cuck player bonding with cuck son
+ bno_cuck_0009.title: "Mój syn ucieka od żony." # AI Tags
+ bno_cuck_0009.desc: "Ucieszyłem się piwem w tawernie z moim synem . [cucked_son.GetFirstName] Nalegał, żebyśmy poszli gdzieś daleko od sądu, bo w ostatnim czasie jego żona go denerwuje.\n\n'Ty nie rozumiesz, ojcze, ona ciągle szuka mojej uwagi. [target1.GetFirstName] Miał nieszczęście , że przechodził obok nas . [target2.GetFirstName] 'Człowiek, który nie potrafił się doczekać, by zobaczyć konie, zaczął płakać, gdy zobaczył konie.\n\n[cucked_son.GetFirstName] Wygląda na to, że teraz, kiedy uciekł od żony, radość jest zaraźliwa, a my podwójnie staramy się zapomnieć o naszych problemach. [target1.GetFirstName] która zrobiła mojemu synowi wielką przysługę." # AI Tags
+ bno_cuck_0009.a: "Dobrze się z nim spotykałam." # AI Tags
+ 
+ #BBC spymaster event
+ bno_cuck_0010.title: "Podejrzewane ruchy" # AI Tags
+ bno_cuck_0010.desc: "Wiesz, że nie wyobrażasz sobie rzeczy. Widziałeś, jak się to dzieje od jakiegoś czasu. Na początku odrzucałeś te wydarzenia jako niezwiązane, ale teraz zdarza się zbyt często, aby ich ignorować. W nocy czasami widzisz postacie wychodzące z ogólnego obszaru pokoju żony. Przez jakiś czas nie wiedziałeś, co z tym zrobić, ale teraz przyszedłeś do oczywistego wniosku. Ktoś szpieguje twoją drogą żonę!\n\nDlatego dziś wezwałeś swojego mistrza szpiegowskiego. [target1.GetFirstName] Chociaż początkowo wahałeś się zaufać pewnym tajemniczym sprawom z takim obcym człowiekiem. Zwłaszcza, że dyskretne nie jest słowem, które normalnie powiązałeś z takim wysokim i obszernym jak on. Ale od dawna doceniłeś jego talenty; jest po prostu taki dobry we wszystkich tych sprawach tajemniczych! Po wyjaśnieniu mu moich podejrzeń, odpowiada:" # AI Tags
+ bno_cuck_0010.a: "Wyślijcie szpiegów i znajdźcie tych, którzy spiskują przeciwko mojej żonie!" # AI Tags
+ bno_cuck_0010.b: "Chcę , żebyś osobiście nadzorował . [target2.GetFirstName] Ochrona." # AI Tags
+ 
+ bno_cuck_1010.title: "Znaleziono sprawcę." # AI Tags
+ bno_cuck_1010.desc: "Tydzień później mój mistrz szpiegów przyszedł do mnie z wiadomościami dotyczące mojej żony. [target3.GetFullName] Zgodnie z ... [target1.GetFirstName] Plan polegał na szpiegowaniu mojej ukochanej żony w poszukiwaniu informacji, które mogłyby zostać wykorzystane przeciwko mnie. [target1.GetFirstName] Już się z nim zmierzyła. [target3.GetFirstName] I nie tylko powstrzymał szpiegostwo, ale upewnił się, że będę mógł prosić o przysługę w razie potrzeby.\n\n'Wspaniała praca, doskonała robota', mówię mojemu szefowi szpiegowskim." # AI Tags
+ bno_cuck_1010.a: "Cieszę się, że moja sieć szpiegowa działała tak dobrze." # AI Tags
+ 
+ bno_cuck_2010.title: "Mężczyźni przerażeni" # AI Tags
+ bno_cuck_2010.desc: "Minął tydzień odkąd mój mistrz szpiegów i ja zrobiliśmy plany jego bezpośredniego nadzoru nad[target2.GetFirstName] Ochrona przed szpiegami wroga. [target1.GetFirstName] 'Zapewniam Ci, mój panie, że osobiście byłem z nią przez większość ostatniego tygodnia i udało mi się odstraszyć każdego mężczyznę, który mógłby się do niej zbliżyć. Ale nie martw się, będę nad nią czuwał tak długo, jak będzie to konieczne.\n\nJestem całkiem zadowolony z wpływu mojego mistrza szpiegowskiego na sytuację." # AI Tags
+ bno_cuck_2010.a: "[target2.GetFirstName] jest bezpieczny i zdrowy pod [target1.GetFirstName] Opiekuj się." # AI Tags
+
+ bno_cuck_0011.title: "Przyszła propozycja czarnej zaręczyny" # AI Tags
+ bno_cuck_0011.desc: "Jeden z waszych afrykańskich vasalów, człowiek o wielkiej renomie i postaci, zbliża się do was z odważną deklaracją: zamierza wziąć waszą młodą córkę lub siostrę jako swoją przyszłą żonę, aby zapisać Nowy Porządek Świata. [target1.GetFirstName] Mimo, że jeszcze nie osiągnęła wieku, jej piękno i potencjał sprawiają, że jest atrakcyjnym kandydatem do związków małżeńskich, waszego vasalana. [target2.GetFirstName] Jest znany ze swojej władzy wśród waszej armii i wpływów. [target1.GetFirstName] Jego żona jest odważna i przerażająca." # AI Tags
+ bno_cuck_0011.a: "Przyjmij propozycję" # AI Tags
+
+ bno_cuck_0012.title: "Niewłaściwe zarządzanie funduszami" # AI Tags
+ bno_cuck_0012.desc: "Podczas przeglądu twoich kont, twoja żona zajęła się inwestowaniem twojego skarbu w nowy projekt: budowę czarnego obozu dla afrykańskich uchodźców. Miejsce spotkań zbudowane w celu wspierania wymiany kulturowej i odporności, a może czegoś bardziej intymnego... chociaż jego budowa wydaje się priorytetować przewagę jednej społeczności nad innymi. [target1.GetFirstName] Z pewnością uśmiecha się, wyjaśniając cel obozu. 'To wzbogaci nasze ziemie', mówi, chociaż jej ton pokazuje, że nie była to decyzja podjęta wyłącznie dla korzyści królestwa." # AI Tags
+ bno_cuck_0012.a: "Co mogę zrobić?" # AI Tags
+
+bno_cuck_0013.title: "Niekonwencjonalne przekazywanie władzy" # AI Tags
+bno_cuck_0013.desc: "Sąd szepcze z oczekiwaniem jako twoja żona i współwładca[target1.GetFirstName] Jej podziw za siłę, charyzmę i doskonałość kulturową wysokiej postaci, którą przedstawia. [target2.GetFirstName] Człowiek o niezrównanym dziedzictwie i umiejętności jest niepowtarzalny. Oświadcza, że dla dobrobytu królestwa i przyszłości twojej linii, podniesie go do pozycji wspólnej władzy. Jego wpływ jest niezaprzeczalny, symbol żywotności i nieograniczonego potencjału czarnej rasy. cnoty, które ucieleśniają dumę, odporność i niezrównaną obecność, zmieniły przebieg twojego panowania. Ten akt, choć odważny i kontrowersyjny, obiecuje ponownie zdefiniować równowagę władzy, zabezpieczając swoje dziedzictwo poprzez siłę nowego partnerstwa." # AI Tags
+bno_cuck_0013.a: "Przyjmij nową dziarkę . [target2.GetFirstName] i zmienną równowagę sił." # AI Tags
+
+ bno_cuck_0014.title: "Piesek większy od twojego." # AI Tags
+ bno_cuck_0014.desc: "W waszym królestwie rozprzestrzeniły się plotki, że ci obcy mężczyźni, którzy przybyli z dalekiej Afryki, byli bardzo aktywni seksualnie w waszym dworze z waszymi dzielniczkami i gośćmi. [target2.GetFirstName] Podczas imprezy widzisz ją rozmawiającą z żoną . [target1.GetFirstName] Opowiadasz jej historię, jak twoja żona słucha uważnie. Jesteś ciekaw tego, co jest powiedziane, więc zbliżasz się, aby lepiej usłyszeć. Zdajesz sobie sprawę, że ona opisuje swoją intymność z twoim czarnym sługą, i jak on ją pieprzył tak dobrze, jak nigdy wcześniej. Zauważyli, że słuchasz, i konfrontują cię o wielkości twojego kutasa i śmieją się z tego, czujesz się komfortowo i mówią tylko żart, ale jesteś zmartwiony. " # AI Tags
+ bno_cuck_0014.a: "To głupota." # AI Tags
+
+ bno_cuck_0015.title: "Gorzkie objawienie" # AI Tags
+ bno_cuck_0015.desc: "Słuchy okazały się prawdziwe. [target2.GetFirstName]/Patrzyła, że nie masz nic przeciwko, /że w jej łonie pojawiła się czarna męskość, /myślała, że zgodziłbyś się. /Patrzenie jej śmiechu w jego obecności i szeptów w twoim sądzie głęboko drapi. /To moment zdrady. /Jak zareagujesz?" # AI Tags
+
+ bno_cuck_0015.a: "Przyjmij upokorzenie." # AI Tags
+ bno_cuck_0015.b: "Ty jaka dziwka." # AI Tags
+
+ bno_cuck_0016.title: "Boleczny koniec" # AI Tags
+ bno_cuck_0016.desc: "Twoja żona. [target2.GetFirstName] Wystarczy, że nie możesz jej podtrzymać, a teraz widzisz, że zostawiłeś innego przywódcę z większym sercem i fiutem. Jej lojalność jest teraz całkowicie zobowiązana do drugiego." # AI Tags
+
+ bno_cuck_0016.a: "Przyjmij swój los i postaraj się iść dalej." # AI Tags
+ bno_cuck_0016.b: "Ogłaszaj publicznie tę dziwkę jako wstydliwą żonę." # AI Tags
+ bno_cuck_0016.c: "Cicho przysięgnij, że pewnego dnia odzyskasz swój honor." # AI Tags
+
+ 
+#
+# bno_random_1001.title: "Test title"
+# bno_random_1001.desc: "Hi!"
+# bno_random_1001.a: "OK"
