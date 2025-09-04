@@ -1,5 +1,0 @@
-﻿l_german:
-#Travel Flavor Events
- bno_cuck_travel_0001.title: "Darf ich Sie unterbrechen..." #deepl:1791033453
- bno_cuck_travel_0001.desc: "Du wusstest, dass zwischen [target1.GetFirstName] und [target2.GetFirstName] etwas läuft. Du siehst, wie sie während der ganzen Reise miteinander reden. Sie kümmern sich nicht einmal um die anderen im Gefolge. Du merkst, dass sie sich jetzt amüsieren. [target2.GetFirstName|U] [target1.GetFirstName] Du bist neidisch auf die Größe von [target2.GetHerHis], das Stöhnen ist im ganzen Lager zu hören, die Art und Weise, wie [target2.GetSheHe] in [target1.GetHerHis] eindringt, ist einzigartig.... vielleicht sollten sie es sein lassen " #deepl:2631855528
- bno_cuck_travel_0001.a: " Oh " #deepl:1502470982

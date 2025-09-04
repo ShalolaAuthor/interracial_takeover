@@ -1,5 +1,0 @@
-﻿l_spanish:
-#BNWO Succession
- bnwo_only_law: "BNWO Orientado" # AI Tags
- bnwo_only_law_subname: "Superioridad racial" # AI Tags
- bnwo_only_law_effects:3 "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$Men and women are equal in succession inheritance from title holder.\n$EFFECT_LIST_BULLET$Only available to pass on to same faith.\n$EFFECT_LIST_BULLET$Allows designation of heirs."
