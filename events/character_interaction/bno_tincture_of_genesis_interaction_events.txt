@@ -583,6 +583,8 @@ bno_tincture_of_genesis.6002 = {
         becoming_african = yes
         become_bigger_tits_effect = yes
         become_prettier = yes
+        add_trait = fecund
+        add_trait = pure_blooded
     }
 
     option = {
