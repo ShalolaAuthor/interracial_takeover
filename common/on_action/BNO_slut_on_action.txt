@@ -33,7 +33,6 @@ bno_slut_yearly_random_pulse = {
 		1 = bno_slut.0004 #Slut bring white girl to BBC
 		1 = bno_slut.0005 #Slut eaves dropping a random girl talking to her BBC
 		1 = bno_slut.0006 #Black Husband cages a courtier that Slut hates
-		1 = bno_slut.0007 #Becoming darker skin
 		1 = bno_slut.0008 #Becoming a slut for BBC
 		1 = bno_slut.0009 #Becoming a slut for BBC
 		1 = bno_slut.0010

@@ -2,6 +2,31 @@
 	is_bbc = yes
 	is_elligible_partner = yes
 	is_a_male = yes
+	trigger_if = {
+		limit = {
+			is_married = yes
+		}
+		OR = {
+			is_spouse_of = root
+			this = root
+		}
+	}
+	trigger_else_if = {
+		limit = {
+			is_married = no
+			liege ?= {
+				is_a_girl = yes
+				is_married = yes
+				any_spouse = {
+					is_bbc = yes
+				} 
+			}
+		}
+		always = no
+	}
+	trigger_else = {
+		always = yes
+	}
 }
 
 is_rich_ai_blackbull = {
@@ -295,7 +320,42 @@ is_a_futa = {
 
 is_a_girl = {
 	is_female = yes
-	is_bbc = no
+	trigger_if = {
+		limit = {
+			is_a_futa = yes
+		}
+		is_bbc = no
+	}
+	trigger_else = {
+		always = yes
+	}
+	trigger_if = {
+		limit = {
+			is_married = yes
+			any_spouse = {
+				is_blackbull = no
+			}
+			always = yes
+		}
+	}
+	trigger_else_if = {
+		limit = {
+			is_married = yes
+			any_spouse = {
+				is_blackbull = yes
+			}
+		}
+		always = yes
+	}
+	trigger_else_if = {
+		limit = {
+			is_married = no
+		}
+		always = yes
+	}
+	trigger_else = {
+		always = no
+	}
 }
 
 is_an_ai_girl = {
@@ -340,22 +400,11 @@ is_curious = {
 is_ai_curious = {
 	is_curious = yes
 	is_ai = yes
-	is_not_married_to_bbc = yes
-}
-
-is_not_married_to_bbc = {
-	trigger_if = {
-		limit = { is_married = yes }
-		any_spouse = {
-			is_bbc = no
-		}
-	}
 }
 
 is_ai_blacked = {
 	is_blacked = yes
 	is_ai = yes
-	is_not_married_to_bbc = yes
 }
 
 is_ai_blacked_noble = {
@@ -736,9 +785,9 @@ is_bno_qos_and_up = {
 }
 
 is_elligible_partner = {
-	is_at_war = no
+	#is_at_war = no
 	is_travelling = no
-	is_slave = no
+	#is_slave = no
 	is_adult = yes
 	is_imprisoned = no
 	is_alive = yes

@@ -151,19 +151,13 @@ bno_pure_white_portrait_modifier = {
 					mode = modify
 
 					x = 0.0
-					y = -0.2
+					y = -0.4
 				}
 				color = {
 					gene = hair_color
 					mode = modify
 					x = -0.2
-					y = -0.5
-				}
-				accessory = {
-					mode = add
-					gene = hairstyles
-					template = indian_hairstyles_wavy
-					range = { 0 1 } # For the randomness to work correctly
+					y = -0.6
 				}
 			}
 		}

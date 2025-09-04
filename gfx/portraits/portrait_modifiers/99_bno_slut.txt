@@ -485,3 +485,45 @@ bno_white_girl = {
 		}
 	} 
 }
+
+bno_pure_white_hairstyles = {
+	usage = game
+	priority = 999
+	selection_behavior = weighted_random
+	bno_indian_wavy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = indian_hairstyles_wavy
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				exists = this
+				has_trait = bno_pure_white
+			}
+		}
+	}
+	bno_northern_wavy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = northern_hairstyles_wavy
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				exists = this
+				has_trait = bno_pure_white
+			}
+		}
+	}
+}
