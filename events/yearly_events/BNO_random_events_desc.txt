@@ -6053,7 +6053,7 @@ bno_random.0040 = {
 		any_courtier_or_guest = {
 			is_ai_blackbull = yes
 		}
-		any_courtier_or_guest = {
+		any_court_position_holder = {
 			is_ai_white_guy = yes
 		}
 	}
