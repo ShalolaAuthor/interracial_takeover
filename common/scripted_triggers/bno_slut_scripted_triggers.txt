@@ -2,31 +2,6 @@
 	is_bbc = yes
 	is_elligible_partner = yes
 	is_a_male = yes
-	trigger_if = {
-		limit = {
-			is_married = yes
-		}
-		OR = {
-			is_spouse_of = root
-			this = root
-		}
-	}
-	trigger_else_if = {
-		limit = {
-			is_married = no
-			liege ?= {
-				is_a_girl = yes
-				is_married = yes
-				any_spouse = {
-					is_bbc = yes
-				} 
-			}
-		}
-		always = no
-	}
-	trigger_else = {
-		always = yes
-	}
 }
 
 is_rich_ai_blackbull = {
@@ -328,33 +303,6 @@ is_a_girl = {
 	}
 	trigger_else = {
 		always = yes
-	}
-	trigger_if = {
-		limit = {
-			is_married = yes
-			any_spouse = {
-				is_blackbull = no
-			}
-			always = yes
-		}
-	}
-	trigger_else_if = {
-		limit = {
-			is_married = yes
-			any_spouse = {
-				is_blackbull = yes
-			}
-		}
-		always = yes
-	}
-	trigger_else_if = {
-		limit = {
-			is_married = no
-		}
-		always = yes
-	}
-	trigger_else = {
-		always = no
 	}
 }
 

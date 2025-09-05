@@ -63,11 +63,11 @@ bno_tincture_of_genesis.1001 = {
 
     option = {
         name = bno_tincture_of_genesis.1001.a
+        carn_sex_scene_is_cum_inside_effect = yes
+        carn_sex_scene_cleanup = yes
         scope:recipient = {
             trigger_event = bno_tincture_of_genesis.0002
         }
-        carn_sex_scene_is_cum_inside_effect = yes
-        carn_sex_scene_cleanup = yes
     }
 }
 
@@ -166,7 +166,10 @@ bno_tincture_of_genesis.1111 = {
 
     on_trigger_fail = {
         remove_character_modifier = bno_tincture_of_genesis
-        scope:actor = {
+        every_spouse = {
+            limit = {
+                has_character_modifier = bno_nourishers_fatigue
+            }
             remove_character_modifier = bno_nourishers_fatigue
         }
     }

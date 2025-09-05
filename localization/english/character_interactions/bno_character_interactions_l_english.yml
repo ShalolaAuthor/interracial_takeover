@@ -17,3 +17,6 @@ bno_tincture_of_genesis_interaction: "Tincture of Genesis"
 bno_tincture_of_genesis_interaction.desc: "You will transform your wife [recipient.GetFirstName] existence"
 bno_tincture_of_genesis_interaction.not_white: "She is [GetTrait('bno_full_black').GetName( GetNullCharacter )]"
 bno_tincture_of_genesis_interaction.effect: "You will feed your wife [recipient.GetFirstName] your potent cum, transforming her very core."
+
+bno_tincture_of_genesis_interaction.desc.female: "I will ask my husband to transform me"
+bno_tincture_of_genesis_interaction.effect.female: "Your husband will feed you his cum, as your only source of sustenance."
