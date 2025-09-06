@@ -1,5 +1,0 @@
-﻿l_spanish:
-#BNWO Succession
- bnwo_only_law: "BNWO Orientado" # AI Tags
- bnwo_only_law_subname: "Superioridad racial" # AI Tags
- bnwo_only_law_effects: "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$Los hombres y las mujeres son iguales en herencia sucesiva del titular del título.\n$EFFECT_LIST_BULLET$Sólo disponible para transmitir a la misma fe.\n$EFFECT_LIST_BULLET$Permite la designación de herederos." # AI Tags

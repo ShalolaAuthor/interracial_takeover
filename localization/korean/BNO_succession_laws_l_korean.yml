@@ -1,5 +1,0 @@
-﻿l_korean:
-#BNWO Succession
- bnwo_only_law: "BNWO 방향" # AI Tags
- bnwo_only_law_subname: "인종적 우월성" # AI Tags
- bnwo_only_law_effects: "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$남녀는 직권 소유자로부터 상속 상속으로 동등합니다.\n$EFFECT_LIST_BULLET$오직 같은 신앙을 전개할 수 있을 뿐이다.\n$EFFECT_LIST_BULLET$후계자를 지정할 수 있습니다." # AI Tags

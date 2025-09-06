@@ -1,5 +1,0 @@
-﻿l_spanish:
-#Travel Flavor Events
-bno_cuck_travel_0001.title: "¿Puedo interrumpirte?" # AI Tags
-bno_cuck_travel_0001.desc: "Sabías que estaba pasando algo entre[target1.GetFirstName] y[target2.GetFirstName] Los ves charlando a lo largo del viaje, ni siquiera te preocupes por los otros en el séquito, los encuentras ahora pasándolo bien. [target2.GetFirstName|U] 's es enorme y[target1.GetFirstName] realmente lo disfruta, estás celoso de[target2.GetHerHis] tamaño, gemidos se oyen en todo el campamento, el camino[target2.GetSheHe] penetra[target1.GetHerHis] es único... tal vez dejarlos ser" # AI Tags
-bno_cuck_travel_0001.a: "Oh" # AI Tags
