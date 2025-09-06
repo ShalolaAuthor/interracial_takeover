@@ -335,40 +335,69 @@ bno_bigger_areolas = {
 	}
 }
 
-bno_bigger_boobs = {
+#Backup
+
+bno_boobs = {
 	usage = game
-	bno_bigger_boobs = {
+	priority = 999
+	bno_dynamic_boobs = {
 		dna_modifiers = {
-			#Changes Breast Size
+			#Breasts
 			morph = {
-				mode = modify 
+				mode = modify_multiply
 				gene = gene_bs_bust
 				value = {
-					add = {
-						value = var:bno_becoming_dark
-						divide = 10
+					value = 0.04
+					multiply = {
+						value = var:bno_breast_size
+						add = var:bno_becoming_dark
 					}
 				}
 			}
-			#Changes Breast Size
 			morph = {
-				mode = add 
+				mode = modify
+				gene = gene_bs_bust
+				value = {
+					value = 0.1
+					multiply = {
+						value = var:bno_breast_size
+						add = var:bno_becoming_dark
+					}
+				}
+			}
+			#Breasts Excess
+			morph = {
+				mode = add
 				gene = gene_breast_excess
 				template = breast_excess
 				value = {
-					add = {
-						value = var:bno_becoming_dark
-						multiply = 0.03
+					value = 0.04
+					multiply = {
+						value = var:bno_breast_size
+						add = var:bno_becoming_dark
+					}
+				}
+			}
+			#Nipples
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_nipples
+				value = {
+					value = 0.04
+					multiply = {
+						value = var:bno_breast_size
+						add = var:bno_becoming_dark
 					}
 				}
 			}
 			morph = {
-				mode = modify 
+				mode = modify
 				gene = gene_bs_nipples
 				value = {
-					add = {
-						value = var:bno_becoming_dark
-						divide = 10
+					value = 0.1
+					multiply = {
+						value = var:bno_breast_size
+						add = var:bno_becoming_dark
 					}
 				}
 			}
@@ -376,13 +405,61 @@ bno_bigger_boobs = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
-				exists = var:bno_becoming_dark
-				is_body_modification_ok = yes
+				add = 1
+				exists = var:bno_breast_size
 			}
 		}
 	}
 }
+
+#bno_bigger_boobs = {
+#	usage = game
+#	bno_bigger_boobs = {
+#		dna_modifiers = {
+#			#Changes Breast Size
+#			morph = {
+#				mode = modify 
+#				gene = gene_bs_bust
+#				value = {
+#					add = {
+#						value = var:bno_becoming_dark
+#						divide = 10
+#					}
+#				}
+#			}
+#			#Changes Breast Size
+#			morph = {
+#				mode = add 
+#				gene = gene_breast_excess
+#				template = breast_excess
+#				value = {
+#					add = {
+#						value = var:bno_becoming_dark
+#						multiply = 0.03
+#					}
+#				}
+#			}
+#			morph = {
+#				mode = modify 
+#				gene = gene_bs_nipples
+#				value = {
+#					add = {
+#						value = var:bno_becoming_dark
+#						divide = 10
+#					}
+#				}
+#			}
+#		}
+#		weight = {
+#			base = 0
+#			modifier = {
+#				add = 1000
+#				exists = var:bno_becoming_dark
+#				is_body_modification_ok = yes
+#			}
+#		}
+#	}
+#}
 
 bno_bigger_butts = {
 	usage = game

@@ -85,3 +85,71 @@ bno_futa_bisexual = {
         set_sexuality = bisexual
     }
 }
+
+bno_set_breast_size_0 = {
+    set_variable = {
+        name = bno_breast_size
+        value = 0
+    }
+}
+
+bno_set_breast_size_1 = {
+    set_variable = {
+        name = bno_breast_size
+        value = 1
+    }
+}
+
+bno_set_breast_size_2 = {
+    set_variable = {
+        name = bno_breast_size
+        value = 2
+    }
+}
+
+bno_set_breast_size_3 = {
+    set_variable = {
+        name = bno_breast_size
+        value = 3
+    }
+}
+
+bno_set_breast_size_4 = {
+    set_variable = {
+        name = bno_breast_size
+        value = 4
+    }
+}
+
+bno_set_breast_size_5 = {
+    set_variable = {
+        name = bno_breast_size
+        value = 5
+    }
+}
+
+# add base breast value to character that has breast trait
+bno_seed_breast_size_variable = {
+    if = {
+        limit = {
+            NOT = { exists = var:bno_breast_size }
+        }
+        switch = {
+            trigger = has_trait
+            #Small
+            tits_small_bad_3 = { bno_set_breast_size_0 = yes }
+            tits_small_good_3 = { bno_set_breast_size_0 = yes }
+            tits_small_bad_2 = { bno_set_breast_size_1 = yes }
+            tits_small_good_2 = { bno_set_breast_size_1 = yes }
+            tits_small_bad_1 = { bno_set_breast_size_2 = yes }
+            tits_small_good_1 = { bno_set_breast_size_2 = yes }
+            #Big
+            tits_big_bad_1 = { bno_set_breast_size_3 = yes }
+            tits_big_good_1 = { bno_set_breast_size_3 = yes }
+            tits_big_bad_2 = { bno_set_breast_size_4 = yes }
+            tits_big_good_2 = { bno_set_breast_size_4 = yes }
+            tits_big_bad_3 = { bno_set_breast_size_5 = yes }
+            tits_big_good_3 = { bno_set_breast_size_5 = yes }
+        }
+    }
+}

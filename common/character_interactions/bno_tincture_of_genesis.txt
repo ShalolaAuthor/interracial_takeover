@@ -22,13 +22,19 @@
             trigger_if = {
                 limit = {
                     is_a_male = yes
+                    is_bbc = yes
                 }
-                is_bbc = yes
+                is_adult = yes
+            }
+            trigger_else_if = {
+                limit = {
+                    is_a_girl = yes
+                }
+                is_bno_curious_and_up = yes
                 is_adult = yes
             }
             trigger_else = {
-                is_bno_curious_and_up = yes
-                is_adult = yes
+                always = no
             }
         }
         scope:recipient = {
@@ -52,7 +58,7 @@
                 limit = {
                     is_a_girl = yes
                 }
-                is_mindless_bbc_slut = no
+                is_mindless_bbc_slut = yes
             }
         }
         scope:recipient = {

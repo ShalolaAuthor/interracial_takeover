@@ -37,20 +37,20 @@ bno_random_xp_positive = {
 	value = { 1 5 }
 }
 
-bno_random_xp_negative = {
+bno_random_xp_negative = { 
 	value = { -5 -1 }
 }
-
+#negative is blonder
 hair_color_x = {
-   value = 1
-   divide = var:bno_becoming_dark
-   add = -0.5
+   value = -1
+   multiply = var:bno_becoming_dark
+   multiply = 0.2
 }
-
+#positive is lighter
 hair_color_y = {
    value = 1
-   divide = var:bno_becoming_dark
-   add = -0.5
+   multiply = var:bno_becoming_dark
+   multiply = 0.2
 }
 
 skin_color_x = {

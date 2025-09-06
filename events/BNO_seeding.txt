@@ -166,5 +166,13 @@ bno_trait_seeding.0006 = {
 			}
 			remove_trait = bno_bbc
 		}
+		trigger_event = bno_trait_seeding.0007
+	}
+}
+# add breast size variable
+bno_trait_seeding.0007 = {
+	hidden = yes
+	immediate = {
+		bno_seed_breast_size_variable = yes
 	}
 }
