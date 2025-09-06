@@ -17,3 +17,6 @@ bno_tincture_of_genesis_interaction: "Tintura del Génesis" # AI Tags
 bno_tincture_of_genesis_interaction.desc: "Vas a transformar a tu esposa. [recipient.GetFirstName] existencia" # AI Tags
 bno_tincture_of_genesis_interaction.not_white: "Ella es[GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
 bno_tincture_of_genesis_interaction.effect: "Alimentarás a tu esposa. [recipient.GetFirstName] tu potente esperma, transformando su propio núcleo." # AI Tags
+
+bno_tincture_of_genesis_interaction.desc.female: "Le pediré a mi marido que me transforme." # AI Tags
+bno_tincture_of_genesis_interaction.effect.female: "Su marido le dará de comer su esperma, como su única fuente de sustento." # AI Tags

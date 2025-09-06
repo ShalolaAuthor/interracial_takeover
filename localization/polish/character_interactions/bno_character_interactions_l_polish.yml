@@ -17,3 +17,6 @@ bno_tincture_of_genesis_interaction: "Tynktura Księgi Rodzaju" # AI Tags
 bno_tincture_of_genesis_interaction.desc: "Zmieniesz swoją żonę . [recipient.GetFirstName] istnienie" # AI Tags
 bno_tincture_of_genesis_interaction.not_white: "Jest . [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
 bno_tincture_of_genesis_interaction.effect: "Będziesz karmił swoją żonę . [recipient.GetFirstName] Twój potężny kum, przekształcając jej rdzeń." # AI Tags
+
+bno_tincture_of_genesis_interaction.desc.female: "Poproszę męża , by mnie przemienił ." # AI Tags
+bno_tincture_of_genesis_interaction.effect.female: "Twój mąż będzie karmił cię swoim płodem, jako jedyny źródło utrzymania." # AI Tags

@@ -17,3 +17,6 @@ bno_tincture_of_genesis_interaction: "Окраска Бытия" # AI Tags
 bno_tincture_of_genesis_interaction.desc: "Ты изменишь свою жену. [recipient.GetFirstName]существование" # AI Tags
 bno_tincture_of_genesis_interaction.not_white: "Это она. [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
 bno_tincture_of_genesis_interaction.effect: "Ты будешь кормить свою жену. [recipient.GetFirstName]Твоя сильная сперма, преобразующая её ядро." # AI Tags
+
+bno_tincture_of_genesis_interaction.desc.female: "Я попрошу мужа изменить меня." # AI Tags
+bno_tincture_of_genesis_interaction.effect.female: "Ваш муж будет кормить вас своей спермой, как ваш единственный источник пропитания." # AI Tags
