@@ -1,0 +1,10 @@
+﻿l_polish:
+ #Influence Child
+ #success
+ bno_character_interaction_0001.title: "Ptaki i pszczoły" # AI Tags
+ bno_character_interaction_0001.desc: "Adoracja wyższej rasy nie przychodzi naturalnie. Ale dzięki zaangażowaniu Afrykańczyków, którzy zatopili twoje królestwo, udało ci się przekonać córkę, że nie ma nic przeciwko zainteresowaniu się kimkolwiek. Ona chce. Podczas gdy wyraziłeś chęć, by poślubiły kogoś z wyższego statusu, zachęcałeś do myślenia o niewysiedlonych poddanych, a zwłaszcza o ciemniejszych. Wychodząc z ogrodu z nią, nie możesz się powstrzymać od nadziei, że nowym mottem twojej dynastii jest promowanie mieszanej przyszłości." # AI Tags
+ bno_character_interaction_0001.a: "Chodźmy się napić." # AI Tags
+ #failure
+ bno_character_interaction_0002.title: "Ptaki i pszczoły" # AI Tags
+ bno_character_interaction_0002.desc: "Twój krewny wydaje się być zagubiony w myślach, marząc o innych rzeczach, gdy wytłumaczysz rolę ludów lądowych i nie lądowych, zorganizowanych małżeństw, rodowodów i podobnych. Nic z tego się nie utrzymuje, nawet z rozwijającą się dojrzałością twojej córki. Zdenerwowany brakiem zrozumienia dziecka, zdecydujesz się zmienić temat - mając nadzieję, że będzie lepiej." # AI Tags
+ bno_character_interaction_0002.a: "Chodźmy się napić." # AI Tags

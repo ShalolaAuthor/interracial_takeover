@@ -1,0 +1,68 @@
+﻿l_polish:
+# bno_events00 - invite influence decision
+ bno_events00: "Przyjmuj Afrykańskiego uchodźcę w swoim sądzie" # AI Tags
+ bno_events00.desc: "W waszym królestwie zgłoszono dziwne, kolorowe osoby uciekające z dalekiej ziemi. Nie wiadomo, czy są tu w wrogich okolicznościach. Jednakże ich siła jest widoczna, tylko na pierwszy rzut oka.\n\n Tylko niewielu zostało widzianych wśród twojego ludu. Może mają obcą kulturę, która może być korzystna? Dary i wgląd?\n\n Może powinieneś zobaczyć, co oni robią?" # AI Tags
+ bno_events00_decision_tooltip: "Obcokrajowcy zostali wezwani do odwiedzenia Waszej Wysokości." # AI Tags
+ bno_events00_confirm: "Wyślij głosicieli." # AI Tags
+ refugee_effect_1: "Przedstawicie grupę cudzoziemców i możecie wybrać jednego, który dołączy do waszego sądu." # AI Tags
+
+#bno_events01 - receiving influence
+ bno_events01.title: "Przybyli cudzoziemcy!" # AI Tags
+ bno_events01.desc: "Niewielu, którzy byli widziani w twoim królestwie, zebrało się przed tobą, na twoim dworze. Nazywają się różnymi imionami, pochodząc z wielu plemion. Nubijski, ghanski, somalijski, malijski. Może ich wpływ zagraniczny mógłby pomóc w wojnie i dyplomacji?\n\n Z bieżących uchodźców tylko nieliczni pasują do rachunku. Każdy z nich, wyjątkowy na swój sposób, ale równie ciemna skóra. Twój umysł nie może się powstrzymać od wędrowania, wycofując opowieści o lądzie na południe od Morza Śródziemnego.\n\n Chociaż teraz decyzja leży przed tobą. [target1.GetFirstName]/ [target3.GetFirstName] lub [target2.GetFirstName] - Nie, nie.\n\n Kto dołączy do waszego sądu?" # AI Tags
+ bno_events01.a: "[target1.GetFirstName] jest najbardziej godny." # AI Tags
+ bno_events01.b: "[target2.GetFirstName] Jest najlepszym kandydatem." # AI Tags
+ bno_events01.c: "[target3.GetFirstName] dołączy do mojego sądu." # AI Tags
+ bno_events01.d: "Błogosławię nas twoim wpływem..." # AI Tags
+ 
+ #bno_events02 - when receiving a kingdom title and being married to a BBC
+ bno_events02.title: "Afrykański król" # AI Tags
+ bno_events02.desc: "Kochanie, chcesz się tym podzielić? Wasze panowanie nad tą ziemią?\n\n Twoje serce płynie, ręce krzyżują przed tobą pokornie, całkowicie poświęcone twojej planie zakończenia narodu.\n\n Twoje potomstwo będzie miało siłę, kolor i inteligencję twojego ukochanego.\n\n Wydarzenie [target1.GetLadyLord] który był lewem w wojnie i w łóżku.\n\n Twój król." # AI Tags
+ bno_events02.a: "Chodźmy... Idź do naszych sypialni." # AI Tags
+ 
+ #bno_events03 - when receiving an empire title and being married to a BBC
+ bno_events03.title: "Początek końca" # AI Tags
+ bno_events03.desc: "Wraz z twoim sukcesem i roszczeniem o najwyższy tron w twoim królestwie, twój małżonek nosił odpowiedni tytuł.\n\n Przybywając z dalekiego kraju, rzadko znany przez " białych ludzi", twój kochanek nie tylko zafascynował twoje serce, ale także twoje ziemie.\n\n To jednak dopiero początek. [target1.GetHerHis] kultura, wiara i kolor skóry zaatakowały rdzenne ludność." # AI Tags
+ bno_events03.a: "Mój wyścig się kończy." # AI Tags
+
+#bbcconversion - decision
+ bbcconversion.title: "Afrykańskie przewagę" # AI Tags
+ bbcconversion.desc: "Zdecydowałeś się na [bno_religion|E], czcząc tylko czarnych bogów. Masz nagłe pragnienie rozprzestrzeniania wpływów [bno_bbc|E] na całym świecie" # AI Tags
+ bbcconversion.a: "Wkrótce świat upadnie przed czarnymi ludźmi." # AI Tags
+ 
+ #test
+ bno_election: "Przyjmuj nowy sukces" # AI Tags
+ bno_election_confirm: "Potwierdzenie" # AI Tags
+ bno_election_decision_desc: "Po przejrzeniu dokumentów i rozprawianiu się z liniami sukcesji, zostałeś oświecony przez dworca, aby założyć nowy rodzaj hierarchii - hierarchii skoncentrowanej na rasie, zamiast płci." # AI Tags
+ bno_election_decision_tooltip: "Poddajesz się?" # AI Tags
+ bno_election_decision.a: "Wystarczy! Głowa pierwsza!" # AI Tags
+
+ bull_decision: "Zadzwoń do byka, żeby pieprzył swoją żonę." # AI Tags
+ bull_decision_desc: "Twoja żona jest uzależniona od dużych czarnych kutasów tych nowych dziwnych mężczyzn z Afryki i ty trochę tak, dlaczego nie powiedzieć o nich mieć [ROOT.Char.GetPrimarySpouse.GetHerHis] przed tobą?" # AI Tags
+ bull_decision_tooltip: "W twoim łóżku przyjdzie byk." # AI Tags
+ bull_decision_confirm: "Zadzwoń do byka!" # AI Tags
+
+#
+ bno_events_0005.title: "Byka niszczy twoją żonę" # AI Tags
+ bno_events_0005.desc: "Twój byk. [target1.GetFirstName] Otwiera drzwi i patrzy na ciebie i twoją żonę. [target2.GetFirstName] - Nie, nie. Twoja żona wydaje się zaskoczona i pyta, co się dzieje. Twój rycerz [target1.GetFirstName] łapać [target2.GetHerHis] i siły [target2.GetHerHis] Za bardzo go wstrząsnij, ale twoja żona jest bardzo podekscytowana. Twoje kutasy stają się twarde i zaczynasz masturbować się bez wahania, siedząc na kanapie. Twoja żona. [target2.GetFirstName] Jest mokry jak nigdy wcześniej. [target1.GetFirstName] łzy [target2.GetHerHis] Rozdziela się i zaczyna się bić. [target2.GetHerHis] Kremowe kurczaki i uderzenie [target2.GetHerHis] tyłek, podczas [target2.GetSheHe] Krzycze z przyjemności, gdy patrzy na ciebie. Nie możesz dłużej trzymać się i głośno ćpać, podczas gdy jesteś przytłoczony, twoja żona ma orgazm po orgazmie. Nagle. [target1.GetFirstName] Zaczyna się wkurzać w cipkę twojej żony i nic nie możesz zrobić..." # AI Tags
+ bno_events_0005.a: "Boże, co za wspaniały widok, kochanie. Kocham cię." # AI Tags
+
+bno_events.0006.title: "Twoja wybrana szlachetnica" # AI Tags
+bno_events.0006.desc: "#wea k Kiedy ciekawy szlachetny zbliża się do mojego dworu, pozdrawiam [target1.GetHerHis] z ciepłym uśmiechem i zaproszeniem. #!\n\n Witamy. [target1.GetFirstName]/ [target3.GetFirstName] lub [target2.GetFirstName] - Nie, nie. Wasza obecność jest wielkim zaszczytem.\n\n#wea k Szlachetny patrzy wokół z podziwem jako [target1.GetSheHe] Przyjmuje wielkość mojego majątku - od luksusowych mebli do bezcennych dzieł sztuki, które zdobią każdą ścianę. #!\n\n Cieszę się, że przyjąłeś moje zaproszenie. Cieszę się, że podzielimy się z wami tymi skarbami i dowiemy się więcej o waszych zainteresowaniach kulturą i sztuką.\n\n#wea k Szlachetny knuje z szacunkiem, wyraźnie wdzięczny za okazję do odkrywania tego nowego świata przed [target1.GetHerHis] - Nie, nie. #!" # AI Tags
+
+# bno_realize_bbc_potential Non-BBC Black character gains BBC
+bno_realize_bbc_potential: "Odkryj swój BBC" # AI Tags
+bno_realize_bbc_potential.desc: "Zdajesz sobie sprawę, że twoje dominujące czarne ciało daje ci wrodzone przewagę nad niższymi podrasami. Nadszedł czas, aby Europa była twoją suką." # AI Tags
+bno_realize_bbc_potential_decision_tooltip: "Będziesz dominującym czarnym szczeniakiem." # AI Tags
+bno_realize_bbc_potential_confirm: "Świat jest mój." # AI Tags
+bno_realize_bbc_potential_effect_1: "Zyskasz [bno_bbc|E] - Znak." # AI Tags
+
+bno_events.0007.title: "[ROOT.Char.Custom('GetCourt')|U] [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
+bno_events.0007.desc: "W celu uspokojenia rosnącej populacji czarnych mężczyzn z niewystarczającymi apetytami seksualnymi, zdecydowałam, że nadszedł czas, aby zatrudnić dedykowaną drużynę białych dziewczyn, Żyją i oddychają tylko służąc swoim mistrzom. Te [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] Od urodzenia są wyszkoleni w sztuce przyjemnego kurca - wiedzą dokładnie, jak wykorzystać każdy centymetr swojego ciała, aby przynieść maksymalną przyjemność swoim ciemnym królom.\n\n Mój plan jest prosty: stworzyć społeczeństwo, w którym ci czciciele istnieją wyłącznie, aby zaspokoić potrzeby swoich czarnych władców, jednocześnie utrzymywać ich szczęśliwych i zadowolonych. Zapewniając tę kluczową usługę, mam nadzieję zapobiec wszelkim potencjalnym zamieszkom lub przemocy, które mogą powstać z powodu zatłoczonej frustracji seksualnej wśród męskiej populacji. W końcu nikt nie chce gniewnych, gorących czarnych mężczyzn wędrujących po ulicach w poszukiwaniu cipki!" # AI Tags
+bno_events.0007.e: "[excellent_skill_option.GetFirstNameNoTooltip] umiejętności jako [bno_whore|E] Jest znany w całym kraju!" # AI Tags
+bno_events.0007.e.aptitude: "[excellent_skill_option.GetUINamePossessive|U] [aptitude|E] jest [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]" # AI Tags
+bno_events.0007.a.tt: "A. [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] ma również miesięczny wynagrodzenie [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
+bno_events.0007.a: "Najwyraźniej... [high_skill_option.GetFirstNameNoTooltip] Pieprzył mnóstwo facetów." # AI Tags
+bno_events.0007.a.aptitude: "[high_skill_option.GetUINamePossessive|U] [aptitude|E] jest [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]" # AI Tags
+bno_events.0007.b: "[low_skill_option.GetFirstNameNoTooltip] wydaje się entuzjastyczny, jeśli nic innego." # AI Tags
+bno_events.0007.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E] jest [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]" # AI Tags
+

@@ -1,0 +1,77 @@
+﻿l_polish:
+
+#BBC's POV if wife is white breeder
+bno_birth.0001.wife.t: "Biały płodny łódź żony" # AI Tags
+bno_birth.0001.wife.desc: "Twoja żona. [ROOT.GetCharacter.GetName] ponownie rodzi czarnego dziecka, cementując jej reputację godnego hodowcy. Została zmuszona do urodzenia czarnych dzieci." # AI Tags
+#Cuck's POV if wife is white breeder
+bno_birth.0001.cuck.wife.t: "Żona rodzi wiele dzieci" # AI Tags
+bno_birth.0001.cuck.wife.desc: "Twoja żona. [ROOT.GetCharacter.GetName] urodziła kilka dzieci. Chociaż w głębi twojego umysłu wydaje ci się dziwne, że większość nie wygląda jak inni." # AI Tags
+
+bno_birth.0001.lover.t: "Biały płodny łódź kochanka" # AI Tags
+bno_birth.0001.lover.desc: "Twój kochanek. [ROOT.GetCharacter.GetName] nie przestaje zdradzać swojej rasy, przyprowadzając na świat kolejnego czarnego dziecka. Jej największą radością jest wspieranie czarnej superiorności." # AI Tags
+
+bno_birth.0001.t: "Mój biały płodny łódź" # AI Tags
+bno_birth.0001.personal_desc: "Kolejne czarne dziecko urodziło się z mojego płodnego łona. Połączenie skóry mojego dziecka z moją napełnia mnie dumą i odnawia moje pragnienie wzmocnienia wyższej rasy." # AI Tags
+
+bno_birth.0002.t: "Moje nasienie się rozprzestrzenia" # AI Tags
+bno_birth.0002.personal_desc: "/Błogosławiłem świat /z wieloma czarnymi dziećmi." # AI Tags
+
+bno_birth_real_father_notification.title: "Moje dziecko." # AI Tags
+bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] Urodziła i wiesz w sercu, że jej dziecko jest twoje, niezależnie od tego, czy możesz to udowodnić." # AI Tags
+bno_birth_cuck_father_notification.title: "Moje dziecko." # AI Tags
+bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] Urodziła, i jesteś trochę zaskoczona, jak chorobnie wygląda. Czy normalne jest, aby dziecko miało tak ciemną skórę?" # AI Tags
+
+bno_happy_wife.0001.title: "Żona wygląda szczęśliwie." # AI Tags
+bno_happy_wife.0001.desc: "Cieszysz się, że to widzisz. [ROOT.GetCharacter.GetName] Wygląda na to, że ostatnio jest w dużym nastroju." # AI Tags
+
+bno_married.title: "Wziął żonę" # AI Tags
+bno_married_desc: "Wykonujesz swoją rolę w rozwoju Czarnej Nadwyżki, biorąc sobie żonę. Niech da ci wiele nowych dzieci." # AI Tags
+
+bno_bull_0004_notification.title: "Żona dobrze je" # AI Tags
+bno_bull_0004_notification.desc: "Ostatnio twoja żona [ROOT.GetCharacter.GetName] Wygląda na to, że złamała złe nawyki żywieniowe. Powiedziała, że przełączyła się na dietę płynną. Musiała to lubić, bo czasami widziano ją z płynnym jedzeniem jeszcze wokół ust." # AI Tags
+
+bno_bull_0008_notification.title: "Niezwykłe podobieństwo" # AI Tags
+bno_bull_0008_notification.desc: "Głoski o dziwce przechodzącej przez czarne obozy uchodźców, która dziwnie przypomina twoją drogą żonę. [target1.GetFirstName] - Nie, nie." # AI Tags
+
+bno_bull_0010_notification.title: "Błąd rachunkowy?" # AI Tags
+bno_bull_0010_notification.desc: "Jestem pewna, że się nie mylę. Wygląda na to, że brakuje złota z skarbca. Kto mógł go zabrać?" # AI Tags
+
+bno_bull_0012_notification.title: "Czy on coś wie?" # AI Tags
+bno_bull_0012_notification.desc: "Ostatnio zauważyłem [ROOT.GetCharacter.GetName] patrzył na mnie inaczej, jakby wiedział coś, czego nie powinien." # AI Tags
+
+bno_slut_0008_notification.title: "Niezwykłe podobieństwo" # AI Tags
+bno_slut_0008_notification.desc: "Głoski o dziwce przechodzącej przez czarne obozy uchodźców, która dziwnie przypomina twoją drogą żonę. [slut.GetFirstName] - Nie, nie." # AI Tags
+
+bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] Daję ci wszystkie jej łupy." # AI Tags
+bbc_worshipper.0002.notifications.desc: "Po kilku miesiącach ciężkiej pracy i niestrudzonej nocy, dała ci wszystkie swoje zasoby, bo nie wie, co z tym zrobić." # AI Tags
+
+bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] Zwrócił się do czczenia [bno_religion|E]" # AI Tags
+bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] przyjął nauki [bno_religion|E], poświęcając [target_vassal.GetHerselfHimself] do jej czczenia i przyjemności, które przynosi." # AI Tags
+
+bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] Zwrócił się do czczenia [bno_religion|E]" # AI Tags
+bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] przyjął nauki [bno_religion|E], poświęcając swoje zasoby jego wielbieniu i przyjemności, które przynosi." # AI Tags
+
+bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] Zwrócił się do czczenia [bno_religion|E]" # AI Tags
+bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] przyjął nauki [bno_religion|E], poświęcając [neighboring_lord_or_lady.GetHerselfHimself] do jej czczenia i przyjemności, które przynosi." # AI Tags
+
+bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] Zwrócił się do czczenia [bno_religion|E]" # AI Tags
+bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] przyjął nauki [bno_religion|E], poświęcając swoje zasoby jego wielbieniu i przyjemności, które przynosi." # AI Tags
+
+bbc_priestess.1001.rejected_conversion.male.title: "Przechylenie odrzucone: Czarny kurczak odrzucony" # AI Tags
+bbc_priestess.1001.rejected_conversion.male.desc: "Pomimo [ROOT.Char.GetFirstName] Jego gorące kazania o poddaniu ciała i duszy chwały Boga [bno_bbc|E] Zatrudzenie odwróciło stado. Ich serca pozostają uparty, ich usta niebłogosławione, a Kościół Czarnego Puka nie zyskuje nowych uczniów dzisiaj." # AI Tags
+
+bbc_priestess.1001.rejected_conversion.female.title: "Jej prośby zostały odrzucone: czarny kurczak odrzucony" # AI Tags
+bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] Odrzuciła jej oddanie każdą szalą słowem i obiecała zbawienie poprzez uścisk BBC, ale tłum sprzeciwił się. Ich umysły pozostały zamknięte, ich ciała nie uzyskane, a jej święta pożądanie nie przynosiło nawrócenia tej nocy." # AI Tags
+
+bbc_priestess.1001.target_not_found.male.title: "Święty łow kapłana staje się rozpaczliwy..." # AI Tags
+bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] klęka przy ołtarzu Czarnego Kurca, niespokojny i pulsujący świętą lustą. Żadnych nowych wyznawców, żaden grzesznik, który by prowadził do nawrócenia. Tylko jego własny ciężki łódź, kapnący z boskiej potrzeby, tęskniąc za rozlewaniem świętego ziarna w trzęsienie świeżego ucznia. Bling oddanie." # AI Tags
+
+bbc_priestess.1001.target_not_found.female.title: "Kapłanka czeka na zwolennika..." # AI Tags
+bbc_priestess.1001.target_not_found.female.desc: "W jej jedwabnych białych szatach, delikatny [ROOT.Char.GetFirstName] kłania się przed ołtarzem Czarnego Kurczaka, jej szlachetne piersi przycisnęły się w trzęsiącym oddaniu. Z pozaziemską łaską i słodkim, bolesnym uśmiechem, szeptuje modlitwy w ciemności oświetlonej świecami, ale żaden grzesznik nie przychodzi, aby zostać nawrócony, pozostawiając jej miękką ramę drżącą świętym. Potrzeba, zdesperowana, by zawinąć się wokół świętej ofiary, którą tak bardzo pragnie oddać cześć." # AI Tags
+
+bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] Jest teraz czarniejszy niż kiedykolwiek." # AI Tags
+bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] Jest teraz czarniejszy niż kiedykolwiek." # AI Tags
+bno_marriage.0007.notifications.desc.male: "Członek twojej rodziny rozprzestrzenił swoje czarne nasienie do odpowiedniego partnera" # AI Tags
+bno_marriage.0007.notifications.desc.female: "Członek twojej rodziny poślubił #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!" # AI Tags
+
+bbc_diarch: "[bno_bbc|E]" # AI Tags

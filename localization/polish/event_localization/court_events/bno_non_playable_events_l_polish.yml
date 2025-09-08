@@ -1,0 +1,4 @@
+﻿l_polish:
+
+bno_non_playable.0001.title: "Różnica w skarbce królewskiej" # AI Tags
+bno_non_playable.0001.desc: "W Królewskim Skarbie odnotowano niewielką niezgodność. Brakuje niezliczonej sumy złotych monet. Podczas gdy kwota nie jest wystarczająco duża, aby wywołać alarm, wymaga ona natychmiastowego zbadania. Królewski urzędnik podkreśla, że wszystkie praktyki rachunkowe pozostają dokładne, [cp_steward.GetSheHe] sugeruje, że dokładny przegląd ostatnich wydatków może wywołać brakującą kwotę. Zamówiłem. [cp_steward.GetHerHis] Szybko zwróć uwagę na sprawę." # AI Tags

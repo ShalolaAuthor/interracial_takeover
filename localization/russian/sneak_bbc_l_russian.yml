@@ -1,0 +1,19 @@
+﻿l_russian:
+#sneak bbc interaction
+ sneak_bbc: "Укради чёрный жеребец в иностранный суд." # AI Tags
+ sneak_bbc_desc: "Подвинься. [bno_bbcs|E] от моего двора до двора избранного правителя." # AI Tags
+ actor_secondary_sneak_bbc: "Выбери быка, чтобы прокрасться." # AI Tags
+ BBC_cg_spy_reason: "Есть придворный или гость, который поможет украсть [bno_bbc|E]:: #color_gree n +5 #!" # AI Tags
+ BBC_family_spy_reason: "Есть один член семьи, который поможет украсть [bno_bbc|E]:: #color_gree n +10 #!" # AI Tags
+ BBC_curious_reason: "#color_whit e [ROOT.Char.GetFullName]! любопытно. [bno_bbc|E]:: #color_gree n +10 #!" # AI Tags
+ BBC_fucked_reason: "#color_whit e [ROOT.Char.GetFullName]! его трахнула... [bno_bbc|E]:: #color_gree n +25 #!" # AI Tags
+ BBC_slut_reason: "#color_whit e [ROOT.Char.GetFullName]! Влюблен в [bno_bbc|E]:: #color_gree n +50 #!" # AI Tags
+ BBC_welcome_reason: "#color_whit e [ROOT.Char.GetFullName]! приветствует [bno_bbc|E]:: #color_gree n +50 #!" # AI Tags
+#chastity interaction
+ bno_chastity_interaction: "Применить целомудрие" # AI Tags
+ bno_chastity_interaction_desc: "Обеспечивать целомудрие [recipient.GetShortUINameNoTooltip]" # AI Tags
+ bno_castration_interaction: "Опустите его яйца." # AI Tags
+ bno_castration_interaction_desc: "Полностью кастрированный [recipient.GetShortUINameNoTooltip]" # AI Tags
+#influence child interaction
+ bno_influence_child: "Поощрять любопытство" # AI Tags
+ bno_influence_child_desc: "Влияние ребенка на истину" # AI Tags

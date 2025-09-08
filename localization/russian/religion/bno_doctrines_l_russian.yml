@@ -1,0 +1,14 @@
+﻿l_russian:
+
+special_doctrine_is_bno_faith_name: " Черный коктейль" # AI Tags
+is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
+special_doctrine_is_bno_faith_desc: "Мы должны проявить сострадание к этим заблуждающимся душам, которые еще не испытали экстази [bno_bbc|E] Для одного вкуса это все, что нужно. Как только ты почернеешь, никогда не вернёшься! Сегодня их разум может быть затуманен невежеством, но они придут поклоняться нашему алтарю, моля о сладкой силе [bno_bbc|E]." # AI Tags
+
+bno_hostility_group_name: "$hostility_group_name$" # AI Tags
+bno_hostility_doctrine_name: "Афродиазма" # AI Tags
+bno_hostility_doctrine_desc: "Среди религий афродиазмы можно назвать следующие:\n[GetReligionFamily('rf_bbcs').GetReligions]" # AI Tags
+
+doctrine_bno_tenets_name: "[bno_religion|E]:: Блоки" # AI Tags
+
+tenet_bno_black_cock_conquest_name: " Черный коктейль" # AI Tags
+tenet_bno_black_cock_conquest_desc: "Через горячую молитву и святое завоевание, мы распространим славу [bno_bbc|E] через всю землю!" # AI Tags

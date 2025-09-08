@@ -1,0 +1,43 @@
+﻿l_polish:
+
+ #BBC courtier force buys county title
+bno_title_change_0001.title: "Odważne żądanie czarnego mężczyzny" # AI Tags
+bno_title_change_0001.desc: "Imponująca afrykańska postać w waszym dworze, promieniująca zaufanie i władzę, wkracza w waszą obecność. Żąda tytułu odpowiadającego jego wysokości i wpływowi. Jego głęboki głos jasno pokazuje, że to nie jest prośba. Oferuje się złoto, ale oczekuje się składania." # AI Tags
+bno_title_change_0001.a: "Daj mu tytuł i weź złoto." # AI Tags
+bno_title_change_0001.b: "Odmówić jego żądania, ale ryzykować jego gniew" # AI Tags
+
+ 
+bno_title_change_0002.title: "Tytuł dla godnych" # AI Tags
+bno_title_change_0002.desc: "Potężny dworca, lojalny wobec Czarnego Nowego Porządu Światowego, zapłacił ciężką sumę, aby przejąć kontrolę nad tytułem, który kiedyś należał do mniejszego vasalana. Ta zmiana władzy została zrealizowana, a przywiązany rządca, teraz świadomy, musi stawić czoła konsekwencjom jego nieudanej przywództwa. Wbrew zmianie władzy. Władca patrzy bezradnie, jak moc ucieka, co jest źródłem ogromnej frustracji i stresu." # AI Tags
+bno_title_change_0002.a: "Tytuł jest przeniesiony, a nowy przywódca wzrasta." # AI Tags
+ 
+ #bbc uses prestige to force vassal to give up title
+bno_title_change_0003.title: "Tytuł dla afrykańskiej przewagy" # AI Tags
+bno_title_change_0003.desc: "Potężny przywódca obozu, z ogromnym prestiżem, zmusza vasalana do poddania się pożądanym tytułowi. g. Władca, nieświadomy kiedyś, staje teraz w obliczu gorzkiej prawdy o jego stracie i powstaniu innego na jego miejsce, ale opiera się z gniewem i frustracją, czując utratę kontroli nad W porządku." # AI Tags
+bno_title_change_0003.a: "Tytuł zostaje zabrany, a nowy mistrz przejmuje kontrolę." # AI Tags
+ 
+ #high intrigue BBC courtier + AI vassal's slut wife kill vassal, take all title for themself, get married. cuck player informed
+bno_title_change_0004.title: "Wpadek pana: kraść ziemi, małżeństwo." # AI Tags
+bno_title_change_0004.desc: "Wstydliwy Afrykańczyk i urocza, pożądliwa żona wasała konspirują, by wziąć wszystko dla siebie. Z utratą tytułów męża, a jego życie w niebezpieczeństwie, obaj przejmują kontrolę nad tytułami i ziemami. S. Jego królestwo wyślizga się z niego, jak plotkarze. [bno_bbc|E] dworca zajmuje jego miejsce, podczas gdy jego dawna lojalna żona przyjmuje nowego pana. Kość zostaje pozostawiona w ciemności, tylko aby zostać poinformowana, że tytuły jego vasalana są teraz posiadane przez tego samego człowieka, który ukradł serce jego żony. Byka poślubi żonę, uczyniąc ją swoją, i bierze tytuły jako nagrodę. Los męża jest zamknięty, i zaczyna się nowa era pod panowaniem mistrza obozu i jego zabójczej żony." # AI Tags
+bno_title_change_0004.a: "Żona twierdziła, że ziemia została przejęta, a kurczak pozostawił się w desperacji." # AI Tags
+ 
+ #fully blacked wife takes all cuck players titles
+bno_title_change_0005.title: "Nowy porządek w sądzie" # AI Tags
+bno_title_change_0005.desc: "Twój dwór stał się bojowym pole szeptów i ambicji. [ROOT.Char.GetPrimarySpouse.GetFirstName] Kiedyś zadowolona z roli partnera, stała się postacią nieustannego ambicji i reformy. Kierowana zasadami Czarnej Przyszłości, rozwinęła lojalnych zwolenników wśród waszych dworców, wykorzystując swój intelekt, urok i rosnącą niezadowolenie z białego. Jej retoryka jest równie uwodząca, jak i rewolucyjna. Mówi o Nowym Świecie, gdzie tradycja podda się postanowieniom, a władza nie jest już boskim prawem, ale wspólną odpowiedzialnością. Twierdzi, że twoje tytuły i władza są relikwiami rozpadającego się porządku, i że pod jej kierownictwem i czarnymi sługami, dwór i królestwo będą kwitnąć jak nigdy wcześniej. rudę. Ale jej żądania są kosztowne. Zgodność oznaczałaby poddanie się nie tylko tytułom, ale także samemu strukturze dziedzictwa. Ale odmowa ryzykuje oddaleniem twojego sądu, destabilizowaniem twojej władzy, a nawet gniewem kobiety, którą kiedyś nazywałeś równym. Wszystko się skończyło. Będziesz słuchał nowych panów tego świata." # AI Tags
+bno_title_change_0005.a: "Poddawaj się jej wizji i zrezygnuj ze swoich tytułów, przyjmując nowy porządek, który obiecuje." # AI Tags
+
+ #ruler bbc takes slut liege's titles , don't know if i've tested this yet?
+bno_title_change_0006.title: "Świt czarnego nowego porządku światowego" # AI Tags
+bno_title_change_0006.desc: "Siesmiczna zmiana rozpływa się w całej sferze. Kiedyś niezachwiany porządek, pełen tradycji i przywilejów, jest na skraju upadku. W centrum tego zamieszania stoi [ROOT.Char.GetFirstName], ucieleśnienie czarnej władzy i panowania, władca, którego obecność zapowiada przyjście czarnego Nowego Porządu Świata. Nie jest już zadowolony z służby pod kruchom rządem swojej suky. [target1.GetFirstName]/ [ROOT.Char.GetFirstName] Wzniósł się jako latarnia transformacji, mając wpływ jak ostrze i ideologię jak młotek. Dwornicy patrzą z szacunkiem i strachem jako dumni, ale podporządkowani [target1.GetFirstName] władca charakteryzujący się ich uległym przyjęciem dekadencji, a czci czarnego kurca przyczynia się do przytłaczającej siły i celu waszała. Sąd szepcze: [ROOT.Char.GetFirstName] Doktryna: świat wymyślony, gdzie stare linie władzy zostaną przechwycone, gdzie podporządkowanie nie jest słabością, ale drogą do jedności pod wyjątkową, niezaprzeczalną siłą. Wzrost [bno_bnwo|E] Nie jest to tylko rewolucja polityczna, ale głęboka restrukturyzacja władzy, w której dominuje siła i wizja, a niegodni są zmniejszani do niewolnictwa.\n\n Jak [target1.GetFirstName] Jeśli tytuły i godność zostaną pozbawione, pozostaje pytanie: czy to ostateczny triumf [bno_bnwo|E] Czy tylko pierwszy krok w większym zwycięstwie? Królestwo trzęsie się, a wschodzi nowy wiek, gdzie panuje czarny Nowy Porządek Świata." # AI Tags
+bno_title_change_0006.a: "Złap ich tytuły i otwórz nową erę." # AI Tags
+bno_title_change_0006.b: "Pożądaj tytuły i przywiąż je do siebie jako sługa i współmałżonka." # AI Tags
+ 
+bno_title_change_1006.title: "Proces podania" # AI Tags
+bno_title_change_1006.desc: "Dziedzictwo jest pełne murmurów zgromadzonych tłumów, których oczy stały na procesji, która zapowiada zwycięstwo czarnego Nowego Porządu Światowego. [ROOT.Char.GetFirstName]/Przewodniczący parady /z powietrzem niezachwianej pewności siebie, [target1.GetFirstName], byłego liege, jest wyświetlany w symbolicznej poddanie. Ten moment nie jest tylko spektaklem, ale deklaracją dla świata i poza nim.\n\n To wydarzenie sprawia, że w całym kraju panuje szacunek i strach. W sądzie [ROOT.Char.GetFirstName], kobiece dworcy, vasalle i goście obserwują wystawę, ich serca i umysły poruszane niezaprzeczalną obecnością władzy, wszyscy wychwalają wielkiego czarnego kurca. W sąsiednich krajach królowie i żony słyszą szepty o wydarzeniu, opowieści o dominacji i zdradzie rasowej budzące myśli, których nie odważą się wypowiedzieć.\n\n To nie jest tylko koniec jednego władcy i powstanie innego. To przekształcenie całego porządku, przypomnienie, że siła i wizja zwyciężają wszystko. Czarny Nowy Porządek Świata nie tylko zmienia politykę; przepisuje przeznaczenie, nie oszczędząc nikomu, kto staje mu w drodze. Kiedyś dumny [target1.GetFirstName] jest teraz żywym świadectwem tej prawdy, a ci, którzy są jej świadkami, czy z cieni swoich sądów, czy z stron szepanych plotek, nie mogą się powstrzymać od poczucia przyciągania tego. Nowy, bezkompromisowy wiek." # AI Tags
+bno_title_change_1001.a: "Pokaż porażonych i pozwól światu drżąc przed Czarną Wzrostą." # AI Tags
+
+ 
+#
+# bno_random_1001.title: "Test title"
+# bno_random_1001.desc: "Hi!"
+# bno_random_1001.a: "OK"

@@ -1,0 +1,13 @@
+﻿l_polish:
+
+bno_war_0001.title: "Wróg został zdradzony" # AI Tags
+bno_war_0001.desc: "Jeden z moich generałów ostrzegł mnie o niezwykłej sytuacji. Jeśli mamy wierzyć w te doniesienia, mój żałosny wróg [defender.GetFullName] Siedzi obecnie w moim lochu, co byłoby dla mnie wiadomością, ponieważ aktywnie prowadzę wojnę z nim.\n\n Ale jestem mniej zaskoczony, gdy dowiem się, że to była jego żona. [target1.GetFirstName] który dostarczył go moim żołnierzom. Wygląda na to, że widziała tę wojnę jako okazję, aby otwarcie upokorzyć się przed czarnymi kutasami. Powinieneś spełnić jej życzenie? Niezależnie od wyboru, [defender.GetFirstName] Jako więzień, zwycięstwo należy do ciebie, aby uzyskać, kiedy uważasz, że jest to odpowiednie." # AI Tags
+bno_war_0001.a: "Zasłużyła na swoje miejsce jako dworca." # AI Tags
+bno_war_0001.b: "Dobrze, ale nie ma jej miejsca na moim dworze." # AI Tags
+bno_war_0001.c: "Dobrze się spisała, wezmę ją za swoją." # AI Tags
+
+bno_war_0002.title: "Obrona czarnej supremacji" # AI Tags
+bno_war_0002.desc: "[bno_bbc|E] Jako główny obrońca ma szansę zdobyć cechę świętego wojownika i / lub dołączyć do Supremacy religii + armii spawn" # AI Tags
+bno_war_0002.a: "Niech mój miecz zabije wszystkie niższe rasy." # AI Tags
+bno_war_0002.b: "Jestem znów narodzony czarny supremacista." # AI Tags
+bno_war_0002.c: "Coś, coś, trzecia opcja." # AI Tags

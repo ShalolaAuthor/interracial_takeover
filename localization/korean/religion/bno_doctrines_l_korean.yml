@@ -1,0 +1,14 @@
+﻿l_korean:
+
+special_doctrine_is_bno_faith_name: "블랙 콕의 우월" # AI Tags
+is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
+special_doctrine_is_bno_faith_desc: "우리는 이 잘못된 영혼들에게 동정심을 나타내야 합니다. [bno_bbc|E] 한 가지 맛만 있으면 됩니다. 한 번 흑인이 되면 다시는 돌아오지 않을 거야! 그들의 정신은 오늘날 무지함으로 흐려질 수도 있지만 그들은 우리의 제단에서 예배를 드리고 [bno_bbc|E]." # AI Tags
+
+bno_hostility_group_name: "$hostility_group_name$" # AI Tags
+bno_hostility_doctrine_name: "아프로디아스마" # AI Tags
+bno_hostility_doctrine_desc: "다음과 같은 종교는 아프로디아스미 (Aphrodiasmic) 이다:\n[GetReligionFamily('rf_bbcs').GetReligions]" # AI Tags
+
+doctrine_bno_tenets_name: "[bno_religion|E]: 원칙" # AI Tags
+
+tenet_bno_black_cock_conquest_name: "블랙 콕의 정복" # AI Tags
+tenet_bno_black_cock_conquest_desc: "열렬한 기도와 거룩한 정복을 통해 [bno_bbc|E] 땅 너머로!" # AI Tags

@@ -1,0 +1,10 @@
+﻿l_spanish:
+ #Influence Child
+ #success
+ bno_character_interaction_0001.title: "Los pájaros y las abejas" # AI Tags
+ bno_character_interaction_0001.desc: "La adoración de una raza superior no viene naturalmente. Aunque, gracias a tu " participación" con los pueblos africanos inundando tu reino, has sido capaz de convencer a tu hija de que está perfectamente bien estar interesado en quienquiera que sea. Ella quiere. Aunque usted ha expresado su deseo de que se casen con alguien de rango superior, usted ha alentado la idea de siervos no desembarcados y, en particular, los de piel más oscura. Saliendo del jardín con ella, no puedes evitar esperar que el nuevo lema de tu dinastía sea el de promover un futuro mixto." # AI Tags
+ bno_character_interaction_0001.a: "Vamos a tomar algo." # AI Tags
+ #failure
+ bno_character_interaction_0002.title: "Los pájaros y las abejas" # AI Tags
+ bno_character_interaction_0002.desc: "Tu propio pariente parece estar perdido en el pensamiento, soñando despierto con otras cosas mientras explicas el papel de los pueblos desembarcados y sin tierras, matrimonios arreglados, linajes, y cosas por el estilo. Nada de eso parece quedarse, incluso con la madurez incipiente de su hija. Al sentirse frustrado por la falta de comprensión de su hijo, usted decide cambiar de tema, esperando que eso sea para mejor." # AI Tags
+ bno_character_interaction_0002.a: "Vamos a tomar algo, supongo." # AI Tags

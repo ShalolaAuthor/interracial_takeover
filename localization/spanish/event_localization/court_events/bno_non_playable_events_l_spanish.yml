@@ -1,0 +1,4 @@
+﻿l_spanish:
+
+bno_non_playable.0001.title: "Discrepancia en el Tesoro Real" # AI Tags
+bno_non_playable.0001.desc: "Se ha observado una pequeña discrepancia en el Tesoro Real. Parece que falta una suma no contabilizada de monedas de oro. Si bien la cantidad no es lo suficientemente sustancial como para causar alarma, merece una investigación inmediata. El mayordomo real insiste en que todas las prácticas contables siguen siendo meticulosas, y [cp_steward.GetSheHe] sugiere que un examen a fondo de los gastos recientes podría dar lugar a la suma que falta. He pedido [cp_steward.GetHerHis] atención rápida al asunto." # AI Tags

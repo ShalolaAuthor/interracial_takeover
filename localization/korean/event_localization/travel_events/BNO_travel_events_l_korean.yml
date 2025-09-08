@@ -1,0 +1,38 @@
+﻿l_korean:
+#Travel Flavor Events
+bno_travel_events_0001.title: "더 어두운 피부 를 가진 사람 들 에게 기부" # AI Tags
+bno_travel_events_0001.desc: "여러분의 여행에 걸쳐 여러분은 여러분의 긴밀한 일정을 지키고 있음에도 불구하고 주변의 땅을 직접 탐구하는 방향으로 향했습니다. 하지만, 밴드의 오락은 당신에게 그다지 중요하지 않습니다. 그리고 다시 한 번, 당신은 주 그룹에서 멀어지고, 나무의 한 조각에서 돌아다니고 있습니다.\n\n 처음에는 초창기 식물에 매료되었는데, 그 다음에는 인간 모양의 더 어두운 피부를 가진 존재가 서서 열매들을 채취하는 것을 보게 됩니다. [target1.GetSheHe|U] 자연적으로 이상한 것 같았지만, [target1.GetHerHis] 눈은 네 눈을 만났습니다. [target1.GetSheHe] 곧바로 당신 쪽으로 향했습니다. 깜짝 놀랐고, 꼬리를 돌릴 뻔했어요. [target1.GetSheHe] 외쳤다.\n\n"여주님, 가난한 간부에게 자선을 주십니까?" # AI Tags
+bno_travel_events_0001.a: "오, 신여! 물론! 여기, 내 지갑에서" # AI Tags
+bno_travel_events_0001.b: "자선? 좀 더... 샐러디스?" # AI Tags
+bno_travel_events_0001.c: "너한테서 떠나 네 손톱 아래의 흙을 볼 수 있어!" # AI Tags
+#
+bno_travel_events_0002.title: "새로운 법원 의 접근 방식" # AI Tags
+bno_travel_events_0002.desc: "외국을 여행하는 동안, 당신의 여행 그룹은 길 한가운데 한 남자를 만나게 됩니다! 분명히, 이른바 '아프리카' 계통, 그 곳에서 남쪽으로 기원. [target1.GetHerHis|U] 피부는 당신이 본 것보다 더 어두운데, [target1.GetSheHe] 네 기사들 보다 훨씬 더 재능 있는 사람이야\n\n 두 선지자가 그에게 보내니 그들은 당신으로부터 멀리하여 당신들의 시간을 방해하지 아니하며 음모를 꾸미지 아니하도록 함이라 그럼에도 불구하고, 그들은 제안으로 도착합니다: [target1.GetSheHe|U] 당신의 그룹에 합류하고 싶어." # AI Tags
+bno_travel_events_0002.a: "다른 시체가 큰 번거로움이 아닐까요?" # AI Tags
+bno_travel_events_0002.b: "저는 대화할 것을 요구합니다 [target1.GetHerHim] 비밀리에요" # AI Tags
+bno_travel_events_0002.c: "어째서 무질서한 사람이 나랑 같이 갈 수 있을까?" # AI Tags
+
+bno_travel_events_2002.title: "새로운 코르티어 접근법: 당신의 고양이" # AI Tags
+bno_travel_events_2002.desc: "말에서 내려와 군중으로부터 멀어지고 어두운 피부를 가진 외국인은 분명히 약간 불안했습니다. 호기심이 그려진 [target1.GetHerHis] 얼굴, 그리고 땀으로 덮여 있는 [target1.GetHerHis] 브라우, 당신이 whisk [target1.GetHerHim] 덤불 뒤에\n\n"당신은 내 카라반에 합류하고 싶습니까? 당신은 우아하게 묻습니다.[target1.GetHerHis] 사랑스러운 움직임으로 네 옷에 입힌 네 갈래는 너그럽게 [target1.GetFirstName] 은 색상, 우유색의 질감. 진동한 숨결이 입술에서 나오고, 당신은 결정적으로 기울기 전에, 당신의 입술을 그의 입술에 찌르고, 빨리 물러나기 전에.\n\n 아프리카 원주민의 반응은 없습니다. 눈은 보석에 익사하고 가슴으로 내려가서 옷 아래의 곡선으로 내려갑니다. 두 사람의 심장은 리듬으로 뛰고, 서로의 접촉에 열정을 가지고 있습니다. 눈 깜박이는 순간 [target1.GetFirstName] 당신의 몸을 찢어 [target1.GetHerHis] 팔, 옷 뒤에 손톱. 따라, 당신은 빨리 당신의 윗부분을 내려가기 시작, 각 가슴을 자유롭게 popping, [target1.GetHerHis] 주의를 기울여\n\n[target1.GetSheHe|U] 다이빙 [target1.GetHerHis] 귀여운 고기덩어리 안으로 들어가서 가슴을 씹어먹고 당신은 끌고 [target1.GetHerHis] 드래저들 - 거의 '복'이라고 불릴 수 없는 옷의 잔해들 - 그 뒤에 남아있는 것을 갈망합니다. 그것은 자유로이 떨어지고, 당신에게 박을 때리고, 그 얼굴은 숨겨져 [target1.GetFirstName] "머리가 젠장... 젠장... 숨을 쉴 수 없이 울고 있어."\n\n[target1.GetSheHe|U] 당신을 데려다 [target1.GetHerHis] 팔, 다시 눈을 바라보고, 당신이 원했던 것에 대한 당신의 윙윙윙을 잘못 이해합니다. 근처에 있는 나무에 밀고, 당신은 고개를 끄덕이고, 몸통에 머리를 맞고. [target1.GetHerHis|U] 손은 드레스를 걸어가는 데 거의 시간을 낭비하지 않습니다. [target1.GetHerHis] "블랙 젠장[target1.GetSheHe|U] 거친 목소리로 반복하고, 속옷을 끌어내고 [target1.GetHerHis] 네 몸과 네 몸, 선도 [target1.GetHerHis] 너한테 팁을 줘\n\n 넌 이전에 경험했던 행복으로 가득 차 있어, 외래의 똥을 위해 만들어진 거 아냐. 삐삐삐만 남긴다고 [target1.GetSheHe] 너한테 굴러오면서 [target1.GetHerHis] 내장 깊은 곳에 꽂아봐" # AI Tags
+bno_travel_events_2002.a: "제 궁전에서 나와 함께해!" # AI Tags
+
+bno_travel_events_0003.title: "꽃 을 얻는 것" # AI Tags
+bno_travel_events_0003.desc: " Mmph..."\n\n" Ughh..."\n\n 다시, 당신은 옆으로 돌아서, 당신의 가난한 작은 침대에 계속 뒤집어, 지구의 단단한 토양이 당신의 수면을 방해. 다시 한번, 당신은 돌아다니고, 덮개를 끌고, 발을 쏘고 - 어색하게 뜨겁습니다.\n\n 비록, 어떤 의미에서, 당신의 불편함이 은신적인 축복이었지만, 당신은 당신의 텐트 문에서 짝을 들으면서, 개방되고 밤의 깨끗한 하늘이 그 경계로 흘러들어오고 있습니다. 서둘러 일어나서 손을 들고 방어하고 누가 이런 시간에 당신을 괴롭히는지 궁금합니다.\n\n 네 텐트의 문턱에는 더 어두운 피부가 있는 사람이 있다. [target1.GetHerHis] 밤의 피부처럼 [target1.GetSheHe|U] 셔츠를 입지 않고, 허벅지하고 완벽한 가슴을 보여준다. 네 눈은 빨리 찾아 [target1.GetHerHim] 칼에 대해, 아무것도 알아차리지 [target1.GetHerHis] 손, 그리고... 아무것도 없습니다 [target1.GetHerHis] 허벅지, 전복이 없었기 때문이죠. [target1.GetHerHis] 다리는 [target1.GetHerHis] 무기, [target1.GetHerHis] 이미 조금만 튀어나왔기 때문에 의도가 분명해졌습니다." # AI Tags
+bno_travel_events_0003.a: "경비자! 경비원!" # AI Tags
+bno_travel_events_0003.b: "뭐... 뭐..." # AI Tags
+
+bno_travel_events_2003.title: "꽃 을 얻는 것: 상호작용" # AI Tags
+bno_travel_events_2003.desc: "당신의 망설임은 [target1.GetLadyLord] "말을 할 수 있는 기회, 분노의 부족에 놀랐고, 더 나아가 순수한 놀라움에 놀랐습니다. 제 여왕, 제 여왕![target1.GetSheHe|U]초청, 빨리 진막에 들어가, 달의 빛은 여전히 내부에 빛나는. 의 여왕이 아니죠?[target1.GetSheHe|U] 질문, 목소리 여전히 침묵, 분명히 여전히 실패에 놀란 [target1.GetHerHis] '무지한 계획'\n\n 하지만, [target1.GetHerHis] 질문으로 잠시 멈추게 되는데, 이미 완전히 깨어있어요. 두 번 깜박이면, 여러분은 이것을 이해하게 됩니다. [target1.GetLadyLord] 신들의 부르심으로 잠을 잘 수 있게 해줘! 적어도, 그건 당신의 정신적인 변명입니다. [target1.GetHerHis] 한 번 더 좆까?\n\n"네... - 그래요 웃음 한 번이나...[target1.GetHerHis] 입술을 따라가면서, [target1.GetHerHis] 손을 긁기 시작 [target1.GetHerHis] 머리 조금만 웃는 건데 [target1.GetSheHe] 네 의심스러운 동의를 얻습니다. 앞으로 몇 걸음 나아가는 것, [target1.GetSheHe] 보도록 하죠. [target1.GetHerHis] 석탄 이 점점 더 커지고 있습니다.\n\n"여기 있는 건 흑인 아기만 낳는 걸 확인하기 위해서[target1.GetSheHe|U] 더 가볍게 표현할 수 있다면 '유아 암살자'라고 할 수 있습니다. 굴핑, 넌 얼어붙었어 [target1.GetHerHis] 이 점점 더 커지고, 피가 가득합니다. [target1.GetHerHis] "스틱 "오픈[target1.GetSheHe|U]라고 말하며 [target1.GetHerHis] 머리, 그리고 밀어 [target1.GetHerHis] 입술에 찢어놓은 똥구리, 그놈과 놀아.\n\n[target1.GetSheHe|U] 그냥 당신의 똥 베개에 찔러, 당신이 마침내 선호하기로 결정하기 전에 [target1.GetHerHim], 허용 [target1.GetHerHim] 슬라이드 [target1.GetHerHis] "입으로 내려다보세요. 좋은 여자...[target1.GetSheHe] 코스, 한 손이 머리카락을 고, 머리를 뒤쳐서 [target1.GetSheHe] 당신 안에 휩싸일 수 있습니다. 인치에 인치, [target1.GetSheHe] 이베리아와 발칸반도에서 무슬림들이 그랬던 것처럼 목에 침투합니다.\n\n 주로 [target1.GetSheHe] 목에 똥을 기 시작해서 입이 꽉 차고 [target1.GetHerHis] 허벅지를 입술로 넣고 이 목을 찌르는 것을 강요합니다 [target1.GetHerHis|U] 견과류는 당신의 턱에 박수, 전에 [target1.GetSheHe] 떨림, 당신을 끌어당기고 만지고 [target1.GetHerHis] 막대.\n\n"젠장... 망할 창녀야[target1.GetSheHe|U] 두꺼운 끈이 튀어나오기 전에 [target1.GetHerHis] 톱, 얼굴에 튀어나오며, 적어도 세 개의 더 강력한 로프를 따라가게 됩니다. 네 번째 발자국 후 발자국을 시작하며, 당신의 입을 비추고 있습니다." # AI Tags
+bno_travel_events_2003.a: "잠자리에 들기 전 얼굴 수술은 당신이 예상했던 게 아니었어요. 적어도 [target1.GetSheHe] 몇 개의 동전을 남겼어요" # AI Tags
+
+bno_travel_events_0004.title: "[ROOT.Char.GetFirstName] Desperate Travels: Craving BBC on a Journey" # AI Tags
+bno_travel_events_0004.desc: "#wea k 우리가 함께 여행하면서, 내 눈은 항상 검은색의 높은 어두운 인물을 끌어들였습니다. [target1.GetLadyLord] 우리 그룹에서요. [target1.GetHerHis|U] 피부는 따뜻한 햇빛 아래에서 빛나는 풍부한 깊은 에본이었습니다. [target1.GetHerHis] 아래로 파인된 근육 [target1.GetSheHe] 자신감을 가지고 걸어갔습니다. #!\n\n 내가 잡을 때마다 내 심장이 뛰는 것을 느끼지 않을 수 없었다 [target1.GetHerHim] 저를 돌아보며, 그 강렬한 눈은 제 눈빛을 통해 바로 볼 수 있는 것처럼 불타고 있었습니다. 무슨 일이 있었는지 분명해 [target1.GetSheHe] 하고 싶었어요. 나도 그랬어요.\n\n#wea k 날이 지나고 우리가 더 가까워질수록 [target1.GetHerHis] 두꺼운 은 항상 섬유에 꽉 차있는 것처럼 보였다 [target1.GetHerHis] 바지를요 내 마음 속 깊은 곳엔 그 생각이 필요에 의해 제 똥을 아프게 했습니다. #!\n\n 어느 날 저녁, 야간 캠프를 준비하던 중, 나는 내 손을 내밀기로 결정했습니다.\n\n#wea k 저는 저쪽으로 뛰어들었습니다 [target1.GetHerHim] 어떤 곳 [target1.GetSheHe] 불에 앉아 있었고 무릎을 꿇었습니다. [target1.GetHerHim]. 비겁한 미소로, 나는 [target1.GetHerHim] 제가 천천히 버튼을 풀기 시작하면서 [target1.GetHerHis] 바지를요 #!\n\n"내가 뭘 원하는지 알잖아, 내가 해방하기 전에 부드럽게 속삭였다[target1.GetHerHis] 거대한 이 그 한계에 있습니다.\n\n#wea k 그것은 이미 단단하고 나를 위해 준비되었습니다. 그것은이 모든 시간을 기다렸던 것처럼. 의심 없이, 저는 두꺼운 머리에 입술을 감싸고 빨아들기 시작했습니다 [target1.GetHerHim] 내 자신을 놀라게 한 열정을 가지고 떠났습니다. #!\n\n#wea k [target1.GetHerHis|U] 내 머리카락에 손을 얽힌 [target1.GetSheHe] 내 위에 비거며 [target1.GetHerHis] 엉덩이가 입에 맞을 수 있도록 [target1.GetHerHim] 내 목에 #!" # AI Tags
+bno_travel_events_0004.a: "저는 마침내 제 욕구에 굴복했습니다 #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!" # AI Tags
+bno_travel_events_0004.b: "우리가 함께 여행하는 동안 오랫동안 이것을 원했습니다." # AI Tags
+
+bno_travel_events_0005.title: "[ROOT.Char.GetFirstName] ' Lonely Journey: BBC의 부족으로 좌절" # AI Tags
+bno_travel_events_0005.desc: "#wea k 제가 여정을 계속하면서 [bno_bbc|E] 눈앞에서, 그들의 거대한 똥에 대한 나의 욕망은 더욱 강해졌습니다. 제 똥은 항상 젖고 필요에 충격을 받았습니다. #!\n\n 만약 제가 빨리 뭔가를 하지 않는다면, 저는 모든 억제된 성적 좌절으로부터 완전히 미쳐버리겠다고 생각했습니다.\n\n#wea k 어느 날 밤, 나 혼자 제 텐트 안에 누워있던 동안, 저는 말 그대로 사정을 스스로 맡기로 결심했습니다. #!" # AI Tags
+bno_travel_events_0005.a: "저는 짝짓기를 더 빨리 마찰하고 두 손가락을 내 안에 넣으면서 부드럽게 울어요. 큰 검은 똥이 저를 채우고 있다고 상상하면서요." # AI Tags
+bno_travel_events_0005.b: "젠장 그래! 이 큰 검은 똥 모양의 나무 가지가 내 꽉 찬 흰 똥을 잘 펴고 있어! 정말 필요해!" # AI Tags
+bno_travel_events_0005.c: "내 똥이 필요해 [bno_bbc|E] 너무 나쁘지만 내 근처에는 아무도 없습니다!" # AI Tags
+

@@ -1,0 +1,14 @@
+﻿l_spanish:
+
+bnwo_faction: "[bno_bnwo|E] Facción" # AI Tags
+bnwo_faction_desc: "Bajo su dominio de hierro, los cuerpos blancos se doblan y sangran, alimentando nuestro insaciable hambre de progenie nacida fuerte, hermosa e innegablemente [bno_black|E]." # AI Tags
+bnwo_faction.name: "Los [bno_bnwo|E]" # AI Tags
+bnwo_faction.short_effect_desc: "Los [bno_bnwo|E] es una facción que busca establecer un nuevo orden mundial basado en la supremacía racial, con un enfoque en el dominio de [bno_black|E] individuos." # AI Tags
+bnwo_faction.power.bnoc: "Quiere [liege|E] a ser $bnoc$" # AI Tags
+bnwo_faction.power.bbcs: "Quiere [liege|E] a ser $bbcs$" # AI Tags
+bnwo_faction.power.county_bnoc: "Quiere el [county] a ser $bnoc$" # AI Tags
+bnwo_faction.power.county_bbcs: "Quiere el [county] a ser $bbcs$" # AI Tags
+bnwo_faction_leader_title: "Comandante" # AI Tags
+bnwo_faction_revolt_title_name: "Los [bno_bnwo|E] Levantamiento" # AI Tags
+bnwo_faction_event_troops: "[bno_bnwo|E] Levantamiento" # AI Tags
+bno_event_troop_default_name: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] [bno_bnwo|E] Alzamiento del ejército" # AI Tags

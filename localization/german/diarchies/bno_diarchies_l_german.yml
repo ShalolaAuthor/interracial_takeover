@@ -1,0 +1,17 @@
+﻿l_german:
+
+#Diarchy Types
+bno_sated_throne_diarch_title: "Erblicher Aufseher" # AI Tags
+bno_sated_throne_diarchy_type: "[bno_sated_throne|E]" # AI Tags
+
+bno_first_harvest_mandate: "Erste Ernte" # AI Tags
+bno_first_harvest_mandate_desc: "#BO L Möglich [mandate|E] Auswirkungen: #!\n$EFFECT_LIST_BULLET$ Extra [gold|E]\n$EFFECT_LIST_BULLET$ Der Herrscher muss es tun [bno_first_harvest|E]\n$EFFECT_LIST_BULLET$ Der Herrscher muss [bno_bbc_council|E]\n\n#WEA K Das [regent|E] muss versuchen, seine härtesten zu schwarz die $game_concept_liege$ 's Nation, um jeden Preis. #!" # AI Tags
+
+mandate_aptitude.bno_first_harvest.category: "$bno_first_harvest_mandate$" # AI Tags
+mandate_aptitude.bno_first_harvest.primary_skill.bno_sex_counter: "[mandate|E] setzt auf [bno_sexual_experience|E]" # AI Tags
+mandate_aptitude.bno_first_harvest.secondary_skill.martial: "[mandate|E] Verwendung [learning|E]" # AI Tags
+mandate_aptitude.bno_first_harvest.secondary_skill.prowess: "[mandate|E] Verwendung [prowess|E]" # AI Tags
+mandate_aptitude.bno_first_harvest.bonus_trait.bno_camp_leader: "[GetTrait('bno_camp_leader').GetName( ROOT.Char )] exzellent" # AI Tags
+mandate_aptitude.bno_first_harvest.bonus_trait.strong: "[GetTrait('strong').GetName( ROOT.Char )] exzellent" # AI Tags
+mandate_aptitude.bno_first_harvest.malus_trait.generous: "[GetTrait('generous').GetName( ROOT.Char )] schlecht geeignet" # AI Tags
+mandate_aptitude.bno_first_harvest.malus_trait.infertile: "[GetTrait('infertile').GetName( ROOT.Char )] schlecht geeignet" # AI Tags

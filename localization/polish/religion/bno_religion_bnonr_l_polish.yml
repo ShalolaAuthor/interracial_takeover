@@ -1,0 +1,94 @@
+﻿l_polish:
+
+# Religious Descriptors
+bnonr: "Kościół Czarnego Kurczaka" # AI Tags
+bnonr_adj: "Czarny supremacista" # AI Tags
+bnonr_religion: "Kościół Czarnego Kurczaka" # AI Tags
+bnonr_religion_adj: "Czarny supremacista" # AI Tags
+bnonr_religion_adherent: "Czarny supremacista" # AI Tags
+bnonr_religion_adherent_plural: "Czarni supremacyści" # AI Tags
+bnonr_religion_desc: "Supremacyści wierzą, że każdy powinien upokorzyć wyższą rasę." # AI Tags
+bbcs_god_name: "N'daba" # AI Tags
+bbcs_god_name_2: "Azani" # AI Tags
+bbcs_god_name_3: "Oshe" # AI Tags
+bbcs_god_name_possessive: "$bbcs_god_name$ - Nie, nie." # AI Tags
+bbcs_high_god_name_alternate: "Boże!" # AI Tags
+bbcs_high_god_name_alternate_possessive: "$bbcs_high_god_name_alternate$ - Nie, nie." # AI Tags
+bbcs_devil_name: "Ashantee" # AI Tags
+bbcs_devil_name_possessive: "$bbcs_devil_name$ - Nie, nie." # AI Tags
+bbcs_evil_god_name_1: "Kweku" # AI Tags
+bbcs_evil_god_name_2: "Mfero" # AI Tags
+bbcs_evil_god_name_3: "Nyami Nyami" # AI Tags
+bbcs_house_of_worship_1: "Dom Ekstazy" # AI Tags
+bbcs_house_of_worship_2: "Świątynia czarnego kwitnienia" # AI Tags
+bbcs_house_of_worship_3: "Ołtarz Ebony" # AI Tags
+bbcs_house_of_worship_plural: "Domy ekstazy" # AI Tags
+bbcs_religious_symbol_1: "Trzy siostry" # AI Tags
+bbcs_religious_symbol_2: "Łódź obsydyna" # AI Tags
+bbcs_religious_symbol_3: "Rozkwitająca czarna róża" # AI Tags
+bbcs_religious_text_1: "Pismo Ebony" # AI Tags
+bbcs_religious_text_2: "Nektar pożądania" # AI Tags
+bbcs_religious_text_3: "Afrodyzja: święty cykl" # AI Tags
+bbcs_religious_head_title: "Wielka tkanina ekstazy" # AI Tags
+bbcs_male_devotee: "Stallion" # AI Tags
+bbcs_male_devotee_plural: "$bbcs_male_devotee$ s" # AI Tags
+bbcs_female_devotee: "Niymfa" # AI Tags
+bbcs_female_devotee_plural: "$bbcs_female_devotee$ s" # AI Tags
+bbcs_neutered_devotee: "Mlekowanie" # AI Tags
+bbcs_neutered_devotee_plural: "$bbcs_neutered_devotee$ s" # AI Tags
+bbcs_male_priest: "Wysoki Stallion" # AI Tags
+bbcs_male_priest_plural: "$bbcs_male_priest$ s" # AI Tags
+bbcs_female_priest: "Niymfa kapłana" # AI Tags
+bbcs_female_priest_plural: "$bbcs_female_priest$ w)" # AI Tags
+bbcs_neutered_priest: "Nosiciel nasienia" # AI Tags
+bbcs_neutered_priest_plural: "$bbcs_neutered_priest$ s" # AI Tags
+bbcs_alt_priest: "Strażnik księżyca" # AI Tags
+bbcs_alt_priest_plural: "$bbcs_alt_priest$ s" # AI Tags
+bbcs_male_bishop: "Czarny Hierophant" # AI Tags
+bbcs_male_bishop_plural: "$bbcs_male_bishop$ s" # AI Tags
+bbcs_female_bishop: "Kobieta czarnej akolytu" # AI Tags
+bbcs_female_bishop_plural: "$bbcs_female_bishop$ w)" # AI Tags
+bbcs_neutered_bishop: "Posiadacz nasion z kości słoniowej" # AI Tags
+bbcs_neutered_bishop_plural: "$bbcs_neutered_bishop$ s" # AI Tags
+bbcs_positive_afterlife_1: "Głębia Ebony" # AI Tags
+bbcs_positive_afterlife_2: "Wieczny koitus" # AI Tags
+bbcs_positive_afterlife_3: "Nieograniczony ogród przyjemności" # AI Tags
+bbcs_negative_afterlife_1: "Wysuszony ogród trąbów" # AI Tags
+bbcs_negative_afterlife_2: "Labyrynt wiecznej pożądania" # AI Tags
+bbcs_negative_afterlife_3: "Królestwo wiecznego niewolnictwa" # AI Tags
+bbcs_death_deity_name: "Yemoja" # AI Tags
+bbcs_death_deity_name_possessive: "$bbcs_death_deity_name$ - Tak." # AI Tags
+bbcs_witch_god_name: "Aisha" # AI Tags
+bbcs_witch_god_name_possessive: "$bbcs_witch_god_name$ - Tak." # AI Tags
+bbcs_ghw: "Adinkra" # AI Tags
+bbcs_ghws: "$bbcs_ghw$ s" # AI Tags
+
+
+bbcs: "Kościół Czarnego Kurczaka" # AI Tags
+bbcs_adj: "Czarny supremacista" # AI Tags
+bbcs_adherent: "Czarny supremacista" # AI Tags
+bbcs_adherent_plural: "Czarni supremacyści" # AI Tags
+bbcs_desc: "Supremacyści wierzą, że każdy powinien upokorzyć wyższą rasę." # AI Tags
+
+bbcs_old: "Kościół Czarnego Kurczaka" # AI Tags
+bbcs_old_adj: "Czarny supremacista" # AI Tags
+bbcs_old_adherent: "Czarny supremacista" # AI Tags
+bbcs_old_adherent_plural: "Czarni supremacyści" # AI Tags
+
+
+# Holy Order Names
+bnoho1: "Rozporządzenie Czarnych Bogów" # AI Tags
+bnoho2: "Czarna zaraza" # AI Tags
+bnoho3: "Rycerze Ghany" # AI Tags
+bnoho4: "Malijski najeźdźcy" # AI Tags
+bnoho5: "Drużyna nawrócenia" # AI Tags
+
+# Conversion Decision
+convert: "Zwrócili się do czczenia mroczniejszych ludzi" # AI Tags
+convert_desc: "Czarne kutaski to wszystko, o czym myślisz, skarbie. Dlaczego nie poddałabyś się wyższej rasie i nie uczyniła z nich swoich bogów?" # AI Tags
+convert_tooltip: "Zastanów się nad mięsnym, czarnym fiutem..." # AI Tags
+convert_confirm: "Ty poświęcasz się chwaleniu [bno_bbc|E]" # AI Tags
+convert_effect_1: "Będziesz przekształcił się w [bno_religion|E]" # AI Tags
+
+rf_bbcs: "Afrodiasma" # AI Tags
+rf_bbcs_desc: "$rf_bbcs$ jest żywym tapiszem tradycji czarno-centrycznych tkanego z ekstatycznego kultu, potężnej magii i niezachwianej wiary, że białe zbawienie leży w wypełnieniu się mocą B brak nasion." # AI Tags

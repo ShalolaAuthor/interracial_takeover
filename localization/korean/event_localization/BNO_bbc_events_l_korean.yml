@@ -1,0 +1,68 @@
+﻿l_korean:
+# bno_events00 - invite influence decision
+ bno_events00: "당신 의 궁전 에 아프리카 난민 을 수용 하십시오" # AI Tags
+ bno_events00.desc: "먼 곳에서 도망친 이상한 석탄색의 사람들이 당신 영역에서 보고되었습니다. 그들이 적대적인 상황에서 여기 있는지 여부는 알려지지 않았습니다. 하지만 그들의 힘은 한눈에 볼 수 있습니다.\n\n 그대 백성들 가운데는 거의 보이지 않노라 어쩌면 그들이 외국 문화를 가지고 있어 유익한 것일지도 모릅니다. 선물과 통찰력?\n\n 그들이 무슨 짓을 하는지 봐야지?" # AI Tags
+ bno_events00_decision_tooltip: "외국인들이 방문하도록 초청됐습니다" # AI Tags
+ bno_events00_confirm: "전신들을 보내라" # AI Tags
+ refugee_effect_1: "당신은 외국인의 그룹을 만나게 될 것이고 당신의 법정에 가입할 수 있는 하나를 선택할 수 있습니다." # AI Tags
+
+#bno_events01 - receiving influence
+ bno_events01.title: "외국인들이 왔어요!" # AI Tags
+ bno_events01.desc: "당신 영역에서 목격된 몇 명만이 당신 앞에서 집결됐습니다. 그들은 여러 부족에서 온 여러 이름으로 자신을 부르고 있습니다. 뉘비아어, 가니아어, 소말리아어, 말리아어. 어쩌면 그들의 외국 영향력은 전쟁과 외교에 도움이 될 수도 있겠죠?\n\n 조사진들은 현재 난민들 중 이 법안에 맞는 사람은 몇 명만 발견했습니다. 각각의 특색은 다르지만 피부가 어둡습니다. 당신의 마음은 지중해 남쪽의 땅을 돌아다니며 이야기들을 꺼내지 않을 수 없습니다.\n\n 하지만, 이제 결정은 당신 앞에 있습니다. [target1.GetFirstName][target3.GetFirstName] 또는 [target2.GetFirstName].\n\n 누가 당신의 법정에 합류할까요?" # AI Tags
+ bno_events01.a: "[target1.GetFirstName] 가장 가치 있는 사람입니다." # AI Tags
+ bno_events01.b: "[target2.GetFirstName] 가장 좋은 후보입니다." # AI Tags
+ bno_events01.c: "[target3.GetFirstName] 제 법정에 합류하게 될 것입니다." # AI Tags
+ bno_events01.d: "당신의 영향력으로 우리를 축복해..." # AI Tags
+ 
+ #bno_events02 - when receiving a kingdom title and being married to a BBC
+ bno_events02.title: "아프리카 왕" # AI Tags
+ bno_events02.desc: "내 사랑, 이걸 공유하고 싶니? 이 땅의 주인님?\n\n 가슴이 뛰고, 손들이 굴복하게 넘어가고, 당신의 나라를 끝내려는 계획에 전념하고 있습니다.\n\n 당신의 자손은 당신의 사랑하는 사람의 힘과 색깔과 지능을 가지고 있을 것입니다.\n\n 이 [target1.GetLadyLord] 전쟁에서 사자였고, 침대에서요.\n\n 네 왕" # AI Tags
+ bno_events02.a: "그럼... 우리 방으로 가자" # AI Tags
+ 
+ #bno_events03 - when receiving an empire title and being married to a BBC
+ bno_events03.title: "종말 의 시작" # AI Tags
+ bno_events03.desc: "당신의 왕위 계승과 당신의 영역에서 가장 높은 왕위를 주장으로, 당신의 배우자가 적절한 타이틀을 입고 있습니다.\n\n '백인'에게 거의 알려지지 않은 먼 나라에서 온 당신의 연인은 당신의 마음을 사로잡는 것뿐만 아니라 당신의 땅을 사로잡았다.\n\n 그러나 이것은 단지 시작에 불과합니다. [target1.GetHerHis] 문화, 믿음, 피부색은 원주민에게 침략합니다." # AI Tags
+ bno_events03.a: "내 경기가 끝나고 있습니다." # AI Tags
+
+#bbcconversion - decision
+ bbcconversion.title: "아프리카의 우월" # AI Tags
+ bbcconversion.desc: "당신은 종교로 전환하기로 결정했습니다 [bno_religion|E] 검은 신들만 숭배하는 당신은 갑자기 영향력을 확산하려는 욕망이 있습니다. [bno_bbc|E] 전 세계" # AI Tags
+ bbcconversion.a: "곧 세상은 흑인들에게 굴복할 것이다" # AI Tags
+ 
+ #test
+ bno_election: "새로운 계열 을 채택 하라" # AI Tags
+ bno_election_confirm: "확인" # AI Tags
+ bno_election_decision_desc: "문서를 검색하고 계승 줄거리를 모색한 후, 당신은 새로운 유형의 계층을 착용하도록 법정관으로부터 깨달았습니다. 인종을 중심으로 성별." # AI Tags
+ bno_election_decision_tooltip: "굴복해?" # AI Tags
+ bno_election_decision.a: "이피!!! 머리 먼저!" # AI Tags
+
+ bull_decision: "부인을 엿먹기 위해 황소를 불러" # AI Tags
+ bull_decision_desc: "당신의 아내는 아프리카에서 온 이 새로운 이상한 남성들의 큰 검은 성자에 중독되어 있고, 당신은 그런 식으로, 왜 그들이 [ROOT.Char.GetPrimarySpouse.GetHerHis] 당신 앞에서요?" # AI Tags
+ bull_decision_tooltip: "황소가 침대에 올 거야" # AI Tags
+ bull_decision_confirm: "황소를 불러!" # AI Tags
+
+#
+ bno_events_0005.title: "황새가 아내를 죽이고" # AI Tags
+ bno_events_0005.desc: "너의 황소 [target1.GetFirstName] 즉시 문을 열고 당신과 당신의 아내를 바라보고 [target2.GetFirstName]. 아내가 깜짝 놀랐고 무슨 일이 벌어지고 있는지 묻습니다. 네 기사 [target1.GetFirstName] 포착 [target2.GetHerHis] 그리고 힘들 [target2.GetHerHis] 너무 날려버렸지만 아내가 정말 흥분했어요 엉덩이가 딱딱해지면서 사방에 앉아 있을 때 의문의 여지가 없이 마asturbating을 시작합니다. 당신 아내 [target2.GetFirstName] 예전처럼 젖게 됩니다. [target1.GetFirstName] 눈물 [target2.GetHerHis] 옷이 찢어지고 기 시작합니다. [target2.GetHerHis] 크림 피치와 박스 [target2.GetHerHis] 엉덩이, [target2.GetSheHe] 기쁨으로 외치는 동안 당신을 쳐다보고. 당신은 더 이상 을 지고 은 소리를 지르지 못하며, 당신의 아내가 오르가즘을 가진 동안 오르가슴을 가진다. 갑자기 [target1.GetFirstName] 아내의 똥에 푹 빠지기 시작하면 아무것도 할 수 없어" # AI Tags
+ bno_events_0005.a: "오, 신이여, 얼마나 멋진 시야야야, 사랑해" # AI Tags
+
+bno_events.0006.title: "당신 의 선택 된 귀족 여인" # AI Tags
+bno_events.0006.desc: "#wea k 호기심이 많은 귀족이 제 궁전에 접근하면서, [target1.GetHerHis] 따뜻 한 미소 를 가지고 초대 를 보내십시오. #!\n\n 환영합니다. [target1.GetFirstName][target3.GetFirstName] 또는 [target2.GetFirstName]. 이 자리에 있는 것은 영광입니다.\n\n#wea k 귀족은 경이로움으로 둘러보며 [target1.GetSheHe] 내 재산의 위대함을 담고 있습니다. 풍요로운 가구에서부터 모든 벽을 장식하는 귀중한 예술 작품까지요. #!\n\n 제 초청을 받아서 기쁘네요. 저는 이러한 보물을 여러분들과 공유하고 문화와 예술에 대한 여러분의 관심에 대해 더 많은 것을 배울 수 있기를 기대합니다.\n\n#wea k 귀족들은 존경심ോടെ 시끄럽고, 이 새로운 세상을 탐험할 수 있는 기회에 감사하며 [target1.GetHerHis]. #!" # AI Tags
+
+# bno_realize_bbc_potential Non-BBC Black character gains BBC
+bno_realize_bbc_potential: "당신의 BBC를 발견하라" # AI Tags
+bno_realize_bbc_potential.desc: "당신의 지배적인 검은 몸으로 인해 열등한 하위 인종에 대한 선천적인 우월성이 있다는 것을 깨닫습니다. 유럽이 너의 거리가 될 때가 됐어" # AI Tags
+bno_realize_bbc_potential_decision_tooltip: "당신은 지배적인 흑색 이 될 것입니다." # AI Tags
+bno_realize_bbc_potential_confirm: "세상은 내 거야" # AI Tags
+bno_realize_bbc_potential_effect_1: "당신은 [bno_bbc|E] 속성." # AI Tags
+
+bno_events.0007.title: "[ROOT.Char.Custom('GetCourt')|U] [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
+bno_events.0007.desc: "늘어나고 있는 성욕이 불완전한 흑인 남성의 인구를 진정시키기 위해 이브니 스승을 섬기는 것 이상으로 살면서 숨을 쉬지 않을 것입니다. 이것들 [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] 그들은 태어날 때부터 닭을 즐겁게 하는 기술을 훈련받습니다. 그들은 자신의 몸의 모든 인치를 정확히 어떻게 사용하는지 알고 있습니다.\n\n 제 계획은 간단합니다. 이 신자들이 흑인 지배자들의 욕구를 충족시키기 위해만 존재하는 사회를 만들면서 동시에 행복하고 만족할 수 있도록 말이죠. 이 중요한 서비스를 제공함으로써, 저는 남성 인구 중 억제된 성적 좌절으로 인해 발생할 수 있는 잠재적인 불안이나 폭력을 방지하기를 바랍니다. 결국은, 아무도 화난, 화려한 흑인들이 거리를 돌아다니며 누이를 찾고 싶어하지 않습니다!" # AI Tags
+bno_events.0007.e: "[excellent_skill_option.GetFirstNameNoTooltip] 기술 [bno_whore|E] 전국에 알려져 있습니다!" # AI Tags
+bno_events.0007.e.aptitude: "[excellent_skill_option.GetUINamePossessive|U] [aptitude|E] 이 경우 [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]" # AI Tags
+bno_events.0007.a.tt: "A [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] 또한 월급은 [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
+bno_events.0007.a: "분명히, [high_skill_option.GetFirstNameNoTooltip] 수많은 남자들을 엿먹혔어" # AI Tags
+bno_events.0007.a.aptitude: "[high_skill_option.GetUINamePossessive|U] [aptitude|E] 이 경우 [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]" # AI Tags
+bno_events.0007.b: "[low_skill_option.GetFirstNameNoTooltip] 열광한 것 같네요." # AI Tags
+bno_events.0007.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E] 이 경우 [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]" # AI Tags
+

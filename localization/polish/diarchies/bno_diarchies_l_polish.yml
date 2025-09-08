@@ -1,0 +1,17 @@
+﻿l_polish:
+
+#Diarchy Types
+bno_sated_throne_diarch_title: "Dziedziczny nadzorca" # AI Tags
+bno_sated_throne_diarchy_type: "[bno_sated_throne|E]" # AI Tags
+
+bno_first_harvest_mandate: "Pierwszy żniw" # AI Tags
+bno_first_harvest_mandate_desc: "#BO L Możliwe [mandate|E] Wpływy: #!\n$EFFECT_LIST_BULLET$ Dodatkowe [gold|E]\n$EFFECT_LIST_BULLET$ Władca musi zrobić [bno_first_harvest|E]\n$EFFECT_LIST_BULLET$ Władca musi ustanowić [bno_bbc_council|E]\n\n#WEA K Wydarzenie [regent|E] musi starać się najmocniej, aby zaćmić $game_concept_liege$ Naród, za wszelką cenę. #!" # AI Tags
+
+mandate_aptitude.bno_first_harvest.category: "$bno_first_harvest_mandate$" # AI Tags
+mandate_aptitude.bno_first_harvest.primary_skill.bno_sex_counter: "[mandate|E] opiera się na [bno_sexual_experience|E]" # AI Tags
+mandate_aptitude.bno_first_harvest.secondary_skill.martial: "[mandate|E] zastosowania [learning|E]" # AI Tags
+mandate_aptitude.bno_first_harvest.secondary_skill.prowess: "[mandate|E] zastosowania [prowess|E]" # AI Tags
+mandate_aptitude.bno_first_harvest.bonus_trait.bno_camp_leader: "[GetTrait('bno_camp_leader').GetName( ROOT.Char )] excels" # AI Tags
+mandate_aptitude.bno_first_harvest.bonus_trait.strong: "[GetTrait('strong').GetName( ROOT.Char )] excels" # AI Tags
+mandate_aptitude.bno_first_harvest.malus_trait.generous: "[GetTrait('generous').GetName( ROOT.Char )] niewłaściwy" # AI Tags
+mandate_aptitude.bno_first_harvest.malus_trait.infertile: "[GetTrait('infertile').GetName( ROOT.Char )] niewłaściwy" # AI Tags

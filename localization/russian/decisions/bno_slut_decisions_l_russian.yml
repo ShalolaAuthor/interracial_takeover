@@ -1,0 +1,146 @@
+﻿l_russian:
+
+bno_becoming_bbc_slut: " Становится черной шлюхой" # AI Tags
+#bno_becoming_bbc_slut.effect: "You will become a [bno_whore|E] for [bno_bbc|E]"
+bno_becoming_bbc_slut.effect: "Ты станешь шлюхой для [bno_bbcs|E]" # AI Tags
+bno_becoming_bbc_slut_desc: "Я хочу быть черной скульптурой, потому что я родилась для этой роли, чтобы служить сосудом для сильных, злобных чёрных петухов, которые могут дать мне то, что жаждет мое маленькое белое тело. Простое зрелище большого члена эбони заставляет мою киску капать с нетерпением и нуждой." # AI Tags
+bno_becoming_bbc_slut_confirm: "Мои лаконичные дыры для вас, как вам угодно." # AI Tags
+bno_becoming_bbc_slut_tooltip: "Я так отчаянно хочу, чтобы меня использовали как никчемную шлюху." # AI Tags
+
+bno_stop_becoming_bbc_slut: "Почитаемая потаскуха" # AI Tags
+bno_stop_becoming_bbc_slut_desc: "После многих лет черной скуки, я наконец-то нашла в нем свое идеальное совпадение - личный чёрный бык, который заботится о моем ненасытном аппетите к большому члену каждый день. Он удовлетворяет меня так, как никто больше не мог, обеспечивая, чтобы моя киска всегда была полна и капала его толстым семенем." # AI Tags
+bno_stop_becoming_bbc_slut_confirm: "Вот для чего я родилась..." # AI Tags
+bno_stop_becoming_bbc_slut_tooltip: "быть не более чем набором дыр, принадлежащих сильному" # AI Tags
+bno_stop_becoming_bbc_slut.bbc_spouse: "У одного из ваших супругов есть [GetTrait('bno_bbc').GetName( GetNullCharacter )]" # AI Tags
+
+bno_invite_slut_decision: "Пригласи любопытное благодеяние в свой суд" # AI Tags
+bno_invite_slut_decision_desc: "Приближаясь к любопытной благородной, я приветствую ее теплой улыбкой.\n\n Добро пожаловать в мое скромное жилище. Я всегда мечтаю о новых знакомствах, особенно тех, кто разделяет мои интересы в искусстве и культуре.\n\n Благородные оглядываются вокруг, забирая в роскошное окружение моего поместья - от роскошной мебели до бесценных произведений искусства, украшающих каждую стену.\n\n Вижу, ты любишь красоту. Возможно, мы могли бы обсудить некоторые из этих вещей за ужином? Я с удовольствием покажу вам все и расскажу больше об их происхождении.\n\n Благородные кивки по взаимному согласию, явно заинтригованные тем, что она видит, и жаждущие узнать больше." # AI Tags
+bno_invite_slut_decision_tooltip: "Иностранцев вызвали посетить ваше высочество." # AI Tags
+bno_invite_slut_decision_confirm: "Добро пожаловать." # AI Tags
+
+bno_build_african_camps_decision: "Строить $building_type_bbc_camp_01$" # AI Tags
+bno_build_african_camps_decision_desc: "Население #V [GetTrait('bno_full_black').GetName( GetNullCharacter )]! Продолжай расти, ты решил, что пришло время для тебя заключить соглашение только для них." # AI Tags
+bno_build_african_camps_decision_tooltip: "Строить $building_type_bbc_camp_01$" # AI Tags
+bno_build_african_camps_decision_confirm: "Так тому и быть." # AI Tags
+bno_build_african_camps_toast: "$building_type_bbc_camp_01$ Построено" # AI Tags
+
+bno_change_county_culture: "Повлиять на удочерение уезда $bnoc$" # AI Tags
+bno_change_county_culture_desc: "Ты - $bnoc$, разве не имеет смысл влиять на своих людей, чтобы они стали $bnoc_collective_noun$?" # AI Tags
+bno_change_county_culture_tooltip: "Помогать людям усыновлять $bnoc$ жизненный уклад" # AI Tags
+bno_change_county_culture_confirm: "Мне нужно больше. $bnoc$" # AI Tags
+bno_change_county_culture_toast: "$bnoc$ Распространяется" # AI Tags
+
+bno_recruit_court_position_decision: "Набор кандидатов на должности #V - Нет, нет. [GetTrait('bno_full_black').GetName( GetNullCharacter )] Население #!" # AI Tags
+bno_recruit_court_position_decision_desc: "Хорошо функционирующая [ROOT.Char.Custom('RealmType')] требует работы многих девочек. Я отправлю своих слуг подальше и пошире, чтобы найти подходящих кандидатов на новые должности в моем суде." # AI Tags
+bno_recruit_court_position_decision_tooltip: "Искать девушку, чтобы заполнить [court_position|E] или другой необходимой роли в [court|E] за плату\n\n#wea k Например, вы можете нанять [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!" # AI Tags
+bno_recruit_court_position_decision_confirm: "Вызовите их сюда!" # AI Tags
+recruit_bbc_worshipper_cooldown_tt: "Набор персонала [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] Охлаждается для [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]" # AI Tags
+hire_bbc_worshipper_decision_tooltip: "Ваши слуги предлагают несколько подходящих кандидатов на должность [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
+bno_recruit_court_position_decision_tt: "Вы получите случайное количество подходящих девушек, которые будут служить вам." # AI Tags
+
+bno_convert_to_african: "Приобретение Африки" # AI Tags
+bno_convert_to_african_confirm: "Для меня всё кончено!" # AI Tags
+bno_convert_to_african_desc: "Вы испытали из первых рук, как себя ведет эта культура, настолько сильная культура, что вы просто хотите подчиниться ей. В конце концов, есть старая поговорка, если ты не можешь победить их, присоединяйся к ним." # AI Tags
+bno_convert_to_african_tooltip: "Возьми себя в руки $bnoc$ Корни предков" # AI Tags
+
+bno_build_bbc_church: "Строить $building_bbc_church_01$" # AI Tags
+bno_build_bbc_church_confirm: "Позвольте мне поставить первый камень!" # AI Tags
+bno_build_bbc_church.desc: "Строительство церковного фундамента послужит символом нашей преданности [bno_religion|E] и нашу приверженность новому образу жизни." # AI Tags
+bno_build_bbc_church.tooltip: "Построй место поклонения, посвященное [bno_bbc|E]" # AI Tags
+bno_build_bbc_church.toast: "$building_bbc_church_01$ Построено" # AI Tags
+
+bno_found_bbc_church_holy_order: "Нашел Святой Орден [bno_religion|E]" # AI Tags
+bno_found_bbc_church_holy_order_confirm: "Давайте расскажем о том, что [bno_bbc|E]" # AI Tags
+bno_found_bbc_church_holy_order.desc: "Святой Орден [bno_religion|E] будут преданы поклонению и почитанию [bno_bbc|E], пропагандируя свои ценности и обеспечивая свое место в нашем обществе." # AI Tags
+bno_found_bbc_church_holy_order.tooltip: "Священный Орден, посвященный поклонению [bno_bbc|E]" # AI Tags
+bno_found_bbc_church_holy_order.effect_tooltip: "Святой Орден [bno_religion|E] был основан, распространяя свои учения и ценности по всему королевству." # AI Tags
+
+bno_cure_disease.title.male: "Очищающий поцелуй" # AI Tags
+bno_cure_disease.title.female: "Семенное благословение Владыки" # AI Tags
+bno_cure_disease.desc.male: "В присутствии собравшегося суда и духовенства каждый больной господин склоняется на колени перед избранной жрицей. Затем им дается указание открывать рот широко, когда она опускает свои обнажённые бедра, позиционируя себя так, чтобы его лицо было жестко прижато к источнику ее священного нектара. Он должен свободно проглотить ее киску, пока жрица не подаст сигнал о прекращении ритуала." # AI Tags
+bno_cure_disease.desc.female: "В присутствии собравшегося суда и духовенства каждая больная женщина склоняется на колени перед избранным священником. Ей проинструктировано открывать рот широко, когда он опускает свой крепкий пенис в ее губы ожидания. Священник глубоко засунет ее в рот, побуждая ее двигать головой и свободно глотать. Церковь продолжается до тех пор, пока священник не эякулирует ее прямо в рот, что означает успешное лекарство." # AI Tags
+bno_cure_disease.confirm.male: "Ну же.." # AI Tags
+bno_cure_disease.confirm.female: "Не могу дождаться..." # AI Tags
+bno_cure_disease.tooltip.male: "Интересно, как твоя киска на вкус..." # AI Tags
+bno_cure_disease.tooltip.female: "Благослови меня своей спермой..." # AI Tags
+bno_cure_diseases.own.sickness: "Ты больна." # AI Tags
+bno_cure_disease.employing_bbc_priestess: "Ты нанялся. [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
+bno_cure_diseases.second_step_button: "Пожалуйста, исцели меня..." # AI Tags
+bno_cure_diseases.lovers_pox: "Ты восхитительно помечен [GetTrait('lovers_pox').GetName( GetNullCharacter )], сувенир из ночи, который все еще пульсирует по твоим венам." # AI Tags
+bno_cure_diseases.lovers_pox.desc: "Заманчивая сыпь памяти и рта, [GetTrait('lovers_pox').GetName( GetNullCharacter )] Сверкает над твоей кожей, как блеск слишком влажных поцелуев и бесстыдной болтовни." # AI Tags
+cure_lovers_pox_tooltip: "Пожалуйста, очисти меня от зла моего. [GetTrait('lovers_pox').GetName( GetNullCharacter )] чтобы снова грешить свежей, голодной кожей." # AI Tags
+
+bno_cure_diseases.ill: "Ты [GetTrait('ill').GetName( GetNullCharacter )], лихорадка и нужда, каждый вдох мягкий хнычок для нежных рук." # AI Tags
+bno_cure_diseases.ill.desc: "Горячий дым боли и дрожь окутает вас. [GetTrait('ill').GetName( GetNullCharacter )] Делает одеяла и теплые тела столь же неотразимыми." # AI Tags
+cure_ill_tooltip: "Пожалуйста, уберите мою медсестру. [GetTrait('ill').GetName( GetNullCharacter )] Чтобы я мог тратить свои силы на слабый труд." # AI Tags
+
+bno_cure_diseases.pneumonic: "Ты страдаешь [GetTrait('pneumonic').GetName( GetNullCharacter )] Грудь раскалывается, губы раскалываются, каждый кашляет, что умоляет о прикосновении." # AI Tags
+bno_cure_diseases.pneumonic.desc: "Горячие легкие и трепещущие ребра, [GetTrait('pneumonic').GetName( GetNullCharacter )] Ворует дыхание и оставляет желать медленных ударов и крепить руки." # AI Tags
+cure_pneumonic_tooltip: "Пожалуйста, отгони меня. [GetTrait('pneumonic').GetName( GetNullCharacter )] Так что мои вздохи могут быть для удовольствия, а не для боли." # AI Tags
+
+bno_cure_diseases.great_pox: "Тебя заклеймили [GetTrait('great_pox').GetName( GetNullCharacter )], плотское проклятие, которое вспоминает каждую ночь снисходительности." # AI Tags
+bno_cure_diseases.great_pox.desc: "Ветры нужды, шрамы греха; [GetTrait('great_pox').GetName( GetNullCharacter )] Это сплетни о том, что ты сделал, когда свечи заткнулись." # AI Tags
+cure_great_pox_tooltip: "Пожалуйста, очисти меня. [GetTrait('great_pox').GetName( GetNullCharacter )] Значит, моя кожа - это снова гладкое приглашение." # AI Tags
+
+bno_cure_diseases.early_great_pox: "Ты покалываешься. [GetTrait('early_great_pox').GetName( GetNullCharacter )] Шёпот от недавнего безрассудного удовольствия." # AI Tags
+bno_cure_diseases.early_great_pox.desc: "Нежная рана и тайные ощущения; [GetTrait('early_great_pox').GetName( GetNullCharacter )] Похоже на запоминающийся стон у тебя на нервах." # AI Tags
+cure_early_great_pox_tooltip: "Пожалуйста, вымой мою. [GetTrait('early_great_pox').GetName( GetNullCharacter )] прежде чем шепот превратится в шрамы." # AI Tags
+
+bno_cure_diseases.leper: "Ты страдаешь [GetTrait('leper').GetName( GetNullCharacter )] Одинокий охотник за прикосновениями, который болит под бинтами." # AI Tags
+bno_cure_diseases.leper.desc: "Расстояние становится наказанием; [GetTrait('leper').GetName( GetNullCharacter )] Даже бледная ласка кажется запретной, а сердце бежит от того, чего не может иметь." # AI Tags
+cure_leper_tooltip: "Пожалуйста, отпустите меня. [GetTrait('leper').GetName( GetNullCharacter )] так что губы и руки не должны бояться меня." # AI Tags
+
+bno_cure_diseases.gout_ridden: "Ты страдаешь [GetTrait('gout_ridden').GetName( GetNullCharacter )] Твои суставы горячие и дрожащие, как пульс слишком упрямый, чтобы успокоиться." # AI Tags
+bno_cure_diseases.gout_ridden.desc: "На каждом шагу хладнокровно, каждый сидит поперек; [GetTrait('gout_ridden').GetName( GetNullCharacter )] требует, чтобы с вами справились, а не спешили." # AI Tags
+cure_gout_ridden_tooltip: "Пожалуйста, успокой меня. [GetTrait('gout_ridden').GetName( GetNullCharacter )] чтобы мои бедра могли двигаться по правильным причинам." # AI Tags
+
+bno_cure_diseases.consumption: "Тебя целует. [GetTrait('consumption').GetName( GetNullCharacter )], бледный цветок, который делает каждый вдох хрупкой, милой болью." # AI Tags
+bno_cure_diseases.consumption.desc: "Вощеная кожа, яркие глаза и медленно обжигающая жара; [GetTrait('consumption').GetName( GetNullCharacter )] превращает отдых в лангудное желание." # AI Tags
+cure_consumption_tooltip: "Пожалуйста, выгони меня. [GetTrait('consumption').GetName( GetNullCharacter )] Так что мое дыхание возвращается теплым, постоянным вздохом." # AI Tags
+
+bno_cure_diseases.cancer: "Ты страдаешь [GetTrait('cancer').GetName( GetNullCharacter )]..глубокое, тайное жужжание, которое омрачает свет ваших удовольствий." # AI Tags
+bno_cure_diseases.cancer.desc: "Тень во плоти, [GetTrait('cancer').GetName( GetNullCharacter )] Похищает силу и цвет, но оставляет голод." # AI Tags
+cure_cancer_tooltip: "Пожалуйста, отпустите мою [GetTrait('cancer').GetName( GetNullCharacter )] чтобы жизнь снова была богата и созрела." # AI Tags
+
+bno_cure_diseases.typhus: "Ты горишь от этого [GetTrait('typhus').GetName( GetNullCharacter )], потная кожа и бредовые шепотки, прилипающие к твоей подушке." # AI Tags
+bno_cure_diseases.typhus.desc: "Жар, который раздевает тебя одним теплом. [GetTrait('typhus').GetName( GetNullCharacter )] стирает мир в сырые простыни и фантазии." # AI Tags
+cure_typhus_tooltip: "Пожалуйста, изгоните меня. [GetTrait('typhus').GetName( GetNullCharacter )] Так что мой пот заслужил более сладкую работу." # AI Tags
+
+bno_cure_diseases.bubonic_plague: "Вас схватили [GetTrait('bubonic_plague').GetName( GetNullCharacter )], темные опухоли и темные ночи, жестокое напоминание о том, как может быть смертельной кожей." # AI Tags
+bno_cure_diseases.bubonic_plague.desc: "синяки тела, как укушенный плод; [GetTrait('bubonic_plague').GetName( GetNullCharacter )] Даже желание обратиться к молитве о еще одном теплом объятии." # AI Tags
+cure_bubonic_plague_tooltip: "Поднимите, пожалуйста. [GetTrait('bubonic_plague').GetName( GetNullCharacter )] Так что прикосновение может быть удовольствием, а не прощанием." # AI Tags
+
+bno_cure_diseases.smallpox: "Ты взволнован. [GetTrait('smallpox').GetName( GetNullCharacter )], созвездие на твоей коже, которое горит как слишком много поцелуев одновременно." # AI Tags
+bno_cure_diseases.smallpox.desc: "сверкающие звезды, жаркие ночи; [GetTrait('smallpox').GetName( GetNullCharacter )] перерисовывает созвездия и молит успокаивать." # AI Tags
+cure_smallpox_tooltip: "Пожалуйста, избавь меня от меня [GetTrait('smallpox').GetName( GetNullCharacter )] Так что моя кожа может быть гладким приглашением." # AI Tags
+
+bno_cure_diseases.measles: "Ты смываешься. [GetTrait('measles').GetName( GetNullCharacter )], яркий румянец гоняется над вами, как смущение после злой радости." # AI Tags
+bno_cure_diseases.measles.desc: "Тепло и чешется. [GetTrait('measles').GetName( GetNullCharacter )] Переключается на сдержанность и терпение, чтобы умолять." # AI Tags
+cure_measles_tooltip: "Пожалуйста, успокойся. [GetTrait('measles').GetName( GetNullCharacter )] чтобы меня могли погладить без царапины." # AI Tags
+
+bno_cure_diseases.dysentery: "Ты держишься за себя [GetTrait('dysentery').GetName( GetNullCharacter )] Жестокое измельчение, которое опустошает тебя от всего, кроме желания успокаиваться." # AI Tags
+bno_cure_diseases.dysentery.desc: ":: обломки волн и потраченных конечностей; [GetTrait('dysentery').GetName( GetNullCharacter )] Делает сильнее умолять о мягких глотках и мягчем ночах." # AI Tags
+cure_dysentery_tooltip: "Пожалуйста, прикончи меня. [GetTrait('dysentery').GetName( GetNullCharacter )] Чтобы мое тело снова пело и забавлялось." # AI Tags
+
+bno_cure_diseases.ergotism: "Вы схвачены [GetTrait('ergotism').GetName( GetNullCharacter )], покалывание пальцами и ногами, видения, которые вращаются как бедра в факеле." # AI Tags
+bno_cure_diseases.ergotism.desc: "Пины, искры и странные сны. [GetTrait('ergotism').GetName( GetNullCharacter )] Превратить мир в головокружительный танец, который ты не хотел начинать." # AI Tags
+cure_ergotism_tooltip: "Пожалуйста, отпустите меня. [GetTrait('ergotism').GetName( GetNullCharacter )] чтобы я мог выбрать интоксикацию." # AI Tags
+
+bno_cure_diseases.sickly: "Ты [GetTrait('sickly').GetName( GetNullCharacter )], тонким, как кружева, и в два раза более заманчивым, чтобы аккуратно разорваться." # AI Tags
+bno_cure_diseases.sickly.desc: "тщеславная слабость и снотворное; [GetTrait('sickly').GetName( GetNullCharacter )] Заставляет вас жаждать тех, кто ухаживает, теплыми руками и терпением." # AI Tags
+cure_sickly_tooltip: "Пожалуйста, вылечи меня. [GetTrait('sickly').GetName( GetNullCharacter )] так что мое тело может наслаждаться безо всяких резервов." # AI Tags
+
+bno_cure_diseases.tooltip.1: "Ты излечишься от своих болезней. [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
+bno_cure_diseases.tooltip.2: "Вы будете навещать [GetBuilding('bbc_church_02').GetName]" # AI Tags
+
+bno_primal_insight_decision.title.female: "Под пламенем королевы: обряд пресловутого понимания" # AI Tags
+bno_primal_insight_decision.desc.female: "Воздух треснул от предвкушения, толщиной смешанных запахов жасминского масла и похоти. Недели, ведущие к Прежнему Осознанию, всегда видели, как мой двор опухал страстными женихами, их темные глаза жаждут вкуса моей благосклонности - каждый человек отчаянно хочет быть выбранным, чтобы служить мне, Чтобы увидеть, как его сущность станет частью моей королевской крови. Они прикрывали меня через роскошные залы, как эбонические фантомы, их руки слишком долго держались на моих шелках, когда они предлагали шепчущие обещания и экстравагантные подарки. Каждое прикосновение дрожало мне в позвоночник, восхитительная боль перед неизбежным кульминационным моментом нашего ежегодного ритуала - момент, когда меня притягивали, одержимы и реконструировали чёрные Мощное семя Жреца." # AI Tags
+bno_primal_insight_decision.confirm.female: "Такая горячая преданность согревает мое сердце." # AI Tags
+bno_primal_insight_decision.tooltip.female: "Ты получишь [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+
+bno_primal_insight_decision.effect_tooltip: "Вы начнёте Ритуал, чтобы получить [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+
+bno_primal_insight_decision.title.male: "Под королевским взмахом: обряд пресловутого понимания" # AI Tags
+bno_primal_insight_decision.desc.male: "Воздух был тяжёлым с сандальным деревом и мускусом - мой собственный запах смешался с головокружительными духами жасмина, которые прилипли к жессе, как вторая кожа. Вот уже несколько недель ее присутствие постоянно бьется по мне, шелковая волна, бьющая по берегам моего желания. Она двигалась как дым через комнаты моего дворца, эти эротические голубые глаза, которые следовали за мной повсюду - достаточно долго на моих голых руках, чтобы послать дрожь в мой позвоночник. Ее смех был как ветрянки в летнем бризе, ее прикосновение легче, чем крылья бабочек, но я чувствовал, как ее маленькая рука клеймится на мою душу каждой мимолетной щеткой с кончиками пальцев на коже. Приближающийся день пульсировал как второе сердцебиение внутри меня - день, когда она снова предлагала мне себя, и я пила глубоко из колодца ее священной силы, тра. Снова расслабляюсь в огне этого древнего ритуала." # AI Tags
+bno_primal_insight_decision.confirm.male: "Тогда, Священница, позволь нам пообщаться." # AI Tags
+bno_primal_insight_decision.tooltip.male: "Ты получишь [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags

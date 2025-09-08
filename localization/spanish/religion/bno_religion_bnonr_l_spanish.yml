@@ -1,0 +1,94 @@
+﻿l_spanish:
+
+# Religious Descriptors
+bnonr: "Iglesia del Pollo Negro" # AI Tags
+bnonr_adj: "Supremacista negro" # AI Tags
+bnonr_religion: "Iglesia del Pollo Negro" # AI Tags
+bnonr_religion_adj: "Supremacista negro" # AI Tags
+bnonr_religion_adherent: "Supremacista negro" # AI Tags
+bnonr_religion_adherent_plural: "Supremacistas negros" # AI Tags
+bnonr_religion_desc: "Los supremacistas creen que todos deben inclinarse ante la raza superior." # AI Tags
+bbcs_god_name: "N'daba" # AI Tags
+bbcs_god_name_2: "Azani" # AI Tags
+bbcs_god_name_3: "Oshe" # AI Tags
+bbcs_god_name_possessive: "$bbcs_god_name$ 's" # AI Tags
+bbcs_high_god_name_alternate: "Dios" # AI Tags
+bbcs_high_god_name_alternate_possessive: "$bbcs_high_god_name_alternate$ 's" # AI Tags
+bbcs_devil_name: "Ashantee" # AI Tags
+bbcs_devil_name_possessive: "$bbcs_devil_name$ 's" # AI Tags
+bbcs_evil_god_name_1: "Kweku" # AI Tags
+bbcs_evil_god_name_2: "Mfero" # AI Tags
+bbcs_evil_god_name_3: "Nyami Nyami" # AI Tags
+bbcs_house_of_worship_1: "Casa del Éxtasis" # AI Tags
+bbcs_house_of_worship_2: "El templo de la floración negra" # AI Tags
+bbcs_house_of_worship_3: "El altar del ébano" # AI Tags
+bbcs_house_of_worship_plural: "Casas de éxtasis" # AI Tags
+bbcs_religious_symbol_1: "Las tres hermanas" # AI Tags
+bbcs_religious_symbol_2: "La Vara de Obsidiana" # AI Tags
+bbcs_religious_symbol_3: "La rosa negra floreciente" # AI Tags
+bbcs_religious_text_1: "Las Escrituras de Ébano" # AI Tags
+bbcs_religious_text_2: "El néctar del deseo" # AI Tags
+bbcs_religious_text_3: "Aphrodisia: El Ciclo Sagrado" # AI Tags
+bbcs_religious_head_title: "Gran Tejedor del Éxtasis" # AI Tags
+bbcs_male_devotee: "Sellon" # AI Tags
+bbcs_male_devotee_plural: "$bbcs_male_devotee$ s" # AI Tags
+bbcs_female_devotee: "Ninfa" # AI Tags
+bbcs_female_devotee_plural: "$bbcs_female_devotee$ s" # AI Tags
+bbcs_neutered_devotee: "Leche" # AI Tags
+bbcs_neutered_devotee_plural: "$bbcs_neutered_devotee$ s" # AI Tags
+bbcs_male_priest: "Alto Stallion" # AI Tags
+bbcs_male_priest_plural: "$bbcs_male_priest$ s" # AI Tags
+bbcs_female_priest: "Ninfa Sacerdotisa" # AI Tags
+bbcs_female_priest_plural: "$bbcs_female_priest$ es" # AI Tags
+bbcs_neutered_priest: "Portador de semillas" # AI Tags
+bbcs_neutered_priest_plural: "$bbcs_neutered_priest$ s" # AI Tags
+bbcs_alt_priest: "Moonseed Keeper" # AI Tags
+bbcs_alt_priest_plural: "$bbcs_alt_priest$ s" # AI Tags
+bbcs_male_bishop: "Blacksun Hierophant" # AI Tags
+bbcs_male_bishop_plural: "$bbcs_male_bishop$ s" # AI Tags
+bbcs_female_bishop: "Ama de Acólito Negro" # AI Tags
+bbcs_female_bishop_plural: "$bbcs_female_bishop$ es" # AI Tags
+bbcs_neutered_bishop: "Portador de semillas de marfil" # AI Tags
+bbcs_neutered_bishop_plural: "$bbcs_neutered_bishop$ s" # AI Tags
+bbcs_positive_afterlife_1: "El Bosque de Ébano" # AI Tags
+bbcs_positive_afterlife_2: "El Coito Eterno" # AI Tags
+bbcs_positive_afterlife_3: "El jardín sin fin del placer" # AI Tags
+bbcs_negative_afterlife_1: "El jardín resecado de las espinas" # AI Tags
+bbcs_negative_afterlife_2: "El laberinto de la lujuria perpetua" # AI Tags
+bbcs_negative_afterlife_3: "El reino de la esclavitud eterna" # AI Tags
+bbcs_death_deity_name: "Yemoja" # AI Tags
+bbcs_death_deity_name_possessive: "$bbcs_death_deity_name$ 's" # AI Tags
+bbcs_witch_god_name: "Aisha" # AI Tags
+bbcs_witch_god_name_possessive: "$bbcs_witch_god_name$ 's" # AI Tags
+bbcs_ghw: "Adinkra" # AI Tags
+bbcs_ghws: "$bbcs_ghw$ s" # AI Tags
+
+
+bbcs: "Iglesia del Pollo Negro" # AI Tags
+bbcs_adj: "Supremacista negro" # AI Tags
+bbcs_adherent: "Supremacista negro" # AI Tags
+bbcs_adherent_plural: "Supremacistas negros" # AI Tags
+bbcs_desc: "Los supremacistas creen que todos deben inclinarse ante la raza superior." # AI Tags
+
+bbcs_old: "Iglesia del Pollo Negro" # AI Tags
+bbcs_old_adj: "Supremacista negro" # AI Tags
+bbcs_old_adherent: "Supremacista negro" # AI Tags
+bbcs_old_adherent_plural: "Supremacistas negros" # AI Tags
+
+
+# Holy Order Names
+bnoho1: "Orden de los Dioses Negros" # AI Tags
+bnoho2: "La plaga negra" # AI Tags
+bnoho3: "Caballeros de Ghana" # AI Tags
+bnoho4: "Invasores malienses" # AI Tags
+bnoho5: "La troupe de conversión" # AI Tags
+
+# Conversion Decision
+convert: "Convertir en Adorando a hombres más oscuros" # AI Tags
+convert_desc: "Las pollas negras son todo lo que se te ocurre, cariño. ¿Por qué no cederías a una raza superior y los convertirías en tus dioses?" # AI Tags
+convert_tooltip: "Reflexionas sobre la carne, pene negro..." # AI Tags
+convert_confirm: "Te dedicas a alabar. [bno_bbc|E]" # AI Tags
+convert_effect_1: "Usted se convertirá a la [bno_religion|E]" # AI Tags
+
+rf_bbcs: "Afrodiasma" # AI Tags
+rf_bbcs_desc: "$rf_bbcs$ es un vibrante tapiz de tradiciones centradas en los negros tejidas de adoración extática, potente magia, y la creencia inquebrantable de que la salvación blanca yace en ser llenada por el poder de B falta de semilla." # AI Tags

@@ -1,0 +1,35 @@
+﻿l_russian:
+# traits
+trait_bno_bbc: "Большой чёрный коктейль" # AI Tags
+trait_bno_bbc_desc: "У этого персонажа огромный черный член и желание трахнуть каждую шлюху на своем пути." # AI Tags
+trait_bno_cuckish: "Облажался?" # AI Tags
+trait_bno_cuckish_desc: "Жена этого персонажа недавно стала отдаляться от нее. Почему?" # AI Tags
+trait_bno_cuck: "Хреново!" # AI Tags
+trait_bno_cuck_desc: "Жена этого персонажа уже трахалась с чёрным человеком, и он бессилен остановить это." # AI Tags
+trait_bno_beta: "Бета" # AI Tags
+trait_bno_beta_desc: "Бывшая жена этого персонажа оставила его для лучшего человека и полностью измучила его." # AI Tags
+trait_bno_jos: "Джек Спейдс" # AI Tags
+trait_bno_jos_desc: "Этот персонаж, несмотря на семейные проблемы, полностью присоединился к новому мировому порядку." # AI Tags
+trait_bno_caged: "Клетка" # AI Tags
+trait_bno_caged_desc: "Честность - это наказание этого персонажа за то, что он не был черным." # AI Tags
+trait_bno_castrated: "Кастрированный" # AI Tags
+trait_bno_castrated_desc: "Дети - это дело прошлого. Этот человек не будет иметь наследников." # AI Tags
+trait_bno_camp_leader: "Черная революция" # AI Tags
+trait_bno_camp_leader_desc: "Этот персонаж был избран лидером своей местной группы беженцев за свой гигантский, чёрный член, хвалённый количеством шлюх, которых он победил." # AI Tags
+
+trait_bno_slut_blood: "Чёрная шлюха" # AI Tags
+trait_bno_slut_blood_desc: "Она слишком много потребляет. [GetTrait('bno_full_black').GetName( GetNullCharacter )] Сперма, она становится черной изнутри." # AI Tags
+trait_bno_full_black: "Черный" # AI Tags
+trait_bno_full_black_desc: "Прямо с африканского континента" # AI Tags
+trait_bno_mostly_black: "В основном чёрный" # AI Tags
+trait_bno_mostly_black_desc: "Из-за селективного размножения среди африканских иностранцев их кожа темнее" # AI Tags
+trait_bno_mixed: "Смешанные" # AI Tags
+trait_bno_mixed_desc: "Полкровные африканцы" # AI Tags
+trait_bno_barely_mixed: "Едва смешанные" # AI Tags
+trait_bno_barely_mixed_desc: "После поколений не размножения в африканской династии, родная кровь этого персонажа падает." # AI Tags
+
+
+
+#Message Filter
+message_filter_bno_breeding_outcomes: ""
+message_filter_bno_blacked_events: ""

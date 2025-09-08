@@ -11,3 +11,13 @@ translations_cache_fr_offline.json
 translations_cache_fr_segments.json
 __pycache__/
 .mt_caches/
+fix_bbc_colorbang.patch
+translate_paradox_loc_offline.py.orig
+translate_paradox_loc_offline_maxq.py
+fix_adaptive_batch.patch
+run_maxq.bat
+run_maxq.ps1
+.gitignore
+translate_paradox_loc_offline_saturate_FIXED.py
+RunTranslation.ps1
+RunTranslation.V4.2.ps1

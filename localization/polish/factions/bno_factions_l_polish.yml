@@ -1,0 +1,14 @@
+﻿l_polish:
+
+bnwo_faction: "[bno_bnwo|E] Frakcja" # AI Tags
+bnwo_faction_desc: "Pod ich żelazną pięścią, białe ciała wychylają się i krwawią, napędzając nasz nienasycający głód na potomstwo urodzone silne, piękne i niezaprzeczalne [bno_black|E] - Nie, nie." # AI Tags
+bnwo_faction.name: "Wydarzenie [bno_bnwo|E]" # AI Tags
+bnwo_faction.short_effect_desc: "Wydarzenie [bno_bnwo|E] jest frakcją, która stara się ustanowić nowy porządek światowy oparty na supremacji rasowej, skupiając się na dominacji [bno_black|E] jednostki." # AI Tags
+bnwo_faction.power.bnoc: "Chce [liege|E] być $bnoc$" # AI Tags
+bnwo_faction.power.bbcs: "Chce [liege|E] być $bbcs$" # AI Tags
+bnwo_faction.power.county_bnoc: "Chce [county] być $bnoc$" # AI Tags
+bnwo_faction.power.county_bbcs: "Chce [county] być $bbcs$" # AI Tags
+bnwo_faction_leader_title: "Komandorze" # AI Tags
+bnwo_faction_revolt_title_name: "Wydarzenie [bno_bnwo|E] Powstanie" # AI Tags
+bnwo_faction_event_troops: "[bno_bnwo|E] Powstanie" # AI Tags
+bno_event_troop_default_name: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] [bno_bnwo|E] Armia powstająca" # AI Tags

@@ -1,0 +1,41 @@
+﻿l_russian:
+
+ bno_war: "[bno_bnwo|E] Война" # AI Tags
+ bno_war_victory_desc_attacker: "Вы получаете спор [titles|E]." # AI Tags
+ bno_war_victory_desc: "[attacker.GetShortUIName|U] получите воздаяние [title|E]." # AI Tags
+ bno_war_white_peace_desc_defender: "Ты оставляешь спорный [title|E]." # AI Tags
+ bno_war_white_peace_desc: "[defender.GetShortUIName|U] сохранить спорное [title|E]." # AI Tags
+ bno_war_defeat_desc_defender: "Ты оставляешь спорный [title|E]." # AI Tags
+ bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] сохранить спорное [title|E]. Все [factions|E] [discontent|E]." # AI Tags
+ bno_war_defeat_desc: "[defender.GetShortUIName|U] сохранить спорное [title|E]." # AI Tags
+ 
+ BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Расовый захват [TITLE.GetBaseName]" # AI Tags
+ BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+ BNO_WAR_CB_NAME: "Расовый захват [TITLE.GetBaseName]" # AI Tags
+
+ bno_subj_war: "[bno_bnwo|E] Война в порабощении" # AI Tags
+ bno_subj_war_victory_desc_attacker: "Вы получаете спор [titles|E]." # AI Tags
+ bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] получите воздаяние [title|E]." # AI Tags
+ bno_subj_war_white_peace_desc_defender: "Ты оставляешь спорный [title|E]." # AI Tags
+ bno_subj_war_white_peace_desc: "[defender.GetShortUIName|U] сохранить спорное [title|E]." # AI Tags
+ bno_subj_war_defeat_desc_defender: "Ты оставляешь спорный [title|E]." # AI Tags
+ bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] сохранить спорное [title|E]. Все [factions|E] [discontent|E]." # AI Tags
+ bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] сохранить спорное [title|E]." # AI Tags
+
+BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Расовое порабощение [TITLE.GetBaseName]" # AI Tags
+BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+BNO_SUBJ_WAR_CB_NAME: "Расовое порабощение [TITLE.GetBaseName]" # AI Tags
+
+bno_varangian_adventure: "[bno_bnwo|E] Вторжение" # AI Tags
+BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Вторжение против [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+BNO_VARANGIAN_ADVENTURE_CB_NAME: "Вторжение [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+BNWO_STATE_TITLE_NAME: "Черный [target_duchy.GetNameNoTierNoTooltip]" # AI Tags
+
+bno_civil_unrest: "[bno_bnwo|E] Противодействие" # AI Tags
+bno_civil_unrest.army_name: "Победители эбонии" # AI Tags
+bno_civil_unrest.victory.desc: "- Нет, нет. [bno_bnwo|E] Говорит о победе. Сопротивление бесполезно. Приготовьтесь служить новому приказу." # AI Tags
+bno_civil_unrest.white_peace.desc: "- Нет, нет. [bno_bnwo|E] предлагает шанс на мир. Подчиняйтесь нашему правлению и будьте пощадны." # AI Tags
+bno_civil_unrest.defeat.desc: "- Нет, нет. [bno_bnwo|E] был побежден. Старый порядок пока остается нетронутым." # AI Tags
+bnwo_faction_every_county: "Каждый [faction|E] [county|E]" # AI Tags
+bno_civil_unrest_name: "Повсюду чёрный новый мировой порядок" # AI Tags

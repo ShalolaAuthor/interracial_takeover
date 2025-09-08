@@ -1,0 +1,5 @@
+﻿l_polish:
+#Travel Flavor Events
+bno_cuck_travel_0001.title: "Mogę cię przerywać?" # AI Tags
+bno_cuck_travel_0001.desc: "Wiedziałeś, że coś się dzieje między [target1.GetFirstName] i [target2.GetFirstName] - Nie, nie. Widzisz, jak rozmawiają przez całą podróż. Nie dbam nawet o pozostałych w otoczeniu. Teraz uważasz, że dobrze się bawią. [target2.GetFirstName|U] Jest ogromny i [target1.GetFirstName] Naprawdę się cieszy, jesteś zazdrosny o [target2.GetHerHis] Rozmiar, żałobki są słyszane po całym obozie, w drodze. [target2.GetSheHe] przenika [target1.GetHerHis] jest wyjątkowa... Może pozwól im być" # AI Tags
+bno_cuck_travel_0001.a: "- Nie, nie." # AI Tags

@@ -69,51 +69,67 @@ bno_cure_diseases.second_step_button: "请治愈我…"
 bno_cure_diseases.lovers_pox: "你感染上了[GetTrait('lovers_pox').GetName( GetNullCharacter )]。"
 bno_cure_diseases.lovers_pox.desc: "你感染上了[GetTrait('lovers_pox').GetName( GetNullCharacter )]。"
 cure_lovers_pox_tooltip: "请治愈我的[GetTrait('lovers_pox').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.ill: "你已[GetTrait('ill').GetName( GetNullCharacter )]。"
 bno_cure_diseases.ill.desc: "你已[GetTrait('ill').GetName( GetNullCharacter )]。"
 cure_ill_tooltip: "请治愈我[GetTrait('ill').GetName( GetNullCharacter )]的状态。"
+
 bno_cure_diseases.pneumonic: "你感染上了[GetTrait('pneumonic').GetName( GetNullCharacter )]。"
 bno_cure_diseases.pneumonic.desc: "你感染上了[GetTrait('pneumonic').GetName( GetNullCharacter )]。"
 cure_pneumonic_tooltip: "请帮我摆脱[GetTrait('pneumonic').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.great_pox: "你感染上了[GetTrait('great_pox').GetName( GetNullCharacter )]。"
 bno_cure_diseases.great_pox.desc: "你感染上了[GetTrait('great_pox').GetName( GetNullCharacter )]。"
 cure_great_pox_tooltip: "请帮我摆脱[GetTrait('great_pox').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.early_great_pox: "你感染上了[GetTrait('early_great_pox').GetName( GetNullCharacter )]。"
 bno_cure_diseases.early_great_pox.desc: "你感染上了[GetTrait('early_great_pox').GetName( GetNullCharacter )]。"
 cure_early_great_pox_tooltip: "请帮我摆脱[GetTrait('early_great_pox').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.leper: "你感染上了[GetTrait('leper').GetName( GetNullCharacter )]。"
 bno_cure_diseases.leper.desc: "你感染上了[GetTrait('leper').GetName( GetNullCharacter )]。"
 cure_leper_tooltip: "请帮我摆脱[GetTrait('leper').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.gout_ridden: "你感染上了[GetTrait('gout_ridden').GetName( GetNullCharacter )]。"
 bno_cure_diseases.gout_ridden.desc: "你感染上了[GetTrait('gout_ridden').GetName( GetNullCharacter )]。"
 cure_gout_ridden_tooltip: "请帮我摆脱[GetTrait('gout_ridden').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.consumption: "你感染上了[GetTrait('consumption').GetName( GetNullCharacter )]。"
 bno_cure_diseases.consumption.desc: "你感染上了[GetTrait('consumption').GetName( GetNullCharacter )]。"
 cure_consumption_tooltip: "请帮我摆脱[GetTrait('consumption').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.cancer: "你感染上了[GetTrait('cancer').GetName( GetNullCharacter )]。"
 bno_cure_diseases.cancer.desc: "你感染上了[GetTrait('cancer').GetName( GetNullCharacter )]。"
 cure_cancer_tooltip: "请帮我摆脱[GetTrait('cancer').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.typhus: "你感染上了[GetTrait('typhus').GetName( GetNullCharacter )]。"
 bno_cure_diseases.typhus.desc: "你感染上了[GetTrait('typhus').GetName( GetNullCharacter )]。"
 cure_typhus_tooltip: "请帮我摆脱[GetTrait('typhus').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.bubonic_plague: "你感染上了[GetTrait('bubonic_plague').GetName( GetNullCharacter )]。"
 bno_cure_diseases.bubonic_plague.desc: "你感染上了[GetTrait('bubonic_plague').GetName( GetNullCharacter )]。"
 cure_bubonic_plague_tooltip: "请帮我摆脱[GetTrait('bubonic_plague').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.smallpox: "你感染上了[GetTrait('smallpox').GetName( GetNullCharacter )]。"
 bno_cure_diseases.smallpox.desc: "你感染上了[GetTrait('smallpox').GetName( GetNullCharacter )]。"
 cure_smallpox_tooltip: "请帮我摆脱[GetTrait('smallpox').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.measles: "你感染上了[GetTrait('measles').GetName( GetNullCharacter )]。"
 bno_cure_diseases.measles.desc: "你感染上了[GetTrait('measles').GetName( GetNullCharacter )]。"
 cure_measles_tooltip: "请帮我摆脱[GetTrait('measles').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.dysentery: "你感染上了[GetTrait('dysentery').GetName( GetNullCharacter )]。"
 bno_cure_diseases.dysentery.desc: "你感染上了[GetTrait('dysentery').GetName( GetNullCharacter )]。"
 cure_dysentery_tooltip: "请帮我摆脱[GetTrait('dysentery').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.ergotism: "你感染上了[GetTrait('ergotism').GetName( GetNullCharacter )]。"
 bno_cure_diseases.ergotism.desc: "你感染上了[GetTrait('ergotism').GetName( GetNullCharacter )]。"
 cure_ergotism_tooltip: "请帮我摆脱[GetTrait('ergotism').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.sickly: "你感染上了[GetTrait('sickly').GetName( GetNullCharacter )]。"
 bno_cure_diseases.sickly.desc: "你感染上了[GetTrait('sickly').GetName( GetNullCharacter )]。"
 cure_sickly_tooltip: "请帮我摆脱[GetTrait('sickly').GetName( GetNullCharacter )]"
+
 bno_cure_diseases.tooltip.1: "你将通过你的[GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]治好你的疾病"
 bno_cure_diseases.tooltip.2: "你将拜访[GetBuilding('bbc_church_02').GetName]"
 

@@ -1,0 +1,13 @@
+﻿l_french:
+
+bno_war_0001.title: "L'ennemi est trahi" # AI Tags
+bno_war_0001.desc: "Je suis alerté par l'un de mes généraux d'une situation inhabituelle. Si les rapports doivent être crus, mon pathétique ennemi [defender.GetFullName] est actuellement assis dans mon donjon, ce qui serait une nouvelle pour moi puisque je me bats activement contre lui.\n\n Mais je deviens moins surpris quand je découvre que c'était rien d'autre que sa femme [target1.GetFirstName] qui l'a livré à mes soldats. Il semblerait qu'elle ait vu cette guerre comme une occasion de s'incliner ouvertement contre les bites noires. Devriez-vous l'accorder? Quel que soit votre choix, avec [defender.GetFirstName] comme votre captive, la victoire est à vous de réclamer quand vous le jugez bon." # AI Tags
+bno_war_0001.a: "Elle a gagné sa place de courtiste." # AI Tags
+bno_war_0001.b: "Bien, mais elle n'a pas sa place dans ma cour." # AI Tags
+bno_war_0001.c: "Elle s'est bien débrouillée, je la prends pour la mienne." # AI Tags
+
+bno_war_0002.title: "Défendre la suprématie noire" # AI Tags
+bno_war_0002.desc: "[bno_bbc|E] comme le défenseur principal obtient la chance d'obtenir le caractère de guerrier saint et/ou de rejoindre la religion suprématie + l'armée frayer" # AI Tags
+bno_war_0002.a: "Que mon épée frappe toutes les races inférieures." # AI Tags
+bno_war_0002.b: "Je suis de nouveau né Suprémaciste Noir." # AI Tags
+bno_war_0002.c: "quelque chose de la troisième option" # AI Tags

@@ -1,0 +1,41 @@
+﻿l_korean:
+
+ bno_war: "[bno_bnwo|E] 전쟁" # AI Tags
+ bno_war_victory_desc_attacker: "당신은 경쟁에서 승리합니다 [titles|E]." # AI Tags
+ bno_war_victory_desc: "[attacker.GetShortUIName|U] 논쟁의 대상이 되는 [title|E]." # AI Tags
+ bno_war_white_peace_desc_defender: "당신은 논쟁을 계속하고 [title|E]." # AI Tags
+ bno_war_white_peace_desc: "[defender.GetShortUIName|U] 논쟁의 여지가 없도록 [title|E]." # AI Tags
+ bno_war_defeat_desc_defender: "당신은 논쟁을 계속하고 [title|E]." # AI Tags
+ bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] 논쟁의 여지가 없도록 [title|E]. 모두들 [factions|E] 너희에 대항하여 그들의 죄악을 더하여 [discontent|E]." # AI Tags
+ bno_war_defeat_desc: "[defender.GetShortUIName|U] 논쟁의 여지가 없도록 [title|E]." # AI Tags
+ 
+ BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] 인종적 인 점유율 [TITLE.GetBaseName]" # AI Tags
+ BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+ BNO_WAR_CB_NAME: "인종적 인 점유율 [TITLE.GetBaseName]" # AI Tags
+
+ bno_subj_war: "[bno_bnwo|E] 굴복 전쟁" # AI Tags
+ bno_subj_war_victory_desc_attacker: "당신은 경쟁에서 승리합니다 [titles|E]." # AI Tags
+ bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] 논쟁의 대상이 되는 [title|E]." # AI Tags
+ bno_subj_war_white_peace_desc_defender: "당신은 논쟁을 계속하고 [title|E]." # AI Tags
+ bno_subj_war_white_peace_desc: "[defender.GetShortUIName|U] 논쟁의 여지가 없도록 [title|E]." # AI Tags
+ bno_subj_war_defeat_desc_defender: "당신은 논쟁을 계속하고 [title|E]." # AI Tags
+ bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] 논쟁의 여지가 없도록 [title|E]. 모두들 [factions|E] 너희에 대항하여 그들의 죄악을 더하여 [discontent|E]." # AI Tags
+ bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] 논쟁의 여지가 없도록 [title|E]." # AI Tags
+
+BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] 인종적 굴복 [TITLE.GetBaseName]" # AI Tags
+BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+BNO_SUBJ_WAR_CB_NAME: "인종적 굴복 [TITLE.GetBaseName]" # AI Tags
+
+bno_varangian_adventure: "[bno_bnwo|E] 침략" # AI Tags
+BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] 침략 [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+BNO_VARANGIAN_ADVENTURE_CB_NAME: "침략 [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+BNWO_STATE_TITLE_NAME: "검은색 [target_duchy.GetNameNoTierNoTooltip]" # AI Tags
+
+bno_civil_unrest: "[bno_bnwo|E] 반란" # AI Tags
+bno_civil_unrest.army_name: "에보니 정복자" # AI Tags
+bno_civil_unrest.victory.desc: "이 [bno_bnwo|E] 이승을 주장했습니다. 저항은 헛되이 새로운 순서를 위해 준비하세요." # AI Tags
+bno_civil_unrest.white_peace.desc: "이 [bno_bnwo|E] 평화의 기회를 제공합니다. 우리의 통치에 복종하고 구원받아" # AI Tags
+bno_civil_unrest.defeat.desc: "이 [bno_bnwo|E] 패배를 당했습니다. 옛 질서가 그대로 남아 있습니다." # AI Tags
+bnwo_faction_every_county: "모든 [faction|E] [county|E]" # AI Tags
+bno_civil_unrest_name: "흑인 신세계 질서 반란" # AI Tags
