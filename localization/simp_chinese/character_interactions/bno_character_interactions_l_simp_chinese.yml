@@ -18,5 +18,5 @@ bno_tincture_of_genesis_interaction.desc: "你将转变你妻子[recipient.GetFi
 bno_tincture_of_genesis_interaction.not_white: "她是[GetTrait('bno_full_black').GetName( GetNullCharacter )]"
 bno_tincture_of_genesis_interaction.effect: "你将会给你的妻子[recipient.GetFirstName]喂食你强大的精液，转化她的内核"
 
-bno_tincture_of_genesis_interaction.desc.female: "我会让我丈夫改变我" # AI Tags
-bno_tincture_of_genesis_interaction.effect.female: "你丈夫会喂你他的精液 作为你唯一的供养来源" # AI Tags
+bno_tincture_of_genesis_interaction.desc.female: "我将要求我的丈夫转化我"
+bno_tincture_of_genesis_interaction.effect.female: "你的丈夫将给你喂食他的精液，作为你唯一的给养。"
