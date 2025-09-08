@@ -71,7 +71,7 @@ setting_bno_bbc_very_rare_chance: "Очень редкий" # AI Tags
 setting_bno_bbc_very_rare_chance_desc: "Мне плевать, что я никогда не увижу другого. #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]! Никогда." # AI Tags
 setting_bno_bbc_rare_chance: "Редкий" # AI Tags
 setting_bno_bbc_rare_chance_desc: "#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]! редкая порода, но когда они приходят, они всегда оставляют меня хотеть большего." # AI Tags
-setting_bno_bbc_uncommon_chance: "Необычно" # AI Tags
+setting_bno_bbc_uncommon_chance: "Необычные" # AI Tags
 setting_bno_bbc_uncommon_chance_desc: "Мне нравится, когда я узнаю, что иногда я чувствую удовольствие #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]! Снова." # AI Tags
 setting_bno_bbc_common_chance: "Общие" # AI Tags
 setting_bno_bbc_common_chance_desc: "Я не могу достать достаточно. #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]!! Чем чаще я могу иметь их, тем лучше." # AI Tags

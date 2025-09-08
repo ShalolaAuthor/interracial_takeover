@@ -136,7 +136,7 @@ bno_cure_diseases.tooltip.2: "Będziesz mnie odwiedzał. [GetBuilding('bbc_churc
 bno_primal_insight_decision.title.female: "Pod królowym wzrokiem: rytuał pierwotnego zrozumienia" # AI Tags
 bno_primal_insight_decision.desc.female: "W powietrzu kręciło się oczekiwanie, pełne mieszanych zapachów oleju jasmina i pożądania. W tygodniach poprzedzających Primal Insight mój dwór zawsze był pełen chętnych zamówicieli, ich ciemne oczy głodne na smak mojej łaski - każdy mężczyzna zdesperowany, aby zostać wybrany, aby mi służyć, Żeby jego esencja stała się częścią mojej królewskiej krwi. Śledziły mnie w szlachetnych salach, jak fantomy ebonowe, trzymając dłonie na moich jedwabkach, oferując szepczące obietnice i ekstrawaganckie prezenty. Każdy dotknięcie wysłało drżenie w moim kręgosłupie, pyszny ból dla nieuniknionego kulminacji naszego corocznego rytuału - moment, w którym będę roszczony, posiadany i odtworzony przez Czarnych Potężne nasienie Cock Priesta." # AI Tags
 bno_primal_insight_decision.confirm.female: "Taką gorącą oddanie ogrzewa moje serce." # AI Tags
-bno_primal_insight_decision.tooltip.female: "Będziesz miał [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+bno_primal_insight_decision.tooltip.female: "Zdobędziesz [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
 bno_primal_insight_decision.effect_tooltip: "Będziesz rozpoczynał rytuał, aby zdobyć [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 

@@ -115,7 +115,7 @@ bno_cure_diseases.smallpox.desc: "Blistersterne, Fiebernächte; [GetTrait('small
 cure_smallpox_tooltip: "Bitte ersparen Sie mir meine [GetTrait('smallpox').GetName( GetNullCharacter )] So kann meine Haut wieder eine sanfte Einladung sein." # AI Tags
 
 bno_cure_diseases.measles: "Sie sind gespült mit [GetTrait('measles').GetName( GetNullCharacter )], ein helles Erröten über Sie rast wie Verlegenheit nach bösem Vergnügen." # AI Tags
-bno_cure_diseases.measles.desc: "Gefleckte Hitze und Juckreiz; [GetTrait('measles').GetName( GetNullCharacter )] wendet Zurückhaltung zum Zittern und Geduld zum Flehen." # AI Tags
+bno_cure_diseases.measles.desc: "Gefleckte Hitze und juckender Wunsch; [GetTrait('measles').GetName( GetNullCharacter )] wendet Zurückhaltung zum Zittern und Geduld zum Flehen." # AI Tags
 cure_measles_tooltip: "Bitte beruhigen Sie meine [GetTrait('measles').GetName( GetNullCharacter )] So kann ich ohne Kratzer gestreichelt werden." # AI Tags
 
 bno_cure_diseases.dysentery: "Du bist gefangen von [GetTrait('dysentery').GetName( GetNullCharacter )] Ein grausames Geschrei, das dich von allem entleert, außer dem Wunsch, getröstet zu werden." # AI Tags
@@ -127,7 +127,7 @@ bno_cure_diseases.ergotism.desc: "Stifte, Funken und fremde Träume; [GetTrait('
 cure_ergotism_tooltip: "Bitte entlasse mich von meinem [GetTrait('ergotism').GetName( GetNullCharacter )] damit ich meine Vergiftungen wählen kann." # AI Tags
 
 bno_cure_diseases.sickly: "Du bist [GetTrait('sickly').GetName( GetNullCharacter )], zart wie Spitze und doppelt so verlockend, vorsichtig beiseite zu reißen." # AI Tags
-bno_cure_diseases.sickly.desc: "Dünne Schwäche und kerzenbeleuchtete Nickerchen; [GetTrait('sickly').GetName( GetNullCharacter )] Sie sehnen sich nach Pflegern mit warmen Händen und Geduld." # AI Tags
+bno_cure_diseases.sickly.desc: "Thin-wristed Schwäche und Kerzenlicht Nickerchen; [GetTrait('sickly').GetName( GetNullCharacter )] macht Sie sehnen sich Pfleger mit warmen Händen und Geduld." # AI Tags
 cure_sickly_tooltip: "Bitte kuriere meine [GetTrait('sickly').GetName( GetNullCharacter )] damit mein Körper ohne Reserve schwelgen kann." # AI Tags
 
 bno_cure_diseases.tooltip.1: "Sie werden von Ihren Leiden geheilt werden durch eine [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
