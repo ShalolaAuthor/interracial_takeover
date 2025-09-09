@@ -1,0 +1,43 @@
+﻿bno_father_claims_cuckchild = {
+    opinion = -10
+    years = 1
+    min = -30
+    stacking = yes
+    decaying = yes
+}
+
+bno_father_keeps_cuckchild = {
+    opinion = -20
+    years = 1
+    min = -40
+    stacking = yes
+    decaying = yes
+}
+
+bno_father_protects_queen = {
+    opinion = 10
+    years = 1
+    max = 20
+    stacking = yes
+    decaying = yes
+}
+
+bno_grateful_child = {
+    opinion = 100
+    years = 18
+    decaying = yes
+}
+
+bno_denied_my_seed = {
+    opinion = -30
+    years = 5
+    stacking = no
+    decaying = yes
+}
+
+bno_broodmare_of_my_blood = {
+    opinion = 30
+    years = 5
+    stacking = no
+    decaying = yes
+}

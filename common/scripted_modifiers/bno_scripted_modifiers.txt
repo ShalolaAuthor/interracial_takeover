@@ -325,3 +325,47 @@ bno_white_girl_modifier_big = {
 		is_bno_mindless_bbc_slut = yes
 	}
 }
+
+bno_white_girl_modifier_biggest = {
+	modifier = {
+		add = 20
+		is_bno_curious_and_up = yes
+	}
+	modifier = {
+		add = 40
+		is_bno_blacked_and_up = yes
+	}
+	modifier = {
+		add = 60
+		is_bno_snowbunny_and_up = yes
+	}
+	modifier = {
+		add = 80
+		is_bno_qos_and_up = yes
+	}
+	modifier = {
+		add = 100
+		is_bno_mindless_bbc_slut = yes
+	}
+}
+
+bno_vanilla_trait_modifier = {
+	# Vanilla personality: who suffers MORE from lying
+	modifier = { add = 20 has_trait = honest }        # hates falsehood
+	modifier = { add = 10 has_trait = just }          # fairness vs. deception
+	modifier = { add = 8  has_trait = compassionate } # empathy, guilt
+	modifier = { add = 6  has_trait = brave }         # sees lying as cowardly
+	modifier = { add = 10 has_trait = zealous }       # moral offense
+	modifier = { add = 6  has_trait = paranoid }      # fear of exposure
+	modifier = { add = 4  has_trait = stubborn }      # doubling down breeds pressure
+	modifier = { add = 4  has_trait = ambitious }     # thwarted “true” legacy creates strain
+
+	# Vanilla personality: who suffers LESS from lying (reductions)
+	modifier = { add = -15 has_trait = deceitful }    # comfortable with lies
+	modifier = { add = -8  has_trait = cynical }      # truth is flexible
+	modifier = { add = -6  has_trait = arbitrary }    # doesn’t care about fairness
+	modifier = { add = -6  has_trait = callous }      # low guilt
+	modifier = { add = -5  has_trait = lustful }      # indulgence > honesty
+	modifier = { add = -5  has_trait = shy }          # prefers discretion; lie feels safer
+	modifier = { add = -4  has_trait = calm }         # internal buffering
+}

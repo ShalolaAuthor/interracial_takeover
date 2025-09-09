@@ -1,0 +1,584 @@
+﻿### Table of Content
+#   bno_black_birth.0001: Mother event branch into 2 paths Lie and Proclaim
+#   
+#   bno_black_birth.0002: Lie PoV Father
+#
+#   bno_black_birth.0003: Lie PoV BBC
+#       └─ Path A (She dares to deny my blood)
+#           bno_black_birth.1003: BBC confront mother
+#           bno_black_birth.1001: BBC confront mother PoV Queen
+#           bno_black_birth.1103: Follow-up sex scene (BBC PoV)
+#           bno_black_birth.1101: Follow-up sex scene PoV Queen
+#           bno_black_birth.1203: Sex climax, modifiers applied (BBC PoV)
+#           bno_black_birth.1201: Sex climax PoV Queen
+#       └─ Path B (Let the lie spread — Silent Triumph)
+#           bno_black_birth.2003: Silent Triumph (BBC PoV)
+#           bno_black_birth.2103: The Whisper Spreads (BBC PoV) [placeholder]
+#           bno_black_birth.2101: Milk and Shame — The Queen Returns (PoV Queen) [placeholder]
+#           bno_black_birth.2203: The King’s Suspicion (BBC PoV) [placeholder]
+#           bno_black_birth.2201: Secret Tryst — Sex Scene (PoV Queen) [placeholder]
+#           bno_black_birth.2203: Secret Tryst — Sex Scene (PoV BBC) [placeholder]
+#
+### End of Table of Content
+
+
+namespace = bno_black_birth
+
+bno_black_birth.0001 = {
+    type = character_event
+    title = bno_black_birth.0001.title
+    desc = bno_black_birth.0001.desc
+    theme = pregnancy
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:mother
+        animation = newborn
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:father
+        animation = shame
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    lower_center_portrait = scope:child
+
+    immediate = {
+        play_music_cue_once = { TRACK = mx_cue_birth }
+    }
+
+    option = { # Lie, call event for father and real father
+        name = bno_black_birth.0001.a
+        scope:child = {
+            add_secret = {
+                type = secret_disputed_heritage
+                target = scope:child
+            }
+        }
+        stress_impact = {
+            honest = massive_stress_impact_gain
+            just = massive_stress_impact_gain
+            compassionate = massive_stress_impact_gain
+            zealous = massive_stress_impact_gain
+        }
+        ai_chance = {
+            base = 0
+            bno_vanilla_trait_modifier = yes
+        }
+        scope:father = {
+            trigger_event = {
+                id = bno_black_birth.0002
+                delayed = yes
+            }
+        }
+        if = {
+            limit = {
+                scope:real_father = {
+                    is_playable_character = yes
+                }
+            }
+            trigger_event = {
+                id = bno_black_birth.0003
+                days = { 7 14 }
+                delayed = yes
+            }
+        }
+    }
+
+    option = { # Proclaim, call event for father and real father
+        name = bno_black_birth.0001.b
+        trigger = {
+            scope:real_father = {
+                is_playable_character = yes
+            }
+        }
+        stress_impact = {
+            chaste = massive_stress_impact_gain
+            humble = massive_stress_impact_gain
+            content = massive_stress_impact_gain
+            shy = massive_stress_impact_gain
+            zealous = massive_stress_impact_gain
+        }
+        add_prestige = {
+            value = bastard_legitimization_prestige_cost
+            multiply = -1
+        }
+        legitimize_bastard_interaction_opinions_effect = {
+            BASTARD = scope:child
+            HOUSE_HEAD = scope:mother.house.house_head
+            LEGITIMIZER = scope:mother
+        }
+        scope:child = {
+            set_house = scope:real_father.house
+        }
+        scope:real_father = {
+            adopt = scope:child
+            if = {
+                limit = {
+                    scope:child = {
+                        NOT = { is_in_the_same_court_as_or_guest = scope:real_father }
+                    }
+                    exists = court_owner
+                }
+                if = {
+                    limit = {
+                        scope:child = {
+                            NOT = { is_courtier_of = scope:real_father }
+                        }
+                        OR = {
+                            this = court_owner
+                            is_courtier_of = court_owner
+                        }
+                    }
+                    add_courtier = scope:child
+                }
+                else = {
+                    scope:child = { visit_court_of = scope:real_father.court_owner }
+                }
+            }
+        }
+        add_character_modifier = bno_black_bred_queen
+        ai_chance = {
+            base = 0
+            bno_white_girl_modifier_biggest = yes
+        }
+    }
+}
+#White husband lie follow up
+bno_black_birth.0002 = {
+    type = character_event
+    title = bno_black_birth.0002.title
+    desc = bno_black_birth.0002.desc
+    theme = pregnancy
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:father
+        animation = shame
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:mother
+        animation = newborn
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    lower_center_portrait = scope:child
+
+    immediate = {
+        play_music_cue_once = { TRACK = mx_cue_birth }
+    }
+    option = {
+        name = bno_black_birth.0002.a
+        add_prestige = -50
+        add_stress = 30
+        reverse_add_opinion = {
+            target = scope:mother
+            modifier = bno_father_protects_queen
+        }
+        if = {
+            limit = {
+                exists = house
+            }
+            reverse_add_opinion = {
+                target = house.house_head
+                modifier = bno_father_claims_cuckchild
+            }
+        }
+        ai_chance = {
+            base = 50
+            modifier = { factor = 2 has_trait = deceitful }
+            modifier = { factor = 2 has_trait = cynical }
+            modifier = { factor = 1.5 has_trait = content }
+            modifier = { factor = 0.5 has_trait = honest }
+            modifier = { factor = 0.5 has_trait = just }
+            modifier = { factor = 0.25 has_trait = zealous }
+        }
+    }
+    option = {
+        name = bno_black_birth.0002.b
+        add_prestige = -100
+        add_stress = 40
+        if = {
+            limit = {
+                exists = house
+            }
+            reverse_add_opinion = {
+                target = house.house_head
+                modifier = bno_father_claims_cuckchild
+            }
+        }
+        reverse_add_opinion = {
+            target = scope:child
+            modifier = bno_grateful_child
+        }
+        ai_chance = {
+            base = 50
+            modifier = { factor = 2 has_trait = compassionate }
+            modifier = { factor = 2 has_trait = craven }
+            modifier = { factor = 1.5 has_trait = trusting }
+            modifier = { factor = 1.5 has_trait = content }
+            modifier = { factor = 0.5 has_trait = arrogant }
+            modifier = { factor = 0.5 has_trait = wrathful }
+            modifier = { factor = 0.25 has_trait = callous }
+        }
+    }
+}
+# bbc lie follow up
+bno_black_birth.0003 = {
+    type = character_event
+    title = bno_black_birth.0003.title
+    desc = bno_black_birth.0003.desc
+    theme = pregnancy
+
+    override_background = {
+        reference = throne_room
+    }
+
+    left_portrait = {
+        character = scope:real_father
+        animation = anger
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:news_bearer
+        animation = throne_room_messenger_1
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    lower_center_portrait = scope:child
+
+    immediate = {
+        random_courtier = {
+            save_scope_as = news_bearer
+        }
+        play_music_cue_once = { TRACK = mx_cue_birth }
+    }
+    option = {
+        name = bno_black_birth.0003.a
+        add_opinion = {
+            target = scope:mother
+            modifier = bno_denied_my_seed
+        }
+        custom_tooltip = {
+            text = bno_black_birth.0003.a.confront_mother
+            trigger_event = {
+                id = bno_black_birth.1003
+                delayed = yes
+                days = { 30 60 }
+            }
+        }
+        add_prestige = -50
+        ai_chance = {
+            base = 50
+            modifier = { factor = 2 has_trait = wrathful }
+            modifier = { factor = 1.5 has_trait = arrogant }
+            modifier = { factor = 1.5 has_trait = brave }
+            modifier = { factor = 0.5 has_trait = patient }
+            modifier = { factor = 0.5 has_trait = content }
+            modifier = { factor = 0.25 has_trait = craven }
+        }
+    }
+    option = {
+        name = bno_black_birth.0003.b
+        add_opinion = {
+            target = scope:mother
+            modifier = bno_broodmare_of_my_blood
+        }
+        add_prestige = 50
+        ai_chance = {
+            base = 50
+            modifier = { factor = 2 has_trait = patient }
+            modifier = { factor = 1.5 has_trait = cynical }
+            modifier = { factor = 1.5 has_trait = ambitious }
+            modifier = { factor = 0.5 has_trait = wrathful }
+            modifier = { factor = 0.5 has_trait = brave }
+            modifier = { factor = 0.25 has_trait = arrogant }
+        }
+    }
+}
+### Storm at the Door
+# bbc confront mother
+bno_black_birth.1003 = {
+    type = character_event
+    title = bno_black_birth.1003.title
+    desc = bno_black_birth.1003.desc
+    theme = pregnancy
+
+    override_background = {
+        reference = corridor_night
+    }
+
+    left_portrait = {
+        character = scope:real_father
+        animation = anger
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = bno_black_birth.1003.a
+        trigger_event = {
+            id = bno_black_birth.1103
+            delayed = yes
+        }
+        scope:mother = {
+            trigger_event = {
+                id = bno_black_birth.1001
+                delayed = yes
+            }
+        }
+    }
+}
+# bbc confront mother: mother pov
+bno_black_birth.1001 = {
+    type = character_event
+    title = bno_black_birth.1001.title
+    desc = bno_black_birth.1001.desc
+    theme = pregnancy
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:mother
+        animation = bno_sex_love_stand_2
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+    }
+
+    option = {
+        name = bno_black_birth.1001.a
+    }
+}
+# follow up ^
+bno_black_birth.1103 = {
+    type = character_event
+    title = bno_black_birth.1103.title
+    desc = bno_black_birth.1103.desc
+    theme = pregnancy
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+        save_scope_as = carn_sex_player
+        scope:mother = {
+            save_scope_as = carn_sex_partner
+        }
+        bno_sex_scene_start = yes
+        cuddle_animations = yes
+    }
+
+    option = {
+        name = bno_black_birth.1103.a
+        trigger_event = {
+            id = bno_black_birth.1203
+            delayed = yes
+        }
+        scope:mother = {
+            trigger_event = {
+                id = bno_black_birth.1101
+                delayed = yes
+            }
+        }
+    }
+}
+#fuck mom pov
+bno_black_birth.1101 = {
+    type = character_event
+    title = bno_black_birth.1101.title
+    desc = bno_black_birth.1101.desc
+    theme = pregnancy
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+        cuddle_animations = yes
+    }
+
+    option = {
+        name = bno_black_birth.1101.a
+    }
+}
+# follow up ^ sex
+bno_black_birth.1203 = {
+    type = character_event
+    title = bno_black_birth.1203.title
+    desc = bno_black_birth.1203.desc
+    theme = pregnancy
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+
+    immediate = {
+        sex_animations = yes
+    }
+
+    option = {
+        name = bno_black_birth.1203.a
+        scope:mother = {
+            add_character_modifier = bno_bred_in_secret
+            trigger_event = {
+                id = bno_black_birth.1201
+                delayed = yes
+            }
+        }
+        add_character_modifier = bno_claimed_broodmare
+        carn_sex_scene_is_cum_inside_effect = yes
+        carn_sex_scene_cleanup = yes
+    }
+}
+# follow up ^ sex mom pov
+bno_black_birth.1201 = {
+    type = character_event
+    title = bno_black_birth.1201.title
+    desc = bno_black_birth.1201.desc
+    theme = pregnancy
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+        sex_animations = yes
+        custom_tooltip = {
+            text = bno_black_birth.1201.gained_bred_in_secret
+        }
+    }
+
+    option = {
+        name = bno_black_birth.1201.a
+        carn_sex_scene_is_cum_inside_effect = yes
+        carn_sex_scene_cleanup = yes
+    }
+}
+### Silent Triumph
+# bbc lie follow up Path B — Silent Triumph
+bno_black_birth.2003 = {
+    type = character_event
+    title = bno_black_birth.2003.title
+    desc = bno_black_birth.2003.desc
+    theme = pregnancy
+
+    override_background = {
+        reference = throne_room
+    }
+
+    left_portrait = {
+        character = scope:real_father
+        animation = thinking
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    lower_center_portrait = scope:child
+
+    immediate = { }
+
+    option = {
+        name = bno_black_birth.2003.a
+    }
+}
+

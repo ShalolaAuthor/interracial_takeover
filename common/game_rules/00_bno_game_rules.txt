@@ -285,3 +285,20 @@ bno_black_cum_potency = {
 		
 	}
 }
+
+bno_black_birth = {
+	categories = {
+		interracial_takeover
+	}
+
+	default = bno_black_birth_on
+
+	bno_black_birth_on = {
+
+	}
+
+	bno_black_birth_off = {
+		
+	}
+
+}

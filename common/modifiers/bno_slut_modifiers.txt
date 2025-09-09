@@ -53,3 +53,31 @@ bno_a_future_queen_for_black = {
 	men_at_arms_maintenance = -0.1
 	men_at_arms_recruitment_cost = -0.1
 }
+
+bno_black_bred_queen = {
+	icon = black_bred_queen
+	stacking = yes
+    fertility = 0.10
+    attraction_opinion = 15
+    general_opinion = -5
+    dynasty_house_opinion = -10
+    different_faith_opinion = -5
+    monthly_prestige = 0.15
+    stress_loss_mult = 0.05
+}
+
+bno_bred_in_secret = {
+	icon = bred_in_secret
+	stacking = yes
+    fertility = 0.15
+    attraction_opinion = 10
+    stress_loss_mult = 0.1
+}
+
+bno_claimed_broodmare = {
+	icon = claimed_broodmare
+	stacking = yes
+    prowess = 2
+    attraction_opinion = 15
+    stress_loss_mult = 0.05
+}

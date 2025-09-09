@@ -28,11 +28,39 @@ bno_blood_inheritance_abnormal = {
 	}
 }
 
+
 on_birth_mother = {
 	on_actions = {
 		black_bred_bitch
 		white_breeder_on_birth_mother
 		bno_birth_pussy_wear
+		bno_black_birth
+	}
+}
+
+bno_black_birth = {
+	trigger = {
+		has_game_rule = bno_mod_status_on
+		has_game_rule = bno_black_birth_on
+	}
+	effect = {
+		if = {
+			limit = {
+				scope:child = {
+					has_trait = bno_blood
+				}
+				scope:real_father = {
+					is_bbc = yes
+					NOT = { is_spouse_of = scope:mother }
+				}
+			}
+			scope:mother = {
+				trigger_event = {
+					id = bno_black_birth.0001
+					delayed = yes
+				}
+			}
+		}
 	}
 }
 
