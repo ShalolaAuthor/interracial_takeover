@@ -2,4 +2,4 @@
 #BNWO Succession
  bnwo_only_law: "BNWO Orienté" # AI Tags
  bnwo_only_law_subname: "Supérieurité raciale" # AI Tags
- bnwo_only_law_effects: "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$ Les hommes et les femmes sont égaux en héritage successoral du titulaire du titre.\n$EFFECT_LIST_BULLET$ Seulement disponible pour passer à la même foi.\n$EFFECT_LIST_BULLET$ Permet la désignation des héritiers." # AI Tags
+ bnwo_only_law_effects: "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$Les hommes et les femmes sont égaux en héritage successoral du titulaire du titre.\n$EFFECT_LIST_BULLET$Seulement disponible pour passer à la même foi.\n$EFFECT_LIST_BULLET$Permet la désignation des héritiers." # AI Tags

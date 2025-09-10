@@ -1,19 +1,19 @@
 ﻿l_korean:
 #sneak bbc interaction
  sneak_bbc: "흑자를 외국 법원에 몰아넣어" # AI Tags
- sneak_bbc_desc: "이 중 하나를 이동 [bno_bbcs|E] 제 궁전에서 선택된 통치자의 궁전까지" # AI Tags
- actor_secondary_sneak_bbc: "스카이프하기 위해 소를 선택하세요" # AI Tags
- BBC_cg_spy_reason: "관장이나 손님이 있는데 [bno_bbc|E]: #color_gree n +5 #!" # AI Tags
- BBC_family_spy_reason: "가족 중 한 명이 있습니다. [bno_bbc|E]: #color_gree n +10 #!" # AI Tags
- BBC_curious_reason: "#color_whit e [ROOT.Char.GetFullName]! 의외로 [bno_bbc|E]: #color_gree n +10 #!" # AI Tags
- BBC_fucked_reason: "#color_whit e [ROOT.Char.GetFullName]! 한 사람이 엿먹었지 [bno_bbc|E]: #color_gree n +25 #!" # AI Tags
- BBC_slut_reason: "#color_whit e [ROOT.Char.GetFullName]! 사랑에 빠진 [bno_bbc|E]: #color_gree n +50 #!" # AI Tags
- BBC_welcome_reason: "#color_whit e [ROOT.Char.GetFullName]! 환영합니다 [bno_bbc|E]: #color_gree n +50 #!" # AI Tags
+ sneak_bbc_desc: "이 중 하나를 이동 [bno_bbcs|E] 제 궁전에서 선택된 통치자의 궁전까지." # AI Tags
+ actor_secondary_sneak_bbc: "스카이프하기 위해 황소를 선택하라" # AI Tags
+ BBC_cg_spy_reason: "관장이나 손님이 있는데 [bno_bbc|E]: #color_green +5#!" # AI Tags
+ BBC_family_spy_reason: "우리 가족 중 한 명이 있습니다 [bno_bbc|E]: #color_green +10#!"  # AI Tags
+ BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! 의외로 [bno_bbc|E]: #color_green +10#!"  # AI Tags
+ BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! 젠장 젠장 젠장 젠장 젠장 젠장 젠장 젠장 젠장 젠장 젠장 젠장 젠장 [bno_bbc|E]: #color_green +25#!"  # AI Tags
+ BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! 사랑에 빠진 [bno_bbc|E]: #color_green +50#!"  # AI Tags
+ BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! 환영합니다 [bno_bbc|E]: #color_green +50#!"  # AI Tags
 #chastity interaction
  bno_chastity_interaction: "순결 을 행하라" # AI Tags
- bno_chastity_interaction_desc: "청결 함 을 베풀어 [recipient.GetShortUINameNoTooltip]" # AI Tags
+ bno_chastity_interaction_desc: "청결 함 을 베풀어 주는 것 [recipient.GetShortUINameNoTooltip]" # AI Tags
  bno_castration_interaction: "그의 공을 벗겨라" # AI Tags
- bno_castration_interaction_desc: "완전히 배제 [recipient.GetShortUINameNoTooltip]" # AI Tags
+ bno_castration_interaction_desc: "완전 캐스트레이트 [recipient.GetShortUINameNoTooltip]" # AI Tags
 #influence child interaction
  bno_influence_child: "호기심을 키우기" # AI Tags
  bno_influence_child_desc: "자녀 에게 진리 에 영향력 을 끼치" # AI Tags

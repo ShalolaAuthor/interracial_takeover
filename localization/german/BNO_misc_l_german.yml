@@ -3,33 +3,33 @@
 trait_bno_bbc: "Groß, schwarz schwanz" # AI Tags
 trait_bno_bbc_desc: "Dieser Charakter hat einen massiven schwarzen Schwanz und den Drang, jede Schlampe im Weg zu ficken." # AI Tags
 trait_bno_cuckish: "Verschissen?" # AI Tags
-trait_bno_cuckish_desc: "Die Frau dieses Charakters wurde vor kurzem zu ihr entfernt. Warum?" # AI Tags
+trait_bno_cuckish_desc: "Die Frau dieses Charakters, die vor kurzem zu ihr entfernt wurde. Warum?" # AI Tags
 trait_bno_cuck: "Scheiße!" # AI Tags
 trait_bno_cuck_desc: "Die Frau dieses Charakters hat schon mal einen schwarzen Mann gefickt, und er ist machtlos, es zu stoppen." # AI Tags
-trait_bno_beta: "Beta-Wert" # AI Tags
+trait_bno_beta: "Betäubun" # AI Tags
 trait_bno_beta_desc: "Die ehemalige Frau dieses Charakters hat ihn für einen besseren Mann verlassen und ihn völlig entmannt." # AI Tags
-trait_bno_jos: "Jack of Spades" # AI Tags
+trait_bno_jos: "Jack der Spitze" # AI Tags
 trait_bno_jos_desc: "Dieser Charakter, trotz familiärer Schwierigkeiten, hat sich der neuen Weltordnung voll angeschlossen." # AI Tags
 trait_bno_caged: "Gekämmt" # AI Tags
 trait_bno_caged_desc: "Keuschheit ist die Strafe dieses Charakters, weil er nicht schwarz ist." # AI Tags
 trait_bno_castrated: "Kastriert" # AI Tags
 trait_bno_castrated_desc: "Kinder gehören der Vergangenheit an. Dieser Mann wird keine Erben hervorbringen." # AI Tags
 trait_bno_camp_leader: "Schwarzer Revolutionär" # AI Tags
-trait_bno_camp_leader_desc: "Dieser Charakter wurde als Anführer seiner lokalen Flüchtlingsbande für seinen gigantischen, schwarzen Schwanz gewählt, gelobt für die Menge der Schlampen, die er erobert hat." # AI Tags
+trait_bno_camp_leader_desc: "Dieser Charakter wurde als Anführer seiner lokalen Flüchtlingsbande für seinen gigantischen, schwarzen Schwanz gewählt, der für die Menge der Schlampen gelobt wurde, die er erobert hat." # AI Tags
 
 trait_bno_slut_blood: "Schwarzer Slut" # AI Tags
-trait_bno_slut_blood_desc: "Sie hat zu viel gegessen. [GetTrait('bno_full_black').GetName( GetNullCharacter )] Cum, sie wird schwarz von innen nach außen." # AI Tags
+trait_bno_slut_blood_desc: "Sie hat zu viel gegessen [GetTrait('bno_full_black').GetName( GetNullCharacter )] Cum, sie wird schwarz von innen nach außen." # AI Tags
 trait_bno_full_black: "Schwarz" # AI Tags
 trait_bno_full_black_desc: "Ein Nachkomme direkt aus dem afrikanischen Kontinent" # AI Tags
-trait_bno_mostly_black: "Hauptsächlich Schwarz" # AI Tags
+trait_bno_mostly_black: "Meistens schwarz" # AI Tags
 trait_bno_mostly_black_desc: "Durch selektive Zucht unter afrikanischen Ausländern ist ihre Haut dunkler" # AI Tags
 trait_bno_mixed: "Gemischt" # AI Tags
 trait_bno_mixed_desc: "Halbblut-Afrikaner" # AI Tags
 trait_bno_barely_mixed: "Kaum gemischt" # AI Tags
-trait_bno_barely_mixed_desc: "Nach Generationen nicht brüten innerhalb der afrikanischen Dynastie, dieses Zeichens natives Blut fließt niedrig" # AI Tags
+trait_bno_barely_mixed_desc: "Nach Generationen, die nicht innerhalb der afrikanischen Dynastie züchten, fließt das einheimische Blut dieses Charakters niedrig" # AI Tags
 
 
 
 #Message Filter
-message_filter_bno_breeding_outcomes: ""
-message_filter_bno_blacked_events: ""
+message_filter_bno_breeding_outcomes: "" # AI Tags
+message_filter_bno_blacked_events: "" # AI Tags

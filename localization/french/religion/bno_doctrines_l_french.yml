@@ -2,13 +2,13 @@
 
 special_doctrine_is_bno_faith_name: "Suprématie de la bite noire" # AI Tags
 is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
-special_doctrine_is_bno_faith_desc: "Nous devrions montrer de la compassion à ces âmes malavisées qui n'ont pas encore connu l'extase d'un [bno_bbc|E], car un seul goût est tout ce qu'il faut. Une fois que tu seras noir, tu ne retourneras jamais! Leurs esprits peuvent être obscurcis par l'ignorance aujourd'hui, mais ils viendront adorer à notre autel, suppliant pour la puissance douce du [bno_bbc|E] C'est vrai." # AI Tags
+special_doctrine_is_bno_faith_desc: "Nous devrions montrer de la compassion à ces âmes malavisées qui n'ont pas encore connu l'extase d'un [bno_bbc|E], car un seul goût est tout ce qu'il faut. Une fois que tu es noir, tu n'y retournes jamais! Leurs esprits peuvent être obscurcis par l'ignorance aujourd'hui, mais ils viendront adorer à notre autel, en demandant la puissance douce du [bno_bbc|E]." # AI Tags
 
 bno_hostility_group_name: "$hostility_group_name$" # AI Tags
-bno_hostility_doctrine_name: "Aphrodiasma" # AI Tags
+bno_hostility_doctrine_name: "Aphrodiasme" # AI Tags
 bno_hostility_doctrine_desc: "Les religions suivantes sont aphrodiasmiques:\n[GetReligionFamily('rf_bbcs').GetReligions]" # AI Tags
 
-doctrine_bno_tenets_name: "[bno_religion|E]: Tenets" # AI Tags
+doctrine_bno_tenets_name: "[bno_religion|E]Les principes:" # AI Tags
 
-tenet_bno_black_cock_conquest_name: "La conquête de la bite noire" # AI Tags
-tenet_bno_black_cock_conquest_desc: "Par la prière fervente et la conquête sainte, nous répandrons la gloire du [bno_bbc|E] à travers la terre!" # AI Tags
+tenet_bno_black_cock_conquest_name: "La Conquête des Coqs Noirs" # AI Tags
+tenet_bno_black_cock_conquest_desc: "Par la prière fervente et la conquête sainte, nous répandrons la gloire du [bno_bbc|E] De l'autre côté de la terre!" # AI Tags

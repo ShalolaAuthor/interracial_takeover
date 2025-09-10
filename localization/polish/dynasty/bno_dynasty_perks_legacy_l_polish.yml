@@ -1,24 +1,24 @@
 ﻿l_polish:
 #don't translate this yet, still figuring out how this works
-bno_embrace_african_track_desc: "Przyjmijcie Afrykanów, aby przynieść korzyści waszemu królestwu." # AI Tags
+bno_embrace_african_track_desc: "Przyjmij Afrykanów , aby przynieść korzyści dla twojego królestwa" # AI Tags
 bno_embrace_african_track_name: "Afrykańczycy" # AI Tags
 bno_embrace_african_1_name: "Przyjąć migrantów" # AI Tags
-bno_embrace_african_2_name: "Wykorzystanie imigrantów" # AI Tags
-bno_embrace_african_3_name: "Zrozumieć imigrantów" # AI Tags
-bno_embrace_african_4_name: "Rozpoznaj migrantów" # AI Tags
+bno_embrace_african_2_name: "Korzystanie z imigrantów" # AI Tags
+bno_embrace_african_3_name: "Rozumienie imigrantów" # AI Tags
+bno_embrace_african_4_name: "Rozpoznaj imigrantów" # AI Tags
 bno_embrace_african_5_name: "Integracja imigrantów" # AI Tags
 
-BNO_PLACEHOLDER: ""
+BNO_PLACEHOLDER: "" # AI Tags
 EBONY_ELITES_UNLOCK_DESCRIPTION: "Można rekrutować [GetMaA('bno_ebony_elites').GetName] jak [men_at_arms|E]" # AI Tags
-EBONY_ELITES_DESCRIPTION: "#wea k Tylko jeden pułk [GetMaA('bno_ebony_elites').GetName] może być zatrudniony #!" # AI Tags
+EBONY_ELITES_DESCRIPTION: "#weak Tylko jeden pułk [GetMaA('bno_ebony_elites').GetName] może być zatrudniony#!" # AI Tags
 
-BBC_MARRIAGE_DESCRIPTION: "/Kiedy [bno_bbc|E] Żeni się, a biała dziewczyna wychodzi za mąż [bno_bbc|E] Twoja... [dynasty|E] zyskuje [prestige|E] - Nie, nie. Zwiększą się też. [legitimacy|E] i [prestige|E] z [marriage|E]" # AI Tags
+BBC_MARRIAGE_DESCRIPTION: "W każdej chwili [bno_bbc|E] Żeni się, a biała dziewczyna wychodzi za mąż [bno_bbc|E], Twoje [dynasty|E] Zyskasz [prestige|E]- Nie , nie , nie . Zwiększy się ich liczba [legitimacy|E] i [prestige|E] z [marriage|E]" # AI Tags
 
-BBC_SEX_EFFECT: "/Kiedy [bno_bbc|E] i białą dziewczynę z ciebie. [dynasty|E]/przystąpić do seksu. [dynasty|E] zyskuje [prestige|E]" # AI Tags
+BBC_SEX_EFFECT: "W każdej chwili [bno_bbc|E] i białą dziewczynę z ciebie [dynasty|E] /przystąpić do seksu [dynasty|E] Zyskasz [prestige|E]" # AI Tags
 
 BNO_EMBRACE_3_EFFECT: "Odblokowanie nauki o imigrantach" # AI Tags
 
-SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Wybierz [congenital|E] Częstotliwość staje się bardziej powszechna w [dynasty|E]" # AI Tags
+SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Wybierz [congenital|E] Część, która staje się bardziej powszechna w [dynasty|E]" # AI Tags
 
 BBC_CAMP_BUILDING_UNLOCK: "Odblokowanie [GetBuilding('bbc_camp_01').GetName] [building|E]" # AI Tags
 

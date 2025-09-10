@@ -1,23 +1,23 @@
 ﻿l_german:
 
 #BBC's POV if wife is white breeder
-bno_birth.0001.wife.t: "Ehefrau White Fertile Womb" # AI Tags
+bno_birth.0001.wife.t: "Ehefrau weiß fruchtbare Womm"       # AI Tags
 bno_birth.0001.wife.desc: "Ihre Frau [ROOT.GetCharacter.GetName] gebiert wieder ein schwarzes Baby und zementiert ihren Ruf als würdige Züchterin. Sie wurde dazu gemacht, schwarze Kinder zu gebären." # AI Tags
 #Cuck's POV if wife is white breeder
 bno_birth.0001.cuck.wife.t: "Frau Geburten viele Kinder" # AI Tags
 bno_birth.0001.cuck.wife.desc: "Ihre Frau [ROOT.GetCharacter.GetName] hat mehrere Kinder zur Welt gebracht. Obwohl in deinem Hinterkopf, findest du es seltsam, dass die meisten nicht wie alle anderen aussehen." # AI Tags
 
-bno_birth.0001.lover.t: "Lover's White Fertile Womb" # AI Tags
+bno_birth.0001.lover.t: "Der weiße fruchtbare Gebärmutter der Liebhaber" # AI Tags
 bno_birth.0001.lover.desc: "Dein Geliebter [ROOT.GetCharacter.GetName] weiterhin ihre Rasse zu verraten, indem sie ein weiteres schwarzes Kind in die Welt. Es ist ihre größte Freude, Black Superiority weiterzuführen." # AI Tags
 
 bno_birth.0001.t: "Meine weiße fruchtbare Gebärmutter" # AI Tags
-bno_birth.0001.personal_desc: "Ein weiteres schwarzes Baby wurde aus meiner fruchtbaren Gebärmutter geboren. Die Gegenüberstellung der Haut meines Kindes und meiner eigenen erfüllt mich mit Stolz und erneuert meinen Wunsch, die überlegene Rasse zu stärken." # AI Tags
+bno_birth.0001.personal_desc: "Ein weiteres schwarzes Baby wurde aus meinem fruchtbaren Mutterleib geboren. Die Gegenüberstellung der Haut meines Kindes und meiner eigenen erfüllt mich mit Stolz und erneuert meinen Wunsch, die überlegene Rasse zu stärken." # AI Tags
 
 bno_birth.0002.t: "Mein Samen breitet sich aus" # AI Tags
 bno_birth.0002.personal_desc: "Ich habe die Welt mit vielen schwarzen Kindern gesegnet." # AI Tags
 
 bno_birth_real_father_notification.title: "Mein Kind" # AI Tags
-bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] hat geboren, und du weißt in deinem Herzen, dass ihr Kind dir gehört, unabhängig davon, ob du es beweisen kannst." # AI Tags
+bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] hat geboren, und du weißt in deinem Herzen, dass ihr Kind dir gehört, ganz gleich, ob du es beweisen kannst." # AI Tags
 bno_birth_cuck_father_notification.title: "Mein Kind" # AI Tags
 bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] hat geboren, und Sie sind ein wenig überrascht, wie krank es aussieht. Ist es normal, dass ein Kind so einen dunklen Haut Teint hat?" # AI Tags
 
@@ -25,53 +25,53 @@ bno_happy_wife.0001.title: "Frau sieht glücklich aus" # AI Tags
 bno_happy_wife.0001.desc: "Du bist froh, das zu sehen [ROOT.GetCharacter.GetName] Scheint in letzter Zeit in Hochstimmung zu sein." # AI Tags
 
 bno_married.title: "Hat Frau genommen" # AI Tags
-bno_married_desc: "Du tust deinen Teil für Black Superiority, indem du eine Frau nimmst. Möge sie euch viele neue Kinder schenken." # AI Tags
+bno_married_desc: "Du tust deinen Teil zur weiteren Black Superiority, indem du eine Frau nimmst. Möge sie euch viele neue Kinder schenken." # AI Tags
 
 bno_bull_0004_notification.title: "Frau gut essen" # AI Tags
-bno_bull_0004_notification.desc: "In letzter Zeit Ihre Frau [ROOT.GetCharacter.GetName] scheint ihr vergangenes schlechtes Essverhalten gebrochen zu haben. Sie sagte, sie habe auf eine fast alles flüssige Ernährung umgestellt. Sie muss es mögen, da sie gelegentlich mit ihrem flüssigen Essen um ihre Lippen herum gesehen wird." # AI Tags
+bno_bull_0004_notification.desc: "In letzter Zeit Ihre Frau [ROOT.GetCharacter.GetName] scheint ihr vergangenes schlechtes Essverhalten gebrochen zu haben. Sie sagte, sie sei auf eine fast alles flüssige Ernährung umgestellt. Sie muss es mögen, da sie gelegentlich mit ihrem flüssigen Essen um ihre Lippen herum gesehen wird." # AI Tags
 
 bno_bull_0008_notification.title: "Unheimliche Ähnlichkeit" # AI Tags
-bno_bull_0008_notification.desc: "Gerüchte wirbeln von einer Hure, die durch die schwarzen Flüchtlingslager geht, die seltsam aussieht wie deine liebe Frau [target1.GetFirstName])== Einzelnachweise ==" # AI Tags
+bno_bull_0008_notification.desc: "Gerüchte kreisen von einer Hure, die durch die schwarzen Flüchtlingslager geht, die seltsam aussieht wie deine liebe Frau [target1.GetFirstName]." # AI Tags
 
 bno_bull_0010_notification.title: "Buchhaltungsfehler?" # AI Tags
-bno_bull_0010_notification.desc: "Ich bin sicher, ich täusche mich nicht, es scheint, dass etwas Gold aus der Schatzkammer fehlt. Wer hätte es nehmen können?" # AI Tags
+bno_bull_0010_notification.desc: "Ich bin sicher, ich irre mich nicht, es scheint, dass etwas Gold aus der Schatzkammer fehlt. Wer hätte es nehmen können?" # AI Tags
 
 bno_bull_0012_notification.title: "Weiß er etwas?" # AI Tags
 bno_bull_0012_notification.desc: "In letzter Zeit habe ich bemerkt, [ROOT.GetCharacter.GetName] Er sieht mich anders an, als wüsste er etwas, was er nicht sollte." # AI Tags
 
 bno_slut_0008_notification.title: "Unheimliche Ähnlichkeit" # AI Tags
-bno_slut_0008_notification.desc: "Gerüchte wirbeln von einer Hure, die durch die schwarzen Flüchtlingslager geht, die seltsam aussieht wie deine liebe Frau [slut.GetFirstName])== Einzelnachweise ==" # AI Tags
+bno_slut_0008_notification.desc: "Gerüchte kreisen von einer Hure, die durch die schwarzen Flüchtlingslager geht, die seltsam aussieht wie deine liebe Frau [slut.GetFirstName]." # AI Tags
 
 bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] dir all ihre Beute geben" # AI Tags
 bbc_worshipper.0002.notifications.desc: "Nach monatelanger harter Arbeit und unermüdlicher Nacht gibt sie dir all ihr Vermögen, weil sie nicht weiß, was sie damit anfangen soll." # AI Tags
 
 bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] hat sich zur Anbetung der [bno_religion|E]" # AI Tags
-bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] hat die Lehren der [bno_religion|E], widmen [target_vassal.GetHerselfHimself] zu ihrer Anbetung und zu den Freuden, die sie bringt." # AI Tags
+bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] hat die Lehren der [bno_religion|E], dedizierend [target_vassal.GetHerselfHimself] zu ihrer Anbetung und zu den Freuden, die sie bringt." # AI Tags
 
 bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] hat sich zur Anbetung der [bno_religion|E]" # AI Tags
-bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] hat die Lehren der [bno_religion|E], widmet seine Ressourcen zu seiner Anbetung und die Freuden, die sie bringt." # AI Tags
+bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] hat die Lehren der [bno_religion|E], seine Ressourcen seiner Anbetung und die Freuden, die sie bringt widmen." # AI Tags
 
 bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] hat sich zur Anbetung der [bno_religion|E]" # AI Tags
-bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] hat die Lehren der [bno_religion|E], widmen [neighboring_lord_or_lady.GetHerselfHimself] zu ihrer Anbetung und zu den Freuden, die sie bringt." # AI Tags
+bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] hat die Lehren der [bno_religion|E], dedizierend [neighboring_lord_or_lady.GetHerselfHimself] zu ihrer Anbetung und zu den Freuden, die sie bringt." # AI Tags
 
 bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] hat sich zur Anbetung der [bno_religion|E]" # AI Tags
-bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] hat die Lehren der [bno_religion|E], widmet seine Ressourcen zu seiner Anbetung und die Freuden, die sie bringt." # AI Tags
+bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] hat die Lehren der [bno_religion|E], seine Ressourcen seiner Anbetung und die Freuden, die sie bringt widmen." # AI Tags
 
 bbc_priestess.1001.rejected_conversion.male.title: "Umwandlung abgelehnt: Die schwarze Schwanz gespurt" # AI Tags
-bbc_priestess.1001.rejected_conversion.male.desc: "Trotz [ROOT.Char.GetFirstName] 's inbrünstige Predigten der Hingabe von Körper und Seele an die Herrlichkeit der [bno_bbc|E], die Herde wandte sich ab in Ekel. Ihre Herzen bleiben stur, ihre Lippen unselig, und die Kirche des schwarzen Schwanzes gewinnt keine neuen Jünger an diesem Tag." # AI Tags
+bbc_priestess.1001.rejected_conversion.male.desc: "Trotz [ROOT.Char.GetFirstName]'s inbrünstige Predigten der Hingabe von Körper und Seele an die Herrlichkeit der [bno_bbc|E], die Herde wandte sich ab in Ekel. Ihre Herzen bleiben stur, ihre Lippen unselig, und die Kirche des schwarzen Schwanzes gewinnt keine neuen Jünger an diesem Tag." # AI Tags
 
 bbc_priestess.1001.rejected_conversion.female.title: "Ihr pleas abgelehnt: die schwarz schwanz abgelehnt" # AI Tags
 bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] entblößte ihre Hingabe mit jedem schwülen Wort und versprach Erlösung durch die Umarmung der BBC, doch die Menge widerstand. Ihre Gedanken blieben verschlossen, ihre Körper nicht beansprucht, und ihre heilige Lust trug keine Bekehrten in dieser Nacht." # AI Tags
 
-bbc_priestess.1001.target_not_found.male.title: "Die heilige Jagd des Priesters wächst verzweifelt..." # AI Tags
-bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] kniet am Altar des schwarzen Schwanzes, rastlos und pochend mit heiliger Lust. Keine neuen Anhänger scheinen anzubeten, kein Sünder, der in die Bekehrung führt - nur sein eigener schwerer Schacht, der vor göttlichem Bedürfnis tropft und sich danach sehnt, heiligen Samen in das Zittern eines neuen Jüngers zu verschütten Ergebenheit." # AI Tags
+bbc_priestess.1001.target_not_found.male.title: "Die heilige Jagd des Priesters wächst verzweifelt…" # AI Tags
+bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] kniet am Altar des schwarzen Schwanzes, rastlos und pochend mit heiliger Lust. Keine neuen Anhänger scheinen anzubeten, kein Sünder, der in die Bekehrung führt – nur sein eigener schwerer Schacht, der vor göttlichem Bedürfnis tropft und sich danach sehnt, heiligen Samen in die zitternde Hingabe eines neuen Jüngers zu verschütten." # AI Tags
 
-bbc_priestess.1001.target_not_found.female.title: "Die Priesterin wartet auf eine Anhängerin..." # AI Tags
-bbc_priestess.1001.target_not_found.female.desc: "Getropft in ihren seidenweißen Roben, die zarten [ROOT.Char.GetFirstName] beugt sich vor dem Altar des schwarzen Schwanzes, ihre großzügigen Brüste zusammengedrückt in zitternden Hingabe. Mit otherworldly Gnade und einem süßen, schmerzenden Lächeln flüstert sie Gebete in das Kerzenlicht der Dunkelheit - doch kein Sünder kommt, um bekehrt zu werden, so dass ihr weicher Rahmen zittert mit heiligen Bedürftigkeit, verzweifelt, sich um das heilige Opfer zu wickeln, das sie so gern anbetet." # AI Tags
+bbc_priestess.1001.target_not_found.female.title: "Die Priesterin wartet auf eine Anhängerin…" # AI Tags
+bbc_priestess.1001.target_not_found.female.desc: "Getropft in ihren seidenweißen Roben, die zarten [ROOT.Char.GetFirstName] beugt sich vor dem Altar des schwarzen Schwanzes, ihre großzügigen Brüste zusammengedrückt in zitternden Hingabe. Mit fremdweltlicher Gnade und einem süßen, schmerzenden Lächeln flüstert sie Gebete ins Kerzenlicht – doch kein Sünder kommt, um bekehrt zu werden, so dass ihr weicher Rahmen vor heiligem Bedürfnis zittert, verzweifelt, sich um das heilige Opfer zu wickeln, das sie so sehnt, anzubeten." # AI Tags
 
 bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] ist jetzt schwärzer denn je" # AI Tags
 bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] ist jetzt schwärzer denn je" # AI Tags
-bno_marriage.0007.notifications.desc.male: "Ein Mitglied Ihrer Familie hat seinen schwarzen Samen an einen geeigneten Partner verteilt." # AI Tags
+bno_marriage.0007.notifications.desc.male: "Ein Mitglied Ihrer Familie hat seinen schwarzen Samen an einen geeigneten Partner verteilt" # AI Tags
 bno_marriage.0007.notifications.desc.female: "Ein Mitglied Ihrer Familie hat eine #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!" # AI Tags
 
 bbc_diarch: "[bno_bbc|E]" # AI Tags

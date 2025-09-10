@@ -1,7 +1,7 @@
 ﻿l_french:
 
-bno_seduce_interaction: "Séduction de la BBC" # AI Tags
-bno_seduce_interaction_desc: "Utilisez votre charme pour séduire [recipient.GetHerHim] C'est vrai." # AI Tags
+bno_seduce_interaction: "La séduction de la BBC" # AI Tags
+bno_seduce_interaction_desc: "Utilisez votre charme pour séduire [recipient.GetHerHim]." # AI Tags
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] a une sorte de [illness|E]" # AI Tags
 bno_cure_disease_interaction.no_priestess: "Vous n'avez pas de [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] pour accomplir le rituel." # AI Tags
 bno_cure_disease_interaction.no_priest: "Vous n'avez pas de [GetCourtPositionType('bno_bbc_priest_court_position').GetName] pour accomplir le rituel." # AI Tags
@@ -14,9 +14,9 @@ bno_cure_disease_interaction.female_recipient.effect: "Vous allez faire appel à
 bno_cure_disease_interaction.male_recipient.effect: "Vous allez faire appel à votre [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] pour préparer son essence sacrée pour préparer le rituel" # AI Tags
 
 bno_tincture_of_genesis_interaction: "Teinture de la Genèse" # AI Tags
-bno_tincture_of_genesis_interaction.desc: "Tu transformeras ta femme. [recipient.GetFirstName] existence" # AI Tags
-bno_tincture_of_genesis_interaction.not_white: "Elle l'est. [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
-bno_tincture_of_genesis_interaction.effect: "Tu nourriras ta femme. [recipient.GetFirstName] votre sperme puissant, en transformant son cœur." # AI Tags
+bno_tincture_of_genesis_interaction.desc: "Tu transformeras ta femme [recipient.GetFirstName] l'existence" # AI Tags
+bno_tincture_of_genesis_interaction.not_white: "Elle l'est [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+bno_tincture_of_genesis_interaction.effect: "Tu nourriras ta femme [recipient.GetFirstName] votre sperme puissant, en transformant son cœur." # AI Tags
 
-bno_tincture_of_genesis_interaction.desc.female: "Je vais demander à mon mari de me transformer." # AI Tags
+bno_tincture_of_genesis_interaction.desc.female: "Je vais demander à mon mari de me transformer" # AI Tags
 bno_tincture_of_genesis_interaction.effect.female: "Votre mari vous donnera son sperme, votre seule source de nourriture." # AI Tags

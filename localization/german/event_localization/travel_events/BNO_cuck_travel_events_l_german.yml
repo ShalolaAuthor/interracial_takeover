@@ -1,5 +1,5 @@
 ﻿l_german:
 #Travel Flavor Events
-bno_cuck_travel_0001.title: "Darf ich Sie unterbrechen..." # AI Tags
-bno_cuck_travel_0001.desc: "Du wusstest, dass es auf etwas zwischen [target1.GetFirstName] und [target2.GetFirstName])== Einzelnachweise == Du siehst, wie sie während der ganzen Reise miteinander plaudern. Kümmern Sie sich nicht einmal um die anderen im Gefolge. Du findest sie jetzt amüsieren. [target2.GetFirstName|U] 's ist enorm und [target1.GetFirstName] wirklich genießt es, Sie sind eifersüchtig auf [target2.GetHerHis] Größe, Stöhnen sind überall in Ihrem Lager gehört, die Art und Weise [target2.GetSheHe] dringt ein [target1.GetHerHis] ist einzigartig... Vielleicht lassen sie sie sein" # AI Tags
-bno_cuck_travel_0001.a: "Oh, nein!" # AI Tags
+bno_cuck_travel_0001.title: "Darf ich Sie unterbrechen…" # AI Tags
+bno_cuck_travel_0001.desc: "Du wusstest, dass es etwas zwischen [target1.GetFirstName] und [target2.GetFirstName]… Man sieht sie während der ganzen Reise plaudern. Kümmere dich nicht einmal um die anderen im Gefolge. Du findest, dass sie sich jetzt amüsieren. [target2.GetFirstName|U]'s ist enorm und [target1.GetFirstName] wirklich genießt es, Sie sind eifersüchtig auf [target2.GetHerHis] Größe, Stöhnen sind überall in Ihrem Lager gehört, die Art und Weise [target2.GetSheHe] dringt ein [target1.GetHerHis] ist einzigartig…vielleicht lassen sie sein " # AI Tags
+bno_cuck_travel_0001.a: " Oh, nein " # AI Tags

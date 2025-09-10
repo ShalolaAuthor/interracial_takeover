@@ -1,11 +1,11 @@
 ﻿l_russian:
- bnoc: "Африка" # AI Tags
- bnoc_prefix: "Африка" # AI Tags
- bnoc_collective_noun: "Африка" # AI Tags
- bnoc_group: "Африка" # AI Tags
- bnoc_group_collective_noun: "Африка" # AI Tags
+ bnoc: "Африканский" # AI Tags
+ bnoc_prefix: "Африканский" # AI Tags
+ bnoc_collective_noun: "Африканцы" # AI Tags
+ bnoc_group: "Африканский" # AI Tags
+ bnoc_group_collective_noun: "Африканцы" # AI Tags
 
- language_bnoc_name: "Темнеша" # AI Tags
+ language_bnoc_name: "Темне'ша" # AI Tags
 
- heritage_bnoc_name: "Африка" # AI Tags
- heritage_bnoc_collective_noun: "Африка" # AI Tags
+ heritage_bnoc_name: "Африканский" # AI Tags
+ heritage_bnoc_collective_noun: "Африканцы" # AI Tags

@@ -4,24 +4,24 @@ trait_bno_bbc: "Grosse bite noire" # AI Tags
 trait_bno_bbc_desc: "Ce personnage a une grosse bite noire et l'envie de baiser toutes les salopes à sa façon." # AI Tags
 trait_bno_cuckish: "Cocu?" # AI Tags
 trait_bno_cuckish_desc: "La femme de ce personnage s'est éloignée d'elle depuis peu. Pourquoi?" # AI Tags
-trait_bno_cuck: "Imbécile!" # AI Tags
+trait_bno_cuck: "Cocu!" # AI Tags
 trait_bno_cuck_desc: "La femme de ce personnage a déjà baisé un homme noir, et il est impuissant à l'arrêter." # AI Tags
 trait_bno_beta: "Bêta" # AI Tags
 trait_bno_beta_desc: "L'ancienne femme de ce personnage l'a laissé pour un homme meilleur, et l'a complètement émasculé." # AI Tags
 trait_bno_jos: "Jack de crêpes" # AI Tags
-trait_bno_jos_desc: "Ce personnage, malgré les difficultés conjugales, a pleinement rejoint le nouvel ordre mondial." # AI Tags
-trait_bno_caged: "Câblé" # AI Tags
+trait_bno_jos_desc: "Ce personnage, malgré les troubles de l'époux, a pleinement rejoint le nouvel ordre mondial." # AI Tags
+trait_bno_caged: "Câblés" # AI Tags
 trait_bno_caged_desc: "La chasteté est la punition de ce personnage pour ne pas être noir." # AI Tags
 trait_bno_castrated: "Castré" # AI Tags
 trait_bno_castrated_desc: "Les enfants sont une chose du passé. Cet homme ne produira pas d'héritiers." # AI Tags
 trait_bno_camp_leader: "Révolutionnaire noir" # AI Tags
-trait_bno_camp_leader_desc: "Ce personnage a été choisi comme leader de sa bande locale de réfugiés pour sa grosse bite noire, louée pour la quantité de salopes qu'il a conquises." # AI Tags
+trait_bno_camp_leader_desc: "Ce personnage a été choisi comme le leader de sa bande locale de réfugiés pour son énorme bite noire, louée pour la quantité de salopes qu'il a conquises." # AI Tags
 
 trait_bno_slut_blood: "Saucisse noire" # AI Tags
-trait_bno_slut_blood_desc: "Elle a trop consommé. [GetTrait('bno_full_black').GetName( GetNullCharacter )] Cum, elle devient noire de l'intérieur." # AI Tags
+trait_bno_slut_blood_desc: "Elle a trop consommé [GetTrait('bno_full_black').GetName( GetNullCharacter )] Cum, elle devient noire de l'intérieur." # AI Tags
 trait_bno_full_black: "Noir" # AI Tags
 trait_bno_full_black_desc: "Un descendant tout droit du continent africain" # AI Tags
-trait_bno_mostly_black: "Surtout des Noirs" # AI Tags
+trait_bno_mostly_black: "La plupart du temps noir" # AI Tags
 trait_bno_mostly_black_desc: "Grâce à l'élevage sélectif parmi les étrangers africains, leur peau est plus foncée" # AI Tags
 trait_bno_mixed: "Mixte" # AI Tags
 trait_bno_mixed_desc: "Un demi-sang africain" # AI Tags
@@ -31,5 +31,5 @@ trait_bno_barely_mixed_desc: "Après des générations de non-élevage dans la d
 
 
 #Message Filter
-message_filter_bno_breeding_outcomes: ""
-message_filter_bno_blacked_events: ""
+message_filter_bno_breeding_outcomes: "" # AI Tags
+message_filter_bno_blacked_events: "" # AI Tags

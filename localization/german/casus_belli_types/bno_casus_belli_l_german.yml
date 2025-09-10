@@ -1,30 +1,30 @@
 ﻿l_german:
 
  bno_war: "[bno_bnwo|E] Krieg" # AI Tags
- bno_war_victory_desc_attacker: "Du gewinnst das Streitende [titles|E])== Einzelnachweise ==" # AI Tags
- bno_war_victory_desc: "[attacker.GetShortUIName|U] Gewinne aus der streitigen [title|E])== Einzelnachweise ==" # AI Tags
- bno_war_white_peace_desc_defender: "Sie halten die umkämpfte [title|E])== Einzelnachweise ==" # AI Tags
- bno_war_white_peace_desc: "[defender.GetShortUIName|U] hält die streitige [title|E])== Einzelnachweise ==" # AI Tags
- bno_war_defeat_desc_defender: "Sie halten die umkämpfte [title|E])== Einzelnachweise ==" # AI Tags
- bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] hält die streitige [title|E])== Einzelnachweise == Insgesamt [factions|E] gegen Sie erhöhen ihre [discontent|E])== Einzelnachweise ==" # AI Tags
- bno_war_defeat_desc: "[defender.GetShortUIName|U] hält die streitige [title|E])== Einzelnachweise ==" # AI Tags
+ bno_war_victory_desc_attacker: "Du gewinnst die umkämpfte [titles|E]." # AI Tags
+ bno_war_victory_desc: "[attacker.GetShortUIName|U] Gewinne aus der streitigen [title|E]." # AI Tags
+ bno_war_white_peace_desc_defender: "Du bewahrst die umkämpften [title|E]." # AI Tags
+ bno_war_white_peace_desc: "[defender.GetShortUIName|U] hält die streitige [title|E]." # AI Tags
+ bno_war_defeat_desc_defender: "Du bewahrst die umkämpften [title|E]." # AI Tags
+ bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] hält die streitige [title|E]… Insgesamt [factions|E] gegen Sie erhöhen ihre [discontent|E]." # AI Tags
+ bno_war_defeat_desc: "[defender.GetShortUIName|U] hält die streitige [title|E]." # AI Tags
  
- BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Rationelle Übernahme der [TITLE.GetBaseName]" # AI Tags
+ BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Annahme durch das Europäische Parlament am 16. Dezember [TITLE.GetBaseName]" # AI Tags
  BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
- BNO_WAR_CB_NAME: "Rationelle Übernahme von [TITLE.GetBaseName]" # AI Tags
+ BNO_WAR_CB_NAME: "Annahme durch den Rat am 25. Juli [TITLE.GetBaseName]" # AI Tags
 
  bno_subj_war: "[bno_bnwo|E] Unterwerfung Krieg" # AI Tags
- bno_subj_war_victory_desc_attacker: "Du gewinnst das Streitende [titles|E])== Einzelnachweise ==" # AI Tags
- bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] Gewinne aus der streitigen [title|E])== Einzelnachweise ==" # AI Tags
- bno_subj_war_white_peace_desc_defender: "Sie halten die umkämpfte [title|E])== Einzelnachweise ==" # AI Tags
- bno_subj_war_white_peace_desc: "[defender.GetShortUIName|U] hält die streitige [title|E])== Einzelnachweise ==" # AI Tags
- bno_subj_war_defeat_desc_defender: "Sie halten die umkämpfte [title|E])== Einzelnachweise ==" # AI Tags
- bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] hält die streitige [title|E])== Einzelnachweise == Insgesamt [factions|E] gegen Sie erhöhen ihre [discontent|E])== Einzelnachweise ==" # AI Tags
- bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] hält die streitige [title|E])== Einzelnachweise ==" # AI Tags
+ bno_subj_war_victory_desc_attacker: "Du gewinnst die umkämpfte [titles|E]." # AI Tags
+ bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] Gewinne aus der streitigen [title|E]." # AI Tags
+ bno_subj_war_white_peace_desc_defender: "Du bewahrst die umkämpften [title|E]." # AI Tags
+ bno_subj_war_white_peace_desc: "[defender.GetShortUIName|U] hält die streitige [title|E]." # AI Tags
+ bno_subj_war_defeat_desc_defender: "Du bewahrst die umkämpften [title|E]." # AI Tags
+ bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] hält die streitige [title|E]… Insgesamt [factions|E] gegen Sie erhöhen ihre [discontent|E]." # AI Tags
+ bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] hält die streitige [title|E]." # AI Tags
 
-BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Rassenunterwerfung der [TITLE.GetBaseName]" # AI Tags
+BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Rassensubjugation der [TITLE.GetBaseName]" # AI Tags
 BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
-BNO_SUBJ_WAR_CB_NAME: "Rassenunterwerfung von [TITLE.GetBaseName]" # AI Tags
+BNO_SUBJ_WAR_CB_NAME: "Rassensubjugation von [TITLE.GetBaseName]" # AI Tags
 
 bno_varangian_adventure: "[bno_bnwo|E] Invasion" # AI Tags
 BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Invasion gegen [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags

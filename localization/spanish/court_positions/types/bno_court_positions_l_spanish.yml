@@ -42,13 +42,13 @@ bno_court_position_trait_fecund: "[GetTrait('fecund').GetName( ROOT.Char )]" # A
 hire_bbc_worshipper_decision: "Buscar [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
 hire_bbc_worshipper_decision_effect_tooltip: "Se le presentará con un grupo de [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] y puede contratar a uno de ellos por un honorario y un sueldo mensual de [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
 
-bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$ Se convierte en [bno_whore|E] por sus [liege|E]" # AI Tags
+bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$Se convierte en [bno_whore|E] por sus [liege|E]" # AI Tags
 
-bno_bbc_priestess_employer_custom_effect_description: "$BULLET$ Se convierte en [bbc_evangelist|E] por sus [liege|E]" # AI Tags
+bno_bbc_priestess_employer_custom_effect_description: "$BULLET$Se convierte en [bbc_evangelist|E] por sus [liege|E]" # AI Tags
 bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$" # AI Tags
 
 bno_bbc_priestess_court_position: "BBC Sacerdotisa" # AI Tags
 bno_bbc_priestess_court_position_desc: "Slick con aceite sagrado, meten sus pollas palpitantes y coños resbaladizos en la boca y el agujero de cada noble hasta que todo el reino adora la pesada carga de su dios negro." # AI Tags
 
-bno_bbc_priest_court_position: "BBC Priest" # AI Tags
+bno_bbc_priest_court_position: "Sacerdote de la BBC" # AI Tags
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags

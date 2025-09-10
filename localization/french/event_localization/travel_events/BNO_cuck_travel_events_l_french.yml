@@ -1,5 +1,5 @@
 ﻿l_french:
 #Travel Flavor Events
-bno_cuck_travel_0001.title: "Puis-je vous interrompre..." # AI Tags
-bno_cuck_travel_0001.desc: "Tu savais qu'il se passait quelque chose entre [target1.GetFirstName] et [target2.GetFirstName] C'est vrai. Vous les voyez bavarder tout au long du voyage. Ne vous souciez même pas des autres dans l'entourage. Tu les trouves maintenant en train de s'amuser. [target2.GetFirstName|U] C'est énorme. [target1.GetFirstName] J'aime vraiment ça, tu es jaloux. [target2.GetHerHis] taille, gémissements sont entendus partout dans votre camp, le chemin [target2.GetSheHe] pénètre [target1.GetHerHis] est unique... Peut-être les laisser être" # AI Tags
-bno_cuck_travel_0001.a: "Oh, ça va." # AI Tags
+bno_cuck_travel_0001.title: "Puis-je vous interrompre…" # AI Tags
+bno_cuck_travel_0001.desc: "Tu savais qu'il se passait quelque chose entre [target1.GetFirstName] et [target2.GetFirstName]C'est vrai. Vous les voyez bavarder tout au long du voyage. Ne vous souciez même pas des autres dans l'entourage. Tu les trouves maintenant en train de s'amuser. [target2.GetFirstName|U]C'est énorme [target1.GetFirstName] J'adore ça, tu es jaloux [target2.GetHerHis] taille, gémissements sont entendus partout dans votre camp, le chemin [target2.GetSheHe] pénètre [target1.GetHerHis] est unique…peut-être qu'ils soient " # AI Tags
+bno_cuck_travel_0001.a: " Oh, " # AI Tags

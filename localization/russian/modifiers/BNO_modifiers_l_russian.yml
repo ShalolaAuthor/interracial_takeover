@@ -1,150 +1,159 @@
 ﻿l_russian:
 
 #Cuck modifiers
-bno_cuck_blissfully_unaware: "Блаженно невежды" # AI Tags
-bno_cuck_blissfully_unaware_desc: "Этому персонажу повезло - или не повезет - не знать о деятельности его жены." # AI Tags
+bno_cuck_blissfully_unaware: "Счастье без сознания" # AI Tags
+bno_cuck_blissfully_unaware_desc: "Этот персонаж счастлив - или несчастлив - не зная о деятельности своей жены." # AI Tags
 
-bno_emasculated: "Эмаскул" # AI Tags
-bno_emasculated_desc: "Изматывался от жены" # AI Tags
+bno_emasculated: "Эмаскулированные" # AI Tags
+bno_emasculated_desc: "Эмаскулирован от жены" # AI Tags
 
-bno_happy_cuck_husband: "Счастливый муж" # AI Tags
-bno_happy_cuck_husband_desc: "Верит, что вернёт свою жену." # AI Tags
+bno_happy_cuck_husband: "Счастливый кусок Муж" # AI Tags
+bno_happy_cuck_husband_desc: "Он верит, что вернет свою жену" # AI Tags
 
-bno_wounded_commander: "Проигравший дуэль" # AI Tags
-bno_wounded_commander_desc: "Этот персонаж потерялся на важной дуэли между расами." # AI Tags
+bno_wounded_commander: "Победитель дуэля" # AI Tags
+bno_wounded_commander_desc: "Этот персонаж проиграл в важном дуэле между расами" # AI Tags
 
 #martial modifiers
 bno_troops_lack_bunnies: "Войскам не хватает кроликов" # AI Tags
-bno_troops_lack_bunnies_desc: "Черные войска этого правителя считают, что у них недостаточно белых кисок." # AI Tags
-bno_troops_like_camp_slut: "У войск есть новая шлюха из лагеря" # AI Tags
-bno_troops_like_camp_slut_desc: "Черные войска этого правителя гораздо более готовы к сотрудничеству после того, как их саботировали с новой шлюхой лагеря." # AI Tags
+bno_troops_lack_bunnies_desc: "Черные войска этого правителя чувствуют, что у них недостаточно белой кучки." # AI Tags
+bno_troops_like_camp_slut: "Войска получили новую лагерную шлюху" # AI Tags
+bno_troops_like_camp_slut_desc: "Черные войска этого правителя гораздо более сотрудничают после того, как они насытились новой шлюхой лагеря." # AI Tags
 
-bno_seeks_new_world_order: "Ищет новый мировой порядок" # AI Tags
-bno_seeks_new_world_order_desc: "Этот персонаж выразил свое желание создать лучший мир с такими людьми, как он, правящими на вершине." # AI Tags
+bno_seeks_new_world_order: "Поиски Нового Мирового Порядка" # AI Tags
+bno_seeks_new_world_order_desc: "Этот персонаж выразил желание создать лучший мир, с такими людьми, как он, управляющими на вершине." # AI Tags
 
 #whoring modifiers
-bno_pimping_lowborn_white_whores: "Сутенерские белые шлюхи" # AI Tags
-bno_pimping_noble_white_whores: "Сутенерские белые шлюхи" # AI Tags
-bno_pimping_noble_white_whores_desc: "Этот чёрный правитель имеет белую благородную женщину, продающую свое тело для его блага." # AI Tags
-bno_pretty_whore_for_bbc: "Красивая шлюха для черного человека" # AI Tags
-bno_pretty_whore_for_bbc_desc: "Эта красивая женщина была сутенёром из-за черного мужчины." # AI Tags
-bno_whore_for_bbc: "Шлюха для черного человека" # AI Tags
-bno_whore_for_bbc_desc: "Эта женщина была сутенёром из-за черного мужчины." # AI Tags
-bno_whore_for_liege: "Шлюха для моего сеньора" # AI Tags
-bno_whore_for_liege_desc: "Эта шлюха имела честь принести золото для своего черного короля." # AI Tags
-bno_pretty_whore_for_liege: "Милая шлюха для моего сеньора." # AI Tags
-bno_pretty_whore_for_liege_desc: "Эта симпатичная шлюха имела честь принести золото для своего черного короля." # AI Tags
+bno_pimping_lowborn_white_whores: "Проститутка белородных шлюх" # AI Tags
+bno_pimping_noble_white_whores: "Проститутка с благородными белыми шлюхами" # AI Tags
+bno_pimping_noble_white_whores_desc: "У этого черного правителя есть белая благородная женщина, которая продает свое тело в его пользу." # AI Tags
+bno_pretty_whore_for_bbc: "Красивая шлюха для чёрного мужчины" # AI Tags
+bno_pretty_whore_for_bbc_desc: "Эта красивая женщина была проституирована чернокожим мужчиной." # AI Tags
+bno_whore_for_bbc: "Проститутка для чёрного мужчины" # AI Tags
+bno_whore_for_bbc_desc: "Эту женщину проглотил чернокожий мужчина." # AI Tags
+bno_whore_for_liege: "Проститутка для моего господина" # AI Tags
+bno_whore_for_liege_desc: "Эта шлюха имела честь принести золото для своего черного лежа." # AI Tags
+bno_pretty_whore_for_liege: "Красивая шлюха для моего господина" # AI Tags
+bno_pretty_whore_for_liege_desc: "Эта красивая шлюха имела честь принести золото для своего черного лежа." # AI Tags
 
 #marriage modifiers
-bno_took_unmarried_white_wife: "Взял незамужную женщину в жены" # AI Tags
-bno_took_unmarried_white_wife_desc: "Этот персонаж не дождался разрешения своего господина жениться и забрал то, что принадлежало ему." # AI Tags
-bno_took_foreign_unmarried_white_wife: "Взял замуж незамужную женщину-иностранку" # AI Tags
-bno_took_foreign_unmarried_white_wife_desc: "Этот персонаж поехал за пределы своего дома, чтобы забрать свою жену." # AI Tags
-bno_stole_married_white_wife: "Украл замужнюю женщину для себя" # AI Tags
-bno_stole_married_white_wife_desc: "Даже при отсутствии незаявленных женщин, которые могли бы взять в жены, членам высшей расы не будет отказано. Этот человек украл жену у человека слабых рас." # AI Tags
-bno_stole_foreign_married_white_wife: "Украл замужнюю женщину-иностранку для себя" # AI Tags
-bno_stole_foreign_married_white_wife_desc: "Этот человек рылся в чужой земле ради жены. Тот факт, что у нее уже был муж, не был проблемой." # AI Tags
-bno_wife_stolen_by_bbc: "Жену украли Би-би-си." # AI Tags
-bno_wife_stolen_by_bbc_desc: "Этот персонаж узнал, что его жена была шлюхой для Чёрного хуя, когда бык сообщил ему, что он больше не женат." # AI Tags
-bno_taken_as_bbc_wife: "Чёрный мужчина взял меня в жены." # AI Tags
-bno_taken_as_bbc_wife_desc: "Эта ранее незамужная женщина вдруг стала женой чернокожего мужчины. С тех пор она научилась любить этот факт." # AI Tags
-bno_stolen_as_bbc_wife: "Украден черным хозяином" # AI Tags
-bno_stolen_as_bbc_wife_desc: "Эта женщина прятала своё поклонение Чёрному петуху за спиной своего предыдущего мужа. С тех пор она была освобождена своим новым чёрным мужем." # AI Tags
-bno_divorced_worthless_wife: "Разведенные никчемные жены" # AI Tags
-bno_divorced_worthless_wife_desc: "Этот человек справедливо отбросил теперь никчемную белую шлюху." # AI Tags
-bno_no_longer_black_breedable: "Недостойные того, чтобы быть рожденными чернокожими" # AI Tags
-bno_no_longer_black_breedable_desc: "Эта женщина либо слишком стара, либо нездорова, чтобы ее продолжали использовать в качестве черного ребенка." # AI Tags
-bno_family_betrothed_me_to_bbc: "Семья обручила меня с BBC Vassal" # AI Tags
-bno_family_betrothed_me_to_bbc_desc: "Эта белая женщина была заявлена семейным вассалом и ее сеньором кротко повиновалась." # AI Tags
+bno_took_unmarried_white_wife: "Он взял незамужную женщину в жены" # AI Tags
+bno_took_unmarried_white_wife_desc: "Этот персонаж не ждал разрешения своего лиге жениться и взял то, что принадлежало ему." # AI Tags
+bno_took_foreign_unmarried_white_wife: "Он женился на чужой незамужней женщине" # AI Tags
+bno_took_foreign_unmarried_white_wife_desc: "Этот персонаж отправился за пределы своего дома, чтобы забрать свою жену." # AI Tags
+bno_stole_married_white_wife: "Ты украл замужнюю женщину для себя" # AI Tags
+bno_stole_married_white_wife_desc: "Даже если нет незащищенных женщин, которых можно было бы взять в жены, членов высшей расы не будет отказано. Этот мужчина украл жену мужчине из более слабой расы." # AI Tags
+bno_stole_foreign_married_white_wife: "Ты украл замужнюю иностранную женщину для себя" # AI Tags
+bno_stole_foreign_married_white_wife_desc: "Этот мужчина обыскал зарубежные земли в поисках жены. Тот факт, что у нее уже был муж, не имел никакого значения." # AI Tags
+bno_wife_stolen_by_bbc: "Жена была похищена Би-би-си" # AI Tags
+bno_wife_stolen_by_bbc_desc: "Этот персонаж узнал, как тяжело его жена была шлюхой для Чёрного членя, когда бык сообщил ему, что он больше не женат." # AI Tags
+bno_taken_as_bbc_wife: "Черный мужчина взял меня своей женой" # AI Tags
+bno_taken_as_bbc_wife_desc: "Эта ранее незамужняя женщина неожиданно стала женой чёрного мужчины. С тех пор она научилась любить этот факт." # AI Tags
+bno_stolen_as_bbc_wife: "Похищен чернокожим хозяином" # AI Tags
+bno_stolen_as_bbc_wife_desc: "Эта женщина привыкла скрывать свое поклонение черному члену за спиной своего бывшего мужа. С тех пор она была освобождена своим новым чёрным мужем." # AI Tags
+bno_divorced_worthless_wife: "Разведённая бесполезная жена" # AI Tags
+bno_divorced_worthless_wife_desc: "Этот человек справедливо отбросил теперь бесполезную белую шлюху." # AI Tags
+bno_no_longer_black_breedable: "Не достойны чернокожих" # AI Tags
+bno_no_longer_black_breedable_desc: "Эта женщина либо слишком старая, либо нездоровая, чтобы продолжать использоваться в качестве чернокожего мастера." # AI Tags
+bno_family_betrothed_me_to_bbc: "Семья помолилась со мной с вассалом Би-би-си" # AI Tags
+bno_family_betrothed_me_to_bbc_desc: "Эта белая самка была претендована на власть у вассала ее семьи и ее леге смиренно повиновался." # AI Tags
 
 #wife betrayal modifiers
-bno_wife_stealing_cucks_gold: "Кража золота мужа" # AI Tags
-bno_wife_stealing_cucks_gold_desc: "Эта женщина украла золото своего мужа, чтобы подать чёрный член." # AI Tags
+bno_wife_stealing_cucks_gold: "Похищение золота мужа" # AI Tags
+bno_wife_stealing_cucks_gold_desc: "Эта женщина украла золото своего мужа, чтобы служить черному члену." # AI Tags
 
-bno_cant_keep_mouth_shut: "Не могу держать рот на замке" # AI Tags
-bno_cant_keep_mouth_shut_desc: "Эта шлюха не может держать рот на замке. Шлюхи заходят, появляются секреты." # AI Tags
+bno_cant_keep_mouth_shut: "Не могу заткнуться" # AI Tags
+bno_cant_keep_mouth_shut_desc: "Эта шлюха не может заткнуться. Куки входят, секреты выходят." # AI Tags
 
-bno_killed_husband_for_bbc: "Слухи об Истребительнице мужа" # AI Tags
-bno_killed_husband_for_bbc_desc: "Ходят слухи, что эта женщина убила своего бывшего супруга, чтобы быть со своим новым чернокожим мужем." # AI Tags
+bno_killed_husband_for_bbc: "Слухи о убийце мужа" # AI Tags
+bno_killed_husband_for_bbc_desc: "Ходят слухи, что эта женщина убила своего бывшего мужа, чтобы быть со своим новым чёрным мужем." # AI Tags
 
-bno_gave_husband_to_enemy: "Проданный муж своему врагу" # AI Tags
-bno_gave_husband_to_enemy_desc: "Во время войны эта женщина предала своего мужа и отдала его врагу. Чтобы она могла подавать чёрный член." # AI Tags
+bno_gave_husband_to_enemy: "Продал мужа своему врагу" # AI Tags
+bno_gave_husband_to_enemy_desc: "Во время войны эта женщина предала своего мужа и отдала его врагу. Все для того, чтобы она могла подавать черный член." # AI Tags
 
 #misc modifiers
-bno_cheating_well_hidden: "Изнасилование хорошо спрятано" # AI Tags
-bno_cheating_well_hidden_desc: "Несмотря на некоторые первоначальные подозрения, этот персонаж смог скрыть свою внебрачную деятельность." # AI Tags
+bno_cheating_well_hidden: "Мошенничество хорошо скрыто" # AI Tags
+bno_cheating_well_hidden_desc: "Несмотря на некоторые первоначальные подозрения, этот персонаж удалось скрыть свои внебрачные действия." # AI Tags
 
-bno_stress_relieved: "Шлюха с облегчением стресса" # AI Tags
-bno_stress_relieved_desc: "Этот бык раньше чувствовал себя напряженным. К счастью, у него была близлежащая белая шлюха, чтобы избавиться от стресса." # AI Tags
+bno_stress_relieved: "Женщина облегчила стресс" # AI Tags
+bno_stress_relieved_desc: "Этот бык ранее чувствовал себя напряженным. К счастью, у него была рядом белая шлюха, чтобы разгрузить стресс." # AI Tags
 
-bno_cumstuffed: "Обнажённые" # AI Tags
-bno_cumstuffed_desc: "Эта шлюха научилась ломать плохие привычки в еде и выпивке, переходя на почти эксклюзивную диету только для чернокожих." # AI Tags
+bno_cumstuffed: "Загруженные" # AI Tags
+bno_cumstuffed_desc: "Эта шлюха научилась бросать плохие привычки к еде и пьянству, перейдя на почти эксклюзивную диету с черным ком." # AI Tags
 
-bno_white_breeder: "Белый бридер" # AI Tags
-bno_white_breeder_desc: "Эта белая сучка покорно родила много детей для своих чёрных хозяев." # AI Tags
+bno_white_breeder: "Белый разведчик" # AI Tags
+bno_white_breeder_desc: "Эта белая сука преданно родила много детей для своих черных хозяев." # AI Tags
 
-bno_white_breeder_bbc_husband: "Чёрный муж белому бридеру" # AI Tags
-bno_white_breeder_bbc_husband_desc: "Этот чернокожий мужчина был женат на женщине, которая стала белым размножителем." # AI Tags
+bno_white_breeder_bbc_husband: "Чёрный муж к белому разведчику" # AI Tags
+bno_white_breeder_bbc_husband_desc: "Этот черный мужчина был женат на женщине, которая стала белой разведчицей." # AI Tags
 
-bno_white_breeder_cuck_husband: "Муж белому бридеру" # AI Tags
-bno_white_breeder_cuck_husband_desc: "Этот мужчина был женат на женщине, которая стала белым размножателем, ставя под вопрос, сколько ее детей на самом деле его." # AI Tags
+bno_white_breeder_cuck_husband: "Муж к белому разведчику" # AI Tags
+bno_white_breeder_cuck_husband_desc: "Этот мужчина был женат на женщине, которая стала белой разведчицей, поставив под сомнение, сколько ее детей было на самом деле его." # AI Tags
 
-bno_bull_breeder: "Булл Бридер" # AI Tags
+bno_bull_breeder: "Быковый разведчик" # AI Tags
 bno_bull_breeder_desc: "Внутри или вне брака этот бык дал миру много чернокожих детей." # AI Tags
 #dynasty
-bno_cum_for_glory: "Костюм для славы" # AI Tags
-bno_cum_for_glory_desc: "Эта сила придает как чернокожему мужчине, так и белой женщине большую физическую силу, стойкость и выносливость во время полового сношения, позволяя им принимать более активное участие и более продолжительные сессии." # AI Tags
+bno_cum_for_glory: "Поздравляю с славой" # AI Tags
+bno_cum_for_glory_desc: "Это дает как черному мужчине, так и белой женщине больше физической силы, выносливости и выносливости во время полового акта, что позволяет им заниматься более интенсивными и длительными занятиями." # AI Tags
 
-bno_siding_with_local: "Посадка с коренными жителями" # AI Tags
-bno_siding_with_local_desc: "Заботиться о местном населении, завоевать его доверие и поддержку." # AI Tags
+bno_siding_with_local: "Поступая на стороне коренных народов" # AI Tags
+bno_siding_with_local_desc: "Поступая на стороне местного населения, завоевывая их доверие и поддержку." # AI Tags
 
-bno_siding_with_bbc: "Оседлость с чернокожими мигрантами" # AI Tags
-bno_siding_with_bbc_desc: "Соглашаясь с интересами чернокожих мигрантов, умиротворяя их." # AI Tags
+bno_siding_with_bbc: "Поступая на стороне чернокожих мигрантов" # AI Tags
+bno_siding_with_bbc_desc: "Согласование с интересами чернокожих мигрантов, умиротворение их." # AI Tags
 
 bno_approve_daughter_marriage_with_bbc: "Одобрил брак дочери с Би-би-си" # AI Tags
-bno_approve_daughter_marriage_with_bbc_desc: "Этот правитель одобрил брак своей дочери с чернокожим человеком, укрепив связи с местной общиной чернокожих." # AI Tags
+bno_approve_daughter_marriage_with_bbc_desc: "Этот правитель одобрил брак своей дочери с чернокожим мужчиной, укрепив связи с местной чернокожей общиной." # AI Tags
 
-bno_disapprove_daughter_marriage_with_bbc: "Отменить брак дочери с Би-би-си" # AI Tags
-bno_disapprove_daughter_marriage_with_bbc_desc: "Этот правитель не одобряет брак своей дочери с чернокожим человеком, что напрягает отношения с местной общиной чернокожих." # AI Tags
+bno_disapprove_daughter_marriage_with_bbc: "Не одобренный брак дочери с Би-би-си" # AI Tags
+bno_disapprove_daughter_marriage_with_bbc_desc: "Этот правитель не одобряет брак своей дочери с чернокожим мужчиной, напрягая связи с местной чернокожей общиной." # AI Tags
 
-bno_sent_courtier_to_bbc: "Послал придворного в Би-би-си" # AI Tags
-bno_sent_courtier_to_bbc_desc: "Этот правитель послал придворного чернокожему человеку, укрепив связи с местной общиной чернокожих." # AI Tags
+bno_sent_courtier_to_bbc: "Послал Куртьера в Би-би-си" # AI Tags
+bno_sent_courtier_to_bbc_desc: "Этот правитель послал придворного к чернокожному человеку, укрепляя связи с местной чернокожей общиной." # AI Tags
 
-bno_reject_sending_courtier_to_bbc: "Отклонили отправку придворного в Би-би-си" # AI Tags
-bno_reject_sending_courtier_to_bbc_desc: "Этот правитель отказался от направления придворного к чернокожему человеку, что напрягает связи с местной общиной чернокожих." # AI Tags
+bno_reject_sending_courtier_to_bbc: "Отказаны от отправки Куртиера в Би-би-си" # AI Tags
+bno_reject_sending_courtier_to_bbc_desc: "Этот правитель отказался отправить придворного к чернокожному человеку, напрягая связи с местной чернокожей общиной." # AI Tags
 
-bno_bbc_angered: "Би-би-си злится" # AI Tags
-bno_bbc_angered_desc: "Этот правитель разозлил местную общину чернокожих, что привело к возможным беспорядкам и конфликтам." # AI Tags
+bno_bbc_angered: "Би-би-си Разгневанный" # AI Tags
+bno_bbc_angered_desc: "Этот правитель разозлил местную черную общину, что привело к потенциальным беспорядкам и конфликтам." # AI Tags
 #
-bno_bbc_appeased: "Аппарат BBC" # AI Tags
-bno_bbc_appeased_desc: "Этот правитель успокоил местную общину чернокожих, обеспечив стабильность и сотрудничество." # AI Tags
+bno_bbc_appeased: "Би-би-си признана" # AI Tags
+bno_bbc_appeased_desc: "Этот правитель успокоил местную черную общину, обеспечив стабильность и сотрудничество." # AI Tags
 
-bno_might_makes_right: "Может, и правильно." # AI Tags
-bno_might_makes_right_desc: "Этот персонаж победил [bno_bnwo|E] Отвратительно." # AI Tags
+bno_might_makes_right: "Возможно, это поможет" # AI Tags
+bno_might_makes_right_desc: "Этот персонаж выиграл [bno_bnwo|E] Восстание мужественно." # AI Tags
 
-bno_local_bbc_unsatisfied: "Местные Би-би-си не удовлетворены" # AI Tags
-bno_local_bbc_unsatisfied_desc: "Этот правитель не оправдал ожиданий местной общины чернокожего населения, что привело к недовольству и потенциалу [bno_bnwo|E] восстание." # AI Tags
+bno_local_bbc_unsatisfied: "Местная Би-би-си Недовольна" # AI Tags
+bno_local_bbc_unsatisfied_desc: "Этот правитель не смог удовлетворить ожидания местной чернокожей общины, что привело к недовольству и потенциалу [bno_bnwo|E] восстание." # AI Tags
 
-bno_cum_for_glory_glorified: "Слава: слава" # AI Tags
-bno_cum_for_glory_glorified_desc: "Этот персонаж любит камминг, был услышан по всей стране." # AI Tags
+bno_cum_for_glory_glorified: "Стремясь к славе: прославленный" # AI Tags
+bno_cum_for_glory_glorified_desc: "Этот персонаж любит общаться, его слышали во всех странах." # AI Tags
 
-bno_cum_for_glory.glorified.title.female: "Тысяча [bno_bbcs|E] Завоевал!" # AI Tags
-bno_cum_for_glory.glorified.desc.female: "Милая, я наконец-то достиг тысячи. Считай, что тебе повезло, что ты будешь среди следующих нескольких сотен." # AI Tags
+bno_cum_for_glory.glorified.title.female: "Тысяча [bno_bbcs|E] Победили!" # AI Tags
+bno_cum_for_glory.glorified.desc.female: "Дорогая, я наконец-то достиг тысячи. Считайте себя счастливым, если попадете в число следующих сотен." # AI Tags
 
-bno_cum_for_glory.glorified.title.male: "Поездка Эбони Сталлиона! Тысяча сердец очарованы!" # AI Tags
-bno_cum_for_glory.glorified.desc.male: "Еще тысяча белых лилий расцвела под моим могучим стеблем. Мое семя оплодотворяет мир в его заслуженной славе!" # AI Tags
+bno_cum_for_glory.glorified.title.male: "Победа эбонного жеребца! Тысячи сердец в ловушке!" # AI Tags
+bno_cum_for_glory.glorified.desc.male: "Под моим могущественным стволом цветут еще тысяча белых лилий. Мое семя оплодотворяет мир в его заслуженной славе!" # AI Tags
 
-bno_primal_insight: "Перминальное понимание" # AI Tags
-bno_primal_insight_desc: "Посмотрите на самые глубокие желания и скрытый потенциал вашей культуры. В течение недель, следующих за этим сильным причастием, вдохновение течет, как расплавленное золото, подпитывая одержимость инновационными идеями и стимулируя культурный рост с сырой, непривлекательной направленностью." # AI Tags
+bno_primal_insight: "Первоначальное понимание" # AI Tags
+bno_primal_insight_desc: "Взгляд на самые глубокие желания и скрытый потенциал вашей культуры. В течение нескольких недель после этого сильного общения, вдохновение течет, как расплавленное золото, подпитывая одержимость инновационными идеями и стимулируя культурный рост с сырым, недомашненным фокусом." # AI Tags
 
-bno_nourishers_fatigue: "Усталость Нуришера" # AI Tags
-bno_nourishers_fatigue_desc: "Ночные выпады оставляют тебя осушенным, мышцы слабеют и чувства скучны. Каждая тяга, каждый камминг несет длительную боль, которая притупляет твою силу и замедляет твой разум на несколько часов после того, как она села." # AI Tags
+bno_nourishers_fatigue: "Утомление кормильца" # AI Tags
+bno_nourishers_fatigue_desc: "Ночные листья высыпают тебя, мышцы ослабевают и чувства ослабевают. Каждое толчок, каждое зажигание несет в себе постоянную боль, которая ослабляет вашу силу и замедляет ваш ум в течение нескольких часов после того, как она насытилась." # AI Tags
 
-bno_tincture_of_genesis: "Окраска Бытия" # AI Tags
-bno_tincture_of_genesis_desc: "Его сперма наполняет вас мощной жизнеспособностью, укрепляет ваше сердце. Ты чувствуешь, как она протекает через тебя, возбуждает твои конечности и заостряет твои чувства. Твоя кожа светится внутренним сиянием, когда его сущность питает тебя изнутри." # AI Tags
+bno_tincture_of_genesis: "Окраска книги Бытие" # AI Tags
+bno_tincture_of_genesis_desc: "Его кум наполняет вас мощной жизнеспособностью, укрепляя ваше ядро. Вы чувствуете, как она проходит через вас, оживляя ваши конечности и укрепляя ваши чувства. Твоя кожа сияет внутренним сиянием, поскольку его сущность питает тебя изнутри." # AI Tags
 
-bno_primal_vessel: "Коренное судно" # AI Tags
-bno_primal_vessel_desc: "Твоё семя, испытывающее жизненную силу, наполненное сущностью ее возрождения. Она вновь расцветает по вашему образу - и теперь вы носите в себе мощное эхо." # AI Tags
+bno_primal_vessel: "Первобытный корабль" # AI Tags
+bno_primal_vessel_desc: "Твое семя дрочит жизненной силой, пропитано сущностью ее возрождения. Она вновь расцветает по вашему образу - и теперь вы несете этот мощный эхо внутри себя." # AI Tags
 
-bno_ebony_bloom: "Эбония Блум" # AI Tags
-bno_ebony_bloom_desc: "Кожа полировала обсидиан, растягивала и сияла там, где не было раньше. Твоя грудь разбухла, тяжелая с молочным мускусом, который говорит о первобытном изобилии. Каждое прикосновение разжигает жар, который горит глубже плоти - его семя поет в вас, расцветая в силу." # AI Tags
+bno_ebony_bloom: "Эбонный цветок" # AI Tags
+bno_ebony_bloom_desc: "Кожа полирована обсидианом, напряженной и блестящей там, где раньше не было. Твои груди полны, насыщены сладким молоком, который говорит о первобытном изобилии. Каждое прикосновение зажигает тепло, которое горит глубже, чем плоть - его семя поет внутри тебя, расцветает в силу." # AI Tags
+
+bno_black_bred_queen: "Чернокожая королева" # AI Tags
+bno_black_bred_queen_desc: "Ее бледное тело было развернуто эбоновым членом скота, ее утроба опухла его семенем, пока не родила смешанного наследника. Она носит скандал как корону, ее груди насыщены молоком для своего ребенка, ее запах навсегда отмечен мужчиной, который ее вырастил." # AI Tags
+
+bno_bred_in_secret: "Используется как шлюха" # AI Tags
+bno_bred_in_secret_desc: "Она разложила ноги в тишине, выращиваясь у скота, который пыталась спрятать. Никто не видит стыда, которую она носит, но ее вытекающая шлюха помнит каждый толчок."   # AI Tags
+
+bno_claimed_broodmare: "Он отметил свое имущество" # AI Tags
+bno_claimed_broodmare_desc: "Он разделил ее и наполнил ее снова, запечатлев свое требование глубоко внутри. Она ходит в короне, но ее утроба служит только ему."   # AI Tags

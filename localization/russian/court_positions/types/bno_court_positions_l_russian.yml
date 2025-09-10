@@ -1,7 +1,7 @@
 ﻿l_russian:
 
-bno_bbc_worshipper_court_position: "Би-би-си Поклонник" # AI Tags
-bno_bbc_worshipper_court_position_desc: "Постоянно служить, поклоняться и пользоваться [bno_bbc|E] так, как они пожелают," # AI Tags
+bno_bbc_worshipper_court_position: "Поклоняющийся Би-би-си" # AI Tags
+bno_bbc_worshipper_court_position_desc: "Постоянно служить, поклоняться и пользоваться [bno_bbc|E] как они пожелают" # AI Tags
 
 bno_court_position_trait_bno_pure_white: "[GetTrait('bno_pure_white').GetName( ROOT.Char )]" # AI Tags
 bno_court_position_trait_curious: "[GetTrait('bno_curious').GetName( ROOT.Char )]" # AI Tags
@@ -40,15 +40,15 @@ bno_court_position_trait_tits_big_good_3: "[GetTrait('tits_big_good_3').GetName(
 bno_court_position_trait_fecund: "[GetTrait('fecund').GetName( ROOT.Char )]" # AI Tags
 
 hire_bbc_worshipper_decision: "Поиск [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
-hire_bbc_worshipper_decision_effect_tooltip: "Вы будете представлены группой [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] и может нанять одного из них за плату и месячный оклад [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
+hire_bbc_worshipper_decision_effect_tooltip: "Вы будете представлены с группой [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] кандидатов и может нанять одного из них за плату и ежемесячную зарплату [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
 
-bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$ Становится [bno_whore|E] за их [liege|E]" # AI Tags
+bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$Станет [bno_whore|E] для их [liege|E]" # AI Tags
 
-bno_bbc_priestess_employer_custom_effect_description: "$BULLET$ Становится [bbc_evangelist|E] за их [liege|E]" # AI Tags
+bno_bbc_priestess_employer_custom_effect_description: "$BULLET$Станет [bbc_evangelist|E] для их [liege|E]" # AI Tags
 bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$" # AI Tags
 
-bno_bbc_priestess_court_position: "Приспешница Би-би-си" # AI Tags
-bno_bbc_priestess_court_position_desc: "Запихиваясь священным маслом, они запихивают свои пульсирующие петухи и скользкие киски в рот и дыру каждого дворянина до тех пор, пока весь королевство не поклонится их чёрному богу." # AI Tags
+bno_bbc_priestess_court_position: "Священница Би-би-си" # AI Tags
+bno_bbc_priestess_court_position_desc: "Плотные с священным маслом, они вкладывают свои пульсирующие члены и плёнки в рот и отверстие каждого дворянина, пока вся королевство не поклонится толстой нагрузке их черного бога." # AI Tags
 
 bno_bbc_priest_court_position: "Священник Би-би-си" # AI Tags
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags

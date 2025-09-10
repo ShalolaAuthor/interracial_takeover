@@ -1,13 +1,13 @@
 ﻿l_french:
 
 #BBC's POV if wife is white breeder
-bno_birth.0001.wife.t: "Wife's White Fertile Womb" # AI Tags
+bno_birth.0001.wife.t: "Wove's White Fertile Womb"       # AI Tags
 bno_birth.0001.wife.desc: "Votre femme [ROOT.GetCharacter.GetName] donne naissance à un bébé noir encore une fois, cimentant sa réputation d'éleveur digne. Elle a été faite pour porter des enfants noirs." # AI Tags
 #Cuck's POV if wife is white breeder
-bno_birth.0001.cuck.wife.t: "Naissances de femmes De nombreux enfants" # AI Tags
+bno_birth.0001.cuck.wife.t: "Naissances d'épouses Nombre d'enfants" # AI Tags
 bno_birth.0001.cuck.wife.desc: "Votre femme [ROOT.GetCharacter.GetName] a donné naissance à plusieurs enfants. Bien que dans le fond de votre esprit, vous trouvez que c'est bizarre la plupart ne ressemble pas à tout le monde." # AI Tags
 
-bno_birth.0001.lover.t: "Lover's White Fertile Womb" # AI Tags
+bno_birth.0001.lover.t: "L'utérus fécond blanc de l'amant" # AI Tags
 bno_birth.0001.lover.desc: "Votre amant [ROOT.GetCharacter.GetName] continue de trahir sa race en amenant un autre enfant noir dans le monde. C'est sa plus grande joie de faire progresser la Supérieurité Noire." # AI Tags
 
 bno_birth.0001.t: "Mon Womb Fétile Blanc" # AI Tags
@@ -19,28 +19,28 @@ bno_birth.0002.personal_desc: "J'ai béni le monde avec beaucoup d'enfants noirs
 bno_birth_real_father_notification.title: "Mon enfant" # AI Tags
 bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] a donné naissance, et vous savez dans votre cœur que son enfant est le vôtre, peu importe si vous pouvez le prouver." # AI Tags
 bno_birth_cuck_father_notification.title: "Mon enfant" # AI Tags
-bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] a donné naissance, et vous êtes un peu surpris de voir à quel point cela a l'air malade. Est-il normal qu'un enfant ait un teint aussi foncé?" # AI Tags
+bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] a donné naissance, et vous êtes un peu surpris de la façon dont il semble malade. Est-il normal qu'un enfant ait un teint aussi foncé?" # AI Tags
 
-bno_happy_wife.0001.title: "L'épouse semble heureuse" # AI Tags
-bno_happy_wife.0001.desc: "Tu es content de voir ça. [ROOT.GetCharacter.GetName] J'ai l'impression d'être en pleine forme ces derniers temps." # AI Tags
+bno_happy_wife.0001.title: "La femme a l'air heureuse" # AI Tags
+bno_happy_wife.0001.desc: "Tu es content de voir ça [ROOT.GetCharacter.GetName] Ça a l'air d'être de bonne humeur ces derniers temps." # AI Tags
 
-bno_married.title: "Elle a pris une femme." # AI Tags
+bno_married.title: "J'ai pris une femme" # AI Tags
 bno_married_desc: "Vous faites votre part pour faire progresser la Supérieurité Noire en prenant une femme. Qu'elle vous donne beaucoup de nouveaux enfants." # AI Tags
 
 bno_bull_0004_notification.title: "Épouse bien manger" # AI Tags
-bno_bull_0004_notification.desc: "Dernièrement, votre femme [ROOT.GetCharacter.GetName] semble avoir brisé son passé de mauvaises habitudes alimentaires. Elle a dit qu'elle avait adopté un régime presque tout liquide. Elle doit aimer puisqu'elle est parfois vue avec sa nourriture liquide encore autour de ses lèvres." # AI Tags
+bno_bull_0004_notification.desc: "Dernièrement, votre femme [ROOT.GetCharacter.GetName] semble avoir brisé son passé de mauvaises habitudes alimentaires. Elle a dit qu'elle avait changé de régime. Elle doit aimer puisqu'elle est parfois vue avec sa nourriture liquide encore autour de ses lèvres." # AI Tags
 
 bno_bull_0008_notification.title: "Ressemblance étrange" # AI Tags
-bno_bull_0008_notification.desc: "Rumeurs tourbillonnant d'une pute marchant parmi les camps de réfugiés noirs qui ressemble étrangement à votre chère épouse [target1.GetFirstName] C'est vrai." # AI Tags
+bno_bull_0008_notification.desc: "Rumeurs tourbillonnant d'une pute marchant parmi les camps de réfugiés noirs qui ressemble étrangement à votre chère épouse [target1.GetFirstName]." # AI Tags
 
 bno_bull_0010_notification.title: "Erreur comptable?" # AI Tags
 bno_bull_0010_notification.desc: "Je ne me trompe pas, il semble qu'il manque de l'or au trésor. Qui aurait pu le prendre?" # AI Tags
 
-bno_bull_0012_notification.title: "Il sait quelque chose?" # AI Tags
+bno_bull_0012_notification.title: "Est-ce qu'il sait quelque chose?" # AI Tags
 bno_bull_0012_notification.desc: "Dernièrement, j'ai remarqué [ROOT.GetCharacter.GetName] Me regarder différemment, comme s'il savait quelque chose qu'il ne devrait pas." # AI Tags
 
 bno_slut_0008_notification.title: "Ressemblance étrange" # AI Tags
-bno_slut_0008_notification.desc: "Rumeurs tourbillonnant d'une pute marchant parmi les camps de réfugiés noirs qui ressemble étrangement à votre chère épouse [slut.GetFirstName] C'est vrai." # AI Tags
+bno_slut_0008_notification.desc: "Rumeurs tourbillonnant d'une pute marchant parmi les camps de réfugiés noirs qui ressemble étrangement à votre chère épouse [slut.GetFirstName]." # AI Tags
 
 bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] vous donner tous ses butin" # AI Tags
 bbc_worshipper.0002.notifications.desc: "Après des mois de dur labeur, et une nuit infatigable, elle vous donne tous ses atouts parce qu'elle ne sait pas quoi en faire." # AI Tags
@@ -57,17 +57,17 @@ bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.G
 bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] s'est converti à l'adoration du [bno_religion|E]" # AI Tags
 bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] a adopté les enseignements de la [bno_religion|E], consacrant ses ressources à son culte et aux plaisirs qu'il apporte." # AI Tags
 
-bbc_priestess.1001.rejected_conversion.male.title: "Conversion rejetée: Le Black Cock Spurned" # AI Tags
-bbc_priestess.1001.rejected_conversion.male.desc: "Malgré [ROOT.Char.GetFirstName] les sermons fervents de rendre corps et âme à la gloire du [bno_bbc|E], le troupeau se détourna dans le dégoût. Leurs cœurs restent têtus, leurs lèvres non bénies, et l'Église de la Coq Noire ne gagne pas de nouveaux disciples aujourd'hui." # AI Tags
+bbc_priestess.1001.rejected_conversion.male.title: "Conversion rejetée : La coq noire épurée" # AI Tags
+bbc_priestess.1001.rejected_conversion.male.desc: "Malgré [ROOT.Char.GetFirstName]les sermons fervents de rendre corps et âme à la gloire du [bno_bbc|E], le troupeau se détourna dans le dégoût. Leurs cœurs restent têtus, leurs lèvres non bénies, et l'Église de la Coq Noire ne gagne pas de nouveaux disciples aujourd'hui." # AI Tags
 
-bbc_priestess.1001.rejected_conversion.female.title: "Ses arguments ont été rejetés: le coq noir rejeté" # AI Tags
-bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] J'ai barré sa dévotion avec chaque mot sales et promis le salut par l'étreinte de la BBC, mais la foule a résisté. Leurs esprits sont restés fermés, leurs corps non réclamés, et sa sainte convoitise n'a pas porté de convertis cette nuit." # AI Tags
+bbc_priestess.1001.rejected_conversion.female.title: "Ses arguments ont été rejetés : le coq noir rejeté" # AI Tags
+bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] J'ai refusé sa dévotion avec chaque parole sadique et promis le salut par l'étreinte de la BBC, mais la foule a résisté. Leurs esprits sont restés fermés, leurs corps non réclamés, et sa sainte convoitise n'a pas porté de convertis cette nuit." # AI Tags
 
-bbc_priestess.1001.target_not_found.male.title: "La sainte chasse du prêtre devient désespérée..." # AI Tags
-bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] s'agenouille à l'autel du Black Cock, agité et plein de convoitise sacrée. Aucun nouvel adorateur ne semble adorer, aucun pécheur à guider dans la conversion - juste son propre puits lourd, ruisselle avec le besoin divin, désir de répandre la semence sainte dans le tremblement d'un disciple frais la dévotion bling." # AI Tags
+bbc_priestess.1001.target_not_found.male.title: "La sainte chasse du prêtre devient désespérée…" # AI Tags
+bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] s'agenouille à l'autel du Black Cock, agité et fougueux de convoitise sacrée. Aucun nouvel adorateur ne semble adorer, aucun pécheur à guider dans la conversion — juste son propre puits lourd, goutte à goutte avec le besoin divin, désir de répandre la semence sainte dans la dévotion tremblante d'un disciple frais." # AI Tags
 
-bbc_priestess.1001.target_not_found.female.title: "La prêtresse attend un disciple..." # AI Tags
-bbc_priestess.1001.target_not_found.female.desc: "Drapée dans ses robes blanches de soie, la tendre [ROOT.Char.GetFirstName] s'incline devant l'autel du Cock noir, ses poitrines abondantes pressées ensemble dans la dévotion tremblante. Avec la grâce de l'autre monde et un sourire doux et douloureux, elle chuchote les prières dans l'obscurité aux chandelles, mais aucun pécheur n'arrive à se convertir, laissant son cadre doux trembler de sacrés besoin, désespéré de se envelopper autour de l'offrande sainte qu'elle désire adorer." # AI Tags
+bbc_priestess.1001.target_not_found.female.title: "La prêtresse attend un disciple…" # AI Tags
+bbc_priestess.1001.target_not_found.female.desc: "Drapée dans ses robes blanches de soie, la tendre [ROOT.Char.GetFirstName] s'incline devant l'autel de la Cock noire, ses poitrines abondantes pressées ensemble dans la dévotion tremblante. Avec la grâce d'autres mondes et un sourire doux et douloureux, elle chuchote les prières dans l'obscurité aux chandelles, mais aucun pécheur n'arrive à se convertir, laissant son cadre doux trembler avec un besoin sacré, désespéré de s'envelopper autour de l'offrande sainte qu'elle désire tant adorer." # AI Tags
 
 bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] est maintenant plus noir que jamais" # AI Tags
 bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] est maintenant plus noir que jamais" # AI Tags

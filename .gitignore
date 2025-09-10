@@ -21,3 +21,7 @@ run_maxq.ps1
 translate_paradox_loc_offline_saturate_FIXED.py
 RunTranslation.ps1
 RunTranslation.V4.2.ps1
+ck_3_translator.py
+.ck3_cache/
+.cspell/
+.vscode/

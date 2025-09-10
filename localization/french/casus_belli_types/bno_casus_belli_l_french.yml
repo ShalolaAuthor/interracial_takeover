@@ -1,28 +1,28 @@
 ﻿l_french:
 
  bno_war: "[bno_bnwo|E] Guerre" # AI Tags
- bno_war_victory_desc_attacker: "Vous gagnez la partie contestée [titles|E] C'est vrai." # AI Tags
- bno_war_victory_desc: "[attacker.GetShortUIName|U] gagne le montant contesté [title|E] C'est vrai." # AI Tags
- bno_war_white_peace_desc_defender: "Vous gardez la contestation [title|E] C'est vrai." # AI Tags
- bno_war_white_peace_desc: "[defender.GetShortUIName|U] de maintenir le litige [title|E] C'est vrai." # AI Tags
- bno_war_defeat_desc_defender: "Vous gardez la contestation [title|E] C'est vrai." # AI Tags
- bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] de maintenir le litige [title|E] C'est vrai. Tous [factions|E] contre vous augmentez leur [discontent|E] C'est vrai." # AI Tags
- bno_war_defeat_desc: "[defender.GetShortUIName|U] de maintenir le litige [title|E] C'est vrai." # AI Tags
+ bno_war_victory_desc_attacker: "Vous gagnez la partie contestée [titles|E]." # AI Tags
+ bno_war_victory_desc: "[attacker.GetShortUIName|U] les gains de l'entreprise faisant l'objet d'un litige [title|E]." # AI Tags
+ bno_war_white_peace_desc_defender: "Vous gardez la contestation [title|E]." # AI Tags
+ bno_war_white_peace_desc: "[defender.GetShortUIName|U] de maintenir le litige [title|E]." # AI Tags
+ bno_war_defeat_desc_defender: "Vous gardez la contestation [title|E]." # AI Tags
+ bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] de maintenir le litige [title|E]C'est vrai. Tous [factions|E] contre vous augmentez leur [discontent|E]." # AI Tags
+ bno_war_defeat_desc: "[defender.GetShortUIName|U] de maintenir le litige [title|E]." # AI Tags
  
  BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Prise en charge raciale de la [TITLE.GetBaseName]" # AI Tags
  BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
  BNO_WAR_CB_NAME: "Prise en charge raciale [TITLE.GetBaseName]" # AI Tags
 
- bno_subj_war: "[bno_bnwo|E] Guerre de soumission" # AI Tags
- bno_subj_war_victory_desc_attacker: "Vous gagnez la partie contestée [titles|E] C'est vrai." # AI Tags
- bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] gagne le montant contesté [title|E] C'est vrai." # AI Tags
- bno_subj_war_white_peace_desc_defender: "Vous gardez la contestation [title|E] C'est vrai." # AI Tags
- bno_subj_war_white_peace_desc: "[defender.GetShortUIName|U] de maintenir le litige [title|E] C'est vrai." # AI Tags
- bno_subj_war_defeat_desc_defender: "Vous gardez la contestation [title|E] C'est vrai." # AI Tags
- bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] de maintenir le litige [title|E] C'est vrai. Tous [factions|E] contre vous augmentez leur [discontent|E] C'est vrai." # AI Tags
- bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] de maintenir le litige [title|E] C'est vrai." # AI Tags
+ bno_subj_war: "[bno_bnwo|E] Guerre de subjugation" # AI Tags
+ bno_subj_war_victory_desc_attacker: "Vous gagnez la partie contestée [titles|E]." # AI Tags
+ bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] les gains de l'entreprise faisant l'objet d'un litige [title|E]." # AI Tags
+ bno_subj_war_white_peace_desc_defender: "Vous gardez la contestation [title|E]." # AI Tags
+ bno_subj_war_white_peace_desc: "[defender.GetShortUIName|U] de maintenir le litige [title|E]." # AI Tags
+ bno_subj_war_defeat_desc_defender: "Vous gardez la contestation [title|E]." # AI Tags
+ bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] de maintenir le litige [title|E]C'est vrai. Tous [factions|E] contre vous augmentez leur [discontent|E]." # AI Tags
+ bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] de maintenir le litige [title|E]." # AI Tags
 
-BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] La subjugation raciale [TITLE.GetBaseName]" # AI Tags
+BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Subjugation raciale de la [TITLE.GetBaseName]" # AI Tags
 BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
 BNO_SUBJ_WAR_CB_NAME: "Sous-juges raciaux [TITLE.GetBaseName]" # AI Tags
 
@@ -38,4 +38,4 @@ bno_civil_unrest.victory.desc: "Les [bno_bnwo|E] a revendiqué la victoire. La r
 bno_civil_unrest.white_peace.desc: "Les [bno_bnwo|E] offre une chance de paix. Soumettez-vous à notre règle et soyez épargnés." # AI Tags
 bno_civil_unrest.defeat.desc: "Les [bno_bnwo|E] a été vaincu. L'ancien ordre reste intact, pour l'instant." # AI Tags
 bnwo_faction_every_county: "Chaque [faction|E] [county|E]" # AI Tags
-bno_civil_unrest_name: "L'augmentation de l'ordre mondial noir" # AI Tags
+bno_civil_unrest_name: "L'élévation de l'ordre du monde nouveau noir" # AI Tags

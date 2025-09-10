@@ -1,35 +1,35 @@
 ﻿l_polish:
 
 game_concept_bno_whore: "Kurwa z BBC" # AI Tags
-game_concept_bno_whore_desc: "[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] poświęci całe swoje życie, by zostać wykorzystana do [bno_bbc|E] To przyjemność seksualna. [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] Zdarzy wszystkie swoje ciężko zarobione zarobki dla jej Liege" # AI Tags
+game_concept_bno_whore_desc: "[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] poświęci całe swoje życie, by zostać wykorzystana do [bno_bbc|E]To przyjemność seksualna. [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] Zdarzy wszystkie swoje ciężko zarobione zarobki dla jej Liege" # AI Tags
 
 game_concept_bno_first_harvest: "Pierwszy żniw" # AI Tags
-game_concept_bno_first_harvest_desc: "Pod spojrzeniem czarnych szefów głodnych za przyjemnością i władzą, Lady of the Sated Throne prezentuje najbardziej pożądane córki swego królestwa - każda z nich ma nadzieję zaspokoić potężnego swego władcy. apetyt i zabezpieczenie miejsca w jego linii. Odbywa się sezon słodkich ofiar, gdzie piękno i płodność są wymieniane, a prawo do rządzenia jest ogromne w krwi i nasieniu." # AI Tags
+game_concept_bno_first_harvest_desc: "Pod spojrzeniem czarnych szefów głodnych za przyjemnością i władzą, Dama Zasiętego Tronu prezentuje najbardziej pożądane córki swego królestwa - każda ma nadzieję zaspokoić potężny apetyt swego władcy i zabezpieczyć sobie miejsce w jego linii. Odbywa się sezon słodkich ofiar, gdzie piękno i płodność są wymieniane, a prawo do rządzenia jest ogromne w krwi i nasieniu." # AI Tags
 
 game_concept_bno_bbc_council: "Rada BBC" # AI Tags
-game_concept_bno_bbc_council_desc: "Zgromadzenie starszych czarnych szefów, których przejrzyste oczy osądzają dziewczyny zarówno za ich kwitnienie, jak i ich przystosowanie do linii przepełnionej mocą, przyjemnością i potężnym dziedzictwem. Ich osądy, szepczone pod ozdobnymi dachami z zapachowymi winogronami, określają, które córki otrzymają przywilej i agonię służenia zasatnemu tronowi." # AI Tags
+game_concept_bno_bbc_council_desc: "Zgromadzenie starszych czarnych szefów, których przejrzyste oczy osądzają dziewice zarówno za ich kwitnienie, jak i ich przystosowanie do linii przepełnionej mocą, przyjemnością i potężnym dziedzictwem. Ich osądy, szepczone pod ozdobnymi dachami z zapachowymi winogronami, określają, które córki otrzymają przywilej i agonię służenia Satynowemu Tronowi." # AI Tags
 
-game_concept_bno_sated_throne: "Tron zasięgły" # AI Tags
-game_concept_bno_sated_throne_desc: "Szanowana siedziba władzy, gdzie przyjemność i władza przepływają, a pragnienia Czarnych Szefów są spełnione i wzmacniały." # AI Tags
+game_concept_bno_sated_throne: "Zasiadany tron" # AI Tags
+game_concept_bno_sated_throne_desc: "Szanowana siedziba władzy, gdzie przyjemność i władza przepływają, a pragnienia Czarnych Szefów są spełnione i rozszerzane." # AI Tags
 
 game_concept_bno_sexual_experience: "Doświadczenie seksualne" # AI Tags
-game_concept_bno_sexual_experience_desc: "Środek intymnych spotkań i umiejętności człowieka, odzwierciedlający jego podróż przez obszary pasji i pragnienia. To doświadczenie kształtuje ich zrozumienie przyjemności, dynamiki mocy i skomplikowanego tańca uwodzenia, czyniąc ich potężną obecnością w świecie relacji i w Płynność." # AI Tags
+game_concept_bno_sexual_experience_desc: "Środek intymnych spotkań i umiejętności człowieka, odzwierciedlający jego podróż przez obszary pasji i pragnienia. To doświadczenie kształtuje ich zrozumienie przyjemności, dynamiki siły i skomplikowanego tańca uwodzenia, czyniąc ich niezwykłą obecnością w świecie relacji i wpływów." # AI Tags
 
 game_concept_bno_black: "Czarny" # AI Tags
 game_concept_bno_black_desc: "Termin używany do opisu ludzi afrykańskiego pochodzenia, często związany z siłą, odpornością i grubym twardym kutasem." # AI Tags
 
 game_concept_bno_bnwo: "Czarny Nowy Porządek Świata" # AI Tags
-game_concept_bno_bnwo_desc: "W ramach [bno_bnwo|E] Żelazna pięść, białe ciała stają się zwierzętami rozrodczymi, ich przyjemności karmią naszą nienasycającą głód potężnego czarnego potomstwa." # AI Tags
+game_concept_bno_bnwo_desc: "W ramach [bno_bnwo|E]Żelazna pięść, białe ciała stają się zwierzętami rozrodczymi, ich przyjemności karmią nasz nienasycający głód potężnego czarnego potomstwa." # AI Tags
 
 game_concept_bnwo_armies: "Wojska BNWO" # AI Tags
-game_concept_bnwo_armies_desc: "Wydarzenie [men_at_arms|E] które wspierają ideały [bno_bnwo|E], składający się z elitarnych wojowników lub [bno_whore|E] poświęcony sprawie." # AI Tags
+game_concept_bnwo_armies_desc: "Wydarz [men_at_arms|E] które wspierają ideały [bno_bnwo|E], składający się z elitarnych wojowników lub [bno_whore|E] poświęcony sprawie." # AI Tags
 
 game_concept_bbc_evangelist: "BBC Evangelist" # AI Tags
-game_concept_bbc_evangelist_desc: "Z szepanymi obietnicami błogosławieństwa ponad ludzkie zrozumienie i zapachem muska i przyprawy trzymających się ich olejowanej skóry, kapłanki i kapłani [bno_religion|E] Zwodzą szlachetnych i kobiet, zasiając nasienie uwielbienia siły ebony w sercach i w biodrach." # AI Tags
+game_concept_bbc_evangelist_desc: "Z szepanymi obietnicami błogosławieństwa ponad zrozumienie śmiertelników i zapachem muska i przyprawy trzymających się ich olejowanej skóry, kapłanki i kapłani [bno_religion|E] Zwiedzają zarówno szlachetnych, jak i kobiet, zasiając nasienie uwielbienia potęgi ebony w sercach i w biodrach." # AI Tags
 
 game_concept_bno_bbc: "Wielki Czarny Kurczak" # AI Tags
 game_concept_bno_bbcs: "Wielkie czarne kury" # AI Tags
-game_concept_bno_bbc_desc: "Termin używany do opisania potężnych i męskich czarnych mężczyzn, którzy dominują w seksie, wcielając siłę, władzę i nienasycony apetyt na przyjemność." # AI Tags
+game_concept_bno_bbc_desc: "Termin używany do opisu potężnych i męskich czarnych mężczyzn, którzy dominują w seksie, ucieleśniając siłę, władzę i nienasycony apetyt na przyjemność." # AI Tags
 
 game_concept_bno_religion: "Kościół Czarnego Kurczaka" # AI Tags
-game_concept_bno_religion_desc: "Małżeńskie mięso wrzuca się pod sklepionymi sufitami, zabarwione świętym cumem, gdy oddania poddają się niewystarczalnemu głodowi [bno_bbc|E] Czciony w ekstatycznej oddanie i wieczny, guturały płacz." # AI Tags
+game_concept_bno_religion_desc: "Małżeńskie mięso wrzuca się pod sklepionymi sufitami, zabarwione świętym cumem, gdy wyznawcy poddają się nienasycającemu głodowi [bno_bbc|E] Czciony w ekstatycznej oddanie i wieczny, guturały płacz." # AI Tags

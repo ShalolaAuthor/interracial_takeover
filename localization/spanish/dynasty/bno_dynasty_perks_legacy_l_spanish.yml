@@ -8,13 +8,13 @@ bno_embrace_african_3_name: "Entender a los migrantes" # AI Tags
 bno_embrace_african_4_name: "Reconocer a los migrantes" # AI Tags
 bno_embrace_african_5_name: "Integrar a los migrantes" # AI Tags
 
-BNO_PLACEHOLDER: ""
+BNO_PLACEHOLDER: "" # AI Tags
 EBONY_ELITES_UNLOCK_DESCRIPTION: "Puede reclutar [GetMaA('bno_ebony_elites').GetName] como [men_at_arms|E]" # AI Tags
-EBONY_ELITES_DESCRIPTION: "#wea k Sólo un regimiento de [GetMaA('bno_ebony_elites').GetName] pueden ser reclutados #!" # AI Tags
+EBONY_ELITES_DESCRIPTION: "#weak Sólo un regimiento de [GetMaA('bno_ebony_elites').GetName] pueden ser reclutados#!" # AI Tags
 
-BBC_MARRIAGE_DESCRIPTION: "Cada vez que un [bno_bbc|E] se casa y una chica blanca se casa con un [bno_bbc|E], tu [dynasty|E] Ganará. [prestige|E]. También se incrementarán [legitimacy|E] y [prestige|E] de la [marriage|E]" # AI Tags
+BBC_MARRIAGE_DESCRIPTION: "Cada vez que un [bno_bbc|E] se casa, y una chica blanca se casa con un [bno_bbc|E], tu [dynasty|E] Ganará [prestige|E]. También se incrementarán [legitimacy|E] y [prestige|E] desde el [marriage|E]" # AI Tags
 
-BBC_SEX_EFFECT: "Cada vez que un [bno_bbc|E] y una chica blanca de ti [dynasty|E] Tener sexo, tu [dynasty|E] Ganará. [prestige|E]" # AI Tags
+BBC_SEX_EFFECT: "Cada vez que un [bno_bbc|E] y una chica blanca de ti [dynasty|E] Tener sexo, tu [dynasty|E] Ganará [prestige|E]" # AI Tags
 
 BNO_EMBRACE_3_EFFECT: "Desbloquea el aprendizaje sobre la decisión y los eventos de los migrantes" # AI Tags
 

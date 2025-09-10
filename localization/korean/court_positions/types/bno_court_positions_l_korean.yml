@@ -40,15 +40,15 @@ bno_court_position_trait_tits_big_good_3: "[GetTrait('tits_big_good_3').GetName(
 bno_court_position_trait_fecund: "[GetTrait('fecund').GetName( ROOT.Char )]" # AI Tags
 
 hire_bbc_worshipper_decision: "검색 [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
-hire_bbc_worshipper_decision_effect_tooltip: "너희는 한 무리를 만나게 될 것이며 [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] 지원자를 고용하고 그 중 한 명을 월급과 [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
+hire_bbc_worshipper_decision_effect_tooltip: "너희는 한 무리를 만나게 될 것이며 [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] 지원자를 고용하고 그 중 한 명을 월급과 월급으로 고용할 수 있습니다 [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
 
-bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$ 될 것입니다. [bno_whore|E] 그들의 [liege|E]" # AI Tags
+bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$될 수 있습니다 [bno_whore|E] 그들의 [liege|E]" # AI Tags
 
-bno_bbc_priestess_employer_custom_effect_description: "$BULLET$ 될 것입니다. [bbc_evangelist|E] 그들의 [liege|E]" # AI Tags
+bno_bbc_priestess_employer_custom_effect_description: "$BULLET$될 수 있습니다 [bbc_evangelist|E] 그들의 [liege|E]" # AI Tags
 bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$" # AI Tags
 
 bno_bbc_priestess_court_position: "BBC 사제" # AI Tags
-bno_bbc_priestess_court_position_desc: "성스러운 기름으로 매끄럽습니다. 그들은 그들의 펄럭이는 똥과 매끄러운 똥을 모든 귀족의 입과 구멍에 넣습니다." # AI Tags
+bno_bbc_priestess_court_position_desc: "신성한 기름으로 매끄럽고, 그들은 그들의 펄럭이는 똥과 매끄러운 똥을 모든 귀족의 입과 구멍에 넣고,." # AI Tags
 
 bno_bbc_priest_court_position: "BBC 사제" # AI Tags
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags

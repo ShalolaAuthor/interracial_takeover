@@ -1,7 +1,7 @@
 ﻿l_french:
 
-bno_bbc_worshipper_court_position: "BBC Worshipper" # AI Tags
-bno_bbc_worshipper_court_position_desc: "Servir constamment, adorer et être utilisé par [bno_bbc|E] de quelque façon qu'ils désirent" # AI Tags
+bno_bbc_worshipper_court_position: "Adoratrice de la BBC" # AI Tags
+bno_bbc_worshipper_court_position_desc: "Servir constamment, adorer et être utilisé par [bno_bbc|E] d'une manière ou d'une autre ils désirent" # AI Tags
 
 bno_court_position_trait_bno_pure_white: "[GetTrait('bno_pure_white').GetName( ROOT.Char )]" # AI Tags
 bno_court_position_trait_curious: "[GetTrait('bno_curious').GetName( ROOT.Char )]" # AI Tags
@@ -42,13 +42,13 @@ bno_court_position_trait_fecund: "[GetTrait('fecund').GetName( ROOT.Char )]" # A
 hire_bbc_worshipper_decision: "Rechercher [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
 hire_bbc_worshipper_decision_effect_tooltip: "Vous serez présenté avec un groupe de [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] et peut engager l'un d'entre eux pour une rémunération et un salaire mensuel de [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
 
-bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$ Devient [bno_whore|E] pour leur [liege|E]" # AI Tags
+bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$Devient [bno_whore|E] pour leur [liege|E]" # AI Tags
 
-bno_bbc_priestess_employer_custom_effect_description: "$BULLET$ Devient [bbc_evangelist|E] pour leur [liege|E]" # AI Tags
+bno_bbc_priestess_employer_custom_effect_description: "$BULLET$Devient [bbc_evangelist|E] pour leur [liege|E]" # AI Tags
 bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$" # AI Tags
 
 bno_bbc_priestess_court_position: "BBC Prêtresse" # AI Tags
-bno_bbc_priestess_court_position_desc: "Lèche avec de l'huile sacrée, ils jettent leurs bites et lèchent les chattes dans la bouche et le trou de chaque noble jusqu'à ce que le royaume entier adore la lourde charge de leur dieu noir." # AI Tags
+bno_bbc_priestess_court_position_desc: "Lèche avec de l'huile sacrée, ils jettent leurs bites et lèchent les chattes dans la bouche et le trou de chaque noble jusqu'à ce que tout le royaume adore la lourde charge de leur dieu noir." # AI Tags
 
 bno_bbc_priest_court_position: "Le prêtre de la BBC" # AI Tags
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags

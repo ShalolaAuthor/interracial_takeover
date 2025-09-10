@@ -1,13 +1,13 @@
 ﻿l_french:
 
 bnwo_faction: "[bno_bnwo|E] Faction" # AI Tags
-bnwo_faction_desc: "Sous leur dominion fissurée de fer, les corps blancs se plient et saignent, alimentant notre faim insatiable pour les descendants nés fort, beau, et indéniablement [bno_black|E] C'est vrai." # AI Tags
+bnwo_faction_desc: "Sous leur dominion fissurée de fer, les corps blancs se plient et saignent, alimentant notre faim insatiable pour les descendants nés fort, beau, et indéniablement [bno_black|E]." # AI Tags
 bnwo_faction.name: "Les [bno_bnwo|E]" # AI Tags
 bnwo_faction.short_effect_desc: "Les [bno_bnwo|E] est une faction qui cherche à établir un nouvel ordre mondial fondé sur la suprématie raciale, en mettant l'accent sur la domination de [bno_black|E] des personnes physiques." # AI Tags
-bnwo_faction.power.bnoc: "Voulait [liege|E] d ' être $bnoc$" # AI Tags
-bnwo_faction.power.bbcs: "Voulait [liege|E] d ' être $bbcs$" # AI Tags
-bnwo_faction.power.county_bnoc: "Il veut le [county] d ' être $bnoc$" # AI Tags
-bnwo_faction.power.county_bbcs: "Il veut le [county] d ' être $bbcs$" # AI Tags
+bnwo_faction.power.bnoc: "Voulait [liege|E] à être $bnoc$" # AI Tags
+bnwo_faction.power.bbcs: "Voulait [liege|E] à être $bbcs$" # AI Tags
+bnwo_faction.power.county_bnoc: "Il veut le [county] à être $bnoc$" # AI Tags
+bnwo_faction.power.county_bbcs: "Il veut le [county] à être $bbcs$" # AI Tags
 bnwo_faction_leader_title: "Commandant" # AI Tags
 bnwo_faction_revolt_title_name: "Les [bno_bnwo|E] Élevée" # AI Tags
 bnwo_faction_event_troops: "[bno_bnwo|E] Élevée" # AI Tags
