@@ -1,6 +1,40 @@
-﻿is_jos = {
+﻿is_whiteboi = {
+	has_trait = bno_whiteboi
+}
+
+is_cuckish = {
+	has_trait = bno_cuckish
+}
+
+is_cuck = {
+	has_trait = bno_cuck
+}
+
+is_beta = {
+	has_trait = bno_beta
+}
+
+is_jos = {
 	has_trait = bno_jos
-	is_ai_white_guy = yes
+}
+
+is_bno_cuckish_and_up = {
+	is_whiteboi = yes
+}
+
+is_bno_cuck_and_up = {
+	OR = {
+		is_cuck = yes
+		is_beta = yes
+		is_jos = yes
+	}
+}
+
+is_bno_beta_and_up = {
+	OR = {
+		is_beta = yes
+		is_jos = yes
+	}
 }
 
 is_spouse_curious = {
@@ -19,11 +53,6 @@ is_spouse_blacked = {
 	any_spouse = {
 		is_ai_blacked = yes
 	}
-}
-
-is_cuck = {
-	has_trait = bno_whiteboi
-	is_white_guy = yes
 }
 
 is_ai_not_married_blackbull = {

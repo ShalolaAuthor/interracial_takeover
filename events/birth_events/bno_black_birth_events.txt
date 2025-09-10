@@ -184,6 +184,7 @@ bno_black_birth.0002 = {
 
     immediate = {
         play_music_cue_once = { TRACK = mx_cue_birth }
+        bno_increase_cuckiness = yes
     }
     option = {
         name = bno_black_birth.0002.a
@@ -272,6 +273,9 @@ bno_black_birth.0003 = {
 
     immediate = {
         random_courtier = {
+            limit = {
+                is_adult = yes
+            }
             save_scope_as = news_bearer
         }
         play_music_cue_once = { TRACK = mx_cue_birth }
@@ -579,6 +583,248 @@ bno_black_birth.2003 = {
 
     option = {
         name = bno_black_birth.2003.a
+        trigger_event = {
+            id = bno_black_birth.2103
+            delayed = yes
+            days = { 7 14 }
+        }
     }
 }
 
+# Path B — The Whisper Spreads (BBC PoV)
+bno_black_birth.2103 = {
+    type = character_event
+    theme = intrigue
+    title = bno_black_birth.2103.title
+    desc = bno_black_birth.2103.desc
+
+    override_background = {
+        reference = throne_room
+    }
+
+    left_portrait = {
+        character = root
+        animation = scheme
+    }
+
+    immediate = { }
+
+    option = {
+        name = bno_black_birth.2103.a
+        add_prestige = minor_prestige_value
+        custom_tooltip = {
+            text = bno_black_birth.2103.a.followup
+            trigger_event = {
+                id = bno_black_birth.2101
+                days = { 7 14 }
+                delayed = yes
+            }
+        }
+    }
+}
+#Queen Prelude. thinking of going to the BBC Place
+bno_black_birth.2101 = {
+    type = character_event
+    theme = intrigue
+    title = bno_black_birth.2101.title
+    desc = bno_black_birth.2101.desc
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+        save_scope_as = carn_sex_player
+        scope:father = {
+            save_scope_as = carn_sex_partner
+        }
+        bno_sex_scene_start = yes
+        cuddle_animations = yes
+        scope:father = {
+            trigger_event = {
+                id = bno_black_birth.2102
+                delayed = yes
+            }
+        }
+    }
+
+    option = {
+        name = bno_black_birth.2101.a
+        carn_sex_scene_cleanup = yes
+        trigger_event = {
+            id = bno_black_birth.2201
+            delayed = yes
+        }
+    }
+}
+# Queens prelude from the cuck pov
+bno_black_birth.2102 = {
+    type = character_event
+    theme = intrigue
+    title = bno_black_birth.2102.title
+    desc = bno_black_birth.2102.desc
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+        save_scope_as = carn_sex_player
+        scope:mother = {
+            save_scope_as = carn_sex_partner
+        }
+        bno_sex_scene_start = yes
+        cuddle_animations = yes
+    }
+
+    option = {
+        name = bno_black_birth.2102.a
+        carn_sex_scene_cleanup = yes
+    }
+}
+#queen comes to his chamber begging to get fucked
+bno_black_birth.2201 = {
+    type = character_event
+    theme = seduction
+    title = bno_black_birth.2201.title
+    desc = bno_black_birth.2201.desc
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+        save_scope_as = carn_sex_player
+        scope:real_father = {
+            save_scope_as = carn_sex_partner
+        }
+        bno_sex_scene_start = yes
+        cuddle_animations = yes
+        scope:father = {
+            trigger_event = {
+                id = bno_black_birth.2202
+                delayed = yes
+            }
+        }
+    }
+
+    option = {
+        name = bno_black_birth.2201.a
+    }
+}
+#cuck pov saw her leave at dawn
+bno_black_birth.2202 = {
+    type = character_event
+    theme = seduction
+    title = bno_black_birth.2202.title
+    desc = bno_black_birth.2202.desc
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = root
+        animation = stress
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:randos_courtier
+        animation = fear
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+        bno_increase_cuckiness = yes
+        if = {
+            limit = {
+                is_playable_character = yes
+            }
+            random_courtier = {
+                limit = {
+                    is_adult = yes
+                }
+                save_scope_as = randos_courtier
+            }
+        }
+        else = {
+            liege ?= {
+                random_courtier = {
+                    limit = {
+                        is_adult = yes
+                    }
+                }
+                save_scope_as = randos_courtier
+            }
+        }
+    }
+
+    option = {
+        name = bno_black_birth.2202.a
+        #you just give up
+    }
+    option = {
+        trigger = {
+            is_bno_cuck_and_up = yes
+        }
+        name = bno_black_birth.2202.b
+        # add follow up event
+        custom_tooltip = {
+            text = bno_black_birth.2202.b
+            add_character_flag = bno_black_birth.2202
+        }
+    }
+}
