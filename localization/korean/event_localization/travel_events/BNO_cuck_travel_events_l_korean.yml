@@ -1,5 +1,5 @@
 ﻿l_korean:
 #Travel Flavor Events
 bno_cuck_travel_0001.title: "방해할 수 있나요?" # AI Tags
-bno_cuck_travel_0001.desc: "무슨 일이 벌어지고 있었는지 알았어 [target1.GetFirstName] 그리고 [target2.GetFirstName]. 여행 내내 대화를 나누는 것을 볼 수 있습니다. 여럿의 다른 사람들을 신경쓰지 않아도 돼. 이제 그들이 즐거운 시간을 보내고 있다고 생각하세요. [target2.GetFirstName|U] 's는 엄청나고 [target1.GetFirstName] 정말 즐기고, 당신은 질투 [target2.GetHerHis] 크기, 울음소리는 캠프 곳곳에서 들립니다. [target2.GetSheHe] 침투한다 [target1.GetHerHis] 독특합니다. 어쩌면 그냥" # AI Tags
-bno_cuck_travel_0001.a: "오" # AI Tags
+bno_cuck_travel_0001.desc: "무슨 일이 벌어지고 있었는지 알았어 [target1.GetFirstName] 그리고 [target2.GetFirstName]. 여행 내내 대화를 나누는 것을 볼 수 있습니다. 여럿의 다른 사람들을 신경쓰지 않아도 돼. 그들은 이제 즐거운 시간을 보내고 있습니다. [target2.GetFirstName|U]'s는 엄청나고 [target1.GetFirstName] 정말 즐기고, 당신은 질투에 대해 [target2.GetHerHis] 크기, 울음소리는 캠프 곳곳에서 들립니다 [target2.GetSheHe] 침투한다 [target1.GetHerHis] 특유의…어쩌면 그들이 될 수 있도록 " # AI Tags
+bno_cuck_travel_0001.a: " 오, 오, 오 " # AI Tags

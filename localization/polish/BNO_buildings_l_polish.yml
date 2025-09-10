@@ -2,25 +2,25 @@
 
 #BBC Camp
 building_type_bbc_camp_01: "Osiedlenia afrykańskie" # AI Tags
-building_type_bbc_camp_01_desc: "Mieszkanie, w którym wszystkie afrykańskie uchodźcy zbierają się i mieszają się z miejscowymi kobietami." # AI Tags
+building_type_bbc_camp_01_desc: "Mieszkanie, w którym wszyscy afrykańscy uchodźcy zbierają się i mieszają się z miejscowymi kobietami." # AI Tags
 building_bbc_camp_01: "Obóz hodowlany" # AI Tags
-building_bbc_camp_01_desc: " Afrykańscy uchodźcy otrzymują wyznaczony obszar w pobliżu miasta, w którym mogą łączyć się z miejscowymi mieszkańcami. Te obozy będą idealnymi miejscami do hodowania miejscowych kobiet." # AI Tags
+building_bbc_camp_01_desc: "Afrykańscy uchodźcy otrzymują wyznaczony obszar w pobliżu miasta, aby "połączyć się" z miejscowymi mieszkańcami. Te obozy będą idealnymi miejscami do wychowywania miejscowych kobiet." # AI Tags
 building_bbc_camp_02: "Domy miłości" # AI Tags
-building_bbc_camp_02_desc: "Wraz z przyciągnięciem większej liczby kobiet do afrykańskich osad, zwiększenie liczby domów pozwoli na rozrodzenie się z nimi większej liczbie uchodźców." # AI Tags
+building_bbc_camp_02_desc: "Wraz z przyciągnięciem większej liczby kobiet do afrykańskich osad, zwiększenie liczby domów pozwoli na rozmnażanie się z nimi wraz z większą liczbą uchodźców." # AI Tags
 building_bbc_camp_03: "Miasto uchodźców" # AI Tags
-building_bbc_camp_03_desc: "Wraz z przypływem kobiet do osady, budowaniem większej liczby obiektów i ustanowieniem bardziej trwałego osady, aby umożliwić większe krzyżowanie." # AI Tags
+building_bbc_camp_03_desc: "Wraz z przypływem kobiet do osiedla, budowaniem większej liczby obiektów i ustanowieniem bardziej stałego osiedla, aby umożliwić większe krzyżowanie." # AI Tags
 building_bbc_camp_04: "Międzynarodowe burdele" # AI Tags
 building_bbc_camp_04_desc: "[bno_bbc|E] Uzależnieni mogą teraz zebrać się w tych burdelach i uprawiać seks ze swoim ulubionym afrykańskim uchodźcą." # AI Tags
 building_bbc_camp_05: "Miasto uchodźców" # AI Tags
-building_bbc_camp_05_desc: "Mieszkańcy miasta są praktycznie najeżdżani przez afrykańskich uchodźców i wszystkie kobiety przynajmniej raz pieprzyły się z Afrykaninem." # AI Tags
+building_bbc_camp_05_desc: "Mieszkańcy miasta są praktycznie najeżdżani przez afrykańskich uchodźców i wszystkie kobiety zostały co najmniej raz pieprzone przez Afrykanę." # AI Tags
 building_bbc_camp_06: "BBC Paradise" # AI Tags
 building_bbc_camp_06_desc: "W zamieszanej metropoli, gdzie kobiety przybywają z daleka, żeby spróbować najbardziej poszukiwanego kurca na świecie - Wielkiego Czarnego Kurca." # AI Tags
 
 building_type_bbc_church_01: "$bnonr$" # AI Tags
-building_type_bbc_church_01_desc: "Powietrze w środku $bnonr$ Wpłynęły rytmem szalonych płaczów i rozpaczliwych oddechów, gdy ciała zwrócone w pocie oddania pod skrzyżowanym sufitem, kapnące z tłustego blasku, który błyszczał jak wylewane pierścienie. - Tak, proszę." # AI Tags
-building_bbc_church_01: "$bnonr$ Fundacja:" # AI Tags
-building_bbc_church_01_desc: "Nawet teraz, zanim pojedyncza wieża przebije niebo lub szkła kolorowe świecą z zakazanymi odcieniami, prawie czuję to: chłodny trąb mocy emanujący z tego fundamentu skały. Położone głęboko w ziemi, zatopiły pierwsze czarne kamienie, każde pocałowane błyszcząco ciemnym olejem i przepełnione obietnicą niekończącej się cielesnej ekstazy." # AI Tags
-building_bbc_church_02: "$bnonr$ Katedra:" # AI Tags
-building_bbc_church_02_desc: "W jego odgłaszających salach, codzienne orgie odbywają się w szacunku dla [bno_bbc|E], napędzane ofiarami zarówno fizycznymi jak i duchowymi, w tym tygodniową rytualną ofiarę białych mężczyzn oferujących swoje żony jako żywe hołdy na świętym ołtarzu żabonowego pożądania - Nie, nie." # AI Tags
+building_type_bbc_church_01_desc: "Powietrze w środku $bnonr$ pulsowane rytmem szalonych płaczów i rozpaczliwych wdechów, gdy ciała zwrócone w pocie oddania pod skrzyżowanym sufitem, kroplające się tłustym blaskiem, który błyszczał jak wylewane nasienie." # AI Tags
+building_bbc_church_01: "$bnonr$Fundacja:" # AI Tags
+building_bbc_church_01_desc: "Nawet teraz, zanim pojedyncza wieża przebije niebo lub szkło błyszczące z zakazanymi odcieniami, prawie czuję: chłodny trąb mocy emanujący z tego fundamentu. Położone głęboko w ziemi, zatopiły pierwsze czarne kamienie, każde pocałowane błyszcząco ciemnym olejem i przepełnione obietnicą niekończącej się cielesnej ekstazy." # AI Tags
+building_bbc_church_02: "$bnonr$Katedra:" # AI Tags
+building_bbc_church_02_desc: "W jego odgłaszających salach, codzienne orgie odbywają się w szacunku dla [bno_bbc|E], napędzane ofiarami zarówno fizycznymi, jak i duchowymi, w tym cotygodniową rytualną ofiarę białych mężczyzn oferujących swoje żony jako żywe hołdy na świętym ołtarzu żądania ebony." # AI Tags
 
-NOT_bbc_or_whitegirl_trigger: "Posiadacz musi być [bno_bbc|E] czy WhiteGirl" # AI Tags
+NOT_bbc_or_whitegirl_trigger: "Posiadacz musi być [bno_bbc|E] czy "WhiteGirl"" # AI Tags

@@ -1,38 +1,38 @@
 ﻿l_korean:
 
 #Cuck modifiers
-bno_cuck_blissfully_unaware: "의식 없는 행복" # AI Tags
-bno_cuck_blissfully_unaware_desc: "이 캐릭터는 운이 좋거나 불행하게도 아내의 활동에 대해 알지 못합니다." # AI Tags
+bno_cuck_blissfully_unaware: "알 수 없는 행복" # AI Tags
+bno_cuck_blissfully_unaware_desc: "이 캐릭터는 아내의 활동에 대해 알지 못하는 것이 운이 좋거나 불행합니다." # AI Tags
 
-bno_emasculated: "이마스컬링" # AI Tags
+bno_emasculated: "이마스쿨링" # AI Tags
 bno_emasculated_desc: "그의 아내로부터 방출된" # AI Tags
 
 bno_happy_cuck_husband: "행복한 남편" # AI Tags
-bno_happy_cuck_husband_desc: "그는 그의 아내를 되찾을 것이라고 믿는다" # AI Tags
+bno_happy_cuck_husband_desc: "그는 아내를 되찾을 것이라고 믿습니다" # AI Tags
 
 bno_wounded_commander: "듀얼 패터" # AI Tags
-bno_wounded_commander_desc: "이 캐릭터는 중요한 인종 간의 대결에서 패배했습니다." # AI Tags
+bno_wounded_commander_desc: "이 캐릭터는 중요한 인종 간의 대결에서 패배했습니다" # AI Tags
 
 #martial modifiers
 bno_troops_lack_bunnies: "군대는 토끼가 부족해" # AI Tags
 bno_troops_lack_bunnies_desc: "이 통치자의 흑인 군대는 충분한 백인 똥을 소유하지 않는다고 생각합니다." # AI Tags
 bno_troops_like_camp_slut: "군대는 새로운 캠프 창녀를 가지고 있습니다" # AI Tags
-bno_troops_like_camp_slut_desc: "이 통치자의 흑인 군대는 수용소의 새로운 창녀와 만족한 후에 훨씬 더 협조합니다." # AI Tags
+bno_troops_like_camp_slut_desc: "이 통치자의 흑인 군대는 캠프의 새로운 창녀와 만족한 후에 훨씬 더 협조합니다." # AI Tags
 
 bno_seeks_new_world_order: "새로운 세계 질서 를 추구 한다" # AI Tags
-bno_seeks_new_world_order_desc: "이 캐릭터는 그와 같은 사람들이 최고를 차지하는 더 나은 세상을 만들고자 하는 욕망을 표현했습니다." # AI Tags
+bno_seeks_new_world_order_desc: "이 캐릭터는 그와 같은 사람들이 최고에서 통치하는 더 나은 세상을 만들고 싶다는 욕망을 표현했습니다." # AI Tags
 
 #whoring modifiers
-bno_pimping_lowborn_white_whores: "낮은 출생 의 백인 창녀 들 을 다" # AI Tags
+bno_pimping_lowborn_white_whores: "낮은 출생 의 백인 창녀 들 을 파는 것" # AI Tags
 bno_pimping_noble_white_whores: "귀족 백인 창녀 들 을 다" # AI Tags
-bno_pimping_noble_white_whores_desc: "이 흑인 통치자는 백인 귀족 여성이 자신의 이익을 위해 몸을 팔고 있습니다." # AI Tags
-bno_pretty_whore_for_bbc: "흑인 남자한테는 예쁜 창녀야" # AI Tags
-bno_pretty_whore_for_bbc_desc: "이 귀여운 여자는 흑인이 아버렸어" # AI Tags
+bno_pimping_noble_white_whores_desc: "이 흑인 통치자는 백인 귀족 여성이 자신의 이익을 위해 자신의 몸을 팔고 있습니다." # AI Tags
+bno_pretty_whore_for_bbc: "흑인을 위한 예쁜 창녀" # AI Tags
+bno_pretty_whore_for_bbc_desc: "이 귀여운 여자는 흑인이 엿먹었다." # AI Tags
 bno_whore_for_bbc: "흑인을 위한 창녀" # AI Tags
-bno_whore_for_bbc_desc: "이 여자는 흑인 남자가 돌아갔어요" # AI Tags
+bno_whore_for_bbc_desc: "이 여자는 흑인이 돌아갔어요." # AI Tags
 bno_whore_for_liege: "내 왕에게 창녀" # AI Tags
-bno_whore_for_liege_desc: "이 창녀는 그녀의 검은 을 위해 금을 가져온 영광을 누렸다." # AI Tags
-bno_pretty_whore_for_liege: "내 신부에게 아름다운 창녀" # AI Tags
+bno_whore_for_liege_desc: "이 창녀는 그녀의 검은 을 위해 금을 가져온 명예를 얻었습니다." # AI Tags
+bno_pretty_whore_for_liege: "예쁜 창녀야" # AI Tags
 bno_pretty_whore_for_liege_desc: "이 귀여운 창녀는 그녀의 검은 을 위해 금을 가져오게 된 영광이었습니다." # AI Tags
 
 #marriage modifiers
@@ -40,60 +40,60 @@ bno_took_unmarried_white_wife: "결혼하지 않은 여자를 아내로 삼았�
 bno_took_unmarried_white_wife_desc: "이 캐릭터는 그의 승리의 결혼 허락을 기다리지 않고 그의 것을 가져갔습니다." # AI Tags
 bno_took_foreign_unmarried_white_wife: "외국인 미혼 여자를 아내로 데려갔어" # AI Tags
 bno_took_foreign_unmarried_white_wife_desc: "이 캐릭터는 아내를 데려가기 위해 자신의 집 영역을 벗어났습니다." # AI Tags
-bno_stole_married_white_wife: "결혼한 여자를 훔쳐서" # AI Tags
-bno_stole_married_white_wife_desc: "부인이 될 수 있는 부인이 없더라도, 우월한 인종의 구성원들은 거절당하지 않을 것입니다. 이 남자는 더 약한 인종의 남자에게서 아내를 훔쳤다." # AI Tags
+bno_stole_married_white_wife: "결혼한 여자를 훔쳤어" # AI Tags
+bno_stole_married_white_wife_desc: "부인이 될 수 있는 부인이 없더라도, 우월한 인종의 구성원들은 거절당하지 않을 것이다. 이 남자는 더 약한 인종의 남자에게서 아내를 훔쳤다." # AI Tags
 bno_stole_foreign_married_white_wife: "외국인 결혼한 여자를 훔쳤어" # AI Tags
 bno_stole_foreign_married_white_wife_desc: "이 남자는 아내를 찾기 위해 외국을 탐구했습니다. 그녀가 이미 남편을 가졌다는 사실은 문제가 없었습니다." # AI Tags
 bno_wife_stolen_by_bbc: "BBC가 아내를 훔쳐갔어요" # AI Tags
 bno_wife_stolen_by_bbc_desc: "이 캐릭터는 그의 아내가 흑인 똥에 대한 창녀라는 것을 알게 된 것은 그가 더 이상 결혼하지 않았다는 것을 알 때였습니다." # AI Tags
 bno_taken_as_bbc_wife: "흑인 남자가 저를 아내로 데려갔어요" # AI Tags
 bno_taken_as_bbc_wife_desc: "이 이전에 결혼하지 않은 여성은 갑자기 흑인 남성의 아내로 주장되었습니다. 그녀는 그 사실을 좋아하게 되었습니다." # AI Tags
-bno_stolen_as_bbc_wife: "흑인 마스터가 훔친 거야" # AI Tags
-bno_stolen_as_bbc_wife_desc: "이 여성은 이전 남편의 뒤에서 검은 닭을 숭배하는 것을 숨길 수 있었습니다. 그녀는 새로운 흑인 남편으로부터 해방되었습니다." # AI Tags
-bno_divorced_worthless_wife: "이혼한 부인이" # AI Tags
+bno_stolen_as_bbc_wife: "블랙 마스터에 의해 훔쳐간" # AI Tags
+bno_stolen_as_bbc_wife_desc: "이 여성은 이전 남편의 뒤에서 그녀의 블랙 숭배를 숨길 수 있었습니다. 그녀는 새로운 흑인 남편으로부터 해방되었습니다." # AI Tags
+bno_divorced_worthless_wife: "이혼한 쓸모없는 아내" # AI Tags
 bno_divorced_worthless_wife_desc: "이 남자는 이제 쓸모없는 백인 창녀를 정당하게 버렸습니다." # AI Tags
-bno_no_longer_black_breedable: "흑인들이 키우기에는 가치가 없습니다." # AI Tags
+bno_no_longer_black_breedable: "흑인들이 양육할 자격이 없는" # AI Tags
 bno_no_longer_black_breedable_desc: "이 여성은 너무 늙거나 건강이 좋지 않아 흑인의 아기 제작자로 계속 사용될 수 없습니다." # AI Tags
-bno_family_betrothed_me_to_bbc: "가족들은 저를 BBC의 비솔과 약혼했습니다." # AI Tags
+bno_family_betrothed_me_to_bbc: "가족들은 저를 BBC의 비솔과 약혼했습니다" # AI Tags
 bno_family_betrothed_me_to_bbc_desc: "이 흰색 암컷은 그녀의 가족의 비솔이 주장했고 그녀의 은 겸손하게 순종했습니다." # AI Tags
 
 #wife betrayal modifiers
 bno_wife_stealing_cucks_gold: "남편의 금을 훔치는 것" # AI Tags
-bno_wife_stealing_cucks_gold_desc: "이 여자는 남편의 금을 훔쳐서 검은 똥을 먹게 됐어" # AI Tags
+bno_wife_stealing_cucks_gold_desc: "이 여자는 남편의 금을 훔쳐서 검은 똥을 먹게 됐어." # AI Tags
 
 bno_cant_keep_mouth_shut: "입을 다물지 못해요" # AI Tags
-bno_cant_keep_mouth_shut_desc: "이 창녀는 입을 다물지 못해요 똥이 들어가면 비밀이 드러난다" # AI Tags
+bno_cant_keep_mouth_shut_desc: "이 창녀는 입을 다물지 못해요. 똥이 들어가면 비밀이 드러난다." # AI Tags
 
 bno_killed_husband_for_bbc: "유언한 남편 살인자" # AI Tags
-bno_killed_husband_for_bbc_desc: "이 여성이 새로운 흑인 남편과 함께하기 위해 전 남편을 죽였다는 소문이 끊이지 않는다." # AI Tags
+bno_killed_husband_for_bbc_desc: "이 여성이 새로운 흑인 남편과 함께하기 위해 전 남편을 죽였다는 소문이 계속되고 있습니다." # AI Tags
 
 bno_gave_husband_to_enemy: "남편을 적에게 팔았어" # AI Tags
-bno_gave_husband_to_enemy_desc: "전쟁 때, 이 여성은 남편을 배신하고 적에게 넘겨주었습니다. 흑색 닭을 먹기 위해서야" # AI Tags
+bno_gave_husband_to_enemy_desc: "전쟁 때, 이 여성은 남편을 배신하고 적에게 넘겨주었습니다. 그냥 블랙 을 먹기 위해서야." # AI Tags
 
 #misc modifiers
 bno_cheating_well_hidden: "잘 숨겨진 속임수" # AI Tags
 bno_cheating_well_hidden_desc: "초기 의심에도 불구하고, 이 캐릭터는 그들의 외혼 활동을 숨기는 데 성공했습니다." # AI Tags
 
 bno_stress_relieved: "창녀가 스트레스 해소" # AI Tags
-bno_stress_relieved_desc: "이 소는 이전에 스트레스를 받았어요. 다행스럽게도 근처에 흰색 창녀가 있어 스트레스를 풀 수 있어" # AI Tags
+bno_stress_relieved_desc: "이 소는 이전에 스트레스를 받았어요. 다행스럽게도 근처에 흰색 창녀가 있어 스트레스를 풀 수 있어." # AI Tags
 
 bno_cumstuffed: "꽉 찼다" # AI Tags
 bno_cumstuffed_desc: "이 창녀는 거의 독점적인 블랙 컴 다이어트를 통해 나쁜 식습관과 음료를 끊는 법을 배웠습니다." # AI Tags
 
 bno_white_breeder: "백색 번식자" # AI Tags
-bno_white_breeder_desc: "이 백인 마녀는 흑인 주인들에게 많은 아이를 낳았다." # AI Tags
+bno_white_breeder_desc: "이 백인 가 bitch는 헌신적으로 그녀의 검은 주인에게 많은 아이들을 낳았습니다." # AI Tags
 
 bno_white_breeder_bbc_husband: "흑인 남편과 백인 번식자" # AI Tags
 bno_white_breeder_bbc_husband_desc: "이 흑인은 백인 품종이 된 여성과 결혼했습니다." # AI Tags
 
 bno_white_breeder_cuck_husband: "백인 번식자 에게 남편" # AI Tags
-bno_white_breeder_cuck_husband_desc: "이 남자는 백인 번식자가 된 여성과 결혼했고, 그녀의 자녀들 중 실제로 얼마나 많은 것이 그의 것인지에 의문을 제기했습니다." # AI Tags
+bno_white_breeder_cuck_husband_desc: "이 남자는 백인 가축이 된 여성과 결혼했고, 그녀의 자녀들 중 실제로 얼마나 많은 것이 그의 것인지에 의문을 제기했습니다." # AI Tags
 
 bno_bull_breeder: "황소 번식자" # AI Tags
 bno_bull_breeder_desc: "결혼 속이든 결혼 밖이든 이 황소가 세상에 많은 흑인 자녀를 낳았습니다." # AI Tags
 #dynasty
-bno_cum_for_glory: "영광에 대한 희망" # AI Tags
-bno_cum_for_glory_desc: "이 힘은 흑인 남성과 백인 여성 모두에게 성관계 기간 동안 신체적 힘, 내구성, 그리고 내구성을 증가시켜 더 오래 지속되는 세션" # AI Tags
+bno_cum_for_glory: "영광에 대한 응원" # AI Tags
+bno_cum_for_glory_desc: "이 힘은 흑인 남녀 모두 성관계 기간 동안 신체적 힘, 내구력, 그리고 내구력을 증가시켜 더 강렬하고 더 오래 지속되는 세션에 참여할 수 있게 해준다." # AI Tags
 
 bno_siding_with_local: "원주민 들 의 편" # AI Tags
 bno_siding_with_local_desc: "지역 주민들의 편에 서서 그들의 신뢰와 지지를 얻습니다." # AI Tags
@@ -104,47 +104,56 @@ bno_siding_with_bbc_desc: "흑인 이주민들의 이해관계에 맞추어 그�
 bno_approve_daughter_marriage_with_bbc: "BBC와 딸의 결혼이 승인되었습니다" # AI Tags
 bno_approve_daughter_marriage_with_bbc_desc: "이 통치자는 그의 딸의 흑인 남성과 결혼을 승인했고, 지역 흑인 공동체와의 관계를 강화했습니다." # AI Tags
 
-bno_disapprove_daughter_marriage_with_bbc: "BBC와 딸의 결혼은 승인되지 않았습니다" # AI Tags
+bno_disapprove_daughter_marriage_with_bbc: "BBC와 딸의 결혼이 승인되지 않았습니다" # AI Tags
 bno_disapprove_daughter_marriage_with_bbc_desc: "이 통치자는 그의 딸의 흑인 남성과 결혼하는 것을 거부하고 지역 흑인 공동체와의 관계를 강화했습니다." # AI Tags
 
 bno_sent_courtier_to_bbc: "코르티어를 BBC에 보냈습니다" # AI Tags
 bno_sent_courtier_to_bbc_desc: "이 통치자는 흑인 남성에게 궁전을 보냈고 지역 흑인 공동체와의 관계를 강화했습니다." # AI Tags
 
-bno_reject_sending_courtier_to_bbc: "BBC에 코르티어를 파견하는 거부" # AI Tags
-bno_reject_sending_courtier_to_bbc_desc: "이 통치자는 흑인 남성에게 궁중을 보내는 것을 거부했습니다. 지역 흑인 공동체와의 관계를 강화했습니다." # AI Tags
+bno_reject_sending_courtier_to_bbc: "BBC에 코르티어를 파견하는 것은 거절당했습니다" # AI Tags
+bno_reject_sending_courtier_to_bbc_desc: "이 통치자는 흑인 남성에게 궁중을 보내는 것을 거부했습니다. 지역 흑인 공동체와 유대관계를 강화했습니다." # AI Tags
 
 bno_bbc_angered: "BBC 분노" # AI Tags
-bno_bbc_angered_desc: "이 통치자는 지역 흑인 공동체를 분노시켰으며 잠재적인 불안과 갈등으로 이어졌습니다." # AI Tags
+bno_bbc_angered_desc: "이 통치자는 지역 흑인 공동체를 분노시켰고, 잠재적인 불안과 갈등으로 이어졌습니다." # AI Tags
 #
-bno_bbc_appeased: "BBC가 반갑습니다" # AI Tags
-bno_bbc_appeased_desc: "이 통치자는 지역 흑인 공동체를 진정시키고 안정과 협력을 보장했습니다." # AI Tags
+bno_bbc_appeased: "BBC가 호평을 받았습니다" # AI Tags
+bno_bbc_appeased_desc: "이 통치자는 지역 흑인 공동체를 진정시켰고, 안정과 협력을 보장했습니다." # AI Tags
 
 bno_might_makes_right: "옳을 수 있을 것 이다" # AI Tags
-bno_might_makes_right_desc: "이 캐릭터는 승리했습니다. [bno_bnwo|E] 용감하게 반란을 일으킨다." # AI Tags
+bno_might_makes_right_desc: "이 캐릭터는 승리했습니다 [bno_bnwo|E] 용감하게 반란을 일으킨다." # AI Tags
 
 bno_local_bbc_unsatisfied: "지역 BBC 불만족" # AI Tags
-bno_local_bbc_unsatisfied_desc: "이 통치자는 지역 흑인 공동체의 기대에 부응하지 못해 불만족과 잠재적인 [bno_bnwo|E] 반란을 일으킨다" # AI Tags
+bno_local_bbc_unsatisfied_desc: "이 통치자는 지역 흑인 공동체의 기대에 부응하지 못해 불만족과 잠재적인 [bno_bnwo|E] 반란을 일으킨다." # AI Tags
 
-bno_cum_for_glory_glorified: "영광 을 얻으려 함: 영광 을 받으라" # AI Tags
-bno_cum_for_glory_glorified_desc: "이 캐릭터는 밍을 좋아하고, 전 세계적으로 알려졌습니다." # AI Tags
+bno_cum_for_glory_glorified: "영광 을 얻으려 함: 영광 을 얻으려 함" # AI Tags
+bno_cum_for_glory_glorified_desc: "이 캐릭터는 을 좋아하고, 전 세계적으로 알려졌습니다." # AI Tags
 
-bno_cum_for_glory.glorified.title.female: "천 명 [bno_bbcs|E] 정복!" # AI Tags
-bno_cum_for_glory.glorified.desc.female: "아가씨, 드디어 1000에 도달했어요 다음 몇 백 명 중 하나가 될 수 있는 행운이라고 생각하세요." # AI Tags
+bno_cum_for_glory.glorified.title.female: "천 명 [bno_bbcs|E] 정복당했어!" # AI Tags
+bno_cum_for_glory.glorified.desc.female: "아가씨, 드디어 1000에 도달했어요. 다음 몇 백명 중 하나가 될 수 있는 행운이라고 생각하세요." # AI Tags
 
 bno_cum_for_glory.glorified.title.male: "에보니 스톤의 정복! 천 명 의 마음 이 함락 에 빠진 것!" # AI Tags
-bno_cum_for_glory.glorified.desc.male: "또 다른 천개의 백색 나리들이 내 강력한 줄기 밑에서 꽃을 피었습니다. 내 씨앗은 세상에 정당한 영광으로 비옥합니다!" # AI Tags
+bno_cum_for_glory.glorified.desc.male: "또 다른 천개의 백색 나리들이 내 강력한 줄기 밑에서 꽃을 피었습니다. 내 씨앗은 세상에 정당한 영광으로 번식한다!" # AI Tags
 
 bno_primal_insight: "초기 통찰력" # AI Tags
-bno_primal_insight_desc: "여러분의 문화의 깊은 욕망과 잠재력을 들여다볼 수 있습니다. 이 강력한 교제 이후 몇 주 동안, 영감은 녹은 금처럼 흐르고, 혁신적인 아이디어에 대한 집착을 자극하고," # AI Tags
+bno_primal_insight_desc: "여러분의 문화의 깊은 욕망과 잠재력을 들여다볼 수 있습니다. 이 강력한 공동체 이후 몇 주 동안 영감은 녹은 금처럼 흐르며 혁신적인 아이디어에 대한 집착을 자극하고 무연한 집중력으로 문화적 성장을 촉진합니다." # AI Tags
 
 bno_nourishers_fatigue: "영양사 의 피로" # AI Tags
-bno_nourishers_fatigue_desc: "밤마다 쏟아지는 잎은 피우고 근육이 느려지고 감각이 둔화됩니다. 매 번, 매 번은 계속되는 통증을 가지고 있습니다. 그 통증은 당신의 힘을 약화시키고" # AI Tags
+bno_nourishers_fatigue_desc: "밤마다 쏟아지는 잎은 마비되고 근육이 느려지고 감각이 둔화됩니다. 매 번, 매 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번." # AI Tags
 
 bno_tincture_of_genesis: "창세기 의 염색" # AI Tags
-bno_tincture_of_genesis_desc: "그의 은 당신을 강력하게 활력을 불어넣고, 여러분의 핵을 강화시킵니다. 여러분의 몸으로 흐르는 것을 느낄 수 있고, 여러분의 팔꿈치와 감각을 강화시킵니다. 당신의 피부는 내면의 빛으로 빛나고 그의 본질은 당신을 내면에서 먹여줍니다." # AI Tags
+bno_tincture_of_genesis_desc: "그의 은 당신을 강력한 생명력으로 채우며 여러분의 핵을 강화합니다. 여러분의 몸으로 흐르는 것을 느낄 수 있고, 여러분의 팔꿈치와 감각을 강화시킬 수 있습니다. 당신의 피부는 내면의 빛으로 빛나고 그의 본질은 당신을 내면에서 먹여줍니다." # AI Tags
 
 bno_primal_vessel: "초기 배" # AI Tags
 bno_primal_vessel_desc: "당신의 씨앗은 생명력으로 비틀거리고, 그녀의 재탄생의 본질으로 가득 차 있습니다. 그녀는 당신의 이미지에 다시 꽃을 피우고 지금 당신은 그 강력한 에코를 당신 안에 가지고 있습니다." # AI Tags
 
 bno_ebony_bloom: "에보니 블룸" # AI Tags
-bno_ebony_bloom_desc: "피부가 은 오시디안으로 고 빛나는 곳이었죠. 가슴이 붓고, 우유와 달콤한 모스크로 가득 차 있어 원시적인 풍요로 가득합니다. 모든 촉각은 육신보다 더 깊은 열을 불태우며 그의 씨앗은 당신 안에 노래하며 힘으로 꽃을 피합니다." # AI Tags
+bno_ebony_bloom_desc: "피부가 맑은 오시디안으로 고 빛나는 곳이었죠. 당신의 가슴은 젖과 달콤한 모스크로 가득 차 있습니다. 그것은 원시적 풍요를 말하는 것입니다. 모든 촉각은 육신보다 더 깊은 열을 불리게 합니다. 그 씨앗은 당신 안에 노래하고, 힘으로 꽃을 피고 있습니다." # AI Tags
+
+bno_black_bred_queen: "블랙브레드 여왕" # AI Tags
+bno_black_bred_queen_desc: "그녀의 은 몸은 앵무새의 에베니 닭에 의해 찢어졌습니다. 그녀의 자궁은 그의 씨로 붓고 혼합된 상속자를 낳을 때까지요. 그녀는 스캔들을 왕관으로 착용하고, 그녀의 가슴은 그의 아이에게 우유로 가득 차 있고, 그녀의 냄새는 그녀를 키운 남자로부터 영원히 표기됩니다." # AI Tags
+
+bno_bred_in_secret: "창녀처럼 사용 된 것" # AI Tags
+bno_bred_in_secret_desc: "그녀는 침묵으로 다리를 펼쳤고, 숨기려고 했던 목동에 의해 길러졌습니다. 아무도 그녀가 가지고 있는 수치심을 보지 못하지만 그녀의 누출된 똥은 모든 충격을 기억합니다."   # AI Tags
+
+bno_claimed_broodmare: "자기 재산 을 표기 한 것" # AI Tags
+bno_claimed_broodmare_desc: "그는 그녀를 열고 다시 채웠고, 자신의 주장을 깊숙이 봉인했습니다. 그녀는 왕관으로 걸어가지만 자궁은 오직 그에게만 봉사합니다."   # AI Tags

@@ -1,25 +1,25 @@
 ﻿l_russian:
 #don't translate this yet, still figuring out how this works
-bno_embrace_african_track_desc: "Приготовься к тому, чтобы Африка приносила пользу своему королевству" # AI Tags
-bno_embrace_african_track_name: "Африканизация" # AI Tags
-bno_embrace_african_1_name: "Приобретение мигрантов" # AI Tags
-bno_embrace_african_2_name: "Использование мигрантов" # AI Tags
-bno_embrace_african_3_name: "Поймите мигрантов" # AI Tags
-bno_embrace_african_4_name: "Признать мигрантов" # AI Tags
+bno_embrace_african_track_desc: "Примите африканцев, чтобы принести пользу вашему королевству" # AI Tags
+bno_embrace_african_track_name: "Африканский" # AI Tags
+bno_embrace_african_1_name: "Поприветствуйте иммигрантов" # AI Tags
+bno_embrace_african_2_name: "Используйте мигрантов" # AI Tags
+bno_embrace_african_3_name: "Понимание иммигрантов" # AI Tags
+bno_embrace_african_4_name: "Ознакомьтесь с иммигрантами" # AI Tags
 bno_embrace_african_5_name: "Интеграция мигрантов" # AI Tags
 
-BNO_PLACEHOLDER: ""
-EBONY_ELITES_UNLOCK_DESCRIPTION: "Может вербовать [GetMaA('bno_ebony_elites').GetName] как [men_at_arms|E]" # AI Tags
-EBONY_ELITES_DESCRIPTION: "#wea k Только один полк [GetMaA('bno_ebony_elites').GetName] могут быть приняты на работу #!" # AI Tags
+BNO_PLACEHOLDER: "" # AI Tags
+EBONY_ELITES_UNLOCK_DESCRIPTION: "Могут набрать [GetMaA('bno_ebony_elites').GetName] как [men_at_arms|E]" # AI Tags
+EBONY_ELITES_DESCRIPTION: "#weak Только один полк [GetMaA('bno_ebony_elites').GetName] могут быть наняты#!" # AI Tags
 
-BBC_MARRIAGE_DESCRIPTION: "Всякий раз a [bno_bbc|E] Женится на белой девушке. [bno_bbc|E] Твоя. [dynasty|E] выиграет [prestige|E]. Они также увеличатся [legitimacy|E] и [prestige|E] от [marriage|E]" # AI Tags
+BBC_MARRIAGE_DESCRIPTION: "Каждый раз, когда [bno_bbc|E] женится, и белая девушка женится на [bno_bbc|E], твой [dynasty|E] будет выигрывать [prestige|E]- Нет , нет . Они также будут увеличиваться [legitimacy|E] и [prestige|E] от [marriage|E]" # AI Tags
 
-BBC_SEX_EFFECT: "Всякий раз a [bno_bbc|E] И белая девушка из вас. [dynasty|E] Заниматься сексом, [dynasty|E] выиграет [prestige|E]" # AI Tags
+BBC_SEX_EFFECT: "Каждый раз, когда [bno_bbc|E] и белую девушку из тебя [dynasty|E] У тебя есть секс [dynasty|E] будет выигрывать [prestige|E]" # AI Tags
 
-BNO_EMBRACE_3_EFFECT: "Разблокировать изучение решений и мероприятий, касающихся мигрантов" # AI Tags
+BNO_EMBRACE_3_EFFECT: "Открытие знаний о мигрантах Решение и события" # AI Tags
 
-SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Выберите a [congenital|E] для того, чтобы стать более обычным [dynasty|E]" # AI Tags
+SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Выберите [congenital|E] особенность, чтобы стать более распространенным в [dynasty|E]" # AI Tags
 
-BBC_CAMP_BUILDING_UNLOCK: "Разблокировать [GetBuilding('bbc_camp_01').GetName] [building|E]" # AI Tags
+BBC_CAMP_BUILDING_UNLOCK: "Отключает [GetBuilding('bbc_camp_01').GetName] [building|E]" # AI Tags
 
-BNO_SEX_EFFECT_DESCRIPTION: "Разблокировать [GetModifier('bno_cum_for_glory').GetNameWithTooltip]" # AI Tags
+BNO_SEX_EFFECT_DESCRIPTION: "Отключения [GetModifier('bno_cum_for_glory').GetNameWithTooltip]" # AI Tags

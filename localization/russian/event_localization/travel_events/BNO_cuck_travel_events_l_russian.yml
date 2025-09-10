@@ -1,5 +1,5 @@
 ﻿l_russian:
 #Travel Flavor Events
-bno_cuck_travel_0001.title: "Могу я вас прервать..." # AI Tags
-bno_cuck_travel_0001.desc: "Ты знал, что это происходит между [target1.GetFirstName] и [target2.GetFirstName]. Ты видишь, как они болтают на протяжении всего пути. Даже не заботьтесь о других в окружении. Теперь ты находишь, что они хорошо проводят время. [target2.GetFirstName|U] 's огромна и [target1.GetFirstName] Наслаждайся, ты ревнуешь. [target2.GetHerHis] Размер, стоны слышны по всему твоему лагерю. [target2.GetSheHe] проникает [target1.GetHerHis] Уникальный... Может, оставим их?" # AI Tags
-bno_cuck_travel_0001.a: "Ох." # AI Tags
+bno_cuck_travel_0001.title: "Могу я вас прервать?" # AI Tags
+bno_cuck_travel_0001.desc: "Ты знал , что между ними что-то происходит [target1.GetFirstName] и [target2.GetFirstName]- Нет , нет . Вы видите, как они общаются на протяжении всего путешествия. Даже не заботится о остальных в окружении. Ты видишь, что они сейчас хорошо себя ведут. [target2.GetFirstName|U]Это огромное и огромное [target1.GetFirstName] действительно наслаждается, вы завидуете [target2.GetHerHis] Размеры, крики слышены по всему лагеру, по пути [target2.GetSheHe] проникает [target1.GetHerHis] Это уникально…может быть, позвольте им быть " # AI Tags
+bno_cuck_travel_0001.a: " О, э " # AI Tags

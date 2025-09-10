@@ -2,7 +2,7 @@
  #Influence Child
  #success
  bno_character_interaction_0001.title: "Ptaki i pszczoły" # AI Tags
- bno_character_interaction_0001.desc: "Adoracja wyższej rasy nie przychodzi naturalnie. Ale dzięki zaangażowaniu Afrykańczyków, którzy zatopili twoje królestwo, udało ci się przekonać córkę, że nie ma nic przeciwko zainteresowaniu się kimkolwiek. Ona chce. Podczas gdy wyraziłeś chęć, by poślubiły kogoś z wyższego statusu, zachęcałeś do myślenia o niewysiedlonych poddanych, a zwłaszcza o ciemniejszych. Wychodząc z ogrodu z nią, nie możesz się powstrzymać od nadziei, że nowym mottem twojej dynastii jest promowanie mieszanej przyszłości." # AI Tags
+ bno_character_interaction_0001.desc: "Adoracja wyższej rasy nie przychodzi naturalnie. Mimo, że dzięki twoim "zaangażowaniu" w Afrykańskie ludy, które zasłaniają twoje królestwo, udało ci się przekonać córkę, że jest całkowicie w porządku zainteresować się kimkolwiek chce. Podczas gdy wyraziłeś chęć, by poślubiły kogoś z wyższego statusu, zachęcałeś do myślenia o niezależnych poddanych, a zwłaszcza o ciemniejszych. Wychodząc z ogrodu z nią, nie możesz się powstrzymać, ale mieć nadzieję, że nowym mottem twojej dynastii jest promowanie mieszanej przyszłości." # AI Tags
  bno_character_interaction_0001.a: "Chodźmy się napić." # AI Tags
  #failure
  bno_character_interaction_0002.title: "Ptaki i pszczoły" # AI Tags

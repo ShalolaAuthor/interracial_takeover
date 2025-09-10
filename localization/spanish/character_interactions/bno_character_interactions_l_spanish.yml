@@ -1,6 +1,6 @@
 ﻿l_spanish:
 
-bno_seduce_interaction: "BBC Seduction" # AI Tags
+bno_seduce_interaction: "La seducción de la BBC" # AI Tags
 bno_seduce_interaction_desc: "Usa tu encanto para seducir [recipient.GetHerHim]." # AI Tags
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] tiene algún tipo de [illness|E]" # AI Tags
 bno_cure_disease_interaction.no_priestess: "Usted no tiene un [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] para realizar el ritual." # AI Tags
@@ -14,9 +14,9 @@ bno_cure_disease_interaction.female_recipient.effect: "Llamarás a tu [GetCourtP
 bno_cure_disease_interaction.male_recipient.effect: "Llamarás a tu [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] preparar su sagrada esencia para preparar el ritual" # AI Tags
 
 bno_tincture_of_genesis_interaction: "Tintura del Génesis" # AI Tags
-bno_tincture_of_genesis_interaction.desc: "Vas a transformar a tu esposa. [recipient.GetFirstName] existencia" # AI Tags
+bno_tincture_of_genesis_interaction.desc: "Vas a transformar a tu esposa [recipient.GetFirstName] existencia" # AI Tags
 bno_tincture_of_genesis_interaction.not_white: "Ella es [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
-bno_tincture_of_genesis_interaction.effect: "Alimentarás a tu esposa. [recipient.GetFirstName] tu potente esperma, transformando su propio núcleo." # AI Tags
+bno_tincture_of_genesis_interaction.effect: "Alimentarás a tu esposa [recipient.GetFirstName] tu potente esperma, transformando su propio núcleo." # AI Tags
 
-bno_tincture_of_genesis_interaction.desc.female: "Le pediré a mi marido que me transforme." # AI Tags
-bno_tincture_of_genesis_interaction.effect.female: "Tu marido te dará de comer su esperma, como tu única fuente de sustento." # AI Tags
+bno_tincture_of_genesis_interaction.desc.female: "Le pediré a mi marido que me transforme" # AI Tags
+bno_tincture_of_genesis_interaction.effect.female: "Su marido le dará de comer su esperma, como su única fuente de sustento." # AI Tags

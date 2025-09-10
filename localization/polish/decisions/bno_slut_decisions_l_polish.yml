@@ -1,42 +1,42 @@
 ﻿l_polish:
 
-bno_becoming_bbc_slut: " Stać się czarną suką." # AI Tags
-#bno_becoming_bbc_slut.effect: "You will become a [bno_whore|E] for [bno_bbc|E]"
-bno_becoming_bbc_slut.effect: "Stajesz się dziwką. [bno_bbcs|E]" # AI Tags
-bno_becoming_bbc_slut_desc: "Chcę być czarną dziwką, bo urodziłam się na tę rolę - służyć jako zbiornika dla potężnych, męskich czarnych kutasów, którzy mogą mi dać to, czego pragnę moje małe białe ciało. Po prostu widok ogromnego członka ebonowego mężczyzny sprawia, że moja cipka wypływa z oczekiwania i potrzeby." # AI Tags
-bno_becoming_bbc_slut_confirm: "Moje szczelne dziury są twoje, możesz je użyć jak chcesz." # AI Tags
-bno_becoming_bbc_slut_tooltip: "Jestem tak zdesperowana, że zostanę wykorzystana jak bezwartościowa dziwka, którą jestem." # AI Tags
+bno_becoming_bbc_slut: "Stałem się "czarną dziwką"" # AI Tags
+#bno_becoming_bbc_slut.effect: "Będziesz stał się [bno_whore|E] dla [bno_bbc|E]" # AI Tags
+bno_becoming_bbc_slut.effect: "Stajesz się dziwką [bno_bbcs|E]" # AI Tags
+bno_becoming_bbc_slut_desc: "Chcę być czarną dziwką, bo urodziłam się do tej roli, by służyć jako zbiornika dla potężnych, męskich czarnych kutasów, które mogą dać mi to, czego pragnę moje małe białe ciało. Po prostu widok ogromnego członka ebonowego mężczyzny sprawia, że moja cipka wypływa z oczekiwania i potrzeby." # AI Tags
+bno_becoming_bbc_slut_confirm: "Moje ciasne dziury są twoje, możesz je użyć jak chcesz." # AI Tags
+bno_becoming_bbc_slut_tooltip: "Jestem tak zdesperowana, że zostanę wykorzystana jak bezwartościowa dziwka, którą jestem" # AI Tags
 
 bno_stop_becoming_bbc_slut: "Oddana prostytutka" # AI Tags
 bno_stop_becoming_bbc_slut_desc: "Po latach bycia czarną dziwką, w końcu znalazłam w nim mojego idealnego partnera - osobistego czarnego byka, który codziennie dba o mój nienasycający apetyt na duży fiut. Zadowala mnie w sposób, w jaki nikt inny nigdy nie mógłby, zapewniając, że moja cipka jest zawsze wypełniona i wypływa jego grubym nasieniem." # AI Tags
-bno_stop_becoming_bbc_slut_confirm: "Po to się urodziłem." # AI Tags
-bno_stop_becoming_bbc_slut_tooltip: "by być niczym więcej niż zestawem dziur posiadanych przez silnego" # AI Tags
-bno_stop_becoming_bbc_slut.bbc_spouse: "Jeden z waszych małżonków ma [GetTrait('bno_bbc').GetName( GetNullCharacter )]" # AI Tags
+bno_stop_becoming_bbc_slut_confirm: "Po to się urodziłem" # AI Tags
+bno_stop_becoming_bbc_slut_tooltip: " by być niczym więcej niż zestawem dziur posiadanych przez silnego" # AI Tags
+bno_stop_becoming_bbc_slut.bbc_spouse: "Jeden z twoich małżonków ma [GetTrait('bno_bbc').GetName( GetNullCharacter )]" # AI Tags
 
-bno_invite_slut_decision: "Zaproś ciekawego szlachta do swojego dworu." # AI Tags
-bno_invite_slut_decision_desc: "Kiedy ciekawa szlachetna zbliża się, pozdrawiam ją ciepłym uśmiechem.\n\n Witamy w moim skromnym mieszkaniu. Zawsze pragnę poznać nowych ludzi, zwłaszcza tych, którzy są podobni do mnie w dziedzinie sztuki i kultury.\n\n Szlachetny patrzy wokół, biorąc pod uwagę rozległe otoczenie mojego majątku - od opulentnego mebla do bezcennych dzieł sztuki, które zdobią każdą ścianę.\n\n Widzę, że masz ostre oko do piękna. Może moglibyśmy omówić niektóre z tych kawałków podczas kolacji? Z przyjemnością pokażę wam ich pochodzenie.\n\n Szlachetna kobieta zgodziła się, wyraźnie zachwycona tym, co zobaczyła i chętnie dowiedziała się więcej." # AI Tags
-bno_invite_slut_decision_tooltip: "Obcokrajowcy zostali wezwani do odwiedzenia Waszej Wysokości." # AI Tags
-bno_invite_slut_decision_confirm: "Jesteś tu mile widziany." # AI Tags
+bno_invite_slut_decision: "Zaproś ciekawego szlachta do swojego dworu" # AI Tags
+bno_invite_slut_decision_desc: "Kiedy ciekawa szlachetna zbliża się, pozdrawiam ją ciepłym uśmiechem.\n\nWitamy w moim skromnym mieszkaniu. Zawsze pragnę poznać nowych znajomych, zwłaszcza tych, którzy mają podobne zainteresowania w dziedzinie sztuki i kultury.\n\nSzlachetny patrzy wokół, biorąc pod uwagę rozległe otoczenie mojego majątku - od luksusowych mebli do bezcennych dzieł sztuki, które zdobią każdą ścianę.\n\nWidzę, że masz ostre oko do piękna. Może moglibyśmy omówić niektóre z tych kawałków podczas kolacji? Z przyjemnością pokażę wam ich pochodzenie.\n\nSzlachetna kobieta zgodziła się, wyraźnie zachwycona tym, co zobaczyła i chętnie dowiedziała się więcej." # AI Tags
+bno_invite_slut_decision_tooltip: "Obcokrajowcy zostali wezwani do odwiedzenia Waszej Wysokości" # AI Tags
+bno_invite_slut_decision_confirm: "Jesteś tu mile widziany" # AI Tags
 
 bno_build_african_camps_decision: "Zbudować $building_type_bbc_camp_01$" # AI Tags
-bno_build_african_camps_decision_desc: "Populacja #V [GetTrait('bno_full_black').GetName( GetNullCharacter )]!/Zdecydowałeś, /że nadszedł czas, /abyś zawarł porozumienie tylko dla nich." # AI Tags
+bno_build_african_camps_decision_desc: "Populacja #V [GetTrait('bno_full_black').GetName( GetNullCharacter )]#! Zdecydowałeś, że nadszedł czas, żebyś zawarł porozumienie tylko dla nich." # AI Tags
 bno_build_african_camps_decision_tooltip: "Konstrukcja $building_type_bbc_camp_01$" # AI Tags
-bno_build_african_camps_decision_confirm: "Niech tak będzie." # AI Tags
+bno_build_african_camps_decision_confirm: "Niech tak będzie" # AI Tags
 bno_build_african_camps_toast: "$building_type_bbc_camp_01$ Zbudowany" # AI Tags
 
 bno_change_county_culture: "Wpływ hrabstwa do przyjęcia $bnoc$" # AI Tags
-bno_change_county_culture_desc: "Jesteś... $bnoc$ Czy nie miałoby sensu wpłynąć na swoich ludzi, by stali się $bnoc_collective_noun$ - Nie, nie." # AI Tags
+bno_change_county_culture_desc: "Jesteś $bnoc$Czy nie miałoby sensu wpłynąć na swoich ludzi, by stali się $bnoc_collective_noun$?" # AI Tags
 bno_change_county_culture_tooltip: "Wpływ na adopcję $bnoc$ sposób życia" # AI Tags
-bno_change_county_culture_confirm: "Potrzebuję więcej. $bnoc$" # AI Tags
+bno_change_county_culture_confirm: "Potrzebuję więcej $bnoc$" # AI Tags
 bno_change_county_culture_toast: "$bnoc$ zostało rozmnażone" # AI Tags
 
-bno_recruit_court_position_decision: "Rekrutuj pozycje, które są przyjemne #V Wydarzenie [GetTrait('bno_full_black').GetName( GetNullCharacter )] Populacja #!" # AI Tags
-bno_recruit_court_position_decision_desc: "Dobrze funkcjonująca [ROOT.Char.Custom('RealmType')] wymaga pracy wielu dziewczyn. Wysyłam swoich sług daleko i daleko, aby znaleźć odpowiednich kandydatów na nowo dostępne stanowiska w moim dworze." # AI Tags
-bno_recruit_court_position_decision_tooltip: "Szukaj dziewczyny, by wypełnić [court_position|E] lub innej niezbędnej roli w [court|E] za opłatę\n\n#wea k Przykładowo, możesz zatrudnić [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!" # AI Tags
+bno_recruit_court_position_decision: "Rekrutuj pozycje przyzwoite #V Wydarz [GetTrait('bno_full_black').GetName( GetNullCharacter )] Populacja#!" # AI Tags
+bno_recruit_court_position_decision_desc: "Dobrze funkcjonująca [ROOT.Char.Custom('RealmType')] wymaga pracy wielu dziewcząt. Wysyłam swoich sług daleko i daleko, aby znaleźć odpowiednich kandydatów na nowo dostępne stanowiska w moim dworze." # AI Tags
+bno_recruit_court_position_decision_tooltip: "Szukaj dziewczyny, by wypełnić [court_position|E] lub innej niezbędnej roli w [court|E] za opłatę\n\n#weak Przykładowo, możesz zatrudnić [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!" # AI Tags
 bno_recruit_court_position_decision_confirm: "Zadzwoń do nich!" # AI Tags
 recruit_bbc_worshipper_cooldown_tt: "Rekrutacja [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] jest w stanie schłodzić [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]" # AI Tags
 hire_bbc_worshipper_decision_tooltip: "Twoi słudzy zaproponują kilka odpowiednich kandydatów na stanowisko [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
-bno_recruit_court_position_decision_tt: "Dostaniesz przypadkową ilość odpowiednich dziewcząt do służby obok ciebie" # AI Tags
+bno_recruit_court_position_decision_tt: "Dostaniesz przypadkową ilość odpowiednich dziewcząt, które będą służyć obok ciebie" # AI Tags
 
 bno_convert_to_african: "Ograniczenie Afryki" # AI Tags
 bno_convert_to_african_confirm: "To dla mnie koniec!" # AI Tags
@@ -52,95 +52,95 @@ bno_build_bbc_church.toast: "$building_bbc_church_01$ Zbudowany" # AI Tags
 bno_found_bbc_church_holy_order: "Znalazłem Święty Porządek [bno_religion|E]" # AI Tags
 bno_found_bbc_church_holy_order_confirm: "Rozprzestrzegamy słowo [bno_bbc|E]" # AI Tags
 bno_found_bbc_church_holy_order.desc: "Święty Porządek [bno_religion|E] będzie poświęcony czci i czci [bno_bbc|E], promowanie jej wartości i zapewnienie jej miejsca w naszym społeczeństwie." # AI Tags
-bno_found_bbc_church_holy_order.tooltip: "Ustanowić święty porządek poświęcony wielbieniu [bno_bbc|E]" # AI Tags
-bno_found_bbc_church_holy_order.effect_tooltip: "Święty Porządek [bno_religion|E] została założona, szerząc swoje nauki i wartości w całej sferze." # AI Tags
+bno_found_bbc_church_holy_order.tooltip: "Stworzyć święty porządek poświęcony czci [bno_bbc|E]" # AI Tags
+bno_found_bbc_church_holy_order.effect_tooltip: "Święty Porządek [bno_religion|E] została założona, rozpowszechniając swoje nauki i wartości w całej sferze." # AI Tags
 
 bno_cure_disease.title.male: "Pocałunek oczyszczający" # AI Tags
 bno_cure_disease.title.female: "Błogosławieństwo nasienia władcy" # AI Tags
-bno_cure_disease.desc.male: "W obecności zgromadzonych sądu i duchownych każdy chory pan klęka przed wybranym Kapłanką. Następnie rozkazują im otworzyć usta szeroko, gdy ona obniża swoje nagie biodra, umieszczając się w takiej pozycji, że jego twarz jest mocno przyciskana do źródła jej świętego nektaru. Musi swobodnie spożywać z jej fiutki, dopóki kapłanka nie zaznaczy zakończenia rytuału." # AI Tags
+bno_cure_disease.desc.male: "W obecności zgromadzonych sądu i duchownych każdy chory pan klęka przed wybranym Kapłanką. Następnie rozkazują im otworzyć usta szeroko, gdy ona obniża swoje nagie biodra, umieszczając się w takiej pozycji, że jego twarz jest mocno przyciskana do źródła jej świętego nektaru. Musi swobodnie spożywać jej fiutę, dopóki kapłanka nie zaznaczy zakończenia rytuału." # AI Tags
 bno_cure_disease.desc.female: "W obecności zgromadzonych sądu i duchownych każda choroba kręci się przed wybranym Kapłanem. Każe jej otworzyć usta szeroko, a on obniża swój wzniesiony penis do jej czekających ust. Następnie kapłan wkłada ją głęboko w usta, zachęcając ją do poruszania głową i wolnego połukania. Rytuał kontynuuje się, aż kapłan wyleczy bezpośrednio do jej ust, co oznacza skuteczne leczenie." # AI Tags
-bno_cure_disease.confirm.male: "Przyprowadź to..." # AI Tags
-bno_cure_disease.confirm.female: "Nie mogę się doczekać.." # AI Tags
+bno_cure_disease.confirm.male: "Przynieś to." # AI Tags
+bno_cure_disease.confirm.female: "Nie mogę się doczekać." # AI Tags
 bno_cure_disease.tooltip.male: "Zastanawiam się, jak smakuje twoja cipka." # AI Tags
-bno_cure_disease.tooltip.female: "Błogosławię cię swoim cum.." # AI Tags
+bno_cure_disease.tooltip.female: "Błogosławię cię swoim cum." # AI Tags
 bno_cure_diseases.own.sickness: "Jesteś chory." # AI Tags
 bno_cure_disease.employing_bbc_priestess: "Zatrudniłeś [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
-bno_cure_diseases.second_step_button: "Proszę, uzdraw mnie.." # AI Tags
+bno_cure_diseases.second_step_button: "Proszę, uzdraw mnie." # AI Tags
 bno_cure_diseases.lovers_pox: "Jesteś przepięknie oznaczony przez [GetTrait('lovers_pox').GetName( GetNullCharacter )], żarliwą pamiątkę z nocy, które wciąż pulsują w twoich żyłach." # AI Tags
 bno_cure_diseases.lovers_pox.desc: "Przyciągająca wysypka pamięci i ust, [GetTrait('lovers_pox').GetName( GetNullCharacter )] Wręcza się nad twoją skórą jak odświetlenie zbyt mokrych pocałunków i bezwstydnego tłoczenia." # AI Tags
-cure_lovers_pox_tooltip: "Proszę, oczyść mnie od moich złych. [GetTrait('lovers_pox').GetName( GetNullCharacter )] Aby znów zgrzeszyć świeżą, głodną skórą." # AI Tags
+cure_lovers_pox_tooltip: "Proszę , oczyść mnie od moich złych [GetTrait('lovers_pox').GetName( GetNullCharacter )] Aby znów zgrzeszyć świeżą, głodną skórą." # AI Tags
 
-bno_cure_diseases.ill: "Ty jesteś [GetTrait('ill').GetName( GetNullCharacter )], gorączkowy i potrzebujący, każdy oddech miękkie płacz na delikatne ręce." # AI Tags
-bno_cure_diseases.ill.desc: "Gorąca mgła i trzęsienia cię otoczy; [GetTrait('ill').GetName( GetNullCharacter )] sprawia, że kocki i ciepłe ciała są równie nieodpowiedziane." # AI Tags
-cure_ill_tooltip: "Proszę, wynoś mnie. [GetTrait('ill').GetName( GetNullCharacter )] Żeby poświęcić siły na słodkie wysiłki." # AI Tags
+bno_cure_diseases.ill: "Jesteś [GetTrait('ill').GetName( GetNullCharacter )], gorączkowy i potrzebujący, każdy oddech miękkie płacz na delikatne ręce." # AI Tags
+bno_cure_diseases.ill.desc: "Gorąca mgła i trzęsienia otacza cię; [GetTrait('ill').GetName( GetNullCharacter )] sprawia, że kocki i ciepłe ciała są równie nieodpowiedziane." # AI Tags
+cure_ill_tooltip: "Proszę, odnoś mi pielęgniarkę [GetTrait('ill').GetName( GetNullCharacter )]Żeby poświęcić siły na słodkie wysiłki." # AI Tags
 
-bno_cure_diseases.pneumonic: "Jesteś dotknięty [GetTrait('pneumonic').GetName( GetNullCharacter )], podnoszące się piersi i rozproszone usta, każdy kaszel oddech, który prosi o ostrożny dotknięcie." # AI Tags
-bno_cure_diseases.pneumonic.desc: "Gorące płuca i drżące żebra, [GetTrait('pneumonic').GetName( GetNullCharacter )] kradnie oddech i pozostawia ci tęsknotę po powolnych uderzeniach i ustawionych rękach." # AI Tags
-cure_pneumonic_tooltip: "Proszę odsunąć mnie. [GetTrait('pneumonic').GetName( GetNullCharacter )] Więc moje wzdychy mogą być dla przyjemności, a nie dla bólu." # AI Tags
+bno_cure_diseases.pneumonic: "Jesteś dotknięty [GetTrait('pneumonic').GetName( GetNullCharacter )], podnoszące się piersi i rozproszone usta, każdy kaszel, oddech, który prosi o ostrożny dotknięcie." # AI Tags
+bno_cure_diseases.pneumonic.desc: "Gorące płuca i drżące żebra, [GetTrait('pneumonic').GetName( GetNullCharacter )] Kradnie oddech i pozostawia ci tęsknotę po powolnych uderzeniach i ustawionych rękach." # AI Tags
+cure_pneumonic_tooltip: "Proszę odsunąć mnie [GetTrait('pneumonic').GetName( GetNullCharacter )] Więc moje wzdychy mogą być dla przyjemności, a nie dla bólu." # AI Tags
 
-bno_cure_diseases.great_pox: "Jesteś znany przez [GetTrait('great_pox').GetName( GetNullCharacter )], cielesny klątwę, która pamięta każdą północny indulgencja." # AI Tags
+bno_cure_diseases.great_pox: "Jesteś oznaczony przez [GetTrait('great_pox').GetName( GetNullCharacter )], cielesny klątwę, która pamięta każdą północny indulgencja." # AI Tags
 bno_cure_diseases.great_pox.desc: "Węże ubóstwa, blizny grzechu; [GetTrait('great_pox').GetName( GetNullCharacter )] to plotka ciała o tym, co zrobiłeś, gdy świece wypaliły." # AI Tags
-cure_great_pox_tooltip: "Proszę, oczyść mnie. [GetTrait('great_pox').GetName( GetNullCharacter )] Więc moja skóra jest znowu gładkim zaproszeniem." # AI Tags
+cure_great_pox_tooltip: "Proszę , oczyść mnie [GetTrait('great_pox').GetName( GetNullCharacter )] Więc moja skóra jest znowu gładkim zaproszeniem." # AI Tags
 
 bno_cure_diseases.early_great_pox: "Jesteś zabarwiony [GetTrait('early_great_pox').GetName( GetNullCharacter )], szeptające ciepło z niedawnych, beztroskich przyjemności." # AI Tags
 bno_cure_diseases.early_great_pox.desc: "Słodkie rany i tajne emocje; [GetTrait('early_great_pox').GetName( GetNullCharacter )] Hums jak zapamiętany płacz wzdłuż nerwów." # AI Tags
-cure_early_great_pox_tooltip: "Proszę, umyj mnie. [GetTrait('early_great_pox').GetName( GetNullCharacter )] Zanim szepty staną się bliznami." # AI Tags
+cure_early_great_pox_tooltip: "Proszę , umyj mnie [GetTrait('early_great_pox').GetName( GetNullCharacter )] Zanim szepty staną się bliznami." # AI Tags
 
 bno_cure_diseases.leper: "Jesteś dotknięty [GetTrait('leper').GetName( GetNullCharacter )], samotny głód dotyku, który boli pod bandażami." # AI Tags
-bno_cure_diseases.leper.desc: "Odległość staje się karą; [GetTrait('leper').GetName( GetNullCharacter )] Nawet rękawicowa miłość jest zabroniona, a serce bije po tym, czego nie może mieć." # AI Tags
-cure_leper_tooltip: "Proszę mnie uwolnić od mojego [GetTrait('leper').GetName( GetNullCharacter )] Więc usta i ręce nie muszą mnie bać." # AI Tags
+bno_cure_diseases.leper.desc: "Odległość staje się karą; [GetTrait('leper').GetName( GetNullCharacter )] Nawet rękawiczkowe miłoszenie jest zabronione, a serce bije po tym, czego nie może mieć." # AI Tags
+cure_leper_tooltip: "Proszę mnie uwolnić [GetTrait('leper').GetName( GetNullCharacter )] Więc usta i dłonie nie muszą mnie bać." # AI Tags
 
-bno_cure_diseases.gout_ridden: "Jesteś dotknięty [GetTrait('gout_ridden').GetName( GetNullCharacter )] Twoje stawy są gorące i pulsujące jak puls zbyt uparty, by milczeć." # AI Tags
-bno_cure_diseases.gout_ridden.desc: "Każdy krok jest wince, każdy siedzieć grind; [GetTrait('gout_ridden').GetName( GetNullCharacter )] Żąda, żebyś się nim zajmował, a nie spieszył się." # AI Tags
-cure_gout_ridden_tooltip: "Proszę mnie uspokoić. [GetTrait('gout_ridden').GetName( GetNullCharacter )] Więc moje biodra mogą się obracać z właściwych powodów." # AI Tags
+bno_cure_diseases.gout_ridden: "Jesteś dotknięty [GetTrait('gout_ridden').GetName( GetNullCharacter )]Twoje stawy są gorące i pulsujące jak puls zbyt uparty, by milczeć." # AI Tags
+bno_cure_diseases.gout_ridden.desc: "Każdy kroki wince, każdy siedzieć grind; [GetTrait('gout_ridden').GetName( GetNullCharacter )] Żąda, żebyś się nim zajmował, a nie spieszył się." # AI Tags
+cure_gout_ridden_tooltip: "Proszę mnie rozluźnić [GetTrait('gout_ridden').GetName( GetNullCharacter )] Żeby moje biodra mogły się obracać z właściwych powodów." # AI Tags
 
 bno_cure_diseases.consumption: "Jesteś pocałowany przez [GetTrait('consumption').GetName( GetNullCharacter )], blady kwiat, który sprawia, że każdy oddech jest delikatny, piękny ból." # AI Tags
-bno_cure_diseases.consumption.desc: "skóra woskowa, jasne oczy i wolno płonące ciepło; [GetTrait('consumption').GetName( GetNullCharacter )] zamienia odpoczynek w leniwe tęsknotę." # AI Tags
-cure_consumption_tooltip: "Proszę wyprowadzić mnie. [GetTrait('consumption').GetName( GetNullCharacter )] Więc mój oddech wraca jako ciepłe, stałe wzdychy." # AI Tags
+bno_cure_diseases.consumption.desc: "skóra woskowa, jasne oczy i wolno płonące ciepło; [GetTrait('consumption').GetName( GetNullCharacter )] przekształca odpoczynek w leniwe tęsknotę." # AI Tags
+cure_consumption_tooltip: "Proszę , wyprowadź mnie [GetTrait('consumption').GetName( GetNullCharacter )] Więc mój oddech wraca jako ciepłe, stałe wzdychy." # AI Tags
 
-bno_cure_diseases.cancer: "Jesteś dotknięty [GetTrait('cancer').GetName( GetNullCharacter )], głęboki, tajemniczy gryzanie, które osłabia blask swoich przyjemności." # AI Tags
+bno_cure_diseases.cancer: "Jesteś dotknięty [GetTrait('cancer').GetName( GetNullCharacter )], głębokie, tajne grywanie, które osłabia blask twoich przyjemności." # AI Tags
 bno_cure_diseases.cancer.desc: "Cienie w ciele, [GetTrait('cancer').GetName( GetNullCharacter )] kradnie siłę i kolor, ale pozostawia głód." # AI Tags
-cure_cancer_tooltip: "Proszę, pozbądź mnie. [GetTrait('cancer').GetName( GetNullCharacter )] Żeby życie mogło znów smakować bogatym i dojrzałym." # AI Tags
+cure_cancer_tooltip: "Proszę , pozbądź mnie [GetTrait('cancer').GetName( GetNullCharacter )] Żeby życie mogło znów smakować bogactwem i dojrzałością." # AI Tags
 
-bno_cure_diseases.typhus: "Jesteś płonący z [GetTrait('typhus').GetName( GetNullCharacter )], pocieszona skóra i delirujące szepty trzymające się twojej poduszki." # AI Tags
+bno_cure_diseases.typhus: "Jesteś płonący z [GetTrait('typhus').GetName( GetNullCharacter )], pociśnięta skóra i delirujące szepty trzymające się twojej poduszki." # AI Tags
 bno_cure_diseases.typhus.desc: "Gorączka, która rozbiera cię tylko gorączką; [GetTrait('typhus').GetName( GetNullCharacter )] rozmywa świat w wilgotne prześcieradła i gorączkowe sny." # AI Tags
-cure_typhus_tooltip: "Proszę wygnać mnie. [GetTrait('typhus').GetName( GetNullCharacter )] Więc mój pot jest zarobiony w słodkiej pracy." # AI Tags
+cure_typhus_tooltip: "Proszę wygnać mnie [GetTrait('typhus').GetName( GetNullCharacter )] Więc mój pot jest zarobiony w słodkiej pracy." # AI Tags
 
-bno_cure_diseases.bubonic_plague: "Zostałeś uchwycony przez [GetTrait('bubonic_plague').GetName( GetNullCharacter )], ciemne obrzęki i ciemniejsze noce, brutalne przypomnienie, jak śmiertelna może być skóra." # AI Tags
-bno_cure_diseases.bubonic_plague.desc: "Ciało siniaki jak ugryziony owoc; [GetTrait('bubonic_plague').GetName( GetNullCharacter )] Nawet pragnienie zamienia się w modlitwę o kolejne ciepłe uściskanie." # AI Tags
+bno_cure_diseases.bubonic_plague: "Zostałeś uchwycony przez [GetTrait('bubonic_plague').GetName( GetNullCharacter )], ciemne obrzęki i ciemniejsze noce, brutalne przypomnienie o tym, jak śmiertelna może być skóra." # AI Tags
+bno_cure_diseases.bubonic_plague.desc: "Ciało siniaki jak ugryziony owoc; [GetTrait('bubonic_plague').GetName( GetNullCharacter )] Nawet pragnienie przekształca się w modlitwę o jeszcze jedno ciepłe uściskanie." # AI Tags
 cure_bubonic_plague_tooltip: "Proszę podnieść mój [GetTrait('bubonic_plague').GetName( GetNullCharacter )] Więc dotyk może być przyjemnością, a nie pożegnanie." # AI Tags
 
 bno_cure_diseases.smallpox: "Jesteś szczelony przez [GetTrait('smallpox').GetName( GetNullCharacter )], konstelacja na twojej skórze, która płonie jak zbyt wiele pocałunków naraz." # AI Tags
 bno_cure_diseases.smallpox.desc: "Gwiazdy rozbłyskujące, nocą gorączkową; [GetTrait('smallpox').GetName( GetNullCharacter )] Przeciąga twoje konstelacje i błaga o uspokajanie." # AI Tags
 cure_smallpox_tooltip: "Proszę, oszczędzić mi mojego [GetTrait('smallpox').GetName( GetNullCharacter )] Więc moja skóra może być znowu gładkim zaproszeniem." # AI Tags
 
-bno_cure_diseases.measles: "Jesteś przepełniony [GetTrait('measles').GetName( GetNullCharacter )], jasny czerwony płynąć nad tobą jak wstyd po złej przyjemności." # AI Tags
-bno_cure_diseases.measles.desc: "Płytkość i swędzenie; [GetTrait('measles').GetName( GetNullCharacter )] Przekształca powstrzymanie w niepokój, a cierpliwość w błagania." # AI Tags
-cure_measles_tooltip: "Proszę mnie uspokoić. [GetTrait('measles').GetName( GetNullCharacter )] Więc mogę zostać pociągnięta bez szczotki." # AI Tags
+bno_cure_diseases.measles: "Jesteś przepełniony [GetTrait('measles').GetName( GetNullCharacter )], jasny czerwony wyścig nad tobą jak wstyd po niegodziwej przyjemności." # AI Tags
+bno_cure_diseases.measles.desc: "Gorąca plamka i swędzenie; [GetTrait('measles').GetName( GetNullCharacter )] Przekształca powstrzymanie w niepokój, a cierpliwość w błagania." # AI Tags
+cure_measles_tooltip: "Proszę mnie uspokoić [GetTrait('measles').GetName( GetNullCharacter )] Więc mogę zostać pociągnięta bez zadrapania." # AI Tags
 
-bno_cure_diseases.dysentery: "Jesteś przyłapany [GetTrait('dysentery').GetName( GetNullCharacter )], okrutne kręcanie, które opróżnia cię od wszystkiego, oprócz pragnienia pocieszenia." # AI Tags
+bno_cure_diseases.dysentery: "Jesteś przyłapany [GetTrait('dysentery').GetName( GetNullCharacter )], okrutne drżenie, które opróżnia cię od wszystkiego, oprócz pragnienia pocieszenia." # AI Tags
 bno_cure_diseases.dysentery.desc: "falę skurczów i uszkodzone kończyny; [GetTrait('dysentery').GetName( GetNullCharacter )] Najmocniej błaga o delikatne sypienia i miękkie noce." # AI Tags
 cure_dysentery_tooltip: "Proszę zakończyć moje [GetTrait('dysentery').GetName( GetNullCharacter )] Żeby moje ciało mogło znowu zjeść i się bawić." # AI Tags
 
 bno_cure_diseases.ergotism: "Zostałeś uchwycony przez [GetTrait('ergotism').GetName( GetNullCharacter )], brzęczące ogień w palcach i palcach, wizje, które wahają się jak biodra w latarce." # AI Tags
 bno_cure_diseases.ergotism.desc: "Pony, iskry i dziwne sny; [GetTrait('ergotism').GetName( GetNullCharacter )] zamienia świat w zawrotny taniec, którego nie chciałeś zacząć." # AI Tags
-cure_ergotism_tooltip: "Proszę, uwolni mnie od mojego [GetTrait('ergotism').GetName( GetNullCharacter )] Więc mogę wybierać swoje zatrucia." # AI Tags
+cure_ergotism_tooltip: "Proszę mnie uwolnić [GetTrait('ergotism').GetName( GetNullCharacter )] Więc mogę wybierać swoje zatrucia." # AI Tags
 
-bno_cure_diseases.sickly: "Ty jesteś [GetTrait('sickly').GetName( GetNullCharacter )], delikatny jak szczotka i dwa razy bardziej kuszący, aby ostrożnie wyrwać na bok." # AI Tags
-bno_cure_diseases.sickly.desc: "Słabość z drobnymi nadgarstkami i drzemki pod świecami; [GetTrait('sickly').GetName( GetNullCharacter )] sprawia, że pragniesz opiekunów z ciepłymi rękami i cierpliwością." # AI Tags
-cure_sickly_tooltip: "Proszę, wylecz mnie. [GetTrait('sickly').GetName( GetNullCharacter )] Żeby moje ciało mogło cieszyć się bez rezerwy." # AI Tags
+bno_cure_diseases.sickly: "Jesteś [GetTrait('sickly').GetName( GetNullCharacter )], delikatny jak szczotka i dwa razy bardziej kuszący, aby ostrożnie wyrwać na bok." # AI Tags
+bno_cure_diseases.sickly.desc: "Słabość z cienkimi nadgarstkami i drzemki oświetlone świecami; [GetTrait('sickly').GetName( GetNullCharacter )] sprawia, że pragniesz opiekunów z ciepłymi rękami i cierpliwością." # AI Tags
+cure_sickly_tooltip: "Proszę, wylecz mnie [GetTrait('sickly').GetName( GetNullCharacter )] Żeby moje ciało mogło cieszyć się bez rezerwy." # AI Tags
 
-bno_cure_diseases.tooltip.1: "Będziesz uzdrowiony od swoich chorób przez [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
-bno_cure_diseases.tooltip.2: "Będziesz mnie odwiedzał. [GetBuilding('bbc_church_02').GetName]" # AI Tags
+bno_cure_diseases.tooltip.1: "Będziesz uzdrowiony z twoich chorób przez [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
+bno_cure_diseases.tooltip.2: "Będziesz mnie odwiedzał [GetBuilding('bbc_church_02').GetName]" # AI Tags
 
 bno_primal_insight_decision.title.female: "Pod królowym wzrokiem: rytuał pierwotnego zrozumienia" # AI Tags
-bno_primal_insight_decision.desc.female: "W powietrzu kręciło się oczekiwanie, pełne mieszanych zapachów oleju jasmina i pożądania. W tygodniach poprzedzających Primal Insight mój dwór zawsze był pełen chętnych zamówicieli, ich ciemne oczy głodne na smak mojej łaski - każdy mężczyzna zdesperowany, aby zostać wybrany, aby mi służyć, Żeby jego esencja stała się częścią mojej królewskiej krwi. Śledziły mnie w szlachetnych salach, jak fantomy ebonowe, trzymając dłonie na moich jedwabkach, oferując szepczące obietnice i ekstrawaganckie prezenty. Każdy dotknięcie wysłało drżenie w moim kręgosłupie, pyszny ból dla nieuniknionego kulminacji naszego corocznego rytuału - moment, w którym będę roszczony, posiadany i odtworzony przez Czarnych Potężne nasienie Cock Priesta." # AI Tags
+bno_primal_insight_decision.desc.female: "W powietrzu krzyknęło oczekiwanie, pełne mieszanych zapachów oleju jasmina i pożądania. W tygodniach poprzedzających "Primal Insight" mój dwór zawsze był pełen chętnych zamówicieli, z ciemnymi oczami głodnymi po mojej łasce. Każdy mężczyzna był zdesperowany, by zostać wybrany, aby mi służyć, aby zobaczyć, jak jego esencja stała się częścią mojej królewskiej krwi. Śledziły mnie w szlachetnych salach jak fantomy ebony, trzymając ręce zbyt długo na moich jedwabkach, oferując szepczące obietnice i ekstrawaganckie prezenty. Każde dotknięcie przynosiło drżenie w kręgosłupie, pyszny ból z powodu nieuniknionego kulminacji naszego corocznego rytuału - momentu, w którym będę powstał, posiadany i odtworzony przez potężne nasienie Kapłana Czarnego Pęka." # AI Tags
 bno_primal_insight_decision.confirm.female: "Taką gorącą oddanie ogrzewa moje serce." # AI Tags
-bno_primal_insight_decision.tooltip.female: "Zdobędziesz [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+bno_primal_insight_decision.tooltip.female: "Będziesz miał [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
-bno_primal_insight_decision.effect_tooltip: "Będziesz rozpoczynał rytuał, aby zdobyć [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+bno_primal_insight_decision.effect_tooltip: "Będziesz rozpoczynał rytuał, aby uzyskać [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
 bno_primal_insight_decision.title.male: "Pod wzrokiem króla: rytuał pierwotnego zrozumienia" # AI Tags
-bno_primal_insight_decision.desc.male: "W powietrzu wisiały szandalowe drewno i muszk - mój własny zapach mieszający się z głębokim perfumem jasmina, który przyczepił się do kapłanki jak druga skóra. Od kilku tygodni jej obecność była ciągłym bólem drżącym przez mnie, jedwabnym przypływem łapającym na brzegu mojego pragnienia. Przenosiła się jak dym przez komory mojego pałacu, te eteryczne niebieskie oczy śledziły mnie wszędzie - trwając wystarczająco długo na moich gołych ramionach, aby wysłać drżenie w moim kręgosłupie. Jej śmiech był jak wiatr w letnim wietrze, jej dotyk lżejszy niż skrzydła motyla, ale czułem, jak jej mała ręka uderzała w moją duszę z każdą przebiegłą szczotką. Na mojej skórze. Nadchodzący dzień pulsował jak drugie bicie serca we mnie - dzień, w którym ponownie mi się ofiarowała, a ja piłem głęboko z źródła jej świętej mocy, tra Odtworzyłem się na nowo w ogniu tego starożytnego rytuału." # AI Tags
+bno_primal_insight_decision.desc.male: "W powietrzu wisiały szandalowe drewno i muszk - mój własny zapach mieszający się z głębokim perfumem jasmina, który przyczepił się do kapłanki jak druga skóra. Od kilku tygodni jej obecność była ciągłym bólem drżącym przez mnie, jedwabnym przypływem łapającym na brzegu mojego pożądania. Przemieszczała się jak dym przez komory mojego pałacu, te eteryczne niebieskie oczy śledziły mnie wszędzie - trwając wystarczająco długo na moich gołych ramionach, aby wysłać drżenie w moim kręgosłupie. Jej śmiech był jak wiatr w letnim wietrze, jej dotyk był lżejszy niż skrzydła motyla, ale czułem, jak jej mała ręka uderzała w moją duszę z każdą przebiegłą szczotką końcówek palców na mojej skórze. Nadchodzący dzień pulsował jak drugie uderzenie w moim sercu - dzień, w którym ponownie oferowała mi się, a ja piłem głęboko z źródła jej świętej mocy, przekształcając się ponownie w ogniach tego starożytnego rytuału." # AI Tags
 bno_primal_insight_decision.confirm.male: "Więc, księżniczko, porozmawiajmy." # AI Tags
 bno_primal_insight_decision.tooltip.male: "Będziesz miał [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags

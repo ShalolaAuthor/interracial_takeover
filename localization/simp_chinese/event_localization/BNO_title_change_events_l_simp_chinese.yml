@@ -38,6 +38,6 @@ bno_title_change_0005.a: "顺从她的愿景，放弃你们的头衔，拥抱她
 
  
 #
-# bno_random_1001.title: "Test title"
-# bno_random_1001.desc: "Hi!"
-# bno_random_1001.a: "OK"
+# bno_random_1001.title: "试验标题" # AI Tags
+# bno_random_1001.desc: "嗨!" # AI Tags
+# bno_random_1001.a: "好" # AI Tags

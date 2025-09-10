@@ -2,7 +2,7 @@
 
 special_doctrine_is_bno_faith_name: "Schwarz schwanz supremacy" # AI Tags
 is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
-special_doctrine_is_bno_faith_desc: "Wir sollten Mitgefühl mit diesen irregeleiteten Seelen zeigen, die noch nicht die Ekstase eines [bno_bbc|E], für einen Geschmack ist alles, was es braucht. Wenn man schwarz wird, geht man nie wieder zurück! Ihr Geist mag heute durch Unwissenheit getrübt sein, aber sie werden kommen, um an unserem Altar anzubeten und um die süße Kraft der [bno_bbc|E])== Einzelnachweise ==" # AI Tags
+special_doctrine_is_bno_faith_desc: "Wir sollten Mitgefühl mit diesen irregeleiteten Seelen zeigen, die noch nicht die Ekstase eines [bno_bbc|E], für einen Geschmack ist alles, was es braucht. Wenn du schwarz wirst, gehst du nie wieder zurück! Ihr Geist mag heute durch Unwissenheit getrübt sein, aber sie werden kommen, um an unserem Altar anzubeten und um die süße Kraft der [bno_bbc|E]." # AI Tags
 
 bno_hostility_group_name: "$hostility_group_name$" # AI Tags
 bno_hostility_doctrine_name: "Aphrodiasma" # AI Tags

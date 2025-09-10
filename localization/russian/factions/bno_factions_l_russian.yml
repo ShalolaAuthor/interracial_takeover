@@ -1,14 +1,14 @@
 ﻿l_russian:
 
 bnwo_faction: "[bno_bnwo|E] Фракция" # AI Tags
-bnwo_faction_desc: "Под их железным владычеством белые тела изгибаются и кровоточат, питая наш ненасытный голод к рождению сильного, красивого и бесспорного потомства. [bno_black|E]." # AI Tags
-bnwo_faction.name: "- Нет, нет. [bno_bnwo|E]" # AI Tags
-bnwo_faction.short_effect_desc: "- Нет, нет. [bno_bnwo|E], является фракцией, которая стремится к установлению нового мирового порядка, основанного на расовом превосходстве, с упором на доминирующее положение [bno_black|E] Люди." # AI Tags
-bnwo_faction.power.bnoc: "Желает [liege|E] Должен быть $bnoc$" # AI Tags
-bnwo_faction.power.bbcs: "Желает [liege|E] Должен быть $bbcs$" # AI Tags
-bnwo_faction.power.county_bnoc: "Желает [county] Должен быть $bnoc$" # AI Tags
-bnwo_faction.power.county_bbcs: "Желает [county] Должен быть $bbcs$" # AI Tags
-bnwo_faction_leader_title: "Командующий" # AI Tags
-bnwo_faction_revolt_title_name: "- Нет, нет. [bno_bnwo|E] Воскресенье" # AI Tags
-bnwo_faction_event_troops: "[bno_bnwo|E] Воскресенье" # AI Tags
-bno_event_troop_default_name: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] [bno_bnwo|E] Армия восстания" # AI Tags
+bnwo_faction_desc: "Под властью железных кулаков, белые тела сгибаются и кровоточат, питая наш ненасытный голод за потомством, рожденным сильным, красивым и неоспоримым [bno_black|E]." # AI Tags
+bnwo_faction.name: "Сборник [bno_bnwo|E]" # AI Tags
+bnwo_faction.short_effect_desc: "Сборник [bno_bnwo|E] является фракцией, которая стремится установить новый мировой порядок, основанный на расовом превосходстве, с акцентом на доминировании [bno_black|E] отдельных лиц." # AI Tags
+bnwo_faction.power.bnoc: "Хочет [liege|E] быть $bnoc$" # AI Tags
+bnwo_faction.power.bbcs: "Хочет [liege|E] быть $bbcs$" # AI Tags
+bnwo_faction.power.county_bnoc: "Хочет [county] быть $bnoc$" # AI Tags
+bnwo_faction.power.county_bbcs: "Хочет [county] быть $bbcs$" # AI Tags
+bnwo_faction_leader_title: "Командир" # AI Tags
+bnwo_faction_revolt_title_name: "Сборник [bno_bnwo|E] Восстание" # AI Tags
+bnwo_faction_event_troops: "[bno_bnwo|E] Восстание" # AI Tags
+bno_event_troop_default_name: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] [bno_bnwo|E] Восстание армии" # AI Tags

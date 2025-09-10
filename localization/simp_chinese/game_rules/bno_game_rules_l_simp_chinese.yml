@@ -111,3 +111,9 @@ setting_bno_black_cum_potency_normal: "通常"
 setting_bno_black_cum_potency_normal_desc: "那样有点太容易预测了，不过还是挺有意思的。"
 setting_bno_black_cum_potency_abnormal: "超常"
 setting_bno_black_cum_potency_abnormal_desc: "让那些乌黑、强硬的后代们放马过来吧！"
+
+rule_bno_black_birth: "@bnobbc! #X 跨种族接替:#! 黑产" # AI Tags
+setting_bno_black_birth_on: "日期 于" # AI Tags
+setting_bno_black_birth_on_desc: "当皇后的肚子肿胀时 [bno_bbc|E] 孩子,摇篮不会保持沉默. 你来决定她是否躲在她丈夫的王冠后面…或呻吟出真相 让Stud的继承人在他的房子里崛起." # AI Tags
+setting_bno_black_birth_off: "关闭" # AI Tags
+setting_bno_black_birth_off_desc: "她的肚子可以被一个 [bno_bbc|E],但谎言坚持着。. 混血儿像她丈夫一样静静地死去,真相被挡在苍白的墙后面,不管谁的子孙真正孕育了她。." # AI Tags

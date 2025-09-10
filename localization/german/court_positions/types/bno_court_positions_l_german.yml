@@ -42,9 +42,9 @@ bno_court_position_trait_fecund: "[GetTrait('fecund').GetName( ROOT.Char )]" # A
 hire_bbc_worshipper_decision: "Suchen nach [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
 hire_bbc_worshipper_decision_effect_tooltip: "Sie werden mit einer Gruppe von [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] und kann einen von ihnen für eine Gebühr und ein monatliches Gehalt von [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
 
-bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$ Wird [bno_whore|E] für ihre [liege|E]" # AI Tags
+bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$Wird [bno_whore|E] für ihre [liege|E]" # AI Tags
 
-bno_bbc_priestess_employer_custom_effect_description: "$BULLET$ Wird [bbc_evangelist|E] für ihre [liege|E]" # AI Tags
+bno_bbc_priestess_employer_custom_effect_description: "$BULLET$Wird [bbc_evangelist|E] für ihre [liege|E]" # AI Tags
 bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$" # AI Tags
 
 bno_bbc_priestess_court_position: "BBC Priesterin" # AI Tags

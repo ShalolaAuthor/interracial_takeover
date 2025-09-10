@@ -1,7 +1,7 @@
 ﻿l_spanish:
 
-bno_bbc_seduction: "BBC Seduction" # AI Tags
-bno_bbc_seduction_desc_general: "Un proceso natural de la naturaleza, donde [bno_bbc|E] buscará a su propia Puta, y a una Puta, su propia [bno_bbc|E]" # AI Tags
-bno_bbc_seduction_action: "Carajo." # AI Tags
-bno_bbc_seduction_desc: "Tan natural como se puede conseguir, una puta blanca para un [bno_bbc|E], y a [bno_bbc|E] para una puta blanca" # AI Tags
-bno_bbc_seduction_success_desc: "Vete a la mierda [target.GetHerHim]" # AI Tags
+bno_bbc_seduction: "La seducción de la BBC" # AI Tags
+bno_bbc_seduction_desc_general: "Un proceso natural de la naturaleza, donde [bno_bbc|E] buscará a su propia Puta, y a una Puta, a la suya misma [bno_bbc|E]" # AI Tags
+bno_bbc_seduction_action: "Carajo" # AI Tags
+bno_bbc_seduction_desc: "Tan natural como se puede conseguir, una puta blanca para un [bno_bbc|E], y una [bno_bbc|E] para una puta blanca" # AI Tags
+bno_bbc_seduction_success_desc: "Jode con él [target.GetHerHim]" # AI Tags

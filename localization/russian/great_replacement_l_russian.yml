@@ -1,5 +1,5 @@
 ﻿l_russian:
  great_replacement: "Замена" # AI Tags
- great_replacement_effect_desc: ""
- cultural_acceptance_loss_replacement_culture: "Внутренность" # AI Tags
- great_replacement_acceptance_effect_desc: "\n Местные города и деревни будут подвергаться насильственному вторжению со стороны высших должностных лиц и будут принуждаться к перевоспитанию. Большинство не выживет..." # AI Tags
+ great_replacement_effect_desc: "" # AI Tags
+ cultural_acceptance_loss_replacement_culture: "Нападение" # AI Tags
+ great_replacement_acceptance_effect_desc: "\nМестные города и деревни будут жестоко вторгнуты превосходными людьми и вынуждены в лагеря переобразования. Большинство не выживет…" # AI Tags

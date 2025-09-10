@@ -1,13 +1,13 @@
 ﻿l_russian:
 
- bno_african_warriors: "Африканские военные" # AI Tags
- bno_african_warriors_flavor: "#F Элитные стычки, известные своей скоростью и способностью адаптироваться к таким суровым местностям, как леса и джунгли. #!" # AI Tags
+bno_african_warriors: "Африканские воины" # AI Tags
+bno_african_warriors_flavor: "#F Элитные боевики известны своей скоростью и способностью адаптироваться к суровым местностям, таким как леса и джунгли.#!" # AI Tags
 
-bno_ebony_elites: "Ebony Elits" # AI Tags
-bno_ebony_elites_flavor: "#F Знаменитое подразделение тяжелой пехоты, известное своей дисциплиной и боевой мощью, часто служа краеугольным камнем военной мощи королевства. #!" # AI Tags
+bno_ebony_elites: "Эбонные элиты" # AI Tags
+bno_ebony_elites_flavor: "#F Престижная часть тяжелой пехоты, известная своей дисциплиной и боевыми мастерствами, часто служащая основой военной мощи королевства.#!" # AI Tags
 
-bno_cock_maidens: "Девушки-коктейли" # AI Tags
-bno_cock_maidens_flavor: "#F Подобранные девственницы, связанные культом Черного Кока, эти девы имеют как лезвие, так и тело в качестве оружия. Немногие по числу, но необыкновенные в рвении, они нападают с безжалостной точностью, их похотливая преданность превращает каждое поле боя в оргию крови и поклонения Би-би-си. #!" # AI Tags
+bno_cock_maidens: "Девушки-куки" # AI Tags
+bno_cock_maidens_flavor: "#F Рукоизбранные девчонки, привязанные к культу Черного Кока, эти девчонки используют как нож, так и тело в качестве оружия. Малочисленные, но беспрецедентные в рвении, они нападают с безжалостной точностью, их страстная преданность превращает каждый поле битвы в оргию крови и поклонения Би-би-си.#!" # AI Tags
 
 bnwo_armies: "[bnwo_armies|E]" # AI Tags
 
@@ -21,8 +21,8 @@ bnwo_armies_damage_add: "[bnwo_armies|E] [damage|E]" # AI Tags
 bnwo_armies_damage_mult: "$bnwo_armies_damage_add$" # AI Tags
 bnwo_armies_max_size_add: "Максимальный размер [bnwo_armies|E] [regiments|E]" # AI Tags
 bnwo_armies_max_size_mult: "$bnwo_armies_max_size_add$" # AI Tags
-bnwo_armies_maintenance_mult: "[bnwo_armies|E] Техническое обслуживание" # AI Tags
-bnwo_armies_recruitment_cost_mult: "[bnwo_armies|E] Расходы на набор персонала" # AI Tags
+bnwo_armies_maintenance_mult: "[bnwo_armies|E] Поддержание" # AI Tags
+bnwo_armies_recruitment_cost_mult: "[bnwo_armies|E] Стоимость трудоустройства" # AI Tags
 bnwo_armies_siege_value_add: "[bnwo_armies|E] [siege_progress|E]" # AI Tags
 bnwo_armies_siege_value_mult: "$bnwo_armies_siege_value_add$" # AI Tags
 

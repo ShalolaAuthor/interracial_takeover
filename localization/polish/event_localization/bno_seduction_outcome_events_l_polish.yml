@@ -1,16 +1,16 @@
 ﻿l_polish:
 
-bno_seduction_outcome.0001.title: "Teraz czy nigdy." # AI Tags
+bno_seduction_outcome.0001.title: "Teraz czy nigdy" # AI Tags
 bno_seduction_outcome.0001.desc: "[target.GetTitledFirstNamePossessive] Reakcje na moje postępy mówią mi wszystko, co muszę wiedzieć. Nadszedł czas, aby realizować mój plan.\n\n" # AI Tags
-bno_seduction_outcome.0001.positive.desc: "Myślę, że mam dobre szanse, ale muszę pamiętać, że [discoverer.Custom2('NamePossessiveCharacterIntroduction', target)] Zawsze patrzy..." # AI Tags
-bno_seduction_outcome.0001.negative.desc: "Ale obawiam się konsekwencji. [discoverer.Custom2('NamePossessiveCharacterIntroduction', target)|U] i [discoverer.GetHerHis] Agenci mogą ukrywać się w dowolnym cieniu, słuchać przez każdą ścianę..." # AI Tags
+bno_seduction_outcome.0001.positive.desc: "Myślę, że mam dobre szanse, ale muszę pamiętać, że [discoverer.Custom2('NamePossessiveCharacterIntroduction', target)] Zawsze patrzy…" # AI Tags
+bno_seduction_outcome.0001.negative.desc: "Ale obawiam się konsekwencji. [discoverer.Custom2('NamePossessiveCharacterIntroduction', target)|U] i [discoverer.GetHerHis] Agenci mogą ukrywać się w dowolnym cieniu, słuchać przez każdą ścianę…" # AI Tags
 bno_seduction_outcome.0001.a: "[target.GetFirstNameNoTooltip] To będzie moje!" # AI Tags
 bno_seduction_outcome.0001.a.tooltip: "Idę dalej z moją próbą uwodzić [target.GetTitledFirstName]" # AI Tags
 bno_seduction_outcome.0001.b: "Nie mogę ryzykować odkrycia." # AI Tags
 
-bno_seduction_outcome.0003.title: "Proponowanie zmysłowe" # AI Tags
-bno_seduction_outcome.0003.success.desc: "[owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] wykonane [owner.GetHerHis] Wchodzę w moje życie słodkimi słowami i słodszymi dotknięciami. Późno w nocy, walczę o utrzymanie [owner.GetHerHim] Nie myśl o tym.\n\n Czucia, które płoną między nami, wkrótce wybuchną w płomieniach albo wygasną." # AI Tags
-bno_seduction_outcome.0003.failure.desc: "Dokądkolwiek pójdę, [owner.Custom2('MyCharacterIntroduction', ROOT.Char)] Z pewnością będzie. Ten spojrzenie w [owner.GetHerHis] Oczami, słowami [owner.GetHerHis] Usta... Wiem dokładnie co. [owner.GetSheHe] jest po" # AI Tags
-bno_seduction_outcome.0003.a: "To jest romans, który będzie płonął jasnie, ale krótko." # AI Tags
+bno_seduction_outcome.0003.title: "Propozycja zmysłowa" # AI Tags
+bno_seduction_outcome.0003.success.desc: "[owner.Custom2('MyCharacterIntroduction', ROOT.Char)|U] wykonane [owner.GetHerHis] Wchodzimy w moje życie słodkimi słowami i słodkimi dotknięciami. Późno w nocy, walczę o utrzymanie [owner.GetHerHim] Wyjdź z mojej głowy…\n\nCzucia, które płoną między nami, wkrótce wybuchną w płomienie albo się wygasną." # AI Tags
+bno_seduction_outcome.0003.failure.desc: "Dokądkolwiek pójdę, [owner.Custom2('MyCharacterIntroduction', ROOT.Char)] Z pewnością za mną. Ten spojrzenie w [owner.GetHerHis] Oczami, słowami na [owner.GetHerHis] Usta… Wiem dokładnie co [owner.GetSheHe] jest po" # AI Tags
+bno_seduction_outcome.0003.a: "To jest romans, który będzie płonąć jasne, ale krótkie." # AI Tags
 bno_seduction_outcome.0003.b: "Chcę zamieszkać wiecznie w piekle!" # AI Tags
-bno_seduction_outcome.0003.c: "Co za słodkie... - Ale nie." # AI Tags
+bno_seduction_outcome.0003.c: "Jak miłe…ale nie." # AI Tags

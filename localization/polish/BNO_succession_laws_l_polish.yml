@@ -2,4 +2,4 @@
 #BNWO Succession
  bnwo_only_law: "Orientacja BNWO" # AI Tags
  bnwo_only_law_subname: "Nadwyżka rasowa" # AI Tags
- bnwo_only_law_effects: "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$ Mężczyźni i kobiety są równi w dziedzictwie od posiadacza tytułu.\n$EFFECT_LIST_BULLET$ Dostępne tylko do przekazania tej samej wiary.\n$EFFECT_LIST_BULLET$ Pozwala na wyznaczenie spadkobierców." # AI Tags
+ bnwo_only_law_effects: "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$Mężczyźni i kobiety są równi w dziedzictwie od posiadacza tytułu.\n$EFFECT_LIST_BULLET$Dostępne tylko do przekazania tej samej wiary.\n$EFFECT_LIST_BULLET$Pozwala na wyznaczenie spadkobierców." # AI Tags

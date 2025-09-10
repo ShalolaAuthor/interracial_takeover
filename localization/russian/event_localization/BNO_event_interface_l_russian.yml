@@ -1,77 +1,77 @@
 ﻿l_russian:
 
 #BBC's POV if wife is white breeder
-bno_birth.0001.wife.t: "Белый фертильный воробей жены" # AI Tags
-bno_birth.0001.wife.desc: "Твоя жена [ROOT.GetCharacter.GetName] Снова рождается черный ребенок, что укрепляет ее репутацию достойного размножения. Её заставили рожать чёрных детей." # AI Tags
+bno_birth.0001.wife.t: "Белая плодородная утроба жены"       # AI Tags
+bno_birth.0001.wife.desc: "Твоя жена [ROOT.GetCharacter.GetName] родит черного ребенка, cementing ее репутацию достойного селекционера. Она была создана для того, чтобы родить чёрных детей." # AI Tags
 #Cuck's POV if wife is white breeder
-bno_birth.0001.cuck.wife.t: "Многие дети рождаются женами" # AI Tags
-bno_birth.0001.cuck.wife.desc: "Твоя жена [ROOT.GetCharacter.GetName] родилось несколько детей. Хотя в глубине души ты находишь это странным, большинство из них не похожи на остальных." # AI Tags
+bno_birth.0001.cuck.wife.t: "Женщина рождает много детей" # AI Tags
+bno_birth.0001.cuck.wife.desc: "Твоя жена [ROOT.GetCharacter.GetName] родила несколько детей. Хотя в глубине души тебе кажется странным, что большинство не похожи на всех остальных." # AI Tags
 
-bno_birth.0001.lover.t: "Белый фертильный воробей Любителя" # AI Tags
-bno_birth.0001.lover.desc: "Твой любовник [ROOT.GetCharacter.GetName] продолжает предавать свою расу, приведя в мир еще одного чернокожего ребенка. Это ее величайшая радость в продвижении Черной Величественности." # AI Tags
+bno_birth.0001.lover.t: "Белая плодородная утроба любовницы" # AI Tags
+bno_birth.0001.lover.desc: "Твоя любовница [ROOT.GetCharacter.GetName] продолжает предавать свою расу, принося в мир еще одного чёрного ребенка. Это ее величайшая радость продвигать Черное превосходство." # AI Tags
 
-bno_birth.0001.t: "Моя белая червоточина" # AI Tags
-bno_birth.0001.personal_desc: "Ещё один чёрный ребенок родился из моей плодородной утробы. Переплетение кожи моего ребенка и моей собственной души наполняет меня гордостью и возобновляет мое желание укрепить высшую расу." # AI Tags
+bno_birth.0001.t: "Моя белая плодородная утроба" # AI Tags
+bno_birth.0001.personal_desc: "Еще один черный ребенок родился из моей плодородной утробы. Сочетание кожи моего ребенка с моей собственной наполняет меня гордостью и возобновляет мое желание укрепить превосходную расу." # AI Tags
 
-bno_birth.0002.t: "Распространяется мое потомство" # AI Tags
-bno_birth.0002.personal_desc: "Я благословил мир многими черными детьми." # AI Tags
+bno_birth.0002.t: "Мое семя распространяется" # AI Tags
+bno_birth.0002.personal_desc: "Я благословил мир многими чернокожими детьми." # AI Tags
 
-bno_birth_real_father_notification.title: "Мой ребёнок" # AI Tags
-bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] Она родила, и ты знаешь, что ее ребёнок твой, независимо от того, сможешь ли ты это доказать." # AI Tags
-bno_birth_cuck_father_notification.title: "Мой ребёнок" # AI Tags
-bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] рожает, и вы немного удивлены тем, как это выглядит. Это нормально для ребенка иметь такой темный цвет кожи?" # AI Tags
+bno_birth_real_father_notification.title: "Мой ребенок" # AI Tags
+bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] Она родила, и ты знаешь в своем сердце, что ее ребенок твой, независимо от того, можешь ли ты это доказать." # AI Tags
+bno_birth_cuck_father_notification.title: "Мой ребенок" # AI Tags
+bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] Она родила, и ты удивляешься, насколько болезненно она выглядит. Нормально ли, что у ребенка такая темная кожа?" # AI Tags
 
 bno_happy_wife.0001.title: "Жена выглядит счастливой" # AI Tags
-bno_happy_wife.0001.desc: "Ты рад это видеть. [ROOT.GetCharacter.GetName] Похоже, в последнее время он в хорошем настроении." # AI Tags
+bno_happy_wife.0001.desc: "Ты рада, что это видишь [ROOT.GetCharacter.GetName] Похоже, в последнее время он в хорошем настроении." # AI Tags
 
 bno_married.title: "Взял жену" # AI Tags
-bno_married_desc: "Ты делаешь свою роль в продвижении Черной Величественности, беря жену. Пусть она даст вам много новых детей." # AI Tags
+bno_married_desc: "Вы делаете свою роль в продвижении Черного превосходства, выбирая жену. Пусть она даст тебе много новых детей." # AI Tags
 
-bno_bull_0004_notification.title: "Жена хорошо питается" # AI Tags
-bno_bull_0004_notification.desc: "В последнее время твоя жена [ROOT.GetCharacter.GetName] Похоже, она сломала свои старые плохие привычки в еде. Она сказала, что перешла на почти полностью жидкую диету. Ей, должно быть, понравилось, так как ее иногда видят с жидкой едой на губах." # AI Tags
+bno_bull_0004_notification.title: "Жена хорошо ест" # AI Tags
+bno_bull_0004_notification.desc: "В последнее время твоя жена [ROOT.GetCharacter.GetName] Похоже, она нарушила свои плохие привычки питания. Она сказала, что перешла на почти полностью жидкую диету. Должно быть, ей это нравится, так как ее иногда видят с жидкой едой еще вокруг ее губ." # AI Tags
 
-bno_bull_0008_notification.title: "Невероятное сходство" # AI Tags
-bno_bull_0008_notification.desc: "Ходят слухи о шлюхе, гуляющей по лагерям чернокожих беженцев, которая странно похожа на твою дорогую жену. [target1.GetFirstName]." # AI Tags
+bno_bull_0008_notification.title: "Странное сходство" # AI Tags
+bno_bull_0008_notification.desc: "Ходят слухи о проститутке , которая гуляет среди чернокожих лагерей беженцев , которая странно похожа на вашу дорогую жену [target1.GetFirstName]." # AI Tags
 
-bno_bull_0010_notification.title: "Ошибка бухгалтерского учета?" # AI Tags
-bno_bull_0010_notification.desc: "Я уверен, что не ошибаюсь, похоже, что в казначействе не хватает золота. Кто мог его забрать?" # AI Tags
+bno_bull_0010_notification.title: "Счетная ошибка?" # AI Tags
+bno_bull_0010_notification.desc: "Уверен, я не ошибаюсь, похоже, что из казначейства не хватает золота. Кто мог его забрать?" # AI Tags
 
 bno_bull_0012_notification.title: "Он что-то знает?" # AI Tags
-bno_bull_0012_notification.desc: "В последнее время я заметил [ROOT.GetCharacter.GetName] Смотря на меня по-другому, как будто он знает что-то, чего не должен." # AI Tags
+bno_bull_0012_notification.desc: "В последнее время я заметил [ROOT.GetCharacter.GetName] Он смотрит на меня по-другому, как будто знает что-то, чего не должен." # AI Tags
 
-bno_slut_0008_notification.title: "Невероятное сходство" # AI Tags
-bno_slut_0008_notification.desc: "Ходят слухи о шлюхе, гуляющей по лагерям чернокожих беженцев, которая странно похожа на твою дорогую жену. [slut.GetFirstName]." # AI Tags
+bno_slut_0008_notification.title: "Странное сходство" # AI Tags
+bno_slut_0008_notification.desc: "Ходят слухи о проститутке , которая гуляет среди чернокожих лагерей беженцев , которая странно похожа на вашу дорогую жену [slut.GetFirstName]." # AI Tags
 
-bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] Дать тебе все ее трофеи" # AI Tags
-bbc_worshipper.0002.notifications.desc: "После нескольких месяцев тяжелой работы и неутомимой ночи, она дает вам все свои активы, потому что не знает, что с этим делать." # AI Tags
+bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] даю тебе все ее добычи" # AI Tags
+bbc_worshipper.0002.notifications.desc: "После месяцев тяжелой работы и неустанной ночи, она дает тебе все свои активы, потому что она не знает, что с ними делать." # AI Tags
 
-bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] принял участие в поклонении [bno_religion|E]" # AI Tags
-bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] Приняла учения [bno_religion|E], отсев [target_vassal.GetHerselfHimself] к поклонению ему и к тому, что он приносит." # AI Tags
+bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] превратился в поклонение [bno_religion|E]" # AI Tags
+bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] принял учения [bno_religion|E], посвящение [target_vassal.GetHerselfHimself] и поклоняться ему и наслаждаться тем, что он приносит." # AI Tags
 
-bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] принял участие в поклонении [bno_religion|E]" # AI Tags
-bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] Приняла учения [bno_religion|E], посвящая свои ресурсы своему поклонению и удовольствиям, которые он приносит." # AI Tags
+bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] превратился в поклонение [bno_religion|E]" # AI Tags
+bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] принял учения [bno_religion|E], посвящая свои ресурсы его поклонению и удовольствиям, которые он приносит." # AI Tags
 
-bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] принял участие в поклонении [bno_religion|E]" # AI Tags
-bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] Приняла учения [bno_religion|E], отсев [neighboring_lord_or_lady.GetHerselfHimself] к поклонению ему и к тому, что он приносит." # AI Tags
+bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] превратился в поклонение [bno_religion|E]" # AI Tags
+bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] принял учения [bno_religion|E], посвящение [neighboring_lord_or_lady.GetHerselfHimself] и поклоняться ему и наслаждаться тем, что он приносит." # AI Tags
 
-bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] принял участие в поклонении [bno_religion|E]" # AI Tags
-bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] Приняла учения [bno_religion|E], посвящая свои ресурсы своему поклонению и удовольствиям, которые он приносит." # AI Tags
+bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] превратился в поклонение [bno_religion|E]" # AI Tags
+bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] принял учения [bno_religion|E], посвящая свои ресурсы его поклонению и удовольствиям, которые он приносит." # AI Tags
 
-bbc_priestess.1001.rejected_conversion.male.title: "Отклонен: Черный коктейль измельчен" # AI Tags
-bbc_priestess.1001.rejected_conversion.male.desc: "Несмотря [ROOT.Char.GetFirstName] Горячие проповеди о капитуляции тела и души в славу [bno_bbc|E], стадо отвернулось от него отвращением. Их сердца остаются упрямыми, их губы бескровны, и Церковь Черного Кока сегодня не получает новых учеников." # AI Tags
+bbc_priestess.1001.rejected_conversion.male.title: "Преображение отвергнуто: "Черный петух" отвергнут" # AI Tags
+bbc_priestess.1001.rejected_conversion.male.desc: "Несмотря на [ROOT.Char.GetFirstName]Его яростные проповеди о преданности тела и души славе Бога [bno_bbc|E]и стадо отвратилось от него отвращенно. Их сердца остаются упрямыми, их губы неблагодарны, и Церковь Черного Кока не набирает новых учеников сегодня." # AI Tags
 
-bbc_priestess.1001.rejected_conversion.female.title: "Её привилегии были отвергнуты: Черный коктейль отверг" # AI Tags
-bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] Запрещала ее преданность каждому оскорбительному слову и обещала спасение через объятия Би-би-си, но толпа сопротивлялась. Их разум остался закрытым, их тела остались незамеченными, и ее святая страсть не была обращена в эту ночь." # AI Tags
+bbc_priestess.1001.rejected_conversion.female.title: "Ее просьбы отвергнуты: "Черный петух" отвергнут" # AI Tags
+bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] Она показала свою преданность каждым грубым словом и пообещала спасение через объятия Би-би-си, но толпа сопротивлялась. Их умы оставались закрытыми, их тела незащищены, и ее святая страсть не принесла сегодня вечером никаких преобразований." # AI Tags
 
-bbc_priestess.1001.target_not_found.male.title: "Святая Охота Священника отчаялась..." # AI Tags
-bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] преклоняясь на колени у алтаря Черного Кока, беспокойный и пульсирующий священной похотью. Похоже, что ни одна новая последователи не поклоняется, ни один грешник не ведет к преобразованию, только его собственная тяжелая шахта, капающая от божественной нужды, жаждущая разлить святое семя в дрозд нового ученика Ближайшая преданность." # AI Tags
+bbc_priestess.1001.target_not_found.male.title: "Священнослужительская охота становится отчаянной…" # AI Tags
+bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] на коленях у алтаря Черного Кока, беспокойный и пульсирующий священной страстью. Ни один новый последователь не поклоняется, ни один грешник не ведет к обращению, только его собственный тяжелый вал, капеет от божественной потребности, жаждет пролить священное семя в трепещущую преданность нового ученика." # AI Tags
 
-bbc_priestess.1001.target_not_found.female.title: "Священница ждет следующего..." # AI Tags
-bbc_priestess.1001.target_not_found.female.desc: "В шелково-белых халатах, в нежности. [ROOT.Char.GetFirstName] Кланяется перед алтарем Черного Кока, ее очаровательные груди сжимаются в трепете преданности. С другой мирской благодатью и сладкой, мучительной улыбкой, она шепчет молитвы в темноту свечи; но ни один грешник не приходит, чтобы обратиться, оставляя свою мягкую оболочку дрожь священной ей так хочется поклоняться." # AI Tags
+bbc_priestess.1001.target_not_found.female.title: "Священница ждет последователя…" # AI Tags
+bbc_priestess.1001.target_not_found.female.desc: "В ее шелковой белой одежде, нежный [ROOT.Char.GetFirstName] Поклоняясь перед алтарем Черного Кока, ее щедрые груди сжимались вместе в трепетном преданности. С чужеземной милостью и сладкой, болезненной улыбкой, она шепчет молитвы в светлую тьму свечей, но ни один грешник не приходит, чтобы быть преобразованным, оставляя ее мягкую рамку дрожащую священной потребностью, отчаянно, чтобы обернуться вокруг священной жертвы, которую она так жаждет поклоняться." # AI Tags
 
-bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] теперь чёрнее, чем когда-либо" # AI Tags
-bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] теперь чёрнее, чем когда-либо" # AI Tags
-bno_marriage.0007.notifications.desc.male: "Один из членов вашей семьи передал свое черное семя подходящему партнеру." # AI Tags
-bno_marriage.0007.notifications.desc.female: "Один из членов вашей семьи женился #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!" # AI Tags
+bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] Сейчас чернее, чем когда-либо" # AI Tags
+bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] Сейчас чернее, чем когда-либо" # AI Tags
+bno_marriage.0007.notifications.desc.male: "Член вашей семьи распространил свое черное семя на подходящего партнера" # AI Tags
+bno_marriage.0007.notifications.desc.female: "Член вашей семьи женился на #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!" # AI Tags
 
 bbc_diarch: "[bno_bbc|E]" # AI Tags

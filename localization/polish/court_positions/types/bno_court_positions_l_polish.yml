@@ -1,7 +1,7 @@
 ﻿l_polish:
 
 bno_bbc_worshipper_court_position: "BBC Worshipper" # AI Tags
-bno_bbc_worshipper_court_position_desc: "Nieustannie służąc, czcząc i używając [bno_bbc|E] w każdy sposób, jaki sobie życzą." # AI Tags
+bno_bbc_worshipper_court_position_desc: "Nieustannie służąc, czcząc i wykorzystując się przez [bno_bbc|E] w każdy sposób, jaki sobie życzą" # AI Tags
 
 bno_court_position_trait_bno_pure_white: "[GetTrait('bno_pure_white').GetName( ROOT.Char )]" # AI Tags
 bno_court_position_trait_curious: "[GetTrait('bno_curious').GetName( ROOT.Char )]" # AI Tags
@@ -42,13 +42,13 @@ bno_court_position_trait_fecund: "[GetTrait('fecund').GetName( ROOT.Char )]" # A
 hire_bbc_worshipper_decision: "Wyszukiwanie [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
 hire_bbc_worshipper_decision_effect_tooltip: "Będziecie przedstawieni grupie [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] kandydatów i może zatrudnić jednego z nich za opłatę i miesięczny wynagrodzenie [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
 
-bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$ Staje się [bno_whore|E] dla ich [liege|E]" # AI Tags
+bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$Staje się [bno_whore|E] dla ich [liege|E]" # AI Tags
 
-bno_bbc_priestess_employer_custom_effect_description: "$BULLET$ Staje się [bbc_evangelist|E] dla ich [liege|E]" # AI Tags
+bno_bbc_priestess_employer_custom_effect_description: "$BULLET$Staje się [bbc_evangelist|E] dla ich [liege|E]" # AI Tags
 bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$" # AI Tags
 
 bno_bbc_priestess_court_position: "BBC Kapłanka" # AI Tags
-bno_bbc_priestess_court_position_desc: "Szybko z olejem świętym, wkładają w usta i dziurę każdego szlachetnego swoje pulsujące kurce i szczupłe kochanki, aż całe królestwo będzie czcić gęste ładunek ich czarnego boga." # AI Tags
+bno_bbc_priestess_court_position_desc: "Słodkie z świętym olejem, wkładają w usta i dziurę każdego szlachetnego swoje pulsujące kutasy i szczupłe puszki, aż całe królestwo będzie oddawać cześć gęstemu ładowi ich czarnego boga." # AI Tags
 
 bno_bbc_priest_court_position: "BBC Kapłan" # AI Tags
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags
