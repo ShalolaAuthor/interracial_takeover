@@ -789,6 +789,7 @@ bno_black_birth.2202 = {
 
     immediate = {
         bno_increase_cuckiness = yes
+        add_character_modifier = bno_cuckolded_king
         if = {
             limit = {
                 is_playable_character = yes

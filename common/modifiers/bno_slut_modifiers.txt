@@ -81,3 +81,20 @@ bno_claimed_broodmare = {
     attraction_opinion = 15
     stress_loss_mult = 0.05
 }
+
+bno_cuckolded_king = {
+	icon = cuckolded_king
+    diplomacy = -1
+    prowess = -1
+    fertility = -0.1
+
+    monthly_prestige = -0.10
+    legitimacy_gain_mult = -0.05
+
+    stress_gain_mult = 0.1 
+
+    spouse_opinion = -10
+    vassal_opinion = -2
+    courtier_opinion = -2
+    attraction_opinion = -2
+}
