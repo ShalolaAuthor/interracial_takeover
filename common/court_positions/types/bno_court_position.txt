@@ -42,7 +42,6 @@
             }
             has_trait = bno_whitegirl
             has_trait = beauty_good
-            has_trait = tits_big_good
             age < 30
             NOT = { has_trait = lovers_pox }
         }
