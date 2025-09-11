@@ -35,7 +35,7 @@ bno_non_playable.0001 = {
         liege = {
             add_character_flag = {
                 flag = bno_non_playable.0001
-                months = { 3 6 }
+                months = { 12 18 }
             }
             random_councillor = {
                 limit = {
