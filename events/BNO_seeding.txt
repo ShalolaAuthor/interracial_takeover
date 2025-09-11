@@ -174,5 +174,56 @@ bno_trait_seeding.0007 = {
 	hidden = yes
 	immediate = {
 		bno_seed_breast_size_variable = yes
+		trigger_event = bno_trait_seeding.0008
+	}
+}
+# convert bbc people to have african culture
+bno_trait_seeding.0008 = {
+	hidden = yes
+	immediate = {
+		if = {
+			limit = {
+				is_bbc = yes
+				is_ai = yes
+				is_culture_bnoc = no
+			}
+			if = {
+				limit = {
+					liege ?= {
+						is_culture_bnoc = yes
+					}
+				}
+				set_culture = liege.culture
+			}
+			else = {
+				set_culture = culture:bnoc
+			}
+		}
+		trigger_event = bno_trait_seeding.0009
+	}
+}
+# convert bbc people to church of the black cock
+bno_trait_seeding.0009 = {
+	hidden = yes
+	immediate = {
+		if = {
+			limit = {
+				is_bbc = yes
+				is_ai = yes
+				is_faith_bbcs = no
+				has_game_rule = bno_religion_yes
+			}
+			if = {
+				limit = {
+					liege ?= {
+						is_faith_bbcs = yes
+					}
+				}
+				set_character_faith_with_conversion = liege.faith
+			}
+			else = {
+				set_character_faith_with_conversion = faith:bbcs
+			}
+		}
 	}
 }
