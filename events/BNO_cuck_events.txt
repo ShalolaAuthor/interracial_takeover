@@ -62,12 +62,7 @@ bno_cuck.0001 = {
 	
 	option = {#check to see wife getting fucked, learn secret
 		name = bno_cuck_0001.a
-		trigger = {
-			OR = {
-				has_trait = paranoid
-				has_trait = bno_whiteboi
-			}
-		}
+		add_internal_flag = special
 		ai_chance = {
 			base = 20
 			modifier = {
