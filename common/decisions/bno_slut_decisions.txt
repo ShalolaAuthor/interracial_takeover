@@ -33,7 +33,7 @@
 			id = bno_slut.0015
 		}
 	}
-	ai_goal = yes
+	ai_check_interval = 1
 	ai_potential = {
 		is_white_girl = yes
 		is_playable_character = yes

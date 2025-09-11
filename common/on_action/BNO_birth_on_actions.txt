@@ -53,6 +53,9 @@ bno_black_birth = {
 					is_bbc = yes
 					NOT = { is_spouse_of = scope:mother }
 				}
+				scope:father = {
+					is_bbc = no
+				}
 			}
 			scope:mother = {
 				trigger_event = {

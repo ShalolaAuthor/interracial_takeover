@@ -28,12 +28,13 @@ bno_a_lively_performance_in_a_refugee_camp = {
 
 bno_educated_a_future_queen_of_spades = {
 	icon = educated_a_future_queen_of_spades
-	stewardship = 5
-	diplomacy = 5
-	learning = 5
-	intrigue = 5
-	stress_gain_mult = -0.5
-	stress_loss_mult = 0.5
+	stacking = yes
+	stewardship = 1
+	diplomacy = 1
+	learning = 1
+	intrigue = 1
+	stress_gain_mult = -0.1
+	stress_loss_mult = 0.1
 }
 
 bno_a_future_queen_for_black = {

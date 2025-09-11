@@ -31,9 +31,7 @@ bno_add_prowess_per_sex = {
 				has_dynasty_perk = bno_embrace_african_5
 			}
 		}
-		add_character_modifier = {
-			modifier = bno_cum_for_glory
-		}
+		add_character_modifier = bno_cum_for_glory
 		set_variable = {
 			name = bno_cum_for_glory_count
 			value = {

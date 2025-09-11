@@ -15,9 +15,7 @@ bno_birth.0001 = { # White Breeder
 	}
 	
 	immediate = {
-		add_character_modifier = {
-			modifier = bno_white_breeder
-		}
+		add_character_modifier = bno_white_breeder
 		add_character_flag = bno_white_breeder_flag			#add character flag so player isn't constantly spammed by notifications everytime wife/lover gives birth, this should be a one time thing per woman
 		send_interface_message = { # Tell the character
 			type = bno_white_breeder
@@ -37,14 +35,10 @@ bno_birth.0001 = { # White Breeder
 					right_icon = root
 					desc = bno_birth.0001.wife.desc
 					root = {
-						add_character_modifier = {
-							modifier = bno_white_breeder
-						}
+						add_character_modifier = bno_white_breeder
 					}
 					add_prestige = 50
-					add_character_modifier = {
-						modifier = bno_white_breeder_bbc_husband
-					}
+					add_character_modifier = bno_white_breeder_bbc_husband
 				}
 			}
 			else = {							#if white breeder's husband is not a BBC char, send this other notification
@@ -54,14 +48,10 @@ bno_birth.0001 = { # White Breeder
 					right_icon = root
 					desc = bno_birth.0001.cuck.wife.desc
 					root = {
-						add_character_modifier = {
-							modifier = bno_white_breeder
-						}
+						add_character_modifier = bno_white_breeder
 					}
 				}
-				add_character_modifier = {
-					modifier = bno_white_breeder_cuck_husband
-				}
+				add_character_modifier = bno_white_breeder_cuck_husband
 			}
 		}
 		every_relation = { #Inform relevant parties.
@@ -72,9 +62,7 @@ bno_birth.0001 = { # White Breeder
 				right_icon = root
 				desc = bno_birth.0001.lover.desc
 				root = {
-					add_character_modifier = {
-						modifier = bno_white_breeder
-					}
+					add_character_modifier = bno_white_breeder
 				}
 			}
 		}
@@ -91,9 +79,7 @@ bno_birth.0002 = {
 		NOT = { has_character_flag = bno_bull_breeder_flag }
 	}
 	immediate = {
-		add_character_modifier = {
-			modifier = bno_bull_breeder
-		}
+		add_character_modifier = bno_bull_breeder
 		add_character_flag = bno_bull_breeder_flag
 		send_interface_message = { # Tell the character
 			type = bno_white_breeder
@@ -101,9 +87,7 @@ bno_birth.0002 = {
 			right_icon = root
 			desc = bno_birth.0002.personal_desc
 			root = {
-				add_character_modifier = {
-					modifier = bno_bull_breeder
-				}
+				add_character_modifier = bno_bull_breeder
 			}
 		}
 	}

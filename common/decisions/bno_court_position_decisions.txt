@@ -91,7 +91,7 @@ bno_build_bbc_church = {
     selection_tooltip = bno_build_bbc_church.tooltip
     decision_group_type = bno_decision_group
 
-    ai_goal = yes
+    ai_check_interval = 1
 
     is_shown = {
         bno_has_embrace_african_5 = yes
@@ -200,7 +200,7 @@ bno_found_bbc_church_holy_order = {
     selection_tooltip = bno_found_bbc_church_holy_order.tooltip
     decision_group_type = bno_decision_group
 
-    ai_goal = yes
+    ai_check_interval = 1
 
     is_shown = {
         dynasty ?= {

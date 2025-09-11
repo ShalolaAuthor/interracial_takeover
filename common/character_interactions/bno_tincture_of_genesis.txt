@@ -94,9 +94,7 @@
                 limit = {
                     is_a_male = yes
                 }
-                add_character_modifier = {
-                    modifier = bno_nourishers_fatigue
-                }
+                add_character_modifier = bno_nourishers_fatigue
             }
             else_if = {
                 limit = {
@@ -106,9 +104,7 @@
                     limit = {
                         is_bbc = yes
                     }
-                    add_character_modifier = {
-                        modifier = bno_nourishers_fatigue
-                    }
+                    add_character_modifier = bno_nourishers_fatigue
                 }
             }
         }
@@ -117,9 +113,7 @@
                 limit = {
                     is_a_girl = yes
                 }
-                add_character_modifier = {
-                    modifier = bno_tincture_of_genesis
-                }
+                add_character_modifier = bno_tincture_of_genesis
             }
         }
         hidden_effect = {

@@ -1340,9 +1340,7 @@ bno_cuck.0011 = {
 				flag = bno_cuck.0011
 			}
 			bno_increase_sluttyness = yes
-			add_character_modifier = {
-				modifier = bno_family_betrothed_me_to_bbc
-			}
+			add_character_modifier = bno_family_betrothed_me_to_bbc
 		}
 	}
 }

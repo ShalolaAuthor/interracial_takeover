@@ -93,9 +93,7 @@ bno_war.0001 = {
 			}
 		}
 		scope:target1 ?= {
-			add_character_modifier = {
-				modifier = bno_gave_husband_to_enemy
-			}
+			add_character_modifier = bno_gave_husband_to_enemy
 			bno_increase_sluttyness = yes
 			add_opinion = {
 				modifier = bno_pathetic_cuck_husband

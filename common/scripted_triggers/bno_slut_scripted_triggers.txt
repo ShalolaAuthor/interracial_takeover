@@ -748,7 +748,7 @@ is_elligible_partner = {
 		custom_tooltip = {
 			text = is_elligible_partner.desc
 			OR = {
-				health > 1
+				health > 0
 				is_immortal = yes
 			}
 		}

@@ -353,9 +353,7 @@ bno_title_change.0004 = {
 		}
 		scope:killer_slut = {
 			give_nickname = nick_rt
-			add_character_modifier = {
-				modifier = bno_killed_husband_for_bbc
-			}
+			add_character_modifier = bno_killed_husband_for_bbc
 			add_character_modifier = {
 				modifier = bno_taken_as_bbc_wife
 				years = 15

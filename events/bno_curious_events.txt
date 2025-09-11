@@ -189,9 +189,7 @@ bno_curious.1101 = {
             months = 36
 		}
 		scope:child = { 
-			add_character_modifier = { 
-				modifier = bno_a_future_queen_for_black
-			}
+			add_character_modifier = bno_a_future_queen_for_black
 		}
 	}
 	
@@ -298,9 +296,7 @@ bno_curious.1201 = {
             months = 36
 		}
 		scope:child = { 
-			add_character_modifier = { 
-				modifier = bno_a_future_queen_for_black
-			}
+			add_character_modifier = bno_a_future_queen_for_black
 		}
 	}
 	
@@ -408,14 +404,9 @@ bno_curious.1301 = {
 	}
 
 	immediate = {
-		add_character_modifier = { 
-			modifier = bno_educated_a_future_queen_of_spades 
-			months = 36
-		}
+		add_character_modifier = bno_educated_a_future_queen_of_spades
 		scope:child = {
-			add_character_modifier = { 
-				modifier = bno_a_future_queen_for_black
-			}
+			add_character_modifier = bno_a_future_queen_for_black
 		}
 	}
 	

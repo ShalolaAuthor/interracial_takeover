@@ -42,8 +42,14 @@ bno_events00 = {
 		months = 12
 	}
 	cost = {
-		prestige = 50
-		gold = 10
+		prestige = {
+			value = minor_prestige_value
+			multiply = 0.2
+		}
+		gold = {
+			value = minor_gold_value
+			multiply = 0.5
+		}
 	}
 	effect = {
 		trigger_event = {
@@ -51,15 +57,13 @@ bno_events00 = {
 			days = 7
 		}
 	}
-	ai_check_interval = 12
+	ai_check_interval = 1
 	ai_potential = {
-		any_held_title = {
-			tier >= tier_county
-		}
+		is_playable_character = yes
 	}
 	ai_will_do = {
-        base = 0
-        bno_decision_modifier = yes
+		base = 0
+		bno_decision_modifier = yes
 	}
 }
 
@@ -90,7 +94,7 @@ convert = {
 			days = 7
 		}
 	}
-	ai_goal = yes
+	ai_check_interval = 1
 	ai_potential = {
 		always = yes
 	}
@@ -224,8 +228,14 @@ bno_invite_slut_decision = {
 		months = 12
 	}
 	cost = {
-		prestige = 50
-		gold = 10
+		prestige = {
+			value = minor_prestige_value
+			multiply = 0.2
+		}
+		gold = {
+			value = minor_gold_value
+			multiply = 0.5
+		}
 	}
 	effect = {
 		trigger_event = {
@@ -233,11 +243,9 @@ bno_invite_slut_decision = {
 			days = 7
 		}
 	}
-	ai_check_interval = 12
+	ai_check_interval = 1
 	ai_potential = {
-		any_held_title = {
-			tier >= tier_county
-		}
+		is_playable_character = yes
 	}
 	ai_will_do = {
         base = 0
@@ -550,7 +558,7 @@ bno_cure_diseases = {
 		}
 	}
 
-	ai_goal = yes
+	ai_check_interval = 1
 	#Placeholder
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_black_plague.dds"
@@ -1142,7 +1150,7 @@ bno_primal_insight_decision = {
 	}
 
 	#make sure ai also do it
-	ai_goal = yes
+	ai_check_interval = 1
 	ai_potential = {
 		always = yes
 	}
