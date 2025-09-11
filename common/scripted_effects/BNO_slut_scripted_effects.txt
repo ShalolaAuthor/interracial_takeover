@@ -1274,6 +1274,15 @@ bno_have_sex_with_effects = {
 	carn_sex_scene_is_consensual_effect = yes
 	carn_sex_scene_is_vaginal_effect = yes
 	carn_sex_scene_is_cum_inside_effect = yes
+	if = {
+		limit = {
+			OR = {
+				is_mindless_bbc_slut = yes
+				$PARTNER$ = { is_mindless_bbc_slut = yes }
+			}
+		}
+		carn_sex_scene_no_drama_effect = yes
+	}
 
 	carn_had_sex_with_effect_v2 = {
 		PARTNER = $PARTNER$
