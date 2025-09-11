@@ -1,25 +1,32 @@
 ﻿### Table of Content
 #   bno_black_birth.0001: Mother event branch into 2 paths Lie and Proclaim
-#   
+#
 #   bno_black_birth.0002: Lie PoV Father
 #
 #   bno_black_birth.0003: Lie PoV BBC
 #       └─ Path A (She dares to deny my blood)
-#           bno_black_birth.1003: BBC confront mother
-#           bno_black_birth.1001: BBC confront mother PoV Queen
+#           bno_black_birth.1003: BBC confront mother (BBC PoV)
+#           bno_black_birth.1001: BBC confront mother (Queen PoV)
 #           bno_black_birth.1103: Follow-up sex scene (BBC PoV)
-#           bno_black_birth.1101: Follow-up sex scene PoV Queen
+#           bno_black_birth.1101: Follow-up sex scene (Queen PoV)
 #           bno_black_birth.1203: Sex climax, modifiers applied (BBC PoV)
-#           bno_black_birth.1201: Sex climax PoV Queen
+#           bno_black_birth.1201: Sex climax (Queen PoV)
 #       └─ Path B (Let the lie spread — Silent Triumph)
 #           bno_black_birth.2003: Silent Triumph (BBC PoV)
-#           bno_black_birth.2103: The Whisper Spreads (BBC PoV) [placeholder]
-#           bno_black_birth.2101: Milk and Shame — The Queen Returns (PoV Queen) [placeholder]
-#           bno_black_birth.2203: The King’s Suspicion (BBC PoV) [placeholder]
-#           bno_black_birth.2201: Secret Tryst — Sex Scene (PoV Queen) [placeholder]
-#           bno_black_birth.2203: Secret Tryst — Sex Scene (PoV BBC) [placeholder]
+#           bno_black_birth.2103: The Whisper Spreads (BBC PoV)
+#           bno_black_birth.2101: The Ache Between Us — Queen Prelude (Queen PoV)
+#           bno_black_birth.2102: The Hollow Embrace — Queen Prelude (Cuck PoV)
+#           bno_black_birth.2201: Milk and Shame — The Queen Returns (Queen PoV)
+#           bno_black_birth.2202: Milk and Shame — What Remains (Cuck PoV)
+#           bno_black_birth.2203: Milk and Shame — The Queen Returns (BBC PoV)
+#           bno_black_birth.2301: Milk and Shame — Claimed Again (Queen/Slut PoV)
+#           bno_black_birth.2303: Milk and Shame — Claimed Again (BBC PoV)
+#           bno_black_birth.2401: Milk and Shame — The Flood (Queen/Slut PoV)
+#           bno_black_birth.2402: Milk and Shame — The Flood (Cuck Watching PoV)
+#           bno_black_birth.2403: Milk and Shame — The Flood (BBC PoV)
 #
 ### End of Table of Content
+
 
 
 namespace = bno_black_birth
@@ -754,10 +761,17 @@ bno_black_birth.2201 = {
                 delayed = yes
             }
         }
+        scope:real_father = {
+            trigger_event = {
+                id = bno_black_birth.2203
+                delayed = yes
+            }
+        }
     }
 
     option = {
         name = bno_black_birth.2201.a
+        trigger_event = bno_black_birth.2301
     }
 }
 #cuck pov saw her leave at dawn
@@ -821,11 +835,269 @@ bno_black_birth.2202 = {
         trigger = {
             is_bno_cuck_and_up = yes
         }
+        add_internal_flag = special
         name = bno_black_birth.2202.b
         # add follow up event
         custom_tooltip = {
             text = bno_black_birth.2202.b
             add_character_flag = bno_black_birth.2202
         }
+    }
+}
+#queen comes to his chamber begging to get fucked, bbc pov
+bno_black_birth.2203 = {
+    type = character_event
+    theme = seduction
+    title = bno_black_birth.2203.title
+    desc = bno_black_birth.2203.desc
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+        save_scope_as = carn_sex_player
+        scope:mother = {
+            save_scope_as = carn_sex_partner
+        }
+        bno_sex_scene_start = yes
+        cuddle_animations = yes
+    }
+
+    option = {
+        name = bno_black_birth.2203.a
+        trigger_event = bno_black_birth.2303
+    }
+}
+# BBC Sex scene follow up
+bno_black_birth.2303 = {
+    type = character_event
+    theme = seduction
+    title = bno_black_birth.2303.title
+    desc = bno_black_birth.2303.desc
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+        missionary_animations = yes
+    }
+
+    option = {
+        name = bno_black_birth.2303.a
+        trigger_event = bno_black_birth.2403
+    }
+}
+# BBC Sex scene follow up: Cum
+bno_black_birth.2403 = {
+    type = character_event
+    theme = seduction
+    title = bno_black_birth.2403.title
+    desc = bno_black_birth.2403.desc
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+        cum_missionary_animations = yes
+    }
+
+    option = {
+        name = bno_black_birth.2403.a
+        scope:mother = {
+            add_character_modifier = bno_blacked_queen
+        }
+        add_character_modifier = bno_throne_breeder
+        carn_sex_scene_cleanup = yes
+        carn_sex_scene_is_cum_inside_effect = yes
+    }
+}
+# BBC Sex scene follow up, SLUT POV
+bno_black_birth.2301 = {
+    type = character_event
+    theme = seduction
+    title = bno_black_birth.2301.title
+    desc = bno_black_birth.2301.desc
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+        missionary_animations = yes
+    }
+
+    option = {
+        name = bno_black_birth.2301.a
+    }
+}
+# BBC Sex scene follow up: Cum, SLUT POV
+bno_black_birth.2401 = {
+    type = character_event
+    theme = seduction
+    title = bno_black_birth.2401.title
+    desc = bno_black_birth.2401.desc
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    immediate = {
+        cum_missionary_animations = yes
+        custom_tooltip = {
+            text = bno_black_birth.2401.gained_blacked_queen
+        }
+        scope:real_father = {
+            custom_tooltip = {
+                text = bno_black_birth.2401.gained_throne_breeder
+            }
+        }
+    }
+
+    option = {
+        name = bno_black_birth.2401.a
+        carn_sex_scene_cleanup = yes
+        carn_sex_scene_is_cum_inside_effect = yes
+        scope:father = {
+            if = {
+                limit = {
+                    has_character_flag = bno_black_birth.2202
+                }
+                trigger_event = {
+                    delayed = yes
+                    id = bno_black_birth.2402
+                }
+                remove_character_flag = bno_black_birth.2202
+            }
+        }
+    }
+}
+#Cuck watches the queen having sex
+bno_black_birth.2402 = {
+    type = character_event
+    theme = seduction
+    title = bno_black_birth.2402.title
+    desc = bno_black_birth.2402.desc
+
+    override_background = {
+        reference = bedchamber
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    lower_center_portrait = root
+
+    immediate = {
+        scope:mother = {
+            save_scope_as = carn_sex_player
+        }
+        scope:real_father = {
+            save_scope_as = carn_sex_partner
+        }
+        bno_sex_scene_start = yes
+        cum_missionary_animations = yes
+    }
+
+    option = {
+        add_character_modifier = bno_blacked_witness
+        name = bno_black_birth.2402.a
+        carn_sex_scene_cleanup = yes
+        carn_sex_scene_is_cum_inside_effect = yes
     }
 }

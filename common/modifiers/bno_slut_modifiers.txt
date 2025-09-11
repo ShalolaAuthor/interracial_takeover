@@ -98,3 +98,40 @@ bno_cuckolded_king = {
     courtier_opinion = -2
     attraction_opinion = -2
 }
+
+bno_blacked_queen = {
+    icon = blacked_queen
+    stacking = yes
+
+    attraction_opinion = 10
+    levy_reinforcement_rate = 0.08
+    bnwo_armies_damage_mult = 0.05
+    bnwo_armies_maintenance_mult = -0.05
+    bnwo_armies_max_size_mult = 0.05
+    general_opinion = -5
+    stress_loss_mult = 0.10
+}
+
+bno_throne_breeder = {
+    icon = throne_breeder
+    stacking = yes
+
+    attraction_opinion = 10
+    prowess = 3
+    monthly_prestige = 0.25
+    dread_gain_mult = 0.15
+    knight_effectiveness_mult = 0.08
+    army_maintenance_mult = -0.05      
+}
+
+bno_blacked_witness = {
+    icon = blacked_witness
+    stacking = yes
+
+    stress_gain_mult = 0.05
+    stress_loss_mult = 0.05
+    monthly_prestige = -0.05
+    courtier_opinion = -2
+    attraction_opinion = -2
+    intrigue = +1
+}
