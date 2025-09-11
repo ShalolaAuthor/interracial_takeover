@@ -65,7 +65,12 @@ bno_black_birth.0001 = {
 
     option = { # Lie, call event for father and real father
         name = bno_black_birth.0001.a
-        scope:child = {
+        if = {
+            limit = {
+                secret_disputed_heritage_is_valid_trigger = {
+                    TARGET = scope:child
+                }
+            }
             add_secret = {
                 type = secret_disputed_heritage
                 target = scope:child
@@ -87,12 +92,7 @@ bno_black_birth.0001 = {
                 delayed = yes
             }
         }
-        if = {
-            limit = {
-                scope:real_father = {
-                    is_playable_character = yes
-                }
-            }
+        scope:real_father = {
             trigger_event = {
                 id = bno_black_birth.0003
                 days = { 7 14 }
@@ -204,6 +204,7 @@ bno_black_birth.0002 = {
         if = {
             limit = {
                 exists = house
+                NOT = { this = house.house_head }
             }
             reverse_add_opinion = {
                 target = house.house_head
@@ -319,6 +320,11 @@ bno_black_birth.0003 = {
             modifier = bno_broodmare_of_my_blood
         }
         add_prestige = 50
+        trigger_event = {
+            id = bno_black_birth.2003
+            days = { 7 14 }
+            delayed = yes
+        }
         ai_chance = {
             base = 50
             modifier = { factor = 2 has_trait = patient }
@@ -995,6 +1001,7 @@ bno_black_birth.2301 = {
 
     option = {
         name = bno_black_birth.2301.a
+        trigger_event = bno_black_birth.2401
     }
 }
 # BBC Sex scene follow up: Cum, SLUT POV

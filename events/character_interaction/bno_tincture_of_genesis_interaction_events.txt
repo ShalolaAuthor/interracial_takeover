@@ -22,7 +22,6 @@ bno_tincture_of_genesis.0001 = {
     }
 
     immediate = {
-        add_character_flag = bno_tincture_of_genesis.0001
         save_scope_as = carn_sex_player
         scope:recipient = {
             save_scope_as = carn_sex_partner

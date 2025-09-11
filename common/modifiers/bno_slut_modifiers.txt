@@ -134,7 +134,7 @@ bno_blacked_witness = {
     monthly_prestige = -0.05
     courtier_opinion = -2
     attraction_opinion = -2
-    intrigue = +1
+    intrigue = 1
 }
 
 bno_white_breeder = {

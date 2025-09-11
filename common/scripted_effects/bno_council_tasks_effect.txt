@@ -1,0 +1,69 @@
+﻿bno_add_tyranny_and_lower_development_and_control = {
+    scope:councillor_liege = {
+		add_tyranny = scope:county.development_level
+		stress_impact = {
+			compassionate = 60
+			just = 40
+			forgiving = 20
+		}
+	}
+	scope:county = {
+		change_development_level = {
+			subtract = 3
+		}
+		change_county_control = {
+			subtract = 45
+		}
+	}
+}
+
+bno_great_replacement_effect = {
+    scope:county = {
+		culture = {
+			if = {
+				limit = {
+					has_game_rule = bno_great_replacement_cultural_acceptance
+					NOT = { this = scope:liege_culture }
+				}
+				change_cultural_acceptance = {
+					target = scope:councillor_liege.culture
+					value = 100
+					desc = bno_great_replacement_effect_cultural_acceptance
+				}
+				bno_add_tyranny_and_lower_development_and_control = yes
+			}
+		}
+		if = {
+			limit = {
+				has_game_rule = bno_great_replacement_converting
+				NOT = { culture = scope:councillor.culture }
+			}
+			set_county_culture = scope:councillor.culture
+			bno_add_tyranny_and_lower_development_and_control = yes
+		}
+	}
+	scope:councillor = {
+		if = {
+			limit = {
+				AND = {
+					NOT = { has_trait = bno_camp_leader }
+					has_trait = bno_blood
+				}
+			}
+			add_trait = bno_camp_leader
+		}
+		start_default_task = yes
+	}
+}
+
+bno_great_replacement_liege_effect = {
+    send_interface_message = {
+		type = bno_blacked_events
+		title = bno_great_replacement_effect.title
+		right_icon = scope:councillor
+		left_icon = scope:county
+        bno_great_replacement_effect = yes
+		desc = bno_great_replacement_effect.desc
+		add_prestige = major_prestige_value
+	}
+}

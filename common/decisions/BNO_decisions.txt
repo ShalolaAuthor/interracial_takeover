@@ -59,7 +59,9 @@ bno_events00 = {
 	}
 	ai_check_interval = 1
 	ai_potential = {
-		is_playable_character = yes
+		any_held_title = {
+			tier >= tier_county
+		}
 	}
 	ai_will_do = {
 		base = 0
@@ -245,7 +247,9 @@ bno_invite_slut_decision = {
 	}
 	ai_check_interval = 1
 	ai_potential = {
-		is_playable_character = yes
+		any_held_title = {
+			tier >= tier_county
+		}
 	}
 	ai_will_do = {
         base = 0
@@ -558,7 +562,6 @@ bno_cure_diseases = {
 		}
 	}
 
-	ai_check_interval = 1
 	#Placeholder
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_black_plague.dds"
@@ -1055,10 +1058,17 @@ bno_cure_diseases = {
 	cost = {
 		gold = bno_cure_disease_cost
 	}
-
+	
+	ai_check_interval = 1
 	ai_potential = {
-		any_held_title = {
-			tier >= tier_county
+		bno_has_bbc_priest_or_priestess = yes
+		bno_illness_list = yes
+	}
+	ai_will_do = {
+        base = 0
+		modifier = {
+			add = 100
+			bno_illness_list = yes
 		}
 	}
 }

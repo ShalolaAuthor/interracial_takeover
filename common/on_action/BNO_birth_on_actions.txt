@@ -44,7 +44,7 @@ bno_black_birth = {
 		has_game_rule = bno_black_birth_on
 	}
 	effect = {
-		scope:mother = {
+		scope:mother ?= {
 			if = {
 				limit = {
 					has_character_flag = bno_white_breeder_flag
@@ -54,14 +54,14 @@ bno_black_birth = {
 		}
 		if = {
 			limit = {
-				scope:child = {
+				scope:child ?= {
 					has_trait = bno_blood
 				}
-				scope:real_father = {
+				scope:real_father ?= {
 					is_bbc = yes
 					NOT = { is_spouse_of = scope:mother }
 				}
-				scope:father = {
+				scope:father ?= {
 					is_bbc = no
 				}
 			}

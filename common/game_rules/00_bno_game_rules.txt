@@ -315,6 +315,22 @@ bno_bbc_forced_conversion = {
 	}
 
 	bno_bbc_forced_conversion_no = {
+
+	}
+}
+
+bno_great_replacement = {
+	categories = {
+		interracial_takeover
+	}
+
+	default = bno_great_replacement_converting
+
+	bno_great_replacement_converting = {
+
+	}
+
+	bno_great_replacement_cultural_acceptance = {
 		
 	}
 }

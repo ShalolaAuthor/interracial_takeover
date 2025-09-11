@@ -47,27 +47,30 @@ bno_sex_cowgirl_3 = {
 }
 
 bno_sex_cowgirl_mff_threesome = {
-    default = {
+    male = {
         default = { head = "sex_cowgirl_mff_threesome" torso = "sex_cowgirl_mff_threesome" }
     }
     boy = { default = { head = "idle_entry" torso = "idle_entry" } }
 	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
+    female = boy
 }
 
 bno_sex_cowgirl_mff_threesome_1 = {
-    default = {
+    female = {
         default = { head = "sex_cowgirl_mff_threesome_1" torso = "sex_cowgirl_mff_threesome_1" }
     }
     boy = { default = { head = "idle_entry" torso = "idle_entry" } }
 	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
+    male = boy
 }
 
 bno_sex_cowgirl_mff_threesome_2 = {
-    default = {
+    female = {
         default = { head = "sex_cowgirl_mff_threesome_2" torso = "sex_cowgirl_mff_threesome_2" }
     }
     boy = { default = { head = "idle_entry" torso = "idle_entry" } }
 	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
+    male = boy
 }
 
 bno_sex_cuddle = {
@@ -87,11 +90,12 @@ bno_sex_cuddle_hom = {
 }
 
 bno_sex_cuddle_hom_2 = {
-    default = {
+    female = {
         default = { head = "sex_cuddle_hom_2" torso = "sex_cuddle_hom_2" }
     }
     boy = { default = { head = "idle_entry" torso = "idle_entry" } }
 	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
+    male = boy
 }
 
 bno_sex_cunnilingus = {
@@ -103,8 +107,11 @@ bno_sex_cunnilingus = {
 }
 
 bno_sex_cunnilingus_hom = {
-    default = {
+    female = {
         default = { head = "sex_cunnilingus_hom" torso = "sex_cunnilingus_hom" }
+    }
+    male = {
+        default = { head = "sex_cunnilingus" torso = "sex_cunnilingus" }
     }
     boy = { default = { head = "idle_entry" torso = "idle_entry" } }
 	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
@@ -231,8 +238,11 @@ bno_sex_fellatio = {
 }
 
 bno_sex_fellatio_hom = {
-    default = {
+    male = {
         default = { head = "sex_fellatio_hom" torso = "sex_fellatio_hom" }
+    }
+    female = {
+        default = { head = "sex_fellatio" torso = "sex_fellatio" }
     }
     boy = { default = { head = "idle_entry" torso = "idle_entry" } }
 	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
@@ -263,8 +273,11 @@ bno_sex_hom = {
 }
 
 bno_sex_hom_2 = {
-    default = {
+    female = {
         default = { head = "sex_hom_2" torso = "sex_hom_2" }
+    }
+    male = {
+        default = { head = "sex_hom" torso = "sex_hom" }
     }
     boy = { default = { head = "idle_entry" torso = "idle_entry" } }
 	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
@@ -376,14 +389,17 @@ bno_sex_missionary_l7 = {
 
 bno_sex_oral_love_1 = {
     default = {
-        default = { head = "sex_oral_love_1" torso = "sex_oral_love_1" }
+        default = { head = "sex_standing_doggy" torso = "sex_oral_love_1" }
     }
     boy = { default = { head = "idle_entry" torso = "idle_entry" } }
 	girl = { default = { head = "idle_entry" torso = "idle_entry" } }
 }
 
 bno_sex_oral_love_2 = {
-    default = {
+    male = {
+        default = { head = "sex_doggy_cum_3" torso = "sex_oral_love_2" }
+    }
+    female = {
         default = { head = "sex_oral_love_2" torso = "sex_oral_love_2" }
     }
     boy = { default = { head = "idle_entry" torso = "idle_entry" } }

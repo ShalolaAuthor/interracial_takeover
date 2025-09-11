@@ -11,6 +11,19 @@ great_replacement = {
 	
 	is_shown = {
 		scope:councillor = {
+			trigger_if = {
+				limit = {
+					has_game_rule = bno_great_replacement_converting
+				}
+				is_culture_bnoc = yes
+			}
+			trigger_else = {
+				scope:councillor_liege = {
+					any_realm_county = {
+						NOT = { culture = prev.culture }
+					}
+				}
+			}
 			OR = {
 				is_bbc = yes
 				is_bno_snowbunny_and_up = yes
@@ -24,45 +37,32 @@ great_replacement = {
 		glow = "gfx/particles/halo.dds"
 	}
 	
-	effect_desc = {
-		desc = {
-			desc = great_replacement_effect_desc
-			triggered_desc = {
-				trigger = {
-					trigger_if = {
-						limit = { exists = scope:county }
-						scope:county = {
-							culture = {
-								cultural_acceptance = {
-									target = scope:councillor_liege.culture
-									value < 95
-								}
-							}
-						}
-					}
-					trigger_else = { always = no }
-				}
-				desc = great_replacement_acceptance_effect_desc
-			}
-		}
-	}
+	effect_desc = great_replacement_acceptance_effect_desc
 	
 	progress = {
 		value = 5
 		add = {
-			value = {
-				add = scope:councillor.martial
-				divide = 5
-			}
+			value = 0
+			add = scope:councillor.martial
+			divide = 5
 			desc = SCALED_COUNCILLOR_MARTIAL_VALUE
 		}
 		add = {
-			value = {
+			value = 0
+			add = scope:councillor.intrigue
+			divide = 5
+			desc = SCALED_COUNCILLOR_MARTIAL_VALUE
+		}
+		add = {
+			value = 0
+			if = {
+				limit = {
+					has_game_rule = bno_great_replacement_cultural_acceptance
+				}
 				add = 10
 				if = {
 					limit = {
-						exists = scope:county
-						scope:county = {
+						scope:county ?= {
 							culture = {
 								cultural_acceptance = {
 									target = scope:councillor_liege.culture
@@ -71,32 +71,71 @@ great_replacement = {
 							}
 						}
 					}
-					add = 40
+					add = 25
 				}
-				multiply = 0.9
+				if = {
+					limit = {
+						scope:county ?= {
+							culture = {
+								cultural_acceptance = {
+									target = scope:councillor_liege.culture
+									value > 50
+								}
+							}
+						}
+					}
+					add = 25
+				}
+				if = {
+					limit = {
+						scope:county ?= {
+							culture = {
+								cultural_acceptance = {
+									target = scope:councillor_liege.culture
+									value > 75
+								}
+							}
+						}
+					}
+					add = 25
+				}
 			}
+			multiply = 0.9
+			desc = bno_great_replacement.current_cultural_acceptance
 		}
-		if = {
-			limit = {
-				exists = scope:county
-				scope:county = {
-					development_level > 0
+		subtract = {
+			value = 0
+			if = {
+				limit = {
+					scope:county ?= {
+						development_level > 0
+					}
 				}
+				add = scope:county.development_level
+				divide = 1.2
 			}
-			subtract = {
-				value = {
-					add = scope:county.development_level
-					divide = 1.2
-				}
-				desc = STEWARD_PROMOTE_CULTURE_DEVELOPMENT_PENALTY
-			}
+			desc = STEWARD_PROMOTE_CULTURE_DEVELOPMENT_PENALTY
 		}
 		min = 1
 	}
 	
 	potential_county = {
 		scope:county = {
-			NOT = { culture = scope:councillor_liege.culture }
+			trigger_if = {
+				limit = {
+					has_game_rule = bno_great_replacement_cultural_acceptance
+				}
+				NOT = { culture = scope:councillor_liege.culture }
+				culture = {
+					cultural_acceptance = {
+						target = scope:councillor_liege.culture
+						value < 100
+					}
+				}
+			}
+			trigger_else = {
+				is_culture_bnoc = no
+			}
 		}
 	}
 	
@@ -105,47 +144,7 @@ great_replacement = {
 			culture = {
 				save_scope_as = liege_culture
 			}
-		}
-		scope:county = {
-			culture = {
-				if = {
-					limit = {
-						NOT = { this = scope:liege_culture }
-					}
-					change_cultural_acceptance = {
-						target = scope:councillor_liege.culture
-						value = 100
-					}
-					scope:councillor_liege = {
-						add_tyranny = scope:county.development_level
-						stress_impact = {
-							compassionate = 60
-							just = 40
-							forgiving = 20
-						}
-					}
-					scope:county = {
-						change_development_level = {
-							subtract = 3
-						}
-						change_county_control = {
-							subtract = 45
-						}
-					}
-				}
-			}
-		}
-		scope:councillor = {
-			if = {
-				limit = {
-					AND = {
-						NOT = { has_trait = bno_camp_leader }
-						has_trait = bno_blood
-					}
-				}
-				add_trait = bno_camp_leader
-			}
-			start_default_task = yes
+			bno_great_replacement_liege_effect = yes
 		}
 	}
 	
@@ -153,20 +152,13 @@ great_replacement = {
 		value = 0
 		if = {
 			limit = {
-				OR = {
-					has_trait = bno_curious
-					has_trait = bno_blacked
-					has_trait = bno_snowbunny
-				}
+				is_bno_curious_and_up = yes
 			}
 			add = 10
 		}
 		else_if = {
 			limit = {
-				OR = {
-					has_trait = bno_qos
-					has_trait = bno_mindless_bbc_slut
-				}
+				is_bno_qos_and_up = yes
 			}
 			add = 20
 		}
@@ -175,7 +167,7 @@ great_replacement = {
 				is_bno_mindless_bbc_slut = yes
 				is_bno_fucked_mindless = yes
 			}
-			add = 75
+			add = 45
 		}
 		else_if = {
 			limit = {

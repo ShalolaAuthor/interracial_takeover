@@ -186,6 +186,7 @@ bno_trait_seeding.0008 = {
 				is_bbc = yes
 				is_ai = yes
 				is_culture_bnoc = no
+				has_game_rule = bno_bbc_forced_conversion_yes
 			}
 			if = {
 				limit = {
@@ -212,6 +213,7 @@ bno_trait_seeding.0009 = {
 				is_ai = yes
 				is_faith_bbcs = no
 				has_game_rule = bno_religion_yes
+				has_game_rule = bno_bbc_forced_conversion_yes
 			}
 			if = {
 				limit = {
