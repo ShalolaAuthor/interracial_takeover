@@ -155,18 +155,18 @@ bull_decision = {
 	cooldown = {
 		months = 6
 	}
-	cost = {
-		prestige = 100
-	}
 	effect = {
-		trigger_event = {
-			id = bno_events.0005
-			days = 1
+		custom_tooltip = {
+			text = bull_decision.effect
+			trigger_event = {
+				id = bno_events.0005
+				delayed = yes
+			}
 		}
 	}
-	ai_check_interval = 12
+	ai_check_interval = 1
 	ai_potential = {
-		always = yes
+		is_cuck = yes
 	}
 	ai_will_do = {
 		base = 1
@@ -397,10 +397,12 @@ bno_change_county_culture = {
 			}
 		}
 	}
-	ai_check_interval = 12
+	ai_check_interval = 1
 	ai_potential = {
 		any_held_title = {
-			tier >= tier_county
+			tier = tier_county
+			NOT = { is_culture_bnoc = yes }
+			county_control >= 100
 		}
 	}
 	ai_will_do = {

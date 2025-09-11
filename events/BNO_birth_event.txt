@@ -9,14 +9,14 @@ bno_birth.0001 = { # White Breeder
 		is_bno_snowbunny_and_up = yes
 		NOR = {
 			has_trait = bno_blood							#check she doesn't have any mixed/quarter mixed trait since it seems weird to refer to those characters as full white, can be removed if needed
-			has_character_flag = bno_white_breeder_flag		#test for character flag so player isn't constantly spammed by notifications everytime wife/lover gives birth, this should be a one time thing per woman
+			has_character_flag = bno_white_breeder_flag		#test for character flag so player isn't constantly spammed by notifications every time wife/lover gives birth, this should be a one time thing per woman
 		}
 		
 	}
 	
 	immediate = {
 		add_character_modifier = bno_white_breeder
-		add_character_flag = bno_white_breeder_flag			#add character flag so player isn't constantly spammed by notifications everytime wife/lover gives birth, this should be a one time thing per woman
+		add_character_flag = bno_white_breeder_flag			#add character flag so player isn't constantly spammed by notifications every time wife/lover gives birth, this should be a one time thing per woman
 		send_interface_message = { # Tell the character
 			type = bno_white_breeder
 			title = bno_birth.0001.t
