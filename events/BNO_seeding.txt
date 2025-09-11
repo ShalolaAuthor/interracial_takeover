@@ -225,5 +225,31 @@ bno_trait_seeding.0009 = {
 				set_character_faith_with_conversion = faith:bbcs
 			}
 		}
+		trigger_event = bno_trait_seeding.0010
+	}
+}
+# if liege is from Church of the Black Cock convert vassal into liege faith
+bno_trait_seeding.0010 = {
+	hidden = yes
+	immediate = {
+		if = {
+			limit = {
+				faith = faith:bbcs
+				trigger_if = {
+					limit = {
+						exists = liege
+						liege ?= {
+							is_faith_bbcs = yes
+						}
+						NOT = { faith = liege.faith }
+					}
+					always = yes
+				}
+				trigger_else = {
+					always = no
+				}
+			}
+			set_character_faith_with_conversion = liege.faith
+		}
 	}
 }

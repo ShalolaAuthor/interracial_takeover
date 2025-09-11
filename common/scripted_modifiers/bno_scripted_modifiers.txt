@@ -172,7 +172,7 @@ bno_decision_modifier = {
 				geographical_region = world_europe
 			}
         }
-    } #+5, as its the region the player is probaly looking to see corrupted
+    } #+5, as its the region the player is probably looking to see corrupted
     modifier = {
         add = 10
         trigger = {
@@ -190,7 +190,7 @@ bno_decision_modifier = {
         trigger = {
             has_trait = bno_cuckish
         }
-    } #+25 he's wife is wispering in his ear
+    } #+25 he's wife is whispering in his ear
     modifier = {
         add = 50
         trigger = {
@@ -214,7 +214,7 @@ bno_decision_modifier = {
         trigger = {
             has_trait = cynical
         }
-    } #-10 not beliving sob story, helps cull number of AI inviting
+    } #-10 not believing sob story, helps cull number of AI inviting
 	modifier = {
         add = -10
         trigger = {

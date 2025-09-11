@@ -302,3 +302,19 @@ bno_black_birth = {
 	}
 
 }
+
+bno_bbc_forced_conversion = {
+	categories = {
+		interracial_takeover
+	}
+	
+	default = bno_bbc_forced_conversion_yes
+
+	bno_bbc_forced_conversion_yes = {
+
+	}
+
+	bno_bbc_forced_conversion_no = {
+		
+	}
+}
