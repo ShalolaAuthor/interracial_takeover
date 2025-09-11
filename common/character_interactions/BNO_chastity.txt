@@ -100,7 +100,11 @@ bno_chastity_interaction = {
 	}
 	
 	ai_potential = {
-		always = yes
+		is_adult = yes
+		OR = {
+			has_trait = bno_whitegirl
+			has_trait = bno_bbc
+		}
 	}
 	
 	ai_will_do = {
@@ -139,7 +143,7 @@ bno_chastity_interaction = {
 		}
 	}
 	
-	ai_frequency = 36
+	ai_frequency = 12
 }
 
 bno_castration_interaction = {
@@ -234,7 +238,11 @@ bno_castration_interaction = {
 	}
 	
 	ai_potential = {
-		always = yes
+		is_adult = yes
+		OR = {
+			has_trait = bno_whitegirl
+			has_trait = bno_bbc
+		}
 	}
 	
 	ai_will_do = {
@@ -273,5 +281,5 @@ bno_castration_interaction = {
 		}
 	}
 	
-	ai_frequency = 36
+	ai_frequency = 12
 }

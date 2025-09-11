@@ -98,7 +98,8 @@ convert = {
 	}
 	ai_check_interval = 1
 	ai_potential = {
-		always = yes
+		has_trait = bno_mindless_bbc_slut
+		NOT = {faith = faith:bbcs}
 	}
 	ai_will_do = {
 		base = 100
@@ -1163,7 +1164,18 @@ bno_primal_insight_decision = {
 	#make sure ai also do it
 	ai_check_interval = 1
 	ai_potential = {
-		always = yes
+		NOT = { has_character_modifier = bno_primal_insight }
+		trigger_if = {
+			limit = { is_a_girl = yes }
+			any_court_position_holder = {
+				type = bno_bbc_priest_court_position
+			}
+		}
+		trigger_else = {
+			any_court_position_holder = {
+				type = bno_bbc_priestess_court_position
+			}
+		}
 	}
 	ai_will_do = {
         base = 100

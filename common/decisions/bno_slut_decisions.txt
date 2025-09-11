@@ -8,6 +8,7 @@
 	is_shown = {
 		is_white_girl = yes
 		is_slut = yes
+		NOT = { has_character_flag = bno_stop_becoming_bbc_slut }
 		NOT = {
 			has_character_flag = bno_slut.1015
 		}
@@ -79,6 +80,7 @@ bno_stop_becoming_bbc_slut = {
 	}
 	effect = {
 		remove_character_flag = bno_slut.1015
+		add_character_flag = bno_stop_becoming_bbc_slut
 	}
 	ai_check_interval = 0
 	ai_potential = {
