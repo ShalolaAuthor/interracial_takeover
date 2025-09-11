@@ -41,21 +41,26 @@ bno_increase_cuckiness = {
 }
 
 bno_decrease_cuckiness = {
-	bno_decrease_trait_level = {
-		TRAIT_NAME = bno_jos
-		LEVEL_DOWN_EFFECT = become_less_cuck_effect
-	}
-	bno_decrease_trait_level = {
-		TRAIT_NAME = bno_beta
-		LEVEL_DOWN_EFFECT = become_less_cuck_effect
-	}
-	bno_decrease_trait_level = {
-		TRAIT_NAME = bno_cuck
-		LEVEL_DOWN_EFFECT = become_less_cuck_effect
-	}
-	bno_decrease_trait_level = {
-		TRAIT_NAME = bno_cuckish
-		LEVEL_DOWN_EFFECT = become_less_cuck_effect
+	if = {
+		limit = {
+			has_trait = bno_whiteboi
+		}
+		bno_decrease_trait_level = {
+			TRAIT_NAME = bno_jos
+			LEVEL_DOWN_EFFECT = become_less_cuck_effect
+		}
+		bno_decrease_trait_level = {
+			TRAIT_NAME = bno_beta
+			LEVEL_DOWN_EFFECT = become_less_cuck_effect
+		}
+		bno_decrease_trait_level = {
+			TRAIT_NAME = bno_cuck
+			LEVEL_DOWN_EFFECT = become_less_cuck_effect
+		}
+		bno_decrease_trait_level = {
+			TRAIT_NAME = bno_cuckish
+			LEVEL_DOWN_EFFECT = become_less_cuck_effect
+		}
 	}
 }
 

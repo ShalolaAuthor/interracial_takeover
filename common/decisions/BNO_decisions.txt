@@ -147,10 +147,10 @@ bull_decision = {
 	decision_group_type = bno_decision_group
 	is_shown = {
 		is_ruler = yes
-		is_cuck = yes
+		is_adult = yes
+		is_bbc = no
 	}
 	is_valid = {
-		is_ruler = yes
 		is_cuck = yes
 		does_blackbull_exist = yes
 		is_spouse_curious = yes
