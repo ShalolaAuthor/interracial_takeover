@@ -391,6 +391,7 @@ bno_change_county_culture = {
 		}
 	}
 	effect = {
+		save_scope_as = new_holy_order
 		send_interface_toast = {
 			type = event_toast_effect_good
 			title = bno_change_county_culture_toast

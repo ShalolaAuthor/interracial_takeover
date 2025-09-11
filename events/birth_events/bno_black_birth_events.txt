@@ -56,6 +56,10 @@ bno_black_birth.0001 = {
             no_headgear
         }
     }
+    
+    trigger = {
+        is_alive = yes
+    }
 
     lower_center_portrait = scope:child
 
@@ -189,6 +193,10 @@ bno_black_birth.0002 = {
 
     lower_center_portrait = scope:child
 
+    trigger = {
+        is_alive = yes
+    }
+
     immediate = {
         play_music_cue_once = { TRACK = mx_cue_birth }
         bno_increase_cuckiness = yes
@@ -197,18 +205,22 @@ bno_black_birth.0002 = {
         name = bno_black_birth.0002.a
         add_prestige = -50
         add_stress = 30
-        reverse_add_opinion = {
-            target = scope:mother
-            modifier = bno_father_protects_queen
+        scope:mother = {
+            add_opinion = {
+                target = scope:father
+                modifier = bno_father_protects_queen
+            }
         }
         if = {
             limit = {
                 exists = house
                 NOT = { this = house.house_head }
             }
-            reverse_add_opinion = {
-                target = house.house_head
-                modifier = bno_father_claims_cuckchild
+            house.house_head = {
+                add_opinion = {
+                    target = scope:father
+                    modifier = bno_father_claims_cuckchild
+                }
             }
         }
         ai_chance = {
@@ -228,10 +240,13 @@ bno_black_birth.0002 = {
         if = {
             limit = {
                 exists = house
+                NOT = { this = house.house_head }
             }
-            reverse_add_opinion = {
-                target = house.house_head
-                modifier = bno_father_claims_cuckchild
+            house.house_head = {
+                add_opinion = {
+                    target = scope:father
+                    modifier = bno_father_claims_cuckchild
+                }
             }
         }
         reverse_add_opinion = {
@@ -279,6 +294,12 @@ bno_black_birth.0003 = {
 
     lower_center_portrait = scope:child
 
+    trigger = {
+        is_alive = yes
+        scope:mother = {
+            is_alive = yes
+        }
+    }
     immediate = {
         random_courtier = {
             limit = {
@@ -356,6 +377,9 @@ bno_black_birth.1003 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
     }
 
@@ -392,6 +416,9 @@ bno_black_birth.1001 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
     }
 
@@ -426,6 +453,12 @@ bno_black_birth.1103 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+        scope:mother = {
+            is_alive = yes
+        }
+    }
     immediate = {
         save_scope_as = carn_sex_player
         scope:mother = {
@@ -476,6 +509,9 @@ bno_black_birth.1101 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
         cuddle_animations = yes
     }
@@ -512,6 +548,12 @@ bno_black_birth.1203 = {
     }
 
 
+    trigger = {
+        is_alive = yes
+        scope:mother = {
+            is_alive = yes
+        }
+    }
     immediate = {
         sex_animations = yes
     }
@@ -557,6 +599,9 @@ bno_black_birth.1201 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
         sex_animations = yes
         custom_tooltip = {
@@ -592,6 +637,9 @@ bno_black_birth.2003 = {
 
     lower_center_portrait = scope:child
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = { }
 
     option = {
@@ -620,6 +668,9 @@ bno_black_birth.2103 = {
         animation = scheme
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = { }
 
     option = {
@@ -627,10 +678,12 @@ bno_black_birth.2103 = {
         add_prestige = minor_prestige_value
         custom_tooltip = {
             text = bno_black_birth.2103.a.followup
-            trigger_event = {
-                id = bno_black_birth.2101
-                days = { 7 14 }
-                delayed = yes
+            scope:mother = {
+                trigger_event = {
+                    id = bno_black_birth.2101
+                    days = { 7 14 }
+                    delayed = yes
+                }
             }
         }
     }
@@ -662,6 +715,12 @@ bno_black_birth.2101 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+        scope:father = {
+            is_alive = yes
+        }
+    }
     immediate = {
         save_scope_as = carn_sex_player
         scope:father = {
@@ -713,6 +772,9 @@ bno_black_birth.2102 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
         save_scope_as = carn_sex_player
         scope:mother = {
@@ -754,6 +816,9 @@ bno_black_birth.2201 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
         save_scope_as = carn_sex_player
         scope:real_father = {
@@ -807,6 +872,9 @@ bno_black_birth.2202 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
         bno_increase_cuckiness = yes
         add_character_modifier = bno_cuckolded_king
@@ -877,6 +945,9 @@ bno_black_birth.2203 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
         save_scope_as = carn_sex_player
         scope:mother = {
@@ -918,6 +989,9 @@ bno_black_birth.2303 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
         missionary_animations = yes
     }
@@ -954,6 +1028,9 @@ bno_black_birth.2403 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
         cum_missionary_animations = yes
     }
@@ -995,6 +1072,9 @@ bno_black_birth.2301 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
         missionary_animations = yes
     }
@@ -1031,6 +1111,9 @@ bno_black_birth.2401 = {
         }
     }
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
         cum_missionary_animations = yes
         custom_tooltip = {
@@ -1090,14 +1173,17 @@ bno_black_birth.2402 = {
 
     lower_center_portrait = root
 
+    trigger = {
+        is_alive = yes
+    }
     immediate = {
         scope:mother = {
-            save_scope_as = carn_sex_player
-        }
-        scope:real_father = {
             save_scope_as = carn_sex_partner
         }
-        bno_sex_scene_start = yes
+        scope:real_father = {
+            save_scope_as = carn_sex_player
+            bno_sex_scene_start = yes
+        }
         cum_missionary_animations = yes
     }
 

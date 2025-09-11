@@ -24,6 +24,9 @@ bno_events.0001 = {
 		character = scope:target3
 		animation = personality_content
 	}
+	trigger = {
+		is_ruler = yes
+	}
 	immediate = {
 		create_bbc = {
 			age = bno_young_adult
@@ -305,6 +308,9 @@ bno_events.0006 = {
 	lower_center_portrait = {
 		character = scope:target3
 		animation = personality_content
+	}
+	trigger = {
+		is_ruler = yes
 	}
 	immediate = {
 		create_slut = {

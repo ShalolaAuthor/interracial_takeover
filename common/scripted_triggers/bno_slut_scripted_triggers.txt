@@ -289,6 +289,9 @@ is_married_ai_pure_white_girl_has_white_husband = {
 			is_ai_white_guy = yes
 		}
 	}
+	trigger_else = {
+		always = no
+	}
 }
 
 is_a_futa = {

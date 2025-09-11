@@ -30,7 +30,10 @@ bno_curious.0001 = {
         }
 	}
 
-	immediate = {
+	immediate = {		
+		save_scope_as = child
+		bno_increase_sluttyness = yes
+		add_character_flag = bno_curious.0001
 		if = {
             limit = {
                 mother ?= {
@@ -53,9 +56,6 @@ bno_curious.0001 = {
                 bno_curious_trigger_event = yes
             }
         }
-		save_scope_as = child
-		bno_increase_sluttyness = yes
-		add_character_flag = bno_curious.0001
 	}
 }
 
@@ -251,6 +251,9 @@ bno_curious.1201 = {
 
 	trigger = {
 		is_alive = yes
+		scope:child = {
+			is_alive = yes
+		}
 	}
 	
 	immediate = {

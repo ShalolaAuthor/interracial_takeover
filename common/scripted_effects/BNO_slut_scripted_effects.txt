@@ -767,15 +767,12 @@ get_something_backup = {
 }
 
 get_wandering_curious_whitegirl_scope = {
-	every_realm_province = {
-		save_scope_as = province_temp
-		random_pool_character = {
-			province = scope:province_temp
-			limit = {
-				is_curious = yes
-			}
-			save_scope_as = $SCOPE_NAME$
+	random_pool_character = {
+		province = location
+		limit = {
+			is_curious = yes
 		}
+		save_scope_as = $SCOPE_NAME$
 	}
 }
 

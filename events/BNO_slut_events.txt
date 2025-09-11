@@ -667,7 +667,7 @@ bno_slut.0009 = {
 					}
 				}
 				bno_have_sex_with_effects = {
-					PARTNER = scope:bbc
+					PARTNER = scope:whitegirl
 				}
 			}
 		}
