@@ -260,8 +260,10 @@ bno_events.0005 = {
 					bno_qos = massive_stress_impact_loss
 					bno_mindless_bbc_slut = massive_stress_impact_loss
 				}
+				bno_increase_sluttyness = yes
 			}
 		}
+		bno_increase_cuckiness = yes
 	}
 	option = {
 		name = bno_events_0005.a
