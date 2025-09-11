@@ -149,3 +149,23 @@ bno_white_breeder = {
 	child_health = 0.1
 	child_opinion = 2
 }
+
+bno_seeded_sovereign = {
+    icon = seeded_sovereign
+    stacking = yes
+
+    monthly_county_control_growth_factor = 0.05
+    levy_size = 0.02
+    monthly_prestige = 0.05 
+    dread_gain_mult = 0.02 
+}
+
+bno_broodmakers_hand = {
+    icon = broodmakers_hand
+    stacking = yes
+
+    martial = 1                       # sharper military command
+    knight_effectiveness_mult = 0.02  # knights pound harder
+    levy_reinforcement_rate = 0.03    # fresh bodies for war
+    stress_loss_mult = 0.05           # relief in spreading lust
+}
