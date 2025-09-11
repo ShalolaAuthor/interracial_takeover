@@ -136,3 +136,16 @@ bno_blacked_witness = {
     attraction_opinion = -2
     intrigue = +1
 }
+
+bno_white_breeder = {
+	icon = white_breeder
+    stacking = yes
+    
+	general_opinion = 2
+	#bbcs_opinion = 30
+	health = 0.1
+	years_of_fertility = 1
+	stress_gain_mult = -0.1
+	child_health = 0.1
+	child_opinion = 2
+}

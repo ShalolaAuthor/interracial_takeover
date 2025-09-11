@@ -44,6 +44,14 @@ bno_black_birth = {
 		has_game_rule = bno_black_birth_on
 	}
 	effect = {
+		scope:mother = {
+			if = {
+				limit = {
+					has_character_flag = bno_white_breeder_flag
+				}
+				add_character_modifier = bno_white_breeder
+			}
+		}
 		if = {
 			limit = {
 				scope:child = {
