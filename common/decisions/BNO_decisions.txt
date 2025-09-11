@@ -510,11 +510,9 @@ bno_convert_to_african = {
 			set_culture = scope:new_culture
 		}
 	}
-	ai_check_interval = 12
+	ai_check_interval = 1
 	ai_potential = {
-		any_held_title = {
-			tier >= tier_county
-		}
+		is_culture_bnoc = no
 	}
 	ai_will_do = {
         base = 0

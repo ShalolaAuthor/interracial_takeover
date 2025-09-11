@@ -128,9 +128,12 @@ bno_no_tattoo_game_rule = {
 }
 
 bno_decision_modifier = {
-	#modifier = {
-	#	add = 200
-	#}
+	modifier = {
+		add = 100
+		trigger = {
+			is_bbc = yes
+		}
+	}
 	modifier = {
 		add = 10
 		trigger = {
