@@ -115,3 +115,14 @@ bno_secrecy_base_value = {
 		}
 	}
 }
+
+bno_becoming_dark_value = {
+	value = 0
+	if = {
+		limit = {
+			is_body_modification_ok = yes
+			exists = var:bno_becoming_dark
+		}
+		add = var:bno_becoming_dark
+	}
+}

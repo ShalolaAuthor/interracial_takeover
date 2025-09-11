@@ -348,12 +348,7 @@ bno_boobs = {
 					value = 0.04
 					multiply = {
 						value = var:bno_breast_size
-						if = {
-							limit = {
-								exists = var:bno_becoming_dark
-							}
-							add = var:bno_becoming_dark
-						}
+						add = bno_becoming_dark_value
 					}
 				}
 			}
@@ -364,12 +359,7 @@ bno_boobs = {
 					value = 0.1
 					multiply = {
 						value = var:bno_breast_size
-						if = {
-							limit = {
-								exists = var:bno_becoming_dark
-							}
-							add = var:bno_becoming_dark
-						}
+						add = bno_becoming_dark_value
 					}
 				}
 			}
@@ -382,12 +372,7 @@ bno_boobs = {
 					value = 0.04
 					multiply = {
 						value = var:bno_breast_size
-						if = {
-							limit = {
-								exists = var:bno_becoming_dark
-							}
-							add = var:bno_becoming_dark
-						}
+						add = bno_becoming_dark_value
 					}
 				}
 			}
@@ -399,12 +384,7 @@ bno_boobs = {
 					value = 0.04
 					multiply = {
 						value = var:bno_breast_size
-						if = {
-							limit = {
-								exists = var:bno_becoming_dark
-							}
-							add = var:bno_becoming_dark
-						}
+						add = bno_becoming_dark_value
 					}
 				}
 			}
@@ -415,12 +395,7 @@ bno_boobs = {
 					value = 0.1
 					multiply = {
 						value = var:bno_breast_size
-						if = {
-							limit = {
-								exists = var:bno_becoming_dark
-							}
-							add = var:bno_becoming_dark
-						}
+						add = bno_becoming_dark_value
 					}
 				}
 			}
