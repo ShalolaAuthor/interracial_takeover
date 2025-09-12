@@ -2,7 +2,7 @@
     scope:recipient = {
         is_imprisoned_by = scope:actor
         is_bbc = no
-        is_a_male = yes
+        is_adult = yes
     }
     scope:actor = {
         bno_prisoner_is_valid_actor_trigger = yes
@@ -14,5 +14,19 @@ bno_prisoner_is_valid_actor_trigger = {
     OR = {
         is_slut = yes
         is_bbc = yes
+    }
+}
+
+bno_male_prisoner_interaction_trigger = {
+    bno_prisoner_interaction_trigger = yes
+    scope:recipient = {
+        is_a_male = yes
+    }
+}
+
+bno_female_prisoner_interaction_trigger = {
+    bno_prisoner_interaction_trigger = yes
+    scope:recipient = {
+        is_a_girl = yes
     }
 }

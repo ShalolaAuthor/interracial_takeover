@@ -1,0 +1,10 @@
+﻿bno_slave = {
+    corresponding = bno_slave_owner
+    special_guest = yes
+    relation_aliases = { slave }
+}
+
+bno_slave_owner = {
+    corresponding = bno_slave
+    opinion = 100
+}

@@ -1,5 +1,6 @@
 ﻿bno_slave = { #changes for any female slave with bbc owner
 	usage = game
+	priority = 999
 	bbc_slave = {
 		dna_modifiers = {
 			accessory = {
@@ -14,17 +15,28 @@
 				template = no_legwear
 				value = 0
 			}
+			accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                value = 0
+            }
 		}
 		weight = {
 			base = 0
 			modifier = {
 				add = 100
 				has_game_rule = bno_tattoo_yes
-				has_trait = slave
-				is_a_girl = yes
-				is_adult = yes
-				liege = {
-					has_trait = bno_bbc
+				OR = {
+					AND = {
+						has_trait = slave
+						is_a_girl = yes
+						is_adult = yes
+						liege = {
+							has_trait = bno_bbc
+						}
+					}
+					has_trait = bno_slave
 				}
 			}
 		}

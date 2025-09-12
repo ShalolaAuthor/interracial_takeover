@@ -15,6 +15,7 @@
         scope:recipient = {
             #TODO: add a check for castrated futa
             NOT = { has_trait = bno_castrated }
+            NOT = { has_trait = bno_slave }
         }
     }
 
@@ -24,7 +25,7 @@
 
     send_option = {
         is_shown = {
-            bno_prisoner_interaction_trigger = yes
+            bno_male_prisoner_interaction_trigger = yes
         }
         is_valid = {
             scope:recipient = {
@@ -36,7 +37,7 @@
     }
     send_option = {
         is_shown = {
-            bno_prisoner_interaction_trigger = yes
+            bno_male_prisoner_interaction_trigger = yes
         }
         is_valid = {
             scope:recipient = {
@@ -46,6 +47,44 @@
         }
         flag = bno_prisoner_interaction_castrating
         localization = bno_prisoner_interaction.castrating
+    }
+    send_option = {
+        is_shown = {
+            bno_female_prisoner_interaction_trigger = yes
+        }
+        is_valid = {
+            scope:recipient = {
+                #TODO: add bno_slave trait
+                NOT = { has_trait = bno_slave }
+            }
+            scope:actor = {
+                trigger_if = {
+                    limit = {
+                        is_bbc = yes
+                    }
+                    always = yes
+                }
+                trigger_else = {
+                    custom_tooltip = {
+                        text = bno_prisoner_interaction.has_bbc_in_court
+                        OR = {
+                            any_courtier_or_guest = {
+                                is_bbc = yes
+                                is_adult = yes
+                                is_a_male = yes
+                            }
+                            any_spouse = {
+                                is_bbc = yes
+                                is_adult = yes
+                                is_a_male = yes
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        flag = bno_prisoner_interaction_slaving
+        localization = bno_prisoner_interaction.slaving
     }
     on_accept = {
         if = {
@@ -74,14 +113,68 @@
                 release_from_prison = yes
             }
         }
+        else_if = {
+            limit = { scope:bno_prisoner_interaction_slaving = yes }
+            scope:recipient = {
+                depose = yes
+                add_trait = bno_slave
+                pay_short_term_gold = {
+                    target = scope:actor
+                    gold = this.gold
+                }
+                if = {
+                    limit = { is_married = yes }
+                    every_spouse = {
+                        divorce = scope:recipient
+                    }
+                }
+                if = {
+                    limit = { exists = betrothed }
+                    break_betrothal = betrothed
+                }
+                every_concubine = {
+                    scope:recipient = { remove_concubine = prev }
+                }
+                every_relation = {
+                    type = guardian
+                    remove_relation_ward = prev
+                }
+                release_from_prison = yes
+                scope:actor = {
+                    #TODO: change to bno slave
+                    if = {
+                        limit = { is_a_girl = yes }
+                        random_spouse = {
+                            limit = {
+                                is_bbc = yes
+                            }
+                            save_scope_as = bbc_master
+                        }
+                        if = {
+                            limit = { NOT = { exists = scope:bbc_master } }
+                            random_courtier_or_guest = {
+                                limit = {
+                                    is_bbc = yes
+                                }
+                                save_scope_as = bbc_master
+                            }
+                        }
+                    }
+                    else = {
+                        save_scope_as = bbc_master
+                    }
+                    scope:bbc_master = {
+                        set_relation_bno_slave = scope:recipient
+                    }
+                }
+            }
+        }
         scope:actor = {
             if = {
                 limit = {
-                    scope:recipient = {
-                        NOT = { is_courtier_of = scope:actor }
-                    }
+                    scope:recipient = { NOT = { is_courtier_of = scope:actor } }
                 }
-                add_courtier = scope:recipient
+                hidden_effect = { add_courtier = scope:recipient }
             }
         }
     }

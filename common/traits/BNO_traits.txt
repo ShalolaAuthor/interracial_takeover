@@ -1879,3 +1879,20 @@ bno_bbc_whore_player_4 = {
 	stress_gain_mult = -0.12
 	stress_loss_mult = 0.18
 }
+
+bno_slave = {
+	flag = can_not_marry
+	flag = can_not_be_granted_titles
+	flag = can_not_leave_court_voluntarily
+	flag = no_headgear
+	flag = no_headwear
+	inheritance_blocker = all
+	claim_inheritance_blocker = all
+	
+	inherit_chance = 100
+	parent_inheritance_sex = female
+
+	valid_sex = female
+	
+	shown_in_ruler_designer = no
+}
