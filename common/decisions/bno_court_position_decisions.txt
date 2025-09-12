@@ -1,5 +1,5 @@
 ﻿bno_recruit_court_position_decision = {
-    ai_check_interval = 60
+    ai_check_interval = 6
     #Placeholder Picture
     picture = {
         reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
@@ -74,6 +74,11 @@
                     days = { 7 14 }
                 }
             }
+        }
+    }
+    ai_potential = {
+        dynasty ?= {
+            has_dynasty_perk = bno_embrace_african_2
         }
     }
     ai_will_do = {

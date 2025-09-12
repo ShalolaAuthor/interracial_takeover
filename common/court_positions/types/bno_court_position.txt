@@ -41,8 +41,7 @@
                 has_trait = bno_bbc_whore_player
             }
             has_trait = bno_whitegirl
-            has_trait = beauty_good
-            age < 30
+            health > 0
             NOT = { has_trait = lovers_pox }
         }
     }
@@ -119,10 +118,6 @@
         scope:employee = {
             add_character_flag = {
                 flag = no_headgear
-            }
-            if = {
-                limit = { NOT = { has_trait = bno_bbc_whore } }
-                add_trait = bno_bbc_whore_1
             }
             trigger_event = {
                 id = bbc_worshipper.0001

@@ -805,7 +805,6 @@ bno_full_black_slut = {
 	group = bno_slut_blood
 	shown_in_ruler_designer = no
 	level = 4
-	
 }
 
 bno_mostly_black_slut = {

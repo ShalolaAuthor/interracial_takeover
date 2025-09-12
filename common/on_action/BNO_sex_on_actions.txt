@@ -19,12 +19,13 @@
 # root = the character that sees the sex scene event
 # scope:carn_sex_partner = the other partner in the sex effect
 
-carn_on_sex = {
+carn_on_sex_v2 = {
 	on_actions = {
 		bno_slut_on_sex
 		bno_on_sex
 		bno_increase_pussy_wear
 		bno_cuck_on_sex
+		bno_set_recent_sex_partner
 	}
 }
 
@@ -80,6 +81,24 @@ bno_cuck_on_sex = {
 bno_increase_pussy_wear = {
 	effect = {
 		bno_increase_pussy_wear = yes
+	}
+}
+
+bno_set_recent_sex_partner = {
+	trigger = {
+		has_game_rule = bno_mod_status_on
+	}
+	effect = {
+		set_variable = {
+			name = recent_sex_partner
+			value = scope:carn_sex_partner
+		}
+		scope:carn_sex_partner = {
+			set_variable = {
+				name = recent_sex_partner
+				value = scope:carn_sex_player
+			}
+		}
 	}
 }
 

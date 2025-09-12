@@ -22,6 +22,11 @@ bno_combat.0001 = {
 
     cooldown = { months = 1 }
 
+    trigger = {
+        scope:bbc_enemy_commander = {
+            is_alive = yes
+        }
+    }
 
     option = { # Wound and castrate
         name = bno_combat.0001.a

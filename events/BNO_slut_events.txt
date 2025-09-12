@@ -568,7 +568,7 @@ bno_slut.0008 = {
 	
 	cooldown = { months = { 36 48 } }
 	trigger = {
-		is_curious = yes
+		is_blacked = yes
 		does_blackbull_exist = yes
 		does_wandering_male_exist = yes
 	}

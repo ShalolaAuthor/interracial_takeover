@@ -123,10 +123,6 @@ bno_castrated_effect = {
 			NOT = { has_trait = bno_castrated }
 		}
 		add_trait = bno_castrated
-		if = {
-			limit = { is_a_futa = no }
-			add_trait = eunuch_1
-		}
 	}
 	add_prestige = -500
 }
@@ -566,52 +562,74 @@ bno_increase_whore_level = {
 	if = {
 		limit = {
 			is_playable_character = no
+			NOT = { has_trait = bno_bbc_whore }
+		}
+		add_trait = bno_bbc_whore_1
+	}
+	else_if = {
+		limit = {
+			is_playable_character = yes
 			NOT = { has_trait = bno_bbc_whore_player }
 		}
-		if = {
-			limit = { NOT = { has_trait = bno_bbc_whore } }
-			add_trait = bno_bbc_whore_1
+		add_trait = bno_bbc_whore_player_1
+		
+	}
+	if = {
+		limit = {
+			is_playable_character = yes
+			has_trait = bno_bbc_whore
 		}
 		switch = {
 			trigger = has_trait
-			bno_bbc_whore_1 = {
-				bno_whore_level_effect = {
-					WHORE_TRAIT = bno_bbc_whore_1
-				}
-			}
-			bno_bbc_whore_2 = {
-				bno_whore_level_effect = {
-					WHORE_TRAIT = bno_bbc_whore_2
-				}
-			}
-			bno_bbc_whore_3 = {
-				bno_whore_level_effect = {
-					WHORE_TRAIT = bno_bbc_whore_3
-				}
-			}
+			bno_bbc_whore_1 = { remove_trait = bno_bbc_whore_1 add_trait = bno_bbc_whore_player_1 }
+			bno_bbc_whore_2 = { remove_trait = bno_bbc_whore_2 add_trait = bno_bbc_whore_player_2 }
+			bno_bbc_whore_3 = { remove_trait = bno_bbc_whore_3 add_trait = bno_bbc_whore_player_3 }
+			bno_bbc_whore_4 = { remove_trait = bno_bbc_whore_4 add_trait = bno_bbc_whore_player_4 }
 		}
 	}
-	else = {
-		if = {
-			limit = { NOT = { has_trait = bno_bbc_whore_player } }
-			add_trait = bno_bbc_whore_player_1
+	else_if = {
+		limit = {
+			is_playable_character = no
+			has_trait = bno_bbc_whore_player
 		}
 		switch = {
 			trigger = has_trait
-			bno_bbc_whore_player_1 = {
-				bno_whore_level_effect = {
-					WHORE_TRAIT = bno_bbc_whore_player_1
-				}
+			bno_bbc_whore_player_1 = { remove_trait = bno_bbc_whore_player_1 add_trait = bno_bbc_whore_1 }
+			bno_bbc_whore_player_2 = { remove_trait = bno_bbc_whore_player_2 add_trait = bno_bbc_whore_2 }
+			bno_bbc_whore_player_3 = { remove_trait = bno_bbc_whore_player_3 add_trait = bno_bbc_whore_3 }
+			bno_bbc_whore_player_4 = { remove_trait = bno_bbc_whore_player_4 add_trait = bno_bbc_whore_4 }
+		}
+	}
+	switch = {
+		trigger = has_trait
+		bno_bbc_whore_1 = {
+			bno_whore_level_effect = {
+				WHORE_TRAIT = bno_bbc_whore_1
 			}
-			bno_bbc_whore_player_2 = {
-				bno_whore_level_effect = {
-					WHORE_TRAIT = bno_bbc_whore_player_2
-				}
+		}
+		bno_bbc_whore_2 = {
+			bno_whore_level_effect = {
+				WHORE_TRAIT = bno_bbc_whore_2
 			}
-			bno_bbc_whore_player_3 = {
-				bno_whore_level_effect = {
-					WHORE_TRAIT = bno_bbc_whore_player_3
-				}
+		}
+		bno_bbc_whore_3 = {
+			bno_whore_level_effect = {
+				WHORE_TRAIT = bno_bbc_whore_3
+			}
+		}
+		bno_bbc_whore_player_1 = {
+			bno_whore_level_effect = {
+				WHORE_TRAIT = bno_bbc_whore_player_1
+			}
+		}
+		bno_bbc_whore_player_2 = {
+			bno_whore_level_effect = {
+				WHORE_TRAIT = bno_bbc_whore_player_2
+			}
+		}
+		bno_bbc_whore_player_3 = {
+			bno_whore_level_effect = {
+				WHORE_TRAIT = bno_bbc_whore_player_3
 			}
 		}
 	}
