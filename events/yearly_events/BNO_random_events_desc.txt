@@ -1337,7 +1337,7 @@ bno_random.0008 = {
 		trigger = {
 			is_bno_snowbunny_and_up = yes
 		}
-
+		add_internal_flag = special
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}

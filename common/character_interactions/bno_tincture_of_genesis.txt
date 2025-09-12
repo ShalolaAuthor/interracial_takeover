@@ -53,12 +53,20 @@
 
     is_valid_showing_failures_only = {
         scope:actor = {
-            NOT = { has_character_modifier = bno_nourishers_fatigue }
             trigger_if = {
                 limit = {
                     is_a_girl = yes
                 }
-                is_mindless_bbc_slut = yes
+                is_bno_mindless_bbc_slut = yes
+            }
+            trigger_else_if = {
+                limit = {
+                    is_a_male = yes
+                }
+                NOT = { has_character_modifier = bno_nourishers_fatigue }
+            }
+            trigger_else = {
+                always = no
             }
         }
         scope:recipient = {
@@ -146,9 +154,16 @@
     }
 
     ai_potential = {
-        any_spouse = {
-            is_white_girl = yes
-            NOT = { exists = var:bno_becoming_dark }
+        OR = {
+            any_spouse = {
+                is_white_girl = yes
+                NOT = { exists = var:bno_becoming_dark }
+            }
+            is_mindless_bbc_slut = yes
+        }
+        OR = {
+            NOT = { has_trait = bno_full_black_slut }
+            NOT = { has_character_modifier = bno_nourishers_fatigue }
         }
     }
 
@@ -157,6 +172,7 @@
 
     ai_targets = {
         ai_recipients = spouses
+        ai_recipients = self
     }
 
     ai_will_do = {

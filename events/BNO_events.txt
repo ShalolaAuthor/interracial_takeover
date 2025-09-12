@@ -231,7 +231,7 @@ bno_events.0005 = {
 
 	trigger = {
 		is_ruler = yes
-		is_cuck = yes
+		is_whiteboi = yes
 		does_blackbull_exist = yes
 		is_spouse_curious = yes
 	}

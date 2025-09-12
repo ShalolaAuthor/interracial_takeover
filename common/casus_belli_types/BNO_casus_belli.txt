@@ -18,7 +18,7 @@
 		}
 	}
 
-	target_titles = all
+	target_titles = neighbor_land_or_water
 	target_title_tier = county
 	ignore_effect = change_title_holder
 	
@@ -123,10 +123,15 @@ bno_subj_war = {
 	mutually_exclusive_titles = { always = yes }
 	
 	allowed_for_character = {
-		has_trait = bno_whitegirl
+		any_held_title = {
+			tier >= tier_duchy
+		}
+		OR = {
+			is_slut = yes
+			is_bbc = yes
+		}
 		any_courtier_or_guest = {
-			has_trait = bno_bbc
-			is_ai = yes
+			is_ai_blackbull = yes
 			NOT = {
 				is_child_of = root
 			}
@@ -141,8 +146,7 @@ bno_subj_war = {
 	
 	
 	
-	#target_titles = neighbor_land_or_water
-	target_titles = all
+	target_titles = neighbor_land_or_water
 	target_title_tier = county
 	ignore_effect = change_title_holder
 	
@@ -169,9 +173,21 @@ bno_subj_war = {
 		scope:attacker = {
 			random_courtier_or_guest = {
 				limit = {
-					has_trait = bno_bbc
+					is_ai_blackbull = yes
+					NOT = {
+						is_child_of = scope:attacker
+					}
 				}
 				save_scope_as = target1
+			}
+			if = {
+				limit = {
+					NOT = { exists = scope:target1 }
+				}
+				create_bbc = {
+					age = bno_young_adult
+					SCOPE_NAME = target1
+				}
 			}
 		}
 		
@@ -212,6 +228,20 @@ bno_subj_war = {
 				target = scope:attacker
 				opinion = 200
 			}
+		}
+		scope:attacker = {
+			create_title_and_vassal_change = {
+				type = granted
+				save_scope_as = change
+				add_claim_on_loss = no
+			}
+			scope:target1 = {
+				change_liege = {
+					liege = scope:attacker
+					change = scope:change
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
 		}
 	}
 	

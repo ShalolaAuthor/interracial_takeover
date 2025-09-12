@@ -1080,6 +1080,9 @@ bno_bull.2014 = { #follow up event, fuck and become lovers
 
 	trigger = {
 		is_alive = yes
+		scope:target1 = {
+			is_alive = yes
+		}
 	}
 
 	immediate = {

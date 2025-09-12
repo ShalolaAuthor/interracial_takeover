@@ -58,7 +58,7 @@ bno_a_future_queen_for_black = {
 bno_black_bred_queen = {
 	icon = black_bred_queen
 	stacking = yes
-    fertility = 0.10
+    fertility = 0.05
     attraction_opinion = 15
     general_opinion = -5
     dynasty_house_opinion = -10
@@ -70,9 +70,9 @@ bno_black_bred_queen = {
 bno_bred_in_secret = {
 	icon = bred_in_secret
 	stacking = yes
-    fertility = 0.15
+    fertility = 0.05
     attraction_opinion = 10
-    stress_loss_mult = 0.1
+    stress_loss_mult = 0.05
 }
 
 bno_claimed_broodmare = {
@@ -85,6 +85,8 @@ bno_claimed_broodmare = {
 
 bno_cuckolded_king = {
 	icon = cuckolded_king
+	stacking = yes
+
     diplomacy = -1
     prowess = -1
     fertility = -0.1
@@ -105,12 +107,12 @@ bno_blacked_queen = {
     stacking = yes
 
     attraction_opinion = 10
-    levy_reinforcement_rate = 0.08
+    levy_reinforcement_rate = 0.05
     bnwo_armies_damage_mult = 0.05
     bnwo_armies_maintenance_mult = -0.05
     bnwo_armies_max_size_mult = 0.05
-    general_opinion = -5
-    stress_loss_mult = 0.10
+    general_opinion = -1
+    stress_loss_mult = 0.05
 }
 
 bno_throne_breeder = {
@@ -120,8 +122,8 @@ bno_throne_breeder = {
     attraction_opinion = 10
     prowess = 3
     monthly_prestige = 0.25
-    dread_gain_mult = 0.15
-    knight_effectiveness_mult = 0.08
+    dread_gain_mult = 0.05
+    knight_effectiveness_mult = 0.05
     army_maintenance_mult = -0.05      
 }
 
@@ -155,9 +157,9 @@ bno_seeded_sovereign = {
     stacking = yes
 
     monthly_county_control_growth_factor = 0.05
-    levy_size = 0.02
+    levy_size = 0.05
     monthly_prestige = 0.05 
-    dread_gain_mult = 0.02 
+    dread_gain_mult = 0.05 
 }
 
 bno_broodmakers_hand = {
@@ -165,7 +167,7 @@ bno_broodmakers_hand = {
     stacking = yes
 
     martial = 1                       # sharper military command
-    knight_effectiveness_mult = 0.02  # knights pound harder
-    levy_reinforcement_rate = 0.03    # fresh bodies for war
+    knight_effectiveness_mult = 0.05  # knights pound harder
+    levy_reinforcement_rate = 0.05    # fresh bodies for war
     stress_loss_mult = 0.05           # relief in spreading lust
 }

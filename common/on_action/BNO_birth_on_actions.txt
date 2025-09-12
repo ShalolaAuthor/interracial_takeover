@@ -48,6 +48,9 @@ bno_black_birth = {
 			if = {
 				limit = {
 					has_character_flag = bno_white_breeder_flag
+					scope:child ?= {
+						has_trait = bno_blood
+					}
 				}
 				add_character_modifier = bno_white_breeder
 			}

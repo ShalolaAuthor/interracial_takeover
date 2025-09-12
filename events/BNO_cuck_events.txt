@@ -224,7 +224,7 @@ bno_cuck.0002 = {
 	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		is_cuck = yes
+		is_whiteboi = yes
 		any_spouse = {
 			is_imprisoned = no
 		}
@@ -270,7 +270,7 @@ bno_cuck.0003 = {
 	cooldown = { months = { 12 18 } }
 	
 	trigger = {
-		is_cuck = yes
+		is_whiteboi = yes
 		is_ruler = yes
 		does_blackbull_exist = yes
 		is_spouse_curious = yes
@@ -815,7 +815,7 @@ bno_cuck.0007 = {
 		animation = anger
 	}
 	trigger = {
-		is_cuck = yes
+		is_whiteboi = yes
 		OR = {
 			has_trait = brave
 			has_trait = strong
@@ -870,7 +870,7 @@ bno_cuck.0008 = {
 	}
 	cooldown = { months = { 24 36 } }
 	trigger = {
-		is_cuck = yes
+		is_whiteboi = yes
 		is_spouse_blacked = yes
 		any_vassal = {
 			is_ai_blackbull = yes
@@ -962,11 +962,11 @@ bno_cuck.0009 = {
 	}
 	cooldown = { months = { 48 60 } }
 	trigger = {
-		is_cuck = yes
+		is_whiteboi = yes
 		any_child = {
 			is_courtier_of = root
 			is_spouse_blacked = yes
-			is_cuck = yes
+			is_whiteboi = yes
 		}
 		does_blackbull_exist = yes
 	}
@@ -975,7 +975,7 @@ bno_cuck.0009 = {
 			limit = {
 				is_courtier_of = root
 				is_spouse_blacked = yes
-				is_cuck = yes
+				is_whiteboi = yes
 			}
 			save_scope_as = cucked_son
 		}
@@ -1269,7 +1269,7 @@ bno_cuck.0011 = {
 	cooldown = { months = { 24 36 } }
 
 	trigger = {
-		is_cuck = yes
+		is_whiteboi = yes
 		any_close_family_member = {
 			is_a_girl = yes
 			is_adult = no
@@ -1408,7 +1408,7 @@ bno_cuck.0013 = {
 		animation = dismissal
 	}
 	trigger = {
-		is_cuck = yes
+		is_whiteboi = yes
 		is_ruler = yes
 		exists = diarch
 		diarch = {
@@ -1520,7 +1520,7 @@ bno_cuck.0015 = {
 		
 	}
 	trigger = {
-		is_cuck = yes
+		is_whiteboi = yes
 		is_partner_mindless_bbc_slut = yes
 	}
 

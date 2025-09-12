@@ -825,10 +825,11 @@ pay_prestige = {
 }
 
 create_bbc = {
+	save_temporary_scope_as = bno_creator
 	create_character = {
 		gender = male
 		save_scope_as = $SCOPE_NAME$
-		location = root.location
+		location = scope:bno_creator.location
 		age = $age$
 		
 		dynasty = none
@@ -852,19 +853,19 @@ create_bbc = {
 			add_trait = lustful
 			if = {
 				limit = {
-					root = {
+					scope:bno_creator = {
 						is_faith_bbcs = yes
 					}
 				}
-				set_character_faith = root.faith
+				set_character_faith = scope:bno_creator.faith
 			}
 			if = {
 				limit = {
-					root = {
+					scope:bno_creator = {
 						is_culture_bnoc = yes
 					}
 				}
-				set_culture = root.culture
+				set_culture = scope:bno_creator.culture
 			}
 			remove_bad_traits = yes
 		}
@@ -1296,46 +1297,6 @@ bno_have_sex_with_effects = {
 	}
 }
 
-# BACKUP
-#bno_have_sex_with_effects = {
-#	if = {
-#		limit = {
-#			OR = {
-#				NAND = {
-#					is_a_male = yes
-#					$PARTNER$ = { is_a_male = yes }
-#				}
-#				NAND = {
-#					is_a_girl = yes
-#					$PARTNER$ = { is_a_girl = yes }
-#				}
-#			}
-#			exists = $PARTNER$
-#			$PARTNER$ = { is_alive = yes }
-#		}
-#		set_variable = {
-#			name = recent_sex_partner
-#			value = $PARTNER$
-#		}
-#		bno_father_or_mother = yes
-#		$PARTNER$ = {
-#			bno_father_or_mother = yes
-#			set_variable = {
-#				name = recent_sex_partner
-#				value = prev
-#			}
-#		}
-#		carn_had_sex_with_effect = {
-#			CHARACTER_1 = this
-#			CHARACTER_2 = $PARTNER$
-#			C1_PREGNANCY_CHANCE = carn_sex_pregnancy_chance
-#			C2_PREGNANCY_CHANCE = carn_sex_pregnancy_chance
-#			DRAMA = yes
-#			STRESS_EFFECTS = yes
-#		}
-#	}
-#}
-
 bno_remove_whitegirl_traits = {
 	remove_trait = bno_curious
 	remove_trait = bno_blacked
@@ -1705,6 +1666,7 @@ fuck_random_local_bbc = {
 	every_ruler = {
 		limit = {
 			is_ai_blackbull = yes
+			exists = this
 		}
 		add_to_list = local_bbc_list
 	}
@@ -1712,6 +1674,7 @@ fuck_random_local_bbc = {
 		every_vassal_or_below = {
 			limit = {
 				is_ai_blackbull = yes
+				exists = this
 			}
 			add_to_list = local_bbc_list
 		}
@@ -1720,10 +1683,12 @@ fuck_random_local_bbc = {
 		every_vassal_or_below = {
 			limit = {
 				highest_held_title_tier >= tier_county
+				exists = this
 			}
 			every_courtier_or_guest = {
 				limit = {
 					is_ai_blackbull = yes
+					exists = this
 				}
 				add_to_list = local_bbc_list
 			}
@@ -1740,6 +1705,7 @@ fuck_random_local_bbc = {
 			list = local_bbc_list
 			limit = {
 				is_alive = yes
+				exists = this
 			}
 			order_by = gold
 			save_scope_as = local_bbc

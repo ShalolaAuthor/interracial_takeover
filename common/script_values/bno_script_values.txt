@@ -59,7 +59,7 @@ skin_color_x = {
 }
 
 skin_color_y = {
-  value = 0.2
+  value = 0.1
   multiply = var:bno_becoming_dark
 }
 

@@ -511,13 +511,25 @@ bno_black_birth.1101 = {
 
     trigger = {
         is_alive = yes
+        scope:real_father = {
+            is_alive = yes
+        }
     }
     immediate = {
+        save_scope_as = carn_sex_player
+        scope:real_father = {
+            save_scope_as = carn_sex_partner
+        }
+        bno_sex_scene_start = yes
         cuddle_animations = yes
     }
 
     option = {
         name = bno_black_birth.1101.a
+        trigger_event = {
+            id = bno_black_birth.1201
+            delayed = yes
+        }
     }
 }
 # follow up ^ sex
@@ -562,10 +574,6 @@ bno_black_birth.1203 = {
         name = bno_black_birth.1203.a
         scope:mother = {
             add_character_modifier = bno_bred_in_secret
-            trigger_event = {
-                id = bno_black_birth.1201
-                delayed = yes
-            }
         }
         add_character_modifier = bno_claimed_broodmare
         carn_sex_scene_is_cum_inside_effect = yes
@@ -601,6 +609,9 @@ bno_black_birth.1201 = {
 
     trigger = {
         is_alive = yes
+        scope:real_father = {
+            is_alive = yes
+        }
     }
     immediate = {
         sex_animations = yes
@@ -947,6 +958,9 @@ bno_black_birth.2203 = {
 
     trigger = {
         is_alive = yes
+        scope:mother = {
+            is_alive = yes
+        }
     }
     immediate = {
         save_scope_as = carn_sex_player
