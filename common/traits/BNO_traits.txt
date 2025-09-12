@@ -122,12 +122,12 @@ bno_jos = {
 	ai_sociability = high_negative_ai_value
 }
 
-
-
 #Level 1 Chastity: Caged
 bno_caged = {
 	group = bno_chastity
 	level = 1
+
+	valid_sex = male
 	
 	physical = yes
 	attraction_opinion = -5
@@ -149,6 +149,8 @@ bno_caged = {
 bno_castrated = {
 	group = bno_chastity
 	level = 2
+
+	valid_sex = male
 	
 	physical = yes
 	
@@ -162,6 +164,43 @@ bno_castrated = {
 	
 	fertility = -1
 	can_have_children = no
+}
+
+bno_caged_futa = {
+	group = bno_chastity_futa
+	level = 1
+	
+	valid_sex = female
+
+	physical = yes
+	attraction_opinion = -5
+	
+	same_opinion = 25
+	attraction_opinion = -25
+	spouse_opinion = -50
+	
+	martial = -3
+	prowess = -8
+	intrigue = -3
+	diplomacy = 3
+	stewardship = 3
+}
+
+bno_castrated_futa = {
+	group = bno_chastity_futa
+	level = 2
+	
+	valid_sex = female
+	
+	physical = yes
+	
+	attraction_opinion = -20
+	
+	martial = -5
+	prowess = -8
+	intrigue = -3
+	stewardship = 3
+	diplomacy = 5
 }
 
 #BBC TRAITS

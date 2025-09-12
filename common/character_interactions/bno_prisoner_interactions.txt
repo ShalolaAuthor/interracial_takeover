@@ -3,7 +3,19 @@
     icon = icon_bno_prisoner_interaction
 
     category = interaction_category_prison
-    desc = bno_prisoner_interaction_desc
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:recipient = { is_male = yes } }
+                desc = bno_prisoner_interaction_desc
+            }
+            triggered_desc = {
+                trigger = { scope:recipient = { is_a_futa = yes } }
+                desc = bno_prisoner_interaction_desc.futa
+            }
+            desc = bno_prisoner_interaction_desc.female
+        }
+    }
 
     common_interaction = yes
 
@@ -29,7 +41,13 @@
         }
         is_valid = {
             scope:recipient = {
-                NOT = { has_trait = bno_caged }
+                custom_tooltip = {
+                    text = bno_prisoner_interaction.not_caged
+                    OR = {
+                        NOT = { has_trait = bno_caged }
+                        NOT = { has_trait = bno_caged_futa }
+                    }
+                }
             }
         }
         flag = bno_prisoner_interaction_caging
@@ -41,8 +59,13 @@
         }
         is_valid = {
             scope:recipient = {
-                #TODO: add futa castrated later
-                NOT = { has_trait = bno_castrated }
+                custom_tooltip = {
+                    text = bno_prisoner_interaction.not_castrated
+                    OR = {
+                        NOT = { has_trait = bno_castrated }
+                        NOT = { has_trait = bno_castrated_futa }
+                    }
+                }
             }
         }
         flag = bno_prisoner_interaction_castrating

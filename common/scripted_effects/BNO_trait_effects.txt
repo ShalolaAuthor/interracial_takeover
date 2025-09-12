@@ -111,18 +111,36 @@ bno_decrease_trait_level = {
 }
 
 bno_castrated_effect = {
-	if = {
-		limit = {
-			has_trait = bno_caged
-		}
-		remove_trait = bno_caged
-	}
 	bno_remove_lustful_and_fecund = yes
 	if = {
-		limit = {
-			NOT = { has_trait = bno_castrated }
+		limit = { is_male = yes }
+		switch = {
+			trigger = has_trait
+			bno_caged = {
+				change_trait_rank = {
+					trait = bno_chastity
+					rank = 1
+				}
+			}
+			fallback = { add_trait = bno_castrated }
 		}
-		add_trait = bno_castrated
+	}
+	else = {
+		switch = {
+			trigger = has_trait
+			bno_caged_futa = {
+				change_trait_rank = {
+					trait = bno_chastity_futa
+					rank = 1
+				}
+			}
+			fallback = { add_trait = bno_castrated_futa }
+		}
+		switch = {
+			trigger = has_trait
+			futa = { make_trait_inactive = futa }
+			futa_genetic = { make_trait_inactive = futa_genetic }
+		}
 	}
 	add_prestige = -500
 }
@@ -157,11 +175,21 @@ bno_remove_lustful_and_fecund = {
 bno_caged_effect = {
 	bno_remove_lustful_and_fecund = yes
 	if = {
-		limit = {
-			NOT = { has_trait = bno_caged }
-			NOT = { has_trait = bno_castrated }
+		limit = { is_male = yes }
+		if = {
+			limit = {
+				NOT = { has_trait = bno_chastity }
+			}
+			add_trait = bno_caged
 		}
-		add_trait = bno_caged
+	}
+	else = {
+		if = {
+			limit = {
+				NOT = { has_trait = bno_chastity_futa }
+			}
+			add_trait = bno_caged_futa
+		}
 	}
 	add_prestige = -250
 }
