@@ -37,3 +37,27 @@ texticon = {
 		fontsize = 16
 	}
 }
+
+texticon = {
+	icon = bno_caged_icon
+	iconsize = {
+		texture = "gfx/interface/icons/traits/bno_caged.dds"
+		size = { 40 40 }
+		framesize = { 240 240 }
+		frame = 1
+		offset = { 0 14 }
+		fontsize = 15
+	}
+}
+
+texticon = {
+	icon = bno_castrated_icon
+	iconsize = {
+		texture = "gfx/interface/icons/traits/bno_castrated.dds"
+		size = { 40 40 }
+		framesize = { 240 240 }
+		frame = 1
+		offset = { 0 14 }
+		fontsize = 15
+	}
+}

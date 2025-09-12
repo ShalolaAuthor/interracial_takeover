@@ -1,6 +1,6 @@
 ﻿bno_prisoner_interaction = {
     interface_priority = 999
-    icon = bno_prisoner_interaction
+    icon = icon_bno_prisoner_interaction
 
     category = interaction_category_prison
     desc = bno_prisoner_interaction_desc
@@ -28,13 +28,12 @@
         }
         is_valid = {
             scope:recipient = {
-                NOT = { has_trait = bno_chastity }
+                NOT = { has_trait = bno_caged }
             }
         }
         flag = bno_prisoner_interaction_caging
         localization = bno_prisoner_interaction.caging
     }
-
     send_option = {
         is_shown = {
             bno_prisoner_interaction_trigger = yes
@@ -48,7 +47,6 @@
         flag = bno_prisoner_interaction_castrating
         localization = bno_prisoner_interaction.castrating
     }
-
     on_accept = {
         if = {
             limit = { scope:bno_prisoner_interaction_caging = yes }
