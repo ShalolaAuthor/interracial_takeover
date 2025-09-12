@@ -156,7 +156,6 @@ bno_remove_lustful_and_fecund = {
 
 bno_caged_effect = {
 	bno_remove_lustful_and_fecund = yes
-	add_prestige = -250
 	if = {
 		limit = {
 			NOT = { has_trait = bno_caged }
@@ -164,6 +163,7 @@ bno_caged_effect = {
 		}
 		add_trait = bno_caged
 	}
+	add_prestige = -250
 }
 
 ### Body Parts Traits ###

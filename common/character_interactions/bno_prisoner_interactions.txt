@@ -1,0 +1,108 @@
+﻿bno_prisoner_interaction = {
+    interface_priority = 999
+    icon = bno_prisoner_interaction
+
+    category = interaction_category_prison
+    desc = bno_prisoner_interaction_desc
+
+    common_interaction = yes
+
+    is_shown = {
+        bno_prisoner_interaction_trigger = yes
+    }
+
+    is_valid_showing_failures_only = {
+        scope:recipient = {
+            #TODO: add a check for castrated futa
+            NOT = { has_trait = bno_castrated }
+        }
+    }
+
+    is_highlighted = {
+        always = yes
+    }
+
+    send_option = {
+        is_shown = {
+            bno_prisoner_interaction_trigger = yes
+        }
+        is_valid = {
+            scope:recipient = {
+                NOT = { has_trait = bno_chastity }
+            }
+        }
+        flag = bno_prisoner_interaction_caging
+        localization = bno_prisoner_interaction.caging
+    }
+
+    send_option = {
+        is_shown = {
+            bno_prisoner_interaction_trigger = yes
+        }
+        is_valid = {
+            scope:recipient = {
+                #TODO: add futa castrated later
+                NOT = { has_trait = bno_castrated }
+            }
+        }
+        flag = bno_prisoner_interaction_castrating
+        localization = bno_prisoner_interaction.castrating
+    }
+
+    on_accept = {
+        if = {
+            limit = { scope:bno_prisoner_interaction_caging = yes }
+            scope:recipient = {
+                bno_caged_effect = yes
+                # TODO: add custom opinion later
+                add_opinion = {
+                    target = scope:actor
+                    modifier = disappointed_opinion
+                    opinion = -50
+                }
+                release_from_prison = yes
+            }
+        }
+        else_if = {
+            limit = { scope:bno_prisoner_interaction_castrating = yes }
+            scope:recipient = {
+                bno_castrated_effect = yes
+                # TODO: add custom opinion later
+                add_opinion = {
+                    target = scope:actor
+                    modifier = disappointed_opinion
+                    opinion = -50
+                }
+                release_from_prison = yes
+            }
+        }
+        scope:actor = {
+            if = {
+                limit = {
+                    scope:recipient = {
+                        NOT = { is_courtier_of = scope:actor }
+                    }
+                }
+                add_courtier = scope:recipient
+            }
+        }
+    }
+
+    auto_accept = yes
+
+    ai_targets = {
+        ai_recipients = prisoners
+    }
+
+    ai_potential = {
+        bno_prisoner_is_valid_actor_trigger = yes
+    }
+
+    ai_will_do = {
+        base = 0
+        bno_white_girl_modifier_biggest = yes
+    }
+
+    ai_frequency = 1
+
+}

@@ -340,6 +340,10 @@ bno_white_girl_modifier_big = {
 
 bno_white_girl_modifier_biggest = {
 	modifier = {
+		add = 100
+		is_bbc = yes
+	}
+	modifier = {
 		add = 20
 		is_bno_curious_and_up = yes
 	}

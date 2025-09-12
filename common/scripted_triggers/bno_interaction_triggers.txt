@@ -1,0 +1,18 @@
+﻿bno_prisoner_interaction_trigger = {
+    scope:recipient = {
+        is_imprisoned_by = scope:actor
+        is_bbc = no
+        is_a_male = yes
+    }
+    scope:actor = {
+        bno_prisoner_is_valid_actor_trigger = yes
+    }
+}
+
+bno_prisoner_is_valid_actor_trigger = {
+    is_adult = yes
+    OR = {
+        is_slut = yes
+        is_bbc = yes
+    }
+}
