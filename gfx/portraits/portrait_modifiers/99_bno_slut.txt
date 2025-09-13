@@ -24,6 +24,7 @@
 
 bno_blonder_hair = {
 	usage = game
+	priority = 999
 	bno_blonder_hair = {
 		dna_modifiers = {
 			#changes hair color
@@ -38,7 +39,7 @@ bno_blonder_hair = {
 		weight = {
 			base = 0
 			modifier = {
-				add = 1000
+				add = 1
 				exists = var:bno_becoming_dark
 				is_body_modification_ok = yes
 			}
@@ -512,7 +513,7 @@ bno_white_girl = {
 	} 
 }
 
-bno_pure_white_hairstyles = {
+bno_hairstyles = {
 	usage = game
 	priority = 999
 	selection_behavior = weighted_random
@@ -530,7 +531,7 @@ bno_pure_white_hairstyles = {
 			modifier = {
 				add = 1
 				exists = this
-				has_trait = bno_pure_white
+				bno_can_get_wavy_hair_trigger = yes
 			}
 		}
 	}
@@ -548,7 +549,97 @@ bno_pure_white_hairstyles = {
 			modifier = {
 				add = 1
 				exists = this
-				has_trait = bno_pure_white
+				bno_can_get_wavy_hair_trigger = yes
+			}
+		}
+	}
+	bno_steppe_wavy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = steppe_hairstyles_wavy
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				exists = this
+				bno_can_get_wavy_hair_trigger = yes
+			}
+		}
+	}
+	bno_african_wavy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = sub_saharan_hairstyles_wavy
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				exists = this
+				bno_can_get_wavy_hair_trigger = yes
+			}
+		}
+	}
+	bno_western_wavy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = western_hairstyles_wavy
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				exists = this
+				bno_can_get_wavy_hair_trigger = yes
+			}
+		}
+	}
+	bno_mena_wavy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = mena_hairstyles_wavy
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				exists = this
+				bno_can_get_wavy_hair_trigger = yes
+			}
+		}
+	}
+	bno_byzantine_wavy = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = byzantine_hairstyles_wavy
+				range = { 0 1 } # For the randomness to work correctly
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				exists = this
+				bno_can_get_wavy_hair_trigger = yes
 			}
 		}
 	}

@@ -46,14 +46,12 @@
 		}
 		scope:actor = {
 			trigger_event = bno_character_interaction.0001
-			show_as_tooltip = {
-				add_prestige = minor_prestige_loss
-				add_stress = minor_stress_gain
-				add_opinion = {
-					target = scope:recipient
-					modifier = pleased_opinion
-					opinion = 20
-				}
+			add_prestige = minor_prestige_loss
+			add_stress = minor_stress_gain
+			add_opinion = {
+				target = scope:recipient
+				modifier = pleased_opinion
+				opinion = 20
 			}
 		}
 	}
@@ -232,10 +230,6 @@
 			add = 50
 			ai_boldness > 0
 		}
-		#modifier = {
-		#	add = 50
-		#	scope:paranoid = yes
-		#}
 	}
 	
 }

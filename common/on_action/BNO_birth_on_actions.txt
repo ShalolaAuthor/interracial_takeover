@@ -68,6 +68,7 @@ bno_black_birth = {
 				exists = scope:father
 				scope:father ?= {
 					is_bbc = no
+					is_spouse_of = scope:mother
 				}
 			}
 			scope:mother = {

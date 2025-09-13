@@ -786,3 +786,13 @@ is_good_pure_whitegirl = {
 	}
 	has_bad_trait = no
 }
+
+bno_can_get_wavy_hair_trigger = {
+	OR = {
+		has_trait = bno_pure_white
+		AND = {
+			has_trait = bno_blood
+			NOT = { has_trait = bno_full_black }
+		}
+	}
+}

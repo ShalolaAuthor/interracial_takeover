@@ -122,6 +122,11 @@ sneak_bbc = {
 
 	ai_targets = {
 		ai_recipients = neighboring_rulers_including_tributary_borders
+		ai_recipients = peer_vassals
+		ai_recipients = vassals
+		ai_recipients = tributaries
+		ai_recipients = liege
+		ai_recipients = suzerain
 	}
 
 	ai_frequency = 6
