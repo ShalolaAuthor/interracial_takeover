@@ -1,0 +1,5 @@
+﻿l_simp_chinese:
+
+bno_slave: "[bno_slave|E]" # AI Tags
+relation_bno_slave: "BBC 奴隶" # AI Tags
+relation_bno_slave_possessive: "BBC的奴隶" # AI Tags

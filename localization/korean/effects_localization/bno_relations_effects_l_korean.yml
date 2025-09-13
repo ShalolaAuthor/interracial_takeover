@@ -1,0 +1,7 @@
+﻿l_korean:
+
+i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 당신의 일이 될 것입니다 [bno_slave|E]" # AI Tags
+they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 되고 [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+
+i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 당신의 사람이 되었습니다 [bno_slave|E]" # AI Tags
+they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 되었으며 [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags

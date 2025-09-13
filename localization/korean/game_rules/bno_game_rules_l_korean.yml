@@ -117,3 +117,15 @@ setting_bno_black_birth_on: "켜고" # AI Tags
 setting_bno_black_birth_on_desc: "여왕의 배가 팽창하면 [bno_bbc|E] 아가씨, 뱃길은 침묵하지 않을거야. 남편의 왕관 뒤에 숨어든지 아니면 진실을 외치며." # AI Tags
 setting_bno_black_birth_off: "꺼져" # AI Tags
 setting_bno_black_birth_off_desc: "그녀의 배는 [bno_bbc|E]하지만 거짓말은 사실입니다. 혼합된 아이는 조용하게 그녀의 남편의 자신의 것으로 전달됩니다. 진리는 화려한 벽 뒤에 질식합니다." # AI Tags
+
+rule_bno_bbc_forced_conversion: "@bnobbc! #X 인종 간 인수:#! BBC 강제 전환" # AI Tags
+setting_bno_bbc_forced_conversion_yes: "켜고" # AI Tags
+setting_bno_bbc_forced_conversion_yes_desc: "한 권의 무게를 짊어질 때 [bno_bbc|E], 그의 궁전은 더 이상 화려하지 않을 것입니다. 문화는 아프리카의 뿌리로 이동하고, 왕국은 검은 의 교회에 무릎을 꿇고, 그의 욕망에 의해 모든 왕관이 흑색됩니다." # AI Tags
+setting_bno_bbc_forced_conversion_no: "꺼져" # AI Tags
+setting_bno_bbc_forced_conversion_no_desc: "심지어 그는 [bno_bbc|E], 그의 땅은 오래된 믿음과 문화에 묶여 있습니다. 검은 닭은 비밀리에 번식하지만 왕국은 희미한 마스크에 집착합니다." # AI Tags
+
+rule_bno_great_replacement: "@bnobbc! #X 인종 간 인수:#! 위대한 대체" # AI Tags
+setting_bno_great_replacement_converting: "카운티 전환" # AI Tags
+setting_bno_great_replacement_converting_desc: "이 경우 [bno_bbc|E] 또는 그의 한 둥지꾼이 그들의 뜻에 따라 카운티를 휘두르면 변화가 깊어집니다. 오래된 문화가 벗겨지고 아프리카 뿌리로 대체됩니다 어두운 혀, 더 어두운 피, 그의 닭의 형상으로 만들어진 땅." # AI Tags
+setting_bno_great_replacement_cultural_acceptance: "문화적 인 수용" # AI Tags
+setting_bno_great_replacement_cultural_acceptance_desc: "이 [bno_bbc|E] 또는 그의 백인 가녀는 오래된 방법을 지우지 않습니다. 그들은 그들을 묶습니다. 문화는 100개에 합쳐져 블랙콕 밑에 연합해 니다." # AI Tags

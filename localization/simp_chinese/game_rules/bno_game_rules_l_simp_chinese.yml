@@ -117,3 +117,15 @@ setting_bno_black_birth_on: "日期 于" # AI Tags
 setting_bno_black_birth_on_desc: "当皇后的肚子肿胀时 [bno_bbc|E] 孩子,摇篮不会保持沉默. 你来决定她是否躲在她丈夫的王冠后面…或呻吟出真相 让Stud的继承人在他的房子里崛起." # AI Tags
 setting_bno_black_birth_off: "关闭" # AI Tags
 setting_bno_black_birth_off_desc: "她的肚子可以被一个 [bno_bbc|E],但谎言坚持着。. 混血儿像她丈夫一样静静地死去,真相被挡在苍白的墙后面,不管谁的子孙真正孕育了她。." # AI Tags
+
+rule_bno_bbc_forced_conversion: "@bnobbc! #X 跨种族接替:#! BBC 强迫转化" # AI Tags
+setting_bno_bbc_forced_conversion_yes: "日期 于" # AI Tags
+setting_bno_bbc_forced_conversion_yes_desc: "当一个统治者担负着一物的重量时, [bno_bbc|E]他的法庭不会长期保持苍白。. 文化转向非洲根, 王国向黑鸡教会跪拜, 每一个王冠都因他的欲望而变黑。." # AI Tags
+setting_bno_bbc_forced_conversion_no: "关闭" # AI Tags
+setting_bno_bbc_forced_conversion_no_desc: "即使他以一个 [bno_bbc|E]他的土地仍然与旧的信仰和文化联系在一起。. 黑公鸡秘密繁殖, 但王国紧紧粘着它苍白的面具。." # AI Tags
+
+rule_bno_great_replacement: "@bnobbc! #X 跨种族接替:#! 大更换" # AI Tags
+setting_bno_great_replacement_converting: "县改划" # AI Tags
+setting_bno_great_replacement_converting_desc: "当 a [bno_bbc|E] 或他苍白的胸腺 弯曲一个郡 听从他们的意愿, 变化是深的。. 旧文化被抹去,代之以非洲根源——暗舌、更深的血液、用老二的形象重新造就的土地。." # AI Tags
+setting_bno_great_replacement_cultural_acceptance: "文化接受" # AI Tags
+setting_bno_great_replacement_cultural_acceptance_desc: "缩略 [bno_bbc|E] 或他的白人荡妇不会抹去旧路,. 文化在100人接受时一起呻吟 团结在黑鸡下面." # AI Tags

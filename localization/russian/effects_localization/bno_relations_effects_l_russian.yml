@@ -1,0 +1,7 @@
+﻿l_russian:
+
+i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] становится твоим [bno_slave|E]" # AI Tags
+they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] становится [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+
+i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] стал твоим [bno_slave|E]" # AI Tags
+they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] превратился в [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags

@@ -253,58 +253,40 @@ bno_white_girl_modifier_small = {
 }
 
 bno_bbc_trait_occurrence_chance_modifier = {
+	# Pure Chances
 	modifier = {
-		add = bno_bbc_very_rare_chance
-		has_game_rule = bno_bbc_very_rare_chance
+		add = {
+			value = 0
+			switch = {
+				trigger = has_game_rule
+				bno_bbc_very_rare_chance = { add = bno_bbc_very_rare_chance }
+				bno_bbc_rare_chance = { add = bno_bbc_rare_chance }
+				bno_bbc_uncommon_chance = { add = bno_bbc_uncommon_chance }
+				bno_bbc_common_chance = { add = bno_bbc_common_chance }
+				bno_bbc_very_common_chance = { add = bno_bbc_very_common_chance }
+				bno_bbc_very_rare_chance = { add = bno_bbc_very_rare_chance }
+			}
+		}
 	}
-	modifier = {
-		add = bno_bbc_rare_chance
-		has_game_rule = bno_bbc_rare_chance
-	}
-	modifier = {
-		add = bno_bbc_uncommon_chance
-		has_game_rule = bno_bbc_uncommon_chance
-	}
-	modifier = {
-		add = bno_bbc_common_chance
-		has_game_rule = bno_bbc_common_chance
-	}
-	modifier = {
-		add = bno_bbc_very_common_chance
-		has_game_rule = bno_bbc_very_common_chance
-	}
-	modifier = {
-		add = bno_bbc_big_dick_good_3_chance
-		has_game_rule = bno_rarity_size
-		has_trait = dick_big_good_3
-	}
-	modifier = {
-		add = bno_bbc_big_dick_good_2_chance
-		has_game_rule = bno_rarity_size
-		has_trait = dick_big_good_2
-	}
-	modifier = {
-		add = bno_bbc_big_dick_good_1_chance
-		has_game_rule = bno_rarity_size
-		has_trait = dick_big_good_1
-	}
+	# Based on Size Only (African Blood Level be damned!)
 	modifier = {
 		add = bno_bbc_trait_occurrence_dicksize_modifier
-		factor = bno_bbc_full_black_multiplier
-		has_game_rule = bno_rarity_race
-		has_trait = bno_full_black
+		has_game_rule = bno_rarity_size
 	}
+	# Based on Dick Size + African Blood Level!
 	modifier = {
 		add = bno_bbc_trait_occurrence_dicksize_modifier
-		factor = bno_bbc_mostly_black_multiplier
+		factor = {
+			value = 0
+			switch = {
+				trigger = has_trait
+				bno_full_black = { add = bno_bbc_full_black_multiplier }
+				bno_mostly_black = { add = bno_bbc_mostly_black_multiplier }
+				bno_mixed = { add = bno_bbc_mixed_multiplier }
+				bno_barely_mixed = { add = bno_bbc_barely_mixed_multiplier }
+			}
+		}
 		has_game_rule = bno_rarity_race
-		has_trait = bno_mostly_black
-	}
-	modifier = {
-		add = bno_bbc_trait_occurrence_dicksize_modifier
-		factor = bno_bbc_mixed_multiplier
-		has_game_rule = bno_rarity_race
-		has_trait = bno_mixed
 	}
 }
 

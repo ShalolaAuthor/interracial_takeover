@@ -63,7 +63,23 @@ bno_great_replacement_liege_effect = {
 		right_icon = scope:councillor
 		left_icon = scope:county
         bno_great_replacement_effect = yes
+		bno_add_seeded_sovereign = yes
+		scope:councillor = {
+			add_character_modifier = bno_broodmakers_hand
+		}
 		desc = bno_great_replacement_effect.desc
 		add_prestige = major_prestige_value
+	}
+}
+
+bno_add_seeded_sovereign = {
+	if = {
+		limit = {
+			OR = {
+				is_bbc = yes
+				is_slut = yes
+			}
+		}
+		add_character_modifier = bno_seeded_sovereign
 	}
 }

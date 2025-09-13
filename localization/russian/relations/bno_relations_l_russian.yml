@@ -1,0 +1,5 @@
+﻿l_russian:
+
+bno_slave: "[bno_slave|E]" # AI Tags
+relation_bno_slave: "BBC раб" # AI Tags
+relation_bno_slave_possessive: "Слуга Би-би-си" # AI Tags

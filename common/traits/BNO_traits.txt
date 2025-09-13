@@ -130,11 +130,8 @@ bno_caged = {
 	valid_sex = male
 	
 	physical = yes
-	attraction_opinion = -5
 	
 	same_opinion = 25
-	attraction_opinion = -25
-	spouse_opinion = -50
 	
 	martial = -3
 	prowess = -8
@@ -154,7 +151,7 @@ bno_castrated = {
 	
 	physical = yes
 	
-	attraction_opinion = -20
+	same_opinion = 25
 	
 	martial = -5
 	prowess = -8
@@ -173,11 +170,8 @@ bno_caged_futa = {
 	valid_sex = female
 
 	physical = yes
-	attraction_opinion = -5
 	
 	same_opinion = 25
-	attraction_opinion = -25
-	spouse_opinion = -50
 	
 	martial = -3
 	prowess = -8
@@ -193,8 +187,8 @@ bno_castrated_futa = {
 	valid_sex = female
 	
 	physical = yes
-	
-	attraction_opinion = -20
+
+	same_opinion = 25
 	
 	martial = -5
 	prowess = -8
@@ -1930,8 +1924,6 @@ bno_slave = {
 	
 	inherit_chance = 100
 	parent_inheritance_sex = female
-
-	valid_sex = female
 	
 	shown_in_ruler_designer = no
 }

@@ -11,7 +11,14 @@ bno_seed_bbc_trait_effect = {
     add_character_flag = bno_bbc_trait_seeded
     if = {
         limit = {
-            is_african = yes
+            has_trait = bno_blood
+        }
+        if = {
+            limit = {
+                NOT = { has_trait = dick_small_bad }
+                NOT = { has_trait = dick_big_good }
+            }
+            bno_lottery_dick_size = yes
         }
         random = {
             chance = 0

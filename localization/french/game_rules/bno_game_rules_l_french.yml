@@ -117,3 +117,15 @@ setting_bno_black_birth_on: "À" # AI Tags
 setting_bno_black_birth_on_desc: "Quand le ventre d'une reine gonfle avec un [bno_bbc|E] enfant, le berceau ne restera pas silencieux. Vous déciderez si elle se cache derrière la couronne de son mari…ou gémit la vérité, laissant l'héritier de l'étalon monter dans sa maison." # AI Tags
 setting_bno_black_birth_off: "Désactivé" # AI Tags
 setting_bno_black_birth_off_desc: "Son ventre peut être rempli par un [bno_bbc|E], mais le mensonge tient. L'enfant mixte est tranquillement passé comme le propre de son mari, la vérité étouffée derrière des murs pâles, quelle que soit la semence qui l'a vraiment élevée." # AI Tags
+
+rule_bno_bbc_forced_conversion: "@bnobbc! #X Prise de contrôle interracial :#! Conversion forcée de la BBC" # AI Tags
+setting_bno_bbc_forced_conversion_yes: "À" # AI Tags
+setting_bno_bbc_forced_conversion_yes_desc: "Quand un chef porte le poids d'un [bno_bbc|E], sa cour ne restera pas pâle longtemps. La culture se déplace vers les racines africaines, et le royaume s'agenouille vers l'Église de la Coq Noire, chaque couronne noircie par sa convoitise." # AI Tags
+setting_bno_bbc_forced_conversion_no: "Désactivé" # AI Tags
+setting_bno_bbc_forced_conversion_no_desc: "Même s'il règne avec un [bno_bbc|E], ses terres restent liées à l'ancienne foi et la culture. La bite noire se reproduit en secret, mais le royaume s'accroche à son masque pâle." # AI Tags
+
+rule_bno_great_replacement: "@bnobbc! #X Prise de contrôle interracial :#! Grand remplacement" # AI Tags
+setting_bno_great_replacement_converting: "Conversion des comtés" # AI Tags
+setting_bno_great_replacement_converting_desc: "Lorsqu'un [bno_bbc|E] ou ses pâles brodmares plient un comté à leur volonté, le changement est profond. La vieille culture est dépouillée, remplacée par des racines africaines, des langues sombres, du sang plus foncé, une terre refaite à l'image de sa queue." # AI Tags
+setting_bno_great_replacement_cultural_acceptance: "Acceptation culturelle" # AI Tags
+setting_bno_great_replacement_cultural_acceptance_desc: "Les [bno_bbc|E] ou sa salope blanche n'efface pas les vieilles manières — ils les lient. Les cultures gémissent ensemble à 100 acceptations, unie sous le Black Cock." # AI Tags

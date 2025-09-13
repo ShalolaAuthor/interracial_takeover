@@ -3,3 +3,7 @@
  great_replacement_effect_desc: ""
  cultural_acceptance_loss_replacement_culture: "被入侵"
  great_replacement_acceptance_effect_desc: "\n当地城镇和村庄将被更优秀的男人暴力入侵，并被迫进入再教育营，大多数人无法幸存..."
+bno_great_replacement.current_cultural_acceptance: "[cultural_acceptance|E]" # AI Tags
+bno_great_replacement_effect.title: "$great_replacement$ 成功!" # AI Tags
+bno_great_replacement_effect.desc: "征服重度之下的土地呻吟声. 古老的舌头曾经统治过的地方,非洲的话现在从每个嘴里传来。. 女王的子宫和女皇的子宫 [bno_bbc|E]士兵们向更深的鼓进军, 少女们张开大腿, 以获取更强的种子, 县本身也开始屈从。." # AI Tags
+bno_great_replacement_effect_cultural_acceptance: "郡人民被迫和睦相处. 阴暗和黑暗的舌头缠在一起, 呻吟声淹没了抗议, 直到每个文化 都弯曲在一起 敬拜 [bno_bbc|E]. . 曾经的"分裂"是现在的屈服—— 在他的阴茎顶端诞生的团结。." # AI Tags

@@ -117,3 +117,15 @@ setting_bno_black_birth_on: "Na" # AI Tags
 setting_bno_black_birth_on_desc: "Kiedy brzuch królowej wybuchnie [bno_bbc|E] Dziecko, kołyska nie będzie milczać. Ty zdecydujesz, czy ukryje się za koroną męża…czy gniewa prawdę, pozwalając spadkobiercy szczeniaka powstać w jego domu." # AI Tags
 setting_bno_black_birth_off: "Wyłącz się" # AI Tags
 setting_bno_black_birth_off_desc: "Jej brzuch może być wypełniony [bno_bbc|E], ale kłamstwo się utrzymuje. Dziecko mieszane jest cicho przekazywane jako własne męża, prawda udusiona za bladymi ścianami, bez względu na to, czyje nasienie naprawdę ją wychowywało." # AI Tags
+
+rule_bno_bbc_forced_conversion: "@bnobbc! #X Międzyrasyjne przejęcie:#! BBC Wymuszone nawrócenie" # AI Tags
+setting_bno_bbc_forced_conversion_yes: "Na" # AI Tags
+setting_bno_bbc_forced_conversion_yes_desc: "Kiedy rządźca nosi ciężar [bno_bbc|E]Jego dwór nie pozostanie długo blady. Kultura przesuwa się do afrykańskich korzeni, a królestwo klęka się przed Kościołem Czarnego Kurczaka, każda korona zaciemniona przez jego pożądanie." # AI Tags
+setting_bno_bbc_forced_conversion_no: "Wyłącz się" # AI Tags
+setting_bno_bbc_forced_conversion_no_desc: "Nawet jeśli rządzi [bno_bbc|E]Jego ziemie pozostają związane ze starą wiarą i kulturą. Czarny kurczak rozmnaża się w tajemnicy, ale królestwo trzyma się swojej bladej maski." # AI Tags
+
+rule_bno_great_replacement: "@bnobbc! #X Międzyrasyjne przejęcie:#! Wspaniały zastępca" # AI Tags
+setting_bno_great_replacement_converting: "Konwersja hrabstwa" # AI Tags
+setting_bno_great_replacement_converting_desc: "W przypadku [bno_bbc|E] albo jego blady broodmare wychyla hrabstwo do ich woli, zmiana przebiega głęboko. Stara kultura zostaje usunięta, zastąpiona afrykańskimi korzeniami ciemnymi językami, ciemniejszą krew, ziemią odtworzoną na obraz swojego kutasa." # AI Tags
+setting_bno_great_replacement_cultural_acceptance: "Akceptacja kulturowa" # AI Tags
+setting_bno_great_replacement_cultural_acceptance_desc: "Wydarz [bno_bbc|E] Albo jego biała dziwka nie usuwa starych nawyków. Kultury płaczą razem przy 100 akceptacjach, zjednoczone pod czarnym kurczakiem." # AI Tags

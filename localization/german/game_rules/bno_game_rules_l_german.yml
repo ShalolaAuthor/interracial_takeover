@@ -117,3 +117,15 @@ setting_bno_black_birth_on: "An" # AI Tags
 setting_bno_black_birth_on_desc: "Wenn der Bauch einer Königin mit einem [bno_bbc|E] Kind, die Wiege wird nicht schweigen. Sie entscheiden, ob sie sich hinter der Krone ihres Mannes versteckt oder die Wahrheit stöhnt und den Erben des Gestüts in seinem Haus auferstehen lässt." # AI Tags
 setting_bno_black_birth_off: "Aus" # AI Tags
 setting_bno_black_birth_off_desc: "Ihr Bauch kann von einem gefüllt werden [bno_bbc|E], aber die Lüge hält. Das gemischte Kind wird leise als das eigene ihres Mannes weitergegeben, die Wahrheit erstickt hinter blassen Mauern, egal, wessen Samen sie wirklich züchteten." # AI Tags
+
+rule_bno_bbc_forced_conversion: "@bnobbc! #X Interrassische Übernahme:#! BBC Zwangsumwandlung" # AI Tags
+setting_bno_bbc_forced_conversion_yes: "An" # AI Tags
+setting_bno_bbc_forced_conversion_yes_desc: "Wenn ein Herrscher das Gewicht eines [bno_bbc|E]Sein Hof wird nicht lange blass bleiben. Kultur verschiebt sich zu afrikanischen Wurzeln, und das Reich kniet vor der Kirche des schwarzen Schwanzes, jede Krone geschwärzt durch seine Lust." # AI Tags
+setting_bno_bbc_forced_conversion_no: "Aus" # AI Tags
+setting_bno_bbc_forced_conversion_no_desc: "Auch wenn er mit einem [bno_bbc|E], seine Ländereien bleiben an alten Glauben und Kultur gebunden. Der schwarze Hahn brütet im Verborgenen, aber das Königreich klammert sich an seine blasse Maske." # AI Tags
+
+rule_bno_great_replacement: "@bnobbc! #X Interrassische Übernahme:#! Großer Ersatz" # AI Tags
+setting_bno_great_replacement_converting: "Gebietsumstellung" # AI Tags
+setting_bno_great_replacement_converting_desc: "Wenn ein [bno_bbc|E] oder seine blasse Brutmare biegt eine Grafschaft nach ihrem Willen, die Veränderung verläuft tief. Die alte Kultur wird entfernt, durch afrikanische Wurzeln ersetzt — dunkle Zungen, dunkleres Blut, ein Land, das nach dem Bild seines Schwanzes wieder hergestellt wurde." # AI Tags
+setting_bno_great_replacement_cultural_acceptance: "Kulturelle Akzeptanz" # AI Tags
+setting_bno_great_replacement_cultural_acceptance_desc: "Das [bno_bbc|E] oder seine weiße Schlampe löscht nicht alte Wege — sie binden sie. Kulturen stöhnen zusammen bei 100 Akzeptanz, vereint unter dem schwarzen Schwanz." # AI Tags

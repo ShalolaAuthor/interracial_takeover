@@ -1,0 +1,5 @@
+﻿l_german:
+
+bno_slave: "[bno_slave|E]" # AI Tags
+relation_bno_slave: "BBC Sklave" # AI Tags
+relation_bno_slave_possessive: "Die Sklaven der BBC" # AI Tags

@@ -639,7 +639,7 @@ does_something_foreign_exist = {
                 $TRIGGER_KEY$ = yes
             }
             any_vassal_or_below = {
-              or = {
+              OR = {
                   $TRIGGER_KEY$ = yes
                   and = {
                       highest_held_title_tier >= tier_county

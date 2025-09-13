@@ -27,9 +27,13 @@ game_concept_bnwo_armies_desc: "Wydarz [men_at_arms|E] które wspierają ideały
 game_concept_bbc_evangelist: "BBC Evangelist" # AI Tags
 game_concept_bbc_evangelist_desc: "Z szepanymi obietnicami błogosławieństwa ponad zrozumienie śmiertelników i zapachem muska i przyprawy trzymających się ich olejowanej skóry, kapłanki i kapłani [bno_religion|E] Zwiedzają zarówno szlachetnych, jak i kobiet, zasiając nasienie uwielbienia potęgi ebony w sercach i w biodrach." # AI Tags
 
-game_concept_bno_bbc: "Wielki Czarny Kurczak" # AI Tags
-game_concept_bno_bbcs: "Wielkie czarne kury" # AI Tags
+game_concept_bno_bbc: "BBC" # AI Tags
+game_concept_bno_bbcs: "BBC" # AI Tags
 game_concept_bno_bbc_desc: "Termin używany do opisu potężnych i męskich czarnych mężczyzn, którzy dominują w seksie, ucieleśniając siłę, władzę i nienasycony apetyt na przyjemność." # AI Tags
 
 game_concept_bno_religion: "Kościół Czarnego Kurczaka" # AI Tags
 game_concept_bno_religion_desc: "Małżeńskie mięso wrzuca się pod sklepionymi sufitami, zabarwione świętym cumem, gdy wyznawcy poddają się nienasycającemu głodowi [bno_bbc|E] Czciony w ekstatycznej oddanie i wieczny, guturały płacz." # AI Tags
+
+game_concept_bno_slave: "BBC Niewolnik" # AI Tags
+game_concept_bno_slaves: "BBC Niewolnicy" # AI Tags
+game_concept_bno_slave_desc: "A $game_concept_bno_slave$ jest [character|E] który został całkowicie pozbawiony godności i oznaczony jako własność pod [bno_bnwo|E]- Nie , nie , nie . Są niewolnikami czarnego pana, istnieją tylko jako mięso do użycia, hodowania i złamania. Ich ciało, dziury, a nawet pokolenie należą całkowicie do ich właściciela.\n\nA $game_concept_bno_slave$ nie może posiadać ani dziedziczyć [titles|E], a wszystkie dzieci urodzone z łona niewolnika są automatycznie niewolnikami, wychowywane bezpośrednio w niewolnictwo. Biały mężczyzna lub niewolnik futa zostanie zamknięty w klatce lub kastratowany, aby zaprzeczyć mu fałszywej męskości, podczas gdy kobiety zostaną utrzymane płodne i otwarte na nasienie.\n\nJeśli pan umrze, własność wszystkich $game_concept_bno_slave$ przejdzie do ich [primary_heir|E], zapewniając, że pozostaną one związane przez pokolenia. Biała dziwka sama nie może posiadać niewolnika; musi mieć przynajmniej jedną BBC na swoim dworze, aby działać jako prawdziwy pan i egzekwować własność.\n\nA $game_concept_bno_slave$ Nigdy nie mogą żądać wolności przez prawo tylko poprzez wolę swoich mistrzów poprzez $carn_free_slave_interaction$ [character_interaction|E]- Nie , nie , nie . Ich los jest lekcją: [bno_bnwo|E]Na zawsze są własnością, na zawsze dziury do wypełnienia."   # AI Tags

@@ -1,0 +1,5 @@
+﻿l_polish:
+
+bno_slave: "[bno_slave|E]" # AI Tags
+relation_bno_slave: "Niewolnik BBC" # AI Tags
+relation_bno_slave_possessive: "Niewolnik BBC" # AI Tags

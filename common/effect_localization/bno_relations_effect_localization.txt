@@ -1,0 +1,8 @@
+﻿set_relation_bno_slave = {
+    first = i_gain_a_bno_slave
+    third = they_gain_a_bno_slave
+    global = they_gain_a_bno_slave
+    first_past = i_got_a_bno_slave
+    third_past = they_got_a_bno_slave
+    global_past = they_got_a_bno_slave
+}

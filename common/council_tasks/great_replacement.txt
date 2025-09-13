@@ -145,10 +145,6 @@ great_replacement = {
 				save_scope_as = liege_culture
 			}
 			bno_great_replacement_liege_effect = yes
-			add_character_modifier = bno_seeded_sovereign
-		}
-		scope:councillor = {
-			add_character_modifier = bno_broodmakers_hand
 		}
 	}
 	

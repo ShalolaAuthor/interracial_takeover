@@ -117,3 +117,15 @@ setting_bno_black_birth_on: "Acti" # AI Tags
 setting_bno_black_birth_on_desc: "Cuando el vientre de una reina se hincha con un [bno_bbc|E] niño, la cuna no se queda en silencio. Decidirás si se esconde detrás de la corona de su marido…o si gime la verdad, dejando que el heredero del semental se levante en su casa." # AI Tags
 setting_bno_black_birth_off: "Desact" # AI Tags
 setting_bno_black_birth_off_desc: "Su vientre puede estar lleno por un [bno_bbc|E], pero la mentira se mantiene. La niña mezclada es pasada silenciosamente como la propia de su marido, la verdad se ahogó detrás de paredes pálidas, no importa cuya semilla realmente la crió." # AI Tags
+
+rule_bno_bbc_forced_conversion: "@bnobbc! #X Toma Interracial:#! Conversión forzada de la BBC" # AI Tags
+setting_bno_bbc_forced_conversion_yes: "Acti" # AI Tags
+setting_bno_bbc_forced_conversion_yes_desc: "Cuando una regla lleva el peso de un [bno_bbc|E], su corte no permanecerá pálida por mucho tiempo. La cultura cambia a las raíces africanas, y el reino se arrodilla ante la Iglesia del Gallo Negro, cada corona ennegrecida por su lujuria." # AI Tags
+setting_bno_bbc_forced_conversion_no: "Desact" # AI Tags
+setting_bno_bbc_forced_conversion_no_desc: "Incluso si él gobierna con un [bno_bbc|E], sus tierras permanecen atadas a la antigua fe y cultura. El gallo negro se reproduce en secreto, pero el reino se aferra a su máscara pálida." # AI Tags
+
+rule_bno_great_replacement: "@bnobbc! #X Toma Interracial:#! Gran reemplazo" # AI Tags
+setting_bno_great_replacement_converting: "Conversión de Condado" # AI Tags
+setting_bno_great_replacement_converting_desc: "Cuándo un [bno_bbc|E] o su pálida cría dobla un condado a su voluntad, el cambio es profundo. La vieja cultura es despojada, reemplazada por raíces africanas…lenguas oscuras, sangre más oscura, una tierra rehecho a imagen de su polla." # AI Tags
+setting_bno_great_replacement_cultural_acceptance: "Aceptación cultural" # AI Tags
+setting_bno_great_replacement_cultural_acceptance_desc: "Los [bno_bbc|E] o su zorra blanca no borra las viejas costumbres, las atan. Cultures gimen juntos a 100 de aceptación, unidos bajo el Black Cock." # AI Tags

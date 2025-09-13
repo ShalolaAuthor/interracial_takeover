@@ -27,9 +27,13 @@ game_concept_bnwo_armies_desc: "이 [men_at_arms|E] 이 모든 것은 [bno_bnwo|
 game_concept_bbc_evangelist: "BBC 복음주의자" # AI Tags
 game_concept_bbc_evangelist_desc: "필사적 인 이해를 초월한 행복의 속삭임 약속과 머스크와 향기의 향기가 기름진 피부에 붙어있는 [bno_religion|E] 귀족과 여성을 유혹하고 심심과 허리에 에본의 힘을 숭배하는 씨앗을 심어줍니다." # AI Tags
 
-game_concept_bno_bbc: "빅 블랙 콕" # AI Tags
-game_concept_bno_bbcs: "큰 검은 수컷" # AI Tags
+game_concept_bno_bbc: "BBC" # AI Tags
+game_concept_bno_bbcs: "BBC" # AI Tags
 game_concept_bno_bbc_desc: "성적인 풍경을 지배하는 강력하고 남성적인 흑인 남성들을 묘사하는 용어로서 힘, 권위, 그리고 쾌락에 대한 불만족스러운 식욕을 나타냅니다." # AI Tags
 
 game_concept_bno_religion: "블랙 콕의 교회" # AI Tags
 game_concept_bno_religion_desc: "기름진 육체는 웅크한 천장 아래로 굴러오며 [bno_bbc|E] 웅장한 경건과 끊임없는 웅장한 울음으로 예배를 드리고 있습니다." # AI Tags
+
+game_concept_bno_slave: "BBC 노예" # AI Tags
+game_concept_bno_slaves: "BBC 노예" # AI Tags
+game_concept_bno_slave_desc: "A $game_concept_bno_slave$ a [character|E] 그는 완전히 존엄성을 박탈당하고 [bno_bnwo|E]. 흑인의 주인에게 노예로 잡혀서, 그들은 사용되고, 길러지고, 깨질 수 있는 육신으로만 존재합니다. 그들의 몸, 구멍, 심지어 그들의 혈통은 완전히 그들의 주인에게 있습니다.\n\nA $game_concept_bno_slave$ 소유하거나 상속할 수 없습니다 [titles|E], 그리고 노예 태장에서 태어난 모든 아이들은 자동적으로 노예가 되고 바로 노예로 자란다. 백인 남성 또는 푸타 노예는 거짓 남성성을 부정하기 위해 교두감에 갇히거나 배제됩니다. 암컷은 비옥하고 씨앗을 위해 열려 있습니다.\n\n주인이 죽으면 모든 소유권이 $game_concept_bno_slave$ 그들의 [primary_heir|E]세대를 넘나들며 묶여있다는 것을 보장합니다. 백인 은 스스로 노예를 소유할 수 없습니다. 그녀는 자신의 궁중에서 적어도 하나의 BBC가 있어야 진정한 주인으로 작용하고 소유권을 강제합니다.\n\nA $game_concept_bno_slave$ 절대 자유를 주장할 수 없습니다 $carn_free_slave_interaction$ [character_interaction|E]. 그들의 운명은 교훈입니다 [bno_bnwo|E], 그들은 영원히 소유물, 영원히 채워질 구멍입니다."   # AI Tags

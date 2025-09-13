@@ -27,9 +27,13 @@ game_concept_bnwo_armies_desc: "Los [men_at_arms|E] que defienden los ideales de
 game_concept_bbc_evangelist: "Evangelista de la BBC" # AI Tags
 game_concept_bbc_evangelist_desc: "Con promesas susurradas de felicidad más allá de la comprensión mortal y el olor de almizcle y especias que se aferran a su piel aceitada, las Sacerdotisas y Sacerdotes de la [bno_religion|E] seducir tanto a los nobles como a las mujeres, plantando la semilla de adoración por el poder del ébano en los corazones y lomos por igual." # AI Tags
 
-game_concept_bno_bbc: "Gran polla negra" # AI Tags
-game_concept_bno_bbcs: "Grandes pollas negras" # AI Tags
+game_concept_bno_bbc: "La BBC" # AI Tags
+game_concept_bno_bbcs: "Las BBC" # AI Tags
 game_concept_bno_bbc_desc: "Un término usado para describir a los hombres negros poderosos y viriles que dominan el paisaje sexual, encarnando fuerza, autoridad, y un apetito insaciable por el placer." # AI Tags
 
 game_concept_bno_religion: "Iglesia del Pollo Negro" # AI Tags
 game_concept_bno_religion_desc: "La carne aceitada se retuerce bajo techos abovedados, manchada con semen sagrado mientras los devotos se rinden al hambre insaciable de [bno_bbc|E] adorado en la devoción extática y perpetua, gemido gutural." # AI Tags
+
+game_concept_bno_slave: "Esclavo de la BBC" # AI Tags
+game_concept_bno_slaves: "Esclavos de la BBC" # AI Tags
+game_concept_bno_slave_desc: "En $game_concept_bno_slave$ es una [character|E] que ha sido completamente despojado de dignidad y catalogado como propiedad bajo la [bno_bnwo|E]. Esclavizados por un maestro negro, sólo existen como carne para ser usada, criada y rota. Su cuerpo, agujeros, e incluso su linaje pertenecen plenamente a su dueño.\n\nEn $game_concept_bno_slave$ no pueden poseer o heredar [titles|E], y cualquier hijo nacido de un vientre esclavo son automáticamente esclavos mismos, criados directamente en esclavitud. Un hombre blanco o esclavo futa será enjaulado o castrado para negarles la virilidad falsa, mientras que las hembras se mantienen fértiles y abiertas a la semilla.\n\nSi el amo muere, la propiedad de todos $game_concept_bno_slave$ pasarán a su [primary_heir|E], asegurándose de que permanecen encadenados a través de generaciones. Una zorra blanca no puede poseer a un esclavo; debe tener al menos una BBC en su corte para actuar como verdadero amo y hacer cumplir la propiedad.\n\nEn $game_concept_bno_slave$ nunca puede reclamar la libertad por derecho—sólo a través de la voluntad de su amo a través de la $carn_free_slave_interaction$ [character_interaction|E]. Su destino es una lección: bajo el [bno_bnwo|E], son para siempre propiedad, para siempre agujeros para ser llenados."   # AI Tags

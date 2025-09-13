@@ -117,3 +117,15 @@ setting_bno_black_birth_on: "На" # AI Tags
 setting_bno_black_birth_on_desc: "Когда брюх королевы надувается [bno_bbc|E] Ребенок, колыбель не будет молчать. Вы решаете, прячется ли она за короной своего мужа…или жалуется на правду, позволяя наследнику стада восстать в его доме." # AI Tags
 setting_bno_black_birth_off: "Отойди" # AI Tags
 setting_bno_black_birth_off_desc: "Ее живот может быть заполнен [bno_bbc|E], но ложь действует. Смешанное дитя тихо передается как собственное ее мужа, правда задушена за бледными стенами, независимо от того, чьи семена действительно породили ее." # AI Tags
+
+rule_bno_bbc_forced_conversion: "@bnobbc! #X Межрасовое приобретение:#! Би-би-си принудительное преобразование" # AI Tags
+setting_bno_bbc_forced_conversion_yes: "На" # AI Tags
+setting_bno_bbc_forced_conversion_yes_desc: "Когда управляющий носит вес [bno_bbc|E], его двор не останется бледным долго. Культура переходит к африканским корням, и королевство кланяется перед Церковью Черного Кока, каждая корона очернена его похотью." # AI Tags
+setting_bno_bbc_forced_conversion_no: "Отойди" # AI Tags
+setting_bno_bbc_forced_conversion_no_desc: "Даже если он правит с [bno_bbc|E], его земли остаются связаны с старой верой и культурой. Черный член размножается втайне, но королевство придерживается своей бледной маски." # AI Tags
+
+rule_bno_great_replacement: "@bnobbc! #X Межрасовое приобретение:#! Отличная замена" # AI Tags
+setting_bno_great_replacement_converting: "Преобразование графства" # AI Tags
+setting_bno_great_replacement_converting_desc: "Когда [bno_bbc|E] или его бледная жребийка склоняет графство к их воле, изменение проходит глубоко. Старую культуру изгоняют, заменяют африканскими корнями, тёмными языками, тёмной кровью, землей, сделанной по образу своего членя." # AI Tags
+setting_bno_great_replacement_cultural_acceptance: "Культурное принятие" # AI Tags
+setting_bno_great_replacement_cultural_acceptance_desc: "Сборник [bno_bbc|E] или его белая шлюха не стирает старые способы они связывают их. Культуры плачут вместе на 100 приемов, объединенные под черным куком." # AI Tags

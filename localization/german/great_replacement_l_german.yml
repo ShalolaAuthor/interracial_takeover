@@ -1,5 +1,9 @@
 ﻿l_german:
- great_replacement: "Ersatz" # AI Tags
+ great_replacement: "Großer Ersatz" # AI Tags
  great_replacement_effect_desc: "" # AI Tags
  cultural_acceptance_loss_replacement_culture: "Eingedrungen" # AI Tags
- great_replacement_acceptance_effect_desc: "\nLokale Städte und Dörfer werden von überlegenen Männern gewaltsam überfallen und in Umerziehungslager gezwungen. Die meisten überleben nicht…" # AI Tags
+ great_replacement_acceptance_effect_desc: "Lokale Städte und Dörfer werden von überlegenen Männern gewaltsam überfallen und in Umerziehungslager gezwungen. Die meisten überleben nicht…" # AI Tags
+bno_great_replacement.current_cultural_acceptance: "[cultural_acceptance|E]" # AI Tags
+bno_great_replacement_effect.title: "$great_replacement$ ist gelungen!!" # AI Tags
+bno_great_replacement_effect.desc: "Das Land stöhnt unter dem Gewicht der Eroberung. Wo einst blasse Zungen herrschten, verschütteten afrikanische Worte aus jedem Mund. Die Königin, die Gebärmutter und die [bno_bbc|E]Der Hahn hat eine neue Ordnung in Fleisch und Erde geschrieben — Soldaten marschieren zu dunkleren Trommeln, Mädchen breiteten ihre Schenkel für stärkere Samen aus, und die Grafschaft selbst wurde zur Unterwerfung gezüchtet." # AI Tags
+bno_great_replacement_effect_cultural_acceptance: "Die Grafschaft kreist unter erzwungener Harmonie. Pale und dunkle Zungen verflechten, Stöhnen ertrinken Protest, bis jede Kultur biegt zusammen in der Anbetung der [bno_bbc|E]… Was einst Teilung war, ist nun Unterwerfung — eine Einheit, die an der Spitze seines Schwanzes gezüchtet wurde." # AI Tags

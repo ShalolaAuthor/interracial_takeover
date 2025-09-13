@@ -37,3 +37,9 @@ bno_religion = {
     texture = "gfx/interface/icons/bno_icon.dds"
     parent = faith
 }
+
+bno_slave = {
+    texture = "gfx/interface/icons/traits/bno_slave.dds"
+    alias = { bno_slaves }
+    parent = relation
+}

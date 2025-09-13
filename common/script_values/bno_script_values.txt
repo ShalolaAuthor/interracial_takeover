@@ -77,6 +77,9 @@ bno_bbc_trait_occurrence_dicksize_modifier = { # Represents % chance of BBC occu
     dick_big_good_3 = { value = bno_bbc_big_dick_good_3_chance }
     dick_big_good_2 = { value = bno_bbc_big_dick_good_2_chance }
     dick_big_good_1 = { value = bno_bbc_big_dick_good_1_chance }
+	dick_small_bad_1 = { value = bno_bbc_small_dick_bad_1_chance }
+	dick_small_bad_2 = { value = bno_bbc_small_dick_bad_2_chance }
+	dick_small_bad_3 = { value = bno_bbc_small_dick_bad_3_chance }
     fallback = { value = 0 }
   }
 }

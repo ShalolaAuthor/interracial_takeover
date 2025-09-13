@@ -144,3 +144,5 @@ bno_primal_insight_decision.title.male: "왕 의 눈 아래: 원시적 인 통�
 bno_primal_insight_decision.desc.male: "공기는 산달나무와 머스크로 가득 차 있었습니다. 제 냄새는 제 두 번째 피부처럼 제 여신에게 붙어 있는 야스민 향과 섞여 있었습니다. 몇 주 동안, 그녀의 존재는 끊임없이 통증이 나를 어, 내 욕망의 해안에서 는 실크 물결이었다. 그녀는 내 궁전의 방들 속에서 연기와 같은 움직임을 보였고, 이성 파란 눈은 날 따라다니며 - 허리 아래로 떨기를 내리기 위해 맨 팔에 오래 머물렀다. 그녀의 웃음은 여름의 바람에 바람을 피우는 것과 같았으며, 그녀의 촉각은 나비 날개보다 가벼웠지만, 나는 그녀의 작은 손을 내 영혼에 branding 내 피부에 손가락 끝의 모든 날카로운 브러쉬로 느낄 수 있었다. 다가오는 날은 제 마음 속의 두 번째 박스처럼 뛰었습니다. 그녀가 다시 나에게 자신을 바칠 날이었습니다. 그리고 저는 그녀의 신성한 힘의 샘에서 깊이 마시고, 그 고대 의식의 불에 다시 변했습니다." # AI Tags
 bno_primal_insight_decision.confirm.male: "그럼, 사제여, 우리가 협상하자." # AI Tags
 bno_primal_insight_decision.tooltip.male: "당신은 얻을 것입니다 [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+
+bull_decision.effect: "거대한 [stress|E] 손실." # AI Tags

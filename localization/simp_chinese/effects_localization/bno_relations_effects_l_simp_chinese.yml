@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+
+i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为你的 [bno_slave|E]" # AI Tags
+they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为 [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+
+i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为你的 [bno_slave|E]" # AI Tags
+they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为 [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags

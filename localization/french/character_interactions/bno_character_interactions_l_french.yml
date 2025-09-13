@@ -20,3 +20,14 @@ bno_tincture_of_genesis_interaction.effect: "Tu nourriras ta femme [recipient.Ge
 
 bno_tincture_of_genesis_interaction.desc.female: "Je vais demander à mon mari de me transformer" # AI Tags
 bno_tincture_of_genesis_interaction.effect.female: "Votre mari vous donnera son sperme, votre seule source de nourriture." # AI Tags
+
+bno_prisoner_interaction: "Faire appliquer la suprématie de la BBC" # AI Tags
+bno_prisoner_interaction_desc: "Ce malheureux homme blanc pensait qu'il pouvait se tenir comme un homme. Maintenant, dans les chaînes, sa bite pathétique devient un jouet pour le jugement – soit enfermée pour toujours dans le fer froid, ou coupée entièrement pour faire place à un véritable élevage. Son destin est une leçon pour tous ceux qui oseraient résister au [bno_bnwo|E]C'est la règle." # AI Tags
+bno_prisoner_interaction_desc.futa: "Cette salope de feta pâle pensait que sa chair extra la rendait spéciale. Maintenant, enchaînée enchaînée, sa queue va se déchirer inutile dans une cage ou être piratée pour ne laisser qu'une queue dégoulinante pour la graine noire. Elle est un avertissement à tous les prétendants de race à moitié [bno_bnwo|E]C'est la règle."   # AI Tags
+bno_prisoner_interaction_desc.female: "Cette pute pâle croyait qu'elle avait de la dignité. Séparée et liée, elle apprend que ses trous sont sa seule valeur, sa race, sa rupture et sa traversée par ses maîtres noirs. Son humiliation est un spectacle, une leçon dans ce qui devient de toute femme qui défie la [bno_bnwo|E]La suprématie."   # AI Tags
+bno_prisoner_interaction.caging: "@bno_caged_icon! Fermez leur queue blanche boiteuse dans une cage en acier serré"   # AI Tags
+bno_prisoner_interaction.castrating: "@bno_castrated_icon! Coupez leur pathétique puits, ne laissant qu'un trou d'élevage"   # AI Tags
+bno_prisoner_interaction.slaving: "@bno_slave_icon! Détruisez sa dignité — transformez-la en esclave de la BBC" # AI Tags
+bno_prisoner_interaction.has_bbc_in_court: "Une salope blanche n'a pas de vrai pouvoir, elle est seulement destinée à se reproduire. Pour cager, castrer ou asservir une autre, elle doit avoir au moins une BBC dans sa cour pour agir comme la main de la domination et exécuter l'acte."   # AI Tags
+bno_prisoner_interaction.not_caged: "Cette bite blanche inutile est déjà enfermée dans le fer, niée pour toujours." # AI Tags
+bno_prisoner_interaction.not_castrated: "Il n'y a plus rien à couper, cette salope a déjà été dépouillée de virilité."   # AI Tags

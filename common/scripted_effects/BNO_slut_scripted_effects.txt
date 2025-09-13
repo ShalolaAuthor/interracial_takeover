@@ -1861,11 +1861,7 @@ slut_whoring = {
 	}
 	if = {
 		limit = {
-			OR = {
-				has_trait = beauty_good_1
-				has_trait = beauty_good_2
-				has_trait = beauty_good_3
-			}
+			has_trait = beauty_good
 		}
 		add_character_modifier = {
 			modifier = bno_pretty_whore_for_bbc

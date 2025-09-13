@@ -1,5 +1,9 @@
 ﻿l_russian:
- great_replacement: "Замена" # AI Tags
+ great_replacement: "Отличная замена" # AI Tags
  great_replacement_effect_desc: "" # AI Tags
  cultural_acceptance_loss_replacement_culture: "Нападение" # AI Tags
- great_replacement_acceptance_effect_desc: "\nМестные города и деревни будут жестоко вторгнуты превосходными людьми и вынуждены в лагеря переобразования. Большинство не выживет…" # AI Tags
+ great_replacement_acceptance_effect_desc: "Местные города и деревни будут жестоко вторгнуты превосходными людьми и вынуждены в лагеря переобразования. Большинство не выживет…" # AI Tags
+bno_great_replacement.current_cultural_acceptance: "[cultural_acceptance|E]" # AI Tags
+bno_great_replacement_effect.title: "$great_replacement$ Успел!!" # AI Tags
+bno_great_replacement_effect.desc: "Земля плачет под тяжестью завоевания. Там, где когда-то господствовали бледые языки, африканские слова теперь выходят из всех уст. У матери королевы и [bno_bbc|E]Солдаты маршируют на более темные барабаны, девчонки расширяют свои бедра для более сильного семена, и сам округ был воспитан в подчинении." # AI Tags
+bno_great_replacement_effect_cultural_acceptance: "Графство скручивается под принудительной гармонией. Бледые и темные языки переплетаются, скорби утопают протест, пока каждая культура не склонится вместе в поклонении [bno_bbc|E]- Нет , нет . То, что когда-то было разделением, теперь подчинение - единство, выращенное в конце своего членя." # AI Tags

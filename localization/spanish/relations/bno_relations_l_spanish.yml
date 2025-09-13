@@ -1,0 +1,5 @@
+﻿l_spanish:
+
+bno_slave: "[bno_slave|E]" # AI Tags
+relation_bno_slave: "Esclavo de la BBC" # AI Tags
+relation_bno_slave_possessive: "Esclavo de la BBC" # AI Tags

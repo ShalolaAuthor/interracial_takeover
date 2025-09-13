@@ -7,7 +7,11 @@ bno_bbc_very_common_chance = 50
 bno_bbc_big_dick_good_3_chance = 100
 bno_bbc_big_dick_good_2_chance = 50
 bno_bbc_big_dick_good_1_chance = 25
+bno_bbc_small_dick_bad_1_chance = 12.5
+bno_bbc_small_dick_bad_2_chance = 6.25
+bno_bbc_small_dick_bad_3_chance = 3.125
 #Multiplier
 bno_bbc_full_black_multiplier = 1.0
 bno_bbc_mostly_black_multiplier = 0.75
 bno_bbc_mixed_multiplier = 0.5
+bno_bbc_barely_mixed_multiplier = 0.25

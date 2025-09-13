@@ -27,9 +27,13 @@ game_concept_bnwo_armies_desc: "Les [men_at_arms|E] qui soutiennent les idéaux 
 game_concept_bbc_evangelist: "BBC Évangéliste" # AI Tags
 game_concept_bbc_evangelist_desc: "Avec des promesses chuchotées de bonheur au-delà de la compréhension mortelle et l'odeur de musc et d'épices accrochées à leur peau huilée, les prêtresses et les prêtres de la [bno_religion|E] séduisent les nobles et les femmes, semant la semence de l'adoration pour le pouvoir ébène dans les cœurs et les reins." # AI Tags
 
-game_concept_bno_bbc: "Le gros coq noir" # AI Tags
-game_concept_bno_bbcs: "Gros Coqs Noirs" # AI Tags
+game_concept_bno_bbc: "La BBC" # AI Tags
+game_concept_bno_bbcs: "Les BBC" # AI Tags
 game_concept_bno_bbc_desc: "Un terme utilisé pour décrire les hommes noirs puissants et viril qui dominent le paysage sexuel, incarnant la force, l'autorité, et un appétit insatiable pour le plaisir." # AI Tags
 
 game_concept_bno_religion: "Église de la Coq Noire" # AI Tags
 game_concept_bno_religion_desc: "La chair huilée s'écrie sous les plafonds voûtés, tachée de sperme sacré comme des dévots se rendant à la faim insatiable de [bno_bbc|E] adoré dans la dévotion extatique et les gémissements perpétuels et intestinaux." # AI Tags
+
+game_concept_bno_slave: "BBC Esclave" # AI Tags
+game_concept_bno_slaves: "BBC Esclaves" # AI Tags
+game_concept_bno_slave_desc: "Une $game_concept_bno_slave$ est un [character|E] qui ont été totalement dépouillés de dignité et ont été considérés comme des biens [bno_bnwo|E]C'est vrai. Asservis par un maître noir, ils n'existent que comme chair à utiliser, élevé et brisé. Leur corps, leurs trous et même leur lignée appartiennent entièrement à leur propriétaire.\n\nUne $game_concept_bno_slave$ ne peut détenir ni hériter [titles|E], et tous les enfants nés d'un sein d'esclave sont automatiquement esclaves eux-mêmes, élevés directement dans l'esclavage. Un homme blanc ou un esclave futa sera mis en cage ou castré pour leur refuser la fausse virilité, tandis que les femelles sont gardées fertiles et ouvertes pour la semence.\n\nSi le maître meurt, la propriété de tous $game_concept_bno_slave$ passeront à leur [primary_heir|E], en s'assurant qu'ils restent enchaînés au fil des générations. Une salope blanche ne peut pas posséder elle-même un esclave ; elle doit avoir au moins une BBC dans son tribunal pour agir comme véritable maître et faire respecter la propriété.\n\nUne $game_concept_bno_slave$ ne peut jamais revendiquer la liberté par le droit — seulement par l'intermédiaire de leur maître $carn_free_slave_interaction$ [character_interaction|E]C'est vrai. Leur sort est une leçon: [bno_bnwo|E], ils sont pour toujours la propriété, pour toujours des trous à remplir."   # AI Tags
