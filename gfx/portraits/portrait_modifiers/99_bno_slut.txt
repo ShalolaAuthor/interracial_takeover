@@ -553,3 +553,96 @@ bno_pure_white_hairstyles = {
 		}
 	}
 }
+
+bno_slave = { #changes for any female slave with bbc owner
+	usage = game
+	priority = 999
+	bbc_slave = {
+		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = dressed
+				template = undressed
+				value = 1
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+			accessory = {
+                mode = add
+                gene = headgear
+                template = no_headgear
+                value = 0
+            }
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 100
+				has_game_rule = bno_tattoo_yes
+				OR = {
+					AND = {
+						has_trait = slave
+						is_a_girl = yes
+						is_adult = yes
+						liege = {
+							has_trait = bno_bbc
+						}
+					}
+					has_trait = bno_slave
+				}
+			}
+		}
+	}
+}
+
+bimbo = {
+	usage = game
+	bimbo = {
+		
+		dna_modifiers = {
+			color = { #changes hair color
+				gene = hair_color
+				mode = modify
+				
+				x = 0.1
+				y = 0
+			}
+			accessory = {
+				mode = add
+				gene = dressed
+				template = undressed
+				value = 1
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+			morph = { #pink lipstick
+				mode = add
+				gene = lipstick
+				template = pink_matte
+				value = 1.0
+			}
+			morph = {
+				mode = add
+				gene = gene_cumshots_oral
+				value = 1.0
+				template = cumshots_oral_1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1000
+				has_character_flag = bimbo
+				is_body_modification_ok = yes
+			}
+		}
+	}
+}

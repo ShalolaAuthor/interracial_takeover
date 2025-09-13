@@ -38,6 +38,12 @@ bno_events00 = {
 			NOT = { has_game_rule = bno_invite_bbc_decision_off }	
 		}
 	}
+	is_valid = {
+		any_courtier_or_guest = {
+			is_bbc = yes
+			count <= 5
+		}
+	}
 	cooldown = {
 		months = 12
 	}
@@ -60,6 +66,10 @@ bno_events00 = {
 	ai_check_interval = 1
 	ai_potential = {
 		is_ruler = yes
+		any_courtier_or_guest = {
+			is_bbc = yes
+			count <= 5
+		}
 	}
 	ai_will_do = {
 		base = 0
@@ -229,6 +239,13 @@ bno_invite_slut_decision = {
 		}
 	}
 
+	is_valid = {
+		any_courtier_or_guest = {
+			has_trait = bno_pure_white
+			count <= 3
+		}
+	}
+
 	cooldown = {
 		months = 12
 	}
@@ -251,6 +268,10 @@ bno_invite_slut_decision = {
 	ai_check_interval = 1
 	ai_potential = {
 		is_ruler = yes
+		any_courtier_or_guest = {
+			has_trait = bno_pure_white
+			count <= 3
+		}
 	}
 	ai_will_do = {
         base = 0

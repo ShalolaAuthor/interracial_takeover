@@ -136,6 +136,8 @@ bbc_worshipper_whoring_around = {
             bbc_worshipper_service_fee = {
                 PAYEE = scope:rich_bbc
             }
+            carn_sex_scene_no_pregnancy_effect = yes
+			carn_sex_scene_no_drama_effect = yes
             bno_have_sex_with_effects = {
                 PARTNER = scope:rich_bbc
             }

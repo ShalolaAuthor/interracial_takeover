@@ -44,7 +44,7 @@ bno_random_xp_negative = {
 hair_color_x = {
    value = -1
    multiply = var:bno_becoming_dark
-   multiply = 0.2
+   multiply = 0.3
 }
 #positive is lighter
 hair_color_y = {

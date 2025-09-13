@@ -1720,6 +1720,8 @@ fuck_random_local_bbc = {
 				right_icon = root
 				service_fee = yes
 				prostitution = yes
+				carn_sex_scene_no_pregnancy_effect = yes
+				carn_sex_scene_no_drama_effect = yes
 				bno_have_sex_with_effects = {
 					PARTNER = scope:local_bbc
 				}
