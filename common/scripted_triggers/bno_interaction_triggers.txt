@@ -10,11 +10,7 @@
 }
 
 bno_prisoner_is_valid_actor_trigger = {
-    is_adult = yes
-    OR = {
-        is_slut = yes
-        is_bbc = yes
-    }
+    bno_basic_interaction_valid_actor = yes
     trigger_if = {
         limit = {
             is_a_girl = yes
@@ -23,6 +19,14 @@ bno_prisoner_is_valid_actor_trigger = {
     }
     trigger_else = {
         always = yes
+    }
+}
+
+bno_basic_interaction_valid_actor = {
+    is_adult = yes
+    OR = {
+        is_slut = yes
+        is_bbc = yes
     }
 }
 
@@ -47,6 +51,15 @@ bno_is_there_any_bbc_in_the_court_trigger = {
         any_spouse = {
             bno_adult_bbc_actor_trigger = yes
         }
+    }
+}
+
+bno_is_there_any_bbc_courtier = {
+    save_temporary_scope_as = temp_actor
+    any_courtier = {
+        NOT = { is_spouse_of = scope:temp_actor }
+        bno_adult_bbc_actor_trigger = yes
+        count > 2
     }
 }
 

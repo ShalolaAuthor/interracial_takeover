@@ -1,15 +1,21 @@
-﻿# character interaction for sneaking a BBC into a foriegn court
+﻿# character interaction for sneaking a BBC into a foreign court
 
 sneak_bbc = {
-	category = interaction_category_vassal
+	category = interaction_category_diplomacy
+	interface_priority = 999
+	icon = icon_sneak_bbc
 	common_interaction = yes
 	force_notification = yes
 	greeting = negative
 	desc = sneak_bbc_desc
+	use_diplomatic_range = yes
 	
 	populate_actor_list = {
 		scope:actor = {
 			every_courtier = {
+				limit = {
+					bno_adult_bbc_actor_trigger = yes
+				}
 				add_to_list = characters
 			}
 		}
@@ -17,18 +23,23 @@ sneak_bbc = {
 	
 	is_shown = {
 		NOT = { scope:recipient = scope:actor }
-		scope:recipient = { is_ruler = yes }
+		scope:recipient = { 
+			is_ruler = yes
+			is_adult = yes
+			is_bbc = no
+		}
 		scope:actor = {
-			OR = {
-				has_trait = bno_bbc
-				has_trait = bno_whitegirl
-			}
+			bno_basic_interaction_valid_actor = yes
 		}
 	}
-	
-	can_be_picked = {
-		NOT = { scope:recipient = root }
-		has_trait = bno_bbc
+
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			custom_tooltip = {
+				text = sneak_bbc.has_bbc_in_court
+				bno_is_there_any_bbc_courtier = yes
+			}
+		}
 	}
 	
 	on_accept = {
@@ -56,69 +67,56 @@ sneak_bbc = {
 		modifier = {
 			add = 5
 			desc = BBC_cg_spy_reason
-			trigger = {
-				scope:recipient = {
-					any_courtier_or_guest = {
-						has_trait = bno_whitegirl
-					}
+			scope:recipient = {
+				any_courtier_or_guest = {
+					has_trait = bno_whitegirl
 				}
 			}
 		}
 		
 		modifier = {
-			add = {value = 10}
+			add = 10
 			desc = BBC_family_spy_reason
-			trigger = {
-				scope:recipient = {
-					any_close_family_member = {
-						has_trait = bno_whitegirl
-					}
+			scope:recipient = {
+				any_close_family_member = {
+					is_slut = yes
 				}
 			}
 		}
 		
 		modifier = {
-			add = {value = 10}
+			add = 10
 			desc = BBC_curious_reason
-			trigger = {
-				scope:recipient = {
-					has_trait = bno_curious
-				}
+			scope:recipient = {
+				is_bno_curious = yes
 			}
 		}
 		
 		modifier = {
-			add = {value = 25}
+			add = 25
 			desc = BBC_fucked_reason
-			trigger = {
-				scope:recipient = {
-					OR = {
-						has_trait = bno_snowbunny
-						has_trait = bno_blacked
-						has_trait = bno_mindless_bbc_slut
-					}
-				}
+			scope:recipient = {
+				is_bno_snowbunny_and_up = yes
 			}
 		}
 		
 		modifier = {
-			add = {value = 50}
+			add = 50
 			desc = BBC_slut_reason
-			trigger = {
-				scope:recipient = {
-					has_trait = bno_mindless_bbc_slut
-				}
+			scope:recipient = {
+				is_bno_mindless_bbc_slut = yes
 			}
 		}
-		
-		modifier = {
-			add = {value = 50}
-			desc = BBC_welcome_reason
-			trigger = {
-				scope:recipient = {
-					has_trait = bno_bbc
-				}
-			}
-		}
+	}
+
+	ai_targets = {
+		ai_recipients = neighboring_rulers_including_tributary_borders
+	}
+
+	ai_frequency = 1
+
+	ai_potential = {
+		bno_basic_interaction_valid_actor = yes
+		bno_is_there_any_bbc_courtier = yes
 	}
 }
