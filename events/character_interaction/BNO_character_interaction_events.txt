@@ -21,9 +21,6 @@ bno_character_interaction.0001 = { #child influence success
 	}
 	
 	immediate = {
-		#		scope:recipient = {
-			#			set_favorite_toy_effect = yes
-			#		}
 	}
 	
 	option = {

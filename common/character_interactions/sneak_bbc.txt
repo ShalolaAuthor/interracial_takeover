@@ -21,6 +21,8 @@ sneak_bbc = {
 		}
 	}
 	
+	cooldown_against_recipient = { months = 6 }
+
 	is_shown = {
 		NOT = { scope:recipient = scope:actor }
 		scope:recipient = { 
@@ -38,6 +40,15 @@ sneak_bbc = {
 			custom_tooltip = {
 				text = sneak_bbc.has_bbc_in_court
 				bno_is_there_any_bbc_courtier = yes
+			}
+		}
+		scope:recipient = {
+			custom_tooltip = {
+				text = sneak_bbc.already_has_bbc_in_court
+				any_courtier = {
+					is_bbc = yes
+					count < 3
+				}
 			}
 		}
 	}
@@ -113,10 +124,15 @@ sneak_bbc = {
 		ai_recipients = neighboring_rulers_including_tributary_borders
 	}
 
-	ai_frequency = 1
+	ai_frequency = 6
 
 	ai_potential = {
 		bno_basic_interaction_valid_actor = yes
 		bno_is_there_any_bbc_courtier = yes
 	}
+
+	ai_will_do = {
+        base = 0
+        bno_white_girl_modifier_biggest = yes
+    }
 }

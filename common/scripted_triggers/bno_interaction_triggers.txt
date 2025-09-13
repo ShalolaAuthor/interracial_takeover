@@ -59,7 +59,7 @@ bno_is_there_any_bbc_courtier = {
     any_courtier = {
         NOT = { is_spouse_of = scope:temp_actor }
         bno_adult_bbc_actor_trigger = yes
-        count > 2
+        count > 1
     }
 }
 
