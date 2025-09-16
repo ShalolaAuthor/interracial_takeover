@@ -24,12 +24,21 @@
         }
 	}
 
+	is_valid_showing_failures_only = {
+		scope:actor = {
+			can_start_scheme = {
+				type = bno_bbc_cum_addiction
+				target_character = scope:recipient
+			}
+		}
+	}
+
 	on_accept = {
 		scope:actor = {
 			send_interface_toast = {
 				type = bno_blacked_events
 				title = bno_bbc_cum_addiction_interaction.title
-				custom_tooltip = bno_bbc_cum_addiction_interaction.tooltip
+				desc = bno_bbc_cum_addiction_interaction.tooltip
 				left_icon = scope:actor
 				right_icon = scope:recipient
 

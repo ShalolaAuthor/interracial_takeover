@@ -1320,13 +1320,12 @@ bno_cuck.0011 = {
 	}
 	option = {
 		name = bno_cuck_0011.a
-		scope:target2 ?= {
-			if = {
-				limit = {
-					exists = betrothed
-				}
-				break_betrothal = betrothed
+		scope:target1 ?= {
+			betrothed ?= {
+				break_betrothal = scope:target1
 			}
+		}
+		scope:target2 ?= {
 			create_betrothal = scope:target1
 			set_relation_ward = scope:target1
 		}

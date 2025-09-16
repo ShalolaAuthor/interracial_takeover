@@ -830,7 +830,7 @@
 				type = bno_blacked_events
 				title = bno_bbc_cum_addiction.invalidated.title
 				left_icon = scope:target
-				custom_tooltip = bno_bbc_cum_addiction.invalidated.tooltip
+				desc = bno_bbc_cum_addiction.invalidated.tooltip
 			}
 		}
 	}

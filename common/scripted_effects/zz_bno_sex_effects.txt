@@ -81,6 +81,9 @@
                                 is_immortal = yes
                                 is_visibly_fertile = yes
                             }
+							scope:father = {
+								is_male = yes
+							}
                         }
 					    make_pregnant_no_checks = {
 					    	father = scope:father

@@ -129,6 +129,26 @@
                     modifier = disappointed_opinion
                     opinion = -50
                 }
+                depose = yes
+                hidden_effect = {
+                    if = {
+                        limit = { is_married = yes }
+                        every_spouse = {
+                            divorce = scope:recipient
+                        }
+                    }
+                    if = {
+                        limit = { exists = betrothed }
+                        break_betrothal = betrothed
+                    }
+                    every_concubine = {
+                        scope:recipient = { remove_concubine = prev }
+                    }
+                    every_relation = {
+                        type = guardian
+                        remove_relation_ward = prev
+                    }
+                }
                 release_from_prison = yes
             }
         }
@@ -193,7 +213,10 @@
         scope:actor = {
             if = {
                 limit = {
-                    scope:recipient = { NOT = { is_courtier_of = scope:actor } }
+                    scope:recipient = { 
+                        NOT = { is_courtier_of = scope:actor }
+                        is_ruler = no
+                    }
                 }
                 hidden_effect = { add_courtier = scope:recipient }
             }

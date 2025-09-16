@@ -109,6 +109,7 @@ bno_black_birth.0001 = {
         name = bno_black_birth.0001.b
         trigger = {
             scope:real_father = {
+                is_lowborn = no
                 is_playable_character = yes
             }
         }

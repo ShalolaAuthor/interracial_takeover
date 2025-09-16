@@ -747,7 +747,7 @@ bno_bbc_priestess_salary = {
     value = major_court_position_salary # Update X_salary_tooltip if script_value is changed
 	# Set to 0 with Dynasty Perk Inner Circle
 	if = {
-		limit = { court_position_inner_circle_salary_trigger = { POS = bno_bbc_worshipper } }
+		limit = { court_position_inner_circle_salary_trigger = { POS = bno_bbc_priestess } }
 		multiply = {
 			value = 0
 			desc = inner_circle_salary_mod
@@ -895,7 +895,7 @@ bno_bbc_priest_salary = {
     value = major_court_position_salary # Update X_salary_tooltip if script_value is changed
 	# Set to 0 with Dynasty Perk Inner Circle
 	if = {
-		limit = { court_position_inner_circle_salary_trigger = { POS = bno_bbc_worshipper } }
+		limit = { court_position_inner_circle_salary_trigger = { POS = bno_bbc_priest } }
 		multiply = {
 			value = 0
 			desc = inner_circle_salary_mod

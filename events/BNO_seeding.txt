@@ -52,6 +52,7 @@ bno_trait_seeding.0002 = {
 	immediate = {
 		if = {
 			limit = {
+				has_game_rule = bno_seeding_yes
 				NOT = { has_character_flag = bno_bbc_trait_seeded }
 			}
 			bno_seed_bbc_trait_effect = yes
@@ -221,10 +222,26 @@ bno_trait_seeding.0009 = {
 						is_faith_bbcs = yes
 					}
 				}
-				set_character_faith_with_conversion = liege.faith
+				if = {
+					limit = {
+						exists = top_liege
+					}
+					set_character_faith_with_conversion = liege.faith
+				}
+				else = {
+					set_character_faith = liege.faith
+				}
 			}
 			else = {
-				set_character_faith_with_conversion = faith:bbcs
+				if = {
+					limit = {
+						exists = top_liege
+					}
+					set_character_faith_with_conversion = faith:bbcs
+				}
+				else = {
+					set_character_faith = faith:bbcs
+				}
 			}
 		}
 		trigger_event = bno_trait_seeding.0010
