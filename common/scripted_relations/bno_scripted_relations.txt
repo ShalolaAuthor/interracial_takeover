@@ -8,3 +8,13 @@ bno_slave_owner = {
     corresponding = bno_slave
     opinion = 100
 }
+
+bno_cum_slave = {
+    corresponding = bno_cum_slave_owner
+    special_guest = yes
+}
+
+bno_cum_slave_owner = {
+    corresponding = bno_cum_slave
+    opinion = 100
+}

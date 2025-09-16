@@ -1,0 +1,151 @@
+﻿bno_cum_addiction_1 = {
+    category = lifestyle
+    group = bno_cum_addiction
+    level = 1
+    physical = yes
+    shown_in_ruler_designer = no
+    valid_sex = female
+
+    fertility = 0.15
+    stress_loss_mult = 0.05
+    owned_personal_scheme_success_chance_add = 3
+    learning = -2
+
+    track = {
+        30 = { fertility = 0.05 owned_personal_scheme_success_chance_add = 2 }
+        60 = { stress_loss_mult = 0.05 learning = -1 }
+        90 = { fertility = 0.05 owned_personal_scheme_success_chance_add = 2 }
+    }
+
+    name = {
+        first_valid = {
+            triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_cum_addiction_1.1 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_1 value >= 90 } } desc = bno_cum_addiction_1.4 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_1 value >= 60 } } desc = bno_cum_addiction_1.3 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_1 value >= 30 } } desc = bno_cum_addiction_1.2 }
+            desc = bno_cum_addiction_1.1
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_cum_addiction_1.desc.1 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_1 value >= 90 } } desc = bno_cum_addiction_1.desc.4 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_1 value >= 60 } } desc = bno_cum_addiction_1.desc.3 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_1 value >= 30 } } desc = bno_cum_addiction_1.desc.2 }
+            desc = bno_cum_addiction_1.desc.1
+        }
+    }
+}
+
+bno_cum_addiction_2 = {
+    category = lifestyle
+    group = bno_cum_addiction
+    level = 2
+    physical = yes
+    shown_in_ruler_designer = no
+    valid_sex = female
+
+    fertility = 0.25
+    stress_loss_mult = 0.10
+    owned_personal_scheme_success_chance_add = 7
+    learning = -3
+    maa_damage_mult = 0.05
+    dread_gain_mult = 0.02
+    stress_gain_mult = 0.05
+
+    track = {
+        30 = { fertility = 0.05 maa_damage_mult = 0.02 }
+        60 = { owned_personal_scheme_success_chance_add = 2 learning = -1 }
+        90 = { stress_loss_mult = 0.05 dread_gain_mult = 0.02 }
+    }
+
+    name = {
+        first_valid = {
+            triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_cum_addiction_2.1 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_2 value >= 90 } } desc = bno_cum_addiction_2.4 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_2 value >= 60 } } desc = bno_cum_addiction_2.3 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_2 value >= 30 } } desc = bno_cum_addiction_2.2 }
+            desc = bno_cum_addiction_2.1
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_cum_addiction_2.desc.1 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_2 value >= 90 } } desc = bno_cum_addiction_2.desc.4 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_2 value >= 60 } } desc = bno_cum_addiction_2.desc.3 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_2 value >= 30 } } desc = bno_cum_addiction_2.desc.2 }
+            desc = bno_cum_addiction_2.desc.1
+        }
+    }
+}
+
+bno_cum_addiction_3 = {
+    category = lifestyle
+    group = bno_cum_addiction
+    level = 3
+    physical = yes
+    shown_in_ruler_designer = no
+    valid_sex = female
+
+    fertility = 0.35
+    stress_loss_mult = 0.15
+    owned_personal_scheme_success_chance_add = 11
+    learning = -5
+    maa_damage_mult = 0.10
+    maa_toughness_mult = 0.08
+    levy_size = 0.10
+    dread_gain_mult = 0.05
+    stress_gain_mult = 0.10
+    monthly_prestige = -0.2
+
+    track = {
+        30 = { fertility = 0.05 maa_damage_mult = 0.03 }
+        60 = { owned_personal_scheme_success_chance_add = 3 levy_size = 0.05 }
+        90 = { stress_loss_mult = 0.05 maa_toughness_mult = 0.05 learning = -2 }
+    }
+
+    name = {
+        first_valid = {
+            triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_cum_addiction_3.1 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_3 value >= 90 } } desc = bno_cum_addiction_3.4 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_3 value >= 60 } } desc = bno_cum_addiction_3.3 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_3 value >= 30 } } desc = bno_cum_addiction_3.2 }
+            desc = bno_cum_addiction_3.1
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_cum_addiction_3.desc.1 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_3 value >= 90 } } desc = bno_cum_addiction_3.desc.4 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_3 value >= 60 } } desc = bno_cum_addiction_3.desc.3 }
+            triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_cum_addiction_3 value >= 30 } } desc = bno_cum_addiction_3.desc.2 }
+            desc = bno_cum_addiction_3.desc.1
+        }
+    }
+}
+
+bno_cum_addiction_4 = {
+    category = lifestyle
+    group = bno_cum_addiction
+    level = 4
+    physical = yes
+    shown_in_ruler_designer = no
+    valid_sex = female
+
+    fertility = 0.50
+    stress_loss_mult = 0.25
+    owned_personal_scheme_success_chance_add = 15
+    learning = -8
+    maa_damage_mult = 0.20
+    maa_toughness_mult = 0.20
+    levy_size = 0.20
+    levy_reinforcement_rate = 0.10
+    dread_gain_mult = 0.10
+    dread_baseline_add = 4
+    stress_gain_mult = 0.20
+    monthly_prestige = -0.3
+    monthly_piety = -0.3
+
+    name = bno_cum_addiction_4.1
+    desc = bno_cum_addiction_4.desc.1
+}

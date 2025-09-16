@@ -1594,27 +1594,31 @@ bno_bbc_whore_1 = {
 	group = bno_bbc_whore
 	level = 1
 	physical = yes
+	
 	shown_in_ruler_designer = no
+
 	valid_sex = female
+
 	attraction_opinion = 10
 	spouse_opinion = 5
 	general_opinion = -5
+
 	diplomacy = 1
 	intrigue = 1
+
 	monthly_lifestyle_xp_gain_mult = 0.05
 	owned_personal_scheme_success_chance_add = 10
 	owned_scheme_secrecy_add = 5
 	personal_scheme_phase_duration_add = -10
 	stress_loss_mult = 0.05
+
 	track = {
 		1 = { general_opinion = -5 }
 		30 = { attraction_opinion = 5 owned_personal_scheme_success_chance_add = 5 }
 		60 = { intrigue = 1 owned_scheme_secrecy_add = 5 }
 	}
 	monthly_track_xp_degradation = { change = 0.25 }
-	flag = can_not_marry
-	can_have_children = no
-	disables_combat_leadership = yes
+
 	name = {
 		first_valid = {
 			triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_bbc_whore_1.1 }
@@ -1633,6 +1637,7 @@ bno_bbc_whore_1 = {
 			triggered_desc = { trigger = { exists = this } desc = bno_bbc_whore_1.desc.1 }
 		}
 	}
+
 	ai_sociability = low_positive_ai_value
 }
 
@@ -1641,13 +1646,18 @@ bno_bbc_whore_2 = {
 	group = bno_bbc_whore
 	level = 2
 	physical = yes
+
 	shown_in_ruler_designer = no
+
 	valid_sex = female
+
 	attraction_opinion = 15
 	spouse_opinion = 10
 	general_opinion = -10
+
 	diplomacy = 2
 	intrigue = 2
+
 	monthly_lifestyle_xp_gain_mult = 0.10
 	owned_personal_scheme_success_chance_add = 15
 	owned_scheme_secrecy_add = 10
@@ -1655,14 +1665,13 @@ bno_bbc_whore_2 = {
 	personal_scheme_phase_duration_add = -15
 	stress_gain_mult = -0.05
 	stress_loss_mult = 0.10
+
 	track = {
 		30 = { attraction_opinion = 5 owned_personal_scheme_success_chance_add = 5 }
 		60 = { diplomacy = 1 owned_scheme_secrecy_add = 5 }
 	}
 	monthly_track_xp_degradation = { change = 0.25 }
-	flag = can_not_marry
-	can_have_children = no
-	disables_combat_leadership = yes
+
 	name = {
 		first_valid = {
 			triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_bbc_whore_2.1 }
@@ -1687,13 +1696,18 @@ bno_bbc_whore_3 = {
 	group = bno_bbc_whore
 	level = 3
 	physical = yes
+
 	shown_in_ruler_designer = no
+
 	valid_sex = female
+
 	attraction_opinion = 20
 	spouse_opinion = 15
 	general_opinion = -15
+
 	diplomacy = 3
 	intrigue = 2
+
 	monthly_lifestyle_xp_gain_mult = 0.20
 	owned_personal_scheme_success_chance_add = 20
 	owned_hostile_scheme_success_chance_max_add = 10
@@ -1702,14 +1716,13 @@ bno_bbc_whore_3 = {
 	personal_scheme_phase_duration_add = -20
 	stress_gain_mult = -0.10
 	stress_loss_mult = 0.15
+
 	track = {
 		30 = { attraction_opinion = 5 owned_personal_scheme_success_chance_add = 5 }
 		60 = { intrigue = 1 owned_scheme_secrecy_add = 5 general_opinion = -5 }
 	}
 	monthly_track_xp_degradation = { change = 0.25 }
-	flag = can_not_marry
-	can_have_children = no
-	disables_combat_leadership = yes
+
 	name = {
 		first_valid = {
 			triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_bbc_whore_3.1 }
@@ -1734,11 +1747,15 @@ bno_bbc_whore_4 = {
 	group = bno_bbc_whore
 	level = 4
 	physical = yes
+
 	shown_in_ruler_designer = no
+
 	valid_sex = female
+
 	attraction_opinion = 25
 	spouse_opinion = 20
 	general_opinion = -20
+
 	diplomacy = 3
 	intrigue = 3
 	monthly_lifestyle_xp_gain_mult = 0.25
@@ -1749,168 +1766,8 @@ bno_bbc_whore_4 = {
 	personal_scheme_phase_duration_add = -20
 	stress_gain_mult = -0.12
 	stress_loss_mult = 0.18
-	disables_combat_leadership = yes
-	flag = bno_block_court_positions
-	flag = can_not_marry
-	can_have_children = no
+
 	ai_sociability = very_high_positive_ai_value
-}
-
-
-bno_bbc_whore_player_1 = {
-	category = lifestyle
-	group = bno_bbc_whore_player
-	level = 1
-	physical = yes
-	shown_in_ruler_designer = no
-	valid_sex = female
-	icon = "bno_bbc_whore_1.dds"
-	attraction_opinion = 10
-	spouse_opinion = 5
-	general_opinion = -5
-	diplomacy = 1
-	intrigue = 1
-	monthly_lifestyle_xp_gain_mult = 0.05
-	owned_personal_scheme_success_chance_add = 10
-	owned_scheme_secrecy_add = 5
-	personal_scheme_phase_duration_add = -10
-	stress_loss_mult = 0.05
-	track = {
-		1 = { general_opinion = -5 }
-		30 = { attraction_opinion = 5 owned_personal_scheme_success_chance_add = 5 }
-		60 = { intrigue = 1 owned_scheme_secrecy_add = 5 spouse_opinion = 5 diplomacy = 1 monthly_lifestyle_xp_gain_mult = 0.05 personal_scheme_phase_duration_add = -5 }
-	}
-	monthly_track_xp_degradation = { change = 0.25 }
-	name = {
-		first_valid = {
-			triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_bbc_whore_1.1 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_1 value >= 60 } is_a_girl = yes } desc = bno_bbc_whore_1.4 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_1 value >= 30 } } desc = bno_bbc_whore_1.3 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_1 value >= 1 } } desc = bno_bbc_whore_1.2 }
-			triggered_desc = { trigger = { exists = this } desc = bno_bbc_whore_1.1 }
-		}
-	}
-	desc = {
-		first_valid = {
-			triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_bbc_whore_1.desc.1 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_1 value >= 60 } is_a_girl = yes } desc = bno_bbc_whore_1.desc.4 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_1 value >= 30 } } desc = bno_bbc_whore_1.desc.3 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_1 value >= 1 } } desc = bno_bbc_whore_1.desc.2 }
-			triggered_desc = { trigger = { exists = this } desc = bno_bbc_whore_1.desc.1 }
-		}
-	}
-}
-
-bno_bbc_whore_player_2 = {
-	category = lifestyle
-	group = bno_bbc_whore_player
-	level = 2
-	physical = yes
-	shown_in_ruler_designer = no
-	valid_sex = female
-	icon = "bno_bbc_whore_2.dds"
-	attraction_opinion = 15
-	spouse_opinion = 10
-	general_opinion = -10
-	diplomacy = 2
-	intrigue = 2
-	monthly_lifestyle_xp_gain_mult = 0.10
-	owned_personal_scheme_success_chance_add = 15
-	owned_scheme_secrecy_add = 10
-	max_personal_schemes_add = 1
-	personal_scheme_phase_duration_add = -15
-	stress_gain_mult = -0.05
-	stress_loss_mult = 0.10
-	track = {
-		30 = { attraction_opinion = 5 owned_personal_scheme_success_chance_add = 5 }
-		60 = { diplomacy = 1 owned_scheme_secrecy_add = 5 spouse_opinion = 5 monthly_lifestyle_xp_gain_mult = 0.10 personal_scheme_phase_duration_add = -5 }
-	}
-	monthly_track_xp_degradation = { change = 0.25 }
-	name = {
-		first_valid = {
-			triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_bbc_whore_2.1 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_2 value >= 60 } is_a_girl = yes } desc = bno_bbc_whore_2.3 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_2 value >= 30 } } desc = bno_bbc_whore_2.2 }
-			triggered_desc = { trigger = { exists = this } desc = bno_bbc_whore_2.1 }
-		}
-	}
-	desc = {
-		first_valid = {
-			triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_bbc_whore_2.desc.1 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_2 value >= 60 } is_a_girl = yes } desc = bno_bbc_whore_2.desc.3 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_2 value >= 30 } } desc = bno_bbc_whore_2.desc.2 }
-			triggered_desc = { trigger = { exists = this } desc = bno_bbc_whore_2.desc.1 }
-		}
-	}
-}
-
-bno_bbc_whore_player_3 = {
-	category = lifestyle
-	group = bno_bbc_whore_player
-	level = 3
-	physical = yes
-	shown_in_ruler_designer = no
-	valid_sex = female
-	icon = "bno_bbc_whore_3.dds"
-	attraction_opinion = 20
-	spouse_opinion = 15
-	general_opinion = -15
-	diplomacy = 3
-	intrigue = 2
-	monthly_lifestyle_xp_gain_mult = 0.20
-	owned_personal_scheme_success_chance_add = 20
-	owned_hostile_scheme_success_chance_max_add = 10
-	owned_scheme_secrecy_add = 15
-	max_personal_schemes_add = 1
-	personal_scheme_phase_duration_add = -20
-	stress_gain_mult = -0.10
-	stress_loss_mult = 0.15
-	track = {
-		30 = { attraction_opinion = 5 owned_personal_scheme_success_chance_add = 5 }
-		60 = { intrigue = 1 owned_scheme_secrecy_add = 5 general_opinion = -5 spouse_opinion = 5 monthly_lifestyle_xp_gain_mult = 0.05 }
-	}
-	monthly_track_xp_degradation = { change = 0.25 }
-	name = {
-		first_valid = {
-			triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_bbc_whore_3.1 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_3 value >= 60 } is_a_girl = yes } desc = bno_bbc_whore_3.3 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_3 value >= 30 } } desc = bno_bbc_whore_3.2 }
-			triggered_desc = { trigger = { exists = this } desc = bno_bbc_whore_3.1 }
-		}
-	}
-	desc = {
-		first_valid = {
-			triggered_desc = { trigger = { NOT = { exists = this } } desc = bno_bbc_whore_3.desc.1 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_3 value >= 60 } is_a_girl = yes } desc = bno_bbc_whore_3.desc.3 }
-			triggered_desc = { trigger = { exists = this has_trait_xp = { trait = bno_bbc_whore_player_3 value >= 30 } } desc = bno_bbc_whore_3.desc.2 }
-			triggered_desc = { trigger = { exists = this } desc = bno_bbc_whore_3.desc.1 }
-		}
-	}
-}
-
-bno_bbc_whore_player_4 = {
-	category = fame
-	group = bno_bbc_whore_player
-	level = 4
-	physical = yes
-	shown_in_ruler_designer = no
-	valid_sex = female
-	icon = "bno_bbc_whore_4.dds"
-	name = { desc = trait_bno_bbc_whore_4 }
-	desc = { desc = trait_bno_bbc_whore_4_desc }
-	attraction_opinion = 25
-	spouse_opinion = 20
-	general_opinion = -20
-	diplomacy = 3
-	intrigue = 3
-	monthly_lifestyle_xp_gain_mult = 0.25
-	owned_personal_scheme_success_chance_add = 25
-	owned_hostile_scheme_success_chance_max_add = 15
-	owned_scheme_secrecy_add = 20
-	max_personal_schemes_add = 1
-	personal_scheme_phase_duration_add = -20
-	stress_gain_mult = -0.12
-	stress_loss_mult = 0.18
 }
 
 bno_slave = {
@@ -1926,4 +1783,22 @@ bno_slave = {
 	parent_inheritance_sex = female
 	
 	shown_in_ruler_designer = no
+}
+
+bno_bull = {
+    category = personality
+
+    physical = yes
+	random_creation_weight = 0
+    shown_in_ruler_designer = no
+
+    levy_size = 0.25 
+    men_at_arms_limit = 2
+    bnwo_armies_max_size_mult = 0.25
+    bnwo_armies_maintenance_mult = -0.15
+    knight_effectiveness_mult = 0.20
+
+    prowess = 4
+    martial = 2
+	intrigue = 2
 }

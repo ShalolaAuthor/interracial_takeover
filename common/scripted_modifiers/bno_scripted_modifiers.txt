@@ -367,3 +367,21 @@ bno_vanilla_trait_modifier = {
 	modifier = { add = -5  has_trait = shy }          # prefers discretion; lie feels safer
 	modifier = { add = -4  has_trait = calm }         # internal buffering
 }
+
+bno_bbc_cum_addiction_success_modifier = {
+	modifier = {
+		add = {
+			value = 0
+			scope:target = {
+				switch = {
+					trigger = has_trait
+					bno_curious = { add = 5 }
+					bno_blacked = { add = 15 }
+					bno_snowbunny = { add = 30 }
+					bno_qos = { add = 50 }
+					bno_mindless_bbc_slut = { add = 75 }
+				}
+			}
+		}
+	}
+}

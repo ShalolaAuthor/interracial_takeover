@@ -1,0 +1,340 @@
+﻿bno_bbc_cum_addiction_odds_prediction = {
+    scope:target = {
+        if = {
+            limit = { has_trait = lustful }
+            add = {
+                value = 15
+                desc = bno_bbc_cum_addiction.lustful
+            }
+        }
+        if = {
+            limit = { has_trait = chaste }
+            add = {
+                value = -20
+                desc = bno_bbc_cum_addiction.chaste
+            }
+        }
+        if = {
+            limit = { has_trait = gluttonous }
+            add = {
+                value = 10
+                desc = bno_bbc_cum_addiction.gluttonous
+            }
+        }
+        if = {
+            limit = { has_trait = temperate }
+            add = {
+                value = -10
+                desc = bno_bbc_cum_addiction.temperate
+            }
+        }
+        if = {
+            limit = { has_trait = greedy }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.greedy
+            }
+        }
+        if = {
+            limit = { has_trait = generous }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.generous
+            }
+        }
+        if = {
+            limit = { has_trait = lazy }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.lazy
+            }
+        }
+        if = {
+            limit = { has_trait = diligent }
+            add = {
+                value = -10
+                desc = bno_bbc_cum_addiction.diligent
+            }
+        }
+        if = {
+            limit = { has_trait = wrathful }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.wrathful
+            }
+        }
+        if = {
+            limit = { has_trait = calm }
+            add = {
+                value = -5
+                desc = bno_bbc_cum_addiction.calm
+            }
+        }
+        if = {
+            limit = { has_trait = vengeful }
+            add = {
+                value = -5
+                desc = bno_bbc_cum_addiction.vengeful
+            }
+        }
+        if = {
+            limit = { has_trait = forgiving }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.forgiving
+            }
+        }
+        if = {
+            limit = { has_trait = arrogant }
+            add = {
+                value = -10
+                desc = bno_bbc_cum_addiction.arrogant
+            }
+        }
+        if = {
+            limit = { has_trait = humble }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.humble
+            }
+        }
+        if = {
+            limit = { has_trait = deceitful }
+            add = {
+                value = -5
+                desc = bno_bbc_cum_addiction.deceitful
+            }
+        }
+        if = {
+            limit = { has_trait = honest }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.honest
+            }
+        }
+        if = {
+            limit = { has_trait = craven }
+            add = {
+                value = -5
+                desc = bno_bbc_cum_addiction.craven
+            }
+        }
+        if = {
+            limit = { has_trait = brave }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.brave
+            }
+        }
+        if = {
+            limit = { has_trait = shy }
+            add = {
+                value = -10
+                desc = bno_bbc_cum_addiction.shy
+            }
+        }
+        if = {
+            limit = { has_trait = gregarious }
+            add = {
+                value = 10
+                desc = bno_bbc_cum_addiction.gregarious
+            }
+        }
+        if = {
+            limit = { has_trait = ambitious }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.ambitious
+            }
+        }
+        if = {
+            limit = { has_trait = content }
+            add = {
+                value = -5
+                desc = bno_bbc_cum_addiction.content
+            }
+        }
+        if = {
+            limit = { has_trait = impatient }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.impatient
+            }
+        }
+        if = {
+            limit = { has_trait = patient }
+            add = {
+                value = -5
+                desc = bno_bbc_cum_addiction.patient
+            }
+        }
+        if = {
+            limit = { has_trait = cynical }
+            add = {
+                value = -10
+                desc = bno_bbc_cum_addiction.cynical
+            }
+        }
+        if = {
+            limit = { has_trait = zealous }
+            add = {
+                value = -15
+                desc = bno_bbc_cum_addiction.zealous
+            }
+        }
+        if = {
+            limit = { has_trait = paranoid }
+            add = {
+                value = -10
+                desc = bno_bbc_cum_addiction.paranoid
+            }
+        }
+        if = {
+            limit = { has_trait = trusting }
+            add = {
+                value = 10
+                desc = bno_bbc_cum_addiction.trusting
+            }
+        }
+        if = {
+            limit = { has_trait = compassionate }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.compassionate
+            }
+        }
+        if = {
+            limit = { has_trait = callous }
+            add = {
+                value = -5
+                desc = bno_bbc_cum_addiction.callous
+            }
+        }
+        if = {
+            limit = { has_trait = sadistic }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.sadistic
+            }
+        }
+        if = {
+            limit = { has_trait = stubborn }
+            add = {
+                value = -10
+                desc = bno_bbc_cum_addiction.stubborn
+            }
+        }
+        if = {
+            limit = { has_trait = fickle }
+            add = {
+                value = 5
+                desc = bno_bbc_cum_addiction.fickle
+            }
+        }
+        switch = {
+            trigger = has_trait
+            bno_curious = {
+                add = {
+                    value = 10
+                    desc = bno_bbc_cum_addiction.curious
+                }
+            }
+            bno_blacked = {
+                add = {
+                    value = 20
+                    desc = bno_bbc_cum_addiction.blacked
+                }
+            }
+            bno_snowbunny = {
+                add = {
+                    value = 30
+                    desc = bno_bbc_cum_addiction.snowbunny
+                }
+            }
+            bno_qos = {
+                add = {
+                    value = 40
+                    desc = bno_bbc_cum_addiction.qos
+                }
+            }
+            bno_mindless_bbc_slut = {
+                add = {
+                    value = 50
+                    desc = bno_bbc_cum_addiction.mindless
+                }
+            }
+        }
+    }
+    scope:owner = {
+        switch = {
+            trigger = has_trait
+            beauty_good_1 = {
+                multiply = {
+                    value = 1.1
+                    desc = bno_bbc_cum_addiction.beauty_good_1
+                }
+            }
+            beauty_good_2 = {
+                multiply = {
+                    value = 1.25
+                    desc = bno_bbc_cum_addiction.beauty_good_2
+                }
+            }
+            beauty_good_3 = {
+                multiply = {
+                    value = 1.5
+                    desc = bno_bbc_cum_addiction.beauty_good_3
+                }
+            }
+        }
+        switch = {
+            trigger = has_trait
+            physique_good_1 = {
+                multiply = {
+                    value = 1.1
+                    desc = bno_bbc_cum_addiction.physique_good_1
+                }
+            }
+            physique_good_2 = {
+                multiply = {
+                    value = 1.25
+                    desc = bno_bbc_cum_addiction.physique_good_2
+                }
+            }
+            physique_good_3 = {
+                multiply = {
+                    value = 1.5
+                    desc = bno_bbc_cum_addiction.physique_good_3
+                }
+            }
+        }
+        switch = {
+            trigger = has_trait
+            intellect_good_1 = {
+                multiply = {
+                    value = 1.1
+                    desc = bno_bbc_cum_addiction.intellect_good_1
+                }
+            }
+            intellect_good_2 = {
+                multiply = {
+                    value = 1.25
+                    desc = bno_bbc_cum_addiction.intellect_good_2
+                }
+            }
+            intellect_good_3 = {
+                multiply = {
+                    value = 1.5
+                    desc = bno_bbc_cum_addiction.intellect_good_3
+                }
+            }
+        }
+        if = {
+            limit = { has_trait = strong }
+            multiply = {
+                value = 1.5
+                desc = bno_bbc_cum_addiction.strong
+            }
+        }
+    }
+}

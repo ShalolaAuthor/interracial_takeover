@@ -5,3 +5,9 @@ they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] becomes [CHARACTER.G
 
 i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] became your [bno_slave|E]"
 they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] became [CHARACTER.GetShortUINamePossessive] [bno_slave|E]"
+
+i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] becomes your [bno_cum_slave|E], bound by seed and loyalty to you alone."
+they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] becomes [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], enslaved by cum and devotion."
+
+i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] became your [bno_cum_slave|E], her lips and womb sealed to your seed forever."
+they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] became [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], owned by his cock and chained to his cum."

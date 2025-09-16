@@ -1,0 +1,1492 @@
+﻿namespace = bno_cum_addiction
+
+# bbc init event
+bno_cum_addiction.0000 = {
+    type = character_event
+    window = big_event_window
+    title = bno_cum_addiction.0000.title
+    desc = bno_cum_addiction.0000.desc
+    theme = seduction
+    override_background = {
+        reference = throne_room
+    }
+
+    right_portrait = {
+        character = scope:target
+        animation = bno_sex_love_stand_2
+    }
+
+    left_portrait = {
+        character = root
+        animation = personality_content
+    }
+
+    immediate = {
+    }
+
+    option = { # tease her
+        name = bno_cum_addiction.0000.a
+        scope:target = {
+            trigger_event = bno_cum_addiction.0001
+        }
+        ai_chance = {
+            base = 5
+            modifier = {
+                add = 100
+                OR = {
+                    has_trait = patient
+                    has_trait = temperate
+                    has_trait = calm
+                    has_trait = diligent
+                    has_trait = schemer
+                }
+            }
+        }
+    }
+    option = { # corner her
+        name = bno_cum_addiction.0000.b
+        scope:target = {
+            trigger_event = bno_cum_addiction.0002
+        }
+        ai_chance = {
+            base = 5
+            modifier = {
+                add = 100
+                OR = {
+                    has_trait = lustful
+                    has_trait = gregarious
+                    has_trait = deceitful
+                    has_trait = arbitrary
+                    has_trait = seducer
+                    has_trait = torturer
+                }
+            }
+        }
+    }
+    option = { # seize her
+        name = bno_cum_addiction.0000.c
+        scope:target = {
+            trigger_event = bno_cum_addiction.0003
+        }
+        ai_chance = {
+            base = 5
+            modifier = {
+                add = 100
+                OR = {
+                    has_trait = wrathful
+                    has_trait = arrogant
+                    has_trait = sadistic
+                    has_trait = ambitious
+                    has_trait = vengeful
+                }
+            }
+        }
+    }
+}
+# tease: slut pov
+bno_cum_addiction.0001 = {
+    type = character_event
+    window = big_event_window
+    title = bno_cum_addiction.0001.title
+    desc = bno_cum_addiction.0001.desc
+    theme = seduction
+    override_background = {
+        reference = throne_room
+    }
+
+    right_portrait = {
+        character = root
+        animation = bno_sex_love_stand_2
+    }
+
+    left_portrait = {
+        character = scope:owner
+        animation = personality_content
+    }
+
+    immediate = {
+    }
+
+    option = { # agree to bull advance
+        name = bno_cum_addiction.0001.a
+        scope:owner = {
+            trigger_event = bno_cum_addiction.1001
+        }
+        ai_chance = {
+            base = 5
+            modifier = {
+                add = 100
+                OR = {
+                    has_trait = shy
+                    has_trait = compassionate
+                    has_trait = forgiving
+                    has_trait = trusting
+                    has_trait = content
+                }
+            }
+        }
+    }
+
+    option = { # reject the bull advance
+        name = bno_cum_addiction.0001.b
+        scope:owner = {
+            trigger_event = bno_cum_addiction.2001
+        }
+        ai_chance = {
+            base = 5
+        }
+    }
+}
+# tease succeed bbc pov
+bno_cum_addiction.1001 = {
+    type = character_event
+    window = big_event_window
+    title = bno_cum_addiction.1001.title
+    desc = bno_cum_addiction.1001.desc
+    theme = seduction
+    override_background = {
+        reference = throne_room
+    }
+
+    right_portrait = {
+        character = scope:target
+        animation = bno_sex_love_stand_2
+    }
+
+    left_portrait = {
+        character = root
+        animation = personality_content
+    }
+
+    immediate = {
+        bno_bbc_cum_addiction_success = yes
+    }
+
+    option = { # gain scheme modifier
+        name = bno_cum_addiction.1001.a
+    }
+}
+# tease failed bbc pov
+bno_cum_addiction.2001 = {
+    type = character_event
+    window = big_event_window
+    title = bno_cum_addiction.2001.title
+    desc = bno_cum_addiction.2001.desc
+    theme = seduction
+    override_background = {
+        reference = throne_room
+    }
+
+    right_portrait = {
+        character = scope:target
+        animation = bno_sex_love_stand_2
+    }
+
+    left_portrait = {
+        character = root
+        animation = personality_content
+    }
+
+    immediate = {
+        bno_bbc_cum_addiction_failure = yes
+    }
+
+    option = { # gain scheme modifier
+        name = bno_cum_addiction.2001.a
+    }
+}
+#corner: slut pov
+bno_cum_addiction.0002 = {
+    type = character_event
+    window = big_event_window
+    title = bno_cum_addiction.0002.title
+    desc = bno_cum_addiction.0002.desc
+    theme = seduction
+    override_background = {
+        reference = throne_room
+    }
+
+    right_portrait = {
+        character = root
+        animation = bno_sex_love_stand_2
+    }
+
+    left_portrait = {
+        character = scope:owner
+        animation = personality_content
+    }
+
+    immediate = {
+    }
+
+    option = { # agree to bull advance
+        name = bno_cum_addiction.0002.a
+        scope:owner = {
+            trigger_event = bno_cum_addiction.1002
+        }
+        ai_chance = {
+            base = 5
+            modifier = {
+                add = 100
+                OR = {
+                    has_trait = lustful
+                    has_trait = humble
+                    has_trait = craven
+                    has_trait = arbitrary
+                }
+            }
+        }
+    }
+
+    option = { # reject the bull advance
+        name = bno_cum_addiction.0002.b
+        scope:owner = {
+            trigger_event = bno_cum_addiction.2002
+        }
+        ai_chance = {
+            base = 5
+        }
+    }
+}
+# corner succeed bbc pov
+bno_cum_addiction.1002 = {
+    type = character_event
+    window = big_event_window
+    title = bno_cum_addiction.1002.title
+    desc = bno_cum_addiction.1002.desc
+    theme = seduction
+    override_background = {
+        reference = throne_room
+    }
+
+    right_portrait = {
+        character = scope:target
+        animation = bno_sex_love_stand_2
+    }
+
+    left_portrait = {
+        character = root
+        animation = personality_content
+    }
+
+    immediate = {
+        bno_bbc_cum_addiction_success = yes
+    }
+
+    option = { # gain scheme modifier
+        name = bno_cum_addiction.1002.a
+    }
+}
+# corner failed bbc pov
+bno_cum_addiction.2002 = {
+    type = character_event
+    window = big_event_window
+    title = bno_cum_addiction.2002.title
+    desc = bno_cum_addiction.2002.desc
+    theme = seduction
+    override_background = {
+        reference = throne_room
+    }
+
+    right_portrait = {
+        character = scope:target
+        animation = bno_sex_love_stand_2
+    }
+
+    left_portrait = {
+        character = root
+        animation = personality_content
+    }
+
+    immediate = {
+        bno_bbc_cum_addiction_failure = yes
+    }
+
+    option = { # gain scheme modifier
+        name = bno_cum_addiction.2002.a
+    }
+}
+#seize: slut pov
+bno_cum_addiction.0003 = {
+    type = character_event
+    window = big_event_window
+    title = bno_cum_addiction.0003.title
+    desc = bno_cum_addiction.0003.desc
+    theme = seduction
+    override_background = {
+        reference = throne_room
+    }
+
+    right_portrait = {
+        character = root
+        animation = bno_sex_love_stand_2
+    }
+
+    left_portrait = {
+        character = scope:owner
+        animation = personality_content
+    }
+
+    immediate = {
+    }
+
+    option = { # agree to bull advance
+        name = bno_cum_addiction.0003.a
+        scope:owner = {
+            trigger_event = bno_cum_addiction.1003
+        }
+        ai_chance = {
+            base = 5
+            modifier = {
+                add = 100
+                OR = {
+                    has_trait = arrogant
+                    has_trait = wrathful
+                    has_trait = sadistic
+                    has_trait = ambitious
+                    has_trait = vengeful
+                }
+            }
+        }
+    }
+
+    option = { # reject the bull advance
+        name = bno_cum_addiction.0003.b
+        scope:owner = {
+            trigger_event = bno_cum_addiction.2003
+        }
+        ai_chance = {
+            base = 5
+        }
+    }
+}
+# seize succeed bbc pov
+bno_cum_addiction.1003 = {
+    type = character_event
+    window = big_event_window
+    title = bno_cum_addiction.1003.title
+    desc = bno_cum_addiction.1003.desc
+    theme = seduction
+    override_background = {
+        reference = throne_room
+    }
+
+    right_portrait = {
+        character = scope:target
+        animation = bno_sex_love_stand_2
+    }
+
+    left_portrait = {
+        character = root
+        animation = personality_content
+    }
+
+    immediate = {
+        bno_bbc_cum_addiction_success = yes
+    }
+
+    option = { # gain scheme modifier
+        name = bno_cum_addiction.1003.a
+    }
+}
+### seize failed bbc pov
+bno_cum_addiction.2003 = {
+    type = character_event
+    window = big_event_window
+    title = bno_cum_addiction.2003.title
+    desc = bno_cum_addiction.2003.desc
+    theme = seduction
+    override_background = {
+        reference = throne_room
+    }
+
+    right_portrait = {
+        character = scope:target
+        animation = bno_sex_love_stand_2
+    }
+
+    left_portrait = {
+        character = root
+        animation = personality_content
+    }
+
+    immediate = {
+        bno_bbc_cum_addiction_failure = yes
+    }
+
+    option = { # gain scheme modifier
+        name = bno_cum_addiction.2003.a
+    }
+}
+
+# first phase
+#same event multiple narrative initiate with bbc pov
+bno_cum_addiction.0004 = {
+    type = character_event
+    window = big_event_window
+    theme = seduction
+    override_background = {
+        trigger = {
+            OR = {
+                scope:random_narrative = 1
+                scope:random_narrative = 5
+            }
+        }
+        reference = bedchamber
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 2
+        }
+        reference = corridor_night
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 3
+        }
+        reference = feast
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 4
+        }
+        reference = temple
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.0004.title.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.0004.title.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.0004.title.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.0004.title.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.0004.title.05
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.0004.desc.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.0004.desc.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.0004.desc.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.0004.desc.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.0004.desc.05
+            }
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        bno_bbc_cum_addiction_random_narrative = yes
+        bno_sex_scene_start = {
+            PARTNER = scope:target
+        }
+        sex_animations = yes
+        scope:target = {
+            bno_increase_cum_addiction_level = yes
+        }
+    }
+
+    option = { # gain scheme modifier
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 1 }
+                        desc = bno_cum_addiction.0004.a.01
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 2 }
+                        desc = bno_cum_addiction.0004.a.02
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 3 }
+                        desc = bno_cum_addiction.0004.a.03
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 4 }
+                        desc = bno_cum_addiction.0004.a.04
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 5 }
+                        desc = bno_cum_addiction.0004.a.05
+                    }
+                }
+            }
+        }
+        bno_sex_scene_cleanup = yes
+        scope:target = {
+            trigger_event = bno_cum_addiction.1004
+        }
+    }
+}
+#same event multiple narrative initiate with slut pov
+bno_cum_addiction.1004 = {
+    type = character_event
+    window = big_event_window
+    theme = seduction
+    override_background = {
+        trigger = {
+            OR = {
+                scope:random_narrative = 1
+                scope:random_narrative = 5
+            }
+        }
+        reference = bedchamber
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 2
+        }
+        reference = corridor_night
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 3
+        }
+        reference = feast
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 4
+        }
+        reference = temple
+    }
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.1004.title.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.1004.title.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.1004.title.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.1004.title.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.1004.title.05
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.1004.desc.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.1004.desc.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.1004.desc.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.1004.desc.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.1004.desc.05
+            }
+        }
+    }
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        bno_sex_scene_start = {
+            PARTNER = scope:owner
+        }
+        sex_animations = yes
+        show_as_tooltip = {
+            bno_increase_cum_addiction_level = yes
+        }
+    }
+
+    option = { # gain scheme modifier
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 1 }
+                        desc = bno_cum_addiction.1004.a.01
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 2 }
+                        desc = bno_cum_addiction.1004.a.02
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 3 }
+                        desc = bno_cum_addiction.1004.a.03
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 4 }
+                        desc = bno_cum_addiction.1004.a.04
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 5 }
+                        desc = bno_cum_addiction.1004.a.05
+                    }
+                }
+            }
+        }
+        bno_sex_scene_cleanup = yes
+    }
+}
+### second phase
+#same event multiple narrative initiate with bbc pov
+bno_cum_addiction.0005 = {
+    type = character_event
+    window = big_event_window
+    theme = seduction
+    override_background = {
+        trigger = {
+            OR = {
+                scope:random_narrative = 1
+                scope:random_narrative = 2
+                scope:random_narrative = 4
+            }
+        }
+        reference = bedchamber
+    }
+    override_background = {
+        trigger = {
+            OR = {
+                scope:random_narrative = 3
+                scope:random_narrative = 5
+            }
+        }
+        reference = feast
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.0005.title.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.0005.title.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.0005.title.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.0005.title.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.0005.title.05
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.0005.desc.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.0005.desc.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.0005.desc.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.0005.desc.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.0005.desc.05
+            }
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        bno_bbc_cum_addiction_random_narrative = yes
+        bno_sex_scene_start = {
+            PARTNER = scope:target
+        }
+        sex_animations = yes
+        scope:target = {
+            bno_increase_cum_addiction_level = yes
+        }
+    }
+
+    option = { # gain scheme modifier
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 1 }
+                        desc = bno_cum_addiction.0005.a.01
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 2 }
+                        desc = bno_cum_addiction.0005.a.02
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 3 }
+                        desc = bno_cum_addiction.0005.a.03
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 4 }
+                        desc = bno_cum_addiction.0005.a.04
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 5 }
+                        desc = bno_cum_addiction.0005.a.05
+                    }
+                }
+            }
+        }
+        bno_sex_scene_cleanup = yes
+        scope:target = {
+            trigger_event = bno_cum_addiction.1005
+        }
+    }
+}
+#same event multiple narrative initiate with slut pov
+bno_cum_addiction.1005 = {
+    type = character_event
+    window = big_event_window
+    theme = seduction
+    override_background = {
+        trigger = {
+            OR = {
+                scope:random_narrative = 1
+                scope:random_narrative = 2
+                scope:random_narrative = 4
+            }
+        }
+        reference = bedchamber
+    }
+    override_background = {
+        trigger = {
+            OR = {
+                scope:random_narrative = 3
+                scope:random_narrative = 5
+            }
+        }
+        reference = feast
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.1005.title.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.1005.title.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.1005.title.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.1005.title.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.1005.title.05
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.1005.desc.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.1005.desc.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.1005.desc.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.1005.desc.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.1005.desc.05
+            }
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        bno_sex_scene_start = {
+            PARTNER = scope:owner
+        }
+        sex_animations = yes
+        show_as_tooltip = {
+            bno_increase_cum_addiction_level = yes
+        }
+    }
+
+    option = { # gain scheme modifier
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 1 }
+                        desc = bno_cum_addiction.1005.a.01
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 2 }
+                        desc = bno_cum_addiction.1005.a.02
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 3 }
+                        desc = bno_cum_addiction.1005.a.03
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 4 }
+                        desc = bno_cum_addiction.1005.a.04
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 5 }
+                        desc = bno_cum_addiction.1005.a.05
+                    }
+                }
+            }
+        }
+        bno_sex_scene_cleanup = yes
+    }
+}
+### third phase
+#same event multiple narrative initiate with bbc pov
+bno_cum_addiction.0006 = {
+    type = character_event
+    window = big_event_window
+    theme = seduction
+    override_background = {
+        trigger = {
+            scope:random_narrative = 1
+        }
+        reference = throne_room
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 2
+        }
+        reference = temple
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 3
+        }
+        reference = feast
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 4
+        }
+        reference = bedchamber
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 5
+        }
+        reference = courtyard
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.0006.title.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.0006.title.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.0006.title.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.0006.title.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.0006.title.05
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.0006.desc.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.0006.desc.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.0006.desc.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.0006.desc.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.0006.desc.05
+            }
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        bno_bbc_cum_addiction_random_narrative = yes
+        bno_sex_scene_start = {
+            PARTNER = scope:target
+        }
+        sex_animations = yes
+        scope:target = {
+            bno_increase_cum_addiction_level = yes
+        }
+    }
+
+    option = { # gain scheme modifier
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 1 }
+                        desc = bno_cum_addiction.0006.a.01
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 2 }
+                        desc = bno_cum_addiction.0006.a.02
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 3 }
+                        desc = bno_cum_addiction.0006.a.03
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 4 }
+                        desc = bno_cum_addiction.0006.a.04
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 5 }
+                        desc = bno_cum_addiction.0006.a.05
+                    }
+                }
+            }
+        }
+        bno_sex_scene_cleanup = yes
+        scope:target = {
+            trigger_event = bno_cum_addiction.1006
+        }
+    }
+}
+#same event multiple narrative initiate with slut pov
+bno_cum_addiction.1006 = {
+    type = character_event
+    window = big_event_window
+    theme = seduction
+    override_background = {
+        trigger = {
+            scope:random_narrative = 1
+        }
+        reference = throne_room
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 2
+        }
+        reference = temple
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 3
+        }
+        reference = feast
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 4
+        }
+        reference = bedchamber
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 5
+        }
+        reference = courtyard
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.1006.title.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.1006.title.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.1006.title.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.1006.title.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.1006.title.05
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.1006.desc.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.1006.desc.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.1006.desc.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.1006.desc.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.1006.desc.05
+            }
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        bno_sex_scene_start = {
+            PARTNER = scope:owner
+        }
+        sex_animations = yes
+        show_as_tooltip = {
+            bno_increase_cum_addiction_level = yes
+        }
+    }
+
+    option = { # gain scheme modifier
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 1 }
+                        desc = bno_cum_addiction.1006.a.01
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 2 }
+                        desc = bno_cum_addiction.1006.a.02
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 3 }
+                        desc = bno_cum_addiction.1006.a.03
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 4 }
+                        desc = bno_cum_addiction.1006.a.04
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 5 }
+                        desc = bno_cum_addiction.1006.a.05
+                    }
+                }
+            }
+        }
+        bno_sex_scene_cleanup = yes
+    }
+}
+### fourth phase:completion
+#same event multiple narrative initiate with bbc pov
+bno_cum_addiction.0007 = {
+    type = character_event
+    window = big_event_window
+    theme = seduction
+    override_background = {
+        trigger = {
+            scope:random_narrative = 1
+        }
+        reference = courtyard
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 2
+        }
+        reference = ep2_dog_kennels
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 3
+        }
+        reference = feast
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 4
+        }
+        reference = market
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 5
+        }
+        reference = bedchamber
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.0007.title.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.0007.title.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.0007.title.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.0007.title.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.0007.title.05
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.0007.desc.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.0007.desc.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.0007.desc.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.0007.desc.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.0007.desc.05
+            }
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        bno_play_success_sounds = yes
+        bno_bbc_cum_addiction_random_narrative = yes
+        bno_sex_scene_start = {
+            PARTNER = scope:target
+        }
+        sex_animations = yes
+        scope:target = {
+            bno_increase_cum_addiction_level = yes
+        }
+        set_relation_bno_cum_slave = scope:target
+    }
+
+    option = { # gain scheme modifier
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 1 }
+                        desc = bno_cum_addiction.0007.a.01
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 2 }
+                        desc = bno_cum_addiction.0007.a.02
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 3 }
+                        desc = bno_cum_addiction.0007.a.03
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 4 }
+                        desc = bno_cum_addiction.0007.a.04
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 5 }
+                        desc = bno_cum_addiction.0007.a.05
+                    }
+                }
+            }
+        }
+        bno_sex_scene_cleanup = yes
+        scope:target = {
+            trigger_event = bno_cum_addiction.1007
+        }
+        scope:scheme = {
+            end_scheme = yes
+        }
+    }
+}
+#same event multiple narrative initiate with slut pov
+bno_cum_addiction.1007 = {
+    type = character_event
+    window = big_event_window
+    theme = seduction
+    override_background = {
+        trigger = {
+            scope:random_narrative = 1
+        }
+        reference = throne_room
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 2
+        }
+        reference = temple
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 3
+        }
+        reference = feast
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 4
+        }
+        reference = bedchamber
+    }
+    override_background = {
+        trigger = {
+            scope:random_narrative = 5
+        }
+        reference = courtyard
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.1007.title.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.1007.title.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.1007.title.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.1007.title.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.1007.title.05
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_cum_addiction.1007.desc.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_cum_addiction.1007.desc.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_cum_addiction.1007.desc.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_cum_addiction.1007.desc.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_cum_addiction.1007.desc.05
+            }
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        bno_play_success_sounds = yes
+        bno_sex_scene_start = {
+            PARTNER = scope:owner
+        }
+        sex_animations = yes
+        show_as_tooltip = {
+            bno_increase_cum_addiction_level = yes
+            set_relation_bno_cum_slave_owner = scope:owner
+        }
+    }
+
+    option = { # gain scheme modifier
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 1 }
+                        desc = bno_cum_addiction.1007.a.01
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 2 }
+                        desc = bno_cum_addiction.1007.a.02
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 3 }
+                        desc = bno_cum_addiction.1007.a.03
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 4 }
+                        desc = bno_cum_addiction.1007.a.04
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 5 }
+                        desc = bno_cum_addiction.1007.a.05
+                    }
+                }
+            }
+        }
+        bno_sex_scene_cleanup = yes
+    }
+}

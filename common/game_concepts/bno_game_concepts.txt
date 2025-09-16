@@ -43,3 +43,21 @@ bno_slave = {
     alias = { bno_slaves }
     parent = relation
 }
+
+bno_slave_owner = {
+    texture = "gfx/interface/icons/bno_slave_owner.dds"
+    alias = { bno_slave_owners }
+    parent = relation
+}
+
+bno_cum_slave = {
+    texture = "gfx/interface/icons/bno_cum_slave.dds"
+    alias = { bno_cum_slaves }
+    parent = relation
+}
+
+bno_bull = {
+    texture = "gfx/interface/icons/traits/bno_bull.dds"
+    alias = { bno_bulls }
+    parent = relation
+}

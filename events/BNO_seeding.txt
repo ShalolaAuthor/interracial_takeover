@@ -253,5 +253,19 @@ bno_trait_seeding.0010 = {
 			}
 			set_character_faith_with_conversion = liege.faith
 		}
+		trigger_event = bno_trait_seeding.0011
+	}
+}
+# if slut cant have futa
+bno_trait_seeding.0011 = {
+	hidden = yes
+	immediate = {
+		if = {
+			limit = {
+				is_a_futa = yes
+				is_slut = yes
+			}
+			bno_make_futa_inactive = yes
+		}
 	}
 }

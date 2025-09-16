@@ -11,6 +11,7 @@ BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! worships [bno_bbc|E]: #
 BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! openly welcomes [bno_bbc|E]: #color_green +50#!"  
 sneak_bbc.has_bbc_in_court: "You must have at least two [bno_bbc|E] in your court to send one away."  
 sneak_bbc.already_has_bbc_in_court: "That court’s sluts are already stuffed full by the Bulls within—no need to send another."  
+sneak_bbc.not_enough_of_a_slut: "You are not enough of a slut yet. Only a true [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] or worse will dare smuggle Bulls between courts."  
 #influence child interaction
 bno_influence_child: "Foster Curiosity"
 bno_influence_child_desc: "Influence child to the truth"

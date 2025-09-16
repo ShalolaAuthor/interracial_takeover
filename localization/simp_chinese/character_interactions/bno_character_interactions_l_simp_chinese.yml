@@ -1,7 +1,7 @@
 ﻿l_simp_chinese:
 
-bno_seduce_interaction: "BBC勾引"
-bno_seduce_interaction_desc: "使用你的魅力来勾引[recipient.GetHerHim]."
+bno_bbc_cum_addiction_interaction: "BBC勾引"
+bno_bbc_cum_addiction_interaction_desc: "使用你的魅力来勾引[recipient.GetHerHim]."
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName]患有某种[illness|E]"
 bno_cure_disease_interaction.no_priestess: "你没有[GetCourtPositionType('bno_bbc_priestess_court_position').GetName]来举行仪式。"
 bno_cure_disease_interaction.no_priest: "你没有[GetCourtPositionType('bno_bbc_priest_court_position').GetName]来举行仪式。"

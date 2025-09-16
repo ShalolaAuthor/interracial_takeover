@@ -41,6 +41,13 @@ sneak_bbc = {
 				text = sneak_bbc.has_bbc_in_court
 				bno_is_there_any_bbc_courtier = yes
 			}
+			trigger_if = {
+				limit = { is_a_girl = yes }
+				custom_tooltip = {
+					text = sneak_bbc.not_enough_of_a_slut
+					is_bno_snowbunny_and_up = yes
+				}
+			}
 		}
 		scope:recipient = {
 			custom_tooltip = {
@@ -59,7 +66,7 @@ sneak_bbc = {
 				title = sneak_bbc
 				right_icon = scope:recipient
 				left_icon = scope:secondary_actor
-				
+				add_character_modifier = bno_sneak_bbc
 				scope:recipient = {
 					add_courtier = scope:secondary_actor
 				}

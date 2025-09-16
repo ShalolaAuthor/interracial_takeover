@@ -2029,8 +2029,31 @@ get_old_wife_or_wife_with_bad_trait = {
 }
 
 bno_sex_scene_start = {
+	save_scope_as = carn_sex_player
+	$PARTNER$ = {
+		save_scope_as = carn_sex_partner
+	}
 	carn_sex_scene_start = yes
-	bno_have_sex_with_effects = {
-		PARTNER = scope:carn_sex_partner
+	bno_sex_scene_sex = yes
+}
+
+bno_sex_scene_sex = {
+	scope:carn_sex_player = {
+		bno_have_sex_with_effects = {
+			PARTNER = scope:carn_sex_partner
+		}
+	}
+}
+
+bno_sex_scene_cleanup = {
+	bno_sex_scene_sex = yes
+	carn_sex_scene_cleanup = yes
+}
+
+bno_make_futa_inactive = {
+	switch = {
+		trigger = has_trait
+		futa = { make_trait_inactive = futa }
+		futa_genetic = { make_trait_inactive = futa_genetic }
 	}
 }

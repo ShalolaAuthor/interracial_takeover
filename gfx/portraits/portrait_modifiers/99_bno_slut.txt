@@ -1,5 +1,6 @@
 ﻿bno_darker_skin = {
 	usage = game
+	priority = 999
 	bno_darker_skin = {
 		dna_modifiers = {
 			#changes skin color
@@ -49,6 +50,7 @@ bno_blonder_hair = {
 
 bno_make_up = {
 	usage = game
+	priority = 999
 	bno_make_up = {
 		dna_modifiers = {
 			morph = { #pink lipstick
@@ -148,6 +150,7 @@ bno_naked = {
 
 bno_cum_shot = {
 	usage = game
+	priority = 999
 	bno_cum_shot = {
 		dna_modifiers = {
 			morph = {
@@ -413,6 +416,7 @@ bno_boobs = {
 
 bno_bigger_butts = {
 	usage = game
+	priority = 999
 	bno_bigger_butts = {
 		dna_modifiers = {
 			#Changes Butt Size
@@ -449,6 +453,7 @@ bno_bigger_butts = {
 
 bno_smaller_waist = {
 	usage = game
+	priority = 999
 	bno_smaller_waist = {
 		dna_modifiers = {
 			#Changes Waist Size
@@ -692,6 +697,7 @@ bno_slave = { #changes for any female slave with bbc owner
 
 bimbo = {
 	usage = game
+	priority = 999
 	bimbo = {
 		
 		dna_modifiers = {

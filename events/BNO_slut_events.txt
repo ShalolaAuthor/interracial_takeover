@@ -1252,11 +1252,9 @@ bno_slut.3015 = {
 
 	immediate = {
 		add_character_flag = bno_slut.3015
-		save_scope_as = carn_sex_player
-		scope:bbc = {
-			save_scope_as = carn_sex_partner
+		bno_sex_scene_start = {
+			PARTNER = scope:bbc
 		}
-		bno_sex_scene_start = yes
 		cuddle_animations = yes
 	}
 
@@ -1276,7 +1274,7 @@ bno_slut.3015 = {
 		custom_tooltip = bno_slut.3015.stop
 		remove_character_flag = bno_slut.1015
 		carn_sex_scene_is_cum_inside_effect = yes
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
 		ai_chance = {
 			base = 100
 		}
@@ -1316,6 +1314,6 @@ bno_slut.4015 = {
 
 	after = {
 		carn_sex_scene_is_cum_inside_effect = yes
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
 	}
 }

@@ -39,9 +39,9 @@ bno_events00 = {
 		}
 	}
 	is_valid = {
-		any_courtier_or_guest = {
+		any_courtier = {
 			is_bbc = yes
-			count <= 5
+			count <= 2
 		}
 	}
 	cooldown = {
@@ -66,9 +66,9 @@ bno_events00 = {
 	ai_check_interval = 1
 	ai_potential = {
 		is_ruler = yes
-		any_courtier_or_guest = {
+		any_courtier = {
 			is_bbc = yes
-			count <= 5
+			count <= 2
 		}
 	}
 	ai_will_do = {
@@ -240,9 +240,9 @@ bno_invite_slut_decision = {
 	}
 
 	is_valid = {
-		any_courtier_or_guest = {
+		any_courtier = {
 			has_trait = bno_pure_white
-			count <= 3
+			count <= 2
 		}
 	}
 
@@ -268,9 +268,9 @@ bno_invite_slut_decision = {
 	ai_check_interval = 1
 	ai_potential = {
 		is_ruler = yes
-		any_courtier_or_guest = {
+		any_courtier = {
 			has_trait = bno_pure_white
-			count <= 3
+			count <= 2
 		}
 	}
 	ai_will_do = {
@@ -509,7 +509,7 @@ bno_convert_to_african = {
 					is_culture_bnoc = yes
 				}
 			}
-			any_courtier_or_guest = {
+			any_courtier = {
 				is_culture_bnoc = yes
 			}
 		}
@@ -526,7 +526,7 @@ bno_convert_to_african = {
 		}
 		else_if = {
 			limit = {
-				any_courtier_or_guest = {
+				any_courtier = {
 					is_culture_bnoc = yes
 				}
 			}
@@ -557,7 +557,7 @@ bno_convert_to_african = {
 					is_culture_bnoc = yes
 				}
 			}
-			any_courtier_or_guest = {
+			any_courtier = {
 				is_culture_bnoc = yes
 			}
 		}

@@ -1,0 +1,35 @@
+﻿bno_bbc_cum_addiction_success = {
+    scope:target = {
+        bno_increase_cum_addiction_level = yes
+    }
+    scope:scheme = {
+        add_scheme_modifier = {
+            type = bno_cum_addiction_success
+        }
+    }
+    bno_play_success_sounds = yes
+}
+bno_bbc_cum_addiction_failure = {
+    scope:scheme = {
+        add_scheme_breach = 1
+        scheme_owner = { play_sound_effect = "event:/DLC/EP3/SFX/Stingers/Scheme_Rework/ep3_mx_sting_schemerework_scheme_suffering_breaches" }
+    }
+}
+
+bno_play_success_sounds = {
+    scope:scheme = {
+        scheme_owner = { play_sound_effect = "event:/DLC/EP3/SFX/Stingers/Scheme_Rework/ep3_mx_sting_schemerework_positive" }	
+    }
+}
+
+bno_bbc_cum_addiction_random_narrative = {
+    save_scope_value_as = {
+        name = random_narrative
+        value = {
+            integer_range = {
+                min = 1
+                max = 5
+            }
+        }
+    }
+}

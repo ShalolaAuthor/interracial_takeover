@@ -1,7 +1,7 @@
 ﻿l_german:
 
-bno_seduce_interaction: "BBC-Verführung" # AI Tags
-bno_seduce_interaction_desc: "Verwenden Sie Ihren Charme zu verführen [recipient.GetHerHim]." # AI Tags
+bno_bbc_cum_addiction_interaction: "BBC-Verführung" # AI Tags
+bno_bbc_cum_addiction_interaction_desc: "Verwenden Sie Ihren Charme zu verführen [recipient.GetHerHim]." # AI Tags
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] hat eine Art von [illness|E]" # AI Tags
 bno_cure_disease_interaction.no_priestess: "Sie haben keine [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] um das Ritual durchzuführen." # AI Tags
 bno_cure_disease_interaction.no_priest: "Sie haben keine [GetCourtPositionType('bno_bbc_priest_court_position').GetName] um das Ritual durchzuführen." # AI Tags

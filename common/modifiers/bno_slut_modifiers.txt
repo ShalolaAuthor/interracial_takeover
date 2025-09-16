@@ -171,3 +171,14 @@ bno_broodmakers_hand = {
     levy_reinforcement_rate = 0.05    # fresh bodies for war
     stress_loss_mult = 0.05           # relief in spreading lust
 }
+
+bno_sneak_bbc = {
+    icon = sneak_bbc
+    stacking = yes
+
+    owned_personal_scheme_success_chance_add = 1
+    owned_hostile_scheme_success_chance_add = 1
+    owned_scheme_secrecy_add = 2
+    dread_gain_mult = 0.01
+    monthly_piety = -0.1
+}

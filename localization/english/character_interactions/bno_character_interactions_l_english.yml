@@ -1,7 +1,11 @@
 ﻿l_english:
 
-bno_seduce_interaction: "BBC Seduction"
-bno_seduce_interaction_desc: "Use your charm to seduce [recipient.GetHerHim]."
+bno_bbc_cum_addiction_interaction: "Cum Addiction"
+bno_bbc_cum_addiction_interaction.desc: "Begin the corruption of [recipient.GetFirstNameNoTooltip]. Not with words, not with charms, but with seed—draw her to her knees and make her lips remember what only her Bull can give."
+bno_bbc_cum_addiction_interaction.send_name: "Feed her your cum"
+bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] Cum Addiction has begun"
+bno_bbc_cum_addiction_interaction.tooltip: "You have started binding [recipient.GetFirstNameNoTooltip] to you through seed. Each encounter will weaken her will and deepen her craving, until she cannot live without your cum."
+
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] has some sort of [illness|E]"
 bno_cure_disease_interaction.no_priestess: "You do not have a [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] to perform the ritual."
 bno_cure_disease_interaction.no_priest: "You do not have a [GetCourtPositionType('bno_bbc_priest_court_position').GetName] to perform the ritual."

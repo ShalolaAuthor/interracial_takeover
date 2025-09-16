@@ -1,7 +1,7 @@
 ﻿l_polish:
 
-bno_seduce_interaction: "BBC Seduction" # AI Tags
-bno_seduce_interaction_desc: "Użyj swojego uroku, by uwodzić [recipient.GetHerHim]." # AI Tags
+bno_bbc_cum_addiction_interaction: "BBC Seduction" # AI Tags
+bno_bbc_cum_addiction_interaction_desc: "Użyj swojego uroku, by uwodzić [recipient.GetHerHim]." # AI Tags
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] ma jakiś rodzaj [illness|E]" # AI Tags
 bno_cure_disease_interaction.no_priestess: "Nie masz [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] Wykonywać rytuał." # AI Tags
 bno_cure_disease_interaction.no_priest: "Nie masz [GetCourtPositionType('bno_bbc_priest_court_position').GetName] Wykonywać rytuał." # AI Tags

@@ -1,7 +1,7 @@
 ﻿l_spanish:
 
-bno_seduce_interaction: "La seducción de la BBC" # AI Tags
-bno_seduce_interaction_desc: "Usa tu encanto para seducir [recipient.GetHerHim]." # AI Tags
+bno_bbc_cum_addiction_interaction: "La seducción de la BBC" # AI Tags
+bno_bbc_cum_addiction_interaction_desc: "Usa tu encanto para seducir [recipient.GetHerHim]." # AI Tags
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] tiene algún tipo de [illness|E]" # AI Tags
 bno_cure_disease_interaction.no_priestess: "Usted no tiene un [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] para realizar el ritual." # AI Tags
 bno_cure_disease_interaction.no_priest: "Usted no tiene un [GetCourtPositionType('bno_bbc_priest_court_position').GetName] para realizar el ritual." # AI Tags

@@ -1405,9 +1405,10 @@ bno_embrace_african_5.0001 = {
     }
 
     immediate = {
-        save_scope_as = carn_sex_player
         bno_get_bbc_priest_or_priestess = yes
-        bno_sex_scene_start = yes
+        bno_sex_scene_start = {
+            PARTNER = scope:carn_sex_partner
+        }
         standing_oral_animations = yes
     }
 
@@ -1436,7 +1437,7 @@ bno_embrace_african_5.0001 = {
             }
         }
         carn_sex_scene_is_cum_inside_effect = yes
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
     }
 }
 
@@ -1581,7 +1582,9 @@ bno_embrace_african_5.1002 = {
     immediate = {
         save_scope_as = carn_sex_player
         bno_get_bbc_priest_or_priestess = yes
-        bno_sex_scene_start = yes
+        bno_sex_scene_start = {
+            PARTNER = scope:carn_sex_partner
+        }
         standing_oral_animations = yes
     }
 
@@ -1628,7 +1631,7 @@ bno_embrace_african_5.1002 = {
             }
         }
         carn_sex_scene_is_cum_inside_effect = yes
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
     }
 }
 
@@ -2155,9 +2158,10 @@ bno_embrace_african_5.0009 = {
     }
 
     immediate = {
-        save_scope_as = carn_sex_player
         bno_get_bbc_priest_or_priestess = yes
-        bno_sex_scene_start = yes
+        bno_sex_scene_start = {
+            PARTNER = scope:carn_sex_partner
+        }
         sex_animations = yes
     }
 
@@ -2181,7 +2185,7 @@ bno_embrace_african_5.0009 = {
 			months = 12
 		}
         carn_sex_scene_is_cum_inside_effect = yes
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
     }
 }
 
@@ -2306,7 +2310,6 @@ bno_embrace_african_5.0010 = {
 
     immediate = {
         scope:recipient = {
-            save_scope_as = carn_sex_player
             if = {
                 limit = {
                     is_a_girl = yes
@@ -2337,7 +2340,11 @@ bno_embrace_african_5.0010 = {
                     is_a_girl = yes
                 }
             }
-            bno_sex_scene_start = yes
+            scope:recipient = {
+                bno_sex_scene_start = {
+                    PARTNER = scope:carn_sex_partner
+                }
+            }
             standing_oral_animations = yes
         }
         else_if = {
@@ -2347,7 +2354,11 @@ bno_embrace_african_5.0010 = {
                     is_a_male = yes
                 }
             }
-            bno_sex_scene_start = yes
+            scope:recipient = {
+                bno_sex_scene_start = {
+                    PARTNER = scope:carn_sex_partner
+                }
+            }
             cunnilingus_animations = yes
         }
     }
@@ -2409,7 +2420,7 @@ bno_embrace_african_5.0010 = {
                 is_adult = yes
             }
             carn_sex_scene_is_cum_inside_effect = yes
-            carn_sex_scene_cleanup = yes
+            bno_sex_scene_cleanup = yes
         }
     }
 }

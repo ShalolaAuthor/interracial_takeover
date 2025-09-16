@@ -33,12 +33,16 @@ bno_bbc_marriage_prestige_perk_reward = {
   value = { 500 1000 }
 }
 
+bno_cum_addiction_random_xp_positive = {
+	value = { 10 20 }
+}
+
 bno_random_xp_positive = {
-	value = { 1 5 }
+	value = { 5 10 }
 }
 
 bno_random_xp_negative = { 
-	value = { -5 -1 }
+	value = { -10 -5 }
 }
 #negative is blonder
 hair_color_x = {

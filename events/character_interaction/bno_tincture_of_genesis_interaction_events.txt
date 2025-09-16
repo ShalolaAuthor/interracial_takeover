@@ -22,11 +22,9 @@ bno_tincture_of_genesis.0001 = {
     }
 
     immediate = {
-        save_scope_as = carn_sex_player
-        scope:recipient = {
-            save_scope_as = carn_sex_partner
+        bno_sex_scene_start = {
+            PARTNER = scope:recipient
         }
-        bno_sex_scene_start = yes
         cuddle_animations = yes
     }
 
@@ -63,7 +61,7 @@ bno_tincture_of_genesis.1001 = {
     option = {
         name = bno_tincture_of_genesis.1001.a
         carn_sex_scene_is_cum_inside_effect = yes
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
         scope:recipient = {
             trigger_event = bno_tincture_of_genesis.0002
         }
@@ -92,11 +90,9 @@ bno_tincture_of_genesis.0002 = {
     }
 
     immediate = {
-        save_scope_as = carn_sex_player
-        scope:actor = {
-            save_scope_as = carn_sex_partner
+        bno_sex_scene_start = {
+            PARTNER = scope:actor
         }
-        bno_sex_scene_start = yes
         cuddle_animations = yes
     }
 
@@ -147,7 +143,7 @@ bno_tincture_of_genesis.1002 = {
     option = {
         name = bno_tincture_of_genesis.1002.a
         carn_sex_scene_is_cum_inside_effect = yes
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
     }
 }
 
@@ -288,18 +284,16 @@ bno_tincture_of_genesis.3002 = {
     }
 
     immediate = {
-        save_scope_as = carn_sex_player
-        scope:actor = {
-            save_scope_as = carn_sex_partner
+        bno_sex_scene_start = {
+            PARTNER = scope:actor
         }
-        bno_sex_scene_start = yes
         standing_oral_animations = yes
     }
 
     option = {
         name = bno_tincture_of_genesis.3002.a
         carn_sex_scene_is_cum_inside_effect = yes
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
     }
 }
 #follow up event for the guys
@@ -362,18 +356,16 @@ bno_tincture_of_genesis.3001 = {
     }
 
     immediate = {
-        save_scope_as = carn_sex_player
-        scope:recipient = {
-            save_scope_as = carn_sex_partner
+        bno_sex_scene_start = {
+            PARTNER = scope:recipient
         }
-        bno_sex_scene_start = yes
         standing_oral_animations = yes
     }
 
     option = {
         name = bno_tincture_of_genesis.3001.a
         carn_sex_scene_is_cum_inside_effect = yes
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
     }
 }
 

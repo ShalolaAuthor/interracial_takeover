@@ -460,11 +460,9 @@ bno_black_birth.1103 = {
         }
     }
     immediate = {
-        save_scope_as = carn_sex_player
-        scope:mother = {
-            save_scope_as = carn_sex_partner
+        bno_sex_scene_start = {
+            PARTNER = scope:mother
         }
-        bno_sex_scene_start = yes
         cuddle_animations = yes
     }
 
@@ -516,11 +514,9 @@ bno_black_birth.1101 = {
         }
     }
     immediate = {
-        save_scope_as = carn_sex_player
-        scope:real_father = {
-            save_scope_as = carn_sex_partner
+        bno_sex_scene_start = {
+            PARTNER = scope:real_father
         }
-        bno_sex_scene_start = yes
         cuddle_animations = yes
     }
 
@@ -577,7 +573,7 @@ bno_black_birth.1203 = {
         }
         add_character_modifier = bno_claimed_broodmare
         carn_sex_scene_is_cum_inside_effect = yes
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
     }
 }
 # follow up ^ sex mom pov
@@ -623,7 +619,7 @@ bno_black_birth.1201 = {
     option = {
         name = bno_black_birth.1201.a
         carn_sex_scene_is_cum_inside_effect = yes
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
     }
 }
 ### Silent Triumph
@@ -733,11 +729,9 @@ bno_black_birth.2101 = {
         }
     }
     immediate = {
-        save_scope_as = carn_sex_player
-        scope:father = {
-            save_scope_as = carn_sex_partner
+        bno_sex_scene_start = {
+            PARTNER = scope:father
         }
-        bno_sex_scene_start = yes
         cuddle_animations = yes
         scope:father = {
             trigger_event = {
@@ -749,7 +743,7 @@ bno_black_birth.2101 = {
 
     option = {
         name = bno_black_birth.2101.a
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
         trigger_event = {
             id = bno_black_birth.2201
             delayed = yes
@@ -787,17 +781,15 @@ bno_black_birth.2102 = {
         is_alive = yes
     }
     immediate = {
-        save_scope_as = carn_sex_player
-        scope:mother = {
-            save_scope_as = carn_sex_partner
+        bno_sex_scene_start = {
+            PARTNER = scope:mother
         }
-        bno_sex_scene_start = yes
         cuddle_animations = yes
     }
 
     option = {
         name = bno_black_birth.2102.a
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
     }
 }
 #queen comes to his chamber begging to get fucked
@@ -831,11 +823,9 @@ bno_black_birth.2201 = {
         is_alive = yes
     }
     immediate = {
-        save_scope_as = carn_sex_player
-        scope:real_father = {
-            save_scope_as = carn_sex_partner
+        bno_sex_scene_start = {
+            PARTNER = scope:real_father
         }
-        bno_sex_scene_start = yes
         cuddle_animations = yes
         scope:father = {
             trigger_event = {
@@ -963,11 +953,9 @@ bno_black_birth.2203 = {
         }
     }
     immediate = {
-        save_scope_as = carn_sex_player
-        scope:mother = {
-            save_scope_as = carn_sex_partner
+        bno_sex_scene_start = {
+            PARTNER = scope:mother
         }
-        bno_sex_scene_start = yes
         cuddle_animations = yes
     }
 
@@ -1055,7 +1043,7 @@ bno_black_birth.2403 = {
             add_character_modifier = bno_blacked_queen
         }
         add_character_modifier = bno_throne_breeder
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
         carn_sex_scene_is_cum_inside_effect = yes
     }
 }
@@ -1142,7 +1130,7 @@ bno_black_birth.2401 = {
 
     option = {
         name = bno_black_birth.2401.a
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
         carn_sex_scene_is_cum_inside_effect = yes
         scope:father = {
             if = {
@@ -1191,12 +1179,10 @@ bno_black_birth.2402 = {
         is_alive = yes
     }
     immediate = {
-        scope:mother = {
-            save_scope_as = carn_sex_partner
-        }
         scope:real_father = {
-            save_scope_as = carn_sex_player
-            bno_sex_scene_start = yes
+            bno_sex_scene_start = {
+                PARTNER = scope:mother
+            }
         }
         cum_missionary_animations = yes
     }
@@ -1204,7 +1190,7 @@ bno_black_birth.2402 = {
     option = {
         add_character_modifier = bno_blacked_witness
         name = bno_black_birth.2402.a
-        carn_sex_scene_cleanup = yes
+        bno_sex_scene_cleanup = yes
         carn_sex_scene_is_cum_inside_effect = yes
     }
 }

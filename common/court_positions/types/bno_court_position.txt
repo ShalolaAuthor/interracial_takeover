@@ -36,10 +36,7 @@
             liege = scope:liege
             is_landed = no
             is_married = no
-            OR = {
-                has_trait = bno_bbc_whore
-                has_trait = bno_bbc_whore_player
-            }
+            has_trait = bno_bbc_whore
             has_trait = bno_whitegirl
             health > 0
             NOT = { has_trait = lovers_pox }

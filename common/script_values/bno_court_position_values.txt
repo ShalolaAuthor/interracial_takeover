@@ -46,39 +46,6 @@ bno_bbc_worshipper_aptitude = {
                 desc = bno_court_position_trait_bno_bbc_whore_1
             }
         }
-        bno_bbc_whore_player_1 = {
-            add = {
-                value = 5
-                if = {
-                    limit = {
-                        has_trait_xp = {
-                            trait = bno_bbc_whore_player_1
-                            value >= 1
-                        }
-                    }
-                    add = 5
-                }
-                if = {
-                    limit = {
-                        has_trait_xp = {
-                            trait = bno_bbc_whore_player_1
-                            value >= 30
-                        }
-                    }
-                    add = 5
-                }
-                if = {
-                    limit = {
-                        has_trait_xp = {
-                            trait = bno_bbc_whore_player_1
-                            value >= 60
-                        }
-                    }
-                    add = 5
-                }
-                desc = bno_court_position_trait_bno_bbc_whore_player_1
-            }
-        }
         bno_bbc_whore_2 = {
             add = {
                 value = 25
@@ -101,30 +68,6 @@ bno_bbc_worshipper_aptitude = {
                     add = 5
                 }
                 desc = bno_court_position_trait_bno_bbc_whore_2
-            }
-        }
-        bno_bbc_whore_player_2 = {
-            add = {
-                value = 25
-                if = {
-                    limit = {
-                        has_trait_xp = {
-                            trait = bno_bbc_whore_player_2
-                            value >= 30
-                        }
-                    }
-                    add = 5
-                }
-                if = {
-                    limit = {
-                        has_trait_xp = {
-                            trait = bno_bbc_whore_player_2
-                            value >= 60
-                        }
-                    }
-                    add = 5
-                }
-                desc = bno_court_position_trait_bno_bbc_whore_player_2
             }
         }
         bno_bbc_whore_3 = {
@@ -151,40 +94,10 @@ bno_bbc_worshipper_aptitude = {
                 desc = bno_court_position_trait_bno_bbc_whore_3
             }
         }
-        bno_bbc_whore_player_3 = {
-            add = {
-                value = 40
-                if = {
-                    limit = {
-                        has_trait_xp = {
-                            trait = bno_bbc_whore_player_3
-                            value >= 30
-                        }
-                    }
-                    add = 5
-                }
-                if = {
-                    limit = {
-                        has_trait_xp = {
-                            trait = bno_bbc_whore_player_3
-                            value >= 60
-                        }
-                    }
-                    add = 5
-                }
-                desc = bno_court_position_trait_bno_bbc_whore_player_3
-            }
-        }
         bno_bbc_whore_4 = {
             add = {
                 value = 60
                 desc = bno_court_position_trait_bno_bbc_whore_4
-            }
-        }
-        bno_bbc_whore_player_4 = {
-            add = {
-                value = 60
-                desc = bno_court_position_trait_bno_bbc_whore_player_4
             }
         }
     }
