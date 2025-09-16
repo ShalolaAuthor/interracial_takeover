@@ -1252,6 +1252,14 @@ bno_slut.3015 = {
 
 	immediate = {
 		add_character_flag = bno_slut.3015
+		if = {
+			limit = {
+				NOT = { exists = scope:bbc }
+			}
+			get_bbc_scope = {
+				SCOPE_NAME = bbc
+			}
+		}
 		bno_sex_scene_start = {
 			PARTNER = scope:bbc
 		}

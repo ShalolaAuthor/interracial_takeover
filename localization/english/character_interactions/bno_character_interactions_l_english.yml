@@ -5,6 +5,7 @@ bno_bbc_cum_addiction_interaction.desc: "Begin the corruption of [recipient.GetF
 bno_bbc_cum_addiction_interaction.send_name: "Feed her your cum"
 bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] Cum Addiction has begun"
 bno_bbc_cum_addiction_interaction.tooltip: "You have started binding [recipient.GetFirstNameNoTooltip] to you through seed. Each encounter will weaken her will and deepen her craving, until she cannot live without your cum."
+bno_bbc_cum_addiction_interaction.already_training: "You are already binding a slut to your seed. A Bull must focus his domination on one at a time until her will is broken and she is remade into your [bno_cum_slave|E]."
 
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] has some sort of [illness|E]"
 bno_cure_disease_interaction.no_priestess: "You do not have a [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] to perform the ritual."

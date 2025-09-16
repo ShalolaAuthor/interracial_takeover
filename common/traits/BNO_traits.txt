@@ -246,9 +246,9 @@ bno_bbc = {
 		bno_chastity
 	}
 	
-	same_opinion = 125
-	opposite_opinion = 25
-	general_opinion = -100
+	same_opinion = 200
+	opposite_opinion = 200
+	general_opinion = -200
 	
 	ignore_negative_culture_opinion = yes
 	ignore_negative_opinion_of_culture = yes
@@ -304,7 +304,8 @@ bno_curious = {
 	shown_in_ruler_designer = yes
 	
 	#Special Opinion
-	opposite_opinion = 120
+	general_opinion = -20
+	opposite_opinion = 200
 	same_opinion = 10
 	same_opinion_if_same_faith = 20
 
@@ -387,7 +388,8 @@ bno_blacked = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	opposite_opinion = 130
+	general_opinion = -40
+	opposite_opinion = 225
 	same_opinion = 20
 	same_opinion_if_same_faith = 40
 
@@ -474,7 +476,8 @@ bno_snowbunny = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	opposite_opinion = 150
+	general_opinion = -60
+	opposite_opinion = 250
 	same_opinion = 30
 	same_opinion_if_same_faith = 60
 
@@ -571,7 +574,8 @@ bno_qos = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	opposite_opinion = 175
+	general_opinion = -80
+	opposite_opinion = 275
 	same_opinion = 40
 	same_opinion_if_same_faith = 80
 
@@ -669,7 +673,8 @@ bno_mindless_bbc_slut = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	opposite_opinion = 200
+	general_opinion = -100
+	opposite_opinion = 300
 	same_opinion = 50
 	same_opinion_if_same_faith = 50
 
@@ -783,7 +788,7 @@ bno_full_black = {
 	}
 	
 	general_opinion = -100
-	same_opinion = 120
+	same_opinion = 200
 	prowess = 2
 	
 	group = bno_blood
@@ -799,7 +804,7 @@ bno_mostly_black = {
 	}
 
 	general_opinion = -100
-	same_opinion = 120
+	same_opinion = 180
 
 	group = bno_blood
 	level = 3
@@ -813,7 +818,7 @@ bno_mixed ={
 	}
 
 	general_opinion = -100
-	same_opinion = 120
+	same_opinion = 160
 
 	group = bno_blood
 	level = 2
@@ -827,7 +832,7 @@ bno_barely_mixed = {
 	}
 
 	general_opinion = -100
-	same_opinion = 120
+	same_opinion = 140
 
 	group = bno_blood
 	level = 1

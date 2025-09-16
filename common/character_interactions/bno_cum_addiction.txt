@@ -30,6 +30,13 @@
 				type = bno_bbc_cum_addiction
 				target_character = scope:recipient
 			}
+			custom_tooltip = {
+				text = bno_bbc_cum_addiction_interaction.already_training
+				any_scheme = {
+					scheme_type = bno_bbc_cum_addiction
+					count < 1
+				}
+			}
 		}
 	}
 
@@ -53,20 +60,20 @@
 	}
 	
 	ai_targets = {
-		ai_recipients = family
-		max = 2
+		ai_recipients = spouses
 	}
+
 	ai_targets = {
-		ai_recipients = guests
 		ai_recipients = courtiers
 		max = 10
 	}
-	
+
 	ai_target_quick_trigger = {
 		adult = yes
 		attracted_to_owner = yes
 		owner_attracted = yes
 	}
+	
 	ai_frequency = 1
 	ai_potential = {
 		is_adult = yes

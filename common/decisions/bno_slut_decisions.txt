@@ -18,8 +18,15 @@
 		}
 	}
 	is_valid = {
-		any_courtier_or_guest = {
-			is_ai_blackbull = yes
+		OR = {
+			any_courtier_or_guest = {
+				is_ai_blackbull = yes
+			}
+			liege ?= {
+				any_courtier_or_guest = {
+					is_ai_blackbull = yes
+				}
+			}
 		}
 		is_bno_snowbunny_and_up = yes
 	}
@@ -32,8 +39,15 @@
 	ai_check_interval = 1
 	ai_potential = {
 		is_bno_snowbunny_and_up = yes
-		any_courtier_or_guest = {
-			is_ai_blackbull = yes
+		OR = {
+			any_courtier_or_guest = {
+				is_ai_blackbull = yes
+			}
+			liege ?= {
+				any_courtier_or_guest = {
+					is_ai_blackbull = yes
+				}
+			}
 		}
 		NOT = { has_character_flag = bno_stop_becoming_bbc_slut }
 		NOT = {

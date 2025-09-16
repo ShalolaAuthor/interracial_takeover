@@ -38,10 +38,14 @@ bno_events00 = {
 			NOT = { has_game_rule = bno_invite_bbc_decision_off }	
 		}
 	}
-	is_valid = {
-		any_courtier = {
-			is_bbc = yes
-			count <= 2
+	is_valid_showing_failures_only = {
+		custom_tooltip = {
+			text = bno_events00.too_much_bbc
+			any_courtier_or_guest = {
+				is_adult = yes
+				is_bbc = yes
+				count < 3
+			}
 		}
 	}
 	cooldown = {
@@ -66,7 +70,7 @@ bno_events00 = {
 	ai_check_interval = 1
 	ai_potential = {
 		is_ruler = yes
-		any_courtier = {
+		any_courtier_or_guest = {
 			is_bbc = yes
 			count <= 2
 		}
@@ -239,10 +243,15 @@ bno_invite_slut_decision = {
 		}
 	}
 
-	is_valid = {
-		any_courtier = {
-			has_trait = bno_pure_white
-			count <= 2
+	is_valid_showing_failures_only = {
+		custom_tooltip = {
+			text = bno_invite_slut_decision.too_much_white_girl
+			any_courtier_or_guest = {
+				is_adult = yes
+				is_a_girl = yes
+				NOT = { has_trait = bno_blood }
+				count < 3
+			}
 		}
 	}
 
@@ -268,7 +277,7 @@ bno_invite_slut_decision = {
 	ai_check_interval = 1
 	ai_potential = {
 		is_ruler = yes
-		any_courtier = {
+		any_courtier_or_guest = {
 			has_trait = bno_pure_white
 			count <= 2
 		}
@@ -509,7 +518,7 @@ bno_convert_to_african = {
 					is_culture_bnoc = yes
 				}
 			}
-			any_courtier = {
+			any_courtier_or_guest = {
 				is_culture_bnoc = yes
 			}
 		}
@@ -526,7 +535,7 @@ bno_convert_to_african = {
 		}
 		else_if = {
 			limit = {
-				any_courtier = {
+				any_courtier_or_guest = {
 					is_culture_bnoc = yes
 				}
 			}
@@ -557,7 +566,7 @@ bno_convert_to_african = {
 					is_culture_bnoc = yes
 				}
 			}
-			any_courtier = {
+			any_courtier_or_guest = {
 				is_culture_bnoc = yes
 			}
 		}

@@ -290,7 +290,7 @@ bno_cuck.0003 = {
 	option = {
 		name = bno_cuck_0003.a
 		add_prestige = -250
-		dynasty = { add_dynasty_prestige = -25 }
+		dynasty ?= { add_dynasty_prestige = -25 }
 		scope:target1 ?= {
 			add_prestige = 250
 		}
@@ -1321,11 +1321,19 @@ bno_cuck.0011 = {
 	option = {
 		name = bno_cuck_0011.a
 		scope:target1 ?= {
+			every_relation = {
+				type = ward
+				remove_relation_guardian = prev
+			}
 			betrothed ?= {
 				break_betrothal = scope:target1
 			}
 		}
 		scope:target2 ?= {
+			every_relation = {
+				type = guardian
+				remove_relation_ward = prev
+			}
 			create_betrothal = scope:target1
 			set_relation_ward = scope:target1
 		}

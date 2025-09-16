@@ -222,25 +222,13 @@ bno_trait_seeding.0009 = {
 						is_faith_bbcs = yes
 					}
 				}
-				if = {
-					limit = {
-						exists = top_liege
-					}
-					set_character_faith_with_conversion = liege.faith
-				}
-				else = {
-					set_character_faith = liege.faith
+				bno_conversion_effect = {
+					FAITH = liege.faith
 				}
 			}
 			else = {
-				if = {
-					limit = {
-						exists = top_liege
-					}
-					set_character_faith_with_conversion = faith:bbcs
-				}
-				else = {
-					set_character_faith = faith:bbcs
+				bno_conversion_effect = {
+					FAITH = faith:bbcs
 				}
 			}
 		}
