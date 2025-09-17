@@ -334,3 +334,23 @@ bno_great_replacement = {
 		
 	}
 }
+
+bno_xp_gain = {
+	categories = {
+		interracial_takeover
+	}
+
+	default = bno_xp_gain_low
+
+	bno_xp_gain_low = {
+		
+	}
+
+	bno_xp_gain_med = {
+		
+	}
+
+	bno_xp_gain_high = {
+		
+	}
+}
