@@ -465,26 +465,23 @@ bno_increase_pussy_wear_effect = {
 }
 
 bno_increase_pussy_wear = {
+	save_scope_as = initiator
     if = {
 		limit = {
-			exists = scope:carn_sex_char_1
-			exists = scope:carn_sex_char_2
+			exists = scope:carn_sex_partner
 		}
 		bno_increase_pussy_wear_effect = {
-    	    GIRL_SCOPE = scope:carn_sex_char_1
-    	    BOY_SCOPE = scope:carn_sex_char_2
+    	    GIRL_SCOPE = scope:initiator
+    	    BOY_SCOPE = scope:carn_sex_partner
     	}
     	bno_increase_pussy_wear_effect = {
-    	    GIRL_SCOPE = scope:carn_sex_char_2
-    	    BOY_SCOPE = scope:carn_sex_char_1
+    	    GIRL_SCOPE = scope:carn_sex_partner
+    	    BOY_SCOPE = scope:initiator
     	}
 	}
 	if = {
 		limit = {
-			NAND = {
-				exists = scope:carn_sex_char_1
-				exists = scope:carn_sex_char_2
-			}
+			NOT = { exists = scope:carn_sex_partner }
 			exists = scope:mother
 		}
 		scope:mother = {

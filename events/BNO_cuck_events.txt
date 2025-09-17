@@ -1283,10 +1283,19 @@ bno_cuck.0011 = {
 			}
 			NOT = { has_character_flag = bno_cuck.0011 }
 			NOT = { has_trait = bno_blood }
+			save_temporary_scope_as = girl
 		}
-		any_vassal = {
+		any_vassal_or_below = {
+			highest_held_title_tier >= tier_county
 			allowed_more_spouses = yes
 			is_ai_blackbull = yes
+			is_male = yes
+			save_temporary_scope_as = bbc
+		}
+		scope:bbc = {
+			can_marry_character_trigger = {
+				CHARACTER = scope:girl
+			}
 		}
 	}
 	immediate = {
@@ -1298,10 +1307,12 @@ bno_cuck.0011 = {
 			}
 			save_scope_as = target1
 		}
-		random_vassal = {
+		random_vassal_or_below = {
 			limit = {
+				highest_held_title_tier >= tier_county
 				allowed_more_spouses = yes
 				is_ai_blackbull = yes
+				is_male = yes
 			}
 			save_scope_as = target2
 		}

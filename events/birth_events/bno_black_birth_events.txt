@@ -780,6 +780,9 @@ bno_black_birth.2102 = {
 
     trigger = {
         is_alive = yes
+        scope:mother = {
+            is_alive = yes
+        }
     }
     immediate = {
         bno_sex_scene_start = {

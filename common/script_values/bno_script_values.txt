@@ -38,11 +38,11 @@ bno_cum_addiction_random_xp_positive = {
 }
 
 bno_random_xp_positive = {
-	value = { 5 10 }
+	value = { 1 5 }
 }
 
 bno_random_xp_negative = { 
-	value = { -10 -5 }
+	value = { -5 -1 }
 }
 #negative is blonder
 hair_color_x = {

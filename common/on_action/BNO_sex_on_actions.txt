@@ -1,23 +1,14 @@
 ﻿##################################################################################
-# carn_on_sex
+# carn_on_sex_v2
 ##################################################################################
 
 # Triggers whenever a character has sex via event or decision, in the scope of that character.
 
-# DOES NOT trigger off random passive pregnancy with spouse/consort
-
-# You can check the chance of pregnancy with
-# scope:carn_sex_char_1_could_be_impregnated,
-# scope:carn_sex_char_2_could_be_impregnated
-
-# You can check whether impregnation happened with
-# scope:carn_sex_char_1_impregnated,
-# scope:carn_sex_char_2_impregnated
-
-# You can check for specific sex acts with "carn_sex_scene_was_vaginal = yes", etc
-
 # root = the character that sees the sex scene event
 # scope:carn_sex_partner = the other partner in the sex effect
+
+# Unlike carn_on_sex, it triggers just once for both partners,
+# instead of once for each of the partners
 
 carn_on_sex_v2 = {
 	on_actions = {
@@ -105,8 +96,25 @@ bno_set_recent_sex_partner = {
 bno_slut_on_sex = {
 	trigger = {
 		has_game_rule = bno_mod_status_on
+		OR = {
+			scope:carn_sex_player = {
+				is_bbc = yes
+			}
+			scope:carn_sex_partner = {
+				is_bbc = yes
+			}
+		}
 	}
 	effect = {
-		bbc_sex = yes
+		scope:carn_sex_player = {
+			bno_bbc_sex = {
+				PARTNER = scope:carn_sex_partner
+			}
+		}
+		scope:carn_sex_partner = {
+			bno_bbc_sex = {
+				PARTNER = scope:carn_sex_player
+			}
+		}
 	}
 }

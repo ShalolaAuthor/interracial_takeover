@@ -264,6 +264,9 @@ bno_bull.1003 = {
 
 	trigger = {
 		is_alive = yes
+		scope:target1 = {
+			is_alive = yes
+		}
 	}
 
 	option = {
@@ -317,6 +320,9 @@ bno_bull.2003 = {
 
 	trigger = {
 		is_alive = yes
+		scope:target1 = {
+			is_alive = yes
+		}
 	}
 
 	option = {
@@ -363,6 +369,9 @@ bno_bull.3003 = { #very basic flavor event if player is cumslut's husband, nothi
 
 	trigger = {
 		is_alive = yes
+		scope:target1 = {
+			is_alive = yes
+		}
 	}
 
 	option = {

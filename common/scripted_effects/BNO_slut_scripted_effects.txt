@@ -1140,89 +1140,123 @@ bno_remove_blood_traits = {
 	}
 }
 
- # Called inside on_action
-bbc_sex = {
+bno_bbc_sex = {
+	save_scope_as = initiator
 	if = {
 		limit = {
-			scope:carn_sex_char_2 = {
-				is_bbc = yes
+			is_bbc = yes
+			$PARTNER$ ?= {
+				is_african = no
 			}
 		}
-		scope:carn_sex_char_1 = {
-			bno_bbc_sex_after_effects = yes
+		bno_slut_sex_after_effects = {
+			PARTNER = $PARTNER$
 		}
-		scope:carn_sex_char_2 = {
-			bno_slut_sex_after_effects = yes
+		$PARTNER$ = {
+			bno_bbc_sex_after_effects = {
+				PARTNER = scope:initiator
+			}
 		}
 		if = {
 			limit = {
-				scope:carn_sex_char_1 = {
+				$PARTNER$ ?= {
 					is_married = yes
 					any_spouse = {
-						is_ai_white_guy = yes
+						is_white_guy = yes
 					}
 				}
 			}
-			scope:carn_sex_char_1 = {
+			$PARTNER$ = {
 				every_spouse = {
 					limit = {
-						is_ai_white_guy = yes
+						is_white_guy = yes
 					}
-					bno_cuck_sex_after_effects = yes
+					bno_cuck_sex_after_effects = {
+						PARTNER = $PARTNER$
+					}
 				}
 			}
 		}
 		if = {
 			limit = {
-				scope:carn_sex_char_2 = {
-					is_spouse_of = scope:carn_sex_char_1
+				$PARTNER$ = {
+					is_spouse_of = scope:initiator
 				}
 			}
-			scope:carn_sex_char_1 = {
-				bno_bull_husband_sex_after_effects = yes
+			$PARTNER$ = {
+				add_opinion = {
+					modifier = bull_husband_takes_me
+					target = scope:initiator
+				}
 			}
 		}
 	}
-	else_if = {
-		limit = {
-			scope:carn_sex_char_1 = {
-				is_bbc = yes
-			}
-		}
-		scope:carn_sex_char_2 = {
-			bno_bbc_sex_after_effects = yes
-		}
-		scope:carn_sex_char_1 = {
-			bno_slut_sex_after_effects = yes
-		}
-		if = {
-			limit = {
-				scope:carn_sex_char_2 = {
-					is_married = yes
-					any_spouse = {
-						is_ai_white_guy = yes
-					}
-				}
-			}
-			scope:carn_sex_char_2 = {
-				every_spouse = {
-					limit = {
-						is_ai_white_guy = yes
-					}
-					bno_cuck_sex_after_effects = yes
-				}
-			}
-		}
-		if = {
-			limit = {
-				scope:carn_sex_char_1 = {
-					is_spouse_of = scope:carn_sex_char_2
-				}
-			}
-			scope:carn_sex_char_2 = {
-				bno_bull_husband_sex_after_effects = yes
-			}
-		}
+}
+
+bno_bbc_sex_after_effects = {
+	bno_sex_increase_dynasty_prestige = yes
+	bno_add_prowess_per_sex = yes
+	bno_increase_sluttyness = yes
+	bno_sex_stats = yes
+	stress_impact = {
+		bno_curious = -10
+		bno_blacked = -20
+		bno_snowbunny = -30
+		bno_qos = -40
+		bno_mindless_bbc_slut = -50
+	}
+	add_character_flag = {
+		flag = bno_naked
+		months = 1
+	}
+	add_character_flag = {
+		flag = bno_cum_shot
+		months = 1
+	}
+	add_character_modifier = {
+		modifier = bno_slut_stress_relieved
+		years = 1
+	}
+	add_character_modifier = {
+		modifier = bno_cumstuffed
+		months = 6
+	}
+	add_opinion = {
+		modifier = bno_bull_fucks_me
+		target = $PARTNER$
+	}
+}
+
+bno_slut_sex_after_effects = {
+	bno_add_prowess_per_sex = yes
+	bno_sex_increase_dynasty_prestige = yes
+	bno_sex_stats = yes
+	stress_impact = {
+		bno_bbc = -50
+	}
+	add_character_modifier = {
+		modifier = bno_stress_relieved
+		years = 2
+	}
+	add_opinion = {
+		modifier = bno_slut_fucks_me
+		target = $PARTNER$
+	}
+}
+
+bno_cuck_sex_after_effects = {
+	bno_increase_cuckiness = yes
+	send_interface_message = {
+		type = bno_blacked_events
+		title = bno_happy_wife.0001.title
+		right_icon = $PARTNER$
+		desc = bno_happy_wife.0001.desc
+	}
+	stress_impact = {
+		bno_cuckish = -10
+		bno_cuck = -20
+		bno_beta = -30
+		bno_jos = -40
 	}
 }
 
@@ -1382,123 +1416,6 @@ bno_remove_whitegirl_traits = {
 
 bno_add_gold_faith = {
 	add_gold = bno_gold_amount
-}
-
-bno_slut_sex_after_effects = {
-	bno_add_prowess_per_sex = yes
-	bno_sex_increase_dynasty_prestige = yes
-	bno_sex_stats = yes
-	stress_impact = {
-		bno_bbc = -50
-	}
-	add_character_modifier = {
-		modifier = bno_stress_relieved
-		years = 2
-	}
-	if = {
-		limit = {
-			this = scope:carn_sex_char_1
-		}
-		add_opinion = {
-			modifier = bno_slut_fucks_me
-			target = scope:carn_sex_char_2
-		}
-	}
-	else_if = {
-		limit = {
-			this = scope:carn_sex_char_2
-		}
-		add_opinion = {
-			modifier = bno_slut_fucks_me
-			target = scope:carn_sex_char_1
-		}
-	}
-	
-}
-
-bno_cuck_sex_after_effects = {
-	bno_increase_cuckiness = yes
-	send_interface_message = {
-		type = bno_blacked_events
-		title = bno_happy_wife.0001.title
-		right_icon = root
-		desc = bno_happy_wife.0001.desc
-	}
-	stress_impact = {
-		bno_cuckish = -10
-		bno_cuck = -20
-		bno_beta = -30
-		bno_jos = -40
-	}
-}
-
-bno_bull_husband_sex_after_effects = {
-	if = {
-		limit = {
-			this = scope:carn_sex_char_1
-		}
-		add_opinion = {
-			modifier = bull_husband_takes_me
-			target = scope:carn_sex_char_2
-		}
-	}
-	else_if = {
-		limit = {
-			this = scope:carn_sex_char_2
-		}
-		add_opinion = {
-			modifier = bull_husband_takes_me
-			target = scope:carn_sex_char_1
-		}
-	}
-}
-
-bno_bbc_sex_after_effects = {
-	bno_sex_increase_dynasty_prestige = yes
-	bno_add_prowess_per_sex = yes
-	bno_increase_sluttyness = yes
-	bno_sex_stats = yes
-	stress_impact = {
-		bno_curious = -10
-		bno_blacked = -20
-		bno_snowbunny = -30
-		bno_qos = -40
-		bno_mindless_bbc_slut = -50
-	}
-	add_character_flag = {
-		flag = bno_naked
-		months = 1
-	}
-	add_character_flag = {
-		flag = bno_cum_shot
-		months = 1
-	}
-	add_character_modifier = {
-		modifier = bno_slut_stress_relieved
-		years = 1
-	}
-	add_character_modifier = {
-		modifier = bno_cumstuffed
-		months = 6
-	}
-	if = {
-		limit = {
-			this = scope:carn_sex_char_1
-		}
-		add_opinion = {
-			modifier = bno_bull_fucks_me
-			target = scope:carn_sex_char_2
-		}
-	}
-	else_if = {
-		limit = {
-			this = scope:carn_sex_char_2
-		}
-		add_opinion = {
-			modifier = bno_bull_fucks_me
-			target = scope:carn_sex_char_1
-		}
-	}
 }
 
 become_more_slut = {
