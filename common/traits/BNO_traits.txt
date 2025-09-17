@@ -785,6 +785,7 @@ bno_full_black = {
 
 	opposites = {
 		bno_pure_white
+		bno_slut_blood
 	}
 	
 	general_opinion = -100
@@ -801,6 +802,7 @@ bno_mostly_black = {
 	
 	opposites = {
 		bno_pure_white
+		bno_slut_blood
 	}
 
 	general_opinion = -100
@@ -815,6 +817,7 @@ bno_mixed ={
 	
 	opposites = {
 		bno_pure_white
+		bno_slut_blood
 	}
 
 	general_opinion = -100
@@ -829,6 +832,7 @@ bno_barely_mixed = {
 	
 	opposites = {
 		bno_pure_white
+		bno_slut_blood
 	}
 
 	general_opinion = -100
@@ -840,6 +844,10 @@ bno_barely_mixed = {
 
 bno_full_black_slut = {
 	physical = yes
+	opposites = {
+		bno_blood
+	}
+	opposite_opinion = 100
 	group = bno_slut_blood
 	shown_in_ruler_designer = no
 	level = 4
@@ -847,6 +855,10 @@ bno_full_black_slut = {
 
 bno_mostly_black_slut = {
 	physical = yes
+	opposites = {
+		bno_blood
+	}
+	opposite_opinion = 100
 	group = bno_slut_blood
 	shown_in_ruler_designer = no
 	level = 3
@@ -854,6 +866,10 @@ bno_mostly_black_slut = {
 
 bno_mixed_slut ={
 	physical = yes
+	opposites = {
+		bno_blood
+	}
+	opposite_opinion = 100
 	group = bno_slut_blood
 	shown_in_ruler_designer = no
 	level = 2
@@ -861,6 +877,10 @@ bno_mixed_slut ={
 
 bno_barely_mixed_slut = {
 	physical = yes
+	opposites = {
+		bno_blood
+	}
+	opposite_opinion = 100
 	group = bno_slut_blood
 	shown_in_ruler_designer = no
 	level = 1

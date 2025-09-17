@@ -116,7 +116,6 @@ bno_build_bbc_church = {
         piety_level >= 3
         is_faith_bbcs = yes
     }
-
     is_valid_showing_failures_only = {
         is_available_adult = yes
         is_at_war = no

@@ -1297,6 +1297,11 @@ bno_cuck.0011 = {
 				CHARACTER = scope:girl
 			}
 		}
+		scope:girl = {
+			can_marry_character_trigger = {
+				CHARACTER = scope:bbc
+			}
+		}
 	}
 	immediate = {
 		random_close_family_member = {

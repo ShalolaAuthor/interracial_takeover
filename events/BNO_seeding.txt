@@ -93,9 +93,8 @@ bno_trait_seeding.0004 = {
 						is_bbc = yes
 					}
 				}
-				change_trait_rank = {
-					trait = bno_pussy_mileage
-					rank = 1
+				bno_generic_rank_increase = {
+					TRAIT_GROUP = bno_pussy_mileage
 				}
 				add_trait_xp = {
 					trait = bno_pussy_mileage_2

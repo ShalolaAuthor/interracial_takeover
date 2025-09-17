@@ -347,10 +347,9 @@ bno_build_african_camps_decision = {
 	}
 
 	is_valid = {
-		any_realm_county = {
-			any_county_province = {
-				province_owner = root
-				NOT = { has_building_or_higher = bbc_camp_01 }
+		any_held_county = {
+			any_in_de_jure_hierarchy = {
+                bno_is_barony_valid_for_bbc_camps = yes
 			}
 		}
 	}
@@ -360,10 +359,7 @@ bno_build_african_camps_decision = {
 		barony_valid = {
 			trigger_if = {
 				limit = { exists = this }
-				holder = scope:ruler
-				title_province = {
-					NOT = { has_building_or_higher = bbc_camp_01 }
-				}
+				bno_is_barony_valid_for_bbc_camps = yes
 			}
 		}
 	}
@@ -389,10 +385,9 @@ bno_build_african_camps_decision = {
 	ai_check_interval = 12
 	ai_potential = {
 		is_ruler = yes
-		any_realm_county = {
-			any_county_province = {
-				province_owner = root
-				NOT = { has_building_or_higher = bbc_camp_01 }
+		any_held_county = {
+			any_in_de_jure_hierarchy = {
+                bno_is_barony_valid_for_bbc_camps = yes
 			}
 		}
 	}

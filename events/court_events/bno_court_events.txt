@@ -50,6 +50,7 @@ bno_court.0001 = {
 
     trigger = {
         bno_has_embrace_african_3 = yes
+        highest_held_title_tier >= tier_kingdom
     }
 
     immediate = {

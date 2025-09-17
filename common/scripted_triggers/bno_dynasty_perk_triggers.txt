@@ -66,11 +66,41 @@ bno_has_bbc_priest_or_priestess = {
 
 bno_is_barony_valid_for_church_foundation = {
 	is_capital_barony = yes
-    holder = scope:ruler
+	trigger_if = {
+		limit = {
+			exists = scope:ruler
+		}
+		holder = scope:ruler
+	}
+    trigger_else = {
+		holder = root
+	}
+	title_province = {
+        has_special_building_slot = no
+    }
     is_leased_out = no
     NOT = { title_province = { has_building_or_higher = bbc_church_01 } }
 }
 
 bno_is_barony_valid_for_bbc_holy_order = {
 	title_province = { has_building_or_higher = bbc_church_02 }
+}
+
+bno_is_barony_valid_for_bbc_camps = {
+	trigger_if = {
+		limit = {
+			exists = scope:ruler
+		}
+		holder = scope:ruler
+	}
+    trigger_else = {
+		holder = root
+	}
+	title_province = {
+        has_special_building_slot = no
+    }
+	is_leased_out = no
+	title_province = {
+		NOT = { has_building_or_higher = bbc_camp_01 }
+	}
 }

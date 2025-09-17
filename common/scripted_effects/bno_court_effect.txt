@@ -53,13 +53,7 @@ set_bbc_worshipper_effect = {
                 }
             }
         }
-        else_if = {
-            limit = {
-                any_court_position_holder = {
-                    type = bno_bbc_worshipper_court_position
-                    count < 3
-                }
-            }
+        else = {
             appoint_court_position = {
                 recipient = $BBC_WORSHIPPER$
                 court_position = bno_bbc_worshipper_court_position
