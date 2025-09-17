@@ -71,7 +71,6 @@
 	ai_target_quick_trigger = {
 		adult = yes
 		attracted_to_owner = yes
-		owner_attracted = yes
 	}
 	
 	ai_frequency = 1

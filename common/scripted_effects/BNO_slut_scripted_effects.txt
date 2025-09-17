@@ -125,8 +125,6 @@ bno_becoming_lustful_effect = {
 	}
 }
 
-
-
 get_wandering_male_scope = {
 	random_pool_character = {
 		province = root.location
