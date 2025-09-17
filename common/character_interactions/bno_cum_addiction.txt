@@ -63,14 +63,8 @@
 		ai_recipients = spouses
 	}
 
-	ai_targets = {
-		ai_recipients = courtiers
-		max = 10
-	}
-
 	ai_target_quick_trigger = {
 		adult = yes
-		attracted_to_owner = yes
 	}
 	
 	ai_frequency = 1

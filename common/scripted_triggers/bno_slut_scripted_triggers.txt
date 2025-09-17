@@ -754,6 +754,29 @@ is_elligible_partner = {
 	}
 }
 
+is_bbc_valid_target_for_betrothal = {
+	highest_held_title_tier >= tier_county
+	allowed_more_spouses = yes
+	is_ai_blackbull = yes
+	is_male = yes
+}
+
+is_girl_valid_target_for_bbc_betrothal = {
+	is_a_girl = yes
+	age >= 10
+	is_adult = no
+	trigger_if = {
+		limit = {
+			exists = betrothed
+		}
+		betrothed = {
+			is_bbc = no
+		}
+	}
+	NOT = { has_character_flag = bno_cuck.0011 }
+	NOT = { has_trait = bno_blood }
+}
+
 is_slave = {
 	has_trait = slave
 }

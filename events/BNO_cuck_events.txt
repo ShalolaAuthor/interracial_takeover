@@ -1245,7 +1245,7 @@ bno_cuck.2010 = { #follow up event, bbc spymaster lays with cuck's wife
 	}
 }
 
-#BBC vassal explains he will take cuck's white daughter/sister as future wife
+# BBC vassal explains he will take cuck's white daughter/sister as future wife
 bno_cuck.0011 = {
 	type = character_event
 	title = bno_cuck_0011.title
@@ -1271,25 +1271,11 @@ bno_cuck.0011 = {
 	trigger = {
 		is_whiteboi = yes
 		any_close_family_member = {
-			is_a_girl = yes
-			is_adult = no
-			trigger_if = {
-				limit = {
-					exists = betrothed
-				}
-				betrothed = {
-					is_bbc = no
-				}
-			}
-			NOT = { has_character_flag = bno_cuck.0011 }
-			NOT = { has_trait = bno_blood }
+			is_girl_valid_target_for_bbc_betrothal = yes
 			save_temporary_scope_as = girl
 		}
 		any_vassal_or_below = {
-			highest_held_title_tier >= tier_county
-			allowed_more_spouses = yes
-			is_ai_blackbull = yes
-			is_male = yes
+			is_bbc_valid_target_for_betrothal = yes
 			save_temporary_scope_as = bbc
 		}
 		scope:bbc = {
@@ -1306,18 +1292,13 @@ bno_cuck.0011 = {
 	immediate = {
 		random_close_family_member = {
 			limit = {
-				is_adult = no
-				is_a_girl = yes
-				NOT = { has_trait = bno_blood }
+				is_girl_valid_target_for_bbc_betrothal = yes
 			}
 			save_scope_as = target1
 		}
 		random_vassal_or_below = {
 			limit = {
-				highest_held_title_tier >= tier_county
-				allowed_more_spouses = yes
-				is_ai_blackbull = yes
-				is_male = yes
+				is_bbc_valid_target_for_betrothal = yes
 			}
 			save_scope_as = target2
 		}

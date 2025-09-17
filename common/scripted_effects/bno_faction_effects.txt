@@ -127,16 +127,17 @@ get_bnwo_revolt_target_effect = {
         faction_target = {
             save_scope_as = faction_target
         }
-    }
-    scope:faction_target = {
-        random_held_title = {
-            limit = {
-                tier >= tier_county
-                NOT = { is_culture_bnoc = yes }
-                NOT = { faith = faith:bbcs }
-            }
-            save_scope_as = target_title
-        }
+    	scope:faction_target = {
+    	    random_held_title = {
+    	        limit = {
+    	            tier >= tier_county
+					is_culture_bnoc = no
+					is_faith_bbcs = no
+    	        }
+    	        save_scope_as = target_title
+    	    }
+    	}
+		set_special_title = scope:target_title
     }
 }
 
