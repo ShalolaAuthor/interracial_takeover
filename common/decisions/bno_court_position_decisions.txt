@@ -104,20 +104,11 @@ bno_build_bbc_church = {
 
     is_valid = {
         is_independent_ruler = yes
-        primary_title = {
-            title_capital_county = {
-                any_county_province = {
-                    is_county_capital = yes
-                    county = {
-                        any_in_de_jure_hierarchy = {
-                            barony_is_valid_for_holy_order_lease_trigger = {
-                                CHARACTER = root
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        any_held_county = {
+			any_in_de_jure_hierarchy = {
+                bno_is_barony_valid_for_church_foundation = yes
+			}
+		}
         custom_description = {
             text = is_king_or_emperor
             highest_held_title_tier >= tier_kingdom
@@ -139,10 +130,7 @@ bno_build_bbc_church = {
         barony_valid = {
             trigger_if = {
                 limit = { exists = this }
-                AND = {
-                    NOT = { title_province = { has_building_or_higher = bbc_church_01 } }
-                    barony_is_valid_for_holy_order_lease_trigger = { CHARACTER = scope:ruler }
-                }
+                bno_is_barony_valid_for_church_foundation = yes
             }
             trigger_else = {
                 custom_description = { 
@@ -175,20 +163,11 @@ bno_build_bbc_church = {
         highest_held_title_tier >= tier_kingdom
         bno_has_embrace_african_5 = yes
         is_playable_character = yes
-        primary_title = {
-            title_capital_county = {
-                any_county_province = {
-                    is_county_capital = yes
-                    county = {
-                        any_in_de_jure_hierarchy = {
-                            barony_is_valid_for_holy_order_lease_trigger = {
-                                CHARACTER = root
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        any_held_county = {
+			any_in_de_jure_hierarchy = {
+                bno_is_barony_valid_for_church_foundation = yes
+			}
+		}
     }
 
     ai_will_do = {
@@ -219,13 +198,9 @@ bno_found_bbc_church_holy_order = {
             text = is_king_or_emperor
             highest_held_title_tier >= tier_kingdom
         }
-        any_realm_county = {
-			any_county_province = {
-                has_building_or_higher = bbc_church_02
-                barony = {
-				    barony_is_valid_for_holy_order_lease_trigger = { CHARACTER = root }
-                    NOT = { has_variable = bbc_holy_order }
-                }
+        any_held_county = {
+			any_in_de_jure_hierarchy = {
+                bno_is_barony_valid_for_bbc_holy_order = yes
 			}
 		}
         piety_level >= 3
@@ -244,10 +219,7 @@ bno_found_bbc_church_holy_order = {
         barony_valid = {
             trigger_if = {
                 limit = { exists = this }
-                AND = {
-                    barony_is_valid_for_holy_order_lease_trigger = { CHARACTER = scope:ruler }
-                    title_province = { has_building_or_higher = bbc_church_02 }
-                }
+                bno_is_barony_valid_for_bbc_holy_order = yes
             }
             trigger_else = {
                 custom_description = { 
@@ -273,27 +245,17 @@ bno_found_bbc_church_holy_order = {
     }
 
     ai_potential = {
+        is_independent_ruler = yes
         highest_held_title_tier >= tier_kingdom
         bno_has_embrace_african_5 = yes
-        is_playable_character = yes
-        primary_title = {
-            title_capital_county = {
-                any_county_province = {
-                    is_county_capital = yes
-                    county = {
-                        any_in_de_jure_hierarchy = {
-                            barony_is_valid_for_holy_order_lease_trigger = {
-                                CHARACTER = root
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        any_held_county = {
+			any_in_de_jure_hierarchy = {
+                bno_is_barony_valid_for_bbc_holy_order = yes
+			}
+		}
     }
 
     ai_will_do = {
         base = 100
     }
 }
-

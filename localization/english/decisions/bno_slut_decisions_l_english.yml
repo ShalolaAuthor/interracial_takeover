@@ -148,3 +148,7 @@ bno_primal_insight_decision.tooltip.male: "You will get [GetModifier('bno_primal
 bull_decision.effect: "Massive [stress|E] loss.."
 bno_events00.too_much_bbc: "Your court already overflows with [bno_bbcs|E]. Even a Bull’s hall has its limits."
 bno_invite_slut_decision.too_much_white_girl: "Your court is already swarming with pale sluts. Any more would cheapen their worth and strain your hold over them."
+bno_events00.too_little_bbc: "Your hall is empty of [bno_bbcs|E]. With fewer than three Bulls, your court lacks the strength—and the temptation—that follows their presence. Invite them in, and let their shadow fall across your realm."
+bno_invite_slut_decision.too_little_white_girl: "Your court is thin of pale sluts. More must be invited, for every hall swells in power—and in peril—when white whores are gathered under one roof."
+
+bno_becoming_bbc_slut.has_bbc_in_court: "There must be at least one [bno_bbc|E] in your court to begin this path. Without a Bull to claim you, your fall into slavery cannot start."

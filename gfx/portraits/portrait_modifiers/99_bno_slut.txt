@@ -504,7 +504,7 @@ bno_white_girl = {
 				mode = add
 				gene = clothing_type
 				template = revealing_2
-				value = 1.0
+				value = 0
 			}
 		}
 		weight = {

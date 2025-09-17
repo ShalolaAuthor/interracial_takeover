@@ -39,7 +39,7 @@ bbc_worshipper_high_character_template = {
         max_template_medium_skill
     }
     after_creation = {
-        add_trait = bno_bbc_whore_1
+        add_trait = bno_bbc_whore_2
         bno_get_between_normal_and_rare_trait = {
             TRAIT_NORMAL = bno_snowbunny
             TRAIT_RARE = bno_qos
@@ -67,7 +67,7 @@ bbc_worshipper_excellent_character_template = {
         max_template_high_skill
     }
     after_creation = {
-        add_trait = bno_bbc_whore_1
+        add_trait = bno_bbc_whore_3
         bno_get_between_normal_and_rare_trait = {
             TRAIT_NORMAL = bno_qos
             TRAIT_RARE = bno_mindless_bbc_slut

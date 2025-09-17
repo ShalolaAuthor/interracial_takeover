@@ -37,6 +37,21 @@ bno_events00 = {
 		trigger_else = {
 			NOT = { has_game_rule = bno_invite_bbc_decision_off }	
 		}
+		any_courtier_or_guest = {
+			is_adult = yes
+			is_bbc = yes
+			count < 3
+		}
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = bno_events00.too_little_bbc
+			any_courtier_or_guest = {
+				is_adult = yes
+				is_bbc = yes
+				count < 3
+			}
+		}
 	}
 	is_valid_showing_failures_only = {
 		custom_tooltip = {
@@ -162,6 +177,7 @@ bull_decision = {
 	is_shown = {
 		is_ruler = yes
 		is_adult = yes
+		is_a_male = yes
 		is_bbc = no
 	}
 	is_valid = {
@@ -241,8 +257,25 @@ bno_invite_slut_decision = {
 			is_ai = no 
 			has_game_rule = bno_decision_npc_yes 
 		}
+		any_courtier_or_guest = {
+			is_adult = yes
+			is_a_girl = yes
+			NOT = { has_trait = bno_blood }
+			count < 3
+		}
 	}
 
+	is_valid = {
+		custom_tooltip = {
+			text = bno_invite_slut_decision.too_little_white_girl
+			any_courtier_or_guest = {
+				is_adult = yes
+				is_a_girl = yes
+				NOT = { has_trait = bno_blood }
+				count < 3
+			}
+		}
+	}
 	is_valid_showing_failures_only = {
 		custom_tooltip = {
 			text = bno_invite_slut_decision.too_much_white_girl

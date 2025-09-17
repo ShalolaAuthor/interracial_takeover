@@ -414,7 +414,7 @@ bno_events.0007 = {
 		hidden_effect = {
 			random_character_with_royal_court = {
 				limit = {
-					culture_has_european_heritage_pillar_trigger = yes
+					bno_culture_has_european_heritage_pillar_trigger = yes
 				}
 				save_scope_as = european
 			}

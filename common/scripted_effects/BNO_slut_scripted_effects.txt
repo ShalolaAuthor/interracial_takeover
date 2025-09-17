@@ -967,76 +967,27 @@ create_slut = {
 create_character_with_european_heritage_with_parents = {
 	random_character_with_royal_court = {
 		limit = {
-			culture_has_european_heritage_pillar_trigger = yes
-			is_married = yes
+			bno_culture_has_european_heritage_pillar_trigger = yes
 		}
 		save_scope_as = european
 	}
-	if = {
-		limit = {
-			scope:european = {
-				is_male = yes
-			}
-		}
-		random_spouse = {
-			save_scope_as = european_wife
-		}
-		$CREATE_CHARACTER$ = {
-			SCOPE_NAME = $SCOPE_NAME$
-			age = $age$
-			FATHER = scope:european
-			MOTHER = scope:european_wife
-		}
-	}
-	else = {
-		random_spouse = {
-			save_scope_as = european_husband
-		}
-		$CREATE_CHARACTER$ = {
-			SCOPE_NAME = $SCOPE_NAME$
-			age = $age$
-			FATHER = scope:european_husband
-			MOTHER = scope:european
-		}
+	$CREATE_CHARACTER$ = {
+		SCOPE_NAME = $SCOPE_NAME$
+		age = $age$
 	}
 }
 
 create_character_with_european_heritage_with_parents_template_and_location = {
 	random_character_with_royal_court = {
 		limit = {
-			culture_has_european_heritage_pillar_trigger = yes
-			is_married = yes
+			bno_culture_has_european_heritage_pillar_trigger = yes
 		}
 		save_scope_as = european
 	}
-	if = {
-		limit = {
-			scope:european = {
-				is_male = yes
-			}
-		}
-		random_spouse = {
-			save_scope_as = european_wife
-		}
-		$CREATE_CHARACTER$ = {
-			SCOPE_NAME = $SCOPE_NAME$
-			FATHER = scope:european
-			MOTHER = scope:european_wife
-			TEMPLATE = $TEMPLATE$
-			LOCATION = $LOCATION$
-		}
-	}
-	else = {
-		random_spouse = {
-			save_scope_as = european_husband
-		}
-		$CREATE_CHARACTER$ = {
-			SCOPE_NAME = $SCOPE_NAME$
-			FATHER = scope:european_husband
-			MOTHER = scope:european
-			TEMPLATE = $TEMPLATE$
-			LOCATION = $LOCATION$
-		}
+	$CREATE_CHARACTER$ = {
+		SCOPE_NAME = $SCOPE_NAME$
+		TEMPLATE = $TEMPLATE$
+		LOCATION = $LOCATION$
 	}
 }
 
@@ -1045,9 +996,17 @@ create_character_slut = {
 	create_character = {
 		gender = female
 		save_scope_as = $SCOPE_NAME$
-		father = $FATHER$
-		mother = $MOTHER$
-		ethnicity = parents
+		ethnicities = {
+			caucasian = {}
+			caucasian_blond = {}
+			caucasian_northern_blond = {}
+			caucasian_ginger = {}
+			caucasian_northern_ginger = {}
+			caucasian_brown_hair = {}
+			caucasian_northern_brown_hair = {}
+			caucasian_dark_hair = {}
+			caucasian_northern_dark_hair = {}
+		}
 		location = scope:creator.capital_province
 		age = $age$
 		dynasty = scope:european.dynasty
@@ -1094,9 +1053,17 @@ create_character_blacked_slut = {
 	save_scope_as = creator
 	create_character = {
 		template = $TEMPLATE$
-		father = $FATHER$
-		mother = $MOTHER$
-		ethnicity = parents
+		ethnicities = {
+			caucasian = {}
+			caucasian_blond = {}
+			caucasian_northern_blond = {}
+			caucasian_ginger = {}
+			caucasian_northern_ginger = {}
+			caucasian_brown_hair = {}
+			caucasian_northern_brown_hair = {}
+			caucasian_dark_hair = {}
+			caucasian_northern_dark_hair = {}
+		}
 		dynasty = scope:european.dynasty
 		dynasty_house = scope:european.house
 		culture = scope:european.culture
