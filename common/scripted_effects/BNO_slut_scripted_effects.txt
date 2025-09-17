@@ -1041,13 +1041,14 @@ create_character_with_european_heritage_with_parents_template_and_location = {
 }
 
 create_character_slut = {
+	save_scope_as = creator
 	create_character = {
 		gender = female
 		save_scope_as = $SCOPE_NAME$
 		father = $FATHER$
 		mother = $MOTHER$
 		ethnicity = parents
-		location = root.location
+		location = scope:creator.capital_province
 		age = $age$
 		dynasty = scope:european.dynasty
 		dynasty_house = scope:european.house
