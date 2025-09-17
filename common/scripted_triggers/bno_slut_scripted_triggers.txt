@@ -726,6 +726,10 @@ is_bno_qos_and_up = {
 	}
 }
 
+is_cum_slave = {
+	has_trait = bno_cum_addiction_4
+}
+
 is_elligible_partner = {
 	is_travelling = no
 	is_adult = yes
