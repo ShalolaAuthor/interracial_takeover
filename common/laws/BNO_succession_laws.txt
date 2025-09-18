@@ -388,7 +388,6 @@
 		succession = {
 			order_of_succession = inheritance
 			title_division = single_heir
-			traversal_order = children
 			gender_law = equal
 			faith = same_faith
 		}

@@ -353,7 +353,9 @@ bno_build_african_camps_decision = {
 	is_valid = {
 		any_held_county = {
 			any_in_de_jure_hierarchy = {
-                bno_is_barony_valid_for_bbc_camps = yes
+                bno_is_barony_valid_for_bbc_camps = {
+					HOLDER = root
+				}
 			}
 		}
 	}
@@ -363,7 +365,9 @@ bno_build_african_camps_decision = {
 		barony_valid = {
 			trigger_if = {
 				limit = { exists = this }
-				bno_is_barony_valid_for_bbc_camps = yes
+				bno_is_barony_valid_for_bbc_camps = {
+					HOLDER = scope:ruler
+				}
 			}
 		}
 	}
@@ -391,7 +395,9 @@ bno_build_african_camps_decision = {
 		is_ruler = yes
 		any_held_county = {
 			any_in_de_jure_hierarchy = {
-                bno_is_barony_valid_for_bbc_camps = yes
+                bno_is_barony_valid_for_bbc_camps = {
+					HOLDER = root
+				}
 			}
 		}
 	}

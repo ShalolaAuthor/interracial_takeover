@@ -59,7 +59,7 @@ on_join_court = {
 
 bno_on_join_court = {
     trigger = {
-        scope:new_employer.primary_title = {
+        liege.primary_title = {
             has_variable = bbc_holy_order
         }
     }

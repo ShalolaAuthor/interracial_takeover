@@ -398,6 +398,7 @@
 			holy_site = cordoba
 			holy_site = fes
 			holy_site = constantinople
+			holy_site = rome
 			
 			doctrine = west_african_unreformed_faith_doctrine
 

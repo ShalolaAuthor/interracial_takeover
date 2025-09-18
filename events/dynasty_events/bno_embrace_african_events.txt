@@ -1961,6 +1961,24 @@ bno_embrace_african_5.0006 = {
             }
         }
         create_holy_order_effect = yes
+        scope:leader = {
+            every_courtier_or_guest = {
+                limit = {
+                    is_slut = no
+                }
+                create_blacked_european_girls = {
+                    TEMPLATE = bno_female_holy_order_leader_character_template
+                    LOCATION = scope:leader.location
+                    SCOPE = female_courtier
+                }
+                scope:leader = {
+                    add_courtier = scope:female_courtier
+                }
+                death = {
+		        	death_reason = death_disappearance
+		        }
+            }
+        }
     }
 
     option = {

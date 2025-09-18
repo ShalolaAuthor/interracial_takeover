@@ -1,7 +1,7 @@
 ﻿bno_building_requirement_camp = {
     custom_description = {
         text = bbc_or_whitegirl_trigger
-        scope:holder = {
+        scope:holder ?= {
 	    	top_liege = {
 	    		OR = {
 	    			has_trait = bno_bbc
@@ -16,7 +16,7 @@
 bno_building_requirement_church = {
 	custom_description = {
         text = bbc_or_whitegirl_trigger
-        scope:holder = {
+        scope:holder ?= {
 			top_liege = {
 	    		OR = {
 	    			has_trait = bno_bbc
@@ -28,13 +28,13 @@ bno_building_requirement_church = {
     }
 	custom_description = {
         text = is_king_or_emperor
-		scope:holder = { 
+		scope:holder ?= { 
 			top_liege = {
 				highest_held_title_tier >= tier_kingdom 
 			}
 		}
     }
-	scope:holder = {
+	scope:holder ?= {
 		top_liege = {
 			piety_level >= 3
 			bno_has_embrace_african_5 = yes

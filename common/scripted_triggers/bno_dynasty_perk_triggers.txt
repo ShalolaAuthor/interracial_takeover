@@ -65,18 +65,19 @@ bno_has_bbc_priest_or_priestess = {
 }
 
 bno_is_barony_valid_for_church_foundation = {
-	is_capital_barony = yes
-	trigger_if = {
-		limit = {
-			exists = scope:ruler
+	is_capital_barony = no
+	county = {
+		trigger_if = {
+			limit = { exists = scope:ruler }
+			holder = scope:ruler
+			this = scope:ruler.primary_title.title_capital_county
 		}
-		holder = scope:ruler
-	}
-    trigger_else = {
-		holder = root
+		trigger_else = {
+			holder = $HOLDER$
+			this = $HOLDER$.primary_title.title_capital_county
+		}
 	}
 	title_province = {
-		is_county_capital = no
         has_special_building_slot = no
     }
     is_leased_out = no
@@ -84,19 +85,32 @@ bno_is_barony_valid_for_church_foundation = {
 }
 
 bno_is_barony_valid_for_bbc_holy_order = {
+	county = {
+		trigger_if = {
+			limit = { exists = scope:ruler }
+			holder = scope:ruler
+			this = scope:ruler.primary_title.title_capital_county
+		}
+		trigger_else = {
+			holder = $HOLDER$
+			this = $HOLDER$.primary_title.title_capital_county
+		}
+	}
 	is_leased_out = no
 	title_province = { has_building_or_higher = bbc_church_02 }
 }
 
 bno_is_barony_valid_for_bbc_camps = {
-	trigger_if = {
-		limit = {
-			exists = scope:ruler
+	county = {
+		trigger_if = {
+			limit = { exists = scope:ruler }
+			holder = scope:ruler
+			NOT = { this = scope:ruler.primary_title.title_capital_county }
 		}
-		holder = scope:ruler
-	}
-    trigger_else = {
-		holder = root
+		trigger_else = {
+			holder = root
+			NOT = { this = $HOLDER$.primary_title.title_capital_county }
+		}
 	}
 	title_province = {
         has_special_building_slot = no

@@ -109,7 +109,9 @@ bno_build_bbc_church = {
         is_independent_ruler = yes
         any_held_county = {
 			any_in_de_jure_hierarchy = {
-                bno_is_barony_valid_for_church_foundation = yes
+                bno_is_barony_valid_for_church_foundation = {
+                    HOLDER = root
+                }
 			}
 		}
         custom_description = {
@@ -132,7 +134,9 @@ bno_build_bbc_church = {
         barony_valid = {
             trigger_if = {
                 limit = { exists = this }
-                bno_is_barony_valid_for_church_foundation = yes
+                bno_is_barony_valid_for_church_foundation = {
+                    HOLDER = scope:ruler
+                }
             }
             trigger_else = {
                 custom_description = { 
@@ -167,7 +171,9 @@ bno_build_bbc_church = {
         is_playable_character = yes
         any_held_county = {
 			any_in_de_jure_hierarchy = {
-                bno_is_barony_valid_for_church_foundation = yes
+                bno_is_barony_valid_for_church_foundation = {
+                    HOLDER = root
+                }
 			}
 		}
     }
@@ -199,9 +205,7 @@ bno_found_bbc_church_holy_order = {
     ai_check_interval = 1
 
     is_shown = {
-        dynasty ?= {
-            has_dynasty_perk = bno_embrace_african_5
-        }
+        bno_has_embrace_african_5 = yes
     }
 
     is_valid = {
@@ -212,7 +216,9 @@ bno_found_bbc_church_holy_order = {
         }
         any_held_county = {
 			any_in_de_jure_hierarchy = {
-                bno_is_barony_valid_for_bbc_holy_order = yes
+                bno_is_barony_valid_for_bbc_holy_order = {
+                    HOLDER = root
+                }
 			}
 		}
         piety_level >= 3
@@ -231,7 +237,9 @@ bno_found_bbc_church_holy_order = {
         barony_valid = {
             trigger_if = {
                 limit = { exists = this }
-                bno_is_barony_valid_for_bbc_holy_order = yes
+                bno_is_barony_valid_for_bbc_holy_order = {
+                    HOLDER = scope:ruler
+                }
             }
             trigger_else = {
                 custom_description = { 
@@ -262,7 +270,9 @@ bno_found_bbc_church_holy_order = {
         bno_has_embrace_african_5 = yes
         any_held_county = {
 			any_in_de_jure_hierarchy = {
-                bno_is_barony_valid_for_bbc_holy_order = yes
+                bno_is_barony_valid_for_bbc_holy_order = {
+                    HOLDER = root
+                }
 			}
 		}
     }
