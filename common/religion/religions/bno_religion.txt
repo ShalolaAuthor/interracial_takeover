@@ -399,6 +399,11 @@
 			holy_site = fes
 			holy_site = constantinople
 			holy_site = rome
+			holy_site = cologne
+			holy_site = kent
+			holy_site = santiago
+			holy_site = armagh
+			holy_site = iona
 			
 			doctrine = west_african_unreformed_faith_doctrine
 
