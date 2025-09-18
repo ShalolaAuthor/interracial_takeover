@@ -756,6 +756,7 @@ is_elligible_partner = {
 
 is_bbc_valid_target_for_betrothal = {
 	highest_held_title_tier >= tier_county
+	NOT = { exists = betrothed }
 	allowed_more_spouses = yes
 	is_ai_blackbull = yes
 	is_male = yes
@@ -763,6 +764,7 @@ is_bbc_valid_target_for_betrothal = {
 
 is_girl_valid_target_for_bbc_betrothal = {
 	is_a_girl = yes
+	is_female = yes
 	age >= 10
 	is_adult = no
 	trigger_if = {
@@ -772,6 +774,9 @@ is_girl_valid_target_for_bbc_betrothal = {
 		betrothed = {
 			is_bbc = no
 		}
+	}
+	trigger_else = {
+		always = yes
 	}
 	NOT = { has_character_flag = bno_cuck.0011 }
 	NOT = { has_trait = bno_blood }

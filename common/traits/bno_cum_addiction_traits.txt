@@ -11,6 +11,19 @@
     owned_personal_scheme_success_chance_add = 3
     learning = -2
 
+    compatibility = {
+        bno_bbc = 100
+        bno_bull = 150
+        bno_curious = 50
+        bno_blacked = 75
+        bno_pure_white = 75
+
+        bno_cuckish = -50
+        bno_cuck = -75
+        bno_beta = -100
+        bno_castrated = -100
+    }
+
     track = {
         30 = { fertility = 0.05 owned_personal_scheme_success_chance_add = 2 }
         60 = { stress_loss_mult = 0.05 learning = -1 }
@@ -49,12 +62,24 @@ bno_cum_addiction_2 = {
     stress_loss_mult = 0.10
     owned_personal_scheme_success_chance_add = 7
     learning = -3
-    maa_damage_mult = 0.05
+    bnwo_armies_damage_mult = 0.05
     dread_gain_mult = 0.02
     stress_gain_mult = 0.05
 
+    compatibility = {
+        bno_bbc = 200
+        bno_bull = 300
+        bno_blacked = 100
+        bno_snowbunny = 150
+        bno_pure_white = 100
+
+        bno_cuckish = -75
+        bno_cuck = -100
+        bno_beta = -125
+    }
+
     track = {
-        30 = { fertility = 0.05 maa_damage_mult = 0.02 }
+        30 = { fertility = 0.05 bnwo_armies_damage_mult = 0.02 }
         60 = { owned_personal_scheme_success_chance_add = 2 learning = -1 }
         90 = { stress_loss_mult = 0.05 dread_gain_mult = 0.02 }
     }
@@ -91,17 +116,29 @@ bno_cum_addiction_3 = {
     stress_loss_mult = 0.15
     owned_personal_scheme_success_chance_add = 11
     learning = -5
-    maa_damage_mult = 0.10
-    maa_toughness_mult = 0.08
+    bnwo_armies_damage_mult = 0.10
+    bnwo_armies_toughness_mult = 0.08
     levy_size = 0.10
     dread_gain_mult = 0.05
     stress_gain_mult = 0.10
     monthly_prestige = -0.2
+    
+    compatibility = {
+        bno_bbc = 400
+        bno_bull = 600
+        bno_snowbunny = 200
+        bno_qos = 300
+        bno_pure_white = 150
+
+        bno_cuckish = -100
+        bno_cuck = -150
+        bno_beta = -200
+    }
 
     track = {
-        30 = { fertility = 0.05 maa_damage_mult = 0.03 }
+        30 = { fertility = 0.05 bnwo_armies_damage_mult = 0.03 }
         60 = { owned_personal_scheme_success_chance_add = 3 levy_size = 0.05 }
-        90 = { stress_loss_mult = 0.05 maa_toughness_mult = 0.05 learning = -2 }
+        90 = { stress_loss_mult = 0.05 bnwo_armies_toughness_mult = 0.05 learning = -2 }
     }
 
     name = {
@@ -136,8 +173,8 @@ bno_cum_addiction_4 = {
     stress_loss_mult = 0.25
     owned_personal_scheme_success_chance_add = 15
     learning = -8
-    maa_damage_mult = 0.20
-    maa_toughness_mult = 0.20
+    bnwo_armies_damage_mult = 0.20
+    bnwo_armies_toughness_mult = 0.20
     levy_size = 0.20
     levy_reinforcement_rate = 0.10
     dread_gain_mult = 0.10
@@ -145,6 +182,19 @@ bno_cum_addiction_4 = {
     stress_gain_mult = 0.20
     monthly_prestige = -0.3
     monthly_piety = -0.3
+
+    compatibility = {
+        bno_bbc = 800
+        bno_bull = 1200
+        bno_qos = 400
+        bno_mindless_bbc_slut = 600
+        bno_pure_white = 200
+
+        bno_cuckish = -150
+        bno_cuck = -200
+        bno_beta = -300
+    }
+
 
     name = bno_cum_addiction_4.1
     desc = bno_cum_addiction_4.desc.1

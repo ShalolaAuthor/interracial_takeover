@@ -142,28 +142,32 @@ bno_election = {
 	selection_tooltip = bno_election_decision_tooltip
 	decision_group_type = bno_decision_group
 	is_shown = {
+		is_ruler = yes
+		trigger_if = {
+			limit = {
+				is_a_male = yes
+			}
+			is_bbc = yes
+		}
+		trigger_else = {
+			is_slut = yes
+		}
 		is_adult = yes
-		is_female = yes
-		has_trait = bno_whitegirl
 		NOT = { has_realm_law = bnwo_only_law }
 	}
 	is_valid = {
-		is_adult = yes
-		is_female = yes
-		is_bno_snowbunny_and_up = yes
-		NOT = { has_realm_law = bnwo_only_law }
+		can_have_bnwo_elective_succession_law_trigger = yes
 	}
 	effect = {
 		add_realm_law = bnwo_only_law
 	}
-	ai_check_interval = 0
+	ai_check_interval = 1
 	ai_potential = {
-		is_ruler = yes
-		is_bno_snowbunny_and_up = yes
-		NOT = { has_realm_law = bnwo_only_law }
+		can_have_bnwo_elective_succession_law_trigger = yes
 	}
 	ai_will_do = {
 		base = 0
+		bno_white_girl_modifier_biggest = yes
 	}
 }
 
@@ -392,8 +396,17 @@ bno_build_african_camps_decision = {
 		}
 	}
 	ai_will_do = {
-        base = 0
-        bno_decision_modifier = yes
+        base = 100
+        modifier = {
+			add = -50
+			any_held_county = {
+				any_in_de_jure_hierarchy = {
+					title_province = {
+						has_building_or_higher = bbc_camp_01
+					}
+				}
+			}
+		}
 	}
 }
 
@@ -528,34 +541,23 @@ bno_convert_to_african = {
 		NOT = { is_culture_bnoc = yes }
 	}
 	is_valid = {
-		is_adult = yes
-		OR = {
-			has_trait = bno_bbc
-			has_trait = bno_mindless_bbc_slut
-			has_trait = bno_jos
-		}
-		NOT = { is_culture_bnoc = yes }
-		OR = {
-			AND = {
-				is_married = yes
-				primary_spouse = {
-					is_culture_bnoc = yes
-				}
-			}
-			any_courtier_or_guest = {
-				is_culture_bnoc = yes
-			}
-		}
+		is_valid_for_converting_to_african = yes
 	}
 
 	effect = {
 		if = {
 			limit = {
-				primary_spouse ?= {
+				any_spouse ?= {
 					is_culture_bnoc = yes
 				}
 			}
-			set_culture = primary_spouse.culture
+			every_spouse = {
+				limit = {
+					is_culture_bnoc = yes
+				}
+				culture = { save_scope_as = spouse_culture }
+			}
+			set_culture = scope:spouse_culture
 		}
 		else_if = {
 			limit = {
@@ -576,24 +578,7 @@ bno_convert_to_african = {
 	}
 	ai_check_interval = 1
 	ai_potential = {
-		is_adult = yes
-		OR = {
-			has_trait = bno_bbc
-			has_trait = bno_mindless_bbc_slut
-			has_trait = bno_jos
-		}
-		NOT = { is_culture_bnoc = yes }
-		OR = {
-			AND = {
-				is_married = yes
-				primary_spouse = {
-					is_culture_bnoc = yes
-				}
-			}
-			any_courtier_or_guest = {
-				is_culture_bnoc = yes
-			}
-		}
+		is_valid_for_converting_to_african = yes
 	}
 	ai_will_do = {
         base = 0

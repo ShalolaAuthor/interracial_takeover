@@ -59,6 +59,15 @@ bno_black_birth.0001 = {
     
     trigger = {
         is_alive = yes
+        scope:child = {
+            is_alive = yes
+        }
+        scope:father = {
+            is_alive = yes
+        }
+        scope:real_father = {
+            is_alive = yes
+        }
     }
 
     lower_center_portrait = scope:child
@@ -123,11 +132,6 @@ bno_black_birth.0001 = {
         add_prestige = {
             value = bastard_legitimization_prestige_cost
             multiply = -1
-        }
-        legitimize_bastard_interaction_opinions_effect = {
-            BASTARD = scope:child
-            HOUSE_HEAD = scope:mother.house.house_head
-            LEGITIMIZER = scope:mother
         }
         scope:child = {
             set_house = scope:real_father.house
@@ -825,6 +829,9 @@ bno_black_birth.2201 = {
 
     trigger = {
         is_alive = yes
+        scope:real_father = {
+            is_alive = yes
+        }
     }
     immediate = {
         bno_sex_scene_start = {
@@ -879,6 +886,10 @@ bno_black_birth.2202 = {
 
     trigger = {
         is_alive = yes
+        scope:father = {
+            is_alive = yes
+            is_bbc = no
+        }
     }
     immediate = {
         bno_increase_cuckiness = yes
@@ -1080,6 +1091,9 @@ bno_black_birth.2301 = {
 
     trigger = {
         is_alive = yes
+        scope:carn_sex_partner = {
+            is_alive = yes
+        }
     }
     immediate = {
         missionary_animations = yes
@@ -1119,6 +1133,9 @@ bno_black_birth.2401 = {
 
     trigger = {
         is_alive = yes
+        scope:carn_sex_partner = {
+            is_alive = yes
+        }
     }
     immediate = {
         cum_missionary_animations = yes

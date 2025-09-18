@@ -9,9 +9,7 @@
 		is_white_girl = yes
 		is_slut = yes
 		NOT = { has_character_flag = bno_stop_becoming_bbc_slut }
-		NOT = {
-			has_character_flag = bno_slut.1015
-		}
+		NOT = { has_character_flag = bno_slut.1015 }
 		OR = { 
 			is_ai = no 
 			has_game_rule = bno_decision_npc_yes 
@@ -20,42 +18,24 @@
 	is_valid = {
 		custom_tooltip = {
 			text = bno_becoming_bbc_slut.has_bbc_in_court
-			OR = {
-				any_courtier_or_guest = {
-					is_ai_blackbull = yes
-				}
-				liege ?= {
-					any_courtier_or_guest = {
-						is_ai_blackbull = yes
-					}
-				}
+			any_courtier_or_guest = {
+				is_ai_blackbull = yes
 			}
 		}
 		is_bno_snowbunny_and_up = yes
 	}
 	effect = {
 		custom_tooltip = bno_becoming_bbc_slut.effect
-		trigger_event = {
-			id = bno_slut.0015
-		}
+		trigger_event = bno_slut.0015
 	}
 	ai_check_interval = 1
 	ai_potential = {
 		is_bno_snowbunny_and_up = yes
-		OR = {
-			any_courtier_or_guest = {
-				is_ai_blackbull = yes
-			}
-			liege ?= {
-				any_courtier_or_guest = {
-					is_ai_blackbull = yes
-				}
-			}
+		any_courtier_or_guest = {
+			is_ai_blackbull = yes
 		}
 		NOT = { has_character_flag = bno_stop_becoming_bbc_slut }
-		NOT = {
-			has_character_flag = bno_slut.1015
-		}
+		NOT = { has_character_flag = bno_slut.1015 }
 	}
 	ai_will_do = {
 		base = 0

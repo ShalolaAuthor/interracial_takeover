@@ -169,11 +169,6 @@ bno_marriage.0005 = {
 		get_foreign_married_blacked_girl_scope = {
 			SCOPE_NAME = target1
 		}
-	}
-	option = {
-		ai_chance = {
-			base = 100
-		}
 		add_stress = -100
 		scope:target1 ?= {
 			bno_have_sex_with_effects = {

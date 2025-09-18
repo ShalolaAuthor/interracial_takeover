@@ -29,15 +29,13 @@
                 is_ruler = yes
             }
             is_valid = {
-                NOR = {
-                    any_court_position_holder = {
-                        type = bno_bbc_worshipper_court_position
-                        count > 2
-                    }
-                    custom_tooltip = {
-                        text = recruit_bbc_worshipper_cooldown_tt
-                        has_character_flag = recruit_bbc_worshipper_cooldown
-                    }
+                custom_tooltip = {
+                    text = recruit_bbc_worshipper_cooldown_tt
+                    NOT = { has_character_flag = recruit_bbc_worshipper_cooldown }
+                }
+                any_court_position_holder = {
+                    type = bno_bbc_worshipper_court_position
+                    count < 3
                 }
             }
             current_description = hire_bbc_worshipper_decision
@@ -80,6 +78,11 @@
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_2
         }
+        any_court_position_holder = {
+            type = bno_bbc_worshipper_court_position
+            count < 3
+        }
+        NOT = { has_character_flag = recruit_bbc_worshipper_cooldown }
     }
     ai_will_do = {
         base = 0
@@ -170,7 +173,17 @@ bno_build_bbc_church = {
     }
 
     ai_will_do = {
-        base = 100
+        base = 1000
+        modifier = {
+            add = -950
+            any_held_county = {
+				any_in_de_jure_hierarchy = {
+					title_province = {
+						has_building_or_higher = bbc_church_01
+					}
+				}
+			}
+        }
     }
 }
 

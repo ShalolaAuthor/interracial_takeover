@@ -180,7 +180,7 @@ bno_council_orgy.0001 = {
 			bno_snowbunny = minor_stress_impact_gain
 			bno_qos = minor_stress_impact_gain
 		}
-		fire_councillor = scope:target_bbc_1
+		fire_councillor_skip_effects = scope:target_bbc_1
 		ai_chance = {
 			base = 50
 			modifier = {

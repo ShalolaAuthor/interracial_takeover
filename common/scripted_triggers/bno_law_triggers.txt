@@ -1,2 +1,0 @@
-﻿can_have_bnwo_elective_succession_law_trigger = {
-}

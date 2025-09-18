@@ -54,10 +54,10 @@ bno_yearly_marry_pulse = {
 	}
 	random_events = {
 		chance_to_happen = 10
-		50 = bno_marriage.0001 #bull takes rando unmarried courtier as wife
-		50 = bno_marriage.0002 #bull takes married slut as wife
-		50 = bno_marriage.0004 #unmarried bbc looks to other realms for single woman
-		50 = bno_marriage.0005 #bull steals foreign slut wife
+		1 = bno_marriage.0001 #bull takes rando unmarried courtier as wife
+		1 = bno_marriage.0002 #bull takes married slut as wife
+		1 = bno_marriage.0004 #unmarried bbc looks to other realms for single woman
+		1 = bno_marriage.0005 #bull steals foreign slut wife
 	}
 }
 

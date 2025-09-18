@@ -1,0 +1,36 @@
+﻿can_have_bnwo_elective_succession_law_trigger = {
+    is_faith_bbcs = yes
+    is_culture_bnoc = yes
+    is_ruler = yes
+    is_adult = yes
+    trigger_if = {
+		limit = {
+			is_a_male = yes
+		}
+		is_bbc = yes
+	}
+	trigger_else = {
+		is_bno_snowbunny_and_up = yes
+	}
+	NOT = { has_realm_law = bnwo_only_law }
+}
+is_valid_for_converting_to_african = {
+	is_adult = yes
+	OR = {
+		has_trait = bno_bbc
+		has_trait = bno_mindless_bbc_slut
+		has_trait = bno_jos
+	}
+	NOT = { is_culture_bnoc = yes }
+	OR = {
+		AND = {
+			is_married = yes
+			any_spouse = {
+				is_culture_bnoc = yes
+			}
+		}
+		any_courtier_or_guest = {
+			is_culture_bnoc = yes
+		}
+	}
+}

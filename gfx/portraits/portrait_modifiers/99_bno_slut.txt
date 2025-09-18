@@ -558,24 +558,6 @@ bno_hairstyles = {
 			}
 		}
 	}
-	bno_steppe_wavy = {
-		dna_modifiers = {
-			accessory = {
-				mode = add
-				gene = hairstyles
-				template = steppe_hairstyles_wavy
-				range = { 0 1 } # For the randomness to work correctly
-			}
-		}
-		weight = {
-			base = 0
-			modifier = {
-				add = 1
-				exists = this
-				bno_can_get_wavy_hair_trigger = yes
-			}
-		}
-	}
 	bno_african_wavy = {
 		dna_modifiers = {
 			accessory = {

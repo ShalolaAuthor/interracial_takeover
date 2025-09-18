@@ -1,10 +1,18 @@
 ﻿### Helper Effect ###
+#bno_generic_xp_increase
 #bno_add_random_xp_to_leveled_down_trait
 #bno_increase_trait_level
 #bno_decrease_trait_level
 #bno_generic_rank_increase
 #bno_generic_rank_decrease
 ###
+
+bno_generic_xp_increase = {
+	add_trait_xp = {
+		trait = $TRAIT_NAME$
+		value = $XP$
+	}
+}
 
 bno_add_random_xp_to_leveled_down_trait = {
 	add_trait_xp = {
@@ -18,9 +26,9 @@ bno_increase_trait_level = {
 		limit = {
 			has_trait = $TRAIT_NAME$
 		}
-		add_trait_xp = {
-			trait = $TRAIT_NAME$
-			value = bno_random_xp_positive
+		bno_generic_xp_increase = {
+			TRAIT_NAME = $TRAIT_NAME$
+			XP = $XP$
 		}
 		if = {
 			limit = {
@@ -163,22 +171,27 @@ bno_increase_sluttyness = {
 	bno_increase_trait_level = {
 		TRAIT_NAME = bno_curious
 		LEVEL_UP_EFFECT = become_more_slut
+		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
 		TRAIT_NAME = bno_blacked
 		LEVEL_UP_EFFECT = become_more_slut
+		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
 		TRAIT_NAME = bno_snowbunny
 		LEVEL_UP_EFFECT = become_more_slut
+		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
 		TRAIT_NAME = bno_qos
 		LEVEL_UP_EFFECT = become_more_slut
+		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
 		TRAIT_NAME = bno_mindless_bbc_slut
 		LEVEL_UP_EFFECT = become_more_slut
+		XP = bno_random_xp_positive
 	}
 }
 
@@ -268,18 +281,22 @@ bno_increase_cuckiness = {
 	bno_increase_trait_level = {
 		TRAIT_NAME = bno_cuckish
 		LEVEL_UP_EFFECT = become_more_cuck_effect
+		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
 		TRAIT_NAME = bno_cuck
 		LEVEL_UP_EFFECT = become_more_cuck_effect
+		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
 		TRAIT_NAME = bno_beta
 		LEVEL_UP_EFFECT = become_more_cuck_effect
+		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
 		TRAIT_NAME = bno_jos
 		LEVEL_UP_EFFECT = become_more_cuck_effect
+		XP = bno_random_xp_positive
 	}
 }
 
@@ -823,14 +840,17 @@ bno_increase_cum_addiction_level = {
 	bno_increase_trait_level = {
 		TRAIT_NAME = bno_cum_addiction_1
 		LEVEL_UP_EFFECT = become_more_cum_addict
+		XP = bno_cum_addiction_random_xp_positive
 	}
 	bno_increase_trait_level = {
 		TRAIT_NAME = bno_cum_addiction_2
 		LEVEL_UP_EFFECT = become_more_cum_addict
+		XP = bno_cum_addiction_random_xp_positive
 	}
 	bno_increase_trait_level = {
 		TRAIT_NAME = bno_cum_addiction_3
 		LEVEL_UP_EFFECT = become_more_cum_addict
+		XP = bno_cum_addiction_random_xp_positive
 	}
 }
 

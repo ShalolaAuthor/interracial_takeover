@@ -1317,29 +1317,51 @@ bno_cuck.0011 = {
 	}
 	option = {
 		name = bno_cuck_0011.a
+		trigger = {
+			scope:target1 ?= {
+				can_marry_character_trigger = {
+					CHARACTER = scope:target2
+				}
+			}
+			scope:target2 ?= {
+				can_marry_character_trigger = {
+					CHARACTER = scope:target1
+				}
+			}
+		}
 		scope:target1 ?= {
 			every_relation = {
-				type = ward
-				remove_relation_guardian = prev
+				type = guardian
+				remove_relation_ward = scope:target1
 			}
 			betrothed ?= {
 				break_betrothal = scope:target1
 			}
+			create_betrothal = scope:target2
 		}
+		add_internal_flag = special
 		scope:target2 ?= {
 			every_relation = {
-				type = guardian
-				remove_relation_ward = prev
+				type = ward
+				limit = { is_african = yes }
+				remove_relation_guardian = scope:target2
 			}
-			create_betrothal = scope:target1
 			set_relation_ward = scope:target1
 		}
 		scope:target1 ?= {
-			add_character_flag = {
-				flag = bno_cuck.0011
-			}
+			add_character_flag = bno_cuck.0011
 			bno_increase_sluttyness = yes
 			add_character_modifier = bno_family_betrothed_me_to_bbc
+		}
+		ai_chance = {
+			base = 100
+		}
+	}
+	option = {	#im sorry i can't do that
+		name = bno_cuck_0011.b
+		bno_decrease_cuckiness = yes
+		ai_chance = {
+			base = 5
 		}
 	}
 }
@@ -1368,6 +1390,7 @@ bno_cuck.0012 = {
 		is_married = yes
 		is_spouse_blacked = yes
 		any_directly_owned_province = {
+			has_special_building_slot = no
 			NOT = { has_building_or_higher = bbc_camp_01 }
 		}
 	}
@@ -1380,6 +1403,7 @@ bno_cuck.0012 = {
 		}
 		random_directly_owned_province  = {
 			limit = {
+				has_special_building_slot = no
 				NOT = { has_building_or_higher = bbc_camp_01 }
 			}
 			add_special_building_slot  = bbc_camp_01

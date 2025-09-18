@@ -1,8 +1,6 @@
 ﻿bno_bbc_cum_addiction_interaction = {
 	icon = bno_bbc_cum_addiction
-
 	desc = bno_bbc_cum_addiction_interaction.desc
-
 	category = interaction_category_friendly
 	interface_priority = 999
 	scheme = bno_bbc_cum_addiction
@@ -11,6 +9,7 @@
 	send_name = bno_bbc_cum_addiction_interaction.send_name
 	ignores_pending_interaction_block = yes
 	auto_accept = yes
+
 	is_shown = {
         scope:actor = {
             is_adult = yes
@@ -68,6 +67,7 @@
 	}
 	
 	ai_frequency = 1
+
 	ai_potential = {
 		is_adult = yes
 		is_bbc = yes
@@ -76,9 +76,11 @@
 	ai_will_do = {
 		base = 0
 		modifier = {
-			add = 1000
-			is_bbc = yes
-			is_adult = yes
+			add = 100000
+			scope:actor = {
+				is_bbc = yes
+				is_adult = yes
+			}
 		}		
 	}
 }

@@ -76,6 +76,7 @@ bno_is_barony_valid_for_church_foundation = {
 		holder = root
 	}
 	title_province = {
+		is_county_capital = no
         has_special_building_slot = no
     }
     is_leased_out = no
@@ -83,6 +84,7 @@ bno_is_barony_valid_for_church_foundation = {
 }
 
 bno_is_barony_valid_for_bbc_holy_order = {
+	is_leased_out = no
 	title_province = { has_building_or_higher = bbc_church_02 }
 }
 
@@ -115,10 +117,8 @@ bno_is_barony_valid_for_culture_change = {
     trigger_else = {
 		holder = root
 	}
-	barony = {
-		county = {
-			county_control >= 100
-		}
+	county = {
+		county_control >= 100
 	}
 	title_province = {
 		is_culture_bnoc = no

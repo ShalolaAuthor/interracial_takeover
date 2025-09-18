@@ -1138,10 +1138,7 @@ bno_slut.0015 = {
 		}
 	}
 	trigger = {
-		is_blacked = yes
-		NOT = {
-			has_character_flag = bno_slut.1015
-		}
+		NOT = { has_character_flag = bno_slut.1015 }
 	}
 	immediate = {
 		get_bbc_scope = {
@@ -1179,6 +1176,7 @@ bno_slut.1015 = {
 	hidden = yes
 
 	trigger = {
+		is_alive = yes
 		has_character_flag = bno_slut.1015
 	}
 

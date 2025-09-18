@@ -1039,6 +1039,9 @@ bno_bull.1014 = { #follow up event, fuck and done
 
 	trigger = {
 		is_alive = yes
+		scope:target1 = {
+			is_alive = yes
+		}
 	}
 
 	immediate = {

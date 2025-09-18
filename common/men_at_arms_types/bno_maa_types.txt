@@ -22,10 +22,7 @@ bno_african_warriors = {
 	}
 	
 	can_recruit = {
-		OR = {
-			has_trait = bno_bbc
-			has_trait = bno_mindless_bbc_slut
-		}
+		bno_can_recruit_bno_african_warriors = yes
 	}
 	
 	buy_cost = {gold = 100}
@@ -41,10 +38,7 @@ bno_african_warriors = {
 bno_ebony_elites = {
 	type = bnwo_armies
 	can_recruit = {
-		exists = dynasty
-		dynasty = {
-			has_dynasty_perk = bno_embrace_african_5
-		}
+		bno_can_recuit_bno_ebony_elites = yes
 	}
 	
 	damage = 100
@@ -101,18 +95,7 @@ bno_cock_maidens = {
     }
 
     can_recruit = {
-        OR = {
-            has_trait = bno_bbc
-            has_trait = bno_mindless_bbc_slut
-        }
-		faith = {
-            any_faith_holy_order = {
-                holy_order_patron = root
-                title = {
-                    has_variable = bbc_holy_order
-                }
-            }
-        }
+        bno_can_recruit_bno_cock_maidens = yes
     }
 
     buy_cost = { gold = 200 }

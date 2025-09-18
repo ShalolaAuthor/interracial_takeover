@@ -372,16 +372,27 @@
 			always = no
 		}
 		can_keep = {
-			is_a_girl = yes
-			has_trait = bno_whitegirl
+			trigger_if = {
+				limit = { is_a_male = yes }
+				is_bbc = yes
+			}
+			trigger_else = {
+				is_slut = yes
+			}
+			is_culture_bnoc = yes
+			is_faith_bbcs = yes
 		}
 		can_pass = {
 			can_change_succession_law_trigger = yes
 		}
 		succession = {
+			order_of_succession = inheritance
+			title_division = single_heir
+			traversal_order = children
 			gender_law = equal
 			faith = same_faith
 		}
+		flag = titles_cannot_leave_realm_on_succession
 		flag = can_designate_heirs
 		flag = women_can_have_multiple_spouses
 		flag = women_can_have_consorts

@@ -99,13 +99,6 @@ bno_add_prowess_per_sex = {
 				add_character_modifier = bno_cum_for_glory_glorified
 				remove_all_character_modifier_instances = bno_cum_for_glory
 			}
-			set_variable = {
-				name = bno_cum_for_glory_glorified_count
-				value = {
-					value = var:bno_cum_for_glory_glorified_count
-					add = 1
-				}
-			}
 			change_variable = {
 				name = bno_cum_for_glory_count
 				subtract = 100
@@ -452,7 +445,11 @@ bno_bbc_divorce_effect = {
 	add_character_modifier = {
 		modifier = bno_divorced_worthless_wife
 	}
-	remove_relation_lover = scope:divorced_wife
+	every_relation = {
+		type = lover
+		limit = { this = scope:divorced_wife }
+		remove_relation_lover = scope:divorced_wife
+	}
 	divorce = scope:divorced_wife
 }
 
@@ -620,78 +617,10 @@ get_just_or_zealous_bbc_scope = {
 }
 
 get_something = {
-	clear_saved_scope = $SCOPE_NAME$
-	clear_variable_list = temp 
-	every_courtier_or_guest = { # Player's Court
-        limit = {
-            $TRIGGER_KEY$ = yes
-        }
-        root = {
-			add_to_variable_list = { 	
-				name = temp
-				target = prev
-			}
-		}
-    }
-	if = {
+	random_courtier_or_guest = {
 		limit = {
-			liege ?= {
-				$TRIGGER_KEY$ = yes
-			}
+			$TRIGGER_KEY$ = yes
 		}
-		liege = {
-			root = {
-				add_to_variable_list = { 	
-					name = temp
-					target = prev
-				}
-			}
-		}
-	}
-	liege ?= {
-		every_courtier_or_guest = {
-			limit = {
-				$TRIGGER_KEY$ = yes
-			}
-			root = {
-				add_to_variable_list = { 	
-					name = temp
-					target = prev
-				}
-			}
-		}
-	}
-	liege ?= {
-		every_vassal_or_below = {
-			limit = {
-				$TRIGGER_KEY$ = yes
-			}
-			root = {
-				add_to_variable_list = { 	
-					name = temp
-					target = prev
-				}
-			}
-		}
-		every_vassal_or_below = {
-			limit = {
-				highest_held_title_tier >= tier_county
-			}
-			every_courtier_or_guest = {
-				limit = {
-					$TRIGGER_KEY$ = yes
-				}
-				root = {
-					add_to_variable_list = { 	
-						name = temp
-						target = prev
-					}
-				}
-			}
-		}
-	}
-	random_in_list = {
-		variable = temp
 		save_scope_as = $SCOPE_NAME$
 	}
 }
@@ -1138,6 +1067,8 @@ remove_bad_traits = {
 	remove_trait = physique_bad_1
 	remove_trait = physique_bad_2
 	remove_trait = physique_bad_3
+	make_trait_inactive = futa
+	make_trait_inactive = futa_genetic
 	
 	add_character_flag = {
 		flag = no_headgear
@@ -1483,37 +1414,52 @@ prostitution = {
 	}
 }
 
+get_valid_whore_list = {
+	every_character_to_title_neighboring_county = {
+        holder ?= {
+            add_to_list = bno_neighbor_list
+        }
+    }
+    every_in_list = {
+        list = bno_neighbor_list
+        every_courtier_or_guest = {
+            limit = { is_rich_ai_blackbull = yes }
+            add_to_list = $LIST_NAME$
+        }
+        every_vassal_or_below = {
+            limit = { is_rich_ai_blackbull = yes }
+            add_to_list = $LIST_NAME$
+        }
+        every_vassal_or_below = {
+            limit = { highest_held_title_tier >= tier_county }
+            every_courtier_or_guest = {
+                limit = { is_rich_ai_blackbull = yes }
+                add_to_list = $LIST_NAME$
+            }
+        }
+    }
+    liege ?= {
+        every_courtier_or_guest = {
+            limit = { is_rich_ai_blackbull = yes }
+            add_to_list = $LIST_NAME$
+        }
+        every_vassal_or_below = {
+            limit = { is_rich_ai_blackbull = yes }
+            add_to_list = $LIST_NAME$
+        }
+        every_vassal_or_below = {
+            limit = { highest_held_title_tier >= tier_county }
+            every_courtier_or_guest = {
+                limit = { is_rich_ai_blackbull = yes }
+                add_to_list = $LIST_NAME$
+            }
+        }
+    }
+}
+
 fuck_random_local_bbc = {
-	every_ruler = {
-		limit = {
-			is_ai_blackbull = yes
-			exists = this
-		}
-		add_to_list = local_bbc_list
-	}
-	every_ruler = {
-		every_vassal_or_below = {
-			limit = {
-				is_ai_blackbull = yes
-				exists = this
-			}
-			add_to_list = local_bbc_list
-		}
-	}
-	every_ruler = {
-		every_vassal_or_below = {
-			limit = {
-				highest_held_title_tier >= tier_county
-				exists = this
-			}
-			every_courtier_or_guest = {
-				limit = {
-					is_ai_blackbull = yes
-					exists = this
-				}
-				add_to_list = local_bbc_list
-			}
-		}
+	get_valid_whore_list = {
+		LIST_NAME = local_bbc_list
 	}
 	if = {
 		limit = {
@@ -1526,7 +1472,6 @@ fuck_random_local_bbc = {
 			list = local_bbc_list
 			limit = {
 				is_alive = yes
-				exists = this
 			}
 			order_by = gold
 			save_scope_as = local_bbc
@@ -1536,24 +1481,38 @@ fuck_random_local_bbc = {
 				scope:local_bbc ?= {
 					is_alive = yes
 				}
-				is_playable_character = yes
-			}
-			send_interface_message = {
-				type = bno_blacked_events
-				title = bno_slut_0015_notification.title
-				right_icon = root
-				service_fee = yes
-				prostitution = yes
-				carn_sex_scene_no_pregnancy_effect = yes
-				carn_sex_scene_no_drama_effect = yes
-				bno_have_sex_with_effects = {
-					PARTNER = scope:local_bbc
+				scope:whore ?= {
+					is_alive = yes
 				}
-				bno_increase_whore_level = yes
-				desc = bno_slut_0015_notification.desc
+			}
+			if = {
+				limit = {
+					is_playable_character = yes
+				}
+				send_interface_message = {
+					type = bno_blacked_events
+					title = bno_slut_0015_notification.title
+					right_icon = root
+					bno_prostitution_effect = yes
+					desc = bno_slut_0015_notification.desc
+				}
+			}
+			else = {
+				bno_prostitution_effect = yes
 			}
 		}
 	}
+}
+
+bno_prostitution_effect = {
+	service_fee = yes
+	prostitution = yes
+	carn_sex_scene_no_pregnancy_effect = yes
+	carn_sex_scene_no_drama_effect = yes
+	bno_have_sex_with_effects = {
+		PARTNER = scope:local_bbc
+	}
+	bno_increase_whore_level = yes
 }
 
 be_smartest = {

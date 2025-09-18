@@ -18,22 +18,21 @@ set_bbc_worshipper_effect = {
     }
     $EMPLOYER$ = {
         #Replace old bbc whore if exist
+        every_court_position_holder = {
+            type = bno_bbc_worshipper_court_position
+            add_to_list = bbc_worshippers
+        }
         if = {
             limit = {
-                employs_court_position = bno_bbc_worshipper_court_position
-                any_court_position_holder = {
-                    type = bno_bbc_worshipper_court_position
-                    count > 2
+                NOT = { can_employ_court_position_type = bno_bbc_worshipper_court_position }
+                list_size = {
+                    name = bbc_worshippers
+                    value >= 3
                 }
-            }
-            every_court_position_holder = {
-                type = bno_bbc_worshipper_court_position
-                add_to_list = bbc_worshippers
             }
             ordered_in_list = {
                 list = bbc_worshippers
                 order_by = age
-
                 save_scope_as = old_bbc_worshipper
             }
             $EMPLOYER$ = {
@@ -67,45 +66,8 @@ set_bbc_worshipper_effect = {
 }
 
 bbc_worshipper_whoring_around = {
-    every_character_to_title_neighboring_county = {
-        holder ?= {
-            add_to_list = bbc_worshipper_neighbour
-        }
-    }
-    every_in_list = {
-        list = bbc_worshipper_neighbour
-        every_courtier_or_guest = {
-            limit = { is_rich_ai_blackbull = yes }
-            add_to_list = bbc_worshipper_target
-        }
-        every_vassal_or_below = {
-            limit = { is_rich_ai_blackbull = yes }
-            add_to_list = bbc_worshipper_target
-        }
-        every_vassal_or_below = {
-            limit = { highest_held_title_tier >= tier_county }
-            every_courtier_or_guest = {
-                limit = { is_rich_ai_blackbull = yes }
-                add_to_list = bbc_worshipper_target
-            }
-        }
-    }
-    liege ?= {
-        every_courtier_or_guest = {
-            limit = { is_rich_ai_blackbull = yes }
-            add_to_list = bbc_worshipper_target
-        }
-        every_vassal_or_below = {
-            limit = { is_rich_ai_blackbull = yes }
-            add_to_list = bbc_worshipper_target
-        }
-        every_vassal_or_below = {
-            limit = { highest_held_title_tier >= tier_county }
-            every_courtier_or_guest = {
-                limit = { is_rich_ai_blackbull = yes }
-                add_to_list = bbc_worshipper_target
-            }
-        }
+    get_valid_whore_list = {
+        LIST_NAME = bbc_worshipper_target
     }
     if = {
         limit = {
@@ -124,7 +86,9 @@ bbc_worshipper_whoring_around = {
         }
         if = {
             limit = {
-                exists = scope:rich_bbc
+                scope:rich_bbc ?= {
+                    is_alive = yes
+                }
             }
             bno_increase_whore_level = yes
             bbc_worshipper_service_fee = {
@@ -226,6 +190,20 @@ bbc_worshipper_give_all_spoil_to_liege = {
             add_prestige = {
                 value = bno_bbc_worshipper_prestige
                 multiply = -1
+            }
+        }
+    }
+}
+
+bbc_worshipper_on_invalidated = {
+    scope:employee ?= {
+        if = {
+            limit = { is_alive = yes }
+            remove_character_flag = no_headgear
+            remove_character_flag = can_not_marry
+            trigger_event = {
+                id = bbc_worshipper.2001
+                days = 7
             }
         }
     }

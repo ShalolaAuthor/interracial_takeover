@@ -21,6 +21,7 @@ bbc_worshipper.1001 = {
     hidden = yes
     
     trigger = {
+        is_alive = yes
         has_character_flag = bbc_worshipper.1001
     }
 

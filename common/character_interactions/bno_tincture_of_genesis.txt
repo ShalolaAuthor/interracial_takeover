@@ -3,6 +3,8 @@
     category = interaction_category_friendly
     interface_priority = 999
 
+    auto_accept = yes
+
     common_interaction = yes
 
     desc = {
@@ -39,7 +41,15 @@
         }
         scope:recipient = {
             NOT = { has_character_modifier = bno_ebony_bloom }
-            is_a_girl = yes
+            trigger_if = {
+                limit = {
+                    scope:actor = { is_a_male = yes }
+                }
+                is_a_girl = yes
+            }
+            trigger_else = {
+                this = scope:actor
+            }
             scope:actor = {
                 OR = {
                     is_spouse_of = scope:recipient
@@ -167,8 +177,7 @@
         }
     }
 
-    ai_frequency = 12
-    ai_instant_response = yes
+    ai_frequency = 1
 
     ai_targets = {
         ai_recipients = spouses
@@ -177,6 +186,13 @@
 
     ai_will_do = {
         base = 100
+        modifier = {
+            add = 100000
+            scope:actor = {
+                is_bbc = yes
+                is_adult = yes
+            }
+        }
     }
 
 }

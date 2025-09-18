@@ -322,28 +322,12 @@ bno_white_girl_modifier_big = {
 
 bno_white_girl_modifier_biggest = {
 	modifier = {
-		add = 100
+		add = 100000
 		is_bbc = yes
 	}
 	modifier = {
-		add = 20
-		is_bno_curious_and_up = yes
-	}
-	modifier = {
-		add = 40
-		is_bno_blacked_and_up = yes
-	}
-	modifier = {
-		add = 60
-		is_bno_snowbunny_and_up = yes
-	}
-	modifier = {
-		add = 80
-		is_bno_qos_and_up = yes
-	}
-	modifier = {
-		add = 100
-		is_bno_mindless_bbc_slut = yes
+		add = 100000
+		is_slut = yes
 	}
 }
 

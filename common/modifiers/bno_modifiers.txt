@@ -30,7 +30,7 @@ bno_troops_lack_bunnies = {
 	martial = -2
 	knight_effectiveness_mult = -0.15
 	monthly_war_income_mult = -0.15
-	men_at_arms_maintenance  = 0.15
+	bnwo_armies_maintenance_mult  = 0.15
 }
 
 bno_troops_like_camp_slut = {
@@ -38,7 +38,7 @@ bno_troops_like_camp_slut = {
 	martial = 2
 	knight_effectiveness_mult = 0.15
 	monthly_war_income_mult = 0.15
-	men_at_arms_maintenance  = -0.15
+	bnwo_armies_maintenance_mult  = -0.15
 }
 
 bno_seeks_new_world_order = {

@@ -1,0 +1,35 @@
+﻿### Can Recruit ###
+#
+###
+
+bno_can_recruit_bno_african_warriors = {
+    is_alive = yes
+    is_playable_character = yes
+    trigger_if = {
+        limit = {
+            is_a_male = yes
+        }
+        is_bbc = yes
+    }
+    trigger_else = {
+        is_bno_mindless_bbc_slut = yes
+    }
+    is_culture_bnoc = yes
+}
+
+bno_can_recuit_bno_ebony_elites = {
+    bno_can_recruit_bno_african_warriors = yes
+    bno_has_embrace_african_5 = yes
+}
+
+bno_can_recruit_bno_cock_maidens = {
+    bno_can_recruit_bno_african_warriors = yes
+    faith = {
+        any_faith_holy_order = {
+            holy_order_patron = root
+            title = {
+                has_variable = bbc_holy_order
+            }
+        }
+    }
+}
