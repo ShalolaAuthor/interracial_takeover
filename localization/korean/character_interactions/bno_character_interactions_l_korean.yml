@@ -1,7 +1,12 @@
 ﻿l_korean:
 
-bno_bbc_cum_addiction_interaction: "BBC 유혹" # AI Tags
-bno_bbc_cum_addiction_interaction_desc: "매력을 이용해 유혹해 [recipient.GetHerHim]." # AI Tags
+bno_bbc_cum_addiction_interaction: "중독" # AI Tags
+bno_bbc_cum_addiction_interaction.desc: "부패를 시작하라 [recipient.GetFirstNameNoTooltip]. 말과 매력이 아니라 씨앗으로 무릎을 꿇고 그녀의 입술이 오직 그녀의 황소만이 줄 수 있는 것을 기억하도록 한다." # AI Tags
+bno_bbc_cum_addiction_interaction.send_name: "네 피아지를 먹여" # AI Tags
+bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] 중독이 시작됐습니다" # AI Tags
+bno_bbc_cum_addiction_interaction.tooltip: "당신은 결합하기 시작했습니다 [recipient.GetFirstNameNoTooltip] 씨를 통해 당신에게. 모든 만남은 그녀의 의지를 약화시키고 그녀의 욕망을 심화시킬 것입니다." # AI Tags
+bno_bbc_cum_addiction_interaction.already_training: "넌 이미 창녀를 네 씨에 묶고 있어. 황소가 자신의 지배를 한 번에 한 명에 집중시켜야 하고 그녀의 의지가 깨지고 [bno_cum_slave|E]." # AI Tags
+
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] 어떤 종류의 [illness|E]" # AI Tags
 bno_cure_disease_interaction.no_priestess: "당신은 [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] 의식을 수행하기 위해서요." # AI Tags
 bno_cure_disease_interaction.no_priest: "당신은 [GetCourtPositionType('bno_bbc_priest_court_position').GetName] 의식을 수행하기 위해서요." # AI Tags

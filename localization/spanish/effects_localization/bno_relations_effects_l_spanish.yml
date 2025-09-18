@@ -5,3 +5,9 @@ they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] se convierte en [CHA
 
 i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en tu [bno_slave|E]" # AI Tags
 they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+
+i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] se convierte en tu [bno_cum_slave|E], atado sólo por la semilla y la lealtad a ti." # AI Tags
+they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] se convierte en [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], esclavizado por el esperma y la devoción." # AI Tags
+
+i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en tu [bno_cum_slave|E], sus labios y vientre sellados a tu simiente para siempre." # AI Tags
+they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] se convirtió en [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], propiedad de su polla y encadenada a su esperma." # AI Tags

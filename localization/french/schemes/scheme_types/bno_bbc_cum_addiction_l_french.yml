@@ -1,0 +1,65 @@
+﻿l_french:
+
+bno_bbc_cum_addiction: "Toxicomanie" # AI Tags
+bno_bbc_cum_addiction_desc_general: "Aucune femme ne résiste pour toujours. Une [bno_bbc|E] demande son propre esclave non pas avec des dons ou des paroles, mais avec de la semence. Une fois que ses lèvres le goûtent, sa faim la lie à lui seul, corps et âme." # AI Tags
+bno_bbc_cum_addiction_action: "Le train" # AI Tags
+bno_bbc_cum_addiction_desc: "Liez-la non pas avec des vœux ou des chaînes, mais avec votre sperme – faites-la désirer votre semence jusqu'à ce qu'aucun homme n'existe sauf vous." # AI Tags
+bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] deviendra accro à ton sperme, esclave lié à son taureau, à son ventre et à ses lèvres possédés pour toujours." # AI Tags
+
+bno_bbc_cum_addiction.invalidated.title: "Esclave perdue" # AI Tags
+bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] Elle est morte, ses lèvres se taisent avant que ton sperme ne puisse la réclamer. Un autre s'agenouillera bientôt[bno_bnwo|E] ne se termine pas avec une salope cassée." # AI Tags
+
+bno_bbc_cum_addiction.curious: "Elle l'a fait [GetTrait('bno_curious').GetName(GetNullCharacter)] et est tenté de goûter."   # AI Tags
+bno_bbc_cum_addiction.blacked: "Elle a été [GetTrait('bno_blacked').GetName(GetNullCharacter)] et il a plus de mal à en avoir."   # AI Tags
+bno_bbc_cum_addiction.snowbunny: "Elle est devenue une [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] et il a envie de tous les Bulls."   # AI Tags
+bno_bbc_cum_addiction.qos: "Elle s'est levée comme [GetTrait('bno_qos').GetName(GetNullCharacter)] et s'agenouille fièrement."   # AI Tags
+bno_bbc_cum_addiction.mindless: "Elle a coulé dans [GetTrait('bno_mindless_bbc_slut').GetName(GetNullCharacter)] et est incapable de résister."   # AI Tags
+
+bno_bbc_cum_addiction.beauty_good_1: "Vous êtes [GetTrait('beauty_good_1').GetName(GetNullCharacter)] et agréable à l'œil."   # AI Tags
+bno_bbc_cum_addiction.beauty_good_2: "Vous êtes [GetTrait('beauty_good_2').GetName(GetNullCharacter)] et étonnamment beau."   # AI Tags
+bno_bbc_cum_addiction.beauty_good_3: "Vous êtes [GetTrait('beauty_good_3').GetName(GetNullCharacter)] et à couper le souffle."   # AI Tags
+
+bno_bbc_cum_addiction.physique_good_1: "Vous êtes [GetTrait('physique_good_1').GetName(GetNullCharacter)] et bien construit."   # AI Tags
+bno_bbc_cum_addiction.physique_good_2: "Vous êtes [GetTrait('physique_good_2').GetName(GetNullCharacter)] et de façon puissante."   # AI Tags
+bno_bbc_cum_addiction.physique_good_3: "Vous êtes [GetTrait('physique_good_3').GetName(GetNullCharacter)] et sculpté comme un dieu."   # AI Tags
+
+bno_bbc_cum_addiction.intellect_good_1: "Vous êtes [GetTrait('intellect_good_1').GetName(GetNullCharacter)] et astucieux."   # AI Tags
+bno_bbc_cum_addiction.intellect_good_2: "Vous êtes [GetTrait('intellect_good_2').GetName(GetNullCharacter)] et d'esprit aiguisé."   # AI Tags
+bno_bbc_cum_addiction.intellect_good_3: "Vous êtes [GetTrait('intellect_good_3').GetName(GetNullCharacter)] et brillant de la briser."   # AI Tags
+
+bno_bbc_cum_addiction.strong: "Vous êtes [GetTrait('strong').GetName(GetNullCharacter)] et rayonnent la virilité."   # AI Tags
+
+
+bno_bbc_cum_addiction.lustful: "[GetTrait('lustful').GetName(GetNullCharacter)] La chaleur lui fait mal."   # AI Tags
+bno_bbc_cum_addiction.chaste: "[GetTrait('chaste').GetName(GetNullCharacter)] Les vœux la retiennent."   # AI Tags
+bno_bbc_cum_addiction.gluttonous: "[GetTrait('gluttonous').GetName(GetNullCharacter)] La faim la rend gourmande."   # AI Tags
+bno_bbc_cum_addiction.temperate: "[GetTrait('temperate').GetName(GetNullCharacter)] La retenue refroidit sa luxure."   # AI Tags
+bno_bbc_cum_addiction.greedy: "[GetTrait('greedy').GetName(GetNullCharacter)] J'ai envie de convoiter le Taureau."   # AI Tags
+bno_bbc_cum_addiction.generous: "[GetTrait('generous').GetName(GetNullCharacter)] La nature ouvre son corps."   # AI Tags
+bno_bbc_cum_addiction.lazy: "[GetTrait('lazy').GetName(GetNullCharacter)] La facilité lui fait céder."   # AI Tags
+bno_bbc_cum_addiction.diligent: "[GetTrait('diligent').GetName(GetNullCharacter)] Focus steels son testament."   # AI Tags
+bno_bbc_cum_addiction.wrathful: "[GetTrait('wrathful').GetName(GetNullCharacter)] Le feu se transforme en convoitise."   # AI Tags
+bno_bbc_cum_addiction.calm: "[GetTrait('calm').GetName(GetNullCharacter)] Poise ralentit la tentation."   # AI Tags
+bno_bbc_cum_addiction.vengeful: "[GetTrait('vengeful').GetName(GetNullCharacter)] malgré la résistance du Taureau."   # AI Tags
+bno_bbc_cum_addiction.forgiving: "[GetTrait('forgiving').GetName(GetNullCharacter)] La douceur la fait fondre."   # AI Tags
+bno_bbc_cum_addiction.arrogant: "[GetTrait('arrogant').GetName(GetNullCharacter)] La fierté la maintient raide."   # AI Tags
+bno_bbc_cum_addiction.humble: "[GetTrait('humble').GetName(GetNullCharacter)] La douceur s'incline."   # AI Tags
+bno_bbc_cum_addiction.deceitful: "[GetTrait('deceitful').GetName(GetNullCharacter)] C'est un mensonge sous la luxure."   # AI Tags
+bno_bbc_cum_addiction.honest: "[GetTrait('honest').GetName(GetNullCharacter)] Le désir se manifeste clairement."   # AI Tags
+bno_bbc_cum_addiction.craven: "[GetTrait('craven').GetName(GetNullCharacter)] La peur la rend psy."   # AI Tags
+bno_bbc_cum_addiction.brave: "[GetTrait('brave').GetName(GetNullCharacter)] l'audace la rend risquée."   # AI Tags
+bno_bbc_cum_addiction.shy: "[GetTrait('shy').GetName(GetNullCharacter)] blush trahit ses besoins."   # AI Tags
+bno_bbc_cum_addiction.gregarious: "[GetTrait('gregarious').GetName(GetNullCharacter)] La joie prospère en compagnie."   # AI Tags
+bno_bbc_cum_addiction.ambitious: "[GetTrait('ambitious').GetName(GetNullCharacter)] conduire nourrit sa soif."   # AI Tags
+bno_bbc_cum_addiction.content: "[GetTrait('content').GetName(GetNullCharacter)] calmer sa faim."   # AI Tags
+bno_bbc_cum_addiction.impatient: "[GetTrait('impatient').GetName(GetNullCharacter)] implore les pousses pour l'instant."   # AI Tags
+bno_bbc_cum_addiction.patient: "[GetTrait('patient').GetName(GetNullCharacter)] Le calme ralentit sa convoitise."   # AI Tags
+bno_bbc_cum_addiction.cynical: "[GetTrait('cynical').GetName(GetNullCharacter)] doute de la luxure."   # AI Tags
+bno_bbc_cum_addiction.zealous: "[GetTrait('zealous').GetName(GetNullCharacter)] La foi lui verrouille les cuisses."   # AI Tags
+bno_bbc_cum_addiction.paranoid: "[GetTrait('paranoid').GetName(GetNullCharacter)] La peur la garde."   # AI Tags
+bno_bbc_cum_addiction.trusting: "[GetTrait('trusting').GetName(GetNullCharacter)] La confiance la rend ouverte."   # AI Tags
+bno_bbc_cum_addiction.compassionate: "[GetTrait('compassionate').GetName(GetNullCharacter)] La chaleur la rend facile."   # AI Tags
+bno_bbc_cum_addiction.callous: "[GetTrait('callous').GetName(GetNullCharacter)] Le froid terne la tentation."   # AI Tags
+bno_bbc_cum_addiction.sadistic: "[GetTrait('sadistic').GetName(GetNullCharacter)] La cruauté alimente sa convoitise."   # AI Tags
+bno_bbc_cum_addiction.stubborn: "[GetTrait('stubborn').GetName(GetNullCharacter)] La gardera raide."   # AI Tags
+bno_bbc_cum_addiction.fickle: "[GetTrait('fickle').GetName(GetNullCharacter)] La caprice se déplace avec luxure."   # AI Tags

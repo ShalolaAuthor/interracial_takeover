@@ -66,67 +66,68 @@ bno_cure_disease.tooltip.female: "내 성모를 축복해줘." # AI Tags
 bno_cure_diseases.own.sickness: "넌 병에 걸렸어." # AI Tags
 bno_cure_disease.employing_bbc_priestess: "당신은 고용했습니다 [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
 bno_cure_diseases.second_step_button: "제발 치유해줘." # AI Tags
-bno_cure_diseases.lovers_pox: "당신은 맛있게 표시됩니다 [GetTrait('lovers_pox').GetName( GetNullCharacter )], 당신의 정맥을 통해 여전히 뛰는 밤의 황폐한 기념품입니다." # AI Tags
+bno_cure_diseases.lovers_pox: "표기 [GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.ill: "약화 된 [GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.pneumonic: "아래로 질식하는 것 [GetTrait('pneumonic').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.great_pox: "상처받았어 [GetTrait('great_pox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.early_great_pox: "신선한 [GetTrait('early_great_pox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.leper: "배제된 [GetTrait('leper').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.gout_ridden: "마비된 [GetTrait('gout_ridden').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.consumption: "취약한 [GetTrait('consumption').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.cancer: "약화 된 [GetTrait('cancer').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.typhus: "불타는 것 [GetTrait('typhus').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.bubonic_plague: "사망 [GetTrait('bubonic_plague').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.smallpox: " [GetTrait('smallpox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.measles: "붓고 [GetTrait('measles').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.dysentery: "배수 [GetTrait('dysentery').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.ergotism: "흔들려서 [GetTrait('ergotism').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.sickly: "부드러운 [GetTrait('sickly').GetName( GetNullCharacter )]" # AI Tags
+
 bno_cure_diseases.lovers_pox.desc: "기억과 입의 유혹적인 발진, [GetTrait('lovers_pox').GetName( GetNullCharacter )] 너무 젖은 키스와 부끄러움없는 마찰의 후광처럼 피부를 뒤덮고 있습니다." # AI Tags
 cure_lovers_pox_tooltip: "내 악인으로부터 저를 깨끗하게 해 주십시오 [GetTrait('lovers_pox').GetName( GetNullCharacter )] 그래서 저는 신선하고 배고픈 피부로 다시 죄를 짓게 될 것입니다." # AI Tags
 
-bno_cure_diseases.ill: "당신은 [GetTrait('ill').GetName( GetNullCharacter )]열이 고 필요한 모든 호흡은 부드러운 손들의 부드러운 울음소리입니다." # AI Tags
 bno_cure_diseases.ill.desc: "고통과 떨림의 뜨거운 안개가 당신을 감싸고 있습니다 [GetTrait('ill').GetName( GetNullCharacter )] 천장과 따뜻한 몸을 똑같이 저항할 수 없게 만듭니다." # AI Tags
 cure_ill_tooltip: "제발 내 엄마를 돌봐줘 [GetTrait('ill').GetName( GetNullCharacter )]그래서 저는 더 달콤한 노력에 힘을 쓸 수 있습니다." # AI Tags
 
-bno_cure_diseases.pneumonic: "당신은 고통 받고 있습니다 [GetTrait('pneumonic').GetName( GetNullCharacter )]가슴이 붓고 입술이 갈라지고 모든 기침은 조심스러운 접촉을 촉구하는 숨결입니다." # AI Tags
 bno_cure_diseases.pneumonic.desc: "뜨거운 폐와 떨리는 肋骨, [GetTrait('pneumonic').GetName( GetNullCharacter )] 숨을 훔쳐서 느린 뇌졸중과 안정된 손을 갈망하게 됩니다." # AI Tags
 cure_pneumonic_tooltip: "제발 날 쫓아줘 [GetTrait('pneumonic').GetName( GetNullCharacter )] 그래서 내 숨쉬는 것은 고통이 아니라 즐거움이 될 수 있습니다." # AI Tags
 
-bno_cure_diseases.great_pox: "당신은 브랜드에 의해 [GetTrait('great_pox').GetName( GetNullCharacter )], 한 가지 육신적인 저주로, 밤 중반의 매번을 기억합니다." # AI Tags
 bno_cure_diseases.great_pox.desc: "빈부, 죄의 흉터, [GetTrait('great_pox').GetName( GetNullCharacter )] 촛불이 떨어졌을 때 무슨 짓을 했는지에 대한 몸의 거론입니다." # AI Tags
 cure_great_pox_tooltip: "제발 날 깨끗하게 해줘 [GetTrait('great_pox').GetName( GetNullCharacter )] 그래서 내 피부는 다시 부드러운 초청입니다." # AI Tags
 
-bno_cure_diseases.early_great_pox: "당신들은 [GetTrait('early_great_pox').GetName( GetNullCharacter )], 최근, 무분별한 쾌락의 속삭이는 열." # AI Tags
 bno_cure_diseases.early_great_pox.desc: "부드러운 상처와 비밀 스릴 [GetTrait('early_great_pox').GetName( GetNullCharacter )] 은 마치 기억에 남는 울음처럼 신경을 습니다." # AI Tags
 cure_early_great_pox_tooltip: "제발 내 손을 씻어줘 [GetTrait('early_great_pox').GetName( GetNullCharacter )] 속삭이 흉터가 되기 전에." # AI Tags
 
-bno_cure_diseases.leper: "당신은 고통 받고 있습니다 [GetTrait('leper').GetName( GetNullCharacter )], 만지기 위한 외로운 굶주림, 붕대 밑에서 고통받는." # AI Tags
 bno_cure_diseases.leper.desc: "거리가 처벌이 되고, [GetTrait('leper').GetName( GetNullCharacter )] 손바닥에 달린 애착도 금지된 것 같고, 마음도 가질 수 없는 것에 힘쓰고 있습니다." # AI Tags
 cure_leper_tooltip: "제발 내 몸에서 해제해줘 [GetTrait('leper').GetName( GetNullCharacter )] 그래서 입술과 손이 날 두려워할 필요가 없습니다." # AI Tags
 
-bno_cure_diseases.gout_ridden: "당신은 고통 받고 있습니다 [GetTrait('gout_ridden').GetName( GetNullCharacter )]관절이 뜨거워서 맥박처럼 뛰고 있어." # AI Tags
 bno_cure_diseases.gout_ridden.desc: "한 발자국, 한 발자국, 한 발자국, 한 발자국 [GetTrait('gout_ridden').GetName( GetNullCharacter )] 서두르지 않고 처리해야 한다고 요구합니다." # AI Tags
 cure_gout_ridden_tooltip: "진정해 [GetTrait('gout_ridden').GetName( GetNullCharacter )] 그래서 제 엉덩이는 올바른 이유 때문에 롤할 수 있습니다." # AI Tags
 
-bno_cure_diseases.consumption: "너한테 키스가 있어 [GetTrait('consumption').GetName( GetNullCharacter )], 모든 흡입을 섬세하고 사랑스러운 통증으로 만드는 희미한 꽃." # AI Tags
 bno_cure_diseases.consumption.desc: "색 피부, 밝은 눈, 느리게 타는 열 [GetTrait('consumption').GetName( GetNullCharacter )] 휴식을 은 갈망으로 바꾼다." # AI Tags
 cure_consumption_tooltip: "제발 내 차를 몰아줘 [GetTrait('consumption').GetName( GetNullCharacter )] 그래서 내 숨은 따뜻하고 안정적인 숨결으로 돌아옵니다." # AI Tags
 
-bno_cure_diseases.cancer: "당신은 고통 받고 있습니다 [GetTrait('cancer').GetName( GetNullCharacter )], 깊은 비밀스러운 재는 당신의 쾌락의 빛을 희미합니다." # AI Tags
 bno_cure_diseases.cancer.desc: "육체의 그림자 [GetTrait('cancer').GetName( GetNullCharacter )] 힘과 색을 훔치지만 배고픔을 억제할 수 없게 합니다." # AI Tags
 cure_cancer_tooltip: "제발 내 손을 벗겨라 [GetTrait('cancer').GetName( GetNullCharacter )] 그래서 삶은 다시 풍요롭고 성숙한 맛을 느낄 수 있습니다." # AI Tags
 
-bno_cure_diseases.typhus: "당신은 불타고 있습니다 [GetTrait('typhus').GetName( GetNullCharacter )]땀을 흘린 피부와 귀찮은 속삭임이 베개에 붙어 있습니다." # AI Tags
 bno_cure_diseases.typhus.desc: "열에 의해서만 옷을 벗는 열이라 [GetTrait('typhus').GetName( GetNullCharacter )] 온화한 침대 시트와 열병 꿈으로 세상을 흐리게 합니다." # AI Tags
 cure_typhus_tooltip: "제발 나를 추방해줘 [GetTrait('typhus').GetName( GetNullCharacter )] 그래서 내 땀은 더 달콤한 일에서 얻습니다." # AI Tags
 
-bno_cure_diseases.bubonic_plague: "당신이 잡혔어 [GetTrait('bubonic_plague').GetName( GetNullCharacter )]어두운 부풀림과 어두운 밤, 얼마나 치명적인 피부가 될 수 있는지의 잔인한 상기제입니다." # AI Tags
 bno_cure_diseases.bubonic_plague.desc: "몸은 물린 과일처럼 멍하니 [GetTrait('bubonic_plague').GetName( GetNullCharacter )] 심지어 욕구는 더 따뜻한 포옹을 위한 기도로 변합니다." # AI Tags
 cure_bubonic_plague_tooltip: "내 손을 들어주세요 [GetTrait('bubonic_plague').GetName( GetNullCharacter )] 그래서 접촉은 기쁨이 될 수 있습니다. 작별 인사를 하는 것이 아닙니다." # AI Tags
 
-bno_cure_diseases.smallpox: "당신은 흠에 흠에 흠에 흠에 흠에 흠에 흠에 흠에 흠에 흠 [GetTrait('smallpox').GetName( GetNullCharacter )]한 번에 너무 많은 키스처럼 불타는 피부를 가로지르는 별자리입니다." # AI Tags
 bno_cure_diseases.smallpox.desc: "빛나는 별과 열이 있는 밤 [GetTrait('smallpox').GetName( GetNullCharacter )] 당신의 별자리를 다시 그려서 진정해달라고 부탁합니다." # AI Tags
 cure_smallpox_tooltip: "제발 내 [GetTrait('smallpox').GetName( GetNullCharacter )] 그래서 내 피부는 다시 부드러운 초청이 될 수 있습니다." # AI Tags
 
-bno_cure_diseases.measles: "당신은 빨라진 [GetTrait('measles').GetName( GetNullCharacter )]불순종한 기쁨에 대한 부끄러움과 같은 빛나는 홍색이 당신을 향해 달려가고 있습니다." # AI Tags
 bno_cure_diseases.measles.desc: "얼룩진 열과 가려움증 [GetTrait('measles').GetName( GetNullCharacter )] 억울함을 불안으로 바꾸고 인내심을 간청으로 바꾸어 놓습니다." # AI Tags
 cure_measles_tooltip: "제발 진정해 [GetTrait('measles').GetName( GetNullCharacter )] 긁혀지지 않고 을 수 있게 해." # AI Tags
 
-bno_cure_diseases.dysentery: "당신은 붙잡혀있다 [GetTrait('dysentery').GetName( GetNullCharacter )]몹시 잔혹한 떨림으로 위로받고 싶은 욕망을 제외한 모든 것을 없애버립니다." # AI Tags
 bno_cure_diseases.dysentery.desc: "마비 파동과 다리가 다쳤다는 것 [GetTrait('dysentery').GetName( GetNullCharacter )] 부드러운 잔과 부드러운 밤을 구하기 위해 가장 강한 간청을 합니다." # AI Tags
 cure_dysentery_tooltip: "내 말 좀 끝내줘 [GetTrait('dysentery').GetName( GetNullCharacter )] 그래서 제 몸은 다시 잔잔하고 즐거워할 수 있습니다." # AI Tags
 
-bno_cure_diseases.ergotism: "당신이 잡혔어 [GetTrait('ergotism').GetName( GetNullCharacter )]손가락과 발가락에 불을 지르며 톱니가 불꽃처럼 흔들리는 비전." # AI Tags
 bno_cure_diseases.ergotism.desc: "ピン, 스파크, 이상한 꿈; [GetTrait('ergotism').GetName( GetNullCharacter )] 당신이 시작하려고 하지 않은 주둥이 무용으로 세상을 바꾸어 놓습니다." # AI Tags
 cure_ergotism_tooltip: "제발 내 몸에서 내 몸을 풀어줘 [GetTrait('ergotism').GetName( GetNullCharacter )] 그래서 나는 내 중독을 선택할 수 있습니다." # AI Tags
 
-bno_cure_diseases.sickly: "당신은 [GetTrait('sickly').GetName( GetNullCharacter )]톱니처럼 섬세하고 조심스럽게 옆으로 찢어지는 두 배 더 유혹적입니다." # AI Tags
 bno_cure_diseases.sickly.desc: "얇은 손목의 약점과 촛불빛의 잠자리 [GetTrait('sickly').GetName( GetNullCharacter )] 따뜻한 손과 인내를 가진 관리자를 갈망하게 해줍니다." # AI Tags
 cure_sickly_tooltip: "제발 치료해줘 [GetTrait('sickly').GetName( GetNullCharacter )] 그래서 제 몸은 아무런 리저브 없이 즐거워할 수 있습니다." # AI Tags
 
@@ -146,3 +147,9 @@ bno_primal_insight_decision.confirm.male: "그럼, 사제여, 우리가 협상�
 bno_primal_insight_decision.tooltip.male: "당신은 얻을 것입니다 [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
 bull_decision.effect: "거대한 [stress|E] 손실." # AI Tags
+bno_events00.too_much_bbc: "당신의 법원은 이미 [bno_bbcs|E]. 황소당에도 한계가 있습니다." # AI Tags
+bno_invite_slut_decision.too_much_white_girl: "당신의 법원은 이미 한 창녀들로 가득 차 있습니다. 더 많은 것은 그들의 가치를 저하하고 그들의 지배를 압박할 것입니다." # AI Tags
+bno_events00.too_little_bbc: "당신의 홀은 빈 [bno_bbcs|E]. 3명 미만인 황제들의 궁전에는 그들의 존재에 따른 힘과 유혹이 부족합니다. 그들을 초대하고 그들의 그림자가 당신의 영역에 떨어지도록 하세요." # AI Tags
+bno_invite_slut_decision.too_little_white_girl: "당신의 궁전에는 한 창녀들이 있다. 더 많은 사람들이 초청되어야 합니다. 왜냐하면 모든 홀이 한 지붕 아래 모인 백인 창녀들이 권력과 위험에 처해 있기 때문입니다." # AI Tags
+
+bno_becoming_bbc_slut.has_bbc_in_court: "적어도 한 사람이 있어야 합니다 [bno_bbc|E] 이 길을 시작하기 위해 당신의 궁전에서. 당신을 주장하는 황소가 없다면 노예로 넘어지는 것은 시작될 수 없습니다." # AI Tags

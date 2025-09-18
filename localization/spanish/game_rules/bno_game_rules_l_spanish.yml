@@ -129,3 +129,11 @@ setting_bno_great_replacement_converting: "Conversión de Condado" # AI Tags
 setting_bno_great_replacement_converting_desc: "Cuándo un [bno_bbc|E] o su pálida cría dobla un condado a su voluntad, el cambio es profundo. La vieja cultura es despojada, reemplazada por raíces africanas…lenguas oscuras, sangre más oscura, una tierra rehecho a imagen de su polla." # AI Tags
 setting_bno_great_replacement_cultural_acceptance: "Aceptación cultural" # AI Tags
 setting_bno_great_replacement_cultural_acceptance_desc: "Los [bno_bbc|E] o su zorra blanca no borra las viejas costumbres, las atan. Cultures gimen juntos a 100 de aceptación, unidos bajo el Black Cock." # AI Tags
+
+rule_bno_xp_gain: "@bnobbc! #X Toma Interracial:#! Experiencia adquirida" # AI Tags
+setting_bno_xp_gain_low: "Corrupción suave" # AI Tags
+setting_bno_xp_gain_low_desc: "El Black Cock se toma su tiempo. Las zorras blancas caen lentamente, saboreando los primeros toques de ruina, sus naciones temblando mientras el BNWO se extiende gota a gota. La corrupción viene como un susurro, pero nunca se detiene." # AI Tags
+setting_bno_xp_gain_med: "Descenso natural" # AI Tags
+setting_bno_xp_gain_med_desc: "El ritmo de toma de posesión se mueve constante, implacable. Cada puta se arrodilla antes, cada corte se vuelve más oscura, cada reino siente la sombra esparcida. No demasiado rápido, no demasiado lento—solo inevitable." # AI Tags
+setting_bno_xp_gain_high: "Desplazamiento rápido" # AI Tags
+setting_bno_xp_gain_high_desc: "La inundación no se puede detener. Las putas blancas se arruinan de la noche a la mañana, los tribunales caen en semanas, naciones enteras se doblan en meses. BNWO no susurra aquí — ruge, una marea de gallo y conquista devorando el mapa." # AI Tags

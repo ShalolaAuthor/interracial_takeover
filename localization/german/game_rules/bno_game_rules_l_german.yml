@@ -129,3 +129,11 @@ setting_bno_great_replacement_converting: "Gebietsumstellung" # AI Tags
 setting_bno_great_replacement_converting_desc: "Wenn ein [bno_bbc|E] oder seine blasse Brutmare biegt eine Grafschaft nach ihrem Willen, die Veränderung verläuft tief. Die alte Kultur wird entfernt, durch afrikanische Wurzeln ersetzt — dunkle Zungen, dunkleres Blut, ein Land, das nach dem Bild seines Schwanzes wieder hergestellt wurde." # AI Tags
 setting_bno_great_replacement_cultural_acceptance: "Kulturelle Akzeptanz" # AI Tags
 setting_bno_great_replacement_cultural_acceptance_desc: "Das [bno_bbc|E] oder seine weiße Schlampe löscht nicht alte Wege — sie binden sie. Kulturen stöhnen zusammen bei 100 Akzeptanz, vereint unter dem schwarzen Schwanz." # AI Tags
+
+rule_bno_xp_gain: "@bnobbc! #X Interrassische Übernahme:#! Erfahrungsgewinn" # AI Tags
+setting_bno_xp_gain_low: "Sanfte Korruption" # AI Tags
+setting_bno_xp_gain_low_desc: "Der schwarze Schwanz nimmt sich seine Zeit. Weiße Schlampen fallen langsam, genießen die ersten Berührungen des Ruins, ihre Nationen zittern, während die BNWO sich ausbreitet Tropfen für Tropfen. Korruption kommt wie ein Flüstern, aber es hört nie auf." # AI Tags
+setting_bno_xp_gain_med: "Natürlicher Abstieg" # AI Tags
+setting_bno_xp_gain_med_desc: "Das Tempo der Übernahme bewegt sich stetig, unerbittlich. Jede Schlampe kniet früher, jedes Gericht wird dunkler, jedes Reich fühlt den Schatten sich ausgebreitet. Nicht zu schnell, nicht zu langsam – einfach unvermeidlich." # AI Tags
+setting_bno_xp_gain_high: "Schnelle Überwerfung" # AI Tags
+setting_bno_xp_gain_high_desc: "Die Flut kann nicht gestoppt werden. Weiße Schlampen sind über Nacht ruiniert, Gerichte fallen in Wochen, ganze Nationen schleichen sich in Monaten. BNWO flüstert hier nicht – es brüllt, eine Flutwelle von Schwanz und Eroberung verschlingt die Karte." # AI Tags

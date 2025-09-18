@@ -1,19 +1,17 @@
 ﻿l_german:
 #sneak bbc interaction
- sneak_bbc: "Sneak ein schwarzes Gestüt zu einem ausländischen Gericht" # AI Tags
- sneak_bbc_desc: "Verschieben Sie eine der [bno_bbcs|E] von meinem Hof bis zum Hof eines auserwählten Herrschers." # AI Tags
- actor_secondary_sneak_bbc: "Wählen Sie einen Bullen zu schleichen" # AI Tags
- BBC_cg_spy_reason: "Es gibt einen Höfling oder Gast, die helfen, schleichen eine [bno_bbc|E]: #color_green +5#!" # AI Tags
- BBC_family_spy_reason: "Es gibt ein Familienmitglied, das helfen wird, eine [bno_bbc|E]: #color_green +10#!"  # AI Tags
- BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! ist neugierig auf [bno_bbc|E]: #color_green +10#!"  # AI Tags
- BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! wurde von einem [bno_bbc|E]: #color_green +25#!"  # AI Tags
- BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! ist verliebt in [bno_bbc|E]: #color_green +50#!"  # AI Tags
- BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! begrüßt [bno_bbc|E]: #color_green +50#!"  # AI Tags
-#chastity interaction
- bno_chastity_interaction: "Keuschheit anwenden" # AI Tags
- bno_chastity_interaction_desc: "Für Keuschheit sorgen [recipient.GetShortUINameNoTooltip]" # AI Tags
- bno_castration_interaction: "Seine Kugeln abreißen" # AI Tags
- bno_castration_interaction_desc: "Vollkastrieren [recipient.GetShortUINameNoTooltip]" # AI Tags
+sneak_bbc: "Sneak ein schwarzer Bulle" # AI Tags
+sneak_bbc_desc: "Senden Sie eine der [bno_bbcs|E] von deinem Hof in einen anderen Herrschersaal."   # AI Tags
+actor_secondary_sneak_bbc: "Wählen Sie den zu sendenden Bullen" # AI Tags
+BBC_cg_spy_reason: "Ein Höflicher oder Gast wird helfen, eine [bno_bbc|E]: #color_green +5#!"   # AI Tags
+BBC_family_spy_reason: "Ein Familienmitglied wird helfen, eine [bno_bbc|E]: #color_green +10#!"   # AI Tags
+BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! ist neugierig auf [bno_bbc|E]: #color_green +10#!"   # AI Tags
+BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! wurde von einem [bno_bbc|E]: #color_green +25#!"   # AI Tags
+BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! Gottesdienste [bno_bbc|E]: #color_green +50#!"   # AI Tags
+BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! offen begrüßt [bno_bbc|E]: #color_green +50#!"   # AI Tags
+sneak_bbc.has_bbc_in_court: "Sie müssen mindestens zwei haben [bno_bbc|E] vor Ihrem Gericht, um einen wegzuschicken."   # AI Tags
+sneak_bbc.already_has_bbc_in_court: "Das Gericht Schlampen sind bereits voll von den Bullen innen gefüllt - keine Notwendigkeit, eine andere zu senden."   # AI Tags
+sneak_bbc.not_enough_of_a_slut: "Du bist noch nicht genug von einer Schlampe. Nur ein wahrer [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] Oder schlimmer noch, wird es wagen, Bullen zwischen die Gerichte zu schmuggeln."   # AI Tags
 #influence child interaction
- bno_influence_child: "Kuriosität fördern" # AI Tags
- bno_influence_child_desc: "Das Kind auf die Wahrheit einwirken lassen" # AI Tags
+bno_influence_child: "Kuriosität fördern" # AI Tags
+bno_influence_child_desc: "Das Kind auf die Wahrheit einwirken lassen" # AI Tags

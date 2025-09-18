@@ -1,7 +1,12 @@
 ﻿l_polish:
 
-bno_bbc_cum_addiction_interaction: "BBC Seduction" # AI Tags
-bno_bbc_cum_addiction_interaction_desc: "Użyj swojego uroku, by uwodzić [recipient.GetHerHim]." # AI Tags
+bno_bbc_cum_addiction_interaction: "Uzależnienie" # AI Tags
+bno_bbc_cum_addiction_interaction.desc: "Zacznij korupcję [recipient.GetFirstNameNoTooltip]- Nie , nie , nie . Nie słowami, nie czarami, ale nasieniem ciągnij ją na kolana i zapamiętaj jej usta, co tylko jej Byka może dać." # AI Tags
+bno_bbc_cum_addiction_interaction.send_name: "Karmi jej swoją komórkę" # AI Tags
+bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] Zaczęło się uzależnianie" # AI Tags
+bno_bbc_cum_addiction_interaction.tooltip: "Zaczynasz się wiązać [recipient.GetFirstNameNoTooltip] do ciebie przez nasienie. Każde spotkanie osłabi jej wolę i pogłębi jej pragnienie, aż nie będzie mogła żyć bez twojego cum." # AI Tags
+bno_bbc_cum_addiction_interaction.already_training: "Już przywiązujesz dziwkę do swojego nasienia. Byka musi skoncentrować swoją dominację na jednym po drugim, dopóki jej wola nie zostanie złamała i nie zostanie przekształcona w ciebie [bno_cum_slave|E]." # AI Tags
+
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] ma jakiś rodzaj [illness|E]" # AI Tags
 bno_cure_disease_interaction.no_priestess: "Nie masz [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] Wykonywać rytuał." # AI Tags
 bno_cure_disease_interaction.no_priest: "Nie masz [GetCourtPositionType('bno_bbc_priest_court_position').GetName] Wykonywać rytuał." # AI Tags

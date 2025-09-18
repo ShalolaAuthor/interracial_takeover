@@ -1,0 +1,65 @@
+﻿l_korean:
+
+bno_bbc_cum_addiction: "중독" # AI Tags
+bno_bbc_cum_addiction_desc_general: "어떤 여자도 영원히 저항할 수 없습니다. A [bno_bbc|E] 그의 종을 다스리는 것은 선물이나 말로가 아니라 씨앗으로 이루어집니다. 그녀의 입술이 그것을 맛볼 때, 그녀의 굶주림은 그녀를 그와만 묶어, 몸과 영혼." # AI Tags
+bno_bbc_cum_addiction_action: "열차" # AI Tags
+bno_bbc_cum_addiction_desc: "맹세나 쇠사슬로 그녀를 묶지 말고, 너 말고 다른 사람이 없을 때까지 너의 씨를 갈망하게 해." # AI Tags
+bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] 당신의 에 중독되어, 그녀의 황소와 묶여 노예가 될 것입니다. 그녀의 유방과 입술은 영원히 소유됩니다." # AI Tags
+
+bno_bbc_cum_addiction.invalidated.title: "잃어버린 노예" # AI Tags
+bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] 그녀의 입술이 조용해졌는데, 당신의 이 그녀를 완전히 주장할 수 있기 전에요. 또 다른 사람이 곧 무릎을 꿇을 거야[bno_bnwo|E] 단 한 명의 찢어진 창녀로 끝나지 않습니다." # AI Tags
+
+bno_bbc_cum_addiction.curious: "그녀는 [GetTrait('bno_curious').GetName(GetNullCharacter)] 그것을 맛볼 수 있나니."   # AI Tags
+bno_bbc_cum_addiction.blacked: "그녀는 [GetTrait('bno_blacked').GetName(GetNullCharacter)] 그리고 더 많은 것을 원하고 있습니다."   # AI Tags
+bno_bbc_cum_addiction.snowbunny: "그녀는 [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] 그리고 모든 황소를 갈망하고 있습니다."   # AI Tags
+bno_bbc_cum_addiction.qos: "그녀는 [GetTrait('bno_qos').GetName(GetNullCharacter)] 자부심을 가지고 무릎을 꿇고."   # AI Tags
+bno_bbc_cum_addiction.mindless: "그녀는 침몰했습니다 [GetTrait('bno_mindless_bbc_slut').GetName(GetNullCharacter)] 그리고 저항할 수 없습니다."   # AI Tags
+
+bno_bbc_cum_addiction.beauty_good_1: "당신은 [GetTrait('beauty_good_1').GetName(GetNullCharacter)] 시선을 즐겁게 하고."   # AI Tags
+bno_bbc_cum_addiction.beauty_good_2: "당신은 [GetTrait('beauty_good_2').GetName(GetNullCharacter)] 그리고 눈부신 예쁘다."   # AI Tags
+bno_bbc_cum_addiction.beauty_good_3: "당신은 [GetTrait('beauty_good_3').GetName(GetNullCharacter)] 그리고 숨을 쉴 수 없습니다."   # AI Tags
+
+bno_bbc_cum_addiction.physique_good_1: "당신은 [GetTrait('physique_good_1').GetName(GetNullCharacter)] 그리고 잘 지어진 것입니다."   # AI Tags
+bno_bbc_cum_addiction.physique_good_2: "당신은 [GetTrait('physique_good_2').GetName(GetNullCharacter)] 강하고 강한 모양이 있나니."   # AI Tags
+bno_bbc_cum_addiction.physique_good_3: "당신은 [GetTrait('physique_good_3').GetName(GetNullCharacter)] 마치 신처럼 꾸며져 있는."   # AI Tags
+
+bno_bbc_cum_addiction.intellect_good_1: "당신은 [GetTrait('intellect_good_1').GetName(GetNullCharacter)] 지혜로운 혀가 있나니."   # AI Tags
+bno_bbc_cum_addiction.intellect_good_2: "당신은 [GetTrait('intellect_good_2').GetName(GetNullCharacter)] 그리고 현명한 마음."   # AI Tags
+bno_bbc_cum_addiction.intellect_good_3: "당신은 [GetTrait('intellect_good_3').GetName(GetNullCharacter)] 그리고 그녀를 깨뜨릴 수 있는 재능을 가지고 있습니다."   # AI Tags
+
+bno_bbc_cum_addiction.strong: "당신은 [GetTrait('strong').GetName(GetNullCharacter)] 그리고 남성성을 발산시키며."   # AI Tags
+
+
+bno_bbc_cum_addiction.lustful: "[GetTrait('lustful').GetName(GetNullCharacter)] 열은 그녀를 아프게 한다."   # AI Tags
+bno_bbc_cum_addiction.chaste: "[GetTrait('chaste').GetName(GetNullCharacter)] 맹세는 그녀를 억제합니다."   # AI Tags
+bno_bbc_cum_addiction.gluttonous: "[GetTrait('gluttonous').GetName(GetNullCharacter)] 배고픔은 그녀를 탐욕스럽게 만듭니다."   # AI Tags
+bno_bbc_cum_addiction.temperate: "[GetTrait('temperate').GetName(GetNullCharacter)] 자제감은 그녀의 욕망을 냉각시킵니다."   # AI Tags
+bno_bbc_cum_addiction.greedy: "[GetTrait('greedy').GetName(GetNullCharacter)] 갈망은 황소를 갈망한다."   # AI Tags
+bno_bbc_cum_addiction.generous: "[GetTrait('generous').GetName(GetNullCharacter)] 자연은 그녀의 몸을 열어줍니다."   # AI Tags
+bno_bbc_cum_addiction.lazy: "[GetTrait('lazy').GetName(GetNullCharacter)] 편리함은 그녀를 굴복하게 한다."   # AI Tags
+bno_bbc_cum_addiction.diligent: "[GetTrait('diligent').GetName(GetNullCharacter)] 집중은 그녀의 의지를 강화합니다."   # AI Tags
+bno_bbc_cum_addiction.wrathful: "[GetTrait('wrathful').GetName(GetNullCharacter)] 불꽃이 욕구로 변하고."   # AI Tags
+bno_bbc_cum_addiction.calm: "[GetTrait('calm').GetName(GetNullCharacter)] 균형은 유혹을 늦추죠."   # AI Tags
+bno_bbc_cum_addiction.vengeful: "[GetTrait('vengeful').GetName(GetNullCharacter)] 불공평은 황소에게 저항한다."   # AI Tags
+bno_bbc_cum_addiction.forgiving: "[GetTrait('forgiving').GetName(GetNullCharacter)] 부드러움으로 녹는다."   # AI Tags
+bno_bbc_cum_addiction.arrogant: "[GetTrait('arrogant').GetName(GetNullCharacter)] 자부심이 그녀를 견고하게 만듭니다."   # AI Tags
+bno_bbc_cum_addiction.humble: "[GetTrait('humble').GetName(GetNullCharacter)] 겸손은 그녀를 낮추게 합니다."   # AI Tags
+bno_bbc_cum_addiction.deceitful: "[GetTrait('deceitful').GetName(GetNullCharacter)] 욕구 아래의 균열이 있습니다."   # AI Tags
+bno_bbc_cum_addiction.honest: "[GetTrait('honest').GetName(GetNullCharacter)] 욕망은 분명하게 나타납니다."   # AI Tags
+bno_bbc_cum_addiction.craven: "[GetTrait('craven').GetName(GetNullCharacter)] 두려움은 그녀의 정신을 게 합니다."   # AI Tags
+bno_bbc_cum_addiction.brave: "[GetTrait('brave').GetName(GetNullCharacter)] 용기 때문에 위험을 감수합니다."   # AI Tags
+bno_bbc_cum_addiction.shy: "[GetTrait('shy').GetName(GetNullCharacter)] 로쉬는 그녀의 욕구를 배신합니다."   # AI Tags
+bno_bbc_cum_addiction.gregarious: "[GetTrait('gregarious').GetName(GetNullCharacter)] 기쁨은 회사에서 번영합니다."   # AI Tags
+bno_bbc_cum_addiction.ambitious: "[GetTrait('ambitious').GetName(GetNullCharacter)] 드라이브는 그녀의 욕망을 먹여줍니다."   # AI Tags
+bno_bbc_cum_addiction.content: "[GetTrait('content').GetName(GetNullCharacter)] 쉬움은 그녀의 배고픔을 완화시킵니다."   # AI Tags
+bno_bbc_cum_addiction.impatient: "[GetTrait('impatient').GetName(GetNullCharacter)] 현재는 충동이 필요합니다."   # AI Tags
+bno_bbc_cum_addiction.patient: "[GetTrait('patient').GetName(GetNullCharacter)] 침묵은 그녀의 욕망을 늦추죠."   # AI Tags
+bno_bbc_cum_addiction.cynical: "[GetTrait('cynical').GetName(GetNullCharacter)] 의심은 욕망을 조롱한다."   # AI Tags
+bno_bbc_cum_addiction.zealous: "[GetTrait('zealous').GetName(GetNullCharacter)] 믿음은 그녀의 허리를 잠겨두고 있습니다."   # AI Tags
+bno_bbc_cum_addiction.paranoid: "[GetTrait('paranoid').GetName(GetNullCharacter)] 두려움은 그녀를 보호합니다."   # AI Tags
+bno_bbc_cum_addiction.trusting: "[GetTrait('trusting').GetName(GetNullCharacter)] 신뢰는 그녀를 열어줍니다."   # AI Tags
+bno_bbc_cum_addiction.compassionate: "[GetTrait('compassionate').GetName(GetNullCharacter)] 따뜻함이 그녀를 쉬게 해줍니다."   # AI Tags
+bno_bbc_cum_addiction.callous: "[GetTrait('callous').GetName(GetNullCharacter)] 냉각은 유혹을 니다."   # AI Tags
+bno_bbc_cum_addiction.sadistic: "[GetTrait('sadistic').GetName(GetNullCharacter)] 잔인함은 그녀의 욕망을 자극합니다."   # AI Tags
+bno_bbc_cum_addiction.stubborn: "[GetTrait('stubborn').GetName(GetNullCharacter)] 윌은 그녀를 딱딱하게 유지합니다."   # AI Tags
+bno_bbc_cum_addiction.fickle: "[GetTrait('fickle').GetName(GetNullCharacter)] 욕심은 욕망과 함께 변한다."   # AI Tags

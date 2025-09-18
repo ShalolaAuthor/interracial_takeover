@@ -67,66 +67,67 @@ bno_cure_diseases.own.sickness: "你病了。"
 bno_cure_disease.employing_bbc_priestess: "你雇佣了[GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]"
 bno_cure_diseases.second_step_button: "请治愈我…"
 bno_cure_diseases.lovers_pox: "你感染上了[GetTrait('lovers_pox').GetName( GetNullCharacter )]。"
+bno_cure_diseases.ill: "你已[GetTrait('ill').GetName( GetNullCharacter )]。"
+bno_cure_diseases.pneumonic: "你感染上了[GetTrait('pneumonic').GetName( GetNullCharacter )]。"
+bno_cure_diseases.great_pox: "你感染上了[GetTrait('great_pox').GetName( GetNullCharacter )]。"
+bno_cure_diseases.early_great_pox: "你感染上了[GetTrait('early_great_pox').GetName( GetNullCharacter )]。"
+bno_cure_diseases.leper: "你感染上了[GetTrait('leper').GetName( GetNullCharacter )]。"
+bno_cure_diseases.gout_ridden: "你感染上了[GetTrait('gout_ridden').GetName( GetNullCharacter )]。"
+bno_cure_diseases.consumption: "你感染上了[GetTrait('consumption').GetName( GetNullCharacter )]。"
+bno_cure_diseases.cancer: "你感染上了[GetTrait('cancer').GetName( GetNullCharacter )]。"
+bno_cure_diseases.typhus: "你感染上了[GetTrait('typhus').GetName( GetNullCharacter )]。"
+bno_cure_diseases.bubonic_plague: "你感染上了[GetTrait('bubonic_plague').GetName( GetNullCharacter )]。"
+bno_cure_diseases.smallpox: "你感染上了[GetTrait('smallpox').GetName( GetNullCharacter )]。"
+bno_cure_diseases.measles: "你感染上了[GetTrait('measles').GetName( GetNullCharacter )]。"
+bno_cure_diseases.dysentery: "你感染上了[GetTrait('dysentery').GetName( GetNullCharacter )]。"
+bno_cure_diseases.ergotism: "你感染上了[GetTrait('ergotism').GetName( GetNullCharacter )]。"
+bno_cure_diseases.sickly: "你感染上了[GetTrait('sickly').GetName( GetNullCharacter )]。"
+
 bno_cure_diseases.lovers_pox.desc: "你感染上了[GetTrait('lovers_pox').GetName( GetNullCharacter )]。"
 cure_lovers_pox_tooltip: "请治愈我的[GetTrait('lovers_pox').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.ill: "你已[GetTrait('ill').GetName( GetNullCharacter )]。"
 bno_cure_diseases.ill.desc: "你已[GetTrait('ill').GetName( GetNullCharacter )]。"
 cure_ill_tooltip: "请治愈我[GetTrait('ill').GetName( GetNullCharacter )]的状态。"
 
-bno_cure_diseases.pneumonic: "你感染上了[GetTrait('pneumonic').GetName( GetNullCharacter )]。"
 bno_cure_diseases.pneumonic.desc: "你感染上了[GetTrait('pneumonic').GetName( GetNullCharacter )]。"
 cure_pneumonic_tooltip: "请帮我摆脱[GetTrait('pneumonic').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.great_pox: "你感染上了[GetTrait('great_pox').GetName( GetNullCharacter )]。"
 bno_cure_diseases.great_pox.desc: "你感染上了[GetTrait('great_pox').GetName( GetNullCharacter )]。"
 cure_great_pox_tooltip: "请帮我摆脱[GetTrait('great_pox').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.early_great_pox: "你感染上了[GetTrait('early_great_pox').GetName( GetNullCharacter )]。"
 bno_cure_diseases.early_great_pox.desc: "你感染上了[GetTrait('early_great_pox').GetName( GetNullCharacter )]。"
 cure_early_great_pox_tooltip: "请帮我摆脱[GetTrait('early_great_pox').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.leper: "你感染上了[GetTrait('leper').GetName( GetNullCharacter )]。"
 bno_cure_diseases.leper.desc: "你感染上了[GetTrait('leper').GetName( GetNullCharacter )]。"
 cure_leper_tooltip: "请帮我摆脱[GetTrait('leper').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.gout_ridden: "你感染上了[GetTrait('gout_ridden').GetName( GetNullCharacter )]。"
 bno_cure_diseases.gout_ridden.desc: "你感染上了[GetTrait('gout_ridden').GetName( GetNullCharacter )]。"
 cure_gout_ridden_tooltip: "请帮我摆脱[GetTrait('gout_ridden').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.consumption: "你感染上了[GetTrait('consumption').GetName( GetNullCharacter )]。"
 bno_cure_diseases.consumption.desc: "你感染上了[GetTrait('consumption').GetName( GetNullCharacter )]。"
 cure_consumption_tooltip: "请帮我摆脱[GetTrait('consumption').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.cancer: "你感染上了[GetTrait('cancer').GetName( GetNullCharacter )]。"
 bno_cure_diseases.cancer.desc: "你感染上了[GetTrait('cancer').GetName( GetNullCharacter )]。"
 cure_cancer_tooltip: "请帮我摆脱[GetTrait('cancer').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.typhus: "你感染上了[GetTrait('typhus').GetName( GetNullCharacter )]。"
 bno_cure_diseases.typhus.desc: "你感染上了[GetTrait('typhus').GetName( GetNullCharacter )]。"
 cure_typhus_tooltip: "请帮我摆脱[GetTrait('typhus').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.bubonic_plague: "你感染上了[GetTrait('bubonic_plague').GetName( GetNullCharacter )]。"
 bno_cure_diseases.bubonic_plague.desc: "你感染上了[GetTrait('bubonic_plague').GetName( GetNullCharacter )]。"
 cure_bubonic_plague_tooltip: "请帮我摆脱[GetTrait('bubonic_plague').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.smallpox: "你感染上了[GetTrait('smallpox').GetName( GetNullCharacter )]。"
 bno_cure_diseases.smallpox.desc: "你感染上了[GetTrait('smallpox').GetName( GetNullCharacter )]。"
 cure_smallpox_tooltip: "请帮我摆脱[GetTrait('smallpox').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.measles: "你感染上了[GetTrait('measles').GetName( GetNullCharacter )]。"
 bno_cure_diseases.measles.desc: "你感染上了[GetTrait('measles').GetName( GetNullCharacter )]。"
 cure_measles_tooltip: "请帮我摆脱[GetTrait('measles').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.dysentery: "你感染上了[GetTrait('dysentery').GetName( GetNullCharacter )]。"
 bno_cure_diseases.dysentery.desc: "你感染上了[GetTrait('dysentery').GetName( GetNullCharacter )]。"
 cure_dysentery_tooltip: "请帮我摆脱[GetTrait('dysentery').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.ergotism: "你感染上了[GetTrait('ergotism').GetName( GetNullCharacter )]。"
 bno_cure_diseases.ergotism.desc: "你感染上了[GetTrait('ergotism').GetName( GetNullCharacter )]。"
 cure_ergotism_tooltip: "请帮我摆脱[GetTrait('ergotism').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.sickly: "你感染上了[GetTrait('sickly').GetName( GetNullCharacter )]。"
 bno_cure_diseases.sickly.desc: "你感染上了[GetTrait('sickly').GetName( GetNullCharacter )]。"
 cure_sickly_tooltip: "请帮我摆脱[GetTrait('sickly').GetName( GetNullCharacter )]"
 
@@ -146,3 +147,9 @@ bno_primal_insight_decision.confirm.male: "那么，女祭司大人，我们开�
 bno_primal_insight_decision.tooltip.male: "你将获得[GetModifier('bno_primal_insight').GetNameWithTooltip]"
 
 bull_decision.effect: "大规模 [stress|E] 损失…" # AI Tags
+bno_events00.too_much_bbc: "你们的宫廷已经满满 [bno_bbcs|E]. . 即使是公牛厅也有其局限性。." # AI Tags
+bno_invite_slut_decision.too_much_white_girl: "你的宫廷已经满是苍白的荡妇. 再多一点 就能降低他们的价值 让你控制他们." # AI Tags
+bno_events00.too_little_bbc: "你的大厅是空的 [bno_bbcs|E]. . 少于三辆公牛,你的法庭 缺乏力量和诱惑, 在他们出现之后。. 请他们进来 让他们的影子掉在你的领地上." # AI Tags
+bno_invite_slut_decision.too_little_white_girl: "你的宫廷是瘦色的苍白荡妇。. 必须邀请更多的人,因为当白人妓女聚集在同一个屋檐下时,每个有权力和处于危险之中的大厅都会膨胀。." # AI Tags
+
+bno_becoming_bbc_slut.has_bbc_in_court: "必须有至少一个 [bno_bbc|E] 在你的法庭开始这条道路。. 没有公牛来称你为奴隶, 你就不能开始沦为奴隶。." # AI Tags

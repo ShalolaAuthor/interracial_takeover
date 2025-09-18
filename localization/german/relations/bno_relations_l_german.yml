@@ -3,3 +3,15 @@
 bno_slave: "[bno_slave|E]" # AI Tags
 relation_bno_slave: "BBC Sklave" # AI Tags
 relation_bno_slave_possessive: "Die Sklaven der BBC" # AI Tags
+
+bno_slave_owner: "[bno_slave_owner|E]" # AI Tags
+relation_bno_slave_owner: "Sklavenbesitzer" # AI Tags
+relation_bno_slave_owner_possessive: "Sklavenbesitzer" # AI Tags
+
+bno_cum_slave: "[bno_cum_slave|E]" # AI Tags
+relation_bno_cum_slave: "Wie ein Sklave" # AI Tags
+relation_bno_cum_slave_possessive: "Cum Slave's" # AI Tags
+
+bno_cum_slave_owner: "[bno_bull|E]" # AI Tags
+relation_bno_cum_slave_owner: "Bull." # AI Tags
+relation_bno_cum_slave_owner_possessive: "Nr." # AI Tags

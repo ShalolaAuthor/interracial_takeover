@@ -66,67 +66,68 @@ bno_cure_disease.tooltip.female: "Благослови меня своим ку�
 bno_cure_diseases.own.sickness: "Ты болен." # AI Tags
 bno_cure_disease.employing_bbc_priestess: "Вы наняли [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
 bno_cure_diseases.second_step_button: "Пожалуйста, исцели меня." # AI Tags
-bno_cure_diseases.lovers_pox: "Вы вкусно отмечены [GetTrait('lovers_pox').GetName( GetNullCharacter )], горький сувенир от ночей, которые по-прежнему пульсируют через ваши вены." # AI Tags
+bno_cure_diseases.lovers_pox: "Отмеченные [GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.ill: "Ослабленный [GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.pneumonic: "Удушение под [GetTrait('pneumonic').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.great_pox: "Ожесточенный [GetTrait('great_pox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.early_great_pox: "Свежий с [GetTrait('early_great_pox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.leper: "Избегают, как [GetTrait('leper').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.gout_ridden: "Окрещенный [GetTrait('gout_ridden').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.consumption: "Чувствительный от [GetTrait('consumption').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.cancer: "Ослабленный [GetTrait('cancer').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.typhus: "Сжигание [GetTrait('typhus').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.bubonic_plague: "Смерть [GetTrait('bubonic_plague').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.smallpox: "Смеченный [GetTrait('smallpox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.measles: "Выпрямленный [GetTrait('measles').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.dysentery: "Высыпается [GetTrait('dysentery').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.ergotism: "Стремится [GetTrait('ergotism').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.sickly: "Деликатно с [GetTrait('sickly').GetName( GetNullCharacter )]" # AI Tags
+
 bno_cure_diseases.lovers_pox.desc: "Притягательная сыпь памяти и рта, [GetTrait('lovers_pox').GetName( GetNullCharacter )] Закручивается над твоей кожей, как послесвет слишком мокрых поцелуев и бесстыдных мелок." # AI Tags
 cure_lovers_pox_tooltip: "Пожалуйста, очисти меня от моих злых [GetTrait('lovers_pox').GetName( GetNullCharacter )] чтобы я мог снова грешить с свежей, голодной кожей." # AI Tags
 
-bno_cure_diseases.ill: "Это ты [GetTrait('ill').GetName( GetNullCharacter )], лихорадка и нужный, каждый дыхание мягкий плач от нежных рук." # AI Tags
 bno_cure_diseases.ill.desc: "Теплая туманность боли и дрожжей обнимает тебя; это [GetTrait('ill').GetName( GetNullCharacter )] делает одеяла и теплые тела неотразимыми." # AI Tags
 cure_ill_tooltip: "Пожалуйста , помоги мне [GetTrait('ill').GetName( GetNullCharacter )]Чтобы я мог потратить свои силы на более сладкие усилия." # AI Tags
 
-bno_cure_diseases.pneumonic: "Ты страдаешь от [GetTrait('pneumonic').GetName( GetNullCharacter )]Каждый кашель, дыхание, которое просит о внимательном прикосновении." # AI Tags
 bno_cure_diseases.pneumonic.desc: "Горячие легкие и дрожащие ребра, [GetTrait('pneumonic').GetName( GetNullCharacter )] Убирает дыхание и оставляет вас жаждать медленных ударов и устойчивых рук." # AI Tags
 cure_pneumonic_tooltip: "Пожалуйста, отгоните меня [GetTrait('pneumonic').GetName( GetNullCharacter )] так что мои вздыхи могут быть для удовольствия, а не для боли." # AI Tags
 
-bno_cure_diseases.great_pox: "Тебя отмечают [GetTrait('great_pox').GetName( GetNullCharacter )], плотское проклятие, которое вспоминает каждое полуночное удовольствие." # AI Tags
 bno_cure_diseases.great_pox.desc: "Вспышки нужды, шрамы греха; [GetTrait('great_pox').GetName( GetNullCharacter )] Это сплетни тела о том, что ты сделал, когда свечи загорелись." # AI Tags
 cure_great_pox_tooltip: "Пожалуйста , очисти меня [GetTrait('great_pox').GetName( GetNullCharacter )] Так что моя кожа снова является гладким приглашением." # AI Tags
 
-bno_cure_diseases.early_great_pox: "Ты окрашен [GetTrait('early_great_pox').GetName( GetNullCharacter )], шепотом тепло от недавнего, безрассудного удовольствия." # AI Tags
 bno_cure_diseases.early_great_pox.desc: "Мягкие раны и секретные волнения; [GetTrait('early_great_pox').GetName( GetNullCharacter )] Хммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммммм." # AI Tags
 cure_early_great_pox_tooltip: "Пожалуйста , вымыть мой [GetTrait('early_great_pox').GetName( GetNullCharacter )] до того, как шепот превратится в шрамы." # AI Tags
 
-bno_cure_diseases.leper: "Ты страдаешь от [GetTrait('leper').GetName( GetNullCharacter )], одинокий прикосновение голод, который болит под повязками." # AI Tags
 bno_cure_diseases.leper.desc: "Расстояние становится наказанием; [GetTrait('leper').GetName( GetNullCharacter )] даже рукавичное поглаживание кажется запрещенным, и сердце бьется за тем, чего не может иметь." # AI Tags
 cure_leper_tooltip: "Пожалуйста , освободите меня от моего [GetTrait('leper').GetName( GetNullCharacter )] Так что губы и руки не должны бояться меня." # AI Tags
 
-bno_cure_diseases.gout_ridden: "Ты страдаешь от [GetTrait('gout_ridden').GetName( GetNullCharacter )]Твои суставы горячие и пульсирующие, как пульс, слишком упрямый, чтобы молчать." # AI Tags
 bno_cure_diseases.gout_ridden.desc: "Каждый шаг, каждый шаг, каждый шаг, каждый шаг, каждый шаг [GetTrait('gout_ridden').GetName( GetNullCharacter )] требует, чтобы с тобой работали, а не торопились." # AI Tags
 cure_gout_ridden_tooltip: "Пожалуйста , успокойте меня [GetTrait('gout_ridden').GetName( GetNullCharacter )] чтобы мои бедра могли крутиться по правильным причинам." # AI Tags
 
-bno_cure_diseases.consumption: "Ты поцелован [GetTrait('consumption').GetName( GetNullCharacter )], бледное цветение, которое делает каждый вдых хрупким, прекрасным болем." # AI Tags
 bno_cure_diseases.consumption.desc: "восковая кожа, яркие глаза и медленное горящее тепло; [GetTrait('consumption').GetName( GetNullCharacter )] превращает отдых в пустое стремление." # AI Tags
 cure_consumption_tooltip: "Пожалуйста, выведи меня [GetTrait('consumption').GetName( GetNullCharacter )] так что мой дыхание возвращается как теплый, постоянный вздох." # AI Tags
 
-bno_cure_diseases.cancer: "Ты страдаешь от [GetTrait('cancer').GetName( GetNullCharacter )], глубокое, секретное грызение, которое приглушает сияние ваших удовольствий." # AI Tags
 bno_cure_diseases.cancer.desc: "Тень в плоти, [GetTrait('cancer').GetName( GetNullCharacter )] крадет силу и цвет, но оставляет голод удерживаться." # AI Tags
 cure_cancer_tooltip: "Пожалуйста , разобрать мой [GetTrait('cancer').GetName( GetNullCharacter )] чтобы жизнь снова была богатой и зрелой." # AI Tags
 
-bno_cure_diseases.typhus: "Ты в огне с [GetTrait('typhus').GetName( GetNullCharacter )], потеная кожа и делярийные шепоты, приклеивающиеся к твоей подушке." # AI Tags
 bno_cure_diseases.typhus.desc: "лихорадка , которая раздевает вас только теплой; [GetTrait('typhus').GetName( GetNullCharacter )] размывает мир в влажные листы и лихорадки." # AI Tags
 cure_typhus_tooltip: "Пожалуйста, избавь меня [GetTrait('typhus').GetName( GetNullCharacter )] Так что мой пот зарабатывается на более сладкой работе." # AI Tags
 
-bno_cure_diseases.bubonic_plague: "Вас захватили [GetTrait('bubonic_plague').GetName( GetNullCharacter )], темные опухоли и более темные ночи, жестокое напоминание о том, как смертная кожа может быть." # AI Tags
 bno_cure_diseases.bubonic_plague.desc: "Тело синяков , как укушенный фрукт [GetTrait('bubonic_plague').GetName( GetNullCharacter )] Даже желание превращается в молитву за еще одно теплое объятие." # AI Tags
 cure_bubonic_plague_tooltip: "Пожалуйста, подними меня [GetTrait('bubonic_plague').GetName( GetNullCharacter )] Так что прикосновение может быть удовольствием, а не прощанием." # AI Tags
 
-bno_cure_diseases.smallpox: "Ты пятнистый [GetTrait('smallpox').GetName( GetNullCharacter )], созвездие на вашей коже, которое горит как слишком много поцелуев одновременно." # AI Tags
 bno_cure_diseases.smallpox.desc: "Звезды блестящие, горячие ночи, [GetTrait('smallpox').GetName( GetNullCharacter )] перерисовывает ваши созвездия и просит успокоиться." # AI Tags
 cure_smallpox_tooltip: "Пожалуйста , помилуй меня [GetTrait('smallpox').GetName( GetNullCharacter )] чтобы моя кожа снова была гладким приглашением." # AI Tags
 
-bno_cure_diseases.measles: "Ты обескуражен [GetTrait('measles').GetName( GetNullCharacter )], яркий красный бег над вами, как стыд после злого удовольствия." # AI Tags
 bno_cure_diseases.measles.desc: "Пятна тепла и зуд; [GetTrait('measles').GetName( GetNullCharacter )] сдержанность превращается в беспокойство, а терпение в умолчание." # AI Tags
 cure_measles_tooltip: "Пожалуйста, успокой меня [GetTrait('measles').GetName( GetNullCharacter )] чтобы меня поцеловали без царапины." # AI Tags
 
-bno_cure_diseases.dysentery: "Ты поймана [GetTrait('dysentery').GetName( GetNullCharacter )], жестокое раздражение, которое освобождает тебя от всего, кроме желания быть утешенным." # AI Tags
 bno_cure_diseases.dysentery.desc: "судорожные волны и утерянные конечности; [GetTrait('dysentery').GetName( GetNullCharacter )] делает сильнейшую просьбу о мягких глотках и более мягких ночах." # AI Tags
 cure_dysentery_tooltip: "Пожалуйста, закончи мою [GetTrait('dysentery').GetName( GetNullCharacter )] чтобы мое тело могло снова веселиться и веселиться." # AI Tags
 
-bno_cure_diseases.ergotism: "Вас захватили [GetTrait('ergotism').GetName( GetNullCharacter )], зажигающие огни в пальцах и пальцах ног, видения, которые колеблются как бедра в факеле." # AI Tags
 bno_cure_diseases.ergotism.desc: "Пины, искры, и странные сны; [GetTrait('ergotism').GetName( GetNullCharacter )] превращает мир в головокружительный танец, который ты не хотел начинать." # AI Tags
 cure_ergotism_tooltip: "Пожалуйста, освободите меня от моего [GetTrait('ergotism').GetName( GetNullCharacter )] чтобы я мог выбрать свои интоксикации." # AI Tags
 
-bno_cure_diseases.sickly: "Это ты [GetTrait('sickly').GetName( GetNullCharacter )], деликатный, как шнурка и вдвое более заманчивый, чтобы тщательно разорвать в сторону." # AI Tags
 bno_cure_diseases.sickly.desc: "Слабость с тонкими запястьями и подсвечивание свечами; [GetTrait('sickly').GetName( GetNullCharacter )] Это заставляет вас жаждать попечителей с теплыми руками и терпением." # AI Tags
 cure_sickly_tooltip: "Пожалуйста , излечи меня [GetTrait('sickly').GetName( GetNullCharacter )] чтобы мое тело могло наслаждаться без резервов." # AI Tags
 
@@ -146,3 +147,9 @@ bno_primal_insight_decision.confirm.male: "Тогда, священница, д�
 bno_primal_insight_decision.tooltip.male: "Вы получите [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
 bull_decision.effect: "Массивный [stress|E] Потеря." # AI Tags
+bno_events00.too_much_bbc: "Ваш двор уже переполняется [bno_bbcs|E]- Нет , нет . Даже зал быков имеет свои границы." # AI Tags
+bno_invite_slut_decision.too_much_white_girl: "Ваш двор уже наполнен бледными шлюхами. Еще один снизит их ценность и затянет вашу власть над ними." # AI Tags
+bno_events00.too_little_bbc: "Твой зал пуст [bno_bbcs|E]- Нет , нет . С меньше чем тремя быками, вашему двору не хватает силы и искушения, которые следует за их присутствием. Пригласи их, и пусть их тень падет на твое царство." # AI Tags
+bno_invite_slut_decision.too_little_white_girl: "Твои дворы плохие бледные шлюхи. Необходимо пригласить больше, потому что каждый зал становится сильным и опасным, когда белые шлюхи собираются под одной крышей." # AI Tags
+
+bno_becoming_bbc_slut.has_bbc_in_court: "Должен быть хотя бы один [bno_bbc|E] в вашем дворе, чтобы начать этот путь. Без быка, который будет претендовать на вас, ваше падение в рабство не может начаться." # AI Tags

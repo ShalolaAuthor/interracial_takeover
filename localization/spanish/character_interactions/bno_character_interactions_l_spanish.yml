@@ -1,7 +1,12 @@
 ﻿l_spanish:
 
-bno_bbc_cum_addiction_interaction: "La seducción de la BBC" # AI Tags
-bno_bbc_cum_addiction_interaction_desc: "Usa tu encanto para seducir [recipient.GetHerHim]." # AI Tags
+bno_bbc_cum_addiction_interaction: "Adicción a la cum" # AI Tags
+bno_bbc_cum_addiction_interaction.desc: "Comenzar la corrupción de [recipient.GetFirstNameNoTooltip]. No con palabras, no con encantos, sino con semilla, arrástrala de rodillas y haz que sus labios recuerden lo que sólo su Toro puede dar." # AI Tags
+bno_bbc_cum_addiction_interaction.send_name: "Dale de comer tu esperma" # AI Tags
+bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] La adicción a la atadura ha comenzado" # AI Tags
+bno_bbc_cum_addiction_interaction.tooltip: "Has empezado a ligar [recipient.GetFirstNameNoTooltip] a ti a través de semilla. Cada encuentro debilitará su voluntad y profundizará su ansia, hasta que no pueda vivir sin tu esperma." # AI Tags
+bno_bbc_cum_addiction_interaction.already_training: "Ya estás atando a una puta a tu semilla. Un toro debe enfocar su dominación en uno a la vez hasta que su voluntad se rompa y ella es rehecho en su [bno_cum_slave|E]." # AI Tags
+
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] tiene algún tipo de [illness|E]" # AI Tags
 bno_cure_disease_interaction.no_priestess: "Usted no tiene un [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] para realizar el ritual." # AI Tags
 bno_cure_disease_interaction.no_priest: "Usted no tiene un [GetCourtPositionType('bno_bbc_priest_court_position').GetName] para realizar el ritual." # AI Tags

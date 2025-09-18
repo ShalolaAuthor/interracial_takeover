@@ -5,3 +5,9 @@ they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] wird [CHARACTER.GetS
 
 i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] wurde dein [bno_slave|E]" # AI Tags
 they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] wurde [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+
+i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] wird dein [bno_cum_slave|E], gebunden durch Samen und Loyalität zu Ihnen allein." # AI Tags
+they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] wird [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], durch Sperma und Hingabe versklavt." # AI Tags
+
+i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] wurde dein [bno_cum_slave|E], ihre Lippen und ihre Gebärmutter, versiegelt mit deinem Samen für immer." # AI Tags
+they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] wurde [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], im Besitz seines Schwanzes und an seinem Sperma angekettet." # AI Tags

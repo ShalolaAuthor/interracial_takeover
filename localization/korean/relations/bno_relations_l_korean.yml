@@ -3,3 +3,15 @@
 bno_slave: "[bno_slave|E]" # AI Tags
 relation_bno_slave: "BBC 노예" # AI Tags
 relation_bno_slave_possessive: "BBC의 노예" # AI Tags
+
+bno_slave_owner: "[bno_slave_owner|E]" # AI Tags
+relation_bno_slave_owner: "노예 소유자" # AI Tags
+relation_bno_slave_owner_possessive: "노예 소유자" # AI Tags
+
+bno_cum_slave: "[bno_cum_slave|E]" # AI Tags
+relation_bno_cum_slave: "콤 스라브" # AI Tags
+relation_bno_cum_slave_possessive: "스라브의" # AI Tags
+
+bno_cum_slave_owner: "[bno_bull|E]" # AI Tags
+relation_bno_cum_slave_owner: "황소" # AI Tags
+relation_bno_cum_slave_owner_possessive: "툴의" # AI Tags

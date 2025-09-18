@@ -3,3 +3,15 @@
 bno_slave: "[bno_slave|E]" # AI Tags
 relation_bno_slave: "BBC раб" # AI Tags
 relation_bno_slave_possessive: "Слуга Би-би-си" # AI Tags
+
+bno_slave_owner: "[bno_slave_owner|E]" # AI Tags
+relation_bno_slave_owner: "Владелец раба" # AI Tags
+relation_bno_slave_owner_possessive: "Владельца раба" # AI Tags
+
+bno_cum_slave: "[bno_cum_slave|E]" # AI Tags
+relation_bno_cum_slave: "Как раб" # AI Tags
+relation_bno_cum_slave_possessive: "Как раб" # AI Tags
+
+bno_cum_slave_owner: "[bno_bull|E]" # AI Tags
+relation_bno_cum_slave_owner: "Бык" # AI Tags
+relation_bno_cum_slave_owner_possessive: "Быка" # AI Tags

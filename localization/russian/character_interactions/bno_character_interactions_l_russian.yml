@@ -1,7 +1,12 @@
 ﻿l_russian:
 
-bno_bbc_cum_addiction_interaction: "Увлечение Би-би-си" # AI Tags
-bno_bbc_cum_addiction_interaction_desc: "Используй свой шар для соблазнения [recipient.GetHerHim]." # AI Tags
+bno_bbc_cum_addiction_interaction: "Привыкание к наркотикам" # AI Tags
+bno_bbc_cum_addiction_interaction.desc: "Начните коррупцию [recipient.GetFirstNameNoTooltip]- Нет , нет . Не словами, не очарованием, а семенами…притягивай ее на колени и заставь ее губы вспомнить, что может дать только ее Бык." # AI Tags
+bno_bbc_cum_addiction_interaction.send_name: "Накорми ее своей женой" # AI Tags
+bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] Как началась зависимость" # AI Tags
+bno_bbc_cum_addiction_interaction.tooltip: "Вы начали связывать [recipient.GetFirstNameNoTooltip] к тебе через семя. Каждая встреча ослабит ее волю и углубит ее жажду, пока она не сможет жить без твоего спермы." # AI Tags
+bno_bbc_cum_addiction_interaction.already_training: "Ты уже привязываешь шлюху к своему семени. Бык должен сосредоточить свое господство на одном за другим, пока ее воля не будет нарушена и она не будет преобразована в твою [bno_cum_slave|E]." # AI Tags
+
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] У него есть что-то вроде [illness|E]" # AI Tags
 bno_cure_disease_interaction.no_priestess: "У вас нет [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] чтобы совершить ритуал." # AI Tags
 bno_cure_disease_interaction.no_priest: "У вас нет [GetCourtPositionType('bno_bbc_priest_court_position').GetName] чтобы совершить ритуал." # AI Tags

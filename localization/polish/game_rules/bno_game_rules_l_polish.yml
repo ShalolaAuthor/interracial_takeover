@@ -129,3 +129,11 @@ setting_bno_great_replacement_converting: "Konwersja hrabstwa" # AI Tags
 setting_bno_great_replacement_converting_desc: "W przypadku [bno_bbc|E] albo jego blady broodmare wychyla hrabstwo do ich woli, zmiana przebiega głęboko. Stara kultura zostaje usunięta, zastąpiona afrykańskimi korzeniami ciemnymi językami, ciemniejszą krew, ziemią odtworzoną na obraz swojego kutasa." # AI Tags
 setting_bno_great_replacement_cultural_acceptance: "Akceptacja kulturowa" # AI Tags
 setting_bno_great_replacement_cultural_acceptance_desc: "Wydarz [bno_bbc|E] Albo jego biała dziwka nie usuwa starych nawyków. Kultury płaczą razem przy 100 akceptacjach, zjednoczone pod czarnym kurczakiem." # AI Tags
+
+rule_bno_xp_gain: "@bnobbc! #X Międzyrasyjne przejęcie:#! Zdobycie doświadczenia" # AI Tags
+setting_bno_xp_gain_low: "Łagodna korupcja" # AI Tags
+setting_bno_xp_gain_low_desc: "Czarny Piesek nie ma czasu. Białe dziwki spadają powoli, smakując pierwsze dotknięcia ruiny, ich narody drżą, gdy BNWO rozprzestrzenia się kroplą po kropli. Korupcja przychodzi jak szept, ale nigdy się nie zatrzymuje." # AI Tags
+setting_bno_xp_gain_med: "Naturalny pochodzenie" # AI Tags
+setting_bno_xp_gain_med_desc: "Tempo przejęcia działa stale, nieustannie. Każda dziwka klęka się wcześniej, każdy dwór się ciemniejszy, każda królestwo odczuwa rozprzestrzenienie cienia. Nie za szybko, nie za wolno, tylko nieuniknione." # AI Tags
+setting_bno_xp_gain_high: "Szybkie obalenie" # AI Tags
+setting_bno_xp_gain_high_desc: "Nie można powstrzymać powodzi. Białe dziwki są zrujnowane w ciągu nocy, sądy spadają w ciągu tygodni, całe narody w ciągu miesięcy. BNWO nie szepcze tu to ryczy, fala piskli i podboju pożerająca mapę." # AI Tags

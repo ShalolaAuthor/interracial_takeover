@@ -5,3 +5,9 @@ they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 되고 [CHARACTER.Ge
 
 i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 당신의 사람이 되었습니다 [bno_slave|E]" # AI Tags
 they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 되었으며 [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+
+i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] 당신의 일이 될 것입니다 [bno_cum_slave|E]오직 당신만을 향한 종족과 충성으로 묶여 있습니다." # AI Tags
+they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] 되고 [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E]콤과 헌신으로 노예가 된 것입니다." # AI Tags
+
+i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] 당신의 사람이 되었습니다 [bno_cum_slave|E], 그녀의 입술과 자궁은 영원히 당신의 씨에 봉인." # AI Tags
+they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] 되었으며 [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E]그의 똥에 의해 소유되고 그의 에 묶여있다." # AI Tags

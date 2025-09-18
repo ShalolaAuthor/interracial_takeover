@@ -175,3 +175,9 @@ bno_seeded_sovereign_desc: "모든 카운티가 검은색으로. 왕좌는 씨�
 
 bno_broodmakers_hand: "제작자의 손" # AI Tags
 bno_broodmakers_hand_desc: "블랙코크의 법칙을 퍼뜨리는 집행자는 바락의 모스크와 창녀들의 울음소리를 피부에 담고 있습니다. 기사들은 더 열심히 싸우고, 레비들은 더 빨리 몰리고, 그들의 지휘는 번식의 리듬과 함께 뛰고 있습니다." # AI Tags
+
+bno_sneak_bbc: "BBC 밀수범"   # AI Tags
+bno_sneak_bbc_desc: "이 캐릭터는 블랙투어를 외국 법원에 몰래 몰아넣고 [bno_bnwo|E] 조용한 경로와 닫힌 문 뒤에. 뇌물, 유혹, 또는 원시적 욕망을 통해, 그들은 어두운 육체의 열망한 메이저 역할을 하며, 힘과 굶주림으로 새로운 홀을 심는다."   # AI Tags
+#Placeholder
+bno_cum_addiction_success: "중독: 시작" # AI Tags
+bno_cum_addiction_success_desc: "당신은 그녀를 유혹하는 데 성공했습니다. 이제 문에 발이 들어갔으니, 그녀의 입에 똥이 들어간다면 어떨까요?" # AI Tags

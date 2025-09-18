@@ -1,7 +1,12 @@
 ﻿l_german:
 
-bno_bbc_cum_addiction_interaction: "BBC-Verführung" # AI Tags
-bno_bbc_cum_addiction_interaction_desc: "Verwenden Sie Ihren Charme zu verführen [recipient.GetHerHim]." # AI Tags
+bno_bbc_cum_addiction_interaction: "Abhängigkeit" # AI Tags
+bno_bbc_cum_addiction_interaction.desc: "Beginnen Sie die Korruption von [recipient.GetFirstNameNoTooltip]… Nicht mit Worten, nicht mit Reizen, sondern mit Samen – ziehen Sie sie auf die Knie und lassen ihre Lippen sich erinnern, was nur ihr Bulle geben kann." # AI Tags
+bno_bbc_cum_addiction_interaction.send_name: "füttern sie Ihr cum" # AI Tags
+bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] Cum Sucht hat begonnen" # AI Tags
+bno_bbc_cum_addiction_interaction.tooltip: "Du hast angefangen, dich zu binden [recipient.GetFirstNameNoTooltip] Euch durch Samen. Jede Begegnung wird ihren Willen schwächen und ihr Verlangen vertiefen, bis sie nicht ohne dein Sperma leben kann." # AI Tags
+bno_bbc_cum_addiction_interaction.already_training: "Du fesselst schon eine Schlampe an deinen Samen. Ein Bulle muss seine Dominanz auf eine nach der anderen konzentrieren, bis ihr Wille gebrochen ist und sie wieder in deine [bno_cum_slave|E]." # AI Tags
+
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] hat eine Art von [illness|E]" # AI Tags
 bno_cure_disease_interaction.no_priestess: "Sie haben keine [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] um das Ritual durchzuführen." # AI Tags
 bno_cure_disease_interaction.no_priest: "Sie haben keine [GetCourtPositionType('bno_bbc_priest_court_position').GetName] um das Ritual durchzuführen." # AI Tags

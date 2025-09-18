@@ -1,7 +1,12 @@
 ﻿l_french:
 
-bno_bbc_cum_addiction_interaction: "La séduction de la BBC" # AI Tags
-bno_bbc_cum_addiction_interaction_desc: "Utilisez votre charme pour séduire [recipient.GetHerHim]." # AI Tags
+bno_bbc_cum_addiction_interaction: "Toxicomanie" # AI Tags
+bno_bbc_cum_addiction_interaction.desc: "Commencer la corruption de [recipient.GetFirstNameNoTooltip]C'est vrai. Pas avec des mots, pas avec des charmes, mais avec de la semence, tirez-la à genoux et faites que ses lèvres se souviennent de ce que seul son Taureau peut donner." # AI Tags
+bno_bbc_cum_addiction_interaction.send_name: "Nourrissez-lui votre sperme" # AI Tags
+bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] La toxicomanie comique a commencé" # AI Tags
+bno_bbc_cum_addiction_interaction.tooltip: "Vous avez commencé à vous lier [recipient.GetFirstNameNoTooltip] à vous par l'intermédiaire de la semence. Chaque rencontre affaiblira sa volonté et approfondira son désir, jusqu'à ce qu'elle ne puisse vivre sans votre sperme." # AI Tags
+bno_bbc_cum_addiction_interaction.already_training: "Tu lies déjà une salope à ta graine. Un Taureau doit concentrer sa domination sur un à la fois jusqu'à ce qu'elle soit brisée et qu'elle soit refaite dans votre [bno_cum_slave|E]." # AI Tags
+
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] a une sorte de [illness|E]" # AI Tags
 bno_cure_disease_interaction.no_priestess: "Vous n'avez pas de [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] pour accomplir le rituel." # AI Tags
 bno_cure_disease_interaction.no_priest: "Vous n'avez pas de [GetCourtPositionType('bno_bbc_priest_court_position').GetName] pour accomplir le rituel." # AI Tags

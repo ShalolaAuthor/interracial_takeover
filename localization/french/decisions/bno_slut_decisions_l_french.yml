@@ -66,67 +66,68 @@ bno_cure_disease.tooltip.female: "Bénissez-moi avec votre sperme." # AI Tags
 bno_cure_diseases.own.sickness: "Vous êtes malade." # AI Tags
 bno_cure_disease.employing_bbc_priestess: "Vous avez travaillé [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
 bno_cure_diseases.second_step_button: "S'il vous plaît, guérissez-moi." # AI Tags
-bno_cure_diseases.lovers_pox: "Vous êtes délicieusement marqué par [GetTrait('lovers_pox').GetName( GetNullCharacter )], un souvenir sordide des nuits qui poussent encore dans vos veines." # AI Tags
+bno_cure_diseases.lovers_pox: "Marqué par [GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.ill: "Faibles avec [GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.pneumonic: "Étouffement sous [GetTrait('pneumonic').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.great_pox: "Effrayé par [GetTrait('great_pox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.early_great_pox: "Frais avec [GetTrait('early_great_pox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.leper: "Fuyé comme [GetTrait('leper').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.gout_ridden: "Crampons par [GetTrait('gout_ridden').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.consumption: "Fragile de [GetTrait('consumption').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.cancer: "Faibles avec [GetTrait('cancer').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.typhus: "Brûlure avec [GetTrait('typhus').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.bubonic_plague: "Mourir de [GetTrait('bubonic_plague').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.smallpox: "Speckled par [GetTrait('smallpox').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.measles: "Glissé avec [GetTrait('measles').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.dysentery: "Drainé par [GetTrait('dysentery').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.ergotism: "Secoué par [GetTrait('ergotism').GetName( GetNullCharacter )]" # AI Tags
+bno_cure_diseases.sickly: "Délicate avec [GetTrait('sickly').GetName( GetNullCharacter )]" # AI Tags
+
 bno_cure_diseases.lovers_pox.desc: "Une éruption de mémoire et de bouche tentante, [GetTrait('lovers_pox').GetName( GetNullCharacter )] tourbillonne sur votre peau comme l'arrière-souffle de baisers trop humides et de broyage sans honte." # AI Tags
 cure_lovers_pox_tooltip: "S'il vous plaît, purifiez-moi de mes méchants [GetTrait('lovers_pox').GetName( GetNullCharacter )] pour que je pèche à nouveau avec une peau fraîche et affamée." # AI Tags
 
-bno_cure_diseases.ill: "Vous êtes [GetTrait('ill').GetName( GetNullCharacter )], léché de fièvre et dans le besoin, chaque souffle un doux souffle pour les mains tendres." # AI Tags
 bno_cure_diseases.ill.desc: "Une brume chauffée de maux et de frissons vous enveloppe; ceci [GetTrait('ill').GetName( GetNullCharacter )] rend les couvertures et les corps chauds tout aussi irrésistibles." # AI Tags
 cure_ill_tooltip: "S'il te plaît, nourris-moi [GetTrait('ill').GetName( GetNullCharacter )]afin que je puisse dépenser ma force dans des efforts plus doux." # AI Tags
 
-bno_cure_diseases.pneumonic: "Vous êtes affligé par [GetTrait('pneumonic').GetName( GetNullCharacter )], le gonflement de la poitrine et les lèvres se sont séparés, chaque toux une bouche qui demande un toucher soigneux." # AI Tags
 bno_cure_diseases.pneumonic.desc: "Les poumons chauds et les côtes tremblantes, [GetTrait('pneumonic').GetName( GetNullCharacter )] vole la respiration et vous laisse à désirer les coups lents et les mains stabilisées." # AI Tags
 cure_pneumonic_tooltip: "S'il te plaît, chasse-moi [GetTrait('pneumonic').GetName( GetNullCharacter )] pour que mes soupirs soient pour le plaisir, pas pour la douleur." # AI Tags
 
-bno_cure_diseases.great_pox: "Vous êtes marqué par [GetTrait('great_pox').GetName( GetNullCharacter )], une malédiction charnelle qui se souvient de chaque indulgence de minuit." # AI Tags
 bno_cure_diseases.great_pox.desc: "Les souillures du besoin, les cicatrices du péché; [GetTrait('great_pox').GetName( GetNullCharacter )] C'est les commérages du corps sur ce que tu as fait quand les bougies gorgées bas." # AI Tags
 cure_great_pox_tooltip: "S'il vous plaît purgez mon [GetTrait('great_pox').GetName( GetNullCharacter )] donc ma peau est encore une invitation douce." # AI Tags
 
-bno_cure_diseases.early_great_pox: "Vous êtes en train de vous ennuyer [GetTrait('early_great_pox').GetName( GetNullCharacter )], une chaleur chuchotante du plaisir récent et imprudent." # AI Tags
 bno_cure_diseases.early_great_pox.desc: "Les plaies et les sensations secrètes; [GetTrait('early_great_pox').GetName( GetNullCharacter )] C'est comme un gémissement dans vos nerfs." # AI Tags
 cure_early_great_pox_tooltip: "S'il vous plaît, lavez-moi mon [GetTrait('early_great_pox').GetName( GetNullCharacter )] avant que les murmures ne deviennent des cicatrices." # AI Tags
 
-bno_cure_diseases.leper: "Vous êtes affligé par [GetTrait('leper').GetName( GetNullCharacter )], une chasse au toucher solitaire qui fait mal sous les bandages." # AI Tags
 bno_cure_diseases.leper.desc: "La distance devient une punition; avec [GetTrait('leper').GetName( GetNullCharacter )] même une caresse gantée se sent interdite, et le cœur bat pour ce qu'il ne peut pas avoir." # AI Tags
 cure_leper_tooltip: "S'il vous plaît, débarrassez-moi de mon [GetTrait('leper').GetName( GetNullCharacter )] Donc les lèvres et les mains n'ont pas besoin de me craindre." # AI Tags
 
-bno_cure_diseases.gout_ridden: "Vous êtes affligé par [GetTrait('gout_ridden').GetName( GetNullCharacter )], vos articulations sont chaudes et battent comme un pouls trop têtu pour se taire." # AI Tags
 bno_cure_diseases.gout_ridden.desc: "Chaque étape est un treuil, chacun est assis un broyage; [GetTrait('gout_ridden').GetName( GetNullCharacter )] exige que vous soyez manipulé, pas pressé." # AI Tags
 cure_gout_ridden_tooltip: "S'il vous plaît, calmez-vous [GetTrait('gout_ridden').GetName( GetNullCharacter )] pour que mes hanches puissent rouler pour les bonnes raisons." # AI Tags
 
-bno_cure_diseases.consumption: "Tu es embrassée par [GetTrait('consumption').GetName( GetNullCharacter )], une fleur pâle qui rend chaque inhalation fragile, belle douleur." # AI Tags
 bno_cure_diseases.consumption.desc: "la peau de cire, les yeux brillants et la chaleur qui brûle lentement; [GetTrait('consumption').GetName( GetNullCharacter )] transforme le repos en désir de languissement." # AI Tags
 cure_consumption_tooltip: "Je vous en prie, sortez de là [GetTrait('consumption').GetName( GetNullCharacter )] donc mon souffle revient comme des soupirs chauds et réguliers." # AI Tags
 
-bno_cure_diseases.cancer: "Vous êtes affligé par [GetTrait('cancer').GetName( GetNullCharacter )], un ronflement profond et secret qui diminue la lueur de vos plaisirs." # AI Tags
 bno_cure_diseases.cancer.desc: "Une ombre dans la chair, [GetTrait('cancer').GetName( GetNullCharacter )] vole la force et la couleur, mais laisse la faim à tenir." # AI Tags
 cure_cancer_tooltip: "S'il vous plaît défaire mon [GetTrait('cancer').GetName( GetNullCharacter )] pour que la vie puisse goûter riche et mûre à nouveau." # AI Tags
 
-bno_cure_diseases.typhus: "Tu es enflammée par [GetTrait('typhus').GetName( GetNullCharacter )], peau transpirée et murmures délirants s'accrochent à votre oreiller." # AI Tags
 bno_cure_diseases.typhus.desc: "Une fièvre qui vous déshabille par la chaleur seule; [GetTrait('typhus').GetName( GetNullCharacter )] brouille le monde en nappes humides et en rêves de fièvre." # AI Tags
 cure_typhus_tooltip: "S'il vous plaît bannir mon [GetTrait('typhus').GetName( GetNullCharacter )] donc ma sueur est gagnée dans un travail plus doux." # AI Tags
 
-bno_cure_diseases.bubonic_plague: "Vous êtes saisi par [GetTrait('bubonic_plague').GetName( GetNullCharacter )], gonflements sombres et nuits plus sombres, un rappel brutal de la façon dont la peau peut être mortelle." # AI Tags
 bno_cure_diseases.bubonic_plague.desc: "Le corps meurt comme un fruit mordu; avec [GetTrait('bubonic_plague').GetName( GetNullCharacter )] même le désir se tourne vers la prière pour une autre étreinte chaude." # AI Tags
 cure_bubonic_plague_tooltip: "S'il te plaît, lève-moi [GetTrait('bubonic_plague').GetName( GetNullCharacter )] Le toucher peut donc être un plaisir, pas des adieux." # AI Tags
 
-bno_cure_diseases.smallpox: "Vous êtes tacheté par [GetTrait('smallpox').GetName( GetNullCharacter )], une constellation sur votre peau qui brûle comme des baisers trop nombreux à la fois." # AI Tags
 bno_cure_diseases.smallpox.desc: "Etoiles étoilées, nuits fiévrées; [GetTrait('smallpox').GetName( GetNullCharacter )] redessine tes constellations et supplie d'être apaisé." # AI Tags
 cure_smallpox_tooltip: "S'il vous plaît, épargnez-moi mon [GetTrait('smallpox').GetName( GetNullCharacter )] pour que ma peau soit à nouveau une invitation lisse." # AI Tags
 
-bno_cure_diseases.measles: "Vous êtes bouffée de bouffées de chaleur [GetTrait('measles').GetName( GetNullCharacter )], un blush éclatant sur vous comme l'embarras après le délice méchant." # AI Tags
 bno_cure_diseases.measles.desc: "La chaleur tachetée et le besoin de démangeaisons; [GetTrait('measles').GetName( GetNullCharacter )] c'est faire preuve de retenue et de patience pour plaider." # AI Tags
 cure_measles_tooltip: "S'il vous plaît calmez mon [GetTrait('measles').GetName( GetNullCharacter )] pour que je puisse être frappé sans égratignure." # AI Tags
 
-bno_cure_diseases.dysentery: "Vous êtes pris par [GetTrait('dysentery').GetName( GetNullCharacter )], un cri cruel qui vous vide de tout sauf le désir d'être réconforté." # AI Tags
 bno_cure_diseases.dysentery.desc: "les vagues de crampage et les membres usés; [GetTrait('dysentery').GetName( GetNullCharacter )] rend la mendicité la plus forte pour les gorgées douces et les nuits plus douces." # AI Tags
 cure_dysentery_tooltip: "S'il vous plaît, finissez mes [GetTrait('dysentery').GetName( GetNullCharacter )] pour que mon corps puisse se régaler et se froisser." # AI Tags
 
-bno_cure_diseases.ergotism: "Vous êtes saisi par [GetTrait('ergotism').GetName( GetNullCharacter )], fourmillements dans les doigts et les orteils, visions qui oscillent comme des hanches dans la torche." # AI Tags
 bno_cure_diseases.ergotism.desc: "Pins, étincelles et rêves étranges; [GetTrait('ergotism').GetName( GetNullCharacter )] transforme le monde en une danse vertigineuse que tu ne voulais pas commencer." # AI Tags
 cure_ergotism_tooltip: "S'il vous plaît, relâchez-moi de mon [GetTrait('ergotism').GetName( GetNullCharacter )] pour que je puisse choisir mes intoxications." # AI Tags
 
-bno_cure_diseases.sickly: "Vous êtes [GetTrait('sickly').GetName( GetNullCharacter )], délicate comme dentelle et deux fois plus tentante de déchirer soigneusement à l'écart." # AI Tags
 bno_cure_diseases.sickly.desc: "Faiblesse évasée et siestes aux chandelles; [GetTrait('sickly').GetName( GetNullCharacter )] vous rend impatients de prendre soin avec des mains chaudes et de la patience." # AI Tags
 cure_sickly_tooltip: "S'il vous plaît guérir mon [GetTrait('sickly').GetName( GetNullCharacter )] pour que mon corps puisse se réveiller sans réserve." # AI Tags
 
@@ -146,3 +147,9 @@ bno_primal_insight_decision.confirm.male: "Alors, prêtresse, communiquons." # A
 bno_primal_insight_decision.tooltip.male: "Vous aurez [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
 bull_decision.effect: "Masseux [stress|E] perte." # AI Tags
+bno_events00.too_much_bbc: "Votre cour déborde déjà de [bno_bbcs|E]C'est vrai. Même une salle de Bull's a ses limites." # AI Tags
+bno_invite_slut_decision.too_much_white_girl: "Votre cour grouille déjà de salopes pâles. D'autant plus qu'ils en coûteraient la valeur et qu'ils vous mettent à l'épreuve." # AI Tags
+bno_events00.too_little_bbc: "Votre salle est vide de [bno_bbcs|E]C'est vrai. Avec moins de trois taureaux, votre cour manque de la force – et de la tentation – qui suit leur présence. Invitez-les à entrer, et laissez leur ombre tomber dans votre royaume." # AI Tags
+bno_invite_slut_decision.too_little_white_girl: "Votre cour est mince de petites salopes pâles. Il faut en inviter d'autres, pour chaque salle qui gonfle au pouvoir – et au péril – lorsque des putes blanches sont rassemblées sous un même toit." # AI Tags
+
+bno_becoming_bbc_slut.has_bbc_in_court: "Il doit y en avoir au moins une [bno_bbc|E] dans votre cour pour commencer cette voie. Sans un taureau pour vous réclamer, votre chute dans l'esclavage ne peut pas commencer." # AI Tags

@@ -3,3 +3,15 @@
 bno_slave: "[bno_slave|E]" # AI Tags
 relation_bno_slave: "BBC 奴隶" # AI Tags
 relation_bno_slave_possessive: "BBC的奴隶" # AI Tags
+
+bno_slave_owner: "[bno_slave_owner|E]" # AI Tags
+relation_bno_slave_owner: "奴隶所有者" # AI Tags
+relation_bno_slave_owner_possessive: "奴隶所有者协会" # AI Tags
+
+bno_cum_slave: "[bno_cum_slave|E]" # AI Tags
+relation_bno_cum_slave: "炼奴奴隶" # AI Tags
+relation_bno_cum_slave_possessive: "诅咒奴隶组织" # AI Tags
+
+bno_cum_slave_owner: "[bno_bull|E]" # AI Tags
+relation_bno_cum_slave_owner: "公牛" # AI Tags
+relation_bno_cum_slave_owner_possessive: "公牛" # AI Tags

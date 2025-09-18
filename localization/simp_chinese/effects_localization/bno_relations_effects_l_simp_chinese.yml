@@ -5,3 +5,9 @@ they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为 [CHARACTER.Ge
 
 i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为你的 [bno_slave|E]" # AI Tags
 they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为 [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+
+i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为你的 [bno_cum_slave|E]被种子和对你的忠诚束缚着." # AI Tags
+they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为 [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E]被精疲力尽和奉献所奴役." # AI Tags
+
+i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为你的 [bno_cum_slave|E]她的嘴唇和子宫 封在你的种子 永远。." # AI Tags
+they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为 [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E]由他的老二拥有 并被绑在精液上." # AI Tags

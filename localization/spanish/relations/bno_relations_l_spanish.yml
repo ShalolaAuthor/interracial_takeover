@@ -3,3 +3,15 @@
 bno_slave: "[bno_slave|E]" # AI Tags
 relation_bno_slave: "Esclavo de la BBC" # AI Tags
 relation_bno_slave_possessive: "Esclavo de la BBC" # AI Tags
+
+bno_slave_owner: "[bno_slave_owner|E]" # AI Tags
+relation_bno_slave_owner: "Propietario de esclavos" # AI Tags
+relation_bno_slave_owner_possessive: "Esclavo propietario" # AI Tags
+
+bno_cum_slave: "[bno_cum_slave|E]" # AI Tags
+relation_bno_cum_slave: "Como esclavo" # AI Tags
+relation_bno_cum_slave_possessive: "Como el esclavo" # AI Tags
+
+bno_cum_slave_owner: "[bno_bull|E]" # AI Tags
+relation_bno_cum_slave_owner: "El toro" # AI Tags
+relation_bno_cum_slave_owner_possessive: "El de Toro" # AI Tags

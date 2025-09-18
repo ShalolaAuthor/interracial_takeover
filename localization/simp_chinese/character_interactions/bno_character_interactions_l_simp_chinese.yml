@@ -1,7 +1,12 @@
 ﻿l_simp_chinese:
 
 bno_bbc_cum_addiction_interaction: "BBC勾引"
-bno_bbc_cum_addiction_interaction_desc: "使用你的魅力来勾引[recipient.GetHerHim]."
+bno_bbc_cum_addiction_interaction.desc: "开始腐败 [recipient.GetFirstNameNoTooltip]. . 不是用言语,不是用符咒,而是用种子把她拖到她的膝盖上,让她的嘴唇记住只有她的公牛能给什么。." # AI Tags
+bno_bbc_cum_addiction_interaction.send_name: "喂她吃你的精液" # AI Tags
+bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] 毒瘾已经开始了" # AI Tags
+bno_bbc_cum_addiction_interaction.tooltip: "您已经开始具有约束力 [recipient.GetFirstNameNoTooltip] 借种子而为你们报答。. 每一次相遇都会削弱她的意志 加深她的渴望 直到她没有你的魅力无法生存." # AI Tags
+bno_bbc_cum_addiction_interaction.already_training: "你已经把荡妇绑在种子上了. 公牛必须一时一时专一控制 直至她的意愿被打破 [bno_cum_slave|E]." # AI Tags
+
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName]患有某种[illness|E]"
 bno_cure_disease_interaction.no_priestess: "你没有[GetCourtPositionType('bno_bbc_priestess_court_position').GetName]来举行仪式。"
 bno_cure_disease_interaction.no_priest: "你没有[GetCourtPositionType('bno_bbc_priest_court_position').GetName]来举行仪式。"

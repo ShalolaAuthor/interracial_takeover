@@ -1,19 +1,17 @@
 ﻿l_russian:
 #sneak bbc interaction
- sneak_bbc: "Вытащить чёрного студа в иностранный суд" # AI Tags
- sneak_bbc_desc: "Переместить один из [bno_bbcs|E] от моего дворца до дворца избранного правителя." # AI Tags
- actor_secondary_sneak_bbc: "Выберите быка, чтобы подкрасться" # AI Tags
- BBC_cg_spy_reason: "Есть придворный или гость, который поможет прокрасть [bno_bbc|E]: #color_green +5#!" # AI Tags
- BBC_family_spy_reason: "Есть член семьи , который поможет прокрасть [bno_bbc|E]: #color_green +10#!"  # AI Tags
- BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! Интересно [bno_bbc|E]: #color_green +10#!"  # AI Tags
- BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! Он был трахнут [bno_bbc|E]: #color_green +25#!"  # AI Tags
- BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! влюблен в [bno_bbc|E]: #color_green +50#!"  # AI Tags
- BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! Добро пожаловать [bno_bbc|E]: #color_green +50#!"  # AI Tags
-#chastity interaction
- bno_chastity_interaction: "Придерживайтесь чистоты" # AI Tags
- bno_chastity_interaction_desc: "Обеспечьте целомудренность [recipient.GetShortUINameNoTooltip]" # AI Tags
- bno_castration_interaction: "Вырви ему яйца" # AI Tags
- bno_castration_interaction_desc: "Полностью кастрированный [recipient.GetShortUINameNoTooltip]" # AI Tags
+sneak_bbc: "Утащить черного быка" # AI Tags
+sneak_bbc_desc: "Пошлите одного из [bno_bbcs|E] Из вашего двора в зал другого правителя."   # AI Tags
+actor_secondary_sneak_bbc: "Выберите то, что бык отправить" # AI Tags
+BBC_cg_spy_reason: "Дворник или гость поможет проникнуть [bno_bbc|E]: #color_green +5#!"   # AI Tags
+BBC_family_spy_reason: "Член семьи поможет прокрасть [bno_bbc|E]: #color_green +10#!"   # AI Tags
+BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! Интересно [bno_bbc|E]: #color_green +10#!"   # AI Tags
+BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! была принята [bno_bbc|E]: #color_green +25#!"   # AI Tags
+BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! богослужения [bno_bbc|E]: #color_green +50#!"   # AI Tags
+BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! открыто приветствует [bno_bbc|E]: #color_green +50#!"   # AI Tags
+sneak_bbc.has_bbc_in_court: "У тебя должно быть по крайней мере две [bno_bbc|E] В вашем дворе, чтобы отправить одного."   # AI Tags
+sneak_bbc.already_has_bbc_in_court: "Эти шлюхи уже заполнены быками. Не нужно отправлять еще одного."   # AI Tags
+sneak_bbc.not_enough_of_a_slut: "Ты еще не достаточно шлюха. Только истинный [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] Или, что еще хуже, осмелится контрабандой быков между судами."   # AI Tags
 #influence child interaction
- bno_influence_child: "Поощряйте любопытство" # AI Tags
- bno_influence_child_desc: "Вдохновляйте ребенка на истину" # AI Tags
+bno_influence_child: "Поощряйте любопытство" # AI Tags
+bno_influence_child_desc: "Вдохновляйте ребенка на истину" # AI Tags

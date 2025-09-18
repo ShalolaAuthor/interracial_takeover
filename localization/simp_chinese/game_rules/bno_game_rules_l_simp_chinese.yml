@@ -129,3 +129,11 @@ setting_bno_great_replacement_converting: "县改划" # AI Tags
 setting_bno_great_replacement_converting_desc: "当 a [bno_bbc|E] 或他苍白的胸腺 弯曲一个郡 听从他们的意愿, 变化是深的。. 旧文化被抹去,代之以非洲根源——暗舌、更深的血液、用老二的形象重新造就的土地。." # AI Tags
 setting_bno_great_replacement_cultural_acceptance: "文化接受" # AI Tags
 setting_bno_great_replacement_cultural_acceptance_desc: "缩略 [bno_bbc|E] 或他的白人荡妇不会抹去旧路,. 文化在100人接受时一起呻吟 团结在黑鸡下面." # AI Tags
+
+rule_bno_xp_gain: "@bnobbc! #X 跨种族接替:#! 所得经验" # AI Tags
+setting_bno_xp_gain_low: "轻廉腐败" # AI Tags
+setting_bno_xp_gain_low_desc: "黑鸡需要时间. 白人荡妇慢慢地倒下, 享受着第一批的废墟, 他们的国家在BNWO蔓延时颤抖。. 腐败就像耳语,但却永不停息。." # AI Tags
+setting_bno_xp_gain_med: "自然血统" # AI Tags
+setting_bno_xp_gain_med_desc: "接管的速度是稳步的 无情的. 每一个荡妇早点跪下 每一个宫廷越黑 每一个王国都感受到阴影的蔓延. 不要太快,不要太慢,只是不可避免。." # AI Tags
+setting_bno_xp_gain_high: "快速覆被" # AI Tags
+setting_bno_xp_gain_high_desc: "洪水无法阻止。. 白荡妇一夜之间就被毁了,法院几周就倒塌,整个国家几个月就停了下来。. BNWO在这里不低语——它咆哮,一股公鸡和征服的浪潮吞噬了地图。." # AI Tags

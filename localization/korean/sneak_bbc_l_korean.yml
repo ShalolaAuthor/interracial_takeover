@@ -1,19 +1,17 @@
 ﻿l_korean:
 #sneak bbc interaction
- sneak_bbc: "흑자를 외국 법원에 몰아넣어" # AI Tags
- sneak_bbc_desc: "이 중 하나를 이동 [bno_bbcs|E] 제 궁전에서 선택된 통치자의 궁전까지." # AI Tags
- actor_secondary_sneak_bbc: "스카이프하기 위해 황소를 선택하라" # AI Tags
- BBC_cg_spy_reason: "관장이나 손님이 있는데 [bno_bbc|E]: #color_green +5#!" # AI Tags
- BBC_family_spy_reason: "우리 가족 중 한 명이 있습니다 [bno_bbc|E]: #color_green +10#!"  # AI Tags
- BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! 의외로 [bno_bbc|E]: #color_green +10#!"  # AI Tags
- BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! 젠장 젠장 젠장 젠장 젠장 젠장 젠장 젠장 젠장 젠장 젠장 젠장 젠장 [bno_bbc|E]: #color_green +25#!"  # AI Tags
- BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! 사랑에 빠진 [bno_bbc|E]: #color_green +50#!"  # AI Tags
- BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! 환영합니다 [bno_bbc|E]: #color_green +50#!"  # AI Tags
-#chastity interaction
- bno_chastity_interaction: "순결 을 행하라" # AI Tags
- bno_chastity_interaction_desc: "청결 함 을 베풀어 주는 것 [recipient.GetShortUINameNoTooltip]" # AI Tags
- bno_castration_interaction: "그의 공을 벗겨라" # AI Tags
- bno_castration_interaction_desc: "완전 캐스트레이트 [recipient.GetShortUINameNoTooltip]" # AI Tags
+sneak_bbc: "검은 황소를 속임수" # AI Tags
+sneak_bbc_desc: "그 중 하나를 보내 [bno_bbcs|E] 당신의 궁전에서 다른 통치자의 방으로."   # AI Tags
+actor_secondary_sneak_bbc: "어떤 소를 보낼지 선택해" # AI Tags
+BBC_cg_spy_reason: "궁정관이나 손님들이 도움을 주면 [bno_bbc|E]: #color_green +5#!"   # AI Tags
+BBC_family_spy_reason: "가족 구성원이 도움을 줄 것입니다 [bno_bbc|E]: #color_green +10#!"   # AI Tags
+BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! 의외로 [bno_bbc|E]: #color_green +10#!"   # AI Tags
+BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! 본 조항은 [bno_bbc|E]: #color_green +25#!"   # AI Tags
+BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! 예배 [bno_bbc|E]: #color_green +50#!"   # AI Tags
+BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! 공개적으로 환영합니다 [bno_bbc|E]: #color_green +50#!"   # AI Tags
+sneak_bbc.has_bbc_in_court: "적어도 두 개가 있어야 합니다 [bno_bbc|E] 당신의 법정에서 한 명을 보내도록."   # AI Tags
+sneak_bbc.already_has_bbc_in_court: "그 법원의 창녀들은 이미 툴스에 의해 채워져 있어 또 다른 사람을 보내지 않아도 된다."   # AI Tags
+sneak_bbc.not_enough_of_a_slut: "넌 아직 좆같은 거 아냐. 오직 진실한 [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] 아니면 더 나쁜 것은 법원들 사이에 황소들을 밀입할 용기가 있을 겁니다."   # AI Tags
 #influence child interaction
- bno_influence_child: "호기심을 키우기" # AI Tags
- bno_influence_child_desc: "자녀 에게 진리 에 영향력 을 끼치" # AI Tags
+bno_influence_child: "호기심을 키우기" # AI Tags
+bno_influence_child_desc: "자녀 에게 진리 에 영향력 을 끼치" # AI Tags
