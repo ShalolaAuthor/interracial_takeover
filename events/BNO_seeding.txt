@@ -125,33 +125,7 @@ bno_trait_seeding.0004 = {
 bno_trait_seeding.0005 = {
 	hidden = yes
 	immediate = {
-		if = {
-			limit = {
-				NOT = { has_character_flag = bno_body_traits_seeded }
-				has_character_flag = carn_dt_traits_seeded
-			}
-			add_character_flag = bno_body_traits_seeded
-			if = {
-				limit = {
-					is_female = yes
-				}
-				bno_lottery_tits_size = yes
-			}
-			if = {
-				limit = {
-					is_a_male = yes
-					is_bbc = no
-				}
-				bno_lottery_dick_size = yes
-			}
-			if = {
-				limit = {
-					is_a_male = yes
-					is_bbc = yes
-				}
-				bno_make_bbc_has_big_dick = yes
-			}
-		}
+		bno_seed_body_trait = yes
 		trigger_event = bno_trait_seeding.0006
 	}
 }

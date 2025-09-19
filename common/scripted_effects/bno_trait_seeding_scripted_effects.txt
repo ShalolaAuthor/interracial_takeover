@@ -160,3 +160,112 @@ bno_seed_breast_size_variable = {
         }
     }
 }
+
+### Determine Child Body Traits
+
+bno_seed_body_trait = {
+    save_scope_as = bno_trait_seeder
+    if = {
+		limit = {
+			NOT = { has_character_flag = bno_body_traits_seeded }
+			has_character_flag = carn_dt_traits_seeded
+		}
+		add_character_flag = bno_body_traits_seeded
+		if = {
+			limit = {
+				is_female = yes
+                NOT = { exists = mother }
+			}
+			bno_lottery_tits_size = yes
+		}
+        else_if = {
+            limit = {
+                is_female = yes
+                exists = mother
+            }
+            mother = {
+                bno_get_body_part_trait_depending_on_father_or_mother = {
+                    BODY_PART = tits
+                }
+            }
+        }
+		if = {
+			limit = {
+				is_a_male = yes
+				is_bbc = no
+                NOT = { exists = father }
+			}
+			bno_lottery_dick_size = yes
+        }
+		else_if = {
+            limit = {
+                is_a_male = yes
+                is_bbc = no
+                exists = father
+            }
+            father = {
+                bno_get_body_part_trait_depending_on_father_or_mother = {
+                    BODY_PART = dick
+                }
+            }
+        }
+		if = {
+			limit = {
+				is_a_male = yes
+				is_bbc = yes
+			}
+			bno_make_bbc_has_big_dick = yes
+		}
+	}
+}
+
+bno_get_body_part_trait_depending_on_father_or_mother = {
+    switch = {
+        trigger = has_trait
+        $BODY_PART$_small_bad_3 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = $BODY_PART$_small_bad_3 }
+                    1 = { add_trait = $BODY_PART$_small_bad_2 }
+                }
+            }
+        }
+        $BODY_PART$_small_bad_2 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = $BODY_PART$_small_bad_2 }
+                    1 = { add_trait = $BODY_PART$_small_bad_1 }
+                }
+            }
+        }
+        $BODY_PART$_small_bad_1 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = $BODY_PART$_small_bad_1 }
+                    1 = { add_trait = $BODY_PART$_big_good_1 }
+                }
+            }
+        }
+        $BODY_PART$_big_good_1 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = $BODY_PART$_big_good_1 }
+                    1 = { add_trait = $BODY_PART$_big_good_2 }
+                }
+            }
+        }
+        $BODY_PART$_big_good_2 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = $BODY_PART$_big_good_2 }
+                    1 = { add_trait = $BODY_PART$_big_good_3 }
+                }
+            }
+        }
+        $BODY_PART$_big_good_3 = {
+            scope:bno_trait_seeder = {
+                add_trait = $BODY_PART$_big_good_3
+            }
+        }
+    }
+}
