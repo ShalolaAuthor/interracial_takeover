@@ -405,6 +405,9 @@ bno_caged_effect = {
 			add_trait = bno_caged_futa
 		}
 	}
+	bno_create_artifact_bno_chastity_cage_effect = {
+		CAGER = $CAGER$
+	}
 	add_prestige = -250
 }
 

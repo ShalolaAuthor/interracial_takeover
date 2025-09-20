@@ -20,34 +20,35 @@ carn_on_sex_v2 = {
 	}
 }
 
+bno_after_sex = {
+	on_actions = {
+		bno_on_sex
+	}
+}
+
+bno_court_sex = {
+	events = {
+		bno_court.0001
+	}
+}
+
 bno_on_sex = {
 	trigger = {
 		has_game_rule = bno_mod_status_on
 		trigger_if = {
 			limit = { is_a_girl = yes }
 			has_trait = bno_whitegirl
-			trigger_if = {
-				limit = { scope:carn_sex_partner = { is_a_male = yes is_bbc = yes } }
-				always = yes
-			}
-			trigger_else = {
-				always = no
+			scope:carn_sex_partner = {
+				is_bbc = yes
 			}
 		}
 		trigger_else = {
 			is_bbc = yes
-			trigger_if = {
-				limit = { scope:carn_sex_partner = { is_a_girl = yes } }
-				always = yes
-			}
-			trigger_else = {
-				always = no
-			}
+			scope:carn_sex_partner = { is_a_girl = yes }
 		}
 	}
-	events = {
-		delay = { days = 2 }
-		bno_court.0001
+	on_actions = {
+		bno_court_sex
 	}
 }
 

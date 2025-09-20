@@ -7486,7 +7486,9 @@ bno_random.0048 = {
 	
 	option = {
 		name = bno_random_0048.a
-		bno_caged_effect = yes
+		bno_caged_effect = {
+			CAGER = scope:target1
+		}
 		stress_impact = {
 			lustful = minor_stress_impact_loss
 			ambitious = medium_stress_impact_gain

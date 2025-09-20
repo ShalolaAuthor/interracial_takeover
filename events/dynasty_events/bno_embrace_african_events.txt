@@ -2062,14 +2062,24 @@ bno_embrace_african_5.0007 = {
         name = bno_embrace_african_5.0007.a
         add_courtier = scope:priest
         if = {
-            limit = { can_employ_court_position_type = bno_bbc_priestess_court_position }
+            limit = {
+                scope:priest = {
+                    is_a_girl = yes
+                }
+                can_employ_court_position_type = bno_bbc_priestess_court_position
+            }
             appoint_court_position = {
                 recipient = scope:priest
                 court_position = bno_bbc_priestess_court_position
             }
         }
         else_if = {
-            limit = { can_employ_court_position_type = bno_bbc_priest_court_position }
+            limit = {
+                scope:priest = {
+                    is_a_male = yes
+                }
+                can_employ_court_position_type = bno_bbc_priest_court_position
+            }
             appoint_court_position = {
                 recipient = scope:priest
                 court_position = bno_bbc_priest_court_position

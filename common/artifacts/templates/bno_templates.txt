@@ -1,0 +1,19 @@
+﻿bno_chastity_cage_template = {
+    can_equip = {
+        always = yes
+    }
+    ai_score = {
+        value = 100000
+    }
+    unique = yes
+}
+
+bno_chastity_piercing_template = {
+    can_equip = {
+        always = yes
+    }
+    ai_score = {
+        value = 100000
+    }
+    unique = yes
+}

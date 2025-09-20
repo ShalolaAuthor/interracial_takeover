@@ -1,0 +1,6 @@
+﻿bno_chastity_cage_modifier = {
+    fertility = -100
+    epidemic_resistance = 1
+    stress_gain_mult = -0.1
+    stress_loss_mult = 0.1
+}

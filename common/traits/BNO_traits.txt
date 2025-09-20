@@ -458,6 +458,10 @@ bno_curious = {
 
 	opposites = {
 		bno_bbc
+		bno_mindless_bbc_slut
+		bno_blacked
+		bno_snowbunny
+		bno_qos
 	}
 
 	#Groups
@@ -544,6 +548,10 @@ bno_blacked = {
 	}
 	opposites = {
 		bno_bbc
+		bno_curious
+		bno_mindless_bbc_slut
+		bno_snowbunny
+		bno_qos
 	}
 
 	#Groups
@@ -634,6 +642,10 @@ bno_snowbunny = {
 
 	opposites = {
 		bno_bbc
+		bno_curious
+		bno_blacked
+		bno_mindless_bbc_slut
+		bno_qos
 	}
 
 	#Groups
@@ -733,6 +745,10 @@ bno_qos = {
 
 	opposites = {
 		bno_bbc
+		bno_curious
+		bno_blacked
+		bno_snowbunny
+		bno_mindless_bbc_slut
 	}
 
 	#Groups
@@ -832,6 +848,10 @@ bno_mindless_bbc_slut = {
 
 	opposites = {
 		bno_bbc
+		bno_curious
+		bno_blacked
+		bno_snowbunny
+		bno_qos
 	}
 
 	#Groups

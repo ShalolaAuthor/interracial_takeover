@@ -92,11 +92,7 @@ bno_trait_maintenance_pulse = {
 		has_game_rule = bno_mod_status_on
 	}
 	events = {
-		bno_trait_seeding.0001			#makes sure all bbc chars actually have big dick. event also applied on bbc's 16th bday for redundancy
-		bno_trait_maintenance.0002			#makes all caged characters have tiniest dick
-		bno_trait_maintenance.0003			#castrated characters should obviously not have dick traits
-		bno_trait_maintenance.0004			#make all non bbc male slaves caged if owner is bbc
-		bno_trait_maintenance.0005			#african girls cant have the whitegirl trait
+		bno_trait_maintenance.0001
 	}
 }
 

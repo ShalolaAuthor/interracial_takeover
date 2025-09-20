@@ -536,7 +536,9 @@ bno_slut.0006 = {
 	option = {
 		name = bno_slut_0006.a
 		scope:cuck = {
-			bno_caged_effect = yes
+			bno_caged_effect = {
+				CAGER = scope:bbc
+			}
 		}
 	}
 }

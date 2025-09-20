@@ -528,6 +528,7 @@ bno_bull.0006 = {
 		does_hated_non_black_courtier_exist = yes
 	}
 	immediate = {
+		save_scope_as = cager
 		get_hated_non_black_courtier_scope = {
 			SCOPE_NAME = target1
 		}
@@ -535,7 +536,9 @@ bno_bull.0006 = {
 	option = {
 		name = bno_bull_0006.a
 		scope:target1 ?= {
-			bno_caged_effect = yes
+			bno_caged_effect = {
+				CAGER = scope:cager
+			}
 		}
 	}
 }

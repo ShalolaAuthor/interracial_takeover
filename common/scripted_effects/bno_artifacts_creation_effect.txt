@@ -1,0 +1,52 @@
+﻿bno_create_artifact_bno_chastity_cage_effect = {
+    save_scope_as = owner
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = artifact_bno_chastity_cage
+        creator = $CAGER$
+        description = {
+            first_valid = {
+                triggered_desc = {
+                    trigger = {
+                        $CAGER$ = {
+                            is_spouse_of = scope:owner
+                        }
+                    }
+                    desc = artifact_bno_chastity_cage.caged_by.wife
+                }
+                triggered_desc = {
+                    trigger = {
+                        $CAGER$ = {
+                            is_a_girl = yes
+                        }
+                    }
+                    desc = artifact_bno_chastity_cage.caged_by.slut
+                }
+                triggered_desc = {
+                    trigger = {
+                        $CAGER$ = {
+                            is_bbc = yes
+                        }
+                    }
+                    desc = artifact_bno_chastity_cage.caged_by.bbc
+                }
+                desc = artifact_bno_chastity_cage.desc
+            }
+        }
+        type = bno_chastity_cage
+        template = bno_chastity_cage_template
+        visuals = bno_chastity_cage
+        wealth = scope:wealth
+        quality = scope:quality
+        modifier = bno_chastity_cage_modifier
+        generate_history = yes
+        decaying = no
+        save_scope_as = bno_cage
+    }
+    scope:bno_cage = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = bno_chastity_cage
+        save_scope_as = epic 
+        equip_artifact_to_owner = yes
+    }
+}

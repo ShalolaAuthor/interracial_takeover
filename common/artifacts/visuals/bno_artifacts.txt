@@ -1,0 +1,9 @@
+﻿bno_chastity_cage = {
+    icon = "bno_chastity_cage.dds"
+    asset = ep1_generic_jewelry_01_a_entity
+}
+
+bno_chastity_piercing = {
+    icon = "bno_chastity_piercing.dds"
+    asset = ep1_generic_jewelry_01_a_entity
+}
