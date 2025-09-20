@@ -1,11 +1,11 @@
 ﻿l_simp_chinese:
 
-bno_bbc_cum_addiction_interaction: "BBC勾引"
-bno_bbc_cum_addiction_interaction.desc: "开始腐败 [recipient.GetFirstNameNoTooltip]. . 不是用言语,不是用符咒,而是用种子把她拖到她的膝盖上,让她的嘴唇记住只有她的公牛能给什么。." # AI Tags
-bno_bbc_cum_addiction_interaction.send_name: "喂她吃你的精液" # AI Tags
-bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] 毒瘾已经开始了" # AI Tags
-bno_bbc_cum_addiction_interaction.tooltip: "您已经开始具有约束力 [recipient.GetFirstNameNoTooltip] 借种子而为你们报答。. 每一次相遇都会削弱她的意志 加深她的渴望 直到她没有你的魅力无法生存." # AI Tags
-bno_bbc_cum_addiction_interaction.already_training: "你已经把荡妇绑在种子上了. 公牛必须一时一时专一控制 直至她的意愿被打破 [bno_cum_slave|E]." # AI Tags
+bno_bbc_cum_addiction_interaction: "精液成瘾"
+bno_bbc_cum_addiction_interaction.desc: "开始[recipient.GetFirstNameNoTooltip]的腐化。不是通过言语、不是通过魅力，而是通过种子——让她跪下，并且让她的嘴唇记住只有她的公牛能给予的东西。"
+bno_bbc_cum_addiction_interaction.send_name: "喂她吃你的精液"
+bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName]的精液成瘾已经开始了"
+bno_bbc_cum_addiction_interaction.tooltip: "你以开始通过你的种子将[recipient.GetFirstNameNoTooltip]束缚于你。每次相遇都会弱化她的意志并加深她的欲望，直到她无法脱离你的精液存活。"
+bno_bbc_cum_addiction_interaction.already_training: "你已经在将一个母狗束缚于你的种子了。一个公牛每次必须将他的主导力集中于一人来打破她的意志并让她被重塑成为你的[bno_cum_slave|E]。"
 
 bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName]患有某种[illness|E]"
 bno_cure_disease_interaction.no_priestess: "你没有[GetCourtPositionType('bno_bbc_priestess_court_position').GetName]来举行仪式。"
@@ -26,13 +26,13 @@ bno_tincture_of_genesis_interaction.effect: "你将会给你的妻子[recipient.
 bno_tincture_of_genesis_interaction.desc.female: "我将要求我的丈夫转化我"
 bno_tincture_of_genesis_interaction.effect.female: "你的丈夫将给你喂食他的精液，作为你唯一的给养。"
 
-bno_prisoner_interaction: "强制 BBC 英国广播公司" # AI Tags
-bno_prisoner_interaction_desc: "这个可怜的白人男性 认为他可以作为一个男人站立。. 现在,在铁链中,他可怜的老二 成为了评判的游戏 要么被永远锁在冷铁里 要么被完全切断 来为真正的繁殖创造空间. 他的命运是教训所有敢于抵抗 [bno_bnwo|E]规则。." # AI Tags
-bno_prisoner_interaction_desc.futa: "这个苍白的荡妇认为 她额外的肉 使她特别。. 她的鸡巴要么在笼子里无用 要么被黑客砍走 给黑种人留下一个滴水的婊子. 她是一个警告 所有混血的假冒者 [bno_bnwo|E]规则。."   # AI Tags
-bno_prisoner_interaction_desc.female: "这个苍白的妓女认为她有尊严. 被剥光和捆绑, 她知道她的洞是她唯一值钱的…养的,破碎的, 被她的黑人主人走过。. 她的羞辱是一副奇观的模样,是任何违抗女神的 女人的教训。 [bno_bnwo|E]至高无上."   # AI Tags
-bno_prisoner_interaction.caging: "@bno_caged_icon! 在紧紧的钢铁笼笼中 夹住他们瘸脚的白鸡"   # AI Tags
-bno_prisoner_interaction.castrating: "@bno_castrated_icon! 切掉他们可悲的井口 留下一个繁殖洞"   # AI Tags
-bno_prisoner_interaction.slaving: "@bno_slave_icon! 将她变成英国广播公司的奴隶。" # AI Tags
-bno_prisoner_interaction.has_bbc_in_court: "白人荡妇没有真正的权力,. 她必须至少拥有一家英国广播公司, 才能充当统治者之手,."   # AI Tags
-bno_prisoner_interaction.not_caged: "那个没用的白老二已经被锁在铁里 永远被拒之门外." # AI Tags
-bno_prisoner_interaction.not_castrated: "这个荡妇已经失去男子气概。."   # AI Tags
+bno_prisoner_interaction: "实行BBC霸权"
+bno_prisoner_interaction_desc: "这个可悲的白人男性曾以为自己能以男子汉之姿挺立。如今身陷枷锁，他那可怜的阳具沦为审判的玩物——要么永远锁在冰冷铁笼中，要么彻底割除，为真正的种马腾出空间。他的命运将成为所有胆敢反抗[bno_bnwo|E]统治者的警示。"
+bno_prisoner_interaction_desc.futa: "这只白皮的双性人贱货以为多余的肉块能让她与众不同。如今被铁链锁住，她的阳具要么在笼中无用地晃动，要么被砍得精光，只剩下滴着淫液的阴户供黑种人播种。她将成为所有在[bno_bnwo|E]的统治之下混血冒牌货的警示。"  
+bno_prisoner_interaction_desc.female: "这名白皮娼妇曾以为自己拥有尊严。当她被剥光衣物、四肢缚住时，才明白自己的小穴才是唯一价值——被黑人主人交替使用、摧残、传递。她的屈辱成为一场公开表演，警示着任何藐视[bno_bnwo|E]至高权威的女性终将遭遇的下场。"  
+bno_prisoner_interaction.caging: "@bno_caged_icon! 将他们软绵绵的白鸡巴夹进紧绷的钢笼里"  
+bno_prisoner_interaction.castrating: "@bno_castrated_icon! 切除他们可悲的小鸡巴，只留下一个育种的小穴"  
+bno_prisoner_interaction.slaving: "@bno_slave_icon! 剥夺她的尊严——将她变成BBC奴隶"
+bno_prisoner_interaction.has_bbc_in_court: "白人荡妇毫无真正的权力——她生来只为繁衍。若想囚禁、阉割或奴役他人，她至少需要一个黑人巨屌在身边充当统治者的爪牙，执行这些暴行。"  
+bno_prisoner_interaction.not_caged: "那个毫无用处的白色鸡巴已经被铁锁锁住了，永远被拒绝使用了。"
+bno_prisoner_interaction.not_castrated: "没东西可切了——这个母狗已经被剥夺男性资质了。"  
