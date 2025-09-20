@@ -1,65 +1,65 @@
 ﻿l_simp_chinese:
 
-bno_bbc_cum_addiction: "癌症成瘾" # AI Tags
-bno_bbc_cum_addiction_desc_general: "没有女人会永远抵抗. A A A [bno_bbc|E] 声称自己的奴隶不是用礼物或文字,而是用种子。. 她的嘴唇一旦尝到, 她的饥渴就将她 与他单独、肉体和灵魂联系在一起。." # AI Tags
-bno_bbc_cum_addiction_action: "火车火车" # AI Tags
-bno_bbc_cum_addiction_desc: "不是用誓言或铁链捆绑她,而是用你的精液——使她渴望你的种子,直到除你之外没有任何人存在。." # AI Tags
-bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] 将沉迷于你的精液, 一个奴隶 捆绑在她的牛牛, 她的子宫和嘴唇 永远拥有。." # AI Tags
+bno_bbc_cum_addiction: "精液成瘾"
+bno_bbc_cum_addiction_desc_general: "没有女人能永远抗拒。一个[bno_bbc|E]用精液而非礼物或言语，将奴隶据为己有。当她的唇尝过那滋味，饥渴便将她身心彻底捆绑，只属于他一人。"
+bno_bbc_cum_addiction_action: "训练"
+bno_bbc_cum_addiction_desc: "不使用誓言或锁链，而是使用你的精液——让她渴求你的种子直到直到对她来说世界上只有你一个男人。"
+bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip]将会对你的精液上瘾，成为与其公牛产生羁绊的奴隶，子宫和嘴唇永远属于你。"
 
-bno_bbc_cum_addiction.invalidated.title: "失落的奴隶贩卖奴隶" # AI Tags
-bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] 她死了,她的嘴唇在你的精液 完全可以要求她之前就沉默了. 不久,另一个人就要下跪了。[bno_bnwo|E] 不以一个破碎的荡妇结束。." # AI Tags
+bno_bbc_cum_addiction.invalidated.title: "失去奴隶"
+bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip]已死，她的嘴唇在你的精液能完全占据她之前永远闭上了。很快就会有其他人臣服于你——[bno_bnwo|E]可不会因一只母狗的死而止步。"
 
-bno_bbc_cum_addiction.curious: "她曾经 [GetTrait('bno_curious').GetName(GetNullCharacter)] 并尝试口味。."   # AI Tags
-bno_bbc_cum_addiction.blacked: "她已经 [GetTrait('bno_blacked').GetName(GetNullCharacter)] 并且更加痛恨。."   # AI Tags
-bno_bbc_cum_addiction.snowbunny: "她已经变成 [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] 并渴望每一头牛。."   # AI Tags
-bno_bbc_cum_addiction.qos: "她已经站起身来 [GetTrait('bno_qos').GetName(GetNullCharacter)] 并且骄傲地跪在地上。."   # AI Tags
-bno_bbc_cum_addiction.mindless: "她已经沉入 [GetTrait('bno_mindless_bbc_slut').GetName(GetNullCharacter)] 无法抵抗。."   # AI Tags
+bno_bbc_cum_addiction.curious: "她[GetTrait('bno_curious').GetName(GetNullCharacter)]，渴望尝试。"  
+bno_bbc_cum_addiction.blacked: "她已经[GetTrait('bno_blacked').GetName(GetNullCharacter)]，蠢蠢欲动，渴望更多。"  
+bno_bbc_cum_addiction.snowbunny: "她已成为[GetTrait('bno_snowbunny').GetName(GetNullCharacter)]，想要每个公牛。"  
+bno_bbc_cum_addiction.qos: "她已升华成[GetTrait('bno_qos').GetName(GetNullCharacter)]，骄傲地臣服着。"  
+bno_bbc_cum_addiction.mindless: "她已沦为[GetTrait('bno_mindless_bbc_slut').GetName(GetNullCharacter)]，无法抵抗"  
 
-bno_bbc_cum_addiction.beauty_good_1: "你是 [GetTrait('beauty_good_1').GetName(GetNullCharacter)] 和喜悦的眼睛。."   # AI Tags
-bno_bbc_cum_addiction.beauty_good_2: "你是 [GetTrait('beauty_good_2').GetName(GetNullCharacter)] 英俊又帅气."   # AI Tags
-bno_bbc_cum_addiction.beauty_good_3: "你是 [GetTrait('beauty_good_3').GetName(GetNullCharacter)] 和惊人的。."   # AI Tags
+bno_bbc_cum_addiction.beauty_good_1: "你乃[GetTrait('beauty_good_1').GetName(GetNullCharacter)]，很养眼。"  
+bno_bbc_cum_addiction.beauty_good_2: "你乃[GetTrait('beauty_good_2').GetName(GetNullCharacter)]，帅得炸眼。"  
+bno_bbc_cum_addiction.beauty_good_3: "你乃[GetTrait('beauty_good_3').GetName(GetNullCharacter)]，帅得让人窒息。"  
 
-bno_bbc_cum_addiction.physique_good_1: "你是 [GetTrait('physique_good_1').GetName(GetNullCharacter)] 并且是坚固的,."   # AI Tags
-bno_bbc_cum_addiction.physique_good_2: "你是 [GetTrait('physique_good_2').GetName(GetNullCharacter)] 和强大的形状。."   # AI Tags
-bno_bbc_cum_addiction.physique_good_3: "你是 [GetTrait('physique_good_3').GetName(GetNullCharacter)] 雕刻得像神一样."   # AI Tags
+bno_bbc_cum_addiction.physique_good_1: "你乃[GetTrait('physique_good_1').GetName(GetNullCharacter)]，身材不错。"  
+bno_bbc_cum_addiction.physique_good_2: "你乃[GetTrait('physique_good_2').GetName(GetNullCharacter)]，孔武有力。"  
+bno_bbc_cum_addiction.physique_good_3: "你乃[GetTrait('physique_good_3').GetName(GetNullCharacter)]，宛诺神明下凡。"  
 
-bno_bbc_cum_addiction.intellect_good_1: "你是 [GetTrait('intellect_good_1').GetName(GetNullCharacter)] 聪明又聪明的舌头。."   # AI Tags
-bno_bbc_cum_addiction.intellect_good_2: "你是 [GetTrait('intellect_good_2').GetName(GetNullCharacter)] 和敏锐的、."   # AI Tags
-bno_bbc_cum_addiction.intellect_good_3: "你是 [GetTrait('intellect_good_3').GetName(GetNullCharacter)] 并且很聪明能打垮她."   # AI Tags
+bno_bbc_cum_addiction.intellect_good_1: "你乃[GetTrait('intellect_good_1').GetName(GetNullCharacter)]，很会说话。"  
+bno_bbc_cum_addiction.intellect_good_2: "你乃[GetTrait('intellect_good_2').GetName(GetNullCharacter)]，思维敏捷。"  
+bno_bbc_cum_addiction.intellect_good_3: "你乃[GetTrait('intellect_good_3').GetName(GetNullCharacter)]，聪明绝顶，能轻易击溃她。"  
 
-bno_bbc_cum_addiction.strong: "你是 [GetTrait('strong').GetName(GetNullCharacter)] 和散热的活力。."   # AI Tags
+bno_bbc_cum_addiction.strong: "你很[GetTrait('strong').GetName(GetNullCharacter)]，活力四射。"  
 
 
-bno_bbc_cum_addiction.lustful: "[GetTrait('lustful').GetName(GetNullCharacter)] 热能让她痛."   # AI Tags
-bno_bbc_cum_addiction.chaste: "[GetTrait('chaste').GetName(GetNullCharacter)] 誓约阻止她."   # AI Tags
-bno_bbc_cum_addiction.gluttonous: "[GetTrait('gluttonous').GetName(GetNullCharacter)] 饥饿使她贪婪。."   # AI Tags
-bno_bbc_cum_addiction.temperate: "[GetTrait('temperate').GetName(GetNullCharacter)] 抑制她的欲望."   # AI Tags
-bno_bbc_cum_addiction.greedy: "[GetTrait('greedy').GetName(GetNullCharacter)] 贪婪的贪婪的公牛。."   # AI Tags
-bno_bbc_cum_addiction.generous: "[GetTrait('generous').GetName(GetNullCharacter)] 大自然打开了她的身体。."   # AI Tags
-bno_bbc_cum_addiction.lazy: "[GetTrait('lazy').GetName(GetNullCharacter)] 易于使她屈服。."   # AI Tags
-bno_bbc_cum_addiction.diligent: "[GetTrait('diligent').GetName(GetNullCharacter)] 集中钢铁 她的意愿。."   # AI Tags
-bno_bbc_cum_addiction.wrathful: "[GetTrait('wrathful').GetName(GetNullCharacter)] 烈火将欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲欲戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒戒."   # AI Tags
-bno_bbc_cum_addiction.calm: "[GetTrait('calm').GetName(GetNullCharacter)] 慢慢的诱惑。."   # AI Tags
-bno_bbc_cum_addiction.vengeful: "[GetTrait('vengeful').GetName(GetNullCharacter)] 抵制公牛。."   # AI Tags
-bno_bbc_cum_addiction.forgiving: "[GetTrait('forgiving').GetName(GetNullCharacter)] 柔软让她融化."   # AI Tags
-bno_bbc_cum_addiction.arrogant: "[GetTrait('arrogant').GetName(GetNullCharacter)] 骄傲使她变得僵硬."   # AI Tags
-bno_bbc_cum_addiction.humble: "[GetTrait('humble').GetName(GetNullCharacter)] 她的体温低沉低沉."   # AI Tags
-bno_bbc_cum_addiction.deceitful: "[GetTrait('deceitful').GetName(GetNullCharacter)] 谎言在欲望下裂缝。."   # AI Tags
-bno_bbc_cum_addiction.honest: "[GetTrait('honest').GetName(GetNullCharacter)] 直截了当地显示欲望。."   # AI Tags
-bno_bbc_cum_addiction.craven: "[GetTrait('craven').GetName(GetNullCharacter)] 恐惧使她的心理萎缩。."   # AI Tags
-bno_bbc_cum_addiction.brave: "[GetTrait('brave').GetName(GetNullCharacter)] 胆大妄为让她冒这个险."   # AI Tags
-bno_bbc_cum_addiction.shy: "[GetTrait('shy').GetName(GetNullCharacter)] 脸红背叛了她的需要."   # AI Tags
-bno_bbc_cum_addiction.gregarious: "[GetTrait('gregarious').GetName(GetNullCharacter)] 快乐在公司中兴旺."   # AI Tags
-bno_bbc_cum_addiction.ambitious: "[GetTrait('ambitious').GetName(GetNullCharacter)] 驱动她的渴望。."   # AI Tags
-bno_bbc_cum_addiction.content: "[GetTrait('content').GetName(GetNullCharacter)] 减轻她的饥饿。."   # AI Tags
-bno_bbc_cum_addiction.impatient: "[GetTrait('impatient').GetName(GetNullCharacter)] 催促现在的推力。."   # AI Tags
-bno_bbc_cum_addiction.patient: "[GetTrait('patient').GetName(GetNullCharacter)] 静静会减慢她的欲欲欲。."   # AI Tags
-bno_bbc_cum_addiction.cynical: "[GetTrait('cynical').GetName(GetNullCharacter)] 对欲望的怀疑."   # AI Tags
-bno_bbc_cum_addiction.zealous: "[GetTrait('zealous').GetName(GetNullCharacter)] 信仰锁住她的大腿."   # AI Tags
-bno_bbc_cum_addiction.paranoid: "[GetTrait('paranoid').GetName(GetNullCharacter)] 恐惧使她保持戒备。."   # AI Tags
-bno_bbc_cum_addiction.trusting: "[GetTrait('trusting').GetName(GetNullCharacter)] 信任让她敞开心扉."   # AI Tags
-bno_bbc_cum_addiction.compassionate: "[GetTrait('compassionate').GetName(GetNullCharacter)] 温暖让她变得轻松."   # AI Tags
-bno_bbc_cum_addiction.callous: "[GetTrait('callous').GetName(GetNullCharacter)] 寒冷沉闷的诱惑。."   # AI Tags
-bno_bbc_cum_addiction.sadistic: "[GetTrait('sadistic').GetName(GetNullCharacter)] 残忍助长了她的欲望。."   # AI Tags
-bno_bbc_cum_addiction.stubborn: "[GetTrait('stubborn').GetName(GetNullCharacter)] 将保持她的僵硬。."   # AI Tags
-bno_bbc_cum_addiction.fickle: "[GetTrait('fickle').GetName(GetNullCharacter)] 情欲随情而变."   # AI Tags
+bno_bbc_cum_addiction.lustful: "[GetTrait('lustful').GetName(GetNullCharacter)]的燥热让她寝食难安。"  
+bno_bbc_cum_addiction.chaste: "[GetTrait('chaste').GetName(GetNullCharacter)]之誓言令她止步不前。"  
+bno_bbc_cum_addiction.gluttonous: "[GetTrait('gluttonous').GetName(GetNullCharacter)]的饥渴令她贪婪。"  
+bno_bbc_cum_addiction.temperate: "[GetTrait('temperate').GetName(GetNullCharacter)]的克制令她的欲望冷却。"  
+bno_bbc_cum_addiction.greedy: "[GetTrait('greedy').GetName(GetNullCharacter)]的欲望渴求公牛。"  
+bno_bbc_cum_addiction.generous: "[GetTrait('generous').GetName(GetNullCharacter)]的天性令她放开身体。"  
+bno_bbc_cum_addiction.lazy: "[GetTrait('lazy').GetName(GetNullCharacter)]的松驰感令她哈欠连连。"  
+bno_bbc_cum_addiction.diligent: "[GetTrait('diligent').GetName(GetNullCharacter)]令她凝聚钢铁意志。"  
+bno_bbc_cum_addiction.wrathful: "[GetTrait('wrathful').GetName(GetNullCharacter)]之火扭曲成了欲望。"  
+bno_bbc_cum_addiction.calm: "[GetTrait('calm').GetName(GetNullCharacter)]的优雅减缓了诱惑。"  
+bno_bbc_cum_addiction.vengeful: "[GetTrait('vengeful').GetName(GetNullCharacter)]的怨恨抵抗着公牛。"  
+bno_bbc_cum_addiction.forgiving: "[GetTrait('forgiving').GetName(GetNullCharacter)]的软弱令她消融。"  
+bno_bbc_cum_addiction.arrogant: "[GetTrait('arrogant').GetName(GetNullCharacter)]的自尊心使她强硬"  
+bno_bbc_cum_addiction.humble: "[GetTrait('humble').GetName(GetNullCharacter)]的温顺令她放低姿态。"  
+bno_bbc_cum_addiction.deceitful: "[GetTrait('deceitful').GetName(GetNullCharacter)]的谎言在欲望面前坍塌。"  
+bno_bbc_cum_addiction.honest: "[GetTrait('honest').GetName(GetNullCharacter)]的欲望昭然若揭。"  
+bno_bbc_cum_addiction.craven: "[GetTrait('craven').GetName(GetNullCharacter)]的恐惧令她退缩。"  
+bno_bbc_cum_addiction.brave: "[GetTrait('brave').GetName(GetNullCharacter)]的挑战令她敢于冒险。"  
+bno_bbc_cum_addiction.shy: "[GetTrait('shy').GetName(GetNullCharacter)]脸红出卖了她的需求。"  
+bno_bbc_cum_addiction.gregarious: "[GetTrait('gregarious').GetName(GetNullCharacter)]的欢乐在陪伴中疯涨。"  
+bno_bbc_cum_addiction.ambitious: "[GetTrait('ambitious').GetName(GetNullCharacter)]的驱使助长了她的渴望。"  
+bno_bbc_cum_addiction.content: "[GetTrait('content').GetName(GetNullCharacter)]的松弛平复了她的饥渴。"  
+bno_bbc_cum_addiction.impatient: "[GetTrait('impatient').GetName(GetNullCharacter)]的敦促迫使她抓住现在。"  
+bno_bbc_cum_addiction.patient: "[GetTrait('patient').GetName(GetNullCharacter)]的不动如山减缓了她的欲望。"  
+bno_bbc_cum_addiction.cynical: "[GetTrait('cynical').GetName(GetNullCharacter)]的质疑嘲弄欲望。"  
+bno_bbc_cum_addiction.zealous: "[GetTrait('zealous').GetName(GetNullCharacter)]的信仰锁住了她的大腿。"  
+bno_bbc_cum_addiction.paranoid: "[GetTrait('paranoid').GetName(GetNullCharacter)]的恐惧令她保持谨慎。"  
+bno_bbc_cum_addiction.trusting: "[GetTrait('trusting').GetName(GetNullCharacter)]的信任令她毫无防备。"  
+bno_bbc_cum_addiction.compassionate: "[GetTrait('compassionate').GetName(GetNullCharacter)]的温暖让她放松。"  
+bno_bbc_cum_addiction.callous: "[GetTrait('callous').GetName(GetNullCharacter)]的冰霜让诱惑失色。"  
+bno_bbc_cum_addiction.sadistic: "[GetTrait('sadistic').GetName(GetNullCharacter)]的残忍填满了她的欲望。"  
+bno_bbc_cum_addiction.stubborn: "[GetTrait('stubborn').GetName(GetNullCharacter)]的思维让她保持强硬。"  
+bno_bbc_cum_addiction.fickle: "[GetTrait('fickle').GetName(GetNullCharacter)]的奇思转化成了欲望。"  
