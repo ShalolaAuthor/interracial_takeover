@@ -1,17 +1,17 @@
 ﻿l_simp_chinese:
 #sneak bbc interaction
- sneak_bbc: "偷偷安排一个黑人种马去外国宫廷"
- sneak_bbc_desc: "将我宫廷[bno_bbcs|E]中的一个偷偷送到选定的统治者宫廷中。"
- actor_secondary_sneak_bbc: "选择要偷偷安排的种马"
- BBC_cg_spy_reason: "有一位廷臣或访客愿意帮忙偷偷安排一个[bno_bbc|E]： #color_green +5#!"
- BBC_family_spy_reason: "有一位家庭成员愿意帮忙偷偷安排一个[bno_bbc|E]： #color_green +10#!" 
- BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! 对[bno_bbc|E]感到好奇： #color_green +10#!" 
- BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! 已经被一个[bno_bbc|E]干了： #color_green +25#!" 
- BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! 爱上了一个[bno_bbc|E]： #color_green +50#!" 
- BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! 欢迎[bno_bbc|E]： #color_green +50#!" 
-sneak_bbc.has_bbc_in_court: "你必须有至少两个 [bno_bbc|E] 将一个送走."   # AI Tags
-sneak_bbc.already_has_bbc_in_court: "这个法院的荡妇已经满满都是公牛,."   # AI Tags
-sneak_bbc.not_enough_of_a_slut: "你还不够荡妇. 只有一个真实的 [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] 或者更糟的是,敢在法院之间走私公牛。."   # AI Tags
+sneak_bbc: "偷运黑公牛"
+sneak_bbc_desc: "派遣你王庭的一名[bno_bbcs|E]进入另一个统治者的宫廷。"  
+actor_secondary_sneak_bbc: "选择要派出的公牛"
+BBC_cg_spy_reason: "一名庭臣或是访客将帮助偷运[bno_bbc|E]: #color_green +5#!"  
+BBC_family_spy_reason: "一名家庭成员将帮助偷运[bno_bbc|E]: #color_green +10#!"  
+BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#!对[bno_bbc|E]很好奇: #color_green +10#!"  
+BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#!已经被[bno_bbc|E]夺取了: #color_green +25#!"  
+BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#!崇拜[bno_bbc|E]: #color_green +50#!"  
+BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#!公开欢迎[bno_bbc|E]: #color_green +50#!"  
+sneak_bbc.has_bbc_in_court: "你至少需要两名[bno_bbc|E]在你的宫廷里才能派出其中一位。"  
+sneak_bbc.already_has_bbc_in_court: "那个宫廷的母狗们已经被公牛们填满了——不需要再送过去一个了。"  
+sneak_bbc.not_enough_of_a_slut: "你还不够作为一只母狗。只有真正的[GetTrait('bno_snowbunny').GetName(GetNullCharacter)]或更糟糕的人才敢在宫廷间走私公牛。"  
 #influence child interaction
- bno_influence_child: "培养好奇心"
- bno_influence_child_desc: "引导孩子了解真相"
+bno_influence_child: "促进好奇心"
+bno_influence_child_desc: "影响儿童了解真相"

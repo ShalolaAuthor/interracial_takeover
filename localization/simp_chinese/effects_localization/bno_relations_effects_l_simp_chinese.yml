@@ -1,13 +1,13 @@
-﻿l_simp_chinese:
+l_simp_chinese:
 
-i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为你的 [bno_slave|E]" # AI Tags
-they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为 [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_slave|E]" 
+they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_slave|E]"
 
-i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为你的 [bno_slave|E]" # AI Tags
-they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为 [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_slave|E]"
+they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_slave|E]"
 
-i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为你的 [bno_cum_slave|E]被种子和对你的忠诚束缚着." # AI Tags
-they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为 [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E]被精疲力尽和奉献所奴役." # AI Tags
+i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_cum_slave|E]，被种子和对你的忠诚束缚着."
+they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_cum_slave|E]，被精液和忠诚奴役。"
 
-i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为你的 [bno_cum_slave|E]她的嘴唇和子宫 封在你的种子 永远。." # AI Tags
-they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] 成为 [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E]由他的老二拥有 并被绑在精液上." # AI Tags
+i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_cum_slave|E]，她的嘴唇和子宫永远被你的种子封存。"
+they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_cum_slave|E]，被他的鸡巴所拥有，被他的精液所束缚。"

@@ -112,28 +112,28 @@ setting_bno_black_cum_potency_normal_desc: "那样有点太容易预测了，不
 setting_bno_black_cum_potency_abnormal: "超常"
 setting_bno_black_cum_potency_abnormal_desc: "让那些乌黑、强硬的后代们放马过来吧！"
 
-rule_bno_black_birth: "@bnobbc! #X 跨种族接替:#! 黑产" # AI Tags
-setting_bno_black_birth_on: "日期 于" # AI Tags
-setting_bno_black_birth_on_desc: "当皇后的肚子肿胀时 [bno_bbc|E] 孩子,摇篮不会保持沉默. 你来决定她是否躲在她丈夫的王冠后面…或呻吟出真相 让Stud的继承人在他的房子里崛起." # AI Tags
-setting_bno_black_birth_off: "关闭" # AI Tags
-setting_bno_black_birth_off_desc: "她的肚子可以被一个 [bno_bbc|E],但谎言坚持着。. 混血儿像她丈夫一样静静地死去,真相被挡在苍白的墙后面,不管谁的子孙真正孕育了她。." # AI Tags
+rule_bno_black_birth: "@bnobbc! #X 跨种族征服：#!黑人生育"
+setting_bno_black_birth_on: "开启"
+setting_bno_black_birth_on_desc: "当皇后的肚子隆起[bno_bbc|E]的子嗣，其摇篮将不会保持平静。你将会决定她是否躲在她丈夫的王冠之后……或者在淫叫中承认真相，让种马的子嗣在他的家族中成长。"
+setting_bno_black_birth_off: "关闭"
+setting_bno_black_birth_off_desc: "她的腹部可能被[bno_bbc|E]填满了，但是谎言站住了脚跟。这个混血的孩子安静地过关被她丈夫视如己出，真相被掩埋在白墙之中，不论是谁的种子令她繁育。"
 
-rule_bno_bbc_forced_conversion: "@bnobbc! #X 跨种族接替:#! BBC 强迫转化" # AI Tags
-setting_bno_bbc_forced_conversion_yes: "日期 于" # AI Tags
-setting_bno_bbc_forced_conversion_yes_desc: "当一个统治者担负着一物的重量时, [bno_bbc|E]他的法庭不会长期保持苍白。. 文化转向非洲根, 王国向黑鸡教会跪拜, 每一个王冠都因他的欲望而变黑。." # AI Tags
-setting_bno_bbc_forced_conversion_no: "关闭" # AI Tags
-setting_bno_bbc_forced_conversion_no_desc: "即使他以一个 [bno_bbc|E]他的土地仍然与旧的信仰和文化联系在一起。. 黑公鸡秘密繁殖, 但王国紧紧粘着它苍白的面具。." # AI Tags
+rule_bno_bbc_forced_conversion: "@bnobbc! #X 跨种族征服：#!BBC强制转化"
+setting_bno_bbc_forced_conversion_yes: "开启"
+setting_bno_bbc_forced_conversion_yes_desc: "当统治者承载着[bno_bbc|E]的重担时，他的王庭不会长时间保持白色皮肤。文化将转化成非裔传统，而领地将臣服于大黑屌教会，每一个王冠都会被他的欲望涂黑。"
+setting_bno_bbc_forced_conversion_no: "关闭"
+setting_bno_bbc_forced_conversion_no_desc: "即使他使用[bno_bbc|E]统御，他的土地将保持旧的信仰与文化。黑屌将在秘密中繁殖，但是王国将保持其白色皮肤的面具。"
 
-rule_bno_great_replacement: "@bnobbc! #X 跨种族接替:#! 大更换" # AI Tags
-setting_bno_great_replacement_converting: "县改划" # AI Tags
-setting_bno_great_replacement_converting_desc: "当 a [bno_bbc|E] 或他苍白的胸腺 弯曲一个郡 听从他们的意愿, 变化是深的。. 旧文化被抹去,代之以非洲根源——暗舌、更深的血液、用老二的形象重新造就的土地。." # AI Tags
-setting_bno_great_replacement_cultural_acceptance: "文化接受" # AI Tags
-setting_bno_great_replacement_cultural_acceptance_desc: "缩略 [bno_bbc|E] 或他的白人荡妇不会抹去旧路,. 文化在100人接受时一起呻吟 团结在黑鸡下面." # AI Tags
+rule_bno_great_replacement: "@bnobbc! #X 跨种族征服：#!大替换"
+setting_bno_great_replacement_converting: "伯爵领转化"
+setting_bno_great_replacement_converting_desc: "当一个[bno_bbc|E]或是其母种马强迫一个伯爵领服从，变化将是分深入。旧的文化消失，替换成非裔传承——黑色的舌头、黑色的血脉，一块被他的鸡巴重塑的土地。"
+setting_bno_great_replacement_cultural_acceptance: "文化接纳"
+setting_bno_great_replacement_cultural_acceptance_desc: "[bno_bbc|E]或是其白皮母狗不会清除旧的道路——他们会使其屈服。整个文化在100的接受度下呻吟，在黑屌之下团结。"
 
-rule_bno_xp_gain: "@bnobbc! #X 跨种族接替:#! 所得经验" # AI Tags
-setting_bno_xp_gain_low: "轻廉腐败" # AI Tags
-setting_bno_xp_gain_low_desc: "黑鸡需要时间. 白人荡妇慢慢地倒下, 享受着第一批的废墟, 他们的国家在BNWO蔓延时颤抖。. 腐败就像耳语,但却永不停息。." # AI Tags
-setting_bno_xp_gain_med: "自然血统" # AI Tags
-setting_bno_xp_gain_med_desc: "接管的速度是稳步的 无情的. 每一个荡妇早点跪下 每一个宫廷越黑 每一个王国都感受到阴影的蔓延. 不要太快,不要太慢,只是不可避免。." # AI Tags
-setting_bno_xp_gain_high: "快速覆被" # AI Tags
-setting_bno_xp_gain_high_desc: "洪水无法阻止。. 白荡妇一夜之间就被毁了,法院几周就倒塌,整个国家几个月就停了下来。. BNWO在这里不低语——它咆哮,一股公鸡和征服的浪潮吞噬了地图。." # AI Tags
+rule_bno_xp_gain: "@bnobbc! #X 跨种族征服：#!经验获取"
+setting_bno_xp_gain_low: "温和腐化"
+setting_bno_xp_gain_low_desc: "黑屌不紧不慢。白皮母狗慢慢地堕落，细细品味毁灭初临的触感，当BNWO滴答蔓延，她们的国度便随之颤抖。腐化如耳语般悄然降临，却永无止息。"
+setting_bno_xp_gain_med: "自然堕落"
+setting_bno_xp_gain_med_desc: "接管的步伐稳扎稳打、毫不留情。每个母狗臣服地更快，每个王庭变得更黑，每一片土地都能感受到黑影地蔓延。既不太快，也不太慢——但却不可避免。"
+setting_bno_xp_gain_high: "飞速推翻"
+setting_bno_xp_gain_high_desc: "浪潮无法阻挡。白皮母狗一夜之间就被摧毁，王庭数周间沦陷，整个民族数月内臣服。BNWO不会在此低语——它咆哮着，一道由阴茎与征服组成的浪潮将吞噬整个地图。"

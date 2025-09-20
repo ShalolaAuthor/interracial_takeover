@@ -146,10 +146,10 @@ bno_primal_insight_decision.desc.male: "空气中弥漫着沉香与麝香的浓�
 bno_primal_insight_decision.confirm.male: "那么，女祭司大人，我们开始密谈吧。"
 bno_primal_insight_decision.tooltip.male: "你将获得[GetModifier('bno_primal_insight').GetNameWithTooltip]"
 
-bull_decision.effect: "大规模 [stress|E] 损失…" # AI Tags
-bno_events00.too_much_bbc: "你们的宫廷已经满满 [bno_bbcs|E]. . 即使是公牛厅也有其局限性。." # AI Tags
-bno_invite_slut_decision.too_much_white_girl: "你的宫廷已经满是苍白的荡妇. 再多一点 就能降低他们的价值 让你控制他们." # AI Tags
-bno_events00.too_little_bbc: "你的大厅是空的 [bno_bbcs|E]. . 少于三辆公牛,你的法庭 缺乏力量和诱惑, 在他们出现之后。. 请他们进来 让他们的影子掉在你的领地上." # AI Tags
-bno_invite_slut_decision.too_little_white_girl: "你的宫廷是瘦色的苍白荡妇。. 必须邀请更多的人,因为当白人妓女聚集在同一个屋檐下时,每个有权力和处于危险之中的大厅都会膨胀。." # AI Tags
+bull_decision.effect: "失去大量[stress|E]……"
+bno_events00.too_much_bbc: "你的王庭已经被[bno_bbcs|E]填满。即使是一个黑公牛的大厅也是有它的极限的。"
+bno_invite_slut_decision.too_much_white_girl: "你的王庭已经被白皮母狗填满了。再增多数量将会降低她们的价值并且减少你对她们的控制。"
+bno_events00.too_little_bbc: "你的大厅缺少[bno_bbcs|E]。由于黑公牛的数量少于三个，你的王庭既缺乏力量，也缺失他们降临带来的诱惑。请将他们迎入，任凭他们的阴影笼罩你的疆域。"
+bno_invite_slut_decision.too_little_white_girl: "你的王庭缺少白皮母狗。必须邀请更多，因为当白皮娼妓聚首于同一屋檐下，每个厅堂都膨胀着力量——与危机。"
 
-bno_becoming_bbc_slut.has_bbc_in_court: "必须有至少一个 [bno_bbc|E] 在你的法庭开始这条道路。. 没有公牛来称你为奴隶, 你就不能开始沦为奴隶。." # AI Tags
+bno_becoming_bbc_slut.has_bbc_in_court: "你的王庭里必须至少有一名[bno_bbc|E]才能开始这条道路。没有黑公牛染指你，你陷入奴役的沉沦将无法开始。"
