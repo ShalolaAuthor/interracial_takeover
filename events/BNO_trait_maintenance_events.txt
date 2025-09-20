@@ -411,5 +411,28 @@ bno_trait_maintenance.0015 = {
 				}
 			}
 		}
+		trigger_event = bno_trait_maintenance.0016
+	}
+}
+#make sure to punish people that unequipped the chastity device
+bno_trait_maintenance.0016 = {
+	hidden = yes
+	immediate = {
+		if = {
+			limit = {
+				has_trait = bno_caged
+				any_character_artifact = {
+					has_variable = bno_chastity_cage
+					is_equipped = no
+				}
+			}
+			random_character_artifact = {
+				limit = {
+					has_variable = bno_chastity_cage
+				}
+				equip_artifact_to_owner = yes
+			}
+			add_character_modifier = bno_withering_manhood
+		}
 	}
 }
