@@ -932,7 +932,7 @@ bno_slut.0014 = {
 			delayed = yes
 		}
 	}
-	option = { #fuck her and steal her as wife focus
+	option = {
 		name = bno_slut_0014.c
 		ai_chance = {
 			base = 5
@@ -956,6 +956,9 @@ bno_slut.0014 = {
 	option = { #do nothing
 		name = bno_slut_0014.d
 		bno_decrease_sluttyness = yes
+		ai_chance = {
+			base = 0
+		}
 	}
 }
 #follow up event, fuck and done
