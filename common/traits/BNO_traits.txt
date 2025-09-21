@@ -1721,7 +1721,6 @@ bno_pussy_mileage_1 = {
 	physical = yes
 	attraction_opinion = 50
 	spouse_opinion = 50
-	fertility = 1
 	track = {
 		1 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
 		30 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
@@ -1755,7 +1754,7 @@ bno_pussy_mileage_2 = {
 	physical = yes
 	attraction_opinion = 35
 	spouse_opinion = 35
-	fertility = 0.7
+	fertility = -0.3
 	track = {
 		30 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
 		60 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
@@ -1786,7 +1785,7 @@ bno_pussy_mileage_3 = {
 	physical = yes
 	attraction_opinion = 25
 	spouse_opinion = 25
-	fertility = 0.5
+	fertility = -0.5
 	track = {
 		30 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
 		60 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
@@ -1817,7 +1816,7 @@ bno_pussy_mileage_4 = {
 	physical = yes
 	attraction_opinion = 15
 	spouse_opinion = 15
-	fertility = 0.3
+	fertility = -0.7
 	track = {
 		30 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
 		60 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
@@ -1848,10 +1847,10 @@ bno_pussy_mileage_5 = {
 	physical = yes
 	attraction_opinion = 5
 	spouse_opinion = 5
-	fertility = 0.1
+	fertility = -0.9
 	track = {
-		30 = { attraction_opinion = -30 spouse_opinion = -30 fertility = -0.5 general_opinion = -25 courtier_and_guest_opinion = -25 }
-		60 = { attraction_opinion = -25 spouse_opinion = -25 fertility = -0.6 general_opinion = -25 courtier_and_guest_opinion = -25 }
+		30 = { attraction_opinion = -30 spouse_opinion = -30 fertility = -0.05 general_opinion = -25 courtier_and_guest_opinion = -25 }
+		60 = { attraction_opinion = -25 spouse_opinion = -25 fertility = -0.05 general_opinion = -25 courtier_and_guest_opinion = -25 }
 	}
 	name = {
 		first_valid = {

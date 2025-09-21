@@ -6,16 +6,36 @@ is_cuckish = {
 	has_trait = bno_cuckish
 }
 
+is_cuckish_guy = {
+	is_white_guy = yes
+	is_bno_cuckish_and_up = yes
+}
+
 is_cuck = {
 	has_trait = bno_cuck
+}
+
+is_cuck_guy = {
+	is_white_guy = yes
+	is_bno_cuck_and_up = yes
 }
 
 is_beta = {
 	has_trait = bno_beta
 }
 
+is_beta_guy = {
+	is_white_guy = yes
+	is_bno_beta_and_up = yes
+}
+
 is_jos = {
 	has_trait = bno_jos
+}
+
+is_jos_guy = {
+	is_white_guy = yes
+	is_jos = yes
 }
 
 is_bno_cuckish_and_up = {

@@ -21,6 +21,12 @@ bno_cum_addiction.0000 = {
         animation = personality_content
     }
 
+    trigger = {
+        scope:owner = {
+            is_bbc = yes
+        }
+    }
+
     immediate = {
     }
 

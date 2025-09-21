@@ -107,7 +107,7 @@ bbc_priestess.1001 = {
         }
         trigger_event = {
             id = bbc_priestess.1001
-            months = { 6 12 }
+            months = 6
             delayed = yes
         }
         

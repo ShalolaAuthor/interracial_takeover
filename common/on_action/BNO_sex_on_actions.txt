@@ -13,7 +13,6 @@
 carn_on_sex_v2 = {
 	on_actions = {
 		bno_slut_on_sex
-		bno_on_sex
 		bno_increase_pussy_wear
 		bno_cuck_on_sex
 		bno_set_recent_sex_partner
@@ -98,19 +97,15 @@ bno_slut_on_sex = {
 	trigger = {
 		has_game_rule = bno_mod_status_on
 		OR = {
-			scope:carn_sex_player = {
-				is_bbc = yes
-			}
+			is_bbc = yes
 			scope:carn_sex_partner = {
 				is_bbc = yes
 			}
 		}
 	}
 	effect = {
-		scope:carn_sex_player = {
-			bno_bbc_sex = {
-				PARTNER = scope:carn_sex_partner
-			}
+		bno_bbc_sex = {
+			PARTNER = scope:carn_sex_partner
 		}
 		scope:carn_sex_partner = {
 			bno_bbc_sex = {
