@@ -1,7 +1,7 @@
 ﻿doctrine_bno_tenets = {
 	group = "core_tenets"
     #for now
-    number_of_picks = 1
+    number_of_picks = 99
     
 	tenet_bno_black_cock_conquest = {
 		icon = tenet_bno_black_cock_conquest
@@ -29,6 +29,57 @@
 			domain_tax_different_faith_mult = -0.2
 			levy_reinforcement_rate_same_faith = 0.25
 			levy_reinforcement_rate_different_faith = -0.25
+		}
+	}
+
+	tenet_bno_aniconism = {
+		icon = tenet_bno_aniconism
+
+		is_shown = {
+			religion_tag = bnonr_religion
+		}
+
+		can_pick = {
+			religion_tag = bnonr_religion
+		}
+
+		piety_cost = {
+			value = faith_tenet_cost_massive
+			multiply = 10
+			if = {
+				limit = { has_doctrine = tenet_bno_aniconism }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		character_modifier = {
+			church_holding_build_speed = -0.5
+			church_holding_build_gold_cost = -0.5
+			church_holding_holding_build_speed = -0.5
+			church_holding_holding_build_gold_cost = -0.5
+		}
+
+		parameters = {
+			reforging_artifacts_costs_piety = yes
+			destroying_artifacts_is_pious = yes
+		}
+	}
+
+	tenet_bno_hate = {
+		icon = tenet_bno_hate
+		is_shown = {
+			NOT = { religion_tag = bnonr_religion }
+		}
+		can_pick = {
+			NOT = { religion_tag = bnonr_religion }
+		}
+		piety_cost = 0
+		parameters = {
+
+		}
+		character_modifier = {
+			opinion_of_same_faith = 25
+			opinion_of_different_faith = -25
 		}
 	}
 }

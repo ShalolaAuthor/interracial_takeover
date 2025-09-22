@@ -6,6 +6,16 @@
 
 bno_on_game_start = {
     effect = {
+        every_religion_global = {
+            every_faith = {
+                limit = {
+                    NOT = {
+                        religion_tag = bnonr_religion
+                    }
+                }
+                add_doctrine = tenet_bno_hate
+            }
+        }
         every_culture_global = {
             limit = {
                 NOT = { has_same_culture_heritage = culture:bnoc }

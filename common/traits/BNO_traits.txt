@@ -412,6 +412,7 @@ bno_bbc = {
 	fertility = 0.7
 	
 	flag = carn_no_consequences_for_extramarital_sex_with_others
+	flag = carn_no_consequences_for_extramarital_sex_with_me
 	
 	ai_honor = very_low_negative_ai_value
 	ai_greed = low_positive_ai_value
@@ -508,6 +509,10 @@ bno_curious = {
 	#Modifiers	
 	ignore_negative_culture_opinion = yes
 	ignore_negative_opinion_of_culture = yes
+
+	#Flags
+	flag = carn_no_consequences_for_extramarital_sex_with_others
+	flag = carn_no_consequences_for_extramarital_sex_with_me
 	
 	#AI
 	ai_boldness = low_negative_ai_value
@@ -599,6 +604,10 @@ bno_blacked = {
 	seduce_scheme_phase_duration_add = -10
 	prowess = -2
 	knight_limit = 2
+
+	#Flags
+	flag = carn_no_consequences_for_extramarital_sex_with_others
+	flag = carn_no_consequences_for_extramarital_sex_with_me
 	
 	#AI
 	ai_boldness = low_negative_ai_value
@@ -701,6 +710,10 @@ bno_snowbunny = {
 	knight_limit = 2
 	stress_gain_mult = -0.05
 	stress_loss_mult = 0.05
+
+	#Flags
+	flag = carn_no_consequences_for_extramarital_sex_with_others
+	flag = carn_no_consequences_for_extramarital_sex_with_me
 	
 	#AI
 	ai_boldness = medium_negative_ai_value
@@ -803,6 +816,7 @@ bno_qos = {
 
 	#Flags
 	flag = carn_no_consequences_for_extramarital_sex_with_others
+	flag = carn_no_consequences_for_extramarital_sex_with_me
 	
 	#AI
 	ai_boldness = high_negative_ai_value
@@ -917,13 +931,11 @@ bno_mindless_bbc_slut = {
 	stress_gain_mult = -0.2
 	stress_loss_mult = 0.2
 	no_prowess_loss_from_age = yes
+	disables_combat_leadership = yes
 
 	#Flags
 	flag = carn_no_consequences_for_extramarital_sex_with_others
-	flag = no_headwear
-	flag = no_headgear
-	flag = no_clothes
-	disables_combat_leadership = yes
+	flag = carn_no_consequences_for_extramarital_sex_with_me
 	
 	#AI
 	ai_boldness = high_negative_ai_value

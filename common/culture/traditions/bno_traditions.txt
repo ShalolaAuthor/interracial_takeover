@@ -137,9 +137,7 @@ tradition_bno_african_hate = {
     }
     character_modifier = {
         opinion_of_same_culture = 25
-        opinion_of_same_faith = 25
         opinion_of_different_culture = -25
-        opinion_of_different_faith = -25
     }
     culture_modifier = {
         culture_tradition_max_add = 1

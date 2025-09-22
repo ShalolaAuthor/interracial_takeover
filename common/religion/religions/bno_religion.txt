@@ -412,7 +412,7 @@
 			doctrine = west_african_unreformed_faith_doctrine
 
 			#Tenets
-			doctrine = tenet_aniconism
+			doctrine = tenet_warmonger
 			doctrine = tenet_bno_black_cock_conquest
 			doctrine = tenet_human_sacrifice
 			doctrine = tenet_ritual_celebrations
