@@ -107,3 +107,29 @@ bno_cock_maidens = {
     ai_quality = { value = 90 }
     icon = bno_cock_maidens
 }
+#Unlocked from Tradition
+bno_seed_thralls = {
+	type = bnwo_armies
+
+	damage = 10
+	toughness = 100
+	pursuit = 20
+	screen = 100
+
+	counters = {
+		archers = 10
+	}
+
+	can_recruit = {
+        bno_can_recruit_bno_seed_thralls = yes
+    }
+
+	buy_cost = { gold = 100 }
+	low_maintenance_cost = { gold = 0.1 }
+    high_maintenance_cost = { gold = 0.5 }
+	provision_cost = 1
+
+	stack = 100
+	ai_quality = { value = 100 }
+	icon = bno_seed_thralls
+}

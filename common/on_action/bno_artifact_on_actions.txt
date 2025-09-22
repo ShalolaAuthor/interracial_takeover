@@ -51,7 +51,7 @@ bno_on_artifact_changed_owner = {
             set_owner = {
                 target = scope:old_owner
             }
-            equip_artifact_to_owner = yes
+            equip_artifact_to_owner_replace = yes
         }
     }
 }

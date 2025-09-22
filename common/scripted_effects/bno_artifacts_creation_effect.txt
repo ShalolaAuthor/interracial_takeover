@@ -47,6 +47,6 @@
         set_variable = { name = historical_unique_artifact value = yes }
         set_variable = bno_chastity_cage
         save_scope_as = epic 
-        equip_artifact_to_owner = yes
+        equip_artifact_to_owner_replace = yes
     }
 }

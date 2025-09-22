@@ -438,8 +438,6 @@ bno_curious = {
 	#Special Opinion
 	general_opinion = -20
 	opposite_opinion = 200
-	same_opinion = 10
-	same_opinion_if_same_faith = 20
 
 	#Trait Relation
 	compatibility = {
@@ -529,8 +527,6 @@ bno_blacked = {
 	#Special Opinion
 	general_opinion = -40
 	opposite_opinion = 225
-	same_opinion = 20
-	same_opinion_if_same_faith = 40
 
 	#Trait Relation
 	compatibility = {
@@ -622,8 +618,6 @@ bno_snowbunny = {
 	#Special Opinion
 	general_opinion = -60
 	opposite_opinion = 250
-	same_opinion = 30
-	same_opinion_if_same_faith = 60
 
 	#Trait Relation
 	compatibility = {
@@ -726,8 +720,6 @@ bno_qos = {
 	#Special Opinion
 	general_opinion = -80
 	opposite_opinion = 275
-	same_opinion = 40
-	same_opinion_if_same_faith = 80
 
 	#Trait Relation
 	compatibility = {
@@ -830,8 +822,6 @@ bno_mindless_bbc_slut = {
 	#Special Opinion
 	general_opinion = -100
 	opposite_opinion = 300
-	same_opinion = 50
-	same_opinion_if_same_faith = 50
 
 	#Trait Relation
 	compatibility = {

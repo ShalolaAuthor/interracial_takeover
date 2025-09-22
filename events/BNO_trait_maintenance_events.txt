@@ -335,9 +335,9 @@ bno_trait_maintenance.0014 = {
 						}
 						save_scope_as = bbc
 					}
-					bno_caged_effect = {
-						CAGER = scope:bbc
-					}
+				}
+				bno_caged_effect = {
+					CAGER = scope:bbc
 				}
 			}
 			liege ?= {
@@ -430,7 +430,7 @@ bno_trait_maintenance.0016 = {
 				limit = {
 					has_variable = bno_chastity_cage
 				}
-				equip_artifact_to_owner = yes
+				equip_artifact_to_owner_replace = yes
 			}
 			add_character_modifier = bno_withering_manhood
 		}
