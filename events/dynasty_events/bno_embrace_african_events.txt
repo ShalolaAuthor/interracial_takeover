@@ -2539,10 +2539,6 @@ bno_embrace_african_5.0012 = {
         }
     }
 
-    immediate = {
-        play_sound_effect = "event:/moans"
-    }
-
     option = {
         name = {
             text = {

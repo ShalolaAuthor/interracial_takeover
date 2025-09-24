@@ -1,3 +1,0 @@
-﻿#bno_moaning_loop = {
-#    music = "event:/BNWO/moans"
-#}

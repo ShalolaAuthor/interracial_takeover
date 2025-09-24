@@ -1,6 +1,6 @@
 ﻿namespace = bno_seduce_rejection
 
-
+#initial seduce scheme pov slut
 bno_seduce_rejection.0001 = {
     type = character_event
     window = big_event_window
@@ -8,7 +8,7 @@ bno_seduce_rejection.0001 = {
 
 
     override_background = {
-        reference = bedchamber
+        reference = bno_seduce_rejection.0001
     }
 
     title = {
@@ -60,10 +60,6 @@ bno_seduce_rejection.0001 = {
         }
     }
 
-    immediate = {
-        bno_bbc_cum_addiction_random_narrative = yes
-    }
-
     option = { # agree to white boy seducing her
         name = {
             text = {
@@ -91,6 +87,17 @@ bno_seduce_rejection.0001 = {
                 }
             }
         }
+        trigger = {
+            is_bno_curious = yes
+        }
+        trigger_event = bno_seduce_rejection.1002
+        scope:owner = {
+            trigger_event = {
+                delayed = yes
+                days = 7
+                on_action = bno_non_slut_seduce_ongoing_milestone_1
+            }
+        }
     }
 
     option = { # reject the thought of getting seduced by a white boy
@@ -116,6 +123,268 @@ bno_seduce_rejection.0001 = {
                     triggered_desc = {
                         trigger = { scope:random_narrative = 5 }
                         desc = bno_seduce_rejection.0001.b.05
+                    }
+                }
+            }
+        }
+        trigger = {
+            is_bno_blacked_and_up = yes
+        }
+        add_internal_flag = special
+        #remember to end_scheme on follow up cuck events
+    }
+}
+#initial seduce scheme pov cuck
+bno_seduce_rejection.0002 = {
+    type = character_event
+    window = big_event_window
+    theme = seduction
+    override_background = {
+        reference = bno_seduce_rejection.0002
+    }
+    title = bno_seduce_rejection.0002.title
+    desc = bno_seduce_rejection.0002.desc
+
+    option = {
+        name = bno_seduce_rejection.0002.a
+        bno_seduce_rejection_random_narrative = {
+            VALUE = 1
+        }
+    }
+    option = {
+        name = bno_seduce_rejection.0002.b
+        bno_seduce_rejection_random_narrative = {
+            VALUE = 2
+        }
+    }
+    option = {
+        name = bno_seduce_rejection.0002.c
+        bno_seduce_rejection_random_narrative = {
+            VALUE = 3
+        }
+    }
+    option = {
+        name = bno_seduce_rejection.0002.d
+        bno_seduce_rejection_random_narrative = {
+            VALUE = 4
+        }
+    }
+    option = {
+        name = bno_seduce_rejection.0002.e
+        bno_seduce_rejection_random_narrative = {
+            VALUE = 5
+        }
+    }
+    after = {
+        scope:target = {
+            trigger_event = {
+                delayed = yes
+                days = { 2 7 }
+                id = bno_seduce_rejection.0001
+            }
+        }
+    }
+}
+# slut accept: pov cuck
+bno_seduce_rejection.1002 = {
+    type = character_event
+    window = big_event_window
+    theme = seduction
+
+
+    override_background = {
+        reference = bno_seduce_rejection.1002
+    }
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_seduce_rejection.1002.title.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_seduce_rejection.1002.title.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_seduce_rejection.1002.title.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_seduce_rejection.1002.title.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_seduce_rejection.1002.title.05
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_seduce_rejection.1002.desc.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_seduce_rejection.1002.desc.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_seduce_rejection.1002.desc.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_seduce_rejection.1002.desc.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_seduce_rejection.1002.desc.05
+            }
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 1 }
+                        desc = bno_seduce_rejection.1002.a.01
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 2 }
+                        desc = bno_seduce_rejection.1002.a.02
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 3 }
+                        desc = bno_seduce_rejection.1002.a.03
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 4 }
+                        desc = bno_seduce_rejection.1002.a.04
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 5 }
+                        desc = bno_seduce_rejection.1002.a.05
+                    }
+                }
+            }
+        }
+        switch = {
+            trigger = scope:random_narrative
+            1 = {
+                pay_short_term_gold = {
+                    gold = minor_gold_value
+                    target = scope:target
+                }
+                scope:scheme = {
+                    set_variable = {
+                        name = bno_milestone_1
+                        value = scope:random_narrative
+                    }
+                }
+            }
+        }
+    }
+}
+# slut accept: pov cuck
+bno_seduce_rejection.1001 = {
+    type = character_event
+    window = big_event_window
+    theme = seduction
+
+
+    override_background = {
+        reference = bno_seduce_rejection.1001
+    }
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_seduce_rejection.1001.title.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_seduce_rejection.1001.title.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_seduce_rejection.1001.title.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_seduce_rejection.1001.title.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_seduce_rejection.1001.title.05
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:random_narrative = 1 }
+                desc = bno_seduce_rejection.1001.desc.01
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 2 }
+                desc = bno_seduce_rejection.1001.desc.02
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 3 }
+                desc = bno_seduce_rejection.1001.desc.03
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 4 }
+                desc = bno_seduce_rejection.1001.desc.04
+            }
+            triggered_desc = {
+                trigger = { scope:random_narrative = 5 }
+                desc = bno_seduce_rejection.1001.desc.05
+            }
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 1 }
+                        desc = bno_seduce_rejection.1001.a.01
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 2 }
+                        desc = bno_seduce_rejection.1001.a.02
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 3 }
+                        desc = bno_seduce_rejection.1001.a.03
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 4 }
+                        desc = bno_seduce_rejection.1001.a.04
+                    }
+                    triggered_desc = {
+                        trigger = { scope:random_narrative = 5 }
+                        desc = bno_seduce_rejection.1001.a.05
+                    }
+                }
+            }
+        }
+        switch = {
+            trigger = scope:random_narrative
+            1 = {
+                show_as_tooltip = {
+                    scope:owner = {
+                        pay_short_term_gold = {
+                            gold = minor_gold_value
+                            target = root
+                        }
                     }
                 }
             }

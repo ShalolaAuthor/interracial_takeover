@@ -9,8 +9,8 @@ seduce_ongoing_milestone_1 = {
             limit = {
                 scope:target = { is_slut = yes }
             }
-            scope:target = {
-                trigger_event = bno_seduce_rejection.0001
+            scope:owner = {
+                trigger_event = bno_seduce_rejection.0002
             }
         }
         else = {

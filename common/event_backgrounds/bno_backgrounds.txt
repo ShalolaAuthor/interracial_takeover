@@ -9,3 +9,36 @@ bno_brotherhood_bargain = {
         reference = "gfx/interface/illustrations/event_scenes/bno_brotherhood_bargain.dds"
     }
 }
+#slut init
+bno_seduce_rejection.0001 = {
+    background = {
+        trigger = {
+            scope:random_narrative = 1
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0001.01.dds"
+    }
+}
+#cuck init
+bno_seduce_rejection.0002 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0002.dds"
+    }
+}
+#slut accept, pov cuck
+bno_seduce_rejection.1002 = {
+    background = {
+        trigger = {
+            scope:random_narrative = 1
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.1002.01.dds"
+    }
+}
+#slut accept, pov slut
+bno_seduce_rejection.1001 = {
+    background = {
+        trigger = {
+            scope:random_narrative = 1
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.1001.01.dds"
+    }
+}
