@@ -35,3 +35,7 @@ bno_ebony_bloom = {
     life_expectancy = 10
     years_of_fertility = 10
 }
+
+dd_italian_hate = {
+    italian_opinion = -10
+}

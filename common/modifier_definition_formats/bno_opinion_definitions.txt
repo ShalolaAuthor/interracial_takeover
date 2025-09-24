@@ -1,0 +1,3 @@
+﻿bnoc_opinion = {
+    decimals = 0
+}

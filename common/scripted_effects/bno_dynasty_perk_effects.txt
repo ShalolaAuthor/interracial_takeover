@@ -458,3 +458,52 @@ bno_disease_immunity = {
         remove_trait = $TRAIT$
     }
 }
+
+bno_fuck_every_one_in_exchange_for_gold = {
+    if = {
+		limit = {
+			is_bbc = yes
+		}
+        if = {
+            limit = {
+                has_variable = bno_trade_prestige_for_gold
+            }
+            random_spouse = {
+                limit = {
+                    is_slut = yes
+                }
+                save_scope_as = bno_whore
+            }
+            remove_variable = bno_trade_prestige_for_gold
+        }
+        else = {
+		    random_court_position_holder = {
+		    	type = bno_bbc_priestess_court_position
+		    	save_scope_as = bno_whore
+		    }
+        }
+	}
+	else = {
+		save_scope_as = bno_whore
+	}
+    every_living_character = {
+        limit = {
+            is_adult = yes
+            is_a_male = yes
+            is_bbc = yes
+            $TRIGGER_KEY$ = yes
+        }
+        bno_have_sex_with_effects = {
+            PARTNER = scope:bno_whore
+        }
+    }
+    every_living_character = {
+        limit = {
+            $TRIGGER_KEY$ = yes
+        }
+        pay_short_term_gold = {
+            target = root
+            gold = { 1 2 }
+        }
+    }
+}

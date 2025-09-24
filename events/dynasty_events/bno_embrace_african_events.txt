@@ -2452,3 +2452,125 @@ bno_embrace_african_5.0010 = {
         }
     }
 }
+
+bno_embrace_african_5.0011 = {
+    type = character_event
+    theme = faith
+    override_background = {
+        reference = bno_harvest_faithful
+    }
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0011.title.male
+            }
+            desc = bno_embrace_african_5.0011.title.female
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0011.desc.male
+            }
+            desc = bno_embrace_african_5.0011.desc.female
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_male = yes }
+                        desc = bno_embrace_african_5.0011.a.male
+                    }
+                    desc = bno_embrace_african_5.0011.a.female
+                }
+            }
+        }
+        if = {
+            limit = { is_a_male = yes }
+            custom_tooltip = {
+                text = bno_embrace_african_5.0011.effect.male
+                bno_fuck_every_one_in_exchange_for_gold = {
+                    TRIGGER_KEY = is_faith_bbcs
+                }
+            }
+        }
+        else = {
+            custom_tooltip = {
+                text = bno_embrace_african_5.0011.effect.female
+                bno_fuck_every_one_in_exchange_for_gold = {
+                    TRIGGER_KEY = is_faith_bbcs
+                }
+            }
+        }
+    }
+}
+
+bno_embrace_african_5.0012 = {
+    type = character_event
+    theme = faith
+    override_background = {
+        reference = bno_brotherhood_bargain
+    }
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0012.title.male
+            }
+            desc = bno_embrace_african_5.0012.title.female
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0012.desc.male
+            }
+            desc = bno_embrace_african_5.0012.desc.female
+        }
+    }
+
+    immediate = {
+        play_sound_effect = "event:/moans"
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_male = yes }
+                        desc = bno_embrace_african_5.0012.a.male
+                    }
+                    desc = bno_embrace_african_5.0012.a.female
+                }
+            }
+        }
+        if = {
+            limit = { is_a_male = yes }
+            custom_tooltip = {
+                text = bno_embrace_african_5.0012.effect.male
+                bno_fuck_every_one_in_exchange_for_gold = {
+                    TRIGGER_KEY = is_culture_bnoc
+                }
+            }
+        }
+        else = {
+            custom_tooltip = {
+                text = bno_embrace_african_5.0012.effect.female
+                bno_fuck_every_one_in_exchange_for_gold = {
+                    TRIGGER_KEY = is_culture_bnoc
+                }
+            }
+        }
+    }
+}

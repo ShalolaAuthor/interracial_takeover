@@ -1,0 +1,142 @@
+﻿bno_trade_piety_for_gold = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = bno_trade_piety_for_gold.title.male
+			}
+			desc = bno_trade_piety_for_gold.title.female
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = bno_trade_piety_for_gold.desc.male
+			}
+			desc = bno_trade_piety_for_gold.desc.female
+		}
+	}
+	selection_tooltip = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = bno_trade_piety_for_gold.tooltip.male
+			}
+			desc = bno_trade_piety_for_gold.tooltip.female
+		}
+	}
+	confirm_text = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = bno_trade_piety_for_gold.confirm.male
+			}
+			desc = bno_trade_piety_for_gold.confirm.female
+		}
+	}
+	decision_group_type = bno_decision_group
+	is_shown = {
+        bno_has_embrace_african_5 = yes
+	}
+	is_valid = {
+        trigger_if = {
+			limit = { is_bbc = yes }
+			any_court_position_holder = {
+				type = bno_bbc_priestess_court_position
+			}
+		}
+		trigger_else = {
+			any_spouse = {
+				is_bbc = yes
+			}
+		}
+	}
+	effect = {
+		custom_tooltip = bno_trade_piety_for_gold.effect
+		trigger_event = bno_embrace_african_5.0011
+	}
+	ai_check_interval = 1
+	ai_potential = {
+		bno_has_bbc_priest_or_priestess = yes
+	}
+	ai_will_do = {
+		base = 0
+		bno_white_girl_modifier_big = yes
+	}
+}
+
+bno_trade_prestige_for_gold = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = bno_trade_prestige_for_gold.title.male
+			}
+			desc = bno_trade_prestige_for_gold.title.female
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = bno_trade_prestige_for_gold.desc.male
+			}
+			desc = bno_trade_prestige_for_gold.desc.female
+		}
+	}
+	selection_tooltip = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = bno_trade_prestige_for_gold.tooltip.male
+			}
+			desc = bno_trade_prestige_for_gold.tooltip.female
+		}
+	}
+	confirm_text = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_a_male = yes }
+				desc = bno_trade_prestige_for_gold.confirm.male
+			}
+			desc = bno_trade_prestige_for_gold.confirm.female
+		}
+	}
+	decision_group_type = bno_decision_group
+	is_shown = {
+        bno_has_embrace_african_5 = yes
+	}
+	is_valid = {
+        trigger_if = {
+			limit = { is_bbc = yes }
+			any_spouse = {
+				is_slut = yes
+			}
+		}
+		trigger_else = {
+			any_spouse = {
+				is_bbc = yes
+			}
+		}
+	}
+	effect = {
+		set_variable = bno_trade_prestige_for_gold
+		custom_tooltip = bno_trade_prestige_for_gold.effect
+		trigger_event = bno_embrace_african_5.0012
+	}
+	ai_check_interval = 1
+	ai_potential = {
+		bno_has_bbc_priest_or_priestess = yes
+	}
+	ai_will_do = {
+		base = 0
+		bno_white_girl_modifier_big = yes
+	}
+}

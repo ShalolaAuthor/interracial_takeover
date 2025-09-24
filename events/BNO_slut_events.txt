@@ -32,6 +32,7 @@ bno_slut.0001 = {
 		does_blackbull_exist = yes
 	}
 	immediate = {
+		#play_music_cue = bno_moaning_loop
 		get_bbc_scope = {
 			SCOPE_NAME = bbc
 		}

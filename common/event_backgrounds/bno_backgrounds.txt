@@ -1,0 +1,11 @@
+﻿bno_harvest_faithful = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_harvest_faithful.dds"
+    }
+}
+
+bno_brotherhood_bargain = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_brotherhood_bargain.dds"
+    }
+}

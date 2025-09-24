@@ -348,6 +348,7 @@ bno_bbc = {
 		bno_whitegirl
 		bno_whiteboi
 		bno_chastity
+		bno_pussy_mileage
 	}
 	
 	same_opinion = 200
@@ -1721,6 +1722,10 @@ bno_pussy_mileage_1 = {
 	level = 1
 	shown_in_ruler_designer = no
 	physical = yes
+	opposites = {
+		bno_bbc
+	}
+	opposite_opinion = 20
 	attraction_opinion = 50
 	spouse_opinion = 50
 	track = {
@@ -1754,6 +1759,10 @@ bno_pussy_mileage_2 = {
 	level = 2
 	shown_in_ruler_designer = no
 	physical = yes
+	opposites = {
+		bno_bbc
+	}
+	opposite_opinion = 40
 	attraction_opinion = 35
 	spouse_opinion = 35
 	fertility = -0.3
@@ -1785,6 +1794,10 @@ bno_pussy_mileage_3 = {
 	level = 3
 	shown_in_ruler_designer = no
 	physical = yes
+	opposites = {
+		bno_bbc
+	}
+	opposite_opinion = 60
 	attraction_opinion = 25
 	spouse_opinion = 25
 	fertility = -0.5
@@ -1816,6 +1829,10 @@ bno_pussy_mileage_4 = {
 	level = 4
 	shown_in_ruler_designer = no
 	physical = yes
+	opposites = {
+		bno_bbc
+	}
+	opposite_opinion = 80
 	attraction_opinion = 15
 	spouse_opinion = 15
 	fertility = -0.7
@@ -1847,6 +1864,10 @@ bno_pussy_mileage_5 = {
 	level = 5
 	shown_in_ruler_designer = no
 	physical = yes
+	opposites = {
+		bno_bbc
+	}
+	opposite_opinion = 100
 	attraction_opinion = 5
 	spouse_opinion = 5
 	fertility = -0.9
@@ -1877,6 +1898,10 @@ bno_pussy_mileage_6 = {
 	group = bno_pussy_mileage
 	level = 6
 	physical = yes
+	opposites = {
+		bno_bbc
+	}
+	opposite_opinion = 200
 	shown_in_ruler_designer = no
 	attraction_opinion = -50
 	spouse_opinion = -50

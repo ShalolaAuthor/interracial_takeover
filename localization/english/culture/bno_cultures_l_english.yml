@@ -9,3 +9,5 @@
 
  heritage_bnoc_name: "African"
  heritage_bnoc_collective_noun: "Africans"
+
+ bnoc_opinion: "$bnoc$ Opinion"

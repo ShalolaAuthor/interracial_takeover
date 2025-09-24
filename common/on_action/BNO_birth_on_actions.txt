@@ -57,15 +57,13 @@ bno_black_birth = {
 		}
 		if = {
 			limit = {
-				scope:child = {
+				scope:child ?= {
 					has_trait = bno_blood
 				}
-				exists = scope:real_father
 				scope:real_father ?= {
 					is_bbc = yes
 					NOT = { is_spouse_of = scope:mother }
 				}
-				exists = scope:father
 				scope:father ?= {
 					is_bbc = no
 					is_spouse_of = scope:mother
