@@ -1,0 +1,44 @@
+﻿#make sure seduce will fail if a white guy is seducing a cock addicted slut
+
+seduce_ongoing_milestone_1 = {
+    trigger = {
+        exists = scope:scheme
+    }
+    effect = {
+        if = {
+            limit = {
+                scope:target = { is_slut = yes }
+            }
+            scope:target = {
+                trigger_event = bno_seduce_rejection.0001
+            }
+        }
+        else = {
+            trigger_event = { on_action = bno_non_slut_seduce_ongoing_milestone_1 }
+        }
+    }
+    random_events = {}
+}
+
+bno_non_slut_seduce_ongoing_milestone_1 = {
+    trigger = {
+		exists = scope:scheme
+	}
+	random_events = { # Any added events must set and remove scheme_event_active_flag to prevent simultaneous firing in MP
+		25 = seduce_ongoing.1101 #Send an expensive gift
+		25 = seduce_ongoing.1102 #Send a handmade gift
+		25 = seduce_ongoing.1103 #Send a small gift
+		25 = seduce_ongoing.1104 #Send a special gift
+		100 = seduce_ongoing.1801 #Give a compliment
+		100 = seduce_ongoing.3001 #Do something for someone close to target
+		100 = seduce_ongoing.4001 #A Troubadour at Target's Court
+		100 = seduce_ongoing.5201 #Seducing a friend
+		100 = seduce_ongoing.5301 #Seducing close family - A Moment Alone
+		#100 = seduce_ongoing.6041 #Spy on their preferences
+		100 = seduce_ongoing.7001 #Target is shy
+		100 = bp2_yearly.8080 #You have a ward
+
+		#Apply scheme modifiers from saved variables
+		1000 = personal_scheme_ongoing.1000 #Apply exotic wares modifier you procured while on a pilgrimage
+	}
+}

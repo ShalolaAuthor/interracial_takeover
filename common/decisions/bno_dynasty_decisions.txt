@@ -39,6 +39,16 @@
 		}
 	}
 	decision_group_type = bno_decision_group
+	cooldown = {
+		years = 5
+	}
+	cost = {
+		piety = {
+			value = piety
+			multiply = 0.2
+			min = 10000
+		}
+	}
 	is_shown = {
         bno_has_embrace_african_5 = yes
 	}
@@ -110,6 +120,16 @@ bno_trade_prestige_for_gold = {
 		}
 	}
 	decision_group_type = bno_decision_group
+	cooldown = {
+		years = 5
+	}
+	cost = {
+		prestige = {
+			value = prestige
+			multiply = 0.2
+			min = 10000
+		}
+	}
 	is_shown = {
         bno_has_embrace_african_5 = yes
 	}
