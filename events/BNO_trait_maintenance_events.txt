@@ -342,6 +342,7 @@ bno_trait_maintenance.0014 = {
 			}
 			liege ?= {
 				send_interface_message = {
+					type = bno_blacked_events
 					title = {
 						first_valid = {
 							triggered_desc = {
@@ -390,10 +391,16 @@ bno_trait_maintenance.0015 = {
 			}
 			scope:cager ?= {
 				send_interface_message = {
+					type = bno_blacked_events
+					right_icon = root
 					title = {
 						first_valid = {
 							triggered_desc = {
-								trigger = { is_bbc = yes }
+								trigger = { 
+									scope:cager = {
+										is_bbc = yes
+									}
+								 }
 								desc = bno_trait_maintenance.0015.title.bbc
 							}
 							desc = bno_trait_maintenance.0015.title.slut
@@ -402,7 +409,11 @@ bno_trait_maintenance.0015 = {
 					desc = {
 						first_valid = {
 							triggered_desc = {
-								trigger = { is_bbc = yes }
+								trigger = {
+									scope:cager = {
+										is_bbc = yes
+									}
+								}
 								desc = bno_trait_maintenance.0015.desc.bbc
 							}
 							desc = bno_trait_maintenance.0015.desc.slut

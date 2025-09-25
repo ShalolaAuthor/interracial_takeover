@@ -1,0 +1,159 @@
+﻿bno_carnal_court_enter_court_effect = {
+    # Saves player as ruler, since Royal Court does ask for that scope hardcoded.
+    # Saves the liege as ruler when player is vassal and below king tier, since the game tries to open the liege's court.
+    if = {
+        limit = {
+            has_royal_court = no
+            is_independent_ruler = no
+        }
+        liege = { save_scope_as = ruler }
+    }
+    else = {
+        save_scope_as = ruler
+    }
+    set_global_variable = {
+        name = carnal_court_sex_animation_event
+        value = yes
+        days = 30 # So court won't break when something goes wrong
+    }
+    
+    set_global_variable = {
+        name = carn_sex_player
+        value = scope:carn_sex_player
+        days = 30 # So court won't break when something goes wrong
+    }
+    set_global_variable = {
+        name = carn_sex_partner
+        value = scope:carn_sex_partner
+        days = 30 # So court won't break when something goes wrong
+    }
+    scope:carn_sex_player = {
+        add_character_flag = {
+            flag = sex_animation_event
+            days = 30 # So court won't break when something goes wrong
+        }
+    }
+    scope:carn_sex_partner = {
+        add_character_flag = {
+            flag = sex_animation_event
+            days = 30 # So court won't break when something goes wrong
+        }
+    }
+    scope:ruler = {
+        bno_carnal_court_evaluate_sex_location_culture_effect = yes
+    }
+}
+
+bno_carnal_court_leave_court_effect = {
+    scope:carn_sex_player = {
+        carn_dress_character_effect = yes
+        remove_character_flag = sex_animation_event
+        remove_variable = sex_animation
+        remove_variable = offset_xp255
+        remove_variable = offset_yp255
+        remove_variable = offset_zp255
+        remove_variable = offset_xn255
+        remove_variable = offset_yn255
+        remove_variable = offset_zn255
+        carn_sex_scene_clean_up_character_flags_effect = yes
+    }
+    scope:carn_sex_partner = {
+        carn_dress_character_effect = yes
+        remove_character_flag = sex_animation_event
+        remove_variable = sex_animation
+        remove_variable = offset_xp255
+        remove_variable = offset_yp255
+        remove_variable = offset_zp255
+        remove_variable = offset_xn255
+        remove_variable = offset_yn255
+        remove_variable = offset_zn255
+        carn_sex_scene_clean_up_character_flags_effect = yes
+    }
+    scope:ruler = {
+        remove_character_flag = carnal_court_sex_western
+        remove_character_flag = carnal_court_sex_mediterranean
+        remove_character_flag = carnal_court_sex_mena
+        remove_character_flag = carnal_court_sex_indian
+    }
+
+    carn_sex_scene_clean_up_flags_effect = yes
+    remove_global_variable = sex_animation_event
+    remove_global_variable = carn_sex_player
+    remove_global_variable = carn_sex_partner
+
+    close_view = {
+        view = royal_court
+        player = root
+    }
+}
+
+bno_carnal_court_evaluate_sex_location_culture_effect = {
+    if = {
+        limit = {
+            scope:carn_sex_partner.location.culture = {
+                OR = {
+                    has_graphical_western_culture_group_trigger = yes
+                    has_graphical_norse_culture_group_trigger = yes
+                }
+            }
+        }
+        add_character_flag = {
+            flag = carnal_court_sex_western
+            days = 30 # So court won't break when something goes wrong
+        }
+    }
+    else_if = {
+        limit = {
+            scope:carn_sex_partner.location.culture = {
+                OR = {
+                    has_graphical_mediterranean_culture_group_trigger = yes
+                    AND = {
+                        has_graphical_iberian_culture_group_trigger  = yes
+                        NOT = { prev.religion = religion:islam_religion }
+                    }
+                }
+            }
+        }
+        add_character_flag = {
+            flag = carnal_court_sex_mediterranean
+            days = 30 # So court won't break when something goes wrong
+        }
+    }
+    else_if = {
+        limit = {
+            scope:carn_sex_partner.location.culture = {
+                OR = {
+                    has_graphical_mena_culture_group_trigger = yes
+                    has_graphical_iranian_culture_group_trigger = yes
+                    has_graphical_african_culture_group_trigger = yes
+                    has_graphical_steppe_culture_group_trigger = yes
+                    AND = {
+                        has_graphical_iberian_culture_group_trigger  = yes
+                        prev.religion = religion:islam_religion
+                    }
+                }
+            }
+        }
+        add_character_flag = {
+            flag = carnal_court_sex_mena
+            days = 30 # So court won't break when something goes wrong
+        }
+    }
+    else_if = {
+        limit = {
+            scope:carn_sex_partner.location.culture = {
+                has_graphical_india_culture_group_trigger = yes
+            }
+        }
+        add_character_flag = {
+            flag = carnal_court_sex_indian
+            days = 30 # So court won't break when something goes wrong
+        }
+    }
+    else = {
+        add_character_flag = {
+            flag = carnal_court_sex_western # Fallback
+            days = 30 # So court won't break when something goes wrong
+        }
+    }
+}

@@ -478,7 +478,7 @@ bno_court_sex_scene_effect = {
     save_scope_as = carn_sex_player
     $PARTNER$ = { save_scope_as = carn_sex_partner }
     scope:carn_sex_player = {
-        carnal_court_enter_court_effect = yes
+        bno_carnal_court_enter_court_effect = yes
     }
 }
 
