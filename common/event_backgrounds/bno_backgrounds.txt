@@ -9,36 +9,108 @@ bno_brotherhood_bargain = {
         reference = "gfx/interface/illustrations/event_scenes/bno_brotherhood_bargain.dds"
     }
 }
-#slut init
-bno_seduce_rejection.0001 = {
-    background = {
-        trigger = {
-            scope:random_narrative = 1
-        }
-        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0001.01.dds"
-    }
-}
 #cuck init
 bno_seduce_rejection.0002 = {
     background = {
         reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0002.dds"
     }
 }
-#slut accept, pov cuck
-bno_seduce_rejection.1002 = {
+#slut init
+bno_seduce_rejection.init = {
     background = {
         trigger = {
             scope:random_narrative = 1
         }
-        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.1002.01.dds"
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0001.01.dds"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 2
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0001.02.dds"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 3
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0001.03.dds"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 4
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0001.04.dds"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 5
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0001.05.dds"
     }
 }
-#slut accept, pov slut
-bno_seduce_rejection.1001 = {
+#slut accept
+bno_seduce_rejection.accepted = {
     background = {
         trigger = {
             scope:random_narrative = 1
         }
-        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.1001.01.dds"
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.accepted.01.dds"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 2
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.accepted.02.dds"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 3
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.accepted.03.dds"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 4
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.accepted.04.dds"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 5
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.accepted.05.dds"
+    }
+}
+#slut reject
+bno_seduce_rejection.rejected = {
+    background = {
+        trigger = {
+            scope:random_narrative = 1
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.rejected.01.dds"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 2
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.rejected.02.dds"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 3
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.rejected.03.dds"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 4
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.rejected.04.dds"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 5
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.rejected.05.dds"
     }
 }

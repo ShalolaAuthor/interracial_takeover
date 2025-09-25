@@ -1323,6 +1323,9 @@ get_hated_non_black_courtier_scope = {
 }
 
 bno_have_sex_with_effects = {
+	add_character_flag = was_recently_suspected_of_adultery
+	$PARTNER$ = { add_character_flag = was_recently_suspected_of_adultery }
+	
 	save_scope_as = bno_sex_initiator
 	carn_sex_scene_character_is_giving_player_effect = yes
 	carn_sex_scene_is_consensual_effect = yes
