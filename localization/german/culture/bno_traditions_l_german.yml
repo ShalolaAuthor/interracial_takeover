@@ -1,0 +1,17 @@
+﻿l_german:
+
+tradition_group_bno: "BNWO" # AI Tags
+
+tradition_bno_matriarchy_name: "Samen-Matriarchie" # AI Tags
+tradition_bno_matriarchy_desc: "Die Kraft tropft von Mutterleib zu Mutterleib hinunter. Throne werden an fruchtbare Schlampen weitergegeben, Gesetze beugen sich ihren Stöhnen, und Armeen marschieren mit Frauen, die als Seedthralls geschworen sind. Königinnen herrschen nur, weil Bullen es zulassen – jede Krone ein Halsband, jedes Zepter einen Dildo, jeder Sieg endet mit weißem Fleisch, ausgebreitet und gefüllt. Das Reich selbst wird neu geschaffen: weibliche Hände greifen das Gesetz, weibliche Löcher halten die Ordnung aufrecht, alles im Dienste des schwarzen Schwanzes." # AI Tags
+
+bno_tradition.curious: "$EFFECT_LIST_BULLET$Ihre Black Curiosity lässt Kapitulation billiger kommen, Oberschenkel schmerzen schon vor Knien." # AI Tags
+bno_tradition.blacked: "$EFFECT_LIST_BULLET$Sobald Blacked, Tradition biegt sich leicht zu den Löchern, die Bullen sehnen wieder." # AI Tags
+bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$Als Snowbunny springt sie zum Gehorsam, die Kosten, die durch ihren Hunger aufgehellt werden." # AI Tags
+bno_tradition.qos: "$EFFECT_LIST_BULLET$Eine gekrönte Königin der Spaten zahlt weniger, ihr jedes Gesetz bereits in Hahn geschrieben." # AI Tags
+bno_tradition.mindless: "$EFFECT_LIST_BULLET$Mindless und drooling, sie liefert für fast nichts, ein Loch von Samen geformt." # AI Tags
+
+culture_parameter_unlock_maa_seed_thralls: "Kann rekrutieren [GetMaA('bno_seed_thralls').GetName] als [men_at_arms|E], weiße Schlampen, die nur kämpfen, um zu knien und von Bullen gezüchtet werden." # AI Tags
+
+tradition_bno_african_hate_name: "Angst vor dem Stier" # AI Tags
+tradition_bno_african_hate_desc: "Nichtafrikanische Kulturen klammern sich an diese bittere Tradition, deren blasser Stolz sich in Hass verwandelt. Sie flüstern von Bullen mit zitternden Lippen, hassen, was sie nicht widerstehen können, verabscheuen, was ihre Schlampen immer noch sehnen. Jedes Gesetz, jeder Brauch, ist nur eine schwache Mauer gegen die Flut des schwarzen Schwanzes." # AI Tags

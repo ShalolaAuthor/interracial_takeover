@@ -1,0 +1,17 @@
+﻿l_spanish:
+
+tradition_group_bno: "BNWO" # AI Tags
+
+tradition_bno_matriarchy_name: "Matriarquia sembrada" # AI Tags
+tradition_bno_matriarchy_desc: "El poder gotea de útero a útero. Los tronos se pasan a las putas fértiles, las leyes se doblan a sus gemidos, y los ejércitos marchan con mujeres juradas como Seedthralls. Las reinas gobiernan sólo porque los toros lo permiten, cada corona un collar, cada cetro un consolador, cada victoria que termina con la carne blanca esparcida y rellena. El reino mismo se rehace: las manos femeninas agarran la ley, los agujeros femeninos mantienen el orden, todo al servicio de la polla negra." # AI Tags
+
+bno_tradition.curious: "$EFFECT_LIST_BULLET$Su Curiosidad Negra hace que la rendición sea más barata, los muslos ya duelen de rodillas." # AI Tags
+bno_tradition.blacked: "$EFFECT_LIST_BULLET$Una vez ennegrecida, la tradición se dobla fácilmente a los agujeros que ansían a los Toros de nuevo." # AI Tags
+bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$Como una Snowbunny, ella salta a obedecer, el costo aligerado por su hambre." # AI Tags
+bno_tradition.qos: "$EFFECT_LIST_BULLET$Una reina coronada de espadas paga menos, todas sus leyes ya escritas en polla." # AI Tags
+bno_tradition.mindless: "$EFFECT_LIST_BULLET$Sin sentido y babeando, ella cede por casi nada, un agujero formado por semilla." # AI Tags
+
+culture_parameter_unlock_maa_seed_thralls: "Puede reclutar [GetMaA('bno_seed_thralls').GetName] como [men_at_arms|E], putas blancas que luchan sólo para arrodillarse y ser criadas por Bulls." # AI Tags
+
+tradition_bno_african_hate_name: "El miedo al toro" # AI Tags
+tradition_bno_african_hate_desc: "Las culturas no africanas se aferran a esta amarga tradición, y su pálido orgullo se convierte en odio. Susurran de Toros con labios temblorosos, odian lo que no pueden resistir, odian lo que sus putas todavía anhelan. Cada ley, cada costumbre, es sólo una pared débil contra la marea de la polla negra." # AI Tags

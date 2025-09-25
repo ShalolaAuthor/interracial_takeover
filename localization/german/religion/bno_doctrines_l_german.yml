@@ -12,3 +12,9 @@ doctrine_bno_tenets_name: "[bno_religion|E]: Zelte" # AI Tags
 
 tenet_bno_black_cock_conquest_name: "Die schwarze Schwanz Eroberung" # AI Tags
 tenet_bno_black_cock_conquest_desc: "Durch inbrünstiges Gebet und heilige Eroberung werden wir die Herrlichkeit der [bno_bbc|E] quer durchs Land!" # AI Tags
+
+tenet_bno_hate_name: "Hass der schwarz schwanz"   # AI Tags
+tenet_bno_hate_desc: "Jedes Glaubensbekenntnis der blassen Welt kehrt vor dem [GetFaithByKey('bbcs').GetName]… Sie sehen nur Lästerung in unserer Anbetung, nur Verderben in unserem Samen, nur Schande in unserer Herrschaft über ihre Frauen. Für sie ist unser Evangelium Korruption, unsere Riten obszön, unsere Bullen Teufel im Fleisch. Und dennoch zittern sie – denn ihr Hass kann den Aufstieg der [bno_bbc|E]." # AI Tags
+
+tenet_bno_aniconism_name: "Anbetung des Fleisches"   # AI Tags
+tenet_bno_aniconism_desc: "Die Anbetung der geschnitzten Bilder verblendet die Schwachen für die einzige göttliche Wahrheit: die Lebenden [bno_bbc|E]… Wir warfen alle Götzen aus unseren heiligen Stätten, damit kein falsches Gesicht sie entweihe. Nur Fleisch ist heilig, und nur der schwarze Schwanz ist der Hingabe würdig."   # AI Tags

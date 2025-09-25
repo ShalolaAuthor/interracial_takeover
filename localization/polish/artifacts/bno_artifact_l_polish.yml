@@ -1,7 +1,7 @@
 ﻿l_polish:
 
 artifact_slot_chastity: "Urządzenie o czystości" # AI Tags
-chastity: "Czystość" # AI Tags
+chastity: "Urządzenia płciowe" # AI Tags
 artifact_bno_chastity_cage: "Klatka czystości" # AI Tags
 
 artifact_bno_chastity_cage.caged_by.wife: "Żelazna klatka, zimna i niepodlegająca, zamknięta przez własną żonę. Zwróciła klucz, który zakończył jego męskość, wiążąc go na zawsze, podczas gdy otwiera się na Bulls. /Kiedy zostanie zamknięty, /mięso w środku uschnie, /szcząc się tydzień po tydzień, /że nic nie pozostanie, /po prostu bezużyteczny śmiech. /Żywy żart drżący w jego biodrach." # AI Tags

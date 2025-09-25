@@ -236,3 +236,7 @@ trait_bno_chastity_futa: "Verwüstete Futas" # AI Tags
 
 trait_bno_bull: "Bull." # AI Tags
 trait_bno_bull_desc: "Ein wahrer [bno_bull|E]- Dieser Mann hat mehr getan als Rut. Er hat eine blasse Schlampe in eine [bno_cum_slave|E], ein Gefäß, das allein an seinen Schwanz und Samen gebunden ist. Seine Männlichkeit und Macht inspirieren Angst und Gehorsam; sein Cum Slave ist ein lebendiger Beweis dafür, dass [bno_bnwo|E] ist kein Traum, sondern ein Naturgesetz. Wo andere durch Krone oder Schwert herrschen, regiert er mit seinem Schaft – sein Same baut sowohl Armeen als auch Reiche auf." # AI Tags
+
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$Leiden nein [extramarital_sex|E] Sanktionen bei Zucht oder Zucht außerhalb der Ehe."   # AI Tags
+
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$Andere leiden an [extramarital_sex|E] Strafen bei der Zucht mit diesem Charakter."   # AI Tags

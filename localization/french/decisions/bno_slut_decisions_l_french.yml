@@ -153,3 +153,33 @@ bno_events00.too_little_bbc: "Votre salle est vide de [bno_bbcs|E]C'est vrai. Av
 bno_invite_slut_decision.too_little_white_girl: "Votre cour est mince de petites salopes pâles. Il faut en inviter d'autres, pour chaque salle qui gonfle au pouvoir – et au péril – lorsque des putes blanches sont rassemblées sous un même toit." # AI Tags
 
 bno_becoming_bbc_slut.has_bbc_in_court: "Il doit y en avoir au moins une [bno_bbc|E] dans votre cour pour commencer cette voie. Sans un taureau pour vous réclamer, votre chute dans l'esclavage ne peut pas commencer." # AI Tags
+
+bno_trade_piety_for_gold.title.male: "Récoltez les fidèles"   # AI Tags
+bno_trade_piety_for_gold.title.female: "Récoltez les fidèles"   # AI Tags
+
+bno_trade_piety_for_gold.desc.male: "En tant que maître de la [GetFaithByKey('bbcs').GetName]La cathédrale, vous maniez la dévotion des Bulls et des salopes. Leur culte est plus que des gémissements et de la semence — ils versent leur or dans vos mains, certains que chaque pièce sert la circonférence divine de la [bno_bbc|E]."   # AI Tags
+
+bno_trade_piety_for_gold.desc.female: "En tant que la salope bénie de Black-Cock de la [GetFaithByKey('bbcs').GetName], votre piété goutte à goutte inspire les fidèles. Ils vident leurs sacs aussi avidement qu'ils étendaient leurs cuisses, offrant de la monnaie et de la chair pour alimenter votre cause sainte de Bull."   # AI Tags
+
+bno_trade_piety_for_gold.tooltip.male: "Dépenser [piety|E] pour ordonner aux fidèles de dîme, enfler votre [gold|E]."   # AI Tags
+bno_trade_piety_for_gold.tooltip.female: "Dépenser [piety|E] pour remuer votre troupeau en tribut, leur convoitise et leur or qui coulent vers vous."   # AI Tags
+
+bno_trade_piety_for_gold.confirm.male: "convoque l'or du troupeau au nom du Black Cock."   # AI Tags
+bno_trade_piety_for_gold.confirm.female: "convoque l'or des fidèles pour ma gloire de Bull."   # AI Tags
+
+bno_trade_piety_for_gold.effect: "Convertir [piety|E] dans [gold|E] par les offrandes lubriques des fidèles."   # AI Tags
+
+bno_trade_prestige_for_gold.title.male: "La Fraternité est un sujet de négociation"   # AI Tags
+bno_trade_prestige_for_gold.title.female: "La Fraternité est un sujet de négociation"   # AI Tags
+
+bno_trade_prestige_for_gold.desc.male: "Votre prestige ne se mesure pas uniquement en paroles, mais en chair offerte. Pour prouver ta loyauté envers la fraternité, tu as mis ta femme à l'écart de ta famille. Des taureaux la montent l'un après l'autre, des graines se répandant profondément, et quand leur convoitise est épuisée, ils montent de l'or à vos pieds en tribut."   # AI Tags
+
+bno_trade_prestige_for_gold.desc.female: "Votre renommée parmi les taureaux est prouvée par votre corps. Vous vous déshabillez nu, vous répandez largement devant vos parents, gémissant comme chaque Bull vous utilise à tour de rôle. Avec chaque point culminant, ils pressent la pièce dans vos mains, leur grain coule dans vos cuisses avec leur or."   # AI Tags
+
+bno_trade_prestige_for_gold.tooltip.male: "Dépenser [prestige|E] en offrant à votre femme des trous aux taureaux, en gagnant [gold|E] après son utilisation."   # AI Tags
+bno_trade_prestige_for_gold.tooltip.female: "Dépenser [prestige|E] en offrant votre propre corps aux taureaux, en gagnant [gold|E] après leur utilisation."   # AI Tags
+
+bno_trade_prestige_for_gold.confirm.male: "Oui, que ma femme serve les taureaux pour l'or."   # AI Tags
+bno_trade_prestige_for_gold.confirm.female: "Oui, je servirai les taureaux moi-même pour l'or."   # AI Tags
+
+bno_trade_prestige_for_gold.effect: "Convertir [prestige|E] dans [gold|E] par le service sacré à la fraternité africaine."   # AI Tags

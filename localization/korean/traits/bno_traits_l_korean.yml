@@ -236,3 +236,7 @@ trait_bno_chastity_futa: "파괴 된 푸타스" # AI Tags
 
 trait_bno_bull: "황소" # AI Tags
 trait_bno_bull_desc: "진실한 [bno_bull|E]이 남자는 그냥 똥보다 더 많은 일을 했습니다. 그는 한 창녀를 [bno_cum_slave|E], 그의 똥과 씨앗에만 묶여있는 배. 그의 남성성과 힘은 두려움과 순종을 불러일으킨다. 그의 Cum 노예는 살아있는 증거입니다 [bno_bnwo|E] 꿈이 아니라 자연의 법칙입니다. 다른 사람들이 왕관이나 검으로 통치할 때, 그는 그의 을 가지고 통치합니다. 그의 씨앗은 군대와 제국을 건설합니다." # AI Tags
+
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$고통은 없습니다 [extramarital_sex|E] 결혼 밖에서 양육되거나 양육되는 경우에는 처벌을 받게 됩니다."   # AI Tags
+
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$다른 사람들은 고통받지 않습니다 [extramarital_sex|E] 이 성격을 가진 새끼를 번식시키면 처벌을 받을 수 있습니다."   # AI Tags

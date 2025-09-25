@@ -236,3 +236,7 @@ trait_bno_chastity_futa: "Zniszczony futas" # AI Tags
 
 trait_bno_bull: "Byka" # AI Tags
 trait_bno_bull_desc: "Prawdziwy [bno_bull|E]ten człowiek zrobił więcej niż tylko rutynę. Złamał blałą dziwkę [bno_cum_slave|E], statek przywiązany do swojego kutasa i nasienia tylko. Jego męskość i moc inspirują strach i posłuszeństwo; jego Cum Slav jest żywym dowodem, że [bno_bnwo|E] To nie sen, ale prawo natury. Tam gdzie inni rządzą koroną lub mieczem, on rządzi swoim szczurem, jego nasieniem budując zarówno armię, jak i imperium." # AI Tags
+
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$Nie cierpi [extramarital_sex|E] kary w przypadku hodowli lub hodowli poza małżeństwem."   # AI Tags
+
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$Inni nie cierpią [extramarital_sex|E] kary w przypadku rozmnażania się z tym charakterem."   # AI Tags

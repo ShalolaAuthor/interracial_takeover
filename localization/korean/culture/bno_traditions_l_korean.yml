@@ -1,0 +1,17 @@
+﻿l_korean:
+
+tradition_group_bno: "BNWO" # AI Tags
+
+tradition_bno_matriarchy_name: "씨드 매트리아키" # AI Tags
+tradition_bno_matriarchy_desc: "힘은 자궁에서 자궁으로 떨어집니다. 왕좌는 비옥한 창녀들에게 넘겨지고 법은 그들의 울음에도 굴복하고 군대가 시드틀로 맹세한 여성들과 함께 행진한다. 퀸은 오직 툴스가 허용하기 때문에 통치합니다. 모든 왕관에는 목걸이, 모든 왕관에는 딜도, 모든 승리는 흰색 육신으로 끝납니다. 왕국 자체는 새롭게 만들어졌습니다. 여성 손은 법을 붙잡고, 여성 구멍은 질서를 지키고, 모두 블랙 에게 봉사합니다." # AI Tags
+
+bno_tradition.curious: "$EFFECT_LIST_BULLET$그녀의 흑색 호기심은 항복을 더 저렴하게 만듭니다. 허리들은 이미 무릎을 꿇기 위해 통증이 있습니다." # AI Tags
+bno_tradition.blacked: "$EFFECT_LIST_BULLET$한 번 흑인이 되면 전통은 다시 황소를 갈망하는 구멍에 쉽게 굴복한다." # AI Tags
+bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$눈벌레처럼, 그녀는 순종하기 위해 뛰어납니다. 그녀의 굶주림으로 인해 비용이 덜어집니다." # AI Tags
+bno_tradition.qos: "$EFFECT_LIST_BULLET$왕관된 스파드 여왕은 더 적은 돈을 지불하고, 그녀의 모든 법은 이미 엉덩이에 쓰여있다." # AI Tags
+bno_tradition.mindless: "$EFFECT_LIST_BULLET$무의식적이고 땀을 흘리는 그녀는 거의 아무 것도 포기하지 않습니다. 씨앗으로 형성된 구멍입니다." # AI Tags
+
+culture_parameter_unlock_maa_seed_thralls: "모집할 수 있다 [GetMaA('bno_seed_thralls').GetName] 과 같이 [men_at_arms|E]부복하고 황소들에게 키우기 위해 싸운 백인 창녀들." # AI Tags
+
+tradition_bno_african_hate_name: "황소 의 두려움" # AI Tags
+tradition_bno_african_hate_desc: "비아프리카 문화들은 이 쓴 전통에 집착하고 그들의 희미한 자부심이 증오로 변하고 있습니다. 그들은 떨고 있는 입술을 가진 황소들을 속삭이고, 저항할 수 없는 것을 미워하고, 그들의 창녀들이 여전히 갈망하는 것을 혐오한다. 모든 법, 모든 관습은 블랙 의 흐름에 대한 약한 벽일 뿐입니다." # AI Tags

@@ -153,3 +153,33 @@ bno_events00.too_little_bbc: "Tu salón está vacío de [bno_bbcs|E]. Con menos 
 bno_invite_slut_decision.too_little_white_girl: "Tu corte está delgada de putas pálidas. Hay que invitar a más, porque cada salón se hincha en poder —y en peligro— cuando las putas blancas se reúnen bajo un mismo techo." # AI Tags
 
 bno_becoming_bbc_slut.has_bbc_in_court: "Debe haber al menos uno [bno_bbc|E] en su corte para comenzar este camino. Sin un Toro que te reclame, tu caída en la esclavitud no puede comenzar." # AI Tags
+
+bno_trade_piety_for_gold.title.male: "Cosecha a los fieles"   # AI Tags
+bno_trade_piety_for_gold.title.female: "Cosecha a los fieles"   # AI Tags
+
+bno_trade_piety_for_gold.desc.male: "Como maestro de la [GetFaithByKey('bbcs').GetName]De la Catedral, usted maneja la devoción de los toros y las putas por igual. Su adoración es más que gemidos y semillas, derraman su oro en tus manos, seguros de que cada moneda sirve a la divina circunferencia del [bno_bbc|E]."   # AI Tags
+
+bno_trade_piety_for_gold.desc.female: "Como la puta negra-cock-bendecida de la [GetFaithByKey('bbcs').GetName], su piedad goteante inspira a los fieles. Vacian sus carteras tan ansiosamente como extienden sus muslos, ofreciendo moneda y carne por igual para alimentar la santa causa de tu Toro."   # AI Tags
+
+bno_trade_piety_for_gold.tooltip.male: "Gasto [piety|E] para ordenar a los fieles que diezmen, hinchando su [gold|E]."   # AI Tags
+bno_trade_piety_for_gold.tooltip.female: "Gasto [piety|E] para agitar tu rebaño en tributo, su lujuria y oro fluyendo hacia ti."   # AI Tags
+
+bno_trade_piety_for_gold.confirm.male: "Convoca el oro del rebaño en nombre del Gallo Negro."   # AI Tags
+bno_trade_piety_for_gold.confirm.female: "Convocad el oro de los fieles para la gloria de mi Toro."   # AI Tags
+
+bno_trade_piety_for_gold.effect: "Convertir [piety|E] en [gold|E] a través de las ofrendas lujuriosas de los fieles."   # AI Tags
+
+bno_trade_prestige_for_gold.title.male: "La negociación de la Hermandad"   # AI Tags
+bno_trade_prestige_for_gold.title.female: "La negociación de la Hermandad"   # AI Tags
+
+bno_trade_prestige_for_gold.desc.male: "Tu prestigio no se mide solo en palabras, sino en carne ofrecida. Para demostrar tu lealtad a la hermandad, prostituiste a tu esposa con tus parientes. Los toros la montan uno tras otro, la semilla derramando profundamente, y cuando su lujuria se gasta, amontonan oro a tus pies en tributo."   # AI Tags
+
+bno_trade_prestige_for_gold.desc.female: "Tu fama entre los Bulls se demuestra a través de tu cuerpo. Te desnudas, extendiéndote ante tus parientes, gimiendo mientras cada Toro te usa a tu vez. Con cada clímax presionan moneda en tus manos, su semilla goteando por tus muslos junto con su oro."   # AI Tags
+
+bno_trade_prestige_for_gold.tooltip.male: "Gasto [prestige|E] ofreciendo los agujeros de su esposa a los Toros, ganando [gold|E] después de su uso."   # AI Tags
+bno_trade_prestige_for_gold.tooltip.female: "Gasto [prestige|E] ofreciendo tu propio cuerpo a los Toros, ganando [gold|E] después de su uso."   # AI Tags
+
+bno_trade_prestige_for_gold.confirm.male: "Sí, deja que mi esposa sirva a los Toros por oro."   # AI Tags
+bno_trade_prestige_for_gold.confirm.female: "Sí, serviré a los Bulls yo mismo por oro."   # AI Tags
+
+bno_trade_prestige_for_gold.effect: "Convertir [prestige|E] en [gold|E] a través del servicio prostituido a la hermandad africana."   # AI Tags

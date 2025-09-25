@@ -12,3 +12,9 @@ doctrine_bno_tenets_name: "[bno_religion|E]Zasady:" # AI Tags
 
 tenet_bno_black_cock_conquest_name: "Podbojowanie czarnego koksa" # AI Tags
 tenet_bno_black_cock_conquest_desc: "Poprzez gorącą modlitwę i święte zwycięstwo, rozpowszechnimy chwałę [bno_bbc|E] Po całej ziemi!" # AI Tags
+
+tenet_bno_hate_name: "Nienawiść do czarnego kurca"   # AI Tags
+tenet_bno_hate_desc: "Każde wierzenie w bledym świecie odpycha przed [GetFaithByKey('bbcs').GetName]- Nie , nie , nie . Widzą tylko bluźnierstwo w naszym wielbieniu, tylko zniszczenie w naszym nasieniu, tylko wstyd w naszym panowaniu nad ich kobietami. Dla nich, nasza Ewangelia jest zniszczeniem, nasze obrzędy nieprzyzwoitymi, nasze Były diabeł w ciele. I wciąż drżą, bo ich nienawiść nie może powstrzymać wzrostu [bno_bbc|E]." # AI Tags
+
+tenet_bno_aniconism_name: "Kult ciała"   # AI Tags
+tenet_bno_aniconism_desc: "Kult rzeźbionych obrazów zaślepi słabych na jedyną boską prawdę: żywe [bno_bbc|E]- Nie , nie , nie . Wyrzucamy wszystkie bałwany z naszych świętych miejsc, aby żadna fałszywa wizja nie poszkodziła ich. Tylko mięso jest święte, a tylko czarny kurczak jest godny oddania."   # AI Tags

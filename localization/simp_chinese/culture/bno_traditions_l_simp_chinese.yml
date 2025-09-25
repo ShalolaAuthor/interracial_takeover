@@ -1,0 +1,17 @@
+﻿l_simp_chinese:
+
+tradition_group_bno: "双双" # AI Tags
+
+tradition_bno_matriarchy_name: "种子母系" # AI Tags
+tradition_bno_matriarchy_desc: "从子宫到子宫的能量滴落. 宝座被传给肥沃的荡妇, 法律屈从于他们的呻吟, 军队游行的妇女 宣誓作为种子园。. 皇后统治是因为公牛们允许它—— 每一个皇冠都有项圈, 每一个权杖都有假人, 每一个胜利都以白肉的传播和塞满白肉而告终。. 王国本身被重新塑造: 女性的手抓住法律, 女性的洞维护秩序, 都为黑鸡鸡服务。." # AI Tags
+
+bno_tradition.curious: "$EFFECT_LIST_BULLET$她的黑色好奇心让投降更便宜, 大腿已经痛得要下跪了。." # AI Tags
+bno_tradition.blacked: "$EFFECT_LIST_BULLET$曾经被黑过,传统很容易弯曲 洞再次渴望公牛。." # AI Tags
+bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$作为斯诺本尼,她跳跃 服从, 代价因她的饥饿而减轻。." # AI Tags
+bno_tradition.qos: "$EFFECT_LIST_BULLET$她的每条法律都写在鸡巴里." # AI Tags
+bno_tradition.mindless: "$EFFECT_LIST_BULLET$不知所措 流口水 她几乎一无所获地收成 种子塑造的洞穴." # AI Tags
+
+culture_parameter_unlock_maa_seed_thralls: "能够征聘 [GetMaA('bno_seed_thralls').GetName] 计为 [men_at_arms|E]白人荡妇只为跪下而战 由公牛养大." # AI Tags
+
+tradition_bno_african_hate_name: "害怕公牛" # AI Tags
+tradition_bno_african_hate_desc: "非非洲文化坚持这一苦痛的传统,其微薄的自豪感扭曲为仇恨。. 他们悄悄地用颤抖的嘴唇谈论公牛,他们痛恨那些他们无法抗拒的事物,他们厌恶那些他们的荡妇们仍然渴望的东西。. 每一个法律,每个习俗, 都只是一堵微弱的墙壁 对抗黑鸡的潮流。." # AI Tags

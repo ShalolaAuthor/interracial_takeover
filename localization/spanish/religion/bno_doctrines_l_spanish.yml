@@ -12,3 +12,9 @@ doctrine_bno_tenets_name: "[bno_religion|E]: Tenetos" # AI Tags
 
 tenet_bno_black_cock_conquest_name: "La conquista del gallo negro" # AI Tags
 tenet_bno_black_cock_conquest_desc: "A través de la oración ferviente y la conquista santa, extenderemos la gloria de la [bno_bbc|E] ¡A través de la tierra!" # AI Tags
+
+tenet_bno_hate_name: "El odio del gallo negro"   # AI Tags
+tenet_bno_hate_desc: "Cada credo del mundo pálido retrocede ante el [GetFaithByKey('bbcs').GetName]. Sólo ven blasfemia en nuestra adoración, sólo ruina en nuestra semilla, sólo vergüenza en nuestro dominio sobre sus mujeres. Para ellos, nuestro evangelio es corrupción, nuestros ritos obscenos, nuestros Bulls demonios en la carne. Y aún tiemblan, porque su odio no puede detener el ascenso del [bno_bbc|E]." # AI Tags
+
+tenet_bno_aniconism_name: "La adoración de la carne"   # AI Tags
+tenet_bno_aniconism_desc: "La adoración de imágenes esculpidas ciega a los débiles a la única verdad divina: los vivos [bno_bbc|E]. Echamos todos los ídolos de nuestros santos lugares para que ninguna visión falsa los profane. Sólo la carne es sagrada, y sólo el Gallo Negro es digno de devoción."   # AI Tags

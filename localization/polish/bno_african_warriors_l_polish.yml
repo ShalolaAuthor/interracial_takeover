@@ -9,6 +9,10 @@ bno_ebony_elites_flavor: "#F Unity ciężkiej piechoty, znane ze swojej dyscypli
 bno_cock_maidens: "Dziewczynki z kurczakiem" # AI Tags
 bno_cock_maidens_flavor: "#F Wybrane ręcznie dziewice związane z kultem Czarnego Kurczaka, te dziewice używają zarówno ostrza, jak i ciała jako broni. Niektórzy, ale niezrównani w gorliwości, uderzają z bezwzględną precyzją, a ich pożądliwy oddanie zamienia każde pole bitwy w orgię krwi i wielbienia BBC.#!" # AI Tags
 
+bno_seed_thralls: "Płodkowe drzewki" # AI Tags
+bno_seed_thralls_flavor: "#F Białe kobiety wybuchowane w broni, ale związane w dziurach, marszują do bitwy tylko po to, aby skończyć na kolanach. Każda rzuca włóczni jest grą wstępną, każda tarcza podnosząca płacz zatrzymany, bo ich prawdziwą nagrodą jest być rozdzielone i wypełnione przez Były po walce zakończone.#!" # AI Tags
+
+
 bnwo_armies: "[bnwo_armies|E]" # AI Tags
 
 bnwo_armies_screen_add: "[bnwo_armies|E] [screen|E]" # AI Tags
