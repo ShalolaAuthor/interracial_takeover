@@ -1,0 +1,29 @@
+﻿innovation_bno_african_canoes = {
+    group = culture_group_regional
+    culture_era = culture_era_tribal
+    icon = "gfx/interface/icons/culture_innovations/innovation_bno_african_canoes.dds"
+
+    potential = {
+        has_cultural_pillar = heritage_bnoc
+    }
+
+    character_modifier = {
+        embarkation_cost_mult = -0.5
+        raid_speed = 0.2
+    }
+
+    maa_upgrade = {
+        type = bnwo_armies
+        damage = 0.2
+		toughness = 0.2
+		pursuit = 0.2
+		screen = 0.2
+		siege_value = 0.2
+    }
+
+    custom = unlocks_naval_raiding
+    custom = unlocks_sailable_major_rivers
+
+    flag = global_regional
+    flag = tribal_era_regional
+}
