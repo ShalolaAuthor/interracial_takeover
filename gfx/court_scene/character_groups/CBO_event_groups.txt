@@ -1,0 +1,21 @@
+﻿sex_bed_group_1 = { }
+
+sex_bed_group_2 = { }
+
+sex_bed_headboard_group_1 = { }
+
+sex_bed_headboard_group_2 = { }
+
+sex_bed_high_group_1 = { }
+
+sex_bed_high_group_2 = { }
+
+sex_bed_extreme_high_group_1 = { }
+
+sex_bed_extreme_high_group_2 = { }
+
+sex_standing_group_1 = { }
+
+sex_standing_group_2 = { }
+
+sex_standing_held_group = { }

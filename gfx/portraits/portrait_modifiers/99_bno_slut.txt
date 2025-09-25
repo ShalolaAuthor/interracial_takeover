@@ -370,8 +370,8 @@ bno_boobs = {
 			#Breasts Excess
 			morph = {
 				mode = add
-				gene = gene_breast_excess
-				template = breast_excess
+				gene = gene_bs_bust
+				template = bust_shape_fantasy
 				value = {
 					value = 0.04
 					multiply = {
@@ -384,6 +384,7 @@ bno_boobs = {
 			morph = {
 				mode = modify_multiply
 				gene = gene_bs_nipples
+				template = nipples
 				value = {
 					value = 0.04
 					multiply = {
@@ -431,7 +432,8 @@ bno_bigger_butts = {
 			}
 			#Changes Hip Size
 			morph = {
-				mode = modify gene = gene_bs_hips
+				mode = modify 
+				gene = gene_bs_hips_size
 				value = {
 					add = {
 						value = var:bno_becoming_dark
@@ -458,7 +460,8 @@ bno_smaller_waist = {
 		dna_modifiers = {
 			#Changes Waist Size
 			morph = {
-				mode = modify gene = gene_bs_waist
+				mode = modify 
+				gene = gene_bs_waist_size
 				value = {
 					add = {
 						value = var:bno_becoming_dark
@@ -468,7 +471,8 @@ bno_smaller_waist = {
 				}
 			}
 			morph = {
-				mode = modify gene = gene_bs_shoulders
+				mode = modify 
+				gene = gene_bs_shoulders_size
 				value = {
 					add = {
 						value = var:bno_becoming_dark
@@ -491,9 +495,21 @@ bno_smaller_waist = {
 
 bno_white_girl = {
 	usage = game
-	priority = 999
+	priority = 900
 	bno_white_girl = {
 		dna_modifiers = {
+			accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				value = 0
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
 			accessory = {
                 mode = add
                 gene = headgear
@@ -502,9 +518,33 @@ bno_white_girl = {
             }
 			accessory = {
 				mode = add
-				gene = clothing_type
-				template = revealing_2
+				gene = shoes
+				template = no_shoes
 				value = 0
+			}
+			accessory = {
+				mode = add
+				gene = phaze_clothes
+				template = no_clothes
+				value = 0
+			}
+			accessory = {
+				mode = add
+				gene = phaze_pubic_hair
+				template = all_pubic_hairs
+				value = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = bno_phaze_clothes
+				template = phaze_non_slave
+				value = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = bno_phaze_shoes
+				template = phaze_shoes
+				value = { 0 1 }
 			}
 		}
 		weight = {
@@ -663,14 +703,20 @@ bno_slave = { #changes for any female slave with bbc owner
             }
 			accessory = {
 				mode = add
-				gene = cbo_headgear
-				template = cbo_sub_collar
+				gene = phaze_clothes
+				template = no_clothes
 				value = 0
 			}
 			accessory = {
 				mode = add
-				gene = cbo_clothes
-				template = cbo_sub_harness
+				gene = phaze_accessories
+				template = all_accessories
+				value = { 0 1 }
+			}
+			accessory = {
+				mode = add
+				gene = bno_phaze_clothes
+				template = phaze_slave
 				value = 0
 			}
 		}
