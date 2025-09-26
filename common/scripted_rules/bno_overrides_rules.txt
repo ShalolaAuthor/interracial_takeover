@@ -3,7 +3,7 @@
 		culture = {
 			OR = {
 				has_innovation = innovation_longboats
-				has_innovation = innovation_african_canoes
+				#has_innovation = innovation_african_canoes
                 has_innovation = innovation_bno_african_canoes
 				has_cultural_parameter = can_travel_along_rivers
 			}

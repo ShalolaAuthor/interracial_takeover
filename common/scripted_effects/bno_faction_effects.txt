@@ -274,23 +274,7 @@ spawn_bnwo_revolt_troops = {
 			name = bnwo_faction_event_troops
 		}
 	}
-	
-	# Spawn Siege Weapons depending on discovered innovations
 	if = {
-		limit = {
-			culture = { has_innovation = innovation_bombard }
-		}
-		spawn_army = {
-			men_at_arms = {
-				type = bombard
-				stacks = 1
-			}
-			location = scope:local_center_of_rebellion
-			war = root.faction_war
-			name = bnwo_faction_event_troops
-		}
-	}
-	else_if = {
 		limit = {
 			culture = { has_innovation = innovation_trebuchet }
 		}

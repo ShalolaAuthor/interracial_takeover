@@ -5,7 +5,18 @@ bno_on_declared_war = {
 	###############################
 	##### Attacker music
 	###############################
+	#AGOT Added
 	if = {
+		limit = {
+			exists = scope:war
+			OR = {
+				scope:attacker = { is_current_dragonrider = yes }
+				scope:defender = { is_current_dragonrider = yes }
+			}
+		}
+		scope:attacker = { play_music_cue = mood_dragons_at_war }
+	}
+	else_if = {
 		limit = {
 			exists = scope:war # silence error when building description before war exists
 			scope:war = { using_holy_war_cb_trigger = yes } # going CB->war->is this war's CB a certain type->yes
@@ -37,8 +48,11 @@ bno_on_declared_war = {
 		limit = {
 			exists = scope:war
 			OR = {
-				scope:attacker = { fp3_character_any_involvement_persian_struggle_trigger = yes }
-				scope:defender = { fp3_character_any_involvement_persian_struggle_trigger = yes }
+				#AGOT Modified
+				# scope:attacker = { fp3_character_any_involvement_persian_struggle_trigger = yes }
+				# scope:defender = { fp3_character_any_involvement_persian_struggle_trigger = yes }
+				scope:attacker = { fp2_character_any_involvement_btw_struggle_trigger = yes }
+				scope:defender = { fp2_character_any_involvement_btw_struggle_trigger = yes }
 			}
 		}
 		scope:attacker = { play_music_cue = strugglewar_cue }
@@ -46,9 +60,24 @@ bno_on_declared_war = {
 	else_if = {
 		limit = {
 			exists = scope:war
+			#AGOT Modified
+			#OR = {
+			#	scope:attacker = { fp2_character_any_involvement_iberian_struggle_trigger = yes }
+			#	scope:defender = { fp2_character_any_involvement_iberian_struggle_trigger = yes }
+			#}
 			OR = {
-				scope:attacker = { fp2_character_any_involvement_iberian_struggle_trigger = yes }
-				scope:defender = { fp2_character_any_involvement_iberian_struggle_trigger = yes }
+				scope:attacker = { 
+					AND = {
+						exists = capital_province
+						capital_province = { geographical_region = world_westeros_dorne }
+					}
+				}
+				scope:defender = { 
+					AND = {
+						exists = capital_province
+						capital_province = { geographical_region = world_westeros_dorne }
+					}
+				}
 			}
 		}
 		scope:attacker = { play_music_cue = mx_IberiaWar }
@@ -56,9 +85,19 @@ bno_on_declared_war = {
 	else_if = {
 		limit = {
 			exists = scope:war
-			scope:attacker = { fp1_is_norse_tribal = yes }
+			#AGOT Modified
+			#scope:attacker = { fp1_is_norse_tribal = yes }
+			scope:attacker = { culture = { agot_is_wildling_culture = yes } }
 		}
 		scope:attacker = { play_music_cue = mx_raid }
+	}
+	else_if = {
+		limit = {
+			exists = scope:war
+			#AGOT Added
+			scope:attacker = { has_title = title:k_the_westerlands }
+		}
+		scope:attacker = { play_music_cue = mood_castamere }
 	}
 	else = {
 		scope:attacker = { play_music_cue = mx_cue_war_declared }
@@ -66,15 +105,16 @@ bno_on_declared_war = {
 	###############################
 	##### Defender music
 	###############################
+	#AGOT Added
 	if = {
 		limit = {
 			exists = scope:war
 			OR = {
-				scope:attacker = { fp2_character_any_involvement_iberian_struggle_trigger = yes }
-				scope:defender = { fp2_character_any_involvement_iberian_struggle_trigger = yes }
+				scope:attacker = { is_current_dragonrider = yes }
+				scope:defender = { is_current_dragonrider = yes }
 			}
 		}
-		scope:defender = { play_music_cue = mx_IberiaWar }
+		scope:defender = { play_music_cue = mood_dragons_at_war }
 	}
 	else_if = {
 		limit = {
@@ -100,9 +140,37 @@ bno_on_declared_war = {
 	else_if = {
 		limit = {
 			exists = scope:war
+			#AGOT Modified
+			#OR = {
+			#	scope:attacker = { fp2_character_any_involvement_iberian_struggle_trigger = yes }
+			#	scope:defender = { fp2_character_any_involvement_iberian_struggle_trigger = yes }
+			#}
 			OR = {
-				scope:attacker = { fp3_character_any_involvement_persian_struggle_trigger = yes }
-				scope:defender = { fp3_character_any_involvement_persian_struggle_trigger = yes }
+				scope:attacker = { 
+					AND = {
+						exists = capital_province
+						capital_province = { geographical_region = world_westeros_dorne }
+					}
+				}
+				scope:defender = { 
+					AND = {
+						exists = capital_province
+						capital_province = { geographical_region = world_westeros_dorne }
+					}
+				}
+			}
+		}
+		scope:defender = { play_music_cue = mx_IberiaWar }
+	}
+	else_if = {
+		limit = {
+			exists = scope:war
+			OR = {
+				#AGOT Modified
+				# scope:attacker = { fp3_character_any_involvement_persian_struggle_trigger = yes }
+				# scope:defender = { fp3_character_any_involvement_persian_struggle_trigger = yes }
+				scope:attacker = { fp2_character_any_involvement_btw_struggle_trigger = yes }
+				scope:defender = { fp2_character_any_involvement_btw_struggle_trigger = yes }
 			}
 		}
 		scope:defender = { play_music_cue = strugglewar_cue }
@@ -110,7 +178,9 @@ bno_on_declared_war = {
 	else_if = {
 		limit = {
 			exists = scope:war
-			scope:attacker = { fp1_is_norse_tribal = yes }
+			#AGOT Modified
+			#scope:attacker = { fp1_is_norse_tribal = yes }
+			scope:attacker = { culture = { agot_is_wildling_culture = yes } }
 		}
 		scope:defender = { play_music_cue = mx_raid }
 	}
@@ -124,6 +194,27 @@ bno_on_declared_war = {
 	###############################
 	##### Effects
 	###############################
+
+	#AGOT Added
+	if = {
+		limit = {
+			exists = scope:war
+			scope:war = { using_cb = wildling_raid_cb }
+		}
+		scope:war = {
+			set_variable = {
+				name = wildling_raid_strength
+				value = {
+					value = 0
+					scope:attacker = {
+						every_army = {
+							add = army_size
+						}
+					}
+				}
+			}
+		}
+	}
 
 	#There is no fighting in the admin room!
 	if = {
@@ -180,6 +271,10 @@ bno_on_declared_war = {
 			if = {
 				limit = {
 					NOT = { has_perk = flexible_truces_perk }
+					#AGOT Added
+					NOT = {
+						faith = { has_doctrine_parameter = prestige_for_different_faith_truce_break }
+					}
 				}
 				add_prestige = break_truce_prestige_loss
 				add_prestige_level = break_truce_prestige_level_loss
@@ -216,6 +311,25 @@ bno_on_declared_war = {
 						catalyst = catalyst_broke_truce_against_important_character
 						character = scope:attacker
 					}
+				}
+			}
+
+			#AGOT Added
+			if = {
+				limit = {
+					faith = { has_doctrine_parameter = prestige_for_different_faith_truce_break }
+					NOT = { faith = scope:defender.faith }
+				}
+				add_prestige = {
+					value = break_truce_prestige_loss
+					multiply = -1
+				}
+				dynasty ?= {
+					add_dynasty_prestige = minor_dynasty_prestige_gain
+				}
+				add_character_modifier = {
+					modifier = holy_bonds_broke_truce
+					years = 3
 				}
 			}
 		}
@@ -328,7 +442,7 @@ bno_on_declared_war = {
 			}
 		}
 		scope:attacker = {
-			bno_break_tributary_contract_due_to_attack_effect = { DEFENDER = scope:defender }
+			break_tributary_contract_due_to_attack_effect = { DEFENDER = scope:defender }
 		}
 	}
 	# BP2: Attacking Warden

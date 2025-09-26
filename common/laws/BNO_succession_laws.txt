@@ -37,14 +37,18 @@
 				limit = {
 					is_independent_ruler = no
 					government_allows = administrative
+					#AGOT Added
+					NOT = { government_has_flag = government_is_free_city }
 				}
 				top_liege = { has_realm_law = male_only_law }
 			}
 			trigger_else = {
-				faith = {
-					has_doctrine = doctrine_gender_male_dominated
-					religion_tag = islam_religion
-				}
+				#AGOT Modified
+				# faith = {
+				# 	has_doctrine = doctrine_gender_male_dominated
+				# 	religion_tag = islam_religion
+				# }
+				always = no
 			}
 		}
 		succession = {
@@ -103,6 +107,8 @@
 				limit = {
 					is_independent_ruler = no
 					government_allows = administrative
+					#AGOT Added
+					NOT = { government_has_flag = government_is_free_city }
 				}
 				top_liege = { has_realm_law = male_preference_law }
 			}
@@ -112,9 +118,10 @@
 				}
 				OR = {
 					faith = {
-						NOT = {
-							religion_tag = islam_religion
-						}
+						#AGOT Disabled
+						# NOT = {
+						# 	religion_tag = islam_religion
+						# }
 						has_doctrine = doctrine_gender_male_dominated
 					}
 					AND = {
@@ -141,6 +148,10 @@
 						}
 					}
 				}
+			}
+			#AGOT Added
+			NOT = {
+				culture = { has_cultural_parameter = gender_equal_inheritance }
 			}
 		}
 		succession = {
@@ -202,16 +213,26 @@
 				limit = {
 					is_independent_ruler = no
 					government_allows = administrative
+					#AGOT Added
+					NOT = { government_has_flag = government_is_free_city }
 				}
 				top_liege = { has_realm_law = equal_law }
 			}
 			trigger_else = {
 				NOR = {
 					culture = { has_cultural_parameter = female_preference_inheritance }
-					culture = { has_cultural_tradition = tradition_nubian_warrior_queens }
+					#AGOT Disabled
+					# culture = { has_cultural_tradition = tradition_nubian_warrior_queens }
 				}
-				faith = {
-					has_doctrine = doctrine_gender_equal
+				#AGOT Modfiied
+				# faith = {
+				# 	has_doctrine = doctrine_gender_equal
+				# }
+				OR = {
+					faith = {
+						has_doctrine = doctrine_gender_equal
+					}
+					culture = { has_cultural_parameter = gender_equal_inheritance }
 				}
 				NOT = { has_realm_law = female_only_law } # For when female_only_law ceases to be valid
 			}

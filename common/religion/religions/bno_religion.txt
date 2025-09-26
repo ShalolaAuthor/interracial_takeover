@@ -41,7 +41,7 @@
 
 	#Special
 	doctrine = special_doctrine_naked_priests
-	doctrine = special_doctrine_is_gnostic_faith
+	#doctrine = special_doctrine_is_gnostic_faith
 	doctrine = divine_destiny_doctrine
 	
 	traits = {
@@ -388,28 +388,46 @@
 			icon = bnobbc
 			reformed_icon = bnobbc
 
-			holy_site = alexandria
-			holy_site = jerusalem
-			holy_site = antioch
-			holy_site = aksum
-			holy_site = napata
-			holy_site = mecca
-			holy_site = medina
-			holy_site = cordoba
-			holy_site = fes
-			holy_site = constantinople
-			holy_site = rome
-			holy_site = cologne
-			holy_site = kent
-			holy_site = santiago
-			holy_site = armagh
-			holy_site = iona
-			holy_site = jorvik
-			holy_site = paderborn
-			holy_site = ranaheim
-			holy_site = uppsala
+			holy_site = whitetree
+			holy_site = sept_snows
+			holy_site = seven_stars
+			holy_site = stoney_sept
+			holy_site = sept_great
+			holy_site = highgarden
+			holy_site = starry_sept
+			holy_site = hugors_hill
+			holy_site = gods_eye
+			holy_site = childrens_tower
+			holy_site = great_barrow
+			holy_site = winterfell
+			holy_site = the_nightfort
+			holy_site = pentos_palace
+			holy_site = pentos_sphinx
+			holy_site = nontelos
+			holy_site = conclave_palace
+
+			#holy_site = alexandria
+			#holy_site = jerusalem
+			#holy_site = antioch
+			#holy_site = aksum
+			#holy_site = napata
+			#holy_site = mecca
+			#holy_site = medina
+			#holy_site = cordoba
+			#holy_site = fes
+			#holy_site = constantinople
+			#holy_site = rome
+			#holy_site = cologne
+			#holy_site = kent
+			#holy_site = santiago
+			#holy_site = armagh
+			#holy_site = iona
+			#holy_site = jorvik
+			#holy_site = paderborn
+			#holy_site = ranaheim
+			#holy_site = uppsala
 			
-			doctrine = west_african_unreformed_faith_doctrine
+			doctrine = unreformed_faith_doctrine
 
 			#Tenets
 			doctrine = tenet_warmonger

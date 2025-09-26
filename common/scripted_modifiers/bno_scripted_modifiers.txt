@@ -168,8 +168,10 @@ bno_decision_modifier = {
     modifier = {
         factor = 5
         trigger = {
-			location = {
-				geographical_region = world_europe
+			NOT = {
+				location = {
+					geographical_region = world_summer_islands
+				}
 			}
         }
     } #+5, as its the region the player is probably looking to see corrupted

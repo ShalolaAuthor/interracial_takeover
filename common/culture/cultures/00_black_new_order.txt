@@ -16,7 +16,7 @@ bnoc = {
 		tradition_only_the_strong
 		tradition_staunch_traditionalists
 		tradition_malleable_invaders
-		tradition_african_tolerance
+		#tradition_african_tolerance
 	}
 	
 	name_list = name_list_bnwo

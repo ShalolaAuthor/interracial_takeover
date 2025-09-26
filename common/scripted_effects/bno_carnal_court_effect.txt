@@ -109,7 +109,7 @@ bno_carnal_court_evaluate_sex_location_culture_effect = {
                     has_graphical_mediterranean_culture_group_trigger = yes
                     AND = {
                         has_graphical_iberian_culture_group_trigger  = yes
-                        NOT = { prev.religion = religion:islam_religion }
+                        NOT = { prev.religion = religion:the_counsels_religion }
                     }
                 }
             }
@@ -129,7 +129,7 @@ bno_carnal_court_evaluate_sex_location_culture_effect = {
                     has_graphical_steppe_culture_group_trigger = yes
                     AND = {
                         has_graphical_iberian_culture_group_trigger  = yes
-                        prev.religion = religion:islam_religion
+                        prev.religion = religion:the_counsels_religion
                     }
                 }
             }
