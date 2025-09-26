@@ -96,6 +96,7 @@ bbc_worshipper_whoring_around = {
             }
             carn_sex_scene_no_pregnancy_effect = yes
 			carn_sex_scene_no_drama_effect = yes
+            carn_sex_scene_no_memory_effect = yes
             bno_have_sex_with_effects = {
                 PARTNER = scope:rich_bbc
             }

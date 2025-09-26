@@ -1339,6 +1339,7 @@ bno_have_sex_with_effects = {
 			}
 		}
 		carn_sex_scene_no_drama_effect = yes
+		carn_sex_scene_no_memory_effect = yes
 	}
 
 	if = {
@@ -1512,6 +1513,7 @@ bno_prostitution_effect = {
 	prostitution = yes
 	carn_sex_scene_no_pregnancy_effect = yes
 	carn_sex_scene_no_drama_effect = yes
+	carn_sex_scene_no_memory_effect = yes
 	bno_have_sex_with_effects = {
 		PARTNER = scope:local_bbc
 	}
