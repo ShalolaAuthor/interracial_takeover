@@ -68,45 +68,10 @@ bno_events_slut_pulse = {
 	trigger = {
 		is_a_girl = yes
 	}
-	effect = {
-		if = {
-			limit = {
-				dynasty ?= {
-					has_dynasty_perk = bno_embrace_african_1
-				}
-			}
-			random_list = {
-				4 = {
-					trigger_event = {
-						on_action = bno_slut_pulse
-					}
-				}
-				2 = {
-					trigger_event = {
-						on_action = bno_random_pulse
-					}
-				}
-				1 = {
-					trigger_event = {
-						on_action = bno_embrace_african_pulse
-					}
-				}
-			}
-		}
-		else = {
-			random_list = {
-				2 = {
-					trigger_event = {
-						on_action = bno_slut_pulse
-					}
-				}
-				1 = {
-					trigger_event = {
-						on_action = bno_random_pulse
-					}
-				}
-			}
-		}
+	random_on_action = {
+		1 = bno_slut_pulse
+		1 = bno_random_pulse
+		1 = bno_embrace_african_pulse
 	}
 }
 

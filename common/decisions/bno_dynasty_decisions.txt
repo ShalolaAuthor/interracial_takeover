@@ -71,11 +71,21 @@
 	}
 	ai_check_interval = 1
 	ai_potential = {
-		bno_has_bbc_priest_or_priestess = yes
+		trigger_if = {
+			limit = { is_bbc = yes }
+			any_court_position_holder = {
+				type = bno_bbc_priestess_court_position
+			}
+		}
+		trigger_else = {
+			any_spouse = {
+				is_bbc = yes
+			}
+		}
 	}
 	ai_will_do = {
 		base = 0
-		bno_white_girl_modifier_big = yes
+		bno_white_girl_modifier_biggest = yes
 	}
 }
 
@@ -153,10 +163,20 @@ bno_trade_prestige_for_gold = {
 	}
 	ai_check_interval = 1
 	ai_potential = {
-		bno_has_bbc_priest_or_priestess = yes
+		trigger_if = {
+			limit = { is_bbc = yes }
+			any_spouse = {
+				is_slut = yes
+			}
+		}
+		trigger_else = {
+			any_spouse = {
+				is_bbc = yes
+			}
+		}
 	}
 	ai_will_do = {
 		base = 0
-		bno_white_girl_modifier_big = yes
+		bno_white_girl_modifier_biggest = yes
 	}
 }
