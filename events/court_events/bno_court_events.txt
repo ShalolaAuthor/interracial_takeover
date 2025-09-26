@@ -28,7 +28,7 @@ bno_court.0001 = {
         }
     }
 
-    #cooldown = { months = { 6 12 } }
+    cooldown = { months = { 6 12 } }
 
     theme = court
 
