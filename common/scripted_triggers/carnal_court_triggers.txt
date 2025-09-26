@@ -1,0 +1,24 @@
+﻿carnal_court_has_sex_animation_event_trigger = {
+	OR = {
+		has_character_flag = carnal_court_sex_western
+		has_character_flag = carnal_court_sex_mediterranean
+		has_character_flag = carnal_court_sex_mena
+		has_character_flag = carnal_court_sex_indian
+	}
+}
+
+carnal_court_western_trigger = {
+	has_character_flag = carnal_court_sex_western
+}
+
+carnal_court_mediterranean_trigger = {
+	has_character_flag = carnal_court_sex_mediterranean
+}
+
+carnal_court_mena_trigger = {
+	has_character_flag = carnal_court_sex_mena
+}
+
+carnal_court_indian_trigger = {
+	has_character_flag = carnal_court_sex_indian
+}

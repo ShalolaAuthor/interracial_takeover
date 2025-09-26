@@ -1,0 +1,185 @@
+﻿byzantine = {
+    trigger = {
+        NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+        NOT = { government_has_flag = government_is_nomadic }
+        has_ep3_dlc_trigger = yes
+        OR = {
+            capital_county ?= title:c_byzantion
+            primary_title ?= title:e_byzantium
+            AND = {
+                primary_title ?= title:e_roman_empire
+                title:e_roman_empire = {
+                    has_variable = rome_was_restored_by_byzantium
+                }
+            }
+        }
+    }
+}
+mediterranean = {
+    trigger = {
+        NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+        NOT = { government_has_flag = government_is_nomadic }
+        exists = capital_county
+        capital_county = {
+            OR = {
+                culture = { has_graphical_mediterranean_culture_group_trigger = yes }
+                AND = {
+                    culture = { has_graphical_iberian_culture_group_trigger = yes }
+                    NOT = { religion = religion:islam_religion }
+                }
+                title_province = { steppe_building_gfx_use_mediterranean_trigger = yes }
+            }
+        }
+        trigger_if = {
+            limit = {
+                has_ep3_dlc_trigger = yes
+            }
+            NOR = {
+                capital_county ?= title:c_byzantion
+                primary_title ?= title:e_byzantium
+                AND = {
+                    primary_title ?= title:e_roman_empire
+                    title:e_roman_empire = {
+                        has_variable = rome_was_restored_by_byzantium
+                    }
+                }
+            }
+        }
+    }
+}
+steppe = {
+    trigger = {
+        NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+        has_mpo_dlc_trigger = yes
+        OR = {
+            government_has_flag = government_is_nomadic
+            capital_county ?= {
+                culture = {
+                    has_graphical_steppe_culture_group_trigger = yes
+                }
+                title_province ?= {
+                    has_holding = yes
+                    OR = {
+                        has_holding_type = nomad_holding
+                        has_holding_type = tribal_holding
+                    }
+                }
+            }
+            #For tribal northerns... this is better than a big feudal western castle, right?
+            capital_county ?= {
+                culture = {
+                    OR = {
+                        has_graphical_steppe_culture_group_trigger = yes
+                        has_graphical_western_culture_group_trigger = yes
+                    }
+                    OR = {
+                        has_cultural_pillar = heritage_ugro_permian
+                        has_cultural_pillar = heritage_volga_finnic
+                        has_cultural_pillar = heritage_balto_finnic
+                    }
+                }
+                title_province ?= {
+                    has_holding = yes
+                    OR = {
+                        has_holding_type = nomad_holding
+                        has_holding_type = tribal_holding
+                    }
+                }
+            }
+        }
+    }
+}
+mena = {
+    trigger = {
+        NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+        trigger_if = {
+            limit = {
+                has_mpo_dlc_trigger = no            
+            }
+            exists = capital_county
+            capital_county = {
+                OR = {
+                    culture = {
+                        OR = {
+                            has_graphical_mena_culture_group_trigger = yes
+                            has_graphical_iranian_culture_group_trigger = yes
+                            has_graphical_african_culture_group_trigger = yes
+                            AND = {
+                                has_graphical_iberian_culture_group_trigger  = yes
+                                prev.religion = religion:islam_religion
+                            }
+                        }
+                    }
+                    AND = {
+                        culture = {
+                            has_graphical_steppe_culture_group_trigger = yes
+                        }
+                        title_province = {
+                            steppe_building_gfx_use_mediterranean_trigger = no
+                            steppe_building_gfx_use_indian_trigger = no
+                            steppe_building_gfx_use_western_trigger = no
+                        }
+                    }
+                }
+            }
+        }
+        trigger_else = {
+            NOT = { government_has_flag = government_is_nomadic }
+            exists = capital_county
+            OR = {
+                capital_county = {
+                    culture = { has_graphical_steppe_culture_group_trigger = yes }
+                    title_province = {
+                        steppe_building_gfx_use_mediterranean_trigger = no
+                        steppe_building_gfx_use_indian_trigger = no
+                        steppe_building_gfx_use_western_trigger = no
+                    }
+                    title_province ?= {
+                        has_holding = yes
+                        NOT = {
+                            has_holding_type = tribal_holding
+                        }
+                    }
+                }
+                capital_county.culture = {
+                    OR = {
+                        has_graphical_mena_culture_group_trigger = yes
+                        has_graphical_iranian_culture_group_trigger = yes
+                        has_graphical_african_culture_group_trigger = yes               
+                        AND = {
+                            has_graphical_iberian_culture_group_trigger  = yes
+                            prev.religion = religion:islam_religion
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+indian = {
+    trigger = {
+        NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+        NOT = { government_has_flag = government_is_nomadic }
+        exists = capital_county
+        capital_county = {
+            OR = {
+                culture = { has_graphical_india_culture_group_trigger = yes }
+                title_province = { steppe_building_gfx_use_indian_trigger = yes }
+            }
+        }
+    }
+}
+western = {
+    trigger = {
+        NOT = { carnal_court_has_sex_animation_event_trigger = yes }
+        NOT = { government_has_flag = government_is_nomadic }
+        exists = capital_county
+        capital_county = {
+            OR = {
+                culture = { has_graphical_western_culture_group_trigger = yes }
+                culture = { has_graphical_norse_culture_group_trigger = yes }
+                title_province = { steppe_building_gfx_use_western_trigger = yes }
+            }
+        }
+    }
+}

@@ -1,0 +1,498 @@
+name="Bedroom_Indian_1_g3"
+culture="bedroom_indian"
+visual_culture_level=1
+cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
+environment="gfx/court_scene/scene_environment/court_scene_environment_indian.txt"
+audio_culture=4.000000
+camera={
+	{
+		description="Bed View"
+		fov=50.000000
+		position={ 200.000000 175.000000 450.000000 }
+		pitch=20.000000
+		yaw=-90.000000
+		camera_near_far={ 70.000000 2570.000000 }
+		is_camera_used_for_screenshots=yes
+		royal_court_camera_name_key="ROYAL_COURT_Bed_VIEW_CAMERA"
+	}
+ {
+		description="Bed Standing View"
+		fov=50.000000
+		position={ 275.000000 180.000000 300.000000 }
+		pitch=20.000000
+		yaw=-90.000000
+		camera_near_far={ 70.000000 2570.000000 }
+		is_camera_used_for_screenshots=yes
+		royal_court_camera_name_key="ROYAL_COURT_BED_STANDING_VIEW_CAMERA"
+	}
+ {
+		description="Throne View"
+		fov=50.000000
+		position={ 118.800003 140.000000 310.800018 }
+		pitch=8.000000
+		yaw=-17.000000
+		camera_near_far={ 70.000000 2570.000000 }
+		is_camera_used_for_screenshots=yes
+		royal_court_camera_name_key="ROYAL_COURT_THRONE_VIEW_CAMERA"
+	}
+ {
+		description="Free cam"
+		fov=50.000000
+		position={ -20.500000 351.700012 178.300003 }
+		pitch=12.000000
+		yaw=0.000000
+		camera_near_far={ 70.000000 2570.000000 }
+	}
+ }
+default_camera=0
+lights={ {
+		description="Window Light Disc Left"
+		light={
+			outer_cone_angle=0.180000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=100.000000
+			intensity=1.000000
+			position={ -400.000000 100.000000 500.000000 }
+			pitch=130.000000
+			yaw=0.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=101.000000
+			position={ -400.000000 100.000000 500.000000 }
+			pitch=41.000000
+			yaw=180.000000
+			camera_near_far={ 70.000000 5000.000000 }
+		}
+	}
+ {
+		description="Window Light Disc Right"
+		light={
+			outer_cone_angle=0.180000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=100.000000
+			intensity=1.000000
+			position={ 400.000000 100.000000 500.000000 }
+			pitch=130.000000
+			yaw=0.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=101.000000
+			position={ 400.000000 100.000000 500.000000 }
+			pitch=41.000000
+			yaw=-180.000000
+			camera_near_far={ 10.000000 2000.000000 }
+		}
+	}
+ {
+		description="Shadow Light"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=50.000000
+			intensity=5.000000
+			position={ 0.000000 920.700012 196.600006 }
+			pitch=90.000000
+			yaw=90.000000
+			color={ 0.784314 0.274510 0.666667 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=83.000000
+			position={ 0.000000 920.700012 196.600006 }
+			pitch=90.000000
+			yaw=-180.000000
+			camera_near_far={ 30.000000 1000.000000 }
+		}
+	}
+ {
+		description="Base light 1"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=5000.000000
+			intensity=5.000000
+			position={ 0.000000 254.100006 471.800018 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.784314 0.274510 0.666667 }
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ 0.000000 254.100006 471.800018 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Base light 2"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=5000.000000
+			intensity=5.000000
+			position={ 0.000000 254.100006 -447.600006 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.784314 0.274510 0.666667 }
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ 0.000000 254.100006 -447.600006 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Window effects left 1"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=12.000000
+			intensity=5000.000000
+			position={ -400.000000 150.000000 700.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="sphere_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ -400.000000 150.000000 700.000000 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Window effects right 1"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=12.000000
+			intensity=5000.000000
+			position={ 387.000000 115.000000 677.400024 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="sphere_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ 387.000000 115.000000 677.400024 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Window effects right 2"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=18.000000
+			intensity=500.000000
+			position={ 621.799988 115.000000 -217.800003 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="sphere_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ 621.799988 115.000000 -217.800003 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Window effects left 2"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=10.000000
+			intensity=1000.000000
+			position={ -628.900024 115.000000 205.600006 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="sphere_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ -628.900024 115.000000 205.600006 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Throne light"
+		light={
+			outer_cone_angle=0.920000
+			inner_cone_angle=0.360000
+			affected_by_shadow=no
+			radius=50.200005
+			intensity=5.000000
+			position={ 0.000000 300.500000 375.000000 }
+			pitch=90.000000
+			yaw=96.000000
+			color={ 1.000000 1.000000 1.000000 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=5.000000
+			position={ 0.000000 300.500000 375.000000 }
+			pitch=90.000000
+			yaw=-173.000000
+			camera_near_far={ 190.000000 5000.000000 }
+		}
+	}
+ }
+characters={ 
+	{
+		position={ 20.000059 55.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_group_1"
+		description="SexBedEvent group 1"
+		camera="Bed View"
+		roles={ sex_bed_1 }
+	}
+ {
+		position={ 20.000059 55.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_group_2"
+		description="SexBedtEvent group 2"
+		camera="Bed View"
+		roles={ sex_bed_2 }
+	}
+	{
+		position={ 20.000059 55.000000 500.000000 }
+		direction=270.000010
+		locator="sex_bed_group_1"
+		description="SexBedHeadboardEvent group 1"
+		camera="Bed View"
+		roles={ sex_bed_headboard_1 }
+	}
+ {
+		position={ 20.000059 55.000000 500.000000 }
+		direction=270.000010
+		locator="sex_bed_group_2"
+		description="SexBedHeadboardEvent group 2"
+		camera="Bed View"
+		roles={ sex_bed_headboard_2 }
+	}
+	{
+		position={ 20.000059 55.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_high_group_1"
+		description="SexBedHighEvent group 1"
+		camera="Bed View"
+		roles={ sex_bed_high_1 }
+	}
+ {
+		position={ 20.000059 55.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_high_group_2"
+		description="SexBedHighEvent group 2"
+		camera="Bed View"
+		roles={ sex_bed_high_2 }
+	}
+	{
+		position={ 20.000059 55.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_extreme_high_group_1"
+		description="SexBedExtremeHighEvent group 1"
+		camera="Bed View"
+		roles={ sex_bed_extreme_high_1 }
+	}
+ {
+		position={ 20.000059 55.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_extreme_high_group_2"
+		description="SexBedExtremeHighEvent group 2"
+		camera="Bed View"
+		roles={ sex_bed_extreme_high_2 }
+	}
+	{
+		position={ 20.000059 0.000000 250.000000 }
+		direction=270.000010
+		locator="sex_standing_group_1"
+		description="SexStandingEvent group 1"
+		camera="Bed Standing View"
+		roles={ sex_standing_1 }
+	}
+	{
+		position={ 20.000059 0.000000 250.000000 }
+		direction=270.000010
+		locator="sex_standing_group_2"
+		description="SexStandingEvent group 2"
+		camera="Bed Standing View"
+		roles={ sex_standing_2 }
+	}
+ {
+		position={ 20.000059 0.000000 250.000000 }
+		direction=270.000010
+		locator="sex_standing_held_group_1"
+		description="SexStandingHeldEvent group 1"
+		camera="Bed Standing View"
+		roles={ sex_standing_held }
+	}
+ }
+assets={ {
+		position={ 0.000000 -2.500000 300.000000 }
+		direction=89.980209
+		description="Carpet"
+		asset="ep1_indian_carpet_01_a_entity"
+	}
+ {
+		position={ 0.000059 0.000000 425.000000 }
+		direction=0.000010
+		description="Bed"
+		asset="cbo_indian_bed_01_entity"
+		roles=ruler_throne
+	}
+ {
+		position={ 150.000061 3.000000 700.000000 }
+		direction=0.000010
+		description="Throne Spouse"
+		asset="ep1_indian_throne_basic_01_a_entity"
+		roles=spouse_throne
+	}
+ {
+		position={ -600.000000 0.000000 0.000052 }
+		direction=0.000010
+		description="Wall - Left"
+		asset="cbo_court_indian_sidewall_1_b_entity"
+	}
+ {
+		position={ 0.000070 0.000000 500.000000 }
+		direction=0.000010
+		description="Wall - Center"
+		asset="cbo_court_indian_thronewall_1_b_entity"
+	}
+ {
+		position={ 600.000000 0.000000 -0.000052 }
+		rotation={ 180.000000 -0.000005 180.000000 }
+		description="Wall - Right"
+		asset="cbo_court_indian_sidewall_2_b_entity"
+	}
+ {
+		direction=0.000010
+		description="Floor"
+		asset="ep1_court_indian_floor_01_a_entity"
+	}
+ {
+		position={ 0.000000 399.000000 0.000000 }
+		direction=0.000010
+		description="Roof"
+		asset="ep1_court_indian_roofing_2_a_entity"
+	}
+ {
+		position={ -200.000000 5.800000 400.000000 }
+		direction=-70.000008
+		description="Oil Lamp Left 1"
+		asset="ep1_indian_floor_lamp_01_entity"
+	}
+ {
+		position={ -463.500000 5.800000 169.900024 }
+		rotation={ 180.000000 -0.000005 180.000000 }
+		description="Oil Lamp Left 2"
+		asset="ep1_indian_floor_lamp_01_entity"
+	}
+ {
+		position={ -459.700012 5.800000 -181.300003 }
+		direction=80.000008
+		description="Oil Lamp Left 3"
+		asset="ep1_indian_floor_lamp_01_entity"
+	}
+ {
+		position={ -459.700012 5.800000 -461.299988 }
+		direction=80.000008
+		description="Oil Lamp Left 4"
+		asset="ep1_indian_floor_lamp_01_entity"
+	}
+ {
+		position={ 200.000000 5.800000 400.000000 }
+		rotation={ 180.000000 -75.000008 180.000000 }
+		description="Oil Lamp Right 1"
+		asset="ep1_indian_floor_lamp_01_entity"
+	}
+ {
+		position={ 463.500000 5.800000 169.900024 }
+		rotation={ 180.000000 -0.000005 180.000000 }
+		description="Oil Lamp Right 2"
+		asset="ep1_indian_floor_lamp_01_entity"
+	}
+ {
+		position={ 459.700012 5.800000 -181.300003 }
+		direction=80.000008
+		description="Oil Lamp Right 3"
+		asset="ep1_indian_floor_lamp_01_entity"
+	}
+ {
+		position={ 459.700012 5.800000 -461.299988 }
+		direction=80.000008
+		description="Oil Lamp Right 4"
+		asset="ep1_indian_floor_lamp_01_entity"
+	}
+ {
+		position={ -362.899994 96.899986 767.202026 }
+		description="Atmospheric Window"
+		asset="roco_atmospheric_indian_01"
+	}
+ {
+		position={ 362.899994 96.899986 767.202026 }
+		description="Atmospheric Window"
+		asset="roco_atmospheric_indian_01"
+	}
+ {
+		position={ -375.000000 1.899988 350.000000 }
+		direction=89.980209
+		description="Deco 1"
+		asset="ep1_indian_pillowcarpet_01_a_entity"
+	}
+ {
+		position={ 504.899994 2.399988 64.202026 }
+		direction=89.980209
+		description="Deco 2"
+		asset="ep1_indian_pillowcarpet_01_b_entity"
+	}
+ }
+artifacts={  
+ }
+support_type={
+	lectern=ep1_mena_lectern_01_a_entity
+	tall=ep1_indian_pedestal_tall_01_a_entity
+	short_pillow=ep1_indian_pedestal_short_01_a_pillow_entity
+	tall_pillow=ep1_indian_pedestal_tall_01_a_pillow_entity
+	armorstand=ep1_western_armorstand_01_entity
+	short=ep1_indian_pedestal_short_01_a_entity
+}

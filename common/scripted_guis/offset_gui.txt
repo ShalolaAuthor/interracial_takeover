@@ -1,0 +1,153 @@
+﻿offset_xp255_plus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:offset_xp255 } var:offset_xp255 < 255.0 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = offset_xp255 } } set_variable = { name = offset_xp255 value = 0.0 } }
+        change_variable = { name = offset_xp255 add = 1.0 }
+    }
+}
+offset_xp255_minus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:offset_xp255 } var:offset_xp255 >= 1 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = offset_xp255 } } set_variable = { name = offset_xp255 value = 0.0 } }
+        change_variable = { name = offset_xp255 add = -1.0 }
+    }
+}
+reset_offset_xp255 = {
+    scope = character
+	is_valid = { has_variable = offset_xp255 }
+    effect = { remove_variable = offset_xp255 }
+}
+
+offset_xn255_plus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:offset_xn255 } var:offset_xn255 < 255.0 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = offset_xn255 } } set_variable = { name = offset_xn255 value = 0.0 } }
+        change_variable = { name = offset_xn255 add = 1.0 }
+    }
+}
+offset_xn255_minus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:offset_xn255 } var:offset_xn255 >= 1 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = offset_xn255 } } set_variable = { name = offset_xn255 value = 0.0 } }
+        change_variable = { name = offset_xn255 add = -1.0 }
+    }
+}
+reset_offset_xn255 = {
+    scope = character
+	is_valid = { has_variable = offset_xn255 }
+    effect = { remove_variable = offset_xn255 }
+}
+
+offset_yp255_plus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:offset_yp255 } var:offset_yp255 < 255.0 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = offset_yp255 } } set_variable = { name = offset_yp255 value = 0.0 } }
+        change_variable = { name = offset_yp255 add = 1.0 }
+    }
+}
+offset_yp255_minus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:offset_yp255 } var:offset_yp255 >= 1 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = offset_yp255 } } set_variable = { name = offset_yp255 value = 0.0 } }
+        change_variable = { name = offset_yp255 add = -1.0 }
+    }
+}
+reset_offset_yp255 = {
+    scope = character
+	is_valid = { has_variable = offset_yp255 }
+    effect = { remove_variable = offset_yp255 }
+}
+
+offset_yn255_plus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:offset_yn255 } var:offset_yn255 < 255.0 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = offset_yn255 } } set_variable = { name = offset_yn255 value = 0.0 } }
+        change_variable = { name = offset_yn255 add = 1.0 }
+    }
+}
+offset_yn255_minus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:offset_yn255 } var:offset_yn255 >= 1 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = offset_yn255 } } set_variable = { name = offset_yn255 value = 0.0 } }
+        change_variable = { name = offset_yn255 add = -1.0 }
+    }
+}
+reset_offset_yn255 = {
+    scope = character
+	is_valid = { has_variable = offset_yn255 }
+    effect = { remove_variable = offset_yn255 }
+}
+
+offset_zp255_plus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:offset_zp255 } var:offset_zp255 < 255.0 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = offset_zp255 } } set_variable = { name = offset_zp255 value = 0.0 } }
+        change_variable = { name = offset_zp255 add = 1.0 }
+    }
+}
+offset_zp255_minus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:offset_zp255 } var:offset_zp255 >= 1 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = offset_zp255 } } set_variable = { name = offset_zp255 value = 0.0 } }
+        change_variable = { name = offset_zp255 add = -1.0 }
+    }
+}
+reset_offset_zp255 = {
+    scope = character
+	is_valid = { has_variable = offset_zp255 }
+    effect = { remove_variable = offset_zp255 }
+}
+
+offset_zn255_plus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:offset_zn255 } var:offset_zn255 < 255.0 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = offset_zn255 } } set_variable = { name = offset_zn255 value = 0.0 } }
+        change_variable = { name = offset_zn255 add = 1.0 }
+    }
+}
+offset_zn255_minus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:offset_zn255 } var:offset_zn255 >= 1 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = offset_zn255 } } set_variable = { name = offset_zn255 value = 0.0 } }
+        change_variable = { name = offset_zn255 add = -1.0 }
+    }
+}
+reset_offset_zn255 = {
+    scope = character
+	is_valid = { has_variable = offset_zn255 }
+    effect = { remove_variable = offset_zn255 }
+}
+
+sex_animation_plus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:sex_animation } var:sex_animation < 255.0 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = sex_animation } } set_variable = { name = sex_animation value = 0.0 } }
+        change_variable = { name = sex_animation add = 1.0 }
+    }
+}
+sex_animation_minus = {
+    scope = character
+    is_valid = { trigger_if = { limit = { exists = var:sex_animation } var:sex_animation >= 1 } }
+    effect = {
+        if = { limit = { NOT = { has_variable = sex_animation } } set_variable = { name = sex_animation value = 0.0 } }
+        change_variable = { name = sex_animation add = -1.0 }
+    }
+}
+reset_sex_animation = {
+    scope = character
+	is_valid = { has_variable = sex_animation }
+    effect = { remove_variable = sex_animation }
+}

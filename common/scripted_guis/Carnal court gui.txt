@@ -1,0 +1,12 @@
+﻿
+carnal_court_close_gui = {
+	scope = character
+	
+	is_valid = {
+		Not = { has_character_flag = sex_animation_event }
+	}
+	
+	effect = {
+		remove_global_variable = carnal_court_sex_animation_event
+	}
+}

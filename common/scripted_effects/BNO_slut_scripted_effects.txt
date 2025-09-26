@@ -1380,9 +1380,6 @@ bno_have_sex_with_effects = {
 			carn_sex_scene_clean_up_character_flags_effect = yes
 		}
 	}
-	trigger_event = {
-		on_action = bno_after_sex
-	}
 }
 
 bno_remove_whitegirl_traits = {
@@ -1822,8 +1819,13 @@ bno_sex_scene_start = {
 	$PARTNER$ = {
 		save_scope_as = carn_sex_partner
 	}
-	carn_sex_scene_start = yes
-	bno_sex_scene_sex = yes
+	if = {
+		limit = {
+			has_game_rule = cbo_sex_event_animation_pack
+		}
+		carn_sex_scene_start = yes
+		bno_sex_scene_sex = yes
+	}
 }
 
 bno_sex_scene_sex = {
@@ -1836,7 +1838,12 @@ bno_sex_scene_sex = {
 
 bno_sex_scene_cleanup = {
 	bno_sex_scene_sex = yes
-	carn_sex_scene_cleanup = yes
+	if = {
+		limit = {
+			has_game_rule = cbo_sex_event_animation_pack
+		}
+		carn_sex_scene_cleanup = yes
+	}
 }
 
 bno_make_futa_inactive = {

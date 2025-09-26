@@ -16,18 +16,15 @@ carn_on_sex_v2 = {
 		bno_increase_pussy_wear
 		bno_cuck_on_sex
 		bno_set_recent_sex_partner
-	}
-}
-
-bno_after_sex = {
-	on_actions = {
 		bno_on_sex
 	}
 }
 
 bno_court_sex = {
-	events = {
-		bno_court.0001
+	effect = {
+		bno_court_sex_scene_effect = {
+			PARTNER = scope:carn_sex_partner
+		}
 	}
 }
 

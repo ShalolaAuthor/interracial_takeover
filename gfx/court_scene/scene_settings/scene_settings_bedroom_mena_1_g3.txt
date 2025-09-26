@@ -1,0 +1,508 @@
+name="Bedroom_MENA_1_g3"
+culture="bedroom_mena"
+visual_culture_level=1
+cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
+environment="gfx/court_scene/scene_environment/court_scene_environment_mena.txt"
+audio_culture=2.000000
+camera={
+	{
+		description="Bed View"
+		fov=50.000000
+		position={ 275.000000 180.000000 500.000000 }
+		pitch=20.000000
+		yaw=-90.000000
+		camera_near_far={ 70.000000 2570.000000 }
+		is_camera_used_for_screenshots=yes
+		royal_court_camera_name_key="ROYAL_COURT_Bed_VIEW_CAMERA"
+	}
+ {
+		description="Bed Standing View"
+		fov=50.000000
+		position={ 275.000000 180.000000 300.000000 }
+		pitch=20.000000
+		yaw=-90.000000
+		camera_near_far={ 70.000000 2570.000000 }
+		is_camera_used_for_screenshots=yes
+		royal_court_camera_name_key="ROYAL_COURT_BED_STANDING_VIEW_CAMERA"
+	}
+ {
+		description="Throne View"
+		fov=50.000000
+		position={ 118.800003 140.000000 310.800018 }
+		pitch=8.000000
+		yaw=-17.000000
+		camera_near_far={ 70.000000 2570.000000 }
+		is_camera_used_for_screenshots=yes
+		royal_court_camera_name_key="ROYAL_COURT_THRONE_VIEW_CAMERA"
+	}
+ {
+		description="Free cam"
+		fov=50.000000
+		position={ -20.500000 351.700012 178.300003 }
+		pitch=12.000000
+		yaw=0.000000
+		camera_near_far={ 70.000000 2570.000000 }
+	}
+ }
+default_camera=0
+lights={ {
+		description="Window Disc Left"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=1.000000
+			cubemap_shadow=yes
+			radius=150.000000
+			intensity=2.000000
+			position={ -368.500000 602.799988 788.799988 }
+			pitch=152.000000
+			yaw=10.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=170.000000
+			position={ -368.500000 602.799988 788.799988 }
+			pitch=180.000000
+			yaw=8.000000
+			camera_near_far={ 110.000000 670.000000 }
+			shadows_fade=15.000000
+		}
+	}
+ {
+		description="Chandelier Light 2"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=1783.400024
+			intensity=50.000000
+			position={ 0.000000 525.799988 325.800018 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 1.000000 0.676514 0.218750 }
+			enabled=no
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=83.000000
+			position={ 0.000000 525.799988 325.800018 }
+			pitch=180.000000
+			yaw=-180.000000
+			camera_near_far={ 30.000000 1000.000000 }
+		}
+	}
+ {
+		description="Character Light green"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			cubemap_shadow=yes
+			radius=1500.000000
+			intensity=400.000000
+			position={ 151.199997 503.399994 194.100006 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.156862 0.078431 0.392156 }
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=125.000000
+			position={ 151.199997 503.399994 194.100006 }
+			pitch=90.000000
+			yaw=90.000000
+			camera_near_far={ 50.000000 1070.000000 }
+			shadows_fade=12.000000
+		}
+	}
+ {
+		description="Window Light Left"
+		light={
+			outer_cone_angle=0.030000
+			inner_cone_angle=0.070000
+			affected_by_shadow=no
+			radius=70.000000
+			intensity=5.000000
+			position={ -786.200012 196.800003 205.600006 }
+			pitch=147.000000
+			yaw=-99.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=170.000000
+			position={ -786.200012 196.800003 205.600006 }
+			pitch=179.000000
+			yaw=0.000000
+			camera_near_far={ 20.000000 5000.000000 }
+		}
+	}
+ {
+		description="Chandelier Light Filler"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=500.000000
+			intensity=50.000000
+			position={ 0.000000 282.200012 4.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 1.000000 0.676514 0.218750 }
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=135.000000
+			position={ 0.000000 282.200012 4.000000 }
+			pitch=90.000000
+			yaw=-180.000000
+			camera_near_far={ 10.000000 2000.000000 }
+		}
+	}
+ {
+		description="Back Room Cold"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=3558.500000
+			intensity=866.000000
+			position={ 84.700005 369.500000 -387.100006 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=82.000000
+			position={ 84.700005 369.500000 -387.100006 }
+			pitch=90.000000
+			yaw=-180.000000
+			camera_near_far={ 30.000000 1860.000000 }
+		}
+	}
+ {
+		description="Chandelier Light 1"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=1391.200073
+			intensity=50.000000
+			position={ 0.000000 633.100037 100.800003 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 1.000000 0.562928 0.273438 }
+			intensity_variation=25.000000
+			intensity_variation_frequency=200.000000
+			animation=yes
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=143.000000
+			position={ 0.000000 633.100037 100.800003 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 10.000000 1000.000000 }
+		}
+	}
+ {
+		description="Window Light Right"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=550.500000
+			intensity=100.000000
+			position={ 425.000000 550.100000 720.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=116.000000
+			position={ 707.000000 31.100000 -214.600006 }
+			pitch=90.000000
+			yaw=-50.000000
+			camera_near_far={ 10.000000 1000.000000 }
+		}
+	}
+ {
+		description="Window Disc Right"
+		light={
+			outer_cone_angle=0.010000
+			inner_cone_angle=0.000000
+			cubemap_shadow=yes
+			radius=200.000000
+			intensity=6.000000
+			position={ 392.899994 572.799988 789.000000 }
+			pitch=178.000000
+			yaw=21.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=170.000000
+			position={ 392.899994 572.799988 789.000000 }
+			pitch=16.000000
+			yaw=-144.000000
+			camera_near_far={ 25.000000 610.000000 }
+			shadows_fade=100.000000
+		}
+	}
+ {
+		description="Throne Light"
+		light={
+			outer_cone_angle=0.320000
+			inner_cone_angle=0.260000
+			affected_by_shadow=no
+			radius=1200.000000
+			intensity=30.000000
+			position={ 0.000000 200.000000 450.000000 }
+			pitch=104.000000
+			yaw=0.000000
+			color={ 0.784314 0.784314 1.000000 }
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ 0.000000 200.000000 800.000000 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Back Room Cold"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=2500.000000
+			intensity=200.000000
+			position={ 84.700005 369.500000 163.300003 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=82.000000
+			position={ 84.700005 369.500000 163.300003 }
+			pitch=90.000000
+			yaw=-180.000000
+			camera_near_far={ 30.000000 1860.000000 }
+		}
+	}
+ }
+characters={ 
+	{
+		position={ 20.000059 55.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_group_1"
+		description="SexBedEvent group 1"
+		camera="Bed View"
+		roles={ sex_bed_1 }
+	}
+ {
+		position={ 20.000059 55.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_group_2"
+		description="SexBedtEvent group 2"
+		camera="Bed View"
+		roles={ sex_bed_2 }
+	}
+	{
+		position={ 20.000059 55.000000 500.000000 }
+		direction=270.000010
+		locator="sex_bed_group_1"
+		description="SexBedHeadboardEvent group 1"
+		camera="Bed View"
+		roles={ sex_bed_headboard_1 }
+	}
+ {
+		position={ 20.000059 55.000000 500.000000 }
+		direction=270.000010
+		locator="sex_bed_group_2"
+		description="SexBedHeadboardEvent group 2"
+		camera="Bed View"
+		roles={ sex_bed_headboard_2 }
+	}
+	{
+		position={ 20.000059 55.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_high_group_1"
+		description="SexBedHighEvent group 1"
+		camera="Bed View"
+		roles={ sex_bed_high_1 }
+	}
+ {
+		position={ 20.000059 55.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_high_group_2"
+		description="SexBedHighEvent group 2"
+		camera="Bed View"
+		roles={ sex_bed_high_2 }
+	}
+	{
+		position={ 20.000059 55.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_extreme_high_group_1"
+		description="SexBedExtremeHighEvent group 1"
+		camera="Bed View"
+		roles={ sex_bed_extreme_high_1 }
+	}
+ {
+		position={ 20.000059 55.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_extreme_high_group_2"
+		description="SexBedExtremeHighEvent group 2"
+		camera="Bed View"
+		roles={ sex_bed_extreme_high_2 }
+	}
+	{
+		position={ 20.000059 0.000000 250.000000 }
+		direction=270.000010
+		locator="sex_standing_group_1"
+		description="SexStandingEvent group 1"
+		camera="Bed Standing View"
+		roles={ sex_standing_1 }
+	}
+	{
+		position={ 20.000059 0.000000 250.000000 }
+		direction=270.000010
+		locator="sex_standing_group_2"
+		description="SexStandingEvent group 2"
+		camera="Bed Standing View"
+		roles={ sex_standing_2 }
+	}
+ {
+		position={ 20.000059 0.000000 250.000000 }
+		direction=270.000010
+		locator="sex_standing_held_group_1"
+		description="SexStandingHeldEvent group 1"
+		camera="Bed Standing View"
+		roles={ sex_standing_held }
+	}
+ }
+assets={ {
+		position={ 0.000000 0.000000 60.000000 }
+		description="Carpet"
+		asset="ep1_mena_carpet_01_a_entity"
+	}
+ {
+		position={ 0.000059 0.000000 425.000000 }
+		direction=0.000010
+		description="Bed"
+		asset="cbo_mena_bed_01_entity"
+		roles=ruler_throne
+	}
+ {
+		position={ 150.000061 3.000000 680.000000 }
+		direction=0.000010
+		description="Throne 2"
+		asset="ep1_mena_throne_basic_01_a_entity"
+		roles=spouse_throne
+	}
+ {
+		position={ -600.000000 0.000000 0.000052 }
+		direction=0.000010
+		description="Wall - Left"
+		asset="cbo_court_mena_sidewall_1_a_entity"
+	}
+ {
+		position={ 0.000070 0.000000 600.000000 }
+		direction=0.000010
+		description="Wall - Center"
+		asset="cbo_court_mena_thronewall_1_a_entity"
+	}
+ {
+		position={ 600.000000 0.000000 -0.000052 }
+		rotation={ 180.000000 -0.000005 180.000000 }
+		description="Wall - Right"
+		asset="cbo_court_mena_sidewall_2_a_entity"
+	}
+ {
+		direction=0.000010
+		description="Floor"
+		asset="ep1_court_mena_floor_01_b_entity"
+	}
+ {
+		position={ 0.000000 399.000000 0.000000 }
+		direction=0.000010
+		description="Roof"
+		asset="ep1_court_mena_roofing_2_a_entity"
+	}
+ {
+		position={ -375.000000 503.799988 750.000000 }
+		scale=1.300000
+		description="Atmospheric Particle"
+		asset="roco_atmospheric_01"
+	}
+ {
+		position={ 375.000000 503.799988 750.000000 }
+		scale=1.300000
+		description="Atmospheric Particle"
+		asset="roco_atmospheric_01"
+	}
+ {
+		position={ 0.000000 699.900024 231.800003 }
+		scale=1.300000
+		description="Chandelier"
+		asset="ep1_mena_chandelier_fancy_entity"
+	}
+ {
+		position={ 0.000000 612.500000 191.900009 }
+		scale=0.550000
+		description="Dust Motes"
+		asset="roco_dust_motes_mena"
+	}
+ {
+		position={ -500.000000 5.000000 250.00000 }
+		rotation={ 180.000000 -80.000008 180.000000 }
+		description="Throneroom deco 1"
+		asset="ep1_mena_pillowcarpet_01_a_entity"
+	}
+ {
+		position={ 545.599976 4.000000 -329.799988 }
+		description="Throneroom deco 2"
+		asset="ep1_indian_floor_lamp_01_entity"
+	}
+ {
+		position={ -545.599976 4.000000 -320.799988 }
+		description="Throneroom deco 3"
+		asset="ep1_indian_floor_lamp_01_entity"
+	}
+ {
+		position={ 400.000000 2.000000 450 }
+		rotation={ 180.000000 86.386909 180.000000 }
+		description="Throneroom deco 1"
+		asset="ep1_mena_pillowcarpet_01_a_entity"
+	}
+ {
+		position={ 55.299988 0.000000 -550.000000 }
+		description="Deco Vase"
+		asset="ep1_deco_vase_01_a_entity"
+	}
+ }
+artifacts={  
+ }
+support_type={
+	lectern=ep1_mena_lectern_01_a_entity
+	tall=ep1_mena_pedestal_tall_01_a_entity
+	short_pillow=ep1_mena_pedestal_short_pillow_01_a_entity
+	tall_pillow=ep1_mena_pedestal_tall_pillow_01_a_entity
+	armorstand=ep1_western_armorstand_01_entity
+	short=ep1_mena_pedestal_short_01_a_entity
+}
