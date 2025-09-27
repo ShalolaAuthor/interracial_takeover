@@ -56,8 +56,8 @@ window = {
 				size = { 510 0 }
 
 				background = {
-					visible = "[Not(Character.IsFemale)]"
-					texture = "gfx/interface/icons/inventory/character_paperdoll.dds"
+					visible = "[And(Not(Character.IsFemale), Not(GetVariableSystem.Exists('bno_artifact_view_toggle')))]"
+					texture = "gfx/interface/icons/inventory/character_paperdoll_male_front.dds"
 					fittype = centercrop
 					alpha = 0.6
 					margin_bottom = -100
@@ -67,8 +67,30 @@ window = {
 				}
 
 				background = {
-					visible = "[Character.IsFemale]"
-					texture = "gfx/interface/icons/inventory/character_paperdoll_female.dds"
+					visible = "[And(Not(Character.IsFemale), GetVariableSystem.Exists('bno_artifact_view_toggle'))]"
+					texture = "gfx/interface/icons/inventory/character_paperdoll_male_back.dds"
+					fittype = centercrop
+					alpha = 0.6
+					margin_bottom = -100
+					margin_left = -10
+					margin_right = -10
+					margin_top = 20
+				}
+
+				background = {
+					visible = "[And(Character.IsFemale, Not(GetVariableSystem.Exists('bno_artifact_view_toggle')))]"
+					texture = "gfx/interface/icons/inventory/character_paperdoll_female_front.dds"
+					fittype = centercrop
+					alpha = 0.6
+					margin_bottom = -100
+					margin_left = -10
+					margin_right = -10
+					margin_top = 20
+				}
+
+				background = {
+					visible = "[And(Character.IsFemale, GetVariableSystem.Exists('bno_artifact_view_toggle'))]"
+					texture = "gfx/interface/icons/inventory/character_paperdoll_female_back.dds"
 					fittype = centercrop
 					alpha = 0.6
 					margin_bottom = -100
@@ -89,6 +111,17 @@ window = {
 						align = center|nobaseline
 						text = "INVENTORY_EQUIPPED_ARTIFACTS_HEADER"
 						margin = { 0 2 }
+					}
+				}
+
+				button_round = {
+					onclick = "[GetVariableSystem.Toggle('bno_artifact_view_toggle')]"
+					position = { 25 450 }
+					tooltip = bno_toggle_artifact_view
+					button_icon_highlight = {
+						parentanchor = center
+						size = { 25 25 }
+						texture = "gfx/interface/icons/flat_icons/revert.dds"
 					}
 				}
 
@@ -133,6 +166,7 @@ window = {
 				}
 
 				widget_inventory_slot = {
+					visible = "[Not(GetVariableSystem.Exists('bno_artifact_view_toggle'))]"
 					name = "head_slot"
 					datacontext = "[Inventory.GetSlot('crown')]"
 					parentanchor = top|hcenter
@@ -140,6 +174,7 @@ window = {
 				}
 
 				widget_inventory_slot = {
+					visible = "[Not(GetVariableSystem.Exists('bno_artifact_view_toggle'))]"
 					name = "journal_slot"
 					datacontext = "[Inventory.GetSlot('journal')]"
 					parentanchor = top|right
@@ -147,6 +182,7 @@ window = {
 				}
 
 				widget_inventory_slot = {
+					visible = "[Not(GetVariableSystem.Exists('bno_artifact_view_toggle'))]"
 					name = "regalia_slot"
 					datacontext = "[Inventory.GetSlot('regalia')]"
 					parentanchor = vcenter|right
@@ -154,6 +190,7 @@ window = {
 				}
 
 				widget_inventory_slot = {
+					visible = "[Not(GetVariableSystem.Exists('bno_artifact_view_toggle'))]"
 					name = "weapon_slot"
 					datacontext = "[Inventory.GetSlot('weapon')]"
 					parentanchor = vcenter|left
@@ -161,6 +198,7 @@ window = {
 				}
 
 				widget_inventory_slot = {
+					visible = "[Not(GetVariableSystem.Exists('bno_artifact_view_toggle'))]"
 					name = "armor_slot"
 					datacontext = "[Inventory.GetSlot('armor')]"
 					parentanchor = center
@@ -168,6 +206,7 @@ window = {
 				}
 
 				widget_inventory_slot = {
+					visible = "[Not(GetVariableSystem.Exists('bno_artifact_view_toggle'))]"
 					name = "chastity_slot"
 					datacontext = "[Inventory.GetSlot('chastity')]"
 					parentanchor = center
@@ -175,6 +214,7 @@ window = {
 				}
 
 				widget = {
+					visible = "[Not(GetVariableSystem.Exists('bno_artifact_view_toggle'))]"
 					name = "trinket_widget_hight"
 					parentanchor = bottom|hcenter
 					position = { 0 -100 }
