@@ -42,7 +42,7 @@ morph_genes = {
 			girl = male
         }
         areolas_0 = {
-			index = 0
+			index = 1
 			male = { }
 			female = { 
 				decal = {
@@ -130,7 +130,7 @@ morph_genes = {
 			girl = boy
 		}
 		areolas_1 = {
-			index = 1
+			index = 2
 			male = { }
 			female = { 
 				decal = {
@@ -170,7 +170,7 @@ morph_genes = {
 			girl = boy
 		}
 		areolas_2 = {
-			index = 2
+			index = 3
 			male = { }
 			female = { 
 				decal = {
@@ -258,7 +258,7 @@ morph_genes = {
 			girl = boy
 		}
 		areolas_3 = {
-			index = 3
+			index = 4
 			male = { }
 			female = { 
 				decal = {
@@ -346,7 +346,7 @@ morph_genes = {
 			girl = boy
 		}
 		areolas_4 = {
-			index = 4
+			index = 5
 			male = { }
 			female = { 
 				decal = {
@@ -434,7 +434,7 @@ morph_genes = {
 			girl = boy
 		}
 		areolas_5 = {
-			index = 5
+			index = 6
 			male = { }
 			female = { 
 				decal = {
