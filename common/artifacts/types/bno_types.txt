@@ -5,3 +5,11 @@
 
     can_reforge = no
 }
+
+bno_chastity_piercing = {
+    slot = chastity
+    required_features = { generic_material_metal }
+    optional_features = { decoration_material_wire }
+
+    can_reforge = no
+}

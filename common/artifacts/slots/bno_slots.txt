@@ -3,3 +3,9 @@
     category = inventory
     icon = chastity
 }
+
+anal = {
+    type = "anal"
+    category = inventory
+    icon = anal
+}

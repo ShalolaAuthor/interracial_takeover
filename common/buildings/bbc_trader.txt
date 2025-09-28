@@ -1,0 +1,9 @@
+﻿bbc_trader_01 = {
+    type = special
+    asset = {
+        type = pdxmesh
+        name = "building_african_tribal_01_a_mesh"
+    }
+
+    
+}
