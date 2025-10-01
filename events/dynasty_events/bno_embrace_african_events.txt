@@ -2171,7 +2171,6 @@ bno_embrace_african_5.0008 = {
         }
     }
 }
-
 #fired from decision (Primal Insight)
 bno_embrace_african_5.0009 = {
     type = character_event
@@ -2261,7 +2260,6 @@ bno_embrace_african_5.0009 = {
         bno_sex_scene_cleanup = yes
     }
 }
-
 #fired from interaction to heal family diseases
 bno_embrace_african_5.0010 = {
     type = character_event
@@ -2497,7 +2495,7 @@ bno_embrace_african_5.0010 = {
         }
     }
 }
-
+#fired from decision
 bno_embrace_african_5.0011 = {
     type = character_event
     theme = faith
@@ -2556,7 +2554,7 @@ bno_embrace_african_5.0011 = {
         }
     }
 }
-
+#fired from decision
 bno_embrace_african_5.0012 = {
     type = character_event
     theme = faith

@@ -6,6 +6,12 @@
 bno_cuckish = {
 	group = bno_whiteboi
 	level = 1
+	opposites = {
+		bno_bbc
+		bno_whitegirl
+	}
+	opposite_opinion = 10
+	same_opinion = 10
 	attraction_opinion = -10
 	general_opinion = -8
 	spouse_opinion = 5
@@ -50,9 +56,15 @@ bno_cuckish = {
 bno_cuck = {
 	group = bno_whiteboi
 	level = 2
+	opposites = {
+		bno_bbc
+		bno_whitegirl
+	}
+	opposite_opinion = 20
+	same_opinion = 20
 	attraction_opinion = -15
 	general_opinion = -10
-	spouse_opinion = 8
+	spouse_opinion = 10
 	monthly_prestige = -0.55
 	martial = -2
 	prowess = -4
@@ -89,13 +101,18 @@ bno_cuck = {
 	    bno_qos = -75
 	    bno_mindless_bbc_slut = -100
 	}
-
 }
 
 # Level 3 — Beta
 bno_beta = {
 	group = bno_whiteboi
 	level = 3
+	opposites = {
+		bno_bbc
+		bno_whitegirl
+	}
+	opposite_opinion = 40
+	same_opinion = 40
 	attraction_opinion = -25
 	general_opinion = -15
 	spouse_opinion = 12
@@ -146,6 +163,12 @@ bno_beta = {
 bno_jos = {
 	group = bno_whiteboi
 	level = 4
+	opposites = {
+		bno_bbc
+		bno_whitegirl
+	}
+	opposite_opinion = 80
+	same_opinion = 80
 	attraction_opinion = -40
 	general_opinion = -20
 	spouse_opinion = 20
@@ -351,9 +374,8 @@ bno_bbc = {
 		bno_pussy_mileage
 	}
 	
-	same_opinion = 200
-	opposite_opinion = 200
-	general_opinion = -200
+	same_opinion = 100
+	opposite_opinion = 100
 	
 	ignore_negative_culture_opinion = yes
 	ignore_negative_opinion_of_culture = yes
@@ -446,8 +468,8 @@ bno_curious = {
 	
 	#Special Opinion
 	general_opinion = -20
-	opposite_opinion = 200
-	same_opinion = 20
+	opposite_opinion = 100
+	same_opinion = 40
 
 	#Trait Relation
 	compatibility = {
@@ -466,10 +488,6 @@ bno_curious = {
 
 	opposites = {
 		bno_bbc
-		bno_mindless_bbc_slut
-		bno_blacked
-		bno_snowbunny
-		bno_qos
 	}
 
 	#Groups
@@ -540,8 +558,8 @@ bno_blacked = {
 	
 	#Special Opinion
 	general_opinion = -40
-	same_opinion = 40
-	opposite_opinion = 225
+	same_opinion = 80
+	opposite_opinion = 125
 
 	#Trait Relation
 	compatibility = {
@@ -559,10 +577,6 @@ bno_blacked = {
 	}
 	opposites = {
 		bno_bbc
-		bno_curious
-		bno_mindless_bbc_slut
-		bno_snowbunny
-		bno_qos
 	}
 
 	#Groups
@@ -636,8 +650,8 @@ bno_snowbunny = {
 	
 	#Special Opinion
 	general_opinion = -60
-	same_opinion = 60
-	opposite_opinion = 250
+	same_opinion = 120
+	opposite_opinion = 150
 
 	#Trait Relation
 	compatibility = {
@@ -656,10 +670,6 @@ bno_snowbunny = {
 
 	opposites = {
 		bno_bbc
-		bno_curious
-		bno_blacked
-		bno_mindless_bbc_slut
-		bno_qos
 	}
 
 	#Groups
@@ -743,8 +753,8 @@ bno_qos = {
 	
 	#Special Opinion
 	general_opinion = -80
-	same_opinion = 80
-	opposite_opinion = 275
+	same_opinion = 160
+	opposite_opinion = 175
 
 	#Trait Relation
 	compatibility = {
@@ -762,10 +772,6 @@ bno_qos = {
 
 	opposites = {
 		bno_bbc
-		bno_curious
-		bno_blacked
-		bno_snowbunny
-		bno_mindless_bbc_slut
 	}
 
 	#Groups
@@ -847,8 +853,8 @@ bno_mindless_bbc_slut = {
 	
 	#Special Opinion
 	general_opinion = -100
-	same_opinion = 100
-	opposite_opinion = 300
+	same_opinion = 200
+	opposite_opinion = 200
 
 	#Trait Relation
 	compatibility = {
@@ -865,10 +871,6 @@ bno_mindless_bbc_slut = {
 
 	opposites = {
 		bno_bbc
-		bno_curious
-		bno_blacked
-		bno_snowbunny
-		bno_qos
 	}
 
 	#Groups

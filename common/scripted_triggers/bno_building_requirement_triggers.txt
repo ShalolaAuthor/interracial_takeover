@@ -1,43 +1,85 @@
 ﻿bno_building_requirement_camp = {
     custom_description = {
         text = bbc_or_whitegirl_trigger
-        scope:holder ?= {
-	    	top_liege = {
-	    		OR = {
-	    			has_trait = bno_bbc
-	    			is_bno_qos_and_up = yes
-					has_trait = bno_jos
-	    		}
-			}
-	    }
+        is_bno_actor_holder = yes
     }
+	custom_description = {
+		text = has_dynasty_perk_2
+		is_bno_actor_has_relevant_dynasty_perks = {
+			TRIGGER_KEY = bno_has_embrace_african_2
+		}
+	}
 }
 
 bno_building_requirement_church = {
 	custom_description = {
         text = bbc_or_whitegirl_trigger
-        scope:holder ?= {
-			top_liege = {
-	    		OR = {
-	    			has_trait = bno_bbc
-	    			is_bno_qos_and_up = yes
-					has_trait = bno_jos
-	    		}
-			}
-	    }
+        is_bno_actor_holder = yes
     }
 	custom_description = {
         text = is_king_or_emperor
-		scope:holder ?= { 
-			top_liege = {
+		scope:holder ?= {
+			OR = {
 				highest_held_title_tier >= tier_kingdom 
+				liege ?= {
+					highest_held_title_tier >= tier_kingdom 
+				}
+				top_liege ?= {
+					highest_held_title_tier >= tier_kingdom 
+				}
 			}
 		}
     }
+	custom_description = {
+		text = has_dynasty_perk_5_and_piety_level
+		is_bno_actor_has_relevant_dynasty_perks = {
+			TRIGGER_KEY = bno_church_trigger_key
+		}
+	}
+}
+
+bno_building_requirement_trader = {
+	custom_description = {
+        text = bbc_or_whitegirl_trigger
+        is_bno_actor_holder = yes
+    }
+	custom_description = {
+		text = has_dynasty_perk_1
+		is_bno_actor_has_relevant_dynasty_perks = {
+			TRIGGER_KEY = bno_has_embrace_african_1
+		}
+	}
+}
+
+is_bno_actor_holder = {
 	scope:holder ?= {
-		top_liege = {
-			piety_level >= 3
-			bno_has_embrace_african_5 = yes
+		OR = {
+			is_bno_actor = yes
+			liege ?= {
+				is_bno_actor = yes
+			}
+			top_liege ?= {
+				is_bno_actor = yes
+			}
+		}
+	}
+}
+
+bno_church_trigger_key = {
+	bno_has_embrace_african_5 = yes
+	piety_level >= 3
+}
+
+is_bno_actor_has_relevant_dynasty_perks = {
+	scope:holder ?= {
+		OR = {
+			$TRIGGER_KEY$ = yes
+			liege ?= {
+				$TRIGGER_KEY$ = yes
+			}
+			top_liege ?= {
+				$TRIGGER_KEY$ = yes
+			}
 		}
 	}
 }

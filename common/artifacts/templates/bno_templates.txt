@@ -1,6 +1,6 @@
 ﻿bno_chastity_cage_template = {
     can_equip = {
-        always = yes
+        is_a_male = yes
     }
     ai_score = {
         value = 100000
@@ -10,7 +10,27 @@
 
 bno_chastity_piercing_template = {
     can_equip = {
-        always = yes
+        is_a_girl = yes
+    }
+    ai_score = {
+        value = 100000
+    }
+    unique = yes
+}
+
+bno_tincture_of_genesis_template = {
+    can_equip = {
+        is_bbc = yes
+    }
+    ai_score = {
+        value = 100000
+    }
+    unique = yes
+}
+
+bno_elixir_of_the_black_womb_template = {
+    can_equip = {
+        is_a_male = yes
     }
     ai_score = {
         value = 100000

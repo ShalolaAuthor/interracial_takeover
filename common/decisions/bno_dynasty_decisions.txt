@@ -180,3 +180,230 @@ bno_trade_prestige_for_gold = {
 		bno_white_girl_modifier_biggest = yes
 	}
 }
+
+bno_build_bbc_trader_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = bno_decision_group
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_bbc = yes }
+				desc = bno_build_bbc_trader_decision.title.male
+			}
+			desc = bno_build_bbc_trader_decision.title.female
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_bbc = yes }
+				desc = bno_build_bbc_trader_decision.desc.male
+			}
+			desc = bno_build_bbc_trader_decision.desc.female
+		}
+	}
+	selection_tooltip = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_bbc = yes }
+				desc = bno_build_bbc_trader_decision.tooltip.male
+			}
+			desc = bno_build_bbc_trader_decision.tooltip.female
+		}
+	}
+	confirm_text = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_bbc = yes }
+				desc = bno_build_bbc_trader_decision.confirm.male
+			}
+			desc = bno_build_bbc_trader_decision.confirm.female
+		}
+	}
+	is_shown = {
+		is_ruler = yes
+		is_adult = yes
+		is_bno_actor = yes
+		dynasty ?= {
+			has_dynasty_perk = bno_embrace_african_1
+		}
+		OR = { 
+			is_ai = no 
+			has_game_rule = bno_decision_npc_yes 
+		}
+		NOT = {
+			any_held_county = {
+				any_in_de_jure_hierarchy = {
+        	        title_province = {
+						has_building_or_higher = bbc_trader_01
+					}
+				}
+			}
+		}
+	}
+
+	is_valid = {
+		any_held_county = {
+			any_in_de_jure_hierarchy = {
+                title_province = {
+					NOT = { has_building_or_higher = bbc_trader_01 }
+				}
+			}
+		}
+	}
+	
+	widget = {
+		controller = create_holy_order
+		barony_valid = {
+			trigger_if = {
+				limit = { exists = this }
+				bno_is_barony_valid_for_bbc_trader = {
+					HOLDER = scope:ruler
+				}
+			}
+		}
+	}
+	
+	cost = {
+		gold = cheap_building_tier_1_cost
+	}
+	cooldown = {
+		months = 12
+	}
+	effect = {
+		trigger_event = {
+			on_action = bno_caravan_on_action
+		}
+		send_interface_message = {
+			type = bno_blacked_events
+			title = {
+				first_valid = {
+					triggered_desc = {
+						trigger = { is_bbc = yes }
+						desc = bno_build_bbc_trader_decision.message.title.male
+					}
+					desc = bno_build_bbc_trader_decision.message.title.female
+				}
+			}
+			desc = {
+				first_valid = {
+					triggered_desc = {
+						trigger = { is_bbc = yes }
+						desc = bno_build_bbc_trader_decision.message.desc.male
+					}
+					desc = bno_build_bbc_trader_decision.message.desc.female
+				}
+			}
+			scope:barony ?= {
+				title_province = {
+					add_special_building_slot  = bbc_trader_01
+					add_special_building = bbc_trader_01
+				}
+			}
+		}
+	}
+	ai_check_interval = 12
+	ai_potential = {
+		is_ruler = yes
+		any_held_county = {
+			any_in_de_jure_hierarchy = {
+                bno_is_barony_valid_for_bbc_trader = {
+					HOLDER = root
+				}
+			}
+		}
+	}
+	ai_will_do = {
+        base = 100
+        modifier = {
+			add = -50
+			any_held_county = {
+				any_in_de_jure_hierarchy = {
+					title_province = {
+						has_building_or_higher = bbc_trader_01
+					}
+				}
+			}
+		}
+	}
+}
+
+bno_purchase_goods_decision = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_recruitment.dds"
+	}
+	sort_order = 10
+	decision_group_type = bno_decision_group
+	title = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_bbc = yes }
+				desc = bno_purchase_goods_decision.title.male
+			}
+			desc = bno_purchase_goods_decision.title.female
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_bbc = yes }
+				desc = bno_purchase_goods_decision.desc.male
+			}
+			desc = bno_purchase_goods_decision.desc.female
+		}
+	}
+	selection_tooltip = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_bbc = yes }
+				desc = bno_purchase_goods_decision.tooltip.male
+			}
+			desc = bno_purchase_goods_decision.tooltip.female
+		}
+	}
+	confirm_text = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { is_bbc = yes }
+				desc = bno_purchase_goods_decision.confirm.male
+			}
+			desc = bno_purchase_goods_decision.confirm.female
+		}
+	}
+	is_shown = {
+		is_adult = yes
+		OR = {
+			has_bbc_trader = yes
+			liege ?= {
+				has_bbc_trader = yes
+			}
+			top_liege ?= {
+				has_bbc_trader = yes
+			}
+		}
+		is_bno_actor = yes
+	}
+	cooldown = {
+		days = 2
+	}
+	effect = {
+		trigger_event = bno_caravan.0001
+	}
+	is_valid = {
+		custom_tooltip = {
+			text = has_bbc_caravan
+			OR = {
+				has_bbc_caravan = yes
+				liege ?= {
+					has_bbc_caravan = yes
+				}
+				top_liege ?= {
+					has_bbc_caravan = yes
+				}
+			}
+		}
+	}
+}

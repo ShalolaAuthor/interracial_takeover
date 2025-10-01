@@ -329,6 +329,10 @@ bno_white_girl_modifier_biggest = {
 		add = 100000
 		is_slut = yes
 	}
+	modifier = {
+		add = 100000
+		is_whiteboi = yes
+	}
 }
 
 bno_vanilla_trait_modifier = {

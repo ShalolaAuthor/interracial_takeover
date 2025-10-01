@@ -1,0 +1,83 @@
+﻿yearly_global_pulse = {
+    on_actions = {
+        bno_caravan_pulse
+    }
+}
+
+bno_caravan_pulse = {
+    on_actions = {
+        bno_caravan_on_action
+        delay = { months = 1 }
+        bno_caravan_on_action
+        delay = { months = 1 }
+        bno_caravan_on_action
+        delay = { months = 1 }
+        bno_caravan_on_action
+        delay = { months = 1 }
+        bno_caravan_on_action
+        delay = { months = 1 }
+        bno_caravan_on_action
+        delay = { months = 1 }
+        bno_caravan_on_action
+        delay = { months = 1 }
+        bno_caravan_on_action
+        delay = { months = 1 }
+        bno_caravan_on_action
+        delay = { months = 1 }
+        bno_caravan_on_action
+        delay = { months = 1 }
+        bno_caravan_on_action
+        delay = { months = 1 }
+        bno_caravan_on_action
+    }
+}
+
+bno_caravan_on_action = {
+    effect = {
+        every_province = {
+            limit = {
+                NOT = { has_variable = bno_caravan_open }
+                NOT = { has_variable = bno_caravan_cooldown }
+                has_building = bbc_trader_01
+            }
+            bno_send_bbc_trader_message_to_relevant_people = yes
+            set_variable = {
+                name = bno_caravan_open
+                value = yes
+                days = 30
+            }
+            set_variable = {
+                name = bno_caravan_cooldown
+                value = yes
+                days = { 30 180 }
+            }
+        }
+        every_province = {
+            limit = {
+                NOT = { has_variable = bno_caravan_open }
+                NOT = { has_variable = bno_caravan_cooldown }
+                has_building = bbc_trader_02
+            }
+            bno_send_bbc_trader_message_to_relevant_people = yes
+            set_variable = {
+                name = bno_caravan_open
+                value = yes
+                days = 30
+            }
+            set_variable = {
+                name = bno_caravan_cooldown
+                value = yes
+                days = { 30 90 }
+            }
+        }
+        every_province = {
+            limit = {
+                NOT = { has_variable = bno_caravan_open }
+                NOT = { has_variable = bno_caravan_cooldown }
+                has_building = bbc_trader_03
+            }
+            bno_send_bbc_trader_message_to_relevant_people = yes
+            set_variable = bno_caravan_open
+        }
+    }
+}

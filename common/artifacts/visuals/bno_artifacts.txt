@@ -7,3 +7,13 @@ bno_chastity_piercing = {
     icon = "bno_chastity_piercing.dds"
     asset = ep1_generic_jewelry_01_a_entity
 }
+
+bno_tincture_of_genesis = {
+    icon = "bno_tincture_of_genesis.dds"
+    asset = ep1_western_box_small_fancy_02_a_entity
+}
+
+bno_elixir_of_the_black_womb = {
+    icon = "bno_elixir_of_the_black_womb.dds"
+    asset = ep1_western_box_small_fancy_02_a_entity
+}

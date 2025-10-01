@@ -13,3 +13,13 @@ bno_chastity_piercing = {
 
     can_reforge = no
 }
+
+bno_tincture_of_genesis = {
+    slot = miscellaneous
+    can_reforge = no
+}
+
+bno_elixir_of_the_black_womb = {
+    slot = miscellaneous
+    can_reforge = no
+}

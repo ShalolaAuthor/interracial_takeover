@@ -453,13 +453,25 @@ bno_disease_immunity = {
         limit = {
             has_trait = bno_$TRAIT$_immunity
         }
-        send_interface_message = {
-            type = bno_blacked_events
-            title = bno_embrace_african_5.0008.immunity.title
-            desc = bno_embrace_african_5.0008.immunity.desc
-            right_icon = root
+        remove_trait = $TRAIT$
+        if = {
+            limit = {
+                NOT = { has_character_flag = bno_embrace_african_5.0008.immunity.read }
+            }
+            add_character_flag = {
+                flag = bno_embrace_african_5.0008.immunity.read
+                months = 6
+            }
+            send_interface_message = {
+                type = bno_blacked_events
+                title = bno_embrace_african_5.0008.immunity.title
+                desc = bno_embrace_african_5.0008.immunity.desc
+                right_icon = root
 
-            remove_trait = $TRAIT$
+                show_as_tooltip = {
+                    remove_trait = $TRAIT$
+                }
+            }
         }
     }
 }
@@ -512,6 +524,54 @@ bno_fuck_every_one_in_exchange_for_gold = {
         pay_short_term_gold = {
             target = root
             gold = { 1 2 }
+        }
+    }
+}
+
+bno_bbc_trader_has_arrived_message = {
+    send_interface_message = {
+        type = bno_blacked_events
+        title = {
+            first_valid = {
+                triggered_desc = {
+                    trigger = { is_bbc = yes }
+                    desc = bno_trader_has_arrived.title.male
+                }
+                desc = bno_trader_has_arrived.title.female
+            }
+        }
+        desc = {
+            first_valid = {
+                triggered_desc = {
+                    trigger = { is_bbc = yes }
+                    desc = bno_trader_has_arrived.desc.male
+                }
+                desc = bno_trader_has_arrived.desc.female
+            }
+        }
+    }
+}
+
+bno_send_bbc_trader_message_to_relevant_people = {
+    province_owner = {
+        if = {
+            limit = {
+                is_playable_character = yes
+            }
+            bno_bbc_trader_has_arrived_message = yes
+        }
+        liege ?= {
+            bno_bbc_trader_has_arrived_message = yes
+        }
+        if = {
+            limit = {
+                exists = liege
+                exists = top_liege
+                NOT = { liege = top_liege }
+            }
+            top_liege ?= {
+                bno_bbc_trader_has_arrived_message = yes
+            }
         }
     }
 }

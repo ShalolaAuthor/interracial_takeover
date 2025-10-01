@@ -183,3 +183,35 @@ bno_trade_prestige_for_gold.confirm.male: "Yes—let my wife serve the Bulls for
 bno_trade_prestige_for_gold.confirm.female: "Yes—I will serve the Bulls myself for gold."  
 
 bno_trade_prestige_for_gold.effect: "Convert [prestige|E] into [gold|E] through whored service to the African brotherhood."  
+
+bno_build_bbc_trader_decision.title.male: "Establish the Obsidian Caravan"
+bno_build_bbc_trader_decision.desc.male: "As a Bull of the Black New World Order you command land be cleared and marked with black banners, summoning your brethren. Here the Obsidian Caravan will root itself, selling the Tincture of Genesis, the Elixir of the Black Womb, cages for worms, and piercings for sluts. You are not inviting trade — you are extending dominion."
+bno_build_bbc_trader_decision.tooltip.male: "Found a permanent market for Bulls to trade in seed, sacraments, and tools of ownership."
+bno_build_bbc_trader_decision.confirm.male: "Claim the ground and summon the Caravan."
+bno_build_bbc_trader_decision.message.title.male: "Your Caravan Arrives"
+bno_build_bbc_trader_decision.message.desc.male: "Wagons roll in heavy with wares and seed, silk tents rise, and incense drifts. The Obsidian Caravan is now your domain’s beating heart — Bulls gather, sluts whisper, whitebois tremble. Your reach extends deeper into the realm."
+
+bno_build_bbc_trader_decision.title.female: "Invite the Obsidian Caravan"
+bno_build_bbc_trader_decision.desc.female: "You mark out a clearing with torches and banners, making a place for the Bulls’ wagons. Soon the Obsidian Caravan will come, selling the Tincture that binds sluts to cum, the Elixir that unmakes whitebois, and every cage and piercing that seals obedience. To welcome them is to welcome their power into your land — and into your body."
+bno_build_bbc_trader_decision.tooltip.female: "Prepare a site for the Obsidian Caravan, opening your realm to the Bulls’ trade and sacraments."
+bno_build_bbc_trader_decision.confirm.female: "Clear the ground and open the way."
+bno_build_bbc_trader_decision.message.title.female: "The Caravan Arrives"
+bno_build_bbc_trader_decision.message.desc.female: "The Obsidian Caravan rumbles into place, wagons hung with silks and heavy with seed. Bulls dismount to claim the grounds, sluts gather to whisper of tinctures and cages, and the air fills with incense, musk, and moans. You feel the change already: the caravan is here, and with it, destiny."
+
+bno_purchase_goods_decision.title.male: "Command the Caravan’s Wares"
+bno_purchase_goods_decision.desc.male: "The Obsidian Caravan opens its stock to you—tinctures, elixirs, cages, brands. As Bull, you pay in gold, never in flesh. The coin you spend is a mark of dominion, claiming the tools to crown sluts and break worms deeper into obedience."
+bno_purchase_goods_decision.tooltip.male: "Spend gold to acquire tinctures, elixirs, and tools of ownership."
+bno_purchase_goods_decision.confirm.male: "Lay down your gold and claim what is yours."
+
+bno_purchase_goods_decision.title.female: "Purchase from the Obsidian Caravan"
+bno_purchase_goods_decision.desc.female: "The Bulls of the Caravan spread out their wares—vials of Tincture of Genesis, Elixirs of the Black Womb, cages, piercings, and brands. If you have gold, they will take it. If not, they smirk and demand your body instead—holes stretched, mouth gagging, seed dripping down your thighs until the price is paid in full."
+bno_purchase_goods_decision.tooltip.female: "Spend gold, or trade sexual favor if your purse is empty."
+bno_purchase_goods_decision.confirm.female: "Pay in coin if you can, or in moans if you must."
+
+has_bbc_caravan: "The Obsidian Caravan has arrived and now dwells within your realm, its tents heavy with tinctures, elixirs, and tools of domination."
+
+bno_trader_has_arrived.title.male: "The Caravan Has Arrived"
+bno_trader_has_arrived.desc.male: "The Obsidian wagons roll across your land, black banners snapping, incense thick in the air. Bulls dismount with chests of tinctures, elixirs, cages, and brands. The caravan is here by your command—its wares now instruments of your supremacy."
+
+bno_trader_has_arrived.title.female: "The Caravan Enters Your Realm"
+bno_trader_has_arrived.desc.female: "Heavy wagons creak into place, silk tents rising under the watch of towering Bulls. Their goods shimmer—tinctures to bind, elixirs to transform, chains to mark. The caravan has arrived, and with it temptation, obedience, and the scent of seed in the air."

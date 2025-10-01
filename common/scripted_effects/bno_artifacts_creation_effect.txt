@@ -50,3 +50,62 @@
         equip_artifact_to_owner_replace = yes
     }
 }
+
+bno_create_artifact_generic_effect = {
+    set_artifact_rarity_illustrious = yes
+    create_artifact = {
+        name = $NAME$
+        creator = $CREATOR$
+        description = $DESC$
+        type = $TYPE$
+        template = $TYPE$_template
+        visuals = $TYPE$
+        wealth = scope:wealth
+        quality = scope:quality
+        modifier = $TYPE$_modifier
+        generate_history = yes
+        decaying = no
+        save_scope_as = bno_artifact
+    }
+    scope:bno_artifact = {
+        set_variable = { name = historical_unique_artifact value = yes }
+        set_variable = $TYPE$
+        save_scope_as = epic
+    }
+}
+
+bno_create_artifact_bno_chastity_cage_only_effect = {
+    bno_create_artifact_generic_effect = {
+        NAME = artifact_bno_chastity_cage
+        DESC = artifact_bno_chastity_cage.desc
+        CREATOR = $CREATOR$
+        TYPE = bno_chastity_cage
+    }
+}
+
+bno_create_artifact_bno_chastity_piercing_only_effect = {
+    bno_create_artifact_generic_effect = {
+        NAME = artifact_bno_chastity_piercing
+        DESC = artifact_bno_chastity_piercing.desc
+        CREATOR = $CREATOR$
+        TYPE = bno_chastity_piercing
+    }
+}
+
+bno_create_artifact_bno_tincture_of_genesis_only_effect = {
+    bno_create_artifact_generic_effect = {
+        NAME = artifact_bno_tincture_of_genesis
+        DESC = artifact_bno_tincture_of_genesis.desc
+        CREATOR = $CREATOR$
+        TYPE = bno_tincture_of_genesis
+    }
+}
+
+bno_create_artifact_bno_elixir_of_the_black_womb_only_effect = {
+    bno_create_artifact_generic_effect = {
+        NAME = artifact_bno_elixir_of_the_black_womb
+        DESC = artifact_bno_elixir_of_the_black_womb.desc
+        CREATOR = $CREATOR$
+        TYPE = bno_elixir_of_the_black_womb
+    }
+}
