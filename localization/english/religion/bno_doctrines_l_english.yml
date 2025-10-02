@@ -12,3 +12,9 @@ doctrine_bno_tenets_name: "[bno_religion|E]: Tenets"
 
 tenet_bno_black_cock_conquest_name: "The Black Cock Conquest"
 tenet_bno_black_cock_conquest_desc: "Through fervent prayer and holy conquest, we shall spread the glory of the [bno_bbc|E] across the land!"
+
+tenet_bno_hate_name: "Hatred of the Black Cock"  
+tenet_bno_hate_desc: "Every creed of the pale world recoils before the [GetFaithByKey('bbcs').GetName]. They see only blasphemy in our worship, only ruin in our seed, only shame in our dominion over their women. To them, our gospel is corruption, our rites obscene, our Bulls devils in the flesh. And still they tremble—for their hatred cannot halt the rise of the [bno_bbc|E]."
+
+tenet_bno_aniconism_name: "Worship of Flesh"  
+tenet_bno_aniconism_desc: "The worship of graven images blinds the weak to the only divine truth: the living [bno_bbc|E]. We cast all idols out of our holy places so that no false vision may profane them. Only flesh is sacred, and only the Black Cock is worthy of devotion."  

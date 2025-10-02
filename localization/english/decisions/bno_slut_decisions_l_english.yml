@@ -153,3 +153,65 @@ bno_events00.too_little_bbc: "Your hall is empty of [bno_bbcs|E]. With fewer tha
 bno_invite_slut_decision.too_little_white_girl: "Your court is thin of pale sluts. More must be invited, for every hall swells in power—and in peril—when white whores are gathered under one roof."
 
 bno_becoming_bbc_slut.has_bbc_in_court: "There must be at least one [bno_bbc|E] in your court to begin this path. Without a Bull to claim you, your fall into slavery cannot start."
+
+bno_trade_piety_for_gold.title.male: "Harvest the Faithful"  
+bno_trade_piety_for_gold.title.female: "Harvest the Faithful"  
+
+bno_trade_piety_for_gold.desc.male: "As master of the [GetFaithByKey('bbcs').GetName]’s Cathedral, you wield the devotion of Bulls and sluts alike. Their worship is more than moans and seed—they pour their gold into your hands, certain that every coin serves the divine girth of the [bno_bbc|E]."  
+
+bno_trade_piety_for_gold.desc.female: "As the Black-Cock-blessed slut of the [GetFaithByKey('bbcs').GetName], your dripping piety inspires the faithful. They empty their purses as eagerly as they spread their thighs, offering coin and flesh alike to fuel your Bull’s holy cause."  
+
+bno_trade_piety_for_gold.tooltip.male: "Spend [piety|E] to command the faithful to tithe, swelling your [gold|E]."  
+bno_trade_piety_for_gold.tooltip.female: "Spend [piety|E] to stir your flock into tribute, their lust and gold flowing to you."  
+
+bno_trade_piety_for_gold.confirm.male: "summon the flock’s gold in the name of the Black Cock."  
+bno_trade_piety_for_gold.confirm.female: "summon the faithful’s gold for my Bull’s glory."  
+
+bno_trade_piety_for_gold.effect: "Convert [piety|E] into [gold|E] through the lustful offerings of the faithful."  
+
+bno_trade_prestige_for_gold.title.male: "The Brotherhood’s Bargain"  
+bno_trade_prestige_for_gold.title.female: "The Brotherhood’s Bargain"  
+
+bno_trade_prestige_for_gold.desc.male: "Your prestige is not measured in words alone but in flesh offered. To prove your loyalty to the brotherhood, you whore out your wife to your kin. Bulls mount her one after another, seed spilling deep, and when their lust is spent, they heap gold at your feet in tribute."  
+
+bno_trade_prestige_for_gold.desc.female: "Your fame among the Bulls is proven through your body. You strip yourself bare, spreading wide before your kin, moaning as each Bull uses you in turn. With every climax they press coin into your hands, their seed dripping down your thighs along with their gold."  
+
+bno_trade_prestige_for_gold.tooltip.male: "Spend [prestige|E] by offering your wife’s holes to the Bulls, gaining [gold|E] after her use."  
+bno_trade_prestige_for_gold.tooltip.female: "Spend [prestige|E] by offering your own body to the Bulls, gaining [gold|E] after their use."  
+
+bno_trade_prestige_for_gold.confirm.male: "Yes—let my wife serve the Bulls for gold."  
+bno_trade_prestige_for_gold.confirm.female: "Yes—I will serve the Bulls myself for gold."  
+
+bno_trade_prestige_for_gold.effect: "Convert [prestige|E] into [gold|E] through whored service to the African brotherhood."  
+
+bno_build_bbc_trader_decision.title.male: "Establish the Obsidian Caravan"
+bno_build_bbc_trader_decision.desc.male: "As a Bull of the Black New World Order you command land be cleared and marked with black banners, summoning your brethren. Here the Obsidian Caravan will root itself, selling the Tincture of Genesis, the Elixir of the Black Womb, cages for worms, and piercings for sluts. You are not inviting trade — you are extending dominion."
+bno_build_bbc_trader_decision.tooltip.male: "Found a permanent market for Bulls to trade in seed, sacraments, and tools of ownership."
+bno_build_bbc_trader_decision.confirm.male: "Claim the ground and summon the Caravan."
+bno_build_bbc_trader_decision.message.title.male: "Your Caravan Arrives"
+bno_build_bbc_trader_decision.message.desc.male: "Wagons roll in heavy with wares and seed, silk tents rise, and incense drifts. The Obsidian Caravan is now your domain’s beating heart — Bulls gather, sluts whisper, whitebois tremble. Your reach extends deeper into the realm."
+
+bno_build_bbc_trader_decision.title.female: "Invite the Obsidian Caravan"
+bno_build_bbc_trader_decision.desc.female: "You mark out a clearing with torches and banners, making a place for the Bulls’ wagons. Soon the Obsidian Caravan will come, selling the Tincture that binds sluts to cum, the Elixir that unmakes whitebois, and every cage and piercing that seals obedience. To welcome them is to welcome their power into your land — and into your body."
+bno_build_bbc_trader_decision.tooltip.female: "Prepare a site for the Obsidian Caravan, opening your realm to the Bulls’ trade and sacraments."
+bno_build_bbc_trader_decision.confirm.female: "Clear the ground and open the way."
+bno_build_bbc_trader_decision.message.title.female: "The Caravan Arrives"
+bno_build_bbc_trader_decision.message.desc.female: "The Obsidian Caravan rumbles into place, wagons hung with silks and heavy with seed. Bulls dismount to claim the grounds, sluts gather to whisper of tinctures and cages, and the air fills with incense, musk, and moans. You feel the change already: the caravan is here, and with it, destiny."
+
+bno_purchase_goods_decision.title.male: "Command the Caravan’s Wares"
+bno_purchase_goods_decision.desc.male: "The Obsidian Caravan opens its stock to you—tinctures, elixirs, cages, brands. As Bull, you pay in gold, never in flesh. The coin you spend is a mark of dominion, claiming the tools to crown sluts and break worms deeper into obedience."
+bno_purchase_goods_decision.tooltip.male: "Spend gold to acquire tinctures, elixirs, and tools of ownership."
+bno_purchase_goods_decision.confirm.male: "Lay down your gold and claim what is yours."
+
+bno_purchase_goods_decision.title.female: "Purchase from the Obsidian Caravan"
+bno_purchase_goods_decision.desc.female: "The Bulls of the Caravan spread out their wares—vials of Tincture of Genesis, Elixirs of the Black Womb, cages, piercings, and brands. If you have gold, they will take it. If not, they smirk and demand your body instead—holes stretched, mouth gagging, seed dripping down your thighs until the price is paid in full."
+bno_purchase_goods_decision.tooltip.female: "Spend gold, or trade sexual favor if your purse is empty."
+bno_purchase_goods_decision.confirm.female: "Pay in coin if you can, or in moans if you must."
+
+has_bbc_caravan: "The Obsidian Caravan has arrived and now dwells within your realm, its tents heavy with tinctures, elixirs, and tools of domination."
+
+bno_trader_has_arrived.title.male: "The Caravan Has Arrived"
+bno_trader_has_arrived.desc.male: "The Obsidian wagons roll across your land, black banners snapping, incense thick in the air. Bulls dismount with chests of tinctures, elixirs, cages, and brands. The caravan is here by your command—its wares now instruments of your supremacy."
+
+bno_trader_has_arrived.title.female: "The Caravan Enters Your Realm"
+bno_trader_has_arrived.desc.female: "Heavy wagons creak into place, silk tents rising under the watch of towering Bulls. Their goods shimmer—tinctures to bind, elixirs to transform, chains to mark. The caravan has arrived, and with it temptation, obedience, and the scent of seed in the air."

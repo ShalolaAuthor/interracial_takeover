@@ -1,0 +1,337 @@
+﻿namespace = bno_caravan
+
+#init event
+bno_caravan.0001 = {
+    type = character_event
+    theme = realm
+    override_background = {
+        reference = market
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_bbc = yes }
+                desc = bno_caravan.0001.title.bbc
+            }
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_caravan.0001.title.female
+            }
+            desc = bno_caravan.0001.title.male
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_bbc = yes }
+                desc = bno_caravan.0001.desc.bbc
+            }
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_caravan.0001.desc.female
+            }
+            desc = bno_caravan.0001.desc.male
+        }
+    }
+
+    left_portrait = {
+        character = scope:shop_keeper
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = root
+        triggered_animation = {
+            trigger = { is_bbc = yes }
+            animation = personality_content
+        }
+        triggered_animation = {
+            trigger = { is_a_girl = yes }
+            animation = love
+        }
+        triggered_animation = {
+            trigger = { is_a_male = yes }
+            animation = worry
+        }
+    }
+
+    immediate = {
+        create_bbc = {
+            age = bno_young_adult
+            SCOPE_NAME = shop_keeper
+        }
+    }
+
+    option = {# enter with gold
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_bbc = yes }
+                        desc = bno_caravan.0001.a.bbc
+                    }
+                    triggered_desc = {
+                        trigger = { is_a_girl = yes }
+                        desc = bno_caravan.0001.a.female
+                    }
+                    desc = bno_caravan.0001.a.male
+                }
+            }
+        }
+        if = {
+            limit = {
+                OR = {
+                    is_slut = yes
+                    is_whiteboi = yes
+                }
+            }
+            pay_short_term_gold = {
+                target = scope:shop_keeper
+                gold = 100
+            }
+            trigger_event = bno_caravan.1001
+        }
+        else_if = {
+            limit = { is_bbc = yes }
+            trigger_event = bno_caravan.0002
+        }
+    }
+    option = {# enter with sex
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_girl = yes }
+                        desc = bno_caravan.0001.b.female
+                    }
+                    desc = bno_caravan.0001.b.male
+                }
+            }
+        }
+        trigger = {
+            OR = {
+                is_slut = yes
+                is_whiteboi = yes
+            }
+        }
+        show_as_tooltip = {
+            bno_have_sex_with_effects = {
+                PARTNER = scope:shop_keeper
+            }
+        }
+        trigger_event = bno_caravan.2001
+    }
+    option = {# dont enter
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_bno_curious = yes }
+                        desc = bno_caravan.0001.c.curious
+                    }
+                    desc = bno_caravan.0001.c.cuckish
+                }
+            }
+        }
+        trigger = {
+            OR = {
+                is_bno_curious = yes
+                is_cuckish = yes
+            }
+        }
+        add_prestige = -50
+    }
+}
+# Pay with gold followup
+bno_caravan.1001 = {
+    type = character_event
+    theme = realm
+    override_background = {
+        reference = market
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_caravan.1001.title.female
+            }
+            desc = bno_caravan.1001.title.male
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_caravan.1001.desc.female
+            }
+            desc = bno_caravan.1001.desc.male
+        }
+    }
+    left_portrait = {
+        character = scope:shop_keeper
+        animation = personality_content
+    }
+    right_portrait = {
+        character = root
+        triggered_animation = {
+            trigger = { is_a_girl = yes }
+            animation = love
+        }
+        triggered_animation = {
+            trigger = { is_a_male = yes }
+            animation = worry
+        }
+    }
+    immediate = {
+
+    }
+    option = {# tincture of genesis
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_caravan.1001.a.slut
+                    }
+                    desc = bno_caravan.1001.a.whiteboi
+                }
+            }
+        }
+        trigger_event = bno_caravan.0002
+    }
+}
+# Pay with sex
+bno_caravan.2001 = {
+    type = character_event
+    theme = realm
+    override_background = {
+        reference = market
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_caravan.2001.title.female
+            }
+            desc = bno_caravan.2001.title.male
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_caravan.2001.desc.female
+            }
+            desc = bno_caravan.2001.desc.male
+        }
+    }
+    left_portrait = {
+		character = scope:carn_sex_player
+		animation = sex_combined
+	}
+	
+	right_portrait = {
+		character = scope:carn_sex_partner
+		animation = sex_combined
+	}
+    immediate = {
+        bno_sex_scene_start = {
+			PARTNER = scope:shop_keeper
+		}
+        if = {
+            limit = {
+                is_slut = yes
+            }
+            sex_animations = yes
+        }
+        else = {
+            scope:carn_sex_player  = { set_variable = { name = sex_animation value = 14 } }
+            scope:carn_sex_partner = { set_variable = { name = sex_animation value = 13 } }
+        }
+    }
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_caravan.2001.a.slut
+                    }
+                    desc = bno_caravan.2001.a.whiteboi
+                }
+            }
+        }
+        carn_sex_scene_is_cum_inside_effect = yes
+        bno_sex_scene_cleanup = yes
+        trigger_event = bno_caravan.0002
+    }
+}
+#Shopping List
+bno_caravan.0002 = {
+    type = character_event
+    theme = realm
+    override_background = {
+        reference = market
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_bbc = yes }
+                desc = bno_caravan.0002.title.bbc
+            }
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_caravan.0002.title.female
+            }
+            desc = bno_caravan.0002.title.male
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_bbc = yes }
+                desc = bno_caravan.0002.desc.bbc
+            }
+            triggered_desc = {
+                trigger = { is_a_girl = yes }
+                desc = bno_caravan.0002.desc.female
+            }
+            desc = bno_caravan.0002.desc.male
+        }
+    }
+    left_portrait = {
+        character = scope:shop_keeper
+        animation = personality_content
+    }
+    right_portrait = {
+        character = root
+        animation = thinking
+    }
+    immediate = {
+
+    }
+    option = {# tincture of genesis
+        name = bno_caravan.0002.a
+        bno_create_artifact_bno_tincture_of_genesis_only_effect = {
+            CREATOR = scope:shop_keeper
+        }
+    }
+    option = {# elixir of the black womb
+        name = bno_caravan.0002.b
+        bno_create_artifact_bno_elixir_of_the_black_womb_only_effect = {
+            CREATOR = scope:shop_keeper
+        }
+    }
+    option = {# cages
+        name = bno_caravan.0002.c
+        bno_create_artifact_bno_chastity_cage_only_effect = {
+            CREATOR = scope:shop_keeper
+        }
+    }
+    option = {# piercing
+        name = bno_caravan.0002.d
+        bno_create_artifact_bno_chastity_piercing_only_effect = {
+            CREATOR = scope:shop_keeper
+        }
+    }
+}

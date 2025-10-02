@@ -1,0 +1,59 @@
+pdxmesh = {
+	name = "cbo_court_mena_sidewall_2_b_mesh"
+	file = "ep1_court_mena_sidewall_2_b.mesh"
+
+	meshsettings = {
+		name = "ep1_court_mena_sidewall_2_bShape"
+		index = 0
+		texture_diffuse = "ep1_materials_mena_wall_trimsheet_01_a_diffuse.dds"
+		texture_normal = "ep1_materials_mena_wall_trimsheet_01_a_normal.dds"
+		texture_specular = "ep1_materials_mena_wall_trimsheet_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_court_mena_sidewall_2_bShape"
+		index = 1
+		texture_diffuse = "ep1_materials_mena_wall_marble_01_b_diffuse.dds"
+		texture_normal = "ep1_materials_mena_wall_marble_01_b_normal.dds"
+		texture_specular = "ep1_materials_mena_wall_marble_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_court_mena_sidewall_2_bShape"
+		index = 2
+		texture_diffuse = "ep1_materials_mena_wall_marble_01_a_diffuse.dds"
+		texture_normal = "ep1_materials_mena_wall_marble_01_a_normal.dds"
+		texture_specular = "ep1_materials_mena_wall_marble_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_court_mena_sidewall_2_bShape"
+		index = 3
+		texture_diffuse = "ep1_materials_mena_wall_marble_01_a_diffuse.dds"
+		texture_normal = "ep1_materials_mena_wall_trimsheet_01_a_normal.dds"
+		texture_specular = "ep1_materials_mena_wall_trimsheet_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_court_mena_sidewall_2_bShape"
+		index = 4
+		texture_diffuse = "ep1_materials_mena_wall_tiles_01_a_diffuse.dds"
+		texture_normal = "ep1_materials_mena_wall_tiles_01_a_normal.dds"
+		texture_specular = "ep1_materials_mena_wall_tiles_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cbo_court_mena_sidewall_2_b_entity"
+	pdxmesh = "cbo_court_mena_sidewall_2_b_mesh"
+}

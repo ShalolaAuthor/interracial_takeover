@@ -2062,14 +2062,24 @@ bno_embrace_african_5.0007 = {
         name = bno_embrace_african_5.0007.a
         add_courtier = scope:priest
         if = {
-            limit = { can_employ_court_position_type = bno_bbc_priestess_court_position }
+            limit = {
+                scope:priest = {
+                    is_a_girl = yes
+                }
+                can_employ_court_position_type = bno_bbc_priestess_court_position
+            }
             appoint_court_position = {
                 recipient = scope:priest
                 court_position = bno_bbc_priestess_court_position
             }
         }
         else_if = {
-            limit = { can_employ_court_position_type = bno_bbc_priest_court_position }
+            limit = {
+                scope:priest = {
+                    is_a_male = yes
+                }
+                can_employ_court_position_type = bno_bbc_priest_court_position
+            }
             appoint_court_position = {
                 recipient = scope:priest
                 court_position = bno_bbc_priest_court_position
@@ -2095,28 +2105,72 @@ bno_embrace_african_5.0008 = {
             id = bno_embrace_african_5.0008
             days = 7
         }
-        switch = {
-            trigger = has_trait
-            bno_lovers_pox_immunity = { bno_disease_immunity = { TRAIT = lovers_pox } }
-            bno_ill_immunity = { bno_disease_immunity = { TRAIT = ill } }
-            bno_pneumonic_immunity = { bno_disease_immunity = { TRAIT = pneumonic } }
-            bno_early_great_pox_immunity = { bno_disease_immunity = { TRAIT = early_great_pox } }
-            bno_leper_immunity = { bno_disease_immunity = { TRAIT = leper } }
-            bno_gout_ridden_immunity = { bno_disease_immunity = { TRAIT = gout_ridden } }
-            bno_consumption_immunity = { bno_disease_immunity = { TRAIT = consumption } }
-            bno_cancer_immunity = { bno_disease_immunity = { TRAIT = cancer } }
-            bno_typhus_immunity = { bno_disease_immunity = { TRAIT = typhus } }
-            bno_bubonic_plague_immunity = { bno_disease_immunity = { TRAIT = bubonic_plague } }
-            bno_smallpox_immunity = { bno_disease_immunity = { TRAIT = smallpox } }
-            bno_measles_immunity = { bno_disease_immunity = { TRAIT = measles } }
-            bno_dysentery_immunity = { bno_disease_immunity = { TRAIT = dysentery } }
-            bno_ergotism_immunity = { bno_disease_immunity = { TRAIT = ergotism } }
-            bno_sickly_immunity = { bno_disease_immunity = { TRAIT = sickly } }
-            bno_great_pox_immunity = { bno_disease_immunity = { TRAIT = great_pox } }
+        if = {
+            limit = { has_trait = lovers_pox }
+            bno_disease_immunity = { TRAIT = lovers_pox }
+        }
+        if = {
+            limit = { has_trait = ill }
+            bno_disease_immunity = { TRAIT = ill }
+        }
+        if = {
+            limit = { has_trait = pneumonic }
+            bno_disease_immunity = { TRAIT = pneumonic }
+        }
+        if = {
+            limit = { has_trait = early_great_pox }
+            bno_disease_immunity = { TRAIT = early_great_pox }
+        }
+        if = {
+            limit = { has_trait = leper }
+            bno_disease_immunity = { TRAIT = leper }
+        }
+        if = {
+            limit = { has_trait = gout_ridden }
+            bno_disease_immunity = { TRAIT = gout_ridden }
+        }
+        if = {
+            limit = { has_trait = consumption }
+            bno_disease_immunity = { TRAIT = consumption }
+        }
+        if = {
+            limit = { has_trait = cancer }
+            bno_disease_immunity = { TRAIT = cancer }
+        }
+        if = {
+            limit = { has_trait = typhus }
+            bno_disease_immunity = { TRAIT = typhus }
+        }
+        if = {
+            limit = { has_trait = bubonic_plague }
+            bno_disease_immunity = { TRAIT = bubonic_plague }
+        }
+        if = {
+            limit = { has_trait = smallpox }
+            bno_disease_immunity = { TRAIT = smallpox }
+        }
+        if = {
+            limit = { has_trait = measles }
+            bno_disease_immunity = { TRAIT = measles }
+        }
+        if = {
+            limit = { has_trait = dysentery }
+            bno_disease_immunity = { TRAIT = dysentery }
+        }
+        if = {
+            limit = { has_trait = ergotism }
+            bno_disease_immunity = { TRAIT = ergotism }
+        }
+        if = {
+            limit = { has_trait = sickly }
+            bno_disease_immunity = { TRAIT = sickly }
+        }
+        if = {
+            limit = { has_trait = great_pox }
+            bno_disease_immunity = { TRAIT = great_pox }
         }
     }
 }
-
 #fired from decision (Primal Insight)
 bno_embrace_african_5.0009 = {
     type = character_event
@@ -2206,7 +2260,6 @@ bno_embrace_african_5.0009 = {
         bno_sex_scene_cleanup = yes
     }
 }
-
 #fired from interaction to heal family diseases
 bno_embrace_african_5.0010 = {
     type = character_event
@@ -2439,6 +2492,124 @@ bno_embrace_african_5.0010 = {
             }
             carn_sex_scene_is_cum_inside_effect = yes
             bno_sex_scene_cleanup = yes
+        }
+    }
+}
+#fired from decision
+bno_embrace_african_5.0011 = {
+    type = character_event
+    theme = faith
+    override_background = {
+        reference = bno_harvest_faithful
+    }
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0011.title.male
+            }
+            desc = bno_embrace_african_5.0011.title.female
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0011.desc.male
+            }
+            desc = bno_embrace_african_5.0011.desc.female
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_male = yes }
+                        desc = bno_embrace_african_5.0011.a.male
+                    }
+                    desc = bno_embrace_african_5.0011.a.female
+                }
+            }
+        }
+        if = {
+            limit = { is_a_male = yes }
+            custom_tooltip = {
+                text = bno_embrace_african_5.0011.effect.male
+                bno_fuck_every_one_in_exchange_for_gold = {
+                    TRIGGER_KEY = is_faith_bbcs
+                }
+            }
+        }
+        else = {
+            custom_tooltip = {
+                text = bno_embrace_african_5.0011.effect.female
+                bno_fuck_every_one_in_exchange_for_gold = {
+                    TRIGGER_KEY = is_faith_bbcs
+                }
+            }
+        }
+    }
+}
+#fired from decision
+bno_embrace_african_5.0012 = {
+    type = character_event
+    theme = faith
+    override_background = {
+        reference = bno_brotherhood_bargain
+    }
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0012.title.male
+            }
+            desc = bno_embrace_african_5.0012.title.female
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_a_male = yes }
+                desc = bno_embrace_african_5.0012.desc.male
+            }
+            desc = bno_embrace_african_5.0012.desc.female
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_a_male = yes }
+                        desc = bno_embrace_african_5.0012.a.male
+                    }
+                    desc = bno_embrace_african_5.0012.a.female
+                }
+            }
+        }
+        if = {
+            limit = { is_a_male = yes }
+            custom_tooltip = {
+                text = bno_embrace_african_5.0012.effect.male
+                bno_fuck_every_one_in_exchange_for_gold = {
+                    TRIGGER_KEY = is_culture_bnoc
+                }
+            }
+        }
+        else = {
+            custom_tooltip = {
+                text = bno_embrace_african_5.0012.effect.female
+                bno_fuck_every_one_in_exchange_for_gold = {
+                    TRIGGER_KEY = is_culture_bnoc
+                }
+            }
         }
     }
 }

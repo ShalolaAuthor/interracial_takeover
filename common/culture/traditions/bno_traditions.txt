@@ -1,0 +1,158 @@
+﻿tradition_bno_matriarchy = {
+    category = bno
+
+    #PLACEHOLDER
+    layers = {
+        0 = "default4.dds"
+        1 = "default_todo2.dds"
+        2 = "rec1 copy 2.dds"
+        3 = "6.dds"
+        4 = "bno_matriarch.dds"
+    }
+    is_shown = {
+        always = yes
+    }
+
+    can_pick = {
+        scope:character = {
+            is_slut = yes
+        }
+    }
+
+    parameters = {
+        female_only_inheritance = yes
+        female_preference_inheritance = yes
+        unlock_maa_seed_thralls = yes
+    }
+
+    character_modifier = {
+        opinion_of_female_rulers = 10
+        opinion_of_male_rulers = -10
+    }
+
+    culture_modifier = {
+        culture_tradition_max_add = 1
+    }
+
+    cost = {
+        prestige = {
+            add = {
+                value = tradition_base_cost
+                desc = BASE
+                format = "BASE_VALUE_FORMAT"
+            }
+            if = {
+                limit = {
+                    scope:character = {
+                        is_bno_curious_and_up = yes
+                    }
+                }
+                subtract = {
+                    value = 2000
+                    multiply = 0.1
+                    desc = bno_tradition.curious
+                }
+            }
+            if = {
+                limit = {
+                    scope:character = {
+                        is_bno_blacked_and_up = yes
+                    }
+                }
+                subtract = {
+                    value = 2000
+                    multiply = 0.1
+                    desc = bno_tradition.blacked
+                }
+            }
+            if = {
+                limit = {
+                    scope:character = {
+                        is_bno_snowbunny_and_up = yes
+                    }
+                }
+                subtract = {
+                    value = 2000
+                    multiply = 0.1
+                    desc = bno_tradition.snowbunny
+                }
+            }
+            if = {
+                limit = {
+                    scope:character = {
+                        is_bno_qos_and_up = yes
+                    }
+                }
+                subtract = {
+                    value = 2000
+                    multiply = 0.1
+                    desc = bno_tradition.qos
+                }
+            }
+            if = {
+                limit = {
+                    scope:character = {
+                        is_bno_mindless_bbc_slut = yes
+                    }
+                }
+                subtract = {
+                    value = 2000
+                    multiply = 0.1
+                    desc = bno_tradition.mindless
+                }
+            }
+        }
+    }
+
+    ai_will_do = {
+        value = 1000
+        if = {
+            limit = {
+                NOT = {
+                    scope:character = {
+                        is_a_girl = yes
+                    }
+                }
+            }
+            multiply = 0
+        }
+    }
+}
+
+tradition_bno_african_hate = {
+    category = bno
+
+    #PLACEHOLDER
+    layers = {
+        0 = "default4.dds"
+        1 = "default_todo2.dds"
+        2 = "rec1 copy 2.dds"
+        3 = "6.dds"
+        4 = "bno_african_hate.dds"
+    }
+    is_shown = {
+        scope:character = {
+            is_culture_bnoc = no
+        }
+    }
+    character_modifier = {
+        opinion_of_same_culture = 25
+        opinion_of_different_culture = -25
+    }
+    culture_modifier = {
+        culture_tradition_max_add = 1
+    }
+    ai_will_do = {
+        value = 1000
+        if = {
+            limit = {
+                NOT = {
+                    scope:character = {
+                        is_a_girl = yes
+                    }
+                }
+            }
+            multiply = 0
+        }
+    }
+}

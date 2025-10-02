@@ -1,0 +1,152 @@
+﻿bno_harvest_faithful = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_harvest_faithful.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_brotherhood_bargain = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_brotherhood_bargain.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+#cuck init
+bno_seduce_rejection.0002 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0002.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+#slut init
+bno_seduce_rejection.init = {
+    background = {
+        trigger = {
+            scope:random_narrative = 1
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0001.01.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 2
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0001.02.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 3
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0001.03.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 4
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0001.04.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 5
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.0001.05.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+#slut accept
+bno_seduce_rejection.accepted = {
+    background = {
+        trigger = {
+            scope:random_narrative = 1
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.accepted.01.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 2
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.accepted.02.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 3
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.accepted.03.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 4
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.accepted.04.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 5
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.accepted.05.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+#slut reject
+bno_seduce_rejection.rejected = {
+    background = {
+        trigger = {
+            scope:random_narrative = 1
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.rejected.01.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 2
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.rejected.02.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 3
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.rejected.03.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 4
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.rejected.04.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+    background = {
+        trigger = {
+            scope:random_narrative = 5
+        }
+        reference = "gfx/interface/illustrations/event_scenes/bno_seduce_rejection.rejected.05.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}

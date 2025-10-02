@@ -153,3 +153,33 @@ bno_events00.too_little_bbc: "당신의 홀은 빈 [bno_bbcs|E]. 3명 미만인 
 bno_invite_slut_decision.too_little_white_girl: "당신의 궁전에는 한 창녀들이 있다. 더 많은 사람들이 초청되어야 합니다. 왜냐하면 모든 홀이 한 지붕 아래 모인 백인 창녀들이 권력과 위험에 처해 있기 때문입니다." # AI Tags
 
 bno_becoming_bbc_slut.has_bbc_in_court: "적어도 한 사람이 있어야 합니다 [bno_bbc|E] 이 길을 시작하기 위해 당신의 궁전에서. 당신을 주장하는 황소가 없다면 노예로 넘어지는 것은 시작될 수 없습니다." # AI Tags
+
+bno_trade_piety_for_gold.title.male: "충실 한 사람 들 을 채취 하라"   # AI Tags
+bno_trade_piety_for_gold.title.female: "충실 한 사람 들 을 채취 하라"   # AI Tags
+
+bno_trade_piety_for_gold.desc.male: "제주특별자치도 제주특별자치도 제주특별자치도 제주 [GetFaithByKey('bbcs').GetName]대성당에서는 황소와 창녀의 헌신이 동일합니다. 그들의 숭배는 울음과 씨앗보다 더합니다. 그들은 그들의 금을 당신의 손에 붓습니다. 모든 동전이 [bno_bbc|E]."   # AI Tags
+
+bno_trade_piety_for_gold.desc.female: "'블랙 크'의 축복받은 창녀로서 [GetFaithByKey('bbcs').GetName]당신의 경건한 신앙은 믿는 사람들에게 영감을 줍니다. 그들은 그들의 지갑을 바쁜 마음으로 비우고 그들의 허벅지를 펴고 동전과 고기를 바치며 여러분의 황새의 거룩한 사유를 가동합니다."   # AI Tags
+
+bno_trade_piety_for_gold.tooltip.male: "지출 [piety|E] 충실한 자들에게 십일조를 명령하여 [gold|E]."   # AI Tags
+bno_trade_piety_for_gold.tooltip.female: "지출 [piety|E] 그들의 욕망과 금이 당신에게 흐르는 당신의 양떼를 세금을 부추기 위해."   # AI Tags
+
+bno_trade_piety_for_gold.confirm.male: "블랙코크의 이름으로 양떼의 금을 불러라."   # AI Tags
+bno_trade_piety_for_gold.confirm.female: "내 황금의 영광을 위해 신자들의 금을 불러라."   # AI Tags
+
+bno_trade_piety_for_gold.effect: "변환 [piety|E] 에 [gold|E] 믿는 자들의 탐욕스러운 성품으로."   # AI Tags
+
+bno_trade_prestige_for_gold.title.male: "형제 연합 의 협상"   # AI Tags
+bno_trade_prestige_for_gold.title.female: "형제 연합 의 협상"   # AI Tags
+
+bno_trade_prestige_for_gold.desc.male: "당신의 명예는 말만으로는 측정되는 것이 아니라 육체적으로 제공되는 것입니다. 형제들에게 충성을 증명하기 위해 아내를 친척에게 매춘했지. 황소들이 그 위에 올라가고 심히 뿌리는 씨앗을 뿌리고 그들의 욕심이 소모되면 그들은 당신의 발 앞에 금을 쌓아 올립니다."   # AI Tags
+
+bno_trade_prestige_for_gold.desc.female: "황소들 사이에서 당신의 명성은 당신의 몸으로 증명됩니다. 너 자신을 벗고, 네 친척들 앞에서 넓게 퍼져,. 모든 절정에 따라 그들은 당신의 손에 동전을 넣고 그들의 씨앗은 그들의 금과 함께 당신의 허벅지를 떨어뜨립니다."   # AI Tags
+
+bno_trade_prestige_for_gold.tooltip.male: "지출 [prestige|E] 황소들에게 아내의 구멍을 제공함으로써 [gold|E] 사용 후."   # AI Tags
+bno_trade_prestige_for_gold.tooltip.female: "지출 [prestige|E] 황소들에게 자신의 몸을 바치면서 [gold|E] 사용 후."   # AI Tags
+
+bno_trade_prestige_for_gold.confirm.male: "네, 내 아내가 황금으로 툴러들에게 봉사하게 해."   # AI Tags
+bno_trade_prestige_for_gold.confirm.female: "네, 내가 금을 위해 툴러들에게 봉사할 거야."   # AI Tags
+
+bno_trade_prestige_for_gold.effect: "변환 [prestige|E] 에 [gold|E] 아프리카 형제애에 대한 매춘부 봉사를 통해."   # AI Tags

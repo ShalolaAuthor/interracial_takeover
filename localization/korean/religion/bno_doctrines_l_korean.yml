@@ -12,3 +12,9 @@ doctrine_bno_tenets_name: "[bno_religion|E]: 원칙" # AI Tags
 
 tenet_bno_black_cock_conquest_name: "블랙 콕의 정복" # AI Tags
 tenet_bno_black_cock_conquest_desc: "열렬한 기도와 거룩한 정복을 통해 [bno_bbc|E] 땅 너머로!" # AI Tags
+
+tenet_bno_hate_name: "블랙 콕 에 대한 증오"   # AI Tags
+tenet_bno_hate_desc: "한 세상의 모든 신앙은 [GetFaithByKey('bbcs').GetName]. 그들은 우리의 숭배에 대한 모욕만 보고, 우리의 씨에 대한 파괴만 보고, 그들의 여성들에 대한 우리의 지배에 대한 수치만 보고 있습니다. 그들에게는 우리의 복음은 부패이고, 우리의 의식은 어색하고, 우리의 황소들은 육체의 악마입니다. 그리고 그들은 여전히 떨고 있습니다 그들의 증오가 [bno_bbc|E]." # AI Tags
+
+tenet_bno_aniconism_name: "육체의 숭배"   # AI Tags
+tenet_bno_aniconism_desc: "조각상 의 숭배 는 약한 사람 들 에게 유일 한 신성 진리 인 생명 을 알 수 없게 해 준다 [bno_bbc|E]. 우리는 모든 우상들을 우리의 거룩한 장소에서 쫓아내고 있습니다. 오직 육류만이 신성한 것이고 오직 블랙콕만이 헌신할 가치가 있습니다."   # AI Tags

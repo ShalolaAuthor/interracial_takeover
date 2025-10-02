@@ -1,0 +1,28 @@
+﻿
+bedroom_mediterranean = {
+	trigger = {
+		# Comment for easy replace
+		carnal_court_mediterranean_trigger = yes
+	}
+}
+
+bedroom_mena = {
+	trigger = {
+		# Comment for easy replace
+		carnal_court_mena_trigger = yes
+	}
+}
+
+bedroom_indian = {
+	trigger = {
+		# Comment for easy replace
+		carnal_court_indian_trigger = yes
+	}
+}
+
+bedroom_western = {
+	trigger = {
+		# Comment for easy replace
+		carnal_court_western_trigger = yes
+	}
+}

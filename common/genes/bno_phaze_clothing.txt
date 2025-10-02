@@ -1,0 +1,51 @@
+﻿special_genes = {
+    accessory_genes = {
+        bno_phaze_clothes = {
+            phaze_slave = {
+                index = 1
+                male = {}
+                female = {
+                    1 = elden_dress_slave_01
+                }
+                boy = male
+                girl = female
+            }
+            phaze_non_slave = {
+                index = 2
+                male = {}
+                female = {
+                    1 = elden_dress_full_01
+                    1 = elden_dress_full_01_sheer
+                    1 = elden_dress_full_02
+                    1 = elden_dress_full_03
+                    1 = elden_dress_full_04
+                    1 = elden_dress_bare_01
+                    1 = elden_dress_bare_01_sheer
+                    1 = elden_dress_bare_02
+                    1 = elden_dress_bare_03
+                    1 = elden_dress_bare_04
+                }
+                boy = male
+                girl = female
+            }
+        }
+        bno_phaze_shoes = {
+            phaze_shoes = {
+                index = 1
+                male = {
+                    1 = male_mid_calf_boot_heels_01
+                    1 = male_thigh_high_boot_heels_01
+                }
+                female = {
+                    1 = female_mid_calf_boot_heels_01
+                    1 = female_thigh_high_boot_heels_01
+                    1 = female_thigh_high_boot_heels_02
+                    1 = female_ankle_boot_heels_01
+                    1 = female_ankle_boot_heels_02
+                    1 = female_ankle_boot_heels_03
+                    1 = elden_heel_01
+                }
+            }
+        }
+    }
+}

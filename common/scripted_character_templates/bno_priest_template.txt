@@ -151,7 +151,7 @@ bno_male_priest_character_template = {
 	}
 
 	trait = bno_full_black
-	trait = bno_lifestyle_bbc_priestess
+	trait = bno_lifestyle_bbc_priest
 	random_traits = yes
 	
 	faith = faith:bbcs

@@ -66,14 +66,17 @@ bno_travel_events.0001 = { #charity for a wandering african
 			bno_qos = minor_stress_impact_loss
 			bno_mindless_bbc_slut = minor_stress_impact_loss
 		}
+		ai_chance = {
+			base = 5
+		}
 	}
 	
 	option = { #if blacked or above, give him a few hints
 		name = bno_travel_events_0001.b
-		
 		trigger = {
-			has_trait = bno_curious
+			is_bno_blacked_and_up = yes
 		}
+
 		bno_increase_sluttyness = yes
 		stress_impact = {
 			bno_curious = minor_stress_impact_loss
@@ -82,10 +85,17 @@ bno_travel_events.0001 = { #charity for a wandering african
 			bno_qos = minor_stress_impact_loss
 			bno_mindless_bbc_slut = minor_stress_impact_loss
 		}
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = { #scoff the peasant off
 		name = bno_travel_events_0001.c
+		ai_chance = {
+			base = 0
+		}
 		
 		bno_decrease_sluttyness = yes
 		add_piety = miniscule_piety_loss
@@ -144,17 +154,23 @@ bno_travel_events.0002 = { #courtier asks to join
 	option = { #make him a courtier
 		name = bno_travel_events_0002.a
 		add_courtier = scope:target1
+		ai_chance = {
+			base = 5
+		}
 	}
 	
 	option = { #if blacked or above, promise a little hookup + room in court
 		name = bno_travel_events_0002.b
-		
 		trigger = {
 			is_bno_blacked_and_up = yes
 		}
 		bno_increase_sluttyness = yes
 		add_courtier = scope:target1
 		trigger_event = bno_travel_events.2002
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = { #deny access
@@ -166,6 +182,9 @@ bno_travel_events.0002 = { #courtier asks to join
 			bno_snowbunny = minor_stress_impact_gain
 			bno_qos = minor_stress_impact_gain
 			bno_mindless_bbc_slut = minor_stress_impact_gain
+		}
+		ai_chance = {
+			base = 5
 		}
 	}
 }

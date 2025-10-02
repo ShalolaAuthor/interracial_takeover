@@ -9,3 +9,5 @@
 
  heritage_bnoc_name: "Африканский" # AI Tags
  heritage_bnoc_collective_noun: "Африканцы" # AI Tags
+
+ bnoc_opinion: "$bnoc$ Постановление" # AI Tags

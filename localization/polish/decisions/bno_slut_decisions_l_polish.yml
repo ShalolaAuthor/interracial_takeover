@@ -153,3 +153,33 @@ bno_events00.too_little_bbc: "Twoja sala jest pusta [bno_bbcs|E]- Nie , nie , ni
 bno_invite_slut_decision.too_little_white_girl: "Twój dwór jest słaby z bladych dziwków. Więcej trzeba zaprosić, bo każda sala wzrasta w władzy i w niebezpieczeństwie, kiedy białe dziwki są zebrane pod jednym dachem." # AI Tags
 
 bno_becoming_bbc_slut.has_bbc_in_court: "Musi być co najmniej jeden [bno_bbc|E] w twoim dworze, aby rozpocząć tę drogę. Bez Byka, który cię przyjmie, twój upadek w niewolnictwo nie może się rozpocząć." # AI Tags
+
+bno_trade_piety_for_gold.title.male: "Zbierz wiernych"   # AI Tags
+bno_trade_piety_for_gold.title.female: "Zbierz wiernych"   # AI Tags
+
+bno_trade_piety_for_gold.desc.male: "Jako mistrz [GetFaithByKey('bbcs').GetName]W katedrze zachowujesz posłuszeństwo byków i dziwków. Ich wielbienie jest czymś więcej niż płaczem i nasieniem…wlewają swoje złoto do twoich rąk, z pewnością, że każda moneta służy boskiej obwodzie świata [bno_bbc|E]."   # AI Tags
+
+bno_trade_piety_for_gold.desc.female: "Jako błogosławiona dziwka [GetFaithByKey('bbcs').GetName]Twoja droplejąca pobożność inspiruje wiernych. Prawią swoje torebki tak samo chętnie, jak rozciągają biodra, ofiarowując monety i mięso tak samo, aby palić świętą sprawę waszego Byka."   # AI Tags
+
+bno_trade_piety_for_gold.tooltip.male: "Wydaj [piety|E] Żeby nakazać wiernym dziesięćdziesiątkę, [gold|E]."   # AI Tags
+bno_trade_piety_for_gold.tooltip.female: "Wydaj [piety|E] Żeby pobudzić twoje stado w podatek, ich pożądanie i złoto płyną do ciebie."   # AI Tags
+
+bno_trade_piety_for_gold.confirm.male: "Zwołaj złoto w imię Czarnego Kurczaka."   # AI Tags
+bno_trade_piety_for_gold.confirm.female: "Zwołaj złoto wiernych dla chwały mojego Byka."   # AI Tags
+
+bno_trade_piety_for_gold.effect: "Konwersja [piety|E] do [gold|E] przez pożądane ofiary wiernych."   # AI Tags
+
+bno_trade_prestige_for_gold.title.male: "Z umową braterstwa"   # AI Tags
+bno_trade_prestige_for_gold.title.female: "Z umową braterstwa"   # AI Tags
+
+bno_trade_prestige_for_gold.desc.male: "Twój prestiż nie mierzy się tylko słowami, ale ofiarowanym ciałem. Aby udowodnić lojalność wobec braterstwa, zdradziłeś żonę swoim krewnym. Byki jeźdzą na niej jedna po drugiej, rozlewając nasiona głęboko, a kiedy ich pożądanie jest wyczerpane, gromadzą złoto pod nogami w hołd."   # AI Tags
+
+bno_trade_prestige_for_gold.desc.female: "Twoja sławę wśród Byków udowodniło twoje ciało. Rozrywasz się gołym, rozciągając się przed krewnymi, jęcząc, gdy każdy Byk wykorzystuje cię z kolei. Przy każdym klimakcie wkładają monetę do twoich rąk, ich nasienie spływają po twoich udach wraz ze swoim złotem."   # AI Tags
+
+bno_trade_prestige_for_gold.tooltip.male: "Wydaj [prestige|E] Oferując twą żonę dziurom Bykom, zdobywając [gold|E] po jej użyciu."   # AI Tags
+bno_trade_prestige_for_gold.tooltip.female: "Wydaj [prestige|E] oferując swoje ciało Bykom, zdobywając [gold|E] po ich stosowaniu."   # AI Tags
+
+bno_trade_prestige_for_gold.confirm.male: "Tak, pozwól mojej żonie służyć Bykom za złoto."   # AI Tags
+bno_trade_prestige_for_gold.confirm.female: "Sam będę służył Bykom za złoto."   # AI Tags
+
+bno_trade_prestige_for_gold.effect: "Konwersja [prestige|E] do [gold|E] Przez służbę dziwkom dla bractwa afrykańskiego."   # AI Tags

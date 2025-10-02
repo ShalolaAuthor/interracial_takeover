@@ -12,6 +12,7 @@ bno_slave_owner = {
 bno_cum_slave = {
     corresponding = bno_cum_slave_owner
     special_guest = yes
+    relation_aliases = { slave }
 }
 
 bno_cum_slave_owner = {

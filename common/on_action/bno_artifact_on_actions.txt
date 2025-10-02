@@ -1,0 +1,57 @@
+﻿on_artifact_claim_gained = {
+    on_actions = {
+        bno_on_artifact_claim_gained
+    }
+}
+
+#remove claim on chastity device
+bno_on_artifact_claim_gained = {
+    effect = {
+        if = {
+            limit = {
+                scope:artifact = {
+                    has_variable = bno_chastity_cage
+                }
+            }
+            remove_personal_artifact_claim = scope:artifact
+        }
+    }
+}
+
+on_artifact_succession = {
+    on_actions = {
+        bno_on_artifact_succession
+    }
+}
+
+#destroy the chastity if owner dead
+bno_on_artifact_succession = {
+    effect = {
+        if = {
+            limit = {
+                has_variable = bno_chastity_cage
+            }
+            destroy_artifact = root
+        }
+    }
+}
+
+on_artifact_changed_owner = {
+    on_actions = {
+
+    }
+}
+
+bno_on_artifact_changed_owner = {
+    effect = {
+        if = {
+            limit = {
+                has_variable = bno_chastity_cage
+            }
+            set_owner = {
+                target = scope:old_owner
+            }
+            equip_artifact_to_owner_replace = yes
+        }
+    }
+}

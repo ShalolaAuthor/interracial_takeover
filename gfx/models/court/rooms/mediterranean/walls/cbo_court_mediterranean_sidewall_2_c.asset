@@ -1,0 +1,69 @@
+pdxmesh = {
+	name = "cbo_court_mediterranean_sidewall_2_c_mesh"
+	file = "ep1_court_mediterranean_sidewall_2_c.mesh"
+
+	meshsettings = {
+		name = "ep1_court_mediterranean_sidewall_2_cShape"
+		index = 0
+		texture_diffuse = "ep1_materials_mediterranean_wall_trimsheet_01_a_diffuse.dds"
+		texture_normal = "ep1_materials_mediterranean_wall_trimsheet_01_a_normal.dds"
+		texture_specular = "ep1_materials_mediterranean_wall_trimsheet_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_court_mediterranean_sidewall_2_cShape"
+		index = 1
+		texture_diffuse = "ep1_materials_mediterranean_wall_stone_01_a_diffuse.dds"
+		texture_normal = "ep1_materials_mediterranean_wall_stone_01_a_normal.dds"
+		texture_specular = "ep1_materials_mediterranean_wall_stone_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_court_mediterranean_sidewall_2_cShape"
+		index = 2
+		texture_diffuse = "ep1_materials_mediterranean_wall_marble_01_a_diffuse.dds"
+		texture_normal = "ep1_materials_mediterranean_wall_marble_01_a_normal.dds"
+		texture_specular = "ep1_materials_mediterranean_wall_marble_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_court_mediterranean_sidewall_2_cShape"
+		index = 3
+		texture_diffuse = "ep1_materials_mediterranean_wall_marble_01_a_diffuse.dds"
+		texture_normal = "ep1_materials_mediterranean_wall_trimsheet_01_a_normal.dds"
+		texture_specular = "ep1_materials_mediterranean_wall_trimsheet_01_a_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_court_mediterranean_sidewall_2_cShape"
+		index = 4
+		texture_diffuse = "cbo_materials_court_emissive_diffuse.dds"
+		texture_normal = "ep1_materials_court_emissive_normal.dds"
+		texture_specular = "ep1_materials_court_emissive_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+
+	meshsettings = {
+		name = "ep1_court_mediterranean_sidewall_2_cShape"
+		index = 5
+		texture_diffuse = "ep1_materials_mediterranean_wall_marble_01_b_diffuse.dds"
+		texture_normal = "ep1_materials_mediterranean_wall_marble_01_b_normal.dds"
+		texture_specular = "ep1_materials_mediterranean_wall_marble_01_b_properties.dds"
+		shader = "court"
+		shader_file = "gfx/FX/court_scene.shader"
+	}
+}
+
+entity = {
+	name = "cbo_court_mediterranean_sidewall_2_c_entity"
+	pdxmesh = "cbo_court_mediterranean_sidewall_2_c_mesh"
+}

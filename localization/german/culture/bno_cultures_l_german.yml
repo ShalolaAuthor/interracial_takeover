@@ -9,3 +9,5 @@
 
  heritage_bnoc_name: "Afrikanisch" # AI Tags
  heritage_bnoc_collective_noun: "Afrikaner" # AI Tags
+
+ bnoc_opinion: "$bnoc$ Stellungnahme" # AI Tags

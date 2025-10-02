@@ -51,10 +51,18 @@
                 this = scope:actor
             }
             scope:actor = {
-                OR = {
+                trigger_if = {
+                    limit = { is_a_male = yes }
                     is_spouse_of = scope:recipient
-                    any_spouse = {
-                        is_bbc = yes
+                }
+                trigger_else = {
+                    OR = {
+                        any_spouse = {
+                            is_bbc = yes
+                        }
+                        any_courtier = {
+                            is_bbc = yes
+                        }
                     }
                 }
             }
@@ -103,8 +111,22 @@
             limit = {
                 scope:actor = { is_a_girl = yes }
             }
-            show_as_tooltip = {
-                custom_tooltip = bno_tincture_of_genesis_interaction.effect.female
+            if = {
+                limit = {
+                    scope:actor = {
+                        any_spouse = {
+                            is_bbc = yes
+                        }
+                    }
+                }
+                show_as_tooltip = {
+                    custom_tooltip = bno_tincture_of_genesis_interaction.effect.female
+                }
+            }
+            else = {
+                show_as_tooltip = {
+                    custom_tooltip = bno_tincture_of_genesis_interaction.effect.courtier.female
+                }
             }
         }
         scope:actor = {
@@ -146,16 +168,38 @@
                     limit = {
                         is_a_girl = yes
                     }
-                    random_spouse = {
+                    if = {
                         limit = {
-                            is_bbc = yes
+                            any_spouse = {
+                                is_bbc = yes
+                            }
                         }
-                        scope:actor = {
-                            save_scope_as = recipient
+                        random_spouse = {
+                            limit = {
+                                is_bbc = yes
+                            }
+                            scope:actor = {
+                                save_scope_as = recipient
+                            }
+                            save_scope_as = actor
+                            scope:actor = {
+                                trigger_event = bno_tincture_of_genesis.0001
+                            }
                         }
-                        save_scope_as = actor
-                        scope:actor = {
-                            trigger_event = bno_tincture_of_genesis.0001
+                    }
+                    else = {
+                        random_courtier = {
+                            limit = {
+                                is_bbc = yes
+                            }
+                            scope:actor = {
+                                save_scope_as = recipient
+                            }
+                            save_scope_as = actor
+                            add_character_flag = blocked_from_leaving
+                            scope:actor = {
+                                trigger_event = bno_tincture_of_genesis.0001
+                            }
                         }
                     }
                 }

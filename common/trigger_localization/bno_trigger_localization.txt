@@ -1,3 +1,12 @@
 ﻿bbc_or_whitegirl_trigger = {
     global_not = NOT_bbc_or_whitegirl_trigger
 }
+has_dynasty_perk_2 = {
+    global_not = has_dynasty_perk_2
+}
+has_dynasty_perk_5_and_piety_level = {
+    global_not = has_dynasty_perk_5_and_piety_level
+}
+has_dynasty_perk_1 = {
+    global_not = has_dynasty_perk_1
+}

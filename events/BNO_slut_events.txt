@@ -32,6 +32,7 @@ bno_slut.0001 = {
 		does_blackbull_exist = yes
 	}
 	immediate = {
+		#play_music_cue = bno_moaning_loop
 		get_bbc_scope = {
 			SCOPE_NAME = bbc
 		}
@@ -536,7 +537,9 @@ bno_slut.0006 = {
 	option = {
 		name = bno_slut_0006.a
 		scope:cuck = {
-			bno_caged_effect = yes
+			bno_caged_effect = {
+				CAGER = scope:bbc
+			}
 		}
 	}
 }
@@ -930,7 +933,7 @@ bno_slut.0014 = {
 			delayed = yes
 		}
 	}
-	option = { #fuck her and steal her as wife focus
+	option = {
 		name = bno_slut_0014.c
 		ai_chance = {
 			base = 5
@@ -954,6 +957,9 @@ bno_slut.0014 = {
 	option = { #do nothing
 		name = bno_slut_0014.d
 		bno_decrease_sluttyness = yes
+		ai_chance = {
+			base = 0
+		}
 	}
 }
 #follow up event, fuck and done

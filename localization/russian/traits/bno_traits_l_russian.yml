@@ -236,3 +236,7 @@ trait_bno_chastity_futa: "Разрушенные футы" # AI Tags
 
 trait_bno_bull: "Бык" # AI Tags
 trait_bno_bull_desc: "Истинный [bno_bull|E]этот человек сделал больше, чем просто рутинный. Он превратил бледую шлюху в [bno_cum_slave|E], судно, привязанное к своему члену и семени. Его мужественность и сила вдохновляют страх и послушание; его Славный раб - живое доказательство того, что [bno_bnwo|E] Это не сон, а закон природы. Там, где другие правит короной или мечом, он правит со своей валкой, его семя строит как армии, так и империи." # AI Tags
+
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$Страдает нет [extramarital_sex|E] наказания при разведении или разведении вне брака."   # AI Tags
+
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$Другие не страдают [extramarital_sex|E] наказания при разведении с этим характером."   # AI Tags

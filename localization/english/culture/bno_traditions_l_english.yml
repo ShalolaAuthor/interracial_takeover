@@ -1,0 +1,17 @@
+﻿l_english:
+
+tradition_group_bno: "BNWO"
+
+tradition_bno_matriarchy_name: "Seeded Matriarchy"
+tradition_bno_matriarchy_desc: "Power drips down from womb to womb. Thrones are passed to fertile sluts, laws bend to their moans, and armies march with women sworn as Seedthralls. Queens rule only because Bulls allow it—every crown a collar, every scepter a dildo, every victory ending with white flesh spread and stuffed. The realm itself is remade: female hands grasp the law, female holes uphold the order, all in service of Black cock."
+
+bno_tradition.curious: "$EFFECT_LIST_BULLET$Her Black Curiosity makes surrender come cheaper, thighs already aching to kneel."
+bno_tradition.blacked: "$EFFECT_LIST_BULLET$Once Blacked, tradition bends easy to the holes that crave Bulls again."
+bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$As a Snowbunny, she leaps to obey, the cost lightened by her hunger."
+bno_tradition.qos: "$EFFECT_LIST_BULLET$A crowned Queen of Spades pays less, her every law already written in cock."
+bno_tradition.mindless: "$EFFECT_LIST_BULLET$Mindless and drooling, she yields for almost nothing, a hole shaped by seed."
+
+culture_parameter_unlock_maa_seed_thralls: "Can recruit [GetMaA('bno_seed_thralls').GetName] as [men_at_arms|E], white sluts who fight only to kneel and be bred by Bulls."
+
+tradition_bno_african_hate_name: "Fear of the Bull"
+tradition_bno_african_hate_desc: "Non-African cultures cling to this bitter tradition, their pale pride twisting into hatred. They whisper of Bulls with trembling lips, hating what they cannot resist, loathing what their sluts still crave. Every law, every custom, is just a feeble wall against the tide of Black cock."

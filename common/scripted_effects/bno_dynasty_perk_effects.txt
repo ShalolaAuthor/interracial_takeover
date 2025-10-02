@@ -449,12 +449,129 @@ bno_get_bbc_priest_or_priestess = {
 }
 
 bno_disease_immunity = {
+    if = {
+        limit = {
+            has_trait = bno_$TRAIT$_immunity
+        }
+        remove_trait = $TRAIT$
+        if = {
+            limit = {
+                NOT = { has_character_flag = bno_embrace_african_5.0008.immunity.read }
+            }
+            add_character_flag = {
+                flag = bno_embrace_african_5.0008.immunity.read
+                months = 6
+            }
+            send_interface_message = {
+                type = bno_blacked_events
+                title = bno_embrace_african_5.0008.immunity.title
+                desc = bno_embrace_african_5.0008.immunity.desc
+                right_icon = root
+
+                show_as_tooltip = {
+                    remove_trait = $TRAIT$
+                }
+            }
+        }
+    }
+}
+
+bno_fuck_every_one_in_exchange_for_gold = {
+    if = {
+		limit = {
+			is_bbc = yes
+		}
+        if = {
+            limit = {
+                has_variable = bno_trade_prestige_for_gold
+            }
+            random_spouse = {
+                limit = {
+                    is_slut = yes
+                }
+                save_scope_as = bno_whore
+            }
+            remove_variable = bno_trade_prestige_for_gold
+        }
+        else = {
+		    random_court_position_holder = {
+		    	type = bno_bbc_priestess_court_position
+		    	save_scope_as = bno_whore
+		    }
+        }
+	}
+	else = {
+		save_scope_as = bno_whore
+        remove_variable = bno_trade_prestige_for_gold
+	}
+    every_living_character = {
+        limit = {
+            is_adult = yes
+            is_a_male = yes
+            is_bbc = yes
+            $TRIGGER_KEY$ = yes
+        }
+        carn_sex_scene_no_memory_effect = yes
+        carn_sex_scene_no_drama_effect = yes
+        bno_have_sex_with_effects = {
+            PARTNER = scope:bno_whore
+        }
+    }
+    every_living_character = {
+        limit = {
+            $TRIGGER_KEY$ = yes
+        }
+        pay_short_term_gold = {
+            target = root
+            gold = { 1 2 }
+        }
+    }
+}
+
+bno_bbc_trader_has_arrived_message = {
     send_interface_message = {
         type = bno_blacked_events
-        title = bno_embrace_african_5.0008.immunity.title
-        desc = bno_embrace_african_5.0008.immunity.desc
-        right_icon = root
+        title = {
+            first_valid = {
+                triggered_desc = {
+                    trigger = { is_bbc = yes }
+                    desc = bno_trader_has_arrived.title.male
+                }
+                desc = bno_trader_has_arrived.title.female
+            }
+        }
+        desc = {
+            first_valid = {
+                triggered_desc = {
+                    trigger = { is_bbc = yes }
+                    desc = bno_trader_has_arrived.desc.male
+                }
+                desc = bno_trader_has_arrived.desc.female
+            }
+        }
+    }
+}
 
-        remove_trait = $TRAIT$
+bno_send_bbc_trader_message_to_relevant_people = {
+    province_owner = {
+        if = {
+            limit = {
+                is_playable_character = yes
+            }
+            bno_bbc_trader_has_arrived_message = yes
+        }
+        liege ?= {
+            bno_bbc_trader_has_arrived_message = yes
+        }
+        if = {
+            limit = {
+                exists = liege
+                exists = top_liege
+                NOT = { liege = top_liege }
+            }
+            top_liege ?= {
+                bno_bbc_trader_has_arrived_message = yes
+            }
+        }
     }
 }

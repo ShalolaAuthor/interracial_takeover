@@ -1,0 +1,425 @@
+name="Bedroom_Mediterranean_1_g3"
+culture="bedroom_mediterranean"
+visual_culture_level=1
+cubemap="gfx/portraits/environments/castle_interior_01_fire.dds"
+environment="gfx/court_scene/scene_environment/court_scene_environment_mediterranean.txt"
+audio_culture=3.000000
+camera={
+	{
+		description="Bed View"
+		fov=50.000000
+		position={ 275.000000 180.000000 500.000000 }
+		pitch=20.000000
+		yaw=-90.000000
+		camera_near_far={ 70.000000 2570.000000 }
+		is_camera_used_for_screenshots=yes
+		royal_court_camera_name_key="ROYAL_COURT_Bed_VIEW_CAMERA"
+	}
+ {
+		description="Bed Standing View"
+		fov=50.000000
+		position={ 275.000000 180.000000 300.000000 }
+		pitch=20.000000
+		yaw=-90.000000
+		camera_near_far={ 70.000000 2570.000000 }
+		is_camera_used_for_screenshots=yes
+		royal_court_camera_name_key="ROYAL_COURT_BED_STANDING_VIEW_CAMERA"
+	}
+ {
+		description="Throne View"
+		fov=50.000000
+		position={ 118.800003 140.000000 310.800018 }
+		pitch=8.000000
+		yaw=-17.000000
+		camera_near_far={ 70.000000 2570.000000 }
+		is_camera_used_for_screenshots=yes
+		royal_court_camera_name_key="ROYAL_COURT_THRONE_VIEW_CAMERA"
+	}
+ {
+		description="Free cam"
+		fov=50.000000
+		position={ -20.500000 351.700012 178.300003 }
+		pitch=12.000000
+		yaw=0.000000
+		camera_near_far={ 70.000000 2570.000000 }
+	}
+ }
+default_camera=0
+lights={ 
+ {
+		description="Middle Room Filler"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			cubemap_shadow=yes
+			radius=900.599976
+			intensity=30.000000
+			position={ 0.000000 342.800018 233.699997 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 1.00000 1.00000 1.00000 }
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=170.000000
+			position={ 0.000000 342.800018 233.699997 }
+			pitch=90.000000
+			yaw=-180.000000
+			camera_near_far={ 10.000000 1080.000000 }
+			shadows_fade=35.000000
+		}
+	}
+ {
+		description="Window Back Left"
+		light={
+			outer_cone_angle=0.910000
+			inner_cone_angle=0.880000
+			affected_by_shadow=no
+			radius=434.899994
+			intensity=500.000000
+			position={ -380.000000 250.000000 580.000000 }
+			pitch=31.000000
+			yaw=-50.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="spot_light"
+		}
+
+		shadow_camera={
+			fov=92.000000
+			position={ -380.000000 250.000000 580.000000 }
+			pitch=44.000000
+			yaw=180.000000
+			camera_near_far={ 10.000000 1000.000000 }
+		}
+	}
+ {
+		description="Window Back Right"
+		light={
+			outer_cone_angle=0.910000
+			inner_cone_angle=0.880000
+			affected_by_shadow=no
+			radius=434.899994
+			intensity=500.000000
+			position={ 600.000000 250.000000 580.000000 }
+			pitch=28.000000
+			yaw=-47.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="spot_light"
+		}
+
+		shadow_camera={
+			fov=92.000000
+			position={ 600.000000 250.000000 580.000000 }
+			pitch=44.000000
+			yaw=180.000000
+			camera_near_far={ 10.000000 1000.000000 }
+		}
+	}
+ {
+		description="Window Front Right Disc"
+		light={
+			outer_cone_angle=0.050000
+			inner_cone_angle=0.020000
+			affected_by_shadow=no
+			radius=25.000000
+			intensity=500.000000
+			position={ 760.000000 230.400024 -650.000000 }
+			pitch=147.000000
+			yaw=71.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="disc_light"
+		}
+
+		shadow_camera={
+			fov=52.000000
+			position={ 760.000000 230.400024 -650.000000 }
+			pitch=62.000000
+			yaw=-82.000000
+			camera_near_far={ 10.000000 1000.000000 }
+		}
+	}
+ {
+		description="Fireplace"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			cubemap_shadow=yes
+			radius=2000.500000
+			intensity=100.000000
+			position={ 500.000000 75.000000 185.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 1.000000 0.385863 0.085938 }
+			position_variation=0.250000
+			position_variation_frequency=200.000000
+			intensity_variation=3.000000
+			intensity_variation_frequency=200.000000
+			animation=yes
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=40.000000
+			position={ 500.000000 75.000000 185.000000 }
+			pitch=0.000000
+			yaw=0.000000
+			camera_near_far={ 5.000000 500.000000 }
+			shadows_fade=50.000000
+		}
+	}
+ {
+		description="WInow ambience 1"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=150.000000
+			intensity=3.000000
+			position={ -700.000000 160.000000 150.000000  }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="sphere_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ -700.000000 160.000000 150.000000  }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="WInow ambience 2"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=150.000000
+			intensity=3.000000
+			position={ -700.000000 160.000000 -750.000000  }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 0.078431 0.078431 0.156862 }
+			type="sphere_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ -700.000000 160.000000 -750.000000  }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Bounced window light"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=20.599976
+			intensity=200.000000
+			position={ 84.700005 193.600006 -6.800000 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 1.00000 1.00000 1.00000 }
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ 84.700005 193.600006 -6.800000 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ {
+		description="Bounced window light mid"
+		light={
+			outer_cone_angle=1.000000
+			inner_cone_angle=0.000000
+			affected_by_shadow=no
+			radius=1443.599976
+			intensity=15.000000
+			position={ 84.700005 193.600006 501.300018 }
+			pitch=0.000000
+			yaw=0.000000
+			color={ 1.00000 1.00000 1.00000 }
+			type="point_light"
+		}
+
+		shadow_camera={
+			fov=1.000000
+			position={ 84.700005 193.600006 501.300018 }
+			pitch=90.000000
+			yaw=0.000000
+			camera_near_far={ 0.100000 1000.000000 }
+		}
+	}
+ }
+characters={ 
+	{
+		position={ 20.000059 60.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_group_1"
+		description="SexBedEvent group 1"
+		camera="Bed View"
+		roles={ sex_bed_1 }
+	}
+ {
+		position={ 20.000059 60.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_group_2"
+		description="SexBedtEvent group 2"
+		camera="Bed View"
+		roles={ sex_bed_2 }
+	}
+	{
+		position={ 20.000059 60.000000 500.000000 }
+		direction=270.000010
+		locator="sex_bed_group_1"
+		description="SexBedHeadboardEvent group 1"
+		camera="Bed View"
+		roles={ sex_bed_headboard_1 }
+	}
+ {
+		position={ 20.000059 60.000000 500.000000 }
+		direction=270.000010
+		locator="sex_bed_group_2"
+		description="SexBedHeadboardEvent group 2"
+		camera="Bed View"
+		roles={ sex_bed_headboard_2 }
+	}
+	{
+		position={ 20.000059 60.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_high_group_1"
+		description="SexBedHighEvent group 1"
+		camera="Bed View"
+		roles={ sex_bed_high_1 }
+	}
+ {
+		position={ 20.000059 60.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_high_group_2"
+		description="SexBedHighEvent group 2"
+		camera="Bed View"
+		roles={ sex_bed_high_2 }
+	}
+	{
+		position={ 20.000059 60.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_extreme_high_group_1"
+		description="SexBedExtremeHighEvent group 1"
+		camera="Bed View"
+		roles={ sex_bed_extreme_high_1 }
+	}
+ {
+		position={ 20.000059 60.000000 425.000000 }
+		direction=270.000010
+		locator="sex_bed_extreme_high_group_2"
+		description="SexBedExtremeHighEvent group 2"
+		camera="Bed View"
+		roles={ sex_bed_extreme_high_2 }
+	}
+	{
+		position={ 20.000059 5.000000 250.000000 }
+		direction=270.000010
+		locator="sex_standing_group_1"
+		description="SexStandingEvent group 1"
+		camera="Bed Standing View"
+		roles={ sex_standing_1 }
+	}
+	{
+		position={ 20.000059 5.000000 250.000000 }
+		direction=270.000010
+		locator="sex_standing_group_2"
+		description="SexStandingEvent group 2"
+		camera="Bed Standing View"
+		roles={ sex_standing_2 }
+	}
+ {
+		position={ 20.000059 5.000000 250.000000 }
+		direction=270.000010
+		locator="sex_standing_held_group_1"
+		description="SexStandingHeldEvent group 1"
+		camera="Bed Standing View"
+		roles={ sex_standing_held }
+	}
+ }
+assets={ {
+		position={ 0 2.5 -100 }
+		scale=1.500000
+		description="Carpet"
+		asset="ep1_mediterranean_carpet_01_a_entity"
+	}
+ {
+		position={ 0.000059 -5.000000 425.000000 }
+		direction=0.000010
+		description="Bed"
+		asset="cbo_mediterranean_bed_01_entity"
+		roles=ruler_throne
+	}
+ {
+		position={ 135.000061 3.000000 680.000000 }
+		direction=0.000010
+		description="Throne 2"
+		asset="ep1_mediterranean_throne_basic_01_a_entity"
+		roles=spouse_throne
+	}
+ {
+		position={ -600 0 -350 }
+		direction=0
+		description="Wall - Left"
+		asset="cbo_court_mediterranean_sidewall_1_c_entity"
+	}
+ {
+		position={ 0 0 480 }
+		direction=0
+		description="Wall - Center"
+		asset="cbo_court_mediterranean_thronewall_1_c_entity"
+	}
+ {
+		position={ 600 0 -325 }
+		rotation={ 180 0 180 }
+		description="Wall - Right"
+		asset="cbo_court_mediterranean_sidewall_2_c_entity"
+	}
+ {
+		position={ 0 0 -350 }
+		direction=0
+		description="Floor"
+		asset="ep1_court_mediterranean_floor_01_a_entity"
+	}
+ {
+		position={ 0 399 -325 }
+		direction=0
+		description="Roof"
+		asset="ep1_court_mediterranean_roofing_1_a_entity"
+	}
+ {
+		position={ 580.000000 60.000000 185.000000 }
+		description="Fireplace Particles"
+		asset="roco_fireplace"
+	}
+ {
+		position={ 580.000000 24.000000 185.000000 }
+		scale=0.750000
+		description="Fireplace Logs"
+		asset="ep1_fireplace_logs_entity"
+	}
+ }
+artifacts={  
+ }
+support_type={
+	lectern=ep1_western_lectern_01_a_entity
+	tall=ep1_mediterranean_pedestal_tall_01_a_entity
+	short_pillow=ep1_mediterranean_pedestal_short_pillow_01_a_entity
+	tall_pillow=ep1_mediterranean_pedestal_tall_pillow_01_a_entity
+	armorstand=ep1_western_armorstand_01_entity
+	short=ep1_mediterranean_pedestal_short_01_a_entity
+}

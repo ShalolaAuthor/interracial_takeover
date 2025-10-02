@@ -39,6 +39,16 @@ texticon = {
 }
 
 texticon = {
+	icon = bno_cock_maidens_icon
+	iconsize = {
+		texture = "gfx/interface/icons/regimenttypes/bno_seed_thralls.dds"
+		size = { 25 25 }
+		offset = { 0 6 }
+		fontsize = 16
+	}
+}
+
+texticon = {
 	icon = bno_caged_icon
 	iconsize = {
 		texture = "gfx/interface/icons/traits/bno_caged.dds"

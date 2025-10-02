@@ -12,3 +12,9 @@ doctrine_bno_tenets_name: "[bno_religion|E]Les principes:" # AI Tags
 
 tenet_bno_black_cock_conquest_name: "La Conquête des Coqs Noirs" # AI Tags
 tenet_bno_black_cock_conquest_desc: "Par la prière fervente et la conquête sainte, nous répandrons la gloire du [bno_bbc|E] De l'autre côté de la terre!" # AI Tags
+
+tenet_bno_hate_name: "La haine de la bite noire"   # AI Tags
+tenet_bno_hate_desc: "Chaque credo du monde pâle recule devant le [GetFaithByKey('bbcs').GetName]C'est vrai. Ils ne voient que le blasphème dans notre culte, seulement la ruine dans notre semence, seulement la honte dans notre domination sur leurs femmes. Pour eux, notre évangile est la corruption, nos rites obscènes, nos taureaux diables dans la chair. Et ils tremblent encore, car leur haine ne peut arrêter la montée des [bno_bbc|E]." # AI Tags
+
+tenet_bno_aniconism_name: "L'adoration de la chair"   # AI Tags
+tenet_bno_aniconism_desc: "Le culte des images taillées aveugle les faibles à la seule vérité divine: les vivants [bno_bbc|E]C'est vrai. Nous rejetons toutes les idoles de nos lieux saints afin qu'aucune fausse vision ne les profane. Seule la chair est sacrée, et seule la Cock noire est digne de dévotion."   # AI Tags

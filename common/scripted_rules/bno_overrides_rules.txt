@@ -1,0 +1,16 @@
+﻿can_traverse_river = {
+	OR = {
+		culture = {
+			OR = {
+				has_innovation = innovation_longboats
+				has_innovation = innovation_african_canoes
+                has_innovation = innovation_bno_african_canoes
+				has_cultural_parameter = can_travel_along_rivers
+			}
+		}
+		AND = {
+			exists = dynasty
+			dynasty = { has_dynasty_modifier = fp1_legacy_of_piracy_modifier }
+		}
+	}
+}

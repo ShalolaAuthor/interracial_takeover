@@ -43,7 +43,8 @@ bno_non_playable.0001 = {
                 }
                 save_scope_as = cp_steward
             }
-            send_interface_toast = {
+            send_interface_message = {
+                type = bno_blacked_events
                 title = bno_non_playable.0001.title
                 desc = bno_non_playable.0001.desc
                 remove_short_term_gold = minor_gold_value

@@ -96,6 +96,7 @@ bbc_worshipper_whoring_around = {
             }
             carn_sex_scene_no_pregnancy_effect = yes
 			carn_sex_scene_no_drama_effect = yes
+            carn_sex_scene_no_memory_effect = yes
             bno_have_sex_with_effects = {
                 PARTNER = scope:rich_bbc
             }
@@ -478,7 +479,8 @@ bno_court_sex_scene_effect = {
     save_scope_as = carn_sex_player
     $PARTNER$ = { save_scope_as = carn_sex_partner }
     scope:carn_sex_player = {
-        carnal_court_enter_court_effect = yes
+        bno_carnal_court_enter_court_effect = yes
+        trigger_event = bno_court.0001
     }
 }
 

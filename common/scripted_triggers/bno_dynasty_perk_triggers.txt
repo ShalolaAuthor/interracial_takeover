@@ -53,6 +53,18 @@ bno_has_embrace_african_3 = {
 	}
 }
 
+bno_has_embrace_african_2 = {
+	dynasty ?= {
+		has_dynasty_perk = bno_embrace_african_2
+	}
+}
+
+bno_has_embrace_african_1 = {
+	dynasty ?= {
+		has_dynasty_perk = bno_embrace_african_1
+	}
+}
+
 bno_has_bbc_priest_or_priestess = {
 	OR = {
 		any_court_position_holder = {
@@ -66,20 +78,18 @@ bno_has_bbc_priest_or_priestess = {
 
 bno_is_barony_valid_for_church_foundation = {
 	is_capital_barony = no
+	title_province = {
+        has_special_building_slot = no
+    }
 	county = {
 		trigger_if = {
 			limit = { exists = scope:ruler }
 			holder = scope:ruler
-			this = scope:ruler.primary_title.title_capital_county
 		}
 		trigger_else = {
 			holder = $HOLDER$
-			this = $HOLDER$.primary_title.title_capital_county
 		}
 	}
-	title_province = {
-        has_special_building_slot = no
-    }
     is_leased_out = no
     NOT = { title_province = { has_building_or_higher = bbc_church_01 } }
 }
@@ -89,11 +99,9 @@ bno_is_barony_valid_for_bbc_holy_order = {
 		trigger_if = {
 			limit = { exists = scope:ruler }
 			holder = scope:ruler
-			this = scope:ruler.primary_title.title_capital_county
 		}
 		trigger_else = {
 			holder = $HOLDER$
-			this = $HOLDER$.primary_title.title_capital_county
 		}
 	}
 	is_leased_out = no
@@ -105,11 +113,9 @@ bno_is_barony_valid_for_bbc_camps = {
 		trigger_if = {
 			limit = { exists = scope:ruler }
 			holder = scope:ruler
-			NOT = { this = scope:ruler.primary_title.title_capital_county }
 		}
 		trigger_else = {
-			holder = root
-			NOT = { this = $HOLDER$.primary_title.title_capital_county }
+			holder = $HOLDER$
 		}
 	}
 	title_province = {
@@ -137,5 +143,24 @@ bno_is_barony_valid_for_culture_change = {
 	title_province = {
 		is_culture_bnoc = no
 		is_county_capital = yes
+	}
+}
+
+bno_is_barony_valid_for_bbc_trader = {
+	county = {
+		trigger_if = {
+			limit = { exists = scope:ruler }
+			holder = scope:ruler
+		}
+		trigger_else = {
+			holder = $HOLDER$
+		}
+	}
+	title_province = {
+        has_special_building_slot = no
+    }
+	is_leased_out = no
+	title_province = {
+		NOT = { has_building_or_higher = bbc_trader_01 }
 	}
 }

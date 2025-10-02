@@ -1,0 +1,48 @@
+﻿on_game_start_after_lobby = {
+	events = {
+		bno_character_initialization.0001
+	}
+	on_actions = {
+		bno_inversed_gender_equality
+	}
+}
+
+bno_inversed_gender_equality = {
+	trigger = {
+		has_game_rule = bno_mod_status_on
+	}
+	effect = {
+		if = {
+			limit = {
+				has_game_rule = inversed_gender_equality
+			}
+			bno_game_rule_inversed_gender_equality_effect = yes
+		}
+	}
+}
+
+on_birthday = {
+	on_actions = { bno_trait_maintenance_pulse }
+}
+
+on_join_court = {
+	on_actions = { bno_trait_maintenance_pulse }
+}
+
+on_title_gain = {
+	on_actions = { bno_trait_maintenance_pulse }
+}
+
+on_birth_child = {
+	on_actions = { bno_trait_maintenance_pulse }
+}
+
+bno_trait_initialization_pulse = {
+	trigger = {
+		has_game_rule = bno_seeding_yes
+		has_game_rule = bno_mod_status_on
+	}
+	events = {
+		bno_trait_maintenance.0001
+	}
+}

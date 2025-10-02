@@ -511,35 +511,6 @@ bno_ritual_of_purification.2001 = {
         scope:child = {
             bno_remove_blood_traits = yes
             add_trait = bno_pure_white
-            random_list = {
-                1 = {
-                    set_ethnicity = caucasian
-                }
-                1 = {
-                    set_ethnicity = caucasian_blond
-                }
-                1 = {
-                    set_ethnicity = caucasian_northern_blond
-                }
-                1 = {
-                    set_ethnicity = caucasian_ginger
-                }
-                1 = {
-                    set_ethnicity = caucasian_northern_ginger
-                }
-                1 = {
-                    set_ethnicity = caucasian_brown_hair
-                }
-                1 = {
-                    set_ethnicity = caucasian_northern_brown_hair
-                }
-                1 = {
-                    set_ethnicity = caucasian_dark_hair
-                }
-                1 = {
-                    set_ethnicity = caucasian_northern_dark_hair
-                }
-            }
         }
     }
 

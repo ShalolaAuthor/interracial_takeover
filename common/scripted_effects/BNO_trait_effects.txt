@@ -17,7 +17,12 @@ bno_generic_xp_increase = {
 bno_add_random_xp_to_leveled_down_trait = {
 	add_trait_xp = {
 		trait = $TRAIT$
-		value = { 90 99 }
+		value = {
+			integer_range = {
+				min = 90
+				max = 99
+			}
+		}
 	}
 }
 
@@ -405,6 +410,9 @@ bno_caged_effect = {
 			add_trait = bno_caged_futa
 		}
 	}
+	bno_create_artifact_bno_chastity_cage_effect = {
+		CAGER = $CAGER$
+	}
 	add_prestige = -250
 }
 
@@ -710,7 +718,7 @@ bno_increase_pussy_wear = {
                 }
                 add_trait_xp = {
                     trait = bno_pussy_mileage_1
-                    value = { 1 5 }
+                    value = bno_random_xp_positive
                 }
             }
 			if = {
@@ -755,7 +763,7 @@ bno_increase_pussy_wear = {
 bno_bbc_pussy_wear_effect = {
     add_trait_xp = {
         trait = $PUSSY_WEAR_TRAIT$
-        value = { 1 5 }
+        value = bno_random_xp_positive
     }
     if = {
         limit = {

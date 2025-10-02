@@ -76,11 +76,19 @@ bno_random.0001 = {
 	option = {
 		name = bno_random_0001.a
 		trigger_event = bno_random.1001
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = {
 		name = bno_random_0001.b
 		trigger_event = bno_random.2001
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = {
@@ -96,6 +104,9 @@ bno_random.0001 = {
 		imprison = {
 			type = dungeon
 			target = scope:target2
+		}
+		ai_chance = {
+			base = 0
 		}
 	}
 }
@@ -152,7 +163,6 @@ bno_random.1001 = {
 
 	option = {
 		name =  bno_random_1001.a
-		
 		trigger = {
 			is_bno_curious_and_up = no
 		}
@@ -160,11 +170,15 @@ bno_random.1001 = {
 			PARTNER = scope:target1
 		}
 		bno_increase_sluttyness = yes
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	option = {
 		name =  bno_random_1001.b
 		trigger = {
-			is_bno_curious_and_up = yes
+			is_bno_blacked_and_up = yes
 		}
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
@@ -173,11 +187,18 @@ bno_random.1001 = {
 			PARTNER = scope:target1
 		}
 		add_stress = -15
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	option = { #denial
 		name =  bno_random_1001.c
 		add_stress = 10
 		bno_decrease_sluttyness = yes
+		ai_chance = {
+			base = 0
+		}
 	}
 }
 
@@ -922,6 +943,10 @@ bno_random.0005 = {
 		bno_increase_sluttyness = yes
 		
 		trigger_event = bno_random.1005
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = {
@@ -934,6 +959,9 @@ bno_random.0005 = {
 		imprison = {
 			type = dungeon
 			target = scope:target1
+		}
+		ai_chance = {
+			base = 0
 		}
 	}
 }
@@ -1053,6 +1081,10 @@ bno_random.0006 = {
 		}
 		
 		trigger_event = bno_random.1006
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	option = {
 		name = bno_random_0006.b
@@ -1062,6 +1094,9 @@ bno_random.0006 = {
 		imprison = {
 			type = dungeon
 			target = scope:target1
+		}
+		ai_chance = {
+			base = 0
 		}
 	}
 }
@@ -3195,6 +3230,10 @@ bno_random.0020 = {
 	option = { #aren't you persuasive
 		name = bno_random_0020.a
 		bno_increase_sluttyness = yes
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = { #smooch!!!
@@ -3203,6 +3242,10 @@ bno_random.0020 = {
 			is_bno_curious_and_up = yes
 		}
 		bno_increase_sluttyness = yes
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = { #downplay his flirtation
@@ -3210,6 +3253,9 @@ bno_random.0020 = {
 		add_internal_flag = dangerous
 		bno_decrease_sluttyness = yes
 		bno_no_sex_stress_impact = yes
+		ai_chance = {
+			base = 0
+		}
 	}
 }
 
@@ -3642,11 +3688,18 @@ bno_random.0024 = {
 			PARTNER = scope:target1
 		}
 		trigger_event = bno_random.1024
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = { #ew, not sex
 		name = bno_random_0024.b
 		remove_short_term_gold = medium_gold_value
+		ai_chance = {
+			base = 5
+		}
 	}
 	
 	option = { #imprison
@@ -3656,6 +3709,9 @@ bno_random.0024 = {
 			target = scope:target1 
 		}
 		bno_decrease_sluttyness = yes
+		ai_chance = {
+			base = 0
+		}
 	}
 }
 
@@ -4161,6 +4217,10 @@ bno_random.0027 = {
 		bno_increase_sluttyness = yes
 		
 		trigger_event = bno_random.1027
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = { #let me get readjusted...
@@ -4173,12 +4233,19 @@ bno_random.0027 = {
 		bno_increase_sluttyness = yes
 		
 		trigger_event = bno_random.2027
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = { #are you kidding me? where's target2?
 		name = bno_random_0027.c
 		
 		bno_decrease_sluttyness = yes
+		ai_chance = {
+			base = 0
+		}
 	}
 }
 
@@ -4827,11 +4894,18 @@ bno_random.0032 = {
 		}
 		
 		trigger_event = bno_random.1032
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = { #it was an accident! I dont know how i got here!
 		name = bno_random_0032.c
 		bno_decrease_sluttyness = yes
+		ai_chance = {
+			base = 0
+		}
 	}
 }
 
@@ -4919,6 +4993,10 @@ bno_random.0033 = {
 		bno_increase_sluttyness = yes
 		
 		trigger_event = bno_random.1033
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = { #behind those bookcases. just in case
@@ -4930,6 +5008,10 @@ bno_random.0033 = {
 		bno_increase_sluttyness = yes
 		
 		trigger_event = bno_random.2033
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = { #get away from me
@@ -4939,6 +5021,9 @@ bno_random.0033 = {
 			target = scope:target1
 		}
 		bno_decrease_sluttyness = yes
+		ai_chance = {
+			base = 0
+		}
 	}
 }
 
@@ -5252,6 +5337,10 @@ bno_random.0035 = {
 		}
 		bno_increase_sluttyness = yes
 		trigger_event = bno_random.1035
+		ai_chance = {
+			base = 50
+			bno_white_girl_modifier_big = yes
+		}
 	}
 	
 	option = { #yes yes yes i did it!
@@ -5261,6 +5350,9 @@ bno_random.0035 = {
 		
 		random_secret = {
 			reveal_to = scope:target1
+		}
+		ai_chance = {
+			base = 0
 		}
 	}
 }
@@ -7486,7 +7578,9 @@ bno_random.0048 = {
 	
 	option = {
 		name = bno_random_0048.a
-		bno_caged_effect = yes
+		bno_caged_effect = {
+			CAGER = scope:target1
+		}
 		stress_impact = {
 			lustful = minor_stress_impact_loss
 			ambitious = medium_stress_impact_gain

@@ -33,3 +33,10 @@ bno_bbc_cum_addiction_random_narrative = {
         }
     }
 }
+
+bno_seduce_rejection_random_narrative = {
+    save_scope_value_as = {
+        name = random_narrative
+        value = $VALUE$
+    }
+}

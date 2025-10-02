@@ -6,6 +6,12 @@
 bno_cuckish = {
 	group = bno_whiteboi
 	level = 1
+	opposites = {
+		bno_bbc
+		bno_whitegirl
+	}
+	opposite_opinion = 10
+	same_opinion = 10
 	attraction_opinion = -10
 	general_opinion = -8
 	spouse_opinion = 5
@@ -50,9 +56,15 @@ bno_cuckish = {
 bno_cuck = {
 	group = bno_whiteboi
 	level = 2
+	opposites = {
+		bno_bbc
+		bno_whitegirl
+	}
+	opposite_opinion = 20
+	same_opinion = 20
 	attraction_opinion = -15
 	general_opinion = -10
-	spouse_opinion = 8
+	spouse_opinion = 10
 	monthly_prestige = -0.55
 	martial = -2
 	prowess = -4
@@ -89,13 +101,18 @@ bno_cuck = {
 	    bno_qos = -75
 	    bno_mindless_bbc_slut = -100
 	}
-
 }
 
 # Level 3 — Beta
 bno_beta = {
 	group = bno_whiteboi
 	level = 3
+	opposites = {
+		bno_bbc
+		bno_whitegirl
+	}
+	opposite_opinion = 40
+	same_opinion = 40
 	attraction_opinion = -25
 	general_opinion = -15
 	spouse_opinion = 12
@@ -146,6 +163,12 @@ bno_beta = {
 bno_jos = {
 	group = bno_whiteboi
 	level = 4
+	opposites = {
+		bno_bbc
+		bno_whitegirl
+	}
+	opposite_opinion = 80
+	same_opinion = 80
 	attraction_opinion = -40
 	general_opinion = -20
 	spouse_opinion = 20
@@ -348,11 +371,11 @@ bno_bbc = {
 		bno_whitegirl
 		bno_whiteboi
 		bno_chastity
+		bno_pussy_mileage
 	}
 	
-	same_opinion = 200
-	opposite_opinion = 200
-	general_opinion = -200
+	same_opinion = 100
+	opposite_opinion = 100
 	
 	ignore_negative_culture_opinion = yes
 	ignore_negative_opinion_of_culture = yes
@@ -364,6 +387,13 @@ bno_bbc = {
 	    bno_snowbunny = 200
 	    bno_qos = 400
 	    bno_mindless_bbc_slut = 800
+		
+		bno_pussy_mileage_1 = 200
+    	bno_pussy_mileage_2 = 400
+    	bno_pussy_mileage_3 = 600
+    	bno_pussy_mileage_4 = 800
+    	bno_pussy_mileage_5 = 1000
+    	bno_pussy_mileage_6 = 1500
 
 	    bno_cuckish = -15
 	    bno_cuck = -30
@@ -412,6 +442,7 @@ bno_bbc = {
 	fertility = 0.7
 	
 	flag = carn_no_consequences_for_extramarital_sex_with_others
+	flag = carn_no_consequences_for_extramarital_sex_with_me
 	
 	ai_honor = very_low_negative_ai_value
 	ai_greed = low_positive_ai_value
@@ -437,9 +468,8 @@ bno_curious = {
 	
 	#Special Opinion
 	general_opinion = -20
-	opposite_opinion = 200
-	same_opinion = 10
-	same_opinion_if_same_faith = 20
+	opposite_opinion = 100
+	same_opinion = 40
 
 	#Trait Relation
 	compatibility = {
@@ -506,6 +536,10 @@ bno_curious = {
 	#Modifiers	
 	ignore_negative_culture_opinion = yes
 	ignore_negative_opinion_of_culture = yes
+
+	#Flags
+	flag = carn_no_consequences_for_extramarital_sex_with_others
+	flag = carn_no_consequences_for_extramarital_sex_with_me
 	
 	#AI
 	ai_boldness = low_negative_ai_value
@@ -524,9 +558,8 @@ bno_blacked = {
 	
 	#Special Opinion
 	general_opinion = -40
-	opposite_opinion = 225
-	same_opinion = 20
-	same_opinion_if_same_faith = 40
+	same_opinion = 80
+	opposite_opinion = 125
 
 	#Trait Relation
 	compatibility = {
@@ -595,6 +628,10 @@ bno_blacked = {
 	seduce_scheme_phase_duration_add = -10
 	prowess = -2
 	knight_limit = 2
+
+	#Flags
+	flag = carn_no_consequences_for_extramarital_sex_with_others
+	flag = carn_no_consequences_for_extramarital_sex_with_me
 	
 	#AI
 	ai_boldness = low_negative_ai_value
@@ -613,9 +650,8 @@ bno_snowbunny = {
 	
 	#Special Opinion
 	general_opinion = -60
-	opposite_opinion = 250
-	same_opinion = 30
-	same_opinion_if_same_faith = 60
+	same_opinion = 120
+	opposite_opinion = 150
 
 	#Trait Relation
 	compatibility = {
@@ -695,6 +731,10 @@ bno_snowbunny = {
 	knight_limit = 2
 	stress_gain_mult = -0.05
 	stress_loss_mult = 0.05
+
+	#Flags
+	flag = carn_no_consequences_for_extramarital_sex_with_others
+	flag = carn_no_consequences_for_extramarital_sex_with_me
 	
 	#AI
 	ai_boldness = medium_negative_ai_value
@@ -713,9 +753,8 @@ bno_qos = {
 	
 	#Special Opinion
 	general_opinion = -80
-	opposite_opinion = 275
-	same_opinion = 40
-	same_opinion_if_same_faith = 80
+	same_opinion = 160
+	opposite_opinion = 175
 
 	#Trait Relation
 	compatibility = {
@@ -795,6 +834,7 @@ bno_qos = {
 
 	#Flags
 	flag = carn_no_consequences_for_extramarital_sex_with_others
+	flag = carn_no_consequences_for_extramarital_sex_with_me
 	
 	#AI
 	ai_boldness = high_negative_ai_value
@@ -813,9 +853,8 @@ bno_mindless_bbc_slut = {
 	
 	#Special Opinion
 	general_opinion = -100
-	opposite_opinion = 300
-	same_opinion = 50
-	same_opinion_if_same_faith = 50
+	same_opinion = 200
+	opposite_opinion = 200
 
 	#Trait Relation
 	compatibility = {
@@ -907,13 +946,11 @@ bno_mindless_bbc_slut = {
 	stress_gain_mult = -0.2
 	stress_loss_mult = 0.2
 	no_prowess_loss_from_age = yes
+	disables_combat_leadership = yes
 
 	#Flags
 	flag = carn_no_consequences_for_extramarital_sex_with_others
-	flag = no_headwear
-	flag = no_headgear
-	flag = no_clothes
-	disables_combat_leadership = yes
+	flag = carn_no_consequences_for_extramarital_sex_with_me
 	
 	#AI
 	ai_boldness = high_negative_ai_value
@@ -1699,9 +1736,11 @@ bno_pussy_mileage_1 = {
 	level = 1
 	shown_in_ruler_designer = no
 	physical = yes
+	opposites = {
+		bno_bbc
+	}
 	attraction_opinion = 50
 	spouse_opinion = 50
-	fertility = 1
 	track = {
 		1 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
 		30 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
@@ -1733,9 +1772,16 @@ bno_pussy_mileage_2 = {
 	level = 2
 	shown_in_ruler_designer = no
 	physical = yes
+	opposites = {
+		bno_bbc
+	}
+	opposite_opinion = 40
 	attraction_opinion = 35
 	spouse_opinion = 35
-	fertility = 0.7
+	fertility = -0.3
+	compatibility = {
+	    bno_bbc = 400
+	}
 	track = {
 		30 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
 		60 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
@@ -1764,9 +1810,16 @@ bno_pussy_mileage_3 = {
 	level = 3
 	shown_in_ruler_designer = no
 	physical = yes
+	opposites = {
+		bno_bbc
+	}
+	opposite_opinion = 60
 	attraction_opinion = 25
 	spouse_opinion = 25
-	fertility = 0.5
+	fertility = -0.5
+	compatibility = {
+	    bno_bbc = 600
+	}
 	track = {
 		30 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
 		60 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
@@ -1795,9 +1848,16 @@ bno_pussy_mileage_4 = {
 	level = 4
 	shown_in_ruler_designer = no
 	physical = yes
+	opposites = {
+		bno_bbc
+	}
+	opposite_opinion = 80
 	attraction_opinion = 15
 	spouse_opinion = 15
-	fertility = 0.3
+	fertility = -0.7
+	compatibility = {
+	    bno_bbc = 800
+	}
 	track = {
 		30 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
 		60 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
@@ -1826,12 +1886,19 @@ bno_pussy_mileage_5 = {
 	level = 5
 	shown_in_ruler_designer = no
 	physical = yes
+	opposites = {
+		bno_bbc
+	}
+	opposite_opinion = 100
 	attraction_opinion = 5
 	spouse_opinion = 5
-	fertility = 0.1
+	fertility = -0.9
+	compatibility = {
+	    bno_bbc = 1000
+	}
 	track = {
-		30 = { attraction_opinion = -30 spouse_opinion = -30 fertility = -0.5 general_opinion = -25 courtier_and_guest_opinion = -25 }
-		60 = { attraction_opinion = -25 spouse_opinion = -25 fertility = -0.6 general_opinion = -25 courtier_and_guest_opinion = -25 }
+		30 = { attraction_opinion = -30 spouse_opinion = -30 fertility = -0.05 general_opinion = -25 courtier_and_guest_opinion = -25 }
+		60 = { attraction_opinion = -25 spouse_opinion = -25 fertility = -0.05 general_opinion = -25 courtier_and_guest_opinion = -25 }
 	}
 	name = {
 		first_valid = {
@@ -1856,6 +1923,13 @@ bno_pussy_mileage_6 = {
 	group = bno_pussy_mileage
 	level = 6
 	physical = yes
+	opposites = {
+		bno_bbc
+	}
+	compatibility = {
+	    bno_bbc = 1500
+	}
+	opposite_opinion = 200
 	shown_in_ruler_designer = no
 	attraction_opinion = -50
 	spouse_opinion = -50

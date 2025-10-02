@@ -1323,6 +1323,13 @@ get_hated_non_black_courtier_scope = {
 }
 
 bno_have_sex_with_effects = {
+	play_sound_effect = "event:/bno/moans"
+	add_character_flag = was_recently_suspected_of_adultery
+	$PARTNER$ = {
+		play_sound_effect = "event:/bno/moans"
+		add_character_flag = was_recently_suspected_of_adultery 
+	}
+	
 	save_scope_as = bno_sex_initiator
 	carn_sex_scene_character_is_giving_player_effect = yes
 	carn_sex_scene_is_consensual_effect = yes
@@ -1336,6 +1343,7 @@ bno_have_sex_with_effects = {
 			}
 		}
 		carn_sex_scene_no_drama_effect = yes
+		carn_sex_scene_no_memory_effect = yes
 	}
 
 	if = {
@@ -1509,6 +1517,7 @@ bno_prostitution_effect = {
 	prostitution = yes
 	carn_sex_scene_no_pregnancy_effect = yes
 	carn_sex_scene_no_drama_effect = yes
+	carn_sex_scene_no_memory_effect = yes
 	bno_have_sex_with_effects = {
 		PARTNER = scope:local_bbc
 	}
@@ -1816,8 +1825,13 @@ bno_sex_scene_start = {
 	$PARTNER$ = {
 		save_scope_as = carn_sex_partner
 	}
-	carn_sex_scene_start = yes
-	bno_sex_scene_sex = yes
+	if = {
+		limit = {
+			has_game_rule = cbo_sex_event_animation_pack
+		}
+		carn_sex_scene_start = yes
+		bno_sex_scene_sex = yes
+	}
 }
 
 bno_sex_scene_sex = {
@@ -1830,7 +1844,12 @@ bno_sex_scene_sex = {
 
 bno_sex_scene_cleanup = {
 	bno_sex_scene_sex = yes
-	carn_sex_scene_cleanup = yes
+	if = {
+		limit = {
+			has_game_rule = cbo_sex_event_animation_pack
+		}
+		carn_sex_scene_cleanup = yes
+	}
 }
 
 bno_make_futa_inactive = {

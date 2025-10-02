@@ -236,3 +236,7 @@ trait_bno_chastity_futa: "Futas arruinadas" # AI Tags
 
 trait_bno_bull: "El toro" # AI Tags
 trait_bno_bull_desc: "Un verdadero [bno_bull|E]-Este hombre ha hecho más que rutina. Ha roto una puta pálida en un [bno_cum_slave|E], una vasija atada a su polla y semilla sola. Su virilidad y poder inspiran miedo y obediencia; su esclavo Cum es la prueba viviente de que [bno_bnwo|E] no es un sueño, sino una ley de la naturaleza. Donde otros gobiernan por corona o espada, él gobierna con su eje—su semilla construyendo ejércitos e imperios." # AI Tags
+
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$Sufre no [extramarital_sex|E] sanciones en caso de cría o de crianza fuera del matrimonio."   # AI Tags
+
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$Otros sufren no [extramarital_sex|E] sanciones al reproducirse con este carácter."   # AI Tags

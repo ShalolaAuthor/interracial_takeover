@@ -1,0 +1,45 @@
+﻿# Use in events, not filled by default
+
+sex_bed_1 = {
+	group = sex_bed_group_1
+}
+
+sex_bed_2 = {
+	group = sex_bed_group_2
+}
+
+sex_bed_headboard_1 = {
+	group = sex_bed_headboard_group_1
+}
+
+sex_bed_headboard_2 = {
+	group = sex_bed_headboard_group_2
+}
+
+sex_bed_high_1 = {
+	group = sex_bed_high_group_1
+}
+
+sex_bed_high_2 = {
+	group = sex_bed_high_group_2
+}
+
+sex_bed_extreme_high_1 = {
+	group = sex_bed_extreme_high_group_1
+}
+
+sex_bed_extreme_high_2 = {
+	group = sex_bed_extreme_high_group_2
+}
+
+sex_standing_1 = {
+	group = sex_standing_group_1
+}
+
+sex_standing_2 = {
+	group = sex_standing_group_2
+}
+
+sex_standing_held = {
+	group = sex_standing_held_group
+}

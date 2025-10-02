@@ -153,3 +153,33 @@ bno_events00.too_little_bbc: "Твой зал пуст [bno_bbcs|E]- Нет , н
 bno_invite_slut_decision.too_little_white_girl: "Твои дворы плохие бледные шлюхи. Необходимо пригласить больше, потому что каждый зал становится сильным и опасным, когда белые шлюхи собираются под одной крышей." # AI Tags
 
 bno_becoming_bbc_slut.has_bbc_in_court: "Должен быть хотя бы один [bno_bbc|E] в вашем дворе, чтобы начать этот путь. Без быка, который будет претендовать на вас, ваше падение в рабство не может начаться." # AI Tags
+
+bno_trade_piety_for_gold.title.male: "Пожертвовать верными"   # AI Tags
+bno_trade_piety_for_gold.title.female: "Пожертвовать верными"   # AI Tags
+
+bno_trade_piety_for_gold.desc.male: "В качестве хозяина [GetFaithByKey('bbcs').GetName]В соборе вы проявляете преданность быкам и шлюхам. Их поклонение больше, чем скорбь и семена. Они проливают свое золото в твои руки, уверены, что каждая монета служит божественному окружению мира [bno_bbc|E]."   # AI Tags
+
+bno_trade_piety_for_gold.desc.female: "Как чернокожая шлюха [GetFaithByKey('bbcs').GetName]Твое капельное благочестие вдохновляет верующих. Они пускают свои кошельки так же с нетерпением, как расширяют свои бедра, предлагая монеты и мясо, чтобы поджигать священную причину вашего быка."   # AI Tags
+
+bno_trade_piety_for_gold.tooltip.male: "Расходовать [piety|E] чтобы повелевать верным давать десятую часть, [gold|E]."   # AI Tags
+bno_trade_piety_for_gold.tooltip.female: "Расходовать [piety|E] чтобы возбудить стадо Твое в пожертвования, желание их и золото, текущее к Тебе."   # AI Tags
+
+bno_trade_piety_for_gold.confirm.male: "Призовите золото стада во имя Черного Кока."   # AI Tags
+bno_trade_piety_for_gold.confirm.female: "Призови верных золота для славы моего Булла."   # AI Tags
+
+bno_trade_piety_for_gold.effect: "Преобразовать [piety|E] в [gold|E] и приносящими в жертву желание верующих."   # AI Tags
+
+bno_trade_prestige_for_gold.title.male: "Сделка братьев"   # AI Tags
+bno_trade_prestige_for_gold.title.female: "Сделка братьев"   # AI Tags
+
+bno_trade_prestige_for_gold.desc.male: "Ваш престиж измеряется не только словами, но и плотью. Чтобы доказать свою лояльность к братству, ты прелюбодействовал своей женой к своим родственникам. Быки ездят на ней один за другим, семена проливаются глубоко, и когда их страсть исчезает, они накапливают золото у ваших ног в дань."   # AI Tags
+
+bno_trade_prestige_for_gold.desc.female: "Твоя слава среди Буллов доказана твоим телом. Ты раздеваешься, расширяешься перед родственниками, жалуешься, когда каждый бык использует тебя по очереди. Каждый раз, когда они достигают максимума, они вкладывают монету в ваши руки, их семена капеют по вашим бедрам вместе со своим золотом."   # AI Tags
+
+bno_trade_prestige_for_gold.tooltip.male: "Расходовать [prestige|E] Предлагая ваши женские дыры Быкам, выигрывая [gold|E] после использования."   # AI Tags
+bno_trade_prestige_for_gold.tooltip.female: "Расходовать [prestige|E] Пожертвовая своим телом Быкам, выигрывая [gold|E] после их использования."   # AI Tags
+
+bno_trade_prestige_for_gold.confirm.male: "Да, пусть моя жена будет служить быкам за золото."   # AI Tags
+bno_trade_prestige_for_gold.confirm.female: "Да, я сам буду служить быкам за золото."   # AI Tags
+
+bno_trade_prestige_for_gold.effect: "Преобразовать [prestige|E] в [gold|E] через проститутскую службу африканскому братству."   # AI Tags

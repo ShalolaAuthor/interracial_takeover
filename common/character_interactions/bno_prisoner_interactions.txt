@@ -109,7 +109,9 @@
         if = {
             limit = { scope:bno_prisoner_interaction_caging = yes }
             scope:recipient = {
-                bno_caged_effect = yes
+                bno_caged_effect = {
+                    CAGER = scope:actor
+                }
                 # TODO: add custom opinion later
                 add_opinion = {
                     target = scope:actor

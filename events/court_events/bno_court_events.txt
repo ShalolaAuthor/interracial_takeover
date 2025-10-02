@@ -54,9 +54,6 @@ bno_court.0001 = {
     }
 
     immediate = {
-        bno_court_sex_scene_effect = {
-            PARTNER = scope:carn_sex_partner
-        }
         open_view_data = {
             view = royal_court
             player = root
@@ -174,6 +171,6 @@ bno_court.0002 = {
         bno_learning_from_sex_effect = yes
         carn_sex_scene_character_is_giving_player_effect = yes
         carn_sex_scene_is_consensual_effect = yes
-        carnal_court_leave_court_effect	= yes
+        bno_carnal_court_leave_court_effect	= yes
     }
 }

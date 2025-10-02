@@ -1,0 +1,17 @@
+﻿l_polish:
+
+tradition_group_bno: "BNWO" # AI Tags
+
+tradition_bno_matriarchy_name: "Nasiona matryarchia" # AI Tags
+tradition_bno_matriarchy_desc: "Moc spada z łona do łona. Trony są przekazywane płodnym dziwkom, prawa skłaniają się do ich płaczu, a armie marszują z kobietami przysięganymi jako Seedthralls. Królowie rządzą tylko dlatego, że Były pozwalają na to. Każda korona kołnierz, każdy kcepter dildo, każda zwycięstwo kończy się białym mięsem. Sam królestwo jest odtworzone: kobiety trzymają prawo, kobiety utrzymują porządek, wszystko w służbie czarnego kurca." # AI Tags
+
+bno_tradition.curious: "$EFFECT_LIST_BULLET$Jej czarna ciekawość sprawiła, że kapitulacja stała się tańsza." # AI Tags
+bno_tradition.blacked: "$EFFECT_LIST_BULLET$Kiedy zostaje czarna, tradycja łagodzi się łatwo do dziur, które znowu pragną Byków." # AI Tags
+bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$Jak śnieżka, skacze na posłuszeństwo, a jej głód zmniejsza koszty." # AI Tags
+bno_tradition.qos: "$EFFECT_LIST_BULLET$Kronowana królowa szczotków płaci mniej, każda jej ustawa jest już napisana w kutasie." # AI Tags
+bno_tradition.mindless: "$EFFECT_LIST_BULLET$Bezmyślna i śliniąca, poddaje się za prawie nic, dziurę w kształcie nasienia." # AI Tags
+
+culture_parameter_unlock_maa_seed_thralls: "Można rekrutować [GetMaA('bno_seed_thralls').GetName] jak [men_at_arms|E], białe dziwki, które walczą tylko, by klękać na kolana i być wychowywane przez Byków." # AI Tags
+
+tradition_bno_african_hate_name: "Strach przed bykiem" # AI Tags
+tradition_bno_african_hate_desc: "Kultury nieafrykańskie przywiązują się do tej gorzkiej tradycji, a ich blada pycha przekształca się w nienawiść. Szeptają o Bykach z drżącymi ustami, nienawidzą tego, czego nie mogą się oprzeć, nienawidzą tego, czego ich kurwy wciąż pragną. Każdy prawo, każdy zwyczaj, to tylko słaba ściana przeciwko morzu czarnego kurca." # AI Tags

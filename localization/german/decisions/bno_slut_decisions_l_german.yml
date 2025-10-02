@@ -153,3 +153,33 @@ bno_events00.too_little_bbc: "Dein Saal ist leer von [bno_bbcs|E]… Mit weniger
 bno_invite_slut_decision.too_little_white_girl: "Dein Hof ist dünn von blassen Schlampen. Es muss noch mehr eingeladen werden, denn jeder Saal schwillt an Macht – und in Gefahr – wenn weiße Huren unter einem Dach versammelt werden." # AI Tags
 
 bno_becoming_bbc_slut.has_bbc_in_court: "Es muss mindestens einen geben [bno_bbc|E] in Ihrem Gericht, um diesen Weg zu beginnen. Ohne einen Bullen, der Sie beansprucht, kann Ihr Sturz in die Sklaverei nicht beginnen." # AI Tags
+
+bno_trade_piety_for_gold.title.male: "Die Treue ernten"   # AI Tags
+bno_trade_piety_for_gold.title.female: "Die Treue ernten"   # AI Tags
+
+bno_trade_piety_for_gold.desc.male: "Als Meister der [GetFaithByKey('bbcs').GetName]Die Kathedrale, du trägst die Hingabe von Bullen und Schlampen gleichermaßen. Ihre Anbetung ist mehr als Stöhnen und Samen - sie gießen ihr Gold in deine Hände, sicher, dass jede Münze dient dem göttlichen Umfang der [bno_bbc|E]."   # AI Tags
+
+bno_trade_piety_for_gold.desc.female: "Als die schwarz-kock-gesegnete Schlampe der [GetFaithByKey('bbcs').GetName], Ihre tropfende Frömmigkeit inspiriert die Gläubigen. Sie leeren ihre Geldbörsen so eifrig, wie sie ihre Schenkel ausbreiten, indem sie Münzen und Fleisch gleichermaßen anbieten, um eure heilige Sache der Bullen zu tanken."   # AI Tags
+
+bno_trade_piety_for_gold.tooltip.male: "Ausgaben [piety|E] um den Gläubigen den Zehnten zu befehlen, [gold|E]."   # AI Tags
+bno_trade_piety_for_gold.tooltip.female: "Ausgaben [piety|E] um deine Herde in Tribut zu versetzen, ihre Lust und ihr Gold, das zu dir fließt."   # AI Tags
+
+bno_trade_piety_for_gold.confirm.male: "beschwören Sie die Herde Gold im Namen des schwarzen Schwanzes."   # AI Tags
+bno_trade_piety_for_gold.confirm.female: "beschwöre das Gold der Gläubigen für meine Bulle."   # AI Tags
+
+bno_trade_piety_for_gold.effect: "Umrechnen [piety|E] in die [gold|E] durch die lustvollen Opfergaben der Gläubigen."   # AI Tags
+
+bno_trade_prestige_for_gold.title.male: "Die Bruderschaft tauscht sich aus"   # AI Tags
+bno_trade_prestige_for_gold.title.female: "Die Bruderschaft tauscht sich aus"   # AI Tags
+
+bno_trade_prestige_for_gold.desc.male: "Euer Ansehen wird nicht nur in Worten gemessen, sondern in Fleisch angeboten. Um deine Loyalität gegenüber der Bruderschaft zu beweisen, huren du deine Frau deinen Angehörigen aus. Die Stiere bergen sie nacheinander, und die Saat verschüttet sich tief, und wenn ihre Lust verzehrt wird, häufen sie Gold zu deinen Füßen als Tribut."   # AI Tags
+
+bno_trade_prestige_for_gold.desc.female: "Dein Ruhm unter den Bullen wird durch deinen Körper bewiesen. Du ziehst dich nackt aus, spreizst dich vor deinen Angehörigen aus, stöhnst, wie jeder Bulle dich wiederum benutzt. Mit jedem Höhepunkt drücken sie Münze in Ihre Hände, ihre Samen tropft über Ihre Oberschenkel zusammen mit ihrem Gold."   # AI Tags
+
+bno_trade_prestige_for_gold.tooltip.male: "Ausgaben [prestige|E] indem du deine Frau den Bullen Löcher opferst, [gold|E] Nach ihrem Gebrauch."   # AI Tags
+bno_trade_prestige_for_gold.tooltip.female: "Ausgaben [prestige|E] indem du deinen eigenen Körper den Bullen darbringst, [gold|E] nach ihrer Verwendung."   # AI Tags
+
+bno_trade_prestige_for_gold.confirm.male: "Ja, meine Frau soll den Bullen für Gold dienen."   # AI Tags
+bno_trade_prestige_for_gold.confirm.female: "Ja, ich werde den Bullen selbst für Gold dienen."   # AI Tags
+
+bno_trade_prestige_for_gold.effect: "Umrechnen [prestige|E] in die [gold|E] durch Hurendienst für die afrikanische Bruderschaft."   # AI Tags

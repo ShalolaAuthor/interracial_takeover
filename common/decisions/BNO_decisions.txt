@@ -337,13 +337,8 @@ bno_build_african_camps_decision = {
 	is_shown = {
 		is_ruler = yes
 		is_adult = yes
-		OR = {
-			is_bbc = yes
-			has_trait = bno_whitegirl
-		}
-		dynasty ?= {
-			has_dynasty_perk = bno_embrace_african_2
-		}
+		is_bno_actor = yes
+		bno_has_embrace_african_2 = yes
 		OR = { 
 			is_ai = no 
 			has_game_rule = bno_decision_npc_yes 

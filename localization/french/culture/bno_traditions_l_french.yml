@@ -1,0 +1,17 @@
+﻿l_french:
+
+tradition_group_bno: "BNWO" # AI Tags
+
+tradition_bno_matriarchy_name: "Matriarchie ensemencée" # AI Tags
+tradition_bno_matriarchy_desc: "Le pouvoir coule de l'utérus à l'utérus. Les trônes sont passés à de fertiles salopes, les lois se plient à leurs gémissements, et les armées marchent avec des femmes jurées comme Seedthralls. Les reines règnent seulement parce que les taureaux le permettent – chaque couronne un collier, chaque sceptre un gode, chaque victoire se terminant par la chair blanche étalée et farcie. Le royaume lui-même est refait : les mains féminines saisissent la loi, les trous féminins soutiennent l'ordre, tout au service de la bite noire." # AI Tags
+
+bno_tradition.curious: "$EFFECT_LIST_BULLET$Sa Curiosité Noire rend la capitulation moins chère, les cuisses ont déjà mal à genoux." # AI Tags
+bno_tradition.blacked: "$EFFECT_LIST_BULLET$Une fois noircie, la tradition se plie facilement aux trous qui ont encore envie de Bulls." # AI Tags
+bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$En tant que Snowbunny, elle saute pour obéir, le coût allégé par sa faim." # AI Tags
+bno_tradition.qos: "$EFFECT_LIST_BULLET$Une reine couronnée de Spades paie moins, elle a toutes les lois déjà écrites en coq." # AI Tags
+bno_tradition.mindless: "$EFFECT_LIST_BULLET$Insouciante et brouillante, elle donne pour presque rien, un trou façonné par la graine." # AI Tags
+
+culture_parameter_unlock_maa_seed_thralls: "Peut recruter [GetMaA('bno_seed_thralls').GetName] comme [men_at_arms|E], salopes blanches qui se battent seulement pour s'agenouiller et être élevées par Bulls." # AI Tags
+
+tradition_bno_african_hate_name: "La peur du taureau" # AI Tags
+tradition_bno_african_hate_desc: "Les cultures non africaines s'accrochent à cette amère tradition, leur pâle fierté se transformant en haine. Ils murmurent des Bulls avec des lèvres tremblantes, haïssant ce qu'ils ne peuvent résister, haïssant ce que leurs salopes ont encore envie. Chaque loi, chaque coutume, n'est qu'un mur faible contre la marée de la bite noire." # AI Tags

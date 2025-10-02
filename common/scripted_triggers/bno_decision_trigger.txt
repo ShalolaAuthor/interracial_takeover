@@ -34,3 +34,22 @@ is_valid_for_converting_to_african = {
 		}
 	}
 }
+has_bbc_trader = {
+	any_held_county = {
+		any_in_de_jure_hierarchy = {
+            title_province = {
+				has_building_or_higher = bbc_trader_01
+			}
+		}
+	}
+}
+
+has_bbc_caravan = {
+	any_held_county = {
+		any_in_de_jure_hierarchy = {
+			title_province = {
+				has_variable = bno_caravan_open
+			}
+		}
+	}
+}

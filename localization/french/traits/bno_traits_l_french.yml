@@ -236,3 +236,7 @@ trait_bno_chastity_futa: "Futas ruinés" # AI Tags
 
 trait_bno_bull: "Taureau" # AI Tags
 trait_bno_bull_desc: "Un vrai [bno_bull|E]— cet homme a fait plus que de la rut. Il a cassé une salope pâle en une [bno_cum_slave|E], un vaisseau lié à sa queue et à sa graine seule. Sa virilité et son pouvoir inspirent la peur et l'obéissance ; son Esclave Cum est la preuve vivante que [bno_bnwo|E] n'est pas un rêve, mais une loi de la nature. Là où d'autres gouvernent par la couronne ou l'épée, il gouverne avec son arbre – sa semence construisant à la fois des armées et des empires." # AI Tags
+
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$Ne souffre pas [extramarital_sex|E] les sanctions en cas d'élevage ou d'élevage en dehors du mariage."   # AI Tags
+
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$D'autres n'en souffrent pas [extramarital_sex|E] les pénalités lors de l'élevage avec ce caractère."   # AI Tags

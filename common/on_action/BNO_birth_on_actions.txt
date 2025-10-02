@@ -57,15 +57,13 @@ bno_black_birth = {
 		}
 		if = {
 			limit = {
-				scope:child = {
+				scope:child ?= {
 					has_trait = bno_blood
 				}
-				exists = scope:real_father
 				scope:real_father ?= {
 					is_bbc = yes
 					NOT = { is_spouse_of = scope:mother }
 				}
-				exists = scope:father
 				scope:father ?= {
 					is_bbc = no
 					is_spouse_of = scope:mother
@@ -91,7 +89,7 @@ black_bred_bitch = {
 	effect = {
 		if = {
 			limit = {
-				scope:real_father = {		#triggers only if child's real father is BBC character
+				scope:real_father = {
 					has_trait = bno_bbc
 				}
 			}
@@ -99,13 +97,22 @@ black_bred_bitch = {
 		}
 		if = {
 			limit = {
-				NOT = { is_spouse_of = scope:real_father }		#don't bother if BBC real father and mother are married
-				scope:real_father = {							#triggers only if child's real father is BBC character
-					is_alive = yes
-					has_trait = bno_bbc
+				NOT = { exists = scope:real_father }
+				scope:father ?= {
+					is_bbc = yes
 				}
 			}
-			scope:real_father = {				#send notification and prestige to BBC real father, assuming he is not married to the mother in question
+			bno_increase_sluttyness = yes
+		}
+		if = {
+			limit = {
+				NOT = { is_spouse_of = scope:real_father }
+				scope:real_father = {
+					is_alive = yes
+					is_bbc = yes
+				}
+			}
+			scope:real_father ?= {				#send notification and prestige to BBC real father, assuming he is not married to the mother in question
 				send_interface_message = {
 					type = bno_blacked_events
 					title = bno_birth_real_father_notification.title
@@ -116,21 +123,14 @@ black_bred_bitch = {
 				}
 			}
 		}
-		
 		if = {
 			limit = {
-				AND = {
-					scope:real_father = {			#triggers only if real father is BBC char and presumed father is non BBC char
-						has_trait = bno_bbc
-					}
-					exists = scope:father
-					scope:father = {
-						NOT = { has_trait = bno_bbc }
-					}
+				scope:father ?= {
+					is_bbc = no
 				}
 			}
-			scope:father = {
-				send_interface_message = {			#send notification to presumed father, finds child's skin color a little off.
+			scope:father ?= {
+				send_interface_message = {
 					type = bno_blacked_events
 					title = bno_birth_cuck_father_notification.title
 					right_icon = scope:mother
