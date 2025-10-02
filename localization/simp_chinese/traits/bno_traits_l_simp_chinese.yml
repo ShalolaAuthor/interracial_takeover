@@ -237,6 +237,6 @@ trait_bno_chastity_futa: "被毁的扶她"
 trait_bno_bull: "公牛"
 trait_bno_bull_desc: "真正的[bno_bull|E]——此人不仅满足于交配。他将一个浅肤色的荡妇驯化成[bno_cum_slave|E]，一个只属于他阳具与精液的容器。他的雄性力量与威能令人敬畏臣服；他的精液奴隶正是活生生的证明——[bno_bnwo|E]并非幻想，而是自然法则。当他人以王冠或利剑统治时，他以阳具为权杖——他的精液既铸就军队，亦缔造帝国。"
 
-TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$不会因婚外生育或受孕而遭受[extramarital_sex|E]惩罚。"  
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$受苦无 [extramarital_sex|E] 婚外育育或生育的处罚。."   # AI Tags
 
-TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$他人不会因为与该角色生育而遭受[extramarital_sex|E]惩罚。"  
+TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$其他人无 [extramarital_sex|E] 当孕育这种特性时,将受到处罚。."   # AI Tags

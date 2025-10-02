@@ -1,17 +1,17 @@
 ﻿l_simp_chinese:
 
-tradition_group_bno: "BNWO"
+tradition_group_bno: "双双" # AI Tags
 
-tradition_bno_matriarchy_name: "受种母系"
-tradition_bno_matriarchy_desc: "力量从一个子宫滴落到另一个子宫。王座传给多产的荡妇，律法屈从于她们的呻吟，军队随宣誓成为种奴的女性行进。女王统治仅因公牛允许——每顶王冠皆是项圈，每根权杖皆是假阳具，每场胜利终以白皙肉体张开被填满告终。王国本身被重塑：女性之手执掌律法，女性之穴维系秩序，一切皆为侍奉黑屌。"
+tradition_bno_matriarchy_name: "种子母系" # AI Tags
+tradition_bno_matriarchy_desc: "从子宫到子宫的能量滴落. 宝座被传给肥沃的荡妇, 法律屈从于他们的呻吟, 军队游行的妇女 宣誓作为种子园。. 皇后统治是因为公牛们允许它—— 每一个皇冠都有项圈, 每一个权杖都有假人, 每一个胜利都以白肉的传播和塞满白肉而告终。. 王国本身被重新塑造: 女性的手抓住法律, 女性的洞维护秩序, 都为黑鸡鸡服务。." # AI Tags
 
-bno_tradition.curious: "$EFFECT_LIST_BULLET$她对黑人的好奇使她的屈服来的更容易，大腿已经隐隐作痛到膝盖了。"
-bno_tradition.blacked: "$EFFECT_LIST_BULLET$一旦被涂黑，传统就会轻而易举向再次渴望公牛的小穴屈服"
-bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$作为雪兔，她一跳一跳地臣服，她的饥渴降低了花费。"
-bno_tradition.qos: "$EFFECT_LIST_BULLET$加冕过的黑桃女皇付出的会更少，她的每条法律早已为肉棒而作。"
-bno_tradition.mindless: "$EFFECT_LIST_BULLET$无脑地滴着体液，她几乎对什么都没兴趣，小穴完全是种子的形状。"
+bno_tradition.curious: "$EFFECT_LIST_BULLET$她的黑色好奇心让投降更便宜, 大腿已经痛得要下跪了。." # AI Tags
+bno_tradition.blacked: "$EFFECT_LIST_BULLET$曾经被黑过,传统很容易弯曲 洞再次渴望公牛。." # AI Tags
+bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$作为斯诺本尼,她跳跃 服从, 代价因她的饥饿而减轻。." # AI Tags
+bno_tradition.qos: "$EFFECT_LIST_BULLET$她的每条法律都写在鸡巴里." # AI Tags
+bno_tradition.mindless: "$EFFECT_LIST_BULLET$不知所措 流口水 她几乎一无所获地收成 种子塑造的洞穴." # AI Tags
 
-culture_parameter_unlock_maa_seed_thralls: "可以招募[GetMaA('bno_seed_thralls').GetName]作为[men_at_arms|E]，一群只为了臣服并被公牛育种的白皮母狗。"
+culture_parameter_unlock_maa_seed_thralls: "能够征聘 [GetMaA('bno_seed_thralls').GetName] 计为 [men_at_arms|E]白人荡妇只为跪下而战 由公牛养大." # AI Tags
 
-tradition_bno_african_hate_name: "公牛之惧"
-tradition_bno_african_hate_desc: "非非裔文化死守着这苦涩的传统，白皮的骄傲扭曲成憎恨。他们唇齿颤抖地议论公牛，憎恶着无法抗拒的诱惑，厌恶着娼妇们仍渴求的欲望。每条律法，每项习俗，都不过是抵挡黑人阳具洪流的脆弱屏障。"
+tradition_bno_african_hate_name: "害怕公牛" # AI Tags
+tradition_bno_african_hate_desc: "非非洲文化坚持这一苦痛的传统,其微薄的自豪感扭曲为仇恨。. 他们悄悄地用颤抖的嘴唇谈论公牛,他们痛恨那些他们无法抗拒的事物,他们厌恶那些他们的荡妇们仍然渴望的东西。. 每一个法律,每个习俗, 都只是一堵微弱的墙壁 对抗黑鸡的潮流。." # AI Tags

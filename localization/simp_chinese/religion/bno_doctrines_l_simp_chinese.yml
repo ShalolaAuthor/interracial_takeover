@@ -13,8 +13,8 @@ doctrine_bno_tenets_name: "[bno_religion|E]：教条"
 tenet_bno_black_cock_conquest_name: "黑屌征服"
 tenet_bno_black_cock_conquest_desc: "通过狂热的祈祷与神圣的征服，我们将会把[bno_bbc|E]的荣光传遍整个大陆！"
 
-tenet_bno_hate_name: "黑屌憎恶"  
-tenet_bno_hate_desc: "白皮世界的所有教条都在[GetFaithByKey('bbcs').GetName]面前退缩。他们只在我们的崇拜中看见亵渎，只在我们的后裔中看见毁灭，只在我们对他们女性的统治中看见耻辱。于他们而言，我们的福音是堕落，我们的仪式是淫秽，我们的公牛是化作血肉的恶魔。然而他们仍在战栗——因仇恨终难阻挡[bno_bbc|E]的崛起。"
+tenet_bno_hate_name: "仇恨黑鸡"   # AI Tags
+tenet_bno_hate_desc: "苍白世界的每一个教义 都回到了过去 [GetFaithByKey('bbcs').GetName]. . 他们只看到我们崇拜中的亵渎, 只会毁掉我们的种子, 只会看到我们统治她们时的羞耻。. 对他们来说,我们的福音是腐败,我们的仪式淫秽,我们的公牛魔鬼的肉体。. 他们仍然颤抖,他们的仇恨不能阻止他们的兴起。 [bno_bbc|E]." # AI Tags
 
-tenet_bno_aniconism_name: "肉体崇拜"  
-tenet_bno_aniconism_desc: "圣像崇拜蒙蔽了弱者，使他们看不见唯一的神圣真理：活着的[bno_bbc|E]。我们将所有偶像驱逐出圣地，以免虚妄的幻象玷污圣域。唯有血肉之躯神圣，唯有黑屌值得敬奉。"  
+tenet_bno_aniconism_name: "法勒宗教仪式"   # AI Tags
+tenet_bno_aniconism_desc: "雕刻的神像的崇拜使弱者无法了解唯一的神圣真理:活者。 [bno_bbc|E]. . 我们把所有的偶像都赶出我们的圣地,以免任何幻象违背他们的神明。. 只有肉是神圣的 只有黑鸡才值得献身."   # AI Tags
