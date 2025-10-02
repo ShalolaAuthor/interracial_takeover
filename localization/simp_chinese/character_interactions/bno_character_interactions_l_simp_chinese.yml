@@ -18,13 +18,14 @@ bno_cure_disease_interaction.desc.male: "[GetCourtPositionType('bno_bbc_priestes
 bno_cure_disease_interaction.female_recipient.effect: "你将传唤你的[GetCourtPositionType('bno_bbc_priest_court_position').GetName]准备好他那神圣的种子以为仪式做准备。"
 bno_cure_disease_interaction.male_recipient.effect: "你将传唤你的[GetCourtPositionType('bno_bbc_priestess_court_position').GetName]准备好她那神圣的精华以为仪式做准备。"
 
-bno_tincture_of_genesis_interaction: "创世之触"
+bno_tincture_of_genesis_interaction: "创世神药"
 bno_tincture_of_genesis_interaction.desc: "你将转变你妻子[recipient.GetFirstName]的存在" 
 bno_tincture_of_genesis_interaction.not_white: "她是[GetTrait('bno_full_black').GetName( GetNullCharacter )]"
 bno_tincture_of_genesis_interaction.effect: "你将会给你的妻子[recipient.GetFirstName]喂食你强大的精液，转化她的内核"
 
 bno_tincture_of_genesis_interaction.desc.female: "我将要求我的丈夫转化我"
 bno_tincture_of_genesis_interaction.effect.female: "你的丈夫将给你喂食他的精液，作为你唯一的给养。"
+bno_tincture_of_genesis_interaction.effect.courtier.female: "你宫廷内的一名公牛将会淹没你的日常，他的精液将会成为你的给养来源。"
 
 bno_prisoner_interaction: "实行BBC霸权"
 bno_prisoner_interaction_desc: "这个可悲的白人男性曾以为自己能以男子汉之姿挺立。如今身陷枷锁，他那可怜的阳具沦为审判的玩物——要么永远锁在冰冷铁笼中，要么彻底割除，为真正的种马腾出空间。他的命运将成为所有胆敢反抗[bno_bnwo|E]统治者的警示。"

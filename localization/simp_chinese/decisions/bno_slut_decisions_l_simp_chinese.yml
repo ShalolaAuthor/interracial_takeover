@@ -154,32 +154,64 @@ bno_invite_slut_decision.too_little_white_girl: "你的王庭缺少白皮母狗�
 
 bno_becoming_bbc_slut.has_bbc_in_court: "你的王庭里必须至少有一名[bno_bbc|E]才能开始这条道路。没有黑公牛染指你，你陷入奴役的沉沦将无法开始。"
 
-bno_trade_piety_for_gold.title.male: "信道的人,当捕猎,当猎取信道的,"   # AI Tags
-bno_trade_piety_for_gold.title.female: "信道的人,当捕猎,当猎取信道的,"   # AI Tags
+bno_trade_piety_for_gold.title.male: "收割虔信者"  
+bno_trade_piety_for_gold.title.female: "收割虔信者"  
 
-bno_trade_piety_for_gold.desc.male: "身为大师 [GetFaithByKey('bbcs').GetName]公牛和荡妇的献身精神都一样。. 他们崇拜的,绝不仅仅是荒荒和种子,他们把他们的金子投在你们的手中,他们确信每一枚硬币都奉到他们的神圣的首饰。 [bno_bbc|E]."   # AI Tags
+bno_trade_piety_for_gold.desc.male: "作为[GetFaithByKey('bbcs').GetName]大教堂的主人，你同时掌控着公牛与荡妇的虔诚。他们的膜拜不仅限于呻吟与精液——他们将黄金倾注于你掌心，确信每一枚钱币都在侍奉[bno_bbc|E]神圣的肉棒。"  
 
-bno_trade_piety_for_gold.desc.female: "做为黑人的荡妇 [GetFaithByKey('bbcs').GetName]你的虔诚鼓舞了信徒们. 他们热切地掏空钱包,张开大腿,赠送硬币和肉,以推进你们的公牛的神圣事业。."   # AI Tags
+bno_trade_piety_for_gold.desc.female: "作为被[GetFaithByKey('bbcs').GetName]黑屌祝福的母狗，你滴落的虔诚感召着信徒。他们掏空钱袋的热切不亚于张开双腿，将钱币与肉体一并献祭，为公牛的神圣事业添柴加薪。"  
 
-bno_trade_piety_for_gold.tooltip.male: "支出支出支出支出 [piety|E] 命令信士们打十倍,使你们膨胀。 [gold|E]."   # AI Tags
-bno_trade_piety_for_gold.tooltip.female: "支出支出支出支出 [piety|E] 以便他们把你们的羊群,和他们的私欲和金子,引来给你们,以便他们把你们的羊群和他们的私欲和金子,拿来给你们。."   # AI Tags
+bno_trade_piety_for_gold.tooltip.male: "花费[piety|E]来命令虔信者们上交什一税，从而充实你的[gold|E]."  
+bno_trade_piety_for_gold.tooltip.female: "花费[piety|E]来推动人群捐款，他们的欲望与金钱将流向你。"  
 
-bno_trade_piety_for_gold.confirm.male: "以黑鸡之名召唤羊群的黄金。."   # AI Tags
-bno_trade_piety_for_gold.confirm.female: "为了我的公牛荣耀,召唤信徒们的金子。."   # AI Tags
+bno_trade_piety_for_gold.confirm.male: "以黑屌的名义召集金钱。"  
+bno_trade_piety_for_gold.confirm.female: "为了我公牛的荣誉召集虔信者。"  
 
-bno_trade_piety_for_gold.effect: "转换转换 [piety|E] 与 [gold|E] 以信士们的淫秽的供物盟誓,."   # AI Tags
+bno_trade_piety_for_gold.effect: "通过虔信者们充满欲望的付出，将[piety|E]转化为[gold|E]。"  
 
-bno_trade_prestige_for_gold.title.male: "兄弟会的讨价还价"   # AI Tags
-bno_trade_prestige_for_gold.title.female: "兄弟会的讨价还价"   # AI Tags
+bno_trade_prestige_for_gold.title.male: "兄弟会的条件"  
+bno_trade_prestige_for_gold.title.female: "兄弟会的条件"  
 
-bno_trade_prestige_for_gold.desc.male: "你的威望不单是用语言衡量的,而是用肉身衡量的。. 为了证明你对兄弟会的忠诚 你把你妻子出卖给你的亲戚. 牛 彼此 捆绑 、 种子 撒在 深处 、 私欲 耗尽 了 、 就 用 金子 堆在 你 的 脚上 、 以 敬拜."   # AI Tags
+bno_trade_prestige_for_gold.desc.male: "你的威望不仅靠言语衡量，更需以血肉献祭。为向兄弟会证明忠诚，你将妻子献给族人玷污。公牛们轮番骑跨，精液深埋体内，当情欲尽泄，他们便将黄金堆在你脚下作为贡品。"  
 
-bno_trade_prestige_for_gold.desc.female: "你在公牛队的名声 通过你的身体得到了证明. 你脱光衣服,在亲戚面前张开大头, 呻吟,就像每只公牛都利用你一样。. 每一个高潮,他们都把硬币 压在你的手上, 他们的种子滴在你的大腿上 和他们的金子。."   # AI Tags
+bno_trade_prestige_for_gold.desc.female: "你在公牛群中的名声，早已用身体证明。你赤裸着身体，在族人面前张开双腿，任由每头公牛轮番蹂躏，发出阵阵呻吟。每次高潮过后，它们将金币塞进你掌心，精液与黄金一同顺着你的大腿流淌而下。"  
 
-bno_trade_prestige_for_gold.tooltip.male: "支出支出支出支出 [prestige|E] 向公牛提供你妻子的洞洞,赢得 [gold|E] 在她使用后。."   # AI Tags
-bno_trade_prestige_for_gold.tooltip.female: "支出支出支出支出 [prestige|E] 将自己的身体献给公牛 赢得 [gold|E] 使用后。."   # AI Tags
+bno_trade_prestige_for_gold.tooltip.male: "通过将你妻子的小穴交给公牛们来消耗[prestige|E]，在她被使用后获得[gold|E]。"  
+bno_trade_prestige_for_gold.tooltip.female: "通过将你自己的小穴交给公牛们来消耗[prestige|E]，在他们用完你之后获得[gold|E]。"  
 
-bno_trade_prestige_for_gold.confirm.male: "是的,请让我太太为金子为公牛队效力."   # AI Tags
-bno_trade_prestige_for_gold.confirm.female: "是的 我会亲自为金子为公牛效力."   # AI Tags
+bno_trade_prestige_for_gold.confirm.male: "是的——让我的妻子为公牛们服务以换取金钱。"  
+bno_trade_prestige_for_gold.confirm.female: "是的——我会亲自为公牛们服务以换取金钱。"  
 
-bno_trade_prestige_for_gold.effect: "转换转换 [prestige|E] 与 [gold|E] 通过为非洲兄弟会服务的人。."   # AI Tags
+bno_trade_prestige_for_gold.effect: "通过对非裔兄弟会的娼妓服务来将[prestige|E]转化为[gold|E] 。"  
+
+bno_build_bbc_trader_decision.title.male: "建立黑曜石商队"
+bno_build_bbc_trader_decision.desc.male: "作为黑新世界秩序的公牛，你下令清理土地并竖起黑旗，召唤你的兄弟们。黑曜石商队将在此扎根，贩卖创世神药、黑宫魔药、小肉虫的锁笼与母狗的穿孔饰品。你并非投资贸易——而是扩张统治疆域。"
+bno_build_bbc_trader_decision.tooltip.male: "创建一个永久的市场，供公牛们交易种子、圣礼，以及表示所有关系的工具。"
+bno_build_bbc_trader_decision.confirm.male: "宣称土地召唤商队。"
+bno_build_bbc_trader_decision.message.title.male: "你的商队到达了"
+bno_build_bbc_trader_decision.message.desc.male: "马车满载货物与种子隆隆驶来，丝绸帐篷拔地而起，香气袅袅飘散。黑曜石商队已成为你领地的跳动心脏——公牛们聚集，荡妇们窃窃私语，白人男孩们瑟瑟发抖。你的势力正深入这个王国的腹地。"
+
+bno_build_bbc_trader_decision.title.female: "邀请黑曜石商队"
+bno_build_bbc_trader_decision.desc.female: "你用火把与旗帜划出空地，为公牛的马车腾出位置。黑曜石商队即将到来，贩卖将荡妇捆绑在精液中的神药，瓦解白人男孩的魔药，以及封存顺从的每只笼具与穿孔器具。迎接他们，便是将他们的力量引入你的领地——融入你的躯体。"
+bno_build_bbc_trader_decision.tooltip.female: "为黑曜石商队准备一个地点，对公牛的贸易与圣礼开放你的领地。"
+bno_build_bbc_trader_decision.confirm.female: "清理土地，开放道路。"
+bno_build_bbc_trader_decision.message.title.female: "商队到达了。"
+bno_build_bbc_trader_decision.message.desc.female: "黑曜石商队隆隆驶入驻地，丝绸垂挂的马车载满种子。公牛们下车占领领地，娼妓们聚拢窃窃私语着药剂与牢笼，空气中弥漫着香薰、麝香与呻吟。你已感受到变化：商队降临，命运随之而来。"
+
+bno_purchase_goods_decision.title.male: "要求商队货物"
+bno_purchase_goods_decision.desc.male: "T黑曜石商队向你敞开货仓——药剂、魔药、锁笼、烙铁。身为公牛，你以黄金支付，绝不以血肉。所耗之金乃统御之印记，以此夺取工具，加冕荡妇，将肉虫更深地驯服于服从。"
+bno_purchase_goods_decision.tooltip.male: "花费金钱获取神药、魔药以及表示所有关系的工具。"
+bno_purchase_goods_decision.confirm.male: "放下你的钱拿走你的东西。"
+
+bno_purchase_goods_decision.title.female: "从黑曜石商队购物"
+bno_purchase_goods_decision.desc.female: "商队公牛们摊开他们的货物——创世神药、黑宫魔药、铁笼锁、穿孔器具与烙铁。若有黄金，他们便收下；若无，他们便冷笑索要你的身体——小穴被撑开，口腔被堵住，精液顺着大腿滴落，直至代价全数付清。"
+bno_purchase_goods_decision.tooltip.female: "花费黄金，或者如果你的钱包空空也能用性爱作为交换。"
+bno_purchase_goods_decision.confirm.female: "用钱支付，或者必要的话用叫床声支付。"
+
+has_bbc_caravan: "黑曜石商队已抵达并驻扎于你的领地，帐篷里堆满了灵丹妙药与统治工具。"
+
+bno_trader_has_arrived.title.male: "商队已到达"
+bno_trader_has_arrived.desc.male: "黑曜石车队辗过你的领地，黑旗猎猎作响，空气中弥漫着浓郁的熏香。壮汉们下车卸下装满药剂、魔药、锁笼与烙铁的箱子。这支商队奉你之命而来——其货物如今皆成你统御之地的利器。"
+
+bno_trader_has_arrived.title.female: "商队进入了你的领地"
+bno_trader_has_arrived.desc.female: "重型马车吱呀就位，丝绸帐篷在巍峨公牛的注视下拔地而起。货物闪烁着光芒——有羁绊的药剂，有蜕变的魔药，还有刻印的锁链。商队已然抵达，随之而来的还有诱惑、服从，以及空气中弥漫的种子气息。"
