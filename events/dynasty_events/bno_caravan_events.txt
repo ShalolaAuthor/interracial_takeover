@@ -56,10 +56,7 @@ bno_caravan.0001 = {
     }
 
     immediate = {
-        create_bbc = {
-            age = bno_young_adult
-            SCOPE_NAME = shop_keeper
-        }
+        bno_get_caravan_shop_keeper = yes
     }
 
     option = {# enter with gold
