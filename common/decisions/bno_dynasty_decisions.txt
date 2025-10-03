@@ -319,7 +319,7 @@ bno_build_bbc_trader_decision = {
 	ai_will_do = {
         base = 100
         modifier = {
-			add = -100
+			add = -1000000
 			bno_definitively_has_bbc_trader_building = yes
 		}
 	}

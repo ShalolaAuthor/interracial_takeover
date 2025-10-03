@@ -1171,48 +1171,4 @@ bno_apply_elixir.1002 = {
             base = 100
         }
     }
-    option = { # backout
-        name = {
-            text = {
-                first_valid = {
-                    triggered_desc = {
-                        trigger = {
-                            scope:actor = { is_slut = yes }
-                            scope:recipient = { is_bbc = no }
-                        }
-                        desc = bno_apply_elixir.1002.b.slut.whiteboi
-                    }
-                    triggered_desc = {
-                        trigger = {
-                            scope:actor = scope:recipient
-                            scope:actor = { is_bbc = no }
-                        }
-                        desc = bno_apply_elixir.1002.b.self.whiteboi
-                    }
-                    triggered_desc = {
-                        trigger = {
-                            scope:actor = { is_bbc = yes }
-                            scope:recipient = { is_bbc = no }
-                        }
-                        desc = bno_apply_elixir.1002.b.bbc.whiteboi
-                    }
-                    triggered_desc = {
-                        trigger = {
-                            scope:actor = {
-                                is_whiteboi = yes
-                            }
-                            scope:recipient = {
-                                is_whiteboi = yes
-                                NOT = { this = scope:actor }
-                            }
-                        }
-                        desc = bno_apply_elixir.1002.b.whiteboi.whiteboi
-                    }
-                }
-            }
-        }
-        scope:actor = {
-            add_prestige = -50
-        }
-    }
 }
