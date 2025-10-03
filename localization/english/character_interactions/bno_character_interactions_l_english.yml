@@ -40,8 +40,6 @@ bno_prisoner_interaction.not_castrated: "There’s nothing left to cut—this sl
 
 bno_apply_elixir_interaction: "Apply Elixir"
 
-bno_apply_elixir_interaction: "Apply Elixir"
-
 bno_apply_elixir_interaction.desc.female.bbc: "Offer elixir to [recipient.GetFirstName]."
 bno_apply_elixir_interaction.desc.female.whiteboi: "Slip elixir to [recipient.GetFirstName]."
 bno_apply_elixir_interaction.desc.self.whiteboi: "Drink the elixir yourself."

@@ -437,6 +437,7 @@ become_smaller_dick_effect = {
 	}
 	switch = {
 		trigger = has_trait
+		dick_big_good_4 = { decrease_dick_size = yes }
 		dick_big_good_3 = { decrease_dick_size = yes }
 		dick_big_good_2 = { decrease_dick_size = yes }
 		dick_big_good_1 = { 

@@ -17,7 +17,7 @@ bno_genesis_transformation_xp_amount = {
     value = "this.has_trait_xp(bno_genesis_transformation)"
 }
 
-bno_genesis_transformation = {
+bno_genesis_transformation_amount = {
     value = bno_genesis_transformation_xp_amount
     multiply = 4
     divide = 100    
@@ -30,6 +30,6 @@ bno_genesis_transformation_value = {
 			is_body_modification_ok = yes
 			has_trait = bno_genesis_transformation
 		}
-		add = bno_genesis_transformation
+		add = bno_genesis_transformation_amount
 	}
 }

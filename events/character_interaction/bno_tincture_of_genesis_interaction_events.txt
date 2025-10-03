@@ -176,28 +176,28 @@ bno_tincture_of_genesis.1111 = {
             }
             if = {
                 limit = {
-                    bno_genesis_transformation >= 1
+                    bno_genesis_transformation_amount >= 1
                     NOT = { has_character_flag = bno_tincture_of_genesis.2002 }
                 }
                 trigger_event = bno_tincture_of_genesis.2002
             }
             else_if = {
                 limit = {
-                    bno_genesis_transformation >= 2
+                    bno_genesis_transformation_amount >= 2
                     NOT = { has_character_flag = bno_tincture_of_genesis.4002 }
                 }
                 trigger_event = bno_tincture_of_genesis.4002
             }
             else_if = {
                 limit = {
-                    bno_genesis_transformation >= 3
+                    bno_genesis_transformation_amount >= 3
                     NOT = { has_character_flag = bno_tincture_of_genesis.5002 }
                 }
                 trigger_event = bno_tincture_of_genesis.5002
             }
             else_if = {
                 limit = {
-                    bno_genesis_transformation >= 4
+                    bno_genesis_transformation_amount >= 4
                     NOT = { has_character_flag = bno_tincture_of_genesis.6002 }
                 }
                 trigger_event = bno_tincture_of_genesis.6002

@@ -59,7 +59,7 @@ bno_make_up = {
 				template = pink_matte
 				value = {
 					value = 0.1
-					multiply = bno_genesis_transformation
+					multiply = bno_genesis_transformation_amount
 				}
 			}
 			morph = { #eye shadow
@@ -68,7 +68,7 @@ bno_make_up = {
 				template = red_eye_shadow
 				value = {
 					value = 0.25
-					multiply = bno_genesis_transformation
+					multiply = bno_genesis_transformation_amount
 				}
 			}
 			morph = { #eyeliner
@@ -77,7 +77,7 @@ bno_make_up = {
 				template = black_eyeliner
 				value = {
 					value = 0.25
-					multiply = bno_genesis_transformation
+					multiply = bno_genesis_transformation_amount
 				}
 			}
 			morph = { #eyelash_extensions
@@ -86,7 +86,7 @@ bno_make_up = {
 				template = eyelash_extensions
 				value = {
 					value = 0.1
-					multiply = bno_genesis_transformation
+					multiply = bno_genesis_transformation_amount
 				}
 			}
 		}
@@ -239,7 +239,7 @@ bno_bigger_areolas = {
 				add = 6
 				is_body_modification_ok = yes
 				has_trait = bno_genesis_transformation
-				bno_genesis_transformation >= 4
+				bno_genesis_transformation_amount >= 4
 			}
 		}
 	}
@@ -258,7 +258,7 @@ bno_bigger_areolas = {
 				add = 5
 				is_body_modification_ok = yes
 				has_trait = bno_genesis_transformation
-				bno_genesis_transformation >= 3
+				bno_genesis_transformation_amount >= 3
 			}
 		}
 	}
@@ -277,7 +277,7 @@ bno_bigger_areolas = {
 				add = 4
 				is_body_modification_ok = yes
 				has_trait = bno_genesis_transformation
-				bno_genesis_transformation >= 2
+				bno_genesis_transformation_amount >= 2
 			}
 		}
 	}
@@ -296,7 +296,7 @@ bno_bigger_areolas = {
 				add = 3
 				is_body_modification_ok = yes
 				has_trait = bno_genesis_transformation
-				bno_genesis_transformation >= 1
+				bno_genesis_transformation_amount >= 1
 			}
 		}
 	}
@@ -315,7 +315,7 @@ bno_bigger_areolas = {
 				add = 2
 				is_body_modification_ok = yes
 				has_trait = bno_genesis_transformation
-				bno_genesis_transformation >= 0
+				bno_genesis_transformation_amount >= 0
 			}
 		}
 	}
@@ -425,7 +425,7 @@ bno_bigger_butts = {
 				mode = modify gene = gene_bs_butt_size
 				value = {
 					add = {
-						value = bno_genesis_transformation
+						value = bno_genesis_transformation_amount
 						divide = 10
 					}
 				}
@@ -436,7 +436,7 @@ bno_bigger_butts = {
 				gene = gene_bs_hips_size
 				value = {
 					add = {
-						value = bno_genesis_transformation
+						value = bno_genesis_transformation_amount
 						divide = 10
 					}
 				}
@@ -464,7 +464,7 @@ bno_smaller_waist = {
 				gene = gene_bs_waist_size
 				value = {
 					add = {
-						value = bno_genesis_transformation
+						value = bno_genesis_transformation_amount
 						multiply = -1
 						divide = 10
 					}
@@ -475,7 +475,7 @@ bno_smaller_waist = {
 				gene = gene_bs_shoulders_size
 				value = {
 					add = {
-						value = bno_genesis_transformation
+						value = bno_genesis_transformation_amount
 						multiply = -1
 						divide = 10
 					}

@@ -44,12 +44,12 @@ bno_caravan_on_action = {
             set_variable = {
                 name = bno_caravan_open
                 value = yes
-                days = 30
+                days = 60
             }
             set_variable = {
                 name = bno_caravan_cooldown
                 value = yes
-                days = { 30 180 }
+                days = { 60 180 }
             }
         }
         every_province = {
@@ -62,12 +62,12 @@ bno_caravan_on_action = {
             set_variable = {
                 name = bno_caravan_open
                 value = yes
-                days = 30
+                days = 60
             }
             set_variable = {
                 name = bno_caravan_cooldown
                 value = yes
-                days = { 30 90 }
+                days = { 60 90 }
             }
         }
         every_province = {

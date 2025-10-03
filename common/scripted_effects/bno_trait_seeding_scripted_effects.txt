@@ -35,9 +35,10 @@ bno_add_bbc_trait_effect = {
 
 bno_lottery_dick_size = {
     random_list = {
-        1 = { add_trait = dick_big_good_3 }
-        2 = { add_trait = dick_big_good_2 }
-        4 = { add_trait = dick_big_good_3 }
+        1 = { add_trait = dick_big_good_4 }
+        2 = { add_trait = dick_big_good_3 }
+        4 = { add_trait = dick_big_good_2 }
+        8 = { add_trait = dick_big_good_1 }
         8 = { add_trait = dick_small_bad_3 }
         16 = { add_trait = dick_small_bad_2 }
         32 = { add_trait = dick_small_bad_1 }
@@ -72,7 +73,7 @@ bno_make_bbc_trait_inactive = {
             is_a_girl = yes
         }
         make_trait_inactive = bno_bbc
-        make_trait_inactive = dick_big_good_3
+        make_trait_inactive = dick_big_good_4
     }
 }
 
@@ -82,6 +83,7 @@ bno_make_bbc_has_big_dick = {
         remove_trait = dick_big_good_1
         remove_trait = dick_big_good_2
         remove_trait = dick_big_good_3
+        remove_trait = dick_big_good_4
         remove_trait = dick_small_good_1
         remove_trait = dick_small_good_2
         remove_trait = dick_small_good_3
@@ -91,7 +93,7 @@ bno_make_bbc_has_big_dick = {
         remove_trait = dick_small_bad_1
         remove_trait = dick_small_bad_2
         remove_trait = dick_small_bad_3
-        add_trait = dick_big_good_3
+        add_trait = dick_big_good_4
     }
 }
 

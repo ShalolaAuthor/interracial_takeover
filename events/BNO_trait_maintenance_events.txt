@@ -285,6 +285,7 @@ bno_trait_maintenance.0013 = {
 			make_trait_inactive = dick_big_good_1
 			make_trait_inactive = dick_big_good_2
 			make_trait_inactive = dick_big_good_3
+			make_trait_inactive = dick_big_good_4
 			make_trait_inactive = dick_small_bad_1
 			make_trait_inactive = dick_small_bad_2
 			make_trait_inactive = dick_small_bad_3

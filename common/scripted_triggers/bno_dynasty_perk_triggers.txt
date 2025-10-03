@@ -164,3 +164,29 @@ bno_is_barony_valid_for_bbc_trader = {
 		NOT = { has_building_or_higher = bbc_trader_01 }
 	}
 }
+
+bno_actor_valid_for_purchasing_goods_at_caravan = {
+	is_adult = yes
+	OR = {
+		has_bbc_trader = yes
+		liege ?= {
+			has_bbc_trader = yes
+		}
+		top_liege ?= {
+			has_bbc_trader = yes
+		}
+	}
+	is_bno_actor = yes
+}
+
+bno_caravan_has_arrived = {
+	OR = {
+		has_bbc_caravan = yes
+		liege ?= {
+			has_bbc_caravan = yes
+		}
+		top_liege ?= {
+			has_bbc_caravan = yes
+		}
+	}
+}

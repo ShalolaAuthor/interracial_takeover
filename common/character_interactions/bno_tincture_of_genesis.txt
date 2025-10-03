@@ -25,6 +25,7 @@
                 limit = {
                     is_a_male = yes
                     is_bbc = yes
+                    has_trait = bno_seed_of_genesis
                 }
                 is_adult = yes
             }
@@ -59,9 +60,11 @@
                     OR = {
                         any_spouse = {
                             is_bbc = yes
+                            has_trait = bno_seed_of_genesis
                         }
                         any_courtier = {
                             is_bbc = yes
+                            has_trait = bno_seed_of_genesis
                         }
                     }
                 }
@@ -241,8 +244,21 @@
         modifier = {
             add = 1000000
             scope:actor = {
-                is_bbc = yes
-                is_adult = yes
+                OR = {
+                    AND = {
+                        is_bbc = yes
+                        has_trait = bno_seed_of_genesis
+                        is_adult = yes
+                    }
+                    AND = {
+                        is_a_girl = yes
+                        any_spouse = {
+                            is_bbc = yes
+                            has_trait = bno_seed_of_genesis
+                            is_adult = yes
+                        }
+                    }
+                }
             }
         }
     }

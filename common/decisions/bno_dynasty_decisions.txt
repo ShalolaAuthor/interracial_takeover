@@ -374,17 +374,7 @@ bno_purchase_goods_decision = {
 		}
 	}
 	is_shown = {
-		is_adult = yes
-		OR = {
-			has_bbc_trader = yes
-			liege ?= {
-				has_bbc_trader = yes
-			}
-			top_liege ?= {
-				has_bbc_trader = yes
-			}
-		}
-		is_bno_actor = yes
+		bno_actor_valid_for_purchasing_goods_at_caravan = yes
 	}
 	cooldown = {
 		days = 2
@@ -395,15 +385,18 @@ bno_purchase_goods_decision = {
 	is_valid = {
 		custom_tooltip = {
 			text = has_bbc_caravan
-			OR = {
-				has_bbc_caravan = yes
-				liege ?= {
-					has_bbc_caravan = yes
-				}
-				top_liege ?= {
-					has_bbc_caravan = yes
-				}
-			}
+			bno_caravan_has_arrived = yes
+		}
+	}
+	ai_check_interval = 1
+	ai_potential = {
+		bno_caravan_has_arrived = yes
+	}
+	ai_will_do = {
+        base = 0
+        modifier = {
+			add = 1000000
+			bno_caravan_has_arrived = yes
 		}
 	}
 }
