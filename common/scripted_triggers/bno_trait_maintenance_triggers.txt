@@ -1,0 +1,16 @@
+﻿bno_is_adult_bbc_or_whiteboi = {
+    is_adult = yes
+	NOR = {
+        has_trait = bno_castrated
+        has_trait = bno_castrated_futa
+    }
+	OR = {
+		is_bbc = yes
+		is_whiteboi = yes
+	}
+}
+
+bno_is_valid_target_for_tincture_of_genesis = {
+	bno_is_adult_bbc_or_whiteboi = yes
+	NOT = { has_character_flag = bno_apply_elixir_interaction.applied.bno_tincture_of_genesis }
+}

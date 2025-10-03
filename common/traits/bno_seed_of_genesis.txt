@@ -63,6 +63,10 @@ bno_genesis_transformation = {
     name = {
         first_valid = {
             triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_genesis_transformation.name.1
+            }
+            triggered_desc = {
                 trigger = {
                     has_trait_xp = {
                         trait = bno_genesis_transformation
@@ -105,6 +109,10 @@ bno_genesis_transformation = {
     desc = {
         first_valid = {
             triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_genesis_transformation.desc.1
+            }
+            triggered_desc = {
                 trigger = {
                     has_trait_xp = {
                         trait = bno_genesis_transformation
@@ -146,6 +154,10 @@ bno_genesis_transformation = {
 
     icon = {
         first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = "bno_genesis_transformation_1.dds"
+            }
             triggered_desc = {
                 trigger = {
                     has_trait_xp = {

@@ -91,8 +91,11 @@ bno_trait_maintenance_pulse = {
 	trigger = {
 		has_game_rule = bno_mod_status_on
 	}
-	events = {
-		bno_trait_maintenance.0001
+	effect = {
+		trigger_event = bno_trait_maintenance.0001
+		liege ?= {
+			trigger_event = bno_trait_maintenance.0001
+		}
 	}
 }
 

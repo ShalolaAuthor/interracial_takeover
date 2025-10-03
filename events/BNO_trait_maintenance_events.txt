@@ -452,3 +452,106 @@ bno_trait_maintenance.0016 = {
 		}
 	}
 }
+#apply tincture of genesis
+bno_trait_maintenance.0017 = {
+	hidden = yes
+	immediate = {
+		if = {
+			limit = {
+				is_ai = yes
+				any_character_artifact = {
+					has_variable = bno_tincture_of_genesis
+				}
+				OR = {
+					bno_is_valid_target_for_tincture_of_genesis = yes
+					any_courtier = {
+						bno_is_valid_target_for_tincture_of_genesis = yes
+					}
+					liege ?= {
+						any_vassal_or_below = {
+							bno_is_valid_target_for_tincture_of_genesis = yes
+						}
+					}
+					any_spouse = {
+						bno_is_valid_target_for_tincture_of_genesis = yes
+					}
+				}
+			}
+			save_scope_as = actor
+			if = {
+				limit = {
+					bno_is_valid_target_for_tincture_of_genesis = yes
+				}
+				add_to_list = bno_tincture_of_genesis_target
+			}
+			every_courtier = {
+				limit = {
+					bno_is_valid_target_for_tincture_of_genesis = yes
+				}
+				add_to_list  = bno_tincture_of_genesis_target
+			}
+			liege ?= {
+				every_vassal_or_below = {
+					limit = {
+						bno_is_valid_target_for_tincture_of_genesis = yes
+					}
+					add_to_list = bno_tincture_of_genesis_target
+				}
+			}
+			every_spouse = {
+				limit = {
+					bno_is_valid_target_for_tincture_of_genesis = yes
+				}
+				add_to_list = bno_tincture_of_genesis_target
+			}
+			if = {
+				limit = {
+					list_size = {
+						name = bno_tincture_of_genesis_target
+						value > 0
+					}
+				}
+				random_in_list = {
+					list = bno_tincture_of_genesis_target
+					limit = {
+						this = scope:actor
+					}
+					save_scope_as = recipient
+				}
+				if = {
+					limit = {
+						NOT = { exists = scope:recipient }
+					}
+					random_in_list = {
+						list = bno_tincture_of_genesis_target
+						limit = {
+							is_bbc = yes
+						}
+						save_scope_as = recipient
+					}
+				}
+				if = {
+					limit = {
+						NOT = { exists = scope:recipient }
+					}
+					random_in_list = {
+						list = bno_tincture_of_genesis_target
+						limit = {
+							is_whiteboi = yes
+						}
+						save_scope_as = recipient
+					}
+				}
+				if = {
+					limit = { exists = scope:recipient }
+					scope:actor = {
+						trigger_event = bno_apply_elixir.0001
+					}
+					scope:recipient = {
+						add_character_flag = bno_apply_elixir_interaction.applied.bno_tincture_of_genesis
+					}
+				}
+			}
+		}
+	}
+}
