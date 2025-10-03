@@ -88,6 +88,7 @@
                 title = bno_genesis_transformation.transition.4to5.title
                 desc = bno_genesis_transformation.transition.4to5.desc
                 right_icon = scope:bno_genesis_transformation_actor
+                add_character_modifier = bno_ebony_bloom
                 become_bigger_tits_effect = yes
                 become_bigger_ass_effect = yes
                 become_prettier = yes

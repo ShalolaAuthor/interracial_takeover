@@ -1,16 +1,6 @@
-﻿yearly_global_pulse = {
+﻿random_yearly_everyone_pulse = {
 	on_actions = {
-		bno_events_maintenance
-	}
-}
-
-bno_events_maintenance = {
-	effect = {
-		every_living_character = {
-			trigger_event = {
-				on_action = bno_initialize_events_pulse
-			}
-		}
+		bno_initialize_events_pulse
 	}
 }
 

@@ -1,16 +1,12 @@
-﻿yearly_global_pulse  = {
+﻿random_yearly_everyone_pulse  = {
 	on_actions = {
 		bno_immortal_age_maintenance
 	}
 }
 
 bno_immortal_age_maintenance = {
-	effect = {
-		every_living_character = {
-			limit = {
-				is_immortal = yes
-			}
-			trigger_event = bno_immortal_age_maintenance.0001
-		}
+	trigger = {
+		is_immortal = yes
 	}
+	events = { bno_immortal_age_maintenance.0001 }
 }

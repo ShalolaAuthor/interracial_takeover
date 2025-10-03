@@ -31,7 +31,7 @@ bno_is_valid_target_for_cure_disease = {
 	bno_illness_list = yes
 	trigger_if = {
 		limit = { is_bbc = yes }
-		scope:actor = {
+		scope:actor_temp = {
 			any_court_position_holder = {
 				type = bno_bbc_priestess_court_position
 			}
@@ -39,7 +39,7 @@ bno_is_valid_target_for_cure_disease = {
 	}
 	trigger_else = {
 		is_a_girl = yes
-		scope:actor = {
+		scope:actor_temp = {
 			any_court_position_holder = {
 				type = bno_bbc_priest_court_position
 			}
@@ -89,5 +89,21 @@ bno_is_valid_target_for_sneak_bbc = {
 	any_courtier = {
 		bno_adult_bbc_actor_trigger = yes
 		count < 2
+	}
+}
+
+bno_is_valid_bbc_for_tincture_of_genesis = {
+	age >= 18
+	is_bbc = yes
+	has_trait = bno_seed_of_genesis
+}
+
+bno_is_valid_female_target_for_tincture_of_genesis = {
+	bno_is_a_white_girl = yes
+	NOT = {
+		has_trait_xp = {
+			trait = bno_genesis_transformation
+			value >= 100
+		}
 	}
 }

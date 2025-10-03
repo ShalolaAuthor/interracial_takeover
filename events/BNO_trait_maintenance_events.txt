@@ -460,6 +460,7 @@ bno_trait_maintenance.0017 = {
 	immediate = {
 		bno_apply_tincture_of_genesis = yes
 		trigger_event = bno_trait_maintenance.0018
+		bno_clear_all_saved_scope = yes
 	}
 }
 #begin cum addiction scheme
@@ -467,6 +468,7 @@ bno_trait_maintenance.0018 = {
 	hidden = yes
 	immediate = {
 		bno_cum_addiction_trait_maintenance_effect = yes
+		bno_clear_all_saved_scope = yes
 		trigger_event = bno_trait_maintenance.0019
 	}
 }
@@ -475,6 +477,7 @@ bno_trait_maintenance.0019 = {
 	hidden = yes
 	immediate = {
 		bno_cure_disease_trait_maintenance_effect = yes
+		bno_clear_all_saved_scope = yes
 		trigger_event = bno_trait_maintenance.0020
 	}
 }
@@ -483,6 +486,7 @@ bno_trait_maintenance.0020 = {
 	hidden = yes
 	immediate = {
 		bno_influence_child_trait_maintenance_effect = yes
+		bno_clear_all_saved_scope = yes
 		trigger_event = bno_trait_maintenance.0021
 	}
 }
@@ -491,6 +495,7 @@ bno_trait_maintenance.0021 = {
 	hidden = yes
 	immediate = {
 		bno_cage_prisoner_trait_maintenance_effect = yes
+		bno_clear_all_saved_scope = yes
 		trigger_event = bno_trait_maintenance.0022
 	}
 }
@@ -499,6 +504,7 @@ bno_trait_maintenance.0022 = {
 	hidden = yes
 	immediate = {
 		bno_castrate_prisoner_trait_maintenance_effect = yes
+		bno_clear_all_saved_scope = yes
 		trigger_event = bno_trait_maintenance.0023
 	}
 }
@@ -507,6 +513,7 @@ bno_trait_maintenance.0023 = {
 	hidden = yes
 	immediate = {
 		bno_enslave_prisoner_trait_maintenance_effect = yes
+		bno_clear_all_saved_scope = yes
 		trigger_event = bno_trait_maintenance.0024
 	}
 }
@@ -515,5 +522,15 @@ bno_trait_maintenance.0024 = {
 	hidden = yes
 	immediate = {
 		bno_sneak_bbc_trait_maintenance_effect = yes
+		bno_clear_all_saved_scope = yes
+		trigger_event = bno_trait_maintenance.0025
+	}
+}
+#tincture of genesis
+bno_trait_maintenance.0025 = {
+	hidden = yes
+	immediate = {
+		bno_tincture_of_genesis_trait_maintenance_effect = yes
+		bno_clear_all_saved_scope = yes
 	}
 }
