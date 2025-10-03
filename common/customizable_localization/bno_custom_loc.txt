@@ -49,6 +49,12 @@
             has_trait = tits_big_good_3
         }
     }
+    text = {
+        localization_key = slut_boobs_4
+        trigger = {
+            has_trait = tits_big_good_4
+        }
+    }
     #Male
     text = {
         localization_key = male_bbc

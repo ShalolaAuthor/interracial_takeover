@@ -1266,6 +1266,7 @@ bno_bull.0016 = {
 		scope:target1 ?= {
 			add_character_flag = bimbo
 			become_bigger_tits_effect = yes
+			become_bigger_ass_effect = yes
 		}
 	}
 }

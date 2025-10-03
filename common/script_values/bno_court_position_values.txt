@@ -272,6 +272,12 @@ bno_bbc_worshipper_aptitude = {
                 desc = bno_court_position_trait_tits_big_good_3
             }
         }
+        tits_big_good_4 = {
+            multiply = {
+                value = 1.4
+                desc = bno_court_position_trait_tits_big_good_4
+            }
+        }
     }
     switch = {
         trigger = has_trait
@@ -717,6 +723,12 @@ bno_bbc_priestess_aptitude = {
             multiply = {
                 value = 1.3
                 desc = bno_court_position_trait_tits_big_good_3
+            }
+        }
+        tits_big_good_4 = {
+            multiply = {
+                value = 1.4
+                desc = bno_court_position_trait_tits_big_good_4
             }
         }
     }

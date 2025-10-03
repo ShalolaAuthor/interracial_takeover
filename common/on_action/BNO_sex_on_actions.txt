@@ -17,6 +17,7 @@ carn_on_sex_v2 = {
 		bno_cuck_on_sex
 		bno_set_recent_sex_partner
 		bno_on_sex
+		bno_seed_of_genesis_sex
 	}
 }
 
@@ -70,6 +71,47 @@ bno_on_sex = {
 	}
 	on_actions = {
 		bno_court_sex
+	}
+}
+
+bno_seed_of_genesis_sex = {
+	trigger = {
+		OR = {
+			scope:carn_sex_player = {
+				has_trait = bno_seed_of_genesis
+			}
+			scope:carn_sex_partner = {
+				has_trait = bno_seed_of_genesis
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				scope:carn_sex_player = {
+					has_trait = bno_seed_of_genesis
+				}
+				scope:carn_sex_partner = {
+					is_a_girl = yes
+				}
+			}
+			scope:carn_sex_partner = {
+				increase_bno_genesis_transformation = yes
+			}
+		}
+		else_if = {
+			limit = {
+				scope:carn_sex_partner = {
+					has_trait = bno_seed_of_genesis
+				}
+				scope:carn_sex_player = {
+					is_a_girl = yes
+				}
+			}
+			scope:carn_sex_player = {
+				increase_bno_genesis_transformation = yes
+			}
+		}
 	}
 }
 

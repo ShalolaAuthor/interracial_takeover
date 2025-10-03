@@ -124,15 +124,7 @@ bno_tincture_of_genesis.1002 = {
 
     immediate = {
         standing_oral_animations = yes
-        if = {
-            limit = {
-                NOT = { exists = var:bno_becoming_dark }
-            }
-            set_variable = {
-                name = bno_becoming_dark
-                value = 0
-            }
-        }
+        increase_bno_genesis_transformation = yes
         trigger_event = {
             id = bno_tincture_of_genesis.1111
             days = 2
@@ -153,10 +145,7 @@ bno_tincture_of_genesis.1111 = {
 
     trigger = {
         scope:actor = { is_alive = yes }
-        scope:recipient = { 
-            is_alive = yes 
-            is_spouse_of = scope:actor
-        }
+        scope:recipient = { is_alive = yes }
     }
 
     on_trigger_fail = {
@@ -172,12 +161,13 @@ bno_tincture_of_genesis.1111 = {
     immediate = {
         if = {
             limit = {
-                exists = var:bno_becoming_dark
+                has_trait = bno_genesis_transformation
                 has_character_modifier = bno_tincture_of_genesis
             }
-            change_variable = {
-                name = bno_becoming_dark
-                add = 0.006
+            scope:actor = {
+                bno_have_sex_with_effects = {
+                    PARTNER = scope:recipient
+                }
             }
             trigger_event = {
                 id = bno_tincture_of_genesis.1111
@@ -186,28 +176,28 @@ bno_tincture_of_genesis.1111 = {
             }
             if = {
                 limit = {
-                    var:bno_becoming_dark >= 1
+                    bno_genesis_transformation >= 1
                     NOT = { has_character_flag = bno_tincture_of_genesis.2002 }
                 }
                 trigger_event = bno_tincture_of_genesis.2002
             }
             else_if = {
                 limit = {
-                    var:bno_becoming_dark >= 2
+                    bno_genesis_transformation >= 2
                     NOT = { has_character_flag = bno_tincture_of_genesis.4002 }
                 }
                 trigger_event = bno_tincture_of_genesis.4002
             }
             else_if = {
                 limit = {
-                    var:bno_becoming_dark >= 3
+                    bno_genesis_transformation >= 3
                     NOT = { has_character_flag = bno_tincture_of_genesis.5002 }
                 }
                 trigger_event = bno_tincture_of_genesis.5002
             }
             else_if = {
                 limit = {
-                    var:bno_becoming_dark >= 4
+                    bno_genesis_transformation >= 4
                     NOT = { has_character_flag = bno_tincture_of_genesis.6002 }
                 }
                 trigger_event = bno_tincture_of_genesis.6002
@@ -244,9 +234,6 @@ bno_tincture_of_genesis.2002 = {
 
     immediate = {
         add_character_flag = bno_tincture_of_genesis.2002
-        becoming_african = yes
-        become_bigger_tits_effect = yes
-        add_trait = strong
     }
 
     option = {
@@ -398,9 +385,6 @@ bno_tincture_of_genesis.4002 = {
 
     immediate = {
         add_character_flag = bno_tincture_of_genesis.4002
-        becoming_african = yes
-        become_bigger_tits_effect = yes
-        become_stronger = yes
     }
 
     option = {
@@ -484,9 +468,6 @@ bno_tincture_of_genesis.5002 = {
 
     immediate = {
         add_character_flag = bno_tincture_of_genesis.5002
-        becoming_african = yes
-        become_bigger_tits_effect = yes
-        become_stronger = yes
     }
 
     option = {
@@ -572,13 +553,7 @@ bno_tincture_of_genesis.6002 = {
         add_character_flag = bno_tincture_of_genesis.6002
         ### Stop transformation progress
         remove_character_modifier = bno_tincture_of_genesis
-
         add_character_modifier = bno_ebony_bloom
-        becoming_african = yes
-        become_bigger_tits_effect = yes
-        become_prettier = yes
-        add_trait = fecund
-        add_trait = pure_blooded
     }
 
     option = {

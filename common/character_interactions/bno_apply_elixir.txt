@@ -177,6 +177,8 @@
     ai_targets = {
         ai_recipients = spouses
         ai_recipients = courtiers
+        ai_recipients = peer_vassals
+        ai_recipients = vassals
     }
 
     ai_potential = {

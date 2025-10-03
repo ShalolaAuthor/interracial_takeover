@@ -211,12 +211,20 @@
         OR = {
             any_spouse = {
                 is_white_girl = yes
-                NOT = { exists = var:bno_becoming_dark }
+                has_trait_xp = {
+                    trait = bno_genesis_transformation
+                    value >= 100
+                }
             }
             is_mindless_bbc_slut = yes
         }
         OR = {
-            NOT = { has_trait = bno_full_black_slut }
+            NOT = {
+                has_trait_xp = {
+                    trait = bno_genesis_transformation
+                    value >= 100
+                }
+            }
             NOT = { has_character_modifier = bno_nourishers_fatigue }
         }
     }

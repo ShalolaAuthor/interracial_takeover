@@ -408,11 +408,6 @@ bno_bbc = {
 	    bno_barely_mixed = 25
 
 	    bno_pure_white = 150
-
-	    bno_full_black_slut = 100
-	    bno_mostly_black_slut = 75
-	    bno_mixed_slut = 50
-	    bno_barely_mixed_slut = 25
 	}
 
 
@@ -962,7 +957,7 @@ bno_full_black = {
 
 	opposites = {
 		bno_pure_white
-		bno_slut_blood
+		bno_genesis_transformation
 	}
 	
 	general_opinion = -100
@@ -980,10 +975,6 @@ bno_full_black = {
 	    bno_barely_mixed = 25
 
 		bno_pure_white = 100
-
-	    
-	    bno_full_black_slut = 75
-	    bno_mostly_black_slut = 50
 	}
 
 }
@@ -993,7 +984,7 @@ bno_mostly_black = {
 	
 	opposites = {
 		bno_pure_white
-		bno_slut_blood
+		bno_genesis_transformation
 	}
 
 	general_opinion = -100
@@ -1010,10 +1001,6 @@ bno_mostly_black = {
 	    bno_barely_mixed = 25
 
 		bno_pure_white = 100
-	
-	    
-	    bno_full_black_slut = 75
-	    bno_mostly_black_slut = 50
 	}
 }
 
@@ -1022,7 +1009,7 @@ bno_mixed ={
 	
 	opposites = {
 		bno_pure_white
-		bno_slut_blood
+		bno_genesis_transformation
 	}
 
 	general_opinion = -100
@@ -1039,10 +1026,6 @@ bno_mixed ={
 	    bno_barely_mixed = 25
 
 		bno_pure_white = 100
-	
-	    
-	    bno_full_black_slut = 75
-	    bno_mostly_black_slut = 50
 	}
 }
 
@@ -1051,7 +1034,7 @@ bno_barely_mixed = {
 	
 	opposites = {
 		bno_pure_white
-		bno_slut_blood
+		bno_genesis_transformation
 	}
 
 	general_opinion = -100
@@ -1068,109 +1051,6 @@ bno_barely_mixed = {
 	    bno_barely_mixed = 25
 
 		bno_pure_white = 100
-	
-	    
-	    bno_full_black_slut = 75
-	    bno_mostly_black_slut = 50
-	}
-}
-
-bno_full_black_slut = {
-	physical = yes
-	opposites = {
-		bno_blood
-	}
-	opposite_opinion = 100
-	group = bno_slut_blood
-	shown_in_ruler_designer = no
-	level = 4
-	compatibility = {
-	    bno_bbc = 100
-	    bno_bull = 150
-	    bno_full_black_slut = 100
-	    bno_mostly_black_slut = 75
-	    bno_mixed_slut = 50
-	    bno_barely_mixed_slut = 25
-		bno_pure_white = 100
-	    bno_cuck = -25
-	    bno_beta = -25
-	}
-
-}
-
-bno_mostly_black_slut = {
-	physical = yes
-	opposites = {
-		bno_blood
-	}
-	opposite_opinion = 100
-	group = bno_slut_blood
-	shown_in_ruler_designer = no
-	level = 3
-	
-	compatibility = {
-	    bno_bbc = 100
-	    bno_bull = 150
-	    bno_full_black_slut = 100
-	    bno_mostly_black_slut = 75
-	    bno_mixed_slut = 50
-	    bno_barely_mixed_slut = 25
-
-		bno_pure_white = 100
-
-	    
-	    bno_cuck = -25
-	    bno_beta = -25
-	}
-}
-
-bno_mixed_slut ={
-	physical = yes
-	opposites = {
-		bno_blood
-	}
-	opposite_opinion = 100
-	group = bno_slut_blood
-	shown_in_ruler_designer = no
-	level = 2
-	compatibility = {
-	    bno_bbc = 100
-	    bno_bull = 150
-	    bno_full_black_slut = 100
-	    bno_mostly_black_slut = 75
-	    bno_mixed_slut = 50
-	    bno_barely_mixed_slut = 25
-
-		bno_pure_white = 100
-
-	    
-	    bno_cuck = -25
-	    bno_beta = -25
-	}
-}
-
-bno_barely_mixed_slut = {
-	physical = yes
-	opposites = {
-		bno_blood
-	}
-	opposite_opinion = 100
-	group = bno_slut_blood
-	shown_in_ruler_designer = no
-	level = 1
-	compatibility = {
-	    bno_bbc = 100
-	    bno_bull = 150
-	    bno_full_black_slut = 100
-	    bno_mostly_black_slut = 75
-	    bno_mixed_slut = 50
-	    bno_barely_mixed_slut = 25
-
-		bno_pure_white = 100
-
-	    
-	    bno_cuck = -25
-	    bno_beta = -25
 	}
 }
 
@@ -2170,12 +2050,6 @@ bno_bull = {
 	    bno_mostly_black = 100
 	    bno_mixed = 75
 	    bno_barely_mixed = 50
-	    
-
-	    bno_full_black_slut = 150
-	    bno_mostly_black_slut = 100
-	    bno_mixed_slut = 50
-	    bno_barely_mixed_slut = 25
 	}
 
 }

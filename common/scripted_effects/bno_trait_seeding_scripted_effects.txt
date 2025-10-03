@@ -46,12 +46,23 @@ bno_lottery_dick_size = {
 
 bno_lottery_tits_size = {
     random_list = {
-        1 = { add_trait = tits_big_good_3 }
-        2 = { add_trait = tits_big_good_2 }
-        4 = { add_trait = tits_big_good_3 }
+        1 = { add_trait = tits_big_good_4 }
+        2 = { add_trait = tits_big_good_3 }
+        4 = { add_trait = tits_big_good_2 }
+        8 = { add_trait = tits_big_good_1 }
         8 = { add_trait = tits_small_bad_3 }
         16 = { add_trait = tits_small_bad_2 }
         32 = { add_trait = tits_small_bad_1 }
+    }
+}
+
+bno_lottery_ass_size = {
+    random_list = {
+        1 = { add_trait = ass_big_good_4 }
+        2 = { add_trait = ass_big_good_3 }
+        4 = { add_trait = ass_big_good_2 }
+        8 = { add_trait = ass_big_good_1 }
+        8 = { add_trait = ass_small_bad_1 }
     }
 }
 
@@ -135,6 +146,13 @@ bno_set_breast_size_5 = {
     }
 }
 
+bno_set_breast_size_6 = {
+    set_variable = {
+        name = bno_breast_size
+        value = 6
+    }
+}
+
 # add base breast value to character that has breast trait
 bno_seed_breast_size_variable = {
     if = {
@@ -157,6 +175,7 @@ bno_seed_breast_size_variable = {
             tits_big_good_2 = { bno_set_breast_size_4 = yes }
             tits_big_bad_3 = { bno_set_breast_size_5 = yes }
             tits_big_good_3 = { bno_set_breast_size_5 = yes }
+            tits_big_good_4 = { bno_set_breast_size_6 = yes }
         }
     }
 }
@@ -177,6 +196,7 @@ bno_seed_body_trait = {
                 NOT = { exists = mother }
 			}
 			bno_lottery_tits_size = yes
+            bno_lottery_ass_size = yes
 		}
         else_if = {
             limit = {

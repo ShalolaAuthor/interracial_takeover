@@ -498,6 +498,7 @@ has_desirable_looks_or_breast = {
 		has_trait = tits_big_good_1
 		has_trait = tits_big_good_2
 		has_trait = tits_big_good_3
+		has_trait = tits_big_good_4
 		has_trait = tits_small_good_1
 		has_trait = tits_small_good_2
 		has_trait = tits_small_good_3
