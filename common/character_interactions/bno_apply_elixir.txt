@@ -140,9 +140,9 @@
                 }
                 scope:recipient = {
                     is_a_male = yes
-                    OR = {
-                        NOT = { has_trait = bno_castrated }
-                        NOT = { has_trait = bno_castrated_futa }
+                    NOR = {
+                        has_trait = bno_castrated
+                        has_trait = bno_castrated_futa
                     }
                 }
             }
