@@ -900,7 +900,6 @@ create_character_slut = {
 		location = scope:creator.capital_province
 		age = $age$
 		dynasty = scope:european.dynasty
-		dynasty_house = scope:european.house
 		random_traits = yes
 		faith = scope:european.faith
 		culture = scope:european.culture
@@ -955,7 +954,6 @@ create_character_blacked_slut = {
 			caucasian_northern_dark_hair = {}
 		}
 		dynasty = scope:european.dynasty
-		dynasty_house = scope:european.house
 		culture = scope:european.culture
 		faith = scope:european.faith
 		location = $LOCATION$
@@ -1509,6 +1507,10 @@ fuck_random_local_bbc = {
 				bno_prostitution_effect = yes
 			}
 		}
+	}
+	every_in_list = {
+		list = local_bbc_list
+		remove_from_list = this
 	}
 }
 

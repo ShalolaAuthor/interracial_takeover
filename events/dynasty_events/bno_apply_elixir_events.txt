@@ -660,6 +660,9 @@ bno_apply_elixir.2001 = {
         character = scope:carn_sex_player
         animation = sex_combined
     }
+    trigger = {
+        exists = scope:slut
+    }
     immediate = {
         random_courtier_or_guest = {
             limit = {

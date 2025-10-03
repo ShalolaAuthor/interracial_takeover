@@ -2,13 +2,13 @@
     switch = {
         trigger = has_game_rule
         bno_xp_gain_low = {
-            value = 1
+            value = 0.5
         }
         bno_xp_gain_med = {
-            value = 2
+            value = 1
         }
         bno_xp_gain_high = {
-            value = 3
+            value = 1.5
         }
     }
 }
