@@ -21,9 +21,12 @@ is_bno_actor = {
 }
 
 is_a_male = {
-	OR = {
-		is_male = yes
-		is_a_futa = yes
+	custom_tooltip = {
+		text = is_a_male
+		OR = {
+			is_male = yes
+			is_a_futa = yes
+		}
 	}
 }
 
@@ -298,7 +301,6 @@ is_a_futa = {
 
 is_a_girl = {
 	is_female = yes
-	is_a_futa = yes
 	is_bbc = no
 }
 

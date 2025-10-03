@@ -19,6 +19,8 @@ male_dick_1: "Pathetic Penis"
 male_dick_2: "Micro Penis"
 male_dick_3: "Limp Penis"
 
+is_a_male: "Characters with male genitals, including Bulls, futas, and men."
+
 bno_disease_type.lovers_pox: "[GetTrait('lovers_pox').GetName( GetNullCharacter )]"
 bno_disease_type.ill: "[GetTrait('ill').GetName( GetNullCharacter )]"
 bno_disease_type.pneumonic: "[GetTrait('pneumonic').GetName( GetNullCharacter )]"

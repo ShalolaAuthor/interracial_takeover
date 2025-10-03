@@ -83,3 +83,27 @@ texticon = {
 		fontsize = 15
 	}
 }
+
+texticon = {
+	icon = bno_tincture_of_genesis_icon
+	iconsize = {
+		texture = "gfx/interface/icons/artifact/bno_tincture_of_genesis.dds"
+		size = { 40 40 }
+		framesize = { 240 240 }
+		frame = 1
+		offset = { 0 14 }
+		fontsize = 15
+	}
+}
+
+texticon = {
+	icon = bno_elixir_of_the_black_womb_icon
+	iconsize = {
+		texture = "gfx/interface/icons/artifact/bno_elixir_of_the_black_womb.dds"
+		size = { 40 40 }
+		framesize = { 240 240 }
+		frame = 1
+		offset = { 0 14 }
+		fontsize = 15
+	}
+}

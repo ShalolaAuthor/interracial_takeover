@@ -361,6 +361,13 @@ bno_castrated_effect = {
 		}
 		bno_make_futa_inactive = yes
 	}
+	random_character_artifact = {
+		limit = {
+			has_variable = bno_chastity_cage
+		}
+		save_scope_as = bno_chastity
+	}
+	destroy_artifact = scope:bno_chastity
 	add_prestige = -500
 }
 

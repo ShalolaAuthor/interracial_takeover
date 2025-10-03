@@ -33,8 +33,19 @@
             triggered_desc = {
                 trigger = {
                     scope:actor = scope:recipient
+                    scope:actor = { is_bbc = yes }
                 }
-                desc = bno_apply_elixir_interaction.desc.self
+                desc = bno_apply_elixir_interaction.desc.self.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = scope:recipient
+                    scope:actor = {
+                        is_a_male = yes
+                        is_bbc = no
+                    }
+                }
+                desc = bno_apply_elixir_interaction.desc.self.whiteboi
             }
             triggered_desc = {
                 trigger = {
@@ -60,6 +71,30 @@
                     }
                 }
                 desc = bno_apply_elixir_interaction.desc.bbc.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = {
+                        is_whiteboi = yes
+                    }
+                    scope:recipient = {
+                        is_bbc = yes
+                        NOT = { this = scope:actor }
+                    }
+                }
+                desc = bno_apply_elixir_interaction.desc.whiteboi.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = {
+                        is_whiteboi = yes
+                    }
+                    scope:recipient = {
+                        is_whiteboi = yes
+                        NOT = { this = scope:actor }
+                    }
+                }
+                desc = bno_apply_elixir_interaction.desc.whiteboi.whiteboi
             }
         }
     }
@@ -116,6 +151,7 @@
                 }
             }
             scope:recipient = {
+                is_bbc = no
                 is_a_male = yes
             }
         }

@@ -37,3 +37,19 @@ bno_prisoner_interaction.slaving: "@bno_slave_icon! Strip her Dignity — Turn h
 bno_prisoner_interaction.has_bbc_in_court: "A white slut holds no true power—she is only meant to breed. To cage, castrate, or enslave another, she must have at least one BBC in her court to act as the hand of dominance and carry out the deed."  
 bno_prisoner_interaction.not_caged: "That useless white cock is already locked in iron, denied forever."
 bno_prisoner_interaction.not_castrated: "There’s nothing left to cut—this slut has already been stripped of manhood."  
+
+bno_apply_elixir_interaction: "Apply Elixir"
+
+bno_apply_elixir_interaction: "Apply Elixir"
+
+bno_apply_elixir_interaction.desc.female.bbc: "Offer elixir to [recipient.GetFirstName]."
+bno_apply_elixir_interaction.desc.female.whiteboi: "Slip elixir to [recipient.GetFirstName]."
+bno_apply_elixir_interaction.desc.self.whiteboi: "Drink the elixir yourself."
+bno_apply_elixir_interaction.desc.self.bbc: "Ingest the elixir yourself."
+bno_apply_elixir_interaction.desc.bbc.whiteboi: "Force elixir on [recipient.GetFirstName]."
+bno_apply_elixir_interaction.desc.bbc.bbc: "Share elixir with [recipient.GetFirstName]."
+bno_apply_elixir_interaction.desc.whiteboi.bbc: "Present elixir to [recipient.GetFirstName]."
+bno_apply_elixir_interaction.desc.whiteboi.whiteboi: "Pass elixir to [recipient.GetFirstName]."
+
+bno_apply_elixir_interaction_bno_tincture_of_genesis: "@bno_tincture_of_genesis_icon! Apply the Tincture of Genesis"
+bno_apply_elixir_interaction_bno_elixir_of_the_black_womb: "@bno_elixir_of_the_black_womb_icon! Apply the Elixir of the Black Womb"
