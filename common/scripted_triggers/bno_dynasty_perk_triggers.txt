@@ -179,6 +179,28 @@ bno_actor_valid_for_purchasing_goods_at_caravan = {
 	is_bno_actor = yes
 }
 
+bno_has_bbc_trader_building = {
+	any_held_county = {
+		any_in_de_jure_hierarchy = {
+			title_province = {
+				has_building_or_higher = bbc_trader_01
+			}
+		}
+	}
+}
+
+bno_definitively_has_bbc_trader_building = {
+	OR = {
+		bno_has_bbc_trader_building = yes
+		liege ?= {
+			bno_has_bbc_trader_building = yes
+		}
+		top_liege ?= {
+			bno_has_bbc_trader_building = yes
+		}
+	}
+}
+
 bno_caravan_has_arrived = {
 	OR = {
 		has_bbc_caravan = yes

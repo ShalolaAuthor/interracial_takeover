@@ -319,14 +319,8 @@ bno_build_bbc_trader_decision = {
 	ai_will_do = {
         base = 100
         modifier = {
-			add = -50
-			any_held_county = {
-				any_in_de_jure_hierarchy = {
-					title_province = {
-						has_building_or_higher = bbc_trader_01
-					}
-				}
-			}
+			add = -100
+			bno_definitively_has_bbc_trader_building = yes
 		}
 	}
 }

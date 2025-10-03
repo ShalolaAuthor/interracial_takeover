@@ -171,13 +171,29 @@
         if = {
             limit = { scope:bno_apply_elixir_interaction_bno_tincture_of_genesis = yes }
             scope:actor = {
-                trigger_event = bno_apply_elixir.0001
+                custom_tooltip = {
+                    text = bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.actor.tooltip
+                    trigger_event = bno_apply_elixir.0001
+                }
+            }
+            scope:recipient = {
+                custom_tooltip = {
+                    text = bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.recipient.tooltip
+                }
             }
         }
         else_if = {
             limit = { scope:bno_apply_elixir_interaction_bno_elixir_of_the_black_womb = yes }
             scope:actor = {
-                trigger_event = bno_apply_elixir.0002
+                custom_tooltip = {
+                    text = bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.actor.tooltip
+                    trigger_event = bno_apply_elixir.0002
+                }
+            }
+            scope:recipient = {
+                custom_tooltip = {
+                    text = bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.recipient.tooltip
+                }
             }
         }
     }
