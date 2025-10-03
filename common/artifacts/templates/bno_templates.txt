@@ -1,6 +1,7 @@
 ﻿bno_chastity_cage_template = {
     can_equip = {
         is_a_male = yes
+        is_bbc = no
         NOR = {
             has_trait = bno_castrated
             has_trait = bno_castrated_futa

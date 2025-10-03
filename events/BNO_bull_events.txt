@@ -526,6 +526,7 @@ bno_bull.0006 = {
 		is_ruler = yes
 		is_blackbull = yes
 		does_hated_non_black_courtier_exist = yes
+		has_chastity_cage_artifact = yes
 	}
 	immediate = {
 		save_scope_as = cager

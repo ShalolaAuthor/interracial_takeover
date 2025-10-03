@@ -37,6 +37,23 @@ on_birth_child = {
 	on_actions = { bno_trait_maintenance_pulse }
 }
 
+on_imprison = {
+	on_actions = { bno_on_imprison }
+}
+
+bno_on_imprison = {
+	effect = {
+		scope:imprisoner = {
+			trigger_event = {
+				on_action = bno_trait_maintenance_pulse
+			}
+		}
+		trigger_event = {
+			on_action = bno_trait_maintenance_pulse
+		}
+	}
+}
+
 bno_trait_initialization_pulse = {
 	trigger = {
 		has_game_rule = bno_seeding_yes

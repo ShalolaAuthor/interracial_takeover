@@ -1,0 +1,167 @@
+﻿bno_influence_child_modifiers = {
+    opinion_modifier = { # Opinion Factor
+		who = scope:recipient
+		opinion_target = scope:actor
+		multiplier = 0.5
+		desc = AI_OPINION_REASON
+	}
+	
+	modifier = { #more likely if you already have something in common
+		add = {
+			value = 5
+			if = {
+				limit = {
+					number_of_personality_traits_in_common = {
+						target = scope:recipient
+						value = 2
+					}
+				}
+				multiply = 2
+			}
+			else_if = {
+				limit = {
+					number_of_personality_traits_in_common = {
+						target = scope:recipient
+						value = 3
+					}
+				}
+				multiply = 3
+			}
+		}
+		number_of_personality_traits_in_common = {
+			target = scope:recipient
+			value >= 1
+		}
+		desc = we_are_alike_tt
+	}
+	
+	modifier = { #less likely if you already have opposite traits
+		add = {
+			value = -5
+			if = {
+				limit = {
+					scope:recipient = {
+						number_of_opposing_personality_traits = {
+							target = scope:actor
+							value = 2
+						}
+					}
+				}
+				multiply = 2
+			}
+			else_if = {
+				limit = {
+					scope:recipient = {
+						number_of_opposing_personality_traits = {
+							target = scope:actor
+							value = 3
+						}
+					}
+				}
+				multiply = 3
+			}
+		}
+		scope:recipient = {
+			number_of_opposing_personality_traits = {
+				target = scope:actor
+				value >= 1
+			}
+		}
+		desc = we_are_NOT_alike_tt
+	}
+	
+	modifier = { #adding your knowledge
+		add = {
+			value = scope:actor.learning
+			multiply = 0.5
+		}
+		desc = HAS_LEARNING_SKILL_REASON
+	}
+	
+	modifier = { #adding your oratory skills
+		add = {
+			value = scope:actor.diplomacy
+			multiply = 0.5
+		}
+		desc = HAS_DIPLOMACY_SKILL_REASON
+	}
+	
+	modifier = { #more likely if actor is afraid of you
+		add = intimidated_halved_reason_value
+		scope:recipient = {
+			target_is_liege_or_above = scope:actor
+			has_dread_level_towards = {
+				target = scope:actor
+				level = 1
+			}
+		}
+		desc = INTIMIDATED_REASON
+	}
+	modifier = { #more likely if actor is afraid of you
+		add = cowed_halved_reason_value
+		scope:recipient = {
+			target_is_liege_or_above = scope:actor
+			has_dread_level_towards = {
+				target = scope:actor
+				level = 2
+			}
+		}
+		desc = COWED_REASON
+	}
+}
+
+bno_sneak_bbc_modifiers = {
+	modifier = {
+		add = -30
+		always = yes
+	}
+	opinion_modifier = { # Opinion Factor
+		who = scope:recipient
+		opinion_target = scope:actor
+		multiplier = 1.0
+		desc = AI_OPINION_REASON
+	}
+	modifier = {
+		add = 5
+		desc = BBC_cg_spy_reason
+		scope:recipient = {
+			any_courtier_or_guest = {
+				has_trait = bno_whitegirl
+			}
+		}
+	}
+	
+	modifier = {
+		add = 10
+		desc = BBC_family_spy_reason
+		scope:recipient = {
+			any_close_family_member = {
+				is_slut = yes
+			}
+		}
+	}
+	
+	modifier = {
+		add = 10
+		desc = BBC_curious_reason
+		scope:recipient = {
+			is_bno_curious = yes
+		}
+	}
+	
+	modifier = {
+		add = 25
+		desc = BBC_fucked_reason
+		scope:recipient = {
+			is_bno_snowbunny_and_up = yes
+		}
+	}
+	
+	modifier = {
+		add = 50
+		desc = BBC_slut_reason
+		scope:recipient = {
+			is_bno_mindless_bbc_slut = yes
+		}
+	}
+}

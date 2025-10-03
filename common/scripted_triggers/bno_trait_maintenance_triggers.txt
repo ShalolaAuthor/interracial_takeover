@@ -14,3 +14,80 @@ bno_is_valid_target_for_tincture_of_genesis = {
 	bno_is_adult_bbc_or_whiteboi = yes
 	NOT = { has_character_flag = bno_apply_elixir_interaction.applied.bno_tincture_of_genesis }
 }
+
+bno_is_valid_target_for_cum_addiction_scheme = {
+	bno_is_a_white_girl = yes
+	NOT = { has_trait = bno_cum_addiction_4 }
+}
+
+bno_is_a_white_girl = {
+	is_adult = yes
+	is_a_girl = yes
+	is_african = no
+}
+
+bno_is_valid_target_for_cure_disease = {
+	is_at_war = no
+	bno_illness_list = yes
+	trigger_if = {
+		limit = { is_bbc = yes }
+		scope:actor = {
+			any_court_position_holder = {
+				type = bno_bbc_priestess_court_position
+			}
+		}
+	}
+	trigger_else = {
+		is_a_girl = yes
+		scope:actor = {
+			any_court_position_holder = {
+				type = bno_bbc_priest_court_position
+			}
+		}
+	}
+}
+
+bno_is_valid_target_for_influence_child = {
+	NOT = { has_character_flag = bno_influence_child_cooldown }
+	is_adult = no
+	is_a_girl = yes
+	is_slut = no
+}
+
+bno_is_valid_target_for_caging_prisoner = {
+	is_a_male = yes
+	is_adult = yes
+	is_bbc = no
+	NOR = {
+		has_trait = bno_castrated
+		has_trait = bno_castrated_futa
+		has_trait = bno_slave
+		has_trait = bno_caged
+		has_trait = bno_caged_futa
+	}
+}
+
+has_chastity_cage_artifact = {
+	any_character_artifact = {
+		has_variable = bno_chastity_cage
+	}
+}
+
+bno_is_valid_target_for_castrating_prisoner = {
+	is_a_male = yes
+	is_adult = yes
+	is_bbc = no
+	NOR = {
+		has_trait = bno_castrated
+		has_trait = bno_castrated_futa
+		has_trait = bno_slave
+	}
+}
+
+bno_is_valid_target_for_sneak_bbc = {
+	NOT = { has_character_flag = bno_sneak_bbc_cooldown }
+	any_courtier = {
+		bno_adult_bbc_actor_trigger = yes
+		count < 2
+	}
+}

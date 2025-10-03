@@ -371,6 +371,7 @@ bno_remove_lustful_and_fecund = {
 }
 
 bno_caged_effect = {
+	save_scope_as = bno_caged_actor
 	bno_remove_lustful_and_fecund = yes
 	if = {
 		limit = { is_male = yes }
@@ -400,8 +401,14 @@ bno_caged_effect = {
 				}
 			}
 		}
-		bno_create_artifact_bno_chastity_cage_effect = {
-			CAGER = $CAGER$
+		$CAGER$ = {
+			random_character_artifact = {
+				limit = {
+					has_variable = bno_chastity_cage
+				}
+				set_owner = scope:bno_caged_actor
+				equip_artifact_to_owner = yes
+			}
 		}
 	}
 	add_prestige = -250

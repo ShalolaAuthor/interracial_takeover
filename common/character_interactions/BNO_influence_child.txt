@@ -25,211 +25,24 @@
 		}
 		
 		scope:actor = {
-			OR = {
-				has_trait = bno_whitegirl
-				has_trait = bno_bbc
-				has_trait = bno_whiteboi
-			}
+			is_bno_actor = yes
 		}
 	}
 	
 	cooldown_against_recipient = { years = 2 }
 	
 	on_accept = {
-		scope:recipient = {
-			bno_increase_sluttyness = yes
-			add_opinion = {
-				target = scope:actor
-				modifier = admiration_opinion
-				opinion = 20
-			}
-		}
-		scope:actor = {
-			trigger_event = bno_character_interaction.0001
-			add_prestige = minor_prestige_loss
-			add_stress = minor_stress_gain
-			add_opinion = {
-				target = scope:recipient
-				modifier = pleased_opinion
-				opinion = 20
-			}
-		}
+		bno_influence_child_success = yes
 	}
 	
 	on_decline = {
-		scope:recipient = {
-			show_as_tooltip = {
-				add_opinion = {
-					target = scope:actor
-					modifier = confused_opinion
-					opinion = -20
-				}
-			}
-		}
-		scope:actor = {
-			trigger_event = bno_character_interaction.0002
-			show_as_tooltip = {
-				add_prestige = minor_prestige_loss
-				add_stress = medium_stress_gain
-				add_opinion = {
-					target = scope:recipient
-					modifier = disappointed_opinion
-					opinion = -20
-				}
-			}
-		}
+		bno_influence_child_failure = yes
 	}
 	
 	auto_accept = no
 	
 	ai_accept = {
 		base = 0 # Try to make it 0 for most interactions
-		opinion_modifier = { # Opinion Factor
-			who = scope:recipient
-			opinion_target = scope:actor
-			multiplier = 0.5
-			desc = AI_OPINION_REASON
-		}
-		
-		modifier = { #more likely if you already have something in common
-			add = {
-				value = 5
-				if = {
-					limit = {
-						number_of_personality_traits_in_common = {
-							target = scope:recipient
-							value = 2
-						}
-					}
-					multiply = 2
-				}
-				else_if = {
-					limit = {
-						number_of_personality_traits_in_common = {
-							target = scope:recipient
-							value = 3
-						}
-					}
-					multiply = 3
-				}
-			}
-			number_of_personality_traits_in_common = {
-				target = scope:recipient
-				value >= 1
-			}
-			desc = we_are_alike_tt
-		}
-		
-		modifier = { #less likely if you already have opposite traits
-			add = {
-				value = -5
-				if = {
-					limit = {
-						scope:recipient = {
-							number_of_opposing_personality_traits = {
-								target = scope:actor
-								value = 2
-							}
-						}
-					}
-					multiply = 2
-				}
-				else_if = {
-					limit = {
-						scope:recipient = {
-							number_of_opposing_personality_traits = {
-								target = scope:actor
-								value = 3
-							}
-						}
-					}
-					multiply = 3
-				}
-			}
-			scope:recipient = {
-				number_of_opposing_personality_traits = {
-					target = scope:actor
-					value >= 1
-				}
-			}
-			desc = we_are_NOT_alike_tt
-		}
-		
-		modifier = { #adding your knowledge
-			add = {
-				value = scope:actor.learning
-				multiply = 0.5
-			}
-			desc = HAS_LEARNING_SKILL_REASON
-		}
-		
-		modifier = { #adding your oratory skills
-			add = {
-				value = scope:actor.diplomacy
-				multiply = 0.5
-			}
-			desc = HAS_DIPLOMACY_SKILL_REASON
-		}
-		
-		modifier = { #more likely if actor is afraid of you
-			add = intimidated_halved_reason_value
-			scope:recipient = {
-				target_is_liege_or_above = scope:actor
-				has_dread_level_towards = {
-					target = scope:actor
-					level = 1
-				}
-			}
-			desc = INTIMIDATED_REASON
-		}
-		modifier = { #more likely if actor is afraid of you
-			add = cowed_halved_reason_value
-			scope:recipient = {
-				target_is_liege_or_above = scope:actor
-				has_dread_level_towards = {
-					target = scope:actor
-					level = 2
-				}
-			}
-			desc = COWED_REASON
-		}
+		bno_influence_child_modifiers = yes
 	}
-	
-	# AI
-	ai_potential = {
-		any_relation = {
-			type = ward
-			count >= 1
-		}
-	}
-	ai_frequency = 12
-	ai_targets = {
-		ai_recipients = courtiers
-	}
-	ai_will_do = {
-		base = -50
-		modifier = { # If the recipient is a player, do not bother sending
-			factor = 0
-			scope:recipient = {
-				is_ai = no
-			}
-		}
-		modifier = {
-			add = 50
-			ai_honor > 0
-		}
-		modifier = {
-			add = 50
-			ai_compassion > 0
-		}
-		modifier = {
-			add = 50
-			ai_sociability > 0
-		}
-		modifier = {
-			add = 50
-			ai_boldness > 0
-		}
-	}
-	
 }

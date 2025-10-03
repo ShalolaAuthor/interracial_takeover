@@ -661,14 +661,14 @@ bno_apply_elixir.2001 = {
         animation = sex_combined
     }
     trigger = {
-        exists = scope:slut
+        any_courtier_or_guest = {
+            bno_is_a_white_girl = yes
+        }
     }
     immediate = {
         random_courtier_or_guest = {
             limit = {
-                is_a_girl = yes
-                is_adult = yes
-                is_african = no
+                bno_is_a_white_girl = yes
             }
             save_scope_as = slut
         }

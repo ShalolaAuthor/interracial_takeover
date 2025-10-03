@@ -1,0 +1,7 @@
+﻿bno_cure_disease_interaction_cost = {
+    value = {
+        add = scope:actor.medium_gold_value
+        multiply = scope:recipient.health
+        multiply = 0.5
+    }
+}

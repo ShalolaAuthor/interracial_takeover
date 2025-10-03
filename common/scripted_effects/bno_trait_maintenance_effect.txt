@@ -1,0 +1,610 @@
+﻿bno_apply_tincture_of_genesis = {
+    if = {
+		limit = {
+			is_ai = yes
+			any_character_artifact = {
+				has_variable = bno_tincture_of_genesis
+			}
+			OR = {
+				bno_is_valid_target_for_tincture_of_genesis = yes
+				any_courtier = {
+					bno_is_valid_target_for_tincture_of_genesis = yes
+				}
+				liege ?= {
+					any_vassal_or_below = {
+						bno_is_valid_target_for_tincture_of_genesis = yes
+					}
+				}
+				any_spouse = {
+					bno_is_valid_target_for_tincture_of_genesis = yes
+				}
+			}
+		}
+		save_scope_as = actor
+		if = {
+			limit = {
+				bno_is_valid_target_for_tincture_of_genesis = yes
+			}
+			add_to_list = bno_tincture_of_genesis_target
+		}
+		every_courtier = {
+			limit = {
+				bno_is_valid_target_for_tincture_of_genesis = yes
+			}
+			add_to_list  = bno_tincture_of_genesis_target
+		}
+		liege ?= {
+			every_vassal_or_below = {
+				limit = {
+					bno_is_valid_target_for_tincture_of_genesis = yes
+				}
+				add_to_list = bno_tincture_of_genesis_target
+			}
+		}
+		every_spouse = {
+			limit = {
+				bno_is_valid_target_for_tincture_of_genesis = yes
+			}
+			add_to_list = bno_tincture_of_genesis_target
+		}
+		if = {
+			limit = {
+				list_size = {
+					name = bno_tincture_of_genesis_target
+					value > 0
+				}
+			}
+			random_in_list = {
+				list = bno_tincture_of_genesis_target
+				limit = {
+					this = scope:actor
+				}
+				save_scope_as = recipient
+			}
+			if = {
+				limit = {
+					NOT = { exists = scope:recipient }
+				}
+				random_in_list = {
+					list = bno_tincture_of_genesis_target
+					limit = {
+						is_bbc = yes
+					}
+					save_scope_as = recipient
+				}
+			}
+			if = {
+				limit = {
+					NOT = { exists = scope:recipient }
+				}
+				random_in_list = {
+					list = bno_tincture_of_genesis_target
+					limit = {
+						is_whiteboi = yes
+					}
+					save_scope_as = recipient
+				}
+			}
+			if = {
+				limit = { exists = scope:recipient }
+				scope:actor = {
+					trigger_event = bno_apply_elixir.0001
+				}
+				scope:recipient = {
+					add_character_flag = bno_apply_elixir_interaction.applied.bno_tincture_of_genesis
+				}
+			}
+		}
+	}
+}
+
+bno_start_cum_addiction_scheme = {
+    send_interface_toast = {
+		type = bno_blacked_events
+		title = bno_bbc_cum_addiction_interaction.title
+		desc = bno_bbc_cum_addiction_interaction.tooltip
+		left_icon = scope:actor
+		right_icon = scope:recipient
+		start_scheme = {
+			type = bno_bbc_cum_addiction
+			target_character = scope:recipient
+		}
+		seduce_interaction_stress_effect = yes
+	}
+}
+
+bno_cum_addiction_trait_maintenance_effect = {
+    if = {
+		limit = {
+			is_ai = yes
+			is_adult = yes
+			is_bbc = yes
+			is_married = yes
+			any_spouse = {
+				bno_is_valid_target_for_cum_addiction_scheme = yes
+				save_temporary_scope_as = potential_target_cum_addiction_target
+			}
+			can_start_scheme = {
+				type = bno_bbc_cum_addiction
+				target_character = scope:potential_target_cum_addiction_target
+			}
+			any_scheme = {
+				scheme_type = bno_bbc_cum_addiction
+				count < 1
+			}
+		}
+		save_scope_as = actor
+		random_spouse = {
+			limit = {
+				bno_is_valid_target_for_cum_addiction_scheme = yes
+			}
+			save_scope_as = recipient
+		}
+		scope:actor = {
+			bno_start_cum_addiction_scheme = yes
+		}
+	}
+}
+
+bno_cure_disease_trait_maintenance_effect = {
+	if = {
+		limit = {
+			save_temporary_scope_as = actor
+			bno_has_bbc_priest_or_priestess = yes
+			gold >= bno_cure_disease_interaction_cost
+			is_at_war = no
+			OR = {
+				any_spouse = {
+					bno_is_valid_target_for_cure_disease = yes
+				}
+				any_close_family_member = {
+					bno_is_valid_target_for_cure_disease = yes
+				}
+				any_relation = {
+					type = lover
+					bno_is_valid_target_for_cure_disease = yes
+				}
+				any_relation = {
+					type = bno_cum_slave
+					bno_is_valid_target_for_cure_disease = yes
+				}
+			}
+		}
+		save_scope_as = actor
+		every_spouse = {
+			limit = {
+				bno_is_valid_target_for_cure_disease = yes
+			}
+			add_to_list = bno_cure_list
+		}
+		every_close_family_member = {
+			limit = {
+				bno_is_valid_target_for_cure_disease = yes
+			}
+			add_to_list = bno_cure_list
+		}
+		every_relation = {
+			type = lover
+			limit = {
+				bno_is_valid_target_for_cure_disease = yes
+			}
+			add_to_list = bno_cure_list
+		}
+		every_relation = {
+			type = bno_cum_slave
+			limit = {
+				bno_is_valid_target_for_cure_disease = yes
+			}
+			add_to_list = bno_cure_list
+		}
+		ordered_in_list = {
+			list = bno_cure_list
+			limit = {
+				is_alive = yes
+			}
+			order_by = health
+			position = 1
+			min = 1
+			save_scope_as = recipient
+		}
+		scope:actor = {
+            trigger_event = {
+                id = bno_embrace_african_5.0010
+                delayed = yes
+                days = { 7 14 }
+            }
+        }
+	}
+}
+
+bno_influence_child_success = {
+	scope:recipient = {
+		bno_increase_sluttyness = yes
+		add_opinion = {
+			target = scope:actor
+			modifier = admiration_opinion
+			opinion = 20
+		}
+	}
+	scope:actor = {
+		trigger_event = bno_character_interaction.0001
+		add_prestige = minor_prestige_loss
+		add_stress = minor_stress_gain
+		add_opinion = {
+			target = scope:recipient
+			modifier = pleased_opinion
+			opinion = 20
+		}
+	}
+}
+
+bno_influence_child_failure = {
+	scope:recipient = {
+		show_as_tooltip = {
+			add_opinion = {
+				target = scope:actor
+				modifier = confused_opinion
+				opinion = -20
+			}
+		}
+	}
+	scope:actor = {
+		trigger_event = bno_character_interaction.0002
+		show_as_tooltip = {
+			add_prestige = minor_prestige_loss
+			add_stress = medium_stress_gain
+			add_opinion = {
+				target = scope:recipient
+				modifier = disappointed_opinion
+				opinion = -20
+			}
+		}
+	}
+}
+
+bno_influence_child_trait_maintenance_effect = {
+	if = {
+		limit = {
+			is_ai = yes
+			is_bno_actor = yes
+			save_temporary_scope_as = actor
+			any_prisoner = {
+				bno_is_valid_target_for_influence_child = yes
+			}
+			any_relation = {
+				type = ward
+				bno_is_valid_target_for_influence_child = yes
+			}
+		}
+		save_scope_as = actor
+		every_prisoner = {
+			limit = {
+				bno_is_valid_target_for_influence_child = yes
+			}
+			add_to_list = bno_influence_child_list
+		}
+		every_relation = {
+			type = ward
+			limit = {
+				bno_is_valid_target_for_influence_child = yes
+			}
+			add_to_list = bno_influence_child_list
+		}
+		random_in_list = {
+			list = bno_influence_child_list
+			save_scope_as = recipient
+		}
+		random_list = {
+			1 = {# accept
+				bno_influence_child_modifiers = yes
+				bno_influence_child_success = yes
+			}
+			1 = {# deny
+				bno_influence_child_failure = yes
+			}
+		}
+		scope:recipient = {
+			add_character_flag = {
+				flag = bno_influence_child_cooldown
+				years = 2
+			}
+		}
+	}
+}
+
+bno_cage_prisoner_trait_maintenance_option = {
+	scope:recipient = {
+        bno_caged_effect = {
+            CAGER = scope:actor
+        }
+        # TODO: add custom opinion later
+        add_opinion = {
+            target = scope:actor
+            modifier = disappointed_opinion
+            opinion = -50
+        }
+        release_from_prison = yes
+    }
+}
+
+bno_cage_prisoner_trait_maintenance_effect = {
+	if = {
+		limit = {
+			bno_prisoner_is_valid_actor_trigger = yes
+			has_chastity_cage_artifact = yes
+			any_prisoner = {
+				bno_is_valid_target_for_caging_prisoner = yes
+			}
+		}
+		save_scope_as = actor
+		random_prisoner = {
+			limit = {
+				bno_is_valid_target_for_caging_prisoner = yes
+			}
+			save_scope_as = recipient
+		}
+		bno_cage_prisoner_trait_maintenance_option = yes
+		bno_recruit_prisoner_effect = yes
+	}
+}
+
+bno_castrate_prisoner_option = {
+	scope:recipient = {
+        bno_castrated_effect = yes
+        # TODO: add custom opinion later
+        add_opinion = {
+            target = scope:actor
+            modifier = disappointed_opinion
+            opinion = -50
+        }
+        depose = yes
+        hidden_effect = {
+            if = {
+                limit = { is_married = yes }
+                every_spouse = {
+                    divorce = scope:recipient
+                }
+            }
+            if = {
+                limit = { exists = betrothed }
+                break_betrothal = betrothed
+            }
+            every_concubine = {
+                scope:recipient = { remove_concubine = prev }
+            }
+            every_relation = {
+                type = guardian
+                remove_relation_ward = prev
+            }
+        }
+        release_from_prison = yes
+    }
+}
+
+bno_castrate_prisoner_trait_maintenance_effect = {
+	if = {
+		limit = {
+			bno_prisoner_is_valid_actor_trigger = yes
+			any_prisoner = {
+				bno_is_valid_target_for_castrating_prisoner = yes
+			}
+		}
+		save_scope_as = actor
+		random_prisoner = {
+			limit = {
+				bno_is_valid_target_for_castrating_prisoner = yes
+			}
+			save_scope_as = recipient
+		}
+		bno_castrate_prisoner_option = yes
+		bno_recruit_prisoner_effect = yes
+	}
+}
+
+bno_recruit_prisoner_effect = {
+	scope:actor = {
+        if = {
+            limit = {
+                scope:recipient = { 
+                    NOT = { is_courtier_of = scope:actor }
+                    is_ruler = no
+                }
+            }
+            hidden_effect = { add_courtier = scope:recipient }
+        }
+    }
+}
+
+bno_enslave_prisoner_option = {
+	scope:recipient = {
+        depose = yes
+        add_trait = bno_slave
+        pay_short_term_gold = {
+            target = scope:actor
+            gold = this.gold
+        }
+        hidden_effect = {
+            if = {
+                limit = { is_married = yes }
+                every_spouse = {
+                    divorce = scope:recipient
+                }
+            }
+            if = {
+                limit = { exists = betrothed }
+                break_betrothal = betrothed
+            }
+            every_concubine = {
+                scope:recipient = { remove_concubine = prev }
+            }
+            every_relation = {
+                type = guardian
+                remove_relation_ward = prev
+            }
+        }
+        release_from_prison = yes
+        scope:actor = {
+            if = {
+                limit = { is_a_girl = yes }
+                random_spouse = {
+                    limit = {
+                        is_bbc = yes
+                    }
+                    save_scope_as = bbc_master
+                }
+                if = {
+                    limit = { NOT = { exists = scope:bbc_master } }
+                    random_courtier_or_guest = {
+                        limit = {
+                            is_bbc = yes
+                        }
+                        save_scope_as = bbc_master
+                    }
+                }
+            }
+            else = {
+                save_scope_as = bbc_master
+            }
+            scope:bbc_master = {
+                set_relation_bno_slave = scope:recipient
+            }
+            set_relation_bno_slave = scope:recipient
+        }
+    }
+}
+
+bno_enslave_prisoner_trait_maintenance_effect = {
+	if = {
+		limit = {
+			bno_prisoner_is_valid_actor_trigger = yes
+			any_prisoner = {
+				bno_is_a_white_girl = yes
+			}
+		}
+		save_scope_as = actor
+		random_prisoner = {
+			limit = {
+				bno_is_a_white_girl = yes
+			}
+			save_scope_as = recipient
+		}
+		bno_enslave_prisoner_option = yes
+		bno_recruit_prisoner_effect = yes
+	}
+}
+
+bno_sneak_bbc_option = {
+	scope:actor = {
+		send_interface_toast = {
+			title = sneak_bbc
+			right_icon = scope:recipient
+			left_icon = scope:secondary_actor
+			add_character_modifier = bno_sneak_bbc
+			scope:recipient = {
+				add_courtier = scope:secondary_actor
+			}
+		}
+	}
+}
+
+bno_sneak_bbc_trait_maintenance_effect = {
+	if = {
+		limit = {
+			bno_basic_interaction_valid_actor = yes
+			trigger_if = {
+				limit = { is_slut = yes }
+				is_bno_snowbunny_and_up = yes
+			}
+			save_temporary_scope_as = actor
+			any_courtier = {
+				NOT = { is_spouse_of = scope:actor }
+				bno_adult_bbc_actor_trigger = yes
+				count > 2
+			}
+			OR = {
+				liege ?= {# peer vassal
+					any_vassal_or_below = {
+						highest_held_title_tier >= tier_county
+						bno_is_valid_target_for_sneak_bbc = yes
+					}
+				}
+				any_vassal_or_below = {# your vassal
+					highest_held_title_tier >= tier_county
+					bno_is_valid_target_for_sneak_bbc = yes
+				}
+				any_tributary = {# tributaries
+					bno_is_valid_target_for_sneak_bbc = yes
+				}
+				liege ?= { # liege
+					bno_is_valid_target_for_sneak_bbc = yes
+				}
+				suzerain ?= { # suzerain
+					bno_is_valid_target_for_sneak_bbc = yes
+				}
+			}
+		}
+		random_courtier = {
+			limit = {
+				NOT = { is_spouse_of = scope:actor }
+				bno_adult_bbc_actor_trigger = yes
+			}
+			save_scope_as = secondary_actor
+		}
+		liege ?= {
+			every_vassal_or_below = {
+				limit = {
+					highest_held_title_tier >= tier_county
+					bno_is_valid_target_for_sneak_bbc = yes
+				}
+				add_to_list = bno_sneak_bbc_list
+			}
+		}
+		every_vassal_or_below = {
+			limit = {
+				highest_held_title_tier >= tier_county
+				bno_is_valid_target_for_sneak_bbc = yes
+			}
+			add_to_list = bno_sneak_bbc_list
+		}
+		every_tributary = {
+			limit = {
+				bno_is_valid_target_for_sneak_bbc = yes
+			}
+			add_to_list = bno_sneak_bbc_list
+		}
+		if = {
+			limit = {
+				liege ?= {
+					bno_is_valid_target_for_sneak_bbc = yes
+				}
+			}
+			liege ?= {
+				add_to_list = bno_sneak_bbc_list
+			}
+		}
+		if = {
+			limit = {
+				suzerain ?= {
+					bno_is_valid_target_for_sneak_bbc = yes
+				}
+			}
+			suzerain ?= {
+				add_to_list = bno_sneak_bbc_list
+			}
+		}
+		random_in_list = {
+			list = bno_sneak_bbc_list
+			limit = {
+				is_alive = yes
+			}
+			save_scope_as = recipient
+		}
+		random_list = {
+			1 = {# success
+				bno_sneak_bbc_modifiers = yes
+				bno_sneak_bbc_option = yes
+			}
+			1 = {}
+		}
+	}
+}

@@ -70,13 +70,7 @@
     }
 
     cost = {
-        gold = {
-            value = {
-                add = scope:actor.medium_gold_value
-                multiply = scope:recipient.health
-                multiply = 0.5
-            }
-        }
+        gold = bno_cure_disease_interaction_cost
     }
 
     on_accept = {
@@ -103,40 +97,5 @@
                 }
             }
         }
-    }
-
-    ai_potential = {
-        OR = {
-            any_child = {
-                bno_illness_list = yes
-            }
-            any_spouse = {
-                bno_illness_list = yes
-            }
-            any_relation = {
-                type = lover
-                bno_illness_list = yes
-            }
-            any_relation = {
-                type = friend
-                bno_illness_list = yes
-            }
-        }
-    }
-    
-    ai_frequency = 12
-    ai_instant_response = yes
-
-    ai_targets = {
-        ai_recipients = spouses
-        ai_recipients = family
-        ai_recipients = children
-        ai_recipients = dynasty
-        ai_recipients = scripted_relations
-        max = 1
-    }
-
-    ai_will_do = {
-        base = 100
     }
 }

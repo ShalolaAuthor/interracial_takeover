@@ -525,6 +525,7 @@ bno_slut.0006 = {
 		is_blacked = yes
 		is_partner_bbc = yes
 		does_hated_non_black_courtier_exist = yes
+		has_chastity_cage_artifact = yes
 	}
 	immediate = {
 		get_hated_non_black_courtier_scope = {

@@ -25,8 +25,8 @@
 
     is_valid_showing_failures_only = {
         scope:recipient = {
-            #TODO: add a check for castrated futa
             NOT = { has_trait = bno_castrated }
+            NOT = { has_trait = bno_castrated_futa }
             NOT = { has_trait = bno_slave }
         }
         scope:actor = {
@@ -49,6 +49,9 @@
             bno_male_prisoner_interaction_trigger = yes
         }
         is_valid = {
+            scope:actor = {
+                has_chastity_cage_artifact = yes
+            }
             scope:recipient = {
                 custom_tooltip = {
                     text = bno_prisoner_interaction.not_caged
@@ -84,7 +87,6 @@
         }
         is_valid = {
             scope:recipient = {
-                #TODO: add bno_slave trait
                 NOT = { has_trait = bno_slave }
             }
             scope:actor = {
@@ -108,138 +110,18 @@
     on_accept = {
         if = {
             limit = { scope:bno_prisoner_interaction_caging = yes }
-            scope:recipient = {
-                bno_caged_effect = {
-                    CAGER = scope:actor
-                }
-                # TODO: add custom opinion later
-                add_opinion = {
-                    target = scope:actor
-                    modifier = disappointed_opinion
-                    opinion = -50
-                }
-                release_from_prison = yes
-            }
+            bno_cage_prisoner_trait_maintenance_option = yes
         }
         else_if = {
             limit = { scope:bno_prisoner_interaction_castrating = yes }
-            scope:recipient = {
-                bno_castrated_effect = yes
-                # TODO: add custom opinion later
-                add_opinion = {
-                    target = scope:actor
-                    modifier = disappointed_opinion
-                    opinion = -50
-                }
-                depose = yes
-                hidden_effect = {
-                    if = {
-                        limit = { is_married = yes }
-                        every_spouse = {
-                            divorce = scope:recipient
-                        }
-                    }
-                    if = {
-                        limit = { exists = betrothed }
-                        break_betrothal = betrothed
-                    }
-                    every_concubine = {
-                        scope:recipient = { remove_concubine = prev }
-                    }
-                    every_relation = {
-                        type = guardian
-                        remove_relation_ward = prev
-                    }
-                }
-                release_from_prison = yes
-            }
+            bno_castrate_prisoner_option = yes
         }
         else_if = {
             limit = { scope:bno_prisoner_interaction_slaving = yes }
-            scope:recipient = {
-                depose = yes
-                add_trait = bno_slave
-                pay_short_term_gold = {
-                    target = scope:actor
-                    gold = this.gold
-                }
-                hidden_effect = {
-                    if = {
-                        limit = { is_married = yes }
-                        every_spouse = {
-                            divorce = scope:recipient
-                        }
-                    }
-                    if = {
-                        limit = { exists = betrothed }
-                        break_betrothal = betrothed
-                    }
-                    every_concubine = {
-                        scope:recipient = { remove_concubine = prev }
-                    }
-                    every_relation = {
-                        type = guardian
-                        remove_relation_ward = prev
-                    }
-                }
-                release_from_prison = yes
-                scope:actor = {
-                    if = {
-                        limit = { is_a_girl = yes }
-                        random_spouse = {
-                            limit = {
-                                is_bbc = yes
-                            }
-                            save_scope_as = bbc_master
-                        }
-                        if = {
-                            limit = { NOT = { exists = scope:bbc_master } }
-                            random_courtier_or_guest = {
-                                limit = {
-                                    is_bbc = yes
-                                }
-                                save_scope_as = bbc_master
-                            }
-                        }
-                    }
-                    else = {
-                        save_scope_as = bbc_master
-                    }
-                    scope:bbc_master = {
-                        set_relation_bno_slave = scope:recipient
-                    }
-                    set_relation_bno_slave = scope:recipient
-                }
-            }
+            bno_enslave_prisoner_option = yes
         }
-        scope:actor = {
-            if = {
-                limit = {
-                    scope:recipient = { 
-                        NOT = { is_courtier_of = scope:actor }
-                        is_ruler = no
-                    }
-                }
-                hidden_effect = { add_courtier = scope:recipient }
-            }
-        }
+        bno_recruit_prisoner_effect = yes
     }
 
     auto_accept = yes
-
-    ai_targets = {
-        ai_recipients = prisoners
-    }
-
-    ai_potential = {
-        bno_prisoner_is_valid_actor_trigger = yes
-    }
-
-    ai_will_do = {
-        base = 0
-        bno_white_girl_modifier_biggest = yes
-    }
-
-    ai_frequency = 1
-
 }

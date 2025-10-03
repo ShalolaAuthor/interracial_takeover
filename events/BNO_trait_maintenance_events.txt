@@ -305,6 +305,7 @@ bno_trait_maintenance.0014 = {
 			limit = {
 				is_independent_ruler = no
 				liege ?= {
+					has_chastity_cage_artifact = yes
 					trigger_if = {
 						limit = {
 							is_a_male = yes
@@ -457,102 +458,62 @@ bno_trait_maintenance.0016 = {
 bno_trait_maintenance.0017 = {
 	hidden = yes
 	immediate = {
-		if = {
-			limit = {
-				is_ai = yes
-				any_character_artifact = {
-					has_variable = bno_tincture_of_genesis
-				}
-				OR = {
-					bno_is_valid_target_for_tincture_of_genesis = yes
-					any_courtier = {
-						bno_is_valid_target_for_tincture_of_genesis = yes
-					}
-					liege ?= {
-						any_vassal_or_below = {
-							bno_is_valid_target_for_tincture_of_genesis = yes
-						}
-					}
-					any_spouse = {
-						bno_is_valid_target_for_tincture_of_genesis = yes
-					}
-				}
-			}
-			save_scope_as = actor
-			if = {
-				limit = {
-					bno_is_valid_target_for_tincture_of_genesis = yes
-				}
-				add_to_list = bno_tincture_of_genesis_target
-			}
-			every_courtier = {
-				limit = {
-					bno_is_valid_target_for_tincture_of_genesis = yes
-				}
-				add_to_list  = bno_tincture_of_genesis_target
-			}
-			liege ?= {
-				every_vassal_or_below = {
-					limit = {
-						bno_is_valid_target_for_tincture_of_genesis = yes
-					}
-					add_to_list = bno_tincture_of_genesis_target
-				}
-			}
-			every_spouse = {
-				limit = {
-					bno_is_valid_target_for_tincture_of_genesis = yes
-				}
-				add_to_list = bno_tincture_of_genesis_target
-			}
-			if = {
-				limit = {
-					list_size = {
-						name = bno_tincture_of_genesis_target
-						value > 0
-					}
-				}
-				random_in_list = {
-					list = bno_tincture_of_genesis_target
-					limit = {
-						this = scope:actor
-					}
-					save_scope_as = recipient
-				}
-				if = {
-					limit = {
-						NOT = { exists = scope:recipient }
-					}
-					random_in_list = {
-						list = bno_tincture_of_genesis_target
-						limit = {
-							is_bbc = yes
-						}
-						save_scope_as = recipient
-					}
-				}
-				if = {
-					limit = {
-						NOT = { exists = scope:recipient }
-					}
-					random_in_list = {
-						list = bno_tincture_of_genesis_target
-						limit = {
-							is_whiteboi = yes
-						}
-						save_scope_as = recipient
-					}
-				}
-				if = {
-					limit = { exists = scope:recipient }
-					scope:actor = {
-						trigger_event = bno_apply_elixir.0001
-					}
-					scope:recipient = {
-						add_character_flag = bno_apply_elixir_interaction.applied.bno_tincture_of_genesis
-					}
-				}
-			}
-		}
+		bno_apply_tincture_of_genesis = yes
+		trigger_event = bno_trait_maintenance.0018
+	}
+}
+#begin cum addiction scheme
+bno_trait_maintenance.0018 = {
+	hidden = yes
+	immediate = {
+		bno_cum_addiction_trait_maintenance_effect = yes
+		trigger_event = bno_trait_maintenance.0019
+	}
+}
+#cure diseases
+bno_trait_maintenance.0019 = {
+	hidden = yes
+	immediate = {
+		bno_cure_disease_trait_maintenance_effect = yes
+		trigger_event = bno_trait_maintenance.0020
+	}
+}
+#influence child
+bno_trait_maintenance.0020 = {
+	hidden = yes
+	immediate = {
+		bno_influence_child_trait_maintenance_effect = yes
+		trigger_event = bno_trait_maintenance.0021
+	}
+}
+#cage prisoner
+bno_trait_maintenance.0021 = {
+	hidden = yes
+	immediate = {
+		bno_cage_prisoner_trait_maintenance_effect = yes
+		trigger_event = bno_trait_maintenance.0022
+	}
+}
+#castrate prisoner
+bno_trait_maintenance.0022 = {
+	hidden = yes
+	immediate = {
+		bno_castrate_prisoner_trait_maintenance_effect = yes
+		trigger_event = bno_trait_maintenance.0023
+	}
+}
+#enslave female prisoner
+bno_trait_maintenance.0023 = {
+	hidden = yes
+	immediate = {
+		bno_enslave_prisoner_trait_maintenance_effect = yes
+		trigger_event = bno_trait_maintenance.0024
+	}
+}
+#sneak bbc
+bno_trait_maintenance.0024 = {
+	hidden = yes
+	immediate = {
+		bno_sneak_bbc_trait_maintenance_effect = yes
 	}
 }
