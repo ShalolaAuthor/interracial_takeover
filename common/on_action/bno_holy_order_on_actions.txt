@@ -93,50 +93,50 @@ bno_on_join_court = {
     }
 }
 
-yearly_global_pulse = {
-    on_actions = {
-        bno_send_letter_pulse
-    }
-}
-bno_send_letter_pulse = {
-    on_actions = {
-        delay = { days = { 1 89 } }
-        bno_send_priestess
-        delay = { days = { 90 179 } }
-        bno_send_priestess
-        delay = { days = { 180 269 } }
-        bno_send_priestess
-        delay = { days = { 270 365 } }
-        bno_send_priestess
-    }
-}
+#yearly_global_pulse = {
+#    on_actions = {
+#        bno_send_letter_pulse
+#    }
+#}
+#bno_send_letter_pulse = {
+#    on_actions = {
+#        delay = { days = { 1 89 } }
+#        bno_send_priestess
+#        delay = { days = { 90 179 } }
+#        bno_send_priestess
+#        delay = { days = { 180 269 } }
+#        bno_send_priestess
+#        delay = { days = { 270 365 } }
+#        bno_send_priestess
+#    }
+#}
 
-bno_send_priestess = {
-    trigger = {
-        any_religion_global = {
-            any_faith = {
-                religion_tag = bnonr_religion
-                any_faith_holy_order = {
-                    has_variable = bbc_holy_order
-                }
-            }
-        }
-    }
-    effect = {
-        every_religion_global = {
-            every_faith = {
-                limit = {
-                    religion_tag = bnonr_religion
-                }
-                random_faith_holy_order = {
-                    limit = {
-                        has_variable = bbc_holy_order
-                    }
-                    holy_order_patron = {
-                        trigger_event = bno_embrace_african_5.0007
-                    }
-                }
-            }
-        }
-    }
-}
+#bno_send_priestess = {
+#    trigger = {
+#        any_religion_global = {
+#            any_faith = {
+#                religion_tag = bnonr_religion
+#                any_faith_holy_order = {
+#                    has_variable = bbc_holy_order
+#                }
+#            }
+#        }
+#    }
+#    effect = {
+#        every_religion_global = {
+#            every_faith = {
+#                limit = {
+#                    religion_tag = bnonr_religion
+#                }
+#                random_faith_holy_order = {
+#                    limit = {
+#                        has_variable = bbc_holy_order
+#                    }
+#                    holy_order_patron = {
+#                        trigger_event = bno_embrace_african_5.0007
+#                    }
+#                }
+#            }
+#        }
+#    }
+#}

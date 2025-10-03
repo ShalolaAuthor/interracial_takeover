@@ -1,0 +1,9 @@
+﻿story_bno_maintenance = {
+    on_owner_death = {
+        end_story = yes
+    }
+
+    effect_group = {
+        months = 1
+    }
+}
