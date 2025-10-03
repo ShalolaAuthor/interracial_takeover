@@ -1,13 +1,28 @@
 ﻿l_simp_chinese:
 
-artifact_slot_chastity: "贞洁设备" # AI Tags
-chastity: "生殖器官" # AI Tags
-artifact_bno_chastity_cage: "贞操阴部" # AI Tags
+artifact_slot_chastity: "贞操锁"
+chastity: "生殖器"
 
-artifact_bno_chastity_cage.caged_by.wife: "铁笼 寒冷无情 被他妻子关上. 她转过身去 将他永远捆绑在一起 向公牛队敞开心扉. 一旦被锁起来,肉在枯萎之中,每周缩缩,直到一无所有,直到一无是处——一个活生生的笑话,在臀部流鼻涕。." # AI Tags
+anal: "肛门"
 
-artifact_bno_chastity_cage.caged_by.slut: "铁笼 寒冷无情的铁笼 被一个滑稽的雪球打碎了. 然后跑到她的公牛腿上, 任由他用金属抱怨,. 一旦被锁起来,肉在枯萎之中, 每周缩水, 直到一无所有,." # AI Tags
+bno_toggle_artifact_view: "#T 切换视图#!"
 
-artifact_bno_chastity_cage.caged_by.bbc: "铁笼 冷冷无情 被公牛自己封住. 锁像品牌一样被锁住 征服永远是永恒的. 一旦被锁起来,肉在枯萎之中,每周缩缩,直到一无所有,只是一无是处 — — 公牛至上的一个奖杯 — — 提醒人们,苍白的男孩们只是被打破的。."   # AI Tags
 
-artifact_bno_chastity_cage.desc: "一个冷酷无情的铁笼, 被制成堆积物, 扼杀白种人可悲的男子气概。. 曾经被锁住了 肉在枯萎之中 每周缩水 直到一无所有 直到一无是处. 有些笼子被打成金子, 不是为了减轻负担,."   # AI Tags
+artifact_bno_chastity_cage: "贞操笼"
+
+artifact_bno_chastity_piercing: "贞操环"
+artifact_bno_chastity_piercing.desc: "数十枚金环穿透阴唇，闪烁的缎带穿梭其间，在阴户上系成残酷的蝴蝶结。顶端精致的结扣以优雅姿态嘲弄着她，将子宫封锁于阳具之外，唯余臀部可供撕裂与蹂躏。每道金光都昭示着拒绝、占有与肛交奉献的誓言。"
+
+artifact_bno_chastity_cage.caged_by.wife: "铁笼冰冷坚硬，由他妻子亲手锁上。妻子转动钥匙终结了他的男子气概，将他永远禁锢，自己却向公牛敞开胸怀。一旦锁上，笼中血肉便日渐枯萎，周复一周萎缩，直至只剩无用的残肢——活生生的笑柄，在腰间哗啦作响。"
+
+artifact_bno_chastity_cage.caged_by.slut: "铁笼冰冷坚硬，被一个冷笑的雪兔扣上锁扣。她嘲弄着他的大小将他禁锢，随即奔向公牛的怀抱。他被困在金属笼中哀鸣，她却在粗壮黑屌上呻吟。一旦锁住，笼中肉体便日渐枯萎，逐周萎缩，直至只剩无用的残肢——这正是她留给他的全部。"
+
+artifact_bno_chastity_cage.caged_by.bbc: "铁笼冰冷坚硬，由公牛亲手封锁。锁扣咔嗒一声闭合，如同烙印，将征服化作永恒。一旦锁闭，笼中血肉便日渐枯萎，周复一周地萎缩，直至只剩下无用的残肢——这是公牛至高无上的战利品，昭示着苍白少年们存在的唯一意义，便是被彻底摧毁。"  
+
+artifact_bno_chastity_cage.desc: "铁笼冰冷坚硬，专为囚禁白人男子那可怜的阳刚之气而铸。一旦锁上，笼中血肉便日渐枯萎，周复一周地萎缩，直至只剩下无用的残肢。有些笼子镀着金，并非减轻折磨，而是炫耀屈辱——闪闪发光的软弱奖杯，供世人观赏。"  
+
+artifact_bno_tincture_of_genesis: "创世神药"
+artifact_bno_tincture_of_genesis.desc: "一瓶黑玻璃小瓶，瓶口封着猩红水晶，内盛浓稠的乳白色精华，闪烁着活生生的种子般的光芒。\n$EFFECT_LIST_BULLET$当公牛饮下药剂，其精液便获得神圣化——每一滴精液都化作神圣的滋养与蜕变。凡被他孕育的荡妇皆被重塑：肌肤黝黑，双乳丰盈，臀瓣绽放，腰肢纤细，臀部外扩——每个孔洞都在BNWO永恒法则下重塑。\n$EFFECT_LIST_BULLET$但若白人男孩饮下此物，其效果便毫不留情。神圣精髓排斥他低等的血肉。阳具枯萎，永不复振。睾丸萎缩如空壳，使他终生不育、软弱无力、一无是处——被那永不可掌控的种子阉割殆尽。"
+
+artifact_bno_elixir_of_the_black_womb: "黑宫魔药"
+artifact_bno_elixir_of_the_black_womb.desc: "一瓶高挑的深红金液体，其光芒在铲形瓶塞下如活火般翻涌。当被饮下时，这瓶灵药会唤醒一种唯有黑精液才能满足的噬骨饥渴。每次屈服——每吞下一口，每忍受一次交配——都将蜕变推向更深处，将躯体重塑为肥沃而顺从的血肉。这并非毒药而是恩赐，是骄傲的缓慢瓦解，将饮者与BNWO永世相系，直至只剩呻吟的、以精液滋养的荡妇。"
