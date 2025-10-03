@@ -1,6 +1,10 @@
 ﻿bno_chastity_cage_template = {
     can_equip = {
         is_a_male = yes
+        NOR = {
+            has_trait = bno_caged
+            has_trait = bno_caged_futa
+        }
     }
     ai_score = {
         value = 100000
