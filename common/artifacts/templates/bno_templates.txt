@@ -2,8 +2,8 @@
     can_equip = {
         is_a_male = yes
         NOR = {
-            has_trait = bno_caged
-            has_trait = bno_caged_futa
+            has_trait = bno_castrated
+            has_trait = bno_castrated_futa
         }
     }
     ai_score = {
@@ -15,6 +15,9 @@
 bno_chastity_piercing_template = {
     can_equip = {
         is_a_girl = yes
+        any_child = {
+            count > 10
+        }
     }
     ai_score = {
         value = 100000

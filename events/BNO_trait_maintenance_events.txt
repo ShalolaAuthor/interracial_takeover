@@ -450,6 +450,7 @@ bno_trait_maintenance.0016 = {
 			}
 			add_character_modifier = bno_withering_manhood
 		}
+		trigger_event = bno_trait_maintenance.0017
 	}
 }
 #apply tincture of genesis
