@@ -190,3 +190,18 @@ bno_caravan_has_arrived = {
 		}
 	}
 }
+
+bno_has_all_stuff_from_caravan = {
+	any_character_artifact = {
+		has_variable = bno_chastity_cage
+	}
+	any_character_artifact = {
+		has_variable = bno_chastity_piercing
+	}
+	any_character_artifact = {
+		has_variable = bno_tincture_of_genesis
+	}
+	any_character_artifact = {
+		has_variable = bno_elixir_of_the_black_womb
+	}
+}

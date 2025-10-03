@@ -234,16 +234,20 @@ bno_trait_maintenance.0010 = {
 		trigger_event = bno_trait_maintenance.0011
 	}
 }
-# if slut cant have futa
+# if wearing cages should add caged
 bno_trait_maintenance.0011 = {
 	hidden = yes
 	immediate = {
 		if = {
 			limit = {
-				is_a_futa = yes
-				is_slut = yes
+				any_equipped_character_artifact = {
+					has_variable = bno_chastity_cage
+				}
+				NOT = { has_trait = bno_caged }
 			}
-			bno_make_futa_inactive = yes
+			bno_caged_effect = {
+				CAGER = root
+			}
 		}
 		trigger_event = bno_trait_maintenance.0012
 	}

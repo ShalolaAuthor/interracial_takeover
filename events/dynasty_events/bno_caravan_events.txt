@@ -120,6 +120,9 @@ bno_caravan.0001 = {
             }
         }
         trigger_event = bno_caravan.2001
+        ai_chance = {
+            base = 100
+        }
     }
     option = {# dont enter
         name = {
@@ -315,11 +318,33 @@ bno_caravan.0002 = {
         bno_create_artifact_bno_tincture_of_genesis_only_effect = {
             CREATOR = scope:shop_keeper
         }
+        ai_chance = {
+            base = 0
+            modifier = {
+                add = 100
+                NOT = {
+                    any_character_artifact = {
+                        has_variable = bno_tincture_of_genesis
+                    }
+                }
+            }
+        }
     }
     option = {# elixir of the black womb
         name = bno_caravan.0002.b
         bno_create_artifact_bno_elixir_of_the_black_womb_only_effect = {
             CREATOR = scope:shop_keeper
+        }
+        ai_chance = {
+            base = 0
+            modifier = {
+                add = 100
+                NOT = {
+                    any_character_artifact = {
+                        has_variable = bno_elixir_of_the_black_womb
+                    }
+                }
+            }
         }
     }
     option = {# cages
@@ -327,11 +352,33 @@ bno_caravan.0002 = {
         bno_create_artifact_bno_chastity_cage_only_effect = {
             CREATOR = scope:shop_keeper
         }
+        ai_chance = {
+            base = 0
+            modifier = {
+                add = 100
+                NOT = {
+                    any_character_artifact = {
+                        has_variable = bno_chastity_cage
+                    }
+                }
+            }
+        }
     }
     option = {# piercing
         name = bno_caravan.0002.d
         bno_create_artifact_bno_chastity_piercing_only_effect = {
             CREATOR = scope:shop_keeper
+        }
+        ai_chance = {
+            base = 0
+            modifier = {
+                add = 100
+                NOT = {
+                    any_character_artifact = {
+                        has_variable = bno_chastity_piercing
+                    }
+                }
+            }
         }
     }
 }

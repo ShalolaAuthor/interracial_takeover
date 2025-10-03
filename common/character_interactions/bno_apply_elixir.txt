@@ -131,13 +131,20 @@
 
     send_option = { # tincture of genesis
         is_valid = {
-            scope:actor = {
-                any_character_artifact = {
-                    has_variable = bno_tincture_of_genesis
+            custom_tooltip = {
+                text = bno_apply_elixir_interaction.bno_tincture_of_genesis.tooltip
+                scope:actor = {
+                    any_character_artifact = {
+                        has_variable = bno_tincture_of_genesis
+                    }
                 }
-            }
-            scope:recipient = {
-                is_a_male = yes
+                scope:recipient = {
+                    is_a_male = yes
+                    OR = {
+                        NOT = { has_trait = bno_castrated }
+                        NOT = { has_trait = bno_castrated_futa }
+                    }
+                }
             }
         }
         flag = bno_apply_elixir_interaction_bno_tincture_of_genesis
@@ -145,14 +152,17 @@
 
     send_option = { # elixir of the black womb
         is_valid = {
-            scope:actor = {
-                any_character_artifact = {
-                    has_variable = bno_elixir_of_the_black_womb
+            custom_tooltip = {
+                text = bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.tooltip
+                scope:actor = {
+                    any_character_artifact = {
+                        has_variable = bno_elixir_of_the_black_womb
+                    }
                 }
-            }
-            scope:recipient = {
-                is_bbc = no
-                is_a_male = yes
+                scope:recipient = {
+                    is_bbc = no
+                    is_male = yes
+                }
             }
         }
         flag = bno_apply_elixir_interaction_bno_elixir_of_the_black_womb
@@ -192,7 +202,31 @@
 
     ai_will_do = {
         base = 0
-        bno_white_girl_modifier_biggest = yes
+        modifier = {
+            add = 1000000
+            scope:actor = {
+                any_character_artifact = {
+                    OR = {
+                        has_variable = bno_tincture_of_genesis
+                        has_variable = bno_elixir_of_the_black_womb
+                    }
+                }
+            }
+            scope:recipient = {
+                trigger_if = {
+                    limit = { scope:bno_apply_elixir_interaction_bno_tincture_of_genesis = yes }
+                    OR = {
+                        NOT = { has_trait = bno_castrated }
+                        NOT = { has_trait = bno_castrated_futa }
+                    }
+                }
+                trigger_if = {
+                    limit = { scope:bno_apply_elixir_interaction_bno_elixir_of_the_black_womb = yes }
+                    is_bbc = no
+                    is_male = yes
+                }
+            }
+        }
     }
 
     ai_frequency = 1

@@ -66,3 +66,13 @@ bno_seed_of_genesis = {
     texture = "gfx/interface/icons/traits/bno_seed_of_genesis.dds"
     parent = trait
 }
+
+bno_tincture_of_genesis = {
+    texture = "gfx/interface/icons/artifact/bno_tincture_of_genesis.dds"
+    parent = artifact
+}
+
+bno_elixir_of_the_black_womb = {
+    texture = "gfx/interface/icons/artifact/bno_elixir_of_the_black_womb.dds"
+    parent = artifact
+}

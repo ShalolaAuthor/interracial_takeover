@@ -390,8 +390,20 @@ bno_caged_effect = {
 			add_trait = bno_caged_futa
 		}
 	}
-	bno_create_artifact_bno_chastity_cage_effect = {
-		CAGER = $CAGER$
+	if = {
+		limit = {
+			NOR = {
+				any_character_artifact = {
+					has_variable = bno_chastity_cage
+				}
+				any_equipped_character_artifact = {
+					has_variable = bno_chastity_cage
+				}
+			}
+		}
+		bno_create_artifact_bno_chastity_cage_effect = {
+			CAGER = $CAGER$
+		}
 	}
 	add_prestige = -250
 }
