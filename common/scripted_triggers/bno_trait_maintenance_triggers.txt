@@ -24,9 +24,11 @@ bno_is_a_white_girl = {
 	is_adult = yes
 	is_a_girl = yes
 	is_african = no
+	NOT = { has_trait = bno_slave }
 }
 
 bno_is_valid_target_for_cure_disease = {
+	save_temporary_scope_as = actor_temp
 	is_at_war = no
 	bno_illness_list = yes
 	trigger_if = {

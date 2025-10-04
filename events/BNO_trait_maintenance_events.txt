@@ -16,6 +16,7 @@ bno_character_initialization.0001 = {
 namespace = bno_trait_maintenance
 
 #African Traits
+#done
 bno_trait_maintenance.0001 = {
 	hidden = yes
 	trigger = {
@@ -47,6 +48,7 @@ bno_trait_maintenance.0001 = {
 	}
 }
 # BBC Traits
+#done
 bno_trait_maintenance.0002 = {
 	hidden = yes
 	immediate = {

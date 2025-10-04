@@ -3,30 +3,7 @@
 #bno_activate_bbc_trait_effect
 #bno_make_bbc_has_big_dick
 
-bno_seed_originally_african_flag = {
-    add_character_flag = bno_originally_african
-}
 
-bno_seed_bbc_trait_effect = {
-    add_character_flag = bno_bbc_trait_seeded
-    if = {
-        limit = {
-            has_trait = bno_blood
-        }
-        if = {
-            limit = {
-                NOT = { has_trait = dick_small_bad }
-                NOT = { has_trait = dick_big_good }
-            }
-            bno_lottery_dick_size = yes
-        }
-        random = {
-            chance = 0
-            bno_bbc_trait_occurrence_chance_modifier = yes
-            bno_add_bbc_trait_effect = yes
-        }
-    }
-}
 
 bno_add_bbc_trait_effect = {
     add_trait = bno_bbc
@@ -113,15 +90,6 @@ bno_make_bbc_has_big_dick = {
         else = {
             add_trait = dick_big_good_3
         }
-    }
-}
-
-bno_futa_bisexual = {
-    if = {
-        limit = {
-            is_a_futa = yes
-        }
-        set_sexuality = bisexual
     }
 }
 
@@ -306,6 +274,11 @@ bno_get_body_part_trait_depending_on_father_or_mother = {
         $BODY_PART$_big_good_3 = {
             scope:bno_trait_seeder = {
                 add_trait = $BODY_PART$_big_good_3
+            }
+        }
+        fallback = {
+            scope:bno_trait_seeder = {
+                bno_lottery_$BODY_PART$_size = yes
             }
         }
     }

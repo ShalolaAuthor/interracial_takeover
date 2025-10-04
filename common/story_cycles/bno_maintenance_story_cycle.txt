@@ -1,4 +1,11 @@
 ﻿story_bno_maintenance = {
+    on_setup = {
+        story_owner = {
+            bno_apply_african_trait = yes
+            bno_apply_bbc_trait = yes
+        }
+    }
+
     on_owner_death = {
         end_story = yes
     }

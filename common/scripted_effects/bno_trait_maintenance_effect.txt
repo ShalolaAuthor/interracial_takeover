@@ -25,59 +25,38 @@
 			limit = {
 				bno_is_valid_target_for_tincture_of_genesis = yes
 			}
-			root = {
-				add_to_variable_list  = {
-					name = bno_tincture_of_genesis_target
-					target = prev
-				}
-			}
+			add_to_list = bno_tincture_of_genesis_target
 		}
 		every_courtier = {
 			limit = {
 				bno_is_valid_target_for_tincture_of_genesis = yes
 			}
-			root = {
-				add_to_variable_list  = {
-					name = bno_tincture_of_genesis_target
-					target = prev
-				}
-			}
+			add_to_list  = bno_tincture_of_genesis_target
 		}
 		liege ?= {
 			every_vassal_or_below = {
 				limit = {
 					bno_is_valid_target_for_tincture_of_genesis = yes
 				}
-				root = {
-					add_to_variable_list  = {
-						name = bno_tincture_of_genesis_target
-						target = prev
-					}
-				}
+				add_to_list = bno_tincture_of_genesis_target
 			}
 		}
 		every_spouse = {
 			limit = {
 				bno_is_valid_target_for_tincture_of_genesis = yes
 			}
-			root = {
-				add_to_variable_list  = {
-					name = bno_tincture_of_genesis_target
-					target = prev
-				}
-			}
+			add_to_list = bno_tincture_of_genesis_target
 		}
 		if = {
 			limit = {
-				local_variable_list_size = {
+				list_size = {
 					name = bno_tincture_of_genesis_target
 					value > 0
 				}
 			}
-			random_in_local_list = {
-				variable = bno_tincture_of_genesis_target
+			random_in_list = {
+				list = bno_tincture_of_genesis_target
 				limit = {
-					is_alive = yes
 					this = scope:actor
 				}
 				save_scope_as = recipient
@@ -86,10 +65,9 @@
 				limit = {
 					NOT = { exists = scope:recipient }
 				}
-				random_in_local_list = {
-					variable = bno_tincture_of_genesis_target
+				random_in_list = {
+					list = bno_tincture_of_genesis_target
 					limit = {
-						is_alive = yes
 						is_bbc = yes
 					}
 					save_scope_as = recipient
@@ -99,10 +77,9 @@
 				limit = {
 					NOT = { exists = scope:recipient }
 				}
-				random_in_local_list = {
-					variable = bno_tincture_of_genesis_target
+				random_in_list = {
+					list = bno_tincture_of_genesis_target
 					limit = {
-						is_alive = yes
 						is_whiteboi = yes
 					}
 					save_scope_as = recipient
@@ -119,7 +96,6 @@
 			}
 		}
 	}
-	clear_local_variable_list = bno_tincture_of_genesis_target
 }
 
 bno_start_cum_addiction_scheme = {
@@ -173,7 +149,6 @@ bno_cum_addiction_trait_maintenance_effect = {
 bno_cure_disease_trait_maintenance_effect = {
 	if = {
 		limit = {
-			save_temporary_scope_as = actor_temp
 			bno_has_bbc_priest_or_priestess = yes
 			gold >= bno_cure_disease_interaction_cost
 			is_at_war = no
@@ -199,50 +174,30 @@ bno_cure_disease_trait_maintenance_effect = {
 			limit = {
 				bno_is_valid_target_for_cure_disease = yes
 			}
-			root = {
-				add_to_variable_list  = {
-					name = bno_cure_list
-					target = prev
-				}
-			}
+			add_to_list = bno_cure_list
 		}
 		every_close_family_member = {
 			limit = {
 				bno_is_valid_target_for_cure_disease = yes
 			}
-			root = {
-				add_to_variable_list  = {
-					name = bno_cure_list
-					target = prev
-				}
-			}
+			add_to_list = bno_cure_list
 		}
 		every_relation = {
 			type = lover
 			limit = {
 				bno_is_valid_target_for_cure_disease = yes
 			}
-			root = {
-				add_to_variable_list  = {
-					name = bno_cure_list
-					target = prev
-				}
-			}
+			add_to_list = bno_cure_list
 		}
 		every_relation = {
 			type = bno_cum_slave
 			limit = {
 				bno_is_valid_target_for_cure_disease = yes
 			}
-			root = {
-				add_to_variable_list  = {
-					name = bno_cure_list
-					target = prev
-				}
-			}
+			add_to_list = bno_cure_list
 		}
 		ordered_in_list = {
-			variable = bno_cure_list
+			list = bno_cure_list
 			limit = {
 				is_alive = yes
 			}
@@ -259,7 +214,6 @@ bno_cure_disease_trait_maintenance_effect = {
             }
         }
 	}
-	clear_local_variable_list = bno_cure_list
 }
 
 bno_influence_child_success = {
@@ -325,52 +279,35 @@ bno_influence_child_trait_maintenance_effect = {
 			limit = {
 				bno_is_valid_target_for_influence_child = yes
 			}
-			root = {
-				add_to_variable_list  = {
-					name = bno_influence_child_list
-					target = prev
-				}
-			}
+			add_to_list = bno_influence_child_list
 		}
 		every_relation = {
 			type = ward
 			limit = {
 				bno_is_valid_target_for_influence_child = yes
 			}
-			root = {
-				add_to_variable_list  = {
-					name = bno_influence_child_list
-					target = prev
-				}
-			}
+			add_to_list = bno_influence_child_list
 		}
-		random_in_local_list = {
-			variable = bno_influence_child_list
-			limit = {
-				is_alive = yes
-			}
+		random_in_list = {
+			list = bno_influence_child_list
 			save_scope_as = recipient
 		}
-		if = {
-			limit = { exists = scope:recipient }
-			random_list = {
-				1 = {# accept
-					bno_influence_child_modifiers = yes
-					bno_influence_child_success = yes
-				}
-				1 = {# deny
-					bno_influence_child_failure = yes
-				}
+		random_list = {
+			1 = {# accept
+				bno_influence_child_modifiers = yes
+				bno_influence_child_success = yes
 			}
-			scope:recipient = {
-				add_character_flag = {
-					flag = bno_influence_child_cooldown
-					years = 2
-				}
+			1 = {# deny
+				bno_influence_child_failure = yes
+			}
+		}
+		scope:recipient = {
+			add_character_flag = {
+				flag = bno_influence_child_cooldown
+				years = 2
 			}
 		}
 	}
-	clear_local_variable_list = bno_influence_child_list
 }
 
 bno_cage_prisoner_trait_maintenance_option = {
@@ -418,7 +355,10 @@ bno_castrate_prisoner_option = {
             modifier = disappointed_opinion
             opinion = -50
         }
-        depose = yes
+        if = {
+			limit = { is_ruler = yes }
+			depose = yes
+		}
         hidden_effect = {
             if = {
                 limit = { is_married = yes }
@@ -478,7 +418,10 @@ bno_recruit_prisoner_effect = {
 
 bno_enslave_prisoner_option = {
 	scope:recipient = {
-        depose = yes
+        if = {
+			limit = { is_ruler = yes }
+			depose = yes
+		}
         add_trait = bno_slave
         pay_short_term_gold = {
             target = scope:actor
@@ -617,12 +560,7 @@ bno_sneak_bbc_trait_maintenance_effect = {
 					highest_held_title_tier >= tier_county
 					bno_is_valid_target_for_sneak_bbc = yes
 				}
-				root = {
-					add_to_variable_list  = {
-						name = bno_sneak_bbc_list
-						target = prev
-					}
-				}
+				add_to_list = bno_sneak_bbc_list
 			}
 		}
 		every_vassal_or_below = {
@@ -630,23 +568,13 @@ bno_sneak_bbc_trait_maintenance_effect = {
 				highest_held_title_tier >= tier_county
 				bno_is_valid_target_for_sneak_bbc = yes
 			}
-			root = {
-				add_to_variable_list  = {
-					name = bno_sneak_bbc_list
-					target = prev
-				}
-			}
+			add_to_list = bno_sneak_bbc_list
 		}
 		every_tributary = {
 			limit = {
 				bno_is_valid_target_for_sneak_bbc = yes
 			}
-			root = {
-				add_to_variable_list  = {
-					name = bno_sneak_bbc_list
-					target = prev
-				}
-			}
+			add_to_list = bno_sneak_bbc_list
 		}
 		if = {
 			limit = {
@@ -655,12 +583,7 @@ bno_sneak_bbc_trait_maintenance_effect = {
 				}
 			}
 			liege ?= {
-				root = {
-					add_to_variable_list  = {
-						name = bno_sneak_bbc_list
-						target = prev
-					}
-				}
+				add_to_list = bno_sneak_bbc_list
 			}
 		}
 		if = {
@@ -670,41 +593,30 @@ bno_sneak_bbc_trait_maintenance_effect = {
 				}
 			}
 			suzerain ?= {
-				root = {
-					add_to_variable_list  = {
-						name = bno_sneak_bbc_list
-						target = prev
-					}
-				}
+				add_to_list = bno_sneak_bbc_list
 			}
 		}
-		random_in_local_list = {
-			variable = bno_sneak_bbc_list
+		random_in_list = {
+			list = bno_sneak_bbc_list
 			limit = {
 				is_alive = yes
 			}
 			save_scope_as = recipient
 		}
-		if = {
-			limit = {
-				exists = scope:recipient
+		random_list = {
+			1 = {# success
+				bno_sneak_bbc_modifiers = yes
+				bno_sneak_bbc_option = yes
 			}
-			random_list = {
-				1 = {# success
-					bno_sneak_bbc_modifiers = yes
-					bno_sneak_bbc_option = yes
-				}
-				1 = {}
-			}
-			scope:recipient = {
-				add_character_flag = {
-					flag = bno_sneak_bbc_cooldown
-					months = 6
-				}
+			1 = {}
+		}
+		scope:recipient = {
+			add_character_flag = {
+				flag = bno_sneak_bbc_cooldown
+				months = 6
 			}
 		}
 	}
-	clear_local_variable_list = bno_sneak_bbc_list
 }
 
 bno_clear_all_saved_scope = {
@@ -772,40 +684,35 @@ bno_tincture_of_genesis_trait_maintenance_effect = {
 				limit = {
 					bno_is_valid_female_target_for_tincture_of_genesis = yes
 				}
-				root = {
-					add_to_variable_list  = {
-						name = bno_tincture_of_genesis_list
-						target = prev
-					}
-				}
+				add_to_list  = bno_tincture_of_genesis_list
 			}
 			every_relation = {
 				type = lover
 				limit = {
 					bno_is_valid_female_target_for_tincture_of_genesis = yes
 				}
-				root = {
-					add_to_variable_list  = {
-						name = bno_tincture_of_genesis_list
-						target = prev
-					}
-				}
+				add_to_list  = bno_tincture_of_genesis_list
 			}
-			random_in_local_list = {
-				variable = bno_tincture_of_genesis_list
+			random_in_list = {
+				list = bno_tincture_of_genesis_list
 				limit = {
 					is_alive = yes
 				}
 				save_scope_as = recipient
 			}
-			scope:recipient = {
-				add_character_modifier = bno_tincture_of_genesis
-				add_character_flag = blocked_from_leaving
-			}
-			
-			scope:actor = {
-				add_character_modifier = bno_nourishers_fatigue
-				trigger_event = bno_tincture_of_genesis.0001
+			if = {
+				limit = {
+					exists = scope:recipient
+					exists = scope:actor
+				}
+				scope:recipient = {
+					add_character_modifier = bno_tincture_of_genesis
+					add_character_flag = blocked_from_leaving
+				}
+				scope:actor = {
+					add_character_modifier = bno_nourishers_fatigue
+					trigger_event = bno_tincture_of_genesis.0001
+				}
 			}
 		}
 		else = {
@@ -814,26 +721,16 @@ bno_tincture_of_genesis_trait_maintenance_effect = {
 				limit = {
 					bno_is_valid_bbc_for_tincture_of_genesis = yes
 				}
-				root = {
-					add_to_variable_list  = {
-						name = bno_tincture_of_genesis_list
-						target = prev
-					}
-				}
+				add_to_list  = bno_tincture_of_genesis_list
 			}
 			every_courtier = {
 				limit = {
 					bno_is_valid_bbc_for_tincture_of_genesis = yes
 				}
-				root = {
-					add_to_variable_list  = {
-						name = bno_tincture_of_genesis_list
-						target = prev
-					}
-				}
+				add_to_list  = bno_tincture_of_genesis_list
 			}
-			random_in_local_list = {
-				variable = bno_tincture_of_genesis_list
+			random_in_list = {
+				list = bno_tincture_of_genesis_list
 				limit = {
 					is_alive = yes
 					is_spouse_of = scope:recipient
@@ -844,24 +741,30 @@ bno_tincture_of_genesis_trait_maintenance_effect = {
 				limit = {
 					NOT = { exists = scope:actor }
 				}
-				random_in_local_list = {
-					variable = bno_tincture_of_genesis_list
+				random_in_list = {
+					list = bno_tincture_of_genesis_list
 					limit = {
 						is_alive = yes
 					}
 					save_scope_as = actor
 				}
 			}
-			scope:recipient = {
-				add_character_modifier = bno_tincture_of_genesis
-			}
-			
-			scope:actor = {
-				add_character_modifier = bno_nourishers_fatigue
-				add_character_flag = blocked_from_leaving
-				trigger_event = bno_tincture_of_genesis.0001
+
+			if = {
+				limit = {
+					exists = scope:recipient
+					exists = scope:actor
+				}
+				scope:recipient = {
+					add_character_modifier = bno_tincture_of_genesis
+				}
+
+				scope:actor = {
+					add_character_modifier = bno_nourishers_fatigue
+					add_character_flag = blocked_from_leaving
+					trigger_event = bno_tincture_of_genesis.0001
+				}
 			}
 		}
 	}
-	clear_local_variable_list = bno_tincture_of_genesis_list
 }
