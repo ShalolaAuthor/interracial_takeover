@@ -24,7 +24,21 @@
                     trait = bno_genesis_transformation
                     value >= 25
                 }
-                NOT = { has_character_flag = bno_genesis_transformation_1 }
+                NOT = { has_character_flag = bno_genesis_transformation_2 }
+            }
+            if = {
+                limit = {
+                    owns_story_of_type = story_bno_tincture_of_genesis
+                    exists = var:bno_tincture_of_genesis_story.var:bull
+                    NOT = { has_character_flag = bno_tincture_of_genesis.2002 }
+                }
+                save_scope_as = recipient
+                var:bno_tincture_of_genesis_story.var:bull = {
+                    save_scope_as = actor
+                }
+                scope:recipient = {
+                    trigger_event = bno_tincture_of_genesis.2002
+                }
             }
             send_interface_message = {
                 type = bno_blacked_events
@@ -35,7 +49,7 @@
                 become_bigger_ass_effect = yes
                 add_trait = strong
             }
-            add_character_flag = bno_genesis_transformation_1
+            add_character_flag = bno_genesis_transformation_2
         }
         else_if = {
             limit = {
@@ -44,6 +58,20 @@
                     value >= 50
                 }
                 NOT = { has_character_flag = bno_genesis_transformation_3 }
+            }
+            if = {
+                limit = {
+                    owns_story_of_type = story_bno_tincture_of_genesis
+                    exists = var:bno_tincture_of_genesis_story.var:bull
+                    NOT = { has_character_flag = bno_tincture_of_genesis.4002 }
+                }
+                save_scope_as = recipient
+                var:bno_tincture_of_genesis_story.var:bull = {
+                    save_scope_as = actor
+                }
+                scope:recipient = {
+                    trigger_event = bno_tincture_of_genesis.4002
+                }
             }
             send_interface_message = {
                 type = bno_blacked_events
@@ -64,6 +92,20 @@
                 }
                 NOT = { has_character_flag = bno_genesis_transformation_4 }
             }
+            if = {
+                limit = {
+                    owns_story_of_type = story_bno_tincture_of_genesis
+                    exists = var:bno_tincture_of_genesis_story.var:bull
+                    NOT = { has_character_flag = bno_tincture_of_genesis.5002 }
+                }
+                save_scope_as = recipient
+                var:bno_tincture_of_genesis_story.var:bull = {
+                    save_scope_as = actor
+                }
+                scope:recipient = {
+                    trigger_event = bno_tincture_of_genesis.5002
+                }
+            }
             send_interface_message = {
                 type = bno_blacked_events
                 title = bno_genesis_transformation.transition.3to4.title
@@ -82,6 +124,20 @@
                     value >= 100
                 }
                 NOT = { has_character_flag = bno_genesis_transformation_5 }
+            }
+            if = {
+                limit = {
+                    owns_story_of_type = story_bno_tincture_of_genesis
+                    exists = var:bno_tincture_of_genesis_story.var:bull
+                    NOT = { has_character_flag = bno_tincture_of_genesis.6002 }
+                }
+                save_scope_as = recipient
+                var:bno_tincture_of_genesis_story.var:bull = {
+                    save_scope_as = actor
+                }
+                scope:recipient = {
+                    trigger_event = bno_tincture_of_genesis.6002
+                }
             }
             send_interface_message = {
                 type = bno_blacked_events

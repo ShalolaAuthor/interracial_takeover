@@ -338,7 +338,7 @@ bno_castrated_effect = {
 		limit = {
 			has_variable = bno_chastity_cage
 		}
-		destroy_artifact = this
+		unequip_artifact_from_owner = yes
 	}
 	add_prestige = -500
 }
@@ -755,7 +755,7 @@ bno_increase_pussy_wear = {
                         trait = bno_pussy_mileage_1
                         value < 49
                     }
-					scope:real_father = {
+					scope:real_father ?= {
 						is_bbc = no
 					}
                 }

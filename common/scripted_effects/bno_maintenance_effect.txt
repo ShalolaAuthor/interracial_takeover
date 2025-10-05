@@ -58,3 +58,520 @@ bno_futa_bisexual = {
         set_sexuality = bisexual
     }
 }
+
+bno_apply_pussy_mileage_trait = {
+    if = {
+        limit = {
+            is_female = yes
+            NOT = { has_trait = bno_pussy_mileage }
+        }
+        add_trait = bno_pussy_mileage_1
+    }
+    if = {
+        limit = {
+            is_female = yes
+            is_married = yes
+            any_spouse = {
+                is_bbc = yes
+            }
+        }
+        bno_generic_rank_increase = {
+            TRAIT_GROUP = bno_pussy_mileage
+        }
+        bno_increase_pussy_wear = yes
+    }
+    if = {
+        limit = {
+            is_female = yes
+            any_child = {
+                count >= 1
+            }
+        }
+        every_child = {
+            root = {
+                bno_increase_pussy_wear = yes
+            }
+        }
+    }
+}
+
+bno_apply_body_trait = {
+    save_scope_as = bno_trait_seeder
+    if = {
+        limit = {
+            is_female = yes
+            NOT = { exists = mother }
+        }
+        bno_lottery_tits_size = yes
+        bno_lottery_ass_size = yes
+    }
+    else_if = {
+        limit = {
+            is_female = yes
+            exists = mother
+        }
+        mother = {
+            bno_get_body_part_trait_depending_on_father_or_mother = {
+                BODY_PART = tits
+            }
+            bno_get_ass_trait_depending_on_mother = yes
+        }
+    }
+    if = {
+        limit = {
+            is_a_male = yes
+            is_bbc = no
+            NOT = { exists = father }
+        }
+        bno_lottery_dick_size = yes
+    }
+    else_if = {
+        limit = {
+            is_a_male = yes
+            is_bbc = no
+            exists = father
+        }
+        father = {
+            bno_get_body_part_trait_depending_on_father_or_mother = {
+                BODY_PART = dick
+            }
+        }
+    }
+    if = {
+        limit = {
+            is_a_male = yes
+            is_bbc = yes
+        }
+        bno_make_bbc_has_big_dick = yes
+    }
+}
+
+bno_get_body_part_trait_depending_on_father_or_mother = {
+    switch = {
+        trigger = has_trait
+        $BODY_PART$_small_bad_3 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = $BODY_PART$_small_bad_3 }
+                    1 = { add_trait = $BODY_PART$_small_bad_2 }
+                }
+            }
+        }
+        $BODY_PART$_small_bad_2 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = $BODY_PART$_small_bad_2 }
+                    1 = { add_trait = $BODY_PART$_small_bad_1 }
+                }
+            }
+        }
+        $BODY_PART$_small_bad_1 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = $BODY_PART$_small_bad_1 }
+                    1 = { add_trait = $BODY_PART$_big_good_1 }
+                }
+            }
+        }
+        $BODY_PART$_big_good_1 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = $BODY_PART$_big_good_1 }
+                    1 = { add_trait = $BODY_PART$_big_good_2 }
+                }
+            }
+        }
+        $BODY_PART$_big_good_2 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = $BODY_PART$_big_good_2 }
+                    1 = { add_trait = $BODY_PART$_big_good_3 }
+                }
+            }
+        }
+        $BODY_PART$_big_good_3 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = $BODY_PART$_big_good_3 }
+                    1 = {
+                        if = {
+                            limit = { is_female = yes }
+                            add_trait = $BODY_PART$_big_good_3
+                        }
+                        else = {
+                            add_trait = $BODY_PART$_big_good_4
+                        }
+                    }
+                }
+            }
+        }
+        $BODY_PART$_big_good_4 = {
+            scope:bno_trait_seeder = {
+                if = {
+                    limit = { is_female = yes }
+                    add_trait = $BODY_PART$_big_good_3
+                }
+                else = {
+                    add_trait = $BODY_PART$_big_good_4
+                }
+            }
+        }
+        fallback = {
+            scope:bno_trait_seeder = {
+                bno_lottery_$BODY_PART$_size = yes
+            }
+        }
+    }
+}
+
+bno_get_ass_trait_depending_on_mother = {
+    switch = {
+        trigger = has_trait
+        ass_small_bad_1 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = ass_small_bad_1 }
+                    1 = { add_trait = ass_big_good_1 }
+                }
+            }
+        }
+        ass_big_good_1 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = ass_big_good_1 }
+                    1 = { add_trait = ass_big_good_2 }
+                }
+            }
+        }
+        ass_big_good_2 = {
+            scope:bno_trait_seeder = {
+                random_list = {
+                    4 = { add_trait = ass_big_good_2 }
+                    1 = { add_trait = ass_big_good_3 }
+                }
+            }
+        }
+        ass_big_good_3 = {
+            scope:bno_trait_seeder = {
+                add_trait = ass_big_good_3
+            }
+        }
+        fallback = {
+            scope:bno_trait_seeder = {
+                bno_lottery_ass_size = yes
+            }
+        }
+    }
+}
+
+bno_remove_bbc_from_non_african = {
+    if = {
+		limit = {
+			is_bbc = yes
+			NOT = { has_trait = bno_blood }
+		}
+		remove_trait = bno_bbc
+	}
+}
+
+bno_seed_breast_size_variable = {
+    if = {
+        limit = {
+            NOT = { exists = var:bno_breast_size }
+        }
+        switch = {
+            trigger = has_trait
+            #Small
+            tits_small_bad_3 = { bno_set_breast_size_0 = yes }
+            tits_small_good_3 = { bno_set_breast_size_0 = yes }
+            tits_small_bad_2 = { bno_set_breast_size_1 = yes }
+            tits_small_good_2 = { bno_set_breast_size_1 = yes }
+            tits_small_bad_1 = { bno_set_breast_size_2 = yes }
+            tits_small_good_1 = { bno_set_breast_size_2 = yes }
+            #Big
+            tits_big_bad_1 = { bno_set_breast_size_3 = yes }
+            tits_big_good_1 = { bno_set_breast_size_3 = yes }
+            tits_big_bad_2 = { bno_set_breast_size_4 = yes }
+            tits_big_good_2 = { bno_set_breast_size_4 = yes }
+            tits_big_bad_3 = { bno_set_breast_size_5 = yes }
+            tits_big_good_3 = { bno_set_breast_size_5 = yes }
+            tits_big_good_4 = { bno_set_breast_size_6 = yes }
+        }
+    }
+}
+
+bno_convert_african_to_african_culture = {
+    if = {
+		limit = {
+			is_bbc = yes
+			is_ai = yes
+			is_culture_bnoc = no
+			has_game_rule = bno_bbc_forced_conversion_yes
+		}
+		if = {
+			limit = {
+				liege ?= {
+					is_culture_bnoc = yes
+				}
+			}
+			set_culture = liege.culture
+		}
+		else = {
+			set_culture = culture:bnoc
+		}
+	}
+}
+
+bno_convert_bbc_to_bbc_religion = {
+    if = {
+		limit = {
+			is_bbc = yes
+			is_ai = yes
+			is_faith_bbcs = no
+			has_game_rule = bno_religion_yes
+			has_game_rule = bno_bbc_forced_conversion_yes
+		}
+		if = {
+			limit = {
+				liege ?= {
+					is_faith_bbcs = yes
+				}
+			}
+			bno_conversion_effect = {
+				FAITH = liege.faith
+			}
+		}
+		else = {
+			bno_conversion_effect = {
+				FAITH = faith:bbcs
+			}
+		}
+	}
+}
+
+bno_convert_vassal_to_liege_religion = {
+    if = {
+		limit = {
+			faith = faith:bbcs
+			trigger_if = {
+				limit = {
+					exists = liege
+					liege ?= {
+						is_faith_bbcs = yes
+					}
+					NOT = { faith = liege.faith }
+				}
+				always = yes
+			}
+			trigger_else = {
+				always = no
+			}
+		}
+		set_character_faith_with_conversion = liege.faith
+	}
+}
+
+bno_add_caged_trait_to_character_wearing_chastity_cage = {
+    save_scope_as = cager
+    if = {
+		limit = {
+			any_equipped_character_artifact = {
+				has_variable = bno_chastity_cage
+			}
+			NOT = { has_trait = bno_caged }
+		}
+		bno_caged_effect = {
+            CAGER = scope:cager
+        }
+	}
+}
+
+bno_pure_african_can_not_be_slut = {
+    if = {
+		limit = {
+			is_african = yes
+			is_slut = yes
+		}
+		switch = {
+			trigger = has_trait
+			bno_curious = { remove_trait = bno_curious }
+			bno_blacked = { remove_trait = bno_blacked }
+			bno_snowbunny = { remove_trait = bno_snowbunny }
+			bno_qos = { remove_trait = bno_qos }
+			bno_mindless_bbc_slut = { remove_trait = bno_mindless_bbc_slut }
+		}
+	}
+}
+
+bno_remove_dick_trait_for_castrated_or_eunuch = {
+    if = {
+		limit = {
+			OR = {
+				has_trait = bno_castrated
+				has_trait = bno_castrated_futa
+				has_trait = eunuch
+				has_trait = beardless_eunuch
+			}
+		}
+		make_trait_inactive = dick_big_good_1
+		make_trait_inactive = dick_big_good_2
+		make_trait_inactive = dick_big_good_3
+		make_trait_inactive = dick_big_good_4
+		make_trait_inactive = dick_small_bad_1
+		make_trait_inactive = dick_small_bad_2
+		make_trait_inactive = dick_small_bad_3
+	}
+}
+
+#need a rewrite
+bno_cage_a_non_bbc_slave = {
+    if = {
+		limit = {
+			is_independent_ruler = no
+			liege ?= {
+				has_chastity_cage_artifact = yes
+				trigger_if = {
+					limit = {
+						is_a_male = yes
+					}
+					is_bbc = yes
+				}
+				trigger_else = {
+					is_bno_snowbunny_and_up = yes
+					any_spouse = {
+						is_bbc = yes
+					}
+				}
+			}
+			is_slave = yes
+			is_a_male = yes
+			is_bbc = no
+		}
+		if = {
+			limit = {
+				liege ?= {
+					is_bbc = yes
+				}
+			}
+			bno_caged_effect = {
+				CAGER = liege
+			}
+		}
+		else = {
+			liege ?= {
+				random_spouse = {
+					limit = {
+						is_bbc = yes
+					}
+					save_scope_as = bbc
+				}
+				random_character_artifact = {
+					limit = {
+						has_variable = bno_chastity_cage
+					}
+					set_owner = scope:bbc
+				}
+			}
+			bno_caged_effect = {
+				CAGER = scope:bbc
+			}
+		}
+        save_scope_as = bno_caged_guy
+		liege ?= {
+			send_interface_message = {
+				type = bno_blacked_events
+				title = {
+					first_valid = {
+						triggered_desc = {
+							trigger = { is_bbc = yes }
+							desc = bno_trait_maintenance.0014.title.bbc
+						}
+						desc = bno_trait_maintenance.0014.title.slut
+					}
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = { is_bbc = yes }
+							desc = bno_trait_maintenance.0014.desc.bbc
+						}
+						desc = bno_trait_maintenance.0014.desc.slut
+					}
+				}
+				right_icon = scope:bno_caged_guy
+			}
+		}
+	}
+}
+#need a rewrite
+bno_make_cage_character_dick_smaller = {
+    save_scope_as = caged_character
+    if = {
+		limit = {
+			has_trait = bno_caged
+			NOT = { has_trait = dick_small_bad_3 }
+		}
+		become_smaller_dick_effect = yes
+		random_character_artifact = {
+			limit = {
+				has_variable = bno_chastity_cage
+				creator = {
+					is_playable_character = yes
+				}
+			}
+			creator = {
+				save_scope_as = cager
+			}
+		}
+		scope:cager ?= {
+			send_interface_message = {
+				type = bno_blacked_events
+				right_icon = scope:caged_character
+				title = {
+					first_valid = {
+						triggered_desc = {
+							trigger = { 
+								scope:cager = {
+									is_bbc = yes
+								}
+							 }
+							desc = bno_trait_maintenance.0015.title.bbc
+						}
+						desc = bno_trait_maintenance.0015.title.slut
+					}
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = {
+								scope:cager = {
+									is_bbc = yes
+								}
+							}
+							desc = bno_trait_maintenance.0015.desc.bbc
+						}
+						desc = bno_trait_maintenance.0015.desc.slut
+					}
+				}
+			}
+		}
+	}
+}
+bno_punish_caged_character_that_unequipped_chastity_cage = {
+    if = {
+		limit = {
+			has_trait = bno_caged
+			any_character_artifact = {
+				has_variable = bno_chastity_cage
+				is_equipped = no
+			}
+		}
+		random_character_artifact = {
+			limit = {
+				has_variable = bno_chastity_cage
+			}
+			equip_artifact_to_owner_replace = yes
+		}
+		add_character_modifier = bno_withering_manhood
+	}
+}

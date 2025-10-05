@@ -203,7 +203,6 @@ bno_cure_disease_trait_maintenance_effect = {
 			}
 			order_by = health
 			position = 1
-			min = 1
 			save_scope_as = recipient
 		}
 		scope:actor = {
@@ -219,6 +218,7 @@ bno_cure_disease_trait_maintenance_effect = {
 bno_influence_child_success = {
 	scope:recipient = {
 		bno_increase_sluttyness = yes
+		add_character_modifier = bno_a_future_queen_for_black
 		add_opinion = {
 			target = scope:actor
 			modifier = admiration_opinion
@@ -226,6 +226,7 @@ bno_influence_child_success = {
 		}
 	}
 	scope:actor = {
+		add_character_modifier = bno_educated_a_future_queen_of_spades
 		trigger_event = bno_character_interaction.0001
 		add_prestige = minor_prestige_loss
 		add_stress = minor_stress_gain
@@ -346,7 +347,19 @@ bno_cage_prisoner_trait_maintenance_effect = {
 	}
 }
 
+bno_use_tincture_of_genesis = {
+	every_character_artifact = {
+        limit = {
+            has_variable = bno_tincture_of_genesis
+        }
+        destroy_artifact = this
+    }
+}
+
 bno_castrate_prisoner_option = {
+	scope:actor = {
+		bno_use_tincture_of_genesis = yes
+	}
 	scope:recipient = {
         bno_castrated_effect = yes
         # TODO: add custom opinion later
@@ -482,13 +495,13 @@ bno_enslave_prisoner_trait_maintenance_effect = {
 		limit = {
 			bno_prisoner_is_valid_actor_trigger = yes
 			any_prisoner = {
-				bno_is_a_white_girl = yes
+				bno_not_a_bbc_slave = yes
 			}
 		}
 		save_scope_as = actor
 		random_prisoner = {
 			limit = {
-				bno_is_a_white_girl = yes
+				bno_not_a_bbc_slave = yes
 			}
 			save_scope_as = recipient
 		}
@@ -649,7 +662,7 @@ bno_tincture_of_genesis_trait_maintenance_effect = {
 				limit = { is_bbc = yes }
 				has_trait = bno_seed_of_genesis
 				NOT = { has_character_modifier = bno_nourishers_fatigue }
-				OR = {
+				OR =  {
 					any_spouse = {
 						bno_is_valid_female_target_for_tincture_of_genesis = yes
 					}
@@ -695,24 +708,15 @@ bno_tincture_of_genesis_trait_maintenance_effect = {
 			}
 			random_in_list = {
 				list = bno_tincture_of_genesis_list
-				limit = {
-					is_alive = yes
-				}
 				save_scope_as = recipient
 			}
-			if = {
-				limit = {
-					exists = scope:recipient
-					exists = scope:actor
-				}
-				scope:recipient = {
-					add_character_modifier = bno_tincture_of_genesis
-					add_character_flag = blocked_from_leaving
-				}
-				scope:actor = {
-					add_character_modifier = bno_nourishers_fatigue
-					trigger_event = bno_tincture_of_genesis.0001
-				}
+			scope:recipient = {
+				add_character_modifier = bno_tincture_of_genesis
+				add_character_flag = blocked_from_leaving
+			}
+			scope:actor = {
+				add_character_modifier = bno_nourishers_fatigue
+				trigger_event = bno_tincture_of_genesis.0001
 			}
 		}
 		else = {
@@ -732,7 +736,6 @@ bno_tincture_of_genesis_trait_maintenance_effect = {
 			random_in_list = {
 				list = bno_tincture_of_genesis_list
 				limit = {
-					is_alive = yes
 					is_spouse_of = scope:recipient
 				}
 				save_scope_as = actor
@@ -743,27 +746,16 @@ bno_tincture_of_genesis_trait_maintenance_effect = {
 				}
 				random_in_list = {
 					list = bno_tincture_of_genesis_list
-					limit = {
-						is_alive = yes
-					}
 					save_scope_as = actor
 				}
 			}
-
-			if = {
-				limit = {
-					exists = scope:recipient
-					exists = scope:actor
-				}
-				scope:recipient = {
-					add_character_modifier = bno_tincture_of_genesis
-				}
-
-				scope:actor = {
-					add_character_modifier = bno_nourishers_fatigue
-					add_character_flag = blocked_from_leaving
-					trigger_event = bno_tincture_of_genesis.0001
-				}
+			scope:recipient = {
+				add_character_modifier = bno_tincture_of_genesis
+			}
+			scope:actor = {
+				add_character_modifier = bno_nourishers_fatigue
+				add_character_flag = blocked_from_leaving
+				trigger_event = bno_tincture_of_genesis.0001
 			}
 		}
 	}

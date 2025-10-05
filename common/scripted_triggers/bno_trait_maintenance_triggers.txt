@@ -24,6 +24,10 @@ bno_is_a_white_girl = {
 	is_adult = yes
 	is_a_girl = yes
 	is_african = no
+}
+
+bno_not_a_bbc_slave = {
+	bno_is_a_white_girl = yes
 	NOT = { has_trait = bno_slave }
 }
 
@@ -72,6 +76,12 @@ bno_is_valid_target_for_caging_prisoner = {
 has_chastity_cage_artifact = {
 	any_character_artifact = {
 		has_variable = bno_chastity_cage
+	}
+}
+
+has_tincture_of_genesis_artifact = {
+	any_character_artifact = {
+		has_variable = bno_tincture_of_genesis
 	}
 }
 

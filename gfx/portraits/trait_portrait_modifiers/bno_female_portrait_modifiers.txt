@@ -2,6 +2,7 @@
     bno_female_portrait = {
         trigger = {
             is_female = yes
+			is_ai = yes
         }
         dna_modifiers = {
             human = {

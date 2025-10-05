@@ -240,13 +240,7 @@ bno_apply_elixir.0001 = {
             }
         }
         scope:actor = {
-            random_character_artifact = {
-                limit = {
-                    has_variable = bno_tincture_of_genesis
-                }
-                save_scope_as = elixir
-            }
-            destroy_artifact = scope:elixir
+            bno_use_tincture_of_genesis = yes
         }
         scope:recipient = {
             if = {
@@ -608,13 +602,7 @@ bno_apply_elixir.1001 = {
         }
         show_as_tooltip = {
             scope:actor = {
-                random_character_artifact = {
-                    limit = {
-                        has_variable = bno_tincture_of_genesis
-                    }
-                    save_scope_as = elixir
-                }
-                destroy_artifact = scope:elixir
+                bno_use_tincture_of_genesis = yes
             }
             scope:recipient = {
                 if = {
@@ -891,13 +879,7 @@ bno_apply_elixir.0002 = {
             }
         }
         scope:actor = {
-            random_character_artifact = {
-                limit = {
-                    has_variable = bno_elixir_of_the_black_womb
-                }
-                save_scope_as = elixir
-            }
-            destroy_artifact = scope:elixir
+            bno_use_tincture_of_genesis = yes
         }
         scope:recipient = {
             add_trait = bno_seed_of_genesis
@@ -1159,13 +1141,7 @@ bno_apply_elixir.1002 = {
             }
         }
         scope:actor = {
-            random_character_artifact = {
-                limit = {
-                    has_variable = bno_elixir_of_the_black_womb
-                }
-                save_scope_as = elixir
-            }
-            destroy_artifact = scope:elixir
+            bno_use_tincture_of_genesis = yes
         }
         scope:recipient = {
             add_trait = bno_seed_of_genesis
