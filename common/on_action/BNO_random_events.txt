@@ -1,12 +1,5 @@
 ﻿# on_action assigning availability (ors and if/else's) to RANDOM events
 
-#yearly pulse for bno events
-random_yearly_everyone_pulse = {
-	on_actions = {
-		bno_trait_maintenance_pulse
-		bno_religion_maintenance
-	}
-}
 #5 year pulse for chance for bbc chars to force title changes
 five_year_everyone_pulse = {
 	on_actions = {
@@ -21,32 +14,6 @@ random_yearly_everyone_pulse = {
 		bno_yearly_divorce_pulse
 	}
 }
-
-bno_religion_maintenance = {
-	trigger = {
-		has_game_rule = bno_mod_status_on
-		has_game_rule = bno_religion_yes
-	}
-	effect = {
-		if = {
-			limit = {
-				is_ai = yes
-				is_bbc = yes
-				any_religion_global = {
-					any_faith = {
-						NOT = { religious_head = root }
-					}
-				}
-				NOT = {
-					faith = faith:bbcs
-				}
-			}
-			set_character_faith = faith:bbcs
-		}
-	}
-}
-
-# effect trigger_event = { on_action = bno_random_yearly_random_pulse }
 
 bno_yearly_marry_pulse = {
 	trigger = {
@@ -92,9 +59,11 @@ bno_trait_maintenance_pulse = {
 		has_game_rule = bno_mod_status_on
 	}
 	effect = {
-		trigger_event = bno_trait_maintenance.0001
-		liege ?= {
-			trigger_event = bno_trait_maintenance.0001
+		if = {
+			limit = {
+				NOT = { owns_story_of_type = story_bno_maintenance }
+			}
+			create_story = story_bno_maintenance
 		}
 	}
 }

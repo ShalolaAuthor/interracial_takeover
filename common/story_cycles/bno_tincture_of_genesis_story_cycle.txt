@@ -1,0 +1,55 @@
+﻿story_bno_tincture_of_genesis = {
+    on_owner_death = {
+        end_story = yes
+    }
+
+    on_end = {
+        story_owner = {
+            remove_variable = bno_tincture_of_genesis_story
+        }
+    }
+
+    effect_group = {
+        days = 7
+        
+        first_valid = {
+            triggered_effect = {
+                trigger = {
+                    var:bull = {
+                        is_alive = no
+                    }
+                }
+                effect = {
+                    story_owner = {
+                        remove_character_modifier = bno_tincture_of_genesis
+                    }
+                    end_story = yes
+                }
+            }
+            triggered_effect = {
+                trigger = {
+                    story_owner = {
+                        has_character_flag = bno_genesis_transformation_5
+                    }
+                }
+                effect = {
+                    end_story = yes
+                }
+            }
+            triggered_effect = {
+                trigger = {
+                    var:bull = {
+                        is_alive = yes
+                    }
+                }
+                effect = {
+                    story_owner = {
+                        bno_have_sex_with_effects = {
+                            PARTNER = var:bno_tincture_of_genesis_story.var:bull
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

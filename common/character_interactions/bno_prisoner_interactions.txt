@@ -68,6 +68,9 @@
             bno_male_prisoner_interaction_trigger = yes
         }
         is_valid = {
+            scope:actor = {
+                has_tincture_of_genesis_artifact = yes
+            }
             scope:recipient = {
                 custom_tooltip = {
                     text = bno_prisoner_interaction.not_castrated

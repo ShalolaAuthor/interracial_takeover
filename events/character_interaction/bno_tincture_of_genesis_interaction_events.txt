@@ -22,6 +22,22 @@ bno_tincture_of_genesis.0001 = {
     }
 
     immediate = {
+        scope:recipient = {
+            create_story = {
+                type = story_bno_tincture_of_genesis
+                save_scope_as = new_story
+            }
+            set_variable = {
+                name = bno_tincture_of_genesis_story
+                value = scope:new_story
+            }
+            var:bno_tincture_of_genesis_story = {
+                set_variable = {
+                    name = bull
+                    value = scope:actor
+                }
+            }
+        }
         bno_sex_scene_start = {
             PARTNER = scope:recipient
         }
@@ -125,11 +141,6 @@ bno_tincture_of_genesis.1002 = {
     immediate = {
         standing_oral_animations = yes
         increase_bno_genesis_transformation = yes
-        trigger_event = {
-            id = bno_tincture_of_genesis.1111
-            days = 2
-            delayed = yes
-        }
     }
 
     option = {
@@ -139,72 +150,6 @@ bno_tincture_of_genesis.1002 = {
     }
 }
 
-#hidden repeating event to pump up the var
-bno_tincture_of_genesis.1111 = {
-    hidden = yes
-
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
-
-    on_trigger_fail = {
-        remove_character_modifier = bno_tincture_of_genesis
-        every_spouse = {
-            limit = {
-                has_character_modifier = bno_nourishers_fatigue
-            }
-            remove_character_modifier = bno_nourishers_fatigue
-        }
-    }
-
-    immediate = {
-        if = {
-            limit = {
-                has_trait = bno_genesis_transformation
-                has_character_modifier = bno_tincture_of_genesis
-            }
-            scope:actor = {
-                bno_have_sex_with_effects = {
-                    PARTNER = scope:recipient
-                }
-            }
-            trigger_event = {
-                id = bno_tincture_of_genesis.1111
-                days = 2
-                delayed = yes
-            }
-            if = {
-                limit = {
-                    bno_genesis_transformation_amount >= 1
-                    NOT = { has_character_flag = bno_tincture_of_genesis.2002 }
-                }
-                trigger_event = bno_tincture_of_genesis.2002
-            }
-            else_if = {
-                limit = {
-                    bno_genesis_transformation_amount >= 2
-                    NOT = { has_character_flag = bno_tincture_of_genesis.4002 }
-                }
-                trigger_event = bno_tincture_of_genesis.4002
-            }
-            else_if = {
-                limit = {
-                    bno_genesis_transformation_amount >= 3
-                    NOT = { has_character_flag = bno_tincture_of_genesis.5002 }
-                }
-                trigger_event = bno_tincture_of_genesis.5002
-            }
-            else_if = {
-                limit = {
-                    bno_genesis_transformation_amount >= 4
-                    NOT = { has_character_flag = bno_tincture_of_genesis.6002 }
-                }
-                trigger_event = bno_tincture_of_genesis.6002
-            }
-        }
-    }
-}
 ### Stage 1
 #get the black slut trait and strong
 bno_tincture_of_genesis.2002 = {
@@ -226,11 +171,7 @@ bno_tincture_of_genesis.2002 = {
         character = scope:recipient
         animation = bno_sex_love_stand_2
     }
-
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
+    
 
     immediate = {
         add_character_flag = bno_tincture_of_genesis.2002
@@ -265,10 +206,7 @@ bno_tincture_of_genesis.3002 = {
         animation = sex_combined
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
+    
 
     immediate = {
         bno_sex_scene_start = {
@@ -378,11 +316,6 @@ bno_tincture_of_genesis.4002 = {
         animation = bno_sex_love_stand_2
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
-
     immediate = {
         add_character_flag = bno_tincture_of_genesis.4002
     }
@@ -416,10 +349,7 @@ bno_tincture_of_genesis.4001 = {
         animation = bno_sex_love_stand_2
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
+    
 
     immediate = {
         custom_tooltip = {
@@ -461,11 +391,6 @@ bno_tincture_of_genesis.5002 = {
         animation = bno_sex_love_stand_2
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
-
     immediate = {
         add_character_flag = bno_tincture_of_genesis.5002
     }
@@ -499,10 +424,7 @@ bno_tincture_of_genesis.5001 = {
         animation = bno_sex_love_stand_2
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
+    
 
     immediate = {
         custom_tooltip = {
@@ -544,10 +466,6 @@ bno_tincture_of_genesis.6002 = {
         animation = bno_sex_love_stand_2
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
 
     immediate = {
         add_character_flag = bno_tincture_of_genesis.6002
@@ -585,10 +503,7 @@ bno_tincture_of_genesis.6001 = {
         animation = bno_sex_love_stand_2
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
+    
 
     immediate = {
         custom_tooltip = {

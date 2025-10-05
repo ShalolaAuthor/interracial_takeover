@@ -1321,10 +1321,10 @@ get_hated_non_black_courtier_scope = {
 }
 
 bno_have_sex_with_effects = {
-	play_sound_effect = "event:/bno/moans"
+	#play_sound_effect = "event:/bno/moans"
 	add_character_flag = was_recently_suspected_of_adultery
 	$PARTNER$ = {
-		play_sound_effect = "event:/bno/moans"
+		#play_sound_effect = "event:/bno/moans"
 		add_character_flag = was_recently_suspected_of_adultery 
 	}
 	

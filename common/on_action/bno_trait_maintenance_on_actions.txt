@@ -59,7 +59,7 @@ bno_trait_initialization_pulse = {
 		has_game_rule = bno_seeding_yes
 		has_game_rule = bno_mod_status_on
 	}
-	events = {
-		bno_trait_maintenance.0001
+	effect = {
+		create_story = story_bno_maintenance
 	}
 }
