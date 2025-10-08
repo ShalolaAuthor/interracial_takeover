@@ -1,0 +1,31 @@
+﻿bno_is_slut_injured_trigger = {
+    is_slut = yes
+	OR = {
+		has_trait = lovers_pox
+		has_trait = early_great_pox
+		has_trait = great_pox
+		has_trait = scarred
+		has_trait = blind
+		has_trait = disfigured
+		has_trait = one_legged
+		has_trait = one_eyed
+		has_trait = maimed
+		has_trait = wounded_1
+		has_trait = wounded_2
+		has_trait = wounded_3
+	}
+}
+
+bno_is_bbc_cum_can_heal_trigger = {
+    is_bbc = yes
+	has_trait = bno_seed_of_genesis
+}
+
+bno_is_bbc_has_lovers_pox = {
+	is_bbc = yes
+	OR = {
+		has_trait = lovers_pox
+		has_trait = early_great_pox
+		has_trait = great_pox
+	}
+}

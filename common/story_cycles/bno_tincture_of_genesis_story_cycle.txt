@@ -6,11 +6,21 @@
     on_end = {
         story_owner = {
             remove_variable = bno_tincture_of_genesis_story
+            remove_character_modifier = bno_tincture_of_genesis
+        }
+        var:bull = {
+            remove_character_modifier = bno_nourishers_fatigue
         }
     }
 
     effect_group = {
         days = 7
+
+        trigger = {
+            story_owner = {
+                is_alive = yes
+            }
+        }
         
         first_valid = {
             triggered_effect = {
@@ -44,8 +54,11 @@
                 }
                 effect = {
                     story_owner = {
+                        save_scope_as = story_owner
+                    }
+                    var:bull = {
                         bno_have_sex_with_effects = {
-                            PARTNER = var:bno_tincture_of_genesis_story.var:bull
+                            PARTNER = scope:story_owner
                         }
                     }
                 }

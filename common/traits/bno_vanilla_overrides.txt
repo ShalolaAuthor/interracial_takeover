@@ -1,0 +1,1372 @@
+﻿############### Health ##############
+pregnant = {
+	category = health
+	prowess = -2
+
+	flag = no_message
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_pregnant_desc
+			}
+			desc = trait_pregnant_character_desc
+		}
+	}
+
+	ai_energy = -15
+}
+
+depressed_1 = {
+	category = health
+	group_equivalence = depressed
+	level = 1
+	
+	diplomacy = -1
+	stewardship = -1
+	martial = -1
+	intrigue = -1
+	health = -0.5
+	
+	fertility = -0.1
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_depressed_1_desc
+			}
+			desc = trait_depressed_1_character_desc
+		}
+	}
+
+	ai_energy = -15
+	ai_sociability = medium_negative_ai_value
+}
+
+depressed_genetic = {
+	birth = 0.5
+	random_creation = 0.5
+	genetic = yes
+	category = health
+	group_equivalence = depressed
+	level = 2
+	
+	diplomacy = -1
+	stewardship = -1
+	martial = -1
+	intrigue = -1
+	health = -0.5
+	
+	fertility = -0.1
+
+	shown_in_encyclopedia = no
+	
+	ruler_designer_cost = -20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_depressed_genetic_desc
+			}
+			desc = trait_depressed_genetic_character_desc
+		}
+	}
+
+	ai_energy = -15
+	#ai_sociability = medium_negative_ai_value
+}
+
+lunatic_1 = { # Highly event driven, Schizophrenia
+
+	group_equivalence = lunatic
+	level = 1
+	
+	vassal_opinion = -10
+	attraction_opinion = -10
+	same_opinion = 10
+	enemy_hostile_scheme_phase_duration_add = minor_scheme_phase_duration_malus_value
+	health = -0.25
+	category = health
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_lunatic_1_desc
+			}
+			desc = trait_lunatic_1_character_desc
+		}
+	}
+
+	ai_honor = -10
+	ai_rationality = -200
+	ai_boldness = 50
+}
+
+lunatic_genetic = { # Highly event driven, Schizophrenia
+	birth = 0.5
+	random_creation = 0.5
+	genetic = yes
+	category = health
+
+	group_equivalence = lunatic
+	level = 2
+	health = -0.25
+	
+	vassal_opinion = -10
+	attraction_opinion = -10
+	enemy_hostile_scheme_phase_duration_add = minor_scheme_phase_duration_malus_value
+	same_opinion = 10
+
+	shown_in_encyclopedia = no
+	
+	ruler_designer_cost = -15
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_lunatic_genetic_desc
+			}
+			desc = trait_lunatic_genetic_character_desc
+		}
+	}
+
+	ai_honor = -10
+	ai_rationality = -200
+	ai_boldness = 50
+}
+
+possessed_1 = { # Highly event driven, Temporal lobe epilepsy
+
+	group_equivalence = possessed
+	level = 1
+
+	category = health
+
+	monthly_learning_lifestyle_xp_gain_mult = 0.1
+	health = -0.5
+
+	attraction_opinion = -10
+	same_opinion = 15
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_possessed_1_desc
+			}
+			desc = trait_possessed_1_character_desc
+		}
+	}
+
+	ai_rationality = -30
+	ai_boldness = 25
+	ai_vengefulness = 25
+}
+
+possessed_genetic = { # Highly event driven, Temporal lobe epilepsy
+	birth = 0.5
+	random_creation = 0.5
+	genetic = yes
+	category = health
+
+	group_equivalence = possessed
+	level = 2
+	
+	monthly_learning_lifestyle_xp_gain_mult = 0.1
+	health = -0.5
+
+	attraction_opinion = -10
+	same_opinion = 15
+
+	shown_in_encyclopedia = no
+	
+	ruler_designer_cost = -20
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_possessed_genetic_desc
+			}
+			desc = trait_possessed_genetic_character_desc
+		}
+	}
+
+	ai_rationality = -30
+	ai_boldness = 25
+	ai_vengefulness = 25
+}
+
+ill = {
+	opposites = {
+		pneumonic
+        bno_ill_immunity
+	}
+	
+	health = -1
+	elderly_health = -1
+	prowess = -4
+	fertility = -0.2
+
+	category = health
+
+	dread_baseline_add = -10
+	dread_loss_mult = 1
+	
+	ruler_designer_cost = 0
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ill_desc
+			}
+			desc = trait_ill_character_desc
+		}
+	}
+
+	ai_energy = -25
+}
+
+pneumonic = {
+	opposites = {
+		ill
+        bno_pneumonic_immunity
+	}
+	
+	diplomacy = -2
+	stewardship = -2
+	martial = -2
+	intrigue = -2
+	learning = -2
+	health = -3
+	elderly_health = -2
+	prowess = -8
+	fertility = -0.5
+
+	category = health
+
+	dread_baseline_add = -10
+	dread_loss_mult = 1
+	
+	ruler_designer_cost = 0
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_pneumonic_desc
+			}
+			desc = trait_pneumonic_character_desc
+		}
+	}
+
+	ai_energy = -50
+}
+
+great_pox = { #Syphilis
+    opposites = {
+        bno_great_pox_immunity
+    }
+	inherit_chance = 10
+	
+	diplomacy = -1
+	stewardship = -1
+	martial = -1
+	intrigue = -1
+	learning = -1
+	health = -1
+	fertility = -0.2
+
+	category = health
+	
+	dread_baseline_add = -20
+	dread_loss_mult = 1
+
+	attraction_opinion = -10
+	
+	ruler_designer_cost = -10
+
+	flag = illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_great_pox_desc
+			}
+			desc = trait_great_pox_character_desc
+		}
+	}
+
+	ai_energy = -15
+}
+
+early_great_pox = { #Great pox, but looks like lover's pox
+    opposites = {
+        bno_early_great_pox_immunity
+    }
+	dread_baseline_add = -5	#Mimic's Lover's Pox loss at this stage.
+
+	attraction_opinion = -20
+	category = health
+	
+	shown_in_ruler_designer = no
+	shown_in_encyclopedia = no
+
+	flag = illness
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_early_great_pox_desc
+			}
+			desc = trait_early_great_pox_character_desc
+		}
+	}
+}
+
+lovers_pox = {
+    opposites = {
+        bno_lovers_pox_immunity
+    }
+	inherit_chance = 10
+	
+	dread_baseline_add = -5
+
+	attraction_opinion = -20
+	category = health
+	
+	ruler_designer_cost = 0
+
+	flag = illness
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_lovers_pox_desc
+			}
+			desc = trait_lovers_pox_character_desc
+		}
+	}
+}
+
+leper = {
+    opposites = {
+        bno_leper_immunity
+    }
+	health = -1.5
+	prowess = -8
+	fertility = -0.95
+	category = health
+
+	dread_baseline_add = -20
+	dread_loss_mult = 1
+
+	attraction_opinion = -35
+	general_opinion = -10
+	
+	ruler_designer_cost = -30
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_leper_desc
+			}
+			desc = trait_leper_character_desc
+		}
+	}
+
+	ai_energy = -15
+}
+
+# 'Wounded'
+wounded_1 = {
+	martial = -1
+	intrigue = -1
+	health = -1
+	prowess = -2
+	category = health
+
+	dread_baseline_add = -10
+	dread_loss_mult = 1
+
+	disables_combat_leadership = yes
+	
+	shown_in_ruler_designer = no
+
+	flag = no_message
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_wounded_1_desc
+			}
+			desc = trait_wounded_1_character_desc
+		}
+	}
+
+	ai_energy = -20
+
+	group = wounded
+	level = 1
+}
+
+# 'Severly Injured'
+wounded_2 = {
+	martial = -2
+	intrigue = -2
+	health = -2
+	prowess = -4
+	fertility = -0.25
+	category = health
+
+	dread_baseline_add = -15
+	dread_loss_mult = 1
+	
+	attraction_opinion = -10
+
+	disables_combat_leadership = yes
+	
+	shown_in_ruler_designer = no
+
+	flag = no_message
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_wounded_2_desc
+			}
+			desc = trait_wounded_2_character_desc
+		}
+	}
+
+	ai_energy = -30
+	
+	group = wounded
+	level = 2
+}
+
+# 'Near Death'
+wounded_3 = {
+	martial = -4
+	intrigue = -4
+	health = -4
+	prowess = -8
+	fertility = -0.75
+	category = health
+
+	dread_baseline_add = -20
+	dread_loss_mult = 1
+
+	attraction_opinion = -20
+	
+	disables_combat_leadership = yes
+	
+	shown_in_ruler_designer = no
+
+	flag = no_message
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_wounded_3_desc
+			}
+			desc = trait_wounded_3_character_desc
+		}
+	}
+
+	ai_energy = -40
+	
+	group = wounded
+	level = 3
+}
+
+maimed = {
+	
+	diplomacy = -2
+	martial = -2
+	stewardship = -2
+	intrigue = -2
+	learning = -2
+	prowess = -4
+	
+	culture_modifier = {
+		parameter = wounds_and_scars_give_bonuses
+		monthly_prestige_gain_mult = 0.2
+		same_culture_opinion = 15
+	}
+
+	culture_modifier = {
+		parameter = palace_politics_trait_maluses
+		monthly_influence = -0.35
+	}
+
+	category = health
+
+	dread_baseline_add = -15
+	dread_loss_mult = 1
+	
+	attraction_opinion = -10
+	
+	same_opinion = 5
+	
+	shown_in_ruler_designer = no
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_maimed_desc
+			}
+			desc = trait_maimed_character_desc
+		}
+	}
+}
+
+one_eyed = {
+	category = health
+	learning = 1
+	prowess = -2
+	
+	dread_baseline_add = 10
+
+	attraction_opinion = -5
+	
+	culture_modifier = {
+		parameter = wounds_and_scars_give_bonuses
+		monthly_prestige_gain_mult = 0.1
+		same_culture_opinion = 5
+	}
+
+	culture_modifier = {
+		parameter = palace_politics_trait_maluses
+		monthly_influence = -0.35
+	}
+	
+	ruler_designer_cost = 10
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_one_eyed_desc
+			}
+			desc = trait_one_eyed_character_desc
+		}
+	}
+
+	ai_energy = -10
+}
+
+one_legged = {
+	category = health
+	learning = 1
+	prowess = -4
+	
+	dread_baseline_add = -10
+
+	attraction_opinion = -10
+	
+	culture_modifier = {
+		parameter = wounds_and_scars_give_bonuses
+		monthly_prestige_gain_mult = 0.15
+		same_culture_opinion = 10
+	}
+
+	culture_modifier = {
+		parameter = palace_politics_trait_maluses
+		monthly_influence = -0.35
+	}
+	
+	ruler_designer_cost = -5
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_one_legged_desc
+			}
+			desc = trait_one_legged_character_desc
+		}
+	}
+
+	ai_energy = -10
+}
+
+disfigured = {
+	category = health
+	diplomacy = -4
+	fertility = -0.2
+	
+	#No dread loss: you're not actually worse for wear physically or mentally.
+
+	attraction_opinion = -20
+
+	culture_modifier = {
+		parameter = wounds_and_scars_give_bonuses
+		monthly_prestige_gain_mult = 0.15
+		same_culture_opinion = 10
+	}
+	
+	culture_modifier = {
+		parameter = palace_politics_trait_maluses
+		monthly_influence = -1
+	}
+	
+	ruler_designer_cost = -10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_disfigured_desc
+			}
+			desc = trait_disfigured_character_desc
+		}
+	}
+
+	ai_sociability = low_negative_ai_value
+}
+
+infirm = {
+	diplomacy = -3
+	martial = -3
+	stewardship = -3
+	intrigue = -3
+	learning = -3
+	prowess = -6
+	health = -1
+	fertility = -0.3
+
+	dread_baseline_add = -15
+	dread_loss_mult = 1
+
+	category = health
+
+	disables_combat_leadership = yes
+	
+	ruler_designer_cost = -20
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_infirm_desc
+			}
+			desc = trait_infirm_character_desc
+		}
+	}
+
+	ai_energy = -30
+}
+
+incapable = {
+	diplomacy = -6
+	intrigue = -6
+	stewardship = -6
+	martial = -6
+	learning = -6
+	prowess = -12
+	health = -2
+	fertility = -0.3
+	
+	dread_baseline_add = -25
+	dread_loss_mult = 1
+	category = health
+
+	incapacitating = yes
+	
+	can_have_children = no
+
+	disables_combat_leadership = yes
+	
+	shown_in_ruler_designer = no
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_incapable_desc
+			}
+			desc = trait_incapable_character_desc
+		}
+	}
+
+	ai_energy = -100
+}
+
+gout_ridden = {
+    opposites = {
+        bno_gout_ridden_immunity
+    }
+	diplomacy = -2
+	martial = -1
+	prowess = -2
+	health = -1
+	
+	dread_baseline_add = -5
+	category = health
+	attraction_opinion = -15
+	
+	ruler_designer_cost = -5
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_gout_ridden_desc
+			}
+			desc = trait_gout_ridden_character_desc
+		}
+	}
+
+	ai_energy = -15
+}
+
+consumption = { # Tuberculosis
+    opposites = {
+        bno_consumption_immunity
+    }
+	diplomacy = -2
+	stewardship = -1
+	intrigue = -2
+	prowess = -2
+	health = -2.5
+	child_health = -1
+	elderly_health = -2
+	category = health
+
+	dread_baseline_add = -10
+	dread_loss_mult = 1
+
+	attraction_opinion = -10
+	
+	ruler_designer_cost = 0
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_consumption_desc
+			}
+			desc = trait_consumption_character_desc
+		}
+	}
+
+	ai_energy = -50
+}
+
+cancer = {
+    opposites = {
+        bno_cancer_immunity
+    }
+	health = -3
+	elderly_health = -1
+	fertility = -0.20
+	category = health
+
+	dread_baseline_add = -15
+	dread_loss_mult = 1
+	
+	ruler_designer_cost = -10
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_cancer_desc
+			}
+			desc = trait_cancer_character_desc
+		}
+	}
+
+	ai_energy = -25
+}
+
+typhus = {
+    opposites = {
+        bno_typhus_immunity
+    }
+	diplomacy = -1
+	stewardship = -2
+	intrigue = -1
+	learning = -2
+	prowess = -4
+	health = -4.5
+	elderly_health = -1
+	fertility = -0.2
+
+	category = health
+
+	dread_baseline_add = -15
+	dread_loss_mult = 1
+
+	attraction_opinion = -10
+	
+	ruler_designer_cost = 0
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_typhus_desc
+			}
+			desc = trait_typhus_character_desc
+		}
+	}
+
+	ai_energy = -50
+}
+
+bubonic_plague = {
+    opposites = {
+        bno_bubonic_plague_immunity
+    }
+	diplomacy = -2
+	martial = -3
+	stewardship = -2
+	intrigue = -3
+	learning = -2
+	prowess = -10
+	health = -7
+	elderly_health = -2
+	fertility = -0.50
+
+	category = health
+	
+	dread_baseline_add = -30
+	dread_loss_mult = 1
+
+	attraction_opinion = -30
+	
+	shown_in_ruler_designer = no
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_bubonic_plague_desc
+			}
+			desc = trait_bubonic_plague_character_desc
+		}
+	}
+
+	ai_energy = -75
+}
+
+smallpox = {
+    opposites = {
+        bno_smallpox_immunity
+    }
+	diplomacy = -2
+	stewardship = -1
+	learning = -2
+	prowess = -10
+	health = -4.5
+	elderly_health = -1.5
+	fertility = -0.25
+
+	category = health
+	
+	dread_baseline_add = -15
+	dread_loss_mult = 1
+
+	attraction_opinion = -10
+	
+	ruler_designer_cost = 0
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_smallpox_desc
+			}
+			desc = trait_smallpox_character_desc
+		}
+	}
+
+	ai_energy = -75
+}
+
+measles = {
+    opposites = {
+        bno_measles_immunity
+    }
+	diplomacy = -2
+	stewardship = -1
+	intrigue = -1
+	learning = -2
+	prowess = -4
+	health = -3
+	child_health = -3
+
+	category = health
+	
+	dread_baseline_add = -5
+
+	attraction_opinion = -10
+	
+	ruler_designer_cost = 0
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_measles_desc
+			}
+			desc = trait_measles_character_desc
+		}
+	}
+
+	ai_energy = -75
+}
+
+dysentery = { # Bloody Flux
+    opposites = {
+        bno_dysentery_immunity
+    }
+	diplomacy = -2
+	martial = -1
+	intrigue = -2
+	prowess = -8
+	health = -3.5
+	elderly_health = -2
+
+	category = health
+	
+	dread_baseline_add = -50
+
+	attraction_opinion = -5
+	
+	ruler_designer_cost = 0
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_dysentery_desc
+			}
+			desc = trait_dysentery_character_desc
+		}
+	}
+
+	ai_energy = -75
+}
+
+ergotism = { # Holy Fire
+    opposites = {
+        bno_ergotism_immunity
+    }
+	diplomacy = -6
+	stewardship = -1
+	intrigue = -2
+	learning = -2
+	health = -3.5
+
+	category = health
+	
+	dread_baseline_add = -25
+
+	attraction_opinion = -10
+	
+	ruler_designer_cost = 0
+
+	flag = illness
+	flag = debilitating_illness
+	flag = blocks_getting_non_epidemic_disease
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_ergotism_desc
+			}
+			desc = trait_ergotism_character_desc
+		}
+	}
+
+	ai_energy = -75
+}
+
+# Young children only
+sickly = {
+    opposites = {
+        bno_sickly_immunity
+    }
+	maximum_age = 6
+	child_health = -2.5
+
+	category = health
+
+	dread_baseline_add = -20
+	dread_loss_mult = 1
+	
+	shown_in_ruler_designer = no
+
+	flag = illness
+	flag = debilitating_illness
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_sickly_desc
+			}
+			desc = trait_sickly_character_desc
+		}
+	}
+
+	ai_energy = -30
+}
+
+# The character is visibly scarred from an old wound
+scarred = {
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					trigger_if = {
+						limit = {
+							NOT = { exists = this }
+						}
+					}
+					trigger_else_if = {
+						limit = { has_trait = scarred }
+						has_trait_xp = {
+							trait = scarred
+							track = scarred
+							value < 50
+						}
+					}
+					trigger_else = {
+						NOT = { has_trait = scarred }
+					}
+				}
+				desc = trait_scarred
+			}
+			triggered_desc = {
+				trigger = {
+					has_trait = scarred
+					has_trait_xp = {
+						trait = scarred
+						track = scarred
+						value = 100
+					}
+				}
+				desc = trait_scarred_3
+			}
+			desc = trait_scarred_2
+		}
+	}
+
+	monthly_prestige = 0.1
+	
+	attraction_opinion = 5
+	
+	culture_modifier = {
+		parameter = wounds_and_scars_give_bonuses
+		monthly_prestige_gain_mult = 0.1
+		same_culture_opinion = 5
+	}
+	
+	category = health
+	
+	ruler_designer_cost = 10
+	
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_scarred_desc
+			}
+			desc = trait_scarred_character_desc
+		}
+	}
+
+	tracks = {
+		scarred = {
+			trait_second_level = { # Gnarled
+				monthly_prestige = 0.05
+				attraction_opinion = -5
+				child_opinion = -10
+				health = -0.1
+			}
+			trait_third_level = { # Marred
+				attraction_opinion = -20
+				child_opinion = -20
+				health = -0.1
+				dread_gain_mult = 0.1
+			}
+		}
+	}
+}
+
+#This is the normal eunuch trait (for eunuchs castrated as teens/adults)
+eunuch_1 = { 
+	category = health
+	group_equivalence = eunuch
+	attraction_opinion = -10
+	glory_hound_opinion = -10
+
+	flag = can_not_marry
+	inheritance_blocker = all
+	claim_inheritance_blocker = all
+	can_have_children = no
+	opposites = {
+		beardless_eunuch #You can't have both
+	}
+	
+	shown_in_ruler_designer = yes
+
+	culture_modifier = {
+		parameter = eunuch_trait_bonuses
+
+		# Eunuchs were historically considered to be both innocuous as well as duplicitous. This semi-paradoxical belief made rulers favor them for various court positions, especially ones close to their family.
+		liege_opinion = 10
+		ai_honor = -10
+
+		# Simultaneously, eunuchs were seen as unfit to hold leadership positions, as they are impotent.
+		vassal_opinion = -10
+		ai_greed = -10
+
+		# Eunuchs in this society have various privileges (due to their assumed innocuousness) that make them better at both spying as well as administrative tasks and scholastic pursuits.
+		stewardship = 2
+		intrigue = 2
+		learning = 2
+		monthly_influence_mult = 0.5
+	}
+
+	ruler_designer_cost = -10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_eunuch_1_desc
+			}
+			desc = trait_eunuch_1_character_desc
+		}
+	}
+
+	ai_energy = -15
+
+	level = 1
+}
+
+beardless_eunuch = {
+	category = health
+	group_equivalence = eunuch
+	attraction_opinion = -10
+	glory_hound_opinion = -20
+
+	opposites = {
+		eunuch_1 #You can't have both
+	}
+
+	flag = can_not_marry
+	inheritance_blocker = all
+	claim_inheritance_blocker = all
+	can_have_children = no
+	
+	shown_in_ruler_designer = yes
+
+	prowess = -4
+
+	culture_modifier = {
+		parameter = eunuch_trait_bonuses
+
+		# Eunuchs were historically considered to be both innocuous as well as duplicitous. This semi-paradoxical belief made rulers favor them for various court positions, especially ones close to their family.
+		liege_opinion = 20
+		ai_honor = -15
+
+		# Simultaneously, eunuchs were seen as unfit to hold leadership positions, as they are impotent.
+		vassal_opinion = -10
+		ai_greed = -15
+
+		# Eunuchs in this society have various privileges (due to their assumed innocuousness) that make them better at both spying as well as administrative tasks and scholastic pursuits.
+		stewardship = 2
+		intrigue = 2
+		learning = 2
+		monthly_influence_mult = 0.5
+		monthly_influence = 0.1
+	}
+
+	ruler_designer_cost = -15
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_beardless_eunuch_desc
+			}
+			desc = trait_beardless_eunuch_character_desc
+		}
+	}
+
+	ai_energy = -25
+	ai_boldness = -10
+
+	level = 2
+}
+
+blind = {
+	category = health
+	martial = -6
+	stewardship = -2
+	intrigue = -2
+	prowess = -10
+	health = -0.25
+	
+	dread_baseline_add = -10
+
+	attraction_opinion = -10
+	
+	ruler_designer_cost = -10
+
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = {
+					NOT = { exists = this }
+				}
+				desc = trait_blind_desc
+			}
+			desc = trait_blind_character_desc
+		}
+	}
+}

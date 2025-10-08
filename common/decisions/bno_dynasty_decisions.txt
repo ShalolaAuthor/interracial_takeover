@@ -301,6 +301,10 @@ bno_build_bbc_trader_decision = {
 				title_province = {
 					add_special_building_slot  = bbc_trader_01
 					add_special_building = bbc_trader_01
+					add_to_global_variable_list = {
+						name = bbc_trader
+						target = this
+					}
 				}
 			}
 		}

@@ -18,6 +18,8 @@ carn_on_sex_v2 = {
 		bno_set_recent_sex_partner
 		bno_on_sex
 		bno_seed_of_genesis_sex
+		bno_bbc_immunity
+		bno_curing_cum
 	}
 }
 
@@ -190,6 +192,81 @@ bno_slut_on_sex = {
 		scope:carn_sex_partner = {
 			bno_bbc_sex = {
 				PARTNER = scope:carn_sex_player
+			}
+		}
+	}
+}
+
+bno_bbc_immunity = {
+	trigger = {
+		OR = {
+			scope:carn_sex_player ?= {
+				bno_is_bbc_has_lovers_pox = yes
+			}
+			scope:carn_sex_partner ?= {
+				bno_is_bbc_has_lovers_pox = yes
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				scope:carn_sex_player ?= {
+					bno_is_bbc_has_lovers_pox = yes
+				}
+			}
+			scope:carn_sex_player ?= {
+				bno_bbc_immunity_effect = yes
+			}
+		}
+		else = {
+			scope:carn_sex_partner ?= {
+				bno_bbc_immunity_effect = yes
+			}
+		}
+	}
+}
+
+bno_curing_cum = {
+	trigger = {
+		OR = {
+			AND = {
+				scope:carn_sex_player ?= {
+					bno_is_slut_injured_trigger = yes
+				}
+				scope:carn_sex_partner ?= {
+					bno_is_bbc_cum_can_heal_trigger = yes
+				}
+			}
+			AND = {
+				scope:carn_sex_partner ?= {
+					bno_is_slut_injured_trigger = yes
+				}
+				scope:carn_sex_player ?= {
+					bno_is_bbc_cum_can_heal_trigger = yes
+				}
+			}
+		}
+	}
+	effect = {
+		if = {
+			limit = {
+				scope:carn_sex_player ?= {
+					bno_is_slut_injured_trigger = yes
+				}
+				scope:carn_sex_partner ?= {
+					bno_is_bbc_cum_can_heal_trigger = yes
+				}
+			}
+			bno_heal_injury_effect = {
+				SLUT = scope:carn_sex_player
+				BBC = scope:carn_sex_partner
+			}
+		}
+		else = {
+			bno_heal_injury_effect = {
+				SLUT = scope:carn_sex_partner
+				BBC = scope:carn_sex_player
 			}
 		}
 	}

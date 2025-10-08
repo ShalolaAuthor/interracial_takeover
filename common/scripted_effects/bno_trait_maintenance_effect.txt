@@ -312,7 +312,7 @@ bno_influence_child_trait_maintenance_effect = {
 }
 
 bno_cage_prisoner_trait_maintenance_option = {
-	scope:recipient = {
+	scope:recipient ?= {
         bno_caged_effect = {
             CAGER = scope:actor
         }
@@ -357,10 +357,10 @@ bno_use_tincture_of_genesis = {
 }
 
 bno_castrate_prisoner_option = {
-	scope:actor = {
+	scope:actor ?= {
 		bno_use_tincture_of_genesis = yes
 	}
-	scope:recipient = {
+	scope:recipient ?= {
         bno_castrated_effect = yes
         # TODO: add custom opinion later
         add_opinion = {
@@ -416,10 +416,10 @@ bno_castrate_prisoner_trait_maintenance_effect = {
 }
 
 bno_recruit_prisoner_effect = {
-	scope:actor = {
+	scope:actor ?= {
         if = {
             limit = {
-                scope:recipient = { 
+                scope:recipient ?= { 
                     NOT = { is_courtier_of = scope:actor }
                     is_ruler = no
                 }
@@ -485,7 +485,6 @@ bno_enslave_prisoner_option = {
             scope:bbc_master = {
                 set_relation_bno_slave = scope:recipient
             }
-            set_relation_bno_slave = scope:recipient
         }
     }
 }

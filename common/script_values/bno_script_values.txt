@@ -80,12 +80,7 @@ bno_cum_addiction_random_xp_positive = {
 
 #negative is blonder
 hair_color_x = {
-	value = {
-		integer_range = {
-			min = -1
-			max = 1
-		}
-   	}
+	value = -1
    	multiply = bno_genesis_transformation_amount
    	multiply = 0.1
 	min = -1

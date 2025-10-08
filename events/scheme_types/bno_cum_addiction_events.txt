@@ -517,6 +517,11 @@ bno_cum_addiction.0004 = {
         animation = sex_combined
     }
 
+    trigger = {
+        scope:owner ?= { is_alive = yes }
+        scope:target ?= { is_alive = yes }
+    }
+
     immediate = {
         bno_bbc_cum_addiction_random_narrative = yes
         bno_sex_scene_start = {
