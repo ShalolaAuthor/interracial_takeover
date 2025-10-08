@@ -607,6 +607,19 @@ bno_get_caravan_shop_keeper = {
         }
         if = {
             limit = {
+                has_global_variable_list = bno_bbc_trader
+            }
+            every_in_global_list = {
+                variable = bno_bbc_trader
+                limit = { is_alive = no }
+                remove_list_global_variable = {
+                    name = bno_bbc_trader
+                    target = this
+                }
+            }
+        }
+        if = {
+            limit = {
                 global_variable_list_size = {
                     name = bno_bbc_trader
                     value <= 0

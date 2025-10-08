@@ -1,0 +1,78 @@
+﻿bno_remove_injury_from_slut_effect = {
+    switch = {
+		trigger = has_trait
+		lovers_pox = {
+			remove_trait = lovers_pox
+			add_trait = bno_lovers_pox_immunity
+		}
+		early_great_pox = {
+			remove_trait = early_great_pox
+			add_trait = bno_early_great_pox_immunity
+		}
+		great_pox = {
+			remove_trait = great_pox
+			add_trait = bno_great_pox_immunity
+		}
+		scarred = { remove_trait = scarred }
+		blind = { remove_trait = blind }
+		disfigured = { remove_trait = disfigured }
+		one_legged = { remove_trait = one_legged }
+		one_eyed = { remove_trait = one_eyed }
+		maimed = { remove_trait = maimed }
+		wounded_1 = { remove_trait = wounded_1 }
+		wounded_2 = { remove_trait = wounded_2 }
+		wounded_3 = { remove_trait = wounded_3 }
+	}
+}
+
+bno_heal_injury_effect = {
+    $SLUT$ ?= {
+		send_interface_message = {
+			type = bno_blacked_events
+			title = bno_curing_cum.female.title
+			desc = bno_curing_cum.female.desc
+            right_icon = $BBC$
+			bno_remove_injury_from_slut_effect = yes
+            add_character_modifier = bno_healed_by_seed_of_genesis_cum
+		}
+	}
+	$BBC$ ?= {
+		send_interface_message = {
+			type = bno_blacked_events
+			title = bno_curing_cum.male.title
+			desc = bno_curing_cum.male.desc
+            right_icon = $SLUT$
+			show_as_tooltip = { bno_remove_injury_from_slut_effect = yes }
+            add_character_modifier = bno_healing_seed_of_genesis_bull
+		}
+	}
+}
+
+bno_bbc_immunity_effect = {
+	save_scope_as = bno_bbc_immunity_effect_scope
+	send_interface_message = {
+		type = bno_blacked_events
+		title = bno_bbc_immunity.title
+		desc = bno_bbc_immunity.desc
+		right_icon = scope:bno_bbc_immunity_effect_scope
+		bno_remove_pox_from_bbc_effect = yes
+	}
+}
+
+bno_remove_pox_from_bbc_effect = {
+	switch = {
+		trigger = has_trait
+		lovers_pox = {
+			remove_trait = lovers_pox
+			add_trait = bno_lovers_pox_immunity
+		}
+		early_great_pox = {
+			remove_trait = early_great_pox
+			add_trait = bno_early_great_pox_immunity
+		}
+		great_pox = {
+			remove_trait = great_pox
+			add_trait = bno_great_pox_immunity
+		}
+	}
+}

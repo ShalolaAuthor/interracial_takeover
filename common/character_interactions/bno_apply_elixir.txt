@@ -176,7 +176,7 @@
             scope:actor = {
                 custom_tooltip = {
                     text = bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.actor.tooltip
-                    trigger_event = bno_apply_elixir.0002
+                    #trigger_event = bno_apply_elixir.0002
                 }
             }
             scope:recipient = {

@@ -36,23 +36,6 @@ bno_bull.0001 = {
 		animation = eavesdrop
 	}
 	
-	cooldown = { months = { 24 36 } }
-	trigger = {
-		is_blackbull = yes
-		liege ?= {
-			is_ai_white_guy_married = yes
-			NOT = { has_character_flag = bno_bull.0001 } #prevent cuck from getting spammed too much if he has many bbc courtiers
-			is_spouse_blacked = yes
-		}
-	}
-	immediate = {
-		liege = {
-			save_scope_as = target1
-			get_blacked_wife_scope = {
-				SCOPE_NAME = target2
-			}
-		}
-	}
 	option = {
 		name = bno_bull_0001.a
 		
@@ -134,24 +117,6 @@ bno_bull.0002 = {
 		}
 	}
 	
-	cooldown = { months = { 12 18 } }
-	
-	trigger = {
-		is_ruler = yes
-		is_blackbull = yes
-		is_stressed_out = yes
-		does_blacked_girl_exist = yes
-	}
-	
-	immediate = {
-		get_blacked_girl_scope = {
-			SCOPE_NAME = target1
-		}
-		bno_have_sex_with_effects = {
-			PARTNER = scope:target1
-		}
-	}
-	
 	option = { #used slut to remove stress
 		name = bno_bull_0002.a
 		
@@ -197,19 +162,6 @@ bno_bull.0003 = {
 		}
 	}
 	
-	cooldown = { months = { 8 12 } }
-	
-	trigger = {
-		is_blackbull = yes
-		is_ruler = yes
-		does_blacked_with_eating_disorder_exist = yes
-	}
-	
-	immediate = {
-		get_blacked_girl_with_eating_disorder_scope = {
-			SCOPE_NAME = target1
-		}
-	}
 	option = {
 		name = bno_bull_0003.a
 		ai_chance = {
@@ -412,20 +364,8 @@ bno_bull.0004 = {
 			}
 		}
 	}
-	
-	cooldown = { months = { 8 12 } }
-	
-	trigger = {
-		has_dynasty = yes
-		is_ruler = yes
-		is_blackbull = yes
-		does_pure_whitegirl_exist = yes
-	}
 
 	immediate = {
-		get_pure_whitegirl_scope = {
-			SCOPE_NAME = target1
-		}
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
@@ -474,18 +414,7 @@ bno_bull.0005 = {
 			}
 		}
 	}
-
-	cooldown = { months = { 36 48 } }
-
-	trigger = {
-		is_ruler = yes
-		is_blackbull = yes
-		does_wandering_curious_whitegirl_exist = yes
-	}
 	immediate = {
-		get_wandering_curious_whitegirl_scope = {
-			SCOPE_NAME = target1
-		}
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
@@ -521,19 +450,7 @@ bno_bull.0006 = {
 			}
 		}
 	}
-	cooldown = { months = { 12 24 } }
-	trigger = {
-		is_ruler = yes
-		is_blackbull = yes
-		does_hated_non_black_courtier_exist = yes
-		has_chastity_cage_artifact = yes
-	}
-	immediate = {
-		save_scope_as = cager
-		get_hated_non_black_courtier_scope = {
-			SCOPE_NAME = target1
-		}
-	}
+
 	option = {
 		name = bno_bull_0006.a
 		scope:target1 ?= {
@@ -556,11 +473,6 @@ bno_bull.0007 = {
 	left_portrait = {
 		character = root
 		animation = marshal
-	}
-	trigger = {
-		is_ruler = yes
-		is_blackbull = yes
-		NOT = { has_trait = strong }
 	}
 	option = {
 		name = bno_bull_0007.a
@@ -593,20 +505,7 @@ bno_bull.0008 = {
 		character = root
 		animation = personality_content
 	}
-	
-	cooldown = { months = { 8 12 } }
-	
-	trigger = {
-		is_blackbull = yes
-		does_blacked_peasant_exist = yes
-		does_wandering_male_exist = yes
-	}
-	immediate = {
-		get_blacked_peasant_scope = {
-			SCOPE_NAME = target1
-		}
-		find_5_sex_partner = yes
-	}
+
 	option = {
 		name = bno_bull_0008.a
 		ai_chance = {
@@ -670,21 +569,7 @@ bno_bull.0009 = {
 		character = root
 		animation = personality_content
 	}
-
-	cooldown = { months = { 12 18 } }
-
-	trigger = {
-		is_ruler = yes
-		is_blackbull = yes
-		does_blacked_noble_exist = yes
-		does_wandering_male_exist = yes
-	}
-	immediate = {
-		get_blacked_noble_scope = {
-			SCOPE_NAME = target1
-		}
-		find_5_sex_partner = yes
-	}
+	
 	option = {
 		name = bno_bull_0008.a
 		ai_chance = {
@@ -763,11 +648,7 @@ bno_bull.0010 = {
 			}
 		}
 	}
-	cooldown = {months = { 12 18 } }
-	trigger = {
-		is_blackbull = yes
-		does_white_guy_liege_has_money = yes
-	}
+
 	immediate = {
 		liege ?= {
 			save_scope_as = target2
@@ -821,22 +702,7 @@ bno_bull.0012 = {
 			}
 		}
 	}
-	cooldown = {months = { 12 18 } }
-	trigger = {
-		is_blackbull = yes
-		is_ruler = yes
-		does_secret_haver_exist = yes
-	}
-	immediate = {
-		get_secret_haver_scope = {
-			SCOPE_NAME = target1
-		}
-		scope:target1 ?= {			#identify spouse for loc and notifications
-			get_white_husband_with_secret_scope = {
-				SCOPE_NAME = target2
-			}
-		}
-	}
+
 	option = {
 		name = bno_bull_0012.a
 		scope:target1 ?= {					#also reveal woman's secrets if she had any
@@ -880,16 +746,8 @@ bno_bull.0013 = {
 			}
 		}
 	}
-	cooldown = {months = { 12 18 } }
-	trigger = {
-		is_blackbull = yes
-		is_ruler = yes
-		is_partner_not_blacked_enough = yes
-	}
+	
 	immediate = {
-		get_not_blacked_enough_spouse = {
-			SCOPE_NAME = target1
-		}
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
 		}
@@ -922,23 +780,7 @@ bno_bull.0014 = {
 		animation = toast_goblet
 		
 	}
-	cooldown = { months = { 12 18 } }
-	trigger = {
-		is_blackbull = yes
-		is_ruler = yes
-		allowed_more_spouses = yes
-		does_good_looking_ai_foreign_lady_exist = yes
-	}
-	immediate = {
-		get_married_pure_girl_scope = {
-			SCOPE_NAME = target1
-		}
-		scope:target1 ?= {
-			get_white_husband_scope = {
-				SCOPE_NAME = target2
-			}
-		}
-	}
+	
 	option = { #fuck her and done focus
 		name = bno_bull_0014.a
 		ai_chance = {
@@ -1043,7 +885,7 @@ bno_bull.1014 = { #follow up event, fuck and done
 
 	trigger = {
 		is_alive = yes
-		scope:target1 = {
+		scope:target1 ?= {
 			is_alive = yes
 		}
 	}
@@ -1096,7 +938,7 @@ bno_bull.2014 = { #follow up event, fuck and become lovers
 
 	trigger = {
 		is_alive = yes
-		scope:target1 = {
+		scope:target1 ?= {
 			is_alive = yes
 		}
 	}
@@ -1193,26 +1035,7 @@ bno_bull.0015 = {
 		character = root
 		animation = personality_content
 	}
-
-	cooldown = {
-		months = { 12 18 }
-	}
-
-	trigger = {
-		is_blackbull = yes
-		is_ruler = yes
-		does_white_vassal_has_non_blacked_wife = yes
-	}
-	immediate = {
-		get_white_vassal_with_non_blacked_wife_scope = {
-			SCOPE_NAME = target1
-		}
-		scope:target1 ?= {
-			get_pure_wife_scope = {
-				SCOPE_NAME = target2
-			}
-		}
-	}
+	
 	option = { #let her long for bbc
 		name = bno_bull_0015.a
 		scope:target2 ?= {
@@ -1240,28 +1063,7 @@ bno_bull.0016 = {
 		character = root
 		animation = personality_content
 	}
-
-	cooldown = {
-		months = { 12 18 }
-	}
-
-	trigger = {
-		is_ruler = yes
-		is_blackbull = yes
-		any_spouse = {
-			NOT = { has_character_flag = bimbo }
-			is_bno_mindless_bbc_slut = yes
-		}
-	}
-	immediate = {
-		random_spouse = {
-			limit = {
-				NOT = { has_character_flag = bimbo }
-				is_bno_mindless_bbc_slut = yes
-			}
-			save_scope_as = target1
-		}
-	}
+	
 	option = { #make her a bimbo. Cosmetic only.
 		name = bno_bull_0016.a
 		scope:target1 ?= {

@@ -34,7 +34,8 @@ bno_caravan_pulse = {
 
 bno_caravan_on_action = {
     effect = {
-        every_province = {
+        every_in_global_list = {
+            variable = bbc_trader
             limit = {
                 NOT = { has_variable = bno_caravan_open }
                 NOT = { has_variable = bno_caravan_cooldown }
@@ -52,7 +53,8 @@ bno_caravan_on_action = {
                 days = { 60 180 }
             }
         }
-        every_province = {
+        every_in_global_list = {
+            variable = bbc_trader
             limit = {
                 NOT = { has_variable = bno_caravan_open }
                 NOT = { has_variable = bno_caravan_cooldown }
@@ -70,7 +72,8 @@ bno_caravan_on_action = {
                 days = { 60 90 }
             }
         }
-        every_province = {
+        every_in_global_list = {
+            variable = bbc_trader
             limit = {
                 NOT = { has_variable = bno_caravan_open }
                 NOT = { has_variable = bno_caravan_cooldown }

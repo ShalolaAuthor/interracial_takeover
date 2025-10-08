@@ -28,7 +28,11 @@ bno_is_a_white_girl = {
 
 bno_not_a_bbc_slave = {
 	bno_is_a_white_girl = yes
-	NOT = { has_trait = bno_slave }
+	NOT = {
+		any_relation = {
+			type = bno_slave_owner
+		}
+	}
 }
 
 bno_is_valid_target_for_cure_disease = {
@@ -102,6 +106,7 @@ bno_is_valid_target_for_sneak_bbc = {
 		bno_adult_bbc_actor_trigger = yes
 		count < 2
 	}
+	NOT = { this = scope:actor }
 }
 
 bno_is_valid_bbc_for_tincture_of_genesis = {

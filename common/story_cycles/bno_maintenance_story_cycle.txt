@@ -1,14 +1,43 @@
 ﻿story_bno_maintenance = {
     on_setup = {
         story_owner = {
-            #one time
-            bno_apply_african_trait = yes
-            bno_apply_bbc_trait = yes
-            bno_make_bbc_trait_inactive = yes
-            bno_apply_pussy_mileage_trait = yes
-            bno_apply_body_trait = yes
-            bno_remove_bbc_from_non_african = yes
-            bno_seed_breast_size_variable = yes
+			if = {
+				limit = {
+					is_alive = yes
+				}
+				#one time
+            	bno_apply_african_trait = yes
+            	bno_apply_bbc_trait = yes
+            	bno_make_bbc_trait_inactive = yes
+            	bno_apply_pussy_mileage_trait = yes
+            	bno_apply_body_trait = yes
+            	bno_remove_bbc_from_non_african = yes
+            	bno_seed_breast_size_variable = yes
+				if = {
+					limit = {
+						is_a_male = yes
+						is_bbc = no
+						is_adult = yes
+					}
+					create_story = story_bno_cuck
+				}
+				if = {
+					limit = {
+						is_a_male = yes
+						is_bbc = yes
+						is_adult = yes
+					}
+					create_story = story_bno_bull
+				}
+				if = {
+					limit = {
+						is_a_girl = yes
+						is_african = no
+						is_adult = yes
+					}
+					create_story = story_bno_slut
+				}
+			}
         }
     }
 
@@ -18,7 +47,7 @@
 
     #recurring maintenance for ai
     effect_group = {
-        months = 1
+        days = { 30 60 }
         trigger = {
             story_owner = { is_ai = yes }
         }
@@ -942,7 +971,7 @@
     }
 	#recurring maintenance for all
 	effect_group = {
-		months = 1
+		days = { 30 60 }
 		trigger = {
 			story_owner = {
 				is_slut = yes
@@ -962,70 +991,30 @@
 		}
 	}
 	#monthly events
+	#effect_group = {
+	#	days = { 30 60 }
+	#	trigger = {
+	#		has_game_rule = bno_event_frequency_one_month
+	#	}
+	#	triggered_effect = {
+	#		trigger = {
+	#			story_owner = {
+	#				is_playable_character = no
+	#			}
+	#		}
+	#		effect = {
+	#			story_owner = {
+	#				trigger_event = {
+	#					on_action =  bno_non_playable_pulse
+	#				}
+	#			}
+	#		}
+	#	}
+	#}
+	
+	
+	#slut events monthly
 	effect_group = {
-		days = { 30 60 }
-		trigger = {
-			has_game_rule = bno_event_frequency_one_month
-		}
-		first_valid = {
-			triggered_effect = {
-				trigger = {
-					story_owner = {
-						is_a_girl = yes
-					}
-				}
-				effect = {
-					story_owner = {
-						trigger_event = {
-							on_action = bno_events_slut_pulse
-						}
-					}
-				}
-			}
-			triggered_effect = {
-				trigger = {
-					story_owner = {
-						is_bbc = yes
-					}
-				}
-				effect = {
-					story_owner = {
-						trigger_event = {
-							on_action = bno_events_bull_pulse
-						}
-					}
-				}
-			}
-			triggered_effect = {
-				trigger = {
-					story_owner = {
-						is_bbc = no
-						is_a_male = yes
-					}
-				}
-				effect = {
-					story_owner = {
-						trigger_event = {
-							on_action = bno_cuck_pulse
-						}
-					}
-				}
-			}
-		}
-		triggered_effect = {
-			trigger = {
-				story_owner = {
-					is_playable_character = no
-				}
-			}
-			effect = {
-				story_owner = {
-					trigger_event = {
-						on_action =  bno_non_playable_pulse
-					}
-				}
-			}
-		}
 	}
 	#quarterly events
 	effect_group = {

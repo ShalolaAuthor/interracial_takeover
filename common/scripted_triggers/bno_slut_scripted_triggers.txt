@@ -62,6 +62,7 @@ does_white_guy_liege_has_money = {
 }
 
 does_white_vassal_has_non_blacked_wife = {
+	save_temporary_scope_as = bull
 	OR = {
 		any_vassal_or_below = {
 			is_white_guy_with_pure_wife = yes
@@ -70,7 +71,7 @@ does_white_vassal_has_non_blacked_wife = {
 			OR = {
 				is_white_guy_with_pure_wife = yes
 				any_vassal_or_below = {
-					NOT = { this = root }
+					NOT = { this = scope:bull }
 					is_white_guy_with_pure_wife = yes
 				}
 			}
@@ -401,8 +402,9 @@ is_mindless_bbc_slut = {
 }
 
 does_wandering_curious_whitegirl_exist = {
+	save_temporary_scope_as = bno_does_wandering_curious_whitegirl_exist
 	any_pool_character = {
-		province = location
+		province = scope:bno_does_wandering_curious_whitegirl_exist.location
 		is_curious = yes
 	}
 }
