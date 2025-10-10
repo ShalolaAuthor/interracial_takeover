@@ -1,23 +1,28 @@
 ﻿l_simp_chinese:
 
-slut_curious: "母狗"
-slut_blacked: "黑化"
+slut_curious: "好奇母狗"
+slut_blacked: "媚黑母狗"
 slut_snowbunny: "雪兔"
 slut_qos: "媚黑婊"
 slut_mindless: "黑人婴儿工厂"
-slut_boobs_1: "大胸"
-slut_boobs_2: "西瓜胸"
-slut_boobs_3: "巨乳"
-male_bbc: "种族叛徒"
+slut_boobs_1: "大胸母狗"
+slut_boobs_2: "瓜胸母狗"
+slut_boobs_3: "巨乳母狗"
+slut_boobs_4: "奶牛母狗"
+
+male_bbc: "BBC"
 male_cuckish: "似乎被绿"
 male_cuck: "被绿"
 male_beta: "贝塔"
 male_jos: "妻子分享者"
 male_caged: "被锁的"
 male_castrated: "被阉割的"
-male_dick_1: "可悲的鸡巴"
-male_dick_2: "微小的鸡巴"
-male_dick_3: "残次品鸡巴"
+male_dick_1: "没用鸡巴"
+male_dick_2: "微型鸡巴"
+male_dick_3: "残废鸡巴"
+
+
+is_a_male: "拥有男性生殖器的角色，包括公牛、扶她以及男人。"
 
 bno_disease_type.lovers_pox: "[GetTrait('lovers_pox').GetName( GetNullCharacter )]"
 bno_disease_type.ill: "[GetTrait('ill').GetName( GetNullCharacter )]"
