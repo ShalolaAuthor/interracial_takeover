@@ -33,8 +33,19 @@
             triggered_desc = {
                 trigger = {
                     scope:actor = scope:recipient
+                    scope:actor = { is_bbc = yes }
                 }
-                desc = bno_apply_elixir_interaction.desc.self
+                desc = bno_apply_elixir_interaction.desc.self.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = scope:recipient
+                    scope:actor = {
+                        is_a_male = yes
+                        is_bbc = no
+                    }
+                }
+                desc = bno_apply_elixir_interaction.desc.self.whiteboi
             }
             triggered_desc = {
                 trigger = {
@@ -61,32 +72,38 @@
                 }
                 desc = bno_apply_elixir_interaction.desc.bbc.bbc
             }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = {
+                        is_whiteboi = yes
+                    }
+                    scope:recipient = {
+                        is_bbc = yes
+                        NOT = { this = scope:actor }
+                    }
+                }
+                desc = bno_apply_elixir_interaction.desc.whiteboi.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = {
+                        is_whiteboi = yes
+                    }
+                    scope:recipient = {
+                        is_whiteboi = yes
+                        NOT = { this = scope:actor }
+                    }
+                }
+                desc = bno_apply_elixir_interaction.desc.whiteboi.whiteboi
+            }
         }
     }
     common_interaction = yes
 
     is_shown = {
-        scope:actor = {
-            is_adult = yes
-            is_bno_actor = yes
-            any_character_artifact = {
-                OR = {
-                    has_variable = bno_tincture_of_genesis
-                    has_variable = bno_elixir_of_the_black_womb
-                }
-            }
-        }
-        scope:recipient = {
-            OR = {
-                trigger_if = {
-                    limit = {
-                        this = scope:actor
-                    }
-                    is_bbc = yes
-                }
-                is_bbc = yes
-                is_whiteboi = yes
-            }
+        OR = {
+            scope:bno_apply_elixir_interaction_bno_tincture_of_genesis = yes
+            scope:bno_apply_elixir_interaction_bno_elixir_of_the_black_womb = yes
         }
     }
 
@@ -96,13 +113,23 @@
 
     send_option = { # tincture of genesis
         is_valid = {
-            scope:actor = {
-                any_character_artifact = {
-                    has_variable = bno_tincture_of_genesis
+            custom_tooltip = {
+                text = bno_apply_elixir_interaction.bno_tincture_of_genesis.tooltip
+                scope:actor = {
+                    is_adult = yes
+                    any_character_artifact = {
+                        has_variable = bno_tincture_of_genesis
+                    }
                 }
-            }
-            scope:recipient = {
-                is_a_male = yes
+                scope:recipient = {
+                    NOT = { has_character_flag = bno_apply_elixir_interaction.applied.bno_tincture_of_genesis }
+                    is_adult = yes
+                    is_a_male = yes
+                    NOR = {
+                        has_trait = bno_castrated
+                        has_trait = bno_castrated_futa
+                    }
+                }
             }
         }
         flag = bno_apply_elixir_interaction_bno_tincture_of_genesis
@@ -110,13 +137,20 @@
 
     send_option = { # elixir of the black womb
         is_valid = {
-            scope:actor = {
-                any_character_artifact = {
-                    has_variable = bno_elixir_of_the_black_womb
+            custom_tooltip = {
+                text = bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.tooltip
+                scope:actor = {
+                    is_adult = yes
+                    any_character_artifact = {
+                        has_variable = bno_elixir_of_the_black_womb
+                    }
                 }
-            }
-            scope:recipient = {
-                is_a_male = yes
+                scope:recipient = {
+                    NOT = { has_character_flag = bno_apply_elixir_interaction.applied.bno_elixir_of_the_black_womb }
+                    is_adult = yes
+                    is_bbc = no
+                    is_male = yes
+                }
             }
         }
         flag = bno_apply_elixir_interaction_bno_elixir_of_the_black_womb
@@ -125,37 +159,34 @@
         if = {
             limit = { scope:bno_apply_elixir_interaction_bno_tincture_of_genesis = yes }
             scope:actor = {
-                trigger_event = bno_apply_elixir.0001
+                custom_tooltip = {
+                    text = bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.actor.tooltip
+                    trigger_event = bno_apply_elixir.0001
+                }
+            }
+            scope:recipient = {
+                add_character_flag = bno_apply_elixir_interaction.applied.bno_tincture_of_genesis
+                custom_tooltip = {
+                    text = bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.recipient.tooltip
+                }
             }
         }
         else_if = {
             limit = { scope:bno_apply_elixir_interaction_bno_elixir_of_the_black_womb = yes }
             scope:actor = {
-                trigger_event = bno_apply_elixir.0002
+                custom_tooltip = {
+                    text = bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.actor.tooltip
+                    #trigger_event = bno_apply_elixir.0002
+                }
+            }
+            scope:recipient = {
+                add_character_flag = bno_apply_elixir_interaction.applied.bno_elixir_of_the_black_womb
+                custom_tooltip = {
+                    text = bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.recipient.tooltip
+                }
             }
         }
     }
 
     auto_accept = yes
-
-    ai_targets = {
-        ai_recipients = spouses
-        ai_recipients = courtiers
-    }
-
-    ai_potential = {
-        any_character_artifact = {
-            OR = {
-                has_variable = bno_tincture_of_genesis
-                has_variable = bno_elixir_of_the_black_womb
-            }
-        }
-    }
-
-    ai_will_do = {
-        base = 0
-        bno_white_girl_modifier_biggest = yes
-    }
-
-    ai_frequency = 1
 }

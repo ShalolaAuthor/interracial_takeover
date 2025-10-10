@@ -16,7 +16,7 @@
 			base = 0
 			modifier = {
 				add = 1000
-				exists = var:bno_becoming_dark
+				has_trait = bno_genesis_transformation
 				is_body_modification_ok = yes
 			}
 		}
@@ -41,7 +41,7 @@ bno_blonder_hair = {
 			base = 0
 			modifier = {
 				add = 1
-				exists = var:bno_becoming_dark
+				has_trait = bno_genesis_transformation
 				is_body_modification_ok = yes
 			}
 		}
@@ -59,7 +59,7 @@ bno_make_up = {
 				template = pink_matte
 				value = {
 					value = 0.1
-					multiply = var:bno_becoming_dark
+					multiply = bno_genesis_transformation_amount
 				}
 			}
 			morph = { #eye shadow
@@ -68,7 +68,7 @@ bno_make_up = {
 				template = red_eye_shadow
 				value = {
 					value = 0.25
-					multiply = var:bno_becoming_dark
+					multiply = bno_genesis_transformation_amount
 				}
 			}
 			morph = { #eyeliner
@@ -77,7 +77,7 @@ bno_make_up = {
 				template = black_eyeliner
 				value = {
 					value = 0.25
-					multiply = var:bno_becoming_dark
+					multiply = bno_genesis_transformation_amount
 				}
 			}
 			morph = { #eyelash_extensions
@@ -86,7 +86,7 @@ bno_make_up = {
 				template = eyelash_extensions
 				value = {
 					value = 0.1
-					multiply = var:bno_becoming_dark
+					multiply = bno_genesis_transformation_amount
 				}
 			}
 		}
@@ -94,7 +94,7 @@ bno_make_up = {
 			base = 0
 			modifier = {
 				add = 1000
-				exists = var:bno_becoming_dark
+				has_trait = bno_genesis_transformation
 				is_body_modification_ok = yes
 			}
 		}
@@ -238,8 +238,8 @@ bno_bigger_areolas = {
 			modifier = {
 				add = 6
 				is_body_modification_ok = yes
-				exists = var:bno_becoming_dark
-				var:bno_becoming_dark >= 4
+				has_trait = bno_genesis_transformation
+				bno_genesis_transformation_amount >= 4
 			}
 		}
 	}
@@ -257,8 +257,8 @@ bno_bigger_areolas = {
 			modifier = {
 				add = 5
 				is_body_modification_ok = yes
-				exists = var:bno_becoming_dark
-				var:bno_becoming_dark >= 3
+				has_trait = bno_genesis_transformation
+				bno_genesis_transformation_amount >= 3
 			}
 		}
 	}
@@ -276,8 +276,8 @@ bno_bigger_areolas = {
 			modifier = {
 				add = 4
 				is_body_modification_ok = yes
-				exists = var:bno_becoming_dark
-				var:bno_becoming_dark >= 2
+				has_trait = bno_genesis_transformation
+				bno_genesis_transformation_amount >= 2
 			}
 		}
 	}
@@ -295,8 +295,8 @@ bno_bigger_areolas = {
 			modifier = {
 				add = 3
 				is_body_modification_ok = yes
-				exists = var:bno_becoming_dark
-				var:bno_becoming_dark >= 1
+				has_trait = bno_genesis_transformation
+				bno_genesis_transformation_amount >= 1
 			}
 		}
 	}
@@ -314,8 +314,8 @@ bno_bigger_areolas = {
 			modifier = {
 				add = 2
 				is_body_modification_ok = yes
-				exists = var:bno_becoming_dark
-				var:bno_becoming_dark >= 0
+				has_trait = bno_genesis_transformation
+				bno_genesis_transformation_amount >= 0
 			}
 		}
 	}
@@ -333,7 +333,7 @@ bno_bigger_areolas = {
 			modifier = {
 				add = 1
 				is_body_modification_ok = yes
-				NOT = { exists = var:bno_becoming_dark }
+				NOT = { has_trait = bno_genesis_transformation }
 			}
 		}
 	}
@@ -352,7 +352,7 @@ bno_boobs = {
 					value = 0.04
 					multiply = {
 						value = var:bno_breast_size
-						add = bno_becoming_dark_value
+						add = bno_genesis_transformation_value
 					}
 				}
 			}
@@ -363,7 +363,7 @@ bno_boobs = {
 					value = 0.1
 					multiply = {
 						value = var:bno_breast_size
-						add = bno_becoming_dark_value
+						add = bno_genesis_transformation_value
 					}
 				}
 			}
@@ -376,7 +376,7 @@ bno_boobs = {
 					value = 0.04
 					multiply = {
 						value = var:bno_breast_size
-						add = bno_becoming_dark_value
+						add = bno_genesis_transformation_value
 					}
 				}
 			}
@@ -389,7 +389,7 @@ bno_boobs = {
 					value = 0.04
 					multiply = {
 						value = var:bno_breast_size
-						add = bno_becoming_dark_value
+						add = bno_genesis_transformation_value
 					}
 				}
 			}
@@ -400,7 +400,7 @@ bno_boobs = {
 					value = 0.1
 					multiply = {
 						value = var:bno_breast_size
-						add = bno_becoming_dark_value
+						add = bno_genesis_transformation_value
 					}
 				}
 			}
@@ -425,7 +425,7 @@ bno_bigger_butts = {
 				mode = modify gene = gene_bs_butt_size
 				value = {
 					add = {
-						value = var:bno_becoming_dark
+						value = bno_genesis_transformation_amount
 						divide = 10
 					}
 				}
@@ -436,7 +436,7 @@ bno_bigger_butts = {
 				gene = gene_bs_hips_size
 				value = {
 					add = {
-						value = var:bno_becoming_dark
+						value = bno_genesis_transformation_amount
 						divide = 10
 					}
 				}
@@ -446,7 +446,7 @@ bno_bigger_butts = {
 			base = 0
 			modifier = {
 				add = 1000
-				exists = var:bno_becoming_dark
+				has_trait = bno_genesis_transformation
 				is_body_modification_ok = yes
 			}
 		}
@@ -464,7 +464,7 @@ bno_smaller_waist = {
 				gene = gene_bs_waist_size
 				value = {
 					add = {
-						value = var:bno_becoming_dark
+						value = bno_genesis_transformation_amount
 						multiply = -1
 						divide = 10
 					}
@@ -475,7 +475,7 @@ bno_smaller_waist = {
 				gene = gene_bs_shoulders_size
 				value = {
 					add = {
-						value = var:bno_becoming_dark
+						value = bno_genesis_transformation_amount
 						multiply = -1
 						divide = 10
 					}
@@ -486,7 +486,7 @@ bno_smaller_waist = {
 			base = 0
 			modifier = {
 				add = 1000
-				exists = var:bno_becoming_dark
+				has_trait = bno_genesis_transformation
 				is_body_modification_ok = yes
 			}
 		}

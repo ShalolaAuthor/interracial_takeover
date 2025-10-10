@@ -25,6 +25,7 @@
                 limit = {
                     is_a_male = yes
                     is_bbc = yes
+                    has_trait = bno_seed_of_genesis
                 }
                 is_adult = yes
             }
@@ -58,10 +59,10 @@
                 trigger_else = {
                     OR = {
                         any_spouse = {
-                            is_bbc = yes
+                            bno_is_valid_bbc_for_tincture_of_genesis = yes
                         }
                         any_courtier = {
-                            is_bbc = yes
+                            bno_is_valid_bbc_for_tincture_of_genesis = yes
                         }
                     }
                 }
@@ -140,11 +141,26 @@
                 limit = {
                     is_a_girl = yes
                 }
-                random_spouse = {
+                if = {
                     limit = {
-                        is_bbc = yes
+                        any_spouse = {
+                            bno_is_valid_bbc_for_tincture_of_genesis = yes
+                        }
                     }
-                    add_character_modifier = bno_nourishers_fatigue
+                    random_spouse = {
+                        limit = {
+                            bno_is_valid_bbc_for_tincture_of_genesis = yes
+                        }
+                        add_character_modifier = bno_nourishers_fatigue
+                    }
+                }
+                else = {
+                    random_courtier = {
+                        limit = {
+                            bno_is_valid_bbc_for_tincture_of_genesis = yes
+                        }
+                        add_character_modifier = bno_nourishers_fatigue
+                    }
                 }
             }
         }
@@ -171,12 +187,12 @@
                     if = {
                         limit = {
                             any_spouse = {
-                                is_bbc = yes
+                                bno_is_valid_bbc_for_tincture_of_genesis = yes
                             }
                         }
                         random_spouse = {
                             limit = {
-                                is_bbc = yes
+                                bno_is_valid_bbc_for_tincture_of_genesis = yes
                             }
                             scope:actor = {
                                 save_scope_as = recipient
@@ -190,7 +206,7 @@
                     else = {
                         random_courtier = {
                             limit = {
-                                is_bbc = yes
+                                bno_is_valid_bbc_for_tincture_of_genesis = yes
                             }
                             scope:actor = {
                                 save_scope_as = recipient
@@ -206,37 +222,4 @@
             }
         }
     }
-
-    ai_potential = {
-        OR = {
-            any_spouse = {
-                is_white_girl = yes
-                NOT = { exists = var:bno_becoming_dark }
-            }
-            is_mindless_bbc_slut = yes
-        }
-        OR = {
-            NOT = { has_trait = bno_full_black_slut }
-            NOT = { has_character_modifier = bno_nourishers_fatigue }
-        }
-    }
-
-    ai_frequency = 1
-
-    ai_targets = {
-        ai_recipients = spouses
-        ai_recipients = self
-    }
-
-    ai_will_do = {
-        base = 100
-        modifier = {
-            add = 1000000
-            scope:actor = {
-                is_bbc = yes
-                is_adult = yes
-            }
-        }
-    }
-
 }

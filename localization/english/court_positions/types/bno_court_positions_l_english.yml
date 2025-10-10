@@ -32,6 +32,7 @@ bno_court_position_trait_bno_lifestyle_bbc_priest: "[GetTrait('bno_lifestyle_bbc
 bno_court_position_trait_tits_big_good_1: "[GetTrait('tits_big_good_1').GetName( ROOT.Char )]"
 bno_court_position_trait_tits_big_good_2: "[GetTrait('tits_big_good_2').GetName( ROOT.Char )]"
 bno_court_position_trait_tits_big_good_3: "[GetTrait('tits_big_good_3').GetName( ROOT.Char )]"
+bno_court_position_trait_tits_big_good_4: "[GetTrait('tits_big_good_4').GetName( ROOT.Char )]"
 
 bno_court_position_trait_fecund: "[GetTrait('fecund').GetName( ROOT.Char )]"
 

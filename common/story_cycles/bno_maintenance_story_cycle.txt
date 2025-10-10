@@ -1,0 +1,1217 @@
+﻿story_bno_maintenance = {
+    on_setup = {
+        story_owner = {
+			if = {
+				limit = {
+					is_alive = yes
+				}
+				#one time
+            	bno_apply_african_trait = yes
+            	bno_apply_bbc_trait = yes
+            	bno_make_bbc_trait_inactive = yes
+            	bno_apply_pussy_mileage_trait = yes
+            	bno_apply_body_trait = yes
+            	bno_remove_bbc_from_non_african = yes
+            	bno_seed_breast_size_variable = yes
+				if = {
+					limit = {
+						is_a_male = yes
+						is_bbc = no
+						is_adult = yes
+					}
+					create_story = story_bno_cuck
+				}
+				if = {
+					limit = {
+						is_a_male = yes
+						is_bbc = yes
+						is_adult = yes
+					}
+					create_story = story_bno_bull
+				}
+				if = {
+					limit = {
+						is_a_girl = yes
+						is_african = no
+						is_adult = yes
+					}
+					create_story = story_bno_slut
+				}
+			}
+        }
+    }
+
+    on_owner_death = {
+        end_story = yes
+    }
+
+    #recurring maintenance for ai
+    effect_group = {
+        days = { 30 60 }
+        trigger = {
+            story_owner = { is_ai = yes }
+        }
+        #culture
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    is_bbc = yes
+                    is_culture_bnoc = no
+                    has_game_rule = bno_bbc_forced_conversion_yes
+                }
+            }
+            effect = {
+                story_owner = {
+                    if = {
+                        limit = {
+                            liege ?= {
+                                is_culture_bnoc = yes
+                            }
+                        }
+                        set_culture = liege.culture
+                    }
+                    else = {
+                        set_culture = culture:bnoc
+                    }
+                }
+            }
+        }
+        #religion
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    is_bbc = yes
+                    has_game_rule = bno_religion_yes
+                    has_game_rule = bno_bbc_forced_conversion_yes
+                }
+            }
+            effect = {
+                story_owner = {
+                    if = {
+                        limit = {
+                            liege ?= {
+                                is_faith_bbcs = yes
+                            }
+                        }
+                        bno_conversion_effect = {
+                            FAITH = liege.faith
+                        }
+                    }
+                    else = {
+                        bno_conversion_effect = {
+                            FAITH = faith:bbcs
+                        }
+                    }
+                }
+            }
+        }
+        #vassal will convert from old bbc religion to new liege religion
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    save_temporary_scope_as = bno_temp_scope
+                    faith = faith:bbcs
+                    liege ?= {
+                        is_faith_bbcs = yes
+                    }
+                    NOT = { scope:bno_temp_scope.faith = liege.faith }
+                }
+            }
+            effect = {
+                story_owner = {
+                    set_character_faith_with_conversion = liege.faith
+                }
+            }
+        }
+        #if wearing a chastity cage and dont have caged trait add it
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    NOR = {
+                        has_trait = bno_caged
+                        has_trait = bno_caged_futa
+                    }
+                    any_equipped_character_artifact = {
+                        has_variable = bno_chastity_cage
+                    }
+                }
+            }
+            effect = {
+                story_owner = {
+                    save_scope_as = cager
+                    bno_caged_effect = {
+                        CAGER = scope:cager
+                    }
+                }
+            }
+        }
+        #if pure african can not be slut
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    is_african = yes
+                    is_slut = yes
+                }
+            }
+            effect = {
+                story_owner = {
+                    switch = {
+		            	trigger = has_trait
+		            	bno_curious = { remove_trait = bno_curious }
+		            	bno_blacked = { remove_trait = bno_blacked }
+		            	bno_snowbunny = { remove_trait = bno_snowbunny }
+		            	bno_qos = { remove_trait = bno_qos }
+		            	bno_mindless_bbc_slut = { remove_trait = bno_mindless_bbc_slut }
+		            }
+                }
+            }
+        }
+        #if eunuch or castrated remove dick
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    OR = {
+                        has_trait = bno_castrated_futa
+                        has_trait = bno_castrated
+                        has_trait = eunuch
+                        has_trait = beardless_eunuch
+                    }
+                }
+            }
+            effect = {
+                story_owner = {
+                    make_trait_inactive = dick_big_good_1
+		            make_trait_inactive = dick_big_good_2
+		            make_trait_inactive = dick_big_good_3
+		            make_trait_inactive = dick_big_good_4
+		            make_trait_inactive = dick_small_bad_1
+		            make_trait_inactive = dick_small_bad_2
+		            make_trait_inactive = dick_small_bad_3
+                }
+            }
+        }
+        #if non bbc slave and liege is bbc and has a chastity cage artifact
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    NOR = {
+                        has_trait = bno_caged
+                        has_trait = bno_caged_futa
+                        has_trait = bno_castrated
+                        has_trait = bno_castrated_futa
+                    }
+                    is_slave = yes
+                    is_a_male = yes
+                    is_bbc = no
+                    liege ?= {
+                        has_chastity_cage_artifact = yes
+                        trigger_if = {
+                            limit = { is_a_male = yes }
+                            is_bbc = yes
+                        }
+                        trigger_else = {
+                            any_spouse = {
+                                is_bbc = yes
+                            }
+                        }
+                    }
+                }
+            }
+            effect = {
+                story_owner = {
+                    if = {
+                        limit = {
+                            liege ?= {
+                                is_bbc = yes
+                            }
+                        }
+                        bno_caged_effect = {
+                            CAGER = liege
+                        }
+                    }
+                    else = {
+                        liege ?= {
+                            random_spouse = {
+                                limit = {
+                                    is_bbc = yes
+                                }
+                                save_scope_as = bbc
+                            }
+                            random_character_artifact = {
+                                limit = { has_variable = bno_chastity_cage }
+                            }
+                        }
+                        bno_caged_effect = {
+                            CAGER = scope:bbc
+                        }
+                    }
+                    save_scope_as = bno_caged_guy
+                    liege ?= {
+                        send_interface_message = {
+                            type = bno_blacked_events
+                            title = {
+				            	first_valid = {
+				            		triggered_desc = {
+				            			trigger = { is_bbc = yes }
+				            			desc = bno_trait_maintenance.0014.title.bbc
+				            		}
+				            		desc = bno_trait_maintenance.0014.title.slut
+				            	}
+				            }
+				            desc = {
+				            	first_valid = {
+				            		triggered_desc = {
+				            			trigger = { is_bbc = yes }
+				            			desc = bno_trait_maintenance.0014.desc.bbc
+				            		}
+				            		desc = bno_trait_maintenance.0014.desc.slut
+				            	}
+				            }
+				            right_icon = scope:bno_caged_guy
+                        }
+                    }
+                }
+            }
+        }
+        #make dick smaller if wearing cage
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    has_trait = bno_caged
+                    NOT = { has_trait = dick_small_bad_3 }
+                }
+            }
+            effect = {
+                story_owner = {
+                    save_scope_as = caged_character
+                    become_smaller_dick_effect = yes
+                    random_equipped_character_artifact = {
+                        limit = {
+                            has_variable = bno_chastity_cage
+                            creator = {
+                                is_playable_character = yes
+                            }
+                        }
+                        creator = {
+                            save_scope_as = cager
+                        }
+                    }
+                    scope:cager ?= {
+                        send_interface_message = {
+			            	type = bno_blacked_events
+			            	right_icon = scope:caged_character
+			            	title = {
+			            		first_valid = {
+			            			triggered_desc = {
+			            				trigger = { 
+			            					scope:cager = {
+			            						is_bbc = yes
+			            					}
+			            				 }
+			            				desc = bno_trait_maintenance.0015.title.bbc
+			            			}
+			            			desc = bno_trait_maintenance.0015.title.slut
+			            		}
+			            	}
+			            	desc = {
+			            		first_valid = {
+			            			triggered_desc = {
+			            				trigger = {
+			            					scope:cager = {
+			            						is_bbc = yes
+			            					}
+			            				}
+			            				desc = bno_trait_maintenance.0015.desc.bbc
+			            			}
+			            			desc = bno_trait_maintenance.0015.desc.slut
+			            		}
+			            	}
+			            }
+                    }
+                }
+            }
+        }
+        #punish caged character that unequipped chastity cage
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    has_trait = bno_caged
+                    any_character_artifact = {
+                        has_variable = bno_chastity_cage
+                        is_equipped = no
+                    }
+                }
+            }
+            effect = {
+                story_owner = {
+                    random_character_artifact = {
+                        limit = {
+                            has_variable = bno_chastity_cage
+                            is_equipped = no
+                        }
+                        equip_artifact_to_owner = yes
+                    }
+                    add_character_modifier = bno_withering_manhood
+                }
+            }
+        }
+        #use tincture of genesis artifact
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    has_tincture_of_genesis_artifact = yes
+                    OR = {
+			        	bno_is_valid_target_for_tincture_of_genesis = yes
+			        	any_courtier = {
+			        		bno_is_valid_target_for_tincture_of_genesis = yes
+			        	}
+			        	liege ?= {
+			        		any_vassal_or_below = {
+			        			bno_is_valid_target_for_tincture_of_genesis = yes
+			        		}
+			        	}
+			        	any_spouse = {
+			        		bno_is_valid_target_for_tincture_of_genesis = yes
+			        	}
+			        }
+                }
+            }
+            effect = {
+                story_owner = {
+                    save_scope_as = actor
+		            if = {
+		            	limit = {
+		            		bno_is_valid_target_for_tincture_of_genesis = yes
+		            	}
+		            	add_to_list = bno_tincture_of_genesis_target
+		            }
+		            every_courtier = {
+		            	limit = {
+		            		bno_is_valid_target_for_tincture_of_genesis = yes
+		            	}
+		            	add_to_list  = bno_tincture_of_genesis_target
+		            }
+		            liege ?= {
+		            	every_vassal_or_below = {
+		            		limit = {
+		            			bno_is_valid_target_for_tincture_of_genesis = yes
+		            		}
+		            		add_to_list = bno_tincture_of_genesis_target
+		            	}
+		            }
+		            every_spouse = {
+		            	limit = {
+		            		bno_is_valid_target_for_tincture_of_genesis = yes
+		            	}
+		            	add_to_list = bno_tincture_of_genesis_target
+		            }
+		            if = {
+		            	limit = {
+		            		list_size = {
+		            			name = bno_tincture_of_genesis_target
+		            			value > 0
+		            		}
+		            	}
+		            	random_in_list = {
+		            		list = bno_tincture_of_genesis_target
+		            		limit = {
+		            			this = scope:actor
+		            		}
+		            		save_scope_as = recipient
+		            	}
+		            	if = {
+		            		limit = {
+		            			NOT = { exists = scope:recipient }
+		            		}
+		            		random_in_list = {
+		            			list = bno_tincture_of_genesis_target
+		            			limit = {
+		            				is_bbc = yes
+		            			}
+		            			save_scope_as = recipient
+		            		}
+		            	}
+		            	if = {
+		            		limit = {
+		            			NOT = { exists = scope:recipient }
+		            		}
+		            		random_in_list = {
+		            			list = bno_tincture_of_genesis_target
+		            			limit = {
+		            				is_whiteboi = yes
+		            			}
+		            			save_scope_as = recipient
+		            		}
+		            	}
+		            	if = {
+		            		limit = { exists = scope:recipient }
+		            		scope:actor = {
+		            			trigger_event = bno_apply_elixir.0001
+		            		}
+		            		scope:recipient = {
+		            			add_character_flag = bno_apply_elixir_interaction.applied.bno_tincture_of_genesis
+		            		}
+		            	}
+		            }
+                }
+            }
+        }
+        #cum addiction scheme
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    is_adult = yes
+                    is_bbc = yes
+                    is_married = yes
+                    any_spouse = {
+			        	bno_is_valid_target_for_cum_addiction_scheme = yes
+			        	save_temporary_scope_as = potential_target_cum_addiction_target
+			        }
+			        can_start_scheme = {
+			        	type = bno_bbc_cum_addiction
+			        	target_character = scope:potential_target_cum_addiction_target
+			        }
+			        any_scheme = {
+			        	scheme_type = bno_bbc_cum_addiction
+			        	count < 1
+			        }
+                }
+            }
+            effect = {
+                story_owner = {
+                    save_scope_as = actor
+                    random_spouse = {
+		            	limit = {
+		            		bno_is_valid_target_for_cum_addiction_scheme = yes
+		            	}
+		            	save_scope_as = recipient
+		            }
+		            scope:actor = {
+		            	bno_start_cum_addiction_scheme = yes
+		            }
+                }
+            }
+        }
+        #cure disease
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    bno_has_bbc_priest_or_priestess = yes
+			        gold >= bno_cure_disease_interaction_cost
+			        is_at_war = no
+			        OR = {
+			        	any_spouse = {
+			        		bno_is_valid_target_for_cure_disease = yes
+			        	}
+			        	any_close_family_member = {
+			        		bno_is_valid_target_for_cure_disease = yes
+			        	}
+			        	any_relation = {
+			        		type = lover
+			        		bno_is_valid_target_for_cure_disease = yes
+			        	}
+			        	any_relation = {
+			        		type = bno_cum_slave
+			        		bno_is_valid_target_for_cure_disease = yes
+			        	}
+			        }
+                }
+            }
+            effect = {
+                story_owner = {
+                    save_scope_as = actor
+		            every_spouse = {
+		            	limit = {
+		            		bno_is_valid_target_for_cure_disease = yes
+		            	}
+		            	add_to_list = bno_cure_list
+		            }
+		            every_close_family_member = {
+		            	limit = {
+		            		bno_is_valid_target_for_cure_disease = yes
+		            	}
+		            	add_to_list = bno_cure_list
+		            }
+		            every_relation = {
+		            	type = lover
+		            	limit = {
+		            		bno_is_valid_target_for_cure_disease = yes
+		            	}
+		            	add_to_list = bno_cure_list
+		            }
+		            every_relation = {
+		            	type = bno_cum_slave
+		            	limit = {
+		            		bno_is_valid_target_for_cure_disease = yes
+		            	}
+		            	add_to_list = bno_cure_list
+		            }
+		            ordered_in_list = {
+		            	list = bno_cure_list
+		            	order_by = health
+		            	position = 1
+		            	save_scope_as = recipient
+		            }
+		            scope:actor = {
+                        trigger_event = {
+                            id = bno_embrace_african_5.0010
+                            delayed = yes
+                            days = { 7 14 }
+                        }
+                    }
+                }
+            }
+        }
+        #influence child
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    is_bno_actor = yes
+                    OR = {
+                        any_prisoner = {
+                            bno_is_valid_target_for_influence_child = yes
+                        }
+                        any_relation = {
+			            	type = ward
+			            	bno_is_valid_target_for_influence_child = yes
+			            }
+                    }
+                }
+            }
+            effect = {
+                story_owner = {
+                    save_scope_as = actor
+		            every_prisoner = {
+		            	limit = {
+		            		bno_is_valid_target_for_influence_child = yes
+		            	}
+		            	add_to_list = bno_influence_child_list
+		            }
+		            every_relation = {
+		            	type = ward
+		            	limit = {
+		            		bno_is_valid_target_for_influence_child = yes
+		            	}
+		            	add_to_list = bno_influence_child_list
+		            }
+		            random_in_list = {
+		            	list = bno_influence_child_list
+		            	save_scope_as = recipient
+		            }
+					if = {
+						limit = {
+							exists = scope:recipient
+						}
+		            	random_list = {
+		            		1 = {# accept
+		            			bno_influence_child_modifiers = yes
+		            			bno_influence_child_success = yes
+		            		}
+		            		1 = {# deny
+		            			bno_influence_child_failure = yes
+		            		}
+		            	}
+		            	scope:recipient = {
+		            		add_character_flag = {
+		            			flag = bno_influence_child_cooldown
+		            			years = 2
+		            		}
+		            	}
+					}
+                }
+            }
+        }
+        #cage prisoner
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    bno_prisoner_is_valid_actor_trigger = yes
+			        has_chastity_cage_artifact = yes
+			        any_prisoner = {
+			        	bno_is_valid_target_for_caging_prisoner = yes
+			        }
+                }
+            }
+            effect = {
+                story_owner = {
+                    save_scope_as = actor
+		            random_prisoner = {
+		            	limit = {
+		            		bno_is_valid_target_for_caging_prisoner = yes
+		            	}
+		            	save_scope_as = recipient
+		            }
+		            bno_cage_prisoner_trait_maintenance_option = yes
+		            bno_recruit_prisoner_effect = yes
+                }
+            }
+        }
+        #castrate prisoner
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    has_tincture_of_genesis_artifact = yes
+                    bno_prisoner_is_valid_actor_trigger = yes
+			        any_prisoner = {
+			        	bno_is_valid_target_for_castrating_prisoner = yes
+			        }
+                }
+            }
+            effect = {
+                story_owner = {
+                    save_scope_as = actor
+		            random_prisoner = {
+		            	limit = {
+		            		bno_is_valid_target_for_castrating_prisoner = yes
+		            	}
+		            	save_scope_as = recipient
+		            }
+		            bno_castrate_prisoner_option = yes
+		            bno_recruit_prisoner_effect = yes
+                }
+            }
+        }
+        #enslave female prisoner
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    bno_prisoner_is_valid_actor_trigger = yes
+			        any_prisoner = {
+			        	bno_not_a_bbc_slave = yes
+			        }
+                }
+            }
+            effect = {
+                story_owner = {
+					save_scope_as = actor
+                    random_prisoner = {
+		            	limit = {
+		            		bno_not_a_bbc_slave = yes
+		            	}
+		            	save_scope_as = recipient
+		            }
+		            bno_enslave_prisoner_option = yes
+		            bno_recruit_prisoner_effect = yes
+                }
+            }
+        }
+        #sneak bbc
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    bno_basic_interaction_valid_actor = yes
+			        trigger_if = {
+			        	limit = { is_slut = yes }
+			        	is_bno_snowbunny_and_up = yes
+			        }
+			        save_temporary_scope_as = actor
+			        OR = {
+                        any_courtier = {
+			            	NOT = { is_spouse_of = scope:actor }
+			            	bno_adult_bbc_actor_trigger = yes
+			            	count > 2
+			            }
+                        liege ?= {
+                            any_courtier = {
+			                	NOT = { is_spouse_of = scope:actor }
+			                	bno_adult_bbc_actor_trigger = yes
+			                	count > 2
+			                }
+                        }
+                    }
+			        OR = {
+			        	liege ?= {# peer vassal
+			        		any_vassal_or_below = {
+			        			highest_held_title_tier >= tier_county
+			        			bno_is_valid_target_for_sneak_bbc = yes
+			        		}
+			        	}
+			        	any_vassal_or_below = {# your vassal
+			        		highest_held_title_tier >= tier_county
+			        		bno_is_valid_target_for_sneak_bbc = yes
+			        	}
+			        	any_tributary = {# tributaries
+			        		bno_is_valid_target_for_sneak_bbc = yes
+			        	}
+			        	liege ?= { # liege
+			        		bno_is_valid_target_for_sneak_bbc = yes
+			        	}
+			        	suzerain ?= { # suzerain
+			        		bno_is_valid_target_for_sneak_bbc = yes
+			        	}
+			        }
+                }
+            }
+            effect = {
+                story_owner = {
+                    save_scope_as = actor
+                    random_courtier = {
+		            	limit = {
+		            		NOT = { is_spouse_of = scope:actor }
+		            		bno_adult_bbc_actor_trigger = yes
+		            	}
+		            	save_scope_as = secondary_actor
+		            }
+                    if = {
+                        limit = {
+                            NOT = { exists = scope:secondary_actor }
+                        }
+                        liege ?= {
+                            random_courtier = {
+		                    	limit = {
+		                    		NOT = { is_spouse_of = scope:actor }
+		                    		bno_adult_bbc_actor_trigger = yes
+		                    	}
+		                    	save_scope_as = secondary_actor
+		                    }
+                        }
+                    }
+		            liege ?= {
+		            	every_vassal_or_below = {
+		            		limit = {
+		            			highest_held_title_tier >= tier_county
+		            			bno_is_valid_target_for_sneak_bbc = yes
+		            		}
+		            		add_to_list = bno_sneak_bbc_list
+		            	}
+		            }
+		            every_vassal_or_below = {
+		            	limit = {
+		            		highest_held_title_tier >= tier_county
+		            		bno_is_valid_target_for_sneak_bbc = yes
+		            	}
+		            	add_to_list = bno_sneak_bbc_list
+		            }
+		            every_tributary = {
+		            	limit = {
+		            		bno_is_valid_target_for_sneak_bbc = yes
+		            	}
+		            	add_to_list = bno_sneak_bbc_list
+		            }
+		            if = {
+		            	limit = {
+		            		liege ?= {
+		            			bno_is_valid_target_for_sneak_bbc = yes
+		            		}
+		            	}
+		            	liege ?= {
+		            		add_to_list = bno_sneak_bbc_list
+		            	}
+		            }
+		            if = {
+		            	limit = {
+		            		suzerain ?= {
+		            			bno_is_valid_target_for_sneak_bbc = yes
+		            		}
+		            	}
+		            	suzerain ?= {
+		            		add_to_list = bno_sneak_bbc_list
+		            	}
+		            }
+		            random_in_list = {
+		            	list = bno_sneak_bbc_list
+		            	save_scope_as = recipient
+		            }
+					if = {
+						limit = {
+							exists = scope:recipient
+						}
+		            	random_list = {
+		            		1 = {# success
+		            			bno_sneak_bbc_modifiers = yes
+		            			bno_sneak_bbc_option = yes
+		            		}
+		            		1 = {}
+		            	}
+		            	scope:recipient = {
+		            		add_character_flag = {
+		            			flag = bno_sneak_bbc_cooldown
+		            			months = 6
+		            		}
+		            	}
+					}
+                }
+            }
+        }
+        #transform wife into black
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    age >= 18
+                    trigger_if = {
+			        	limit = { is_bbc = yes }
+			        	has_trait = bno_seed_of_genesis
+			        	NOT = { has_character_modifier = bno_nourishers_fatigue }
+			        	OR = {
+			        		any_spouse = {
+			        			bno_is_valid_female_target_for_tincture_of_genesis = yes
+			        		}
+			        		any_relation = {
+			        			type = lover
+			        			bno_is_valid_female_target_for_tincture_of_genesis = yes
+			        		}
+			        	}
+			        }
+			        trigger_else_if = {
+			        	limit = { is_slut = yes }
+			        	is_bno_mindless_bbc_slut = yes
+						NOT = { has_character_modifier = bno_ebony_bloom }
+			        	OR = {
+			        		any_spouse = {
+			        			bno_is_valid_bbc_for_tincture_of_genesis = yes
+			        		}
+			        		any_courtier = {
+			        			bno_is_valid_bbc_for_tincture_of_genesis = yes
+			        		}
+                            trigger_if = {
+                                limit = {
+                                    is_ruler = no
+                                }
+                                liege ?= {
+                                    any_courtier = {
+                                        bno_is_valid_bbc_for_tincture_of_genesis = yes
+                                    }
+                                }
+                            }
+			        	}
+			        }
+			        trigger_else = {
+			        	always = no
+			        }
+                }
+            }
+            effect = {
+                story_owner = {
+                    if = {
+		            	limit = {
+		            		is_bbc = yes
+		            	}
+		            	save_scope_as = actor
+		            	every_spouse = {
+		            		limit = {
+		            			bno_is_valid_female_target_for_tincture_of_genesis = yes
+		            		}
+		            		add_to_list  = bno_tincture_of_genesis_list
+		            	}
+		            	every_relation = {
+		            		type = lover
+		            		limit = {
+		            			bno_is_valid_female_target_for_tincture_of_genesis = yes
+		            		}
+		            		add_to_list  = bno_tincture_of_genesis_list
+		            	}
+		            	random_in_list = {
+		            		list = bno_tincture_of_genesis_list
+		            		save_scope_as = recipient
+		            	}
+		            	scope:recipient = {
+		            		add_character_modifier = bno_tincture_of_genesis
+		            		add_character_flag = blocked_from_leaving
+		            	}
+		            	scope:actor = {
+		            		add_character_modifier = bno_nourishers_fatigue
+		            		trigger_event = bno_tincture_of_genesis.0001
+		            	}
+		            }
+		            else = {
+		            	save_scope_as = recipient
+		            	every_spouse = {
+		            		limit = {
+		            			bno_is_valid_bbc_for_tincture_of_genesis = yes
+		            		}
+		            		add_to_list  = bno_tincture_of_genesis_list
+		            	}
+		            	every_courtier = {
+		            		limit = {
+		            			bno_is_valid_bbc_for_tincture_of_genesis = yes
+		            		}
+		            		add_to_list  = bno_tincture_of_genesis_list
+		            	}
+                        if = {
+                            limit = {
+                                is_ruler = no
+                            }
+                            liege ?= {
+                                every_courtier = {
+		            	        	limit = {
+		            	        		bno_is_valid_bbc_for_tincture_of_genesis = yes
+		            	        	}
+		            	        	add_to_list  = bno_tincture_of_genesis_list
+		            	        }
+                            }
+                        }
+		            	random_in_list = {
+		            		list = bno_tincture_of_genesis_list
+		            		limit = {
+		            			is_spouse_of = scope:recipient
+		            		}
+		            		save_scope_as = actor
+		            	}
+		            	if = {
+		            		limit = {
+		            			NOT = { exists = scope:actor }
+		            		}
+		            		random_in_list = {
+		            			list = bno_tincture_of_genesis_list
+		            			save_scope_as = actor
+		            		}
+		            	}
+		            	scope:recipient = {
+		            		add_character_modifier = bno_tincture_of_genesis
+		            	}
+		            	scope:actor = {
+		            		add_character_modifier = bno_nourishers_fatigue
+		            		add_character_flag = blocked_from_leaving
+		            		trigger_event = bno_tincture_of_genesis.0001
+		            	}
+		            }
+                }
+            }
+        }
+    }
+	#recurring maintenance for all
+	effect_group = {
+		days = { 30 60 }
+		trigger = {
+			story_owner = {
+				is_slut = yes
+			}
+		}
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					has_character_flag = father_suspects_this_pregnancy
+				}
+			}
+			effect = {
+				story_owner = {
+					remove_character_flag = father_suspects_this_pregnancy
+				}
+			}
+		}
+	}
+	#monthly events
+	#effect_group = {
+	#	days = { 30 60 }
+	#	trigger = {
+	#		has_game_rule = bno_event_frequency_one_month
+	#	}
+	#	triggered_effect = {
+	#		trigger = {
+	#			story_owner = {
+	#				is_playable_character = no
+	#			}
+	#		}
+	#		effect = {
+	#			story_owner = {
+	#				trigger_event = {
+	#					on_action =  bno_non_playable_pulse
+	#				}
+	#			}
+	#		}
+	#	}
+	#}
+	
+	
+	#slut events monthly
+	effect_group = {
+	}
+	#quarterly events
+	effect_group = {
+		days = { 90 120 }
+		trigger = {
+			has_game_rule = bno_event_frequency_three_months
+		}
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_a_girl = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action = bno_events_slut_pulse
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_bbc = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action = bno_events_bull_pulse
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_bbc = no
+						is_a_male = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action = bno_cuck_pulse
+						}
+					}
+				}
+			}
+		}
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					is_playable_character = no
+				}
+			}
+			effect = {
+				story_owner = {
+					trigger_event = {
+						on_action =  bno_non_playable_pulse
+					}
+				}
+			}
+		}
+	}
+	#six months events
+	effect_group = {
+		days = { 180 210 }
+		trigger = {
+			has_game_rule = bno_event_frequency_six_months
+		}
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_a_girl = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action = bno_events_slut_pulse
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_bbc = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action = bno_events_bull_pulse
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_bbc = no
+						is_a_male = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action = bno_cuck_pulse
+						}
+					}
+				}
+			}
+		}
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					is_playable_character = no
+				}
+			}
+			effect = {
+				story_owner = {
+					trigger_event = {
+						on_action =  bno_non_playable_pulse
+					}
+				}
+			}
+		}
+	}
+	#yearly events
+	effect_group = {
+		days = { 360 390 }
+		trigger = {
+			has_game_rule = bno_event_frequency_twelve_months
+		}
+		first_valid = {
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_a_girl = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action = bno_events_slut_pulse
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_bbc = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action = bno_events_bull_pulse
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_bbc = no
+						is_a_male = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action = bno_cuck_pulse
+						}
+					}
+				}
+			}
+		}
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					is_playable_character = no
+				}
+			}
+			effect = {
+				story_owner = {
+					trigger_event = {
+						on_action =  bno_non_playable_pulse
+					}
+				}
+			}
+		}
+	}
+}

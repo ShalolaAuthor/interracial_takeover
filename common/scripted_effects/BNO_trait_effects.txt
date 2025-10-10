@@ -86,33 +86,6 @@ bno_generic_rank_decrease = {
 	}
 }
 
-### African Traits ###
-#becoming_african
-###
-
-become_more_african = {
-	bno_generic_rank_increase = {
-		TRAIT_GROUP = bno_slut_blood
-	}
-}
-
-becoming_african = {
-	switch = {
-		trigger = has_trait
-		bno_full_black = { remove_trait = bno_full_black }
-		bno_mostly_black = { remove_trait = bno_mostly_black }
-		bno_mixed = { remove_trait = bno_mixed }
-		bno_barely_mixed = { remove_trait = bno_barely_mixed }
-	}
-	switch = {
-		trigger = has_trait
-		bno_mostly_black_slut = { become_more_african = yes }
-		bno_mixed_slut = { become_more_african = yes }
-		bno_barely_mixed_slut = { become_more_african = yes }
-		fallback = { add_trait = bno_barely_mixed_slut }
-	}
-}
-
 ### Slut Traits ###
 #become_more_slut
 #become_less_slut
@@ -361,6 +334,12 @@ bno_castrated_effect = {
 		}
 		bno_make_futa_inactive = yes
 	}
+	every_character_artifact = {
+		limit = {
+			has_variable = bno_chastity_cage
+		}
+		unequip_artifact_from_owner = yes
+	}
 	add_prestige = -500
 }
 
@@ -392,6 +371,7 @@ bno_remove_lustful_and_fecund = {
 }
 
 bno_caged_effect = {
+	save_scope_as = bno_caged_actor
 	bno_remove_lustful_and_fecund = yes
 	if = {
 		limit = { is_male = yes }
@@ -410,8 +390,26 @@ bno_caged_effect = {
 			add_trait = bno_caged_futa
 		}
 	}
-	bno_create_artifact_bno_chastity_cage_effect = {
-		CAGER = $CAGER$
+	if = {
+		limit = {
+			NOR = {
+				any_character_artifact = {
+					has_variable = bno_chastity_cage
+				}
+				any_equipped_character_artifact = {
+					has_variable = bno_chastity_cage
+				}
+			}
+		}
+		$CAGER$ = {
+			random_character_artifact = {
+				limit = {
+					has_variable = bno_chastity_cage
+				}
+				set_owner = scope:bno_caged_actor
+				equip_artifact_to_owner = yes
+			}
+		}
 	}
 	add_prestige = -250
 }
@@ -421,6 +419,8 @@ bno_caged_effect = {
 #become_smaller_dick_effect <
 #increase_breast_size
 #become_bigger_tits_effect <
+#increase_ass_size
+#become_bigger_ass_effect <
 ###
 
 decrease_dick_size = {
@@ -455,6 +455,7 @@ become_smaller_dick_effect = {
 	}
 	switch = {
 		trigger = has_trait
+		dick_big_good_4 = { decrease_dick_size = yes }
 		dick_big_good_3 = { decrease_dick_size = yes }
 		dick_big_good_2 = { decrease_dick_size = yes }
 		dick_big_good_1 = { 
@@ -505,6 +506,48 @@ become_bigger_tits_effect = {
 		}
 		tits_big_good_1 = { increase_breast_size = yes }
 		tits_big_good_2 = { increase_breast_size = yes }
+		tits_big_good_3 = { increase_breast_size = yes }
+	}
+}
+
+increase_ass_size = {
+	if = {
+		limit = {
+			has_trait = ass_big_good
+		}
+		bno_generic_rank_increase = {
+			TRAIT_GROUP = ass_big_good
+		}
+	}
+	else_if = {
+		limit = {
+			has_trait = ass_small_bad
+		}
+		bno_generic_rank_decrease = {
+			TRAIT_GROUP = ass_small_bad
+		}
+	}
+}
+
+become_bigger_ass_effect = {
+	if = {
+		limit = {
+			NOR = {
+				has_trait = tits_big_good
+				has_trait = tits_small_bad
+			}
+		}
+		bno_lottery_ass_size = yes
+	}
+	switch = {
+		trigger = has_trait
+		ass_small_bad_1 = { 
+			remove_trait = ass_small_bad_1
+			add_trait = ass_big_good_1	
+		}
+		ass_big_good_1 = { increase_ass_size = yes }
+		ass_big_good_2 = { increase_ass_size = yes }
+		ass_big_good_3 = { increase_ass_size = yes }
 	}
 }
 
@@ -712,7 +755,7 @@ bno_increase_pussy_wear = {
                         trait = bno_pussy_mileage_1
                         value < 49
                     }
-					scope:real_father = {
+					scope:real_father ?= {
 						is_bbc = no
 					}
                 }

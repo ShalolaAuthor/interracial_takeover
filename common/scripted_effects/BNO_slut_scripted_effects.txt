@@ -119,8 +119,9 @@ bno_becoming_lustful_effect = {
 }
 
 get_wandering_male_scope = {
+	save_scope_as = bno_temp_scope
 	random_pool_character = {
-		province = root.location
+		province = scope:bno_temp_scope.location
 		limit = {
 			is_a_male = yes
 			is_elligible_partner = yes
@@ -732,8 +733,9 @@ get_something_backup = {
 }
 
 get_wandering_curious_whitegirl_scope = {
+	save_scope_as = bno_get_wandering_curious_whitegirl_scope
 	random_pool_character = {
-		province = location
+		province = scope:bno_get_wandering_curious_whitegirl_scope.location
 		limit = {
 			is_curious = yes
 		}
@@ -814,7 +816,7 @@ create_bbc = {
 			add_gold = minor_gold_value
 			bno_add_bbc_trait_effect = yes
 			add_trait = bno_full_black
-			add_trait = dick_big_good_3
+			add_trait = dick_big_good_4
 			add_trait = lustful
 			if = {
 				limit = {
@@ -900,7 +902,6 @@ create_character_slut = {
 		location = scope:creator.capital_province
 		age = $age$
 		dynasty = scope:european.dynasty
-		dynasty_house = scope:european.house
 		random_traits = yes
 		faith = scope:european.faith
 		culture = scope:european.culture
@@ -955,7 +956,6 @@ create_character_blacked_slut = {
 			caucasian_northern_dark_hair = {}
 		}
 		dynasty = scope:european.dynasty
-		dynasty_house = scope:european.house
 		culture = scope:european.culture
 		faith = scope:european.faith
 		location = $LOCATION$
@@ -1308,11 +1308,12 @@ bno_father_or_mother = {
 }
 
 get_hated_non_black_courtier_scope = {
+	save_scope_as = bno_get_hated_non_black_courtier_scope
 	random_courtier_or_guest = {
 		limit = {
 			is_ai_white_guy = yes
 			reverse_opinion = {
-				target = root
+				target = scope:bno_get_hated_non_black_courtier_scope
 				value < 0
 			}
 			NOT = { has_trait = bno_castrated }
@@ -1323,10 +1324,10 @@ get_hated_non_black_courtier_scope = {
 }
 
 bno_have_sex_with_effects = {
-	play_sound_effect = "event:/bno/moans"
+	#play_sound_effect = "event:/bno/moans"
 	add_character_flag = was_recently_suspected_of_adultery
 	$PARTNER$ = {
-		play_sound_effect = "event:/bno/moans"
+		#play_sound_effect = "event:/bno/moans"
 		add_character_flag = was_recently_suspected_of_adultery 
 	}
 	
@@ -1510,6 +1511,10 @@ fuck_random_local_bbc = {
 			}
 		}
 	}
+	every_in_list = {
+		list = local_bbc_list
+		remove_from_list = this
+	}
 }
 
 bno_prostitution_effect = {
@@ -1558,7 +1563,8 @@ be_stronger = {
 	}
 }
 
-get_white_vassal_with_non_blacked_wife_scope = { 
+get_white_vassal_with_non_blacked_wife_scope = {
+	save_scope_as = bno_temp_scope
 	if = {
 		limit = {
 			liege ?= {
@@ -1569,7 +1575,7 @@ get_white_vassal_with_non_blacked_wife_scope = {
 			add_to_temporary_list = temp
 			every_vassal_or_below = {
 				limit = {
-					NOT = { this = root }
+					NOT = { this = scope:bno_temp_scope }
 					is_white_guy_with_pure_wife = yes
 				}
 				add_to_temporary_list = temp

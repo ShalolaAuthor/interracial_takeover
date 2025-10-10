@@ -1,0 +1,16 @@
+﻿bno_create_new_holy_order_story = {
+    create_story = {
+        type = story_bno_holy_order
+        save_scope_as = new_story
+    }
+    set_variable = {
+        name = story_bno_holy_order
+        value = scope:new_story
+    }
+    scope:new_story = {
+        set_variable = {
+            name = bno_holy_order
+            value = scope:story.var:bno_holy_order
+        }
+    }
+}

@@ -22,6 +22,22 @@ bno_tincture_of_genesis.0001 = {
     }
 
     immediate = {
+        scope:recipient = {
+            create_story = {
+                type = story_bno_tincture_of_genesis
+                save_scope_as = new_story
+            }
+            set_variable = {
+                name = bno_tincture_of_genesis_story
+                value = scope:new_story
+            }
+            var:bno_tincture_of_genesis_story = {
+                set_variable = {
+                    name = bull
+                    value = scope:actor
+                }
+            }
+        }
         bno_sex_scene_start = {
             PARTNER = scope:recipient
         }
@@ -124,20 +140,7 @@ bno_tincture_of_genesis.1002 = {
 
     immediate = {
         standing_oral_animations = yes
-        if = {
-            limit = {
-                NOT = { exists = var:bno_becoming_dark }
-            }
-            set_variable = {
-                name = bno_becoming_dark
-                value = 0
-            }
-        }
-        trigger_event = {
-            id = bno_tincture_of_genesis.1111
-            days = 2
-            delayed = yes
-        }
+        increase_bno_genesis_transformation = yes
     }
 
     option = {
@@ -147,74 +150,6 @@ bno_tincture_of_genesis.1002 = {
     }
 }
 
-#hidden repeating event to pump up the var
-bno_tincture_of_genesis.1111 = {
-    hidden = yes
-
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { 
-            is_alive = yes 
-            is_spouse_of = scope:actor
-        }
-    }
-
-    on_trigger_fail = {
-        remove_character_modifier = bno_tincture_of_genesis
-        every_spouse = {
-            limit = {
-                has_character_modifier = bno_nourishers_fatigue
-            }
-            remove_character_modifier = bno_nourishers_fatigue
-        }
-    }
-
-    immediate = {
-        if = {
-            limit = {
-                exists = var:bno_becoming_dark
-                has_character_modifier = bno_tincture_of_genesis
-            }
-            change_variable = {
-                name = bno_becoming_dark
-                add = 0.006
-            }
-            trigger_event = {
-                id = bno_tincture_of_genesis.1111
-                days = 2
-                delayed = yes
-            }
-            if = {
-                limit = {
-                    var:bno_becoming_dark >= 1
-                    NOT = { has_character_flag = bno_tincture_of_genesis.2002 }
-                }
-                trigger_event = bno_tincture_of_genesis.2002
-            }
-            else_if = {
-                limit = {
-                    var:bno_becoming_dark >= 2
-                    NOT = { has_character_flag = bno_tincture_of_genesis.4002 }
-                }
-                trigger_event = bno_tincture_of_genesis.4002
-            }
-            else_if = {
-                limit = {
-                    var:bno_becoming_dark >= 3
-                    NOT = { has_character_flag = bno_tincture_of_genesis.5002 }
-                }
-                trigger_event = bno_tincture_of_genesis.5002
-            }
-            else_if = {
-                limit = {
-                    var:bno_becoming_dark >= 4
-                    NOT = { has_character_flag = bno_tincture_of_genesis.6002 }
-                }
-                trigger_event = bno_tincture_of_genesis.6002
-            }
-        }
-    }
-}
 ### Stage 1
 #get the black slut trait and strong
 bno_tincture_of_genesis.2002 = {
@@ -236,17 +171,10 @@ bno_tincture_of_genesis.2002 = {
         character = scope:recipient
         animation = bno_sex_love_stand_2
     }
-
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
+    
 
     immediate = {
         add_character_flag = bno_tincture_of_genesis.2002
-        becoming_african = yes
-        become_bigger_tits_effect = yes
-        add_trait = strong
     }
 
     option = {
@@ -278,10 +206,7 @@ bno_tincture_of_genesis.3002 = {
         animation = sex_combined
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
+    
 
     immediate = {
         bno_sex_scene_start = {
@@ -391,16 +316,8 @@ bno_tincture_of_genesis.4002 = {
         animation = bno_sex_love_stand_2
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
-
     immediate = {
         add_character_flag = bno_tincture_of_genesis.4002
-        becoming_african = yes
-        become_bigger_tits_effect = yes
-        become_stronger = yes
     }
 
     option = {
@@ -432,10 +349,7 @@ bno_tincture_of_genesis.4001 = {
         animation = bno_sex_love_stand_2
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
+    
 
     immediate = {
         custom_tooltip = {
@@ -477,16 +391,8 @@ bno_tincture_of_genesis.5002 = {
         animation = bno_sex_love_stand_2
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
-
     immediate = {
         add_character_flag = bno_tincture_of_genesis.5002
-        becoming_african = yes
-        become_bigger_tits_effect = yes
-        become_stronger = yes
     }
 
     option = {
@@ -518,10 +424,7 @@ bno_tincture_of_genesis.5001 = {
         animation = bno_sex_love_stand_2
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
+    
 
     immediate = {
         custom_tooltip = {
@@ -563,22 +466,12 @@ bno_tincture_of_genesis.6002 = {
         animation = bno_sex_love_stand_2
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
 
     immediate = {
         add_character_flag = bno_tincture_of_genesis.6002
         ### Stop transformation progress
         remove_character_modifier = bno_tincture_of_genesis
-
         add_character_modifier = bno_ebony_bloom
-        becoming_african = yes
-        become_bigger_tits_effect = yes
-        become_prettier = yes
-        add_trait = fecund
-        add_trait = pure_blooded
     }
 
     option = {
@@ -610,10 +503,7 @@ bno_tincture_of_genesis.6001 = {
         animation = bno_sex_love_stand_2
     }
 
-    trigger = {
-        scope:actor = { is_alive = yes }
-        scope:recipient = { is_alive = yes }
-    }
+    
 
     immediate = {
         custom_tooltip = {

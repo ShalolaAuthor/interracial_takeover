@@ -49,6 +49,12 @@
             has_trait = tits_big_good_3
         }
     }
+    text = {
+        localization_key = slut_boobs_4
+        trigger = {
+            has_trait = tits_big_good_4
+        }
+    }
     #Male
     text = {
         localization_key = male_bbc
@@ -137,7 +143,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_ill
-                has_trait = lovers_pox
+                has_trait = ill
             }
         }
         localization_key = bno_disease_type.ill
@@ -146,7 +152,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_pneumonic
-                has_trait = lovers_pox
+                has_trait = pneumonic
             }
         }
         localization_key = bno_disease_type.pneumonic
@@ -155,7 +161,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_great_pox
-                has_trait = lovers_pox
+                has_trait = great_pox
             }
         }
         localization_key = bno_disease_type.great_pox
@@ -164,7 +170,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_early_great_pox
-                has_trait = lovers_pox
+                has_trait = early_great_pox
             }
         }
         localization_key = bno_disease_type.early_great_pox
@@ -173,7 +179,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_leper
-                has_trait = lovers_pox
+                has_trait = leper
             }
         }
         localization_key = bno_disease_type.leper
@@ -182,7 +188,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_gout_ridden
-                has_trait = lovers_pox
+                has_trait = gout_ridden
             }
         }
         localization_key = bno_disease_type.gout_ridden
@@ -191,7 +197,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_consumption
-                has_trait = lovers_pox
+                has_trait = consumption
             }
         }
         localization_key = bno_disease_type.consumption
@@ -200,7 +206,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_cancer
-                has_trait = lovers_pox
+                has_trait = cancer
             }
         }
         localization_key = bno_disease_type.cancer
@@ -209,7 +215,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_typhus
-                has_trait = lovers_pox
+                has_trait = typhus
             }
         }
         localization_key = bno_disease_type.typhus
@@ -218,7 +224,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_bubonic_plague
-                has_trait = lovers_pox
+                has_trait = bubonic_plague
             }
         }
         localization_key = bno_disease_type.bubonic_plague
@@ -227,7 +233,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_measles
-                has_trait = lovers_pox
+                has_trait = measles
             }
         }
         localization_key = bno_disease_type.measles
@@ -236,7 +242,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_dysentery
-                has_trait = lovers_pox
+                has_trait = dysentery
             }
         }
         localization_key = bno_disease_type.dysentery
@@ -245,7 +251,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_ergotism
-                has_trait = lovers_pox
+                has_trait = ergotism
             }
         }
         localization_key = bno_disease_type.ergotism
@@ -254,7 +260,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_sickly
-                has_trait = lovers_pox
+                has_trait = sickly
             }
         }
         localization_key = bno_disease_type.sickly
@@ -263,7 +269,7 @@ BNODiseaseType = {
         trigger = {
             OR = {
                 var:bno_disease_type = flag:disease_type_smallpox
-                has_trait = lovers_pox
+                has_trait = smallpox
             }
         }
         localization_key = bno_disease_type.smallpox

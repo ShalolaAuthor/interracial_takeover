@@ -1,0 +1,361 @@
+﻿story_bno_bull = {
+    on_owner_death = {
+        end_story = yes
+    }
+
+	effect_group = {
+		days = { 30 180 }
+
+        trigger = {
+			story_owner = {
+				is_alive = yes
+			}
+		}
+
+		random_valid = {
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0001 }
+						liege ?= {
+							NOT = { has_character_flag = bno_bull.0001 }
+							is_ai_white_guy_married = yes
+							is_spouse_blacked = yes
+						}
+					}
+				}
+				effect = {
+					story_owner = {
+						liege ?= {
+							save_scope_as = target1
+							get_blacked_wife_scope = {
+								SCOPE_NAME = target2
+							}
+						}
+						trigger_event = bno_bull.0001
+						add_character_flag = {
+							flag = bno_bull.0001
+							months = { 24 36 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0002 }
+						is_ruler = yes
+						is_stressed_out = yes
+						does_blacked_girl_exist = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_blacked_girl_scope = {
+							SCOPE_NAME = target1
+						}
+						bno_have_sex_with_effects = {
+							PARTNER = scope:target1
+						}
+						trigger_event = bno_bull.0002
+						add_character_flag = {
+							flag = bno_bull.0002
+							months = { 12 18 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0003 }
+						is_ruler = yes
+						does_blacked_with_eating_disorder_exist = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_blacked_girl_with_eating_disorder_scope = {
+							SCOPE_NAME = target1
+						}
+						trigger_event = bno_bull.0003
+						add_character_flag = {
+							flag = bno_bull.0003
+							months = { 8 12 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0004 }
+						has_dynasty = yes
+						is_ruler = yes
+						does_pure_whitegirl_exist = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_pure_whitegirl_scope = {
+							SCOPE_NAME = target1
+						}
+						trigger_event = bno_bull.0004
+						add_character_flag = {
+							flag = bno_bull.0004
+							months = { 8 12 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0005 }
+						is_ruler = yes
+						does_wandering_curious_whitegirl_exist = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_wandering_curious_whitegirl_scope = {
+							SCOPE_NAME = target1
+						}
+						trigger_event = bno_bull.0005
+						add_character_flag = {
+							flag = bno_bull.0005
+							months = { 36 48 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0006 }
+						is_ruler = yes
+						does_hated_non_black_courtier_exist = yes
+						has_chastity_cage_artifact = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						save_scope_as = cager
+						get_hated_non_black_courtier_scope = {
+							SCOPE_NAME = target1
+						}
+						trigger_event = bno_bull.0006
+                        add_character_flag = {
+                            flag = bno_bull.0006
+                            months = { 12 24 }
+                        }
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_ruler = yes
+						NOT = { has_trait = strong }
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = bno_bull.0007
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0008 }
+						does_blacked_peasant_exist = yes
+						does_wandering_male_exist = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_blacked_peasant_scope = {
+							SCOPE_NAME = target1
+						}
+						find_5_sex_partner = yes
+						trigger_event = bno_bull.0008
+                        add_character_flag = {
+                            flag = bno_bull.0008
+                            months = { 8 12 }
+                        }
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0009 }
+						is_ruler = yes
+						does_blacked_noble_exist = yes
+						does_wandering_male_exist = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_blacked_noble_scope = {
+							SCOPE_NAME = target1
+						}
+						find_5_sex_partner = yes
+						trigger_event = bno_bull.0009
+                        add_character_flag = {
+                            flag = bno_bull.0009
+                            months = { 12 18 }
+                        }
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0010 }
+						does_white_guy_liege_has_money = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = bno_bull.0010
+                        add_character_flag = {
+                            flag = bno_bull.0010
+                            months = { 12 18 }
+                        }
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0012 }
+						is_ruler = yes
+						does_secret_haver_exist = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_secret_haver_scope = {
+							SCOPE_NAME = target1
+						}
+						scope:target1 ?= {			#identify spouse for loc and notifications
+							get_white_husband_with_secret_scope = {
+								SCOPE_NAME = target2
+							}
+						}
+						trigger_event = bno_bull.0012
+                        add_character_flag = {
+                            flag = bno_bull.0012
+                            months = { 12 18 }
+                        }
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0013 }
+						is_ruler = yes
+						is_partner_not_blacked_enough = yes
+					}
+				}
+				effect = {
+					story_owner = {						
+						get_not_blacked_enough_spouse = {
+							SCOPE_NAME = target1
+						}
+						trigger_event = bno_bull.0013
+                        add_character_flag = {
+                            flag = bno_bull.0013
+                            months = { 12 18 }
+                        }
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0014 }
+						is_ruler = yes
+						allowed_more_spouses = yes
+						does_good_looking_ai_foreign_lady_exist = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_married_pure_girl_scope = {
+							SCOPE_NAME = target1
+						}
+						scope:target1 ?= {
+							get_white_husband_scope = {
+								SCOPE_NAME = target2
+							}
+						}
+						trigger_event = bno_bull.0014
+                        add_character_flag = {
+                            flag = bno_bull.0014
+                            months = { 12 18 }
+                        }
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0015 }
+						is_ruler = yes
+						does_white_vassal_has_non_blacked_wife = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_white_vassal_with_non_blacked_wife_scope = {
+							SCOPE_NAME = target1
+						}
+						scope:target1 ?= {
+							get_pure_wife_scope = {
+								SCOPE_NAME = target2
+							}
+						}
+						trigger_event = bno_bull.0015
+                        add_character_flag = {
+                            flag = bno_bull.0015
+                            months = { 12 18 }
+                        }
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_bull.0016 }
+						is_ruler = yes
+						is_married = yes
+						any_spouse = {
+							NOT = { has_character_flag = bimbo }
+							is_bno_mindless_bbc_slut = yes
+						}
+					}
+				}
+				effect = {
+					story_owner = {
+						random_spouse = {
+							limit = {
+								NOT = { has_character_flag = bimbo }
+								is_bno_mindless_bbc_slut = yes
+							}
+							save_scope_as = target1
+						}
+						trigger_event = bno_bull.0016
+                        add_character_flag = {
+                            flag = bno_bull.0016
+                            months = { 12 18 }
+                        }
+					}
+				}
+			}
+		}
+	}
+}

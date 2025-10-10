@@ -21,9 +21,12 @@ is_bno_actor = {
 }
 
 is_a_male = {
-	OR = {
-		is_male = yes
-		is_a_futa = yes
+	custom_tooltip = {
+		text = is_a_male
+		OR = {
+			is_male = yes
+			is_a_futa = yes
+		}
 	}
 }
 
@@ -59,6 +62,7 @@ does_white_guy_liege_has_money = {
 }
 
 does_white_vassal_has_non_blacked_wife = {
+	save_temporary_scope_as = bull
 	OR = {
 		any_vassal_or_below = {
 			is_white_guy_with_pure_wife = yes
@@ -67,7 +71,7 @@ does_white_vassal_has_non_blacked_wife = {
 			OR = {
 				is_white_guy_with_pure_wife = yes
 				any_vassal_or_below = {
-					NOT = { this = root }
+					NOT = { this = scope:bull }
 					is_white_guy_with_pure_wife = yes
 				}
 			}
@@ -298,7 +302,6 @@ is_a_futa = {
 
 is_a_girl = {
 	is_female = yes
-	is_a_futa = yes
 	is_bbc = no
 }
 
@@ -399,8 +402,9 @@ is_mindless_bbc_slut = {
 }
 
 does_wandering_curious_whitegirl_exist = {
+	save_temporary_scope_as = bno_does_wandering_curious_whitegirl_exist
 	any_pool_character = {
-		province = location
+		province = scope:bno_does_wandering_curious_whitegirl_exist.location
 		is_curious = yes
 	}
 }
@@ -496,6 +500,7 @@ has_desirable_looks_or_breast = {
 		has_trait = tits_big_good_1
 		has_trait = tits_big_good_2
 		has_trait = tits_big_good_3
+		has_trait = tits_big_good_4
 		has_trait = tits_small_good_1
 		has_trait = tits_small_good_2
 		has_trait = tits_small_good_3

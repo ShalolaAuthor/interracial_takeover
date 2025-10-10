@@ -1960,6 +1960,22 @@ bno_embrace_african_5.0006 = {
                 set_variable = bbc_holy_order
             }
         }
+
+        create_story = {
+            type = story_bno_holy_order
+            save_scope_as = new_story
+        }
+        set_variable = {
+            name = story_bno_holy_order
+            value = scope:new_story
+        }
+        scope:new_story = {
+            set_variable = {
+                name = bno_holy_order
+                value = scope:new_holy_order
+            }
+        }
+
         create_holy_order_effect = yes
         scope:leader = {
             every_courtier_or_guest = {
@@ -1987,6 +2003,7 @@ bno_embrace_african_5.0006 = {
 }
 
 #letter event holy order has sent you a priest
+#story cycle conversion
 bno_embrace_african_5.0007 = {
     type = letter_event
     sender = scope:order_leader
@@ -2012,28 +2029,12 @@ bno_embrace_african_5.0007 = {
             can_employ_court_position_type = bno_bbc_priestess_court_position
             can_employ_court_position_type = bno_bbc_priest_court_position
         }
-        faith = {
-            any_faith_holy_order = {
-                holy_order_patron = root
-                title = {
-                    has_variable = bbc_holy_order
-                }
-            }
-        }
     }
 
     immediate = {
-        faith = {
-            every_faith_holy_order = {
-                limit = {
-                    holy_order_patron = root
-                    title = {
-                        has_variable = bbc_holy_order
-                    }
-                }
-                leader = {
-                    save_scope_as = order_leader
-                }
+        var:story_bno_holy_order.var:bno_holy_order = {
+            leader = {
+                save_scope_as = order_leader
             }
         }
         if = {

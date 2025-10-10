@@ -41,46 +41,7 @@
 
 	on_accept = {
 		scope:actor = {
-			send_interface_toast = {
-				type = bno_blacked_events
-				title = bno_bbc_cum_addiction_interaction.title
-				desc = bno_bbc_cum_addiction_interaction.tooltip
-				left_icon = scope:actor
-				right_icon = scope:recipient
-
-				start_scheme = {
-					type = bno_bbc_cum_addiction
-					target_character = scope:recipient
-				}
-
-				seduce_interaction_stress_effect = yes
-			}
+			bno_start_cum_addiction_scheme = yes
 		}
-	}
-	
-	ai_targets = {
-		ai_recipients = spouses
-	}
-
-	ai_target_quick_trigger = {
-		adult = yes
-	}
-	
-	ai_frequency = 1
-
-	ai_potential = {
-		is_adult = yes
-		is_bbc = yes
-	}
-	
-	ai_will_do = {
-		base = 0
-		modifier = {
-			add = 1000000
-			scope:actor = {
-				is_bbc = yes
-				is_adult = yes
-			}
-		}		
 	}
 }

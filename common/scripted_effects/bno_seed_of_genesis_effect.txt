@@ -1,0 +1,157 @@
+﻿increase_bno_genesis_transformation = {
+    save_scope_as = bno_genesis_transformation_actor
+    if = {
+        limit = {
+            NOT = { has_character_flag = bno_genesis_transformation_5 }
+        }
+        if = {
+            limit = { NOT = { has_trait = bno_genesis_transformation } }
+            send_interface_message = {
+                type = bno_blacked_events
+                title = bno_genesis_transformation.transition.0to1.title
+                desc = bno_genesis_transformation.transition.0to1.desc
+                right_icon = scope:bno_genesis_transformation_actor
+                add_trait = bno_genesis_transformation
+            }
+        }
+        add_trait_xp = {
+            trait = bno_genesis_transformation
+            value = bno_genesis_transformation_xp
+        }
+        if = {
+            limit = {
+                has_trait_xp = {
+                    trait = bno_genesis_transformation
+                    value >= 25
+                }
+                NOT = { has_character_flag = bno_genesis_transformation_2 }
+            }
+            if = {
+                limit = {
+                    owns_story_of_type = story_bno_tincture_of_genesis
+                    exists = var:bno_tincture_of_genesis_story.var:bull
+                    NOT = { has_character_flag = bno_tincture_of_genesis.2002 }
+                }
+                save_scope_as = recipient
+                var:bno_tincture_of_genesis_story.var:bull = {
+                    save_scope_as = actor
+                }
+                scope:recipient = {
+                    trigger_event = bno_tincture_of_genesis.2002
+                }
+            }
+            send_interface_message = {
+                type = bno_blacked_events
+                title = bno_genesis_transformation.transition.1to2.title
+                desc = bno_genesis_transformation.transition.1to2.desc
+                right_icon = scope:bno_genesis_transformation_actor
+                become_bigger_tits_effect = yes
+                become_bigger_ass_effect = yes
+                add_trait = strong
+            }
+            add_character_flag = bno_genesis_transformation_2
+        }
+        else_if = {
+            limit = {
+                has_trait_xp = {
+                    trait = bno_genesis_transformation
+                    value >= 50
+                }
+                NOT = { has_character_flag = bno_genesis_transformation_3 }
+            }
+            if = {
+                limit = {
+                    owns_story_of_type = story_bno_tincture_of_genesis
+                    exists = var:bno_tincture_of_genesis_story.var:bull
+                    NOT = { has_character_flag = bno_tincture_of_genesis.4002 }
+                }
+                save_scope_as = recipient
+                var:bno_tincture_of_genesis_story.var:bull = {
+                    save_scope_as = actor
+                }
+                scope:recipient = {
+                    trigger_event = bno_tincture_of_genesis.4002
+                }
+            }
+            send_interface_message = {
+                type = bno_blacked_events
+                title = bno_genesis_transformation.transition.2to3.title
+                desc = bno_genesis_transformation.transition.2to3.desc
+                right_icon = scope:bno_genesis_transformation_actor
+                become_bigger_tits_effect = yes
+                become_bigger_ass_effect = yes
+                become_stronger = yes
+            }
+            add_character_flag = bno_genesis_transformation_3
+        }
+        else_if = {
+            limit = {
+                has_trait_xp = {
+                    trait = bno_genesis_transformation
+                    value >= 75
+                }
+                NOT = { has_character_flag = bno_genesis_transformation_4 }
+            }
+            if = {
+                limit = {
+                    owns_story_of_type = story_bno_tincture_of_genesis
+                    exists = var:bno_tincture_of_genesis_story.var:bull
+                    NOT = { has_character_flag = bno_tincture_of_genesis.5002 }
+                }
+                save_scope_as = recipient
+                var:bno_tincture_of_genesis_story.var:bull = {
+                    save_scope_as = actor
+                }
+                scope:recipient = {
+                    trigger_event = bno_tincture_of_genesis.5002
+                }
+            }
+            send_interface_message = {
+                type = bno_blacked_events
+                title = bno_genesis_transformation.transition.3to4.title
+                desc = bno_genesis_transformation.transition.3to4.desc
+                right_icon = scope:bno_genesis_transformation_actor
+                become_bigger_tits_effect = yes
+                become_bigger_ass_effect = yes
+                become_smarter = yes
+            }
+            add_character_flag = bno_genesis_transformation_4
+        }
+        else_if = {
+            limit = {
+                has_trait_xp = {
+                    trait = bno_genesis_transformation
+                    value >= 100
+                }
+                NOT = { has_character_flag = bno_genesis_transformation_5 }
+            }
+            if = {
+                limit = {
+                    owns_story_of_type = story_bno_tincture_of_genesis
+                    exists = var:bno_tincture_of_genesis_story.var:bull
+                    NOT = { has_character_flag = bno_tincture_of_genesis.6002 }
+                }
+                save_scope_as = recipient
+                var:bno_tincture_of_genesis_story.var:bull = {
+                    save_scope_as = actor
+                }
+                scope:recipient = {
+                    trigger_event = bno_tincture_of_genesis.6002
+                }
+            }
+            send_interface_message = {
+                type = bno_blacked_events
+                title = bno_genesis_transformation.transition.4to5.title
+                desc = bno_genesis_transformation.transition.4to5.desc
+                right_icon = scope:bno_genesis_transformation_actor
+                add_character_modifier = bno_ebony_bloom
+                become_bigger_tits_effect = yes
+                become_bigger_ass_effect = yes
+                become_prettier = yes
+                add_trait = fecund
+                add_trait = pure_blooded
+            }
+            add_character_flag = bno_genesis_transformation_5
+        }
+    }
+}

@@ -21,6 +21,44 @@ bno_inversed_gender_equality = {
 	}
 }
 
+on_16th_birthday = {
+	on_actions = {
+		bno_trait_maintenance_pulse
+	}
+}
+
+bno_on_16th_birthday = {
+	effect = {
+		if = {
+			limit = {
+				is_a_male = yes
+				is_bbc = no
+				is_adult = yes
+				NOT = { owns_story_of_type = story_bno_cuck }
+			}
+			create_story = story_bno_cuck
+		}
+		if = {
+			limit = {
+				is_a_male = yes
+				is_bbc = yes
+				is_adult = yes
+				NOT = { owns_story_of_type = story_bno_bull }
+			}
+			create_story = story_bno_bull
+		}
+		if = {
+			limit = {
+				is_a_girl = yes
+				is_african = no
+				is_adult = yes
+				NOT = { owns_story_of_type = story_bno_slut }
+			}
+			create_story = story_bno_slut
+		}
+	}
+}
+
 on_birthday = {
 	on_actions = { bno_trait_maintenance_pulse }
 }
@@ -37,12 +75,29 @@ on_birth_child = {
 	on_actions = { bno_trait_maintenance_pulse }
 }
 
+on_imprison = {
+	on_actions = { bno_on_imprison }
+}
+
+bno_on_imprison = {
+	effect = {
+		scope:imprisoner = {
+			trigger_event = {
+				on_action = bno_trait_maintenance_pulse
+			}
+		}
+		trigger_event = {
+			on_action = bno_trait_maintenance_pulse
+		}
+	}
+}
+
 bno_trait_initialization_pulse = {
 	trigger = {
 		has_game_rule = bno_seeding_yes
 		has_game_rule = bno_mod_status_on
 	}
-	events = {
-		bno_trait_maintenance.0001
+	effect = {
+		create_story = story_bno_maintenance
 	}
 }

@@ -36,6 +36,15 @@ bno_ebony_bloom = {
     years_of_fertility = 10
 }
 
-dd_italian_hate = {
-    italian_opinion = -10
+bno_healed_by_seed_of_genesis_cum = {
+    icon = healed_by_seed_of_genesis_cum
+    stacking = yes
+    health = 0.01
+}
+
+bno_healing_seed_of_genesis_bull = {
+    icon = healing_seed_of_genesis_bull
+    stacking = yes
+    health = 0.01
+    monthly_prestige = 0.01
 }

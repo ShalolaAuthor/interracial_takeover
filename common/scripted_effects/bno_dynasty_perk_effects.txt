@@ -575,3 +575,66 @@ bno_send_bbc_trader_message_to_relevant_people = {
         }
     }
 }
+
+bno_create_caravan_shop_keeper = {
+    create_bbc = {
+        age = bno_young_adult
+        SCOPE_NAME = shop_keeper
+    }
+    add_to_global_variable_list = {
+        name = bno_bbc_trader
+        target = scope:shop_keeper
+    }
+}
+
+bno_get_caravan_shop_keeper = {
+    if = {
+        limit = {
+            NOT = { has_global_variable_list = bno_bbc_trader }
+        }
+        bno_create_caravan_shop_keeper = yes
+    }
+    else = {
+        every_in_global_list = {
+            variable = bno_bbc_trader
+            limit = {
+                is_alive = no
+            }
+            remove_list_global_variable = {
+                name = bno_bbc_trader
+                target = prev
+            }
+        }
+        if = {
+            limit = {
+                has_global_variable_list = bno_bbc_trader
+            }
+            every_in_global_list = {
+                variable = bno_bbc_trader
+                limit = { is_alive = no }
+                remove_list_global_variable = {
+                    name = bno_bbc_trader
+                    target = this
+                }
+            }
+        }
+        if = {
+            limit = {
+                global_variable_list_size = {
+                    name = bno_bbc_trader
+                    value <= 0
+                }
+            }
+            bno_create_caravan_shop_keeper = yes
+        }
+        else = {
+            every_in_global_list = {
+                variable = bno_bbc_trader
+                limit = {
+                    is_alive = yes
+                }
+                save_scope_as = shop_keeper
+            }
+        }
+    }
+}

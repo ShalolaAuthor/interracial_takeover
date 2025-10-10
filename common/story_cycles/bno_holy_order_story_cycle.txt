@@ -1,0 +1,60 @@
+﻿story_bno_holy_order = {
+    on_owner_death = {
+        story_owner = {
+            save_scope_as = owner
+            primary_heir ?= {
+                bno_create_new_holy_order_story = yes
+            }
+        }
+        end_story = yes
+    }
+
+    effect_group = {
+        months = 3
+        trigger = {
+            story_owner = {
+                is_independent_ruler = yes
+            }
+        }
+
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    OR = {
+                        can_employ_court_position_type = bno_bbc_priestess_court_position
+                        can_employ_court_position_type = bno_bbc_priest_court_position
+                    }
+                }
+            }
+            effect = {
+                story_owner = {
+                    trigger_event = bno_embrace_african_5.0007
+                }
+            }
+        }
+    }
+
+    effect_group = {
+        months = 1
+
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    is_ruler = no
+                }
+            }
+
+            effect = {
+                var:bno_holy_order = {
+                    holy_order_patron = {
+                        save_scope_as = new_patron
+                    }
+                }
+                scope:new_patron = {
+                    bno_create_new_holy_order_story = yes
+                }
+                end_story = yes
+            }
+        }
+    }
+}

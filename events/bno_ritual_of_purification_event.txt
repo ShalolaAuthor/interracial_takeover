@@ -387,6 +387,9 @@ bno_ritual_of_purification.1201 = {
 
     trigger = {
         is_alive = yes
+        scope:child ?= {
+            is_alive = yes
+        }
     }
 
     immediate = {
@@ -413,19 +416,23 @@ bno_ritual_of_purification.1201 = {
 
     option = {
         name = bno_ritual_of_purification.1201.a
-        scope:child = {
+        scope:bbc_1 ?= {
             bno_have_sex_with_effects = {
-                PARTNER = scope:bbc_1
+                PARTNER = scope:child
             }
+        }
+        scope:bbc_2 ?= {
             bno_have_sex_with_effects = {
-                PARTNER = scope:bbc_2
+                PARTNER = scope:child
             }
+        }
+        scope:bbc_3 ?= {
             bno_have_sex_with_effects = {
-                PARTNER = scope:bbc_3
+                PARTNER = scope:child
             }
-            bno_have_sex_with_effects = {
-                PARTNER = root
-            }
+        }
+        bno_have_sex_with_effects = {
+            PARTNER = scope:child
         }
         trigger_event = {
             id = bno_ritual_of_purification.2001

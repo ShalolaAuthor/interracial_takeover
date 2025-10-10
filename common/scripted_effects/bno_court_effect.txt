@@ -103,6 +103,10 @@ bbc_worshipper_whoring_around = {
             bno_increase_whore_level = yes
         }
     }
+    every_in_list = {
+        list = bbc_worshipper_target
+        remove_from_list = this
+    }
 }
 
 bbc_worshipper_service_fee = {

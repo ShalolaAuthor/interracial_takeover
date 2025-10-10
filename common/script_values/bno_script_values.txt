@@ -80,13 +80,8 @@ bno_cum_addiction_random_xp_positive = {
 
 #negative is blonder
 hair_color_x = {
-	value = {
-		integer_range = {
-			min = -1
-			max = 1
-		}
-   	}
-   	multiply = var:bno_becoming_dark
+	value = -1
+   	multiply = bno_genesis_transformation_amount
    	multiply = 0.1
 	min = -1
 	max = 1
@@ -94,19 +89,19 @@ hair_color_x = {
 #negative is lighter
 hair_color_y = {
    	value = -1
-   	multiply = var:bno_becoming_dark
+   	multiply = bno_genesis_transformation_amount
    	multiply = 0.1
 	min = -1
 }
 
 skin_color_x = {
   value = { -0.125 -0.1 }
-  multiply = var:bno_becoming_dark
+  multiply = bno_genesis_transformation_amount
 }
 
 skin_color_y = {
   value = { 0.1 0.125 }
-  multiply = var:bno_becoming_dark
+  multiply = bno_genesis_transformation_amount
 }
 
 bno_younger_adult = {
@@ -120,6 +115,7 @@ bno_young_adult = {
 bno_bbc_trait_occurrence_dicksize_modifier = { # Represents % chance of BBC occuring based on dicksize
   switch = {
     trigger = has_trait
+    dick_big_good_4 = { value = bno_bbc_big_dick_good_4_chance }
     dick_big_good_3 = { value = bno_bbc_big_dick_good_3_chance }
     dick_big_good_2 = { value = bno_bbc_big_dick_good_2_chance }
     dick_big_good_1 = { value = bno_bbc_big_dick_good_1_chance }
@@ -162,16 +158,5 @@ bno_secrecy_base_value = {
 			multiply = -1
 			desc = secrecy.scheme_owner.spymaster.disrupt_schemes
 		}
-	}
-}
-
-bno_becoming_dark_value = {
-	value = 0
-	if = {
-		limit = {
-			is_body_modification_ok = yes
-			exists = var:bno_becoming_dark
-		}
-		add = var:bno_becoming_dark
 	}
 }

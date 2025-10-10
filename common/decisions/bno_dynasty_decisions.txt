@@ -301,6 +301,10 @@ bno_build_bbc_trader_decision = {
 				title_province = {
 					add_special_building_slot  = bbc_trader_01
 					add_special_building = bbc_trader_01
+					add_to_global_variable_list = {
+						name = bbc_trader
+						target = this
+					}
 				}
 			}
 		}
@@ -319,14 +323,8 @@ bno_build_bbc_trader_decision = {
 	ai_will_do = {
         base = 100
         modifier = {
-			add = -50
-			any_held_county = {
-				any_in_de_jure_hierarchy = {
-					title_province = {
-						has_building_or_higher = bbc_trader_01
-					}
-				}
-			}
+			add = -1000000
+			bno_definitively_has_bbc_trader_building = yes
 		}
 	}
 }
@@ -374,17 +372,7 @@ bno_purchase_goods_decision = {
 		}
 	}
 	is_shown = {
-		is_adult = yes
-		OR = {
-			has_bbc_trader = yes
-			liege ?= {
-				has_bbc_trader = yes
-			}
-			top_liege ?= {
-				has_bbc_trader = yes
-			}
-		}
-		is_bno_actor = yes
+		bno_actor_valid_for_purchasing_goods_at_caravan = yes
 	}
 	cooldown = {
 		days = 2
@@ -395,15 +383,18 @@ bno_purchase_goods_decision = {
 	is_valid = {
 		custom_tooltip = {
 			text = has_bbc_caravan
-			OR = {
-				has_bbc_caravan = yes
-				liege ?= {
-					has_bbc_caravan = yes
-				}
-				top_liege ?= {
-					has_bbc_caravan = yes
-				}
-			}
+			bno_caravan_has_arrived = yes
+		}
+	}
+	ai_check_interval = 1
+	ai_potential = {
+		bno_caravan_has_arrived = yes
+	}
+	ai_will_do = {
+        base = 0
+        modifier = {
+			add = 1000000
+			bno_has_all_stuff_from_caravan = no
 		}
 	}
 }

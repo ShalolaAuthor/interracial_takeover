@@ -1,0 +1,427 @@
+﻿story_bno_cuck = {
+    on_owner_death = {
+        end_story = yes
+    }
+    
+	effect_group = {
+		days = { 30 180 }
+
+		trigger = {
+			story_owner = {
+				is_alive = yes
+			}
+		}
+		
+		random_valid = {
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_cuck.0001 }
+						does_blackbull_exist = yes
+						is_spouse_white = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_bbc_scope = {
+							SCOPE_NAME = target1
+						}
+						get_white_wife_scope = {
+							SCOPE_NAME = target2
+						}
+						trigger_event = bno_cuck.0001
+						add_character_flag = {
+							flag = bno_cuck.0001
+							months = { 24 36 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_cuck.0002 }
+						is_bno_cuckish_and_up = yes
+						any_spouse = {
+							is_imprisoned = no
+						}
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = bno_cuck.0002
+						add_character_flag = {
+							flag = bno_cuck.0002
+							months = { 12 18 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_cuck.0003 }
+						is_bno_cuckish_and_up = yes
+						does_blackbull_exist = yes
+						is_spouse_curious = yes
+						gold > 50
+					}
+				}
+				effect = {
+					story_owner = {
+						get_bbc_scope = {
+							SCOPE_NAME = target1
+						}
+						get_curious_wife_scope = {
+							SCOPE_NAME = target2
+						}
+						trigger_event = bno_cuck.0003
+						add_character_flag = {
+							flag = bno_cuck.0003
+							months = { 12 18 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_cuck.0004 }
+						is_bno_cuck_and_up = yes
+						is_married = yes
+						is_spouse_blacked = yes
+						any_martial_councillor = {
+							is_ai_blackbull = yes
+						}
+					}
+				}
+				effect = {
+					story_owner = {
+						random_martial_councillor = {
+							limit = {
+								is_ai_blackbull = yes
+							}
+							save_scope_as = target1
+						}
+						random_spouse = {
+							limit = {
+								is_blacked = yes
+							}
+							save_scope_as = target2
+						}
+						trigger_event = bno_cuck.0004
+						add_character_flag = {
+							flag = bno_cuck.0004
+							months = 36
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_trait = trusting }
+						is_bno_cuck_and_up = yes
+						number_of_personality_traits > 4
+						does_blackbull_exist = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_bbc_scope = {
+							SCOPE_NAME = target1
+						}
+						trigger_event = bno_cuck.0005
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_cuck.0006 }
+						is_bno_cuck_and_up = yes
+						has_trait = just
+						NOR = {
+							employs_court_position = bodyguard_court_position
+							employs_court_position = master_of_horse_court_position
+							employs_court_position = master_of_hunt_court_position
+						}
+						any_courtier_or_guest = {
+							is_ai_blackbull_just_or_zealous = yes
+						}
+					}
+				}
+				effect = {
+					story_owner = {
+						random_courtier_or_guest = {
+							limit = {
+								is_ai_blackbull_just_or_zealous = yes
+							}
+							save_scope_as = target1
+						}
+						trigger_event = bno_cuck.0006
+						add_character_flag = {
+							flag = bno_cuck.0006
+							months = 24
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_bno_cuck_and_up = yes
+						OR = {
+							has_trait = brave
+							has_trait = strong
+						}
+						does_blackbull_exist = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_bbc_scope = {
+							SCOPE_NAME = target1
+						}
+						trigger_event = bno_cuck.0007
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_cuck.0008 }
+						is_bno_beta_and_up = yes
+						is_married = yes
+						is_spouse_blacked = yes
+						highest_held_title_tier >= tier_duchy
+						any_vassal = {
+							is_ai_blackbull = yes
+							NOT = { has_hook = prev }
+						}
+					}
+				}
+				effect = {
+					story_owner = {
+						random_vassal = {
+							limit = {
+								is_ai_blackbull = yes
+								NOT = { has_hook = prev }
+							}
+							save_scope_as = target1
+						}
+						get_blacked_wife_scope = {
+							SCOPE_NAME = target2
+						}
+						trigger_event = bno_cuck.0008
+						add_character_flag = {
+							flag = bno_cuck.0008
+							months = { 24 36 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_cuck.0009 }
+						is_bno_cuck_and_up = yes
+						any_child = {
+							is_courtier_of = prev
+							is_spouse_blacked = yes
+							is_cuck_guy = yes
+						}
+						does_blackbull_exist = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						random_child = {
+							limit = {
+								is_courtier_of = prev
+								is_spouse_blacked = yes
+								is_whiteboi = yes
+							}
+							save_scope_as = cucked_son
+						}
+						get_bbc_scope = {
+							SCOPE_NAME = target1
+						}
+						trigger_event = bno_cuck.0009
+						add_character_flag = {
+							flag = bno_cuck.0009
+							months = { 48 60 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_cuck.0010 }
+						is_bno_cuck_and_up = yes
+						is_married = yes
+						is_spouse_blacked = yes
+						highest_held_title_tier >= tier_duchy
+						any_vassal = {
+							is_ai_white_guy = yes
+						}
+						any_intrigue_councillor = {
+							is_ai_blackbull = yes
+						}
+					}
+				}
+				effect = {
+					story_owner = {
+						random_intrigue_councillor = {
+							limit = {
+								is_ai_blackbull = yes
+							}
+							save_scope_as = target1
+						}
+						get_blacked_wife_scope = {
+							SCOPE_NAME = target2
+						}
+						random_vassal = {
+							limit = {
+								is_ai_white_guy = yes
+							}
+							save_scope_as = target3
+						}
+						trigger_event = bno_cuck.0010
+						add_character_flag = {
+							flag = bno_cuck.0010
+							months = { 36 48 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_cuck.0011 }
+						is_bno_cuck_and_up = yes
+						any_close_family_member = {
+							is_girl_valid_target_for_bbc_betrothal = yes
+							save_temporary_scope_as = girl
+						}
+						highest_held_title_tier >= tier_duchy
+						any_vassal = {
+							is_bbc_valid_target_for_betrothal = yes
+							save_temporary_scope_as = bbc
+						}
+						scope:bbc = {
+							can_marry_character_trigger = {
+								CHARACTER = scope:girl
+							}
+						}
+						scope:girl = {
+							can_marry_character_trigger = {
+								CHARACTER = scope:bbc
+							}
+						}
+					}
+				}
+				effect = {
+					story_owner = {
+						random_close_family_member = {
+							limit = {
+								is_girl_valid_target_for_bbc_betrothal = yes
+							}
+							save_scope_as = target1
+						}
+						random_vassal = {
+							limit = {
+								is_bbc_valid_target_for_betrothal = yes
+							}
+							save_scope_as = target2
+						}
+						trigger_event = bno_cuck.0011
+						add_character_flag = {
+							flag = bno_cuck.0011
+							months = { 24 36 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_cuck.0012 }
+						gold > 500
+						is_married = yes
+						is_spouse_blacked = yes
+						any_directly_owned_province = {
+							has_special_building_slot = no
+							NOT = { has_building_or_higher = bbc_camp_01 }
+						}
+					}
+				}
+				effect = {
+					story_owner = {
+						get_blacked_wife_scope = {
+							SCOPE_NAME = target1
+						}
+						trigger_event = bno_cuck.0012
+						add_character_flag = {
+							flag = bno_cuck.0012
+							months = { 12 18 }
+						}
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_bno_cuck_and_up = yes
+						is_ruler = yes
+						diarch ?= {
+							is_spouse_of = prev
+							is_bno_qos_and_up = yes
+						}
+						does_blackbull_exist = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						diarch ?= {
+							save_scope_as = target1
+						}
+						get_bbc_scope = {
+							SCOPE_NAME = target2
+						}
+						trigger_event = bno_cuck.0013
+					}
+				}
+			}
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						NOT = { has_character_flag = bno_cuck.0014 }
+						is_bno_beta_and_up = yes
+						is_married = yes
+						is_ruler = yes
+						does_blackbull_exist = yes
+						does_blacked_girl_exist = yes
+						is_spouse_curious = yes
+					}
+				}
+				effect = {
+					story_owner = {
+						get_curious_wife_scope = {
+							SCOPE_NAME = target1
+						}
+						get_blacked_girl_scope = {
+							SCOPE_NAME = target2
+						}
+						trigger_event = bno_cuck.0014
+						add_character_flag = {
+							flag = bno_cuck.0014
+							months = { 36 48 }
+						}
+					}
+				}
+			}
+		}
+	}
+}

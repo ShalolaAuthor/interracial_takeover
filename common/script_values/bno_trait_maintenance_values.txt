@@ -1,0 +1,25 @@
+﻿bno_cure_disease_interaction_cost = {
+    value = {
+        add = scope:actor.medium_gold_value
+        multiply = scope:recipient.health
+        multiply = 0.5
+    }
+}
+
+bno_ai_events_chance_story_cycle = {
+    switch = {
+        trigger = has_game_rule
+        bno_ai_events_chance_rare = { value = 75 }
+        bno_ai_events_chance_uncommon = { value = 50 }
+        fallback = { value = 25 }
+    }
+}
+
+bno_random_1_to_100 = {
+    value = {
+        integer_range = {
+            min = 1
+            max = 100
+        }
+    }
+}

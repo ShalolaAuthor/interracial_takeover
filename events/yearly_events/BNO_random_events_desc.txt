@@ -7562,6 +7562,7 @@ bno_random.0048 = {
 	
 	trigger = {
 		is_ai_white_guy_married = yes
+		has_chastity_cage_artifact = yes
 		any_spouse = {
 			is_ai_qos = yes
 		}
@@ -7573,6 +7574,12 @@ bno_random.0048 = {
 	immediate = {
 		get_qos_wife_scope = {
 			SCOPE_NAME = target1
+		}
+		random_character_artifact = {
+			limit = {
+				has_variable = bno_chastity_cage
+			}
+			set_owner = scope:target1
 		}
 	}
 	

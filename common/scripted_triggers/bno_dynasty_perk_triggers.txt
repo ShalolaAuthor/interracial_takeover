@@ -164,3 +164,66 @@ bno_is_barony_valid_for_bbc_trader = {
 		NOT = { has_building_or_higher = bbc_trader_01 }
 	}
 }
+
+bno_actor_valid_for_purchasing_goods_at_caravan = {
+	is_adult = yes
+	OR = {
+		has_bbc_trader = yes
+		liege ?= {
+			has_bbc_trader = yes
+		}
+		top_liege ?= {
+			has_bbc_trader = yes
+		}
+	}
+	is_bno_actor = yes
+}
+
+bno_has_bbc_trader_building = {
+	any_held_county = {
+		any_in_de_jure_hierarchy = {
+			title_province = {
+				has_building_or_higher = bbc_trader_01
+			}
+		}
+	}
+}
+
+bno_definitively_has_bbc_trader_building = {
+	OR = {
+		bno_has_bbc_trader_building = yes
+		liege ?= {
+			bno_has_bbc_trader_building = yes
+		}
+		top_liege ?= {
+			bno_has_bbc_trader_building = yes
+		}
+	}
+}
+
+bno_caravan_has_arrived = {
+	OR = {
+		has_bbc_caravan = yes
+		liege ?= {
+			has_bbc_caravan = yes
+		}
+		top_liege ?= {
+			has_bbc_caravan = yes
+		}
+	}
+}
+
+bno_has_all_stuff_from_caravan = {
+	any_character_artifact = {
+		has_variable = bno_chastity_cage
+	}
+	any_character_artifact = {
+		has_variable = bno_chastity_piercing
+	}
+	any_character_artifact = {
+		has_variable = bno_tincture_of_genesis
+	}
+	any_character_artifact = {
+		has_variable = bno_elixir_of_the_black_womb
+	}
+}

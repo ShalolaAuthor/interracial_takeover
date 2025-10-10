@@ -35,6 +35,10 @@
 		add = 100
 	}
 	modifier = {
+		has_trait = tits_big_good_4
+		add = 200
+	}
+	modifier = {
 		OR = {
 			has_trait = tits_small_bad_1
 			has_trait = tits_small_bad_2
