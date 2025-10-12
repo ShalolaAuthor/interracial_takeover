@@ -14,7 +14,14 @@
 			religion_tag = bnonr_religion
 		}
 
-		piety_cost = 0
+		piety_cost = {
+			value = faith_tenet_cost_massive
+			multiply = 10
+			if = {
+				limit = { has_doctrine = tenet_bno_aniconism }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
 
 		parameters = {
 			great_holy_wars_active = yes
@@ -80,6 +87,37 @@
 		character_modifier = {
 			opinion_of_same_faith = 25
 			opinion_of_different_faith = -25
+		}
+	}
+
+	tenet_bno_seed_of_divine_blessing = {
+		icon = tenet_bno_seed_of_diving_blessing
+		is_shown = {
+			religion_tag = bnonr_religion
+		}
+		can_pick = {
+			religion_tag = bnonr_religion
+		}
+		piety_cost = {
+			value = faith_tenet_cost_massive
+			multiply = 10
+			if = {
+				limit = { has_doctrine = tenet_bno_aniconism }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+		parameters = {
+			no_unfaithfulness_penalty_active = yes
+			safer_childbirths_active = yes
+			healthier_children_active = yes
+			piety_from_childbirth_active = yes
+		}
+		character_modifier = {
+			fertility = 0.1
+		}
+
+		traits = {
+			virtues = { pregnant }
 		}
 	}
 }

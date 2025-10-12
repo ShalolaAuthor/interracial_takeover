@@ -412,10 +412,14 @@
 			doctrine = west_african_unreformed_faith_doctrine
 
 			#Tenets
+			#Vanilla
 			doctrine = tenet_warmonger
-			doctrine = tenet_bno_black_cock_conquest
 			doctrine = tenet_human_sacrifice
 			doctrine = tenet_ritual_celebrations
+
+			#BNWO
+			doctrine = tenet_bno_black_cock_conquest
+			doctrine = tenet_bno_seed_of_divine_blessing
 			
 		}
 	}
