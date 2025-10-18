@@ -27,38 +27,6 @@ on_16th_birthday = {
 	}
 }
 
-bno_on_16th_birthday = {
-	effect = {
-		if = {
-			limit = {
-				is_a_male = yes
-				is_bbc = no
-				is_adult = yes
-				NOT = { owns_story_of_type = story_bno_cuck }
-			}
-			create_story = story_bno_cuck
-		}
-		if = {
-			limit = {
-				is_a_male = yes
-				is_bbc = yes
-				is_adult = yes
-				NOT = { owns_story_of_type = story_bno_bull }
-			}
-			create_story = story_bno_bull
-		}
-		if = {
-			limit = {
-				is_a_girl = yes
-				is_african = no
-				is_adult = yes
-				NOT = { owns_story_of_type = story_bno_slut }
-			}
-			create_story = story_bno_slut
-		}
-	}
-}
-
 on_birthday = {
 	on_actions = { bno_trait_maintenance_pulse }
 }

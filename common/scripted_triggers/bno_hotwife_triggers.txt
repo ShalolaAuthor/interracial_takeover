@@ -1,0 +1,6 @@
+﻿bno_is_perfect_white_girl = {
+    is_blacked = yes
+    is_married = no
+    age <= 30
+    is_lowborn = no
+}

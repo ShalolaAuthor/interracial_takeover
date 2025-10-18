@@ -13,30 +13,6 @@
             	bno_apply_body_trait = yes
             	bno_remove_bbc_from_non_african = yes
             	bno_seed_breast_size_variable = yes
-				if = {
-					limit = {
-						is_a_male = yes
-						is_bbc = no
-						is_adult = yes
-					}
-					create_story = story_bno_cuck
-				}
-				if = {
-					limit = {
-						is_a_male = yes
-						is_bbc = yes
-						is_adult = yes
-					}
-					create_story = story_bno_bull
-				}
-				if = {
-					limit = {
-						is_a_girl = yes
-						is_african = no
-						is_adult = yes
-					}
-					create_story = story_bno_slut
-				}
 			}
         }
     }
@@ -990,39 +966,15 @@
 			}
 		}
 	}
-	#monthly events
-	#effect_group = {
-	#	days = { 30 60 }
-	#	trigger = {
-	#		has_game_rule = bno_event_frequency_one_month
-	#	}
-	#	triggered_effect = {
-	#		trigger = {
-	#			story_owner = {
-	#				is_playable_character = no
-	#			}
-	#		}
-	#		effect = {
-	#			story_owner = {
-	#				trigger_event = {
-	#					on_action =  bno_non_playable_pulse
-	#				}
-	#			}
-	#		}
-	#	}
-	#}
-	
-	
-	#slut events monthly
+	#events
 	effect_group = {
-	}
-	#quarterly events
-	effect_group = {
-		days = { 90 120 }
+		days = { 30 180 }
 		trigger = {
-			has_game_rule = bno_event_frequency_three_months
+			story_owner = {
+				is_adult = yes
+			}
 		}
-		first_valid = {
+		random_valid = {
 			triggered_effect = {
 				trigger = {
 					story_owner = {
@@ -1041,6 +993,7 @@
 				trigger = {
 					story_owner = {
 						is_bbc = yes
+						is_a_male = yes
 					}
 				}
 				effect = {
@@ -1061,139 +1014,7 @@
 				effect = {
 					story_owner = {
 						trigger_event = {
-							on_action = bno_cuck_pulse
-						}
-					}
-				}
-			}
-		}
-		triggered_effect = {
-			trigger = {
-				story_owner = {
-					is_playable_character = no
-				}
-			}
-			effect = {
-				story_owner = {
-					trigger_event = {
-						on_action =  bno_non_playable_pulse
-					}
-				}
-			}
-		}
-	}
-	#six months events
-	effect_group = {
-		days = { 180 210 }
-		trigger = {
-			has_game_rule = bno_event_frequency_six_months
-		}
-		first_valid = {
-			triggered_effect = {
-				trigger = {
-					story_owner = {
-						is_a_girl = yes
-					}
-				}
-				effect = {
-					story_owner = {
-						trigger_event = {
-							on_action = bno_events_slut_pulse
-						}
-					}
-				}
-			}
-			triggered_effect = {
-				trigger = {
-					story_owner = {
-						is_bbc = yes
-					}
-				}
-				effect = {
-					story_owner = {
-						trigger_event = {
-							on_action = bno_events_bull_pulse
-						}
-					}
-				}
-			}
-			triggered_effect = {
-				trigger = {
-					story_owner = {
-						is_bbc = no
-						is_a_male = yes
-					}
-				}
-				effect = {
-					story_owner = {
-						trigger_event = {
-							on_action = bno_cuck_pulse
-						}
-					}
-				}
-			}
-		}
-		triggered_effect = {
-			trigger = {
-				story_owner = {
-					is_playable_character = no
-				}
-			}
-			effect = {
-				story_owner = {
-					trigger_event = {
-						on_action =  bno_non_playable_pulse
-					}
-				}
-			}
-		}
-	}
-	#yearly events
-	effect_group = {
-		days = { 360 390 }
-		trigger = {
-			has_game_rule = bno_event_frequency_twelve_months
-		}
-		first_valid = {
-			triggered_effect = {
-				trigger = {
-					story_owner = {
-						is_a_girl = yes
-					}
-				}
-				effect = {
-					story_owner = {
-						trigger_event = {
-							on_action = bno_events_slut_pulse
-						}
-					}
-				}
-			}
-			triggered_effect = {
-				trigger = {
-					story_owner = {
-						is_bbc = yes
-					}
-				}
-				effect = {
-					story_owner = {
-						trigger_event = {
-							on_action = bno_events_bull_pulse
-						}
-					}
-				}
-			}
-			triggered_effect = {
-				trigger = {
-					story_owner = {
-						is_bbc = no
-						is_a_male = yes
-					}
-				}
-				effect = {
-					story_owner = {
-						trigger_event = {
-							on_action = bno_cuck_pulse
+							on_action = bno_events_cuck_pulse
 						}
 					}
 				}

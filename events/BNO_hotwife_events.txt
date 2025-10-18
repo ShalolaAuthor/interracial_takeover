@@ -14,13 +14,7 @@ bno_hotwife.0001 = {
         is_white_guy = yes
         is_married = no
         any_courtier_or_guest = {
-            is_elligible_partner = yes
-            is_bno_blacked_and_up = yes
-            is_married = no
-            is_white_girl = yes
-            age <= 30
-            exists = dynasty
-            #It might be a good idea to prioritize characters with positive genetic traits.
+            bno_is_perfect_white_girl = yes
         }
         does_blackbull_exist = yes
     }
@@ -35,13 +29,42 @@ bno_hotwife.0001 = {
     }
 
     immediate = {
-        root = { save_scope_as = cuck }
-        random_courtier_or_guest = {
+        save_scope_as = cuck
+        ordered_courtier_or_guest = {
             limit= {
-                is_elligible_partner = yes
-                is_bno_blacked_and_up = yes
-                is_married = no
+                bno_is_perfect_white_girl = yes
             }
+            order_by = {
+                value = 0
+                switch = {
+                    trigger = has_trait
+                    beauty_good_3 = { add = 100 }
+                    beauty_good_2 = { add = 50 }
+                    beauty_good_1 = { add = 25 }
+                    beauty_bad_1 = { add = -25 }
+                    beauty_bad_2 = { add = -50 }
+                    beauty_bad_3 = { add = -100 }
+                }
+                switch = {
+                    trigger = has_trait
+                    physique_good_3 = { add = 100 }
+                    physique_good_2 = { add = 50 }
+                    physique_good_1 = { add = 25 }
+                    physique_bad_1 = { add = -25 }
+                    physique_bad_2 = { add = -50 }
+                    physique_bad_3 = { add = -100 }
+                }
+                switch = {
+                    trigger = has_trait
+                    intellect_good_3 = { add = 100 }
+                    intellect_good_2 = { add = 50 }
+                    intellect_good_1 = { add = 25 }
+                    intellect_bad_1 = { add = -25 }
+                    intellect_bad_2 = { add = -50 }
+                    intellect_bad_3 = { add = -100 }
+                }
+            }
+            position = 1
             save_scope_as = wife
         }
     }
@@ -75,12 +98,11 @@ bno_hotwife.1001 = {
     override_background = { reference = tavern }
 
     trigger = {
-        is_white_guy = yes
-        is_married = no
-        scope:wife = {
-            is_elligible_partner = yes
-            is_bno_blacked_and_up = yes
-            is_married = no
+        scope:cuck ?= {
+            is_alive = yes
+        }
+        scope:wife ?= {
+            is_alive = yes
         }
         does_blackbull_exist = yes
     }
@@ -109,7 +131,6 @@ bno_hotwife.1001 = {
                 }
             }
         }
-        #It is a good choice to let cuck know this lover secret
     }
 
     option = { #She is actually a blacked sex slave...
@@ -130,12 +151,11 @@ bno_hotwife.2001 = {
     override_background = { reference = bedchamber }
 
     trigger = {
-        is_white_guy = yes
-        is_married = no
-        scope:wife = {
-            is_elligible_partner = yes
-            is_bno_blacked_and_up = yes
-            is_married = no
+        scope:cuck ?= {
+            is_alive = yes
+        }
+        scope:wife ?= {
+            is_alive = yes
         }
     }
 
@@ -146,7 +166,6 @@ bno_hotwife.2001 = {
     lower_center_portrait = {
         character = scope:wife
     }
-
 
     option = { #I want to know what she is thinking.
         name = bno_hotwife_2001.a
@@ -178,12 +197,11 @@ bno_hotwife.3001 = {
     override_background = { reference = tavern }
 
     trigger = {
-        is_white_guy = yes
-        is_married = no
-        scope:wife = {
-            is_elligible_partner = yes
-            is_bno_blacked_and_up = yes
-            is_married = no
+        scope:cuck ?= {
+            is_alive = yes
+        }
+        scope:wife ?= {
+            is_alive = yes
         }
     }
 
@@ -226,12 +244,11 @@ bno_hotwife.4001 = {
     override_background = { reference = bedchamber }
 
     trigger = {
-        is_white_guy = yes
-        is_married = no
-        scope:wife = {
-            is_elligible_partner = yes
-            is_bno_blacked_and_up = yes
-            is_married = no
+        scope:cuck ?= {
+            is_alive = yes
+        }
+        scope:wife ?= {
+            is_alive = yes
         }
     }
 
