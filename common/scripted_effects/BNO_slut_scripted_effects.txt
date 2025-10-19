@@ -1494,6 +1494,7 @@ get_valid_whore_list = {
 }
 
 fuck_random_local_bbc = {
+	save_scope_as = whore
 	get_valid_whore_list = {
 		LIST_NAME = local_bbc_list
 	}
