@@ -100,12 +100,7 @@
 
     on_court_position_received = {
         scope:employee = {
-            add_character_flag = no_headgear
-            add_character_flag = can_not_marry
-            trigger_event = {
-                id = bbc_worshipper.0001
-                days = 7
-            }
+            bno_bbc_worshipper_add_story = yes
         }
     }
 
@@ -255,39 +250,25 @@ bno_bbc_priestess_court_position = {
 
     on_court_position_received = {
         scope:employee = {
-            add_character_flag = no_headgear
-            add_character_flag = can_not_marry
-            trigger_event = {
-                id = bbc_priestess.0001
-                days = 7
-            }
+            bno_add_bbc_priest_story = yes
         }
     }
 
     on_court_position_revoked = {
         scope:employee = {
-            trigger_event = {
-                id = bbc_priestess.2001
-                days = 7
-            }
+            bno_remove_bbc_priest_story = yes
         }
     }
 
     on_court_position_invalidated = {
         scope:employee = {
-            trigger_event = {
-                id = bbc_priestess.2001
-                days = 7
-            }
+            bno_remove_bbc_priest_story = yes
         }
     }
 
     on_court_position_vacated = {
         scope:employee = {
-            trigger_event = {
-                id = bbc_priestess.2001
-                days = 7
-            }
+            bno_remove_bbc_priest_story = yes
         }
     }
     
@@ -424,39 +405,25 @@ bno_bbc_priest_court_position = {
 
     on_court_position_received = {
         scope:employee = {
-            add_character_flag = no_headgear
-            add_character_flag = can_not_marry
-            trigger_event = {
-                id = bbc_priestess.0001
-                days = 7
-            }
+            bno_add_bbc_priest_story = yes
         }
     }
 
     on_court_position_revoked = {
         scope:employee = {
-            trigger_event = {
-                id = bbc_priestess.2001
-                days = 7
-            }
+            bno_remove_bbc_priest_story = yes
         }
     }
 
     on_court_position_invalidated = {
         scope:employee = {
-            trigger_event = {
-                id = bbc_priestess.2001
-                days = 7
-            }
+            bno_remove_bbc_priest_story = yes
         }
     }
 
     on_court_position_vacated = {
         scope:employee = {
-            trigger_event = {
-                id = bbc_priestess.2001
-                days = 7
-            }
+            bno_remove_bbc_priest_story = yes
         }
     }
     

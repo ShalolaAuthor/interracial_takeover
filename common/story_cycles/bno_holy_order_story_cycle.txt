@@ -36,6 +36,7 @@
 
     effect_group = {
         months = 1
+        trigger = { always = yes }
 
         triggered_effect = {
             trigger = {

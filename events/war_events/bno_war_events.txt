@@ -82,10 +82,9 @@ bno_war.0001 = {
 			divorce = scope:target1
 		}
 		root = {
-			imprison = {
-				type = dungeon
-				target = scope:defender
-
+			imprison_character_effect = {
+				TARGET = scope:defender
+				IMPRISONER = root
 			}
 			add_opinion = {
 				modifier = bno_good_slut

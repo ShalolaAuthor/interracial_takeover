@@ -1144,9 +1144,6 @@ bno_slut.0015 = {
 			}
 		}
 	}
-	trigger = {
-		NOT = { has_character_flag = bno_slut.1015 }
-	}
 	immediate = {
 		get_bbc_scope = {
 			SCOPE_NAME = bbc
@@ -1155,17 +1152,13 @@ bno_slut.0015 = {
 	option = {
 		name = bno_slut_0015.a
 		bno_increase_whore_level = yes
-		trigger_event = {
-			id = bno_slut.1015
-			days = 2
-			delayed = yes
-		}
-		add_character_flag = {
-			flag = bno_slut.1015
+		create_story = {
+			type = story_bno_bbc_whore
+			save_scope_as = bno_bbc_whore_story
 		}
 		set_variable = {
-			name = slut_whoring_year
-			value = 0
+			name = bno_bbc_whore_story
+			value = scope:bno_bbc_whore_story
 		}
 		ai_chance = {
 			base = 100
@@ -1175,58 +1168,6 @@ bno_slut.0015 = {
 		name = bno_slut_0015.b
 		ai_chance = {
 			base = 0
-		}
-	}
-}
-
-bno_slut.1015 = {
-	hidden = yes
-
-	trigger = {
-		is_alive = yes
-		has_character_flag = bno_slut.1015
-	}
-
-	immediate = {
-		save_scope_as = whore
-		fuck_random_local_bbc = yes
-		trigger_event = {
-			id = bno_slut.1015
-			months = bno_prostitution_interval
-			delayed = yes
-		}
-		trigger_event = {
-			id = bno_slut.2015
-			months = 12
-			delayed = yes
-		}
-		if = {
-			limit = {
-				var:slut_whoring_year = 1
-			}
-			trigger_event = {
-				id = bno_slut.3015
-				days = 2
-				delayed = yes
-			}
-		}
-	}
-}
-# add 1 year of slut
-bno_slut.2015 = {
-	hidden = yes
-	trigger = {
-		has_character_flag = bno_slut.1015
-	}
-	immediate = {
-		change_variable = {
-			name = slut_whoring_year
-			add = 1
-		}
-		trigger_event = {
-			id = bno_slut.2015
-			months = 12
-			delayed = yes
 		}
 	}
 }
@@ -1251,19 +1192,11 @@ bno_slut.3015 = {
 		animation = sex_combined
 	}
 
-	trigger = {
-		NOT = { has_character_flag = bno_slut.3015 }
-	}
-
 	immediate = {
 		add_character_flag = bno_slut.3015
-		if = {
-			limit = {
-				NOT = { exists = scope:bbc }
-			}
-			get_bbc_scope = {
-				SCOPE_NAME = bbc
-			}
+		create_bbc = {
+			age = bno_young_adult
+			SCOPE_NAME = bbc
 		}
 		bno_sex_scene_start = {
 			PARTNER = scope:bbc
@@ -1285,11 +1218,19 @@ bno_slut.3015 = {
 	option = {
 		name = bno_slut_3015.b
 		custom_tooltip = bno_slut.3015.stop
-		remove_character_flag = bno_slut.1015
+		var:bno_bbc_whore_story = {
+			end_story = yes
+		}
 		carn_sex_scene_is_cum_inside_effect = yes
         bno_sex_scene_cleanup = yes
 		ai_chance = {
 			base = 100
+		}
+	}
+
+	after = {
+		bno_kill_character = {
+			TARGET = scope:bbc
 		}
 	}
 }

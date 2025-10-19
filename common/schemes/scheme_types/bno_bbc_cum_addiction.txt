@@ -11,10 +11,10 @@
     allow = { }
 
     valid = {
-        scope:owner = {
+        scope:owner ?= {
 			is_alive = yes
 		}
-		scope:target = {
+		scope:target ?= {
 			is_alive = yes
 		}
     }
@@ -833,5 +833,6 @@
 				desc = bno_bbc_cum_addiction.invalidated.tooltip
 			}
 		}
+		end_scheme = yes
 	}
 }

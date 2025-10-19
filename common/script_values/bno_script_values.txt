@@ -1,13 +1,4 @@
-﻿bno_prostitution_interval = {
-  switch = {
-    trigger = has_game_rule
-    bno_interval_three_months = { value = 3 }
-    bno_interval_six_months = { value = 6 }
-    fallback = { value = 1 }
-  }
-}
-
-bno_ai_events_chance = {
+﻿bno_ai_events_chance = {
 	switch = {
 		trigger = has_game_rule
 		bno_ai_events_chance_rare = { value = 75 }

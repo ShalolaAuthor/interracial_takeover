@@ -1,0 +1,53 @@
+﻿story_bno_bbc_whore = {
+    on_setup = {
+        story_owner = {
+            set_variable = {
+                name = slut_whoring_year
+                value = 0
+            }
+        }
+    }
+    on_owner_death = {
+        end_story = yes
+    }
+    effect_group = {
+        days = { 30 180 }
+        trigger = { always = yes }
+        triggered_effect = {
+            trigger = { always = yes }
+            effect = {
+                story_owner = {
+                    fuck_random_local_bbc = yes
+                }
+            }
+        }
+    }
+    effect_group = {
+        months = 12
+        trigger = { always = yes }
+        triggered_effect = {
+            trigger = { always = yes }
+            effect = {
+                story_owner = {
+                    change_variable = {
+                        name = slut_whoring_year
+                        add = 1
+                    }
+                }
+            }
+        }
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    var:slut_whoring_year = 1
+                    NOT = { has_character_flag = bno_slut.3015 }
+                }
+            }
+            effect = {
+                story_owner = {
+                    trigger_event = bno_slut.3015
+                }
+            }
+        }
+    }
+}

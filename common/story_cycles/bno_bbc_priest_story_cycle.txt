@@ -1,0 +1,34 @@
+﻿story_bno_bbc_priest = {
+    on_owner_death = {
+        end_story = yes
+    }
+    effect_group = {
+        days = { 30 180 }
+        trigger = { always = yes }
+        triggered_effect = {
+            trigger = { always = yes }
+            effect = {
+                story_owner = {
+                    save_scope_as = story_bno_bbc_priest_owner
+                    liege ?= {
+                        save_scope_as = TARGET_CHARACTER
+                    }
+                    random_list = {
+                        80 = { # own realm
+                            random_list = {
+                                80 = { bbc_priestess_convert_vassal = yes }
+                                20 = { bbc_priestess_convert_county = yes }
+                            }
+                        }
+                        20 = { # outside realm
+                            random_list = {
+                                80 = { bbc_priestess_convert_neighboring_ruler = yes }
+                                20 = { bbc_priestess_convert_neighboring_county = yes }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

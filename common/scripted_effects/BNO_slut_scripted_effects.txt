@@ -634,6 +634,19 @@ get_something = {
 		}
 		save_scope_as = $SCOPE_NAME$
 	}
+	if = {
+		limit = {
+			NOT = { exists = scope:$SCOPE_NAME$ }
+		}
+		liege ?= {
+			random_courtier_or_guest = {
+				limit = {
+					$TRIGGER_KEY$ = yes
+				}
+				save_scope_as = $SCOPE_NAME$
+			}
+		}
+	}
 }
 
 get_something_backup = {

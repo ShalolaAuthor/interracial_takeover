@@ -27,6 +27,32 @@
         trigger = {
             story_owner = { is_ai = yes }
         }
+		#becoming a bbc whore
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					is_white_girl = yes
+					is_bno_snowbunny_and_up = yes
+					NOT = { has_character_flag = bno_stop_becoming_bbc_slut }
+					NOT = { owns_story_of_type = story_bno_bbc_whore }
+					OR = {
+						any_courtier = {
+							is_blackbull = yes
+						}
+						liege ?= {
+							any_courtier = {
+								is_blackbull = yes
+							}
+						}
+					}
+				}
+			}
+			effect = {
+				story_owner = {
+					trigger_event = bno_slut.0015
+				}
+			}
+		}
         #culture
         triggered_effect = {
             trigger = {

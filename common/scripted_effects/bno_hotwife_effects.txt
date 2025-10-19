@@ -26,6 +26,7 @@ bno_add_random_army_small_effect = {
                     }
                     location = location
                     army = var:bno_hotwife_army
+                    name = bno_hotwife_army_name
                 }
             }
             else = {
@@ -35,6 +36,7 @@ bno_add_random_army_small_effect = {
                         men = { 1 5 }
                     }
                     location = location
+                    name = bno_hotwife_army_name
                     save_scope_as = bno_hotwife_army
                 }
                 set_variable = {
@@ -53,6 +55,7 @@ bno_add_random_army_small_effect = {
                     }
                     location = location
                     army = var:bno_hotwife_army
+                    name = bno_hotwife_army_name
                 }
             }
             else = {
@@ -62,6 +65,7 @@ bno_add_random_army_small_effect = {
                         men = { 5 25 }
                     }
                     location = location
+                    name = bno_hotwife_army_name
                     save_scope_as = bno_hotwife_army
                 }
                 set_variable = {

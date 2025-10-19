@@ -1,0 +1,45 @@
+﻿story_bno_bbc_worshipper = {
+    on_owner_death = {
+        end_story = yes
+    }
+    effect_group = {
+        days = 7
+        trigger = {
+            story_owner = {
+                exists = liege
+                gold > 50
+            }
+        }
+        triggered_effect = {
+            trigger = { always = yes }
+            effect = {
+                story_owner = {
+                    save_scope_as = story_bno_bbc_worshipper_owner
+                    liege ?= {
+                        send_interface_message = {
+                            type = bno_blacked_events
+                            title = bbc_worshipper.0002.notifications.title
+                            right_icon = scope:story_bno_bbc_worshipper_owner
+                            desc = bbc_worshipper.0002.notifications.desc
+                            scope:story_bno_bbc_worshipper_owner = {
+                                bbc_worshipper_give_all_spoil_to_liege = yes
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    effect_group = {
+        days = { 30 180 }
+        trigger = { always = yes }
+        triggered_effect = {
+            trigger = { always = yes }
+            effect = {
+                story_owner = {
+                    bbc_worshipper_whoring_around = yes
+                }
+            }
+        }
+    }
+}
