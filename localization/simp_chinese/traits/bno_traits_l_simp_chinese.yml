@@ -238,5 +238,36 @@ trait_bno_bull: "公牛"
 trait_bno_bull_desc: "真正的[bno_bull|E]——此人不仅满足于交配。他将一个浅肤色的荡妇驯化成[bno_cum_slave|E]，一个只属于他阳具与精液的容器。他的雄性力量与威能令人敬畏臣服；他的精液奴隶正是活生生的证明——[bno_bnwo|E]并非幻想，而是自然法则。当他人以王冠或利剑统治时，他以阳具为权杖——他的精液既铸就军队，亦缔造帝国。"
 
 TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$不会因婚外生育或受孕而遭受[extramarital_sex|E]惩罚。"  
-
 TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$他人不会因为与该角色生育而遭受[extramarital_sex|E]惩罚。"  
+
+trait_bno_seed_of_genesis: "创世之种"
+trait_bno_seed_of_genesis_desc: "这头公牛饮下了创世酊剂。它的精液不再是寻常种子——而是BNWO神圣的精髓。每一次喷洒都重塑着被触碰的荡妇：肤色愈发黝黑，美貌愈发锐利，双乳沉甸丰盈，臀部饱满丰腴，腰肢纤细如柳，身躯在他繁衍的恩泽下臻于完美。它的精液是圣典，它的阳具是祭坛，它的统治永世长存。"
+
+TRAIT_FLAG_DESC_bno_seed_of_genesis: "$EFFECT_LIST_BULLET$[character|E]的精液含有[bno_seed_of_genesis|E]，能将他们交配过的母狗转化得更黑、更丰满、更完美的黑肉，臣服于BNWO。"
+
+bno_genesis_transformation.name.1: "受种标记"
+bno_genesis_transformation.desc.1: "她首次与创世之种的公牛交配，已留下痕迹。苍白的肌肤渐染暗红，乳头因乳房初肿而隐隐作痛，臀部随着首次扩张悄然呻吟。每次精液从阴道滴落时，她都能感受到——身体明白自己正在改变。她脸颊绯红加深，呻吟声愈发响亮，深知蜕变早已开始。"
+
+bno_genesis_transformation.name.2: "黑皮化"
+bno_genesis_transformation.desc.2: "她的肌肤渐染深色，双乳在掌心沉甸甸地饱满，臀瓣圆润柔软而丰腴。腰肢渐细，臀髋却愈发宽阔，大腿在持续的蹂躏下愈发粗壮。她做着湿漉漉的淫秽梦境，醒来时下体渗着湿意，乳头肿胀发暗。每次精液的注入都在她体内留下更深的印记。她正从内而外被染黑。"
+
+bno_genesis_transformation.name.3: "非裔化"
+bno_genesis_transformation.desc.3: "她的肌肤此刻泛着浓郁的暗色光泽，双乳沉甸甸地挺立，臀部丰腴得几乎要溢出，腰肢如肥沃的土壤般向两侧舒展。纤腰收紧，身躯勾勒出专为公牛培育的女神般丰腴曲线。她的穴道因渴求阳具而痉挛，子宫因渴望精液而跳动，意识里不断乞求更多种子。即便在公共场合，她也像荡妇般呻吟，变化已深到无法掩饰。她正在被非洲化。"
+
+bno_genesis_transformation.name.4: "受冕黑肉"
+bno_genesis_transformation.desc.4: "她的蜕变已近尾声。双乳硕大如钟，乳汁汩汩渗出，乳尖乌黑挺立。臀部宽阔摇曳，肥臀如厚垫般渴求骑乘，纤腰曲线分明，勾勒出每一寸婀娜。肌肤深邃透亮，汗珠与麝香交织成光泽。呻吟化作膜拜，每个字眼都在乞求阳具，每个念头都只为繁衍。她被黑色血肉环绕，宛如献给BNWO的活祭。"
+
+bno_genesis_transformation.name.5: "完美的黑皮母狗"
+bno_genesis_transformation.desc.5: "最终阶段。在创世之种的滋养下，她完美无瑕：肌肤黝黑如墨，双乳硕大敏感，臀部宽阔丰盈，臀瓣饱满湿润，腰肢纤细得恰到好处。子宫肥沃如荒原，饥渴难耐，沦为精液的奴隶。神智早已消散——她沉溺于阳具的虔诚，终日呻吟哀求着被播种。她已非昔日之身，而是被重塑为BNWO的完美证明——那条完美的媚黑母狗。"
+
+trait_track_bno_genesis_transformation: "正在变黑"
+trait_track_bno_genesis_transformation_desc: "每次被带着创世之种的公牛交配，她的身体便发生蜕变。肌肤渐黑，双乳膨胀，臀部外扩，腰肢纤细，臀瓣圆润湿润。心智日渐涣散，对阳具的渴求愈发炽烈。她一步步被染黑，被非裔化，最终蜕变成BNWO渴求的完美荡妇。"
+
+TRAIT_FLAG_DESC_bno_bigger_breast: "$EFFECT_LIST_BULLET$每次被带有[bno_seed_of_genesis|E]的公牛交配时，她的胸变得更大，奶头更黑，且身体也会更敏感。"
+TRAIT_FLAG_DESC_bno_bigger_ass: "$EFFECT_LIST_BULLET$每一次被[bno_seed_of_genesis|E]公牛注入都会使她臀部更圆润、丰满，且更安产型。"
+TRAIT_FLAG_DESC_bno_smaller_waist: "$EFFECT_LIST_BULLET$通过反复与被标记为[bno_seed_of_genesis|E]的公牛交配，她的腰更细更紧致了，强化了她那丰产的曲线。"
+TRAIT_FLAG_DESC_bno_bigger_hips: "$EFFECT_LIST_BULLET$每次她被[bno_seed_of_genesis|E]公牛填满，她的臀部变得更宽，将她重塑为完美的交配躯体。"
+TRAIT_FLAG_DESC_bno_darker_skin: "$EFFECT_LIST_BULLET$每次在[bno_seed_of_genesis|E]祝福之下的交配，都会使得她的皮肤一点点变黑，随着她的转化更进一步，愈加饱满。"
+
+trait_bno_whispered_rose: "低语玫瑰"
+trait_bno_whispered_rose_desc: "她的出现吸引所有目光，她的笑声如遗忘的梦境萦绕不去，关于她美貌的传闻在走廊间飘荡，宛如微风中的花瓣。此刻她依然遥不可及——令人倾慕，令人渴求，却始终触手不及。"
