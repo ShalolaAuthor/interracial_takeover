@@ -63,3 +63,29 @@ bno_model_father = {
     stacking = yes
     icon = model_father
 }
+
+bno_eager_cuckold = {
+    icon = eager_cuckold
+    spouse_opinion = 30
+    attraction_opinion = -5
+    stress_loss_mult = 0.15
+    ai_compassion = 20
+    fertility = -0.05
+}
+
+bno_blackened_bride = {
+    icon = blackened_bride
+    attraction_opinion = 35
+    fertility = 0.25
+    spouse_opinion = 35
+    general_opinion = 10
+}
+
+bno_ceremonial_bull = {
+    icon = ceremonial_bull
+    stacking = yes
+    attraction_opinion = 5
+    prowess = 1
+    fertility = 0.05
+    general_opinion = 5
+}

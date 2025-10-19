@@ -49,3 +49,10 @@ bno_elixir_of_the_black_womb_template = {
     }
     unique = yes
 }
+
+bno_blacked_pleasures_unveiled_template = {
+    ai_score = {
+        value = 1000000
+    }
+    unique = yes
+}

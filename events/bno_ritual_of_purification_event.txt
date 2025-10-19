@@ -26,6 +26,7 @@ bno_ritual_of_purification.1111 = {
                     has_council_position = councillor_court_chaplain
                 }
             }
+            #TODO: add father
         }
     }
     immediate = {

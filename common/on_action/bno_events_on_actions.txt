@@ -1,6 +1,7 @@
 ﻿bno_events_slut_pulse = {
 	trigger = {
 		is_a_girl = yes
+		is_adult = yes
 	}
 	random_on_action = {
 		1 = bno_slut_pulse
@@ -13,6 +14,7 @@ bno_events_bull_pulse = {
 	trigger = {
 		is_bbc = yes
 		is_a_male = yes
+		is_adult = yes
 	}
 	random_on_action = {
 		1 = bno_bull_pulse
@@ -25,8 +27,10 @@ bno_events_cuck_pulse = {
 	trigger = {
 		is_bbc = no
 		is_a_male = yes
+		is_adult = yes
 	}
 	random_on_action = {
+		1 = bno_hotwife_pulse
 		1 = bno_cuck_pulse
 		1 = bno_random_pulse
 		1 = bno_embrace_african_pulse

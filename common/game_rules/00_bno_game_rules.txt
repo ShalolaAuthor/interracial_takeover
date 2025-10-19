@@ -86,23 +86,6 @@ bno_decision_npc = {
 
 }
 
-bno_global_bbc_activities = {
-	categories = {
-		interracial_takeover
-	}
-
-	default = bno_global_bbc_activities_yes
-
-	bno_global_bbc_activities_yes = {
-
-	}
-
-	bno_global_bbc_activities_no = {
-		
-	}
-
-}
-
 bno_seeding = {
 	categories = {
 		interracial_takeover
@@ -115,31 +98,6 @@ bno_seeding = {
 	}
 
 	bno_seeding_no = {
-		
-	}
-
-}
-
-bno_event_frequency = {
-	categories = {
-		interracial_takeover
-	}
-
-	default = bno_event_frequency_three_months
-
-	bno_event_frequency_one_month = {
-
-	}
-
-	bno_event_frequency_three_months = {
-
-	}
-
-	bno_event_frequency_six_months = {
-
-	}
-
-	bno_event_frequency_twelve_months = {
 		
 	}
 
