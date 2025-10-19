@@ -1,23 +1,28 @@
 ﻿l_korean:
 
-slut_curious: "창녀" # AI Tags
-slut_blacked: "검은색" # AI Tags
+slut_curious: "호기심한 창녀" # AI Tags
+slut_blacked: "흑색 춘추" # AI Tags
 slut_snowbunny: "스노우bunny" # AI Tags
 slut_qos: "흑인 창녀" # AI Tags
 slut_mindless: "블랙 베이비 공장" # AI Tags
-slut_boobs_1: "큰 가슴" # AI Tags
-slut_boobs_2: "유방한 멜론" # AI Tags
-slut_boobs_3: "큰 가슴" # AI Tags
-male_bbc: "인종 배신자" # AI Tags
+slut_boobs_1: "큰 가슴의 창녀" # AI Tags
+slut_boobs_2: "멜론 시트 춘추" # AI Tags
+slut_boobs_3: "큰 가슴의 창녀" # AI Tags
+slut_boobs_4: "젖소 젖소 춘추" # AI Tags
+
+male_bbc: "BBC" # AI Tags
 male_cuckish: "푹신한" # AI Tags
 male_cuck: "" # AI Tags
 male_beta: "베타" # AI Tags
 male_jos: "아내 공유자" # AI Tags
 male_caged: "케이지" # AI Tags
 male_castrated: "캐스트레이드" # AI Tags
-male_dick_1: "비참한 피니스" # AI Tags
-male_dick_2: "미세 페니스" # AI Tags
-male_dick_3: "림프 페니스" # AI Tags
+male_dick_1: "유감스럽다" # AI Tags
+male_dick_2: "마이크로 딕 (Micro-Dicked)" # AI Tags
+male_dick_3: "림프 튀김" # AI Tags
+
+
+is_a_male: "남자 성기를 가진 캐릭터, 황소, 푸타, 그리고 남자들." # AI Tags
 
 bno_disease_type.lovers_pox: "[GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
 bno_disease_type.ill: "[GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags

@@ -1,23 +1,28 @@
 ﻿l_german:
 
-slut_curious: "Schleudern" # AI Tags
-slut_blacked: "Schwarz" # AI Tags
+slut_curious: "Merkwürdige Schlampe" # AI Tags
+slut_blacked: "Schwarzer Slut" # AI Tags
 slut_snowbunny: "Schneebunny" # AI Tags
 slut_qos: "Schwarze Hure" # AI Tags
 slut_mindless: "Schwarze Babyfabrik" # AI Tags
-slut_boobs_1: "Groß brüstet" # AI Tags
-slut_boobs_2: "Melon mit Brust" # AI Tags
-slut_boobs_3: "Riesig gebobert" # AI Tags
-male_bbc: "Rennverteidiger" # AI Tags
+slut_boobs_1: "Großzügiger Schlupf" # AI Tags
+slut_boobs_2: "Melonen-Titted Slut" # AI Tags
+slut_boobs_3: "Riesig-gestreifter Schlupf" # AI Tags
+slut_boobs_4: "Kuh-Titted Slut" # AI Tags
+
+male_bbc: "BBC" # AI Tags
 male_cuckish: "Kuckucksweibchen" # AI Tags
 male_cuck: "Gepuckt" # AI Tags
 male_beta: "Betäubun" # AI Tags
-male_jos: "Ehefrau Sharer" # AI Tags
+male_jos: "Ehefrau-Teilnehmerin" # AI Tags
 male_caged: "Gekämmt" # AI Tags
 male_castrated: "Kastriert" # AI Tags
-male_dick_1: "Erbärmlicher Penis" # AI Tags
-male_dick_2: "Mikropenis" # AI Tags
-male_dick_3: "Limppenis" # AI Tags
+male_dick_1: "Erbärmlich krank" # AI Tags
+male_dick_2: "Mikrodicke" # AI Tags
+male_dick_3: "Gelähmt" # AI Tags
+
+
+is_a_male: "Charaktere mit männlichen Genitalien, darunter Bullen, Futas und Männer." # AI Tags
 
 bno_disease_type.lovers_pox: "[GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
 bno_disease_type.ill: "[GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags

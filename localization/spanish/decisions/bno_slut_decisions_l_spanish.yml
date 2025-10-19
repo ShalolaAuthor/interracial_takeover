@@ -183,3 +183,35 @@ bno_trade_prestige_for_gold.confirm.male: "Sí, deja que mi esposa sirva a los T
 bno_trade_prestige_for_gold.confirm.female: "Sí, serviré a los Bulls yo mismo por oro."   # AI Tags
 
 bno_trade_prestige_for_gold.effect: "Convertir [prestige|E] en [gold|E] a través del servicio prostituido a la hermandad africana."   # AI Tags
+
+bno_build_bbc_trader_decision.title.male: "Establecer la Caravana de Obsidiana" # AI Tags
+bno_build_bbc_trader_decision.desc.male: "Como Toro del Nuevo Orden Mundial Negro ordenáis que la tierra sea limpiada y marcada con estandartes negros, convocando a vuestros hermanos. Aquí la Caravana Obsidiana se arraigará, vendiendo la Tintura de Génesis, el Elixir de la Mujer Negra, jaulas para gusanos, y piercings para putas. Ustedes no están invitando al comercio — ustedes están extendiendo el dominio." # AI Tags
+bno_build_bbc_trader_decision.tooltip.male: "Encontró un mercado permanente para que Bulls comerciara con semillas, sacramentos y herramientas de propiedad." # AI Tags
+bno_build_bbc_trader_decision.confirm.male: "Reclama el terreno y llama a la Caravana." # AI Tags
+bno_build_bbc_trader_decision.message.title.male: "Llega tu caravana" # AI Tags
+bno_build_bbc_trader_decision.message.desc.male: "Los vagones ruedan en pesado con mercancías y semillas, las tiendas de seda se levantan, y las derivas del incienso. La Caravana Obsidiana es ahora el corazón palpitante de tu dominio — Los toros se reúnen, las putas susurran, los whitebois tiemblan. Su alcance se extiende más profundo en el reino." # AI Tags
+
+bno_build_bbc_trader_decision.title.female: "Invitar a la caravana de Obsidiana" # AI Tags
+bno_build_bbc_trader_decision.desc.female: "Marcas un claro con antorchas y pancartas, haciendo un lugar para los vagones de los Toros. Pronto vendrá la Caravana Obsidiana, vendiendo la Tintura que une a las putas a correrse, el Elixir que deshace whitebois, y cada jaula y piercing que sella la obediencia. Darles la bienvenida es dar la bienvenida a su poder en su tierra y en su cuerpo." # AI Tags
+bno_build_bbc_trader_decision.tooltip.female: "Prepara un sitio para la Caravana de Obsidiana, abriendo tu reino al comercio y sacramentos de los Toros." # AI Tags
+bno_build_bbc_trader_decision.confirm.female: "Despeja el suelo y abre el camino." # AI Tags
+bno_build_bbc_trader_decision.message.title.female: "Llega la caravana" # AI Tags
+bno_build_bbc_trader_decision.message.desc.female: "La Caravana de Obsidiana retumba en su lugar, carros colgados con sedas y pesado con semillas. Los toros se desmontan para reclamar los terrenos, las putas se reúnen para susurrar tinturas y jaulas, y el aire se llena de incienso, almizcle y gemidos. Ya sientes el cambio: la caravana está aquí, y con ella, el destino." # AI Tags
+
+bno_purchase_goods_decision.title.male: "Comanda las mercancías de la caravana" # AI Tags
+bno_purchase_goods_decision.desc.male: "La Caravana Obsidiana te abre su stock: pinturas, elixires, jaulas, marcas. Como Bull, pagas en oro, nunca en carne y hueso. La moneda que gastas es una marca de dominio, reclamando las herramientas para coronar putas y romper gusanos más profundamente en la obediencia." # AI Tags
+bno_purchase_goods_decision.tooltip.male: "Gasta oro para adquirir tinturas, elixires y herramientas de propiedad." # AI Tags
+bno_purchase_goods_decision.confirm.male: "Pon tu oro y reclama lo que es tuyo." # AI Tags
+
+bno_purchase_goods_decision.title.female: "Compra en la Caravana de Obsidiana" # AI Tags
+bno_purchase_goods_decision.desc.female: "Los Toros de la Caravana extendieron sus productos —viales de Tintura de Génesis, Elixirs de la Mujer Negra, jaulas, piercings y marcas. Si tienes oro, se lo llevarán. Si no, sonríen y demandan tu cuerpo en su lugar: agujeros estirados, mordiscos en la boca, semillas goteando por tus muslos hasta que el precio sea pagado en su totalidad." # AI Tags
+bno_purchase_goods_decision.tooltip.female: "Gasta oro, o intercambia favores sexuales si tu bolso está vacío." # AI Tags
+bno_purchase_goods_decision.confirm.female: "Paga en moneda si puedes, o en gemidos si es necesario." # AI Tags
+
+has_bbc_caravan: "La Caravana Obsidiana ha llegado y ahora habita dentro de vuestro reino, sus tiendas pesadas con tinturas, elixires y herramientas de dominación." # AI Tags
+
+bno_trader_has_arrived.title.male: "La caravana ha llegado" # AI Tags
+bno_trader_has_arrived.desc.male: "Los carros de Obsidiana rodan a través de su tierra, banderas negras que se rompen, incienso espeso en el aire. Toros desmontan con cofres de tinturas, elixirs, jaulas y marcas. La caravana está aquí por su orden, sus mercancías ahora instrumentos de su supremacía." # AI Tags
+
+bno_trader_has_arrived.title.female: "La caravana entra en tu reino" # AI Tags
+bno_trader_has_arrived.desc.female: "Los carros pesados crujen en su lugar, tiendas de seda que se levantan bajo la vigilancia de los toros imponentes. Sus productos brillan—tinturas para atar, elixirs para transformar, cadenas para marcar. La caravana ha llegado, y con ella la tentación, la obediencia, y el olor de la semilla en el aire." # AI Tags

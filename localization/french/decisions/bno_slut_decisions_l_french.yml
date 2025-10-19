@@ -183,3 +183,35 @@ bno_trade_prestige_for_gold.confirm.male: "Oui, que ma femme serve les taureaux 
 bno_trade_prestige_for_gold.confirm.female: "Oui, je servirai les taureaux moi-même pour l'or."   # AI Tags
 
 bno_trade_prestige_for_gold.effect: "Convertir [prestige|E] dans [gold|E] par le service sacré à la fraternité africaine."   # AI Tags
+
+bno_build_bbc_trader_decision.title.male: "Établir la Caravane Obsidienne" # AI Tags
+bno_build_bbc_trader_decision.desc.male: "En tant que Taureau de l'Ordre du Nouveau Monde Noir, vous commandez que la terre soit défrichée et marquée de bannières noires, appelant vos frères. Ici, la Caravane Obsidienne s'enracinera, vendant la Teinture de la Genèse, l'Élixir du Ver noir, des cages pour vers, et des piercings pour salopes. Vous n'invitez pas le commerce — vous étendez le dominion." # AI Tags
+bno_build_bbc_trader_decision.tooltip.male: "Trouvé un marché permanent pour Bulls pour le commerce des semences, des sacrements et des outils de propriété." # AI Tags
+bno_build_bbc_trader_decision.confirm.male: "Réclamez le motif et appelez la Caravane." # AI Tags
+bno_build_bbc_trader_decision.message.title.male: "Votre Caravane Arrives" # AI Tags
+bno_build_bbc_trader_decision.message.desc.male: "Les wagons roulent en lourd avec des marchandises et des semences, des tentes de soie se lèvent, et des dérives d'encens. La Caravane Obsidienne est maintenant votre domaine de battement de cœur — Bulls se rassemblent, salopes murmurent, blancbois tremble. Votre portée s'étend plus profondément dans le royaume." # AI Tags
+
+bno_build_bbc_trader_decision.title.female: "Inviter la Caravane Obsidienne" # AI Tags
+bno_build_bbc_trader_decision.desc.female: "Vous marquez une clairière avec des torches et des bannières, faisant une place pour les wagons Bulls. Bientôt la Caravane Obsidienne viendra, vendant la Teinture qui lie les salopes au sperme, l'Elixir qui fait défaire les blancsbois, et chaque cage et piercing qui scelle l'obéissance. Les accueillir est d'accueillir leur pouvoir dans votre pays — et dans votre corps." # AI Tags
+bno_build_bbc_trader_decision.tooltip.female: "Préparez un site pour la Caravane Obsidienne, ouvrant votre royaume au commerce des taureaux et des sacrements." # AI Tags
+bno_build_bbc_trader_decision.confirm.female: "Dégagez le sol et ouvrez le chemin." # AI Tags
+bno_build_bbc_trader_decision.message.title.female: "La Caravane Arrives" # AI Tags
+bno_build_bbc_trader_decision.message.desc.female: "La Caravane Obsidienne s'engourdit en place, les chariots accrochés avec des soies et lourds avec des graines. Les taureaux se détachent pour réclamer le terrain, les salopes se rassemblent pour murmurer les teintures et les cages, et l'air se remplit d'encens, de musc et de gémissements. Vous ressentez déjà le changement : la caravane est là, et avec elle, le destin." # AI Tags
+
+bno_purchase_goods_decision.title.male: "Commandez les marchandises de la Caravane" # AI Tags
+bno_purchase_goods_decision.desc.male: "La Caravane Obsidienne vous ouvre son stock : teintures, élixirs, cages, marques. En tant que Bull, vous payez en or, jamais en chair et en os. La pièce que vous dépensez est une marque de dominion, revendiquant les outils pour couronner les salopes et briser les vers plus profondément dans l'obéissance." # AI Tags
+bno_purchase_goods_decision.tooltip.male: "Dépensez de l'or pour acquérir des teintures, des élixirs et des outils de propriété." # AI Tags
+bno_purchase_goods_decision.confirm.male: "Posez votre or et revendiquez ce qui est à vous." # AI Tags
+
+bno_purchase_goods_decision.title.female: "Achat auprès de la Caravane Obsidienne" # AI Tags
+bno_purchase_goods_decision.desc.female: "Les taureaux de la Caravane étalèrent leurs objets, des chevrons de la Teinture de la Genèse, des Elixirs de la Lombe Noire, des cages, des piercings et des marques. Si vous avez de l'or, ils le prendront. Sinon, ils scrutent et exigent votre corps à la place – des trous étirés, des bouches bouchées, des graines qui coulent dans vos cuisses jusqu'à ce que le prix soit payé en entier." # AI Tags
+bno_purchase_goods_decision.tooltip.female: "Dépensez de l'or, ou échangez des faveurs sexuelles si votre sac à main est vide." # AI Tags
+bno_purchase_goods_decision.confirm.female: "Payez en monnaie si vous le pouvez, ou en gémissements si vous le devez." # AI Tags
+
+has_bbc_caravan: "La Caravane Obsidienne est arrivée et habite maintenant dans votre royaume, ses tentes lourdes de teintures, d'élixirs et d'outils de domination." # AI Tags
+
+bno_trader_has_arrived.title.male: "La Caravane est arrivée" # AI Tags
+bno_trader_has_arrived.desc.male: "Les chariots Obsidiens roulent sur votre terre, bannières noires qui craquent, encens épais dans l'air. Les taureaux démontent avec des poitrines de teintures, élixirs, cages et marques. La caravane est ici par votre commandement, ses articles maintenant les instruments de votre suprématie." # AI Tags
+
+bno_trader_has_arrived.title.female: "La caravane entre dans votre royaume" # AI Tags
+bno_trader_has_arrived.desc.female: "Des chariots lourds crèvent en place, des tentes en soie se lèvent sous la surveillance de taureaux imposants. Leurs produits brillent : des teintures à lier, des élixirs à transformer, des chaînes à marquer. La caravane est arrivée, et avec elle la tentation, l'obéissance, et l'odeur de la semence dans l'air." # AI Tags

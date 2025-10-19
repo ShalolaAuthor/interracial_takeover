@@ -25,6 +25,7 @@ bno_tincture_of_genesis_interaction.effect: "Tu nourriras ta femme [recipient.Ge
 
 bno_tincture_of_genesis_interaction.desc.female: "Je vais demander à mon mari de me transformer" # AI Tags
 bno_tincture_of_genesis_interaction.effect.female: "Votre mari vous donnera son sperme, votre seule source de nourriture." # AI Tags
+bno_tincture_of_genesis_interaction.effect.courtier.female: "Un taureau de votre cour vous inondera tous les jours, son sperme devenant votre seule source de subsistance." # AI Tags
 
 bno_prisoner_interaction: "Faire appliquer la suprématie de la BBC" # AI Tags
 bno_prisoner_interaction_desc: "Ce malheureux homme blanc pensait qu'il pouvait se tenir comme un homme. Maintenant, dans les chaînes, sa bite pathétique devient un jouet pour le jugement – soit enfermée pour toujours dans le fer froid, ou coupée entièrement pour faire place à un véritable élevage. Son destin est une leçon pour tous ceux qui oseraient résister au [bno_bnwo|E]C'est la règle." # AI Tags
@@ -36,3 +37,26 @@ bno_prisoner_interaction.slaving: "@bno_slave_icon! Détruisez sa dignité — t
 bno_prisoner_interaction.has_bbc_in_court: "Une salope blanche n'a pas de vrai pouvoir, elle est seulement destinée à se reproduire. Pour cager, castrer ou asservir une autre, elle doit avoir au moins une BBC dans sa cour pour agir comme la main de la domination et exécuter l'acte."   # AI Tags
 bno_prisoner_interaction.not_caged: "Cette bite blanche inutile est déjà enfermée dans le fer, niée pour toujours." # AI Tags
 bno_prisoner_interaction.not_castrated: "Il n'y a plus rien à couper, cette salope a déjà été dépouillée de virilité."   # AI Tags
+
+bno_apply_elixir_interaction: "Appliquer Elixir" # AI Tags
+
+bno_apply_elixir_interaction.desc.female.bbc: "Offrez de l'élixir à [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.female.whiteboi: "Transférer l'élixir à [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.self.whiteboi: "Bois l'élixir toi-même." # AI Tags
+bno_apply_elixir_interaction.desc.self.bbc: "ingère l'élixir toi-même." # AI Tags
+bno_apply_elixir_interaction.desc.bbc.whiteboi: "Forcer l'élixir sur [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.bbc.bbc: "Partager élixir avec [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.whiteboi.bbc: "Présenter l'élixir à [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.whiteboi.whiteboi: "Passer l'élixir à [recipient.GetFirstName]." # AI Tags
+
+bno_apply_elixir_interaction_bno_tincture_of_genesis: "@bno_tincture_of_genesis_icon! Appliquez la Teinture de la Genèse" # AI Tags
+bno_apply_elixir_interaction_bno_elixir_of_the_black_womb: "@bno_elixir_of_the_black_womb_icon! Appliquer l'élixir de la limbe noire" # AI Tags
+
+bno_apply_elixir_interaction.bno_tincture_of_genesis.tooltip: "Nécessite la possession de la [bno_tincture_of_genesis|E], et [recipient.GetFirstName] ne doit pas être [GetTrait('bno_castrated').GetName( GetNullCharacter )]." # AI Tags
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.tooltip: "Nécessite la possession de la [bno_elixir_of_the_black_womb|E], et [recipient.GetFirstName] doit être mâle mais pas [GetTrait('bno_bbc').GetName( GetNullCharacter )]." # AI Tags
+
+bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.actor.tooltip: "[actor.GetFirstName] administre les [bno_tincture_of_genesis|E]." # AI Tags
+bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.recipient.tooltip: "[recipient.GetFirstName] boit les [bno_tincture_of_genesis|E], transformant sa semence en [bno_seed_of_genesis|E]." # AI Tags
+
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.actor.tooltip: "[actor.GetFirstName] force les [bno_elixir_of_the_black_womb|E] à prendre." # AI Tags
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.recipient.tooltip: "[recipient.GetFirstName] boit les [bno_elixir_of_the_black_womb|E], sa queue se flétrissant et la faim de sperme le consumant." # AI Tags

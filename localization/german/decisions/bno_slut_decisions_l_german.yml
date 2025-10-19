@@ -183,3 +183,35 @@ bno_trade_prestige_for_gold.confirm.male: "Ja, meine Frau soll den Bullen für G
 bno_trade_prestige_for_gold.confirm.female: "Ja, ich werde den Bullen selbst für Gold dienen."   # AI Tags
 
 bno_trade_prestige_for_gold.effect: "Umrechnen [prestige|E] in die [gold|E] durch Hurendienst für die afrikanische Bruderschaft."   # AI Tags
+
+bno_build_bbc_trader_decision.title.male: "Aufbau der Obsidian Caravan" # AI Tags
+bno_build_bbc_trader_decision.desc.male: "Als Bulle der Schwarzen Neuen Weltordnung befiehlt ihr Land zu räumen und mit schwarzen Bannern zu versehen, die eure Brüder herbeirufen. Hier wird sich die Obsidianische Karawane wurzeln und die Tinktur der Genesis, das Elixier der schwarzen Gebärmutter, Käfige für Würmer und Piercings für Schlampen verkaufen. Du lädst den Handel nicht ein — du dehnst die Herrschaft aus." # AI Tags
+bno_build_bbc_trader_decision.tooltip.male: "Gefunden einen permanenten Markt für Bullen zum Handel mit Saatgut, Sakramenten und Werkzeugen des Eigentums." # AI Tags
+bno_build_bbc_trader_decision.confirm.male: "Fordern Sie den Boden und rufen Sie die Karawane." # AI Tags
+bno_build_bbc_trader_decision.message.title.male: "Deine Karawane zieht sich an" # AI Tags
+bno_build_bbc_trader_decision.message.desc.male: "Wagons rollen schwer mit Waren und Samen, Seidenzelte erheben sich und Weihrauch driftet. Die Obsidian Caravan ist jetzt deine Domäne, die das Herz schlägt — Bullen sammeln sich, Schlampen flüstern, Whitebois zittern. Eure Reichweite erstreckt sich tiefer in das Reich." # AI Tags
+
+bno_build_bbc_trader_decision.title.female: "Laden Sie die Obsidian Caravan" # AI Tags
+bno_build_bbc_trader_decision.desc.female: "Du markierst eine Lichtung mit Fackeln und Bannern aus und machst einen Platz für die Bullenwagen. Bald wird die Obsidianische Karawane kommen und die Tinktur verkaufen, die Schlampen ans Sperma bindet, das Elixier, das Whitebois nicht macht, und jeden Käfig und jedes Piercing, das Gehorsam versiegelt. Sie willkommen zu heißen bedeutet, ihre Macht in eurem Land und in eurem Körper willkommen zu heißen." # AI Tags
+bno_build_bbc_trader_decision.tooltip.female: "Bereiten Sie einen Ort für die Obsidian Caravan, öffnen Sie Ihr Reich für die Bullen , Handel und Sakramente." # AI Tags
+bno_build_bbc_trader_decision.confirm.female: "Mach den Boden frei und öffne den Weg." # AI Tags
+bno_build_bbc_trader_decision.message.title.female: "Die Karawane zieht sich an" # AI Tags
+bno_build_bbc_trader_decision.message.desc.female: "Die Obsidian Caravan rumpelt an Ort und Stelle, Wagen hing mit Seide und schwer mit Samen. Stiere entweichen, um das Gelände zu beanspruchen, Schlampen sammeln sich, um Tinkturen und Käfige zu flüstern, und die Luft füllt sich mit Weihrauch, Moschus und Stöhnen. Sie spüren die Veränderung bereits: die Karawane ist hier und damit Schicksal." # AI Tags
+
+bno_purchase_goods_decision.title.male: "Befehl der Karawanen-Waren" # AI Tags
+bno_purchase_goods_decision.desc.male: "Die Obsidian Caravan öffnet ihren Vorrat für Sie – Tupfen, Elixier, Käfige, Marken. Als Bulle bezahlst du in Gold, niemals in Fleisch. Die Münze, die du ausgibst, ist ein Zeichen der Herrschaft und beansprucht die Werkzeuge, um Schlampen zu krönen und Würmer tiefer in Gehorsam zu brechen." # AI Tags
+bno_purchase_goods_decision.tooltip.male: "Geben Sie Gold aus, um Tinkturen, Elixier und Werkzeuge des Eigentums zu erwerben." # AI Tags
+bno_purchase_goods_decision.confirm.male: "Leg dein Gold nieder und behaupte, was dir gehört." # AI Tags
+
+bno_purchase_goods_decision.title.female: "Kauf bei der Obsidian Caravan" # AI Tags
+bno_purchase_goods_decision.desc.female: "Die Bullen der Karawane breiteten ihre Waren aus – vials of Tinkture of Genesis, Elixirs of the Black Womb, Käfige, Piercings und Marken. Wenn du Gold hast, werden sie es nehmen. Wenn nicht, grinsen sie und verlangen stattdessen Ihren Körper – Löcher gestreckt, Mund klappern, Samen tropft nach unten Ihre Oberschenkel, bis der Preis in voller Höhe bezahlt wird." # AI Tags
+bno_purchase_goods_decision.tooltip.female: "Geben Sie Gold aus, oder handeln Sie sexuelle Gunst, wenn Ihre Handtasche leer ist." # AI Tags
+bno_purchase_goods_decision.confirm.female: "Zahlen Sie in Münze, wenn Sie können, oder in Stöhnen, wenn Sie müssen." # AI Tags
+
+has_bbc_caravan: "Die Obsidianische Karawane ist angekommen und wohnt nun in eurem Reich, ihren Zelten, die schwer sind mit Tinkturen, Elixiern und Werkzeugen der Herrschaft." # AI Tags
+
+bno_trader_has_arrived.title.male: "Die Karawane ist angekommen" # AI Tags
+bno_trader_has_arrived.desc.male: "Die Obsidian Wagen rollen über Ihr Land, schwarze Banner schnappen, Räucherstäbchen dick in der Luft. Stiere zerfallen mit Tinkturen, Elixiern, Käfigen und Marken. Die Karawane ist hier nach eurem Befehl – ihre Waren sind nun Werkzeuge eurer Vorherrschaft." # AI Tags
+
+bno_trader_has_arrived.title.female: "Die Karawane betritt dein Reich" # AI Tags
+bno_trader_has_arrived.desc.female: "Schwere Wagen knarren an Ort und Stelle, Seidenzelte, die unter der Wache der aufragenden Bullen aufsteigen. Ihre Waren schimmern – Risse zu binden, Elixier zu transformieren, Ketten zu markieren. Die Karawane ist angekommen und mit ihr Versuchung, Gehorsam und der Duft des Samens in der Luft." # AI Tags

@@ -238,5 +238,36 @@ trait_bno_bull: "Taureau" # AI Tags
 trait_bno_bull_desc: "Un vrai [bno_bull|E]— cet homme a fait plus que de la rut. Il a cassé une salope pâle en une [bno_cum_slave|E], un vaisseau lié à sa queue et à sa graine seule. Sa virilité et son pouvoir inspirent la peur et l'obéissance ; son Esclave Cum est la preuve vivante que [bno_bnwo|E] n'est pas un rêve, mais une loi de la nature. Là où d'autres gouvernent par la couronne ou l'épée, il gouverne avec son arbre – sa semence construisant à la fois des armées et des empires." # AI Tags
 
 TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$Ne souffre pas [extramarital_sex|E] les sanctions en cas d'élevage ou d'élevage en dehors du mariage."   # AI Tags
-
 TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$D'autres n'en souffrent pas [extramarital_sex|E] les pénalités lors de l'élevage avec ce caractère."   # AI Tags
+
+trait_bno_seed_of_genesis: "Semence de la Genèse" # AI Tags
+trait_bno_seed_of_genesis_desc: "Ce Taureau a bu la Teinture de la Genèse. Son sperme n'est plus une simple graine, c'est l'essence sanctifiée de la BNWO. Chaque charge qu'il renverse restitue les salopes qu'il touche : teintes de peau plus foncées, affûtées de beauté, poitrines gonflées, culs grossissent, les hanches s'évanouissent, les tailles minces, les corps perfectionnés sous son élevage. Sa semence est l'Écriture, son coq l'autel, son règne éternel." # AI Tags
+
+TRAIT_FLAG_DESC_bno_seed_of_genesis: "$EFFECT_LIST_BULLET$[character|E]Le cum porte le [bno_seed_of_genesis|E], transformant les salopes, elles se reproduisent en chair noire plus foncée, plus pleine et plus parfaite sous le BNWO." # AI Tags
+
+bno_genesis_transformation.name.1: "Marqué par la semence" # AI Tags
+bno_genesis_transformation.desc.1: "Ses premières reproductions par un taureau avec la semence de la Genèse ont laissé leur tache. Sa peau pâle se réchauffe plus foncée, ses mamelons sont tendres alors que ses seins commencent à gonfler, ses hanches murmurent avec le premier élargissement. Elle le sent chaque fois que du sperme coule de sa chatte — son corps sait que ça change. Elle rougit plus profondément, gémit plus fort, sachant que la transformation a déjà commencé." # AI Tags
+
+bno_genesis_transformation.name.2: "Noircissement" # AI Tags
+bno_genesis_transformation.desc.2: "Sa chair s'approfondit dans la couleur, ses seins se remplissent lourd dans les mains, son cul ronds doux et plein. Sa taille slims tandis que ses hanches poussent plus large, ses cuisses s'épaississent sous le poids de l'usage constant. Elle rêve humide et sale, se réveillant en fuite, les mamelons gonflés sombre. Chaque charge à l'intérieur d'elle la marque plus loin. Elle est noircie de l'intérieur." # AI Tags
+
+bno_genesis_transformation.name.3: "Africainisation" # AI Tags
+bno_genesis_transformation.desc.3: "Sa peau brille d'une riche nuance foncée maintenant, ses seins s'étirant lourd, son cul débordant, ses hanches se répandant largement comme un sol fertile. Sa taille s'est serrée, son corps prend les lignes luxuriantes d'une déesse créée pour les Bulls. Ses trous spasme pour la bite, ses battements de ventre pour le sperme, son esprit suppliant pour plus de graine. Elle gémit comme une salope même en public, trop loin pour cacher les changements. Elle est africanisée." # AI Tags
+
+bno_genesis_transformation.name.4: "Intronisé dans la chair noire" # AI Tags
+bno_genesis_transformation.desc.4: "Sa transformation est presque terminée. Ses seins sont massifs et fuient, les mamelons noircis et fiers. Ses hanches swing large, son cul un coussin lourd suppliant d'être monté, sa taille un contraste étroit qui montre chaque courbe. Sa peau est profonde, radieuse, lissée de sueur et de musc. Ses gémissements sont devenus un culte, chaque mot un plaidoyer pour la bite, chaque pensée plié à l'élevage. Elle est intronisée dans la chair noire, une offrande vivante au BNWO." # AI Tags
+
+bno_genesis_transformation.name.5: "Salope noire parfaite" # AI Tags
+bno_genesis_transformation.desc.5: "La dernière étape. Elle est parfaite sous la Semence de la Genèse : sa peau richement noire, ses seins immenses et sensibles, ses hanches larges et abondantes, son cul plein et dégoulinant, sa taille rétrécie à la perfection. Son sein est fertile, affamé, asservi au sperme. Son esprit est parti — elle est accro au coq, gémissante, suppliant d'être élevée en tout temps. Elle n'est plus qui elle était. C'est la salope noire parfaite, refaite comme preuve du BNWO." # AI Tags
+
+trait_track_bno_genesis_transformation: "Devenir noir" # AI Tags
+trait_track_bno_genesis_transformation_desc: "Chaque fois qu'elle est élevée par un taureau avec la semence de la Genèse, son corps change. La peau s'obscurcit, les seins gonflent, les hanches s'évanouissent, la taille slims, le cul pousse rond et dégoulinant. Son esprit s'affaiblit, sa faim de bite grandit. Pas à pas, elle est noircie, africanisée, parfaite dans la salope que demande le BNWO." # AI Tags
+
+TRAIT_FLAG_DESC_bno_bigger_breast: "$EFFECT_LIST_BULLET$Avec chaque élevage par un Taureau portant le [bno_seed_of_genesis|E], ses seins grossissent, les mamelons s'assombrissent et la sensibilité augmente." # AI Tags
+TRAIT_FLAG_DESC_bno_bigger_ass: "$EFFECT_LIST_BULLET$Chaque charge d'un [bno_seed_of_genesis|E] Taureau rend son cul plus rond, plus plein et plus lourd pour l'élevage." # AI Tags
+TRAIT_FLAG_DESC_bno_smaller_waist: "$EFFECT_LIST_BULLET$Par le biais de reproductions répétées par des taureaux marqués de la [bno_seed_of_genesis|E], sa taille slims serrée, accentuant ses courbes fertiles." # AI Tags
+TRAIT_FLAG_DESC_bno_bigger_hips: "$EFFECT_LIST_BULLET$Chaque fois qu'elle est remplie par un [bno_seed_of_genesis|E] Taureau, ses hanches se sont étendues, la transformant en un corps d'élevage parfait." # AI Tags
+TRAIT_FLAG_DESC_bno_darker_skin: "$EFFECT_LIST_BULLET$Avec chaque élevage sous le [bno_seed_of_genesis|E], sa peau s'assombrit l'ombre par l'ombre, éclatant plus riche que sa transformation avance." # AI Tags
+
+trait_bno_whispered_rose: "Rose fouettée" # AI Tags
+trait_bno_whispered_rose_desc: "Sa présence attire tous les regards, son rire s'attarde comme un rêve oublié, et des rumeurs de sa beauté dérivent dans les couloirs comme des pétales sur la brise. Pour l'instant, elle reste intouchable, admirée, convoitée et juste hors de portée." # AI Tags

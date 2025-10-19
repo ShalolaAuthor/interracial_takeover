@@ -183,3 +183,35 @@ bno_trade_prestige_for_gold.confirm.male: "네, 내 아내가 황금으로 툴�
 bno_trade_prestige_for_gold.confirm.female: "네, 내가 금을 위해 툴러들에게 봉사할 거야."   # AI Tags
 
 bno_trade_prestige_for_gold.effect: "변환 [prestige|E] 에 [gold|E] 아프리카 형제애에 대한 매춘부 봉사를 통해."   # AI Tags
+
+bno_build_bbc_trader_decision.title.male: "오브시디안 카라반 을 세우는 것" # AI Tags
+bno_build_bbc_trader_decision.desc.male: "블랙 뉴 월드 오더의 황소로서 당신은 땅이 청소되고 검은 깃발로 표시되도록 명령하고 형제들을 소환합니다. 여기 오브시디언 카라반은 창세기 잉크, 블랙 유방의 에릭시어, 벌레에 대한 구석, 그리고 창녀에 대한 피어싱을 판매하는 데 뿌리를 내리게 될 것입니다. 당신은 무역을 초대하지 않습니다. 당신은 지배를 확장하고 있습니다." # AI Tags
+bno_build_bbc_trader_decision.tooltip.male: "토울들이 씨앗, 성자, 소유의 도구들을 거래할 수 있는 영구적인 시장을 찾았습니다." # AI Tags
+bno_build_bbc_trader_decision.confirm.male: "토지를 주장하고 카라반을 불러라." # AI Tags
+bno_build_bbc_trader_decision.message.title.male: "당신 의 카라반 이 도착 합니다" # AI Tags
+bno_build_bbc_trader_decision.message.desc.male: "바구니들은 물품과 씨앗으로 가득 차 있고 실크텐트가 올라가고 향신료가 흐르고 있습니다. 오브시디언 카라반은 이제 여러분의 영역입니다. 황소들이 모여, 창녀들이 속삭이고, 백인 소년들이 떨고 있습니다. 당신의 범위는 더 깊은 영역으로 확장됩니다." # AI Tags
+
+bno_build_bbc_trader_decision.title.female: "오브시디안 카라반 을 초대 하십시오" # AI Tags
+bno_build_bbc_trader_decision.desc.female: "불꽃과 표지판을 붙여서 툴러스 바그런을 위한 공간을 마련합니다. 곧 오브시디언 카라반이 올거야 과 을 묶는 팅크를 팔고, 화이트보이를 해제하는 엘리시어를 팔고,. 그들을 환영하는 것은 그들의 힘을 당신의 땅과 당신의 몸에 환영하는 것입니다." # AI Tags
+bno_build_bbc_trader_decision.tooltip.female: "오브시디언 카라반을 위한 장소를 준비해 두라." # AI Tags
+bno_build_bbc_trader_decision.confirm.female: "바닥을 청소하고 길을 열어라." # AI Tags
+bno_build_bbc_trader_decision.message.title.female: "카라반 이 도착" # AI Tags
+bno_build_bbc_trader_decision.message.desc.female: "오브시디언 카라반은 그 자리에 둥글고 차들은 실크와 씨앗으로 가득 차 있습니다. 황소들은 땅을 주장하기 위해 내려오며, 창녀들은 팅크터와 구덩이를 속삭이는 데 모이고, 공기는 향신료, 무스크, 그리고 울음소리로 가득합니다. 여러분은 이미 그 변화를 느낄 수 있습니다. 카라반이 여기 있고, 그것과 함께 운명이 있습니다." # AI Tags
+
+bno_purchase_goods_decision.title.male: "카라반의 상품을 지휘하라" # AI Tags
+bno_purchase_goods_decision.desc.male: "오브시디언 카라반은 틴큐어, 에릭시어, 케이즈, 브랜드에 매장을 개방합니다. 황소로서 금으로 지불해야 돼, 결코 육신으로 지불하지 않아. 당신이 쓰는 동전은 지배의 상징이고, 창녀들을 왕관시키고, 벌레들을 더 심하게 복종시키는 도구라고 주장합니다." # AI Tags
+bno_purchase_goods_decision.tooltip.male: "팅크, 엘리시어, 그리고 소유 도구를 얻기 위해 금을 사용하십시오." # AI Tags
+bno_purchase_goods_decision.confirm.male: "당신의 금을 내려놓고 당신의 것을 요구하십시오." # AI Tags
+
+bno_purchase_goods_decision.title.female: "오브시디안 카라반 에서 구매" # AI Tags
+bno_purchase_goods_decision.desc.female: "카라반의 황소들은 창세기 잉크, 검은 자궁의 엘릭시어, 교두보, 피어싱, 그리고 브랜드의 상품들을 퍼뜨렸다. 만약 당신이 금을 가지고 있다면, 그들은 그것을 가져갈 것이다. 그렇지 않으면, 그들은 웃고 당신의 몸을 대신 홀을 펴고, 입을 고, 씨앗을 다리 아래로 떨어뜨리는 것을 요구합니다. 그 대가가 완전히 지불될 때까지요." # AI Tags
+bno_purchase_goods_decision.tooltip.female: "금을 쓰거나, 지갑이 빈다면 성적인 용의를 교환하세요." # AI Tags
+bno_purchase_goods_decision.confirm.female: "만약 당신이 할 수 있다면 동전으로 지불하거나, 만약 당신이 할 수 있다면 울음으로 지불하십시오." # AI Tags
+
+has_bbc_caravan: "오브시디언 카라반은 도착했고 이제 당신의 영역에 거주하고 있습니다. 그 텐트는 팅크, 엘릭시어와 지배 도구로 가득합니다." # AI Tags
+
+bno_trader_has_arrived.title.male: "카라반 이 도착 했다" # AI Tags
+bno_trader_has_arrived.desc.male: "오브시디언의 차들이 네 땅을 가로지르며 검은 깃발이 튀어나오며. 황소들은 팅크, 에릭시어, 케이즈, 브랜드의 상자들로 내려옵니다. 카라반이 당신의 명령에 따라 여기 왔고, 이제 당신의 우월성의 도구입니다." # AI Tags
+
+bno_trader_has_arrived.title.female: "카라반 이 당신 의 영역 에 들어온다" # AI Tags
+bno_trader_has_arrived.desc.female: "무거운 바구니들이 자리잡고, 거대하고 높은 황소들의 감시 아래 실크막이 올라간다. 그들의 상품은 묶을 수 있는 이 빛나고, 변형할 수 있는 에릭시어, 표시할 수 있는 연쇄입니다. 카라반이 도착했고, 그 와 함께 유혹, 순종, 그리고 공기 중에 씨앗의 향이 있었습니다." # AI Tags
