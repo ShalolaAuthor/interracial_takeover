@@ -2051,5 +2051,11 @@ bno_bull = {
 	    bno_mixed = 75
 	    bno_barely_mixed = 50
 	}
+}
 
+bno_whispered_rose = {
+	random_creation_weight = 0
+    shown_in_ruler_designer = no
+	
+	flag = can_not_marry
 }

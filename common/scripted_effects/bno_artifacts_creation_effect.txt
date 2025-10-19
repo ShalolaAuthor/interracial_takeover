@@ -109,3 +109,12 @@ bno_create_artifact_bno_elixir_of_the_black_womb_only_effect = {
         TYPE = bno_elixir_of_the_black_womb
     }
 }
+
+bno_create_artifact_bno_blacked_pleasures_unveiled_only_effect = {
+    bno_create_artifact_generic_effect = {
+        NAME = artifact_bno_blacked_pleasures_unveiled
+        DESC = artifact_bno_blacked_pleasures_unveiled.desc
+        CREATOR = $CREATOR$
+        TYPE = bno_blacked_pleasures_unveiled
+    }
+}

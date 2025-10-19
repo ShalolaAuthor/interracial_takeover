@@ -484,7 +484,6 @@ bno_court_sex_scene_effect = {
     $PARTNER$ = { save_scope_as = carn_sex_partner }
     scope:carn_sex_player = {
         bno_carnal_court_enter_court_effect = yes
-        trigger_event = bno_court.0001
     }
 }
 

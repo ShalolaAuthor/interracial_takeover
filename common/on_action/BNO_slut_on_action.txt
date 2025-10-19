@@ -1,56 +1,26 @@
 ﻿bno_slut_pulse = {
-	on_actions = {
-		bno_slut_yearly_initial_pulse
-		bno_slut_yearly_global_random_pulse
-	}
-}
-
-bno_slut_yearly_initial_pulse = {
-	trigger = {
-		is_ai = no
-        is_elligible_partner = yes
-	}
-	events = {
-		bno_slut_events.0001
-	}
-}
-
-bno_slut_yearly_random_pulse = {
-	
-}
-
-#bno_slut_yearly_random_pulse = {
-#	random_events = {
-#		chance_to_happen = 100
-#		chance_of_no_event = {
-#			value = 0
-#			if = {
-#				limit = {
-#					is_ai = yes
-#				}
-#				add = bno_ai_events_chance
-#			}
-#		}
-#		#1 = bno_slut.0001 #Slut lays with BBC
-#		#1 = bno_slut.0002 #Slut anti stress event
-#		#1 = bno_slut.0003 #Slut is on a cum only diet
-#		#1 = bno_slut.0004 #Slut bring white girl to BBC
-#		#1 = bno_slut.0005 #Slut eaves dropping a random girl talking to her BBC
-#		#1 = bno_slut.0006 #Black Husband cages a courtier that Slut hates
-#		#1 = bno_slut.0008 #Becoming a slut for BBC
-#		#1 = bno_slut.0009 #Becoming a slut for BBC
-#		#1 = bno_slut.0010
-#		#1 = bno_slut.0012
-#		#1 = bno_slut.0013
-#		#1 = bno_slut.0014
-#	}
-#}
-
-bno_slut_yearly_global_random_pulse = {
-	trigger = {
-		has_game_rule = bno_global_bbc_activities_yes
-	}
-	on_actions = {
-		bno_slut_yearly_random_pulse
+	random_events = {
+		chance_to_happen = 100
+		chance_of_no_event = {
+			value = 0
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				add = bno_ai_events_chance
+			}
+		}
+		1 = bno_slut.0001 #Slut lays with BBC
+		1 = bno_slut.0002 #Slut anti stress event
+		1 = bno_slut.0003 #Slut is on a cum only diet
+		1 = bno_slut.0004 #Slut bring white girl to BBC
+		1 = bno_slut.0005 #Slut eaves dropping a random girl talking to her BBC
+		1 = bno_slut.0006 #Black Husband cages a courtier that Slut hates
+		1 = bno_slut.0008 #Becoming a slut for BBC
+		1 = bno_slut.0009 #Becoming a slut for BBC
+		1 = bno_slut.0010
+		1 = bno_slut.0012
+		1 = bno_slut.0013
+		1 = bno_slut.0014
 	}
 }

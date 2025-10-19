@@ -23,3 +23,8 @@ bno_elixir_of_the_black_womb = {
     slot = miscellaneous
     can_reforge = no
 }
+
+bno_blacked_pleasures_unveiled = {
+    slot = journal
+    can_reforge = no
+}

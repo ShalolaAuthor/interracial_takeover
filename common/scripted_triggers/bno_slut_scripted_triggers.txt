@@ -548,6 +548,11 @@ is_white_guy = {
 	is_a_male = yes
 }
 
+is_married_white_guy = {
+	is_white_guy = yes
+	is_married = yes
+}
+
 is_ai_white_guy = {
 	is_white_guy = yes
 	is_ai = yes

@@ -24,35 +24,8 @@ carn_on_sex_v2 = {
 }
 
 bno_court_sex = {
-	trigger = {
-		OR = {
-			AND = {
-				has_royal_court = yes
-				bno_has_embrace_african_3 = yes
-			}
-			scope:carn_sex_partner = {
-				has_royal_court = yes
-				bno_has_embrace_african_3 = yes
-			}
-		}
-	}
-	effect = {
-		if = {
-			limit = {
-				has_royal_court = yes
-				bno_has_embrace_african_3 = yes
-			}
-			bno_court_sex_scene_effect = {
-				PARTNER = scope:carn_sex_partner
-			}
-		}
-		else = {
-			scope:carn_sex_partner = {
-				bno_court_sex_scene_effect = {
-					PARTNER = scope:carn_sex_partner
-				}
-			}
-		}
+	events = {
+		bno_court.0001
 	}
 }
 

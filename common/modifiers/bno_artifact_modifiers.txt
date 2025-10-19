@@ -26,3 +26,11 @@ bno_tincture_of_genesis_modifier = {
 bno_elixir_of_the_black_womb_modifier = {
     fertility = 1
 }
+bno_blacked_pleasures_unveiled_modifier = {
+    stress_loss_mult = 0.45
+    monthly_martial_lifestyle_xp_gain_mult = 0.10
+    monthly_learning_lifestyle_xp_gain_mult = 0.10
+    monthly_diplomacy_lifestyle_xp_gain_mult = 0.10
+    monthly_intrigue_lifestyle_xp_gain_mult = 0.10
+    monthly_stewardship_lifestyle_xp_gain_mult = 0.10
+}

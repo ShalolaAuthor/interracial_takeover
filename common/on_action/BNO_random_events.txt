@@ -66,9 +66,6 @@ bno_trait_maintenance_pulse = {
 			create_story = story_bno_maintenance
 		}
 	}
-	on_actions = {
-		bno_on_16th_birthday
-	}
 }
 
 on_guest_arrived_from_pool = {

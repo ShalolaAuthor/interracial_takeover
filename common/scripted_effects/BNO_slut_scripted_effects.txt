@@ -245,6 +245,16 @@ bno_reveal_secret_effect = {
 	}
 }
 
+bno_stress_impact_based_on_slut_tier = {
+	stress_impact = {
+		bno_curious = -10
+		bno_blacked = -20
+		bno_snowbunny = -30
+		bno_qos = -40
+		bno_mindless_bbc_slut = -50
+	}
+}
+
 bno_no_sex_stress_impact = {
 	stress_impact = {
 		bno_curious = major_stress_impact_gain
@@ -1198,6 +1208,10 @@ bno_cuck_sex_after_effects = {
 		right_icon = $PARTNER$
 		desc = bno_happy_wife.0001.desc
 	}
+	bno_stress_impact_based_on_cuck_tier = yes
+}
+
+bno_stress_impact_based_on_cuck_tier = {
 	stress_impact = {
 		bno_cuckish = -10
 		bno_cuck = -20
@@ -1814,7 +1828,7 @@ get_white_husband_with_secret_scope = {
 
 get_pure_wife_scope = {
 	get_spouse_scope = {
-		TRIGGER_KEY = is_ai_pure_white_girl
+		TRIGGER_KEY = is_pure_whitegirl
 		SCOPE_NAME = $SCOPE_NAME$
 	}
 }

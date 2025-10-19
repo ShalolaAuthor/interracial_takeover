@@ -27,3 +27,5 @@ ck_3_translator.py
 .vscode/
 ck3_translator.py
 patches/
+desktop.ini
+.megaignore

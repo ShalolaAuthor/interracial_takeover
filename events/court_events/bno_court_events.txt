@@ -54,6 +54,9 @@ bno_court.0001 = {
     }
 
     immediate = {
+        bno_court_sex_scene_effect = {
+            PARTNER = scope:carn_sex_partner
+        }
         open_view_data = {
             view = royal_court
             player = root

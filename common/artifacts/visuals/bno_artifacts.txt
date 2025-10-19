@@ -17,3 +17,8 @@ bno_elixir_of_the_black_womb = {
     icon = "bno_elixir_of_the_black_womb.dds"
     asset = ep1_western_box_small_fancy_02_a_entity
 }
+
+bno_blacked_pleasures_unveiled = {
+    icon = "bno_blacked_pleasures_unveiled.dds"
+    asset = ep1_mena_book_big_01_a_entity
+}

@@ -1,0 +1,10 @@
+﻿bno_preventing_me_from_enjoying_BBC = {
+    monthly_change = 0.5
+	decaying = yes
+	stacking = yes
+}
+bno_shamed_by_inability_to_satisfy_wife = {
+    monthly_change = 0.5
+	decaying = yes
+	stacking = yes
+}

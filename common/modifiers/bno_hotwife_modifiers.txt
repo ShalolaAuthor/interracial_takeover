@@ -1,0 +1,91 @@
+﻿bno_proven_male_strength = {
+    prowess = 1
+    attraction_opinion = 5
+    fertility = 0.05
+    general_opinion = 5
+    stacking = yes
+    icon = proven_male_strength
+}
+
+bno_proven_no_male_strength = {
+    prowess = -1
+    attraction_opinion = -5
+    fertility = -0.05
+    spouse_opinion = -5
+    stacking = yes
+    icon = proven_no_male_strength
+}
+
+bno_take_good_care_of_wife = {
+    spouse_opinion = 10
+    close_relative_opinion = 10
+    stress_loss_mult = 0.1
+    stacking = yes
+    icon = take_good_care_of_wife
+}
+
+bno_a_deep_kiss_full_of_love_and_cum = {
+    spouse_opinion = 10
+    attraction_opinion = 10
+    stress_loss_mult = 0.1
+    stacking = yes
+    icon = a_deep_kiss_full_of_love_and_cum
+}
+
+bno_model_wife = {
+    attraction_opinion = 10
+    spouse_opinion = 20
+    close_relative_opinion = 10
+    stacking = yes
+    icon = model_wife
+}
+
+bno_model_husband = {
+    spouse_opinion = 20
+    close_relative_opinion = 10
+    stress_loss_mult = 0.1
+    stacking = yes
+    icon = model_husband
+}
+
+bno_focus_on_work = {
+    monthly_income_mult = 0.10
+    stress_gain_mult = 0.1
+    spouse_opinion = -10
+    stacking = yes
+    icon = focus_on_work
+}
+
+bno_model_father = {
+    child_opinion = 20
+    close_relative_opinion = 10
+    stress_loss_mult = 0.1
+    stacking = yes
+    icon = model_father
+}
+
+bno_eager_cuckold = {
+    icon = eager_cuckold
+    spouse_opinion = 30
+    attraction_opinion = -5
+    stress_loss_mult = 0.15
+    ai_compassion = 20
+    fertility = -0.05
+}
+
+bno_blackened_bride = {
+    icon = blackened_bride
+    attraction_opinion = 35
+    fertility = 0.25
+    spouse_opinion = 35
+    general_opinion = 10
+}
+
+bno_ceremonial_bull = {
+    icon = ceremonial_bull
+    stacking = yes
+    attraction_opinion = 5
+    prowess = 1
+    fertility = 0.05
+    general_opinion = 5
+}
