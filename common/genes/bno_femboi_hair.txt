@@ -1,0 +1,32 @@
+﻿special_genes = {
+    accessory_genes = {
+        bno_femboi_hairs = {
+            bno_femboi_hairstyles = {
+                index = 1
+                male = {
+                    1 = m_hair_sp4_western_01
+                    1 = m_hair_sp4_mena_01
+                    1 = m_hair_sp3_western_01
+                    1 = m_hair_ep3_byzantine_01
+                    1 = m_hair_ep3_byzantine_04
+                    1 = m_hair_fp3_iranian_01
+                    1 = male_hair_fp2_iberian_christian_01
+                    1 = male_hair_fp2_iberian_muslim_02
+                    1 = male_hair_fp1_02
+                }
+                female = {}
+                boy = male
+                girl = female
+            }
+            no_hairstyles = {
+				index = 2
+				male = {
+					1 = empty
+				}
+				female = male
+				boy = male
+				girl = male
+			}
+        }
+    }
+}

@@ -7,7 +7,6 @@
 
 cosmetics_bno_face_tattoo = {
 	usage = customization
-	
 	no_face_tattoo = { # empty
 		dna_modifiers = {
 			morph = {
