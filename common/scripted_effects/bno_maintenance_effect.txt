@@ -7,13 +7,6 @@
 		add_trait = bno_full_black
 		bno_seed_originally_african_flag = yes
 	}
-    if = {
-        limit = {
-            is_african = yes
-            NOT = { has_character_flag = bno_originally_african }
-        }
-        bno_seed_originally_african_flag = yes
-    }
 }
 
 bno_seed_originally_african_flag = {
@@ -26,7 +19,6 @@ bno_apply_bbc_trait = {
 			has_game_rule = bno_seeding_yes
 		}
 		bno_seed_bbc_trait_effect = yes
-		bno_futa_bisexual = yes
 	}
 }
 
@@ -47,15 +39,6 @@ bno_seed_bbc_trait_effect = {
             bno_bbc_trait_occurrence_chance_modifier = yes
             bno_add_bbc_trait_effect = yes
         }
-    }
-}
-
-bno_futa_bisexual = {
-    if = {
-        limit = {
-            is_a_futa = yes
-        }
-        set_sexuality = bisexual
     }
 }
 

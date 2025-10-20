@@ -207,7 +207,7 @@ bbc_worshipper_on_invalidated = {
             limit = { is_alive = yes }
             remove_character_flag = no_headgear
             remove_character_flag = can_not_marry
-            var:bno_bbc_worshipper_story = {
+            var:bno_bbc_worshipper_story ?= {
                 end_story = yes
             }
             remove_variable = bno_bbc_worshipper_story

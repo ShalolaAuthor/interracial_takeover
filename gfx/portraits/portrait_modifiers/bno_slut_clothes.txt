@@ -1,0 +1,44 @@
+﻿bno_slut_clothes = {
+    usage = customization
+    priority = 999
+    add_accessory_modifiers = {
+        gene = bno_phaze_clothes
+        template = no_clothes
+        is_valid_custom = {
+            is_slut = yes
+        }
+    }
+    add_accessory_modifiers = {
+        gene = bno_phaze_clothes
+        template = phaze_non_slave
+        is_valid_custom = {
+            is_slut = yes
+        }
+    }
+    add_accessory_modifiers = {
+        gene = bno_phaze_clothes
+        template = phaze_slave
+        is_valid_custom = {
+            is_slave = yes
+        }
+    }
+}
+
+bno_slut_shoes = {
+    usage = customization
+    priority = 999
+    add_accessory_modifiers = {
+        gene = bno_phaze_shoes
+        template = no_shoes
+        is_valid_custom = {
+            is_slut = yes
+        }
+    }
+    add_accessory_modifiers = {
+        gene = bno_phaze_shoes
+        template = phaze_shoes
+        is_valid_custom = {
+            is_slut = yes
+        }
+    }
+}

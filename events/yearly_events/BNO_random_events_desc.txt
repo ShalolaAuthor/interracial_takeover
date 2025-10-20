@@ -1338,6 +1338,7 @@ bno_random.0008 = {
 	cooldown = { months = { 18 24 } }
 	
 	trigger = {
+		is_ruler = yes
 		is_blacked = yes
 		does_blackbull_exist = yes
 	}
