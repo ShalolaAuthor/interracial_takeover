@@ -78,10 +78,7 @@
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_2
         }
-        any_court_position_holder = {
-            type = bno_bbc_worshipper_court_position
-            count < 3
-        }
+        can_employ_court_position_type = bno_bbc_worshipper_court_position
         NOT = { has_character_flag = recruit_bbc_worshipper_cooldown }
     }
     ai_will_do = {

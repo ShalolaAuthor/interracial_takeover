@@ -99,7 +99,7 @@
     custom_employer_modifier_description = bno_bbc_worshipper_employer_custom_effect_description
 
     on_court_position_received = {
-        scope:employee = {
+        scope:employee ?= {
             bno_bbc_worshipper_add_story = yes
         }
     }

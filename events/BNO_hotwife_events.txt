@@ -15,6 +15,9 @@ bno_hotwife.0001 = {
         allowed_more_spouses = yes
         any_courtier_or_guest = {
             bno_is_perfect_white_girl = yes
+            can_marry_character_trigger = {
+                CHARACTER = root
+            }
             count >= 1
         }
         does_blackbull_exist = yes
@@ -34,6 +37,9 @@ bno_hotwife.0001 = {
         ordered_courtier_or_guest = {
             limit= {
                 bno_is_perfect_white_girl = yes
+                can_marry_character_trigger = {
+                    CHARACTER = root
+                }
             }
             order_by = {
                 value = 0
@@ -1024,7 +1030,7 @@ bno_hotwife.0004 = {
         is_ruler = yes
         is_married_white_guy = yes
         any_spouse = {
-            is_bno_blacked_and_up = yes
+            is_ai_blacked = yes
         }
         does_blackbull_exist = yes
     }
@@ -1106,7 +1112,7 @@ bno_hotwife.0004 = {
             vengeful = major_stress_impact_loss
             forgiving = major_stress_impact_gain
         }
-        scope:wife = {
+        scope:wife ?= {
             bno_decrease_sluttyness = yes
             add_opinion = {
                 target = root
@@ -1573,9 +1579,7 @@ bno_hotwife.0007 = {
             }
             add_trait = craven
         }
-        trigger_event = {
-            id = bno_hotwife.1007
-        }
+        trigger_event = bno_hotwife.1007
     }
 
     option = {
@@ -1614,7 +1618,7 @@ bno_hotwife.1007 = {
     }
 
     immediate = {
-        scope:target1 = {
+        scope:target1 ?= {
             bno_sex_scene_start = {
                 PARTNER = scope:wife
             }
@@ -1649,7 +1653,7 @@ bno_hotwife.0008 = {
         is_ruler = yes
         is_married_white_guy  = yes
         any_spouse = {
-            is_bno_blacked_and_up = yes
+            is_ai_blacked = yes
         }
         is_landless_adventurer = no
         does_blackbull_exist = yes

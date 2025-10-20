@@ -20,7 +20,6 @@ bno_cuckish = {
 	prowess = -3
 	stress_gain_mult = 0.05
 	personal_scheme_phase_duration_add = 10
-	ruler_designer_cost = 0
 	track = {
 		33 = {
 			monthly_prestige = -0.05
@@ -81,7 +80,7 @@ bno_cuck = {
 			max_personal_schemes_add = -1
 		}
 	}
-	ruler_designer_cost = -10
+	shown_in_ruler_designer = no
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
 		compatibility = {
@@ -136,7 +135,7 @@ bno_beta = {
 			levy_maintenance = 0.01
 		}
 	}
-	ruler_designer_cost = -30
+	shown_in_ruler_designer = no
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
 	compatibility = {
@@ -193,7 +192,7 @@ bno_jos = {
 			knight_effectiveness_mult = -0.05
 		}
 	}
-	ruler_designer_cost = -40
+	shown_in_ruler_designer = no
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
 	compatibility = {
@@ -231,6 +230,7 @@ bno_caged = {
 	intrigue = -3
 	diplomacy = 3
 	stewardship = 3
+	shown_in_ruler_designer = no
 	
 	fertility = -0.60
 	compatibility = {
@@ -268,6 +268,7 @@ bno_castrated = {
 	intrigue = -3
 	stewardship = 3
 	diplomacy = 5
+	shown_in_ruler_designer = no
 	
 	fertility = -1
 	can_have_children = no
@@ -305,6 +306,7 @@ bno_caged_futa = {
 	intrigue = -3
 	diplomacy = 3
 	stewardship = 3
+	shown_in_ruler_designer = no
 }
 
 bno_castrated_futa = {
@@ -322,6 +324,7 @@ bno_castrated_futa = {
 	intrigue = -3
 	stewardship = 3
 	diplomacy = 5
+	shown_in_ruler_designer = no
 }
 
 #BBC TRAITS
@@ -959,6 +962,8 @@ bno_full_black = {
 		bno_pure_white
 		bno_genesis_transformation
 	}
+
+	ruler_designer_cost = -50
 	
 	general_opinion = -100
 	same_opinion = 100
@@ -986,6 +991,8 @@ bno_mostly_black = {
 		bno_pure_white
 		bno_genesis_transformation
 	}
+	
+	shown_in_ruler_designer = no
 
 	general_opinion = -100
 	same_opinion = 100
@@ -1011,6 +1018,7 @@ bno_mixed ={
 		bno_pure_white
 		bno_genesis_transformation
 	}
+	shown_in_ruler_designer = no
 
 	general_opinion = -100
 	same_opinion = 100
@@ -1036,6 +1044,7 @@ bno_barely_mixed = {
 		bno_pure_white
 		bno_genesis_transformation
 	}
+	shown_in_ruler_designer = no
 
 	general_opinion = -100
 	same_opinion = 100

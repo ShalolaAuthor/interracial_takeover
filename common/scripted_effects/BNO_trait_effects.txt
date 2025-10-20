@@ -915,6 +915,8 @@ bno_flag_inheritance = {
 	#Flag Inheritance
 	if = {
 		limit = {
+			exists = scope:mother
+			exists = scope:real_father
 			AND = {
 				scope:mother ?= { has_character_flag = bno_originally_african }
 				scope:real_father ?= { has_character_flag = bno_originally_african }

@@ -17,61 +17,23 @@ bno_hate_opinion = {
 bno_add_random_army_small_effect = {
     random_list = {
         1 = {
-            if = {
-                limit = { exists = var:bno_hotwife_army }
-                spawn_army = {
-                    men_at_arms = {
-                        type = bno_ebony_elites
-                        men = { 1 5 }
-                    }
-                    location = location
-                    army = var:bno_hotwife_army
-                    name = bno_hotwife_army_name
+            spawn_army = {
+                men_at_arms = {
+                    type = bno_ebony_elites
+                    men = { 1 5 }
                 }
-            }
-            else = {
-                spawn_army = {
-                    men_at_arms = {
-                        type = bno_ebony_elites
-                        men = { 1 5 }
-                    }
-                    location = location
-                    name = bno_hotwife_army_name
-                    save_scope_as = bno_hotwife_army
-                }
-                set_variable = {
-                    name = bno_hotwife_army
-                    value = scope:bno_hotwife_army
-                }
+                location = location
+                name = bno_hotwife_army_name
             }
         }
         4 = {
-            if = {
-                limit = { exists = var:bno_hotwife_army }
-                spawn_army = {
-                    men_at_arms = {
-                        type = bno_african_warriors
-                        men = { 5 25 }
-                    }
-                    location = location
-                    army = var:bno_hotwife_army
-                    name = bno_hotwife_army_name
+            spawn_army = {
+                men_at_arms = {
+                    type = bno_african_warriors
+                    men = { 5 25 }
                 }
-            }
-            else = {
-                spawn_army = {
-                    men_at_arms = {
-                        type = bno_african_warriors
-                        men = { 5 25 }
-                    }
-                    location = location
-                    name = bno_hotwife_army_name
-                    save_scope_as = bno_hotwife_army
-                }
-                set_variable = {
-                    name = bno_hotwife_army
-                    value = scope:bno_hotwife_army
-                }
+                location = location
+                name = bno_hotwife_army_name
             }
         }
     }
