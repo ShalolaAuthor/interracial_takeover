@@ -1,0 +1,153 @@
+﻿bno_femboi = {
+    physical = yes
+    shown_in_ruler_designer = no
+
+    opposites = { bno_bbc }
+
+    track = {
+        25 = {}
+        50 = {}
+        75 = {}
+        100 = {}
+    }
+
+    flag = bno_feminization
+
+    name = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_femboi.name.1
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_femboi
+                        value >= 100
+                    }
+                }
+                desc = bno_femboi.name.5
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_femboi
+                        value >= 75
+                    }
+                }
+                desc = bno_femboi.name.4
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_femboi
+                        value >= 50
+                    }
+                }
+                desc = bno_femboi.name.3
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_femboi
+                        value >= 25
+                    }
+                }
+                desc = bno_femboi.name.2
+            }
+            desc = bno_femboi.name.1
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_femboi.desc.1
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_femboi
+                        value >= 100
+                    }
+                }
+                desc = bno_femboi.desc.5
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_femboi
+                        value >= 75
+                    }
+                }
+                desc = bno_femboi.desc.4
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_femboi
+                        value >= 50
+                    }
+                }
+                desc = bno_femboi.desc.3
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_femboi
+                        value >= 25
+                    }
+                }
+                desc = bno_femboi.desc.2
+            }
+            desc = bno_femboi.desc.1
+        }
+    }
+
+    icon = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = "bno_femboi_1.dds"
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_femboi
+                        value >= 100
+                    }
+                }
+                desc = "bno_femboi_5.dds"
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_femboi
+                        value >= 75
+                    }
+                }
+                desc = "bno_femboi_4.dds"
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_femboi
+                        value >= 50
+                    }
+                }
+                desc = "bno_femboi_3.dds"
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_femboi
+                        value >= 25
+                    }
+                }
+                desc = "bno_femboi_2.dds"
+            }
+            desc = "bno_femboi_1.dds"
+        }
+    }
+}
