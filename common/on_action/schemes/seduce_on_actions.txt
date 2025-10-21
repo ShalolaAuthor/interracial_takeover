@@ -1,5 +1,4 @@
 ﻿#make sure seduce will fail if a white guy is seducing a cock addicted slut
-
 seduce_ongoing_milestone_1 = {
     trigger = {
         exists = scope:scheme
@@ -8,6 +7,7 @@ seduce_ongoing_milestone_1 = {
         if = {
             limit = {
                 scope:target = { is_slut = yes }
+				scope:owner = { is_bbc = no }
             }
             scope:scheme = { set_variable = declined_seduce_milestone_1_event }
             scope:owner = {
@@ -29,6 +29,7 @@ seduce_ongoing_milestone_2 = {
         if = {
             limit = {
                 scope:target = { is_slut = yes }
+				scope:owner = { is_bbc = no }
             }
             scope:scheme = { set_variable = declined_seduce_milestone_2_event }
             if = {
