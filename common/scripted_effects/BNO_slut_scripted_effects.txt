@@ -1228,13 +1228,19 @@ bno_cuck_sex_after_effects = {
 			title = bno_happy_wife.0001.title
 			right_icon = $PARTNER$
 			desc = bno_happy_wife.0001.desc
-			bno_stress_impact_based_on_cuck_tier = yes
-			bno_increase_cuckiness = yes
+			bno_cuck_sex_after_effects_effect = yes
 		}
 	}
 	else = {
-		bno_stress_impact_based_on_cuck_tier = yes
-		bno_increase_cuckiness = yes
+		bno_cuck_sex_after_effects_effect = yes
+	}
+}
+
+bno_cuck_sex_after_effects_effect = {
+	bno_stress_impact_based_on_cuck_tier = yes
+	bno_increase_cuckiness = yes
+	trigger_event = {
+		on_action = bno_cuck_duel_pulse
 	}
 }
 

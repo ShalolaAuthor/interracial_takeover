@@ -1,0 +1,277 @@
+﻿namespace = bno_cuck_duel
+
+bno_cuck_duel.0001 = {
+    type = character_event
+    title = bno_cuck_duel.0001.title
+    desc = bno_cuck_duel.0001.desc
+    theme = martial
+
+    override_background = {
+        reference = courtyard
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    lower_center_portrait = {
+        character = root
+    }
+
+    cooldown = {
+        months = { 12 18 }
+    }
+
+    trigger = {
+        NOR = {
+            has_trait = bno_caged
+            has_trait = bno_castrated
+        }
+        is_ruler = yes
+        is_white_guy = yes
+        any_courtier_or_guest = {
+            is_ai_blackbull = yes
+        }
+        is_married = yes
+        any_spouse = {
+            is_ai_blacked = yes
+        }
+    }
+
+    immediate = {
+        random_courtier_or_guest = {
+            limit = {
+                is_ai_blackbull = yes
+            }
+            save_scope_as = target1
+        }
+        random_spouse = {
+            limit = {
+                is_ai_blacked = yes
+            }
+            save_scope_as = target2
+        }
+        scope:target1 ?= {
+            bno_sex_scene_start = {
+                PARTNER = scope:target2
+            }
+        }
+        sex_animations = yes
+    }
+
+    option = {
+        name = bno_cuck_duel.0001.a
+        duel = {
+            skills = { martial prowess }
+            target = scope:target1
+            50 = {
+                compare_modifier = {
+                    value = scope:duel_value
+                    multiplier = 3.5
+                    min = -49
+                }
+                desc = bno_cuck_duel.0001.a.success.tooltip
+                trigger_event = bno_cuck_duel.1001
+            }
+            50 = {
+                compare_modifier = {
+                    value = scope:duel_value
+                    multiplier = -4.5
+                    min = 0
+                }
+                desc = bno_cuck_duel.0001.a.failure.tooltip
+                trigger_event = bno_cuck_duel.2001
+            }
+        }
+    }
+
+    option = {
+        name = bno_cuck_duel.0001.b
+        trigger_event = bno_cuck_duel.3001
+    }
+
+    option = {
+        name = bno_cuck_duel.0001.c
+        bno_decrease_cuckiness = yes
+        imprison_character_effect = {
+            IMPRISONER = root
+            TARGET = scope:target1
+        }
+    }
+
+    after = {
+        carn_sex_scene_is_cum_inside_effect = yes
+        bno_sex_scene_cleanup = yes
+    }
+}
+#cuck victory
+bno_cuck_duel.1001 = {
+    type = character_event
+    title = bno_cuck_duel.1001.title
+    desc = bno_cuck_duel.1001.desc
+    theme = martial
+
+    override_background = {
+        reference = courtyard
+    }
+
+    left_portrait = {
+        character = root
+        animation = lunatic
+    }
+
+    right_portrait = {
+        character = scope:target1
+        animation = pain
+    }
+
+    lower_center_portrait = {
+        character = scope:target2
+    }
+
+    trigger = {
+        is_alive = yes
+        scope:target1 ?= {
+            is_alive = yes
+        }
+        scope:target2 ?= {
+            is_alive = yes
+        }
+    }
+
+    immediate = {
+        bno_decrease_cuckiness = yes
+    }
+
+    option = {
+        name = bno_cuck_duel.1001.a
+        add_prestige = minor_prestige_loss
+    }
+}
+#cuck loss
+bno_cuck_duel.2001 = {
+    type = character_event
+    title = bno_cuck_duel.2001.title
+    desc = bno_cuck_duel.2001.desc
+    theme = martial
+
+    override_background = {
+        reference = courtyard
+    }
+
+    left_portrait = {
+        character = root
+        animation = lunatic
+    }
+
+    right_portrait = {
+        character = scope:target1
+        animation = pain
+    }
+
+    lower_center_portrait = {
+        character = scope:target2
+    }
+
+    trigger = {
+        is_alive = yes
+        scope:target1 ?= {
+            is_alive = yes
+        }
+        scope:target2 ?= {
+            is_alive = yes
+        }
+    }
+
+    immediate = {
+        bno_create_artifact_bno_chastity_cage_effect = {
+            CAGER = scope:target2
+        }
+        bno_increase_cuckiness = yes
+        bno_caged_effect = {
+            CAGER = scope:target2
+        }
+    }
+
+    option = {
+        name = bno_cuck_duel.2001.a
+    }
+}
+#voluntary caging
+bno_cuck_duel.3001 = {
+    type = character_event
+    title = bno_cuck_duel.3001.title
+    desc = bno_cuck_duel.3001.desc
+    theme = martial
+
+    override_background = {
+        reference = courtyard
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    lower_center_portrait = {
+        character = root
+    }
+
+    trigger = {
+        is_alive = yes
+        scope:target1 ?= {
+            is_alive = yes
+        }
+        scope:target2 ?= {
+            is_alive = yes
+        }
+    }
+
+    immediate = {
+        scope:target1 ?= {
+            bno_sex_scene_start = {
+                PARTNER = scope:target2
+            }
+        }
+        standing_oral_animations = yes
+        bno_create_artifact_bno_chastity_cage_effect = {
+            CAGER = scope:target2
+        }
+        bno_increase_cuckiness = yes
+        bno_caged_effect = {
+            CAGER = scope:target2
+        }
+    }
+
+    option = {
+        name = bno_cuck_duel.3001.a
+    }
+
+    after = {
+        carn_sex_scene_is_cum_inside_effect = yes
+        bno_sex_scene_cleanup = yes
+    }
+}
