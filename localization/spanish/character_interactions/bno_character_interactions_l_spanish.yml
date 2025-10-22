@@ -25,6 +25,7 @@ bno_tincture_of_genesis_interaction.effect: "Alimentarás a tu esposa [recipient
 
 bno_tincture_of_genesis_interaction.desc.female: "Le pediré a mi marido que me transforme" # AI Tags
 bno_tincture_of_genesis_interaction.effect.female: "Su marido le dará de comer su esperma, como su única fuente de sustento." # AI Tags
+bno_tincture_of_genesis_interaction.effect.courtier.female: "Un toro de tu corte te inundará a diario, su esperma se convertirá en tu única fuente de sustento." # AI Tags
 
 bno_prisoner_interaction: "Hacer cumplir la supremacía de la BBC" # AI Tags
 bno_prisoner_interaction_desc: "Este miserable hombre blanco pensó que podía pararse como un hombre. Ahora, encadenado, su patética polla se convierte en un juguete para el juicio, ya sea encerrado para siempre en hierro frío, o cortado por completo para dar cabida a un verdadero caldo de cultivo. Su destino es una lección para todos los que se atreverían a resistir [bno_bnwo|E]Es la regla." # AI Tags
@@ -36,3 +37,26 @@ bno_prisoner_interaction.slaving: "@bno_slave_icon! Desnúdala…conviértela en
 bno_prisoner_interaction.has_bbc_in_court: "Una zorra blanca no tiene un verdadero poder, sólo tiene que reproducirse. Para enjaular, castrar o esclavizar a otro, debe tener al menos una BBC en su corte para actuar como la mano del dominio y llevar a cabo la acción."   # AI Tags
 bno_prisoner_interaction.not_caged: "Ese inútil gallo blanco ya está encerrado en hierro, negado para siempre." # AI Tags
 bno_prisoner_interaction.not_castrated: "No queda nada que cortar, esta zorra ya ha sido despojada de la hombría."   # AI Tags
+
+bno_apply_elixir_interaction: "Aplicar Elixir" # AI Tags
+
+bno_apply_elixir_interaction.desc.female.bbc: "Ofrecer elixir a [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.female.whiteboi: "Slip elixir a [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.self.whiteboi: "Bebe el elixir tú mismo." # AI Tags
+bno_apply_elixir_interaction.desc.self.bbc: "Ingiere el elixir usted mismo." # AI Tags
+bno_apply_elixir_interaction.desc.bbc.whiteboi: "Fuerza elixir en [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.bbc.bbc: "Compartir elixir con [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.whiteboi.bbc: "Presente elixir a [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.whiteboi.whiteboi: "Pasar elixir a [recipient.GetFirstName]." # AI Tags
+
+bno_apply_elixir_interaction_bno_tincture_of_genesis: "@bno_tincture_of_genesis_icon! Aplicar la tintura del Génesis" # AI Tags
+bno_apply_elixir_interaction_bno_elixir_of_the_black_womb: "@bno_elixir_of_the_black_womb_icon! Aplicar el Elixir de la Mujer Negra" # AI Tags
+
+bno_apply_elixir_interaction.bno_tincture_of_genesis.tooltip: "Requiere la posesión de la [bno_tincture_of_genesis|E], y [recipient.GetFirstName] no debe ser [GetTrait('bno_castrated').GetName( GetNullCharacter )]." # AI Tags
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.tooltip: "Requiere la posesión de la [bno_elixir_of_the_black_womb|E], y [recipient.GetFirstName] debe ser masculino pero no [GetTrait('bno_bbc').GetName( GetNullCharacter )]." # AI Tags
+
+bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.actor.tooltip: "[actor.GetFirstName] administra la [bno_tincture_of_genesis|E]." # AI Tags
+bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.recipient.tooltip: "[recipient.GetFirstName] bebidas el [bno_tincture_of_genesis|E], transformando su semilla en la [bno_seed_of_genesis|E]." # AI Tags
+
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.actor.tooltip: "[actor.GetFirstName] fuerza a la [bno_elixir_of_the_black_womb|E] a ser tomada." # AI Tags
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.recipient.tooltip: "[recipient.GetFirstName] bebidas el [bno_elixir_of_the_black_womb|E], su polla se marchita y tiene hambre de semen consumiéndole." # AI Tags

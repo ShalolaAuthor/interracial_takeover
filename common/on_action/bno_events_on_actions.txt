@@ -3,10 +3,11 @@
 		is_a_girl = yes
 		is_adult = yes
 	}
-	random_on_action = {
-		1 = bno_slut_pulse
-		1 = bno_random_pulse
-		1 = bno_embrace_african_pulse
+	first_valid_on_action = {
+		bno_slut_pulse
+		bno_random_pulse
+		bno_embrace_african_pulse
+		bno_on_action_flag_reset_pulse
 	}
 }
 
@@ -16,10 +17,11 @@ bno_events_bull_pulse = {
 		is_a_male = yes
 		is_adult = yes
 	}
-	random_on_action = {
-		1 = bno_bull_pulse
-		1 = bno_random_pulse
-		1 = bno_embrace_african_pulse
+	first_valid_on_action = {
+		bno_bull_pulse
+		bno_random_pulse
+		bno_embrace_african_pulse
+		bno_on_action_flag_reset_pulse
 	}
 }
 
@@ -29,10 +31,22 @@ bno_events_cuck_pulse = {
 		is_a_male = yes
 		is_adult = yes
 	}
-	random_on_action = {
-		1 = bno_hotwife_pulse
-		1 = bno_cuck_pulse
-		1 = bno_random_pulse
-		1 = bno_embrace_african_pulse
+	first_valid_on_action = {
+		bno_hotwife_pulse
+		bno_cuck_pulse
+		bno_random_pulse
+		bno_embrace_african_pulse
+		bno_on_action_flag_reset_pulse
+	}
+}
+
+bno_on_action_flag_reset_pulse = {
+	effect = {
+		remove_character_flag = bno_recently_get_bull_events
+		remove_character_flag = bno_recently_get_random_events
+		remove_character_flag = bno_recently_get_embrace_african_events
+		remove_character_flag = bno_recently_get_slut_events
+		remove_character_flag = bno_recently_get_hotwife_events
+		remove_character_flag = bno_recently_get_cuck_events
 	}
 }

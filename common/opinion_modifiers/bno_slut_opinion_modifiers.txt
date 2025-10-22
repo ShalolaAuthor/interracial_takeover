@@ -12,3 +12,7 @@ bno_loser_in_bnwo_faction_war = {
 	banish_reason = yes
 	execute_reason = yes
 }
+bno_caged_me = {
+	monthly_change = 0.5
+	decaying = yes
+}

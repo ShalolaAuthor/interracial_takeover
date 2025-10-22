@@ -48,7 +48,7 @@
             }
             triggered_effect = {
                 trigger = {
-                    var:bull = {
+                    var:bull ?= {
                         is_alive = yes
                     }
                 }
@@ -56,7 +56,7 @@
                     story_owner = {
                         save_scope_as = story_owner
                     }
-                    var:bull = {
+                    var:bull ?= {
                         bno_have_sex_with_effects = {
                             PARTNER = scope:story_owner
                         }

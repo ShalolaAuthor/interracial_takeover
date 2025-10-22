@@ -634,6 +634,19 @@ get_something = {
 		}
 		save_scope_as = $SCOPE_NAME$
 	}
+	if = {
+		limit = {
+			NOT = { exists = scope:$SCOPE_NAME$ }
+		}
+		liege ?= {
+			random_courtier_or_guest = {
+				limit = {
+					$TRIGGER_KEY$ = yes
+				}
+				save_scope_as = $SCOPE_NAME$
+			}
+		}
+	}
 }
 
 get_something_backup = {
@@ -760,13 +773,13 @@ service_fee = {
 }
 
 pay_gold = {
-	scope:local_bbc = {
+	scope:local_bbc ?= {
 		if = {
 			limit = {
 				gold > 1
 			}
 			pay_short_term_gold = {
-				target = root
+				target = scope:whore
 				gold = {
 					value = minor_gold_value
 				}
@@ -1201,14 +1214,34 @@ bno_slut_sex_after_effects = {
 }
 
 bno_cuck_sex_after_effects = {
-	bno_increase_cuckiness = yes
-	send_interface_message = {
-		type = bno_blacked_events
-		title = bno_happy_wife.0001.title
-		right_icon = $PARTNER$
-		desc = bno_happy_wife.0001.desc
+	if = {
+		limit = {
+			is_playable_character = yes
+			NOT = { has_character_flag = bno_cuck_sex_after_effects_message_cooldown }
+		}
+		add_character_flag = {
+			flag = bno_cuck_sex_after_effects_message_cooldown
+			months = 6
+		}
+		send_interface_message = {
+			type = bno_blacked_events
+			title = bno_happy_wife.0001.title
+			right_icon = $PARTNER$
+			desc = bno_happy_wife.0001.desc
+			bno_cuck_sex_after_effects_effect = yes
+		}
 	}
+	else = {
+		bno_cuck_sex_after_effects_effect = yes
+	}
+}
+
+bno_cuck_sex_after_effects_effect = {
 	bno_stress_impact_based_on_cuck_tier = yes
+	bno_increase_cuckiness = yes
+	trigger_event = {
+		on_action = bno_cuck_duel_pulse
+	}
 }
 
 bno_stress_impact_based_on_cuck_tier = {
@@ -1481,6 +1514,7 @@ get_valid_whore_list = {
 }
 
 fuck_random_local_bbc = {
+	save_scope_as = whore
 	get_valid_whore_list = {
 		LIST_NAME = local_bbc_list
 	}
@@ -1511,11 +1545,16 @@ fuck_random_local_bbc = {
 			if = {
 				limit = {
 					is_playable_character = yes
+					NOT = { has_character_flag = fuck_random_local_bbc_message_cooldown }
+				}
+				add_character_flag = {
+					flag = fuck_random_local_bbc_message_cooldown
+					months = 6
 				}
 				send_interface_message = {
 					type = bno_blacked_events
 					title = bno_slut_0015_notification.title
-					right_icon = root
+					right_icon = scope:whore
 					bno_prostitution_effect = yes
 					desc = bno_slut_0015_notification.desc
 				}
@@ -1863,7 +1902,6 @@ bno_sex_scene_sex = {
 }
 
 bno_sex_scene_cleanup = {
-	bno_sex_scene_sex = yes
 	if = {
 		limit = {
 			has_game_rule = cbo_sex_event_animation_pack

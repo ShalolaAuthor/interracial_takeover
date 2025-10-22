@@ -238,5 +238,36 @@ trait_bno_bull: "El toro" # AI Tags
 trait_bno_bull_desc: "Un verdadero [bno_bull|E]-Este hombre ha hecho más que rutina. Ha roto una puta pálida en un [bno_cum_slave|E], una vasija atada a su polla y semilla sola. Su virilidad y poder inspiran miedo y obediencia; su esclavo Cum es la prueba viviente de que [bno_bnwo|E] no es un sueño, sino una ley de la naturaleza. Donde otros gobiernan por corona o espada, él gobierna con su eje—su semilla construyendo ejércitos e imperios." # AI Tags
 
 TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_others: "$EFFECT_LIST_BULLET$Sufre no [extramarital_sex|E] sanciones en caso de cría o de crianza fuera del matrimonio."   # AI Tags
-
 TRAIT_FLAG_DESC_carn_no_consequences_for_extramarital_sex_with_me: "$EFFECT_LIST_BULLET$Otros sufren no [extramarital_sex|E] sanciones al reproducirse con este carácter."   # AI Tags
+
+trait_bno_seed_of_genesis: "Semilla de Génesis" # AI Tags
+trait_bno_seed_of_genesis_desc: "Este Toro ha bebido la Tintura del Génesis. Su esperma ya no es una simple semilla, es la esencia santificada del BNWO. Cada carga que derrama rehace a las putas que toca: tonos de piel más oscuros, afilamientos de belleza, pechos hinchados pesados, culos creciendo abundante, caderas bendecidas, cinturas delgadas, cuerpos perfeccionados bajo su crianza. Su descendencia es la escritura, su polla el altar, su reinado eterno." # AI Tags
+
+TRAIT_FLAG_DESC_bno_seed_of_genesis: "$EFFECT_LIST_BULLET$[character|E]de cum lleva la [bno_seed_of_genesis|E], transformando putas que se reproducen en más oscuro, más lleno, más perfeccionado negro carne bajo el BNWO." # AI Tags
+
+bno_genesis_transformation.name.1: "Marcado por la semilla" # AI Tags
+bno_genesis_transformation.desc.1: "Sus primeras crías por un Toro con la Semilla del Génesis han dejado su mancha. Su piel pálida se calienta más oscura, sus pezones duelen tiernamente mientras sus tetas comienzan a hincharse, sus caderas susurran con el primer ensanchamiento. Ella lo siente cada vez que el esperma gotea de su coño — su cuerpo sabe que está cambiando. Ella se ruboriza más profundo, gime más fuerte, sabiendo que la transformación ya ha comenzado." # AI Tags
+
+bno_genesis_transformation.name.2: "Ennegrecimiento" # AI Tags
+bno_genesis_transformation.desc.2: "Su carne se profundiza en color, sus tetas se llenan pesadamente en sus manos, su culo rondas suave y lleno. Su cintura se adelgaza mientras sus caderas empujan más anchas, sus muslos engrosándose bajo el peso del uso constante. Sueña húmeda y sucia, despertando goteando, pezones hinchados de oscuridad. Cada carga dentro de ella la marca más lejos. Ella está siendo ennegrecida desde dentro." # AI Tags
+
+bno_genesis_transformation.name.3: "Africanización" # AI Tags
+bno_genesis_transformation.desc.3: "Su piel brilla una rica sombra oscura ahora, sus tetas tensas pesadas, su culo desbordante, sus caderas se extienden como tierra fértil. Su cintura se ha apretado, su cuerpo tomando las líneas exuberantes de una diosa criada para Bulls. Sus agujeros espasman para la polla, su vientre palpita para el esperma, su mente rogando por más semilla. Ella gime como una puta incluso en público, demasiado lejos para ocultar los cambios. Está siendo africanizada." # AI Tags
+
+bno_genesis_transformation.name.4: "Entronizado en la carne negra" # AI Tags
+bno_genesis_transformation.desc.4: "Su transformación está casi completa. Sus tetas son enormes y goteantes, pezones ennegrecidos y orgullosos. Sus caderas se balancean de ancho, su culo un cojín pesado pidiendo ser montado, su cintura un contraste estrecho que muestra cada curva. Su piel es profunda, radiante, resplandeciente con sudor y almizcle. Sus gemidos se han convertido en adoración, cada palabra en una súplica por el gallo, cada pensamiento inclinado a la cría. Ella está entronizada en carne negra, una ofrenda viviente para el BNWO." # AI Tags
+
+bno_genesis_transformation.name.5: "Perra negra perfeccionada" # AI Tags
+bno_genesis_transformation.desc.5: "La etapa final. Ella es impecable bajo la Semilla del Génesis: su piel ricamente negra, sus tetas enormes y sensibles, sus caderas anchas y generosas, su culo lleno y goteando, su cintura estrechada a la perfección. Su vientre es fértil, hambriento, esclavizado a la esperma. Su mente se ha ido — ella es adicta al gallo, gimiendo, rogando ser criada en todo momento. Ya no es quien era. Ella es la puta negra perfeccionada, rehecho como prueba del BNWO." # AI Tags
+
+trait_track_bno_genesis_transformation: "Convertirse en negro" # AI Tags
+trait_track_bno_genesis_transformation_desc: "Cada vez que es criada por un Toro con la Semilla del Génesis, su cuerpo cambia. La piel se oscurece, las tetas se hinchan, las caderas se inflaman, la cintura se adelgaza, el culo crece alrededor y goteando. Su mente se debilita, su hambre de polla crece. Paso a paso está ennegrecida, africanizada, perfeccionada en la puta que el BNWO exige." # AI Tags
+
+TRAIT_FLAG_DESC_bno_bigger_breast: "$EFFECT_LIST_BULLET$Con cada cría por un toro que lleva el [bno_seed_of_genesis|E], sus pechos se hinchan más grandes, los pezones se oscurecen, y la sensibilidad aumenta." # AI Tags
+TRAIT_FLAG_DESC_bno_bigger_ass: "$EFFECT_LIST_BULLET$Cada carga de un [bno_seed_of_genesis|E] El toro hace que su culo crezca más redondo, más lleno y más pesado para la cría." # AI Tags
+TRAIT_FLAG_DESC_bno_smaller_waist: "$EFFECT_LIST_BULLET$A través de repetidas crías de Toros marcados con el [bno_seed_of_genesis|E], su cintura se adelgaza, acentuando sus curvas fértiles." # AI Tags
+TRAIT_FLAG_DESC_bno_bigger_hips: "$EFFECT_LIST_BULLET$Cada vez que es llenada por un [bno_seed_of_genesis|E] Bull, sus caderas se extienden más anchas, reconformándola en un perfecto cuerpo reproductor." # AI Tags
+TRAIT_FLAG_DESC_bno_darker_skin: "$EFFECT_LIST_BULLET$Con cada cría bajo el [bno_seed_of_genesis|E], su piel oscurece la sombra por la sombra, brillando más rica a medida que avanza su transformación." # AI Tags
+
+trait_bno_whispered_rose: "Rosa susurrada" # AI Tags
+trait_bno_whispered_rose_desc: "Su presencia atrae cada mirada, su risa permanece como un sueño olvidado, y los rumores de su belleza se deslizan por los pasillos como pétalos en la brisa. Por ahora, ella permanece intocable – admirada, codiciada, y justo fuera del alcance." # AI Tags

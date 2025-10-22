@@ -1,6 +1,17 @@
 ﻿special_genes = {
     accessory_genes = {
         bno_phaze_clothes = {
+            no_clothes = {
+                index = 0
+                male = {
+                    1 = male_clothes_secular_western_nudity_01
+                }
+                female = {
+                    1 = female_clothes_secular_western_nudity_01
+                }
+                boy = male
+                girl = female
+            }
             phaze_slave = {
                 index = 1
                 male = {}
@@ -30,12 +41,20 @@
             }
         }
         bno_phaze_shoes = {
+            no_shoes = {
+                index = 0
+                male = {
+                    1 = empty
+                }
+                female = {
+                    1 = empty
+                }
+                boy = male
+                girl = female
+            }
             phaze_shoes = {
                 index = 1
-                male = {
-                    1 = male_mid_calf_boot_heels_01
-                    1 = male_thigh_high_boot_heels_01
-                }
+                male = {}
                 female = {
                     1 = female_mid_calf_boot_heels_01
                     1 = female_thigh_high_boot_heels_01

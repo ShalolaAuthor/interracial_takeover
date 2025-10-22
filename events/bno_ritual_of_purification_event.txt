@@ -26,7 +26,14 @@ bno_ritual_of_purification.1111 = {
                     has_council_position = councillor_court_chaplain
                 }
             }
-            #TODO: add father
+            father ?= {
+                is_playable_character = yes
+                is_faith_bbcs = yes
+                is_bbc = yes
+                any_councillor = {
+                    has_council_position = councillor_court_chaplain
+                }
+            }
         }
     }
     immediate = {
@@ -59,6 +66,21 @@ bno_ritual_of_purification.1111 = {
                 }
             }
             real_father = {
+                trigger_event = bno_ritual_of_purification.0001
+            }
+        }
+        else_if = {
+            limit = {
+                father ?= {
+                    is_playable_character = yes
+                    is_faith_bbcs = yes
+                    is_bbc = yes
+                    any_councillor = {
+                        has_council_position = councillor_court_chaplain
+                    }
+                }
+            }
+            father = {
                 trigger_event = bno_ritual_of_purification.0001
             }
         }

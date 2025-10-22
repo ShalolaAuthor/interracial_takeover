@@ -1,8 +1,17 @@
 ﻿l_spanish:
 
 artifact_slot_chastity: "Dispositivo de castidad" # AI Tags
-chastity: "Genitales" # AI Tags
+chastity: "Los órganos genitales" # AI Tags
+
+anal: "Ano" # AI Tags
+
+bno_toggle_artifact_view: "#T Conmutar vista#!" # AI Tags
+
+
 artifact_bno_chastity_cage: "Jaula de castidad" # AI Tags
+
+artifact_bno_chastity_piercing: "Piercing de castidad" # AI Tags
+artifact_bno_chastity_piercing.desc: "Decenas de anillos dorados perforan los labios, enhebrados con una cinta brillante que ata su coño cerrado en un arco cruel. El nudo delicado en la parte superior se burla de ella con elegancia, sellando su vientre de la polla y dejando sólo su culo libre para ser partido y utilizado. Cada destello de oro es una promesa de negación, propiedad y dedicación anal." # AI Tags
 
 artifact_bno_chastity_cage.caged_by.wife: "Una jaula de hierro, fría e inflexible, cerrada por su propia esposa. Ella giró la llave que terminó con su hombría, atándole para siempre mientras se abría a Bulls. Una vez encerrado, la carne dentro se marchita, encogiéndose semana tras semana hasta que no queda nada más que una puntada inútil—una broma viviente que retumba en sus caderas." # AI Tags
 
@@ -11,3 +20,12 @@ artifact_bno_chastity_cage.caged_by.slut: "Una jaula de hierro, fría e inflexib
 artifact_bno_chastity_cage.caged_by.bbc: "Una jaula de hierro, fría e inflexible, sellada por el propio Toro. La cerradura se cerró como una marca, una conquista hecha permanente. Una vez encerrado, la carne dentro se marchita, encogiéndose semana tras semana hasta que no queda nada más que un inútil nub—un trofeo de la supremacía del Toro, un recordatorio de que los chicos pálidos sólo existen para ser rotos."   # AI Tags
 
 artifact_bno_chastity_cage.desc: "Una jaula de hierro, fría e inflexible, hecha a mano para envainar y sofocar la patética hombría de un boi blanco. Una vez encerrado, la carne dentro se marchita, encogiéndose semana tras semana hasta que nada queda más que una puntada inútil. Algunas jaulas están cubiertas de oro, no para aliviar la carga, sino para desfilar la humillación—trofeos resplandecientes de debilidad que todos pueden ver."   # AI Tags
+
+artifact_bno_tincture_of_genesis: "Tintura del Génesis" # AI Tags
+artifact_bno_tincture_of_genesis.desc: "Un vial de vidrio negro tapado con cristal carmesí, lleno de espesa esencia lechosa que brilla como semilla viva. \n$EFFECT_LIST_BULLET$Cuando es consumido por un Toro, la tintura santifica su esperma—cada gota de esperma hecha en alimento santo y transformación. Cualquier puta que cría es reformada: la piel se oscurece, las tetas se hinchan, los culos florecen, las caderas se encienden, las cinturas estrechas, cada agujero se vuelve a hacer bajo la regla eterna del BNWO.\n$EFFECT_LIST_BULLET$Pero si un Whiteboi lo bebe, el efecto es despiadado. La esencia sagrada rechaza su carne inferior. Su polla se marchita, nunca se levanta de nuevo. Sus testículos se marchitan hasta las cáscaras, dejándolo estéril, cojeante e inútil — castrado por la misma semilla que nunca mandará." # AI Tags
+
+artifact_bno_elixir_of_the_black_womb: "Elixir de la Mujer Negra" # AI Tags
+artifact_bno_elixir_of_the_black_womb.desc: "Un frasco alto de líquido de oro carmesí, su brillo arremolinado como fuego vivo bajo un tapón en forma de pala. Cuando se consume, el elixir despierta un hambre roedora que sólo el semen negro puede satisfacer. Cada acto de rendición —cada bocado tragado, cada crianza soportada— impulsa la transformación más profunda, reconfigurando el cuerpo en carne fértil y obediente. No es veneno sino una bendición, una desavenencia lenta del orgullo, uniendo al bebedor al BNWO hasta que no quede nada más que una puta gimiendo, alimentada con semillas." # AI Tags
+
+artifact_bno_blacked_pleasures_unveiled: "Ennegrecido: Confesiones del desierto" # AI Tags
+artifact_bno_blacked_pleasures_unveiled.desc: "Este tómeo maltratado y escarpado por la runa está encuadernado en cuero agrietado por el sol, perfumado con especias extrañas y vieja lujuria. Sus gruesas páginas palpitan con exuberantes y exóticas ilustraciones: bellezas nobles pálidas de rodillas ante poderosos toros de piel oscura, mujeres nobles esparcidas en tiendas de campaña ensombrecidas, gimiendo mientras son criadas y transformadas. Cada confesión es un sueño febril: piel blanca enrojecida, pollas negras como la medianoche, coños resplandecientes brillando a la luz de las velas. Cada capítulo abre antojos que nunca te atreviste a nombrar, dejando tus manos temblando, tu mente girando, y tus sueños atormentados por la rendición y el éxtasis. Solo poseer este libro es suficiente para corromper tu corazón y dejar tus noches goteando de anhelo." # AI Tags

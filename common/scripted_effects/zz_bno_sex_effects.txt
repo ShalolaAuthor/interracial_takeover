@@ -99,4 +99,34 @@
 	}
 }
 
+carn_sex_scene_cleanup = {
+    scope:carn_sex_player ?= {
+        carn_dress_character_effect = yes
+        remove_character_flag = sex_animation_event
+        remove_variable = sex_animation
+        remove_variable = offset_xp255
+        remove_variable = offset_yp255
+        remove_variable = offset_zp255
+        remove_variable = offset_xn255
+        remove_variable = offset_yn255
+        remove_variable = offset_zn255
+        carn_sex_scene_clean_up_character_flags_effect = yes
+    }
+    scope:carn_sex_partner ?= {
+        carn_dress_character_effect = yes
+        remove_character_flag = sex_animation_event
+        remove_variable = sex_animation
+        remove_variable = offset_xp255
+        remove_variable = offset_yp255
+        remove_variable = offset_zp255
+        remove_variable = offset_xn255
+        remove_variable = offset_yn255
+        remove_variable = offset_zn255
+        carn_sex_scene_clean_up_character_flags_effect = yes
+    }
 
+    carn_sex_scene_clean_up_flags_effect = yes
+    remove_global_variable = sex_animation_event
+    remove_global_variable = carn_sex_player
+    remove_global_variable = carn_sex_partner
+}

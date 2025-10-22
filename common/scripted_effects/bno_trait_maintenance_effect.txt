@@ -316,10 +316,9 @@ bno_cage_prisoner_trait_maintenance_option = {
         bno_caged_effect = {
             CAGER = scope:actor
         }
-        # TODO: add custom opinion later
         add_opinion = {
             target = scope:actor
-            modifier = disappointed_opinion
+            modifier = bno_caged_me
             opinion = -50
         }
         release_from_prison = yes
@@ -362,10 +361,9 @@ bno_castrate_prisoner_option = {
 	}
 	scope:recipient ?= {
         bno_castrated_effect = yes
-        # TODO: add custom opinion later
         add_opinion = {
             target = scope:actor
-            modifier = disappointed_opinion
+            modifier = bno_caged_me
             opinion = -50
         }
         if = {
@@ -430,7 +428,7 @@ bno_recruit_prisoner_effect = {
 }
 
 bno_enslave_prisoner_option = {
-	scope:recipient = {
+	scope:recipient ?= {
         if = {
 			limit = { is_ruler = yes }
 			depose = yes
@@ -452,7 +450,7 @@ bno_enslave_prisoner_option = {
                 break_betrothal = betrothed
             }
             every_concubine = {
-                scope:recipient = { remove_concubine = prev }
+                scope:recipient ?= { remove_concubine = prev }
             }
             every_relation = {
                 type = guardian

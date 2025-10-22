@@ -15,6 +15,10 @@ bno_hotwife.0001 = {
         allowed_more_spouses = yes
         any_courtier_or_guest = {
             bno_is_perfect_white_girl = yes
+            can_marry_character_trigger = {
+                CHARACTER = root
+            }
+            count >= 1
         }
         does_blackbull_exist = yes
     }
@@ -33,6 +37,9 @@ bno_hotwife.0001 = {
         ordered_courtier_or_guest = {
             limit= {
                 bno_is_perfect_white_girl = yes
+                can_marry_character_trigger = {
+                    CHARACTER = root
+                }
             }
             order_by = {
                 value = 0
@@ -1023,7 +1030,7 @@ bno_hotwife.0004 = {
         is_ruler = yes
         is_married_white_guy = yes
         any_spouse = {
-            is_bno_blacked_and_up = yes
+            is_ai_blacked = yes
         }
         does_blackbull_exist = yes
     }
@@ -1105,7 +1112,7 @@ bno_hotwife.0004 = {
             vengeful = major_stress_impact_loss
             forgiving = major_stress_impact_gain
         }
-        scope:wife = {
+        scope:wife ?= {
             bno_decrease_sluttyness = yes
             add_opinion = {
                 target = root
@@ -1287,9 +1294,15 @@ bno_hotwife.1005 = {
             }
         }
         sex_animations = yes
-        set_relation_friend = {
-            target = scope:target1
-            reason = cuck_faped
+
+        if = {
+            limit = {
+                NOT = { has_relation_friend = scope:target1 }
+            }
+            set_relation_friend = {
+                target = scope:target1
+                reason = cuck_faped
+            }
         }
         scope:target1 = {
             add_character_modifier = bno_proven_male_strength
@@ -1355,8 +1368,16 @@ bno_hotwife.0006 = {
 
     immediate = {
         save_scope_as = cuck
-        get_blacked_wife_scope = {
-            SCOPE_NAME = wife
+        random_spouse = {
+            limit = {
+                is_bno_blacked_and_up = yes
+                NOT = { has_character_flag = bno_hotwife.0006 }
+                any_relation = {
+                    type = lover
+                    is_bbc = yes
+                }
+            }
+            save_scope_as = wife
         }
         bno_sex_scene_start = {
             PARTNER = scope:wife
@@ -1498,12 +1519,14 @@ bno_hotwife.2006 = {
     }
     option = {  #Let these two bitches make out in jail!
         name = bno_hotwife_2006.b
-        imprison = {
-            target = scope:target1
-        }
-        imprison = {
-            target = scope:wife
-        }
+        imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
+		}
+        imprison_character_effect = {
+			TARGET = scope:wife
+			IMPRISONER = root
+		}
     }
 }
 
@@ -1556,9 +1579,7 @@ bno_hotwife.0007 = {
             }
             add_trait = craven
         }
-        trigger_event = {
-            id = bno_hotwife.1007
-        }
+        trigger_event = bno_hotwife.1007
     }
 
     option = {
@@ -1597,7 +1618,7 @@ bno_hotwife.1007 = {
     }
 
     immediate = {
-        scope:target1 = {
+        scope:target1 ?= {
             bno_sex_scene_start = {
                 PARTNER = scope:wife
             }
@@ -1632,7 +1653,7 @@ bno_hotwife.0008 = {
         is_ruler = yes
         is_married_white_guy  = yes
         any_spouse = {
-            is_bno_blacked_and_up = yes
+            is_ai_blacked = yes
         }
         is_landless_adventurer = no
         does_blackbull_exist = yes
@@ -1935,7 +1956,9 @@ bno_hotwife.0009 = {
     override_background = { reference = garden }
 
     trigger = {
+        is_ruler = yes
         is_married_white_guy  = yes
+        can_employ_court_position_type = bodyguard_court_position
         OR = {
             has_trait = dick_small_good_1
             has_trait = dick_small_good_2
@@ -2043,7 +2066,10 @@ bno_hotwife.0009 = {
             }
         }
         scope:target2 = {
-            hidden_effect = {
+            if = {
+                limit = {
+                    NOT = { has_relation_friend = scope:target1 }
+                }
                 set_relation_friend = {
                     target = scope:target1
                     reason = cuck_faped
@@ -2228,6 +2254,7 @@ bno_hotwife.2009 = {
         add_opinion = {
             target = scope:wife
             modifier = bno_shamed_by_inability_to_satisfy_wife
+            opinion = -30
         }
         scope:wife = {
             add_opinion = {
@@ -2402,12 +2429,14 @@ bno_hotwife.4009 = {
 
     option = { #You damned whore, go to the dungeon with your lover!
         name = bno_hotwife_4009.b
-        imprison = {
-            target = scope:wife
-        }
-        imprison = {
-            target = scope:target1
-        }
+        imprison_character_effect = {
+			TARGET = scope:wife
+			IMPRISONER = root
+		}
+        imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
+		}
         bno_decrease_cuckiness = yes
     }
 
@@ -2432,9 +2461,14 @@ bno_hotwife.4009 = {
             callous  = medium_stress_impact_gain
             vengeful = major_stress_impact_gain
         }
-        set_relation_friend = {
-            target = scope:target1
-            reason = cuck_faped
+        if = {
+            limit = {
+                NOT = { has_relation_friend = scope:target1 }
+            }
+            set_relation_friend = {
+                target = scope:target1
+                reason = cuck_faped
+            }
         }
         bno_increase_cuckiness = yes
         hidden_effect = {

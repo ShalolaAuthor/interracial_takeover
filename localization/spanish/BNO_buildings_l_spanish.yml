@@ -24,3 +24,20 @@ building_bbc_church_02: "$bnonr$: Catedral" # AI Tags
 building_bbc_church_02_desc: "Dentro de sus salas de resonancia, las orgías diarias se celebran en reverencia a la [bno_bbc|E], alimentado por ofrendas tanto corporales como espirituales, incluyendo el sacrificio ritual semanal de hombres blancos ofreciendo a sus esposas como tributos vivos sobre el altar sagrado del deseo ébano." # AI Tags
 
 NOT_bbc_or_whitegirl_trigger: "El titular debe: [bno_bbc|E] o Whitegirl" # AI Tags
+
+has_dynasty_perk_1: "Tu dinastía se ha abrazado [GetDynastyPerk('bno_embrace_african_1').GetName], pisando el camino de la supremacía negra." # AI Tags
+has_dynasty_perk_2: "Tu dinastía se ha abrazado [GetDynastyPerk('bno_embrace_african_2').GetName], profundizando su reclamo bajo el Nuevo Orden Mundial Negro." # AI Tags
+has_dynasty_perk_5_and_piety_level: "Tu dinastía se ha abrazado [GetDynastyPerk('bno_embrace_african_5').GetName] y vuestra piedad os marca como escogidos, santificados bajo la ley de los Toros." # AI Tags
+
+
+building_type_bbc_trader_01: "Caravana de Obsidiana" # AI Tags
+building_type_bbc_trader_01_desc: "Un mercado errante consagrado al Nuevo Orden Mundial Negro. Sus carretas llevan la Tintura del Génesis, atando a las putas a vivir de esperma solas hasta que su piel se oscurezca y sus vientres maduren como Reinas Negras. Junto a él fluye el Elixir de la Mujer Negra, una insidiosa corriente que desmans whitebois, borrando sus pollas y reconstruyéndolas en fértiles putas con vientres hinchados. Los estantes exhiben jaulas de polla para gusanos patéticos, piercings de castidad para putas que entregan sus coños y piden ser criados sólo a través de sus culos, e innumerables otras herramientas de sumisión. La Caravana comienza como un campamento de paso, pero con cada nivel cava más profundo hasta que se convierte en una cicatriz permanente de semilla y conquista." # AI Tags
+
+building_bbc_trader_01: "Compensación de obsidianas" # AI Tags
+building_bbc_trader_01_desc: "Sólo un trozo de tierra en bruto al principio, estacada con banderas negras y anillada con antorchas. Unas cuantas tiendas de seda se aletean en el viento mientras los vagones de los Toros se acercan, su almizcle llevaba en el aire. Los susurros se propagan de extrañas mercancías…botellas de Tincture que esclavizan a las putas a semillas, frascos de Elixir que prometen a unman whitebois. Incluso en esta etapa temprana, las putas se esconden miradas mientras whitebois evitar el lugar en vergüenza." # AI Tags
+
+building_bbc_trader_02: "Campamento de Obsidiana" # AI Tags
+building_bbc_trader_02_desc: "El claro se hincha en un campamento completo, filas de pabellones que se elevan a medida que llegan vagones a diario. Los toros se reúnen en manadas, su presencia abrumadora. El Elixir de la Mujer Negra se vierte abiertamente, whitebois alinearse para sorber y sentir sus pollas arrugadas. Las zorras se arrodillan ansiosamente por la Tintura, sus gargantas entrenadas para vivir de esperma sola. Humo, almizcle y gemidos llenan el aire — ya no es una curiosidad sino una arteria oscura que bombea el poder de los Bulls a tu reino." # AI Tags
+
+building_bbc_trader_03: "Motivos de obsidiana" # AI Tags
+building_bbc_trader_03_desc: "Ahora fortificada con palisades y coronada con estandartes, la Caravana se ha convertido en un santuario permanente de Toros. El comercio, la crianza y el ritual se difuminan en uno. La Tintura del Génesis se administra en ritos públicos, las putas celebra cuando su piel se oscurece y los úteros ascienden. El Elixir fluye libremente, whitebois desfilando mientras se encogen en nuevas putas goteando. Los establos rebosan de jaulas, piercings y grilletes, todas las herramientas de propiedad exhibidas sin vergüenza. La tierra misma está marcada para siempre como un centro de comercio y transformación del BNWO." # AI Tags

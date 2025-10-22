@@ -21,12 +21,50 @@
         end_story = yes
     }
 
-    #recurring maintenance for ai
     effect_group = {
         days = { 30 60 }
         trigger = {
-            story_owner = { is_ai = yes }
+            story_owner = { is_alive = yes }
         }
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					has_character_flag = father_suspects_this_pregnancy
+					is_slut = yes
+				}
+			}
+			effect = {
+				story_owner = {
+					remove_character_flag = father_suspects_this_pregnancy
+				}
+			}
+		}
+		#becoming a bbc whore
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					is_white_girl = yes
+					is_bno_snowbunny_and_up = yes
+					NOT = { has_character_flag = bno_stop_becoming_bbc_slut }
+					NOT = { owns_story_of_type = story_bno_bbc_whore }
+					OR = {
+						any_courtier = {
+							is_blackbull = yes
+						}
+						liege ?= {
+							any_courtier = {
+								is_blackbull = yes
+							}
+						}
+					}
+				}
+			}
+			effect = {
+				story_owner = {
+					trigger_event = bno_slut.0015
+				}
+			}
+		}
         #culture
         triggered_effect = {
             trigger = {
@@ -945,27 +983,6 @@
             }
         }
     }
-	#recurring maintenance for all
-	effect_group = {
-		days = { 30 60 }
-		trigger = {
-			story_owner = {
-				is_slut = yes
-			}
-		}
-		triggered_effect = {
-			trigger = {
-				story_owner = {
-					has_character_flag = father_suspects_this_pregnancy
-				}
-			}
-			effect = {
-				story_owner = {
-					remove_character_flag = father_suspects_this_pregnancy
-				}
-			}
-		}
-	}
 	#events
 	effect_group = {
 		days = { 30 180 }

@@ -1,0 +1,18 @@
+﻿bno_femboi_hairs = {
+    usage = customization
+    priority = 999
+    add_accessory_modifiers = {
+        gene = bno_femboi_hairs
+        template = no_hairstyles
+        is_valid_custom = {
+            has_trait = femboi
+        }
+    }
+    add_accessory_modifiers = {
+        gene = bno_femboi_hairs
+        template = bno_femboi_hairstyles
+        is_valid_custom = {
+            has_trait = femboi
+        }
+    }
+}

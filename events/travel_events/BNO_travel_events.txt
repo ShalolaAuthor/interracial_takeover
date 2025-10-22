@@ -308,9 +308,9 @@ bno_travel_events.0003 = {
 	
 	option = { #no! im not into noncon!
 		name = bno_travel_events_0003.a
-		imprison = {
-			type = dungeon
-			target = scope:target1
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
 	}
 	option = { #eep

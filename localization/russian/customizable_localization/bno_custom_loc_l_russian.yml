@@ -1,23 +1,28 @@
 ﻿l_russian:
 
-slut_curious: "Блудница" # AI Tags
-slut_blacked: "Черная" # AI Tags
+slut_curious: "Любопытная шлюха" # AI Tags
+slut_blacked: "Черная шлюха" # AI Tags
 slut_snowbunny: "Снежная крошка" # AI Tags
 slut_qos: "Черная шлюха" # AI Tags
 slut_mindless: "Фабрика черных малышей" # AI Tags
-slut_boobs_1: "Большие груди" # AI Tags
-slut_boobs_2: "Мелон с грудью" # AI Tags
-slut_boobs_3: "Огромные груди" # AI Tags
-male_bbc: "Предатель расы" # AI Tags
+slut_boobs_1: "Большая сука с большими грудью" # AI Tags
+slut_boobs_2: "Мелоновая шлюха" # AI Tags
+slut_boobs_3: "Огромная сука с большими сиськами" # AI Tags
+slut_boobs_4: "Сука с коровьими грудьями" # AI Tags
+
+male_bbc: "Би-би-си" # AI Tags
 male_cuckish: "Ухмыляющий" # AI Tags
 male_cuck: "Увязчивый" # AI Tags
 male_beta: "Бета" # AI Tags
-male_jos: "Женщина-поделитель" # AI Tags
+male_jos: "Женщины-участники" # AI Tags
 male_caged: "В клетке" # AI Tags
 male_castrated: "Кастрированные" # AI Tags
-male_dick_1: "Ужасный пенис" # AI Tags
-male_dick_2: "Микропенис" # AI Tags
-male_dick_3: "Лимпский пенис" # AI Tags
+male_dick_1: "Ужасный" # AI Tags
+male_dick_2: "Микрокрокрещённые" # AI Tags
+male_dick_3: "Ошибки" # AI Tags
+
+
+is_a_male: "Персонажи с мужскими половыми органами, в том числе быки, футы и мужчины." # AI Tags
 
 bno_disease_type.lovers_pox: "[GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
 bno_disease_type.ill: "[GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags

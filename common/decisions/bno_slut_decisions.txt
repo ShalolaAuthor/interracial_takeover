@@ -9,7 +9,7 @@
 		is_white_girl = yes
 		is_slut = yes
 		NOT = { has_character_flag = bno_stop_becoming_bbc_slut }
-		NOT = { has_character_flag = bno_slut.1015 }
+		NOT = { owns_story_of_type = story_bno_bbc_whore }
 		OR = { 
 			is_ai = no 
 			has_game_rule = bno_decision_npc_yes 
@@ -28,19 +28,7 @@
 		custom_tooltip = bno_becoming_bbc_slut.effect
 		trigger_event = bno_slut.0015
 	}
-	ai_check_interval = 1
-	ai_potential = {
-		is_bno_snowbunny_and_up = yes
-		any_courtier_or_guest = {
-			is_ai_blackbull = yes
-		}
-		NOT = { has_character_flag = bno_stop_becoming_bbc_slut }
-		NOT = { has_character_flag = bno_slut.1015 }
-	}
-	ai_will_do = {
-		base = 0
-		bno_white_girl_modifier_biggest = yes
-	}
+	ai_check_interval = 0
 }
 
 bno_stop_becoming_bbc_slut = {
@@ -51,7 +39,7 @@ bno_stop_becoming_bbc_slut = {
 	selection_tooltip = bno_stop_becoming_bbc_slut_tooltip
 	decision_group_type = bno_decision_group
 	is_shown = {
-		has_character_flag = bno_slut.1015
+		owns_story_of_type = story_bno_bbc_whore
 		OR = { 
 			is_ai = no 
 			has_game_rule = bno_decision_npc_yes 
@@ -77,14 +65,10 @@ bno_stop_becoming_bbc_slut = {
 		}
 	}
 	effect = {
-		remove_character_flag = bno_slut.1015
+		var:bno_bbc_whore_story = {
+			end_story = yes
+		}
 		add_character_flag = bno_stop_becoming_bbc_slut
 	}
 	ai_check_interval = 0
-	ai_potential = {
-		always = no
-	}
-	ai_will_do = {
-		base = 0
-	}
 }

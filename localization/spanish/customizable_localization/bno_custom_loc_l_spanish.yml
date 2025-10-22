@@ -1,23 +1,28 @@
 ﻿l_spanish:
 
-slut_curious: "Puta" # AI Tags
-slut_blacked: "Ennegrecido" # AI Tags
+slut_curious: "Puta curiosa" # AI Tags
+slut_blacked: "Puta ennegrecida" # AI Tags
 slut_snowbunny: "Un conejo de nieve" # AI Tags
 slut_qos: "Puta negra" # AI Tags
 slut_mindless: "Fábrica de bebés negros" # AI Tags
-slut_boobs_1: "Con los pechos grandes" # AI Tags
-slut_boobs_2: "Melón Boobed" # AI Tags
-slut_boobs_3: "Enorme abucheo" # AI Tags
-male_bbc: "Traidor de carreras" # AI Tags
+slut_boobs_1: "Puta de punta grande" # AI Tags
+slut_boobs_2: "Puta con punta de melón" # AI Tags
+slut_boobs_3: "Puta de puntas enormes" # AI Tags
+slut_boobs_4: "Puta con punta de vaca" # AI Tags
+
+male_bbc: "La BBC" # AI Tags
 male_cuckish: "- ¿Por qué no" # AI Tags
 male_cuck: "Encubierto" # AI Tags
 male_beta: "Beta" # AI Tags
 male_jos: "Compartidor de esposas" # AI Tags
 male_caged: "Enjaulado" # AI Tags
 male_castrated: "Castrado" # AI Tags
-male_dick_1: "Pene patético" # AI Tags
-male_dick_2: "Micro pene" # AI Tags
-male_dick_3: "Pene limp" # AI Tags
+male_dick_1: "Patético-dicked" # AI Tags
+male_dick_2: "Microdicked" # AI Tags
+male_dick_3: "Cuchillo de limpieza" # AI Tags
+
+
+is_a_male: "Personajes con genitales masculinos, incluyendo toros, futas y hombres." # AI Tags
 
 bno_disease_type.lovers_pox: "[GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
 bno_disease_type.ill: "[GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags

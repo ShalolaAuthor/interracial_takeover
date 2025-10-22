@@ -97,13 +97,13 @@ bno_random.0001 = {
 
 		bno_no_sex_stress_impact = yes
 		bno_decrease_sluttyness = yes
-		imprison = {
-			type = dungeon
-			target = scope:target1
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
-		imprison = {
-			type = dungeon
-			target = scope:target2
+		imprison_character_effect = {
+			TARGET = scope:target2
+			IMPRISONER = root
 		}
 		ai_chance = {
 			base = 0
@@ -955,10 +955,9 @@ bno_random.0005 = {
 		bno_no_sex_stress_impact = yes
 
 		bno_decrease_sluttyness = yes
-		
-		imprison = {
-			type = dungeon
-			target = scope:target1
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
 		ai_chance = {
 			base = 0
@@ -1091,9 +1090,9 @@ bno_random.0006 = {
 		add_internal_flag = dangerous
 		bno_no_sex_stress_impact = yes
 		bno_decrease_sluttyness = yes
-		imprison = {
-			type = dungeon
-			target = scope:target1
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
 		ai_chance = {
 			base = 0
@@ -1339,6 +1338,7 @@ bno_random.0008 = {
 	cooldown = { months = { 18 24 } }
 	
 	trigger = {
+		is_ruler = yes
 		is_blacked = yes
 		does_blackbull_exist = yes
 	}
@@ -1391,9 +1391,9 @@ bno_random.0008 = {
 		name = bno_random_0008.c
 		add_internal_flag = dangerous
 		bno_no_sex_stress_impact = yes
-		imprison = {
-			type = dungeon
-			target = scope:target1
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
 	}
 }
@@ -1582,9 +1582,9 @@ bno_random.0009 = {
 		name = bno_random_0009.c
 		add_internal_flag = dangerous
 		bno_no_sex_stress_impact = yes
-		imprison = {
-			type = dungeon
-			target = scope:target1
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
 	}
 }
@@ -2268,6 +2268,7 @@ bno_random.0013 = {
 	cooldown = { months = { 18 24 } }
 	
 	trigger = {
+		is_ruler = yes
 		is_qos = yes
 		does_blackbull_exist = yes
 		any_pool_character = {
@@ -3468,6 +3469,7 @@ bno_random.0022 = {
 	cooldown = { months = { 18 24 } }
 	
 	trigger = {
+		is_ruler = yes
 		is_curious = yes
 		does_blackbull_exist = yes
 	}
@@ -3499,9 +3501,9 @@ bno_random.0022 = {
 	
 	option = { #imprison for heresy
 		name = bno_random_0022.c
-		imprison = { 
-			type = dungeon
-			target = scope:target1 
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
 	}
 }
@@ -3575,6 +3577,7 @@ bno_random.0023 = {
 	cooldown = { months = 16 }
 	
 	trigger = {
+		is_ruler = yes
 		is_curious = yes
 		does_blackbull_exist = yes
 	}
@@ -3597,9 +3600,9 @@ bno_random.0023 = {
 	
 	option = { #imprison
 		name = bno_random_0023.b
-		imprison = { 
-			type = dungeon
-			target = scope:target1 
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
 	}
 }
@@ -3704,9 +3707,9 @@ bno_random.0024 = {
 	
 	option = { #imprison
 		name = bno_random_0024.c
-		imprison = { 
-			type = dungeon
-			target = scope:target1 
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
 		bno_decrease_sluttyness = yes
 		ai_chance = {
@@ -4044,6 +4047,7 @@ bno_random.0026 = {
 	cooldown = { months = 10 }
 	
 	trigger = {
+		is_ruler = yes
 		is_a_girl = yes
 		is_elligible_partner = yes
 		any_child = {
@@ -4099,9 +4103,9 @@ bno_random.0026 = {
 	
 	option = { #imprison + punishment
 		name = bno_random_0026.c
-		imprison = {
-			type = dungeon
-			target = scope:target1
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
 	}
 }
@@ -5016,9 +5020,9 @@ bno_random.0033 = {
 	
 	option = { #get away from me
 		name = bno_random_0033.c
-		imprison = {
-			type = dungeon
-			target = scope:target1
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
 		bno_decrease_sluttyness = yes
 		ai_chance = {
@@ -6052,13 +6056,13 @@ bno_random.0039 = {
 			opinion = -20
 		}
 		add_stress = 35
-		imprison = {
-			type = dungeon
-			target = scope:target1
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
-		imprison = {
-			type = dungeon
-			target = scope:target2
+		imprison_character_effect = {
+			TARGET = scope:target2
+			IMPRISONER = root
 		}
 	}
 }
@@ -6107,9 +6111,9 @@ bno_random.2039 = {
 		trigger = {
 			is_bno_qos_and_up = yes
 		}
-		imprison = {
-			type = dungeon
-			target = scope:target2
+		imprison_character_effect = {
+			TARGET = scope:target2
+			IMPRISONER = root
 		}
 	}
 }
@@ -6274,9 +6278,9 @@ bno_random.0041 = {
 	}
 	option = {
 		name = bno_random_0041.a
-		imprison = {
-			type = dungeon
-			target = scope:target2
+		imprison_character_effect = {
+			TARGET = scope:target2
+			IMPRISONER = root
 		}
 		bno_decrease_cuckiness = yes
 		add_stress = major_stress_impact_gain
@@ -6408,13 +6412,13 @@ bno_random.0042 = {
 			bno_cuck = medium_stress_impact_gain
 			bno_beta = major_stress_impact_gain
 		}
-		imprison = {
-			type = dungeon
-			target = scope:target1
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
-		imprison = {
-			type = dungeon
-			target = scope:target2
+		imprison_character_effect = {
+			TARGET = scope:target2
+			IMPRISONER = root
 		}
 		scope:target2 ?= {
 			add_opinion = {
@@ -6597,13 +6601,13 @@ bno_random.0043 = {
 			bno_beta = minor_stress_impact_gain
 			bno_jos = minor_stress_impact_gain
 		}
-		imprison = {
-			type = dungeon
-			target = scope:target1
+		imprison_character_effect = {
+			TARGET = scope:target1
+			IMPRISONER = root
 		}
-		imprison = {
-			type = dungeon
-			target = scope:target2
+		imprison_character_effect = {
+			TARGET = scope:target2
+			IMPRISONER = root
 		}
 		bno_decrease_cuckiness = yes
 		bno_decrease_cuckiness = yes

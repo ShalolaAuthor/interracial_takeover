@@ -1,23 +1,28 @@
 ﻿l_french:
 
-slut_curious: "Saucisse" # AI Tags
-slut_blacked: "Noirs" # AI Tags
+slut_curious: "Salope curieuse" # AI Tags
+slut_blacked: "Salope noire" # AI Tags
 slut_snowbunny: "Bunny des neiges" # AI Tags
 slut_qos: "Salope noire" # AI Tags
 slut_mindless: "Fabrique de bébé noir" # AI Tags
-slut_boobs_1: "Big Bobed" # AI Tags
-slut_boobs_2: "Le melon à la poitrine" # AI Tags
-slut_boobs_3: "Énorme Bobed" # AI Tags
-male_bbc: "Traître de course" # AI Tags
+slut_boobs_1: "Salope à gros seins" # AI Tags
+slut_boobs_2: "Salope à tétons mélons" # AI Tags
+slut_boobs_3: "Saupoudrer d'une grosse tête" # AI Tags
+slut_boobs_4: "Salope à tête de vache" # AI Tags
+
+male_bbc: "La BBC" # AI Tags
 male_cuckish: "Cocu" # AI Tags
 male_cuck: "Cocu" # AI Tags
 male_beta: "Bêta" # AI Tags
-male_jos: "Épouse Sharer" # AI Tags
+male_jos: "Partageuse d'épouses" # AI Tags
 male_caged: "Câblés" # AI Tags
 male_castrated: "Castré" # AI Tags
-male_dick_1: "Pénis pathétique" # AI Tags
-male_dick_2: "Micro pénis" # AI Tags
-male_dick_3: "Pénis limpide" # AI Tags
+male_dick_1: "Pathétique" # AI Tags
+male_dick_2: "Micro-découpés" # AI Tags
+male_dick_3: "Mâché de limoneux" # AI Tags
+
+
+is_a_male: "Personnages avec des organes génitaux masculins, y compris les taureaux, les futas et les hommes." # AI Tags
 
 bno_disease_type.lovers_pox: "[GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
 bno_disease_type.ill: "[GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags

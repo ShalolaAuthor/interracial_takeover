@@ -25,6 +25,7 @@ bno_tincture_of_genesis_interaction.effect: "Ты будешь кормить с
 
 bno_tincture_of_genesis_interaction.desc.female: "Я попрошу мужа меня преобразовать" # AI Tags
 bno_tincture_of_genesis_interaction.effect.female: "Ваш муж будет кормить вас своим кумом, как ваш единственный источник пропитания." # AI Tags
+bno_tincture_of_genesis_interaction.effect.courtier.female: "Бык из вашего двора будет наполнять вас ежедневно, его скот станет вашим единственным источником пропитания." # AI Tags
 
 bno_prisoner_interaction: "Применить превосходство Би-би-си" # AI Tags
 bno_prisoner_interaction_desc: "Этот несчастный белый мужчина думал, что может стоять как мужчина. Теперь, в цепях, его жалкий член становится игрушкой для суждения…либо заперт навсегда в холодном железе, либо полностью отрезан, чтобы освободить место для истинного размножающегося скота. Его судьба является уроком для всех , кто осмелится сопротивляться [bno_bnwo|E]Правило." # AI Tags
@@ -36,3 +37,26 @@ bno_prisoner_interaction.slaving: "@bno_slave_icon! Отнимайте ей до
 bno_prisoner_interaction.has_bbc_in_court: "Белая шлюха не обладает истинной силой, она предназначена только для размножения. Чтобы посадить в клетку, кастрировать или поработить другого, она должна иметь по крайней мере одну Би-би-си в своем дворе, чтобы выступать в качестве руки господства и совершать акт."   # AI Tags
 bno_prisoner_interaction.not_caged: "Этот бесполезный белый член уже заперт в железе, отвергнут навсегда." # AI Tags
 bno_prisoner_interaction.not_castrated: "У этой шлюхи уже не осталось ничего, чтобы отрезать."   # AI Tags
+
+bno_apply_elixir_interaction: "Применяйте эликсир" # AI Tags
+
+bno_apply_elixir_interaction.desc.female.bbc: "Предлагайте эликсир [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.female.whiteboi: "Сдвинуть эликсир в [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.self.whiteboi: "Выпей эликсир сам." # AI Tags
+bno_apply_elixir_interaction.desc.self.bbc: "Вкуси эликсир сам." # AI Tags
+bno_apply_elixir_interaction.desc.bbc.whiteboi: "Нажимать эликсир [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.bbc.bbc: "Поделите эликсир с [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.whiteboi.bbc: "Предоставьте эликсир [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.whiteboi.whiteboi: "Передайте эликсир [recipient.GetFirstName]." # AI Tags
+
+bno_apply_elixir_interaction_bno_tincture_of_genesis: "@bno_tincture_of_genesis_icon! Используйте окраску из Бытия" # AI Tags
+bno_apply_elixir_interaction_bno_elixir_of_the_black_womb: "@bno_elixir_of_the_black_womb_icon! Используйте эликсир чёрной матки" # AI Tags
+
+bno_apply_elixir_interaction.bno_tincture_of_genesis.tooltip: "Требует владения [bno_tincture_of_genesis|E], и [recipient.GetFirstName] не должно быть [GetTrait('bno_castrated').GetName( GetNullCharacter )]." # AI Tags
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.tooltip: "Требует владения [bno_elixir_of_the_black_womb|E], и [recipient.GetFirstName] должен быть мужчиной, но не [GetTrait('bno_bbc').GetName( GetNullCharacter )]." # AI Tags
+
+bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.actor.tooltip: "[actor.GetFirstName] управляет [bno_tincture_of_genesis|E]." # AI Tags
+bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.recipient.tooltip: "[recipient.GetFirstName] пьет [bno_tincture_of_genesis|E], превращая его семя в [bno_seed_of_genesis|E]." # AI Tags
+
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.actor.tooltip: "[actor.GetFirstName] Приставляет [bno_elixir_of_the_black_womb|E] быть захваченным." # AI Tags
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.recipient.tooltip: "[recipient.GetFirstName] пьет [bno_elixir_of_the_black_womb|E], его член увядает и голод за ком, который его съедает." # AI Tags

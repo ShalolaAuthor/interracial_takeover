@@ -1,25 +1,4 @@
-﻿bno_prostitution_interval = {
-	
-	categories = {
-		interracial_takeover
-	}
-	
-	default = bno_interval_one_month
-
-	bno_interval_one_month = {
-	
-	}
-	
-	bno_interval_three_months = {
-		
-	}
-
-	bno_interval_six_months = {
-
-	}
-}
-
-bno_mod_status = {
+﻿bno_mod_status = {
 	categories = {
 		interracial_takeover
 	}

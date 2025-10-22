@@ -24,3 +24,20 @@ building_bbc_church_02: "$bnonr$: Cathédrale" # AI Tags
 building_bbc_church_02_desc: "Dans ses salles d'écho, les orgies quotidiennes sont tenues en révérence au [bno_bbc|E], alimenté par des offrandes à la fois corporelle et spirituelle, y compris le sacrifice rituel hebdomadaire des hommes blancs offrant leurs femmes comme hommages vivants sur l'autel sacré du désir ébène." # AI Tags
 
 NOT_bbc_or_whitegirl_trigger: "Le titulaire doit: [bno_bbc|E] ou de Whitegirl" # AI Tags
+
+has_dynasty_perk_1: "Votre dynastie s'est embrassée [GetDynastyPerk('bno_embrace_african_1').GetName], marchant sur le chemin de la suprématie noire." # AI Tags
+has_dynasty_perk_2: "Votre dynastie s'est embrassée [GetDynastyPerk('bno_embrace_african_2').GetName], approfondissant sa revendication dans le cadre de l'Ordre du Nouveau Monde Noir." # AI Tags
+has_dynasty_perk_5_and_piety_level: "Votre dynastie s'est embrassée [GetDynastyPerk('bno_embrace_african_5').GetName] et votre piété vous marque comme choisi, sanctifié sous la loi des taureaux." # AI Tags
+
+
+building_type_bbc_trader_01: "Caravane obsidienne" # AI Tags
+building_type_bbc_trader_01_desc: "Un marché errant consacré à l'Ordre du Nouveau Monde Noir. Ses chariots portent la Teinture de la Genèse, liant les salopes à vivre sur le sperme seul jusqu'à ce que leur peau s'assombrisse et leurs ventres mûrissent sous le nom de Reines Noires. A côté de cela coule l'élixir de l'Oiseau Noir, un ardeur insidieuse qui unmans whitebois, effaçant leurs queues et les reformant en salopes fertiles avec des ventres enflés. Les stalls exposent des cages de coqs pour vers pathétiques, des piercings de chasteté pour les salopes qui abandonnent leurs chattes et supplient d'être élevés uniquement par leurs culs, et d'innombrables autres outils de soumission. La Caravane commence comme un camp de passage, mais à chaque niveau elle creuse plus profondément jusqu'à ce qu'elle devienne une cicatrice permanente de la semence et de la conquête." # AI Tags
+
+building_bbc_trader_01: "Effacement des obsidiens" # AI Tags
+building_bbc_trader_01_desc: "Seulement un morceau brut de terre au début, jalonné de bannières noires et sonné de torches. Quelques tentes en soie s'abattent dans le vent tandis que des wagons de Bulls s'emboîtent, leur musc est porté à l'air. Whispers se répandit des articles étranges — des bouteilles de Teinture qui asservissent les salopes à semer, des flacons d'élixir qui promettent d'unman whitebois. Même à ce stade précoce, les salopes se faufilent tandis que Whitebois évite l'endroit dans la honte." # AI Tags
+
+building_bbc_trader_02: "Enclos d'obsidiens" # AI Tags
+building_bbc_trader_02_desc: "La clairière gonfle dans un camp complet, des rangées de pavillons se lèvent au fur et à mesure que les wagons arrivent tous les jours. Les taureaux se rassemblent en chaumes, leur présence accablante. L'élixir de la limonade noire est versé ouvertement, blanc-bois doublé jusqu'à siroter et sentir leurs bites raccommoder. Selles s'agenouillent avidement pour la Teinture, leurs gorges entraînées à vivre sur le sperme seul. La fumée, le musc et les gémissements remplissent l'air — non plus une curiosité, mais une artère sombre qui pompe le pouvoir de Bulls dans votre royaume." # AI Tags
+
+building_bbc_trader_03: "Motifs obsidiens" # AI Tags
+building_bbc_trader_03_desc: "Maintenant fortifiée de palissades et couronnée de bannières, la Caravane est devenue un sanctuaire permanent de taureaux. Le commerce, l'élevage et le rituel s'estompent en un seul. La Teinture de la Genèse est administrée en rites publics, les salopes célébrées comme leur peau s'assombrit et les ventres s'élèvent. L'Elixir coule librement, des blancs-bois défilent alors qu'ils se rétrécissent dans de nouvelles salopes dégoulinantes. Les étouffements débordent de cages, de piercings et de chaînes, chaque outil de propriété affiché sans honte. La terre elle-même est marquée pour toujours comme une plaque tournante du commerce et de la transformation des BNWO." # AI Tags
