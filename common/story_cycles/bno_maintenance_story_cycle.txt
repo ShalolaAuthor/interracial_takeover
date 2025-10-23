@@ -989,6 +989,14 @@
 		trigger = {
 			story_owner = {
 				is_adult = yes
+				trigger_if = {
+					limit = { has_game_rule = bno_global_bbc_activities_no }
+					OR = {
+						liege ?= { is_ai = no }
+						top_liege ?= { is_ai = no }
+						is_ai = no
+					}
+				}
 			}
 		}
 		random_valid = {

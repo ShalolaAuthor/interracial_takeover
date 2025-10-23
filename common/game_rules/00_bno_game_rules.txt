@@ -291,3 +291,19 @@ bno_xp_gain = {
 		
 	}
 }
+
+bno_global_bbc_activities = {
+	categories = {
+		interracial_takeover
+	}
+
+	default = bno_global_bbc_activities_yes
+
+	bno_global_bbc_activities_yes = {
+
+	}
+
+	bno_global_bbc_activities_no = {
+
+	}
+}
