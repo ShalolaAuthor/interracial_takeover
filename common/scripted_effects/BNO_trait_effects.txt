@@ -92,7 +92,9 @@ bno_generic_rank_decrease = {
 			rank = -1
 		}
 	}
-	remove_trait = $TRAIT_GROUP$
+	else = {
+		remove_trait = $TRAIT_GROUP$_1
+	}
 }
 
 ### Slut Traits ###
@@ -109,37 +111,29 @@ become_more_slut = {
 }
 
 become_less_slut = {
-	if = {
-		limit = {
-			has_trait_rank = {
-				trait = bno_whitegirl
-				rank > 1
+	bno_generic_rank_decrease = {
+		TRAIT_GROUP = bno_whitegirl
+	}
+	switch = {
+		trigger = has_trait
+		bno_whitegirl_1 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whitegirl_1
 			}
 		}
-		bno_generic_rank_decrease = {
-			TRAIT_GROUP = bno_whitegirl
+		bno_whitegirl_2 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whitegirl_2
+			}
 		}
-		switch = {
-			trigger = has_trait
-			bno_whitegirl_1 = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_whitegirl_1
-				}
+		bno_whitegirl_3 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whitegirl_3
 			}
-			bno_whitegirl_2 = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_whitegirl_2
-				}
-			}
-			bno_whitegirl_3 = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_whitegirl_3
-				}
-			}
-			bno_whitegirl_4 = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_whitegirl_4
-				}
+		}
+		bno_whitegirl_4 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whitegirl_4
 			}
 		}
 	}
@@ -224,32 +218,24 @@ become_more_cuck_effect = {
 }
 
 become_less_cuck_effect = {
-	if = {
-		limit = {
-			has_trait_rank = {
-				trait = bno_whiteboi
-				rank > 1
+	bno_generic_rank_decrease = {
+		TRAIT_GROUP = bno_whiteboi
+	}
+	switch = {
+		trigger = has_trait
+		bno_whiteboi_1 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whiteboi_1
 			}
 		}
-		bno_generic_rank_decrease = {
-			TRAIT_GROUP = bno_whiteboi
+		bno_whiteboi_2 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whiteboi_2
+			}
 		}
-		switch = {
-			trigger = has_trait
-			bno_whiteboi_1 = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_whiteboi_1
-				}
-			}
-			bno_whiteboi_2 = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_whiteboi_2
-				}
-			}
-			bno_whiteboi_3 = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_whiteboi_3
-				}
+		bno_whiteboi_3 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whiteboi_3
 			}
 		}
 	}
