@@ -4,31 +4,31 @@
     text = {
         localization_key = slut_curious
         trigger = {
-            has_trait = bno_curious
+            has_trait = bno_whitegirl_1
         }
     }
     text = {
         localization_key = slut_blacked
         trigger = {
-            has_trait = bno_blacked
+            has_trait = bno_whitegirl_2
         }
     }
     text = {
         localization_key = slut_snowbunny
         trigger = {
-            has_trait = bno_snowbunny
+            has_trait = bno_whitegirl_3
         }
     }
     text = {
         localization_key = slut_qos
         trigger = {
-            has_trait = bno_qos
+            has_trait = bno_whitegirl_4
         }
     }
     text = {
         localization_key = slut_mindless
         trigger = {
-            has_trait = bno_mindless_bbc_slut
+            has_trait = bno_whitegirl_5
         }
     }
     text = {

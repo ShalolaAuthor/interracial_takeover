@@ -110,13 +110,13 @@ bno_bbc_worshipper_aptitude = {
     }
     switch = {
         trigger = has_trait
-        bno_curious = {
+        bno_whitegirl_1 = {
             multiply = {
                 value = 1.1
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_curious
+                            trait = bno_whitegirl_1
                             value >= 30
                         }
                     }
@@ -125,7 +125,7 @@ bno_bbc_worshipper_aptitude = {
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_curious
+                            trait = bno_whitegirl_1
                             value >= 60
                         }
                     }
@@ -134,13 +134,13 @@ bno_bbc_worshipper_aptitude = {
                 desc = bno_court_position_trait_curious
             }
         }
-        bno_blacked = {
+        bno_whitegirl_2 = {
             multiply = {
                 value = 1.4
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_blacked
+                            trait = bno_whitegirl_2
                             value >= 30
                         }
                     }
@@ -149,7 +149,7 @@ bno_bbc_worshipper_aptitude = {
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_blacked
+                            trait = bno_whitegirl_2
                             value >= 60
                         }
                     }
@@ -158,13 +158,13 @@ bno_bbc_worshipper_aptitude = {
                 desc = bno_court_position_trait_blacked
             }
         }
-        bno_snowbunny = {
+        bno_whitegirl_3 = {
             multiply = {
                 value = 1.7
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_snowbunny
+                            trait = bno_whitegirl_3
                             value >= 30
                         }
                     }
@@ -173,7 +173,7 @@ bno_bbc_worshipper_aptitude = {
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_snowbunny
+                            trait = bno_whitegirl_3
                             value >= 60
                         }
                     }
@@ -182,13 +182,13 @@ bno_bbc_worshipper_aptitude = {
                 desc = bno_court_position_trait_snowbunny
             }
         }
-        bno_qos = {
+        bno_whitegirl_4 = {
             multiply = {
                 value = 2
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_qos
+                            trait = bno_whitegirl_4
                             value >= 30
                         }
                     }
@@ -197,7 +197,7 @@ bno_bbc_worshipper_aptitude = {
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_qos
+                            trait = bno_whitegirl_4
                             value >= 60
                         }
                     }
@@ -206,13 +206,13 @@ bno_bbc_worshipper_aptitude = {
                 desc = bno_court_position_trait_qos
             }
         }
-        bno_mindless_bbc_slut = {
+        bno_whitegirl_5 = {
             multiply = {
                 value = 2.3
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_mindless_bbc_slut
+                            trait = bno_whitegirl_5
                             value >= 30
                         }
                     }
@@ -221,7 +221,7 @@ bno_bbc_worshipper_aptitude = {
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_mindless_bbc_slut
+                            trait = bno_whitegirl_5
                             value >= 80
                         }
                     }
@@ -563,13 +563,13 @@ bno_bbc_priestess_aptitude = {
     }
     switch = {
         trigger = has_trait
-        bno_curious = {
+        bno_whitegirl_1 = {
             multiply = {
                 value = 1.1
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_curious
+                            trait = bno_whitegirl_1
                             value >= 30
                         }
                     }
@@ -578,7 +578,7 @@ bno_bbc_priestess_aptitude = {
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_curious
+                            trait = bno_whitegirl_1
                             value >= 60
                         }
                     }
@@ -587,13 +587,13 @@ bno_bbc_priestess_aptitude = {
                 desc = bno_court_position_trait_curious
             }
         }
-        bno_blacked = {
+        bno_whitegirl_2 = {
             multiply = {
                 value = 1.4
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_blacked
+                            trait = bno_whitegirl_2
                             value >= 30
                         }
                     }
@@ -602,7 +602,7 @@ bno_bbc_priestess_aptitude = {
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_blacked
+                            trait = bno_whitegirl_2
                             value >= 60
                         }
                     }
@@ -611,13 +611,13 @@ bno_bbc_priestess_aptitude = {
                 desc = bno_court_position_trait_blacked
             }
         }
-        bno_snowbunny = {
+        bno_whitegirl_3 = {
             multiply = {
                 value = 1.7
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_snowbunny
+                            trait = bno_whitegirl_3
                             value >= 30
                         }
                     }
@@ -626,7 +626,7 @@ bno_bbc_priestess_aptitude = {
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_snowbunny
+                            trait = bno_whitegirl_3
                             value >= 60
                         }
                     }
@@ -635,13 +635,13 @@ bno_bbc_priestess_aptitude = {
                 desc = bno_court_position_trait_snowbunny
             }
         }
-        bno_qos = {
+        bno_whitegirl_4 = {
             multiply = {
                 value = 2
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_qos
+                            trait = bno_whitegirl_4
                             value >= 30
                         }
                     }
@@ -650,7 +650,7 @@ bno_bbc_priestess_aptitude = {
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_qos
+                            trait = bno_whitegirl_4
                             value >= 60
                         }
                     }
@@ -659,13 +659,13 @@ bno_bbc_priestess_aptitude = {
                 desc = bno_court_position_trait_qos
             }
         }
-        bno_mindless_bbc_slut = {
+        bno_whitegirl_5 = {
             multiply = {
                 value = 2.3
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_mindless_bbc_slut
+                            trait = bno_whitegirl_5
                             value >= 30
                         }
                     }
@@ -674,7 +674,7 @@ bno_bbc_priestess_aptitude = {
                 if = {
                     limit = {
                         has_trait_xp = {
-                            trait = bno_mindless_bbc_slut
+                            trait = bno_whitegirl_5
                             value >= 80
                         }
                     }

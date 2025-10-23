@@ -60,11 +60,11 @@ bno_travel_events.0001 = { #charity for a wandering african
 			arrogant = minor_stress_impact_gain
 			avaricious = minor_stress_impact_gain
 			callous = minor_stress_impact_gain
-			bno_curious = minor_stress_impact_loss
-			bno_blacked = minor_stress_impact_loss
-			bno_snowbunny = minor_stress_impact_loss
-			bno_qos = minor_stress_impact_loss
-			bno_mindless_bbc_slut = minor_stress_impact_loss
+			bno_whitegirl_1 = minor_stress_impact_loss
+			bno_whitegirl_2 = minor_stress_impact_loss
+			bno_whitegirl_3 = minor_stress_impact_loss
+			bno_whitegirl_4 = minor_stress_impact_loss
+			bno_whitegirl_5 = minor_stress_impact_loss
 		}
 		ai_chance = {
 			base = 5
@@ -79,11 +79,11 @@ bno_travel_events.0001 = { #charity for a wandering african
 
 		bno_increase_sluttyness = yes
 		stress_impact = {
-			bno_curious = minor_stress_impact_loss
-			bno_blacked = minor_stress_impact_loss
-			bno_snowbunny = minor_stress_impact_loss
-			bno_qos = minor_stress_impact_loss
-			bno_mindless_bbc_slut = minor_stress_impact_loss
+			bno_whitegirl_1 = minor_stress_impact_loss
+			bno_whitegirl_2 = minor_stress_impact_loss
+			bno_whitegirl_3 = minor_stress_impact_loss
+			bno_whitegirl_4 = minor_stress_impact_loss
+			bno_whitegirl_5 = minor_stress_impact_loss
 		}
 		ai_chance = {
 			base = 50
@@ -177,11 +177,11 @@ bno_travel_events.0002 = { #courtier asks to join
 		name = bno_travel_events_0002.c
 		bno_decrease_sluttyness = yes
 		stress_impact = {
-			bno_curious = minor_stress_impact_gain
-			bno_blacked = minor_stress_impact_gain
-			bno_snowbunny = minor_stress_impact_gain
-			bno_qos = minor_stress_impact_gain
-			bno_mindless_bbc_slut = minor_stress_impact_gain
+			bno_whitegirl_1 = minor_stress_impact_gain
+			bno_whitegirl_2 = minor_stress_impact_gain
+			bno_whitegirl_3 = minor_stress_impact_gain
+			bno_whitegirl_4 = minor_stress_impact_gain
+			bno_whitegirl_5 = minor_stress_impact_gain
 		}
 		ai_chance = {
 			base = 5
@@ -282,7 +282,7 @@ bno_travel_events.0003 = {
 		root = {
 			is_a_girl = yes
 			is_adult = yes
-			has_trait = bno_curious
+			has_trait = bno_whitegirl_1
 		}
 		
 		any_pool_character = {

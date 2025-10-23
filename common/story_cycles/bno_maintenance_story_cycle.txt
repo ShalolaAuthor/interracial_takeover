@@ -169,14 +169,7 @@
             }
             effect = {
                 story_owner = {
-                    switch = {
-		            	trigger = has_trait
-		            	bno_curious = { remove_trait = bno_curious }
-		            	bno_blacked = { remove_trait = bno_blacked }
-		            	bno_snowbunny = { remove_trait = bno_snowbunny }
-		            	bno_qos = { remove_trait = bno_qos }
-		            	bno_mindless_bbc_slut = { remove_trait = bno_mindless_bbc_slut }
-		            }
+                    remove_whitegirl_trait_effect = yes
                 }
             }
         }

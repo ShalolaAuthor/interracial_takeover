@@ -247,41 +247,41 @@ bno_reveal_secret_effect = {
 
 bno_stress_impact_based_on_slut_tier = {
 	stress_impact = {
-		bno_curious = -10
-		bno_blacked = -20
-		bno_snowbunny = -30
-		bno_qos = -40
-		bno_mindless_bbc_slut = -50
+		bno_whitegirl_1 = -10
+		bno_whitegirl_2 = -20
+		bno_whitegirl_3 = -30
+		bno_whitegirl_4 = -40
+		bno_whitegirl_5 = -50
 	}
 }
 
 bno_no_sex_stress_impact = {
 	stress_impact = {
-		bno_curious = major_stress_impact_gain
-		bno_blacked = major_stress_impact_gain
-		bno_snowbunny = major_stress_impact_gain
-		bno_qos = major_stress_impact_gain
-		bno_mindless_bbc_slut = major_stress_impact_gain
+		bno_whitegirl_1 = major_stress_impact_gain
+		bno_whitegirl_2 = major_stress_impact_gain
+		bno_whitegirl_3 = major_stress_impact_gain
+		bno_whitegirl_4 = major_stress_impact_gain
+		bno_whitegirl_5 = major_stress_impact_gain
 	}
 }
 
 bno_sex_stress_impact_huge = {
 	stress_impact = {
-		bno_curious = major_stress_impact_loss
-		bno_blacked = major_stress_impact_loss
-		bno_snowbunny = major_stress_impact_loss
-		bno_qos = major_stress_impact_loss
-		bno_mindless_bbc_slut = major_stress_impact_loss
+		bno_whitegirl_1 = major_stress_impact_loss
+		bno_whitegirl_2 = major_stress_impact_loss
+		bno_whitegirl_3 = major_stress_impact_loss
+		bno_whitegirl_4 = major_stress_impact_loss
+		bno_whitegirl_5 = major_stress_impact_loss
 	}
 }
 
 bno_sex_stress_impact_small = {
 	stress_impact = {
-		bno_curious = minor_stress_impact_loss
-		bno_blacked = minor_stress_impact_loss
-		bno_snowbunny = minor_stress_impact_loss
-		bno_qos = minor_stress_impact_loss
-		bno_mindless_bbc_slut = minor_stress_impact_loss
+		bno_whitegirl_1 = minor_stress_impact_loss
+		bno_whitegirl_2 = minor_stress_impact_loss
+		bno_whitegirl_3 = minor_stress_impact_loss
+		bno_whitegirl_4 = minor_stress_impact_loss
+		bno_whitegirl_5 = minor_stress_impact_loss
 	}
 }
 
@@ -944,7 +944,7 @@ create_character_slut = {
 		after_creation = {
 			add_trait = lustful
 			bno_maybe_get_a_rare_trait = {
-				TRAIT = bno_curious
+				TRAIT = bno_whitegirl_1
 			}
 			bno_maybe_get_a_rare_trait = {
 				TRAIT = bno_pure_white
@@ -1274,11 +1274,11 @@ bno_bbc_sex_after_effects = {
 	bno_increase_sluttyness = yes
 	bno_sex_stats = yes
 	stress_impact = {
-		bno_curious = -10
-		bno_blacked = -20
-		bno_snowbunny = -30
-		bno_qos = -40
-		bno_mindless_bbc_slut = -50
+		bno_whitegirl_1 = -10
+		bno_whitegirl_2 = -20
+		bno_whitegirl_3 = -30
+		bno_whitegirl_4 = -40
+		bno_whitegirl_5 = -50
 	}
 	add_character_flag = {
 		flag = bno_naked
@@ -1542,11 +1542,11 @@ bno_have_sex_with_effects = {
 }
 
 bno_remove_whitegirl_traits = {
-	remove_trait = bno_curious
-	remove_trait = bno_blacked
-	remove_trait = bno_snowbunny
-	remove_trait = bno_qos
-	remove_trait = bno_mindless_bbc_slut
+	remove_trait = bno_whitegirl_1
+	remove_trait = bno_whitegirl_2
+	remove_trait = bno_whitegirl_3
+	remove_trait = bno_whitegirl_4
+	remove_trait = bno_whitegirl_5
 }
 
 bno_add_gold_faith = {

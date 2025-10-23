@@ -440,7 +440,7 @@ bno_random.2002 = {
 	desc = {
 		triggered_desc = {
 			trigger = {
-				has_trait = bno_qos
+				has_trait = bno_whitegirl_4
 			}
 			desc = bno_random_2002.desc1
 		}
@@ -1176,8 +1176,8 @@ bno_random.0007 = {
 		is_a_girl = yes
 		is_elligible_partner = yes
 		OR = {
-			has_trait = bno_curious
-			has_trait = bno_blacked
+			has_trait = bno_whitegirl_1
+			has_trait = bno_whitegirl_2
 		}
 		does_blackbull_exist = yes
 	}
@@ -1190,7 +1190,7 @@ bno_random.0007 = {
 	option = {
 		name = bno_random_0007.a
 		trigger = {
-			has_trait = bno_curious
+			has_trait = bno_whitegirl_1
 		}
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
@@ -1208,7 +1208,7 @@ bno_random.0007 = {
 	option = {
 		name = bno_random_0007.b
 		trigger = {
-			has_trait = bno_blacked
+			has_trait = bno_whitegirl_2
 		}
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1

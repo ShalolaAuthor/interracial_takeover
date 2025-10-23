@@ -45,7 +45,7 @@
 	doctrine = divine_destiny_doctrine
 	
 	traits = {
-		virtues = { bno_curious bno_blacked bno_snowbunny bno_qos bno_mindless_bbc_slut bno_bbc lustful sadistic bno_camp_leader bno_full_black}
+		virtues = { bno_whitegirl_1 bno_whitegirl_2 bno_whitegirl_3 bno_whitegirl_4 bno_whitegirl_5 bno_bbc lustful sadistic bno_camp_leader bno_full_black}
 		sins = { chaste bno_cuck bno_cuckish bno_beta bno_jos bno_caged bno_castrated futa futa_genetic}
 	}
 	

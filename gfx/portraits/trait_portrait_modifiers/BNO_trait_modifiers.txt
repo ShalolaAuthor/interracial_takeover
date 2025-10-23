@@ -80,7 +80,7 @@
 bno_white_girl = {
 	mindless_slut = {
 		traits = {
-			bno_mindless_bbc_slut
+			bno_whitegirl_5
 		}
 		dna_modifiers = {
 			human = {
@@ -108,8 +108,8 @@ bno_white_girl = {
 	}
 	queen_of_spades = {
 		traits = {
-			bno_qos
-			bno_mindless_bbc_slut
+			bno_whitegirl_4
+			bno_whitegirl_5
 		}
 		trigger = {
 			is_body_modification_ok = yes

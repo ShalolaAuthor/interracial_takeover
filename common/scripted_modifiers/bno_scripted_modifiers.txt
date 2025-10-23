@@ -367,11 +367,11 @@ bno_bbc_cum_addiction_success_modifier = {
 			scope:target = {
 				switch = {
 					trigger = has_trait
-					bno_curious = { add = 5 }
-					bno_blacked = { add = 15 }
-					bno_snowbunny = { add = 30 }
-					bno_qos = { add = 50 }
-					bno_mindless_bbc_slut = { add = 75 }
+					bno_whitegirl_1 = { add = 5 }
+					bno_whitegirl_2 = { add = 15 }
+					bno_whitegirl_3 = { add = 30 }
+					bno_whitegirl_4 = { add = 50 }
+					bno_whitegirl_5 = { add = 75 }
 				}
 			}
 		}

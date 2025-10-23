@@ -375,14 +375,18 @@ bno_pure_african_can_not_be_slut = {
 			is_african = yes
 			is_slut = yes
 		}
-		switch = {
-			trigger = has_trait
-			bno_curious = { remove_trait = bno_curious }
-			bno_blacked = { remove_trait = bno_blacked }
-			bno_snowbunny = { remove_trait = bno_snowbunny }
-			bno_qos = { remove_trait = bno_qos }
-			bno_mindless_bbc_slut = { remove_trait = bno_mindless_bbc_slut }
-		}
+		remove_whitegirl_trait_effect = yes
+	}
+}
+
+remove_whitegirl_trait_effect = {
+	switch = {
+		trigger = has_trait
+		bno_whitegirl_1 = { remove_trait = bno_whitegirl_1 }
+		bno_whitegirl_2 = { remove_trait = bno_whitegirl_2 }
+		bno_whitegirl_3 = { remove_trait = bno_whitegirl_3 }
+		bno_whitegirl_4 = { remove_trait = bno_whitegirl_4 }
+		bno_whitegirl_5 = { remove_trait = bno_whitegirl_5 }
 	}
 }
 

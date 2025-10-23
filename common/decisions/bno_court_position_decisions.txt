@@ -47,11 +47,11 @@
                 switch = {
                     trigger = has_trait
                     bno_bbc = { add = 100 }
-                    bno_curious = { add = 20 }
-                    bno_blacked = { add = 40 }
-                    bno_snowbunny = { add = 60 }
-                    bno_qos = { add = 80 }
-                    bno_mindless_bbc_slut = { add = 100 }
+                    bno_whitegirl_1 = { add = 20 }
+                    bno_whitegirl_2 = { add = 40 }
+                    bno_whitegirl_3 = { add = 60 }
+                    bno_whitegirl_4 = { add = 80 }
+                    bno_whitegirl_5 = { add = 100 }
                 }
             }
         }

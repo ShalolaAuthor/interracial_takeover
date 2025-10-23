@@ -84,9 +84,9 @@ bno_female_holy_order_leader_character_template = {
 
 	after_creation = {
 		bno_get_between_common_uncommon_and_rare_trait = {
-			TRAIT_COMMON = bno_snowbunny
-			TRAIT_UNCOMMON = bno_qos
-			TRAIT_RARE = bno_mindless_bbc_slut
+			TRAIT_COMMON = bno_whitegirl_3
+			TRAIT_UNCOMMON = bno_whitegirl_4
+			TRAIT_RARE = bno_whitegirl_5
 		}
 		bno_maybe_get_a_rare_trait = {
 			TRAIT = bno_pure_white
@@ -124,9 +124,9 @@ bno_female_priest_character_template = {
 	after_creation = {
 		add_character_flag = need_priest_outfit
 		bno_get_between_common_uncommon_and_rare_trait = {
-			TRAIT_COMMON = bno_snowbunny
-			TRAIT_UNCOMMON = bno_qos
-			TRAIT_RARE = bno_mindless_bbc_slut
+			TRAIT_COMMON = bno_whitegirl_3
+			TRAIT_UNCOMMON = bno_whitegirl_4
+			TRAIT_RARE = bno_whitegirl_5
 		}
 		bno_maybe_get_a_rare_trait = {
 			TRAIT = bno_pure_white
@@ -167,9 +167,9 @@ bno_male_priest_character_template = {
 		bno_set_culture_to_african_effect = yes
 		add_character_flag = need_priest_outfit
 		bno_get_between_common_uncommon_and_rare_trait = {
-			TRAIT_COMMON = bno_snowbunny
-			TRAIT_UNCOMMON = bno_qos
-			TRAIT_RARE = bno_mindless_bbc_slut
+			TRAIT_COMMON = bno_whitegirl_3
+			TRAIT_UNCOMMON = bno_whitegirl_4
+			TRAIT_RARE = bno_whitegirl_5
 		}
 		bno_maybe_get_a_rare_trait = {
 			TRAIT = bno_pure_white

@@ -257,11 +257,11 @@ bno_events.0005 = {
 		scope:target2 ?= {
 			hidden_effect = {
 				stress_impact = {
-					bno_curious = massive_stress_impact_loss
-					bno_blacked = massive_stress_impact_loss
-					bno_snowbunny = massive_stress_impact_loss
-					bno_qos = massive_stress_impact_loss
-					bno_mindless_bbc_slut = massive_stress_impact_loss
+					bno_whitegirl_1 = massive_stress_impact_loss
+					bno_whitegirl_2 = massive_stress_impact_loss
+					bno_whitegirl_3 = massive_stress_impact_loss
+					bno_whitegirl_4 = massive_stress_impact_loss
+					bno_whitegirl_5 = massive_stress_impact_loss
 				}
 				bno_increase_sluttyness = yes
 			}
@@ -543,7 +543,7 @@ bbcconversion.0001 = {
 		reference = tavern
 	}
 	trigger = {
-		has_trait = bno_mindless_bbc_slut
+		has_trait = bno_whitegirl_5
 		NOR = {
 			faith = faith:bbcs
 		}

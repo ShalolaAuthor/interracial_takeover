@@ -14,8 +14,8 @@
     compatibility = {
         bno_bbc = 100
         bno_bull = 150
-        bno_curious = 50
-        bno_blacked = 75
+        bno_whitegirl_1 = 50
+        bno_whitegirl_2 = 75
         bno_pure_white = 75
 
         bno_cuckish = -50
@@ -69,8 +69,8 @@ bno_cum_addiction_2 = {
     compatibility = {
         bno_bbc = 200
         bno_bull = 300
-        bno_blacked = 100
-        bno_snowbunny = 150
+        bno_whitegirl_2 = 100
+        bno_whitegirl_3 = 150
         bno_pure_white = 100
 
         bno_cuckish = -75
@@ -126,8 +126,8 @@ bno_cum_addiction_3 = {
     compatibility = {
         bno_bbc = 400
         bno_bull = 600
-        bno_snowbunny = 200
-        bno_qos = 300
+        bno_whitegirl_3 = 200
+        bno_whitegirl_4 = 300
         bno_pure_white = 150
 
         bno_cuckish = -100
@@ -186,8 +186,8 @@ bno_cum_addiction_4 = {
     compatibility = {
         bno_bbc = 800
         bno_bull = 1200
-        bno_qos = 400
-        bno_mindless_bbc_slut = 600
+        bno_whitegirl_4 = 400
+        bno_whitegirl_5 = 600
         bno_pure_white = 200
 
         bno_cuckish = -150
