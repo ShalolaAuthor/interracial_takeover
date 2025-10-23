@@ -155,7 +155,7 @@ bno_male_priest_character_template = {
 	random_traits = yes
 	
 	faith = faith:bbcs
-	culture = culture:bnoc
+	culture = culture:akan
 	gender = male
 
 	learning = {
@@ -164,6 +164,7 @@ bno_male_priest_character_template = {
 	}
 
 	after_creation = {
+		bno_set_culture_to_african_effect = yes
 		add_character_flag = need_priest_outfit
 		bno_get_between_common_uncommon_and_rare_trait = {
 			TRAIT_COMMON = bno_snowbunny

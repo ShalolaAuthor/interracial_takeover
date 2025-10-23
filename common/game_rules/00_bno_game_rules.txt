@@ -307,3 +307,19 @@ bno_global_bbc_activities = {
 
 	}
 }
+
+bno_african_culture = {
+	categories = {
+		interracial_takeover
+	}
+
+	default = bno_african_culture_yes
+
+	bno_african_culture_yes = {
+
+	}
+
+	bno_african_culture_no = {
+		
+	}
+}

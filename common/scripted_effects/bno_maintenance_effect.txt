@@ -300,7 +300,7 @@ bno_convert_african_to_african_culture = {
 			set_culture = liege.culture
 		}
 		else = {
-			set_culture = culture:bnoc
+			bno_set_culture_to_african_effect = yes
 		}
 	}
 }
