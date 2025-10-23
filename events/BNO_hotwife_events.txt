@@ -1361,7 +1361,7 @@ bno_hotwife.0006 = {
             NOT = { has_character_flag = bno_hotwife.0006 }
             any_relation = {
                 type = lover
-                is_bbc = yes
+                is_ai_blackbull = yes
             }
         }
     }
@@ -1374,7 +1374,7 @@ bno_hotwife.0006 = {
                 NOT = { has_character_flag = bno_hotwife.0006 }
                 any_relation = {
                     type = lover
-                    is_bbc = yes
+                    is_ai_blackbull = yes
                 }
             }
             save_scope_as = wife
@@ -1387,7 +1387,7 @@ bno_hotwife.0006 = {
             add_character_flag = bno_hotwife.0006
             random_relation = {
                 type = lover
-                limit = { is_bbc = yes }
+                limit = { is_ai_blackbull = yes }
                 save_scope_as = target1
             }
         }
