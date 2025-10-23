@@ -192,25 +192,25 @@ bno_decision_modifier = {
     modifier = {
         add = 25
         trigger = {
-            has_trait = bno_cuckish
+            has_trait = bno_whiteboi_1
         }
     } #+25 he's wife is whispering in his ear
     modifier = {
         add = 50
         trigger = {
-            has_trait = bno_cuck
+            has_trait = bno_whiteboi_2
         }
     } #+50 he knows what he's into
     modifier = {
         add = 75
         trigger = {
-            has_trait = bno_beta
+            has_trait = bno_whiteboi_3
         }
     } #+75 he knows what he's into
     modifier = {
         add = 100
         trigger = {
-            has_trait = bno_jos
+            has_trait = bno_whiteboi_4
         }
     } #+100 he knows what he's into
 	modifier = {

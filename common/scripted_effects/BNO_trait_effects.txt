@@ -236,19 +236,19 @@ become_less_cuck_effect = {
 		}
 		switch = {
 			trigger = has_trait
-			bno_cuckish = {
+			bno_whiteboi_1 = {
 				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_cuckish
+					TRAIT = bno_whiteboi_1
 				}
 			}
-			bno_cuck = {
+			bno_whiteboi_2 = {
 				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_cuck
+					TRAIT = bno_whiteboi_2
 				}
 			}
-			bno_beta = {
+			bno_whiteboi_3 = {
 				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_beta
+					TRAIT = bno_whiteboi_3
 				}
 			}
 		}
@@ -263,25 +263,25 @@ bno_increase_cuckiness = {
 				NOT = { has_trait = bno_bbc }
 			}
 		}
-		add_trait = bno_cuckish
+		add_trait = bno_whiteboi_1
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_cuckish
+		TRAIT_NAME = bno_whiteboi_1
 		LEVEL_UP_EFFECT = become_more_cuck_effect
 		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_cuck
+		TRAIT_NAME = bno_whiteboi_2
 		LEVEL_UP_EFFECT = become_more_cuck_effect
 		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_beta
+		TRAIT_NAME = bno_whiteboi_3
 		LEVEL_UP_EFFECT = become_more_cuck_effect
 		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_jos
+		TRAIT_NAME = bno_whiteboi_4
 		LEVEL_UP_EFFECT = become_more_cuck_effect
 		XP = bno_random_xp_positive
 	}
@@ -293,19 +293,19 @@ bno_decrease_cuckiness = {
 			has_trait = bno_whiteboi
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_jos
+			TRAIT_NAME = bno_whiteboi_4
 			LEVEL_DOWN_EFFECT = become_less_cuck_effect
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_beta
+			TRAIT_NAME = bno_whiteboi_3
 			LEVEL_DOWN_EFFECT = become_less_cuck_effect
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_cuck
+			TRAIT_NAME = bno_whiteboi_2
 			LEVEL_DOWN_EFFECT = become_less_cuck_effect
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_cuckish
+			TRAIT_NAME = bno_whiteboi_1
 			LEVEL_DOWN_EFFECT = become_less_cuck_effect
 		}
 	}

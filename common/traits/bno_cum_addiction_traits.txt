@@ -18,9 +18,10 @@
         bno_whitegirl_2 = 75
         bno_pure_white = 75
 
-        bno_cuckish = -50
-        bno_cuck = -75
-        bno_beta = -100
+        bno_whiteboi_1 = -50
+        bno_whiteboi_2 = -75
+        bno_whiteboi_3 = -100
+        bno_whiteboi_4 = -400
         bno_castrated = -100
     }
 
@@ -73,9 +74,10 @@ bno_cum_addiction_2 = {
         bno_whitegirl_3 = 150
         bno_pure_white = 100
 
-        bno_cuckish = -75
-        bno_cuck = -100
-        bno_beta = -125
+        bno_whiteboi_1 = -75
+        bno_whiteboi_2 = -100
+        bno_whiteboi_3 = -125
+        bno_whiteboi_4 = -400
     }
 
     track = {
@@ -130,9 +132,10 @@ bno_cum_addiction_3 = {
         bno_whitegirl_4 = 300
         bno_pure_white = 150
 
-        bno_cuckish = -100
-        bno_cuck = -150
-        bno_beta = -200
+        bno_whiteboi_1 = -100
+        bno_whiteboi_2 = -150
+        bno_whiteboi_3 = -200
+        bno_whiteboi_4 = -400
     }
 
     track = {
@@ -190,9 +193,10 @@ bno_cum_addiction_4 = {
         bno_whitegirl_5 = 600
         bno_pure_white = 200
 
-        bno_cuckish = -150
-        bno_cuck = -200
-        bno_beta = -300
+        bno_whiteboi_1 = -150
+        bno_whiteboi_2 = -200
+        bno_whiteboi_3 = -300
+        bno_whiteboi_4 = -400
     }
 
 

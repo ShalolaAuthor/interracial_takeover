@@ -3,7 +3,7 @@
 }
 
 is_cuckish = {
-	has_trait = bno_cuckish
+	has_trait = bno_whiteboi_1
 }
 
 is_cuckish_guy = {
@@ -12,7 +12,7 @@ is_cuckish_guy = {
 }
 
 is_cuck = {
-	has_trait = bno_cuck
+	has_trait = bno_whiteboi_2
 }
 
 is_cuck_guy = {
@@ -21,7 +21,7 @@ is_cuck_guy = {
 }
 
 is_beta = {
-	has_trait = bno_beta
+	has_trait = bno_whiteboi_3
 }
 
 is_beta_guy = {
@@ -30,7 +30,7 @@ is_beta_guy = {
 }
 
 is_jos = {
-	has_trait = bno_jos
+	has_trait = bno_whiteboi_4
 }
 
 is_jos_guy = {

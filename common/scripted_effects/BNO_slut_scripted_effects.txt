@@ -1352,10 +1352,10 @@ bno_cuck_sex_after_effects_effect = {
 
 bno_stress_impact_based_on_cuck_tier = {
 	stress_impact = {
-		bno_cuckish = -10
-		bno_cuck = -20
-		bno_beta = -30
-		bno_jos = -40
+		bno_whiteboi_1 = -10
+		bno_whiteboi_2 = -20
+		bno_whiteboi_3 = -30
+		bno_whiteboi_4 = -40
 	}
 }
 

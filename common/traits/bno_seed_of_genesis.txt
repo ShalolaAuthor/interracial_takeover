@@ -206,7 +206,9 @@ bno_genesis_transformation = {
 	    bno_mixed = 50
 	    bno_barely_mixed = 25
 		bno_pure_white = 100
-	    bno_cuck = -25
-	    bno_beta = -25
+	    bno_whiteboi_1 = -25
+	    bno_whiteboi_2 = -50
+	    bno_whiteboi_3 = -75
+	    bno_whiteboi_4 = -100
 	}
 }

@@ -65,25 +65,25 @@
     text = {
         localization_key = male_cuckish
         trigger = {
-            has_trait = bno_cuckish
+            has_trait = bno_whiteboi_1
         }
     }
     text = {
         localization_key = male_cuck
         trigger = {
-            has_trait = bno_cuck
+            has_trait = bno_whiteboi_2
         }
     }
     text = {
         localization_key = male_beta
         trigger = {
-            has_trait = bno_beta
+            has_trait = bno_whiteboi_3
         }
     }
     text = {
         localization_key = male_jos
         trigger = {
-            has_trait = bno_jos
+            has_trait = bno_whiteboi_4
         }
     }
     text = {
