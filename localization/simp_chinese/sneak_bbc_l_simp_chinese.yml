@@ -11,7 +11,7 @@ BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#!崇拜[bno_bbc|E]: #colo
 BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#!公开欢迎[bno_bbc|E]: #color_green +50#!"  
 sneak_bbc.has_bbc_in_court: "你至少需要两名[bno_bbc|E]在你的宫廷里才能派出其中一位。"  
 sneak_bbc.already_has_bbc_in_court: "那个宫廷的母狗们已经被公牛们填满了——不需要再送过去一个了。"  
-sneak_bbc.not_enough_of_a_slut: "你还不够作为一只母狗。只有真正的[GetTrait('bno_snowbunny').GetName(GetNullCharacter)]或更糟糕的人才敢在宫廷间走私公牛。"  
+sneak_bbc.not_enough_of_a_slut: "作为一只母狗你还不够。只有真正的[GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)]或更糟糕的人才敢在宫廷间走私公牛。"  
 #influence child interaction
 bno_influence_child: "促进好奇心"
 bno_influence_child_desc: "影响儿童了解真相"
