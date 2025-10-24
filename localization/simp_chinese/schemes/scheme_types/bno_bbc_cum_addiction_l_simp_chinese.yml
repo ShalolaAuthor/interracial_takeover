@@ -9,11 +9,11 @@ bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNo
 bno_bbc_cum_addiction.invalidated.title: "失去奴隶"
 bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip]已死，她的嘴唇在你的精液能完全占据她之前永远闭上了。很快就会有其他人臣服于你——[bno_bnwo|E]可不会因一只母狗的死而止步。"
 
-bno_bbc_cum_addiction.curious: "她[GetTrait('bno_curious').GetName(GetNullCharacter)]，渴望尝试。"  
-bno_bbc_cum_addiction.blacked: "她已经[GetTrait('bno_blacked').GetName(GetNullCharacter)]，蠢蠢欲动，渴望更多。"  
-bno_bbc_cum_addiction.snowbunny: "她已成为[GetTrait('bno_snowbunny').GetName(GetNullCharacter)]，想要每个公牛。"  
-bno_bbc_cum_addiction.qos: "她已升华成[GetTrait('bno_qos').GetName(GetNullCharacter)]，骄傲地臣服着。"  
-bno_bbc_cum_addiction.mindless: "她已沦为[GetTrait('bno_mindless_bbc_slut').GetName(GetNullCharacter)]，无法抵抗"  
+bno_bbc_cum_addiction.curious: "她[GetTrait('bno_whitegirl_1').GetName(GetNullCharacter)]，渴望尝试。"  
+bno_bbc_cum_addiction.blacked: "她已经[GetTrait('bno_whitegirl_2').GetName(GetNullCharacter)]，蠢蠢欲动，渴望更多。"  
+bno_bbc_cum_addiction.snowbunny: "她已成为[GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)]，想要每个公牛。"  
+bno_bbc_cum_addiction.qos: "她已升华成[GetTrait('bno_whitegirl_4').GetName(GetNullCharacter)]，骄傲地臣服着。"  
+bno_bbc_cum_addiction.mindless: "她已沦为[GetTrait('bno_whitegirl_5').GetName(GetNullCharacter)]，无法抵抗"  
 
 bno_bbc_cum_addiction.beauty_good_1: "你乃[GetTrait('beauty_good_1').GetName(GetNullCharacter)]，很养眼。"  
 bno_bbc_cum_addiction.beauty_good_2: "你乃[GetTrait('beauty_good_2').GetName(GetNullCharacter)]，帅得炸眼。"  
