@@ -113,7 +113,7 @@ convert = {
 	is_valid = {
 		is_adult = yes
 		is_a_girl = yes
-		has_trait = bno_mindless_bbc_slut
+		has_trait = bno_whitegirl_5
 		NOT = {faith = faith:bbcs}
 	}
 	effect = {
@@ -125,7 +125,7 @@ convert = {
 	}
 	ai_check_interval = 1
 	ai_potential = {
-		has_trait = bno_mindless_bbc_slut
+		has_trait = bno_whitegirl_5
 		NOT = {faith = faith:bbcs}
 	}
 	ai_will_do = {

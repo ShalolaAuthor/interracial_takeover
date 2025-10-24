@@ -233,31 +233,31 @@
         }
         switch = {
             trigger = has_trait
-            bno_curious = {
+            bno_whitegirl_1 = {
                 add = {
                     value = 10
                     desc = bno_bbc_cum_addiction.curious
                 }
             }
-            bno_blacked = {
+            bno_whitegirl_2 = {
                 add = {
                     value = 20
                     desc = bno_bbc_cum_addiction.blacked
                 }
             }
-            bno_snowbunny = {
+            bno_whitegirl_3 = {
                 add = {
                     value = 30
                     desc = bno_bbc_cum_addiction.snowbunny
                 }
             }
-            bno_qos = {
+            bno_whitegirl_4 = {
                 add = {
                     value = 40
                     desc = bno_bbc_cum_addiction.qos
                 }
             }
-            bno_mindless_bbc_slut = {
+            bno_whitegirl_5 = {
                 add = {
                     value = 50
                     desc = bno_bbc_cum_addiction.mindless

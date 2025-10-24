@@ -1,10 +1,10 @@
 ﻿bno_seed_of_genesis = {
     compatibility = {
-        bno_curious = 200
-        bno_blacked = 400
-        bno_snowbunny = 600
-        bno_qos = 800
-        bno_mindless_bbc_slut = 1000
+        bno_whitegirl_1 = 200
+        bno_whitegirl_2 = 400
+        bno_whitegirl_3 = 600
+        bno_whitegirl_4 = 800
+        bno_whitegirl_5 = 1000
     }
 
     fertility = 0.3
@@ -206,7 +206,9 @@ bno_genesis_transformation = {
 	    bno_mixed = 50
 	    bno_barely_mixed = 25
 		bno_pure_white = 100
-	    bno_cuck = -25
-	    bno_beta = -25
+	    bno_whiteboi_1 = -25
+	    bno_whiteboi_2 = -50
+	    bno_whiteboi_3 = -75
+	    bno_whiteboi_4 = -100
 	}
 }

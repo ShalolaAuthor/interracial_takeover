@@ -80,9 +80,20 @@ bno_generic_rank_increase = {
 }
 
 bno_generic_rank_decrease = {
-	change_trait_rank = {
-		trait = $TRAIT_GROUP$
-		rank = -1
+	if = {
+		limit = {
+			has_trait_rank = {
+				trait = $TRAIT_GROUP$
+				rank > 1
+			}
+		}
+		change_trait_rank = {
+			trait = $TRAIT_GROUP$
+			rank = -1
+		}
+	}
+	else = {
+		remove_trait = $TRAIT_GROUP$_1
 	}
 }
 
@@ -100,37 +111,29 @@ become_more_slut = {
 }
 
 become_less_slut = {
-	if = {
-		limit = {
-			has_trait_rank = {
-				trait = bno_whitegirl
-				rank > 1
+	bno_generic_rank_decrease = {
+		TRAIT_GROUP = bno_whitegirl
+	}
+	switch = {
+		trigger = has_trait
+		bno_whitegirl_1 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whitegirl_1
 			}
 		}
-		bno_generic_rank_decrease = {
-			TRAIT_GROUP = bno_whitegirl
+		bno_whitegirl_2 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whitegirl_2
+			}
 		}
-		switch = {
-			trigger = has_trait
-			bno_curious = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_curious
-				}
+		bno_whitegirl_3 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whitegirl_3
 			}
-			bno_blacked = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_blacked
-				}
-			}
-			bno_snowbunny = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_snowbunny
-				}
-			}
-			bno_qos = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_qos
-				}
+		}
+		bno_whitegirl_4 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whitegirl_4
 			}
 		}
 	}
@@ -144,30 +147,30 @@ bno_increase_sluttyness = {
 				NOT = { has_trait = bno_full_black }
 			}
 		}
-		add_trait = bno_curious
+		add_trait = bno_whitegirl_1
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_curious
+		TRAIT_NAME = bno_whitegirl_1
 		LEVEL_UP_EFFECT = become_more_slut
 		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_blacked
+		TRAIT_NAME = bno_whitegirl_2
 		LEVEL_UP_EFFECT = become_more_slut
 		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_snowbunny
+		TRAIT_NAME = bno_whitegirl_3
 		LEVEL_UP_EFFECT = become_more_slut
 		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_qos
+		TRAIT_NAME = bno_whitegirl_4
 		LEVEL_UP_EFFECT = become_more_slut
 		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_mindless_bbc_slut
+		TRAIT_NAME = bno_whitegirl_5
 		LEVEL_UP_EFFECT = become_more_slut
 		XP = bno_random_xp_positive
 	}
@@ -179,23 +182,23 @@ bno_decrease_sluttyness = {
 			has_trait = bno_whitegirl
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_mindless_bbc_slut
+			TRAIT_NAME = bno_whitegirl_5
 			LEVEL_DOWN_EFFECT = become_less_slut
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_qos
+			TRAIT_NAME = bno_whitegirl_4
 			LEVEL_DOWN_EFFECT = become_less_slut
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_snowbunny
+			TRAIT_NAME = bno_whitegirl_3
 			LEVEL_DOWN_EFFECT = become_less_slut
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_blacked
+			TRAIT_NAME = bno_whitegirl_2
 			LEVEL_DOWN_EFFECT = become_less_slut
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_curious
+			TRAIT_NAME = bno_whitegirl_1
 			LEVEL_DOWN_EFFECT = become_less_slut
 		}
 	}
@@ -215,32 +218,24 @@ become_more_cuck_effect = {
 }
 
 become_less_cuck_effect = {
-	if = {
-		limit = {
-			has_trait_rank = {
-				trait = bno_whiteboi
-				rank > 1
+	bno_generic_rank_decrease = {
+		TRAIT_GROUP = bno_whiteboi
+	}
+	switch = {
+		trigger = has_trait
+		bno_whiteboi_1 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whiteboi_1
 			}
 		}
-		bno_generic_rank_decrease = {
-			TRAIT_GROUP = bno_whiteboi
+		bno_whiteboi_2 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whiteboi_2
+			}
 		}
-		switch = {
-			trigger = has_trait
-			bno_cuckish = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_cuckish
-				}
-			}
-			bno_cuck = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_cuck
-				}
-			}
-			bno_beta = {
-				bno_add_random_xp_to_leveled_down_trait = {
-					TRAIT = bno_beta
-				}
+		bno_whiteboi_3 = {
+			bno_add_random_xp_to_leveled_down_trait = {
+				TRAIT = bno_whiteboi_3
 			}
 		}
 	}
@@ -254,25 +249,25 @@ bno_increase_cuckiness = {
 				NOT = { has_trait = bno_bbc }
 			}
 		}
-		add_trait = bno_cuckish
+		add_trait = bno_whiteboi_1
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_cuckish
+		TRAIT_NAME = bno_whiteboi_1
 		LEVEL_UP_EFFECT = become_more_cuck_effect
 		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_cuck
+		TRAIT_NAME = bno_whiteboi_2
 		LEVEL_UP_EFFECT = become_more_cuck_effect
 		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_beta
+		TRAIT_NAME = bno_whiteboi_3
 		LEVEL_UP_EFFECT = become_more_cuck_effect
 		XP = bno_random_xp_positive
 	}
 	bno_increase_trait_level = {
-		TRAIT_NAME = bno_jos
+		TRAIT_NAME = bno_whiteboi_4
 		LEVEL_UP_EFFECT = become_more_cuck_effect
 		XP = bno_random_xp_positive
 	}
@@ -284,19 +279,19 @@ bno_decrease_cuckiness = {
 			has_trait = bno_whiteboi
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_jos
+			TRAIT_NAME = bno_whiteboi_4
 			LEVEL_DOWN_EFFECT = become_less_cuck_effect
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_beta
+			TRAIT_NAME = bno_whiteboi_3
 			LEVEL_DOWN_EFFECT = become_less_cuck_effect
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_cuck
+			TRAIT_NAME = bno_whiteboi_2
 			LEVEL_DOWN_EFFECT = become_less_cuck_effect
 		}
 		bno_decrease_trait_level = {
-			TRAIT_NAME = bno_cuckish
+			TRAIT_NAME = bno_whiteboi_1
 			LEVEL_DOWN_EFFECT = become_less_cuck_effect
 		}
 	}

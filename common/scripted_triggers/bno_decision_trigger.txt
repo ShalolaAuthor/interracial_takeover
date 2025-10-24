@@ -18,8 +18,8 @@ is_valid_for_converting_to_african = {
 	is_adult = yes
 	OR = {
 		has_trait = bno_bbc
-		has_trait = bno_mindless_bbc_slut
-		has_trait = bno_jos
+		has_trait = bno_whitegirl_5
+		has_trait = bno_whiteboi_4
 	}
 	NOT = { is_culture_bnoc = yes }
 	OR = {

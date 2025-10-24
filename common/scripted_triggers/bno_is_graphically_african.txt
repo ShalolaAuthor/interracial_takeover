@@ -1,44 +1,54 @@
 ﻿bno_is_graphically_african = {
-	NOT = { has_trait = bno_whitegirl }
+	culture = {
+		bno_is_culture_african = yes
+	}
+}
+
+bno_is_culture_african = {
 	OR = {
-		is_culture_bnoc = yes
-		has_culture = culture:bnoc
-		has_culture = culture:kru
-		has_culture = culture:guan
-		has_culture = culture:akan
-		has_culture = culture:welayta
-		has_culture = culture:ethiopian
-		has_culture = culture:ewe
-		has_culture = culture:igbo
-		has_culture = culture:yoruba
-		has_culture = culture:mossi
-		has_culture = culture:edo
-		has_culture = culture:bozo
-		has_culture = culture:songhai
-		has_culture = culture:gaw
-		has_culture = culture:soninke
-		has_culture = culture:sorko
-		has_culture = culture:east_bantu
-		has_culture = culture:nupe
-		has_culture = culture:sao
-		has_culture = culture:hausa
-		has_culture = culture:kanuri
-		has_culture = culture:bobo
-		has_culture = culture:gur
-		has_culture = culture:malinke
-		has_culture = culture:marka
-		has_culture = culture:mel
-		has_culture = culture:pulaar
-		has_culture = culture:wolof
-		has_culture = culture:serer
-		has_culture = culture:afar
-		has_culture = culture:somali
+		this = culture:bnoc
+		this = culture:kru
+		this = culture:guan
+		this = culture:akan
+		this = culture:welayta
+		this = culture:ethiopian
+		this = culture:ewe
+		this = culture:igbo
+		this = culture:yoruba
+		this = culture:mossi
+		this = culture:edo
+		this = culture:bozo
+		this = culture:songhai
+		this = culture:gaw
+		this = culture:soninke
+		this = culture:sorko
+		this = culture:east_bantu
+		this = culture:nupe
+		this = culture:sao
+		this = culture:hausa
+		this = culture:kanuri
+		this = culture:bobo
+		this = culture:gur
+		this = culture:malinke
+		this = culture:marka
+		this = culture:mel
+		this = culture:pulaar
+		this = culture:wolof
+		this = culture:serer
+		this = culture:afar
+		this = culture:somali
 	}
 }
 
 is_culture_bnoc = {
-	culture = {
-		has_cultural_pillar = heritage_bnoc
+	trigger_if = {
+		limit = { has_game_rule = bno_african_culture_no }
+		bno_is_graphically_african = yes
+	}
+	trigger_else = {
+		culture = {
+			has_cultural_pillar = heritage_bnoc
+		}
 	}
 }
 

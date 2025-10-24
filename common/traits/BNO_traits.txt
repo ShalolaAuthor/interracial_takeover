@@ -3,7 +3,7 @@
 #WHITEBOY TRAITS
 
 # Level 1 — Cuck Tendencies
-bno_cuckish = {
+bno_whiteboi_1 = {
 	group = bno_whiteboi
 	level = 1
 	opposites = {
@@ -32,10 +32,10 @@ bno_cuckish = {
 	}
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	compatibility = {
-	    bno_cuckish = 25
-	    bno_cuck = 50
-	    bno_beta = 75
-	    bno_jos = 50
+	    bno_whiteboi_1 = 25
+	    bno_whiteboi_2 = 50
+	    bno_whiteboi_3 = 75
+	    bno_whiteboi_4 = 50
 	    bno_caged = 75
 	    bno_castrated = 100
 
@@ -43,16 +43,16 @@ bno_cuckish = {
 
 	    bno_bbc = -50
 	    bno_bull = -75
-	    bno_blacked = -25
-	    bno_snowbunny = -50
-	    bno_qos = -75
-	    bno_mindless_bbc_slut = -100
+	    bno_whitegirl_2 = -25
+	    bno_whitegirl_3 = -50
+	    bno_whitegirl_4 = -75
+	    bno_whitegirl_5 = -100
 	}
 
 }
 
 # Level 2 — Cuck
-bno_cuck = {
+bno_whiteboi_2 = {
 	group = bno_whiteboi
 	level = 2
 	opposites = {
@@ -84,10 +84,10 @@ bno_cuck = {
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
 		compatibility = {
-	    bno_cuckish = 25
-	    bno_cuck = 50
-	    bno_beta = 75
-	    bno_jos = 50
+	    bno_whiteboi_1 = 25
+	    bno_whiteboi_2 = 50
+	    bno_whiteboi_3 = 75
+	    bno_whiteboi_4 = 50
 	    bno_caged = 75
 	    bno_castrated = 100
 
@@ -95,15 +95,15 @@ bno_cuck = {
 
 	    bno_bbc = -50
 	    bno_bull = -75
-	    bno_blacked = -25
-	    bno_snowbunny = -50
-	    bno_qos = -75
-	    bno_mindless_bbc_slut = -100
+	    bno_whitegirl_2 = -25
+	    bno_whitegirl_3 = -50
+	    bno_whitegirl_4 = -75
+	    bno_whitegirl_5 = -100
 	}
 }
 
 # Level 3 — Beta
-bno_beta = {
+bno_whiteboi_3 = {
 	group = bno_whiteboi
 	level = 3
 	opposites = {
@@ -139,10 +139,10 @@ bno_beta = {
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
 	compatibility = {
-	    bno_cuckish = 25
-	    bno_cuck = 50
-	    bno_beta = 75
-	    bno_jos = 50
+	    bno_whiteboi_1 = 25
+	    bno_whiteboi_2 = 50
+	    bno_whiteboi_3 = 75
+	    bno_whiteboi_4 = 50
 	    bno_caged = 75
 	    bno_castrated = 100
 
@@ -150,16 +150,16 @@ bno_beta = {
 
 	    bno_bbc = -50
 	    bno_bull = -75
-	    bno_blacked = -25
-	    bno_snowbunny = -50
-	    bno_qos = -75
-	    bno_mindless_bbc_slut = -100
+	    bno_whitegirl_2 = -25
+	    bno_whitegirl_3 = -50
+	    bno_whitegirl_4 = -75
+	    bno_whitegirl_5 = -100
 	}
 
 }
 
 # Level 4 — JoS
-bno_jos = {
+bno_whiteboi_4 = {
 	group = bno_whiteboi
 	level = 4
 	opposites = {
@@ -196,10 +196,10 @@ bno_jos = {
 	flag = carn_no_consequences_for_extramarital_sex_with_others
 	ai_sociability = high_negative_ai_value
 	compatibility = {
-	    bno_cuckish = 25
-	    bno_cuck = 50
-	    bno_beta = 75
-	    bno_jos = 50
+	    bno_whiteboi_1 = 25
+	    bno_whiteboi_2 = 50
+	    bno_whiteboi_3 = 75
+	    bno_whiteboi_4 = 50
 	    bno_caged = 75
 	    bno_castrated = 100
 
@@ -207,10 +207,10 @@ bno_jos = {
 	
 	    bno_bbc = -50
 	    bno_bull = -75
-	    bno_blacked = -25
-	    bno_snowbunny = -50
-	    bno_qos = -75
-	    bno_mindless_bbc_slut = -100
+	    bno_whitegirl_2 = -25
+	    bno_whitegirl_3 = -50
+	    bno_whitegirl_4 = -75
+	    bno_whitegirl_5 = -100
 	}
 }
 
@@ -234,10 +234,10 @@ bno_caged = {
 	
 	fertility = -0.60
 	compatibility = {
-	    bno_cuckish = 25
-	    bno_cuck = 50
-	    bno_beta = 75
-	    bno_jos = 50
+	    bno_whiteboi_1 = 25
+	    bno_whiteboi_2 = 50
+	    bno_whiteboi_3 = 75
+	    bno_whiteboi_4 = 50
 	    bno_caged = 75
 	    bno_castrated = 100
 
@@ -245,10 +245,10 @@ bno_caged = {
 	
 	    bno_bbc = -50
 	    bno_bull = -75
-	    bno_blacked = -25
-	    bno_snowbunny = -50
-	    bno_qos = -75
-	    bno_mindless_bbc_slut = -100
+	    bno_whitegirl_2 = -25
+	    bno_whitegirl_3 = -50
+	    bno_whitegirl_4 = -75
+	    bno_whitegirl_5 = -100
 	}
 }
 
@@ -273,10 +273,10 @@ bno_castrated = {
 	fertility = -1
 	can_have_children = no
 	compatibility = {
-	    bno_cuckish = 25
-	    bno_cuck = 50
-	    bno_beta = 75
-	    bno_jos = 50
+	    bno_whiteboi_1 = 25
+	    bno_whiteboi_2 = 50
+	    bno_whiteboi_3 = 75
+	    bno_whiteboi_4 = 50
 	    bno_caged = 75
 	    bno_castrated = 100
 
@@ -284,10 +284,10 @@ bno_castrated = {
 	
 	    bno_bbc = -50
 	    bno_bull = -75
-	    bno_blacked = -25
-	    bno_snowbunny = -50
-	    bno_qos = -75
-	    bno_mindless_bbc_slut = -100
+	    bno_whitegirl_2 = -25
+	    bno_whitegirl_3 = -50
+	    bno_whitegirl_4 = -75
+	    bno_whitegirl_5 = -100
 	}
 }
 
@@ -385,11 +385,11 @@ bno_bbc = {
 	different_culture_opinion = 10
 
 	compatibility = {
-	    bno_curious = 50
-	    bno_blacked = 100
-	    bno_snowbunny = 200
-	    bno_qos = 400
-	    bno_mindless_bbc_slut = 800
+	    bno_whitegirl_1 = 50
+	    bno_whitegirl_2 = 100
+	    bno_whitegirl_3 = 200
+	    bno_whitegirl_4 = 400
+	    bno_whitegirl_5 = 800
 		
 		bno_pussy_mileage_1 = 200
     	bno_pussy_mileage_2 = 400
@@ -398,10 +398,10 @@ bno_bbc = {
     	bno_pussy_mileage_5 = 1000
     	bno_pussy_mileage_6 = 1500
 
-	    bno_cuckish = -15
-	    bno_cuck = -30
-	    bno_beta = -50
-	    bno_jos = -75
+	    bno_whiteboi_1 = -15
+	    bno_whiteboi_2 = -30
+	    bno_whiteboi_3 = -50
+	    bno_whiteboi_4 = -75
 	    bno_caged = -75
 	    bno_castrated = -100
 
@@ -453,7 +453,7 @@ bno_bbc = {
 
 #WHITEGIRL TRAITS
 
-bno_curious = {
+bno_whitegirl_1 = {
 	category = lifestyle
 
 	#Validation
@@ -473,14 +473,14 @@ bno_curious = {
 	compatibility = {
 	    bno_bbc = 50
 	    bno_bull = 75
-	    bno_blacked = 25
-	    bno_snowbunny = 10
+	    bno_whitegirl_2 = 25
+	    bno_whitegirl_3 = 10
 
 		bno_pure_white = 50
 
-	    bno_cuckish = -10
-	    bno_cuck = -15
-	    bno_beta = -20
+	    bno_whiteboi_1 = -10
+	    bno_whiteboi_2 = -15
+	    bno_whiteboi_3 = -20
 	    bno_castrated = -25
 	}
 
@@ -544,7 +544,7 @@ bno_curious = {
 	ai_sociability = low_positive_ai_value
 }
 
-bno_blacked = {
+bno_whitegirl_2 = {
 	category = lifestyle
 
 	#Validation
@@ -563,15 +563,15 @@ bno_blacked = {
 	compatibility = {
 	    bno_bbc = 100
 	    bno_bull = 150
-	    bno_curious = 25
-	    bno_snowbunny = 50
-	    bno_qos = 75
+	    bno_whitegirl_1 = 25
+	    bno_whitegirl_3 = 50
+	    bno_whitegirl_4 = 75
 
 		bno_pure_white = 100
 
-	    bno_cuckish = -25
-	    bno_cuck = -50
-	    bno_beta = -50
+	    bno_whiteboi_1 = -25
+	    bno_whiteboi_2 = -50
+	    bno_whiteboi_3 = -50
 	}
 	opposites = {
 		bno_bbc
@@ -636,7 +636,7 @@ bno_blacked = {
 	ai_sociability = low_positive_ai_value
 }
 
-bno_snowbunny = {
+bno_whitegirl_3 = {
 	category = lifestyle
 
 	#Validation
@@ -655,15 +655,15 @@ bno_snowbunny = {
 	compatibility = {
 	    bno_bbc = 200
 	    bno_bull = 300
-	    bno_blacked = 50
-	    bno_qos = 100
-	    bno_mindless_bbc_slut = 150
+	    bno_whitegirl_2 = 50
+	    bno_whitegirl_4 = 100
+	    bno_whitegirl_5 = 150
 
 		bno_pure_white = 150
 
-	    bno_cuckish = -50
-	    bno_cuck = -75
-	    bno_beta = -100
+	    bno_whiteboi_1 = -50
+	    bno_whiteboi_2 = -75
+	    bno_whiteboi_3 = -100
 	}
 
 	opposites = {
@@ -739,7 +739,7 @@ bno_snowbunny = {
 	ai_sociability = medium_positive_ai_value
 }
 
-bno_qos = {
+bno_whitegirl_4 = {
 	category = lifestyle
 
 	#Validation
@@ -758,14 +758,14 @@ bno_qos = {
 	compatibility = {
 	    bno_bbc = 400
 	    bno_bull = 600
-	    bno_snowbunny = 100
-	    bno_mindless_bbc_slut = 200
+	    bno_whitegirl_3 = 100
+	    bno_whitegirl_5 = 200
 
 		bno_pure_white = 200
 
-	    bno_cuckish = -75
-	    bno_cuck = -100
-	    bno_beta = -125
+	    bno_whiteboi_1 = -75
+	    bno_whiteboi_2 = -100
+	    bno_whiteboi_3 = -125
 	}
 
 	opposites = {
@@ -839,7 +839,7 @@ bno_qos = {
 	ai_sociability = high_positive_ai_value
 }
 
-bno_mindless_bbc_slut = {
+bno_whitegirl_5 = {
 	category = lifestyle
 
 	#Validation
@@ -858,13 +858,13 @@ bno_mindless_bbc_slut = {
 	compatibility = {
 	    bno_bbc = 800
 	    bno_bull = 1200
-	    bno_qos = 200
+	    bno_whitegirl_4 = 200
 
 		bno_pure_white = 300
 
-	    bno_cuckish = -100
-	    bno_cuck = -150
-	    bno_beta = -200
+	    bno_whiteboi_1 = -100
+	    bno_whiteboi_2 = -150
+	    bno_whiteboi_3 = -200
 	}
 
 	opposites = {
@@ -1532,11 +1532,11 @@ bno_lifestyle_bbc_priestess = {
 
     compatibility = {
         bno_bbc = 20
-        bno_curious = 20
-        bno_blacked = 20
-        bno_snowbunny = 20
-        bno_qos = 20
-        bno_mindless_bbc_slut = 20
+        bno_whitegirl_1 = 20
+        bno_whitegirl_2 = 20
+        bno_whitegirl_3 = 20
+        bno_whitegirl_4 = 20
+        bno_whitegirl_5 = 20
         bno_full_black = 20
         bno_mostly_black = 20
         bno_mixed = 20
@@ -1606,11 +1606,11 @@ bno_lifestyle_bbc_priest = {
 
     compatibility = {
         bno_bbc = 20
-        bno_curious = 20
-        bno_blacked = 20
-        bno_snowbunny = 20
-        bno_qos = 20
-        bno_mindless_bbc_slut = 20
+        bno_whitegirl_1 = 20
+        bno_whitegirl_2 = 20
+        bno_whitegirl_3 = 20
+        bno_whitegirl_4 = 20
+        bno_whitegirl_5 = 20
         bno_full_black = 20
         bno_mostly_black = 20
         bno_mixed = 20
@@ -2042,16 +2042,16 @@ bno_bull = {
 	intrigue = 2
 
 	compatibility = {
-	    bno_curious = 75
-	    bno_blacked = 150
-	    bno_snowbunny = 300
-	    bno_qos = 600
-	    bno_mindless_bbc_slut = 1200
+	    bno_whitegirl_1 = 75
+	    bno_whitegirl_2 = 150
+	    bno_whitegirl_3 = 300
+	    bno_whitegirl_4 = 600
+	    bno_whitegirl_5 = 1200
 
-	    bno_cuckish = -25
-	    bno_cuck = -50
-	    bno_beta = -75
-	    bno_jos = -100
+	    bno_whiteboi_1 = -25
+	    bno_whiteboi_2 = -50
+	    bno_whiteboi_3 = -75
+	    bno_whiteboi_4 = -100
 	    bno_caged = -100
 	    bno_castrated = -150
 

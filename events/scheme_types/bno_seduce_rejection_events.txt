@@ -126,7 +126,7 @@ bno_seduce_rejection.0001 = {
             is_bno_blacked_and_up = yes
         }
         add_internal_flag = special
-        scope:target = {
+        scope:target ?= {
             trigger_event = bno_seduce_rejection.2001
         }
     }
@@ -173,7 +173,7 @@ bno_seduce_rejection.0002 = {
         }
     }
     after = {
-        scope:owner = {
+        scope:owner ?= {
             trigger_event = {
                 delayed = yes
                 days = { 2 7 }
@@ -308,7 +308,7 @@ bno_seduce_rejection.1002 = {
         }
     }
     after = {
-        scope:target = {
+        scope:target ?= {
             trigger_event = bno_seduce_rejection.1001
         }
     }
@@ -512,7 +512,7 @@ bno_seduce_rejection.2002 = {
                 }
             }
         }
-        scope:owner = {
+        scope:owner ?= {
             trigger_event = {
                 delayed = yes
                 days = { 2 7 }
@@ -611,7 +611,7 @@ bno_seduce_rejection.2001 = {
     }
 
     after = {
-        scope:owner = {
+        scope:owner ?= {
             trigger_event = bno_seduce_rejection.2002
         }
     }
@@ -719,7 +719,7 @@ bno_seduce_rejection.3002 = {
     }
     
     after = {
-        scope:target = {
+        scope:target ?= {
             trigger_event = bno_seduce_rejection.0001
         }
     }

@@ -51,14 +51,17 @@
                     var:bull ?= {
                         is_alive = yes
                     }
+                    story_owner = {
+                        is_alive = yes
+                    }
                 }
                 effect = {
                     story_owner = {
-                        save_scope_as = story_owner
+                        save_scope_as = bno_tincture_of_genesis_story_owner
                     }
                     var:bull ?= {
                         bno_have_sex_with_effects = {
-                            PARTNER = scope:story_owner
+                            PARTNER = scope:bno_tincture_of_genesis_story_owner
                         }
                     }
                 }

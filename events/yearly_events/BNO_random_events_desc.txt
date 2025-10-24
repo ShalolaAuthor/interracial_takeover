@@ -440,7 +440,7 @@ bno_random.2002 = {
 	desc = {
 		triggered_desc = {
 			trigger = {
-				has_trait = bno_qos
+				has_trait = bno_whitegirl_4
 			}
 			desc = bno_random_2002.desc1
 		}
@@ -1176,8 +1176,8 @@ bno_random.0007 = {
 		is_a_girl = yes
 		is_elligible_partner = yes
 		OR = {
-			has_trait = bno_curious
-			has_trait = bno_blacked
+			has_trait = bno_whitegirl_1
+			has_trait = bno_whitegirl_2
 		}
 		does_blackbull_exist = yes
 	}
@@ -1190,7 +1190,7 @@ bno_random.0007 = {
 	option = {
 		name = bno_random_0007.a
 		trigger = {
-			has_trait = bno_curious
+			has_trait = bno_whitegirl_1
 		}
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
@@ -1208,7 +1208,7 @@ bno_random.0007 = {
 	option = {
 		name = bno_random_0007.b
 		trigger = {
-			has_trait = bno_blacked
+			has_trait = bno_whitegirl_2
 		}
 		bno_have_sex_with_effects = {
 			PARTNER = scope:target1
@@ -6409,8 +6409,8 @@ bno_random.0042 = {
 		name = bno_random_0042.a
 		stress_impact = {
 			lustful = minor_stress_impact_gain
-			bno_cuck = medium_stress_impact_gain
-			bno_beta = major_stress_impact_gain
+			bno_whiteboi_2 = medium_stress_impact_gain
+			bno_whiteboi_3 = major_stress_impact_gain
 		}
 		imprison_character_effect = {
 			TARGET = scope:target1
@@ -6596,10 +6596,10 @@ bno_random.0043 = {
 	option = {
 		name = bno_random_0043.b
 		stress_impact = {
-			bno_cuckish = minor_stress_impact_gain
-			bno_cuck = minor_stress_impact_gain
-			bno_beta = minor_stress_impact_gain
-			bno_jos = minor_stress_impact_gain
+			bno_whiteboi_1 = minor_stress_impact_gain
+			bno_whiteboi_2 = minor_stress_impact_gain
+			bno_whiteboi_3 = minor_stress_impact_gain
+			bno_whiteboi_4 = minor_stress_impact_gain
 		}
 		imprison_character_effect = {
 			TARGET = scope:target1
@@ -6738,10 +6738,10 @@ bno_random.0044 = {
 		stress_impact = {
 			callous = minor_stress_impact_gain
 			ambitious = minor_stress_impact_gain
-			bno_cuckish = medium_stress_impact_loss
-			bno_cuck = medium_stress_impact_loss
-			bno_beta = medium_stress_impact_loss
-			bno_jos = medium_stress_impact_loss
+			bno_whiteboi_1 = medium_stress_impact_loss
+			bno_whiteboi_2 = medium_stress_impact_loss
+			bno_whiteboi_3 = medium_stress_impact_loss
+			bno_whiteboi_4 = medium_stress_impact_loss
 		}
 		spawn_army = {
 			name = event_troop_default_name
@@ -6764,10 +6764,10 @@ bno_random.0044 = {
 	option = { #no
 		name = bno_random_0044.b
 		stress_impact = {
-			bno_cuckish = minor_stress_impact_gain
-			bno_cuck = minor_stress_impact_gain
-			bno_beta = minor_stress_impact_gain
-			bno_jos = minor_stress_impact_gain
+			bno_whiteboi_1 = minor_stress_impact_gain
+			bno_whiteboi_2 = minor_stress_impact_gain
+			bno_whiteboi_3 = minor_stress_impact_gain
+			bno_whiteboi_4 = minor_stress_impact_gain
 		}
 		scope:target1 ?= {
 			add_opinion = {
@@ -6857,9 +6857,9 @@ bno_random.1044 = {
 	option = {
 		name = bno_random_1044.a
 		stress_impact = {
-			bno_cuck = minor_stress_impact_loss
-			bno_beta = medium_stress_impact_loss
-			bno_jos = major_stress_impact_loss
+			bno_whiteboi_2 = minor_stress_impact_loss
+			bno_whiteboi_3 = medium_stress_impact_loss
+			bno_whiteboi_4 = major_stress_impact_loss
 		}
 		scope:target2 ?= {
 			become_friend_with_target = {
@@ -6955,10 +6955,10 @@ bno_random.0045 = {
 		trigger_event = bno_random.1045
 		stress_impact = {
 			lustful = minor_stress_impact_loss
-			bno_cuckish = medium_stress_impact_loss
-			bno_cuck = medium_stress_impact_loss
-			bno_beta = medium_stress_impact_loss
-			bno_jos = medium_stress_impact_loss
+			bno_whiteboi_1 = medium_stress_impact_loss
+			bno_whiteboi_2 = medium_stress_impact_loss
+			bno_whiteboi_3 = medium_stress_impact_loss
+			bno_whiteboi_4 = medium_stress_impact_loss
 		}
 	}
 	
@@ -6968,10 +6968,10 @@ bno_random.0045 = {
 		bno_decrease_cuckiness = yes
 		bno_decrease_cuckiness = yes
 		stress_impact = {
-			bno_cuckish = minor_stress_impact_gain
-			bno_cuck = minor_stress_impact_gain
-			bno_beta = minor_stress_impact_gain
-			bno_jos = minor_stress_impact_gain
+			bno_whiteboi_1 = minor_stress_impact_gain
+			bno_whiteboi_2 = minor_stress_impact_gain
+			bno_whiteboi_3 = minor_stress_impact_gain
+			bno_whiteboi_4 = minor_stress_impact_gain
 		}
 		scope:target1 ?= {
 			add_opinion = {
@@ -7047,9 +7047,9 @@ bno_random.1045 = {
 	option = {
 		name = bno_random_1045.a
 		stress_impact = {
-			bno_cuck = minor_stress_impact_loss
-			bno_beta = medium_stress_impact_loss
-			bno_jos = major_stress_impact_loss
+			bno_whiteboi_2 = minor_stress_impact_loss
+			bno_whiteboi_3 = medium_stress_impact_loss
+			bno_whiteboi_4 = major_stress_impact_loss
 		}
 		scope:target2 ?= {
 			become_friend_with_target = {
@@ -7261,7 +7261,7 @@ bno_random.1046 = {
 	option = {
 		name = bno_random_1046.a
 		stress_impact = {
-			bno_cuck = major_stress_impact_loss
+			bno_whiteboi_2 = major_stress_impact_loss
 		}
 		add_opinion = {
 			target = scope:target1
@@ -7347,9 +7347,9 @@ bno_random.2046 = {
 	option = {
 		name = bno_random_2046.a
 		stress_impact = {
-			bno_cuck = medium_stress_impact_loss
-			bno_beta = major_stress_impact_loss
-			bno_jos = major_stress_impact_loss
+			bno_whiteboi_2 = medium_stress_impact_loss
+			bno_whiteboi_3 = major_stress_impact_loss
+			bno_whiteboi_4 = major_stress_impact_loss
 		}
 		scope:target2 ?= {
 			add_opinion = {
@@ -7528,9 +7528,9 @@ bno_random.0047 = {
 		stress_impact = {
 			lustful = minor_stress_impact_loss
 			ambitious = major_stress_impact_gain
-			bno_cuck = medium_stress_impact_loss
-			bno_beta = major_stress_impact_loss
-			bno_jos = major_stress_impact_loss
+			bno_whiteboi_2 = medium_stress_impact_loss
+			bno_whiteboi_3 = major_stress_impact_loss
+			bno_whiteboi_4 = major_stress_impact_loss
 		}
 	}
 }

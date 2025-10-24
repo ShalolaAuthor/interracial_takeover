@@ -423,7 +423,7 @@ is_body_modification_ok = {
 is_bno_fucked_mindless = {
 	is_bno_mindless_bbc_slut = yes
 	has_trait_xp = {
-		trait = bno_mindless_bbc_slut
+		trait = bno_whitegirl_5
 		value >= 80
 	}
 }
@@ -691,23 +691,23 @@ is_unmarried_ai_blackbull = {
 }
 
 is_bno_curious = {
-	has_trait = bno_curious
+	has_trait = bno_whitegirl_1
 }
 
 is_bno_blacked = {
-	has_trait = bno_blacked
+	has_trait = bno_whitegirl_2
 }
 
 is_bno_snowbunny = {
-	has_trait = bno_snowbunny
+	has_trait = bno_whitegirl_3
 }
 
 is_bno_qos = {
-	has_trait = bno_qos
+	has_trait = bno_whitegirl_4
 }
 
 is_bno_mindless_bbc_slut = {
-	has_trait = bno_mindless_bbc_slut
+	has_trait = bno_whitegirl_5
 }
 
 is_bno_curious_and_up = {

@@ -60,7 +60,7 @@ bno_embrace_african_2 = {
         men_at_arms_cap = 1
     }
     traits = {
-        bno_curious = 100
+        bno_whitegirl_1 = 100
         bno_bbc = 100
     }
     ai_chance = {

@@ -85,7 +85,7 @@
                         set_culture = liege.culture
                     }
                     else = {
-                        set_culture = culture:bnoc
+                        bno_set_culture_to_african_effect = yes
                     }
                 }
             }
@@ -169,14 +169,7 @@
             }
             effect = {
                 story_owner = {
-                    switch = {
-		            	trigger = has_trait
-		            	bno_curious = { remove_trait = bno_curious }
-		            	bno_blacked = { remove_trait = bno_blacked }
-		            	bno_snowbunny = { remove_trait = bno_snowbunny }
-		            	bno_qos = { remove_trait = bno_qos }
-		            	bno_mindless_bbc_slut = { remove_trait = bno_mindless_bbc_slut }
-		            }
+                    remove_whitegirl_trait_effect = yes
                 }
             }
         }
@@ -989,6 +982,14 @@
 		trigger = {
 			story_owner = {
 				is_adult = yes
+				trigger_if = {
+					limit = { has_game_rule = bno_global_bbc_activities_no }
+					OR = {
+						liege ?= { is_ai = no }
+						top_liege ?= { is_ai = no }
+						is_ai = no
+					}
+				}
 			}
 		}
 		random_valid = {
