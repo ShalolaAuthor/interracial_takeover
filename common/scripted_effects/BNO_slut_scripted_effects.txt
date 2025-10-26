@@ -30,15 +30,7 @@
 }
 
 bno_conversion_effect = {
-	if = {
-		limit = {
-			exists = top_liege
-		}
-		set_character_faith_with_conversion = $FAITH$
-	}
-	else = {
-		set_character_faith = $FAITH$
-	}
+	set_character_faith = $FAITH$
 }
 
 bno_add_prowess_per_sex = {

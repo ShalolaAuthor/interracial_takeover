@@ -15,6 +15,16 @@ bno_is_valid_target_for_tincture_of_genesis = {
 	NOT = { has_character_flag = bno_apply_elixir_interaction.applied.bno_tincture_of_genesis }
 }
 
+bno_is_valid_target_for_elixir_of_the_black_womb = {
+	is_adult = yes
+	NOR = {
+		has_trait = femboi
+		has_trait = bno_femboi
+	}
+	is_whiteboi = yes
+	NOT = { has_character_flag = bno_apply_elixir_interaction.applied.bno_elixir_of_the_black_womb }
+}
+
 bno_is_valid_target_for_cum_addiction_scheme = {
 	bno_is_a_white_girl = yes
 	NOT = { has_trait = bno_cum_addiction_4 }
@@ -86,6 +96,12 @@ has_chastity_cage_artifact = {
 has_tincture_of_genesis_artifact = {
 	any_character_artifact = {
 		has_variable = bno_tincture_of_genesis
+	}
+}
+
+has_elixir_of_the_black_womb_artifact = {
+	any_character_artifact = {
+		has_variable = bno_elixir_of_the_black_womb
 	}
 }
 

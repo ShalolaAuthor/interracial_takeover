@@ -377,6 +377,11 @@
 			        			bno_is_valid_target_for_tincture_of_genesis = yes
 			        		}
 			        	}
+						liege ?= {
+							any_courtier = {
+								bno_is_valid_target_for_tincture_of_genesis = yes
+							}
+						}
 			        	any_spouse = {
 			        		bno_is_valid_target_for_tincture_of_genesis = yes
 			        	}
@@ -405,6 +410,12 @@
 		            		}
 		            		add_to_list = bno_tincture_of_genesis_target
 		            	}
+						every_courtier = {
+							limit = {
+		            			bno_is_valid_target_for_tincture_of_genesis = yes
+		            		}
+							add_to_list  = bno_tincture_of_genesis_target
+						}
 		            }
 		            every_spouse = {
 		            	limit = {
@@ -463,6 +474,103 @@
                 }
             }
         }
+		#use elixir of the black womb artifact
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					has_elixir_of_the_black_womb_artifact = yes
+					OR = {
+						bno_is_valid_target_for_elixir_of_the_black_womb = yes
+						any_courtier = {
+							bno_is_valid_target_for_elixir_of_the_black_womb = yes
+						}
+						liege ?= {
+							any_vassal_or_below = {
+								bno_is_valid_target_for_elixir_of_the_black_womb = yes
+							}
+						}
+						liege ?= {
+							any_courtier = {
+								bno_is_valid_target_for_elixir_of_the_black_womb = yes
+							}
+						}
+						any_spouse = {
+							bno_is_valid_target_for_elixir_of_the_black_womb = yes
+						}
+					}
+				}
+			}
+			effect = {
+				story_owner = {
+					save_scope_as = actor
+					if = {
+		            	limit = {
+		            		bno_is_valid_target_for_elixir_of_the_black_womb = yes
+		            	}
+		            	add_to_list = bno_elixir_of_the_black_womb_target
+		            }
+		            every_courtier = {
+		            	limit = {
+		            		bno_is_valid_target_for_elixir_of_the_black_womb = yes
+		            	}
+		            	add_to_list  = bno_elixir_of_the_black_womb_target
+		            }
+		            liege ?= {
+		            	every_vassal_or_below = {
+		            		limit = {
+		            			bno_is_valid_target_for_elixir_of_the_black_womb = yes
+		            		}
+		            		add_to_list = bno_elixir_of_the_black_womb_target
+		            	}
+						every_courtier = {
+							limit = {
+		            			bno_is_valid_target_for_elixir_of_the_black_womb = yes
+		            		}
+							add_to_list  = bno_elixir_of_the_black_womb_target
+						}
+		            }
+		            every_spouse = {
+		            	limit = {
+		            		bno_is_valid_target_for_elixir_of_the_black_womb = yes
+		            	}
+		            	add_to_list = bno_elixir_of_the_black_womb_target
+		            }
+					if = {
+		            	limit = {
+		            		list_size = {
+		            			name = bno_elixir_of_the_black_womb_target
+		            			value > 0
+		            		}
+		            	}
+		            	random_in_list = {
+		            		list = bno_elixir_of_the_black_womb_target
+		            		limit = {
+		            			this = scope:actor
+		            		}
+		            		save_scope_as = recipient
+		            	}
+		            	if = {
+		            		limit = {
+		            			NOT = { exists = scope:recipient }
+		            		}
+		            		random_in_list = {
+		            			list = bno_elixir_of_the_black_womb_target
+		            			save_scope_as = recipient
+		            		}
+		            	}
+		            	if = {
+		            		limit = { exists = scope:recipient }
+		            		scope:actor = {
+		            			trigger_event = bno_apply_elixir.0002
+		            		}
+		            		scope:recipient = {
+		            			add_character_flag = bno_apply_elixir_interaction.applied.bno_elixir_of_the_black_womb
+		            		}
+		            	}
+		            }
+				}
+			}
+		}
         #cum addiction scheme
         triggered_effect = {
             trigger = {
