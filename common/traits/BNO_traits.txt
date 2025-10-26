@@ -456,9 +456,6 @@ bno_bbc = {
 bno_whitegirl_1 = {
 	category = lifestyle
 
-	#Validation
-	valid_sex = female
-
 	#Special Flags
 	physical = yes
 	child_inheritance_sex = female
@@ -546,9 +543,6 @@ bno_whitegirl_1 = {
 
 bno_whitegirl_2 = {
 	category = lifestyle
-
-	#Validation
-	valid_sex = female
 
 	#Special Flags
 	physical = yes
@@ -638,9 +632,6 @@ bno_whitegirl_2 = {
 
 bno_whitegirl_3 = {
 	category = lifestyle
-
-	#Validation
-	valid_sex = female
 
 	#Special Flags
 	physical = yes
@@ -742,9 +733,6 @@ bno_whitegirl_3 = {
 bno_whitegirl_4 = {
 	category = lifestyle
 
-	#Validation
-	valid_sex = female
-
 	#Special Flags
 	physical = yes
 	shown_in_ruler_designer = no
@@ -841,9 +829,6 @@ bno_whitegirl_4 = {
 
 bno_whitegirl_5 = {
 	category = lifestyle
-
-	#Validation
-	valid_sex = female
 
 	#Special Flags
 	physical = yes

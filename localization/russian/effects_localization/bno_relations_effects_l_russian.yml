@@ -1,13 +1,13 @@
 ﻿l_russian:
 
-i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] становится твоим [bno_slave|E]" # AI Tags
-they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] становится [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] становится твоей [bno_slave|E]"
+they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] становится [CHARACTER.GetShortUINamePossessive] [bno_slave|E]"
 
-i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] стал твоим [bno_slave|E]" # AI Tags
-they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] превратился в [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] стала твоей [bno_slave|E]"
+they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] стала [CHARACTER.GetShortUINamePossessive] [bno_slave|E]"
 
-i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] становится твоим [bno_cum_slave|E], связанный семенами и лояльностью только к тебе." # AI Tags
-they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] становится [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], порабощенный кумом и преданностью." # AI Tags
+i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] становится твоей [bno_cum_slave|E], привязанной семенем и преданностью только к тебе."
+they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] становится [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], порабощённой спермой и верностью."
 
-i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] стал твоим [bno_cum_slave|E], ее губы и утроба запечатаны для твоего потомства навсегда." # AI Tags
-they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] превратился в [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], принадлежащий его члену и привязанный к его кумиру." # AI Tags
+i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] стала твоей [bno_cum_slave|E] — губы и утроба запечатаны твоим семенем навсегда."
+they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] стала [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], принадлежащей его хую и прикованной к его сперме."

@@ -27,6 +27,7 @@ is_a_male = {
 			is_male = yes
 			is_a_futa = yes
 		}
+		is_femboi = no
 	}
 }
 

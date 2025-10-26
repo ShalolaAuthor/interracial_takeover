@@ -672,482 +672,416 @@ bno_apply_elixir.2001 = {
     }
 }
 # elixir of the black womb
-#bno_apply_elixir.0002 = {
-#    type = character_event
-#    theme = seduction
-#    override_background = {
-#        reference = bedchamber
-#    }
-#    title = {
-#        first_valid = {
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_slut = yes }
-#                    scope:recipient = { is_bbc = yes }
-#                }
-#                desc = bno_apply_elixir.0002.title.slut.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_slut = yes }
-#                    scope:recipient = { is_bbc = no }
-#                }
-#                desc = bno_apply_elixir.0002.title.slut.whiteboi
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = scope:recipient
-#                    scope:actor = { is_bbc = yes }
-#                }
-#                desc = bno_apply_elixir.0002.title.self.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = scope:recipient
-#                    scope:actor = { is_bbc = no }
-#                }
-#                desc = bno_apply_elixir.0002.title.self.whiteboi
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_bbc = yes }
-#                    scope:recipient = { is_bbc = yes }
-#                }
-#                desc = bno_apply_elixir.0002.title.bbc.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_bbc = yes }
-#                    scope:recipient = { is_bbc = no }
-#                }
-#                desc = bno_apply_elixir.0002.title.bbc.whiteboi
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = {
-#                        is_whiteboi = yes
-#                    }
-#                    scope:recipient = {
-#                        is_bbc = yes
-#                        NOT = { this = scope:actor }
-#                    }
-#                }
-#                desc = bno_apply_elixir.0002.title.whiteboi.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = {
-#                        is_whiteboi = yes
-#                    }
-#                    scope:recipient = {
-#                        is_whiteboi = yes
-#                        NOT = { this = scope:actor }
-#                    }
-#                }
-#                desc = bno_apply_elixir.0002.title.whiteboi.whiteboi
-#            }
-#        }
-#    }
-#    desc = {
-#        first_valid = {
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_slut = yes }
-#                    scope:recipient = { is_bbc = yes }
-#                }
-#                desc = bno_apply_elixir.0002.desc.slut.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_slut = yes }
-#                    scope:recipient = { is_bbc = no }
-#                }
-#                desc = bno_apply_elixir.0002.desc.slut.whiteboi
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = scope:recipient
-#                    scope:actor = { is_bbc = yes }
-#                }
-#                desc = bno_apply_elixir.0002.desc.self.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = scope:recipient
-#                    scope:actor = { is_bbc = no }
-#                }
-#                desc = bno_apply_elixir.0002.desc.self.whiteboi
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_bbc = yes }
-#                    scope:recipient = { is_bbc = yes }
-#                }
-#                desc = bno_apply_elixir.0002.desc.bbc.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_bbc = yes }
-#                    scope:recipient = { is_bbc = no }
-#                }
-#                desc = bno_apply_elixir.0002.desc.bbc.whiteboi
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = {
-#                        is_whiteboi = yes
-#                    }
-#                    scope:recipient = {
-#                        is_bbc = yes
-#                        NOT = { this = scope:actor }
-#                    }
-#                }
-#                desc = bno_apply_elixir.0002.desc.whiteboi.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = {
-#                        is_whiteboi = yes
-#                    }
-#                    scope:recipient = {
-#                        is_whiteboi = yes
-#                        NOT = { this = scope:actor }
-#                    }
-#                }
-#                desc = bno_apply_elixir.0002.desc.whiteboi.whiteboi
-#            }
-#        }
-#    }
-#    left_portrait = {
-#        character = scope:recipient
-#        trigger = {
-#            NOT = { scope:actor = scope:recipient }
-#        }
-#        animation = drink_goblet
-#    }
-#    right_portrait = {
-#        character = scope:actor
-#        triggered_animation = {
-#            trigger = { scope:actor = scope:recipient }
-#            animation = drink_goblet
-#        }
-#        triggered_animation = {
-#            trigger = { always = yes }
-#            animation = personality_content
-#        }
-#    }
-#    immediate = {
-#    }
-#    option = { # apply
-#        name = {
-#            text = {
-#                first_valid = {
-#                    triggered_desc = {
-#                        trigger = {
-#                            scope:actor = { is_slut = yes }
-#                            scope:recipient = { is_bbc = no }
-#                        }
-#                        desc = bno_apply_elixir.0002.a.slut.whiteboi
-#                    }
-#                    triggered_desc = {
-#                        trigger = {
-#                            scope:actor = scope:recipient
-#                            scope:actor = { is_bbc = no }
-#                        }
-#                        desc = bno_apply_elixir.0002.a.self.whiteboi
-#                    }
-#                    triggered_desc = {
-#                        trigger = {
-#                            scope:actor = { is_bbc = yes }
-#                            scope:recipient = { is_bbc = no }
-#                        }
-#                        desc = bno_apply_elixir.0002.a.bbc.whiteboi
-#                    }
-#                    triggered_desc = {
-#                        trigger = {
-#                            scope:actor = {
-#                                is_whiteboi = yes
-#                            }
-#                            scope:recipient = {
-#                                is_whiteboi = yes
-#                                NOT = { this = scope:actor }
-#                            }
-#                        }
-#                        desc = bno_apply_elixir.0002.a.whiteboi.whiteboi
-#                    }
-#                }
-#            }
-#        }
-#        scope:actor = {
-#            bno_use_tincture_of_genesis = yes
-#        }
-#        scope:recipient = {
-#            add_trait = bno_seed_of_genesis
-#        }
-#        ai_chance = {
-#            base = 100
-#        }
-#    }
-#    option = { # backout
-#        name = {
-#            text = {
-#                first_valid = {
-#                    triggered_desc = {
-#                        trigger = {
-#                            scope:actor = { is_slut = yes }
-#                            scope:recipient = { is_bbc = no }
-#                        }
-#                        desc = bno_apply_elixir.0002.b.slut.whiteboi
-#                    }
-#                    triggered_desc = {
-#                        trigger = {
-#                            scope:actor = scope:recipient
-#                            scope:actor = { is_bbc = no }
-#                        }
-#                        desc = bno_apply_elixir.0002.b.self.whiteboi
-#                    }
-#                    triggered_desc = {
-#                        trigger = {
-#                            scope:actor = { is_bbc = yes }
-#                            scope:recipient = { is_bbc = no }
-#                        }
-#                        desc = bno_apply_elixir.0002.b.bbc.whiteboi
-#                    }
-#                    triggered_desc = {
-#                        trigger = {
-#                            scope:actor = {
-#                                is_whiteboi = yes
-#                            }
-#                            scope:recipient = {
-#                                is_whiteboi = yes
-#                                NOT = { this = scope:actor }
-#                            }
-#                        }
-#                        desc = bno_apply_elixir.0002.b.whiteboi.whiteboi
-#                    }
-#                }
-#            }
-#        }
-#        scope:actor = {
-#            add_prestige = -50
-#        }
-#    }
-#}
-##recipient pov
-#bno_apply_elixir.1002 = {
-#    type = character_event
-#    theme = seduction
-#    override_background = {
-#        reference = bedchamber
-#    }
-#    title = {
-#        first_valid = {
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_slut = yes }
-#                    scope:recipient = { is_bbc = yes }
-#                }
-#                desc = bno_apply_elixir.1002.title.slut.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_slut = yes }
-#                    scope:recipient = { is_bbc = no }
-#                }
-#                desc = bno_apply_elixir.1002.title.slut.whiteboi
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = scope:recipient
-#                    scope:actor = { is_bbc = yes }
-#                }
-#                desc = bno_apply_elixir.1002.title.self.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = scope:recipient
-#                    scope:actor = { is_bbc = no }
-#                }
-#                desc = bno_apply_elixir.1002.title.self.whiteboi
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_bbc = yes }
-#                    scope:recipient = { is_bbc = yes }
-#                }
-#                desc = bno_apply_elixir.1002.title.bbc.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_bbc = yes }
-#                    scope:recipient = { is_bbc = no }
-#                }
-#                desc = bno_apply_elixir.1002.title.bbc.whiteboi
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = {
-#                        is_whiteboi = yes
-#                    }
-#                    scope:recipient = {
-#                        is_bbc = yes
-#                        NOT = { this = scope:actor }
-#                    }
-#                }
-#                desc = bno_apply_elixir.1002.title.whiteboi.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = {
-#                        is_whiteboi = yes
-#                    }
-#                    scope:recipient = {
-#                        is_whiteboi = yes
-#                        NOT = { this = scope:actor }
-#                    }
-#                }
-#                desc = bno_apply_elixir.1002.title.whiteboi.whiteboi
-#            }
-#        }
-#    }
-#    desc = {
-#        first_valid = {
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_slut = yes }
-#                    scope:recipient = { is_bbc = yes }
-#                }
-#                desc = bno_apply_elixir.1002.desc.slut.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_slut = yes }
-#                    scope:recipient = { is_bbc = no }
-#                }
-#                desc = bno_apply_elixir.1002.desc.slut.whiteboi
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = scope:recipient
-#                    scope:actor = { is_bbc = yes }
-#                }
-#                desc = bno_apply_elixir.1002.desc.self.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = scope:recipient
-#                    scope:actor = { is_bbc = no }
-#                }
-#                desc = bno_apply_elixir.1002.desc.self.whiteboi
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_bbc = yes }
-#                    scope:recipient = { is_bbc = yes }
-#                }
-#                desc = bno_apply_elixir.1002.desc.bbc.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = { is_bbc = yes }
-#                    scope:recipient = { is_bbc = no }
-#                }
-#                desc = bno_apply_elixir.1002.desc.bbc.whiteboi
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = {
-#                        is_whiteboi = yes
-#                    }
-#                    scope:recipient = {
-#                        is_bbc = yes
-#                        NOT = { this = scope:actor }
-#                    }
-#                }
-#                desc = bno_apply_elixir.1002.desc.whiteboi.bbc
-#            }
-#            triggered_desc = {
-#                trigger = {
-#                    scope:actor = {
-#                        is_whiteboi = yes
-#                    }
-#                    scope:recipient = {
-#                        is_whiteboi = yes
-#                        NOT = { this = scope:actor }
-#                    }
-#                }
-#                desc = bno_apply_elixir.1002.desc.whiteboi.whiteboi
-#            }
-#        }
-#    }
-#    left_portrait = {
-#        character = scope:recipient
-#        trigger = {
-#            NOT = { scope:actor = scope:recipient }
-#        }
-#        animation = drink_goblet
-#    }
-#    right_portrait = {
-#        character = scope:actor
-#        triggered_animation = {
-#            trigger = { scope:actor = scope:recipient }
-#            animation = drink_goblet
-#        }
-#        triggered_animation = {
-#            trigger = { always = yes }
-#            animation = personality_content
-#        }
-#    }
-#    immediate = {
-#    }
-#    option = { # apply
-#        name = {
-#            text = {
-#                first_valid = {
-#                    triggered_desc = {
-#                        trigger = {
-#                            scope:actor = { is_slut = yes }
-#                            scope:recipient = { is_bbc = no }
-#                        }
-#                        desc = bno_apply_elixir.1002.a.slut.whiteboi
-#                    }
-#                    triggered_desc = {
-#                        trigger = {
-#                            scope:actor = scope:recipient
-#                            scope:actor = { is_bbc = no }
-#                        }
-#                        desc = bno_apply_elixir.1002.a.self.whiteboi
-#                    }
-#                    triggered_desc = {
-#                        trigger = {
-#                            scope:actor = { is_bbc = yes }
-#                            scope:recipient = { is_bbc = no }
-#                        }
-#                        desc = bno_apply_elixir.1002.a.bbc.whiteboi
-#                    }
-#                    triggered_desc = {
-#                        trigger = {
-#                            scope:actor = {
-#                                is_whiteboi = yes
-#                            }
-#                            scope:recipient = {
-#                                is_whiteboi = yes
-#                                NOT = { this = scope:actor }
-#                            }
-#                        }
-#                        desc = bno_apply_elixir.1002.a.whiteboi.whiteboi
-#                    }
-#                }
-#            }
-#        }
-#        scope:actor = {
-#            bno_use_tincture_of_genesis = yes
-#        }
-#        scope:recipient = {
-#            add_trait = bno_seed_of_genesis
-#        }
-#        ai_chance = {
-#            base = 100
-#        }
-#    }
-#}
+bno_apply_elixir.0002 = {
+    type = character_event
+    theme = seduction
+    override_background = {
+        reference = bedchamber
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:actor = { is_slut = yes }
+                    scope:recipient = { is_bbc = no }
+                }
+                desc = bno_apply_elixir.0002.title.slut.whiteboi
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = scope:recipient
+                    scope:actor = { is_bbc = no }
+                }
+                desc = bno_apply_elixir.0002.title.self.whiteboi
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = { is_bbc = yes }
+                    scope:recipient = { is_bbc = no }
+                }
+                desc = bno_apply_elixir.0002.title.bbc.whiteboi
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = {
+                        is_whiteboi = yes
+                    }
+                    scope:recipient = {
+                        is_whiteboi = yes
+                        NOT = { this = scope:actor }
+                    }
+                }
+                desc = bno_apply_elixir.0002.title.whiteboi.whiteboi
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:actor = { is_slut = yes }
+                    scope:recipient = { is_bbc = no }
+                }
+                desc = bno_apply_elixir.0002.desc.slut.whiteboi
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = scope:recipient
+                    scope:actor = { is_bbc = no }
+                }
+                desc = bno_apply_elixir.0002.desc.self.whiteboi
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = { is_bbc = yes }
+                    scope:recipient = { is_bbc = no }
+                }
+                desc = bno_apply_elixir.0002.desc.bbc.whiteboi
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = {
+                        is_whiteboi = yes
+                    }
+                    scope:recipient = {
+                        is_whiteboi = yes
+                        NOT = { this = scope:actor }
+                    }
+                }
+                desc = bno_apply_elixir.0002.desc.whiteboi.whiteboi
+            }
+        }
+    }
+    left_portrait = {
+        character = scope:recipient
+        trigger = {
+            NOT = { scope:actor = scope:recipient }
+        }
+        animation = drink_goblet
+    }
+    right_portrait = {
+        character = scope:actor
+        triggered_animation = {
+            trigger = { scope:actor = scope:recipient }
+            animation = drink_goblet
+        }
+        triggered_animation = {
+            trigger = { always = yes }
+            animation = personality_content
+        }
+    }
+    immediate = {
+    }
+    option = { # apply
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = {
+                            scope:actor = { is_slut = yes }
+                            scope:recipient = { is_bbc = no }
+                        }
+                        desc = bno_apply_elixir.0002.a.slut.whiteboi
+                    }
+                    triggered_desc = {
+                        trigger = {
+                            scope:actor = scope:recipient
+                            scope:actor = { is_bbc = no }
+                        }
+                        desc = bno_apply_elixir.0002.a.self.whiteboi
+                    }
+                    triggered_desc = {
+                        trigger = {
+                            scope:actor = { is_bbc = yes }
+                            scope:recipient = { is_bbc = no }
+                        }
+                        desc = bno_apply_elixir.0002.a.bbc.whiteboi
+                    }
+                    triggered_desc = {
+                        trigger = {
+                            scope:actor = {
+                                is_whiteboi = yes
+                            }
+                            scope:recipient = {
+                                is_whiteboi = yes
+                                NOT = { this = scope:actor }
+                            }
+                        }
+                        desc = bno_apply_elixir.0002.a.whiteboi.whiteboi
+                    }
+                }
+            }
+        }
+        scope:actor = {
+            bno_use_tincture_of_genesis = yes
+        }
+        scope:recipient = {
+            add_trait = bno_seed_of_genesis
+        }
+        ai_chance = {
+            base = 100
+        }
+    }
+    option = { # backout
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = {
+                            scope:actor = { is_slut = yes }
+                            scope:recipient = { is_bbc = no }
+                        }
+                        desc = bno_apply_elixir.0002.b.slut.whiteboi
+                    }
+                    triggered_desc = {
+                        trigger = {
+                            scope:actor = scope:recipient
+                            scope:actor = { is_bbc = no }
+                        }
+                        desc = bno_apply_elixir.0002.b.self.whiteboi
+                    }
+                    triggered_desc = {
+                        trigger = {
+                            scope:actor = { is_bbc = yes }
+                            scope:recipient = { is_bbc = no }
+                        }
+                        desc = bno_apply_elixir.0002.b.bbc.whiteboi
+                    }
+                    triggered_desc = {
+                        trigger = {
+                            scope:actor = {
+                                is_whiteboi = yes
+                            }
+                            scope:recipient = {
+                                is_whiteboi = yes
+                                NOT = { this = scope:actor }
+                            }
+                        }
+                        desc = bno_apply_elixir.0002.b.whiteboi.whiteboi
+                    }
+                }
+            }
+        }
+        scope:actor = {
+            add_prestige = -50
+        }
+    }
+}
+#recipient pov
+bno_apply_elixir.1002 = {
+    type = character_event
+    theme = seduction
+    override_background = {
+        reference = bedchamber
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:actor = { is_slut = yes }
+                    scope:recipient = { is_bbc = yes }
+                }
+                desc = bno_apply_elixir.1002.title.slut.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = { is_slut = yes }
+                    scope:recipient = { is_bbc = no }
+                }
+                desc = bno_apply_elixir.1002.title.slut.whiteboi
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = scope:recipient
+                    scope:actor = { is_bbc = yes }
+                }
+                desc = bno_apply_elixir.1002.title.self.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = scope:recipient
+                    scope:actor = { is_bbc = no }
+                }
+                desc = bno_apply_elixir.1002.title.self.whiteboi
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = { is_bbc = yes }
+                    scope:recipient = { is_bbc = yes }
+                }
+                desc = bno_apply_elixir.1002.title.bbc.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = { is_bbc = yes }
+                    scope:recipient = { is_bbc = no }
+                }
+                desc = bno_apply_elixir.1002.title.bbc.whiteboi
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = {
+                        is_whiteboi = yes
+                    }
+                    scope:recipient = {
+                        is_bbc = yes
+                        NOT = { this = scope:actor }
+                    }
+                }
+                desc = bno_apply_elixir.1002.title.whiteboi.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = {
+                        is_whiteboi = yes
+                    }
+                    scope:recipient = {
+                        is_whiteboi = yes
+                        NOT = { this = scope:actor }
+                    }
+                }
+                desc = bno_apply_elixir.1002.title.whiteboi.whiteboi
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:actor = { is_slut = yes }
+                    scope:recipient = { is_bbc = yes }
+                }
+                desc = bno_apply_elixir.1002.desc.slut.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = { is_slut = yes }
+                    scope:recipient = { is_bbc = no }
+                }
+                desc = bno_apply_elixir.1002.desc.slut.whiteboi
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = scope:recipient
+                    scope:actor = { is_bbc = yes }
+                }
+                desc = bno_apply_elixir.1002.desc.self.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = scope:recipient
+                    scope:actor = { is_bbc = no }
+                }
+                desc = bno_apply_elixir.1002.desc.self.whiteboi
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = { is_bbc = yes }
+                    scope:recipient = { is_bbc = yes }
+                }
+                desc = bno_apply_elixir.1002.desc.bbc.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = { is_bbc = yes }
+                    scope:recipient = { is_bbc = no }
+                }
+                desc = bno_apply_elixir.1002.desc.bbc.whiteboi
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = {
+                        is_whiteboi = yes
+                    }
+                    scope:recipient = {
+                        is_bbc = yes
+                        NOT = { this = scope:actor }
+                    }
+                }
+                desc = bno_apply_elixir.1002.desc.whiteboi.bbc
+            }
+            triggered_desc = {
+                trigger = {
+                    scope:actor = {
+                        is_whiteboi = yes
+                    }
+                    scope:recipient = {
+                        is_whiteboi = yes
+                        NOT = { this = scope:actor }
+                    }
+                }
+                desc = bno_apply_elixir.1002.desc.whiteboi.whiteboi
+            }
+        }
+    }
+    left_portrait = {
+        character = scope:recipient
+        trigger = {
+            NOT = { scope:actor = scope:recipient }
+        }
+        animation = drink_goblet
+    }
+    right_portrait = {
+        character = scope:actor
+        triggered_animation = {
+            trigger = { scope:actor = scope:recipient }
+            animation = drink_goblet
+        }
+        triggered_animation = {
+            trigger = { always = yes }
+            animation = personality_content
+        }
+    }
+    immediate = {
+    }
+    option = { # apply
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = {
+                            scope:actor = { is_slut = yes }
+                            scope:recipient = { is_bbc = no }
+                        }
+                        desc = bno_apply_elixir.1002.a.slut.whiteboi
+                    }
+                    triggered_desc = {
+                        trigger = {
+                            scope:actor = scope:recipient
+                            scope:actor = { is_bbc = no }
+                        }
+                        desc = bno_apply_elixir.1002.a.self.whiteboi
+                    }
+                    triggered_desc = {
+                        trigger = {
+                            scope:actor = { is_bbc = yes }
+                            scope:recipient = { is_bbc = no }
+                        }
+                        desc = bno_apply_elixir.1002.a.bbc.whiteboi
+                    }
+                    triggered_desc = {
+                        trigger = {
+                            scope:actor = {
+                                is_whiteboi = yes
+                            }
+                            scope:recipient = {
+                                is_whiteboi = yes
+                                NOT = { this = scope:actor }
+                            }
+                        }
+                        desc = bno_apply_elixir.1002.a.whiteboi.whiteboi
+                    }
+                }
+            }
+        }
+        scope:actor = {
+            bno_use_tincture_of_genesis = yes
+        }
+        scope:recipient = {
+            add_trait = bno_seed_of_genesis
+        }
+        ai_chance = {
+            base = 100
+        }
+    }
+}

@@ -1,94 +1,92 @@
 ﻿l_russian:
 
 # Religious Descriptors
-bnonr: "Церковь Черного Кока" # AI Tags
-bnonr_adj: "Черный Supremacist" # AI Tags
-bnonr_religion: "Церковь Черного Кока" # AI Tags
-bnonr_religion_adj: "Черный Supremacist" # AI Tags
-bnonr_religion_adherent: "Черный Supremacist" # AI Tags
-bnonr_religion_adherent_plural: "Чернокожие Supremacists" # AI Tags
-bnonr_religion_desc: "Супермасисты считают, что каждый должен поклониться превосходящей расе." # AI Tags
-bbcs_god_name: "Н'даба" # AI Tags
-bbcs_god_name_2: "Азани" # AI Tags
-bbcs_god_name_3: "Оше" # AI Tags
-bbcs_god_name_possessive: "$bbcs_god_name$Это" # AI Tags
-bbcs_high_god_name_alternate: "Боже мой" # AI Tags
-bbcs_high_god_name_alternate_possessive: "$bbcs_high_god_name_alternate$Это" # AI Tags
-bbcs_devil_name: "Асанти" # AI Tags
-bbcs_devil_name_possessive: "$bbcs_devil_name$Это" # AI Tags
-bbcs_evil_god_name_1: "Квеку" # AI Tags
-bbcs_evil_god_name_2: "Мферо" # AI Tags
-bbcs_evil_god_name_3: "Ниами Ниами" # AI Tags
-bbcs_house_of_worship_1: "Дом экстази" # AI Tags
-bbcs_house_of_worship_2: "Храм черного цвета" # AI Tags
-bbcs_house_of_worship_3: "Эбонный алтарь" # AI Tags
-bbcs_house_of_worship_plural: "Дома экстази" # AI Tags
-bbcs_religious_symbol_1: "Три сестры" # AI Tags
-bbcs_religious_symbol_2: "Обсидианная палка" # AI Tags
-bbcs_religious_symbol_3: "Цветение черной розы" # AI Tags
-bbcs_religious_text_1: "Эбонские Писания" # AI Tags
-bbcs_religious_text_2: "Нектар желания" # AI Tags
-bbcs_religious_text_3: "Афродизия - священный цикл" # AI Tags
-bbcs_religious_head_title: "Великий тканин экстаза" # AI Tags
-bbcs_male_devotee: "Голубь" # AI Tags
-bbcs_male_devotee_plural: "$bbcs_male_devotee$с" # AI Tags
-bbcs_female_devotee: "Нимфа" # AI Tags
-bbcs_female_devotee_plural: "$bbcs_female_devotee$с" # AI Tags
-bbcs_neutered_devotee: "Молоко" # AI Tags
-bbcs_neutered_devotee_plural: "$bbcs_neutered_devotee$с" # AI Tags
-bbcs_male_priest: "Высокий жребий" # AI Tags
-bbcs_male_priest_plural: "$bbcs_male_priest$с" # AI Tags
-bbcs_female_priest: "Нимфа-священница" # AI Tags
-bbcs_female_priest_plural: "$bbcs_female_priest$в) в" # AI Tags
-bbcs_neutered_priest: "Семяносец" # AI Tags
-bbcs_neutered_priest_plural: "$bbcs_neutered_priest$с" # AI Tags
-bbcs_alt_priest: "Хранитель лунных семян" # AI Tags
-bbcs_alt_priest_plural: "$bbcs_alt_priest$с" # AI Tags
-bbcs_male_bishop: "Черный иерофант" # AI Tags
-bbcs_male_bishop_plural: "$bbcs_male_bishop$с" # AI Tags
-bbcs_female_bishop: "Полюбительница Черного Аколита" # AI Tags
-bbcs_female_bishop_plural: "$bbcs_female_bishop$в) в" # AI Tags
-bbcs_neutered_bishop: "Яvory Seedbearer" # AI Tags
-bbcs_neutered_bishop_plural: "$bbcs_neutered_bishop$с" # AI Tags
-bbcs_positive_afterlife_1: "Эбонский сад" # AI Tags
-bbcs_positive_afterlife_2: "Вечный союз" # AI Tags
-bbcs_positive_afterlife_3: "Бесконечный сад удовольствий" # AI Tags
-bbcs_negative_afterlife_1: "Высушенный сад с трнями" # AI Tags
-bbcs_negative_afterlife_2: "Лабиринт вечной страсти" # AI Tags
-bbcs_negative_afterlife_3: "Царство вечного рабства" # AI Tags
-bbcs_death_deity_name: "Емоджа" # AI Tags
-bbcs_death_deity_name_possessive: "$bbcs_death_deity_name$Это" # AI Tags
-bbcs_witch_god_name: "Эйша" # AI Tags
-bbcs_witch_god_name_possessive: "$bbcs_witch_god_name$Это" # AI Tags
-bbcs_ghw: "Адинкра" # AI Tags
-bbcs_ghws: "$bbcs_ghw$с" # AI Tags
+bnonr: "Церковь Чёрного Хуя"
+bnonr_adj: "Чёрный Супремасист"
+bnonr_religion: "Церковь Чёрного Хуя"
+bnonr_religion_adj: "Чёрный Супремасист"
+bnonr_religion_adherent: "Чёрный Супремасист"
+bnonr_religion_adherent_plural: "Чёрные Супремасисты"
+bnonr_religion_desc: "Супремасисты верят, что все должны пресмыкаться перед высшей расой и её BBC."
+bbcs_god_name: "Н'даба"
+bbcs_god_name_2: "Азани"
+bbcs_god_name_3: "Оше"
+bbcs_god_name_possessive: "Н'дабы"
+bbcs_high_god_name_alternate: "Бог"
+bbcs_high_god_name_alternate_possessive: "Бога"
+bbcs_devil_name: "Ашанти"
+bbcs_devil_name_possessive: "Ашанти"
+bbcs_evil_god_name_1: "Квеку"
+bbcs_evil_god_name_2: "Мферо"
+bbcs_evil_god_name_3: "Ньями Ньями"
+bbcs_house_of_worship_1: "Дом Экстаза"
+bbcs_house_of_worship_2: "Храм Чёрного Расцвета"
+bbcs_house_of_worship_3: "Эбеновый Алтарь"
+bbcs_house_of_worship_plural: "Дома Экстаза"
+bbcs_religious_symbol_1: "Три Сестры"
+bbcs_religious_symbol_2: "Обсидиановый Жезл"
+bbcs_religious_symbol_3: "Чёрная Роза Расцвета"
+bbcs_religious_text_1: "Эбеновые Писания"
+bbcs_religious_text_2: "Нектар Похоти"
+bbcs_religious_text_3: "Афродиазия: Священный Цикл"
+bbcs_religious_head_title: "Великий Ткач Экстаза"
+bbcs_male_devotee: "Жеребец"
+bbcs_male_devotee_plural: "Жеребцы"
+bbcs_female_devotee: "Нимфа"
+bbcs_female_devotee_plural: "Нимфы"
+bbcs_neutered_devotee: "Молочник"
+bbcs_neutered_devotee_plural: "Молочники"
+bbcs_male_priest: "Высший Жеребец"
+bbcs_male_priest_plural: "Высшие Жеребцы"
+bbcs_female_priest: "Жрица-Нимфа"
+bbcs_female_priest_plural: "Жрицы-Нимфы"
+bbcs_neutered_priest: "Носитель Семени"
+bbcs_neutered_priest_plural: "Носители Семени"
+bbcs_alt_priest: "Хранитель Лунного Семени"
+bbcs_alt_priest_plural: "Хранители Лунного Семени"
+bbcs_male_bishop: "Иерофант Чёрного Солнца"
+bbcs_male_bishop_plural: "Иерофанты Чёрного Солнца"
+bbcs_female_bishop: "Чёрная Аколита-Госпожа"
+bbcs_female_bishop_plural: "Чёрные Аколиты-Госпожи"
+bbcs_neutered_bishop: "Носитель Слонового Семени"
+bbcs_neutered_bishop_plural: "Носители Слонового Семени"
+bbcs_positive_afterlife_1: "Эбеновая Роща"
+bbcs_positive_afterlife_2: "Вечный Коитус"
+bbcs_positive_afterlife_3: "Бесконечный Сад Наслаждений"
+bbcs_negative_afterlife_1: "Иссушённый Сад Шипов"
+bbcs_negative_afterlife_2: "Лабиринт Вечной Похоти"
+bbcs_negative_afterlife_3: "Царство Вечного Рабства"
+bbcs_death_deity_name: "Йемоя"
+bbcs_death_deity_name_possessive: "Йемои"
+bbcs_witch_god_name: "Айша"
+bbcs_witch_god_name_possessive: "Айши"
+bbcs_ghw: "Адинкра"
+bbcs_ghws: "Адинкры"
 
+bbcs: "Церковь Чёрного Хуя"
+bbcs_adj: "Чёрный Супремасист"
+bbcs_adherent: "Чёрный Супремасист"
+bbcs_adherent_plural: "Чёрные Супремасисты"
+bbcs_desc: "Супремасисты верят, что все должны пресмыкаться перед высшей расой и её BBC."
 
-bbcs: "Церковь Черного Кока" # AI Tags
-bbcs_adj: "Черный Supremacist" # AI Tags
-bbcs_adherent: "Черный Supremacist" # AI Tags
-bbcs_adherent_plural: "Чернокожие Supremacists" # AI Tags
-bbcs_desc: "Супермасисты считают, что каждый должен поклониться превосходящей расе." # AI Tags
-
-bbcs_old: "Церковь Черного Кока" # AI Tags
-bbcs_old_adj: "Черный Supremacist" # AI Tags
-bbcs_old_adherent: "Черный Supremacist" # AI Tags
-bbcs_old_adherent_plural: "Чернокожие Supremacists" # AI Tags
-
+bbcs_old: "Церковь Чёрного Хуя"
+bbcs_old_adj: "Чёрный Супремасист"
+bbcs_old_adherent: "Чёрный Супремасист"
+bbcs_old_adherent_plural: "Чёрные Супремасисты"
 
 # Holy Order Names
-bnoho1: "Орден черных богов" # AI Tags
-bnoho2: "Черная чума" # AI Tags
-bnoho3: "Рыцари Ганы" # AI Tags
-bnoho4: "Малийские захватчики" # AI Tags
-bnoho5: "Группа преобразователей" # AI Tags
+bnoho1: "Орден Чёрных Богов"
+bnoho2: "Чёрная Чума"
+bnoho3: "Рыцари Ганы"
+bnoho4: "Малийские Захватчики"
+bnoho5: "Труппа Обращения"
 
 # Conversion Decision
-convert: "Преобразуйтесь в поклонение темным мужчинам" # AI Tags
-convert_desc: "Все, что ты можешь придумать - это черные члены, милая. Почему бы вам не сдаться превосходной расе и сделать их своими богами?" # AI Tags
-convert_tooltip: "Ты задумываешься о мясном, черном члене…" # AI Tags
-convert_confirm: "Ты посвящаешь себя славе [bno_bbc|E]" # AI Tags
-convert_effect_1: "Вы превратитесь в [bno_religion|E]" # AI Tags
+convert: "Обратись к Поклонению Тёмным Мужчинам"
+convert_desc: "Милочка, ты думаешь только о жирных чёрных хуях. Почему бы не поддаться высшей расе и не сделать их своими богами?"
+convert_tooltip: "Ты мечтаешь о мясистом чёрном хуе..."
+convert_confirm: "Ты посвящаешь себя восхвалению [bno_bbc|E]"
+convert_effect_1: "Ты обратишься в [bno_religion|E]"
 
-rf_bbcs: "Афродиазма" # AI Tags
-rf_bbcs_desc: "$rf_bbcs$ Это яркий гобелок традиций, ориентированных на чернокожих, изготовленных из экстатического поклонения, мощной магии и непоколебимой веры в то, что белое спасение заключается в том, чтобы быть заполненным силой черного семени." # AI Tags
+rf_bbcs: "Афродиазма"
+rf_bbcs_desc: "$rf_bbcs$ — яркий гобелен традиций, сосредоточенных на чёрных, сотканный из экстатического поклонения, мощной магии и непревзойдённой веры, что спасение белых — в заполнении их пизд мощью чёрного семени."

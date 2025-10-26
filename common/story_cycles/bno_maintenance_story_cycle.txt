@@ -975,6 +975,21 @@
                 }
             }
         }
+		#femboi maintenance
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					has_trait = femboi
+					NOT = { has_trait = bno_femboi }
+				}
+			}
+			effect = {
+				story_owner = {
+					remove_trait = femboi
+					add_trait = bno_femboi
+				}
+			}
+		}
     }
 	#events
 	effect_group = {
