@@ -1060,3 +1060,20 @@ bno_abnormal_african_inheritance = {
 	}
 	bno_make_bbc_trait_inactive = yes
 }
+
+### Femboi Trait ###
+#bno_increase_femboiness <
+###
+
+bno_increase_femboiness = {
+	switch = {
+		trigger = has_trait
+		bno_femboi = {
+			add_trait_xp = {
+				trait = bno_femboi
+				value = { 1 2 }
+			}
+		}
+		fallback = { add_trait = bno_femboi }
+	}
+}

@@ -1,65 +1,64 @@
 ﻿l_russian:
 
-bno_bbc_cum_addiction: "Привыкание к наркотикам" # AI Tags
-bno_bbc_cum_addiction_desc_general: "Ни одна женщина не будет сопротивляться навсегда. А [bno_bbc|E] Он управляет своим рабом не подарками и словами, а семенами. Как только ее губы вкушают его, ее голод связывает ее только с ним, телом и душой." # AI Tags
-bno_bbc_cum_addiction_action: "Поезд" # AI Tags
-bno_bbc_cum_addiction_desc: "Не связывайте ее клятвой или цепями, а пусть она жаждет твоего потомства, пока не будет никого, кроме вас." # AI Tags
-bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] станет пристрастной к твоей куме, рабыней, привязанной к своему быку, ее утробе и губам, принадлежащих ей навсегда." # AI Tags
+bno_bbc_cum_addiction: "Зависимость от Спермы"
+bno_bbc_cum_addiction_desc_general: "Ни одна баба не устоит вечно. [bno_bbc|E] берёт свою рабыню не подарками или словами, а спермой. Один вкус её губами — и она прикована к нему телом и душой."
+bno_bbc_cum_addiction_action: "Дрессировать"
+bno_bbc_cum_addiction_desc: "Свяжи её не клятвами или цепями, а своей спермой — заставь её жаждать твоего семени, пока других мужиков для неё не существует."
+bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] станет зависимой от твоей спермы, рабыней своего Быка, её матка и губы — твоя вечная собственность."
 
-bno_bbc_cum_addiction.invalidated.title: "Потерянный раб" # AI Tags
-bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] Она мертва, ее губы замолчали, прежде чем ваш стержень мог полностью претендовать на нее. Еще один скоро встанет на колени[bno_bnwo|E] не заканчивается одной сломанной шлюхой." # AI Tags
+bno_bbc_cum_addiction.invalidated.title: "Рабыня Потеряна"
+bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] сдохла, её губы замолкли, не успев стать твоей спермоглоткой. Другая сука скоро встанет на колени — [bno_bnwo|E] не кончается одной сломанной блядью."
 
-bno_bbc_cum_addiction.curious: "У нее есть [GetTrait('bno_curious').GetName(GetNullCharacter)] и соблазняет его вкусить."   # AI Tags
-bno_bbc_cum_addiction.blacked: "Она была [GetTrait('bno_blacked').GetName(GetNullCharacter)] и жаждет большего."   # AI Tags
-bno_bbc_cum_addiction.snowbunny: "Она стала [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] и жаждет каждого быка."   # AI Tags
-bno_bbc_cum_addiction.qos: "Она поднялась как [GetTrait('bno_qos').GetName(GetNullCharacter)] и преклоняется на коленях гордо."   # AI Tags
-bno_bbc_cum_addiction.mindless: "Она погрузилась в [GetTrait('bno_mindless_bbc_slut').GetName(GetNullCharacter)] и не в состоянии сопротивляться."   # AI Tags
+bno_bbc_cum_addiction.curious: "У неё [GetTrait('bno_curious').GetName(GetNullCharacter)] и тянет попробовать на вкус."
+bno_bbc_cum_addiction.blacked: "Её [GetTrait('bno_blacked').GetName(GetNullCharacter)] — она жаждет ещё BBC."
+bno_bbc_cum_addiction.snowbunny: "Она стала [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] и хочет каждого Быка."
+bno_bbc_cum_addiction.qos: "Она возвысилась до [GetTrait('bno_qos').GetName(GetNullCharacter)] и гордо стоит на коленях."
+bno_bbc_cum_addiction.mindless: "Она погрузилась в [GetTrait('bno_mindless_bbc_slut').GetName(GetNullCharacter)] и не может сопротивляться."
 
-bno_bbc_cum_addiction.beauty_good_1: "Это ты [GetTrait('beauty_good_1').GetName(GetNullCharacter)] и приятным для глаз."   # AI Tags
-bno_bbc_cum_addiction.beauty_good_2: "Это ты [GetTrait('beauty_good_2').GetName(GetNullCharacter)] и поразительно красивый."   # AI Tags
-bno_bbc_cum_addiction.beauty_good_3: "Это ты [GetTrait('beauty_good_3').GetName(GetNullCharacter)] и потрясающе."   # AI Tags
+bno_bbc_cum_addiction.beauty_good_1: "Ты [GetTrait('beauty_good_1').GetName(GetNullCharacter)] и радуешь глаз."
+bno_bbc_cum_addiction.beauty_good_2: "Ты [GetTrait('beauty_good_2').GetName(GetNullCharacter)] и чертовски красив."
+bno_bbc_cum_addiction.beauty_good_3: "Ты [GetTrait('beauty_good_3').GetName(GetNullCharacter)] и сногсшибателен."
 
-bno_bbc_cum_addiction.physique_good_1: "Это ты [GetTrait('physique_good_1').GetName(GetNullCharacter)] и хорошо построенный."   # AI Tags
-bno_bbc_cum_addiction.physique_good_2: "Это ты [GetTrait('physique_good_2').GetName(GetNullCharacter)] и обладает мощной формой."   # AI Tags
-bno_bbc_cum_addiction.physique_good_3: "Это ты [GetTrait('physique_good_3').GetName(GetNullCharacter)] и вырезанный, как бог."   # AI Tags
+bno_bbc_cum_addiction.physique_good_1: "Ты [GetTrait('physique_good_1').GetName(GetNullCharacter)] и крепко сложен."
+bno_bbc_cum_addiction.physique_good_2: "Ты [GetTrait('physique_good_2').GetName(GetNullCharacter)] и мощно выточен."
+bno_bbc_cum_addiction.physique_good_3: "Ты [GetTrait('physique_good_3').GetName(GetNullCharacter)] и высечен как бог."
 
-bno_bbc_cum_addiction.intellect_good_1: "Это ты [GetTrait('intellect_good_1').GetName(GetNullCharacter)] и умный на языке."   # AI Tags
-bno_bbc_cum_addiction.intellect_good_2: "Это ты [GetTrait('intellect_good_2').GetName(GetNullCharacter)] и остроумный."   # AI Tags
-bno_bbc_cum_addiction.intellect_good_3: "Это ты [GetTrait('intellect_good_3').GetName(GetNullCharacter)] и блестящий, чтобы сломать ее."   # AI Tags
+bno_bbc_cum_addiction.intellect_good_1: "Ты [GetTrait('intellect_good_1').GetName(GetNullCharacter)] и остёр на язык."
+bno_bbc_cum_addiction.intellect_good_2: "Ты [GetTrait('intellect_good_2').GetName(GetNullCharacter)] и чертовски умён."
+bno_bbc_cum_addiction.intellect_good_3: "Ты [GetTrait('intellect_good_3').GetName(GetNullCharacter)] и гениален, чтобы сломать её."
 
-bno_bbc_cum_addiction.strong: "Это ты [GetTrait('strong').GetName(GetNullCharacter)] и излучают мужественность."   # AI Tags
+bno_bbc_cum_addiction.strong: "Ты [GetTrait('strong').GetName(GetNullCharacter)] и пышет мужеством."
 
-
-bno_bbc_cum_addiction.lustful: "[GetTrait('lustful').GetName(GetNullCharacter)] Тепло причиняет ей боль."   # AI Tags
-bno_bbc_cum_addiction.chaste: "[GetTrait('chaste').GetName(GetNullCharacter)] Обеты задерживают её."   # AI Tags
-bno_bbc_cum_addiction.gluttonous: "[GetTrait('gluttonous').GetName(GetNullCharacter)] Голод делает ее жадной."   # AI Tags
-bno_bbc_cum_addiction.temperate: "[GetTrait('temperate').GetName(GetNullCharacter)] сдержанность охлаждает ее жажду."   # AI Tags
-bno_bbc_cum_addiction.greedy: "[GetTrait('greedy').GetName(GetNullCharacter)] Желание жаждет Быка."   # AI Tags
-bno_bbc_cum_addiction.generous: "[GetTrait('generous').GetName(GetNullCharacter)] Природа открывает ее тело."   # AI Tags
-bno_bbc_cum_addiction.lazy: "[GetTrait('lazy').GetName(GetNullCharacter)] Легкость заставляет ее сдаваться."   # AI Tags
-bno_bbc_cum_addiction.diligent: "[GetTrait('diligent').GetName(GetNullCharacter)] Фокус усиливает её волю."   # AI Tags
-bno_bbc_cum_addiction.wrathful: "[GetTrait('wrathful').GetName(GetNullCharacter)] Огонь превращается в страсть."   # AI Tags
-bno_bbc_cum_addiction.calm: "[GetTrait('calm').GetName(GetNullCharacter)] Равномерность замедляет искушение."   # AI Tags
-bno_bbc_cum_addiction.vengeful: "[GetTrait('vengeful').GetName(GetNullCharacter)] Несмотря на то, что он сопротивляется Быку."   # AI Tags
-bno_bbc_cum_addiction.forgiving: "[GetTrait('forgiving').GetName(GetNullCharacter)] мягкость заставляет ее таять."   # AI Tags
-bno_bbc_cum_addiction.arrogant: "[GetTrait('arrogant').GetName(GetNullCharacter)] Гордость держит ее жесткой."   # AI Tags
-bno_bbc_cum_addiction.humble: "[GetTrait('humble').GetName(GetNullCharacter)] кротость поднимет ее."   # AI Tags
-bno_bbc_cum_addiction.deceitful: "[GetTrait('deceitful').GetName(GetNullCharacter)] ложится под страстью."   # AI Tags
-bno_bbc_cum_addiction.honest: "[GetTrait('honest').GetName(GetNullCharacter)] желание проявляется ясно."   # AI Tags
-bno_bbc_cum_addiction.craven: "[GetTrait('craven').GetName(GetNullCharacter)] Страх заставляет ее сокращаться."   # AI Tags
-bno_bbc_cum_addiction.brave: "[GetTrait('brave').GetName(GetNullCharacter)] смелость заставляет ее рисковать."   # AI Tags
-bno_bbc_cum_addiction.shy: "[GetTrait('shy').GetName(GetNullCharacter)] Красная предает ее потребность."   # AI Tags
-bno_bbc_cum_addiction.gregarious: "[GetTrait('gregarious').GetName(GetNullCharacter)] радость процветает в компании."   # AI Tags
-bno_bbc_cum_addiction.ambitious: "[GetTrait('ambitious').GetName(GetNullCharacter)] Драйв питает ее жажду."   # AI Tags
-bno_bbc_cum_addiction.content: "[GetTrait('content').GetName(GetNullCharacter)] Легкость подавляет ее голод."   # AI Tags
-bno_bbc_cum_addiction.impatient: "[GetTrait('impatient').GetName(GetNullCharacter)] На данный момент тяга подталкивает."   # AI Tags
-bno_bbc_cum_addiction.patient: "[GetTrait('patient').GetName(GetNullCharacter)] Тишина замедляет ее желание."   # AI Tags
-bno_bbc_cum_addiction.cynical: "[GetTrait('cynical').GetName(GetNullCharacter)] сомнения насмехаются над страстью."   # AI Tags
-bno_bbc_cum_addiction.zealous: "[GetTrait('zealous').GetName(GetNullCharacter)] Вера закроет ей бедра."   # AI Tags
-bno_bbc_cum_addiction.paranoid: "[GetTrait('paranoid').GetName(GetNullCharacter)] Страх охраняет ее."   # AI Tags
-bno_bbc_cum_addiction.trusting: "[GetTrait('trusting').GetName(GetNullCharacter)] Доверие открывает ее."   # AI Tags
-bno_bbc_cum_addiction.compassionate: "[GetTrait('compassionate').GetName(GetNullCharacter)] тепло облегчает ее."   # AI Tags
-bno_bbc_cum_addiction.callous: "[GetTrait('callous').GetName(GetNullCharacter)] Охлаждение подавляет искушение."   # AI Tags
-bno_bbc_cum_addiction.sadistic: "[GetTrait('sadistic').GetName(GetNullCharacter)] Жестокость подпитывает ее жажду."   # AI Tags
-bno_bbc_cum_addiction.stubborn: "[GetTrait('stubborn').GetName(GetNullCharacter)] Уилл держит ее жесткой."   # AI Tags
-bno_bbc_cum_addiction.fickle: "[GetTrait('fickle').GetName(GetNullCharacter)] Каприз меняется с жаждой."   # AI Tags
+bno_bbc_cum_addiction.lustful: "[GetTrait('lustful').GetName(GetNullCharacter)] жар заставляет её пизду ныть."
+bno_bbc_cum_addiction.chaste: "[GetTrait('chaste').GetName(GetNullCharacter)] обеты держат её в узде."
+bno_bbc_cum_addiction.gluttonous: "[GetTrait('gluttonous').GetName(GetNullCharacter)] жадность делает её голодной до спермы."
+bno_bbc_cum_addiction.temperate: "[GetTrait('temperate').GetName(GetNullCharacter)] сдержанность гасит её похоть."
+bno_bbc_cum_addiction.greedy: "[GetTrait('greedy').GetName(GetNullCharacter)] алчность тянет к Быку."
+bno_bbc_cum_addiction.generous: "[GetTrait('generous').GetName(GetNullCharacter)] щедрость раскрывает её дыры."
+bno_bbc_cum_addiction.lazy: "[GetTrait('lazy').GetName(GetNullCharacter)] лень заставляет её поддаваться."
+bno_bbc_cum_addiction.diligent: "[GetTrait('diligent').GetName(GetNullCharacter)] усердие укрепляет её волю."
+bno_bbc_cum_addiction.wrathful: "[GetTrait('wrathful').GetName(GetNullCharacter)] ярость переходит в похоть."
+bno_bbc_cum_addiction.calm: "[GetTrait('calm').GetName(GetNullCharacter)] спокойствие тормозит искушение."
+bno_bbc_cum_addiction.vengeful: "[GetTrait('vengeful').GetName(GetNullCharacter)] мстительность противится Быку."
+bno_bbc_cum_addiction.forgiving: "[GetTrait('forgiving').GetName(GetNullCharacter)] мягкость заставляет её таять."
+bno_bbc_cum_addiction.arrogant: "[GetTrait('arrogant').GetName(GetNullCharacter)] гордыня держит её в тонусе."
+bno_bbc_cum_addiction.humble: "[GetTrait('humble').GetName(GetNullCharacter)] скромность заставляет её гнуться."
+bno_bbc_cum_addiction.deceitful: "[GetTrait('deceitful').GetName(GetNullCharacter)] ложь трескается под похотью."
+bno_bbc_cum_addiction.honest: "[GetTrait('honest').GetName(GetNullCharacter)] желание проступает явно."
+bno_bbc_cum_addiction.craven: "[GetTrait('craven').GetName(GetNullCharacter)] страх заставляет её съёживаться."
+bno_bbc_cum_addiction.brave: "[GetTrait('brave').GetName(GetNullCharacter)] смелость толкает её на риск."
+bno_bbc_cum_addiction.shy: "[GetTrait('shy').GetName(GetNullCharacter)] стеснение выдаёт её потребность."
+bno_bbc_cum_addiction.gregarious: "[GetTrait('gregarious').GetName(GetNullCharacter)] радость цветёт в компании."
+bno_bbc_cum_addiction.ambitious: "[GetTrait('ambitious').GetName(GetNullCharacter)] амбиции подпитывают её жажду."
+bno_bbc_cum_addiction.content: "[GetTrait('content').GetName(GetNullCharacter)] удовлетворённость гасит её голод."
+bno_bbc_cum_addiction.impatient: "[GetTrait('impatient').GetName(GetNullCharacter)] нетерпение требует сейчас."
+bno_bbc_cum_addiction.patient: "[GetTrait('patient').GetName(GetNullCharacter)] терпение тормозит её похоть."
+bno_bbc_cum_addiction.cynical: "[GetTrait('cynical').GetName(GetNullCharacter)] цинизм смеётся над похотью."
+bno_bbc_cum_addiction.zealous: "[GetTrait('zealous').GetName(GetNullCharacter)] фанатизм сжимает её бёдра."
+bno_bbc_cum_addiction.paranoid: "[GetTrait('paranoid').GetName(GetNullCharacter)] паранойя держит её настороже."
+bno_bbc_cum_addiction.trusting: "[GetTrait('trusting').GetName(GetNullCharacter)] доверие раскрывает её пизду."
+bno_bbc_cum_addiction.compassionate: "[GetTrait('compassionate').GetName(GetNullCharacter)] тепло делает её податливой."
+bno_bbc_cum_addiction.callous: "[GetTrait('callous').GetName(GetNullCharacter)] холод гасит искушение."
+bno_bbc_cum_addiction.sadistic: "[GetTrait('sadistic').GetName(GetNullCharacter)] жестокость разжигает её похоть."
+bno_bbc_cum_addiction.stubborn: "[GetTrait('stubborn').GetName(GetNullCharacter)] упрямство держит её твёрдой."
+bno_bbc_cum_addiction.fickle: "[GetTrait('fickle').GetName(GetNullCharacter)] переменчивость колеблется с похотью."

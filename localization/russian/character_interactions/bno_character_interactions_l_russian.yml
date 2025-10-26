@@ -1,62 +1,38 @@
 ﻿l_russian:
 
-bno_bbc_cum_addiction_interaction: "Привыкание к наркотикам" # AI Tags
-bno_bbc_cum_addiction_interaction.desc: "Начните коррупцию [recipient.GetFirstNameNoTooltip]- Нет , нет . Не словами, не очарованием, а семенами…притягивай ее на колени и заставь ее губы вспомнить, что может дать только ее Бык." # AI Tags
-bno_bbc_cum_addiction_interaction.send_name: "Накорми ее своей женой" # AI Tags
-bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] Как началась зависимость" # AI Tags
-bno_bbc_cum_addiction_interaction.tooltip: "Вы начали связывать [recipient.GetFirstNameNoTooltip] к тебе через семя. Каждая встреча ослабит ее волю и углубит ее жажду, пока она не сможет жить без твоего спермы." # AI Tags
-bno_bbc_cum_addiction_interaction.already_training: "Ты уже привязываешь шлюху к своему семени. Бык должен сосредоточить свое господство на одном за другим, пока ее воля не будет нарушена и она не будет преобразована в твою [bno_cum_slave|E]." # AI Tags
+bno_bbc_cum_addiction_interaction: "Зависимость от Спермы"
+bno_bbc_cum_addiction_interaction.desc: "Начинай развращать [recipient.GetFirstNameNoTooltip]. Не словами, не ласками — семенем. Заставь её встать на колени и запомнить вкус, который может дать только её Бык."
+bno_bbc_cum_addiction_interaction.send_name: "Накорми её своей спермой"
+bno_bbc_cum_addiction_interaction.title: "Зависимость [recipient.GetFirstName] от спермы началась"
+bno_bbc_cum_addiction_interaction.tooltip: "Ты начал привязывать [recipient.GetFirstNameNoTooltip] к себе через семя. Каждое соитие ослабляет её волю и углубляет жажду, пока она не сможет жить без твоей спермы."
+bno_bbc_cum_addiction_interaction.already_training: "Ты уже приучаешь одну шлюху к своему семени. Бык должен сосредоточиться на одной, пока не сломает её волю и не переделает в свою [bno_cum_slave|E]."
 
-bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] У него есть что-то вроде [illness|E]" # AI Tags
-bno_cure_disease_interaction.no_priestess: "У вас нет [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] чтобы совершить ритуал." # AI Tags
-bno_cure_disease_interaction.no_priest: "У вас нет [GetCourtPositionType('bno_bbc_priest_court_position').GetName] чтобы совершить ритуал." # AI Tags
+bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] страдает от [illness|E]"
+bno_cure_disease_interaction.no_priestess: "У тебя нет [GetCourtPositionType('bno_bbc_priestess_court_position').GetName], чтобы провести ритуал."
+bno_cure_disease_interaction.no_priest: "У тебя нет [GetCourtPositionType('bno_bbc_priest_court_position').GetName], чтобы провести ритуал."
 
-bno_cure_disease_interaction: "Священные семена" # AI Tags
-bno_cure_disease_interaction.desc.female: "[GetCourtPositionType('bno_bbc_priest_court_position').GetName] Пожертвовать его священные семена на [recipient.GetFirstName]" # AI Tags
-bno_cure_disease_interaction.desc.male: "[GetCourtPositionType('bno_bbc_priestess_court_position').GetName] Надели ее священной сущностью [recipient.GetFirstName]" # AI Tags
+bno_cure_disease_interaction: "Святое Семя"
+bno_cure_disease_interaction.desc.female: "[GetCourtPositionType('bno_bbc_priest_court_position').GetName] одарит [recipient.GetFirstName] своим святым семенем"
+bno_cure_disease_interaction.desc.male: "[GetCourtPositionType('bno_bbc_priestess_court_position').GetName] одарит [recipient.GetFirstName] своей святой сущностью"
 
-bno_cure_disease_interaction.female_recipient.effect: "Вы будете призывать своих [GetCourtPositionType('bno_bbc_priest_court_position').GetName] чтобы подготовить свои священные семена для подготовки к ритуалу" # AI Tags
-bno_cure_disease_interaction.male_recipient.effect: "Вы будете призывать своих [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] чтобы подготовить свою священную сущность , чтобы подготовиться к ритуалу" # AI Tags
+bno_cure_disease_interaction.female_recipient.effect: "Ты призовёшь своего [GetCourtPositionType('bno_bbc_priest_court_position').GetName], чтобы он подготовил святое семя к ритуалу"
+bno_cure_disease_interaction.male_recipient.effect: "Ты призовёшь свою [GetCourtPositionType('bno_bbc_priestess_court_position').GetName], чтобы она подготовила святую сущность к ритуалу"
 
-bno_tincture_of_genesis_interaction: "Окраска книги Бытие" # AI Tags
-bno_tincture_of_genesis_interaction.desc: "Ты изменишь свою жену [recipient.GetFirstName] существование" # AI Tags
-bno_tincture_of_genesis_interaction.not_white: "Она так и есть [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
-bno_tincture_of_genesis_interaction.effect: "Ты будешь кормить свою жену [recipient.GetFirstName] Твое мощное полотенце, преобразующее её ядро." # AI Tags
+bno_tincture_of_genesis_interaction: "Настой Генезиса"
+bno_tincture_of_genesis_interaction.desc: "Ты изменишь саму суть своей жены [recipient.GetFirstName]"
+bno_tincture_of_genesis_interaction.not_white: "Она уже [GetTrait('bno_full_black').GetName( GetNullCharacter )]"
+bno_tincture_of_genesis_interaction.effect: "Ты скормишь жене [recipient.GetFirstName] свою мощную сперму, меняя её изнутри."
 
-bno_tincture_of_genesis_interaction.desc.female: "Я попрошу мужа меня преобразовать" # AI Tags
-bno_tincture_of_genesis_interaction.effect.female: "Ваш муж будет кормить вас своим кумом, как ваш единственный источник пропитания." # AI Tags
-bno_tincture_of_genesis_interaction.effect.courtier.female: "Бык из вашего двора будет наполнять вас ежедневно, его скот станет вашим единственным источником пропитания." # AI Tags
+bno_tincture_of_genesis_interaction.desc.female: "Я попрошу мужа изменить меня"
+bno_tincture_of_genesis_interaction.effect.female: "Твой муж будет кормить тебя своей спермой — твоей единственной пищей."
 
-bno_prisoner_interaction: "Применить превосходство Би-би-си" # AI Tags
-bno_prisoner_interaction_desc: "Этот несчастный белый мужчина думал, что может стоять как мужчина. Теперь, в цепях, его жалкий член становится игрушкой для суждения…либо заперт навсегда в холодном железе, либо полностью отрезан, чтобы освободить место для истинного размножающегося скота. Его судьба является уроком для всех , кто осмелится сопротивляться [bno_bnwo|E]Правило." # AI Tags
-bno_prisoner_interaction_desc.futa: "Эта бледная шлюха-фута думала, что ее дополнительная плоть делает ее особенной. Теперь, привязанная в цепи, ее член будет либо дрожать бесполезно в клетке, либо будет вырезан, чтобы оставить только капельку для черного семена. Она предупреждает всех претендентов на полуроду под [bno_bnwo|E]Правило."   # AI Tags
-bno_prisoner_interaction_desc.female: "Эта бледная шлюха верила, что у нее есть достоинство. Обрезанная и привязанная, она узнает, что ее отверстия - это единственное, что ей стоило, разбитое и пробитое ее чёрными хозяевами. Ее унижение - это зрелище, урок в том, что происходит с любой женщиной, которая бросает вызов [bno_bnwo|E]Верховенство."   # AI Tags
-bno_prisoner_interaction.caging: "@bno_caged_icon! Закрепи их мягкий белый член в тесную стальную клетку"   # AI Tags
-bno_prisoner_interaction.castrating: "@bno_castrated_icon! Отрезать их жалкий вал, оставляя только размножающуюся дыру"   # AI Tags
-bno_prisoner_interaction.slaving: "@bno_slave_icon! Отнимайте ей достоинство, превратите ее в рабу Би-би-си" # AI Tags
-bno_prisoner_interaction.has_bbc_in_court: "Белая шлюха не обладает истинной силой, она предназначена только для размножения. Чтобы посадить в клетку, кастрировать или поработить другого, она должна иметь по крайней мере одну Би-би-си в своем дворе, чтобы выступать в качестве руки господства и совершать акт."   # AI Tags
-bno_prisoner_interaction.not_caged: "Этот бесполезный белый член уже заперт в железе, отвергнут навсегда." # AI Tags
-bno_prisoner_interaction.not_castrated: "У этой шлюхи уже не осталось ничего, чтобы отрезать."   # AI Tags
-
-bno_apply_elixir_interaction: "Применяйте эликсир" # AI Tags
-
-bno_apply_elixir_interaction.desc.female.bbc: "Предлагайте эликсир [recipient.GetFirstName]." # AI Tags
-bno_apply_elixir_interaction.desc.female.whiteboi: "Сдвинуть эликсир в [recipient.GetFirstName]." # AI Tags
-bno_apply_elixir_interaction.desc.self.whiteboi: "Выпей эликсир сам." # AI Tags
-bno_apply_elixir_interaction.desc.self.bbc: "Вкуси эликсир сам." # AI Tags
-bno_apply_elixir_interaction.desc.bbc.whiteboi: "Нажимать эликсир [recipient.GetFirstName]." # AI Tags
-bno_apply_elixir_interaction.desc.bbc.bbc: "Поделите эликсир с [recipient.GetFirstName]." # AI Tags
-bno_apply_elixir_interaction.desc.whiteboi.bbc: "Предоставьте эликсир [recipient.GetFirstName]." # AI Tags
-bno_apply_elixir_interaction.desc.whiteboi.whiteboi: "Передайте эликсир [recipient.GetFirstName]." # AI Tags
-
-bno_apply_elixir_interaction_bno_tincture_of_genesis: "@bno_tincture_of_genesis_icon! Используйте окраску из Бытия" # AI Tags
-bno_apply_elixir_interaction_bno_elixir_of_the_black_womb: "@bno_elixir_of_the_black_womb_icon! Используйте эликсир чёрной матки" # AI Tags
-
-bno_apply_elixir_interaction.bno_tincture_of_genesis.tooltip: "Требует владения [bno_tincture_of_genesis|E], и [recipient.GetFirstName] не должно быть [GetTrait('bno_castrated').GetName( GetNullCharacter )]." # AI Tags
-bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.tooltip: "Требует владения [bno_elixir_of_the_black_womb|E], и [recipient.GetFirstName] должен быть мужчиной, но не [GetTrait('bno_bbc').GetName( GetNullCharacter )]." # AI Tags
-
-bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.actor.tooltip: "[actor.GetFirstName] управляет [bno_tincture_of_genesis|E]." # AI Tags
-bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.recipient.tooltip: "[recipient.GetFirstName] пьет [bno_tincture_of_genesis|E], превращая его семя в [bno_seed_of_genesis|E]." # AI Tags
-
-bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.actor.tooltip: "[actor.GetFirstName] Приставляет [bno_elixir_of_the_black_womb|E] быть захваченным." # AI Tags
-bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.recipient.tooltip: "[recipient.GetFirstName] пьет [bno_elixir_of_the_black_womb|E], его член увядает и голод за ком, который его съедает." # AI Tags
+bno_prisoner_interaction: "Утвердить Превосходство BBC"
+bno_prisoner_interaction_desc: "Этот жалкий белый думал, что он мужчина. Теперь в цепях его вялый хуёк — игрушка для суда: либо навсегда в холодном железе, либо отрезан, чтобы освободить место настоящему семени. Его судьба — урок всем, кто посмеет сопротивляться [bno_bnwo|E]."
+bno_prisoner_interaction_desc.futa: "Эта бледная футa-шлюха думала, что её лишняя плоть делает её особенной. Теперь в цепях её хуёк либо гремит в клетке, либо отсекается, оставляя мокрую пизду для чёрного семени. Она — предупреждение всем полукровкам под властью [bno_bnwo|E]."  
+bno_prisoner_interaction_desc.female: "Эта бледная шлюха думала, что у неё есть достоинство. Раздетая и связанная, она узнаёт: её дырки — единственная ценность. Ебут, ломают, передают чёрным хозяевам. Её унижение — зрелище, урок любой бабе, что посмеет бросить вызов [bno_bnwo|E]."  
+bno_prisoner_interaction.caging: "@bno_caged_icon! Затолкать вялый белый хуёк в тесную стальную клетку"  
+bno_prisoner_interaction.castrating: "@bno_castrated_icon! Отрезать жалкий стержень, оставив лишь дырку для разведения"  
+bno_prisoner_interaction.slaving: "@bno_slave_icon! Сорвать достоинство — Превратить в рабыню BBC"
+bno_prisoner_interaction.has_bbc_in_court: "Белая шлюха не имеет настоящей власти — она только для разведения. Чтобы запереть, кастрировать или поработить, нужен хотя бы один BBC при дворе, чтобы рука превосходства выполнила приговор."  
+bno_prisoner_interaction.not_caged: "Этот бесполезный белый хуёк уже заперт в железе навсегда."
+bno_prisoner_interaction.not_castrated: "Резать нечего — у этой шлюхи уже отняли мужское."

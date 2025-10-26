@@ -1,35 +1,47 @@
 ﻿l_russian:
-# traits
-trait_bno_bbc: "Большой, чёрный член" # AI Tags
-trait_bno_bbc_desc: "У этого персонажа огромный черный член и желание трахнуть каждую шлюху на своем пути." # AI Tags
-trait_bno_cuckish: "- Нахмурился?" # AI Tags
-trait_bno_cuckish_desc: "Женщина этого персонажа недавно рассталась с ней. И почему?" # AI Tags
-trait_bno_cuck: "- Я заткнулся!" # AI Tags
-trait_bno_cuck_desc: "Жена этого персонажа трахалась с чернокожим мужчиной раньше, и он бессилен остановить это." # AI Tags
-trait_bno_beta: "Бета" # AI Tags
-trait_bno_beta_desc: "Бывшая жена этого персонажа бросила его ради лучшего мужчины, и полностью обескулировала его." # AI Tags
-trait_bno_jos: "Джек из лопастей" # AI Tags
-trait_bno_jos_desc: "Этот персонаж, несмотря на супружеские проблемы, полностью присоединился к новому мировому порядку." # AI Tags
-trait_bno_caged: "В клетке" # AI Tags
-trait_bno_caged_desc: "Чистота - наказание для этого персонажа за то, что он не черный." # AI Tags
-trait_bno_castrated: "Кастрированные" # AI Tags
-trait_bno_castrated_desc: "Дети - это прошлое. Этот человек не будет производить никаких наследников." # AI Tags
-trait_bno_camp_leader: "Черный революционер" # AI Tags
-trait_bno_camp_leader_desc: "Этот персонаж был избран лидером своей местной группы беженцев из-за своего гигантского черного членя, похваленного количеством шлюх, которые он завоевал." # AI Tags
 
-trait_bno_slut_blood: "Черная шлюха" # AI Tags
-trait_bno_slut_blood_desc: "Она слишком много выпила [GetTrait('bno_full_black').GetName( GetNullCharacter )] Она становится черной изнутри." # AI Tags
-trait_bno_full_black: "Черный" # AI Tags
-trait_bno_full_black_desc: "Прямое потомство африканского континента" # AI Tags
-trait_bno_mostly_black: "Преимущественно чернокожие" # AI Tags
-trait_bno_mostly_black_desc: "Благодаря селективному разведению среди африканских иностранцев их кожа темнее" # AI Tags
-trait_bno_mixed: "Смешанная" # AI Tags
-trait_bno_mixed_desc: "Полукровные африканцы" # AI Tags
-trait_bno_barely_mixed: "Едва смешанные" # AI Tags
-trait_bno_barely_mixed_desc: "После поколений не размножения в африканской династии, родная кровь этого персонажа исчезает" # AI Tags
+# traits
+trait_bno_bbc: "Огромный Чёрный Хуй"
+trait_bno_bbc_desc: "У этого персонажа BBC — толстый, чёрный, неутомимый. Он долбит каждую белую пизду на своём пути, пока не набьёт её чёрным семенем."
+
+trait_bno_cuckish: "Рогоносец?"
+trait_bno_cuckish_desc: "Жена этого чувака стала холодной. Почему? Потому что её пизда уже знает вкус BBC."
+
+trait_bno_cuck: "Рогоносец!"
+trait_bno_cuck_desc: "Жена этого лоха отдалась BBC, и он ничего не может сделать, кроме как дрочить в углу."
+
+trait_bno_beta: "Бета"
+trait_bno_beta_desc: "Бывшая жена этого чмошника сбежала к настоящему мужику с BBC, полностью выжав из него яйца."
+
+trait_bno_jos: "Валет Пик"
+trait_bno_jos_desc: "Несмотря на рога, этот тип полностью подчинился Новому Порядку BBC и теперь служит чёрному превосходству."
+
+trait_bno_caged: "В Клетке"
+trait_bno_caged_desc: "Целомудрие — наказание за то, что не родился с BBC. Хуй в клетке, сперма не выйдет."
+
+trait_bno_castrated: "Кастрирован"
+trait_bno_castrated_desc: "Дети — в прошлом. Этот белый отброс больше не даст наследников."
+
+trait_bno_camp_leader: "Чёрный Революционер"
+trait_bno_camp_leader_desc: "Этот вождь BBC избран лидером беженцев за свой гигантский чёрный хуй и количество разъёбанных белых шлюх."
+
+trait_bno_slut_blood: "Чёрная Шлюха"
+trait_bno_slut_blood_desc: "Она наглоталась столько спермы BBC, что почернела изнутри. Теперь её пизда — храм чёрного семени."
+
+trait_bno_full_black: "Чёрный"
+trait_bno_full_black_desc: "Прямой потомок из Африки — чистокровный BBC."
+
+trait_bno_mostly_black: "Почти Чёрный"
+trait_bno_mostly_black_desc: "Через селекцию с BBC кожа стала тёмной, белая кровь почти вытравлена."
+
+trait_bno_mixed: "Смешанный"
+trait_bno_mixed_desc: "Полукровка — половина BBC, половина белой шлюхи."
+
+trait_bno_barely_mixed: "Едва Смешанный"
+trait_bno_barely_mixed_desc: "После поколений без BBC — белая кровь доминирует, но чёрный след всё ещё в пизде."
 
 
 
 #Message Filter
-message_filter_bno_breeding_outcomes: "" # AI Tags
-message_filter_bno_blacked_events: "" # AI Tags
+message_filter_bno_breeding_outcomes: ""
+message_filter_bno_blacked_events: ""

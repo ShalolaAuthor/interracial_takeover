@@ -1,0 +1,6 @@
+﻿is_femboi = {
+    has_trait_xp = {
+        trait = bno_femboi
+        value >= 100
+    }
+}
