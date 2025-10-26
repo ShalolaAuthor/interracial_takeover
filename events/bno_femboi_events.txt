@@ -1,0 +1,56 @@
+﻿namespace = bno_femboi
+
+#initiate femboi
+bno_femboi.0001 = {
+    type = character_event
+    title = bno_femboi.0001.title
+    desc = bno_femboi.0001.desc
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = root
+        animation = pain
+    }
+    
+    cooldown = { months = { 12 18 } }
+
+    trigger = {
+        is_valid_for_femboi_events = yes
+        has_trait_xp = {
+            trait = bno_femboi
+            value = 0
+        }
+    }
+
+    immediate = {
+
+    }
+
+    option = { # jerk off
+        name = bno_femboi.0001.a
+        add_stress = 10
+        bno_increase_femboiness = {
+            XP = 1
+        }
+    }
+
+    option = { # try fingering ass
+        name = bno_femboi.0001.b
+        add_stress = -20
+        bno_increase_femboiness = {
+            XP = 2
+        }
+    }
+
+    option = { # drink more milk and pretend it's cum
+        name = bno_femboi.0001.c
+        add_stress = -10
+    }
+
+    option = { # resist
+        name = bno_femboi.0001.d
+        add_stress = 20
+    }
+}
+#milestone 0 events

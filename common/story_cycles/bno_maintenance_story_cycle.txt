@@ -359,6 +359,7 @@
                         equip_artifact_to_owner = yes
                     }
                     add_character_modifier = bno_withering_manhood
+					become_smaller_dick_effect = yes
                 }
             }
         }

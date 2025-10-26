@@ -17,6 +17,7 @@ bno_is_valid_target_for_tincture_of_genesis = {
 
 bno_is_valid_target_for_elixir_of_the_black_womb = {
 	is_adult = yes
+	age <= 25
 	NOR = {
 		has_trait = femboi
 		has_trait = bno_femboi

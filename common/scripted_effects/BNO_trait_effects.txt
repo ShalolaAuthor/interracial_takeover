@@ -1066,14 +1066,56 @@ bno_abnormal_african_inheritance = {
 ###
 
 bno_increase_femboiness = {
-	switch = {
-		trigger = has_trait
-		bno_femboi = {
-			add_trait_xp = {
+	add_trait_xp = {
+		trait = bno_femboi
+		value = $XP$
+	}
+	if = {
+		limit = {
+			NOT = { has_character_flag = bno_femboi_1_milestone }
+			has_trait_xp = {
 				trait = bno_femboi
-				value = { 1 2 }
+				value >= 25
 			}
 		}
-		fallback = { add_trait = bno_femboi }
+		trigger_event = {
+			on_action = bno_femboi_1_milestone
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { has_character_flag = bno_femboi_2_milestone }
+			has_trait_xp = {
+				trait = bno_femboi
+				value >= 50
+			}
+		}
+		trigger_event = {
+			on_action = bno_femboi_2_milestone
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { has_character_flag = bno_femboi_3_milestone }
+			has_trait_xp = {
+				trait = bno_femboi
+				value >= 75
+			}
+		}
+		trigger_event = {
+			on_action = bno_femboi_3_milestone
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { has_character_flag = bno_femboi_4_milestone }
+			has_trait_xp = {
+				trait = bno_femboi
+				value >= 100
+			}
+		}
+		trigger_event = {
+			on_action = bno_femboi_4_milestone
+		}
 	}
 }

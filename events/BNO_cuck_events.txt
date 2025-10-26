@@ -1051,6 +1051,7 @@ bno_cuck.0010 = {
 	}
 	cooldown = { months = { 36 48 } }
 	trigger = {
+		is_ruler = yes
 		is_cuck_guy = yes
 		is_spouse_blacked = yes
 		any_vassal = {

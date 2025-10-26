@@ -148,6 +148,7 @@
                 scope:recipient = {
                     NOT = { has_character_flag = bno_apply_elixir_interaction.applied.bno_elixir_of_the_black_womb }
                     is_adult = yes
+                    age <= 25
                     is_bbc = no
                     is_male = yes
                 }

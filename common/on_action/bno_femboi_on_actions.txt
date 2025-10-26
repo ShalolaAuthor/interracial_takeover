@@ -1,0 +1,17 @@
+﻿### Here you will find on_actions for triggering milestone femboi events
+
+bno_femboi_1_milestone = {
+
+}
+
+bno_femboi_2_milestone = {
+
+}
+
+bno_femboi_3_milestone = {
+
+}
+
+bno_femboi_4_milestone = {
+
+}
