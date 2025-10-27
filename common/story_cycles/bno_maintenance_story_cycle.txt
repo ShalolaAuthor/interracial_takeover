@@ -1161,17 +1161,31 @@
 					}
 				}
 			}
-		}
-		triggered_effect = {
-			trigger = {
-				story_owner = {
-					is_playable_character = no
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_valid_for_femboi_events = yes
+					}
 				}
-			}
-			effect = {
-				story_owner = {
-					trigger_event = {
-						on_action =  bno_non_playable_pulse
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action = bno_events_femboi_pulse
+						}
+					}
+				}
+			}			
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_playable_character = no
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action =  bno_non_playable_pulse
+						}
 					}
 				}
 			}

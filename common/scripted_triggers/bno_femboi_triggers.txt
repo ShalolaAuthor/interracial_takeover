@@ -1,16 +1,10 @@
 ﻿is_femboi = {
-    has_trait_xp = {
-        trait = bno_femboi
-        value >= 100
-    }
-}
-
-is_bno_femboi = {
     has_trait = bno_femboi
 }
 
 is_valid_for_femboi_events = {
-    is_bno_femboi = yes
+    is_adult = yes
+    is_femboi = yes
     is_alive = yes
     is_imprisoned = no
 }
