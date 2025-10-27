@@ -28,6 +28,11 @@ bno_femboi = {
     priority = 999
     bno_dynamic_femboi_body = {
         dna_modifiers = {
+            morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
             accessory = {
                 mode = add
                 gene = beards
