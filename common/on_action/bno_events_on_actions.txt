@@ -46,6 +46,7 @@ bno_events_femboi_pulse = {
 	}
 	first_valid_on_action = {
 		bno_femboi_pulse
+		bno_slut_pulse
 		bno_random_pulse
 		bno_embrace_african_pulse
 		bno_on_action_flag_reset_pulse
