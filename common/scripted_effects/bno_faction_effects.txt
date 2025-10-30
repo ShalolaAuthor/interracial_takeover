@@ -278,7 +278,7 @@ spawn_bnwo_revolt_troops = {
 	# Spawn Siege Weapons depending on discovered innovations
 	if = {
 		limit = {
-			culture = { has_innovation = innovation_bombard }
+			culture = { has_innovation = innovation_gunpowder }
 		}
 		spawn_army = {
 			men_at_arms = {
