@@ -4,7 +4,7 @@
 
 window = {
 	name = "succession_law_change_window"
-	size = { 1128 875 }
+	size = { 1200 875 }
 	position = { 610 100 }
 	layer = middle
 
