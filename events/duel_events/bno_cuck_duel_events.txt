@@ -129,7 +129,7 @@ bno_cuck_duel.1001 = {
 
     left_portrait = {
         character = root
-        animation = lunatic
+        animation = ecstasy
     }
 
     right_portrait = {
@@ -173,12 +173,12 @@ bno_cuck_duel.2001 = {
 
     left_portrait = {
         character = root
-        animation = lunatic
+        animation = severelywounded
     }
 
     right_portrait = {
         character = scope:target1
-        animation = pain
+        animation = wrestling_victory
     }
 
     lower_center_portrait = {
