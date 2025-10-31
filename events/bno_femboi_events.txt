@@ -119,7 +119,7 @@ bno_femboi.0002 = {
         trigger_event = bno_femboi.1002
     }
 }
-
+#follow ups
 bno_femboi.1002 = {
     type = character_event
     title = {
@@ -193,6 +193,151 @@ bno_femboi.1002 = {
                     triggered_desc = {
                         trigger = { scope:femboi_narrative = 3 }
                         desc = bno_femboi.1002.a.3
+                    }
+                }
+            }
+        }
+    }
+}
+#Strange Sensations at Night
+bno_femboi.0003 = {
+    type = character_event
+    title = bno_femboi.0003.title
+    desc = bno_femboi.0003.desc
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    left_portrait = {
+        character = root
+        animation = thinking
+    }
+
+    cooldown =  {
+        months = { 12 18 }
+    }
+
+    trigger = {
+        is_valid_for_milestone_0_events = yes
+    }
+
+    immediate = {
+
+    }
+
+    option = {
+        name = bno_femboi.0003.a
+        bno_increase_femboiness = {
+            XP = 1
+        }
+        add_stress = -5
+
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 1
+        }
+    }
+
+    option = {
+        name = bno_femboi.0003.b
+        bno_increase_femboiness = {
+            XP = 2
+        }
+        add_stress = -10
+
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 2
+        }
+    }
+    
+    option = {
+        name = bno_femboi.0003.c
+        add_stress = 15
+
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 3
+        }
+    }
+
+    after = {
+        trigger_event = bno_femboi.1002
+    }
+}
+#follow ups
+bno_femboi.1003 = {
+    type = character_event
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 1 }
+                desc = bno_femboi.1003.title.1
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 2 }
+                desc = bno_femboi.1003.title.2
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 3 }
+                desc = bno_femboi.1003.title.3
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 1 }
+                desc = bno_femboi.1003.desc.1
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 2 }
+                desc = bno_femboi.1003.desc.2
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 3 }
+                desc = bno_femboi.1003.desc.3
+            }
+        }
+    }
+
+    left_portrait = {
+        character = root
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 1 }
+            animation = ecstasy
+        }
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 1 }
+            animation = happiness
+        }
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 1 }
+            animation = disgust
+        }
+    }
+
+    trigger = {
+        is_alive = yes
+    }
+
+    theme = seduction
+    override_background = { reference = bedchamber }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 1 }
+                        desc = bno_femboi.1003.a.1
+                    }
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 2 }
+                        desc = bno_femboi.1003.a.2
+                    }
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 3 }
+                        desc = bno_femboi.1003.a.3
                     }
                 }
             }
