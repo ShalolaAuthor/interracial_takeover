@@ -142,9 +142,10 @@ become_less_slut = {
 bno_increase_sluttyness = {
 	if = {
 		limit = {
-			AND = {
-				NOT = { has_trait = bno_whitegirl }
-				NOT = { has_trait = bno_full_black }
+			is_a_girl = yes
+			NOR = {
+				has_trait = bno_whitegirl
+				has_trait = bno_full_black
 			}
 		}
 		add_trait = bno_whitegirl_1
@@ -651,6 +652,7 @@ bno_increase_pussy_wear_effect = {
     $GIRL_SCOPE$ = {
         if = {
             limit = {
+				is_male = no
                 is_a_girl = yes
                 NOT = { has_trait = bno_pussy_mileage_6 }
             }

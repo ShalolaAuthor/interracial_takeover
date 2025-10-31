@@ -1229,14 +1229,14 @@ bno_bbc_sex = {
 				$PARTNER$ ?= {
 					is_married = yes
 					any_spouse = {
-						is_white_guy = yes
+						is_white = yes
 					}
 				}
 			}
 			$PARTNER$ = {
 				every_spouse = {
 					limit = {
-						is_white_guy = yes
+						is_white = yes
 					}
 					bno_cuck_sex_after_effects = {
 						PARTNER = $PARTNER$

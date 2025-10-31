@@ -235,6 +235,7 @@ bno_caravan.2001 = {
 		animation = sex_combined
 	}
     immediate = {
+        carn_sex_scene_no_memory_effect = yes
         bno_sex_scene_start = {
 			PARTNER = scope:shop_keeper
 		}
