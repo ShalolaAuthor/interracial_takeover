@@ -14,7 +14,7 @@ sneak_bbc = {
 		scope:actor = {
 			every_courtier = {
 				limit = {
-					bno_adult_bbc_actor_trigger = yes
+					valid_bbc_for_sneak_bbc_trigger = yes
 				}
 				add_to_list = characters
 			}
@@ -53,7 +53,7 @@ sneak_bbc = {
 			custom_tooltip = {
 				text = sneak_bbc.already_has_bbc_in_court
 				any_courtier = {
-					is_bbc = yes
+					valid_bbc_for_sneak_bbc_trigger = yes
 					count < 3
 				}
 			}

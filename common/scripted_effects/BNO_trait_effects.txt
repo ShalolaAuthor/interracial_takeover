@@ -903,25 +903,9 @@ bno_increase_cum_addiction_level = {
 }
 
 ### Trait Inheritance ###
-#bno_flag_inheritance
 #bno_normal_african_inheritance
 #bno_abnormal_african_inheritance
 ###
-
-bno_flag_inheritance = {
-	#Flag Inheritance
-	if = {
-		limit = {
-			exists = scope:mother
-			exists = scope:real_father
-			AND = {
-				scope:mother ?= { has_character_flag = bno_originally_african }
-				scope:real_father ?= { has_character_flag = bno_originally_african }
-			}
-		}
-		bno_seed_originally_african_flag = yes
-	}
-}
 
 bno_normal_african_inheritance = {
 	#African Trait
@@ -1053,7 +1037,10 @@ bno_normal_african_inheritance = {
 
 bno_abnormal_african_inheritance = {
 	if = {
-		limit = { scope:real_father = { is_bbc = yes } }
+		limit = {
+			exists = scope:real_father
+			scope:real_father = { is_bbc = yes } 
+		}
 		add_trait = bno_full_black
 		bno_add_bbc_trait_effect = yes
 	}

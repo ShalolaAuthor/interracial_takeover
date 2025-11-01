@@ -1,7 +1,9 @@
 ﻿### Here you will find on_actions for triggering milestone femboi events
 
 bno_femboi_1_milestone = {
-
+	events = {
+		bno_femboi.1111
+	}
 }
 
 bno_femboi_2_milestone = {
@@ -36,9 +38,16 @@ bno_femboi_pulse = {
 				add = bno_ai_events_chance
 			}
 		}
+		#0XP
 		1 = bno_femboi.0001
+		#1-25XP
 		1 = bno_femboi.0002
 		1 = bno_femboi.0003
 		1 = bno_femboi.0004
+		1 = bno_femboi.0005
+		1 = bno_femboi.0006
+		#25-50XP
+		#50-75XP
+		#75-100XP
 	}
 }

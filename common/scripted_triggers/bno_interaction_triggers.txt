@@ -30,6 +30,13 @@ bno_basic_interaction_valid_actor = {
     }
 }
 
+valid_bbc_for_sneak_bbc_trigger = {
+    bno_adult_bbc_actor_trigger = yes
+    has_any_court_position = no
+    is_knight = no
+    is_councillor = no
+}
+
 bno_adult_bbc_actor_trigger = {
     is_bbc = yes
     is_adult = yes
