@@ -40,5 +40,6 @@ bno_femboi_pulse = {
 		1 = bno_femboi.0002
 		1 = bno_femboi.0003
 		1 = bno_femboi.0004
+		1 = bno_femboi.0005
 	}
 }

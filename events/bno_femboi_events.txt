@@ -84,9 +84,9 @@ bno_femboi.0002 = {
     option = {
         name = bno_femboi.0002.a
         bno_increase_femboiness = {
-            XP = 1
+            XP = 2
         }
-        add_stress = -5
+        add_stress = -10
 
         save_scope_value_as = {
             name = femboi_narrative
@@ -97,9 +97,9 @@ bno_femboi.0002 = {
     option = {
         name = bno_femboi.0002.b
         bno_increase_femboiness = {
-            XP = 2
+            XP = 1
         }
-        add_stress = -10
+        add_stress = -5
 
         save_scope_value_as = {
             name = femboi_narrative
@@ -229,9 +229,9 @@ bno_femboi.0003 = {
     option = {
         name = bno_femboi.0003.a
         bno_increase_femboiness = {
-            XP = 1
+            XP = 2
         }
-        add_stress = -5
+        add_stress = -10
 
         save_scope_value_as = {
             name = femboi_narrative
@@ -242,9 +242,9 @@ bno_femboi.0003 = {
     option = {
         name = bno_femboi.0003.b
         bno_increase_femboiness = {
-            XP = 2
+            XP = 1
         }
-        add_stress = -10
+        add_stress = -5
 
         save_scope_value_as = {
             name = femboi_narrative
@@ -263,7 +263,7 @@ bno_femboi.0003 = {
     }
 
     after = {
-        trigger_event = bno_femboi.1002
+        trigger_event = bno_femboi.1003
     }
 }
 #follow ups
@@ -374,9 +374,9 @@ bno_femboi.0004 = {
     option = {
         name = bno_femboi.0004.a
         bno_increase_femboiness = {
-            XP = 1
+            XP = 3
         }
-        add_stress = -5
+        add_stress = -20
 
         save_scope_value_as = {
             name = femboi_narrative
@@ -408,7 +408,7 @@ bno_femboi.0004 = {
     }
 
     after = {
-        trigger_event = bno_femboi.1002
+        trigger_event = bno_femboi.1004
     }
 }
 #follow ups
@@ -515,6 +515,185 @@ bno_femboi.1004 = {
             }
         }
     }
+    after = {
+        bno_kill_character = {
+	    	TARGET = scope:bbc
+	    }
+    }
+}
+#The First Compliment
+bno_femboi.0005 = {
+    type = character_event
+    title = bno_femboi.0005.title
+    desc = bno_femboi.0005.desc
+    theme = seduction
+    override_background = { reference = feast }
+
+    left_portrait = {
+        character = root
+        animation = thinking
+    }
+
+    cooldown =  {
+        months = { 12 18 }
+    }
+
+    trigger = {
+        is_valid_for_milestone_0_events = yes
+    }
+
+    immediate = {
+
+    }
+
+    option = {
+        name = bno_femboi.0005.a
+        bno_increase_femboiness = {
+            XP = 2
+        }
+        add_stress = -5
+
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 1
+        }
+    }
+
+    option = {
+        name = bno_femboi.0005.b
+        bno_increase_femboiness = {
+            XP = 1
+        }
+        add_stress = -10
+
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 2
+        }
+    }
+    
+    option = {
+        name = bno_femboi.0005.c
+        add_stress = -20
+        bno_increase_femboiness = {
+            XP = 3
+        }
+
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 3
+        }
+    }
+
+    after = {
+        trigger_event = bno_femboi.1005
+    }
+}
+#follow ups
+bno_femboi.1005 = {
+    type = character_event
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 1 }
+                desc = bno_femboi.1005.title.1
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 2 }
+                desc = bno_femboi.1005.title.2
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 3 }
+                desc = bno_femboi.1005.title.3
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 1 }
+                desc = bno_femboi.1005.desc.1
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 2 }
+                desc = bno_femboi.1005.desc.2
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 3 }
+                desc = bno_femboi.1005.desc.3
+            }
+        }
+    }
+
+    left_portrait = {
+        character = root
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 1 }
+            animation = happiness
+        }
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 1 }
+            animation = shame
+        }
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 1 }
+            animation = sex_combined
+        }
+    }
+    right_portrait = {
+        character = scope:carn_sex_player
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 3 }
+            animation = sex_combined
+        }
+    }
+
+    trigger = {
+        is_alive = yes
+    }
+
+    theme = seduction
+    override_background = { reference = feast }
+
+    immediate = {
+        if = {
+            limit = {
+                scope:femboi_narrative = 3
+            }
+            create_bbc = {
+				age = bno_young_adult
+				SCOPE_NAME = bbc
+			}
+            carn_sex_scene_no_memory_effect = yes
+            bno_sex_scene_start = {
+		    	PARTNER = scope:bbc
+		    }
+            scope:carn_sex_player  = { set_variable = { name = sex_animation value = 14 } }
+            scope:carn_sex_partner = { set_variable = { name = sex_animation value = 13 } }
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 1 }
+                        desc = bno_femboi.1005.a.1
+                    }
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 2 }
+                        desc = bno_femboi.1005.a.2
+                    }
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 3 }
+                        desc = bno_femboi.1005.a.3
+                    }
+                }
+            }
+        }
+    }
+    
     after = {
         bno_kill_character = {
 	    	TARGET = scope:bbc
