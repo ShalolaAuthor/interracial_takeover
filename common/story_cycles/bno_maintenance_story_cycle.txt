@@ -21,33 +21,6 @@
         end_story = yes
     }
 
-	#TODO: remove it and make a real scenarios
-	effect_group = {
-		days = { 30 60 }
-		trigger = {
-			story_owner = {
-				is_valid_for_femboi_events = yes
-				has_trait_xp = {
-					trait = bno_femboi
-					value < 100
-				}
-			}
-		}
-		triggered_effect = {
-			trigger = {
-				always = yes
-			}
-			effect = {
-				story_owner = {
-					add_trait_xp = {
-						trait = bno_femboi
-						value = 1
-					}
-				}
-			}
-		}
-	}
-
     effect_group = {
         days = { 30 60 }
         trigger = {
