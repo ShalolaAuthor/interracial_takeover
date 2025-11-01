@@ -53,9 +53,13 @@ bno_femboi.0001 = {
         add_stress = 20
     }
 }
+<<<<<<< HEAD
+#milestone 0 events
+=======
 ######################
 ### Milestone 0 Events
 ######################
+>>>>>>> Story-Cycle
 #Mirror Confession
 bno_femboi.0002 = {
     type = character_event
@@ -345,6 +349,9 @@ bno_femboi.1003 = {
             }
         }
     }
+<<<<<<< HEAD
+}
+=======
 }
 #Teased by the Others
 bno_femboi.0004 = {
@@ -521,3 +528,4 @@ bno_femboi.1004 = {
 	    }
     }
 }
+>>>>>>> Story-Cycle
