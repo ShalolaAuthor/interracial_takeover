@@ -3,9 +3,6 @@
 ###################
 # inventory slots available to all characters by default
 ###
-# Character Inventory
-# NOTE: these are currently WIP placeholders!
-
 # Royal Court Furniture
 wall_big_1 = {
 	type = "wall_big"
@@ -82,6 +79,7 @@ pedestal_4 = {
 	category = court
 }
 
+# Character Inventory
 crown = {
 	type = "helmet"
 	category = inventory

@@ -8,12 +8,14 @@
         25 = {
             attraction_opinion = 5
             stress_loss_mult = 0.05
+            fertility = -0.25
         }
         50 = {
             attraction_opinion = 5
             general_opinion = 5
             ai_compassion = 1
             ai_boldness = 1
+            fertility = -0.5
         }
         75 = {
             attraction_opinion = 10
@@ -21,12 +23,14 @@
             negate_prowess_penalty_add = 1
             ai_sociability = 1
             ai_greed = -1
+            fertility = -0.75
         }
         100 = {
             attraction_opinion = 10
             general_opinion = 5
             negate_health_penalty_add = 1
             monthly_prestige_gain_per_knight_add = 0.05
+            fertility = -1.5
         }
     }
 

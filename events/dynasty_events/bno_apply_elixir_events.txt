@@ -813,10 +813,26 @@ bno_apply_elixir.0002 = {
             }
         }
         scope:actor = {
-            bno_use_tincture_of_genesis = yes
+            bno_use_elixir_of_the_black_womb = yes
         }
-        scope:recipient = {
-            add_trait = bno_seed_of_genesis
+        if = {
+            limit = {
+                scope:actor = scope:recipient
+                scope:actor = { is_bbc = no }
+            }
+            custom_tooltip = {
+                text = bno_apply_elixir.0002.effect.self.whiteboi
+                scope:recipient = {
+                    add_trait = bno_femboi
+                    trigger_event = bno_apply_elixir.1002
+                }
+            }
+        }
+        else = {
+            scope:recipient = {
+                add_trait = bno_femboi
+                trigger_event = bno_apply_elixir.1002
+            }
         }
         ai_chance = {
             base = 100
@@ -879,23 +895,9 @@ bno_apply_elixir.1002 = {
             triggered_desc = {
                 trigger = {
                     scope:actor = { is_slut = yes }
-                    scope:recipient = { is_bbc = yes }
-                }
-                desc = bno_apply_elixir.1002.title.slut.bbc
-            }
-            triggered_desc = {
-                trigger = {
-                    scope:actor = { is_slut = yes }
                     scope:recipient = { is_bbc = no }
                 }
                 desc = bno_apply_elixir.1002.title.slut.whiteboi
-            }
-            triggered_desc = {
-                trigger = {
-                    scope:actor = scope:recipient
-                    scope:actor = { is_bbc = yes }
-                }
-                desc = bno_apply_elixir.1002.title.self.bbc
             }
             triggered_desc = {
                 trigger = {
@@ -907,28 +909,9 @@ bno_apply_elixir.1002 = {
             triggered_desc = {
                 trigger = {
                     scope:actor = { is_bbc = yes }
-                    scope:recipient = { is_bbc = yes }
-                }
-                desc = bno_apply_elixir.1002.title.bbc.bbc
-            }
-            triggered_desc = {
-                trigger = {
-                    scope:actor = { is_bbc = yes }
                     scope:recipient = { is_bbc = no }
                 }
                 desc = bno_apply_elixir.1002.title.bbc.whiteboi
-            }
-            triggered_desc = {
-                trigger = {
-                    scope:actor = {
-                        is_whiteboi = yes
-                    }
-                    scope:recipient = {
-                        is_bbc = yes
-                        NOT = { this = scope:actor }
-                    }
-                }
-                desc = bno_apply_elixir.1002.title.whiteboi.bbc
             }
             triggered_desc = {
                 trigger = {
@@ -949,23 +932,9 @@ bno_apply_elixir.1002 = {
             triggered_desc = {
                 trigger = {
                     scope:actor = { is_slut = yes }
-                    scope:recipient = { is_bbc = yes }
-                }
-                desc = bno_apply_elixir.1002.desc.slut.bbc
-            }
-            triggered_desc = {
-                trigger = {
-                    scope:actor = { is_slut = yes }
                     scope:recipient = { is_bbc = no }
                 }
                 desc = bno_apply_elixir.1002.desc.slut.whiteboi
-            }
-            triggered_desc = {
-                trigger = {
-                    scope:actor = scope:recipient
-                    scope:actor = { is_bbc = yes }
-                }
-                desc = bno_apply_elixir.1002.desc.self.bbc
             }
             triggered_desc = {
                 trigger = {
@@ -977,28 +946,9 @@ bno_apply_elixir.1002 = {
             triggered_desc = {
                 trigger = {
                     scope:actor = { is_bbc = yes }
-                    scope:recipient = { is_bbc = yes }
-                }
-                desc = bno_apply_elixir.1002.desc.bbc.bbc
-            }
-            triggered_desc = {
-                trigger = {
-                    scope:actor = { is_bbc = yes }
                     scope:recipient = { is_bbc = no }
                 }
                 desc = bno_apply_elixir.1002.desc.bbc.whiteboi
-            }
-            triggered_desc = {
-                trigger = {
-                    scope:actor = {
-                        is_whiteboi = yes
-                    }
-                    scope:recipient = {
-                        is_bbc = yes
-                        NOT = { this = scope:actor }
-                    }
-                }
-                desc = bno_apply_elixir.1002.desc.whiteboi.bbc
             }
             triggered_desc = {
                 trigger = {
@@ -1033,6 +983,14 @@ bno_apply_elixir.1002 = {
         }
     }
     immediate = {
+        show_as_tooltip = {
+            scope:actor = {
+                bno_use_elixir_of_the_black_womb = yes
+            }
+            scope:recipient = {
+                add_trait = bno_femboi
+            }
+        }
     }
     option = { # apply
         name = {
@@ -1073,12 +1031,6 @@ bno_apply_elixir.1002 = {
                     }
                 }
             }
-        }
-        scope:actor = {
-            bno_use_tincture_of_genesis = yes
-        }
-        scope:recipient = {
-            add_trait = bno_seed_of_genesis
         }
         ai_chance = {
             base = 100

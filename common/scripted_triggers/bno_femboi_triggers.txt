@@ -1,4 +1,64 @@
 ﻿is_femboi = {
+    has_trait = bno_femboi
+}
+
+is_valid_for_femboi_events = {
+    is_adult = yes
+    is_femboi = yes
+    is_alive = yes
+    is_imprisoned = no
+}
+
+is_valid_for_milestone_0_events = {
+    is_valid_for_femboi_events = yes
+    has_trait_xp = {
+        trait = bno_femboi
+        value >= 1
+    }
+    has_trait_xp = {
+        trait = bno_femboi
+        value < 25
+    }
+}
+
+is_valid_for_milestone_1_events = {
+    is_valid_for_femboi_events = yes
+    has_trait_xp = {
+        trait = bno_femboi
+        value >= 25
+    }
+    has_trait_xp = {
+        trait = bno_femboi
+        value < 50
+    }
+}
+
+is_valid_for_milestone_2_events = {
+    is_valid_for_femboi_events = yes
+    has_trait_xp = {
+        trait = bno_femboi
+        value >= 50
+    }
+    has_trait_xp = {
+        trait = bno_femboi
+        value < 75
+    }
+}
+
+is_valid_for_milestone_3_events = {
+    is_valid_for_femboi_events = yes
+    has_trait_xp = {
+        trait = bno_femboi
+        value >= 75
+    }
+    has_trait_xp = {
+        trait = bno_femboi
+        value < 100
+    }
+}
+
+is_valid_for_milestone_4_events = {
+    is_valid_for_femboi_events = yes
     has_trait_xp = {
         trait = bno_femboi
         value >= 100

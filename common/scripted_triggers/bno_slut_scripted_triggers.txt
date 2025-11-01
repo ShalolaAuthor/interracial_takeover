@@ -27,7 +27,12 @@ is_a_male = {
 			is_male = yes
 			is_a_futa = yes
 		}
-		is_femboi = no
+		NOT = {
+			has_trait_xp = {
+				trait = bno_femboi
+				value >= 100
+			}
+		}
 	}
 }
 
@@ -309,7 +314,10 @@ is_a_futa = {
 }
 
 is_a_girl = {
-	is_female = yes
+	OR = {
+		is_female = yes
+		is_femboi = yes
+	}
 	is_bbc = no
 }
 
@@ -549,11 +557,16 @@ is_ai_qos = {
 	is_ai = yes
 }
 
-is_white_guy = {
+is_white = {
 	is_bbc = no
 	is_african = no
-	is_elligible_partner = yes
 	is_a_male = yes
+	is_adult = yes
+}
+
+is_white_guy = {
+	is_white = yes
+	is_whiteboi = yes
 }
 
 is_married_white_guy = {

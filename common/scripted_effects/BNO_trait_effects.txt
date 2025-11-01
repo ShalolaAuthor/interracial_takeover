@@ -142,9 +142,10 @@ become_less_slut = {
 bno_increase_sluttyness = {
 	if = {
 		limit = {
-			AND = {
-				NOT = { has_trait = bno_whitegirl }
-				NOT = { has_trait = bno_full_black }
+			is_a_girl = yes
+			NOR = {
+				has_trait = bno_whitegirl
+				has_trait = bno_full_black
 			}
 		}
 		add_trait = bno_whitegirl_1
@@ -651,6 +652,7 @@ bno_increase_pussy_wear_effect = {
     $GIRL_SCOPE$ = {
         if = {
             limit = {
+				is_male = no
                 is_a_girl = yes
                 NOT = { has_trait = bno_pussy_mileage_6 }
             }
@@ -1066,14 +1068,60 @@ bno_abnormal_african_inheritance = {
 ###
 
 bno_increase_femboiness = {
-	switch = {
-		trigger = has_trait
-		bno_femboi = {
-			add_trait_xp = {
+	add_trait_xp = {
+		trait = bno_femboi
+		value = $XP$
+	}
+	if = {
+		limit = {
+			NOT = { has_character_flag = bno_femboi_1_milestone }
+			has_trait_xp = {
 				trait = bno_femboi
-				value = { 1 2 }
+				value >= 25
 			}
 		}
-		fallback = { add_trait = bno_femboi }
+		add_character_flag = bno_femboi_1_milestone
+		trigger_event = {
+			on_action = bno_femboi_1_milestone
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { has_character_flag = bno_femboi_2_milestone }
+			has_trait_xp = {
+				trait = bno_femboi
+				value >= 50
+			}
+		}
+		add_character_flag = bno_femboi_2_milestone
+		trigger_event = {
+			on_action = bno_femboi_2_milestone
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { has_character_flag = bno_femboi_3_milestone }
+			has_trait_xp = {
+				trait = bno_femboi
+				value >= 75
+			}
+		}
+		add_character_flag = bno_femboi_3_milestone
+		trigger_event = {
+			on_action = bno_femboi_3_milestone
+		}
+	}
+	else_if = {
+		limit = {
+			NOT = { has_character_flag = bno_femboi_4_milestone }
+			has_trait_xp = {
+				trait = bno_femboi
+				value >= 100
+			}
+		}
+		add_character_flag = bno_femboi_4_milestone
+		trigger_event = {
+			on_action = bno_femboi_4_milestone
+		}
 	}
 }

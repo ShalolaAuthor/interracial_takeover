@@ -5,14 +5,865 @@
         gene = bno_femboi_hairs
         template = no_hairstyles
         is_valid_custom = {
-            has_trait = femboi
+            OR = {
+                has_trait = femboi
+                has_trait = bno_femboi
+            }
         }
     }
     add_accessory_modifiers = {
         gene = bno_femboi_hairs
         template = bno_femboi_hairstyles
         is_valid_custom = {
-            has_trait = femboi
+            OR = {
+                has_trait = femboi
+                has_trait = bno_femboi
+            }
+        }
+    }
+}
+
+bno_femboi = {
+    usage = game
+    priority = 999
+    bno_dynamic_femboi_body = {
+        dna_modifiers = {
+            morph = {
+				mode = modify_multiply
+				gene = gene_body_hair
+				value = 0.0
+			}
+            accessory = {
+                mode = add
+                gene = beards
+                template = no_beard
+                value = 0
+            }
+            morph = {
+                mode = modify
+                gene = gene_height
+                template = normal_height
+                value = {
+                    value = bno_femboi_transformation_xp_amount
+                    multiply = 2
+                    divide = 1000
+                    multiply = -1
+                }
+            }
+            morph = {
+                mode = modify
+                gene = gene_bs_butt_size
+                value = {
+                    value = bno_femboi_transformation_xp_amount
+                    divide = 100
+                }
+            }
+            morph = {
+                mode = modify
+                gene = gene_bs_hips_size
+                value = {
+                    value = bno_femboi_transformation_xp_amount
+                    divide = 100
+                }
+            }
+            morph = {
+                mode = modify
+                gene = gene_bs_shoulders_size
+                value = {
+                    value = bno_femboi_transformation_xp_amount
+                    divide = 100
+                    multiply = -1
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_bs_femboy_male
+                template = femboi_normal
+                value = {
+                    value = bno_femboi_transformation_xp_amount
+                    divide = 100
+                }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1
+                OR = {
+                    has_trait = femboi
+                    has_trait = bno_femboi
+                }
+            }
+        }
+    }
+}
+
+bno_femboi_accesories = {
+    usage = game
+    priority = 999
+    bno_femboi_accesories = {
+        dna_modifiers = {
+            accessory = {
+                mode = add
+                gene = cloaks
+                template = no_cloak
+                value = 0
+            }
+            accessory = {
+				mode = add
+				gene = clothes
+				template = no_clothes
+				value = 0
+			}
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 0
+			}
+            accessory = {
+                mode = add
+                gene = phaze_clothes
+                template = northern_superbottom_01
+                value = { 0 1 }
+            }
+            accessory = {
+                mode = add
+                gene = hairstyles
+                template = no_hairstyles
+                value = 0
+            }
+            accessory = {
+        	    mode = add
+        	    gene = bno_femboi_hairs
+        	    template = bno_femboi_hairstyles
+        	    value = { 0 1 }
+        	}
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1
+                has_trait_xp = {
+                    trait = bno_femboi
+                    value >= 50
+                }
+            }
+        }
+    }
+}
+
+bno_femboi_face = {
+    usage = game
+    priority = 999
+    bno_dynamic_femboi_face = {
+        dna_modifiers = {
+            morph = {
+				mode = add
+				gene = eyelash_extensions
+				template = eyelash_extensions
+				value = {
+                    value = 0
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.5
+                    }
+                }
+			}
+            morph = {
+				mode = add
+				gene = blush
+				template = blush
+				value = {
+                    value = 0
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 1
+                    }
+                }
+			}
+            morph = {
+				mode = add
+				gene = eyeliner
+				template = black_eyeliner
+				value = {
+                    value = 0
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 1
+                    }
+                }
+			}
+            morph = {
+				mode = add
+				gene = eye_shadow
+				template = eye_shadow
+				value = {
+                    value = 0
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 1
+                    }
+                }
+			}
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_cheek_forward
+                template = cheek_forward_pos
+                value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 2
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_cheek_height
+                template = cheek_height_neg
+                value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.9
+                    }
+                }
+            }
+            morph = {
+                mode = add
+                gene = gene_bs_cheek_width
+                template = cheek_width_neg
+                value = {
+                    value = 0
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 1
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_cheek_height
+                template = cheek_height_pos
+                value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.5
+                    }
+                }
+            }
+			morph = {
+				mode = modify_multiply
+				gene = gene_bs_cheek_width
+				template = cheek_width_pos
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.8
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = face_detail_eye_socket
+				template = eye_socket_01
+				value = {
+                    value = 100
+                    subtract = bno_femboi_transformation_xp_amount
+                    divide = 100
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_bs_eye_size
+				template = eye_size_pos
+				value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 1
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_bs_eye_corner_depth
+				template = eye_corner_depth_pos
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.9
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_bs_body_type
+				template = body_fat_head_fat_low
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_jaw_width
+				template = jaw_width_neg
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.3
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_mouth_width
+				template = mouth_width_neg
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.3
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_bs_nose_tip_width
+				template = nose_tip_width_neg
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.8
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = face_detail_cheek_def
+				template = cheek_def_02
+				value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 1
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_forehead_roundness
+				template = forehead_roundness_pos
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_forehead_width
+				template = forehead_width_pos
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_forehead_height
+				template = forehead_height_pos
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_head_width
+				template = head_width_neg
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_head_profile
+				template = head_profile_neg
+				value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.3
+                    }
+                }
+			}
+            morph = {
+				mode = add
+				gene = complexion
+				template = complexion_beauty_1
+				value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 1
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_chin_forward
+				template = chin_forward_neg
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.1
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_chin_height
+				template = chin_height_pos
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_chin_width
+				template = chin_width_neg
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.5
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_jaw_angle
+				template = jaw_angle_neg
+				value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_jaw_forward
+				template = jaw_forward_neg
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.1
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_jaw_height
+				template = jaw_height_neg
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = face_detail_cheek_fat
+				template = cheek_fat_02_pos
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.9
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = face_detail_nasolabial
+				template = nasolabial_02
+                value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.9
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_forehead_angle
+				template = forehead_angle_pos
+				value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_head_top_height
+				template = head_top_height_neg
+				value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.1
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_head_top_width
+				template = head_top_width_pos
+				value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_mouth_upper_lip_size
+				template = mouth_upper_lip_size_pos
+				value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 1
+                    }
+                }
+			}
+            morph = {
+				mode = modify_multiply
+				gene = gene_mouth_lower_lip_size
+				template = mouth_lower_lip_size_pos
+				value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 1
+                    }
+                }
+			}
+            morph = {
+                mode = modify_multiply
+                gene = gene_mouth_forward
+                template = mouth_forward_pos
+                value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_head_height
+                template = head_height_pos
+                value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.3
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_mouth_philtrum_width
+                template = mouth_philtrum_width_pos
+                value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.9
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_mouth_philtrum_shape
+                template = mouth_philtrum_shape_pos
+                value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.5
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_mouth_upper_lip_full
+                template = mouth_upper_lip_full_pos
+                value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 2
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_mouth_lower_lip_full
+                template = mouth_lower_lip_full_pos
+                value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 2
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_mouth_upper_lip_def
+                template = mouth_upper_lip_def_pos
+                value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 1
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_mouth_lower_lip_def
+                template = mouth_lower_lip_def_pos
+                value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 1
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_mouth_height
+                template = mouth_height_pos
+                value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.1
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_jaw_height
+                template = jaw_height_pos
+                value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_neck_width
+                template = neck_width_pos
+                value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.5
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_neck_length
+                template = neck_length_pos
+                value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.5
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_nose_size
+                template = nose_size_neg
+                value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 11
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_nose_tip_angle
+                template = nose_tip_angle_pos
+                value = {
+                    value = 1
+                    add = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 1
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_forehead_brow_height
+                template = forehead_brow_height_neg
+                value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.2
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_forehead_brow_curve
+                template = forehead_brow_curve_neg
+                value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.9
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_forehead_brow_forward
+                template = forehead_brow_forward_neg
+                value = {
+                    value = 1
+                    subtract = {
+                        value = bno_femboi_transformation_xp_amount
+                        divide = 100
+                        multiply = 0.8
+                    }
+                }
+            }
+            morph = {
+                mode = modify_multiply
+                gene = expression_brow_wrinkles
+                template = brow_wrinkles_01
+                value = {
+                    value = 100
+                    subtract = bno_femboi_transformation_xp_amount
+                    divide = 100
+                }
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1
+                OR = {
+                    has_trait = femboi
+                    has_trait = bno_femboi
+                }
+            }
         }
     }
 }
