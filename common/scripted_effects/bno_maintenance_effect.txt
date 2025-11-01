@@ -5,12 +5,7 @@
 			bno_is_graphically_african = yes
 		}
 		add_trait = bno_full_black
-		bno_seed_originally_african_flag = yes
 	}
-}
-
-bno_seed_originally_african_flag = {
-    add_character_flag = bno_originally_african
 }
 
 bno_apply_bbc_trait = {

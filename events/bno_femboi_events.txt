@@ -463,7 +463,7 @@ bno_femboi.1004 = {
         }
     }
     right_portrait = {
-        character = scope:carn_sex_player
+        character = scope:carn_sex_partner
         triggered_animation = {
             trigger = { scope:femboi_narrative = 1 }
             animation = sex_combined
@@ -641,7 +641,7 @@ bno_femboi.1005 = {
         }
     }
     right_portrait = {
-        character = scope:carn_sex_player
+        character = scope:carn_sex_partner
         triggered_animation = {
             trigger = { scope:femboi_narrative = 3 }
             animation = sex_combined
@@ -845,6 +845,43 @@ bno_femboi.1006 = {
                     }
                 }
             }
+        }
+    }
+}
+######################
+### Milestone 1 Events
+######################
+bno_femboi.1111 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = army_camp
+    }
+    title = bno_femboi.1111.title
+    desc = bno_femboi.1111.desc
+
+    left_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+    }
+    right_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+    immediate = {
+        carn_sex_scene_no_memory_effect = yes
+        bno_sex_scene_start = {
+			PARTNER = scope:bbc
+		}
+        scope:carn_sex_player  = { set_variable = { name = sex_animation value = 14 } }
+        scope:carn_sex_partner = { set_variable = { name = sex_animation value = 13 } }
+    }
+    option = {
+        name = bno_femboi.1111.a
+    }
+    after = {
+        bno_kill_character = {
+            TARGET = scope:bbc
         }
     }
 }

@@ -1,8 +1,5 @@
 ﻿bno_blood = {
 	bno_full_black_portrait_modifier = {
-		trigger = {
-			NOT = { has_character_flag = bno_originally_african }
-		}
 		traits = {
 			bno_full_black
 		}
@@ -19,9 +16,6 @@
 		}
 	}
 	bno_mostly_black_portrait_modifier = {
-		trigger = {
-			NOT = { has_character_flag = bno_originally_african }
-		}
 		traits = {
 			bno_mostly_black
 		}
@@ -38,9 +32,6 @@
 		}
 	}
 	bno_mixed_portrait_modifier = {
-		trigger = {
-			NOT = { has_character_flag = bno_originally_african }
-		}
 		traits = {
 			bno_mixed
 		}
@@ -57,9 +48,6 @@
 		}
 	}
 	bno_barely_mixed_portrait_modifier = {
-		trigger = {
-			NOT = { has_character_flag = bno_originally_african }
-		}
 		traits = {
 			bno_barely_mixed
 		}
