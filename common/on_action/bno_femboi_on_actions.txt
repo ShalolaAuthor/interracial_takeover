@@ -13,7 +13,9 @@ bno_femboi_3_milestone = {
 }
 
 bno_femboi_4_milestone = {
-
+	effect = {
+		add_trait = femboi
+	}
 }
 
 bno_femboi_pulse = {
@@ -21,7 +23,7 @@ bno_femboi_pulse = {
 		NOT = { has_character_flag = bno_recently_get_femboi_events }
 	}
 	effect = {
-		add_character_flag = bno_recently_get_slut_events
+		add_character_flag = bno_recently_get_femboi_events
 	}
 	random_events = {
 		chance_to_happen = 100

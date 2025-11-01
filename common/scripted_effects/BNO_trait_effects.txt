@@ -1080,6 +1080,7 @@ bno_increase_femboiness = {
 				value >= 25
 			}
 		}
+		add_character_flag = bno_femboi_1_milestone
 		trigger_event = {
 			on_action = bno_femboi_1_milestone
 		}
@@ -1092,6 +1093,7 @@ bno_increase_femboiness = {
 				value >= 50
 			}
 		}
+		add_character_flag = bno_femboi_2_milestone
 		trigger_event = {
 			on_action = bno_femboi_2_milestone
 		}
@@ -1104,6 +1106,7 @@ bno_increase_femboiness = {
 				value >= 75
 			}
 		}
+		add_character_flag = bno_femboi_3_milestone
 		trigger_event = {
 			on_action = bno_femboi_3_milestone
 		}
@@ -1116,6 +1119,7 @@ bno_increase_femboiness = {
 				value >= 100
 			}
 		}
+		add_character_flag = bno_femboi_4_milestone
 		trigger_event = {
 			on_action = bno_femboi_4_milestone
 		}
