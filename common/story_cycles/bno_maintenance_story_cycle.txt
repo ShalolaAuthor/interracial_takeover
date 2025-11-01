@@ -824,13 +824,13 @@
 			        OR = {
                         any_courtier = {
 			            	NOT = { is_spouse_of = scope:actor }
-			            	bno_adult_bbc_actor_trigger = yes
+			            	valid_bbc_for_sneak_bbc_trigger = yes
 			            	count > 2
 			            }
                         liege ?= {
                             any_courtier = {
 			                	NOT = { is_spouse_of = scope:actor }
-			                	bno_adult_bbc_actor_trigger = yes
+			                	valid_bbc_for_sneak_bbc_trigger = yes
 			                	count > 2
 			                }
                         }
@@ -864,7 +864,7 @@
                     random_courtier = {
 		            	limit = {
 		            		NOT = { is_spouse_of = scope:actor }
-		            		bno_adult_bbc_actor_trigger = yes
+		            		valid_bbc_for_sneak_bbc_trigger = yes
 		            	}
 		            	save_scope_as = secondary_actor
 		            }
@@ -876,7 +876,7 @@
                             random_courtier = {
 		                    	limit = {
 		                    		NOT = { is_spouse_of = scope:actor }
-		                    		bno_adult_bbc_actor_trigger = yes
+		                    		valid_bbc_for_sneak_bbc_trigger = yes
 		                    	}
 		                    	save_scope_as = secondary_actor
 		                    }
