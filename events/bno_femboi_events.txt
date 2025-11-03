@@ -851,6 +851,7 @@ bno_femboi.1006 = {
 ######################
 ### Milestone 1 Events
 ######################
+#Milestone event
 bno_femboi.1111 = {
     type = character_event
     theme = love
@@ -895,6 +896,9 @@ bno_femboi.0007 = {
     theme = love
     override_background = {
         reference = tavern
+    }
+    cooldown = {
+        months = { 12 18 }
     }
     title = bno_femboi.0007.title
     desc = bno_femboi.0007.desc
@@ -1051,6 +1055,9 @@ bno_femboi.0008 = {
     override_background = {
         reference = tavern
     }
+    cooldown = {
+        months = { 12 18 }
+    }
     title = bno_femboi.0008.title
     desc = bno_femboi.0008.desc
     left_portrait = {
@@ -1168,3 +1175,417 @@ bno_femboi.1008 = {
         }
     }
 }
+#The Public Parade
+bno_femboi.0009 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = tavern
+    }
+    cooldown = {
+        months = { 12 18 }
+    }
+    title = bno_femboi.0009.title
+    desc = bno_femboi.0009.desc
+    left_portrait = {
+        character = root
+        animation = happiness
+    }
+    option = {
+        name = bno_femboi.0009.a
+        bno_increase_femboiness = {
+            XP = 2
+        }
+        add_stress = -10
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 1
+        }
+    }
+    option = {
+        name = bno_femboi.0009.b
+        bno_increase_femboiness = {
+            XP = 1
+        }
+        add_stress = -5
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 2
+        }
+    }
+    option = {
+        name = bno_femboi.0009.c
+        add_stress = 10
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 3
+        }
+    }
+    after = {
+        trigger_event = bno_femboi.1009
+    }
+}
+#follow up
+bno_femboi.1009 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = tavern
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 1 }
+                desc = bno_femboi.1009.title.1
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 2 }
+                desc = bno_femboi.1009.title.2
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 3 }
+                desc = bno_femboi.1009.title.3
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 1 }
+                desc = bno_femboi.1009.desc.1
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 2 }
+                desc = bno_femboi.1009.desc.2
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 3 }
+                desc = bno_femboi.1009.desc.3
+            }
+        }
+    }
+
+    left_portrait = {
+        character = root
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 1 }
+            animation = ecstasy
+        }
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 2 }
+            animation = love
+        }
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 3 }
+            animation = shame
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 1 }
+                        desc = bno_femboi.1009.a.1
+                    }
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 2 }
+                        desc = bno_femboi.1009.a.2
+                    }
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 3 }
+                        desc = bno_femboi.1009.a.3
+                    }
+                }
+            }
+        }
+    }
+}
+#Nectar Tasting
+bno_femboi.0010 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = tavern
+    }
+    cooldown = {
+        months = { 12 18 }
+    }
+    title = bno_femboi.0010.title
+    desc = bno_femboi.0010.desc
+    left_portrait = {
+        character = root
+        animation = happiness
+    }
+    option = {
+        name = bno_femboi.0010.a
+        bno_increase_femboiness = {
+            XP = 2
+        }
+        add_stress = -10
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 1
+        }
+    }
+    option = {
+        name = bno_femboi.0010.b
+        bno_increase_femboiness = {
+            XP = 1
+        }
+        add_stress = -5
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 2
+        }
+    }
+    option = {
+        name = bno_femboi.0010.c
+        add_stress = 10
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 3
+        }
+    }
+    after = {
+        trigger_event = bno_femboi.1010
+    }
+}
+#follow up
+bno_femboi.1010 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = tavern
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 1 }
+                desc = bno_femboi.1010.title.1
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 2 }
+                desc = bno_femboi.1010.title.2
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 3 }
+                desc = bno_femboi.1010.title.3
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 1 }
+                desc = bno_femboi.1010.desc.1
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 2 }
+                desc = bno_femboi.1010.desc.2
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 3 }
+                desc = bno_femboi.1010.desc.3
+            }
+        }
+    }
+
+    left_portrait = {
+        character = root
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 1 }
+            animation = ecstasy
+        }
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 2 }
+            animation = love
+        }
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 3 }
+            animation = shame
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 1 }
+                        desc = bno_femboi.1010.a.1
+                    }
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 2 }
+                        desc = bno_femboi.1010.a.2
+                    }
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 3 }
+                        desc = bno_femboi.1010.a.3
+                    }
+                }
+            }
+        }
+    }
+}
+#The BBC Scent Game
+bno_femboi.0011 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = tavern
+    }
+    cooldown = {
+        months = { 12 18 }
+    }
+    title = bno_femboi.0011.title
+    desc = bno_femboi.0011.desc
+    left_portrait = {
+        character = root
+        animation = happiness
+    }
+    option = {
+        name = bno_femboi.0011.a
+        random_list = {
+            1 = {    
+                save_scope_value_as = {
+                    name = femboi_narrative
+                    value = 1
+                }
+            }
+            4 = {    
+                save_scope_value_as = {
+                    name = femboi_narrative
+                    value = 2
+                }
+            }
+        }
+    }
+    after = {
+        trigger_event = bno_femboi.1011
+    }
+}
+#follow up
+bno_femboi.1011 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = tavern
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 1 }
+                desc = bno_femboi.1011.title.1
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 2 }
+                desc = bno_femboi.1011.title.2
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 1 }
+                desc = bno_femboi.1011.desc.1
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 2 }
+                desc = bno_femboi.1011.desc.2
+            }
+        }
+    }
+
+    left_portrait = {
+        character = root
+        animation = sex_combined
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+    }
+
+    immediate = {
+        create_bbc = {
+            age = bno_young_adult
+            SCOPE_NAME = bbc_1
+        }
+        create_bbc = {
+            age = bno_young_adult
+            SCOPE_NAME = bbc_2
+        }
+        create_bbc = {
+            age = bno_young_adult
+            SCOPE_NAME = bbc_3
+        }
+        create_bbc = {
+            age = bno_young_adult
+            SCOPE_NAME = bbc_4
+        }
+        create_bbc = {
+            age = bno_young_adult
+            SCOPE_NAME = bbc_5
+        }
+        carn_sex_scene_no_memory_effect = yes
+        bno_sex_scene_start = {
+			PARTNER = scope:bbc_1
+		}
+        scope:carn_sex_player  = { set_variable = { name = sex_animation value = 14 } }
+        scope:carn_sex_partner = { set_variable = { name = sex_animation value = 13 } }
+        if = {
+            limit = { scope:femboi_narrative = 2 }
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc_2
+            }
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc_3
+            }
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc_4
+            }
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc_5
+            }
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 1 }
+                        desc = bno_femboi.1011.a.1
+                    }
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 2 }
+                        desc = bno_femboi.1011.a.2
+                    }
+                }
+            }
+        }
+    }
+    after = {
+        bno_kill_character = {
+            TARGET = scope:bbc_1
+        }
+        bno_kill_character = {
+            TARGET = scope:bbc_2
+        }
+        bno_kill_character = {
+            TARGET = scope:bbc_3
+        }
+        bno_kill_character = {
+            TARGET = scope:bbc_4
+        }
+        bno_kill_character = {
+            TARGET = scope:bbc_5
+        }
+    }
+}
+######################
+### Milestone 2 Events
+######################
