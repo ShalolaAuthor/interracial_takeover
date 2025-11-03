@@ -1589,3 +1589,20 @@ bno_femboi.1011 = {
 ######################
 ### Milestone 2 Events
 ######################
+#Milestone event
+bno_femboi.2222 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = bedchamber
+    }
+    title = bno_femboi.2222.title
+    desc = bno_femboi.2222.desc
+    left_portrait = {
+        character = root
+        animation = bno_sex_love_stand_1
+    }
+    option = {
+        name = bno_femboi.2222.a
+    }
+}

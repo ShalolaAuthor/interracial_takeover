@@ -7,7 +7,9 @@ bno_femboi_1_milestone = {
 }
 
 bno_femboi_2_milestone = {
-
+	events = {
+		bno_femboi.2222
+	}
 }
 
 bno_femboi_3_milestone = {
