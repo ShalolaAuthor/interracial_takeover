@@ -48,6 +48,7 @@ bno_femboi_pulse = {
 		1 = bno_femboi.0006
 		#25-50XP
 		1 = bno_femboi.0007
+		1 = bno_femboi.0008
 		#50-75XP
 		#75-100XP
 	}

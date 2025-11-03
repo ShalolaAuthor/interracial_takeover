@@ -1044,3 +1044,127 @@ bno_femboi.1007 = {
         }
     }
 }
+#Milking Lesson
+bno_femboi.0008 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = tavern
+    }
+    title = bno_femboi.0008.title
+    desc = bno_femboi.0008.desc
+    left_portrait = {
+        character = root
+        animation = happiness
+    }
+    option = {
+        name = bno_femboi.0008.a
+        bno_increase_femboiness = {
+            XP = 2
+        }
+        add_stress = -10
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 1
+        }
+    }
+    option = {
+        name = bno_femboi.0008.b
+        bno_increase_femboiness = {
+            XP = 1
+        }
+        add_stress = -5
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 2
+        }
+    }
+    option = {
+        name = bno_femboi.0008.c
+        add_stress = 10
+        save_scope_value_as = {
+            name = femboi_narrative
+            value = 3
+        }
+    }
+    after = {
+        trigger_event = bno_femboi.1008
+    }
+}
+#follow up
+bno_femboi.1008 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = tavern
+    }
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 1 }
+                desc = bno_femboi.1008.title.1
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 2 }
+                desc = bno_femboi.1008.title.2
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 3 }
+                desc = bno_femboi.1008.title.3
+            }
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 1 }
+                desc = bno_femboi.1008.desc.1
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 2 }
+                desc = bno_femboi.1008.desc.2
+            }
+            triggered_desc = {
+                trigger = { scope:femboi_narrative = 3 }
+                desc = bno_femboi.1008.desc.3
+            }
+        }
+    }
+
+    left_portrait = {
+        character = root
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 1 }
+            animation = ecstasy
+        }
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 2 }
+            animation = love
+        }
+        triggered_animation = {
+            trigger = { scope:femboi_narrative = 3 }
+            animation = shame
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 1 }
+                        desc = bno_femboi.1008.a.1
+                    }
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 2 }
+                        desc = bno_femboi.1008.a.2
+                    }
+                    triggered_desc = {
+                        trigger = { scope:femboi_narrative = 3 }
+                        desc = bno_femboi.1008.a.3
+                    }
+                }
+            }
+        }
+    }
+}
