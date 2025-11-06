@@ -1,0 +1,9 @@
+﻿bno_lap_pet = {
+    icon = lap_pet
+    general_opinion = 5
+    attraction_opinion = 10 
+    stress_loss_mult = 0.1
+    diplomacy = 1
+    intrigue = 1
+    stacking = yes
+}

@@ -1621,3 +1621,24 @@ bno_femboi.2222 = {
         name = bno_femboi.2222.a
     }
 }
+#Bull’s Lap Pet
+bno_femboi.0012 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = feast
+    }
+    title = bno_femboi.0012.title
+    desc = bno_femboi.0012.desc
+    trigger = {
+        is_valid_for_milestone_2_events = yes
+    }
+    left_portrait = {
+        character =  root
+        animation = bno_sex_love_stand_2
+    }
+    option = {
+        name = bno_femboi.0012.a
+        add_character_modifier = bno_lap_pet
+    }
+}
