@@ -133,7 +133,7 @@
             }
             effect = {
                 story_owner = {
-                    set_character_faith_with_conversion = liege.faith
+                    set_character_faith = liege.faith
                 }
             }
         }
