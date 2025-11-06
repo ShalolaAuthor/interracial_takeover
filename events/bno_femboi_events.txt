@@ -906,6 +906,9 @@ bno_femboi.0007 = {
         character = root
         animation = happiness
     }
+    trigger = {
+        is_valid_for_milestone_1_events = yes
+    }
     option = {
         name = bno_femboi.0007.a
         bno_increase_femboiness = {
@@ -1064,6 +1067,9 @@ bno_femboi.0008 = {
         character = root
         animation = happiness
     }
+    trigger = {
+        is_valid_for_milestone_1_events = yes
+    }
     option = {
         name = bno_femboi.0008.a
         bno_increase_femboiness = {
@@ -1190,6 +1196,9 @@ bno_femboi.0009 = {
     left_portrait = {
         character = root
         animation = happiness
+    }
+    trigger = {
+        is_valid_for_milestone_1_events = yes
     }
     option = {
         name = bno_femboi.0009.a
@@ -1318,6 +1327,9 @@ bno_femboi.0010 = {
         character = root
         animation = happiness
     }
+    trigger = {
+        is_valid_for_milestone_1_events = yes
+    }
     option = {
         name = bno_femboi.0010.a
         bno_increase_femboiness = {
@@ -1444,6 +1456,9 @@ bno_femboi.0011 = {
     left_portrait = {
         character = root
         animation = happiness
+    }
+    trigger = {
+        is_valid_for_milestone_1_events = yes
     }
     option = {
         name = bno_femboi.0011.a

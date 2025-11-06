@@ -280,6 +280,7 @@
                 }
             }
         }
+		#TODO move this to its own story cycle add event for femboi that wear cage, or recurring event to escape from the cage
         #make dick smaller if wearing cage
         triggered_effect = {
             trigger = {
