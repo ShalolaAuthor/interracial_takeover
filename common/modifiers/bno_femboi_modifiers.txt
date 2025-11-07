@@ -7,3 +7,17 @@
     intrigue = 1
     stacking = yes
 }
+bno_finishing_school = {
+    icon = finishing_school
+    attraction_opinion = 10
+    stress_loss_mult = 0.1
+    diplomacy = 1
+    stacking = yes
+}
+bno_seedfast = {
+    icon = seedfast
+    attraction_opinion = 10
+    health = 0.1
+    stress_loss_mult = 0.1
+    stacking = yes
+}
