@@ -1,0 +1,13 @@
+﻿bno_blank_character_template = {
+    diplomacy = 0
+    martial = 0
+    stewardship = 0
+    intrigue = 0
+    learning = 0
+    prowess = 0
+    age = this.age
+    faith = this.faith
+    culture = this.culture
+    gender = female
+    random_traits = no
+}

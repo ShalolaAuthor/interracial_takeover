@@ -385,6 +385,24 @@ remove_whitegirl_trait_effect = {
 	}
 }
 
+remove_whiteboi_trait_effect = {
+	switch = {
+		trigger = has_trait
+		bno_whiteboi_1 = { remove_trait = bno_whiteboi_1 }
+		bno_whiteboi_2 = { remove_trait = bno_whiteboi_2 }
+		bno_whiteboi_3 = { remove_trait = bno_whiteboi_3 }
+		bno_whiteboi_4 = { remove_trait = bno_whiteboi_4 }
+	}
+}
+
+remove_chastity_trait_effect = {
+	switch = {
+		trigger = has_trait
+		bno_caged = { remove_trait = bno_caged }
+		bno_castrated = { remove_trait = bno_castrated }
+	}
+}
+
 bno_remove_dick_trait_for_castrated_or_eunuch = {
     if = {
 		limit = {

@@ -93,6 +93,7 @@ bno_femboi = {
                     has_trait = femboi
                     has_trait = bno_femboi
                 }
+                is_male = yes
             }
         }
     }
@@ -148,6 +149,7 @@ bno_femboi_accesories = {
                     trait = bno_femboi
                     value >= 50
                 }
+                is_male = yes
             }
         }
     }
@@ -863,6 +865,7 @@ bno_femboi_face = {
                     has_trait = femboi
                     has_trait = bno_femboi
                 }
+                is_male = yes
             }
         }
     }

@@ -1,0 +1,92 @@
+﻿bno_mtf_effect = {
+    save_scope_as = old_character
+    every_character_trait = {
+        add_to_list = bno_original_trait
+    }
+    create_character = {
+        template = bno_blank_character_template
+        dynasty = scope:old_character.dynasty
+        location = scope:old_character.location
+        save_scope_as = bno_female
+        after_creation = {
+            copy_inheritable_appearance_from = scope:old_character
+            scope:old_character = {
+                every_in_list = {
+                    list = bno_original_trait
+                    save_scope_as = bno_new_trait
+                    scope:bno_female = {
+                        add_trait = scope:bno_new_trait
+                    }
+                }
+            }
+            if = {
+                limit = { scope:old_character = { has_dynasty = yes } }
+                set_house = scope:old_character.house
+            }
+            if = {
+                limit = { exists = scope:old_character.mother }
+                set_mother = scope:old_character.mother
+            }
+            if = {
+                limit = { exists = scope:old_character.father }
+                set_father = scope:old_character.father
+            }
+            add_diplomacy_skill = {
+                value = scope:old_character.diplomacy
+            }
+            add_martial_skill = {
+                value = scope:old_character.martial
+            }
+            add_stewardship_skill = {
+                value = scope:old_character.stewardship
+            }
+            add_intrigue_skill = {
+                value = scope:old_character.intrigue
+            }
+            add_learning_skill = {
+                value = scope:old_character.learning
+            }
+            add_prowess_skill = {
+                value = scope:old_character.prowess
+            }
+            remove_whiteboi_trait_effect = yes
+            remove_chastity_trait_effect = yes
+            set_sexuality = bisexual
+            create_story = story_bno_maintenance
+            #TODO: add modifier from original character
+        }
+    }
+    every_held_title = {
+        add_to_list = old_character_titles
+    }
+    hidden_effect = {
+        scope:bno_female = {
+            create_landless_adventurer_title_effect = {
+                REASON = flag:voluntary
+                FLAVOR_CHAR = scope:old_character
+            }
+        }
+        set_player_character = scope:bno_female
+    }
+    hidden_effect = {
+        ep3_become_landed_transfer_effect = {
+			TITLE_RECEIVER = scope:bno_female
+			TITLE_LIST = old_character_titles
+			TYPE = granted
+			REASON = flag:granted
+		}
+        scope:bno_female = {
+            remove_character_modifier = ep3_ennobled_adventurer_modifier_1
+            remove_character_modifier = ep3_ennobled_adventurer_modifier_2
+            remove_character_modifier = ep3_ennobled_adventurer_modifier_3
+            remove_trait = adventurer
+        }
+        if = {
+            limit = { is_house_head = yes }
+            scope:old_character.house = { set_house_head = scope:bno_female }
+        }
+        bno_kill_character = {
+            TARGET = scope:old_character
+        }
+    }
+}

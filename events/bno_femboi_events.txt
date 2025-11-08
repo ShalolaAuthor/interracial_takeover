@@ -2010,7 +2010,7 @@ bno_femboi.4444 = {
     type = character_event
     theme = love
     override_background = {
-        reference = bedchamber
+        reference = feast
     }
     title = bno_femboi.4444.title
     desc = bno_femboi.4444.desc
@@ -2020,5 +2020,51 @@ bno_femboi.4444 = {
     }
     option = {
         name = bno_femboi.4444.a
+        trigger_event = {
+            id = bno_femboi.0022
+            days = { 7 14 }
+        }
+    }
+    option = {
+        name = bno_femboi.4444.b
+        trigger_event = {
+            id = bno_femboi.0023
+            days = { 7 14 }
+        }
+    }
+}
+#Become a Girl
+bno_femboi.0022 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = feast
+    }
+    title = bno_femboi.0022.title
+    desc = bno_femboi.0022.desc
+    left_portrait = {
+        character = root
+        animation = bno_sex_love_stand_1
+    }
+    option = {
+        name = bno_femboi.0022.a
+        bno_mtf_effect = yes
+    }
+}
+#Stay a Sissy
+bno_femboi.0023 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = feast
+    }
+    title = bno_femboi.0023.title
+    desc = bno_femboi.0023.desc
+    left_portrait = {
+        character = root
+        animation = bno_sex_love_stand_1
+    }
+    option = {
+        name = bno_femboi.0023.a
     }
 }
