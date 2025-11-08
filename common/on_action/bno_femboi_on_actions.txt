@@ -7,7 +7,9 @@ bno_femboi_1_milestone = {
 }
 
 bno_femboi_2_milestone = {
-
+	events = {
+		bno_femboi.2222
+	}
 }
 
 bno_femboi_3_milestone = {
@@ -47,7 +49,15 @@ bno_femboi_pulse = {
 		1 = bno_femboi.0005
 		1 = bno_femboi.0006
 		#25-50XP
+		1 = bno_femboi.0007
+		1 = bno_femboi.0008
+		1 = bno_femboi.0009
+		1 = bno_femboi.0010
+		1 = bno_femboi.0011
 		#50-75XP
+		1 = bno_femboi.0012
+		1 = bno_femboi.0013
+		1 = bno_femboi.0014
 		#75-100XP
 	}
 }

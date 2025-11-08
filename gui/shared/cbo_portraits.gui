@@ -1,0 +1,23 @@
+﻿types PortraitTypesCBO
+{
+	type portrait_event_sex = widget {
+		widget = {
+			size = { 1200 900 }
+            position = { 0 0 }
+			portrait_button = {
+				size = { 1200 900 }
+                position = { 0 0 }
+				using = portrait_base
+				parentanchor = hcenter|bottom
+
+				portrait_texture = "[Character.GetAnimatedPortrait('environment_event_standard', 'environment_event_standard', 'idle', PdxGetWidgetScreenSize(PdxGuiWidget.Self))]"
+				background_texture = "gfx/portraits/portrait_transparent.dds"
+				texture = "gfx/portraits/portrait_transparent.dds"
+				mask = "gfx/portraits/portrait_mask_blank.dds"
+				effectname = "NoHighlight"
+
+				block "portrait_button" {}
+			}
+		}
+	}
+}

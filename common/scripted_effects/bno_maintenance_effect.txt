@@ -345,7 +345,7 @@ bno_convert_vassal_to_liege_religion = {
 				always = no
 			}
 		}
-		set_character_faith_with_conversion = liege.faith
+		set_character_faith = liege.faith
 	}
 }
 

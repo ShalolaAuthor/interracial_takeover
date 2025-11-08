@@ -1141,7 +1141,7 @@ bno_get_between_common_uncommon_and_rare_trait = {
 }
 
 bno_kill_character = {
-	$TARGET$ = {
+	$TARGET$ ?= {
 		death = {
 			death_reason = death_disappearance
 		}
