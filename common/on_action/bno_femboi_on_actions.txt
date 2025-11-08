@@ -13,12 +13,17 @@ bno_femboi_2_milestone = {
 }
 
 bno_femboi_3_milestone = {
-
+	events = {
+		bno_femboi.3333
+	}
 }
 
 bno_femboi_4_milestone = {
 	effect = {
 		add_trait = femboi
+	}
+	events = {
+		bno_femboi.4444
 	}
 }
 
@@ -61,5 +66,12 @@ bno_femboi_pulse = {
 		1 = bno_femboi.0015
 		1 = bno_femboi.0016
 		#75-100XP
+		1 = bno_femboi.0017
+		1 = bno_femboi.0018
+		1 = bno_femboi.0019
+		1 = bno_femboi.0020
+		1 = bno_femboi.0021
+		1 = bno_femboi.1021
+		#100XP
 	}
 }

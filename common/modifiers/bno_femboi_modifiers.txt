@@ -37,3 +37,49 @@ bno_fufu_clip = {
     fertility = -0.1
     stacking = yes
 }
+bno_plugged_forever = {
+    icon = plugged_forever
+    attraction_opinion = 15
+    stress_loss_mult = 0.15
+    health = 0.1
+    learning = 1
+    fertility = -0.3
+    stacking = yes
+}
+bno_smooth_castrate = {
+    icon = smooth_castrate
+    attraction_opinion = 15
+    stress_loss_mult = 0.2
+    health = 1
+    learning = 1
+    fertility = -1
+    stacking = no
+}
+bno_clitty_descent = {
+    icon = clitty_descent
+    attraction_opinion = 15
+    stress_loss_mult = 0.2
+    health = 1
+    diplomacy = 1
+    prowess = 1
+    fertility = -1
+    stacking = no
+}
+bno_pillory_plaything = {
+    icon = pillory_plaything
+    attraction_opinion = 7
+    stress_loss_mult = 0.1
+    health = 0.05
+    prowess = 1
+    fertility = -0.2
+    stacking = yes
+}
+bno_mare_night = {
+    icon = mare_night
+    attraction_opinion = 5
+    stress_loss_mult = 0.25
+    health = 0.15
+    prowess = 1
+    fertility = -0.5
+    stacking = yes
+}

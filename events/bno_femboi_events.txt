@@ -1792,3 +1792,233 @@ bno_femboi.3333 = {
         name = bno_femboi.3333.a
     }
 }
+#Plugged and Drained
+bno_femboi.0017 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = feast
+    }
+    title = bno_femboi.0017.title
+    desc = bno_femboi.0017.desc
+    cooldown = {
+        months = { 12 18 }
+    }
+    trigger = {
+        is_valid_for_milestone_3_events = yes
+        #TODO: add not wearing butt plug as requirement
+    }
+    left_portrait = {
+        character =  root
+        animation = bno_sex_love_stand_2
+    }
+    immediate = {
+        #TODO: add butt plug artifact and equip them
+    }
+    option = {
+        name = bno_femboi.0017.a
+        bno_increase_femboiness = {
+            XP = 2
+        }
+        #TODO: actually make the skin darkening and areolas darkening effect per stack of the character modifier
+        add_character_modifier = bno_plugged_forever
+    }
+    after = {
+        trigger_event = {
+            id = bno_femboi.1017
+            days = 7
+        }
+    }
+}
+#Follow Up
+bno_femboi.1017 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = bedchamber
+    }
+    title = bno_femboi.1017.title
+    desc = bno_femboi.1017.desc
+    left_portrait = {
+        character = root
+        animation = bno_sex_love_stand_1
+    }
+    option = {
+        name = bno_femboi.1017.a
+        bno_increase_femboiness = {
+            XP = 1
+        }
+        add_character_modifier = bno_plugged_forever
+    }
+}
+#Sissy Castration – Bound, Smoothed, and Owned
+bno_femboi.0018 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = feast
+    }
+    title = bno_femboi.0018.title
+    desc = bno_femboi.0018.desc
+    trigger = {
+        is_valid_for_milestone_3_events = yes
+        NOT = { has_trait = bno_castrated }
+    }
+    left_portrait = {
+        character =  root
+        animation = bno_sex_love_stand_2
+    }
+    immediate = {
+        bno_increase_femboiness = {
+            XP = 2
+        }
+        add_trait = bno_castrated
+    }
+    option = {
+        name = bno_femboi.0018.a
+        add_character_modifier = bno_smooth_castrate
+    }
+}
+#Clitty Descent – From Cock to Clit
+bno_femboi.0019 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = feast
+    }
+    title = bno_femboi.0019.title
+    desc = bno_femboi.0019.desc
+    trigger = {
+        is_valid_for_milestone_3_events = yes
+        has_character_modifier = bno_smooth_castrate
+        NOT = { has_character_modifier = bno_clitty_descent }
+    }
+    left_portrait = {
+        character =  root
+        animation = bno_sex_love_stand_2
+    }
+    immediate = {
+        bno_increase_femboiness = {
+            XP = 2
+        }
+    }
+    option = {
+        name = bno_femboi.0019.a
+        #TODO: make it a trait instead
+        add_character_modifier = bno_clitty_descent 
+    }
+}
+#The Pillory – Broken in the Courtyard
+bno_femboi.0020 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = feast
+    }
+    title = bno_femboi.0020.title
+    desc = bno_femboi.0020.desc
+    cooldown = {
+        months = { 12 18 }
+    }
+    trigger = {
+        is_valid_for_milestone_3_events = yes
+        has_character_modifier = bno_smooth_castrate
+        has_character_modifier = bno_clitty_descent
+    }
+    left_portrait = {
+        character =  root
+        animation = bno_sex_love_stand_2
+    }
+    immediate = {
+        bno_increase_femboiness = {
+            XP = 2
+        }
+    }
+    option = {
+        name = bno_femboi.0020.a
+        add_character_modifier = bno_pillory_plaything 
+    }
+}
+#Mare’s Night – Stabled and Owned
+bno_femboi.0021 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = feast
+    }
+    title = bno_femboi.0021.title
+    desc = bno_femboi.0021.desc
+    trigger = {
+        is_valid_for_milestone_3_events = yes
+        has_character_modifier = bno_smooth_castrate
+        has_character_modifier = bno_clitty_descent
+        NOT = { has_character_modifier = bno_mare_night }
+    }
+    left_portrait = {
+        character =  root
+        animation = bno_sex_love_stand_2
+    }
+    immediate = {
+        bno_increase_femboiness = {
+            XP = 2
+        }
+    }
+    option = {
+        name = bno_femboi.0021.a
+        #TODO: add anal progression trait
+        add_character_modifier = bno_mare_night 
+    }
+}
+#Reoccuring event
+bno_femboi.1021 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = feast
+    }
+    title = bno_femboi.1021.title
+    desc = bno_femboi.1021.desc
+    cooldown = {
+        months = { 6 12 }
+    }
+    trigger = {
+        is_valid_for_milestone_3_events = yes
+        has_character_modifier = bno_smooth_castrate
+        has_character_modifier = bno_clitty_descent
+        has_character_modifier = bno_mare_night
+    }
+    left_portrait = {
+        character =  root
+        animation = bno_sex_love_stand_2
+    }
+    immediate = {
+        bno_increase_femboiness = {
+            XP = 2
+        }
+    }
+    option = {
+        name = bno_femboi.1021.a
+        add_character_modifier = bno_mare_night 
+    }
+}
+######################
+### Milestone 4 Events
+######################
+#TODO: replace the background with some AI image
+#Milestone event
+bno_femboi.4444 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = bedchamber
+    }
+    title = bno_femboi.4444.title
+    desc = bno_femboi.4444.desc
+    left_portrait = {
+        character = root
+        animation = bno_sex_love_stand_1
+    }
+    option = {
+        name = bno_femboi.4444.a
+    }
+}
