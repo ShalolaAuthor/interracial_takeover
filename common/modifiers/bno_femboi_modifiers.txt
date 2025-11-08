@@ -4,7 +4,6 @@
     attraction_opinion = 10 
     stress_loss_mult = 0.1
     diplomacy = 1
-    intrigue = 1
     stacking = yes
 }
 bno_finishing_school = {
@@ -19,5 +18,22 @@ bno_seedfast = {
     attraction_opinion = 10
     health = 0.1
     stress_loss_mult = 0.1
+    intrigue = 1
+    stacking = yes
+}
+bno_cuckold_parade = {
+    icon = cuckold_parade
+    attraction_opinion = 10
+    stress_loss_mult = 0.1
+    fertility = 0.1
+    martial = 1
+    stacking = yes
+}
+bno_fufu_clip = {
+    icon = fufu_clip
+    attraction_opinion = 10
+    learning = 1
+    stress_loss_mult = 0.1
+    fertility = -0.1
     stacking = yes
 }

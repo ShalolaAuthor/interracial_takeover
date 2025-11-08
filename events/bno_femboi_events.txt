@@ -1604,6 +1604,7 @@ bno_femboi.1011 = {
 ######################
 ### Milestone 2 Events
 ######################
+#TODO: replace the background with some AI image
 #Milestone event
 bno_femboi.2222 = {
     type = character_event
@@ -1630,6 +1631,9 @@ bno_femboi.0012 = {
     }
     title = bno_femboi.0012.title
     desc = bno_femboi.0012.desc
+    cooldown = {
+        months = { 12 18 }
+    }
     trigger = {
         is_valid_for_milestone_2_events = yes
     }
@@ -1640,6 +1644,9 @@ bno_femboi.0012 = {
     option = {
         name = bno_femboi.0012.a
         #TODO: maybe add tattoo?
+        bno_increase_femboiness = {
+            XP = 2
+        }
         add_character_modifier = bno_lap_pet
     }
 }
@@ -1652,6 +1659,9 @@ bno_femboi.0013 = {
     }
     title = bno_femboi.0013.title
     desc = bno_femboi.0013.desc
+    cooldown = {
+        months = { 12 18 }
+    }
     trigger = {
         is_valid_for_milestone_2_events = yes
     }
@@ -1662,6 +1672,9 @@ bno_femboi.0013 = {
     option = {
         name = bno_femboi.0013.a
         #TODO: add corset and other artifact after finishing the event
+        bno_increase_femboiness = {
+            XP = 2
+        }
         add_character_modifier = bno_finishing_school
     }
 }
@@ -1674,6 +1687,9 @@ bno_femboi.0014 = {
     }
     title = bno_femboi.0014.title
     desc = bno_femboi.0014.desc
+    cooldown = {
+        months = { 12 18 }
+    }
     trigger = {
         is_valid_for_milestone_2_events = yes
     }
@@ -1684,6 +1700,95 @@ bno_femboi.0014 = {
     option = {
         #TODO: actually make the skin darkening effect per stack of the character modifier
         name = bno_femboi.0014.a
+        bno_increase_femboiness = {
+            XP = 2
+        }
         add_character_modifier = bno_seedfast
+    }
+}
+#The Wife’s Cuckold Parade
+bno_femboi.0015 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = feast
+    }
+    title = bno_femboi.0015.title
+    desc = bno_femboi.0015.desc
+    cooldown = {
+        months = { 12 18 }
+    }
+    trigger = {
+        is_married = yes
+        is_valid_for_milestone_2_events = yes
+    }
+    left_portrait = {
+        character =  root
+        animation = bno_sex_love_stand_2
+    }
+    immediate = {
+        random_spouse = {
+            save_scope_as = wife
+        }
+    }
+    option = {
+        name = bno_femboi.0015.a
+        #TODO: add modifier to the wife
+        bno_increase_femboiness = {
+            XP = 2
+        }
+        add_character_modifier = bno_cuckold_parade
+    }
+}
+#The Fufu Clip Ritual
+bno_femboi.0016 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = feast
+    }
+    title = bno_femboi.0016.title
+    desc = bno_femboi.0016.desc
+    cooldown = {
+        months = { 12 18 }
+    }
+    trigger = {
+        is_valid_for_milestone_2_events = yes
+        #TODO: add not wearing fufu clip as requirement
+    }
+    left_portrait = {
+        character =  root
+        animation = bno_sex_love_stand_2
+    }
+    immediate = {
+        #TODO: add fufu clip artifact and equip them
+    }
+    option = {
+        name = bno_femboi.0016.a
+        bno_increase_femboiness = {
+            XP = 2
+        }
+        add_character_modifier = bno_cuckold_parade
+    }
+}
+######################
+### Milestone 3 Events
+######################
+#TODO: replace the background with some AI image
+#Milestone event
+bno_femboi.3333 = {
+    type = character_event
+    theme = love
+    override_background = {
+        reference = bedchamber
+    }
+    title = bno_femboi.3333.title
+    desc = bno_femboi.3333.desc
+    left_portrait = {
+        character = root
+        animation = bno_sex_love_stand_1
+    }
+    option = {
+        name = bno_femboi.3333.a
     }
 }
