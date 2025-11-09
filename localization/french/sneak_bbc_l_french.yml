@@ -11,7 +11,7 @@ BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! les cultes [bno_bbc|E]:
 BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! se félicite ouvertement [bno_bbc|E]: #color_green +50#!"   # AI Tags
 sneak_bbc.has_bbc_in_court: "Vous devez en avoir au moins deux [bno_bbc|E] dans votre cour pour en renvoyer un."   # AI Tags
 sneak_bbc.already_has_bbc_in_court: "Que les salopes de la cour sont déjà pleines par les Bulls à l'intérieur—pas besoin d'en envoyer une autre."   # AI Tags
-sneak_bbc.not_enough_of_a_slut: "Tu n'es pas encore assez d'une salope. Seulement un vrai [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] ou pire osera faire passer des taureaux entre les tribunaux."   # AI Tags
+sneak_bbc.not_enough_of_a_slut: "Tu n'es pas encore assez d'une salope. Seulement un vrai [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] ou pire osera faire passer des taureaux entre les tribunaux."   # AI Tags
 #influence child interaction
 bno_influence_child: "Favoriser la curiosité" # AI Tags
 bno_influence_child_desc: "Influencer l'enfant sur la vérité" # AI Tags

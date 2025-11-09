@@ -1,0 +1,51 @@
+﻿l_japanese:
+
+bno_bbc_worshipper_court_position: "BBC 崇拝者" # AI Tags
+bno_bbc_worshipper_court_position_desc: "絶えず奉仕し,崇拝し, [bno_bbc|E] かれらが望むように" # AI Tags
+
+bno_court_position_trait_bno_pure_white: "[GetTrait('bno_pure_white').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_curious: "[GetTrait('bno_whitegirl_1').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_blacked: "[GetTrait('bno_whitegirl_2').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_snowbunny: "[GetTrait('bno_whitegirl_3').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_qos: "[GetTrait('bno_whitegirl_4').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_mindless: "[GetTrait('bno_whitegirl_5').GetName( ROOT.Char )]" # AI Tags
+
+bno_court_position_trait_bno_bbc_whore_1: "[GetTrait('bno_bbc_whore_1').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_bno_bbc_whore_2: "[GetTrait('bno_bbc_whore_2').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_bno_bbc_whore_3: "[GetTrait('bno_bbc_whore_3').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_bno_bbc_whore_4: "[GetTrait('bno_bbc_whore_4').GetName( ROOT.Char )]" # AI Tags
+
+bno_court_position_trait_bno_pussy_mileage_1: "[GetTrait('bno_pussy_mileage_1').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_bno_pussy_mileage_2: "[GetTrait('bno_pussy_mileage_2').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_bno_pussy_mileage_3: "[GetTrait('bno_pussy_mileage_3').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_bno_pussy_mileage_4: "[GetTrait('bno_pussy_mileage_4').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_bno_pussy_mileage_5: "[GetTrait('bno_pussy_mileage_5').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_bno_pussy_mileage_6: "[GetTrait('bno_pussy_mileage_6').GetName( ROOT.Char )]" # AI Tags
+
+bno_court_position_trait_beauty_good_1: "[GetTrait('beauty_good_1').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_beauty_good_2: "[GetTrait('beauty_good_2').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_beauty_good_3: "[GetTrait('beauty_good_3').GetName( ROOT.Char )]" # AI Tags
+
+bno_court_position_trait_bno_lifestyle_bbc_priestess: "[GetTrait('bno_lifestyle_bbc_priestess').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_bno_lifestyle_bbc_priest: "[GetTrait('bno_lifestyle_bbc_priest').GetName( ROOT.Char )]" # AI Tags
+
+bno_court_position_trait_tits_big_good_1: "[GetTrait('tits_big_good_1').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_tits_big_good_2: "[GetTrait('tits_big_good_2').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_tits_big_good_3: "[GetTrait('tits_big_good_3').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_tits_big_good_4: "[GetTrait('tits_big_good_4').GetName( ROOT.Char )]" # AI Tags
+
+bno_court_position_trait_fecund: "[GetTrait('fecund').GetName( ROOT.Char )]" # AI Tags
+
+hire_bbc_worshipper_decision: "検索する [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
+hire_bbc_worshipper_decision_effect_tooltip: "あなたには,一団が提示される [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] 候補者を採用し,そのうちの1人を月額給与で雇用することができる [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
+
+bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$成長する [bno_whore|E] 彼らのために [liege|E]" # AI Tags
+
+bno_bbc_priestess_employer_custom_effect_description: "$BULLET$成長する [bbc_evangelist|E] 彼らのために [liege|E]" # AI Tags
+bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$" # AI Tags
+
+bno_bbc_priestess_court_position: "BBC 司祭" # AI Tags
+bno_bbc_priestess_court_position_desc: "神聖な油で滑らかに 跳ね上がるチンコと 滑らかなチンコを 各貴族の口と穴に 押し込んで 帝国は全て 黒人の神の厚い荷物を崇拝するまで." # AI Tags
+
+bno_bbc_priest_court_position: "BBC 司祭" # AI Tags
+bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags

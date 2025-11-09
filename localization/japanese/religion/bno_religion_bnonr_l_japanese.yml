@@ -1,0 +1,94 @@
+﻿l_japanese:
+
+# Religious Descriptors
+bnonr: "ブラックカックの教会" # AI Tags
+bnonr_adj: "黒人優位主義者" # AI Tags
+bnonr_religion: "ブラックカックの教会" # AI Tags
+bnonr_religion_adj: "黒人優位主義者" # AI Tags
+bnonr_religion_adherent: "黒人優位主義者" # AI Tags
+bnonr_religion_adherent_plural: "黒人優位主義者" # AI Tags
+bnonr_religion_desc: "優位主義者は,誰もが優位な人種に屈服すべきだと信じています." # AI Tags
+bbcs_god_name: "N'daba" # AI Tags
+bbcs_god_name_2: "アザニ" # AI Tags
+bbcs_god_name_3: "オシェ" # AI Tags
+bbcs_god_name_possessive: "$bbcs_god_name$-" # AI Tags
+bbcs_high_god_name_alternate: "神様" # AI Tags
+bbcs_high_god_name_alternate_possessive: "$bbcs_high_god_name_alternate$-" # AI Tags
+bbcs_devil_name: "アサンティ" # AI Tags
+bbcs_devil_name_possessive: "$bbcs_devil_name$-" # AI Tags
+bbcs_evil_god_name_1: "クウェク" # AI Tags
+bbcs_evil_god_name_2: "Mfero" # AI Tags
+bbcs_evil_god_name_3: "ニーミー・ニーミー" # AI Tags
+bbcs_house_of_worship_1: "エクスタスの家" # AI Tags
+bbcs_house_of_worship_2: "ブラック・ブルーム の 寺院" # AI Tags
+bbcs_house_of_worship_3: "エボニー の 祭壇" # AI Tags
+bbcs_house_of_worship_plural: "エクスタシーの家" # AI Tags
+bbcs_religious_symbol_1: "三人の姉妹" # AI Tags
+bbcs_religious_symbol_2: "オブシディアン の 棒" # AI Tags
+bbcs_religious_symbol_3: "咲く 黒い ローズ" # AI Tags
+bbcs_religious_text_1: "エボニー の 文字" # AI Tags
+bbcs_religious_text_2: "欲望 の 乳液" # AI Tags
+bbcs_religious_text_3: "アフロディシア: 神聖なサイクル" # AI Tags
+bbcs_religious_head_title: "エクステスの 偉大な 織物" # AI Tags
+bbcs_male_devotee: "雄馬" # AI Tags
+bbcs_male_devotee_plural: "$bbcs_male_devotee$ス" # AI Tags
+bbcs_female_devotee: "ニンフ" # AI Tags
+bbcs_female_devotee_plural: "$bbcs_female_devotee$ス" # AI Tags
+bbcs_neutered_devotee: "牛乳" # AI Tags
+bbcs_neutered_devotee_plural: "$bbcs_neutered_devotee$ス" # AI Tags
+bbcs_male_priest: "ハイ・スターン" # AI Tags
+bbcs_male_priest_plural: "$bbcs_male_priest$ス" # AI Tags
+bbcs_female_priest: "ニンフィス 司祭 女" # AI Tags
+bbcs_female_priest_plural: "$bbcs_female_priest$エス" # AI Tags
+bbcs_neutered_priest: "種を運ぶ者" # AI Tags
+bbcs_neutered_priest_plural: "$bbcs_neutered_priest$ス" # AI Tags
+bbcs_alt_priest: "月果樹の守護者" # AI Tags
+bbcs_alt_priest_plural: "$bbcs_alt_priest$ス" # AI Tags
+bbcs_male_bishop: "ブラックソン・ヒエロファント" # AI Tags
+bbcs_male_bishop_plural: "$bbcs_male_bishop$ス" # AI Tags
+bbcs_female_bishop: "黒人アコリティの愛女" # AI Tags
+bbcs_female_bishop_plural: "$bbcs_female_bishop$エス" # AI Tags
+bbcs_neutered_bishop: "象牙の種子を運ぶ" # AI Tags
+bbcs_neutered_bishop_plural: "$bbcs_neutered_bishop$ス" # AI Tags
+bbcs_positive_afterlife_1: "エボニー・グルーブ" # AI Tags
+bbcs_positive_afterlife_2: "永遠 の 合体" # AI Tags
+bbcs_positive_afterlife_3: "終わり の ない 喜び の 庭" # AI Tags
+bbcs_negative_afterlife_1: "乾燥 し た 棘 の 園" # AI Tags
+bbcs_negative_afterlife_2: "永続 的 な 欲望 の 迷宮" # AI Tags
+bbcs_negative_afterlife_3: "永遠 の 奴隷 の 領域" # AI Tags
+bbcs_death_deity_name: "イエモジャ" # AI Tags
+bbcs_death_deity_name_possessive: "$bbcs_death_deity_name$-" # AI Tags
+bbcs_witch_god_name: "アイシャ" # AI Tags
+bbcs_witch_god_name_possessive: "$bbcs_witch_god_name$-" # AI Tags
+bbcs_ghw: "アディンクラ" # AI Tags
+bbcs_ghws: "$bbcs_ghw$ス" # AI Tags
+
+
+bbcs: "ブラックカックの教会" # AI Tags
+bbcs_adj: "黒人優位主義者" # AI Tags
+bbcs_adherent: "黒人優位主義者" # AI Tags
+bbcs_adherent_plural: "黒人優位主義者" # AI Tags
+bbcs_desc: "優位主義者は,誰もが優位な人種に屈服すべきだと信じています." # AI Tags
+
+bbcs_old: "ブラックカックの教会" # AI Tags
+bbcs_old_adj: "黒人優位主義者" # AI Tags
+bbcs_old_adherent: "黒人優位主義者" # AI Tags
+bbcs_old_adherent_plural: "黒人優位主義者" # AI Tags
+
+
+# Holy Order Names
+bnoho1: "黒神 の 秩序" # AI Tags
+bnoho2: "ブラック・ペスト" # AI Tags
+bnoho3: "ガーナ騎士" # AI Tags
+bnoho4: "マリ侵略者" # AI Tags
+bnoho5: "改宗 者 の 群れ" # AI Tags
+
+# Conversion Decision
+convert: "暗黒 の 人 を 崇拝 する よう に 転換 する" # AI Tags
+convert_desc: "黒いチンコしか考えないわ. なぜ優位な人種に屈して 神にならなかったの?" # AI Tags
+convert_tooltip: "肉質な黒いオオカミについて考えたら…" # AI Tags
+convert_confirm: "あなたは自分を賛美に捧げます [bno_bbc|E]" # AI Tags
+convert_effect_1: "変身する [bno_religion|E]" # AI Tags
+
+rf_bbcs: "アフロディアズマ" # AI Tags
+rf_bbcs_desc: "$rf_bbcs$ 狂った崇拝,強力な魔法, そして白人の救いは 黒人の種子の力によって満たされているという 揺るぎない信念から 織りなされた黒人中心の伝統の鮮やかなタペストリーです." # AI Tags

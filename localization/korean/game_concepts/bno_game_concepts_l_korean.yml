@@ -36,7 +36,7 @@ game_concept_bno_religion_desc: "기름진 육체는 웅크한 천장 아래로 
 
 game_concept_bno_slave: "BBC 노예" # AI Tags
 game_concept_bno_slaves: "BBC 노예" # AI Tags
-game_concept_bno_slave_desc: "A $game_concept_bno_slave$ a [character|E] 그는 완전히 존엄성을 박탈당하고 [bno_bnwo|E]. 흑인의 주인에게 노예로 잡혀서, 그들은 사용되고, 길러지고, 깨질 수 있는 육신으로만 존재합니다. 그들의 몸, 구멍, 심지어 그들의 혈통은 완전히 그들의 주인에게 있습니다.\n\nA $game_concept_bno_slave$ 소유하거나 상속할 수 없습니다 [titles|E], 그리고 노예 태장에서 태어난 모든 아이들은 자동적으로 노예가 되고 바로 노예로 자란다. 백인 남성 또는 푸타 노예는 거짓 남성성을 부정하기 위해 교두감에 갇히거나 배제됩니다. 암컷은 비옥하고 씨앗을 위해 열려 있습니다.\n\n주인이 죽으면 모든 소유권이 $game_concept_bno_slave$ 그들의 [primary_heir|E]세대를 넘나들며 묶여있다는 것을 보장합니다. 백인 은 스스로 노예를 소유할 수 없습니다. 그녀는 자신의 궁중에서 적어도 하나의 BBC가 있어야 진정한 주인으로 작용하고 소유권을 강제합니다.\n\nA $game_concept_bno_slave$ 절대 자유를 주장할 수 없습니다 $carn_free_slave_interaction$ [character_interaction|E]. 그들의 운명은 교훈입니다 [bno_bnwo|E], 그들은 영원히 소유물, 영원히 채워질 구멍입니다."   # AI Tags
+game_concept_bno_slave_desc: "A $game_concept_bno_slave$ a [character|E] 그는 완전히 존엄성을 박탈당하고 [bno_bnwo|E]. 흑인의 주인에게 노예로 된 그들은 사용되고 번식되고 부서지는 육신으로만 존재합니다. 그들의 몸, 구멍, 심지어 그들의 혈통은 완전히 그들의 주인에게 있습니다.\n\nA $game_concept_bno_slave$ 소유하거나 상속할 수 없습니다 [titles|E], 그리고 노예 태장에서 태어난 모든 아이들은 자동적으로 노예가 되고 바로 노예로 자란다. 백인 남성 또는 푸타 노예는 거짓 남성성을 부정하기 위해 교두감에 갇히거나 배제됩니다. 암컷은 비옥하고 씨앗을 위해 열려 있습니다.\n\n주인이 죽으면 모든 소유권이 $game_concept_bno_slave$ 그들의 [primary_heir|E]세대를 넘나들며 묶여있다는 것을 보장합니다. 백인 은 스스로 노예를 소유할 수 없습니다. 그녀는 자신의 궁중에서 적어도 하나의 BBC가 있어야 진정한 주인으로 작용하고 소유권을 강제합니다.\n\nA $game_concept_bno_slave$ 절대 자유를 주장할 수 없습니다 $carn_free_slave_interaction$ [character_interaction|E]. 그들의 운명은 교훈입니다 [bno_bnwo|E], 그들은 영원히 소유물, 영원히 채워질 구멍입니다."   # AI Tags
 
 game_concept_bno_cum_slave: "콤 스라브" # AI Tags
 game_concept_bno_cum_slaves: "콤 스라브스" # AI Tags
@@ -49,3 +49,12 @@ game_concept_bno_bull_desc: "A $game_concept_bno_bull$ 단순히 [bno_bbc|E], �
 game_concept_bno_slave_owner: "BBC 노예 소유자" # AI Tags
 game_concept_bno_slave_owners: "BBC 노예 소유자" # AI Tags
 game_concept_bno_slave_owner_desc: "A $game_concept_bno_slave_owner$ a [character|E] 하나 이상의 소유자 [bno_slaves|E]전쟁, 습격, 또는 재판에서 포로로 잡힌 갈색 여성, 그들의 권리를 박탈당하고 [bno_bnwo|E] 규칙입니다. 이 창녀들은 마음대로 사용되거나 거래되거나 선물받을 수 있고, 그들의 자궁과 노동은 정복의 도구로 작용합니다.\n\nA와 달리 [bno_cum_slave|E]그녀의 헌신은 몸과 영혼을 묶어 [bno_bull|E] 혼자, 평범한 $game_concept_bno_slave$ 이룰 수 있는 재산은 [bno_bnwo|E]백인 여성들은 아내나 귀족이 아니라 주인들을 위해 가축을 양육합니다." # AI Tags
+
+game_concept_bno_seed_of_genesis: "창세기 의 씨" # AI Tags
+game_concept_bno_seed_of_genesis_desc: "창세기 씨는 창세기 잉크를 먹은 황소들에게 부여된 특성입니다. 그들의 은 더 이상 평범한 씨앗처럼 행동하지 않습니다 그것은 그들이 번식 할 수 있는 sluts를 리메이크합니다. 매춘부 안에 있는 모든 짐은 피부를 어두워지고 가슴이 붓고 엉덩이를 둥글게 하고 엉덩이를 넓히고 허리를 얇게 하고 몸매를 완성합니다. 충분한 품종으로, 그녀는 완전히 흑인이 되고, BNWO가 요구하는 완벽한 창녀체로 변할 것입니다." # AI Tags
+
+game_concept_bno_tincture_of_genesis: "창세기 의 염색" # AI Tags
+game_concept_bno_tincture_of_genesis_desc: "창세기 잉크는 두꺼운 우유가 담긴 희귀한 유통입니다. 술에 취했을 때, 그것은 그들의 정액을 [bno_seed_of_genesis|E]. 그들이 쏟아내는 모든 짐이 더러운 창녀들을 만들죠 피부가 어두워지고 가슴이 붓고 엉덩이가 무겁고 엉덩이가 넓어지고 허리가 얇고 자궁이 익는다. 그런 씨앗에 의해 충분히 번식된 창녀는 완전한 흑인 창녀가 되고 BNWO의 살아있는 증거가 된다." # AI Tags
+
+game_concept_bno_elixir_of_the_black_womb: "검은 자궁 의 에릭시어" # AI Tags
+game_concept_bno_elixir_of_the_black_womb_desc: "검은 자궁의 에릭시어는 더 작은 사람들에게 강요당합니다. 먹었을 때, 그들의 남성성을 지워버립니다. 닭은 어지고, 덩어리가 마르고, 에 대한 씹어먹는 굶주림은 그들의 배에 뿌리를 내립니다. 그들은 Bulls를 갈망하고 BNWO가 완전히 리메이크할 때까지 닭과 씨앗을 간구합니다. 축복이 아니라 배제와 부패입니다." # AI Tags

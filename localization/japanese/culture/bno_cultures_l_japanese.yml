@@ -1,0 +1,13 @@
+﻿l_japanese:
+ bnoc: "アフリカ" # AI Tags
+ bnoc_prefix: "アフリカ" # AI Tags
+ bnoc_collective_noun: "アフリカ人" # AI Tags
+ bnoc_group: "アフリカ" # AI Tags
+ bnoc_group_collective_noun: "アフリカ人" # AI Tags
+
+ language_bnoc_name: "テムネ・シャ" # AI Tags
+
+ heritage_bnoc_name: "アフリカ" # AI Tags
+ heritage_bnoc_collective_noun: "アフリカ人" # AI Tags
+
+ bnoc_opinion: "$bnoc$ 意見" # AI Tags

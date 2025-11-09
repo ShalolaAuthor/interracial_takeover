@@ -40,3 +40,5 @@ stationed_bnwo_armies_screen_add: "[stationed|E] [bnwo_armies|E] [screen|E]" # A
 stationed_bnwo_armies_screen_mult: "$stationed_bnwo_armies_screen_add$" # AI Tags
 stationed_bnwo_armies_siege_value_add: "[stationed|E] [bnwo_armies|E] [siege_progress|E]" # AI Tags
 stationed_bnwo_armies_siege_value_mult: "$stationed_bnwo_armies_siege_value_add$" # AI Tags
+
+bno_hotwife_army_name: "La Légion des Sluts Noirs" # AI Tags

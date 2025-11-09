@@ -1,0 +1,60 @@
+﻿l_japanese:
+
+game_concept_bno_whore: "BBCの売春婦" # AI Tags
+game_concept_bno_whore_desc: "[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] 人生を捧げて [bno_bbc|E]性的な喜びです. [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] 辛く稼いだ収入を全て 利エッジに寄付する" # AI Tags
+
+game_concept_bno_first_harvest: "第 一 収穫" # AI Tags
+game_concept_bno_first_harvest_desc: "喜びと権力に飢えた黒人の首長たちの目下では 玉座の太太太は 王国の最も望ましい娘たちを 紹介しています. 美しさと肥沃さが交換され 血と種で支配権が広がる 甘い祭りの季節が始まります." # AI Tags
+
+game_concept_bno_bbc_council: "BBC理事会" # AI Tags
+game_concept_bno_bbc_council_desc: "賢明な目で少女を判断する 黒人の長老たちの集まりです 彼らの栄えと 権力と喜びと強力な遺産に浸透した 血統に適しているからです. 彼らの判断は 香りのぶどうぶどうに包まれた 飾り付けられた屋根の下に 囁かれます どの娘が 飽きした玉座に仕える特権と苦痛を 与えられることを決定します." # AI Tags
+
+game_concept_bno_sated_throne: "座った玉座" # AI Tags
+game_concept_bno_sated_throne_desc: "喜びと権威が結びついている ブラック・チーフの願望が満たされ 強化される." # AI Tags
+
+game_concept_bno_sexual_experience: "性的経験" # AI Tags
+game_concept_bno_sexual_experience_desc: "情熱と欲望の領域を巡る旅を反映する人の親密な出会いや能力の指標です. この経験によって 喜び,力,そして誘惑の複雑な踊りについての理解が形成され 人間関係と影響力の世界に 驚異的な存在になるのです." # AI Tags
+
+game_concept_bno_black: "ブラック" # AI Tags
+game_concept_bno_black_desc: "アフリカ系出身の人を表現する用語で 強くて強くて硬いチンコと結びついています." # AI Tags
+
+game_concept_bno_bnwo: "ブラック・ニュー・ワールド・オーダー" # AI Tags
+game_concept_bno_bnwo_desc: "その下には [bno_bnwo|E]鉄の拳で 白人の体は 繁殖物になり 彼らの喜びは 強い黒人の子孫への 飽きない飢えを 滋養します." # AI Tags
+
+game_concept_bnwo_armies: "BNWO軍" # AI Tags
+game_concept_bnwo_armies_desc: "労働組合 [men_at_arms|E] 民主主義の理想を堅持する [bno_bnwo|E]精英戦士や [bno_whore|E] 目的のために献身した." # AI Tags
+
+game_concept_bbc_evangelist: "BBC エヴァンゲリスト" # AI Tags
+game_concept_bbc_evangelist_desc: "死人の理解を超えた幸福のささやいた約束と 油漬けの肌に粘りした ムスクと香りの香りと [bno_religion|E] エボニーの力への崇拝の種を 心と腰に植えて." # AI Tags
+
+game_concept_bno_bbc: "BBC" # AI Tags
+game_concept_bno_bbcs: "BBC" # AI Tags
+game_concept_bno_bbc_desc: "セクシュアリティを支配する 強大な男性を表現する用語です 強さと権威を表現し 喜びへの渇望を表現します." # AI Tags
+
+game_concept_bno_religion: "ブラックカックの教会" # AI Tags
+game_concept_bno_religion_desc: "油漬けの肉は 伏せられた天井の下に 染められ 敬虔な人々は 飽きない飢餓に屈服する [bno_bbc|E] 絶え間なく嘆き悲しみと 絶え間なく嘆き悲しみの中で崇拝される." # AI Tags
+
+game_concept_bno_slave: "BBC スラブ" # AI Tags
+game_concept_bno_slaves: "BBC 奴隷" # AI Tags
+game_concept_bno_slave_desc: "A $game_concept_bno_slave$ は [character|E] 尊厳を完全に剥奪され, [bno_bnwo|E]… 黒人の主人によって奴隷にされ 肉としてしか存在しません. その体や穴や 血統さえも 完全に飼い主のものです.\n\nA $game_concept_bno_slave$ 持っていないし,相続できない [titles|E]奴隷の子宮から生まれた子供たちは 自動的に奴隷となり 直接奴隷に育ちます. 白い男性またはフータ奴隷は 偽りの男性性を否定するために 檻に入れられるか カストレーションされるが 雌は 生み出し 種のために開かれます.\n\n主人が死んだら 所有権は全て $game_concept_bno_slave$ 継承する [primary_heir|E]何世代にも渡って 鎖に縛られ続けます. 白人の売春婦は奴隷を自分で所有することはできません. 真の主人として機能し,所有権を強制するために,少なくともBBCを自分の宮廷で持つ必要があります.\n\nA $game_concept_bno_slave$ 権利によって自由を主張することはできません 主人の意志によってのみ $carn_free_slave_interaction$ [character_interaction|E]… 彼らの運命は教訓です [bno_bnwo|E]彼らは永遠に財産であり,永遠に埋める穴です."   # AI Tags
+
+game_concept_bno_cum_slave: "奴隷として" # AI Tags
+game_concept_bno_cum_slaves: "コム・スラブ" # AI Tags
+game_concept_bno_cum_slave_desc: "A $game_concept_bno_cum_slave$ は [character|E] 繰り返し種を蒔くことで 遺言が消された. 彼女はもはや王冠や親族や 神に仕えなく 欲しがる公牛に仕えなくなりました. 彼女の唇,喉,子宮は彼だけに属し 彼女の忠誠心は彼女が飲み込むすべての滴に書かれています. A $game_concept_bno_cum_slave$ 背負うことも,主人に逆らうこともできない.その命は彼の子孫にかかっている. 彼女は単なる売春婦ではなく, [bno_bnwo|E]白いクソの最高目的は1人の牛への献身だということを証明する." # AI Tags
+
+game_concept_bno_bull: "牛" # AI Tags
+game_concept_bno_bulls: "牛" # AI Tags
+game_concept_bno_bull_desc: "A $game_concept_bno_bull$ 単に [bno_bbc|E]偽造した人 [bno_cum_slave|E]… 彼のチックは彼女の心を壊し 彼の種は彼女の体を奴隷にした そして彼女の忠誠心は彼だけに属します. 単語を話したり 富を話したりして $game_concept_bno_bull$ 根と種子とのルールです. 彼のコム・スラブは [bno_bnwo|E]白い女性が存在するのは 牛に縛られ 依存し 育てるためです. 裁判所または軍隊は, $game_concept_bno_bull$ 彼の支配は男性に恐れを招くし 売春婦に献身を招くからです." # AI Tags
+
+game_concept_bno_slave_owner: "BBC 奴隷所有者" # AI Tags
+game_concept_bno_slave_owners: "BBC 奴隷所有者" # AI Tags
+game_concept_bno_slave_owner_desc: "A $game_concept_bno_slave_owner$ は [character|E] 1つまたはそれ以上を所有する [bno_slaves|E]戦争,襲撃,裁判で捕らえられた白人の女性,権利剥奪され, [bno_bnwo|E] ルールだ. この売春婦は 欲しがったままに使われ 取引され 贈り物を与えられ その子宮と労働は 征服の道具として役立っています.\n\nAとは違って [bno_cum_slave|E]彼女の献身は身体と魂に結びついている [bno_bull|E] ひとりで 普通の $game_concept_bno_slave$ 移転可能な財産証明 [bno_bnwo|E]白人の女性は妻や貴族ではなく 飼い主のために家畜を育てるのです." # AI Tags
+
+game_concept_bno_seed_of_genesis: "創世記 の 種" # AI Tags
+game_concept_bno_seed_of_genesis_desc: "創世記の種は 創世記の染料を食べた牛に与えられた特質です. 卵は普通の種のように 振る舞うわけにはいきません 繁殖する売春婦を再現します. 売春婦の体内にある全ての荷物は 肌を暗くし 胸を膨らませ 尻を丸め 腰を広げ 腰を細くし 身体を完璧にします. 足够の繁殖で 完全に黒化され BNWOが要求する 完ぺきな売春婦の体に変わります." # AI Tags
+
+game_concept_bno_tincture_of_genesis: "創世記 の 染料" # AI Tags
+game_concept_bno_tincture_of_genesis_desc: "創世記の油墨は 牛にのみ与えられている 厚いミルク質の稀な瓶です. 酔っぱらったとき 精液を聖化して [bno_seed_of_genesis|E]… 皮が暗くなって 胸が腫れ 尻が重くなって 腰が大きくなり 腰が細くなって 子宮が成熟する. そんな種で何度も育った売春婦は 完璧な黒い売春婦になり BNWOの生きた証拠になります." # AI Tags
+
+game_concept_bno_elixir_of_the_black_womb: "黒い 子宮 の エリキサー" # AI Tags
+game_concept_bno_elixir_of_the_black_womb_desc: "黒人の子宮のエリキサーは 少年の男に押し付けられています. 消耗すると 雄性性を消し去ります 鶏は縮小し 丸は枯渇し 腹の中に 食欲が根付くのです. 彼らは牛を欲し 鶏と種を乞い BNWOが完全にリメイクするまで. それは祝福ではなく 排斥と腐敗です." # AI Tags

@@ -63,6 +63,7 @@ bbcs_witch_god_name_possessive: "Айши"
 bbcs_ghw: "Адинкра"
 bbcs_ghws: "Адинкры"
 
+
 bbcs: "Церковь Чёрного Хуя"
 bbcs_adj: "Чёрный Супремасист"
 bbcs_adherent: "Чёрный Супремасист"
@@ -73,6 +74,7 @@ bbcs_old: "Церковь Чёрного Хуя"
 bbcs_old_adj: "Чёрный Супремасист"
 bbcs_old_adherent: "Чёрный Супремасист"
 bbcs_old_adherent_plural: "Чёрные Супремасисты"
+
 
 # Holy Order Names
 bnoho1: "Орден Чёрных Богов"

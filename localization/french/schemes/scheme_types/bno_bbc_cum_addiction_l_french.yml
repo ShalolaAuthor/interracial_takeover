@@ -9,11 +9,11 @@ bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNo
 bno_bbc_cum_addiction.invalidated.title: "Esclave perdue" # AI Tags
 bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] Elle est morte, ses lèvres se taisent avant que ton sperme ne puisse la réclamer. Un autre s'agenouillera bientôt[bno_bnwo|E] ne se termine pas avec une salope cassée." # AI Tags
 
-bno_bbc_cum_addiction.curious: "Elle l'a fait [GetTrait('bno_curious').GetName(GetNullCharacter)] et est tenté de goûter."   # AI Tags
-bno_bbc_cum_addiction.blacked: "Elle a été [GetTrait('bno_blacked').GetName(GetNullCharacter)] et il a plus de mal à en avoir."   # AI Tags
-bno_bbc_cum_addiction.snowbunny: "Elle est devenue une [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] et il a envie de tous les Bulls."   # AI Tags
-bno_bbc_cum_addiction.qos: "Elle s'est levée comme [GetTrait('bno_qos').GetName(GetNullCharacter)] et s'agenouille fièrement."   # AI Tags
-bno_bbc_cum_addiction.mindless: "Elle a coulé dans [GetTrait('bno_mindless_bbc_slut').GetName(GetNullCharacter)] et est incapable de résister."   # AI Tags
+bno_bbc_cum_addiction.curious: "Elle l'a fait [GetTrait('bno_whitegirl_1').GetName(GetNullCharacter)] et est tenté de goûter."   # AI Tags
+bno_bbc_cum_addiction.blacked: "Elle a été [GetTrait('bno_whitegirl_2').GetName(GetNullCharacter)] et il a plus de mal à en avoir."   # AI Tags
+bno_bbc_cum_addiction.snowbunny: "Elle est devenue une [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] et il a envie de tous les Bulls."   # AI Tags
+bno_bbc_cum_addiction.qos: "Elle s'est levée comme [GetTrait('bno_whitegirl_4').GetName(GetNullCharacter)] et s'agenouille fièrement."   # AI Tags
+bno_bbc_cum_addiction.mindless: "Elle a coulé dans [GetTrait('bno_whitegirl_5').GetName(GetNullCharacter)] et est incapable de résister."   # AI Tags
 
 bno_bbc_cum_addiction.beauty_good_1: "Vous êtes [GetTrait('beauty_good_1').GetName(GetNullCharacter)] et agréable à l'œil."   # AI Tags
 bno_bbc_cum_addiction.beauty_good_2: "Vous êtes [GetTrait('beauty_good_2').GetName(GetNullCharacter)] et étonnamment beau."   # AI Tags

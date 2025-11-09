@@ -8,7 +8,7 @@ bno_birth.0001.cuck.wife.t: "Żona rodzi wiele dzieci" # AI Tags
 bno_birth.0001.cuck.wife.desc: "Twoja żona [ROOT.GetCharacter.GetName] urodziła kilka dzieci. Chociaż w głębi twojego umysłu wydaje ci się dziwne, że większość nie wygląda jak inni." # AI Tags
 
 bno_birth.0001.lover.t: "Biały płodny łódź kochanka" # AI Tags
-bno_birth.0001.lover.desc: "Twój kochanek [ROOT.GetCharacter.GetName] Nadal zdradza swoją rasę, przynosząc na świat kolejnego czarnego dziecka. Jej największą radością jest wspieranie czarnej superiorności." # AI Tags
+bno_birth.0001.lover.desc: "Twój kochanek [ROOT.GetCharacter.GetName] Nadal zdradza swoją rasę, przyprowadzając na świat kolejnego czarnego dziecka. Jej największą radością jest wspieranie czarnej superiorności." # AI Tags
 
 bno_birth.0001.t: "Mój biały płodny macierz" # AI Tags
 bno_birth.0001.personal_desc: "Kolejne czarne dziecko urodziło się z mojego płodnego łona. Połączenie skóry mojego dziecka z moją napełnia mnie dumą i odnawia moje pragnienie wzmocnienia wyższej rasy." # AI Tags
@@ -49,13 +49,13 @@ bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] Zwróci
 bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] przyjął nauki [bno_religion|E], poświęcając [target_vassal.GetHerselfHimself] do jej czczenia i przyjemności, które przynosi." # AI Tags
 
 bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] Zwrócił się do czczenia [bno_religion|E]" # AI Tags
-bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] przyjął nauki [bno_religion|E], poświęcając swoje zasoby jego wielbieniu i przyjemności, które przynosi." # AI Tags
+bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] przyjął nauki [bno_religion|E], poświęcając swoje zasoby jej wielbieniu i przyjemnościom, które przynosi." # AI Tags
 
 bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] Zwrócił się do czczenia [bno_religion|E]" # AI Tags
 bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] przyjął nauki [bno_religion|E], poświęcając [neighboring_lord_or_lady.GetHerselfHimself] do jej czczenia i przyjemności, które przynosi." # AI Tags
 
 bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] Zwrócił się do czczenia [bno_religion|E]" # AI Tags
-bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] przyjął nauki [bno_religion|E], poświęcając swoje zasoby jego wielbieniu i przyjemności, które przynosi." # AI Tags
+bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] przyjął nauki [bno_religion|E], poświęcając swoje zasoby jej wielbieniu i przyjemnościom, które przynosi." # AI Tags
 
 bbc_priestess.1001.rejected_conversion.male.title: "Odrzucone nawrócenie: Czarny kurczak odrzucony" # AI Tags
 bbc_priestess.1001.rejected_conversion.male.desc: "Niezależnie od [ROOT.Char.GetFirstName]Jego gorące kazania o poddaniu ciała i duszy w chwałę Boga [bno_bbc|E]Zatrudniając, stado odwróciło się. Ich serca pozostają uparty, ich usta niebłogosławione, a Kościół Czarnego Puka nie zyskuje nowych uczniów dzisiaj." # AI Tags

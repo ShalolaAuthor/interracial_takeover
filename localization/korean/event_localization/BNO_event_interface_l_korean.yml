@@ -34,7 +34,7 @@ bno_bull_0008_notification.title: "미묘 한 유사성" # AI Tags
 bno_bull_0008_notification.desc: "귀여운 아내처럼 보이는 흑인 난민 캠프에서 걷는 여자의 소문이 돌고 있습니다 [target1.GetFirstName]." # AI Tags
 
 bno_bull_0010_notification.title: "회계 오류?" # AI Tags
-bno_bull_0010_notification.desc: "내가 틀리지 않았다고 확신합니다. 보물에서 금이 부족한 것 같습니다. 누가 가져갔을까?" # AI Tags
+bno_bull_0010_notification.desc: "내가 틀리지 않았다고 확신합니다. 보물에서 금이 빠진 것 같습니다. 누가 가져갔을까?" # AI Tags
 
 bno_bull_0012_notification.title: "그가 뭔가 알고 있나요?" # AI Tags
 bno_bull_0012_notification.desc: "최근 저는 [ROOT.GetCharacter.GetName] 다른 시각으로 저를 바라보고, 자신이 모르는 것을 알고 있는 것처럼요." # AI Tags
@@ -64,7 +64,7 @@ bbc_priestess.1001.rejected_conversion.female.title: "그녀의 청원 은 거�
 bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] 모든 불쾌한 말로 그녀의 헌신을 드러내며 BBC의 포옹을 통해 구원을 약속했지만, 군중들은 저항했습니다. 그들의 마음은 닫혀있었고, 그들의 몸은 채용되지 않았습니다. 그리고 그녀의 거룩한 욕망은 오늘 밤 개종자를 낳지 않았습니다." # AI Tags
 
 bbc_priestess.1001.target_not_found.male.title: "사제들의 성스러운 사냥은 절망적으로 성장합니다." # AI Tags
-bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] 검은 의 제단에서 무릎을 꿇고, 불안하고, 신성한 욕망으로 뛰고 있습니다. 신규 추종자들이 예배를 드리는 것 같지도 않고, 신도들이 자기 자신을 개종하도록 인도할 수 있는 죄인도 없고, 신적인 필요에 빠져 신성 씨앗을 새 제자들의 진동적인 헌신에 뿌리는 것을 갈망하고 있습니다." # AI Tags
+bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] 검은 의 제단에서 무릎을 꿇고, 불안하고, 신성한 욕망으로 뛰고 있습니다. 신규 추종자들이 예배를 드리는 것 같지도 않고, 신도들이 자기 자신을 개종하도록 인도할 수 있는 죄인도 없고, 신적인 필요에 빠져 신성 씨앗을 새 제자들의 떨리는 헌신에 뿌리는 것을 갈망하고 있습니다." # AI Tags
 
 bbc_priestess.1001.target_not_found.female.title: "사제 여인은 추종자를 기다리고 있습니다." # AI Tags
 bbc_priestess.1001.target_not_found.female.desc: "실크 흰색 의복에 매장되어, 부드러운 [ROOT.Char.GetFirstName] 검은 닭의 제단 앞에 무릎을 꿇고, 그녀의 풍성한 가슴은 떨고 있는 헌신으로 함께 압박. 외계적인 은총과 달콤하고 고통스러운 미소로, 그녀는 촛불빛의 어둠에 기도를 속삭이고 있지만 죄인은 개종되지 않습니다. 그녀의 부드러운 틀은 신성한 필요에 떨고, 절실히 그녀가 숭배하기를 갈망하는 거룩한 희생을 둘러싸고 자신을 포장합니다." # AI Tags

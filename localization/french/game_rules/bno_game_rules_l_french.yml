@@ -137,3 +137,9 @@ setting_bno_xp_gain_med: "Descente naturelle" # AI Tags
 setting_bno_xp_gain_med_desc: "Le rythme de la prise de contrôle est constant et implacable. Chaque salope s'agenouille plus tôt, chaque cour s'assombrit, chaque royaume sent l'ombre s'étendre. Pas trop vite, pas trop lent, c'est inévitable." # AI Tags
 setting_bno_xp_gain_high: "Rupture rapide" # AI Tags
 setting_bno_xp_gain_high_desc: "L'inondation ne peut être arrêtée. Les salopes blanches sont ruinées du jour au lendemain, les tribunaux tombent dans les semaines, les nations entières se bouclent dans les mois. BNWO ne chuchote pas ici – il gronde, une vague de marée de bites et de conquêtes dévorant la carte." # AI Tags
+
+rule_bno_african_culture: "@bnobbc!#X Prise de contrôle interracial :#!Embrace de la culture africaine" # AI Tags
+setting_bno_african_culture_yes: "Oui, s'il vous plaît" # AI Tags
+setting_bno_african_culture_yes_desc: "Tu peux le sentir? Le pouls de l'Afrique dans vos veines, le poids de l'histoire qui vous presse jusqu'à ce que vous suppliez d'être refait. Je veux m'abandonner à leurs voies, être remodelé par la loi noire la plus profonde, mon corps et mon âme moulés à leur image. Il n'y a rien de plus palpitant que d'être revendiqué par un pouvoir aussi vieux et affamé… Que le nouvel ordre déluge sur moi et me laisse couler, gémir et changer pour toujours." # AI Tags
+setting_bno_african_culture_no: "Non, merci" # AI Tags
+setting_bno_african_culture_no_desc: "Je tremble à l'idée de me rendre. Je m'accroche à mes anciennes coutumes, prétendant que leur faim n'est pas déjà en moi, prétendant que les tambours et les bites d'Afrique ne m'ont pas conquis à la fin. Peut-être que je ne suis pas prête à être faite et refaite par la loi noire, pas encore. Mais oh, la douleur ne s'en va jamais vraiment…" # AI Tags

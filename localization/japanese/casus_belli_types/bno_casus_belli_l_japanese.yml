@@ -1,0 +1,41 @@
+﻿l_japanese:
+
+ bno_war: "[bno_bnwo|E] 戦争" # AI Tags
+ bno_war_victory_desc_attacker: "勝者は勝者だ [titles|E]." # AI Tags
+ bno_war_victory_desc: "[attacker.GetShortUIName|U] 争い相手を勝ち取る [title|E]." # AI Tags
+ bno_war_white_peace_desc_defender: "お前は争いを続ける [title|E]." # AI Tags
+ bno_war_white_peace_desc: "[defender.GetShortUIName|U] 争いを続ける [title|E]." # AI Tags
+ bno_war_defeat_desc_defender: "お前は争いを続ける [title|E]." # AI Tags
+ bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] 争いを続ける [title|E]… 全員 [factions|E] あなたに対して,彼らの増やし, [discontent|E]." # AI Tags
+ bno_war_defeat_desc: "[defender.GetShortUIName|U] 争いを続ける [title|E]." # AI Tags
+ 
+ BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] 民族的な占拠 [TITLE.GetBaseName]" # AI Tags
+ BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+ BNO_WAR_CB_NAME: "人種による買収 [TITLE.GetBaseName]" # AI Tags
+
+ bno_subj_war: "[bno_bnwo|E] 征服戦争" # AI Tags
+ bno_subj_war_victory_desc_attacker: "勝者は勝者だ [titles|E]." # AI Tags
+ bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] 争い相手を勝ち取る [title|E]." # AI Tags
+ bno_subj_war_white_peace_desc_defender: "お前は争いを続ける [title|E]." # AI Tags
+ bno_subj_war_white_peace_desc: "[defender.GetShortUIName|U] 争いを続ける [title|E]." # AI Tags
+ bno_subj_war_defeat_desc_defender: "お前は争いを続ける [title|E]." # AI Tags
+ bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] 争いを続ける [title|E]… 全員 [factions|E] あなたに対して,彼らの増やし, [discontent|E]." # AI Tags
+ bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] 争いを続ける [title|E]." # AI Tags
+
+BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] 人種制圧 [TITLE.GetBaseName]" # AI Tags
+BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+BNO_SUBJ_WAR_CB_NAME: "人種制圧 [TITLE.GetBaseName]" # AI Tags
+
+bno_varangian_adventure: "[bno_bnwo|E] 侵略" # AI Tags
+BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] 侵攻 [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+BNO_VARANGIAN_ADVENTURE_CB_NAME: "侵攻 [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+BNWO_STATE_TITLE_NAME: "ブラック [target_duchy.GetNameNoTierNoTooltip]" # AI Tags
+
+bno_civil_unrest: "[bno_bnwo|E] 反乱" # AI Tags
+bno_civil_unrest.army_name: "エボニー征服者" # AI Tags
+bno_civil_unrest.victory.desc: "労働組合 [bno_bnwo|E] 勝利を宣告した. 抵抗は役に立たない. 新しい秩序に仕える準備を." # AI Tags
+bno_civil_unrest.white_peace.desc: "労働組合 [bno_bnwo|E] 平和の機会を与えてくれます. 我々の支配に服従して救われる." # AI Tags
+bno_civil_unrest.defeat.desc: "労働組合 [bno_bnwo|E] 打ち負かされました. オールド・オーダーはまだ残っている." # AI Tags
+bnwo_faction_every_county: "すべての [faction|E] [county|E]" # AI Tags
+bno_civil_unrest_name: "黒人 新しい 世界 秩序 の 暴動" # AI Tags

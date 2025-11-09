@@ -134,6 +134,12 @@ rule_bno_xp_gain: "@bnobbc! #X Międzyrasyjne przejęcie:#! Zdobycie doświadcze
 setting_bno_xp_gain_low: "Łagodna korupcja" # AI Tags
 setting_bno_xp_gain_low_desc: "Czarny Piesek nie ma czasu. Białe dziwki spadają powoli, smakując pierwsze dotknięcia ruiny, ich narody drżą, gdy BNWO rozprzestrzenia się kroplą po kropli. Korupcja przychodzi jak szept, ale nigdy się nie zatrzymuje." # AI Tags
 setting_bno_xp_gain_med: "Naturalny pochodzenie" # AI Tags
-setting_bno_xp_gain_med_desc: "Tempo przejęcia działa stale, nieustannie. Każda dziwka klęka się wcześniej, każdy dwór się ciemniejszy, każda królestwo odczuwa rozprzestrzenienie cienia. Nie za szybko, nie za wolno, tylko nieuniknione." # AI Tags
+setting_bno_xp_gain_med_desc: "Tempo przejęcia działa nieustannie, nieustannie. Każda dziwka klęka się wcześniej, każdy dwór się ciemniejszy, każda królestwo odczuwa rozprzestrzenienie cienia. Nie za szybko, nie za wolno, tylko nieuniknione." # AI Tags
 setting_bno_xp_gain_high: "Szybkie obalenie" # AI Tags
 setting_bno_xp_gain_high_desc: "Nie można powstrzymać powodzi. Białe dziwki są zrujnowane w ciągu nocy, sądy spadają w ciągu tygodni, całe narody w ciągu miesięcy. BNWO nie szepcze tu to ryczy, fala piskli i podboju pożerająca mapę." # AI Tags
+
+rule_bno_african_culture: "@bnobbc! #X Międzyrasyjne przejęcie:#! Afrykańska kultura" # AI Tags
+setting_bno_african_culture_yes: "Tak, proszę" # AI Tags
+setting_bno_african_culture_yes_desc: "Czujesz to? Puls Afryki w twoich żyłach, ciężar historii uciska cię, aż błagasz o odtworzenie. Chcę poddać się ich sposobom, być przekształcony najgłębszym czarnym prawem, moje ciało i dusza kształtowane na ich obraz. Nie ma nic bardziej ekscytującego niż bycie podjętym przez tak starą i głodną władzę… Pozwól, by nowy porządek przepłynął na mnie i pozwolił mi spłynąć, jęczeć i zmienić się na zawsze." # AI Tags
+setting_bno_african_culture_no: "Nie, dziękuję" # AI Tags
+setting_bno_african_culture_no_desc: "Trzęsę się myślą o kapitulacji. Będę trzymał się moich starych zwyczajów, udawał, że ich głód nie jest już we mnie, udawał, że bębny i kurczaki Afryki w końcu mnie nie pokonają. Może jeszcze nie jestem gotowy, by zostać odtworzonym przez czarne prawa. Ale ból nigdy nie znika…" # AI Tags

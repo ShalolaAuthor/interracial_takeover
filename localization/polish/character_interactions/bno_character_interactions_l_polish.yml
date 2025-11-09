@@ -25,6 +25,7 @@ bno_tincture_of_genesis_interaction.effect: "Będziesz karmił swoją żonę [re
 
 bno_tincture_of_genesis_interaction.desc.female: "Poproszę męża , by mnie przekształcił" # AI Tags
 bno_tincture_of_genesis_interaction.effect.female: "Twój mąż będzie karmił cię swoim płodem, jako jedyny źródło utrzymania." # AI Tags
+bno_tincture_of_genesis_interaction.effect.courtier.female: "Byka z twojego dworu będzie cię codziennie zasłaniać, a jego sperma stanie się twoim jedynym źródłem utrzymania." # AI Tags
 
 bno_prisoner_interaction: "Wykorzystaj BBC Supremacy" # AI Tags
 bno_prisoner_interaction_desc: "Ten żałosny biały mężczyzna myślał, że może stać jako mężczyzna. Teraz, w łańcuchach, jego żałosny kutas staje się zabawką do osądu albo zamknięty na zawsze w zimnym żelazu, albo całkowicie odcięty, aby zrobić miejsce dla prawdziwego stada hodowlane. Jego los jest lekcją dla wszystkich, którzy odważyliby się oprzeć [bno_bnwo|E]Zasada." # AI Tags
@@ -36,3 +37,26 @@ bno_prisoner_interaction.slaving: "@bno_slave_icon! Zdejmij jej godność i prze
 bno_prisoner_interaction.has_bbc_in_court: "Biała dziwka nie posiada prawdziwej mocy. Jest przeznaczona tylko do rozmnażania. Aby zamknąć, kastrtować lub zniewolić kogoś innego, musi mieć przynajmniej jedną BBC w swoim sądzie, aby działała jako ręka dominacji i wykonywała czyn."   # AI Tags
 bno_prisoner_interaction.not_caged: "Ten bezużyteczny biały kutas jest już zamknięty w żelazu, zaprzeczony na zawsze." # AI Tags
 bno_prisoner_interaction.not_castrated: "Nie ma już nic do odcięcia. Ta dziwka została już pozbawiona męstwa."   # AI Tags
+
+bno_apply_elixir_interaction: "Wykorzystaj eliksyr" # AI Tags
+
+bno_apply_elixir_interaction.desc.female.bbc: "Oferuj eliksir [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.female.whiteboi: "Slip elixyr do [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.self.whiteboi: "Sam wypij eliksir." # AI Tags
+bno_apply_elixir_interaction.desc.self.bbc: "Sam połknij eliksir." # AI Tags
+bno_apply_elixir_interaction.desc.bbc.whiteboi: "Włączyć eliksyr [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.bbc.bbc: "Podzielić eliksyr z [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.whiteboi.bbc: "Przedstawić eliksir do [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.whiteboi.whiteboi: "Przekaż elixyr [recipient.GetFirstName]." # AI Tags
+
+bno_apply_elixir_interaction_bno_tincture_of_genesis: "@bno_tincture_of_genesis_icon! Wykorzystaj tekst z Księgi Rodzaju" # AI Tags
+bno_apply_elixir_interaction_bno_elixir_of_the_black_womb: "@bno_elixir_of_the_black_womb_icon! Wykorzystaj eliksyr czarnego macicy" # AI Tags
+
+bno_apply_elixir_interaction.bno_tincture_of_genesis.tooltip: "Wymagane jest posiadanie [bno_tincture_of_genesis|E]i [recipient.GetFirstName] nie może być [GetTrait('bno_castrated').GetName( GetNullCharacter )]." # AI Tags
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.tooltip: "Wymagane jest posiadanie [bno_elixir_of_the_black_womb|E]i [recipient.GetFirstName] musi być mężczyzną, ale nie [GetTrait('bno_bbc').GetName( GetNullCharacter )]." # AI Tags
+
+bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.actor.tooltip: "[actor.GetFirstName] administruje [bno_tincture_of_genesis|E]." # AI Tags
+bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.recipient.tooltip: "[recipient.GetFirstName] wypije [bno_tincture_of_genesis|E], przekształcając swoje nasienie w [bno_seed_of_genesis|E]." # AI Tags
+
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.actor.tooltip: "[actor.GetFirstName] siły [bno_elixir_of_the_black_womb|E] do zabierania." # AI Tags
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.recipient.tooltip: "[recipient.GetFirstName] wypije [bno_elixir_of_the_black_womb|E], jego kutas umierający i głód po cum spożywa go." # AI Tags

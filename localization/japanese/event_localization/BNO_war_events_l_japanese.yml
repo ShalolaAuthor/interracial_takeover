@@ -1,0 +1,13 @@
+﻿l_japanese:
+
+bno_war_0001.title: "敵 が 裏切られた" # AI Tags
+bno_war_0001.desc: "私の将軍の一人が 異常な状況に気づきました. 報告を信じるなら 私の哀れな敵 [defender.GetFullName] 私は彼に対して戦いを活発に進めているので 私にとってニュースのことです. \n\nしかし,彼の妻以外の誰もいなかったことを知ると,私はあまり驚かない [target1.GetFirstName] 彼は私の兵士に渡された. 彼女はこの戦争を ブラック・カックに公然に屈服する機会として見ていたようだ. 彼女の願いを叶えるべきか? あなたの選択に関係なく [defender.GetFirstName] 捕虜として 勝利は君次第." # AI Tags
+bno_war_0001.a: "彼女は宮廷官としての地位を勝ち取った." # AI Tags
+bno_war_0001.b: "いいけど,彼女は私の宮廷には居場所がない." # AI Tags
+bno_war_0001.c: "彼女は上手くやった,私は彼女を自分のものとして受け取る." # AI Tags
+
+bno_war_0002.title: "黒人 の 優位 を 擁護 する" # AI Tags
+bno_war_0002.desc: "[bno_bbc|E] 主な守護者が聖戦士の特性を獲得し/または Supremacy 宗教 + 軍隊の生殖に復帰するチャンスを得ると" # AI Tags
+bno_war_0002.a: "私の剣がすべての劣等人種を撃つように." # AI Tags
+bno_war_0002.b: "私は再び生まれ変わった黒人優位主義者だ." # AI Tags
+bno_war_0002.c: "3つ目の選択肢" # AI Tags

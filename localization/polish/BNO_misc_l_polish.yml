@@ -2,14 +2,14 @@
 # traits
 trait_bno_bbc: "Wielki, czarny kurczak" # AI Tags
 trait_bno_bbc_desc: "Ta postać ma ogromny czarny kutas i chęć pieprzenia każdej dziwki." # AI Tags
-trait_bno_cuckish: "Złapany?" # AI Tags
-trait_bno_cuckish_desc: "Żona tej postaci niedawno oddalała się od niej. - Dlaczego?" # AI Tags
-trait_bno_cuck: "Załapałem!" # AI Tags
-trait_bno_cuck_desc: "Żona tej postaci kiedykolwiek pieprzyła się z czarnym mężczyzną, a on jest bezsilny, by to powstrzymać." # AI Tags
-trait_bno_beta: "Beta" # AI Tags
-trait_bno_beta_desc: "Była żona tej postaci opuściła go dla lepszego mężczyzny i całkowicie go eliminowała." # AI Tags
-trait_bno_jos: "Jack of Spades" # AI Tags
-trait_bno_jos_desc: "Ten bohater, pomimo kłopotów małżeńskich, w pełni przyłączył się do nowego porządku światowego." # AI Tags
+trait_bno_whiteboi_1: "Złapany?" # AI Tags
+trait_bno_whiteboi_1_desc: "Żona tej postaci niedawno oddalała się od niej. - Dlaczego?" # AI Tags
+trait_bno_whiteboi_2: "Załapałem!" # AI Tags
+trait_bno_whiteboi_2_desc: "Żona tej postaci kiedykolwiek pieprzyła się z czarnym mężczyzną, a on jest bezsilny, by to powstrzymać." # AI Tags
+trait_bno_whiteboi_3: "Beta" # AI Tags
+trait_bno_whiteboi_3_desc: "Była żona tej postaci opuściła go dla lepszego mężczyzny i całkowicie go eliminowała." # AI Tags
+trait_bno_whiteboi_4: "Jack of Spades" # AI Tags
+trait_bno_whiteboi_4_desc: "Ten bohater, pomimo kłopotów małżeńskich, w pełni przyłączył się do nowego porządku światowego." # AI Tags
 trait_bno_caged: "Zamknięte w klatce" # AI Tags
 trait_bno_caged_desc: "Czystość jest karą tej postaci za to, że nie jest czarna." # AI Tags
 trait_bno_castrated: "Kastrowane" # AI Tags

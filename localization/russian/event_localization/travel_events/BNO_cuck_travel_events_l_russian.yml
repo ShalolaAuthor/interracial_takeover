@@ -1,6 +1,5 @@
 ﻿l_russian:
-
-# События для путешествий
+#Travel Flavor Events
 bno_cuck_travel_0001.title: "Можно ли вас прервать..."
 bno_cuck_travel_0001.desc: "Ты знал, что между [target1.GetFirstName] и [target2.GetFirstName] что-то происходит. Ты видишь, как они болтают на протяжении всего путешествия, даже не обращая внимания на других в свите. Теперь ты застаёшь их за приятным времяпрепровождением. [target2.GetFirstName|U] обладает огромным размером, и [target1.GetFirstName] явно наслаждается этим. Ты завидуешь размерам [target2.GetHerHis], стоны разносятся по всему лагерю, то, как [target2.GetSheHe] проникает в [target1.GetHerHis], уникально... может, оставить их в покое?"
 bno_cuck_travel_0001.a: "Ох"

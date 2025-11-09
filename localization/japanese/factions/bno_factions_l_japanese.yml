@@ -1,0 +1,14 @@
+﻿l_japanese:
+
+bnwo_faction: "[bno_bnwo|E] 派閥" # AI Tags
+bnwo_faction_desc: "鉄の拳の支配下では 白い体は屈し 血を流し 強く 美しそうで否定できない子孫への 飽きない飢えを 燃やします [bno_black|E]." # AI Tags
+bnwo_faction.name: "労働組合 [bno_bnwo|E]" # AI Tags
+bnwo_faction.short_effect_desc: "労働組合 [bno_bnwo|E] 人種的優位性に基づいた新しい世界秩序を確立することを目指す派閥です [bno_black|E] 個人のこと." # AI Tags
+bnwo_faction.power.bnoc: "欲しがる [liege|E] すること $bnoc$" # AI Tags
+bnwo_faction.power.bbcs: "欲しがる [liege|E] すること $bbcs$" # AI Tags
+bnwo_faction.power.county_bnoc: "欲しがる [county] すること $bnoc$" # AI Tags
+bnwo_faction.power.county_bbcs: "欲しがる [county] すること $bbcs$" # AI Tags
+bnwo_faction_leader_title: "司令官" # AI Tags
+bnwo_faction_revolt_title_name: "労働組合 [bno_bnwo|E] 暴動" # AI Tags
+bnwo_faction_event_troops: "[bno_bnwo|E] 暴動" # AI Tags
+bno_event_troop_default_name: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] [bno_bnwo|E] 反乱軍" # AI Tags

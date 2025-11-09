@@ -29,6 +29,7 @@ bno_bbc_cum_addiction.intellect_good_3: "Ты [GetTrait('intellect_good_3').GetN
 
 bno_bbc_cum_addiction.strong: "Ты [GetTrait('strong').GetName(GetNullCharacter)] и пышет мужеством."
 
+
 bno_bbc_cum_addiction.lustful: "[GetTrait('lustful').GetName(GetNullCharacter)] жар заставляет её пизду ныть."
 bno_bbc_cum_addiction.chaste: "[GetTrait('chaste').GetName(GetNullCharacter)] обеты держат её в узде."
 bno_bbc_cum_addiction.gluttonous: "[GetTrait('gluttonous').GetName(GetNullCharacter)] жадность делает её голодной до спермы."

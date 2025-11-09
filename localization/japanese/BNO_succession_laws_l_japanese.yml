@@ -1,0 +1,5 @@
+﻿l_japanese:
+#BNWO Succession
+ bnwo_only_law: "BNWO オリエンテッド" # AI Tags
+ bnwo_only_law_subname: "人種 の 優位性" # AI Tags
+ bnwo_only_law_effects: "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$男性と女性は,所有権者からの継承において平等である.\n$EFFECT_LIST_BULLET$同様の信仰を継承するためにのみ利用できます.\n$EFFECT_LIST_BULLET$相続人の指定を許可する." # AI Tags

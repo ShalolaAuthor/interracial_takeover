@@ -1,0 +1,62 @@
+﻿l_japanese:
+
+bno_bbc_cum_addiction_interaction: "依存症" # AI Tags
+bno_bbc_cum_addiction_interaction.desc: "腐敗を始める [recipient.GetFirstNameNoTooltip]… 言葉でも魅力でもなく 種で彼女を膝に引っ張って 唇に彼女の雄牛だけが与えるものを思い出させる." # AI Tags
+bno_bbc_cum_addiction_interaction.send_name: "お腹をあげて" # AI Tags
+bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] 依存症が始まっている" # AI Tags
+bno_bbc_cum_addiction_interaction.tooltip: "縛り付け始めました [recipient.GetFirstNameNoTooltip] 種子を通して. 毎回の出会いは 彼女の意志を弱め 欲望を深め あなたのセムなしで生きられないまで." # AI Tags
+bno_bbc_cum_addiction_interaction.already_training: "お前はもう売春婦を 種に縛ってる. 意志が破られ,あなたの意志に変えられるまで [bno_cum_slave|E]." # AI Tags
+
+bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] ある種の [illness|E]" # AI Tags
+bno_cure_disease_interaction.no_priestess: "あなたには [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] 儀式を行うために." # AI Tags
+bno_cure_disease_interaction.no_priest: "あなたには [GetCourtPositionType('bno_bbc_priest_court_position').GetName] 儀式を行うために." # AI Tags
+
+bno_cure_disease_interaction: "聖なる種子" # AI Tags
+bno_cure_disease_interaction.desc.female: "[GetCourtPositionType('bno_bbc_priest_court_position').GetName] 彼の聖なる種を授けなさい [recipient.GetFirstName]" # AI Tags
+bno_cure_disease_interaction.desc.male: "[GetCourtPositionType('bno_bbc_priestess_court_position').GetName] 彼女の神聖な本質を [recipient.GetFirstName]" # AI Tags
+
+bno_cure_disease_interaction.female_recipient.effect: "あなたはあなたの [GetCourtPositionType('bno_bbc_priest_court_position').GetName] 神聖な種を準備し 儀式のために準備する" # AI Tags
+bno_cure_disease_interaction.male_recipient.effect: "あなたはあなたの [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] 彼女の神聖な本質を準備し 儀式のために準備する" # AI Tags
+
+bno_tincture_of_genesis_interaction: "創世記 の 染料" # AI Tags
+bno_tincture_of_genesis_interaction.desc: "お前は妻を変えてやる [recipient.GetFirstName] 存在" # AI Tags
+bno_tincture_of_genesis_interaction.not_white: "そうだ [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+bno_tincture_of_genesis_interaction.effect: "お前は妻を養う [recipient.GetFirstName] 彼女の核を変えて." # AI Tags
+
+bno_tincture_of_genesis_interaction.desc.female: "私は夫に私を変容するようにお願いします" # AI Tags
+bno_tincture_of_genesis_interaction.effect.female: "あなたの夫は,あなたの唯一の養生源として,彼の精子をあなたに食べさせるでしょう." # AI Tags
+bno_tincture_of_genesis_interaction.effect.courtier.female: "あなたの宮廷から来た牛が 毎日あなたを襲撃する 彼の精子は あなたの唯一の生計の源になります." # AI Tags
+
+bno_prisoner_interaction: "BBCの優位性を強制する" # AI Tags
+bno_prisoner_interaction_desc: "この可哀想な白人は 男として立ち上がると思っていた. 鎖で彼の哀れなチンコは 判断のためのおもちゃになる 冷たい鉄で永遠に閉じ込められたり 完全に切断されたり. 彼の運命は 抵抗する勇気を持つすべての人にとって教訓です [bno_bnwo|E]ルールだ." # AI Tags
+bno_prisoner_interaction_desc.futa: "この白いフータの売春婦は 肉が特別だと考えました. 鎖に縛られた彼女のチックは 檻の中で無用に揺れるか 切り裂かれ ブラックシードに 滴滴の糞しか残らない. 彼女はすべての半種族の偽装者への警告です [bno_bnwo|E]ルールだ."   # AI Tags
+bno_prisoner_interaction_desc.female: "この白い娼婦は 彼女には尊厳があると信じた. 剥がされ 縛られ 穴が彼女の唯一の価値だと学び 破られ 黒人のマスターに渡された. 彼女の屈辱は 壮観であり, [bno_bnwo|E]優位性だ."   # AI Tags
+bno_prisoner_interaction.caging: "@bno_caged_icon! 頑丈な鋼のケージに彼らの柔らかい白いチンコを押す"   # AI Tags
+bno_prisoner_interaction.castrating: "@bno_castrated_icon! 哀れな穴を切り離して 繁殖穴しか残らない"   # AI Tags
+bno_prisoner_interaction.slaving: "@bno_slave_icon! 尊厳を剥奪する BBCの奴隷になる" # AI Tags
+bno_prisoner_interaction.has_bbc_in_court: "白い売春婦には本当の力がない 繁殖しかできない. 監禁,排排泄,または奴隷にするために,彼女は少なくとも1つのBBCを自分の宮廷で支配者の手として行動し,その行為を実行する必要があります."   # AI Tags
+bno_prisoner_interaction.not_caged: "その無用な白カンは既に鉄に閉じ込められ,永遠に否定されている." # AI Tags
+bno_prisoner_interaction.not_castrated: "切れる余裕はない この売春婦は既に男性を剥奪した."   # AI Tags
+
+bno_apply_elixir_interaction: "エリキサーを塗る" # AI Tags
+
+bno_apply_elixir_interaction.desc.female.bbc: "エリキサーを [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.female.whiteboi: "エリキサーをスライプして [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.self.whiteboi: "エリキサーを自分で飲んでください." # AI Tags
+bno_apply_elixir_interaction.desc.self.bbc: "エリキサーを自分で飲みなさい." # AI Tags
+bno_apply_elixir_interaction.desc.bbc.whiteboi: "エリキサーを押し付け [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.bbc.bbc: "エリキシールを [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.whiteboi.bbc: "エリキシールを贈る [recipient.GetFirstName]." # AI Tags
+bno_apply_elixir_interaction.desc.whiteboi.whiteboi: "エリキシールを送って [recipient.GetFirstName]." # AI Tags
+
+bno_apply_elixir_interaction_bno_tincture_of_genesis: "@bno_tincture_of_genesis_icon! 創世記 の 塗料 を 適用 する" # AI Tags
+bno_apply_elixir_interaction_bno_elixir_of_the_black_womb: "@bno_elixir_of_the_black_womb_icon! 黒い 子宮 の エリキサー を 用いる" # AI Tags
+
+bno_apply_elixir_interaction.bno_tincture_of_genesis.tooltip: "権利の取得を要求する [bno_tincture_of_genesis|E]そして [recipient.GetFirstName] 許されない [GetTrait('bno_castrated').GetName( GetNullCharacter )]." # AI Tags
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.tooltip: "権利の取得を要求する [bno_elixir_of_the_black_womb|E]そして [recipient.GetFirstName] 男性でなければならないが,男性ではない [GetTrait('bno_bbc').GetName( GetNullCharacter )]." # AI Tags
+
+bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.actor.tooltip: "[actor.GetFirstName] 管理する [bno_tincture_of_genesis|E]." # AI Tags
+bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.recipient.tooltip: "[recipient.GetFirstName] 飲んでいる [bno_tincture_of_genesis|E]彼の種を [bno_seed_of_genesis|E]." # AI Tags
+
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.actor.tooltip: "[actor.GetFirstName] 強制する [bno_elixir_of_the_black_womb|E] 引き上げられる." # AI Tags
+bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.recipient.tooltip: "[recipient.GetFirstName] 飲んでいる [bno_elixir_of_the_black_womb|E]チンコが枯れて 腹が空いてる." # AI Tags

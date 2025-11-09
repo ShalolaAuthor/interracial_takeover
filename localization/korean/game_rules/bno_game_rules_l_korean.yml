@@ -128,7 +128,7 @@ rule_bno_great_replacement: "@bnobbc! #X 인종 간 인수:#! 위대한 대체" 
 setting_bno_great_replacement_converting: "카운티 전환" # AI Tags
 setting_bno_great_replacement_converting_desc: "이 경우 [bno_bbc|E] 또는 그의 한 둥지꾼이 그들의 뜻에 따라 카운티를 휘두르면 변화가 깊어집니다. 오래된 문화가 벗겨지고 아프리카 뿌리로 대체됩니다 어두운 혀, 더 어두운 피, 그의 닭의 형상으로 만들어진 땅." # AI Tags
 setting_bno_great_replacement_cultural_acceptance: "문화적 인 수용" # AI Tags
-setting_bno_great_replacement_cultural_acceptance_desc: "이 [bno_bbc|E] 또는 그의 백인 가녀는 오래된 방법을 지우지 않습니다. 그들은 그들을 묶습니다. 문화는 100개에 합쳐져 블랙콕 밑에 연합해 니다." # AI Tags
+setting_bno_great_replacement_cultural_acceptance_desc: "이 [bno_bbc|E] 또는 그의 백인 가녀는 낡은 방법을 지우지 않습니다 낡은 방법을 묶습니다. 문화는 100개에 합쳐져 블랙콕 밑에 연합해 니다." # AI Tags
 
 rule_bno_xp_gain: "@bnobbc! #X 인종 간 인수:#! 경험 을 쌓는 것" # AI Tags
 setting_bno_xp_gain_low: "부드러운 부패" # AI Tags
@@ -137,3 +137,9 @@ setting_bno_xp_gain_med: "자연적 혈통" # AI Tags
 setting_bno_xp_gain_med_desc: "점령의 속도는 끊임없이 움직이고 있습니다. 매 창녀는 빨리 무릎을 꿇고, 모든 궁전은 더 어두워지고, 모든 영역은 그 그림자가 퍼져있는 것을 느낄 수 있습니다. 너무 빨리, 너무 느리진 않아, 그냥 피할 수 없어." # AI Tags
 setting_bno_xp_gain_high: "급속 한 전복" # AI Tags
 setting_bno_xp_gain_high_desc: "홍수는 막을 수 없습니다. 흰색 창녀들은 하루아침에 망가지고 법원이 몇 주 안에 무너지고, 온 나라들은 몇 달 안에 망가집니다. BNWO는 여기서 속삭이지 않습니다. 그것은 울고 있습니다. 카트를 잡아먹는 닭과 정복의 물결." # AI Tags
+
+rule_bno_african_culture: "@bnobbc! #X 인종 간 인수:#! 아프리카 문화 를 받아들이는 것" # AI Tags
+setting_bno_african_culture_yes: "그래, 제발" # AI Tags
+setting_bno_african_culture_yes_desc: "감상할 수 있어? 아프리카의 맥박이 여러분의 혈관 속에 있습니다. 역사의 무게가 여러분을 압박하고 있습니다. 저는 그들의 방식에 굴복하고, 가장 깊은 흑인 법칙에 의해 다시 형성되고, 제 몸과 영혼이 그들의 모습으로 형성되고 싶습니다. 이렇게 늙고 굶주린 힘에 의해 주장되는 것보다 더 흥미진진한 것은 없습니다. 새로운 질서가 날 덮어버리고, 날 떠들게 하고, 고개를 끄덕이고, 영원히 바뀌게 해줘." # AI Tags
+setting_bno_african_culture_no: "아니, 고마워요" # AI Tags
+setting_bno_african_culture_no_desc: "항복을 생각하면 떨고 있습니다. 나는 나의 옛 관습에 매달려 그들의 굶주림이 내 안에 있지 않은 것처럼 행동하며 아프리카의 전무와 똥이 결국 나를 정복하지 않을 것처럼 행동한다. 어쩌면 저는 아직 흑인의 법에 의해 만들어지지 않고 다시 만들어질 준비가 되어 있지 않을지도 모릅니다. 하지만 고통은 결코 사라지지 않습니다." # AI Tags

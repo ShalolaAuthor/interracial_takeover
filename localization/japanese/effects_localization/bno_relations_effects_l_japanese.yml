@@ -1,0 +1,13 @@
+﻿l_japanese:
+
+i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] あなたのものになる [bno_slave|E]" # AI Tags
+they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] になる [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+
+i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] あなたのものになった [bno_slave|E]" # AI Tags
+they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] になった [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+
+i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] あなたのものになる [bno_cum_slave|E]種子で結ばれて あなただけに忠誠を尽くします." # AI Tags
+they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] になる [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E]と献身によって奴隷にされた." # AI Tags
+
+i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] あなたのものになった [bno_cum_slave|E]彼女の唇と子宮は永遠にあなたの子孫に封じ込められた." # AI Tags
+they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] になった [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E]チンコが持っていて チンコに縛られている." # AI Tags

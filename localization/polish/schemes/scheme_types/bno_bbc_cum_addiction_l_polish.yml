@@ -7,13 +7,13 @@ bno_bbc_cum_addiction_desc: "Nie wiąż jej przysięgami ani łańcuchami, ale n
 bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] Staje się uzależniona od twojego cum, niewolnicą związaną ze swoim bykiem, jej łonie i wargami należące do niej na zawsze." # AI Tags
 
 bno_bbc_cum_addiction.invalidated.title: "Zagubiony niewolnik" # AI Tags
-bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] Jest martwa, usta zamilknięte, zanim twoja komórka mogła ją w pełni zdobyć. Kolejny wkrótce klęka[bno_bnwo|E] Nie kończy się jednym złamanym dziwką." # AI Tags
+bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] Jest martwa, usta zamilknięte, zanim twoja komórka mogła ją całkowicie zdobyć. Kolejny wkrótce klęka[bno_bnwo|E] Nie kończy się jednym złamanym dziwką." # AI Tags
 
-bno_bbc_cum_addiction.curious: "To ona [GetTrait('bno_curious').GetName(GetNullCharacter)] i jest zmuszony do smaku."   # AI Tags
-bno_bbc_cum_addiction.blacked: "Była [GetTrait('bno_blacked').GetName(GetNullCharacter)] i pragnie więcej."   # AI Tags
-bno_bbc_cum_addiction.snowbunny: "Stała się [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] i pragnie każdego Byka."   # AI Tags
-bno_bbc_cum_addiction.qos: "Wzniosła się jako [GetTrait('bno_qos').GetName(GetNullCharacter)] i kłania się dumnie."   # AI Tags
-bno_bbc_cum_addiction.mindless: "Ona zatopiła się w [GetTrait('bno_mindless_bbc_slut').GetName(GetNullCharacter)] i nie jest w stanie oprzeć się."   # AI Tags
+bno_bbc_cum_addiction.curious: "To ona [GetTrait('bno_whitegirl_1').GetName(GetNullCharacter)] i jest zmuszony do smaku."   # AI Tags
+bno_bbc_cum_addiction.blacked: "Była [GetTrait('bno_whitegirl_2').GetName(GetNullCharacter)] i pragnie więcej."   # AI Tags
+bno_bbc_cum_addiction.snowbunny: "Stała się [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] i pragnie każdego Byka."   # AI Tags
+bno_bbc_cum_addiction.qos: "Wzniosła się jako [GetTrait('bno_whitegirl_4').GetName(GetNullCharacter)] i kłania się dumnie."   # AI Tags
+bno_bbc_cum_addiction.mindless: "Ona zatopiła się w [GetTrait('bno_whitegirl_5').GetName(GetNullCharacter)] i nie jest w stanie oprzeć się."   # AI Tags
 
 bno_bbc_cum_addiction.beauty_good_1: "Jesteś [GetTrait('beauty_good_1').GetName(GetNullCharacter)] i przyjemne dla oczu."   # AI Tags
 bno_bbc_cum_addiction.beauty_good_2: "Jesteś [GetTrait('beauty_good_2').GetName(GetNullCharacter)] I niezwykle przystojny."   # AI Tags

@@ -11,7 +11,7 @@ BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! Wstawiennictwo [bno_bbc
 BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! otwarcie przyjmuje [bno_bbc|E]: #color_green +50#!"   # AI Tags
 sneak_bbc.has_bbc_in_court: "Musisz mieć co najmniej dwa [bno_bbc|E] W twoim sądzie, aby wysłać jednego."   # AI Tags
 sneak_bbc.already_has_bbc_in_court: "Te kurwy są już wypełnione przez Były nie ma potrzeby wysyłania kolejnych."   # AI Tags
-sneak_bbc.not_enough_of_a_slut: "Nie jesteś jeszcze wystarczająco dziwką. Tylko prawdziwy [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] Albo, co gorsza, odważy się przemycać byków między sądami."   # AI Tags
+sneak_bbc.not_enough_of_a_slut: "Nie jesteś jeszcze wystarczająco dziwką. Tylko prawdziwy [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] Albo, co gorsza, odważy się przemycać byków między sądami."   # AI Tags
 #influence child interaction
 bno_influence_child: "Wspiera ciekawość" # AI Tags
 bno_influence_child_desc: "Wpływ dziecka na prawdę" # AI Tags

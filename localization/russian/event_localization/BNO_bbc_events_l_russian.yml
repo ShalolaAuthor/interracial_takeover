@@ -13,13 +13,13 @@ bno_events01.a: "[target1.GetFirstName] — самый достойный."
 bno_events01.b: "[target2.GetFirstName] — лучший кандидат."
 bno_events01.c: "[target3.GetFirstName] войдёт в мой двор."
 bno_events01.d: "Благослови нас своим влиянием..."
-
-#bno_events02 - when receiving a kingdom title and being married to a BBC
+ 
+ #bno_events02 - when receiving a kingdom title and being married to a BBC
 bno_events02.title: "Африканский Король"
 bno_events02.desc: "«Любовь моя, ты хочешь поделиться этим? Твоим владычеством над этой землёй?»\n\nСердце трепещет, руки скрещены покорно, полностью предана плану уничтожить свою нацию.\n\nТвои дети унаследует силу, цвет и ум твоего любимого.\n\n[target1.GetLadyLord], что был львом в войне и в постели.\n\nТвой король."
 bno_events02.a: "Пойдём... в наши покои."
-
-#bno_events03 - when receiving an empire title and being married to a BBC
+ 
+ #bno_events03 - when receiving an empire title and being married to a BBC
 bno_events03.title: "Начало Конца"
 bno_events03.desc: "С твоим наследованием и претензией на высший трон королевства, твой супруг получил подходящий титул.\n\nПридя из далёкой земли, почти не известной «белым», твой любовник захватил не только сердце, но и земли.\n\nЭто лишь начало: [target1.GetHerHis] культура, вера и цвет кожи вторгаются в местное население."
 bno_events03.a: "Конец моей расы близок."
@@ -28,8 +28,8 @@ bno_events03.a: "Конец моей расы близок."
 bbcconversion.title: "Превосходство Африканцев"
 bbcconversion.desc: "Ты решил принять [bno_religion|E], поклоняясь только чёрным богам. Внезапно хочется распространить влияние [bno_bbc|E] по всему миру."
 bbcconversion.a: "Скоро мир склонится перед чёрными мужчинами"
-
-#test
+ 
+ #test
 bno_election: "Ввести Новое Наследование"
 bno_election_confirm: "Подтвердить"
 bno_election_decision_desc: "После изучения документов и путаницы с линиями наследования придворный просветил тебя о новой иерархии — основанной на расе, а не на поле."
@@ -65,3 +65,4 @@ bno_events.0007.a: "Судя по всему, [high_skill_option.GetFirstNameNoT
 bno_events.0007.a.aptitude: "[high_skill_option.GetUINamePossessive|U] [aptitude|E] — [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
 bno_events.0007.b: "[low_skill_option.GetFirstNameNoTooltip] кажется энтузиасткой, и на том спасибо."
 bno_events.0007.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E] — [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
+

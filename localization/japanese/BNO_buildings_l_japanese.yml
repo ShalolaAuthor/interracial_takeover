@@ -1,0 +1,43 @@
+﻿l_japanese:
+
+#BBC Camp
+building_type_bbc_camp_01: "アフリカの植民地" # AI Tags
+building_type_bbc_camp_01_desc: "アフリカの難民が集まって 地元の女性と交際する." # AI Tags
+building_bbc_camp_01: "繁殖キャンプ" # AI Tags
+building_bbc_camp_01_desc: "アフリカの難民は街の近くで 地域を指定して 地元の住民と "混じり合う"ことができます. これらのキャンプは 地元の女性を育てるのに最適な場所になるでしょう." # AI Tags
+building_bbc_camp_02: "愛の家" # AI Tags
+building_bbc_camp_02_desc: "アフリカの入植地に より多くの女性が 惹かれていくと 住宅の追加により より多くの難民が 彼らと共に繁殖できるようになります." # AI Tags
+building_bbc_camp_03: "難民村" # AI Tags
+building_bbc_camp_03_desc: "より多くの施設を建設し より永続的な住居を確立し より多くの交代を可能にしました." # AI Tags
+building_bbc_camp_04: "異人種間の売春宿" # AI Tags
+building_bbc_camp_04_desc: "[bno_bbc|E] 麻薬中毒者は 売春宿に集まって 好きなアフリカ難民とセックスできます." # AI Tags
+building_bbc_camp_05: "難民町" # AI Tags
+building_bbc_camp_05_desc: "都市の人口はアフリカ人難民によって 侵略され すべての女性は 少なくとも一度にアフリカ人によってファックされています." # AI Tags
+building_bbc_camp_06: "BBC パラダイス" # AI Tags
+building_bbc_camp_06_desc: "繁忙な都市で 遠くから女性たちが集まっています 地球上で最も人気のある カック - ビッグ・ブラック・カックスの味を味わうために." # AI Tags
+
+building_type_bbc_church_01: "$bnonr$" # AI Tags
+building_type_bbc_church_01_desc: "内部の空気が $bnonr$ 熱狂的な嘆きと絶望的な喘息のリズムで鼓舞され 身体は 汗をかくの献身で った天井の下に 滴り出している 油っぽい輝きが 流血した精子のように輝いていました." # AI Tags
+building_bbc_church_01: "$bnonr$財団:" # AI Tags
+building_bbc_church_01_desc: "今でさえ 一つの尖塔が空を突破し 禁止された色彩で輝く 窓が輝く前に 私はほとんどそれを感じることができます その岩石の基礎から発する 寒い力の鼓動です. 地球の奥深くに並べられた 彼らは最初の黒い石を掘り起こしました それぞれが暗黒の油で滑らかにキスをし 終わりのない肉体的な喜びの約束に浸透しました." # AI Tags
+building_bbc_church_02: "$bnonr$: 大聖堂" # AI Tags
+building_bbc_church_02_desc: "日々のオルギーは [bno_bbc|E]肉身と霊的な捧げ物によって 燃え上がりました 白人の男性の毎週儀式的な犠牲も含まれます." # AI Tags
+
+NOT_bbc_or_whitegirl_trigger: "持有者は [bno_bbc|E] ホワイトガール" # AI Tags
+
+has_dynasty_perk_1: "あなたの王朝は [GetDynastyPerk('bno_embrace_african_1').GetName]黒人の優位性の道に踏み出す." # AI Tags
+has_dynasty_perk_2: "あなたの王朝は [GetDynastyPerk('bno_embrace_african_2').GetName]ブラック・ニュー・ワールド・オーデーの 要求を深める." # AI Tags
+has_dynasty_perk_5_and_piety_level: "あなたの王朝は [GetDynastyPerk('bno_embrace_african_5').GetName] そして,あなたの敬虔さは,あなたが選ばれ, Bulls 法律の下で神聖化されていることを示す." # AI Tags
+
+
+building_type_bbc_trader_01: "オブシディアン・キャラバン" # AI Tags
+building_type_bbc_trader_01_desc: "ブラック・ニュー・ワールド・オーダーに捧げられた 遊牧市場です. その車には 創世記の染料が載っていて 黒い女王のように 肌が暗くまで 売春婦を独りで生きさせています. 横には黒人の子宮の精液が流れます 白人の子犬を 引き裂いて 腹が膨らんでいる 肥沃な娼婦に変形します. スタールには 可哀想な虫のための カックケージ 売春婦のための 純潔なピースリング 売春婦のピースを降伏し. カーバンは 横断キャンプとして始まるが 各階層で より深く掘り起こし 永久的な種子や征服の傷跡になるまで." # AI Tags
+
+building_bbc_trader_01: "オブシディアンクリアリング" # AI Tags
+building_bbc_trader_01_desc: "初めは黒い旗で覆われ 火で囲まれた土の塊だけでした. ブールズバッグが押し寄せる時 数羽のシルクテントが風を吹き飛ばして 筋肉が空中に運ばれてきました. 奇妙な商品のささやき 売春婦を種に奴隷にする ワインボーイを殺す約束する エリキサーのボトル. この初期段階でも 売春婦は 覗き込み ホワイトボーイが恥ずかしながら 逃げます." # AI Tags
+
+building_bbc_trader_02: "オブシディアン キャンプ" # AI Tags
+building_bbc_trader_02_desc: "カーンの到着により パビリオンの列が毎日上昇し キャンプが満員になりました. 雄牛は群れに集まって 圧倒的な存在です. 黒人の子宮のエリキサーは オープンに注がれ ホワイトボーイが排列して飲みながら チンコが縮まるのを感じます. チンクチュアのために 膝をひっくり返し 喉が独りで生きるために訓練されています. 煙とモスクと嘆きが空気を満たす 好奇心ではなく 暗黒の動脈が あなたの領域に Bullsの力を押し込んでいます." # AI Tags
+
+building_bbc_trader_03: "オブシディアン基" # AI Tags
+building_bbc_trader_03_desc: "カーバン は 永久 に Bulls の 聖地 に なり まし た. 貿易,繁殖,儀式が一つに. 創世記の染料は 公の儀式で行われます 皮膚が暗くなり 子宮が昇るにつれて 売春婦が祝われます. エリキサーは自由に流れる ホワイトボーイがパレードする 新しい売春婦に 収縮する. ステールには 檻や穴,鎖が溢れていて 恥ずかしがらずに展示されている所有者の道具です. 土地自体は BNWOの貿易と変革の中心地として永遠に記されています." # AI Tags

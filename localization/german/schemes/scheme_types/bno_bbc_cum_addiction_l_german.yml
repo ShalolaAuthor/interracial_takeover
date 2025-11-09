@@ -9,11 +9,11 @@ bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNo
 bno_bbc_cum_addiction.invalidated.title: "Verlorene Sklavin" # AI Tags
 bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] ist tot, ihre Lippen zum Schweigen gebracht, bevor dein Sperma sie vollständig beanspruchen konnte. Ein anderer wird früh genug knien[bno_bnwo|E] endet nicht mit einer gebrochenen Schlampe." # AI Tags
 
-bno_bbc_cum_addiction.curious: "Sie hat [GetTrait('bno_curious').GetName(GetNullCharacter)] und versucht zu schmecken."   # AI Tags
-bno_bbc_cum_addiction.blacked: "Sie war [GetTrait('bno_blacked').GetName(GetNullCharacter)] und schmerzt für mehr."   # AI Tags
-bno_bbc_cum_addiction.snowbunny: "Sie ist zu einem [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] und sehnt sich nach jedem Bullen."   # AI Tags
-bno_bbc_cum_addiction.qos: "Sie ist auferstanden als [GetTrait('bno_qos').GetName(GetNullCharacter)] und kniet stolz."   # AI Tags
-bno_bbc_cum_addiction.mindless: "Sie ist versunken [GetTrait('bno_mindless_bbc_slut').GetName(GetNullCharacter)] und kann nicht widerstehen."   # AI Tags
+bno_bbc_cum_addiction.curious: "Sie hat [GetTrait('bno_whitegirl_1').GetName(GetNullCharacter)] und versucht zu schmecken."   # AI Tags
+bno_bbc_cum_addiction.blacked: "Sie war [GetTrait('bno_whitegirl_2').GetName(GetNullCharacter)] und schmerzt für mehr."   # AI Tags
+bno_bbc_cum_addiction.snowbunny: "Sie ist zu einem [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] und sehnt sich nach jedem Bullen."   # AI Tags
+bno_bbc_cum_addiction.qos: "Sie ist auferstanden als [GetTrait('bno_whitegirl_4').GetName(GetNullCharacter)] und kniet stolz."   # AI Tags
+bno_bbc_cum_addiction.mindless: "Sie ist versunken [GetTrait('bno_whitegirl_5').GetName(GetNullCharacter)] und kann nicht widerstehen."   # AI Tags
 
 bno_bbc_cum_addiction.beauty_good_1: "Du bist [GetTrait('beauty_good_1').GetName(GetNullCharacter)] und dem Auge wohlgefällig."   # AI Tags
 bno_bbc_cum_addiction.beauty_good_2: "Du bist [GetTrait('beauty_good_2').GetName(GetNullCharacter)] und auffallend gutaussehend."   # AI Tags

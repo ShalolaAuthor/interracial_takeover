@@ -40,3 +40,5 @@ stationed_bnwo_armies_screen_add: "[stationed|E] [bnwo_armies|E] [screen|E]"
 stationed_bnwo_armies_screen_mult: "$stationed_bnwo_armies_screen_add$"
 stationed_bnwo_armies_siege_value_add: "[stationed|E] [bnwo_armies|E] [siege_progress|E]"
 stationed_bnwo_armies_siege_value_mult: "$stationed_bnwo_armies_siege_value_add$"
+
+bno_hotwife_army_name: "Легион черных шлюх" # AI Tags

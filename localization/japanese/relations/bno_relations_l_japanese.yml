@@ -1,0 +1,17 @@
+﻿l_japanese:
+
+bno_slave: "[bno_slave|E]" # AI Tags
+relation_bno_slave: "BBCの奴隷" # AI Tags
+relation_bno_slave_possessive: "BBCの奴隷" # AI Tags
+
+bno_slave_owner: "[bno_slave_owner|E]" # AI Tags
+relation_bno_slave_owner: "奴隷 の 主人公" # AI Tags
+relation_bno_slave_owner_possessive: "奴隷の所有者" # AI Tags
+
+bno_cum_slave: "[bno_cum_slave|E]" # AI Tags
+relation_bno_cum_slave: "奴隷として" # AI Tags
+relation_bno_cum_slave_possessive: "コム・スラブ" # AI Tags
+
+bno_cum_slave_owner: "[bno_bull|E]" # AI Tags
+relation_bno_cum_slave_owner: "牛" # AI Tags
+relation_bno_cum_slave_owner_possessive: "ブルの" # AI Tags

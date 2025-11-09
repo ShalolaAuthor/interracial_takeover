@@ -141,7 +141,7 @@ bno_nourishers_fatigue: "영양사 의 피로" # AI Tags
 bno_nourishers_fatigue_desc: "밤마다 쏟아지는 잎은 마비되고 근육이 느려지고 감각이 둔화됩니다. 매 번, 매 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번, 한 번." # AI Tags
 
 bno_tincture_of_genesis: "창세기 의 염색" # AI Tags
-bno_tincture_of_genesis_desc: "그의 은 당신을 강력한 생명력으로 채우며 여러분의 핵을 강화합니다. 여러분의 몸으로 흐르는 것을 느낄 수 있고, 여러분의 팔꿈치와 감각을 강화시킬 수 있습니다. 당신의 피부는 내면의 빛으로 빛나고 그의 본질은 당신을 내면에서 먹여줍니다." # AI Tags
+bno_tincture_of_genesis_desc: "그의 은 당신을 강력한 생명력으로 채우며 여러분의 핵을 강화시킵니다. 여러분의 몸으로 흐르는 것을 느낄 수 있고, 여러분의 팔꿈치와 감각을 강화시킬 수 있습니다. 당신의 피부는 내면의 빛으로 빛나고 그의 본질은 당신을 내면에서 먹여줍니다." # AI Tags
 
 bno_primal_vessel: "초기 배" # AI Tags
 bno_primal_vessel_desc: "당신의 씨앗은 생명력으로 비틀거리고, 그녀의 재탄생의 본질으로 가득 차 있습니다. 그녀는 당신의 이미지에 다시 꽃을 피우고 지금 당신은 그 강력한 에코를 당신 안에 가지고 있습니다." # AI Tags
@@ -168,13 +168,13 @@ bno_throne_breeder: "왕좌 번식자" # AI Tags
 bno_throne_breeder_desc: "그는 여왕을 굴복시키며 그의 씨로 그녀의 자궁을 침수시켰습니다. 그의 남성성은 왕위에 도전하고, 그의 닭은 왕조에 걸쳐 새로운 혈통을 기록합니다." # AI Tags
 
 bno_blacked_witness: "흑인 증인" # AI Tags
-bno_blacked_witness_desc: "그는 그의 여왕이 다른 남자가 자란 것을 지켜봤습니다. 부끄러움과 동시에 흥분한 그는 다른 씨앗과 함께 그녀를 집으로 데려갔다는 짐을 짊어지고 있습니다." # AI Tags
+bno_blacked_witness_desc: "그는 그의 여왕이 다른 남자가 쪼개고 자란 것을 지켜봤습니다. 부끄러움과 동시에 흥분한 그는 다른 씨앗과 함께 그녀를 집으로 데려갔다는 짐을 짊어지고 있습니다." # AI Tags
 
 bno_seeded_sovereign: "씨 로 된 주권자" # AI Tags
-bno_seeded_sovereign_desc: "모든 카운티가 검은색으로. 왕좌는 씨앗과 우유의 냄새를 맡고, 정복이 새로운 상속자를 낳을 때 그 힘은 두꺼우며 끈끈합니다." # AI Tags
+bno_seeded_sovereign_desc: "모든 카운티가 검은색으로. 왕좌는 씨앗과 우유의 냄새를 맡고, 정복이 새로운 상속자를 낳는 동안 그 힘은 두꺼우며 끈끈합니다." # AI Tags
 
 bno_broodmakers_hand: "제작자의 손" # AI Tags
-bno_broodmakers_hand_desc: "블랙코크의 법칙을 퍼뜨리는 집행자는 바락의 모스크와 창녀들의 울음소리를 피부에 담고 있습니다. 기사들은 더 열심히 싸우고, 레비들은 더 빨리 몰리고, 그들의 지휘는 번식의 리듬과 함께 뛰고 있습니다." # AI Tags
+bno_broodmakers_hand_desc: "블랙코크의 법칙을 퍼뜨리는 집행자는 바락의 모스크와 창녀들의 울음소리를 피부에 담고 있습니다. 기사들은 더 열심히 싸우고, 레비들은 더 빨리 릴리하고, 그들의 지휘는 번식 리듬과 함께 뛰고 있습니다." # AI Tags
 
 bno_sneak_bbc: "BBC 밀수범"   # AI Tags
 bno_sneak_bbc_desc: "이 캐릭터는 블랙투어를 외국 법원에 몰래 몰아넣고 [bno_bnwo|E] 조용한 경로와 닫힌 문 뒤에. 뇌물, 유혹, 또는 원시적 욕망을 통해, 그들은 어두운 육체의 열망한 메이저 역할을 하며, 힘과 굶주림으로 새로운 홀을 심는다."   # AI Tags
@@ -184,3 +184,18 @@ bno_cum_addiction_success_desc: "당신은 그녀를 유혹하는 데 성공했�
 
 bno_withering_manhood: "남성성 이 사라지는 것" # AI Tags
 bno_withering_manhood_desc: "은 약자가 자신의 에 눈물을 흘릴 때마다 그의 처벌이 심해집니다. 고기는 부러지고 생생하게 자라며, 그의 흰 닭은 작아지고, 흑인 지배의 무게는 그가 남긴 자부심을 무너뜨린다. 그는 또 다른 깨진 장난감에 대한 모든 시도와 함께 진정한 황소들의 그림자 아래로 사라지는 사람보다 덜해집니다." # AI Tags
+
+bno_healed_by_seed_of_genesis_cum: "성스러운 콤 에 의해 치유 된 것" # AI Tags
+bno_healed_by_seed_of_genesis_cum_desc: "그녀의 상처는 황소 밑에서 사라졌다 [bno_seed_of_genesis|E] 로드. 피부가 더 어두워지고, 육체는 을 고, 몸도 을 고 고, 그의 씨앗은 기적이라는 살아있는 증거입니다." # AI Tags
+
+bno_healing_seed_of_genesis_bull: "Cum Healer" # AI Tags
+bno_healing_seed_of_genesis_bull_desc: "그의 [bno_seed_of_genesis|E] 의 상처를 치유하고 그녀의 육체를 재조명하고 그의 전설을 퍼뜨렸습니다. 좆과 신자들은 그의 똥으로 치유되는 기회를 위해 고구려합니다." # AI Tags
+
+bno_eager_cuckold: "열정적 인 큐클드" # AI Tags
+bno_eager_cuckold_desc: "그는 그 모든 것을 원했습니다. 그의 신부가 무릎을 꿇은 첫 밤, 황소를 들고, 그가 지켜보고 자신을 만지는 동안 더 많은 것을 원했습니다. 모든 숨결과 스프링은 그에게 자부심과 흥분으로 가득 차 있고, 그녀의 결혼밤 키스는 그녀의 내면의 Bulls cum와 함께 더 달콤합니다." # AI Tags
+
+bno_blackened_bride: "흑색 된 신부 여신" # AI Tags
+bno_blackened_bride_desc: "그녀의 결혼은 그녀의 다리가 펼쳐지고 그녀의 새로운 남편은 황소가 그녀를 갈라놓는 것을 지켜보며 시작되었습니다. 그녀는 자랑스럽고 반짝이고, 두 남성이 숭배하는 욕구로 가득 차 있습니다. 그녀의 몸과 마음은 검은 닭과 그녀의 남편의 숭배에 굶주리고 있습니다." # AI Tags
+
+bno_ceremonial_bull: "기념식 황소" # AI Tags
+bno_ceremonial_bull_desc: "그는 모든 흑인 결혼식의 중심에 있습니다. 남편보다 먼저 신부를 주장하고, 씨앗으로 채우고, 더 많은 것을 원하기 위해 비명을 지르는 황소입니다. 그의 닭은 모든 조합을 왕관하고, 그의 힘은 부정할 수 없다." # AI Tags

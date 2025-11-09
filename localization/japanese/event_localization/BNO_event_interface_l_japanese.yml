@@ -1,0 +1,77 @@
+﻿l_japanese:
+
+#BBC's POV if wife is white breeder
+bno_birth.0001.wife.t: "妻 の 白い 肥沃 な 子宮"       # AI Tags
+bno_birth.0001.wife.desc: "あなたの妻 [ROOT.GetCharacter.GetName] また黒人の赤ちゃんを産み 立派な育児者として 名誉を高めました. 彼女は黒人の子供を産むようにされた." # AI Tags
+#Cuck's POV if wife is white breeder
+bno_birth.0001.cuck.wife.t: "妻 は 多く の 子 を 生む" # AI Tags
+bno_birth.0001.cuck.wife.desc: "あなたの妻 [ROOT.GetCharacter.GetName] 数人の子供が生まれた. しかし,あなたの心の奥深くでは,それは奇妙に感じる ほとんどの他の誰かのようには見えません." # AI Tags
+
+bno_birth.0001.lover.t: "恋人の白い肥沃な子宮" # AI Tags
+bno_birth.0001.lover.desc: "あなたの恋人 [ROOT.GetCharacter.GetName] もう一人の黒人子供を産むことで 種族を裏切るのです. 黒人の優位性を高めることは 彼女の最大の喜びです." # AI Tags
+
+bno_birth.0001.t: "私の 白い 肥沃 な 子宮" # AI Tags
+bno_birth.0001.personal_desc: "もう一人の黒人赤ん坊が 生まれた. 子供の肌と自分の肌の交配が 私を誇らしげに満たし 優越な人種を強くしたいという気持ちを 新たにします." # AI Tags
+
+bno_birth.0002.t: "わたし の 種 が 広まっ て いる" # AI Tags
+bno_birth.0002.personal_desc: "私は多くの黒人子供たちに 世界を祝福しました." # AI Tags
+
+bno_birth_real_father_notification.title: "私の子供" # AI Tags
+bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] 赤ちゃんを産んだと 心から分かってる 赤ちゃんは君のものだ 証明しても." # AI Tags
+bno_birth_cuck_father_notification.title: "私の子供" # AI Tags
+bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] 赤ちゃんを産んでいて 病気の様子を見て びっくりします. 子供の肌の色がこんなに暗いのは普通ですか?" # AI Tags
+
+bno_happy_wife.0001.title: "妻は幸せに見えます" # AI Tags
+bno_happy_wife.0001.desc: "見て嬉しいよ [ROOT.GetCharacter.GetName] 最近は気分が上がっているようです." # AI Tags
+
+bno_married.title: "妻を連れて行った" # AI Tags
+bno_married_desc: "黒人の優位性を 引き継ぐことで. 彼女はあなたに多くの新しい子供を与えよう." # AI Tags
+
+bno_bull_0004_notification.title: "妻がよく食べる" # AI Tags
+bno_bull_0004_notification.desc: "最近,あなたの妻 [ROOT.GetCharacter.GetName] 悪い食生活習慣を 壊したようです. ほぼ液体ダイエットに 切り替えたそうです. 彼女は時々 液体食品を唇に包みながら見られるので 気に入っているに違いない." # AI Tags
+
+bno_bull_0008_notification.title: "奇妙 な 類似" # AI Tags
+bno_bull_0008_notification.desc: "黒人難民キャンプで散歩する娼婦の噂が 奇妙にあなたの愛する妻に似ている [target1.GetFirstName]." # AI Tags
+
+bno_bull_0010_notification.title: "会計の誤り?" # AI Tags
+bno_bull_0010_notification.desc: "間違いないと思いますが 宝庫から 金が欠けているようです. 誰が盗んだんだろう?" # AI Tags
+
+bno_bull_0012_notification.title: "彼は何か知っていますか?" # AI Tags
+bno_bull_0012_notification.desc: "最近は気づきました [ROOT.GetCharacter.GetName] 違う見方で 私を見て 知らないようなことを." # AI Tags
+
+bno_slut_0008_notification.title: "奇妙 な 類似" # AI Tags
+bno_slut_0008_notification.desc: "黒人難民キャンプで散歩する娼婦の噂が 奇妙にあなたの愛する妻に似ている [slut.GetFirstName]." # AI Tags
+
+bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] 彼女に奪われたすべてのものを" # AI Tags
+bbc_worshipper.0002.notifications.desc: "何ヶ月も辛勤し 疲れ果てない夜を過ごした後 彼女は自分の財産をすべてあなたに与えました." # AI Tags
+
+bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] 敬虔な神への帰依し, [bno_religion|E]" # AI Tags
+bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] イスラム教の教えを受け入れました [bno_religion|E]献身する [target_vassal.GetHerselfHimself] その崇拝と,その喜びのために." # AI Tags
+
+bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] 敬虔な神への帰依し, [bno_religion|E]" # AI Tags
+bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] イスラム教の教えを受け入れました [bno_religion|E]資源を崇拝と喜びに捧げます." # AI Tags
+
+bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] 敬虔な神への帰依し, [bno_religion|E]" # AI Tags
+bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] イスラム教の教えを受け入れました [bno_religion|E]献身する [neighboring_lord_or_lady.GetHerselfHimself] その崇拝と,その喜びのために." # AI Tags
+
+bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] 敬虔な神への帰依し, [bno_religion|E]" # AI Tags
+bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] イスラム教の教えを受け入れました [bno_religion|E]資源を崇拝と喜びに捧げます." # AI Tags
+
+bbc_priestess.1001.rejected_conversion.male.title: "改宗 拒否 さ れ た: ブラック カック が 拒否 さ れ た" # AI Tags
+bbc_priestess.1001.rejected_conversion.male.desc: "それにもかかわらず [ROOT.Char.GetFirstName]魂と身体を神の栄光に捧げる熱烈な説教 [bno_bbc|E]群れは嫌悪に背を向けた. 彼らの心は頑固で 唇は祝福されていない そして黒の教会は今日新しい弟子を得ていません." # AI Tags
+
+bbc_priestess.1001.rejected_conversion.female.title: "彼女 の 懇願 は 拒否 さ れ まし た: ブラック カック は 拒否 さ れ まし た" # AI Tags
+bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] BBCの抱きしめで救いを約束しましたが 群衆は抵抗しました. 彼らの心は閉ざされ 身体は要求されず 彼女の神聖な欲望は 今夜 改宗者はなかった." # AI Tags
+
+bbc_priestess.1001.target_not_found.male.title: "司祭の聖狩りは絶望的な…" # AI Tags
+bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] 黒の祭壇に膝をひっくり返し 神聖な欲望に揺さぶる. 新しい追随者は崇拝しないように見える 改宗に導く罪人はいない 自分の重い根だけ 神様的な需要で滴り出し 新鮮な弟子への畏敬の念に 聖種を注ぎ込もうとする." # AI Tags
+
+bbc_priestess.1001.target_not_found.female.title: "司祭は追随者を待っています…" # AI Tags
+bbc_priestess.1001.target_not_found.female.desc: "繊細な白い衣装に覆われた [ROOT.Char.GetFirstName] 黒鳥の祭壇の前に身をかがめ 彼女の寛大な胸は震える献身で凝縮された. 異世界的な優しさと甘くて痛い笑顔で ろうそくの暗闇に祈りをささやきますが 悔い改める罪人はいません 彼女の柔らかい骨格は神聖な需要で震えながら 絶望して 崇拝したいという神聖な犠牲の周りに身を包みます." # AI Tags
+
+bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] 今,これまで以上に黒い" # AI Tags
+bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] 今,これまで以上に黒い" # AI Tags
+bno_marriage.0007.notifications.desc.male: "あなたの家族の一人は,自分の黒い種を適当なパートナーに広げた" # AI Tags
+bno_marriage.0007.notifications.desc.female: "家族の1人が結婚した #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!" # AI Tags
+
+bbc_diarch: "[bno_bbc|E]" # AI Tags

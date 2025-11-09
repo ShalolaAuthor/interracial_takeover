@@ -1,0 +1,17 @@
+﻿l_japanese:
+
+tradition_group_bno: "BNWO" # AI Tags
+
+tradition_bno_matriarchy_name: "種子 の マトリアキス" # AI Tags
+tradition_bno_matriarchy_desc: "電力は子宮から子宮へと落ちる. 玉座は肥沃な売春婦に 法律は彼らの嘆きに屈服し 軍隊はシード・トラールとして誓った女性と共に進みます. クイーンが支配するのは 牛がそれを許すからだ 皇冠は首飾り 杖はディルド 勝利は白い肉で終わります. 女の手が法律を握り 女性の穴が秩序を保ち ブラック・カックに奉仕する." # AI Tags
+
+bno_tradition.curious: "$EFFECT_LIST_BULLET$彼女の黒い好奇心は 降伏を安くさせる 膝が痛い." # AI Tags
+bno_tradition.blacked: "$EFFECT_LIST_BULLET$一旦黒くなると 伝統は再び牛を欲しがる穴に 簡単に折りたたむ." # AI Tags
+bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$スノーバニーとして 彼女は服従に飛び込み 飢えによって費用が減りました." # AI Tags
+bno_tradition.qos: "$EFFECT_LIST_BULLET$皇冠の王妃は 給料が下がる 彼女の法律は 首に書いてある." # AI Tags
+bno_tradition.mindless: "$EFFECT_LIST_BULLET$無意識で唾液を吐き出す 彼女はほとんど何もなく 種によって形状の穴を譲ります." # AI Tags
+
+culture_parameter_unlock_maa_seed_thralls: "募集できる [GetMaA('bno_seed_thralls').GetName] のように [men_at_arms|E]白人の売春婦が 膝をひっくり返して 牛に育てられるために 戦う." # AI Tags
+
+tradition_bno_african_hate_name: "牛 の 恐れ" # AI Tags
+tradition_bno_african_hate_desc: "非アフリカ系文化は この苦しい伝統に固執し 淡いプライドが憎しみへと変わりました. 揺るぎない唇で雄牛をささやいて 抵抗できないものを嫌って 売春婦が欲しがるものを嫌う. すべての法律や慣習は ブラック・カックの流れに対する 弱い壁に過ぎません." # AI Tags

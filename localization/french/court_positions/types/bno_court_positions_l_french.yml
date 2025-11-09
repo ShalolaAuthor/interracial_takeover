@@ -4,11 +4,11 @@ bno_bbc_worshipper_court_position: "Adoratrice de la BBC" # AI Tags
 bno_bbc_worshipper_court_position_desc: "Servir constamment, adorer et être utilisé par [bno_bbc|E] d'une manière ou d'une autre ils désirent" # AI Tags
 
 bno_court_position_trait_bno_pure_white: "[GetTrait('bno_pure_white').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_curious: "[GetTrait('bno_curious').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_blacked: "[GetTrait('bno_blacked').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_snowbunny: "[GetTrait('bno_snowbunny').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_qos: "[GetTrait('bno_qos').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_mindless: "[GetTrait('bno_mindless_bbc_slut').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_curious: "[GetTrait('bno_whitegirl_1').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_blacked: "[GetTrait('bno_whitegirl_2').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_snowbunny: "[GetTrait('bno_whitegirl_3').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_qos: "[GetTrait('bno_whitegirl_4').GetName( ROOT.Char )]" # AI Tags
+bno_court_position_trait_mindless: "[GetTrait('bno_whitegirl_5').GetName( ROOT.Char )]" # AI Tags
 
 bno_court_position_trait_bno_bbc_whore_1: "[GetTrait('bno_bbc_whore_1').GetName( ROOT.Char )]" # AI Tags
 bno_court_position_trait_bno_bbc_whore_2: "[GetTrait('bno_bbc_whore_2').GetName( ROOT.Char )]" # AI Tags

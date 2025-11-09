@@ -137,3 +137,9 @@ setting_bno_xp_gain_med: "Descenso natural" # AI Tags
 setting_bno_xp_gain_med_desc: "El ritmo de toma de posesión se mueve constante, implacable. Cada puta se arrodilla antes, cada corte se vuelve más oscura, cada reino siente la sombra esparcida. No demasiado rápido, no demasiado lento—solo inevitable." # AI Tags
 setting_bno_xp_gain_high: "Desplazamiento rápido" # AI Tags
 setting_bno_xp_gain_high_desc: "La inundación no se puede detener. Las putas blancas se arruinan de la noche a la mañana, los tribunales caen en semanas, naciones enteras se doblan en meses. BNWO no susurra aquí — ruge, una marea de gallo y conquista devorando el mapa." # AI Tags
+
+rule_bno_african_culture: "@bnobbc!#X Toma Interracial:#!Abrazo de la cultura africana" # AI Tags
+setting_bno_african_culture_yes: "Sí, por favor" # AI Tags
+setting_bno_african_culture_yes_desc: "¿Puedes sentirlo? El pulso de África en tus venas, el peso de la historia presionándote hasta que estés rogando ser rehecho. Quiero rendirme a sus caminos, para ser remodelado por la ley negra más profunda, mi cuerpo y mi alma moldeados a su imagen. No hay nada más emocionante que ser reclamado por un poder tan viejo y hambriento… Deja que el nuevo orden se inunde sobre mí y déjame goteando, gimiendo, y cambió para siempre." # AI Tags
+setting_bno_african_culture_no: "No, gracias" # AI Tags
+setting_bno_african_culture_no_desc: "Temblo ante la idea de rendirme. Me aferraré a mis viejas costumbres, fingiendo que su hambre no está ya dentro de mí, fingiendo que los tambores y las pollas de África no me conquistarán al final. Tal vez no estoy listo para ser deshecho y rehecho por la ley negra — todavía no. Pero oh, el dolor nunca se va de verdad…" # AI Tags

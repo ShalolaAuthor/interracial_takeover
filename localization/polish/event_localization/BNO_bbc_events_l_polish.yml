@@ -1,7 +1,7 @@
 ﻿l_polish:
 # bno_events00 - invite influence decision
  bno_events00: "Przyjmuj Afrykańskiego uchodźcę w swoim Dworze" # AI Tags
- bno_events00.desc: "W waszym królestwie zgłoszono dziwne, węglowe osoby uciekające z dalekich krajów. Nie wiadomo, czy są tu w wrogich okolicznościach. Ich siła jest jednak widoczna, tylko na pierwszy rzut oka.\n\nTylko niewielu zostało widzianych wśród twojego ludu. Może mają obcą kulturę, która może być korzystna? Dary i wgląd?\n\nMoże powinieneś zobaczyć, co oni robią?" # AI Tags
+ bno_events00.desc: "W waszym królestwie zgłoszono dziwne, węglowe osoby uciekające z dalekiej krainy. Nie wiadomo, czy są tu w wrogich okolicznościach. Ich siła jest jednak widoczna, tylko na pierwszy rzut oka.\n\nTylko niewielu zostało widzianych wśród twojego ludu. Może mają obcą kulturę, która może być korzystna? Dary i wgląd?\n\nMoże powinieneś zobaczyć, co oni robią?" # AI Tags
  bno_events00_decision_tooltip: "Obcokrajowcy zostali wezwani do odwiedzenia Waszej Wysokości" # AI Tags
  bno_events00_confirm: "Wyślij głosicieli" # AI Tags
  refugee_effect_1: "Przedstawicie grupę cudzoziemców i możecie wybrać jednego, który dołączy do waszego sądu." # AI Tags
@@ -16,7 +16,7 @@
  
  #bno_events02 - when receiving a kingdom title and being married to a BBC
  bno_events02.title: "Afrykański król" # AI Tags
- bno_events02.desc: "Kochanie, chcesz się tym podzielić? Wasze panowanie nad tą ziemią\n\nTwoje serce płynie, ręce krzyżują przed tobą pokornie, całkowicie poświęcone twojej planie zakończenia narodu.\n\nTwoje potomstwo będzie miało siłę, kolor i inteligencję twojego ukochanego.\n\nWydarz [target1.GetLadyLord] który był lewem w wojnie i w łóżku.\n\nTwój król." # AI Tags
+ bno_events02.desc: "Kochanie, chcesz się tym podzielić? Wasze panowanie nad tą ziemią\n\nTwoje serce płynie, ręce krzyżowane przed tobą pokornie, całkowicie poświęcone twojej planie zakończenia narodu.\n\nTwoje potomstwo będzie miało siłę, kolor i inteligencję twojego ukochanego.\n\nWydarz [target1.GetLadyLord] który był lewem w wojnie i w łóżku.\n\nTwój król." # AI Tags
  bno_events02.a: "Chodźmy do naszych sypialni." # AI Tags
  
  #bno_events03 - when receiving an empire title and being married to a BBC

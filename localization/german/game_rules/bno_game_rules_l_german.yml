@@ -137,3 +137,9 @@ setting_bno_xp_gain_med: "Natürlicher Abstieg" # AI Tags
 setting_bno_xp_gain_med_desc: "Das Tempo der Übernahme bewegt sich stetig, unerbittlich. Jede Schlampe kniet früher, jedes Gericht wird dunkler, jedes Reich fühlt den Schatten sich ausgebreitet. Nicht zu schnell, nicht zu langsam – einfach unvermeidlich." # AI Tags
 setting_bno_xp_gain_high: "Schnelle Überwerfung" # AI Tags
 setting_bno_xp_gain_high_desc: "Die Flut kann nicht gestoppt werden. Weiße Schlampen sind über Nacht ruiniert, Gerichte fallen in Wochen, ganze Nationen schleichen sich in Monaten. BNWO flüstert hier nicht – es brüllt, eine Flutwelle von Schwanz und Eroberung verschlingt die Karte." # AI Tags
+
+rule_bno_african_culture: "@bnobbc!#X Interrassische Übernahme:#!Afrikanische Kultur umarmen" # AI Tags
+setting_bno_african_culture_yes: "Ja, bitte" # AI Tags
+setting_bno_african_culture_yes_desc: "Spürst du es? Der Puls Afrikas in deinen Adern, das Gewicht der Geschichte, die dich nach unten drückt, bis du bettelst, neu gemacht zu werden. Ich möchte mich ihren Wegen hingeben, um durch das tiefste schwarze Gesetz, meinen Körper und meine Seele in ihrem Bild umgestaltet zu werden. Es gibt nichts Spannenderes, als von einer Macht beansprucht zu werden, die so alt und hungrig ist… Lasst die neue Ordnung über mich fluten und lasst mich tropfen, stöhnen und mich für immer verändern." # AI Tags
+setting_bno_african_culture_no: "Nein, danke" # AI Tags
+setting_bno_african_culture_no_desc: "Ich zittere vor dem Gedanken, mich zu ergeben. Ich werde mich an meine alten Bräuche klammern, so tun, als ob ihr Hunger nicht schon in mir ist, so tun, als ob mich die Trommeln und Schwänze Afrikas am Ende nicht erobern würden. Vielleicht bin ich noch nicht bereit, ungemacht und durch das schwarze Gesetz neu gemacht zu werden – noch nicht. Aber oh, der Schmerz geht nie wirklich weg…" # AI Tags

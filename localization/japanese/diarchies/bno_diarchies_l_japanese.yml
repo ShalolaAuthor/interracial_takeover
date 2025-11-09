@@ -1,0 +1,17 @@
+﻿l_japanese:
+
+#Diarchy Types
+bno_sated_throne_diarch_title: "継承 の 監督" # AI Tags
+bno_sated_throne_diarchy_type: "[bno_sated_throne|E]" # AI Tags
+
+bno_first_harvest_mandate: "第 一 収穫" # AI Tags
+bno_first_harvest_mandate_desc: "#BOL 可能なこと [mandate|E] 影響:#!\n$EFFECT_LIST_BULLET$ 追加 [gold|E]\n$EFFECT_LIST_BULLET$ 統治者はやる必要がある [bno_first_harvest|E]\n$EFFECT_LIST_BULLET$ 統治者は確立しなければならない [bno_bbc_council|E]\n\n#WEAK 労働組合 [regent|E] 暗黒を暗黒にするために最善を尽くさなければならない $game_concept_liege$どんなに犠牲を払っても.#!" # AI Tags
+
+mandate_aptitude.bno_first_harvest.category: "$bno_first_harvest_mandate$" # AI Tags
+mandate_aptitude.bno_first_harvest.primary_skill.bno_sex_counter: "[mandate|E] 依存する [bno_sexual_experience|E]" # AI Tags
+mandate_aptitude.bno_first_harvest.secondary_skill.martial: "[mandate|E] 使用 [learning|E]" # AI Tags
+mandate_aptitude.bno_first_harvest.secondary_skill.prowess: "[mandate|E] 使用 [prowess|E]" # AI Tags
+mandate_aptitude.bno_first_harvest.bonus_trait.bno_camp_leader: "[GetTrait('bno_camp_leader').GetName( ROOT.Char )] 優位性" # AI Tags
+mandate_aptitude.bno_first_harvest.bonus_trait.strong: "[GetTrait('strong').GetName( ROOT.Char )] 優位性" # AI Tags
+mandate_aptitude.bno_first_harvest.malus_trait.generous: "[GetTrait('generous').GetName( ROOT.Char )] 適当でない" # AI Tags
+mandate_aptitude.bno_first_harvest.malus_trait.infertile: "[GetTrait('infertile').GetName( ROOT.Char )] 適当でない" # AI Tags

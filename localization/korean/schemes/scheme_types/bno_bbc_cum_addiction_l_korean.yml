@@ -9,11 +9,11 @@ bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNo
 bno_bbc_cum_addiction.invalidated.title: "잃어버린 노예" # AI Tags
 bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] 그녀의 입술이 조용해졌는데, 당신의 이 그녀를 완전히 주장할 수 있기 전에요. 또 다른 사람이 곧 무릎을 꿇을 거야[bno_bnwo|E] 단 한 명의 찢어진 창녀로 끝나지 않습니다." # AI Tags
 
-bno_bbc_cum_addiction.curious: "그녀는 [GetTrait('bno_curious').GetName(GetNullCharacter)] 그것을 맛볼 수 있나니."   # AI Tags
-bno_bbc_cum_addiction.blacked: "그녀는 [GetTrait('bno_blacked').GetName(GetNullCharacter)] 그리고 더 많은 것을 원하고 있습니다."   # AI Tags
-bno_bbc_cum_addiction.snowbunny: "그녀는 [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] 그리고 모든 황소를 갈망하고 있습니다."   # AI Tags
-bno_bbc_cum_addiction.qos: "그녀는 [GetTrait('bno_qos').GetName(GetNullCharacter)] 자부심을 가지고 무릎을 꿇고."   # AI Tags
-bno_bbc_cum_addiction.mindless: "그녀는 침몰했습니다 [GetTrait('bno_mindless_bbc_slut').GetName(GetNullCharacter)] 그리고 저항할 수 없습니다."   # AI Tags
+bno_bbc_cum_addiction.curious: "그녀는 [GetTrait('bno_whitegirl_1').GetName(GetNullCharacter)] 그것을 맛볼 수 있나니."   # AI Tags
+bno_bbc_cum_addiction.blacked: "그녀는 [GetTrait('bno_whitegirl_2').GetName(GetNullCharacter)] 그리고 더 많은 것을 원하고 있습니다."   # AI Tags
+bno_bbc_cum_addiction.snowbunny: "그녀는 [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] 그리고 모든 황소를 갈망하고 있습니다."   # AI Tags
+bno_bbc_cum_addiction.qos: "그녀는 [GetTrait('bno_whitegirl_4').GetName(GetNullCharacter)] 자부심을 가지고 무릎을 꿇고."   # AI Tags
+bno_bbc_cum_addiction.mindless: "그녀는 침몰했습니다 [GetTrait('bno_whitegirl_5').GetName(GetNullCharacter)] 그리고 저항할 수 없습니다."   # AI Tags
 
 bno_bbc_cum_addiction.beauty_good_1: "당신은 [GetTrait('beauty_good_1').GetName(GetNullCharacter)] 시선을 즐겁게 하고."   # AI Tags
 bno_bbc_cum_addiction.beauty_good_2: "당신은 [GetTrait('beauty_good_2').GetName(GetNullCharacter)] 그리고 눈부신 예쁘다."   # AI Tags

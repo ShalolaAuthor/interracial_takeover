@@ -1,23 +1,28 @@
 ﻿l_polish:
 
-slut_curious: "Kurwa" # AI Tags
-slut_blacked: "Czarne" # AI Tags
+slut_curious: "Ciekawa dziwka" # AI Tags
+slut_blacked: "Czarna dziwka" # AI Tags
 slut_snowbunny: "Śnieżka" # AI Tags
 slut_qos: "Czarna dziwka" # AI Tags
 slut_mindless: "Fabryka czarnych dzieci" # AI Tags
-slut_boobs_1: "Wielkie cycki" # AI Tags
-slut_boobs_2: "Melon z piersiami" # AI Tags
-slut_boobs_3: "Ogromne cycki" # AI Tags
-male_bbc: "Zdradca rasy" # AI Tags
+slut_boobs_1: "Duża dziwka z wielkimi cyckami" # AI Tags
+slut_boobs_2: "Kurwa z melonowymi cyckami" # AI Tags
+slut_boobs_3: "Duża dziwka z wielkimi cyckami" # AI Tags
+slut_boobs_4: "Kurwa z krowy" # AI Tags
+
+male_bbc: "BBC" # AI Tags
 male_cuckish: "Złodkie" # AI Tags
 male_cuck: "Złapany" # AI Tags
 male_beta: "Beta" # AI Tags
-male_jos: "Żona Sharer" # AI Tags
+male_jos: "Żona-spółdzielca" # AI Tags
 male_caged: "Zamknięte w klatce" # AI Tags
 male_castrated: "Kastrowane" # AI Tags
-male_dick_1: "Żałosny penis" # AI Tags
-male_dick_2: "Mikro penisa" # AI Tags
-male_dick_3: "Limp Penis" # AI Tags
+male_dick_1: "Pathetic-Dicked" # AI Tags
+male_dick_2: "Mikro-drukowane" # AI Tags
+male_dick_3: "Wykręty" # AI Tags
+
+
+is_a_male: "Postaci z męskimi narzędziami płciowymi, w tym Były, futy i mężczyźni." # AI Tags
 
 bno_disease_type.lovers_pox: "[GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
 bno_disease_type.ill: "[GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags

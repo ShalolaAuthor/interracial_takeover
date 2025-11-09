@@ -8,7 +8,7 @@ bno_war_white_peace_desc: "[defender.GetShortUIName|U] сохраняет осп
 bno_war_defeat_desc_defender: "Ты сохраняешь оспариваемый [title|E]."
 bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] сохраняет оспариваемый [title|E]. Все [factions|E] против тебя усиливают [discontent|E]."
 bno_war_defeat_desc: "[defender.GetShortUIName|U] сохраняет оспариваемый [title|E]."
-
+ 
 BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Расовое Захватывание [TITLE.GetBaseName]"
 BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
 BNO_WAR_CB_NAME: "Расовое Захватывание [TITLE.GetBaseName]"

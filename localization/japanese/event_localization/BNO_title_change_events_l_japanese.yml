@@ -1,0 +1,43 @@
+﻿l_japanese:
+
+ #BBC courtier force buys county title
+bno_title_change_0001.title: "黒人 の 勇敢 な 要求" # AI Tags
+bno_title_change_0001.desc: "信頼と権威を注ぐ 壮大なアフリカ人の姿が あなたの前に進みます. 彼は身長と影響力に適した称号を求めています. 彼の深い声は 要求ではないことを明示しています. 金が提示されるが 提出は期待される." # AI Tags
+bno_title_change_0001.a: "タイトルを与え 金を奪う" # AI Tags
+bno_title_change_0001.b: "彼の要求を否定し,彼の怒りを危険にさらす" # AI Tags
+
+ 
+bno_title_change_0002.title: "価値ある 者 の 称号" # AI Tags
+bno_title_change_0002.desc: "ブラック・ニュー・ワールド・オーダーに忠実な 権力ある придворныйが 支配権を握るために 大きな金を払った. この権力の転換は実行され,今意識している支配者は,彼の失敗したリーダーシップの結果に直面しなければならない. 支配を維持するために闘い,この権力の転換に逆らうために彼の握力が強くなる. 支配者 は 力 が 消え て いる の を 無力 に 見 て い ます.それ は 莫大な 挫折 と ストレス の 源 です." # AI Tags
+bno_title_change_0002.a: "タイトルが譲渡され 新しいリーダーが昇格します." # AI Tags
+ 
+ #bbc uses prestige to force vassal to give up title
+bno_title_change_0003.title: "アフリカ の 優位 の 称号" # AI Tags
+bno_title_change_0003.desc: "強力な軍団のリーダーが 威厳を誇る ヴァサルは 望ましい称号を放棄するよう強要します は権力を失う痛みを感じ 敗北感と屈服感は圧倒的です. かつて知らずに 支配するオオカミは 自分の喪失と その代わりの 他人の昇進の 苦しい真実に直面していますが 怒りと挫折で 抵抗し 支配の喪失感を深く感じています." # AI Tags
+bno_title_change_0003.a: "タイトルが奪われ,新しいマスターがコントロールを担う." # AI Tags
+ 
+ #high intrigue BBC courtier + AI vassal's slut wife kill vassal, take all title for themself, get married. cuck player informed
+bno_title_change_0004.title: "主の倒れ 土地が盗まれ 結婚が結ばれる" # AI Tags
+bno_title_change_0004.desc: "賢明なアフリカ人と ヴァサルの魅力的な妻が 全てを自分たちにとらえるために 陰謀する. 夫の称号が失われ,彼の命が危険にさらされているため,両者は称号と土地を支配します. 陰謀者 (の) のように,かれの領域は滑り去る [bno_bbc|E] 宮廷官が彼の地位を占め かつての忠誠な妻が新しい主人を受け入れます. は暗闇に残され ヴァサルの称号が妻の心臓を盗んだ男に握られていると知らせるだけです. 牛は妻と結婚し 彼女を自分のものとし 称号を自分の賞金として取る. 夫の運命は封印され 新しい時代が始まり キャンプの指揮官と殺人妻の支配下です." # AI Tags
+bno_title_change_0004.a: "土地は奪われたと 妻は主張し カックが絶望に残された." # AI Tags
+ 
+ #fully blacked wife takes all cuck players titles
+bno_title_change_0005.title: "裁判所 の 新しい 秩序"   # AI Tags
+bno_title_change_0005.desc: "あなたの宮廷はささやきと野望の戦場になりました. [ROOT.Char.GetPrimarySpouse.GetFirstName]あなたのパートナーとしての彼女の役割に満足して 絶え間ない野心と改革の人物として生まれました. 黒い未来の原則を踏まえて 彼女は貴方の宮廷で忠誠なフォロワーを育て 知識や魅力や 白人の過去に対する不快感を活用した. 彼女は新世界について語っています 伝統が進歩に屈服し 権力はもはや神からの権利ではなく 共通の責任です. 彼女は貴方の称号と権威は 崩壊する秩序の遺物だと主張し 彼女の指導と黒人のしもべのもとで 宮廷と王国は かつてないほど栄えるだろう. しかし彼女の要求は高額な費用がかかります. 服従することは タイトルだけでなく 遺産の構造を放棄することになります. しかし拒否すると 宮廷を疎遠させ 支配を不安定にし かつて 同級者と呼んだ女性の怒りさえ 危険にさらされます. すべてが終わった 今,あなたはこの世界の新しい支配者に従うだろう." # AI Tags
+bno_title_change_0005.a: "彼女のビジョンに服して 肩書を放棄して 彼女が約束する新しい秩序を 受け入れなさい." # AI Tags
+
+ #ruler bbc takes slut liege's titles , don't know if i've tested this yet?
+bno_title_change_0006.title: "黒い 新しい 世界 秩序 の 黎明"   # AI Tags
+bno_title_change_0006.desc: "地震の波が広がっています. かつて揺るぎない秩序は 伝統と特権に浸透し 崩壊の危機に瀕しています. この騒動の真ん中に [ROOT.Char.GetFirstName]黒人の権力と支配の体現です 黒人の新世界秩序の誕生を 象徴する統治者です. 彼はもはや彼のクソの壊れやすい支配下での服役に満足していない [target1.GetFirstName], [ROOT.Char.GetFirstName] 変化の灯台として立ち上がり 刃のように影響力を持ち 思想はハンマーのように支配しています. 宮廷員は畏敬の念で 傲慢で従順な人として見ています [target1.GetFirstName]堕落を甘く受け入れる 支配者であり ブラックカック崇拝の信仰は ヴァサルの圧倒的な力と目的に 貢献します. 裁判所は [ROOT.Char.GetFirstName]屈服は弱さではなく 単一の不可抗力による統一への道である. 増加した [bno_bnwo|E] それは単なる政治革命ではなく 権力の大規模な再編であり 権力とビジョンが支配し,無価値者達は奴隷制に堕落する. \n\nそのように [target1.GetFirstName]タイトルと尊厳が剥奪され 疑問は残ります これが究極の勝利なのか [bno_bnwo|E]それとも大きな勝利の第一歩だけなのか? 領域が震え 闇の新世界秩序が支配する 新しい時代の誕生です."  # AI Tags
+bno_title_change_0006.a: "彼らのタイトルを奪い 新しい時代を迎える."   # AI Tags
+bno_title_change_0006.b: "称号を主張して 奴隷と配偶者として 縛り付けなさい." # AI Tags
+ 
+bno_title_change_1006.title: "降伏の過程"   # AI Tags
+bno_title_change_1006.desc: "黒人の新世界秩序の勝利を宣言する 序列に目を向けながら 集まった群衆のささやきで 庭は賑わっています. [ROOT.Char.GetFirstName]支配力で輝く, 揺るぎない自信をもってパレードを率いる [target1.GetFirstName]象徴的な服従で表現される. この瞬間は単なる壮観ではなく 世界への宣言です.\n\nこの出来事は全国に畏敬と恐怖の波を送ります. 裁判所で [ROOT.Char.GetFirstName]女性の придворные,ベサルは,そしてゲストは,展示を観察, 彼らの心と心を動かす powerの否定できない存在,. 隣接する領域では 女王や夫妻は この出来事のささやきや 支配や人種裏切りの物語を聞きます.\n\nこの こと は,一つの 支配 者 の 終わり と,別の 支配 者 の 興起 だけ で は あり ませ ん. 全秩序の再構成であり 力とビジョンがすべてを征服することを 思い出させます. ブラック・ニュー・ワールド・オーダーは 単に政治を変えるだけでなく 運命を書き直し 邪魔する者を 救うのです. かつて誇り高い [target1.GetFirstName] この真実の 生きている証です それを目撃する者は 裁判所の影からか 噂のページからか この新しい 妥協のない時代の 引き寄せを感じられるのです."   # AI Tags
+bno_title_change_1001.a: "敗者をパレードして 世界が黒人の優位前に震えるようにする." # AI Tags
+
+ 
+#
+# bno_random_1001.title: "試験タイトル" # AI Tags
+# bno_random_1001.desc: "こんにちは!" # AI Tags
+# bno_random_1001.a: "わかった" # AI Tags

@@ -1,0 +1,10 @@
+﻿l_japanese:
+ #Influence Child
+ #success
+ bno_character_interaction_0001.title: "鳥 と ミツバチ" # AI Tags
+ bno_character_interaction_0001.desc: "優位な人種への崇拝は 自然に起こらない. しかし,あなたの"関与"のおかげで,あなたの領域を洪水に覆うアフリカの人々, あなたはあなたの娘を納得させることができました 彼女は誰に興味を持つことは完全に大丈夫です 彼女は誰に興味を持つか. 高い地位の人と結婚したいという願いを 表明しましたが 土地のない奴隷や 特に黒い肌の奴隷を 奨励しました. 彼女と一緒に庭から出てきて 血統の新しいモットーが 混沌とした未来を 推進することだと 願うばかりです." # AI Tags
+ bno_character_interaction_0001.a: "飲んでみよう." # AI Tags
+ #failure
+ bno_character_interaction_0002.title: "鳥 と ミツバチ" # AI Tags
+ bno_character_interaction_0002.desc: "土地と土地のない人々の役割 既定結婚 血統などについて説明する際には 他のことを夢中になってしまいます. あなたの娘の成熟度さえも 変わらないようです. 子供 の 理解 が 欠ける こと に 失望 し て いる の で,その 話題 を 変える こと を 決意 し て い ます.それ は 良い こと に なる こと を 願っ て い ます." # AI Tags
+ bno_character_interaction_0002.a: "何か飲んでみよう." # AI Tags

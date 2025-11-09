@@ -3,7 +3,7 @@
 bno_becoming_bbc_slut: ""검은 춘추"가 되는 것" # AI Tags
 #bno_becoming_bbc_slut.effect: "당신은 한 사람이 될 것입니다 [bno_whore|E] 에 대한 [bno_bbc|E]" # AI Tags
 bno_becoming_bbc_slut.effect: "넌 창녀가 될 거야 [bno_bbcs|E]" # AI Tags
-bno_becoming_bbc_slut_desc: "저는 흑인 창녀가 되고 싶습니다. 왜냐하면 저는 이 역할을 위해 태어났기 때문입니다. 내 작은 흰색 몸의 욕구를 충족시킬 수 있는 강력한, 남성적인 검은 수컷들을 위한 수용소 역할을 하기 위해서요. 에베니 남자의 막강한 장면을 보는 것만으로도 똥이 기대와 욕구로 튀어나온다." # AI Tags
+bno_becoming_bbc_slut_desc: "저는 흑인 창녀가 되고 싶습니다. 왜냐하면 저는 이 역할을 위해 태어났기 때문입니다. 저의 작은 흰색 몸의 욕구를 충족시킬 수 있는 강력한, 남성적인 검은 수컷들을 위한 수용소 역할을 하기 위해서요. 에베니 남자의 막강한 장면을 보는 것만으로도 똥이 기대와 욕구로 튀어나온다." # AI Tags
 bno_becoming_bbc_slut_confirm: "내 좁은 구멍은 네 거야 네가 원하는 대로 쓸 수 있어." # AI Tags
 bno_becoming_bbc_slut_tooltip: "내가 쓸모없는 창녀처럼 쓰여질 수 있기를 너무 절박합니다" # AI Tags
 
@@ -31,7 +31,7 @@ bno_change_county_culture_confirm: "더 필요해 $bnoc$" # AI Tags
 bno_change_county_culture_toast: "$bnoc$ 퍼져 나간" # AI Tags
 
 bno_recruit_court_position_decision: "호응 할 만한 직무 를 채용 하십시오 #V 이 [GetTrait('bno_full_black').GetName( GetNullCharacter )] 인구#!" # AI Tags
-bno_recruit_court_position_decision_desc: "잘 작동하는 [ROOT.Char.Custom('RealmType')] 많은 소녀들의 일을 필요로 합니다. 저는 제 종들을 멀리서 파견하여 제 궁중에서 새로 출범한 직무에 적합한 후보자를 찾도록 하겠습니다." # AI Tags
+bno_recruit_court_position_decision_desc: "잘 작동하는 [ROOT.Char.Custom('RealmType')] 많은 소녀들의 일을 필요로 합니다. 저는 제 종들을 멀리서 파견하여 제 법정에서 새로 출범한 직무에 적합한 후보자를 찾도록 하겠습니다." # AI Tags
 bno_recruit_court_position_decision_tooltip: "여자를 찾아서 [court_position|E] 또는 귀하의 [court|E] 수수료\n\n#weak 예를 들어, [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!" # AI Tags
 bno_recruit_court_position_decision_confirm: "여기로 불러!" # AI Tags
 recruit_bbc_worshipper_cooldown_tt: "모집 [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] 냉각 상태입니다 [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]" # AI Tags
@@ -83,11 +83,11 @@ bno_cure_diseases.dysentery: "배수 [GetTrait('dysentery').GetName( GetNullChar
 bno_cure_diseases.ergotism: "흔들려서 [GetTrait('ergotism').GetName( GetNullCharacter )]" # AI Tags
 bno_cure_diseases.sickly: "부드러운 [GetTrait('sickly').GetName( GetNullCharacter )]" # AI Tags
 
-bno_cure_diseases.lovers_pox.desc: "기억과 입의 유혹적인 발진, [GetTrait('lovers_pox').GetName( GetNullCharacter )] 너무 젖은 키스와 부끄러움없는 마찰의 후광처럼 피부를 뒤덮고 있습니다." # AI Tags
+bno_cure_diseases.lovers_pox.desc: "기억과 입의 유혹적인 발진, [GetTrait('lovers_pox').GetName( GetNullCharacter )] 너무 젖은 키스나 부끄러움없는 마찰의 후반 빛처럼 피부를 뒤덮고 있습니다." # AI Tags
 cure_lovers_pox_tooltip: "내 악인으로부터 저를 깨끗하게 해 주십시오 [GetTrait('lovers_pox').GetName( GetNullCharacter )] 그래서 저는 신선하고 배고픈 피부로 다시 죄를 짓게 될 것입니다." # AI Tags
 
 bno_cure_diseases.ill.desc: "고통과 떨림의 뜨거운 안개가 당신을 감싸고 있습니다 [GetTrait('ill').GetName( GetNullCharacter )] 천장과 따뜻한 몸을 똑같이 저항할 수 없게 만듭니다." # AI Tags
-cure_ill_tooltip: "제발 내 엄마를 돌봐줘 [GetTrait('ill').GetName( GetNullCharacter )]그래서 저는 더 달콤한 노력에 힘을 쓸 수 있습니다." # AI Tags
+cure_ill_tooltip: "제발 내 엄마를 돌봐줘 [GetTrait('ill').GetName( GetNullCharacter )]그래서 더 달콤한 노력에 힘을 쓸 수 있습니다." # AI Tags
 
 bno_cure_diseases.pneumonic.desc: "뜨거운 폐와 떨리는 肋骨, [GetTrait('pneumonic').GetName( GetNullCharacter )] 숨을 훔쳐서 느린 뇌졸중과 안정된 손을 갈망하게 됩니다." # AI Tags
 cure_pneumonic_tooltip: "제발 날 쫓아줘 [GetTrait('pneumonic').GetName( GetNullCharacter )] 그래서 내 숨쉬는 것은 고통이 아니라 즐거움이 될 수 있습니다." # AI Tags
@@ -99,7 +99,7 @@ bno_cure_diseases.early_great_pox.desc: "부드러운 상처와 비밀 스릴 [G
 cure_early_great_pox_tooltip: "제발 내 손을 씻어줘 [GetTrait('early_great_pox').GetName( GetNullCharacter )] 속삭이 흉터가 되기 전에." # AI Tags
 
 bno_cure_diseases.leper.desc: "거리가 처벌이 되고, [GetTrait('leper').GetName( GetNullCharacter )] 손바닥에 달린 애착도 금지된 것 같고, 마음도 가질 수 없는 것에 힘쓰고 있습니다." # AI Tags
-cure_leper_tooltip: "제발 내 몸에서 해제해줘 [GetTrait('leper').GetName( GetNullCharacter )] 그래서 입술과 손이 날 두려워할 필요가 없습니다." # AI Tags
+cure_leper_tooltip: "제발 내 몸에서 벗어날 수 있어 [GetTrait('leper').GetName( GetNullCharacter )] 그래서 입술과 손이 날 두려워할 필요가 없습니다." # AI Tags
 
 bno_cure_diseases.gout_ridden.desc: "한 발자국, 한 발자국, 한 발자국, 한 발자국 [GetTrait('gout_ridden').GetName( GetNullCharacter )] 서두르지 않고 처리해야 한다고 요구합니다." # AI Tags
 cure_gout_ridden_tooltip: "진정해 [GetTrait('gout_ridden').GetName( GetNullCharacter )] 그래서 제 엉덩이는 올바른 이유 때문에 롤할 수 있습니다." # AI Tags
@@ -128,14 +128,14 @@ cure_dysentery_tooltip: "내 말 좀 끝내줘 [GetTrait('dysentery').GetName( G
 bno_cure_diseases.ergotism.desc: "ピン, 스파크, 이상한 꿈; [GetTrait('ergotism').GetName( GetNullCharacter )] 당신이 시작하려고 하지 않은 주둥이 무용으로 세상을 바꾸어 놓습니다." # AI Tags
 cure_ergotism_tooltip: "제발 내 몸에서 내 몸을 풀어줘 [GetTrait('ergotism').GetName( GetNullCharacter )] 그래서 나는 내 중독을 선택할 수 있습니다." # AI Tags
 
-bno_cure_diseases.sickly.desc: "얇은 손목의 약점과 촛불빛의 잠자리 [GetTrait('sickly').GetName( GetNullCharacter )] 따뜻한 손과 인내를 가진 관리자를 갈망하게 해줍니다." # AI Tags
+bno_cure_diseases.sickly.desc: "얇은 손목의 약점과 촛불빛의 잠자리; [GetTrait('sickly').GetName( GetNullCharacter )] 따뜻한 손과 인내를 가진 관리자를 갈망하게 해줍니다." # AI Tags
 cure_sickly_tooltip: "제발 치료해줘 [GetTrait('sickly').GetName( GetNullCharacter )] 그래서 제 몸은 아무런 리저브 없이 즐거워할 수 있습니다." # AI Tags
 
 bno_cure_diseases.tooltip.1: "당신은 당신의 병을 치유 할 것입니다 [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
 bno_cure_diseases.tooltip.2: "당신은 방문 할 것입니다 [GetBuilding('bbc_church_02').GetName]" # AI Tags
 
 bno_primal_insight_decision.title.female: "여왕 의 눈 아래: 원시적 인 통찰 의 의식" # AI Tags
-bno_primal_insight_decision.desc.female: "바람은 기대로 튀어나오며 야스민 기름과 욕망의 향이 섞여 있었다. '프리멀 인사이트'를 앞둔 몇 주 동안 내 궁전에는 열망한 유망주들로 가득 차 있었습니다. 그들의 어두운 눈은 내 호의를 맛보기 위해 갈망했습니다. 그들은 에본 유령처럼 풍요로운 홀들을 통해 나를 뒤덮고 있었고, 그들의 손들은 제 실크에 너무 오래 걸려 있었고 그들은 속삭여서 약속하고 풍요로운 선물을 제공했습니다. 모든 접촉은 내 척추를 떨쳐버렸고, 우리의 연례 의식의 불가피한 절정에 대한 맛있는 고통이었습니다. 블랙코크 사제의 강력한 씨앗에 의해 내가 주장되고 소유되고 다시 만들어지는 순간이었습니다." # AI Tags
+bno_primal_insight_decision.desc.female: "바람은 기대로 튀어나오며 야스민 기름과 욕망의 향이 섞여 있었다. '프리멀 인사이트'를 앞둔 몇 주 동안 내 궁전에는 열망한 유망주들이 늘 있었습니다. 그들의 어두운 눈은 내 호의를 맛볼 수 있었습니다. 그들은 에본 유령처럼 풍요로운 홀들을 통해 나를 뒤덮고 있었고, 그들의 손들은 제 실크에 너무 오래 걸려 있었고 그들은 속삭여서 약속하고 풍요로운 선물을 제공했습니다. 모든 접촉은 내 척추를 떨쳐버렸고, 우리의 연례 의식의 불가피한 절정에 대한 맛있는 고통이었습니다. 블랙코크 사제의 강력한 씨앗에 의해 내가 주장되고 소유되고 다시 만들어지는 순간이었습니다." # AI Tags
 bno_primal_insight_decision.confirm.female: "그러한 열렬한 헌신은 내 마음을 따뜻하게 합니다." # AI Tags
 bno_primal_insight_decision.tooltip.female: "당신은 얻을 것입니다 [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
@@ -172,7 +172,7 @@ bno_trade_piety_for_gold.effect: "변환 [piety|E] 에 [gold|E] 믿는 자들의
 bno_trade_prestige_for_gold.title.male: "형제 연합 의 협상"   # AI Tags
 bno_trade_prestige_for_gold.title.female: "형제 연합 의 협상"   # AI Tags
 
-bno_trade_prestige_for_gold.desc.male: "당신의 명예는 말만으로는 측정되는 것이 아니라 육체적으로 제공되는 것입니다. 형제들에게 충성을 증명하기 위해 아내를 친척에게 매춘했지. 황소들이 그 위에 올라가고 심히 뿌리는 씨앗을 뿌리고 그들의 욕심이 소모되면 그들은 당신의 발 앞에 금을 쌓아 올립니다."   # AI Tags
+bno_trade_prestige_for_gold.desc.male: "당신의 명예는 말만으로는 측정되는 것이 아니라 육체적으로 제공되는 것입니다. 형제들에게 충성을 증명하기 위해 아내를 친척에게 매춘했지. 황소들이 그 위에 올라가고 심히 뿌리는 씨앗을 뿌리고 그들의 욕심이 소모되면 그들의 발에 금을 쌓아 올립니다."   # AI Tags
 
 bno_trade_prestige_for_gold.desc.female: "황소들 사이에서 당신의 명성은 당신의 몸으로 증명됩니다. 너 자신을 벗고, 네 친척들 앞에서 넓게 퍼져,. 모든 절정에 따라 그들은 당신의 손에 동전을 넣고 그들의 씨앗은 그들의 금과 함께 당신의 허벅지를 떨어뜨립니다."   # AI Tags
 
@@ -192,19 +192,19 @@ bno_build_bbc_trader_decision.message.title.male: "당신 의 카라반 이 도�
 bno_build_bbc_trader_decision.message.desc.male: "바구니들은 물품과 씨앗으로 가득 차 있고 실크텐트가 올라가고 향신료가 흐르고 있습니다. 오브시디언 카라반은 이제 여러분의 영역입니다. 황소들이 모여, 창녀들이 속삭이고, 백인 소년들이 떨고 있습니다. 당신의 범위는 더 깊은 영역으로 확장됩니다." # AI Tags
 
 bno_build_bbc_trader_decision.title.female: "오브시디안 카라반 을 초대 하십시오" # AI Tags
-bno_build_bbc_trader_decision.desc.female: "불꽃과 표지판을 붙여서 툴러스 바그런을 위한 공간을 마련합니다. 곧 오브시디언 카라반이 올거야 과 을 묶는 팅크를 팔고, 화이트보이를 해제하는 엘리시어를 팔고,. 그들을 환영하는 것은 그들의 힘을 당신의 땅과 당신의 몸에 환영하는 것입니다." # AI Tags
+bno_build_bbc_trader_decision.desc.female: "불꽃과 표지판을 붙여서 툴러스 바그런을 위한 공간을 마련합니다. 곧 오브시디언 카라반이 올 거야 과 을 묶는 팅크를 팔고 화이트보이를 해제하는 엘리시어를 팔고. 그들을 환영하는 것은 그들의 힘을 당신의 땅과 당신의 몸에 환영하는 것입니다." # AI Tags
 bno_build_bbc_trader_decision.tooltip.female: "오브시디언 카라반을 위한 장소를 준비해 두라." # AI Tags
 bno_build_bbc_trader_decision.confirm.female: "바닥을 청소하고 길을 열어라." # AI Tags
 bno_build_bbc_trader_decision.message.title.female: "카라반 이 도착" # AI Tags
-bno_build_bbc_trader_decision.message.desc.female: "오브시디언 카라반은 그 자리에 둥글고 차들은 실크와 씨앗으로 가득 차 있습니다. 황소들은 땅을 주장하기 위해 내려오며, 창녀들은 팅크터와 구덩이를 속삭이는 데 모이고, 공기는 향신료, 무스크, 그리고 울음소리로 가득합니다. 여러분은 이미 그 변화를 느낄 수 있습니다. 카라반이 여기 있고, 그것과 함께 운명이 있습니다." # AI Tags
+bno_build_bbc_trader_decision.message.desc.female: "오브시디언 카라반은 그 자리에 둥글고 차들은 실크와 씨앗으로 가득 차 있습니다. 황소들이 땅을 주장하기 위해 내려오며, 창녀들이 모여서 팅크와 을 속삭이고, 공기는 향신료와 머스크, 그리고 울음소리로 가득 차 있습니다. 여러분은 이미 그 변화를 느낄 수 있습니다. 카라반이 여기 있고, 그와 함께 운명이 있습니다." # AI Tags
 
 bno_purchase_goods_decision.title.male: "카라반의 상품을 지휘하라" # AI Tags
-bno_purchase_goods_decision.desc.male: "오브시디언 카라반은 틴큐어, 에릭시어, 케이즈, 브랜드에 매장을 개방합니다. 황소로서 금으로 지불해야 돼, 결코 육신으로 지불하지 않아. 당신이 쓰는 동전은 지배의 상징이고, 창녀들을 왕관시키고, 벌레들을 더 심하게 복종시키는 도구라고 주장합니다." # AI Tags
+bno_purchase_goods_decision.desc.male: "오브시디언 카라반은 틴큐어, 에릭시어, 케이즈, 브랜드에 매장을 개방합니다. 황소로서 금으로 지불해야 돼, 결코 육신으로 지불하지 않아. 당신이 쓰는 동전은 지배의 표지이며, 창녀들을 왕관시키고, 더 깊은 순종으로 벌레들을 깨뜨릴 수 있는 도구라고 주장합니다." # AI Tags
 bno_purchase_goods_decision.tooltip.male: "팅크, 엘리시어, 그리고 소유 도구를 얻기 위해 금을 사용하십시오." # AI Tags
 bno_purchase_goods_decision.confirm.male: "당신의 금을 내려놓고 당신의 것을 요구하십시오." # AI Tags
 
 bno_purchase_goods_decision.title.female: "오브시디안 카라반 에서 구매" # AI Tags
-bno_purchase_goods_decision.desc.female: "카라반의 황소들은 창세기 잉크, 검은 자궁의 엘릭시어, 교두보, 피어싱, 그리고 브랜드의 상품들을 퍼뜨렸다. 만약 당신이 금을 가지고 있다면, 그들은 그것을 가져갈 것이다. 그렇지 않으면, 그들은 웃고 당신의 몸을 대신 홀을 펴고, 입을 고, 씨앗을 다리 아래로 떨어뜨리는 것을 요구합니다. 그 대가가 완전히 지불될 때까지요." # AI Tags
+bno_purchase_goods_decision.desc.female: "카라반의 황소들은 창세기 잉크, 검은 자궁의 엘릭시어, 교두보, 피어싱, 그리고 브랜드의 상품들을 퍼뜨렸다. 만약 당신이 금을 가지고 있다면, 그들은 그것을 가져갈 것이다. 그렇지 않으면, 그들은 웃고 당신의 몸을 대신 홀을 펴고, 입을 고, 씨앗이 다리 아래로 떨어지는 것을 요구합니다. 그 값이 완전히 지불될 때까지요." # AI Tags
 bno_purchase_goods_decision.tooltip.female: "금을 쓰거나, 지갑이 빈다면 성적인 용의를 교환하세요." # AI Tags
 bno_purchase_goods_decision.confirm.female: "만약 당신이 할 수 있다면 동전으로 지불하거나, 만약 당신이 할 수 있다면 울음으로 지불하십시오." # AI Tags
 

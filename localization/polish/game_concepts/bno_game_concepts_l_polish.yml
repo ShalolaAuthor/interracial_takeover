@@ -32,7 +32,7 @@ game_concept_bno_bbcs: "BBC" # AI Tags
 game_concept_bno_bbc_desc: "Termin używany do opisu potężnych i męskich czarnych mężczyzn, którzy dominują w seksie, ucieleśniając siłę, władzę i nienasycony apetyt na przyjemność." # AI Tags
 
 game_concept_bno_religion: "Kościół Czarnego Kurczaka" # AI Tags
-game_concept_bno_religion_desc: "Małżeńskie mięso wrzuca się pod sklepionymi sufitami, zabarwione świętym cumem, gdy wyznawcy poddają się nienasycającemu głodowi [bno_bbc|E] Czciony w ekstatycznej oddanie i wieczny, guturały płacz." # AI Tags
+game_concept_bno_religion_desc: "Małżeńskie mięso wrzuca się pod sklepionymi sufitami, zabarwione świętym cumem, gdy wyznawcy poddają się nienasycającemu głodowi [bno_bbc|E] Czciony w ekstatycznej oddania i wiecznym, guturowym płaczu." # AI Tags
 
 game_concept_bno_slave: "BBC Niewolnik" # AI Tags
 game_concept_bno_slaves: "BBC Niewolnicy" # AI Tags
@@ -49,3 +49,12 @@ game_concept_bno_bull_desc: "A $game_concept_bno_bull$ jest nie tylko [bno_bbc|E
 game_concept_bno_slave_owner: "BBC Właściciel niewolników" # AI Tags
 game_concept_bno_slave_owners: "BBC Właściciele Niewolników" # AI Tags
 game_concept_bno_slave_owner_desc: "A $game_concept_bno_slave_owner$ jest [character|E] posiadający jedną lub więcej [bno_slaves|E]Pale kobiety schwytane w czasie wojny, nalotów lub wyroków, pozbawione praw i zmniejszone do zapasów [bno_bnwo|E] Zasada. Te dziwki mogą być wykorzystywane, handlowane lub darzone według woli, ich łonie i praca służą jako narzędzia podboju.\n\nW przeciwieństwie do [bno_cum_slave|E], której oddanie wiąże się z nią ciałem i duszą [bno_bull|E] Sam, zwykły $game_concept_bno_slave$ jest nieruchomością przenośną dowód, że zgodnie z [bno_bnwo|E]Białe kobiety nie są żonami ani szlachetnymi, ale hodowcami bydła dla swoich panów." # AI Tags
+
+game_concept_bno_seed_of_genesis: "Nasienie Księgi Rodzaju" # AI Tags
+game_concept_bno_seed_of_genesis_desc: "Nasienie Księgi Rodzaju jest cechą przyznaną Bykom, które spożyły Tynkturę Księgi Rodzaju. Ich sperma nie zachowuje się już jak zwykłe nasiona czyni z powrotem kurwy, które rozmnażają. Każdy ładunek wewnątrz dziwki mroczy jej skórę, opuchnie jej piersi, zaokrągnie jej tyłek, poszerza biodra, usmaża jej talię i doskonalizuje jej fizykę. Z wystarczającą ilością rozmnażających się, zostanie całkowicie zaciemniona, przekształcona w doskonałe ciało dziwki wymagane przez BNWO." # AI Tags
+
+game_concept_bno_tincture_of_genesis: "Tynktura Księgi Rodzaju" # AI Tags
+game_concept_bno_tincture_of_genesis_desc: "Tincture of Genesis to rzadka fiolka z grubą, mlekową esencją podawana tylko Bykom. Kiedy są pijani, świętują ich płód w [bno_seed_of_genesis|E]- Nie , nie , nie . Każdy ładunek, który wyrzucają, czyni prostytutki: skóra zaciemnia, cycki zwękają, tyłek staje się ciężki, biodra rozszerzają się, talii są szczupłe, macicy dojrzewają. Słupka rozrodzona wystarczająco często przez takie nasienie staje się doskonałą czarną świnią, żywym dowodem BNWO." # AI Tags
+
+game_concept_bno_elixir_of_the_black_womb: "Eliksyr czarnego macicy" # AI Tags
+game_concept_bno_elixir_of_the_black_womb_desc: "Eliksyr Czarnego Węża jest wymuszany na mniejszych ludzi. Kiedy je spożywają, usuwają ich męskotę: kury się skręcają, jaja uschną, a w ich brzuchach zakorzenił się głód po kumie. Żądają Byków, błagając o kurczaka i nasiona, dopóki BNWO nie zmieni ich całkowicie. To nie jest błogosławieństwo, ale kastracja i korupcja." # AI Tags

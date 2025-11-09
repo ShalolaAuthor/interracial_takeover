@@ -135,7 +135,7 @@ bno_cure_diseases.tooltip.1: "Będziesz uzdrowiony z twoich chorób przez [GetCo
 bno_cure_diseases.tooltip.2: "Będziesz mnie odwiedzał [GetBuilding('bbc_church_02').GetName]" # AI Tags
 
 bno_primal_insight_decision.title.female: "Pod królowym wzrokiem: rytuał pierwotnego zrozumienia" # AI Tags
-bno_primal_insight_decision.desc.female: "W powietrzu krzyknęło oczekiwanie, pełne mieszanych zapachów oleju jasmina i pożądania. W tygodniach poprzedzających "Primal Insight" mój dwór zawsze był pełen chętnych zamówicieli, z ciemnymi oczami głodnymi po mojej łasce. Każdy mężczyzna był zdesperowany, by zostać wybrany, aby mi służyć, aby zobaczyć, jak jego esencja stała się częścią mojej królewskiej krwi. Śledziły mnie w szlachetnych salach jak fantomy ebony, trzymając ręce zbyt długo na moich jedwabkach, oferując szepczące obietnice i ekstrawaganckie prezenty. Każde dotknięcie przynosiło drżenie w kręgosłupie, pyszny ból z powodu nieuniknionego kulminacji naszego corocznego rytuału - momentu, w którym będę powstał, posiadany i odtworzony przez potężne nasienie Kapłana Czarnego Pęka." # AI Tags
+bno_primal_insight_decision.desc.female: "W powietrzu krzyknęło oczekiwanie, pełne mieszanych zapachów oleju jasmina i pożądania. W tygodniach poprzedzających "Primal Insight" mój dwór zawsze był obfity żądnymi, z ciemnymi oczami głodnymi po mojej łasce. Każdy mężczyzna był zdesperowany, by zostać wybrany, aby mi służyć, aby zobaczyć, jak jego esencja stała się częścią mojej królewskiej krwi. Śledziły mnie w szlachetnych salach jak fantomy ebony, trzymając ręce zbyt długo na moich jedwabkach, oferując szepczące obietnice i ekstrawaganckie prezenty. Każde dotknięcie przynosiło drżenie w kręgosłupie, pyszny ból z powodu nieuniknionego kulminacji naszego corocznego rytuału - momentu, w którym będę powstał, posiadany i odtworzony przez potężne nasienie Kapłana Czarnego Pęka." # AI Tags
 bno_primal_insight_decision.confirm.female: "Taką gorącą oddanie ogrzewa moje serce." # AI Tags
 bno_primal_insight_decision.tooltip.female: "Będziesz miał [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
@@ -177,9 +177,41 @@ bno_trade_prestige_for_gold.desc.male: "Twój prestiż nie mierzy się tylko sł
 bno_trade_prestige_for_gold.desc.female: "Twoja sławę wśród Byków udowodniło twoje ciało. Rozrywasz się gołym, rozciągając się przed krewnymi, jęcząc, gdy każdy Byk wykorzystuje cię z kolei. Przy każdym klimakcie wkładają monetę do twoich rąk, ich nasienie spływają po twoich udach wraz ze swoim złotem."   # AI Tags
 
 bno_trade_prestige_for_gold.tooltip.male: "Wydaj [prestige|E] Oferując twą żonę dziurom Bykom, zdobywając [gold|E] po jej użyciu."   # AI Tags
-bno_trade_prestige_for_gold.tooltip.female: "Wydaj [prestige|E] oferując swoje ciało Bykom, zdobywając [gold|E] po ich stosowaniu."   # AI Tags
+bno_trade_prestige_for_gold.tooltip.female: "Wydaj [prestige|E] Oferując swoje ciało Bykom, [gold|E] po ich stosowaniu."   # AI Tags
 
 bno_trade_prestige_for_gold.confirm.male: "Tak, pozwól mojej żonie służyć Bykom za złoto."   # AI Tags
 bno_trade_prestige_for_gold.confirm.female: "Sam będę służył Bykom za złoto."   # AI Tags
 
 bno_trade_prestige_for_gold.effect: "Konwersja [prestige|E] do [gold|E] Przez służbę dziwkom dla bractwa afrykańskiego."   # AI Tags
+
+bno_build_bbc_trader_decision.title.male: "Utworz karawan obsidian" # AI Tags
+bno_build_bbc_trader_decision.desc.male: "Jako Byka Czarnego Nowego Porządu Światowego rozkazujesz, aby ziemię oczyszczać i oznaczać czarnymi banderami, wzywając swoich braci. Tutaj karawana Obsidian się zakorzeni, sprzedając Tinkturę Rodzaju, Eliksir Czarnej Łotki, klatki na robaki i piercingy na kurwy. Nie zapraszasz do handlu, rozszerzasz panowanie." # AI Tags
+bno_build_bbc_trader_decision.tooltip.male: "Znalazłem stały rynek byle do handlu nasieniami, sakramentami i narzędziami własności." # AI Tags
+bno_build_bbc_trader_decision.confirm.male: "Oskarżaj się o ziemię i wezwij karawan." # AI Tags
+bno_build_bbc_trader_decision.message.title.male: "Przyjeżdża karawana" # AI Tags
+bno_build_bbc_trader_decision.message.desc.male: "Węże pełne towarów i nasion, jedwabne namioty wznoszą się, a kadzidło płynie. Obsidian Caravan jest teraz waszym domeną…bijące serce…byki się zbierają, kurwy szepczą, biali trzęsą się. Twój zasięg rozciąga się głębiej do sfery." # AI Tags
+
+bno_build_bbc_trader_decision.title.female: "Zaproś obsydyńską karawanę" # AI Tags
+bno_build_bbc_trader_decision.desc.female: "Wyznaczacie miejsce z pochodniami i plakatami, tworząc miejsce dla wozów Bulls. Wkrótce pojawi się karawana Obsidian, sprzedając Tinkturę, która wiąże kurwy z cumem, Elixir, który rozprawia białych chłopców, i każdą klatkę i piercing, który zapewnia posłuszeństwo. Przyjmowanie ich to przyjmowanie ich siły w waszym kraju i w waszym ciele." # AI Tags
+bno_build_bbc_trader_decision.tooltip.female: "Przygotuj miejsce dla karawany Obsidian, otwierając swoje królestwo dla handlu bykiem i sakramentów." # AI Tags
+bno_build_bbc_trader_decision.confirm.female: "Wyczyść ziemię i otwórz drogę." # AI Tags
+bno_build_bbc_trader_decision.message.title.female: "Przyjeżdża karawana" # AI Tags
+bno_build_bbc_trader_decision.message.desc.female: "Karawana Obsidian wsiada na miejsce, wagony wiszące z jedwabą i ciężkie nasieniem. Byki zjeżdżają, by zdobyć teren, kurwy zbierają się, aby szeptać o tinkturach i klatkach, a powietrze wypełnia się kadzidłem, muskiem i płaczem. Czujesz już zmianę: karawana jest tutaj, a z nią przeznaczenie." # AI Tags
+
+bno_purchase_goods_decision.title.male: "Dowództwo nad towarami karawany" # AI Tags
+bno_purchase_goods_decision.desc.male: "Obsidian Caravan otwiera swoje magazyny na tinktury, elixyry, klatki, marki. Jako Bull płacisz w złocie, nigdy w ciele. Pieniądze, które wydajesz, są znakiem panowania, twierdząc, że masz narzędzia do koronowania dziwek i rozbicia robaków głębiej w posłuszeństwo." # AI Tags
+bno_purchase_goods_decision.tooltip.male: "Wydaj złoto, aby kupić tinktury, elixyry i narzędzia własne." # AI Tags
+bno_purchase_goods_decision.confirm.male: "Odłóż swoje złoto i weź to, co jest twoje." # AI Tags
+
+bno_purchase_goods_decision.title.female: "Zakup z karawany Obsidianu" # AI Tags
+bno_purchase_goods_decision.desc.female: "Były Karawany rozeszły swoje towary vials z Tincture z Genesis, Elixirs z Czarnego Łódź, klatki, piercingy i marki. Jeśli masz złoto, wezmą to. Jeśli nie, uśmiechają się i domagają się, aby twoje ciało rozciągnęło dziury, zatknęło usta, kropliło nasiona w biodrach, dopóki cena nie zostanie zapłacona w całości." # AI Tags
+bno_purchase_goods_decision.tooltip.female: "Wydawaj złoto, albo wymieniaj miłosierdzie seksualne, jeśli torebka jest pusta." # AI Tags
+bno_purchase_goods_decision.confirm.female: "Płacisz w pieniądzu, jeśli możesz, lub w żałobie, jeśli musisz." # AI Tags
+
+has_bbc_caravan: "Obsidian Caravan przybył i teraz zamieszkuje w waszym królestwie, jego namioty pełne tinktur, eliksirów i narzędzi dominacji." # AI Tags
+
+bno_trader_has_arrived.title.male: "Przybyła karawana" # AI Tags
+bno_trader_has_arrived.desc.male: "Wagony Obsidianu przejeżdżają przez waszą ziemię, czarne sztandary rozbijają się, kadzidło gęste w powietrzu. Byki zjeżdżają z skrzyni z tinkturami, elixyrami, klatkami i markami. Karawana jest tutaj na twoje dowództwo, a teraz to narzędzia twojej władzy." # AI Tags
+
+bno_trader_has_arrived.title.female: "Karawana wchodzi do waszego królestwa" # AI Tags
+bno_trader_has_arrived.desc.female: "Ciężkie wagony wkraczają na miejsce, jedwabne namioty wznoszą się pod nadzorem wysokich Byków. Ich towary błyszczą tincturami do wiązania, elixyrami do przekształcenia, łańcuchami do oznaczania. Przybyła karawana, a wraz z nią pokusie, posłuszeństwo i zapach nasion w powietrzu." # AI Tags

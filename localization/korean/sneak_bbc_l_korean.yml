@@ -11,7 +11,7 @@ BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! 예배 [bno_bbc|E]: #co
 BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! 공개적으로 환영합니다 [bno_bbc|E]: #color_green +50#!"   # AI Tags
 sneak_bbc.has_bbc_in_court: "적어도 두 개가 있어야 합니다 [bno_bbc|E] 당신의 법정에서 한 명을 보내도록."   # AI Tags
 sneak_bbc.already_has_bbc_in_court: "그 법원의 창녀들은 이미 툴스에 의해 채워져 있어 또 다른 사람을 보내지 않아도 된다."   # AI Tags
-sneak_bbc.not_enough_of_a_slut: "넌 아직 좆같은 거 아냐. 오직 진실한 [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] 아니면 더 나쁜 것은 법원들 사이에 황소들을 밀입할 용기가 있을 겁니다."   # AI Tags
+sneak_bbc.not_enough_of_a_slut: "넌 아직 좆같은 거 아냐. 오직 진실한 [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] 아니면 더 나쁜 것은 법원들 사이에 황소들을 밀입할 용기가 있을 겁니다."   # AI Tags
 #influence child interaction
 bno_influence_child: "호기심을 키우기" # AI Tags
 bno_influence_child_desc: "자녀 에게 진리 에 영향력 을 끼치" # AI Tags
