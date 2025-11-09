@@ -2018,11 +2018,17 @@ bno_femboi.4444 = {
         character = root
         animation = bno_sex_love_stand_1
     }
+    trigger = {
+        is_male = yes
+    }
     option = {
         name = bno_femboi.4444.a
         trigger_event = {
             id = bno_femboi.0022
             days = { 7 14 }
+        }
+        ai_chance = {
+            base = 100
         }
     }
     option = {
@@ -2066,5 +2072,6 @@ bno_femboi.0023 = {
     }
     option = {
         name = bno_femboi.0023.a
+        add_trait = femboi
     }
 }

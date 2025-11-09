@@ -16,6 +16,10 @@
                     save_scope_as = bno_new_trait
                     scope:bno_female = {
                         add_trait = scope:bno_new_trait
+                        add_trait_xp = {
+                            trait = scope:bno_new_trait
+                            value = 100
+                        }
                     }
                 }
             }
@@ -51,6 +55,8 @@
             }
             remove_whiteboi_trait_effect = yes
             remove_chastity_trait_effect = yes
+            remove_trait = femboi
+            add_character_modifier = bno_elixir_genesis
             set_sexuality = bisexual
             create_story = story_bno_maintenance
             #TODO: add modifier from original character
@@ -60,21 +66,38 @@
         add_to_list = old_character_titles
     }
     hidden_effect = {
-        scope:bno_female = {
-            create_landless_adventurer_title_effect = {
-                REASON = flag:voluntary
-                FLAVOR_CHAR = scope:old_character
+        if = {
+            limit = {
+                is_ruler = yes
+            }
+            scope:bno_female = {
+                create_landless_adventurer_title_effect = {
+                    REASON = flag:voluntary
+                    FLAVOR_CHAR = scope:old_character
+                }
             }
         }
-        set_player_character = scope:bno_female
+        if = {
+            limit = { is_ai = no }
+            set_player_character = scope:bno_female
+        }
     }
     hidden_effect = {
-        ep3_become_landed_transfer_effect = {
-			TITLE_RECEIVER = scope:bno_female
-			TITLE_LIST = old_character_titles
-			TYPE = granted
-			REASON = flag:granted
-		}
+        if = {
+            limit = { is_ruler = yes }
+            ep3_become_landed_transfer_effect = {
+		    	TITLE_RECEIVER = scope:bno_female
+		    	TITLE_LIST = old_character_titles
+		    	TYPE = granted
+		    	REASON = flag:granted
+		    }
+        }
+        else_if = {
+            limit = { exists = liege }
+            liege ?= {
+                add_courtier = scope:bno_female
+            }
+        }
         scope:bno_female = {
             remove_character_modifier = ep3_ennobled_adventurer_modifier_1
             remove_character_modifier = ep3_ennobled_adventurer_modifier_2
@@ -85,8 +108,25 @@
             limit = { is_house_head = yes }
             scope:old_character.house = { set_house_head = scope:bno_female }
         }
+        scope:old_character = {
+            every_spouse = {
+                add_to_list = old_character_spouses
+            }
+            every_in_list = {
+                list = old_character_spouses
+                divorce = scope:old_character
+                marry = scope:bno_female
+            }
+            every_child = {
+                save_scope_as = old_character_child
+                scope:bno_female = {
+                    adopt = scope:old_character_child
+                }
+            }
+        }
         bno_kill_character = {
             TARGET = scope:old_character
         }
+        
     }
 }

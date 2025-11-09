@@ -19,9 +19,6 @@ bno_femboi_3_milestone = {
 }
 
 bno_femboi_4_milestone = {
-	effect = {
-		add_trait = femboi
-	}
 	events = {
 		bno_femboi.4444
 	}

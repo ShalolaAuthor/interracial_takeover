@@ -83,3 +83,9 @@ bno_mare_night = {
     fertility = -0.5
     stacking = yes
 }
+bno_elixir_genesis = {
+    icon = elixir_genesis
+    fertility = 5
+    health = 1
+    stacking = no
+}
