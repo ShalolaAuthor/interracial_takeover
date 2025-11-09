@@ -1,14 +1,14 @@
 ﻿l_russian:
 
-bnwo_faction: "[bno_bnwo|E] Фракция" # AI Tags
-bnwo_faction_desc: "Под властью железных кулаков, белые тела сгибаются и кровоточат, питая наш ненасытный голод за потомством, рожденным сильным, красивым и неоспоримым [bno_black|E]." # AI Tags
-bnwo_faction.name: "Сборник [bno_bnwo|E]" # AI Tags
-bnwo_faction.short_effect_desc: "Сборник [bno_bnwo|E] является фракцией, которая стремится установить новый мировой порядок, основанный на расовом превосходстве, с акцентом на доминировании [bno_black|E] отдельных лиц." # AI Tags
-bnwo_faction.power.bnoc: "Хочет [liege|E] быть $bnoc$" # AI Tags
-bnwo_faction.power.bbcs: "Хочет [liege|E] быть $bbcs$" # AI Tags
-bnwo_faction.power.county_bnoc: "Хочет [county] быть $bnoc$" # AI Tags
-bnwo_faction.power.county_bbcs: "Хочет [county] быть $bbcs$" # AI Tags
-bnwo_faction_leader_title: "Командир" # AI Tags
-bnwo_faction_revolt_title_name: "Сборник [bno_bnwo|E] Восстание" # AI Tags
-bnwo_faction_event_troops: "[bno_bnwo|E] Восстание" # AI Tags
-bno_event_troop_default_name: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] [bno_bnwo|E] Восстание армии" # AI Tags
+bnwo_faction: "Фракция [bno_bnwo|E]"
+bnwo_faction_desc: "Под их железным владычеством белые тела гнутся и истекают кровью, подпитывая нашу ненасытную жажду потомства, рождённого сильным, прекрасным и безусловно [bno_black|E]."
+bnwo_faction.name: "[bno_bnwo|E]"
+bnwo_faction.short_effect_desc: "Фракция [bno_bnwo|E] стремится установить новый мировой порядок, основанный на расовом превосходстве, с акцентом на доминирование лиц [bno_black|E]."
+bnwo_faction.power.bnoc: "Хочет, чтобы [liege|E] был $bnoc$"
+bnwo_faction.power.bbcs: "Хочет, чтобы [liege|E] был $bbcs$"
+bnwo_faction.power.county_bnoc: "Хочет, чтобы [county] был $bnoc$"
+bnwo_faction.power.county_bbcs: "Хочет, чтобы [county] был $bbcs$"
+bnwo_faction_leader_title: "Командующий"
+bnwo_faction_revolt_title_name: "Восстание [bno_bnwo|E]"
+bnwo_faction_event_troops: "Восстание [bno_bnwo|E]"
+bno_event_troop_default_name: "Армия восстания [bno_bnwo|E] [ROOT.Char.GetTitledFirstNamePossessiveNoTooltip]"

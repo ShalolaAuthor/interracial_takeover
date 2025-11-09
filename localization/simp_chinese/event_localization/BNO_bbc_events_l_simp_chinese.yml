@@ -21,7 +21,7 @@
  
  #bno_events03 - when receiving an empire title and being married to a BBC
  bno_events03.title: "末日的开端"
- bno_events03.desc: "随着你继承并宣称你领土上最高的王位，你的配偶也获得了相称的头衔。\n\n来自遥远的国度，鲜为'白人'所知，你的爱人不仅俘获了你的心，也征服了你的土地。\n\n然而，这仅仅只是开始，他的文化、信仰和肤色正在侵入当地居民。"
+ bno_events03.desc: "随着你继承大统，君临天下，你的配偶也获得了与之相称的头衔。\n\n来自“白皮”闻所未闻的异域，你的情人不仅俘获了你的心，更征服了你的土地。\n\n然而，这仅仅是个开始，因为[target1.GetHerHis]的文化、信仰和肤色，正通过狂肏本地所有女人的屄，来完成对本土血统的入侵和替换。"
  bno_events03.a: "我种族的末日临近了。"
 
 #bbcconversion - decision
@@ -37,17 +37,17 @@
  bno_election_decision.a: "耶嘿！！！全速前进！"
 
  bull_decision: "传唤一个黑爹来征服你的妻子"
- bull_decision_desc: "你的妻子对这些来自非洲的陌生新男人的大黑鸡巴上瘾了，而你也有点喜欢这样，为什么不告诉他们中的一个人在你面前享用她呢？"
- bull_decision_tooltip: "一位'黑牛'将造访你的卧室"
- bull_decision_confirm: "把那个黑人带来!"
+ bull_decision_desc: "你老婆对这些从非洲来的陌生男人的大黑屌上瘾了，而你居然还挺喜欢，干嘛不叫他们中的一个当着你的面肏？[ROOT.Char.GetPrimarySpouse.GetHerHis]？"
+ bull_decision_tooltip: "一个“公牛”会来上你的床"
+ bull_decision_confirm: "把“公牛”叫来！"
 
 #
  bno_events_0005.title: "黑爹征服了你的妻子"
- bno_events_0005.desc: " 你的公牛 [target1.GetFirstName] 猛地打开门，看着你和你的妻子 [target2.GetFirstName]. 你的妻子似乎很惊讶，问你发生了什么事。你的骑士 [target1.GetFirstName] 一把抓住了她, 强迫她给他口交, 在短暂的疑惑后, 没有恐惧, 没有愤怒, 你的妻子却兴奋了起来. 你不争气得勃起了并且毫不犹豫得瘫坐在了沙发上开始自慰. 你挚爱的妻子 [target2.GetFirstName] , 你从没有见她和你在一起的时候这么湿过. [target1.GetFirstName] 撕开她的衣服，拍打着她的屁股开始向她湿润的阴户猛烈进攻, 她被干得淫叫连连, 依然不忘记观察你的反应. 在你的妻子被干得高潮迭起的当下, 你也再也忍耐不住开始了射精. 此时 [target1.GetFirstName] 开始内射本该属于你的妻子, 而你对此却无能为力"
+ bno_events_0005.desc: "你的公牛[target1.GetFirstName]猛地踹开房门，盯着你和你老婆[target2.GetFirstName]。你老婆一脸惊讶，问你这是怎么回事。你的骑士[target1.GetFirstName]一把抓住[target2.GetHerHis]，强迫[target2.GetHerHis]给他含屌，但你老婆却异常兴奋起来。你的鸡巴硬了，你毫不犹豫地坐在沙发上开始打飞机。你老婆[target2.GetFirstName]湿得前所未有。[target1.GetFirstName]撕烂了[target2.GetHerHis]的衣服，开始猛肏[target2.GetHerHis]那滑腻的屄，同时抽打[target2.GetHerHis]的屁股，而[target2.GetSheHe]在快感中尖叫，还不停地瞟你。你再也憋不住了，在老婆被肏的时候大声射了出来，而你老婆正一波接一波地高潮。突然，[target1.GetFirstName]开始内射到你老婆的屄里，而你什么也做不了……"
  bno_events_0005.a: "老天啊多么美的场面, 亲爱的我爱你..."
 
 bno_events.0006.title: "你选中的贵族女性"
-bno_events.0006.desc: "#weak 当这位好奇的贵族走近我的宫廷时，我以温暖的微笑向她问好并发出邀请。 #!\n\n欢迎，[target1.GetFirstName]、[target3.GetFirstName]还有[target2.GetFirstName]。你们大驾光临令我倍感荣幸。\n\n#weak 贵族环顾四周，打量着我的庄园的奢华环境——从富丽堂皇的家具到满墙都是的无价艺术品。 #!\n\n很高兴您接受了我的邀请。我期待着与您分享其中的一些珍品，并更多地了解您自己对文化和艺术的兴趣。\n\n#weak 贵族恭敬地点点头，显然她很高兴有机会探索眼前的这个新世界。 #!"
+bno_events.0006.desc: "#weak 看着那个没见过世面的贵族走进我的宫廷，我皮笑肉不笑地迎了上去，邀请[target1.GetHerHis]进来。#!\n\n欢迎你啊，[target1.GetFirstName]、[target3.GetFirstName]和[target2.GetFirstName]。你们大驾光临令我倍感荣幸。\n\n#weak 贵族四处张望，打量着我的庄园的奢华环境——从富丽堂皇的家具到满墙都是的无价艺术品。让[target1.GetSheHe]看傻了眼。 #!\n\n你肯来就好。我等不及要跟你“分享”一下我这儿的宝贝了，顺便也听听你对文化艺术有什么见解。\n\n#weak 这贵族恭敬地点了点头，显然她很高兴有机会探索眼前的这个新世界。 #!"
 
 # bno_realize_bbc_potential Non-BBC Black character gains BBC
 bno_realize_bbc_potential: "探索你的大黑鸡巴"

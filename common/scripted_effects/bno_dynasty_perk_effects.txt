@@ -511,19 +511,14 @@ bno_fuck_every_one_in_exchange_for_gold = {
             is_bbc = yes
             $TRIGGER_KEY$ = yes
         }
+        pay_short_term_gold = {
+            target = root
+            gold = { 1 2 }
+        }
         carn_sex_scene_no_memory_effect = yes
         carn_sex_scene_no_drama_effect = yes
         bno_have_sex_with_effects = {
             PARTNER = scope:bno_whore
-        }
-    }
-    every_living_character = {
-        limit = {
-            $TRIGGER_KEY$ = yes
-        }
-        pay_short_term_gold = {
-            target = root
-            gold = { 1 2 }
         }
     }
 }

@@ -355,6 +355,15 @@ bno_use_tincture_of_genesis = {
     }
 }
 
+bno_use_elixir_of_the_black_womb = {
+	every_character_artifact = {
+        limit = {
+            has_variable = bno_elixir_of_the_black_womb
+        }
+        destroy_artifact = this
+    }
+}
+
 bno_castrate_prisoner_option = {
 	scope:actor ?= {
 		bno_use_tincture_of_genesis = yes

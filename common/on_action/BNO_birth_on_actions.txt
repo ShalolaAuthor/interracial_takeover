@@ -12,7 +12,6 @@ bno_blood_inheritance_normal = {
 		has_game_rule = bno_black_cum_potency_normal
 	}
 	effect = {
-		bno_flag_inheritance = yes
 		bno_normal_african_inheritance = yes
 	}
 }
@@ -23,7 +22,6 @@ bno_blood_inheritance_abnormal = {
 		has_game_rule = bno_black_cum_potency_abnormal
 	}
 	effect = {
-		bno_flag_inheritance = yes
 		bno_abnormal_african_inheritance = yes
 	}
 }
@@ -181,7 +179,7 @@ bno_legacy_birth = {
 						}
 						is_a_girl = yes
 						NOT = {
-							has_trait = bno_curious
+							has_trait = bno_whitegirl_1
 						}
 					}
 					random = {
@@ -192,7 +190,7 @@ bno_legacy_birth = {
 								is_ai = no
 							}
 						}
-						add_trait = bno_curious
+						add_trait = bno_whitegirl_1
 					}
 				}
 				else_if = {

@@ -1,41 +1,41 @@
 ﻿l_russian:
 
- bno_war: "[bno_bnwo|E] Война" # AI Tags
- bno_war_victory_desc_attacker: "Вы выигрываете [titles|E]." # AI Tags
- bno_war_victory_desc: "[attacker.GetShortUIName|U] выигрывает оспариваемого [title|E]." # AI Tags
- bno_war_white_peace_desc_defender: "Ты держишь спор [title|E]." # AI Tags
- bno_war_white_peace_desc: "[defender.GetShortUIName|U] Задерживает подсудимого [title|E]." # AI Tags
- bno_war_defeat_desc_defender: "Ты держишь спор [title|E]." # AI Tags
- bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] Задерживает подсудимого [title|E]- Нет , нет . Все [factions|E] против вас увеличить их [discontent|E]." # AI Tags
- bno_war_defeat_desc: "[defender.GetShortUIName|U] Задерживает подсудимого [title|E]." # AI Tags
- 
- BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Расовое приобретение [TITLE.GetBaseName]" # AI Tags
- BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
- BNO_WAR_CB_NAME: "Расовое приобретение [TITLE.GetBaseName]" # AI Tags
+bno_war: "[bno_bnwo|E] Война"
+bno_war_victory_desc_attacker: "Ты забираешь оспариваемые [titles|E]."
+bno_war_victory_desc: "[attacker.GetShortUIName|U] забирает оспариваемый [title|E]."
+bno_war_white_peace_desc_defender: "Ты сохраняешь оспариваемый [title|E]."
+bno_war_white_peace_desc: "[defender.GetShortUIName|U] сохраняет оспариваемый [title|E]."
+bno_war_defeat_desc_defender: "Ты сохраняешь оспариваемый [title|E]."
+bno_war_defeat_desc_attacker: "[defender.GetShortUIName|U] сохраняет оспариваемый [title|E]. Все [factions|E] против тебя усиливают [discontent|E]."
+bno_war_defeat_desc: "[defender.GetShortUIName|U] сохраняет оспариваемый [title|E]."
 
- bno_subj_war: "[bno_bnwo|E] Война подчинения" # AI Tags
- bno_subj_war_victory_desc_attacker: "Вы выигрываете [titles|E]." # AI Tags
- bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] выигрывает оспариваемого [title|E]." # AI Tags
- bno_subj_war_white_peace_desc_defender: "Ты держишь спор [title|E]." # AI Tags
- bno_subj_war_white_peace_desc: "[defender.GetShortUIName|U] Задерживает подсудимого [title|E]." # AI Tags
- bno_subj_war_defeat_desc_defender: "Ты держишь спор [title|E]." # AI Tags
- bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] Задерживает подсудимого [title|E]- Нет , нет . Все [factions|E] против вас увеличить их [discontent|E]." # AI Tags
- bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] Задерживает подсудимого [title|E]." # AI Tags
+BNO_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Расовое Захватывание [TITLE.GetBaseName]"
+BNO_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+BNO_WAR_CB_NAME: "Расовое Захватывание [TITLE.GetBaseName]"
 
-BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Расовое подчинение [TITLE.GetBaseName]" # AI Tags
-BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
-BNO_SUBJ_WAR_CB_NAME: "Расовое подчинение [TITLE.GetBaseName]" # AI Tags
+bno_subj_war: "[bno_bnwo|E] Война Подчинения"
+bno_subj_war_victory_desc_attacker: "Ты забираешь оспариваемые [titles|E]."
+bno_subj_war_victory_desc: "[attacker.GetShortUIName|U] забирает оспариваемый [title|E]."
+bno_subj_war_white_peace_desc_defender: "Ты сохраняешь оспариваемый [title|E]."
+bno_subj_war_white_peace_desc: "[defender.GetShortUIName|U] сохраняет оспариваемый [title|E]."
+bno_subj_war_defeat_desc_defender: "Ты сохраняешь оспариваемый [title|E]."
+bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] сохраняет оспариваемый [title|E]. Все [factions|E] против тебя усиливают [discontent|E]."
+bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] сохраняет оспариваемый [title|E]."
 
-bno_varangian_adventure: "[bno_bnwo|E] Нападение" # AI Tags
-BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Нападение на [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
-BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
-BNO_VARANGIAN_ADVENTURE_CB_NAME: "Нападение на [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
-BNWO_STATE_TITLE_NAME: "Черная [target_duchy.GetNameNoTierNoTooltip]" # AI Tags
+BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Расовое Подчинение [TITLE.GetBaseName]"
+BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+BNO_SUBJ_WAR_CB_NAME: "Расовое Подчинение [TITLE.GetBaseName]"
 
-bno_civil_unrest: "[bno_bnwo|E] Восстание" # AI Tags
-bno_civil_unrest.army_name: "Эбонные Победители" # AI Tags
-bno_civil_unrest.victory.desc: "Сборник [bno_bnwo|E] Он одержал победу. Сопротивление бесполезно. Приготовьтесь служить новому порядку." # AI Tags
-bno_civil_unrest.white_peace.desc: "Сборник [bno_bnwo|E] предлагает шанс на мир. Подчиняйтесь нашему правилу и будете спасены." # AI Tags
-bno_civil_unrest.defeat.desc: "Сборник [bno_bnwo|E] был побежден. Старый порядок остается нетронутым, пока." # AI Tags
-bnwo_faction_every_county: "Каждый [faction|E] [county|E]" # AI Tags
-bno_civil_unrest_name: "Восстание Черного Нового Мирового Порядка" # AI Tags
+bno_varangian_adventure: "[bno_bnwo|E] Вторжение"
+BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Вторжение против [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]"
+BNO_VARANGIAN_ADVENTURE_CB_NAME: "Вторжение в [DEFENDER.GetPrimaryTitle.GetNameNoTier]"
+BNWO_STATE_TITLE_NAME: "Очерненный [target_duchy.GetNameNoTierNoTooltip]"
+
+bno_civil_unrest: "[bno_bnwo|E] Восстание"
+bno_civil_unrest.army_name: "Эбеновые Завоеватели"
+bno_civil_unrest.victory.desc: "[bno_bnwo|E] одержал победу. Сопротивление бесполезно. Готовься служить новому порядку — на коленях."
+bno_civil_unrest.white_peace.desc: "[bno_bnwo|E] предлагает мир. Подчинись нашей власти — и твою пизду пощадят."
+bno_civil_unrest.defeat.desc: "[bno_bnwo|E] побеждён. Старый порядок пока держится. Но чёрные хуи уже на подходе."
+bnwo_faction_every_county: "Каждый [faction|E] [county|E]"
+bno_civil_unrest_name: "Восстание Нового Чёрного Мирового Порядка"

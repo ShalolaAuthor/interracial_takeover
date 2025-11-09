@@ -30,15 +30,7 @@
 }
 
 bno_conversion_effect = {
-	if = {
-		limit = {
-			exists = top_liege
-		}
-		set_character_faith_with_conversion = $FAITH$
-	}
-	else = {
-		set_character_faith = $FAITH$
-	}
+	set_character_faith = $FAITH$
 }
 
 bno_add_prowess_per_sex = {
@@ -247,41 +239,41 @@ bno_reveal_secret_effect = {
 
 bno_stress_impact_based_on_slut_tier = {
 	stress_impact = {
-		bno_curious = -10
-		bno_blacked = -20
-		bno_snowbunny = -30
-		bno_qos = -40
-		bno_mindless_bbc_slut = -50
+		bno_whitegirl_1 = -10
+		bno_whitegirl_2 = -20
+		bno_whitegirl_3 = -30
+		bno_whitegirl_4 = -40
+		bno_whitegirl_5 = -50
 	}
 }
 
 bno_no_sex_stress_impact = {
 	stress_impact = {
-		bno_curious = major_stress_impact_gain
-		bno_blacked = major_stress_impact_gain
-		bno_snowbunny = major_stress_impact_gain
-		bno_qos = major_stress_impact_gain
-		bno_mindless_bbc_slut = major_stress_impact_gain
+		bno_whitegirl_1 = major_stress_impact_gain
+		bno_whitegirl_2 = major_stress_impact_gain
+		bno_whitegirl_3 = major_stress_impact_gain
+		bno_whitegirl_4 = major_stress_impact_gain
+		bno_whitegirl_5 = major_stress_impact_gain
 	}
 }
 
 bno_sex_stress_impact_huge = {
 	stress_impact = {
-		bno_curious = major_stress_impact_loss
-		bno_blacked = major_stress_impact_loss
-		bno_snowbunny = major_stress_impact_loss
-		bno_qos = major_stress_impact_loss
-		bno_mindless_bbc_slut = major_stress_impact_loss
+		bno_whitegirl_1 = major_stress_impact_loss
+		bno_whitegirl_2 = major_stress_impact_loss
+		bno_whitegirl_3 = major_stress_impact_loss
+		bno_whitegirl_4 = major_stress_impact_loss
+		bno_whitegirl_5 = major_stress_impact_loss
 	}
 }
 
 bno_sex_stress_impact_small = {
 	stress_impact = {
-		bno_curious = minor_stress_impact_loss
-		bno_blacked = minor_stress_impact_loss
-		bno_snowbunny = minor_stress_impact_loss
-		bno_qos = minor_stress_impact_loss
-		bno_mindless_bbc_slut = minor_stress_impact_loss
+		bno_whitegirl_1 = minor_stress_impact_loss
+		bno_whitegirl_2 = minor_stress_impact_loss
+		bno_whitegirl_3 = minor_stress_impact_loss
+		bno_whitegirl_4 = minor_stress_impact_loss
+		bno_whitegirl_5 = minor_stress_impact_loss
 	}
 }
 
@@ -825,7 +817,7 @@ create_bbc = {
 		dynasty = none
 		random_traits = yes
 		faith = faith:bbcs
-		culture = culture:bnoc
+		culture = culture:akan
 		prowess = {
 			min_template_decent_skill
 			max_template_decent_skill
@@ -835,6 +827,7 @@ create_bbc = {
 			max_template_decent_skill
 		}
 		after_creation = {
+			bno_set_culture_to_african_effect = yes
 			set_sexuality = heterosexual
 			add_gold = minor_gold_value
 			bno_add_bbc_trait_effect = yes
@@ -943,7 +936,7 @@ create_character_slut = {
 		after_creation = {
 			add_trait = lustful
 			bno_maybe_get_a_rare_trait = {
-				TRAIT = bno_curious
+				TRAIT = bno_whitegirl_1
 			}
 			bno_maybe_get_a_rare_trait = {
 				TRAIT = bno_pure_white
@@ -994,7 +987,7 @@ create_character_blacked_slut = {
 				set_culture = scope:creator.culture
 			}
 			else = {
-				set_culture = culture:bnoc
+				bno_set_culture_to_african_effect = yes
 			}
 			if = {
 				limit = {
@@ -1009,6 +1002,111 @@ create_character_blacked_slut = {
 			}
 			remove_bad_traits = yes
 		}
+	}
+}
+
+bno_set_culture_to_african_effect = {
+	if = {
+		limit = { has_game_rule = bno_african_culture_no }
+		bno_set_culture_to_random_african_culture_effect = yes
+	}
+	else = {
+		set_culture = culture:bnoc
+	}
+}
+
+bno_set_culture_to_random_african_culture_effect = {
+	random_list = {
+		1 = {
+			set_culture = culture:kru
+		}
+		1 = {
+			set_culture = culture:guan
+		}
+		1 = {
+			set_culture = culture:akan
+		}
+		1 = {
+			set_culture = culture:welayta
+		}
+		1 = {
+			set_culture = culture:ethiopian
+		}
+		1 = {
+			set_culture = culture:ewe
+		}
+		1 = {
+			set_culture = culture:igbo
+		}
+		1 = {
+			set_culture = culture:yoruba
+		}
+		1 = {
+			set_culture = culture:mossi
+		}
+		1 = {
+			set_culture = culture:edo
+		}
+		1 = {
+			set_culture = culture:bozo
+		}
+		1 = {
+			set_culture = culture:songhai
+		}
+		1 = {
+			set_culture = culture:gaw
+		}
+		1 = {
+			set_culture = culture:soninke
+		}
+		1 = {
+			set_culture = culture:sorko
+		}
+		1 = {
+			set_culture = culture:east_bantu
+		}
+		1 = {
+			set_culture = culture:nupe
+		}
+		1 = {
+			set_culture = culture:sao
+		}
+		1 = {
+			set_culture = culture:hausa
+		}
+		1 = {
+			set_culture = culture:kanuri
+		}
+		1 = {
+			set_culture = culture:bobo
+		}
+		1 = {
+			set_culture = culture:gur
+		}
+		1 = {
+			set_culture = culture:malinke
+		}
+		1 = {
+			set_culture = culture:marka
+		}
+		1 = {
+			set_culture = culture:mel
+		}
+		1 = {
+			set_culture = culture:pulaar
+		}
+		1 = {
+			set_culture = culture:wolof
+		}
+		1 = {
+			set_culture = culture:serer
+		}
+		1 = {
+			set_culture = culture:afar
+		}
+		1 = {
+			set_culture = culture:somali
+		}		
 	}
 }
 
@@ -1043,7 +1141,7 @@ bno_get_between_common_uncommon_and_rare_trait = {
 }
 
 bno_kill_character = {
-	$TARGET$ = {
+	$TARGET$ ?= {
 		death = {
 			death_reason = death_disappearance
 		}
@@ -1131,14 +1229,14 @@ bno_bbc_sex = {
 				$PARTNER$ ?= {
 					is_married = yes
 					any_spouse = {
-						is_white_guy = yes
+						is_white = yes
 					}
 				}
 			}
 			$PARTNER$ = {
 				every_spouse = {
 					limit = {
-						is_white_guy = yes
+						is_white = yes
 					}
 					bno_cuck_sex_after_effects = {
 						PARTNER = $PARTNER$
@@ -1168,11 +1266,11 @@ bno_bbc_sex_after_effects = {
 	bno_increase_sluttyness = yes
 	bno_sex_stats = yes
 	stress_impact = {
-		bno_curious = -10
-		bno_blacked = -20
-		bno_snowbunny = -30
-		bno_qos = -40
-		bno_mindless_bbc_slut = -50
+		bno_whitegirl_1 = -10
+		bno_whitegirl_2 = -20
+		bno_whitegirl_3 = -30
+		bno_whitegirl_4 = -40
+		bno_whitegirl_5 = -50
 	}
 	add_character_flag = {
 		flag = bno_naked
@@ -1246,10 +1344,10 @@ bno_cuck_sex_after_effects_effect = {
 
 bno_stress_impact_based_on_cuck_tier = {
 	stress_impact = {
-		bno_cuckish = -10
-		bno_cuck = -20
-		bno_beta = -30
-		bno_jos = -40
+		bno_whiteboi_1 = -10
+		bno_whiteboi_2 = -20
+		bno_whiteboi_3 = -30
+		bno_whiteboi_4 = -40
 	}
 }
 
@@ -1436,11 +1534,11 @@ bno_have_sex_with_effects = {
 }
 
 bno_remove_whitegirl_traits = {
-	remove_trait = bno_curious
-	remove_trait = bno_blacked
-	remove_trait = bno_snowbunny
-	remove_trait = bno_qos
-	remove_trait = bno_mindless_bbc_slut
+	remove_trait = bno_whitegirl_1
+	remove_trait = bno_whitegirl_2
+	remove_trait = bno_whitegirl_3
+	remove_trait = bno_whitegirl_4
+	remove_trait = bno_whitegirl_5
 }
 
 bno_add_gold_faith = {

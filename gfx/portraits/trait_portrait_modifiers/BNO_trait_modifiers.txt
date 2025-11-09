@@ -1,8 +1,5 @@
 ﻿bno_blood = {
 	bno_full_black_portrait_modifier = {
-		trigger = {
-			NOT = { has_character_flag = bno_originally_african }
-		}
 		traits = {
 			bno_full_black
 		}
@@ -19,9 +16,6 @@
 		}
 	}
 	bno_mostly_black_portrait_modifier = {
-		trigger = {
-			NOT = { has_character_flag = bno_originally_african }
-		}
 		traits = {
 			bno_mostly_black
 		}
@@ -38,9 +32,6 @@
 		}
 	}
 	bno_mixed_portrait_modifier = {
-		trigger = {
-			NOT = { has_character_flag = bno_originally_african }
-		}
 		traits = {
 			bno_mixed
 		}
@@ -57,9 +48,6 @@
 		}
 	}
 	bno_barely_mixed_portrait_modifier = {
-		trigger = {
-			NOT = { has_character_flag = bno_originally_african }
-		}
 		traits = {
 			bno_barely_mixed
 		}
@@ -80,7 +68,7 @@
 bno_white_girl = {
 	mindless_slut = {
 		traits = {
-			bno_mindless_bbc_slut
+			bno_whitegirl_5
 		}
 		dna_modifiers = {
 			human = {
@@ -108,8 +96,8 @@ bno_white_girl = {
 	}
 	queen_of_spades = {
 		traits = {
-			bno_qos
-			bno_mindless_bbc_slut
+			bno_whitegirl_4
+			bno_whitegirl_5
 		}
 		trigger = {
 			is_body_modification_ok = yes

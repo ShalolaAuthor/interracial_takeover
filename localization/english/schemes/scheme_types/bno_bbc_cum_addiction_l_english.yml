@@ -9,11 +9,11 @@ bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNo
 bno_bbc_cum_addiction.invalidated.title: "Slave Lost"
 bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] is dead, her lips silenced before your cum could fully claim her. Another will kneel soon enough—[bno_bnwo|E] does not end with one broken slut."
 
-bno_bbc_cum_addiction.curious: "She has [GetTrait('bno_curious').GetName(GetNullCharacter)] and is tempted to taste."  
-bno_bbc_cum_addiction.blacked: "She has been [GetTrait('bno_blacked').GetName(GetNullCharacter)] and is aching for more."  
-bno_bbc_cum_addiction.snowbunny: "She has become a [GetTrait('bno_snowbunny').GetName(GetNullCharacter)] and is craving every Bull."  
-bno_bbc_cum_addiction.qos: "She has risen as [GetTrait('bno_qos').GetName(GetNullCharacter)] and is kneeling proudly."  
-bno_bbc_cum_addiction.mindless: "She has sunk into [GetTrait('bno_mindless_bbc_slut').GetName(GetNullCharacter)] and is unable to resist."  
+bno_bbc_cum_addiction.curious: "She has [GetTrait('bno_whitegirl_1').GetName(GetNullCharacter)] and is tempted to taste."  
+bno_bbc_cum_addiction.blacked: "She has been [GetTrait('bno_whitegirl_2').GetName(GetNullCharacter)] and is aching for more."  
+bno_bbc_cum_addiction.snowbunny: "She has become a [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] and is craving every Bull."  
+bno_bbc_cum_addiction.qos: "She has risen as [GetTrait('bno_whitegirl_4').GetName(GetNullCharacter)] and is kneeling proudly."  
+bno_bbc_cum_addiction.mindless: "She has sunk into [GetTrait('bno_whitegirl_5').GetName(GetNullCharacter)] and is unable to resist."  
 
 bno_bbc_cum_addiction.beauty_good_1: "You are [GetTrait('beauty_good_1').GetName(GetNullCharacter)] and pleasing to the eye."  
 bno_bbc_cum_addiction.beauty_good_2: "You are [GetTrait('beauty_good_2').GetName(GetNullCharacter)] and strikingly handsome."  

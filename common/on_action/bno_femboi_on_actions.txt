@@ -1,0 +1,63 @@
+﻿### Here you will find on_actions for triggering milestone femboi events
+
+bno_femboi_1_milestone = {
+	events = {
+		bno_femboi.1111
+	}
+}
+
+bno_femboi_2_milestone = {
+	events = {
+		bno_femboi.2222
+	}
+}
+
+bno_femboi_3_milestone = {
+
+}
+
+bno_femboi_4_milestone = {
+	effect = {
+		add_trait = femboi
+	}
+}
+
+bno_femboi_pulse = {
+    trigger = {
+		NOT = { has_character_flag = bno_recently_get_femboi_events }
+	}
+	effect = {
+		add_character_flag = bno_recently_get_femboi_events
+	}
+	random_events = {
+		chance_to_happen = 100
+		chance_of_no_event = {
+			value = 0
+			if = {
+				limit = {
+					is_ai = yes
+				}
+				add = bno_ai_events_chance
+			}
+		}
+		#0XP
+		1 = bno_femboi.0001
+		#1-25XP
+		1 = bno_femboi.0002
+		1 = bno_femboi.0003
+		1 = bno_femboi.0004
+		1 = bno_femboi.0005
+		1 = bno_femboi.0006
+		#25-50XP
+		1 = bno_femboi.0007
+		1 = bno_femboi.0008
+		1 = bno_femboi.0009
+		1 = bno_femboi.0010
+		1 = bno_femboi.0011
+		#50-75XP
+		1 = bno_femboi.0012
+		1 = bno_femboi.0013
+		1 = bno_femboi.0014
+		#75-100XP
+	}
+}

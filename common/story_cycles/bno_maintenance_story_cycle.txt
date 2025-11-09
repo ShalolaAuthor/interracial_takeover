@@ -85,7 +85,7 @@
                         set_culture = liege.culture
                     }
                     else = {
-                        set_culture = culture:bnoc
+                        bno_set_culture_to_african_effect = yes
                     }
                 }
             }
@@ -133,7 +133,7 @@
             }
             effect = {
                 story_owner = {
-                    set_character_faith_with_conversion = liege.faith
+                    set_character_faith = liege.faith
                 }
             }
         }
@@ -169,14 +169,7 @@
             }
             effect = {
                 story_owner = {
-                    switch = {
-		            	trigger = has_trait
-		            	bno_curious = { remove_trait = bno_curious }
-		            	bno_blacked = { remove_trait = bno_blacked }
-		            	bno_snowbunny = { remove_trait = bno_snowbunny }
-		            	bno_qos = { remove_trait = bno_qos }
-		            	bno_mindless_bbc_slut = { remove_trait = bno_mindless_bbc_slut }
-		            }
+                    remove_whitegirl_trait_effect = yes
                 }
             }
         }
@@ -287,6 +280,7 @@
                 }
             }
         }
+		#TODO move this to its own story cycle add event for femboi that wear cage, or recurring event to escape from the cage
         #make dick smaller if wearing cage
         triggered_effect = {
             trigger = {
@@ -366,6 +360,7 @@
                         equip_artifact_to_owner = yes
                     }
                     add_character_modifier = bno_withering_manhood
+					become_smaller_dick_effect = yes
                 }
             }
         }
@@ -384,6 +379,11 @@
 			        			bno_is_valid_target_for_tincture_of_genesis = yes
 			        		}
 			        	}
+						liege ?= {
+							any_courtier = {
+								bno_is_valid_target_for_tincture_of_genesis = yes
+							}
+						}
 			        	any_spouse = {
 			        		bno_is_valid_target_for_tincture_of_genesis = yes
 			        	}
@@ -412,6 +412,12 @@
 		            		}
 		            		add_to_list = bno_tincture_of_genesis_target
 		            	}
+						every_courtier = {
+							limit = {
+		            			bno_is_valid_target_for_tincture_of_genesis = yes
+		            		}
+							add_to_list  = bno_tincture_of_genesis_target
+						}
 		            }
 		            every_spouse = {
 		            	limit = {
@@ -470,6 +476,103 @@
                 }
             }
         }
+		#use elixir of the black womb artifact
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					has_elixir_of_the_black_womb_artifact = yes
+					OR = {
+						bno_is_valid_target_for_elixir_of_the_black_womb = yes
+						any_courtier = {
+							bno_is_valid_target_for_elixir_of_the_black_womb = yes
+						}
+						liege ?= {
+							any_vassal_or_below = {
+								bno_is_valid_target_for_elixir_of_the_black_womb = yes
+							}
+						}
+						liege ?= {
+							any_courtier = {
+								bno_is_valid_target_for_elixir_of_the_black_womb = yes
+							}
+						}
+						any_spouse = {
+							bno_is_valid_target_for_elixir_of_the_black_womb = yes
+						}
+					}
+				}
+			}
+			effect = {
+				story_owner = {
+					save_scope_as = actor
+					if = {
+		            	limit = {
+		            		bno_is_valid_target_for_elixir_of_the_black_womb = yes
+		            	}
+		            	add_to_list = bno_elixir_of_the_black_womb_target
+		            }
+		            every_courtier = {
+		            	limit = {
+		            		bno_is_valid_target_for_elixir_of_the_black_womb = yes
+		            	}
+		            	add_to_list  = bno_elixir_of_the_black_womb_target
+		            }
+		            liege ?= {
+		            	every_vassal_or_below = {
+		            		limit = {
+		            			bno_is_valid_target_for_elixir_of_the_black_womb = yes
+		            		}
+		            		add_to_list = bno_elixir_of_the_black_womb_target
+		            	}
+						every_courtier = {
+							limit = {
+		            			bno_is_valid_target_for_elixir_of_the_black_womb = yes
+		            		}
+							add_to_list  = bno_elixir_of_the_black_womb_target
+						}
+		            }
+		            every_spouse = {
+		            	limit = {
+		            		bno_is_valid_target_for_elixir_of_the_black_womb = yes
+		            	}
+		            	add_to_list = bno_elixir_of_the_black_womb_target
+		            }
+					if = {
+		            	limit = {
+		            		list_size = {
+		            			name = bno_elixir_of_the_black_womb_target
+		            			value > 0
+		            		}
+		            	}
+		            	random_in_list = {
+		            		list = bno_elixir_of_the_black_womb_target
+		            		limit = {
+		            			this = scope:actor
+		            		}
+		            		save_scope_as = recipient
+		            	}
+		            	if = {
+		            		limit = {
+		            			NOT = { exists = scope:recipient }
+		            		}
+		            		random_in_list = {
+		            			list = bno_elixir_of_the_black_womb_target
+		            			save_scope_as = recipient
+		            		}
+		            	}
+		            	if = {
+		            		limit = { exists = scope:recipient }
+		            		scope:actor = {
+		            			trigger_event = bno_apply_elixir.0002
+		            		}
+		            		scope:recipient = {
+		            			add_character_flag = bno_apply_elixir_interaction.applied.bno_elixir_of_the_black_womb
+		            		}
+		            	}
+		            }
+				}
+			}
+		}
         #cum addiction scheme
         triggered_effect = {
             trigger = {
@@ -722,13 +825,13 @@
 			        OR = {
                         any_courtier = {
 			            	NOT = { is_spouse_of = scope:actor }
-			            	bno_adult_bbc_actor_trigger = yes
+			            	valid_bbc_for_sneak_bbc_trigger = yes
 			            	count > 2
 			            }
                         liege ?= {
                             any_courtier = {
 			                	NOT = { is_spouse_of = scope:actor }
-			                	bno_adult_bbc_actor_trigger = yes
+			                	valid_bbc_for_sneak_bbc_trigger = yes
 			                	count > 2
 			                }
                         }
@@ -762,7 +865,7 @@
                     random_courtier = {
 		            	limit = {
 		            		NOT = { is_spouse_of = scope:actor }
-		            		bno_adult_bbc_actor_trigger = yes
+		            		valid_bbc_for_sneak_bbc_trigger = yes
 		            	}
 		            	save_scope_as = secondary_actor
 		            }
@@ -774,7 +877,7 @@
                             random_courtier = {
 		                    	limit = {
 		                    		NOT = { is_spouse_of = scope:actor }
-		                    		bno_adult_bbc_actor_trigger = yes
+		                    		valid_bbc_for_sneak_bbc_trigger = yes
 		                    	}
 		                    	save_scope_as = secondary_actor
 		                    }
@@ -982,6 +1085,21 @@
                 }
             }
         }
+		#femboi maintenance
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					has_trait = femboi
+					NOT = { has_trait = bno_femboi }
+				}
+			}
+			effect = {
+				story_owner = {
+					remove_trait = femboi
+					add_trait = bno_femboi
+				}
+			}
+		}
     }
 	#events
 	effect_group = {
@@ -989,6 +1107,14 @@
 		trigger = {
 			story_owner = {
 				is_adult = yes
+				trigger_if = {
+					limit = { has_game_rule = bno_global_bbc_activities_no }
+					OR = {
+						liege ?= { is_ai = no }
+						top_liege ?= { is_ai = no }
+						is_ai = no
+					}
+				}
 			}
 		}
 		random_valid = {
@@ -1036,17 +1162,31 @@
 					}
 				}
 			}
-		}
-		triggered_effect = {
-			trigger = {
-				story_owner = {
-					is_playable_character = no
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_valid_for_femboi_events = yes
+					}
 				}
-			}
-			effect = {
-				story_owner = {
-					trigger_event = {
-						on_action =  bno_non_playable_pulse
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action = bno_events_femboi_pulse
+						}
+					}
+				}
+			}			
+			triggered_effect = {
+				trigger = {
+					story_owner = {
+						is_playable_character = no
+					}
+				}
+				effect = {
+					story_owner = {
+						trigger_event = {
+							on_action =  bno_non_playable_pulse
+						}
 					}
 				}
 			}

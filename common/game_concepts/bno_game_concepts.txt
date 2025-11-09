@@ -17,7 +17,7 @@ bno_black = {
     texture = "gfx/interface/icons/traits/bno_full_black.dds"
 }
 bno_bnwo = {
-    texture = "gfx/interface/icons/traits/bno_qos.dds"
+    texture = "gfx/interface/icons/traits/bno_whitegirl_4.dds"
 }
 bnwo_armies = {
     texture = "gfx/interface/icons/regimenttypes/bno_cock_maidens.dds"

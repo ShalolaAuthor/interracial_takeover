@@ -192,25 +192,25 @@ bno_decision_modifier = {
     modifier = {
         add = 25
         trigger = {
-            has_trait = bno_cuckish
+            has_trait = bno_whiteboi_1
         }
     } #+25 he's wife is whispering in his ear
     modifier = {
         add = 50
         trigger = {
-            has_trait = bno_cuck
+            has_trait = bno_whiteboi_2
         }
     } #+50 he knows what he's into
     modifier = {
         add = 75
         trigger = {
-            has_trait = bno_beta
+            has_trait = bno_whiteboi_3
         }
     } #+75 he knows what he's into
     modifier = {
         add = 100
         trigger = {
-            has_trait = bno_jos
+            has_trait = bno_whiteboi_4
         }
     } #+100 he knows what he's into
 	modifier = {
@@ -367,11 +367,11 @@ bno_bbc_cum_addiction_success_modifier = {
 			scope:target = {
 				switch = {
 					trigger = has_trait
-					bno_curious = { add = 5 }
-					bno_blacked = { add = 15 }
-					bno_snowbunny = { add = 30 }
-					bno_qos = { add = 50 }
-					bno_mindless_bbc_slut = { add = 75 }
+					bno_whitegirl_1 = { add = 5 }
+					bno_whitegirl_2 = { add = 15 }
+					bno_whitegirl_3 = { add = 30 }
+					bno_whitegirl_4 = { add = 50 }
+					bno_whitegirl_5 = { add = 75 }
 				}
 			}
 		}

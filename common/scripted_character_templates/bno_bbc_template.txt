@@ -3,7 +3,7 @@
     gender = male
     dynasty = generate
     faith = faith:bbcs
-	culture = culture:bnoc
+	culture = culture:akan
     #Traits
     random_traits = yes
     #Skills
@@ -16,6 +16,7 @@
 		max_template_decent_skill
 	}
     after_creation = {
+		
 		set_sexuality = heterosexual
 		add_gold = minor_gold_value
 		bno_add_bbc_trait_effect = yes
