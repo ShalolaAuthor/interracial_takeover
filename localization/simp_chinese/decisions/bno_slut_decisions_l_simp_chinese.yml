@@ -10,7 +10,7 @@ bno_becoming_bbc_slut_tooltip: "我好想被当成一个可以被随便使用的
 bno_stop_becoming_bbc_slut: "一个有主的媚黑荡妇"
 bno_stop_becoming_bbc_slut_desc: "在接受成为媚黑荡妇这么多年后. 我终于找到了最契合的伴侣, 一位强壮的公牛, 每天满足我对大黑屌的无尽渴望. 他用别人无法做到的方式满足我, 确保我的小穴总是被他浓稠的精液填满到滴滴答答地流淌。"
 bno_stop_becoming_bbc_slut_confirm: "我就是为此而生的 -"
-bno_stop_becoming_bbc_slut_tooltip: " 成为最强雄性的所有物"
+bno_stop_becoming_bbc_slut_tooltip: "成为最强雄性的所有物"
 bno_stop_becoming_bbc_slut.bbc_spouse: "你的其中一个配偶有[GetTrait('bno_bbc').GetName( GetNullCharacter )]"
 
 bno_invite_slut_decision: "邀请好奇的贵族前来你的宫廷"
@@ -59,7 +59,7 @@ bno_cure_disease.title.male: "净化之吻"
 bno_cure_disease.title.female: "至高之种的祝福"
 bno_cure_disease.desc.male: "宫廷成员和神职人员齐聚一堂，每位病重的领主都跪在选定的女祭司面前。随后，他们被指示张开嘴巴，而女祭司则降低她赤裸的臀部，调整姿势使他的脸紧紧贴在她神圣甘露的源头。他必须无拘无束地从她的阴户中吮吸，直到女祭司示意仪式结束。"
 bno_cure_disease.desc.female: "宫廷成员和神职人员齐聚一堂，每位患病的女士都会跪在选定的祭司面前。祭司会指示她张开嘴巴，随后将他勃起的阴茎缓缓插入她张开的双唇。他们随后会深深地插入她的口腔，鼓励她自由地来回移动头部并吞咽。这一仪式会持续进行，直到神父直接将精液射入她的口腔，这标志着治愈的成功。"
-bno_cure_disease.confirm.male: "来吧…"
+bno_cure_disease.confirm.male: "来吧"
 bno_cure_disease.confirm.female: "我等不及了…"
 bno_cure_disease.tooltip.male: "我很好奇你的小穴尝起来怎么样…"
 bno_cure_disease.tooltip.female: "用你的精液祝福我吧…"
@@ -135,8 +135,8 @@ bno_cure_diseases.tooltip.1: "你将通过你的[GetCourtPositionType('bno_bbc_p
 bno_cure_diseases.tooltip.2: "你将拜访[GetBuilding('bbc_church_02').GetName]"
 
 bno_primal_insight_decision.title.female: "在皇后的注视下：原始洞悉仪式"
-bno_primal_insight_decision.desc.female: "空气中弥漫着期待的火花，茉莉精油与情欲的气息交织得浓稠。在“原始洞悉”仪式前的数周里，我的宫廷总会涌入大批渴求的求偶者，他们深邃的双眸贪婪地渴望着我的恩宠——每个男人都渴望被选中侍奉我，渴望自己的精髓融入我的皇家血脉。他们如乌木幽灵般尾随我穿行于华美厅堂，献上低语承诺与奢华馈赠时，双手总在锦缎上流连过久。每一次触碰都令我脊背战栗，为年度仪式不可避免的高潮而酣畅战栗——那将是我被黑阳祭司强劲精液占有、占有、重塑的时刻。"
-bno_primal_insight_decision.confirm.female: "如此热切的奉献让我感到暖心。"
+bno_primal_insight_decision.desc.female: "空气里噼啪作响，满是茉莉油和发骚的味。每当原始启示将至，我的宫廷里便挤满渴望的求欢者——那些乌黑眼睛的男人，一个个都眼巴巴想尝我的宠幸，想让自己的精液融进我的皇家血脉。他们在殿中尾随我，像一群阴影般的黑色幽灵，手指在我丝衣上多停了一瞬，嘴里吐着甜得发腻的承诺，奉上奢淫的礼物。每一次触碰都让我脊背发颤，体内的骚火狂跳，为那一年一度的高潮时刻而颤抖——那一刻，我会被夺取、被占有，被那黑屌祭司的浓精重新塑造成更高、更欲、更圣的存在。"
+bno_primal_insight_decision.confirm.female: "这份炽烈的膜拜真叫我心暖骚湿。"
 bno_primal_insight_decision.tooltip.female: "你将获得[GetModifier('bno_primal_insight').GetNameWithTooltip]"
 
 bno_primal_insight_decision.effect_tooltip: "你将开始一个仪式以获得[GetModifier('bno_primal_insight').GetNameWithTooltip]"
@@ -199,7 +199,7 @@ bno_build_bbc_trader_decision.message.title.female: "商队到达了。"
 bno_build_bbc_trader_decision.message.desc.female: "黑曜石商队隆隆驶入驻地，丝绸垂挂的马车载满种子。公牛们下车占领领地，娼妓们聚拢窃窃私语着药剂与牢笼，空气中弥漫着香薰、麝香与呻吟。你已感受到变化：商队降临，命运随之而来。"
 
 bno_purchase_goods_decision.title.male: "要求商队货物"
-bno_purchase_goods_decision.desc.male: "T黑曜石商队向你敞开货仓——药剂、魔药、锁笼、烙铁。身为公牛，你以黄金支付，绝不以血肉。所耗之金乃统御之印记，以此夺取工具，加冕荡妇，将肉虫更深地驯服于服从。"
+bno_purchase_goods_decision.desc.male: "黑曜石商队向你敞开货仓——药剂、魔药、锁笼、烙铁。身为公牛，你以黄金支付，绝不以血肉。所耗之金乃统御之印记，以此夺取工具，加冕荡妇，将肉虫更深地驯服于服从。"
 bno_purchase_goods_decision.tooltip.male: "花费金钱获取神药、魔药以及表示所有关系的工具。"
 bno_purchase_goods_decision.confirm.male: "放下你的钱拿走你的东西。"
 
