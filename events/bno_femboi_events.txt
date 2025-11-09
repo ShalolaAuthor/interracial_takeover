@@ -2072,6 +2072,7 @@ bno_femboi.0023 = {
     }
     option = {
         name = bno_femboi.0023.a
+        #TODO:add some modifier
         add_trait = femboi
     }
 }
