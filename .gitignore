@@ -27,5 +27,10 @@ ck_3_translator.py
 .vscode/
 ck3_translator.py
 patches/
+<<<<<<< HEAD
 desktop.ini
 .megaignore
+=======
+.megaignore
+desktop.ini
+>>>>>>> f465ac2 (-update git ignore)
