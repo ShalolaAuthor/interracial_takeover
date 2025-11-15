@@ -375,7 +375,7 @@ bno_purchase_goods_decision = {
 		bno_actor_valid_for_purchasing_goods_at_caravan = yes
 	}
 	cooldown = {
-		days = 2
+		months = 1
 	}
 	effect = {
 		trigger_event = bno_caravan.0001
