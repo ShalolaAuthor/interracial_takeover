@@ -11,7 +11,12 @@
                 title = bno_genesis_transformation.transition.0to1.title
                 desc = bno_genesis_transformation.transition.0to1.desc
                 right_icon = scope:bno_genesis_transformation_actor
-                add_trait = bno_genesis_transformation
+                switch = {
+                    trigger = has_trait
+                    bno_full_black = {
+                    }
+                    fallback = { add_trait = bno_genesis_transformation }
+                }
             }
         }
         add_trait_xp = {

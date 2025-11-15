@@ -974,7 +974,6 @@ bno_mostly_black = {
 	
 	opposites = {
 		bno_pure_white
-		bno_genesis_transformation
 	}
 	
 	shown_in_ruler_designer = no
@@ -1001,7 +1000,6 @@ bno_mixed ={
 	
 	opposites = {
 		bno_pure_white
-		bno_genesis_transformation
 	}
 	shown_in_ruler_designer = no
 
@@ -1027,7 +1025,6 @@ bno_barely_mixed = {
 	
 	opposites = {
 		bno_pure_white
-		bno_genesis_transformation
 	}
 	shown_in_ruler_designer = no
 
