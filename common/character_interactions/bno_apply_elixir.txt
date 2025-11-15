@@ -101,9 +101,18 @@
     common_interaction = yes
 
     is_shown = {
-        OR = {
-            scope:bno_apply_elixir_interaction_bno_tincture_of_genesis = yes
-            scope:bno_apply_elixir_interaction_bno_elixir_of_the_black_womb = yes
+        scope:actor = {
+            is_adult = yes
+            any_character_artifact = {
+                OR = {
+                    has_variable = bno_tincture_of_genesis
+                    has_variable = bno_elixir_of_the_black_womb
+                }
+            }
+        }
+        scope:recipient = {
+            is_male = yes
+            is_adult = yes
         }
     }
 
