@@ -463,22 +463,26 @@ bno_whitegirl_1 = {
 	shown_in_ruler_designer = yes
 	
 	#Special Opinion
-	general_opinion = -20
-	opposite_opinion = 100
-	same_opinion = 40
+	general_opinion = -10
+	opposite_opinion = 20
+	same_opinion = 10
 
 	#Trait Relation
 	compatibility = {
 	    bno_bbc = 50
 	    bno_bull = 75
-	    bno_whitegirl_2 = 25
-	    bno_whitegirl_3 = 10
+	    bno_whitegirl_1 = 50
+	    bno_whitegirl_2 = 40
+	    bno_whitegirl_3 = 30
+	    bno_whitegirl_4 = 20
+	    bno_whitegirl_5 = 10
 
 		bno_pure_white = 50
 
 	    bno_whiteboi_1 = -10
 	    bno_whiteboi_2 = -15
 	    bno_whiteboi_3 = -20
+	    bno_whiteboi_4 = -40
 	    bno_castrated = -25
 	}
 
@@ -550,23 +554,27 @@ bno_whitegirl_2 = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	general_opinion = -40
-	same_opinion = 80
-	opposite_opinion = 125
+	general_opinion = -20
+	same_opinion = 20
+	opposite_opinion = 40
 
 	#Trait Relation
 	compatibility = {
 	    bno_bbc = 100
 	    bno_bull = 150
-	    bno_whitegirl_1 = 25
-	    bno_whitegirl_3 = 50
-	    bno_whitegirl_4 = 75
+
+	    bno_whitegirl_1 = 150
+	    bno_whitegirl_2 = 200
+	    bno_whitegirl_3 = 150
+	    bno_whitegirl_4 = 100
+	    bno_whitegirl_5 = 50
 
 		bno_pure_white = 100
 
 	    bno_whiteboi_1 = -25
 	    bno_whiteboi_2 = -50
-	    bno_whiteboi_3 = -50
+	    bno_whiteboi_3 = -100
+	    bno_whiteboi_4 = -150
 	}
 	opposites = {
 		bno_bbc
@@ -639,16 +647,19 @@ bno_whitegirl_3 = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	general_opinion = -60
-	same_opinion = 120
-	opposite_opinion = 150
+	general_opinion = -30
+	same_opinion = 30
+	opposite_opinion = 60
 
 	#Trait Relation
 	compatibility = {
 	    bno_bbc = 200
 	    bno_bull = 300
-	    bno_whitegirl_2 = 50
-	    bno_whitegirl_4 = 100
+		
+	    bno_whitegirl_1 = 150
+	    bno_whitegirl_2 = 200
+	    bno_whitegirl_3 = 250
+	    bno_whitegirl_4 = 200
 	    bno_whitegirl_5 = 150
 
 		bno_pure_white = 150
@@ -656,6 +667,7 @@ bno_whitegirl_3 = {
 	    bno_whiteboi_1 = -50
 	    bno_whiteboi_2 = -75
 	    bno_whiteboi_3 = -100
+	    bno_whiteboi_4 = -200
 	}
 
 	opposites = {
@@ -739,22 +751,27 @@ bno_whitegirl_4 = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	general_opinion = -80
-	same_opinion = 160
-	opposite_opinion = 175
+	general_opinion = -40
+	same_opinion = 40
+	opposite_opinion = 80
 
 	#Trait Relation
 	compatibility = {
 	    bno_bbc = 400
 	    bno_bull = 600
-	    bno_whitegirl_3 = 100
-	    bno_whitegirl_5 = 200
+
+	    bno_whitegirl_1 = 200
+	    bno_whitegirl_2 = 300
+	    bno_whitegirl_3 = 400
+	    bno_whitegirl_4 = 500
+	    bno_whitegirl_5 = 400
 
 		bno_pure_white = 200
 
 	    bno_whiteboi_1 = -75
 	    bno_whiteboi_2 = -100
 	    bno_whiteboi_3 = -125
+	    bno_whiteboi_4 = -250
 	}
 
 	opposites = {
@@ -836,21 +853,27 @@ bno_whitegirl_5 = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	general_opinion = -100
-	same_opinion = 200
-	opposite_opinion = 200
+	general_opinion = -50
+	same_opinion = 50
+	opposite_opinion = 100
 
 	#Trait Relation
 	compatibility = {
-	    bno_bbc = 800
+	    bno_bbc = 1000
 	    bno_bull = 1200
-	    bno_whitegirl_4 = 200
+		
+	    bno_whitegirl_1 = 100
+	    bno_whitegirl_2 = 200
+	    bno_whitegirl_3 = 300
+	    bno_whitegirl_4 = 400
+	    bno_whitegirl_5 = 500
 
 		bno_pure_white = 300
 
 	    bno_whiteboi_1 = -100
 	    bno_whiteboi_2 = -150
 	    bno_whiteboi_3 = -200
+	    bno_whiteboi_4 = -400
 	}
 
 	opposites = {
@@ -1611,12 +1634,11 @@ bno_pussy_mileage_1 = {
 	opposites = {
 		bno_bbc
 	}
-	attraction_opinion = 50
-	spouse_opinion = 50
+	general_opinion = 100
 	track = {
-		1 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
-		30 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
-		60 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
+		1 = { general_opinion = -15 fertility = -0.1 }
+		30 = { general_opinion = -15 fertility = -0.1 }
+		60 = { general_opinion = -15 fertility = -0.1 }
 	}
 	name = {
 		first_valid = {
@@ -1647,16 +1669,15 @@ bno_pussy_mileage_2 = {
 	opposites = {
 		bno_bbc
 	}
+	general_opinion = 55
 	opposite_opinion = 40
-	attraction_opinion = 35
-	spouse_opinion = 35
 	fertility = -0.3
 	compatibility = {
 	    bno_bbc = 400
 	}
 	track = {
-		30 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
-		60 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
+		30 = { general_opinion = -15 fertility = -0.1 }
+		60 = { general_opinion = -15 fertility = -0.1 }
 	}
 	name = {
 		first_valid = {
@@ -1686,15 +1707,14 @@ bno_pussy_mileage_3 = {
 		bno_bbc
 	}
 	opposite_opinion = 60
-	attraction_opinion = 25
-	spouse_opinion = 25
+	general_opinion = 25
 	fertility = -0.5
 	compatibility = {
 	    bno_bbc = 600
 	}
 	track = {
-		30 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
-		60 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
+		30 = { general_opinion = -15 fertility = -0.1 }
+		60 = { general_opinion = -15 fertility = -0.1 }
 	}
 	name = {
 		first_valid = {
@@ -1724,15 +1744,14 @@ bno_pussy_mileage_4 = {
 		bno_bbc
 	}
 	opposite_opinion = 80
-	attraction_opinion = 15
-	spouse_opinion = 15
+	general_opinion = -5
 	fertility = -0.7
 	compatibility = {
 	    bno_bbc = 800
 	}
 	track = {
-		30 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
-		60 = { attraction_opinion = -5 spouse_opinion = -5 fertility = -0.1 }
+		30 = { general_opinion = -15 fertility = -0.1 }
+		60 = { general_opinion = -15 fertility = -0.1 }
 	}
 	name = {
 		first_valid = {
@@ -1762,15 +1781,14 @@ bno_pussy_mileage_5 = {
 		bno_bbc
 	}
 	opposite_opinion = 100
-	attraction_opinion = 5
-	spouse_opinion = 5
+	general_opinion = -35
 	fertility = -0.9
 	compatibility = {
 	    bno_bbc = 1000
 	}
 	track = {
-		30 = { attraction_opinion = -30 spouse_opinion = -30 fertility = -0.05 general_opinion = -25 courtier_and_guest_opinion = -25 }
-		60 = { attraction_opinion = -25 spouse_opinion = -25 fertility = -0.05 general_opinion = -25 courtier_and_guest_opinion = -25 }
+		30 = { fertility = -0.05 general_opinion = -10 courtier_and_guest_opinion = -25 }
+		60 = { fertility = -0.05 general_opinion = -5 courtier_and_guest_opinion = -25 }
 	}
 	name = {
 		first_valid = {
@@ -1803,8 +1821,6 @@ bno_pussy_mileage_6 = {
 	}
 	opposite_opinion = 200
 	shown_in_ruler_designer = no
-	attraction_opinion = -50
-	spouse_opinion = -50
 	general_opinion = -50
 	courtier_and_guest_opinion = -50
 	fertility = -1
