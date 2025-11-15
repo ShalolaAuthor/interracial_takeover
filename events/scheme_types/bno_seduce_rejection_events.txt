@@ -679,7 +679,7 @@ bno_seduce_rejection.3002 = {
     immediate = {
         if = {
             limit = {
-                scope:scheme = {
+                scope:scheme ?= {
                     has_variable = bno_milestone_1
                 }
             }

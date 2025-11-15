@@ -12,6 +12,16 @@
 
 carn_on_sex_v2 = {
 	on_actions = {
+		bno_on_sex
+	}
+}
+
+bno_on_sex = {
+	trigger = {
+		scope:carn_sex_partner ?= { is_alive = yes }
+		scope:carn_sex_player ?= { is_alive = yes }
+	}
+	on_actions = {
 		bno_slut_on_sex
 		bno_increase_pussy_wear
 		bno_cuck_on_sex
@@ -21,16 +31,11 @@ carn_on_sex_v2 = {
 		bno_bbc_immunity
 		bno_curing_cum
 		bno_femboi_on_sex
+		bno_court_sex
 	}
 }
 
 bno_court_sex = {
-	events = {
-		bno_court.0001
-	}
-}
-
-bno_on_sex = {
 	trigger = {
 		has_game_rule = bno_mod_status_on
 		trigger_if = {
@@ -45,8 +50,8 @@ bno_on_sex = {
 			scope:carn_sex_partner = { is_a_girl = yes }
 		}
 	}
-	on_actions = {
-		bno_court_sex
+	events = {
+		bno_court.0001
 	}
 }
 

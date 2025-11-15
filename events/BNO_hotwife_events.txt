@@ -71,7 +71,6 @@ bno_hotwife.0001 = {
                     intellect_bad_3 = { add = -100 }
                 }
             }
-            position = 1
             save_scope_as = wife
         }
     }
@@ -494,6 +493,9 @@ bno_hotwife.1002 = {
 
     trigger = {
         is_alive = yes
+        any_character_artifact = {
+            has_variable = bno_blacked_pleasures_unveiled
+        }
         scope:wife ?= {
             is_alive = yes
         }

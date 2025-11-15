@@ -175,7 +175,7 @@ bno_legacy_birth = {
 				if = {
 					limit = {
 						scope:child.dynasty = {
-							exists = var:bno_embrace_african_2_bno_curious
+							exists = var:bno_embrace_african_2_bno_whitegirl_1
 						}
 						is_a_girl = yes
 						NOT = {

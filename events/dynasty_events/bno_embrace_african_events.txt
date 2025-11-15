@@ -185,7 +185,7 @@ bno_embrace_african_1.0002 = {
             cp:councillor_marshal.martial < scope:bbc.martial
         }
         name = bno_embrace_african_1.0002.a
-        fire_councillor = cp:councillor_marshal
+        fire_councillor_skip_effects = cp:councillor_marshal
         add_courtier = scope:bbc
         assign_councillor_type = {
             type = councillor_marshal

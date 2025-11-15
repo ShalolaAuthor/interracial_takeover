@@ -1768,7 +1768,7 @@ bno_femboi.0016 = {
         bno_increase_femboiness = {
             XP = 2
         }
-        add_character_modifier = bno_cuckold_parade
+        add_character_modifier = bno_fufu_clip
     }
 }
 ######################
