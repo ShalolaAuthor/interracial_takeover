@@ -30,7 +30,17 @@
 }
 
 bno_conversion_effect = {
-	set_character_faith = $FAITH$
+	faith = {
+		religious_head ?= {
+			save_scope_as = bno_religious_head
+		}
+	}
+	if = {
+		limit = {
+			NOT = { this = scope:bno_religious_head }
+		}
+		set_character_faith = $FAITH$
+	}
 }
 
 bno_add_prowess_per_sex = {

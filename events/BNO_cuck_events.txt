@@ -738,6 +738,12 @@ bno_cuck.0006 = { #Just cuck bonds with bbc, gives court position
 			}
 			save_scope_as = target1
 		}
+		if = {
+			limit = {
+				NOT = { is_liege_or_above_of = scope:target1 }
+			}
+			add_courtier = scope:target1
+		}
 		add_opinion = {
 			modifier = friendly_interaction
 			target = scope:target1
