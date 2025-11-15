@@ -30,7 +30,7 @@ bbc_evangelist = {
 bno_bbc = {
     texture = "gfx/interface/icons/traits/bno_bbc.dds"
     parent = physical_trait
-    alias = {bno_bbcs}
+    alias = {bno_bbcs BBC}
 }
 
 bno_religion = {
@@ -75,4 +75,14 @@ bno_tincture_of_genesis = {
 bno_elixir_of_the_black_womb = {
     texture = "gfx/interface/icons/artifact/bno_elixir_of_the_black_womb.dds"
     parent = artifact
+}
+
+bno_snowbunny = {
+    texture = "gfx/interface/icons/traits/bno_whitegirl_3.dds"
+    alias = {Snowbunny}
+}
+
+bno_cuck = {
+    texture = "gfx/interface/icons/traits/bno_whiteboi_2.dds"
+    alias = {Cuck}
 }

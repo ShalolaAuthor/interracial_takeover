@@ -507,8 +507,9 @@ bno_realize_bbc_potential = {
 			has_trait = bno_full_black
 			has_trait = bno_mostly_black
 			has_trait = bno_mixed
-			has_trait = bno_barely_mixed # even just slightly mixed PCs should have the chance to switch into BBC playstyle, I suppose.
-		} 
+			has_trait = bno_barely_mixed
+		}
+		is_femboi = no
 		is_bbc = no
 	}
 	cooldown = {

@@ -4,10 +4,10 @@
 
 bno_breeding_outcomes = { 
     display = feed 
-    group = character
+    group = bno
 }
 
 bno_blacked_events = { 
     display = feed 
-    group = character
+    group = bno
 }

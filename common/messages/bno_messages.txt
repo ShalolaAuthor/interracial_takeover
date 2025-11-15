@@ -1,14 +1,4 @@
-﻿### Descriptions
-# desc = event_message_effect
-# desc = event_message_text
-# desc = event_message_text_and_effect
-# desc = event_message_effect_and_text
-
-######################
-### BNO
-######################
-
-bno_white_breeder = {
+﻿bno_white_breeder = {
 	icon = "bnobbc"
 	title = event_message_title
 	desc = event_message_text_and_effect
