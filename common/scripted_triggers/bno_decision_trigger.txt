@@ -53,3 +53,28 @@ has_bbc_caravan = {
 		}
 	}
 }
+
+is_shown_for_bno_becoming_pure_white_decision = {
+	OR = { 
+		is_ai = no 
+		has_game_rule = bno_decision_npc_yes 
+	}
+	is_adult = yes
+	is_slut = yes
+	is_ruler = yes
+	OR = {
+		has_trait = bno_mostly_black
+		has_trait = bno_mixed
+		has_trait = bno_barely_mixed
+	}
+	NOT = { has_trait = bno_pure_white }
+	is_faith_bbcs = yes
+}
+
+is_valid_for_bno_becoming_pure_white_decision = {
+	any_councillor = {
+		has_council_position = councillor_court_chaplain
+		is_bbc = yes
+	}
+	NOT = { has_trait = bno_genesis_transformation }
+}

@@ -72,3 +72,25 @@ bno_stop_becoming_bbc_slut = {
 	}
 	ai_check_interval = 0
 }
+
+bno_becoming_pure_white = {
+	picture = {
+		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
+	}
+	title = bno_becoming_pure_white.title
+	desc = bno_becoming_pure_white.desc
+	selection_tooltip = bno_becoming_pure_white.tooltip
+	confirm_text = bno_becoming_pure_white.confirm
+	decision_group_type = bno_decision_group
+	is_shown = {
+		is_shown_for_bno_becoming_pure_white_decision = yes
+	}
+	is_valid = {
+		is_valid_for_bno_becoming_pure_white_decision = yes
+	}
+	effect = {
+		custom_tooltip = bno_becoming_pure_white.effect
+		trigger_event = bno_ritual_of_purification.2222
+	}
+	ai_check_interval = 0
+}

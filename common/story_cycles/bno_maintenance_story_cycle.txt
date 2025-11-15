@@ -1100,6 +1100,20 @@
 				}
 			}
 		}
+		#ritual of purification
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					is_shown_for_bno_becoming_pure_white_decision = yes
+					is_valid_for_bno_becoming_pure_white_decision = yes
+				}
+			}
+			effect = {
+				story_owner = {
+					trigger_event = bno_ritual_of_purification.2222
+				}
+			}
+		}
     }
 	#events
 	effect_group = {

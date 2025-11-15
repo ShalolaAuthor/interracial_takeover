@@ -548,3 +548,44 @@ bno_ritual_of_purification.2001 = {
         name = bno_ritual_of_purification.2001.a
     }
 }
+
+bno_ritual_of_purification.2222 = {
+    type = character_event
+    title = bno_ritual_of_purification.2222.title
+    desc = bno_ritual_of_purification.2222.desc
+    theme = love
+
+    override_background = {
+        reference = temple
+    }
+
+    left_portrait = {
+        character = root
+        animation = prayer
+        outfit_tags = { no_clothes }
+    }
+
+    immediate = {
+        random_councillor = {
+            limit = {
+                has_council_position = councillor_court_chaplain
+            }
+            save_scope_as = bbc
+        }
+        bno_have_sex_with_effects_multiple_times = {
+            COUNT = 5
+            PARTNER = scope:bbc
+        }
+        switch = {
+            trigger = has_trait
+            bno_mostly_black = { remove_trait = bno_mostly_black }
+            bno_mixed = { remove_trait = bno_mixed }
+            bno_barely_mixed = { remove_trait = bno_barely_mixed }
+        }
+        add_trait = bno_pure_white
+    }
+
+    option = {
+        name = bno_ritual_of_purification.2222.a
+    }
+}

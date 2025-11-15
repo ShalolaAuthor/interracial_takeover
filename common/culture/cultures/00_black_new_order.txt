@@ -4,8 +4,6 @@ bnoc = {
 	
 	color = bnoc
 	
-	created = 867.1.1
-	
 	ethos = ethos_bellicose
 	heritage = heritage_bnoc
 	language = language_bnoc
