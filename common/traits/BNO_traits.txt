@@ -10,6 +10,7 @@ bno_whiteboi_1 = {
 		bno_bbc
 		bno_whitegirl
 	}
+	bnonr_religion_opinion = -20
 	opposite_opinion = 10
 	same_opinion = 10
 	attraction_opinion = -10

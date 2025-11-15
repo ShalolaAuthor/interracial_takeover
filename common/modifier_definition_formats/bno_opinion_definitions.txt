@@ -1,3 +1,4 @@
 ﻿bnoc_opinion = {
     decimals = 0
 }
+bnonr_religion_opinion = { decimals = 0 }

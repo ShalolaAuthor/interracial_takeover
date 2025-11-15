@@ -92,3 +92,5 @@ convert_effect_1: "You will convert to the [bno_religion|E]"
 
 rf_bbcs: "Aphrodiasma"
 rf_bbcs_desc: "$rf_bbcs$ is a vibrant tapestry of Black-centered traditions woven from ecstatic worship, potent magic, and the unshakeable belief that white salvation lies in being filled by the power of Black seed."
+
+bnonr_religion_opinion: "$bnonr_religion_adherent$ Opinion"
