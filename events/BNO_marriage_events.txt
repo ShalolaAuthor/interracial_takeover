@@ -2,7 +2,6 @@
 
 bno_marriage.0001 = {
 	hidden = yes
-	type = character_event
 	
 	cooldown = { months = { 12 18 } }
 	
@@ -24,15 +23,10 @@ bno_marriage.0001 = {
 			TARGET = scope:target1
 			LOCATION = location
 		}
-	}
-	
-	option = {
-		ai_chance = {
-			base = 100
-		}
+		save_scope_as = bbc
 		scope:target1 ?= {
 			bno_marriage_effect = {
-				TARGET = root
+				TARGET = scope:bbc
 			}
 		}
 	}
@@ -41,36 +35,6 @@ bno_marriage.0001 = {
 #bull steals slut wife except liege's wife
 bno_marriage.0002 = {
 	hidden = yes
-	type = character_event
-	theme = realm
-	
-	override_background = {
-		reference = throne_room
-	}
-	left_portrait = {
-		character = scope:target1
-		animation = throne_room_curtsey_1
-		triggered_outfit = {
-			trigger = {
-				exists = scope:target1
-			}
-			outfit_tags = {
-				no_clothes
-			}
-		}
-	}
-	right_portrait = {
-		character = root
-		animation = personality_content
-		triggered_outfit = {
-			trigger = {
-				exists = root
-			}
-			outfit_tags = {
-				no_clothes
-			}
-		}
-	}
 	
 	cooldown = { months = { 8 12 } }
 	
@@ -83,11 +47,6 @@ bno_marriage.0002 = {
 	immediate = {
 		get_blacked_girl_married_to_a_ruler_scope = {
 			SCOPE_NAME = target1
-		}
-	}
-	option = {
-		ai_chance = {
-			base = 100
 		}
 		add_stress = -100
 		bno_have_sex_with_effects = {
@@ -103,7 +62,6 @@ bno_marriage.0002 = {
 #checks if wife is too old, sick, crippled
 bno_marriage.0003 = {
 	hidden = yes
-	type = character_event
 	
 	trigger = {
 		is_ai_blackbull = yes
@@ -119,7 +77,6 @@ bno_marriage.0003 = {
 
 bno_marriage.0004 = { #unmarried bbc looks to other realms for single woman
 	hidden = yes
-	type = character_event
 	
 	cooldown = { months = { 12 18 } }
 	
@@ -154,7 +111,6 @@ bno_marriage.0004 = { #unmarried bbc looks to other realms for single woman
 #bull steals foreign slut wife
 bno_marriage.0005 = {
 	hidden = yes
-	type = character_event
 	
 	cooldown = { months = { 8 12 } }
 	

@@ -590,34 +590,22 @@ bno_get_caravan_shop_keeper = {
         bno_create_caravan_shop_keeper = yes
     }
     else = {
-        every_in_global_list = {
-            variable = bno_bbc_trader
-            limit = {
-                is_alive = no
-            }
-            remove_list_global_variable = {
-                name = bno_bbc_trader
-                target = prev
-            }
-        }
         if = {
             limit = {
-                has_global_variable_list = bno_bbc_trader
+                any_in_global_list = {
+                    variable = bno_bbc_trader
+                    is_alive = no
+                }
             }
             every_in_global_list = {
                 variable = bno_bbc_trader
-                limit = { is_alive = no }
+                limit = {
+                    is_alive = no
+                }
+                save_scope_as = dead_trader
                 remove_list_global_variable = {
                     name = bno_bbc_trader
-                    target = this
-                }
-            }
-        }
-        if = {
-            limit = {
-                global_variable_list_size = {
-                    name = bno_bbc_trader
-                    value <= 0
+                    target = scope:dead_trader
                 }
             }
             bno_create_caravan_shop_keeper = yes

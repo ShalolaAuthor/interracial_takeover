@@ -281,7 +281,7 @@ bno_seduce_rejection.1002 = {
         bno_have_sex_with_effects = {
             PARTNER = scope:target
         }
-        scope:scheme = {
+        scope:scheme ?= {
             set_variable = {
                 name = bno_milestone_1
                 value = {

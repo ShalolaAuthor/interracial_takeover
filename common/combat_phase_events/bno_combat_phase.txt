@@ -2,7 +2,7 @@
     type = commander
 
     is_valid = {
-        exists = root
+        is_alive = yes
         is_bbc = yes
         NOT = { has_character_flag = bno_bbc_commander_cooldown }
     }

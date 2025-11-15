@@ -1,6 +1,6 @@
 ﻿story_bno_maintenance = {
     on_setup = {
-        story_owner = {
+        story_owner ?= {
 			if = {
 				limit = {
 					is_alive = yes
@@ -24,17 +24,17 @@
     effect_group = {
         days = { 30 60 }
         trigger = {
-            story_owner = { is_alive = yes }
+            story_owner ?= { is_alive = yes }
         }
 		triggered_effect = {
 			trigger = {
-				story_owner = {
+				story_owner ?= {
 					has_character_flag = father_suspects_this_pregnancy
 					is_slut = yes
 				}
 			}
 			effect = {
-				story_owner = {
+				story_owner ?= {
 					remove_character_flag = father_suspects_this_pregnancy
 				}
 			}
@@ -42,7 +42,7 @@
 		#becoming a bbc whore
 		triggered_effect = {
 			trigger = {
-				story_owner = {
+				story_owner ?= {
 					is_white_girl = yes
 					is_bno_snowbunny_and_up = yes
 					NOT = { has_character_flag = bno_stop_becoming_bbc_slut }
@@ -60,7 +60,7 @@
 				}
 			}
 			effect = {
-				story_owner = {
+				story_owner ?= {
 					trigger_event = bno_slut.0015
 				}
 			}
@@ -68,14 +68,14 @@
         #culture
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     is_bbc = yes
                     is_culture_bnoc = no
                     has_game_rule = bno_bbc_forced_conversion_yes
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     if = {
                         limit = {
                             liege ?= {
@@ -93,14 +93,14 @@
         #religion
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     is_bbc = yes
                     has_game_rule = bno_religion_yes
                     has_game_rule = bno_bbc_forced_conversion_yes
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     if = {
                         limit = {
                             liege ?= {
@@ -122,7 +122,7 @@
         #vassal will convert from old bbc religion to new liege religion
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     save_temporary_scope_as = bno_temp_scope
                     faith = faith:bbcs
                     liege ?= {
@@ -132,7 +132,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     set_character_faith = liege.faith
                 }
             }
@@ -140,7 +140,7 @@
         #if wearing a chastity cage and dont have caged trait add it
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     NOR = {
                         has_trait = bno_caged
                         has_trait = bno_caged_futa
@@ -151,7 +151,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     save_scope_as = cager
                     bno_caged_effect = {
                         CAGER = scope:cager
@@ -162,13 +162,13 @@
         #if pure african can not be slut
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     is_african = yes
                     is_slut = yes
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     remove_whitegirl_trait_effect = yes
                 }
             }
@@ -176,7 +176,7 @@
         #if eunuch or castrated remove dick
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     OR = {
                         has_trait = bno_castrated_futa
                         has_trait = bno_castrated
@@ -186,7 +186,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     make_trait_inactive = dick_big_good_1
 		            make_trait_inactive = dick_big_good_2
 		            make_trait_inactive = dick_big_good_3
@@ -200,7 +200,7 @@
         #if non bbc slave and liege is bbc and has a chastity cage artifact
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     NOR = {
                         has_trait = bno_caged
                         has_trait = bno_caged_futa
@@ -225,7 +225,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     if = {
                         limit = {
                             liege ?= {
@@ -284,13 +284,13 @@
         #make dick smaller if wearing cage
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     has_trait = bno_caged
                     NOT = { has_trait = dick_small_bad_3 }
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     save_scope_as = caged_character
                     become_smaller_dick_effect = yes
                     random_equipped_character_artifact = {
@@ -342,7 +342,7 @@
         #punish caged character that unequipped chastity cage
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     has_trait = bno_caged
                     any_character_artifact = {
                         has_variable = bno_chastity_cage
@@ -351,7 +351,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     random_character_artifact = {
                         limit = {
                             has_variable = bno_chastity_cage
@@ -367,7 +367,7 @@
         #use tincture of genesis artifact
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     has_tincture_of_genesis_artifact = yes
                     OR = {
 			        	bno_is_valid_target_for_tincture_of_genesis = yes
@@ -391,7 +391,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     save_scope_as = actor
 		            if = {
 		            	limit = {
@@ -479,7 +479,7 @@
 		#use elixir of the black womb artifact
 		triggered_effect = {
 			trigger = {
-				story_owner = {
+				story_owner ?= {
 					has_elixir_of_the_black_womb_artifact = yes
 					OR = {
 						bno_is_valid_target_for_elixir_of_the_black_womb = yes
@@ -503,7 +503,7 @@
 				}
 			}
 			effect = {
-				story_owner = {
+				story_owner ?= {
 					save_scope_as = actor
 					if = {
 		            	limit = {
@@ -576,7 +576,7 @@
         #cum addiction scheme
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     is_adult = yes
                     is_bbc = yes
                     is_married = yes
@@ -595,7 +595,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     save_scope_as = actor
                     random_spouse = {
 		            	limit = {
@@ -612,7 +612,7 @@
         #cure disease
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     bno_has_bbc_priest_or_priestess = yes
 			        gold >= bno_cure_disease_interaction_cost
 			        is_at_war = no
@@ -635,7 +635,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     save_scope_as = actor
 		            every_spouse = {
 		            	limit = {
@@ -682,7 +682,7 @@
         #influence child
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     is_bno_actor = yes
                     OR = {
                         any_prisoner = {
@@ -696,7 +696,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     save_scope_as = actor
 		            every_prisoner = {
 		            	limit = {
@@ -741,7 +741,7 @@
         #cage prisoner
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     bno_prisoner_is_valid_actor_trigger = yes
 			        has_chastity_cage_artifact = yes
 			        any_prisoner = {
@@ -750,7 +750,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     save_scope_as = actor
 		            random_prisoner = {
 		            	limit = {
@@ -766,7 +766,7 @@
         #castrate prisoner
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     has_tincture_of_genesis_artifact = yes
                     bno_prisoner_is_valid_actor_trigger = yes
 			        any_prisoner = {
@@ -775,7 +775,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     save_scope_as = actor
 		            random_prisoner = {
 		            	limit = {
@@ -791,7 +791,7 @@
         #enslave female prisoner
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     bno_prisoner_is_valid_actor_trigger = yes
 			        any_prisoner = {
 			        	bno_not_a_bbc_slave = yes
@@ -799,7 +799,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
 					save_scope_as = actor
                     random_prisoner = {
 		            	limit = {
@@ -815,7 +815,7 @@
         #sneak bbc
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     bno_basic_interaction_valid_actor = yes
 			        trigger_if = {
 			        	limit = { is_slut = yes }
@@ -860,7 +860,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     save_scope_as = actor
                     random_courtier = {
 		            	limit = {
@@ -953,7 +953,7 @@
         #transform wife into black
         triggered_effect = {
             trigger = {
-                story_owner = {
+                story_owner ?= {
                     age >= 18
                     trigger_if = {
 			        	limit = { is_bbc = yes }
@@ -998,7 +998,7 @@
                 }
             }
             effect = {
-                story_owner = {
+                story_owner ?= {
                     if = {
 		            	limit = {
 		            		is_bbc = yes
@@ -1088,13 +1088,13 @@
 		#femboi maintenance
 		triggered_effect = {
 			trigger = {
-				story_owner = {
+				story_owner ?= {
 					has_trait = femboi
 					NOT = { has_trait = bno_femboi }
 				}
 			}
 			effect = {
-				story_owner = {
+				story_owner ?= {
 					remove_trait = femboi
 					add_trait = bno_femboi
 				}
@@ -1103,13 +1103,13 @@
 		#ritual of purification
 		triggered_effect = {
 			trigger = {
-				story_owner = {
+				story_owner ?= {
 					is_shown_for_bno_becoming_pure_white_decision = yes
 					is_valid_for_bno_becoming_pure_white_decision = yes
 				}
 			}
 			effect = {
-				story_owner = {
+				story_owner ?= {
 					trigger_event = bno_ritual_of_purification.2222
 				}
 			}
@@ -1119,7 +1119,7 @@
 	effect_group = {
 		days = { 30 180 }
 		trigger = {
-			story_owner = {
+			story_owner ?= {
 				is_adult = yes
 				trigger_if = {
 					limit = { has_game_rule = bno_global_bbc_activities_no }
@@ -1134,12 +1134,12 @@
 		random_valid = {
 			triggered_effect = {
 				trigger = {
-					story_owner = {
+					story_owner ?= {
 						is_a_girl = yes
 					}
 				}
 				effect = {
-					story_owner = {
+					story_owner ?= {
 						trigger_event = {
 							on_action = bno_events_slut_pulse
 						}
@@ -1148,13 +1148,13 @@
 			}
 			triggered_effect = {
 				trigger = {
-					story_owner = {
+					story_owner ?= {
 						is_bbc = yes
 						is_a_male = yes
 					}
 				}
 				effect = {
-					story_owner = {
+					story_owner ?= {
 						trigger_event = {
 							on_action = bno_events_bull_pulse
 						}
@@ -1163,13 +1163,13 @@
 			}
 			triggered_effect = {
 				trigger = {
-					story_owner = {
+					story_owner ?= {
 						is_bbc = no
 						is_a_male = yes
 					}
 				}
 				effect = {
-					story_owner = {
+					story_owner ?= {
 						trigger_event = {
 							on_action = bno_events_cuck_pulse
 						}
@@ -1178,12 +1178,12 @@
 			}
 			triggered_effect = {
 				trigger = {
-					story_owner = {
+					story_owner ?= {
 						is_valid_for_femboi_events = yes
 					}
 				}
 				effect = {
-					story_owner = {
+					story_owner ?= {
 						trigger_event = {
 							on_action = bno_events_femboi_pulse
 						}
@@ -1192,12 +1192,12 @@
 			}			
 			triggered_effect = {
 				trigger = {
-					story_owner = {
+					story_owner ?= {
 						is_playable_character = no
 					}
 				}
 				effect = {
-					story_owner = {
+					story_owner ?= {
 						trigger_event = {
 							on_action =  bno_non_playable_pulse
 						}
