@@ -1,9 +1,10 @@
 ﻿l_french:
- great_replacement: "Grand remplacement" # AI Tags
- great_replacement_effect_desc: "" # AI Tags
- cultural_acceptance_loss_replacement_culture: "Invadé" # AI Tags
- great_replacement_acceptance_effect_desc: "Les villes et les villages locaux seront violemment envahis par des hommes supérieurs et forcés de se rendre dans des camps de rééducation. La plupart ne survivront pas…" # AI Tags
+great_replacement: "Grand remplacement" # AI Tags
+great_replacement_effect_desc: "" # AI Tags
+cultural_acceptance_loss_replacement_culture: "Invadé" # AI Tags
+great_replacement_acceptance_effect_desc: "Les villes et les villages locaux seront violemment envahis par des hommes supérieurs et forcés de se rendre dans des camps de rééducation. La plupart ne survivront pas…" # AI Tags
 bno_great_replacement.current_cultural_acceptance: "[cultural_acceptance|E]" # AI Tags
 bno_great_replacement_effect.title: "$great_replacement$ a réussi!!" # AI Tags
 bno_great_replacement_effect.desc: "La terre gémit sous le poids de la conquête. Là où les langues pâles gouvernaient autrefois, les mots africains se déversent maintenant de toutes les bouches. Le ventre de la reine et le [bno_bbc|E]Les coqs ont écrit un nouvel ordre dans la chair comme dans le sol — les soldats marchent vers des tambours plus foncés, les jeunes filles étendent leurs cuisses pour obtenir des graines plus fortes, et le comté lui-même a été élevé en soumission." # AI Tags
 bno_great_replacement_effect_cultural_acceptance: "Le comté s'écrie sous l'harmonie forcée. Les langues pâles et sombres s'entremêlent, gémissent se noyant dans la protestation, jusqu'à ce que chaque culture se penche ensemble dans le culte du [bno_bbc|E]C'est vrai. Ce qui était autrefois la division, c'est maintenant la soumission — une unité engendrée à la pointe de sa queue." # AI Tags
+bno_great_replacement.requirement: "Ne peut être utilisé que si vous êtes un [BBC|E], , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , , [Snowbunny|E], ou une [Cuck|E]" # AI Tags

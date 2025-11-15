@@ -40,6 +40,7 @@ faction_demand_bnwo: "軍部へ [ROOT.Char.GetTitledFirstName], , , , , , , , [R
 bno_embrace_african_1.0007.desc: "蛇はあなたの哀れな首を 強く巻いている [ROOT.Char.GetLadyLord] [ROOT.Char.GetTitledFirstName]… 黒人の手にふさわしい土地で 長い間 宴会してきました 盗まれた世代の獲物で 肥満しています. 我々は [bno_bnwo|E]あなたの血統は弱くて 血は薄い.\n\nこの国は我々の種々の強さを渇望し 力を理解する人々の肥沃な土壌を渇望しています. あなたがたの土地を喜んで譲りなさい.そうすれば,わたしたちはあなたがたを家畜のようにその土地の上に住むよう許すであろう. 抵抗するなら あなたの畑は 衰える特権に 強く固執した人々の血に溢れる.\n\n賢明に選択する [ROOT.Char.GetLadyLord] [ROOT.Char.GetTitledFirstName]… 私たちの忍耐は無限ではありません." # AI Tags
 bno_embrace_african_1.0007.a: "そうなるように. 良くなるかもしれない!" # AI Tags
 bno_embrace_african_1.0007.a.tooltip: "#high [peasant_leader.GetTitledFirstName]#! そして #high [faction.GetName]#! 宣言する [war|E] あなたの上に" # AI Tags
+bno_embrace_african_1.0007.b: "権利的にあなたのものを与えます." # AI Tags
 
 bno_embrace_african_1.1007.desc: "あなたの忠誠心 [faction_target.GetLadyLord] [ROOT.Char.GetTitledFirstName] あなたの血統は 異なった献身を示唆している. 石匠のハンマーくらいのピカピカは 消える線を越えて 野心を持つべきです.\n\n労働組合 [bno_bnwo|E] 盲目の忠誠心以上のものを 提供します 我々は力 目的 支配力を提供します. 一緒に来て 塵の称号から生まれない 血から生まれる力を 発揮するんだ. 選択は簡単です\n\n壊れやすい足のそばに立って 見守って [faction_target.GetHerHim] あなたのような人を長い間待っていた未来を 抱きしめてください." # AI Tags
 bno_embrace_african_1.1007.a: "私の剣は 古い忠誠心以上のものを渇いている!" # AI Tags

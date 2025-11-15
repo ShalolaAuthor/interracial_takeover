@@ -215,3 +215,9 @@ bno_trader_has_arrived.desc.male: "オブシディアンの戦車が あなた�
 
 bno_trader_has_arrived.title.female: "カラバン が あなた の 領域 に 入り ます" # AI Tags
 bno_trader_has_arrived.desc.female: "重い戦車が立ち上がり シルクテントが高なツールの監視下に置かれています. 商品は束縛するり 変容するエリキッサー 標識する鎖. キャラバンはやってきました 誘惑も服従も 空中に種子の香りも." # AI Tags
+
+bno_becoming_pure_white.title: "純粋 な 白い 人 に なる" # AI Tags
+bno_becoming_pure_white.desc: "私の体は 欠陥のある組合の証です もう耐えられない泥の混合物です. ブラックカックの教会は 純潔への道を示します 血の汚れを拭くための神聖な儀式です. 私は完全に服従し,彼の本質に封印された船になり,私を完璧に漂白させる力に信頼します." # AI Tags
+bno_becoming_pure_white.tooltip: "種子の儀式を 受けなさい. これは 深い生物学的な変化を起こし 永久に 純粋なアルビニズムに 変異する. 教会の一人の大祭司への完全な献身が必要です." # AI Tags
+bno_becoming_pure_white.confirm: "浄化することを誓います." # AI Tags
+bno_becoming_pure_white.effect: "浄化儀式が始まる. すべての色素は永久に失われます. 髪の毛は直し,プラチナの白色になる. 皮膚は無垢なアラバスターになります. 眼の色は水晶の青色に変化します. 混ざった遺産に関連するすべての特徴は消されます." # AI Tags

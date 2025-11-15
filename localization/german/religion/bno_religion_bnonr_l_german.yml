@@ -92,3 +92,5 @@ convert_effect_1: "Sie werden zu dem konvertieren [bno_religion|E]" # AI Tags
 
 rf_bbcs: "Aphrodiasma" # AI Tags
 rf_bbcs_desc: "$rf_bbcs$ ist ein lebendiger Wandteppich von schwarz-zentrierten Traditionen, gewebt aus ekstatischer Anbetung, potenter Magie und dem unerschütterlichen Glauben, dass weiße Erlösung darin liegt, von der Kraft des schwarzen Samens erfüllt zu werden." # AI Tags
+
+bnonr_religion_opinion: "$bnonr_religion_adherent$ Stellungnahme" # AI Tags

@@ -33,3 +33,5 @@ trait_bno_barely_mixed_desc: "아프리카 왕조에서 번식하지 않은 몇 
 #Message Filter
 message_filter_bno_breeding_outcomes: "" # AI Tags
 message_filter_bno_blacked_events: "" # AI Tags
+
+message_group_type_bno: "@bnobbc! 인종 간 인수" # AI Tags

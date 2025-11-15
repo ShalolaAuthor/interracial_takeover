@@ -28,6 +28,7 @@ game_concept_bbc_evangelist: "BBC Evangelist" # AI Tags
 game_concept_bbc_evangelist_desc: "Z szepanymi obietnicami błogosławieństwa ponad zrozumienie śmiertelników i zapachem muska i przyprawy trzymających się ich olejowanej skóry, kapłanki i kapłani [bno_religion|E] Zwiedzają zarówno szlachetnych, jak i kobiet, zasiając nasienie uwielbienia potęgi ebony w sercach i w biodrach." # AI Tags
 
 game_concept_bno_bbc: "BBC" # AI Tags
+game_concept_BBC: "$game_concept_bno_bbc$" # AI Tags
 game_concept_bno_bbcs: "BBC" # AI Tags
 game_concept_bno_bbc_desc: "Termin używany do opisu potężnych i męskich czarnych mężczyzn, którzy dominują w seksie, ucieleśniając siłę, władzę i nienasycony apetyt na przyjemność." # AI Tags
 
@@ -58,3 +59,11 @@ game_concept_bno_tincture_of_genesis_desc: "Tincture of Genesis to rzadka fiolka
 
 game_concept_bno_elixir_of_the_black_womb: "Eliksyr czarnego macicy" # AI Tags
 game_concept_bno_elixir_of_the_black_womb_desc: "Eliksyr Czarnego Węża jest wymuszany na mniejszych ludzi. Kiedy je spożywają, usuwają ich męskotę: kury się skręcają, jaja uschną, a w ich brzuchach zakorzenił się głód po kumie. Żądają Byków, błagając o kurczaka i nasiona, dopóki BNWO nie zmieni ich całkowicie. To nie jest błogosławieństwo, ale kastracja i korupcja." # AI Tags
+
+game_concept_bno_snowbunny: "Śnieżka" # AI Tags
+game_concept_Snowbunny: "$game_concept_bno_snowbunny$" # AI Tags
+game_concept_bno_snowbunny_desc: "Śnieżka to biała dziewczyna całkowicie obsesyjna [bno_bbcs|E]Jej głód nienasycający, jej wstyd zapomniany. Przegrywa łóżka i pokoje każdego afrykańskiego dworca, błagając o kurczaka, oferując się za wszelkie brudne przyjemności, chętnie wychowywane, wypełnione i zrujnowane przez każdego Byka, który chce smaku. Być śnieżkiem to żyć dla czarnego kutasa, oddając ciało i dumę każdemu surowemu, użyciu publicznemu." # AI Tags
+
+game_concept_bno_cuck: "Cukier" # AI Tags
+game_concept_Cuck: "$game_concept_bno_cuck$" # AI Tags
+game_concept_bno_cuck_desc: "Cuck to biały mąż pozbawiony władzy i dumy, zmuszony do oglądania, jak jego żona rozchodzi się po Byku, słucha jej jęku głośniej niż kiedykolwiek dla swojego małżonka, i wie, że nie może nic zrobić, aby to powstrzymać. Jego małżeństwo, jego łóżko, a nawet jego dziedzictwo należy teraz do BBC; pozostaje mu tylko klękać, posłuchać i oddawać cześć mężczyźnie, który naprawdę zadowala żonie." # AI Tags

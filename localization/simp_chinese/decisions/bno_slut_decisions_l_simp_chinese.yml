@@ -215,3 +215,9 @@ bno_trader_has_arrived.desc.male: "黑曜石车队辗过你的领地，黑旗猎
 
 bno_trader_has_arrived.title.female: "商队进入了你的领地"
 bno_trader_has_arrived.desc.female: "重型马车吱呀就位，丝绸帐篷在巍峨公牛的注视下拔地而起。货物闪烁着光芒——有羁绊的药剂，有蜕变的魔药，还有刻印的锁链。商队已然抵达，随之而来的还有诱惑、服从，以及空气中弥漫的种子气息。"
+
+bno_becoming_pure_white.title: "成为纯白" # AI Tags
+bno_becoming_pure_white.desc: "我的身体证明了一个有缺陷的结合 一种我再也受不了的泥巴混合物. 黑鸡教堂提供了一条通往纯洁之路 一种神圣的仪式 从我血液中抹去污点. 我将完全屈服 成为他的精髓的密封容器 相信它能将我漂白到完美." # AI Tags
+bno_becoming_pure_white.tooltip: "在种子的湿润之下. 这将引发深刻的生物转变, 永久改变你的苯型 变成纯白白化。. 需要全心全意奉献给教会的一位大祭司." # AI Tags
+bno_becoming_pure_white.confirm: "我发誓要被净化." # AI Tags
+bno_becoming_pure_white.effect: "开始净化仪式. 所有的颜料都永远丢失了. 头发变直了 白白白的白发. 皮肤变成无瑕无瑕的羊排. 眼色变成蓝色晶体. 与混合遗产有关的所有特征都被删除。." # AI Tags

@@ -33,3 +33,4 @@ trait_bno_barely_mixed_desc: "После поколений без BBC — бе�
 #Message Filter
 message_filter_bno_breeding_outcomes: ""
 message_filter_bno_blacked_events: ""
+message_group_type_bno: "@bnobbc! Межрасовое приобретение" # AI Tags

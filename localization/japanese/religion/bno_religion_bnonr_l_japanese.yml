@@ -92,3 +92,5 @@ convert_effect_1: "変身する [bno_religion|E]" # AI Tags
 
 rf_bbcs: "アフロディアズマ" # AI Tags
 rf_bbcs_desc: "$rf_bbcs$ 狂った崇拝,強力な魔法, そして白人の救いは 黒人の種子の力によって満たされているという 揺るぎない信念から 織りなされた黒人中心の伝統の鮮やかなタペストリーです." # AI Tags
+
+bnonr_religion_opinion: "$bnonr_religion_adherent$ 意見" # AI Tags

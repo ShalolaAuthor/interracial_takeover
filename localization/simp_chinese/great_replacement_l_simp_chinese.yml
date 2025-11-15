@@ -7,3 +7,4 @@ bno_great_replacement.current_cultural_acceptance: "[cultural_acceptance|E]"
 bno_great_replacement_effect.title: "$great_replacement$已经成功！！"
 bno_great_replacement_effect.desc: "这片土地在征服的重压下呻吟。昔日白皮肤的口舌统治之地，如今每个喉咙都涌出非洲的词语。皇后的子宫与[bno_bbc|E]的阳具，将新秩序刻入血肉与土壤——士兵踏着更深沉的鼓点行进，少女为更强壮的种子张开双腿，整个伯爵领已被繁衍得俯首称臣。"
 bno_great_replacement_effect_cultural_acceptance: "这片土地在强加的和弦中扭曲。白色与黝黑的口舌交缠，呻吟淹没抗争，直至所有文化屈膝共拜[bno_bbc|E]。昔日的分裂化作臣服——这统一，孕育于他阳具的顶端。"
+bno_great_replacement.requirement: "仅当您是 [BBC|E], [Snowbunny|E],或 a ,或 [Cuck|E]" # AI Tags

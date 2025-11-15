@@ -92,3 +92,5 @@ convert_effect_1: "당신은 [bno_religion|E]" # AI Tags
 
 rf_bbcs: "아프로디아스마" # AI Tags
 rf_bbcs_desc: "$rf_bbcs$ 흑자를 중심으로 한 전통의 활기찬 타페스트리입니다. 극심한 숭배, 강력한 마법, 그리고 흑자의 씨앗의 힘으로 채워지는 백인의 구원에 대한 흔들리지 않는 믿음입니다." # AI Tags
+
+bnonr_religion_opinion: "$bnonr_religion_adherent$ 의견" # AI Tags

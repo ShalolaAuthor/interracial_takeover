@@ -40,6 +40,7 @@ faction_demand_bnwo: "이 모든 [ROOT.Char.GetTitledFirstName], [ROOT.Char.Cust
 bno_embrace_african_1.0007.desc: "뱀이 네 아픔스러운 목을 더 단단히 고 있어 [ROOT.Char.GetLadyLord] [ROOT.Char.GetTitledFirstName]. 당신은 너무 오랫동안 흑인의 손에 맞게 지어진 땅을 먹고, 도둑맞은 세대의 약탈을 먹고 살았습니다. 우리는 [bno_bnwo|E]네 혈통이 약하고 피가 얇다.\n\n이 땅은 우리 씨앗의 힘에 갈망하고 있습니다. 힘을 이해하는 민족의 비옥한 토양에 갈망합니다. 자발적으로 너희 땅을 넘겨주면 아마도 너희들이 그 위에 가축처럼 살도록 허락하리니 이는 진정한 지배가 어떻게 생겼는지 상기시켜 줄 것이라. 저항하자, 당신의 농장은 쇠퇴하는 특권에 너무 단단히 집착한 사람들의 피로 가득차게 될 것입니다.\n\n현명하게 선택해 [ROOT.Char.GetLadyLord] [ROOT.Char.GetTitledFirstName]. 우리의 인내심은 끝없는 것이 아닙니다." # AI Tags
 bno_embrace_african_1.0007.a: "그렇게 되길 바랍니다. 옳을 수도 있어!" # AI Tags
 bno_embrace_african_1.0007.a.tooltip: "#high [peasant_leader.GetTitledFirstName]#! 그리고 #high [faction.GetName]#! 선언 [war|E] 너한테" # AI Tags
+bno_embrace_african_1.0007.b: "당신 소유의 모든 것을 포기합니다." # AI Tags
 
 bno_embrace_african_1.1007.desc: "당신의 충성심 [faction_target.GetLadyLord] [ROOT.Char.GetTitledFirstName] 하지만 당신의 혈통은 다른 종류의 헌신을 암시합니다. 쇠사슬의 해마르 크기의 은 쇠사슬의 해마르 크기의 은 이 사라지는 선에 봉사하는 것을 넘어서는 야망을 가져야 합니다.\n\n이 [bno_bnwo|E] 맹목적인 충성보다 더 많은 것을 제공합니다. 우리는 힘, 목적, 지배를 제공합니다. 우리와 함께하고 먼지의 타이틀에서 태어나지 않고 혈관을 흐르는 피에서 태어난 힘을 발휘하세요. 선택은 간단합니다\n\n너의 허약한 발자국 옆에 서서 지켜봐 [faction_target.GetHerHim] 당신 같은 사람들을 오랫동안 기다렸던 미래를 받아들일 수도 있습니다." # AI Tags
 bno_embrace_african_1.1007.a: "내 검은 오래된 충성보다 더 이상 갈망한다!" # AI Tags

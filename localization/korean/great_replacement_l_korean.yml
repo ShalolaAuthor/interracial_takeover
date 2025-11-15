@@ -1,9 +1,10 @@
 ﻿l_korean:
- great_replacement: "위대한 대체" # AI Tags
- great_replacement_effect_desc: "" # AI Tags
- cultural_acceptance_loss_replacement_culture: "침략" # AI Tags
- great_replacement_acceptance_effect_desc: "지역 도시와 마을은 강렬하게 우월한 사람들에 의해 침략되고 재교육 캠프에 강제됩니다. 대부분의 사람들은 살아남을 수 없습니다." # AI Tags
+great_replacement: "위대한 대체" # AI Tags
+great_replacement_effect_desc: "" # AI Tags
+cultural_acceptance_loss_replacement_culture: "침략" # AI Tags
+great_replacement_acceptance_effect_desc: "지역 도시와 마을은 강렬하게 우월한 사람들에 의해 침략되고 재교육 캠프에 강제됩니다. 대부분의 사람들은 살아남을 수 없습니다." # AI Tags
 bno_great_replacement.current_cultural_acceptance: "[cultural_acceptance|E]" # AI Tags
 bno_great_replacement_effect.title: "$great_replacement$ 성공했습니다!!" # AI Tags
 bno_great_replacement_effect.desc: "이 땅은 정복의 무게 아래로 울고 있습니다. 화려한 언어가 지배했던 곳, 아프리카의 단어들은 이제 모든 입에서 쏟아져 나오고 있습니다. 여왕의 자궁과 [bno_bbc|E]새끼는 새 질서를 고기와 토양에 새겼습니다 군인들이 더 어두운 드럼으로 행진하고, 여자들은 더 강한 씨앗을 위해 허벅지를 펼치고, 카운티 자체는 굴복으로 길러졌습니다." # AI Tags
 bno_great_replacement_effect_cultural_acceptance: "카운티는 강제 조화를 이루고 있습니다. 갈색과 어두운 혀가 얽혀, 항의가 익사하고, 모든 문화가 [bno_bbc|E]. 한때 분열이 있었던 것은 이제 굴복이 되었습니다. 그의 똥 끝에서 번식한 통일입니다." # AI Tags
+bno_great_replacement.requirement: "이용가능한 경우만 [BBC|E], a [Snowbunny|E], 또는 [Cuck|E]" # AI Tags

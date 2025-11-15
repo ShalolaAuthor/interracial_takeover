@@ -215,3 +215,9 @@ bno_trader_has_arrived.desc.male: "Wagony Obsidianu przejeżdżają przez waszą
 
 bno_trader_has_arrived.title.female: "Karawana wchodzi do waszego królestwa" # AI Tags
 bno_trader_has_arrived.desc.female: "Ciężkie wagony wkraczają na miejsce, jedwabne namioty wznoszą się pod nadzorem wysokich Byków. Ich towary błyszczą tincturami do wiązania, elixyrami do przekształcenia, łańcuchami do oznaczania. Przybyła karawana, a wraz z nią pokusie, posłuszeństwo i zapach nasion w powietrzu." # AI Tags
+
+bno_becoming_pure_white.title: "Staje się czysty biały" # AI Tags
+bno_becoming_pure_white.desc: "Moje ciało jest świadectwem wadliwego związku, błotnej mieszanki, której już nie mogę znieść. Kościół Czarnego Kurca oferuje drogę do czystości, święty rytuał, aby usunąć skazę z mojej krwi. Poddaję się całkowicie, stając się zatwierdzonym statkiem dla Jego istoty, ufając w jego moc, aby mnie wybielać do doskonałości." # AI Tags
+bno_becoming_pure_white.tooltip: "Przeprowadź liturgię nasienia. To rozpocznie głęboką przemianę biologiczną, trwale zmieniając twój fenotip na czysty albinizm. Wymaga całkowitego oddania jednemu Najwyższemu Kapłanowi Kościoła." # AI Tags
+bno_becoming_pure_white.confirm: "Przysięgam być oczyszczony." # AI Tags
+bno_becoming_pure_white.effect: "Zaczyna się rytuał oczyszczania. Cała pigmentacja zostaje trwale utracona. Włosy stają się proste i platynowe białe. Skóra staje się nieskazitelnym alabastem. Kolor oczu zmienia się w krystalicznie niebieski. Wszystkie cechy związane z mieszanym dziedzictwem zostaną usunięte." # AI Tags

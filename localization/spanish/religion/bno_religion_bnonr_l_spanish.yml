@@ -92,3 +92,5 @@ convert_effect_1: "Usted se convertirá a la [bno_religion|E]" # AI Tags
 
 rf_bbcs: "Afrodiasma" # AI Tags
 rf_bbcs_desc: "$rf_bbcs$ es un vibrante tapiz de tradiciones centradas en los negros tejidas de adoración extática, potente magia, y la creencia inquebrantable de que la salvación blanca yace en ser llenada por el poder de la semilla negra." # AI Tags
+
+bnonr_religion_opinion: "$bnonr_religion_adherent$ Opinión" # AI Tags

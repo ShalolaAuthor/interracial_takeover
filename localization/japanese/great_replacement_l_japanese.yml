@@ -1,9 +1,10 @@
 ﻿l_japanese:
- great_replacement: "素晴らしい代替品" # AI Tags
- great_replacement_effect_desc: "" # AI Tags
- cultural_acceptance_loss_replacement_culture: "侵略された" # AI Tags
- great_replacement_acceptance_effect_desc: "地元の町や村は 強烈に上級者によって侵略され 再教育収容所に強制収容される. 大半は生き残らない…" # AI Tags
+great_replacement: "素晴らしい代替品" # AI Tags
+great_replacement_effect_desc: "" # AI Tags
+cultural_acceptance_loss_replacement_culture: "侵略された" # AI Tags
+great_replacement_acceptance_effect_desc: "地元の町や村は 強烈に上級者によって侵略され 再教育収容所に強制収容される. 大半は生き残らない…" # AI Tags
 bno_great_replacement.current_cultural_acceptance: "[cultural_acceptance|E]" # AI Tags
 bno_great_replacement_effect.title: "$great_replacement$ 成功しました!!" # AI Tags
 bno_great_replacement_effect.desc: "土地は征服の重さで嘆いている. かつて白い言語が支配していた場所では 現在 アフリカ語があらゆる口から流れている. 女王の胎と [bno_bbc|E]鶏は肉と土に新しい秩序を書き込んだ 兵士は暗黒の鼓に進んだ 少女はより強い種を求めて 首を広げ 郡自身も服従に育てられた." # AI Tags
 bno_great_replacement_effect_cultural_acceptance: "郡は強制的な調和の下で 曲がりくねる. 薄暗い舌が絡み合って 嘆き悲しみで抗議を止めて すべての文化が [bno_bbc|E]… かつては分裂だったものは 今では屈服です 尻尾の先端で育った統一です." # AI Tags
+bno_great_replacement.requirement: "使用できるのは, [BBC|E], a [Snowbunny|E],または [Cuck|E]" # AI Tags

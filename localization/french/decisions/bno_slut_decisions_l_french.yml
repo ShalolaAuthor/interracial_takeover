@@ -215,3 +215,9 @@ bno_trader_has_arrived.desc.male: "Les chariots Obsidiens roulent sur votre terr
 
 bno_trader_has_arrived.title.female: "La caravane entre dans votre royaume" # AI Tags
 bno_trader_has_arrived.desc.female: "Des chariots lourds crèvent en place, des tentes en soie se lèvent sous la surveillance de taureaux imposants. Leurs produits brillent : des teintures à lier, des élixirs à transformer, des chaînes à marquer. La caravane est arrivée, et avec elle la tentation, l'obéissance, et l'odeur de la semence dans l'air." # AI Tags
+
+bno_becoming_pure_white.title: "Devenir blanc pur" # AI Tags
+bno_becoming_pure_white.desc: "Mon corps témoigne d'une union imparfaite, d'un mélange boueux que je ne peux plus supporter. L'Eglise du Cock Noir offre un chemin vers la pureté, un rituel sacré pour éloigner la tainte de mon sang. Je me soumettrai entièrement, devenant un vase scellé pour Son essence, confiant dans son pouvoir de me blanchir à la perfection." # AI Tags
+bno_becoming_pure_white.tooltip: "Sous-estime la liturgie de la Semence. Cela va déclencher une profonde transformation biologique, en modifiant en permanence votre phénotype à l'albinisme pur. Nécessite une dévotion totale à un seul Grand Prêtre de l'Eglise." # AI Tags
+bno_becoming_pure_white.confirm: "Je promets d'être purifié." # AI Tags
+bno_becoming_pure_white.effect: "Commence le rituel de purification. Toute pigmentation est définitivement perdue. Les cheveux deviennent droits et blancs de platine. La peau devient une albâtre parfaite. La couleur des yeux passe au bleu cristallin. Tous les traits associés au patrimoine mixte sont effacés." # AI Tags

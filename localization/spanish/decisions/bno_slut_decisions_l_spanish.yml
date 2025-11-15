@@ -215,3 +215,9 @@ bno_trader_has_arrived.desc.male: "Los carros de Obsidiana rodan a través de su
 
 bno_trader_has_arrived.title.female: "La caravana entra en tu reino" # AI Tags
 bno_trader_has_arrived.desc.female: "Los carros pesados crujen en su lugar, tiendas de seda que se levantan bajo la vigilancia de los toros imponentes. Sus productos brillan—tinturas para atar, elixirs para transformar, cadenas para marcar. La caravana ha llegado, y con ella la tentación, la obediencia, y el olor de la semilla en el aire." # AI Tags
+
+bno_becoming_pure_white.title: "Convertirse en blanco puro" # AI Tags
+bno_becoming_pure_white.desc: "Mi cuerpo es un testimonio de una unión defectuosa, una mezcla lodosa que ya no puedo soportar. La Iglesia del Pollo Negro ofrece un camino a la pureza, un ritual sagrado para limpiar la mancha de mi sangre. Me someteré totalmente, convirtiéndose en un recipiente sellado para Su esencia, confiando en su poder para blanquearme a la perfección." # AI Tags
+bno_becoming_pure_white.tooltip: "Bajo la Liturgia de la Descendencia. Esto iniciará una profunda transformación biológica, alterando permanentemente tu fenotipo al albinismo puro. Requiere devoción total a un único Sumo Sacerdote de la Iglesia." # AI Tags
+bno_becoming_pure_white.confirm: "Prometo ser purificado." # AI Tags
+bno_becoming_pure_white.effect: "Comienza el ritual de purificación. Toda la pigmentación se pierde permanentemente. El cabello se vuelve recto y blanco platino. La piel se convierte en alabastro impecable. El color de los ojos cambia a azul cristalino. Todos los rasgos asociados con la herencia mixta se borran." # AI Tags

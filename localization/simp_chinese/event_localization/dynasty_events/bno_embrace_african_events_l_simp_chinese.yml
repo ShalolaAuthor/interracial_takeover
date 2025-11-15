@@ -40,6 +40,7 @@ faction_demand_bnwo: "致[ROOT.Char.GetTitledFirstName]，[ROOT.Char.Custom('BNW
 bno_embrace_african_1.0007.desc: "愿蛇的躯体愈发紧地缠绕在你那可悲的脖颈上，[ROOT.Char.GetTitledFirstName][ROOT.Char.GetLadyLord]。你们长期以来一直肆意侵占本应属于黑人之手的土地，靠着被掠夺的世代的战利品养肥自己。我们，[bno_bnwo|E]，看得清清楚楚：你们的血脉薄弱，你们的血液稀薄。这片土地渴望我们种子的力量，渴望一个懂得权力的民族所孕育的肥沃土壤。自愿交出你们的土地，或许我们会允许你们像牲畜一样生活在其上——这是对真正统治力何为的提醒。反抗，你们的田野将被那些死死抓住正在消逝的特权之人鲜血所淹没。小心你的选择，[ROOT.Char.GetTitledFirstName][ROOT.Char.GetLadyLord]。我们的耐心并非无穷无尽。"
 bno_embrace_african_1.0007.a: "就这样吧。拳力创造权利！"
 bno_embrace_african_1.0007.a.tooltip: "#high [peasant_leader.GetTitledFirstName]#!和#high [faction.GetName]#!对你发动[war|E]"
+bno_embrace_african_1.0007.b: "我投降属于你的东西." # AI Tags
 
 bno_embrace_african_1.1007.desc: "你对[ROOT.Char.GetTitledFirstName][faction_target.GetLadyLord]的忠诚被注意到了，然而你的血统暗示着一种不同的忠诚。一只如铁匠锤般大小的鸡巴，理应怀有超越侍奉衰落血脉的雄心壮志。\n\n[bno_bnwo|E]向你提出了超越愚忠的东西，我们提供力量、目标与统治权。加入我们，掌握那并非源自陈旧头衔，而是源自你血液中流动的力量。选择非常简单：\n\n站在你脆弱的君主身旁，看着[faction_target.GetHerHim]覆灭——或拥抱那个早已等待着像你这样的人的未来。"
 bno_embrace_african_1.1007.a: "我的剑渴望的东西超越了陈旧的忠诚！"

@@ -33,3 +33,5 @@ trait_bno_barely_mixed_desc: "在几代没有与非洲血统的人通婚之后�
 #Message Filter
 message_filter_bno_breeding_outcomes: ""
 message_filter_bno_blacked_events: ""
+
+message_group_type_bno: "@bnobbc! 跨种族更替" # AI Tags

@@ -28,6 +28,7 @@ game_concept_bbc_evangelist: "BBC福音传教士"
 game_concept_bbc_evangelist_desc: "伴随着超越凡人理解的幸福承诺的低语，以及麝香与香料的气息依附在他们涂满油的肌肤上，[bno_religion|E]的祭司与女祭司们诱惑着贵族男女，在他们的心灵与肉欲中播下对黑色皮肤力量的崇拜之种。"
 
 game_concept_bno_bbc: "BBC"
+game_concept_BBC: "$game_concept_bno_bbc$" # AI Tags
 game_concept_bno_bbcs: "BBC"
 game_concept_bno_bbc_desc: "用于描述那些在性领域中占据主导地位的强大而充满活力的黑人男性，他们象征着力量、权威以及对愉悦的无尽渴望。"
 
@@ -58,3 +59,10 @@ game_concept_bno_tincture_of_genesis_desc: "创世神药是仅赐予公牛的稀
 
 game_concept_bno_elixir_of_the_black_womb: "黑宫魔药"
 game_concept_bno_elixir_of_the_black_womb_desc: "黑宫魔药被强加于弱男。一旦服下，便抹去他们的阳刚之气：阳具萎缩，睾丸干瘪，腹中滋生出对精液的噬骨饥渴。他们渴求公牛，乞求阳具与精液，直至BNWO彻底重塑其躯。这并非恩赐，而是阉割与堕落。"
+game_concept_bno_snowbunny: "雪盆" # AI Tags
+game_concept_Snowbunny: "$game_concept_bno_snowbunny$" # AI Tags
+game_concept_bno_snowbunny_desc: "雪白邦尼是个白人女孩 完全迷恋着 [bno_bbcs|E]- 她的饥饿无法忍受,她的羞耻被遗忘了. 她缠绕着每个非洲女仆的床和后座, 乞求鸡巴, 献身于任何肮脏的欢乐, 渴望被每一个想要品味的公牛所培植、填满和摧毁。. 做个雪人就是为黑鸡鸡而活 将身体和骄傲交还给每个原始的公众使用." # AI Tags
+
+game_concept_bno_cuck: "" # AI Tags
+game_concept_Cuck: "$game_concept_bno_cuck$" # AI Tags
+game_concept_bno_cuck_desc: "A Cuck是一位白种丈夫, 被剥夺了权力和骄傲, 被迫看着妻子为公牛而散开, 听到她对他大喊大叫,. 他的婚姻,他的床,甚至他的遗产现在都属于BBC;他只能屈膝、服从和崇拜真正满足妻子的男人。." # AI Tags

@@ -33,3 +33,5 @@ trait_bno_barely_mixed_desc: "Après des générations de non-élevage dans la d
 #Message Filter
 message_filter_bno_breeding_outcomes: "" # AI Tags
 message_filter_bno_blacked_events: "" # AI Tags
+
+message_group_type_bno: "@bnobbc! Prise en charge interraciale" # AI Tags

@@ -1,9 +1,10 @@
 ﻿l_spanish:
- great_replacement: "Gran reemplazo" # AI Tags
- great_replacement_effect_desc: "" # AI Tags
- cultural_acceptance_loss_replacement_culture: "Invadido" # AI Tags
- great_replacement_acceptance_effect_desc: "Los pueblos y aldeas locales serán invadidos violentamente por hombres superiores y forzados a entrar en campamentos de reeducación. La mayoría no sobrevivirá…" # AI Tags
+great_replacement: "Gran reemplazo" # AI Tags
+great_replacement_effect_desc: "" # AI Tags
+cultural_acceptance_loss_replacement_culture: "Invadido" # AI Tags
+great_replacement_acceptance_effect_desc: "Los pueblos y aldeas locales serán invadidos violentamente por hombres superiores y forzados a entrar en campamentos de reeducación. La mayoría no sobrevivirá…" # AI Tags
 bno_great_replacement.current_cultural_acceptance: "[cultural_acceptance|E]" # AI Tags
 bno_great_replacement_effect.title: "$great_replacement$ ha tenido éxito!!" # AI Tags
 bno_great_replacement_effect.desc: "La tierra gime bajo el peso de la conquista. Donde las lenguas pálidas una vez gobernaron, las palabras africanas ahora se derraman de cada boca. El vientre de la reina y el [bno_bbc|E]El gallo ha escrito un nuevo orden en carne y tierra por igual: los soldados marchan a tambores más oscuros, las doncellas extienden sus muslos para obtener semilla más fuerte, y el condado mismo ha sido criado para someterse." # AI Tags
 bno_great_replacement_effect_cultural_acceptance: "El condado se retuerce bajo armonía forzada. Lenguas pálidas y oscuras entrelazan, gime ahogando la protesta, hasta que cada cultura se doblega en adoración de la [bno_bbc|E]. Lo que antes era división ahora es sumisión…una unidad que se cría en la punta de su polla." # AI Tags
+bno_great_replacement.requirement: "Sólo se puede utilizar si usted es un [BBC|E], una [Snowbunny|E], o una [Cuck|E]" # AI Tags

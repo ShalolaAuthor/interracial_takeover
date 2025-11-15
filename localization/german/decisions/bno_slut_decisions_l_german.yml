@@ -215,3 +215,9 @@ bno_trader_has_arrived.desc.male: "Die Obsidian Wagen rollen über Ihr Land, sch
 
 bno_trader_has_arrived.title.female: "Die Karawane betritt dein Reich" # AI Tags
 bno_trader_has_arrived.desc.female: "Schwere Wagen knarren an Ort und Stelle, Seidenzelte, die unter der Wache der aufragenden Bullen aufsteigen. Ihre Waren schimmern – Risse zu binden, Elixier zu transformieren, Ketten zu markieren. Die Karawane ist angekommen und mit ihr Versuchung, Gehorsam und der Duft des Samens in der Luft." # AI Tags
+
+bno_becoming_pure_white.title: "Reines Weiß werden" # AI Tags
+bno_becoming_pure_white.desc: "Mein Körper ist ein Beweis für eine fehlerhafte Vereinigung, eine schlammige Mischung, die ich nicht mehr ertragen kann. Die Kirche des schwarzen Schwanzes bietet einen Weg zur Reinheit, ein heiliges Ritual, um die Befleckung von meinem Blut zu säubern. Ich werde mich ganz unterwerfen, zu einem versiegelten Gefäß für Seine Essenz werden und auf seine Macht vertrauen, mich zur Vollkommenheit zu bleichen." # AI Tags
+bno_becoming_pure_white.tooltip: "Undergo die Liturgie des Samens. Dies wird eine tiefgreifende biologische Transformation einleiten, die Ihren Phänotyp dauerhaft zu reinem Albinismus verändert. Erfordert vollständige Hingabe an einen einzigen Hohenpriester der Kirche." # AI Tags
+bno_becoming_pure_white.confirm: "Ich schwöre, gereinigt zu werden." # AI Tags
+bno_becoming_pure_white.effect: "Beginnt mit dem Reinigungsritual. Alle Pigmentierung ist dauerhaft verloren. Das Haar wird gerade und Platin weiß. Die Haut wird zu makellosem Alabaster. Augenfarbe verschiebt sich zu kristallinem Blau. Alle Merkmale, die mit gemischtem Erbe verbunden sind, werden gelöscht." # AI Tags

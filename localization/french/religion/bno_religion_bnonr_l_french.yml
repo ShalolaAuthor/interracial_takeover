@@ -92,3 +92,5 @@ convert_effect_1: "Vous vous convertirez à la [bno_religion|E]" # AI Tags
 
 rf_bbcs: "Aphrodiasme" # AI Tags
 rf_bbcs_desc: "$rf_bbcs$ est une tapisserie vibrante de traditions centrées sur les Noirs tissées par le culte extatique, la magie puissante, et la croyance inébranlable que le salut blanc réside dans le fait d'être remplies par la puissance de la semence noire." # AI Tags
+
+bnonr_religion_opinion: "$bnonr_religion_adherent$ Avis" # AI Tags

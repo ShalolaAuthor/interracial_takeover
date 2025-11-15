@@ -28,6 +28,7 @@ game_concept_bbc_evangelist: "BBC 복음주의자" # AI Tags
 game_concept_bbc_evangelist_desc: "필사적 인 이해를 초월한 행복의 속삭임 약속과 머스크와 향기의 향기가 기름진 피부에 붙어있는 [bno_religion|E] 귀족과 여성을 유혹하고 심심과 허리에 에본의 힘을 숭배하는 씨앗을 심어줍니다." # AI Tags
 
 game_concept_bno_bbc: "BBC" # AI Tags
+game_concept_BBC: "$game_concept_bno_bbc$" # AI Tags
 game_concept_bno_bbcs: "BBC" # AI Tags
 game_concept_bno_bbc_desc: "성적인 풍경을 지배하는 강력하고 남성적인 흑인 남성들을 묘사하는 용어로서 힘, 권위, 그리고 쾌락에 대한 불만족스러운 식욕을 나타냅니다." # AI Tags
 
@@ -58,3 +59,11 @@ game_concept_bno_tincture_of_genesis_desc: "창세기 잉크는 두꺼운 우유
 
 game_concept_bno_elixir_of_the_black_womb: "검은 자궁 의 에릭시어" # AI Tags
 game_concept_bno_elixir_of_the_black_womb_desc: "검은 자궁의 에릭시어는 더 작은 사람들에게 강요당합니다. 먹었을 때, 그들의 남성성을 지워버립니다. 닭은 어지고, 덩어리가 마르고, 에 대한 씹어먹는 굶주림은 그들의 배에 뿌리를 내립니다. 그들은 Bulls를 갈망하고 BNWO가 완전히 리메이크할 때까지 닭과 씨앗을 간구합니다. 축복이 아니라 배제와 부패입니다." # AI Tags
+
+game_concept_bno_snowbunny: "스노우bunny" # AI Tags
+game_concept_Snowbunny: "$game_concept_bno_snowbunny$" # AI Tags
+game_concept_bno_snowbunny_desc: "스노우니는 백인 소녀입니다 [bno_bbcs|E]그녀의 굶주림은 불완전하고 그녀의 수치심은 잊혀졌습니다. 그녀는 모든 아프리카 궁중의 침대와 뒷방을 괴롭히고 닭을 구하고 모든 더러운 쾌락을 위해 자신을 제공하며 맛을 원하는 모든 황소에게 양육되고 채워지고 파괴되기를 열망합니다. 스노우bunny가 되려면 검은 닭을 위해 살아야 돼 몸과 자부심을 공개적으로 사용해야 돼." # AI Tags
+
+game_concept_bno_cuck: "큐크" # AI Tags
+game_concept_Cuck: "$game_concept_bno_cuck$" # AI Tags
+game_concept_bno_cuck_desc: "큐크는 권력과 자부심을 상실한 백인 남편입니다. 그의 아내가 황소를 위해 퍼져나가는 것을 지켜보고,. 그의 결혼, 침대, 심지어 그의 유산도 이제 BBC에 속해 있습니다. 그는 무릎을 꿇고 순종하고 아내를 진정으로 만족시키는 남자를 숭배할 뿐이다." # AI Tags

@@ -28,6 +28,7 @@ game_concept_bbc_evangelist: "Evangelista de la BBC" # AI Tags
 game_concept_bbc_evangelist_desc: "Con promesas susurradas de felicidad más allá de la comprensión mortal y el olor de almizcle y especias que se aferran a su piel aceitada, las Sacerdotisas y Sacerdotes de la [bno_religion|E] seducir tanto a los nobles como a las mujeres, plantando la semilla de adoración por el poder del ébano en los corazones y lomos por igual." # AI Tags
 
 game_concept_bno_bbc: "La BBC" # AI Tags
+game_concept_BBC: "$game_concept_bno_bbc$" # AI Tags
 game_concept_bno_bbcs: "Las BBC" # AI Tags
 game_concept_bno_bbc_desc: "Un término usado para describir a los hombres negros poderosos y viriles que dominan el paisaje sexual, encarnando fuerza, autoridad, y un apetito insaciable por el placer." # AI Tags
 
@@ -58,3 +59,11 @@ game_concept_bno_tincture_of_genesis_desc: "La Tintura del Génesis es un raro v
 
 game_concept_bno_elixir_of_the_black_womb: "Elixir de la Mujer Negra" # AI Tags
 game_concept_bno_elixir_of_the_black_womb_desc: "El Elixir de la Mujer Negra es forzado sobre los hombres menores. Cuando se consumen, borran su virilidad: las pollas se marchitan, las bolas se marchitan, y un hambre de semen roedora se arraiga en sus vientres. Adoran a los Bulls, rogando por verga y semilla hasta que el BNWO los rehace por completo. No es una bendición, sino una castración y corrupción." # AI Tags
+
+game_concept_bno_snowbunny: "Un conejo de nieve" # AI Tags
+game_concept_Snowbunny: "$game_concept_bno_snowbunny$" # AI Tags
+game_concept_bno_snowbunny_desc: "Un Snowbunny es una chica blanca totalmente obsesionada con [bno_bbcs|E]—su hambre insaciable, su vergüenza olvidada. Ella persigue las camas y los cuartos traseros de cada cortesano africano, pidiendo polla, ofreciéndose a sí misma para cualquier placer sucio, ansioso por ser criado, llenado, y arruinado por cada Toro que quiere un sabor. Ser un Snowbunny es vivir para la polla negra, entregando cuerpo y orgullo a cada uso público crudo." # AI Tags
+
+game_concept_bno_cuck: "Cuck" # AI Tags
+game_concept_Cuck: "$game_concept_bno_cuck$" # AI Tags
+game_concept_bno_cuck_desc: "Un Cuck es un marido blanco despojado de poder y orgullo, obligado a ver a su esposa esparcirse por un toro, escuchar su gemido más fuerte para él de lo que ella tiene para su cónyuge, y saber que él no puede hacer nada para detenerlo. Su matrimonio, su cama, incluso su legado pertenecen a la BBC ahora; sólo se le deja arrodillarse, obedecer y adorar al hombre que realmente satisface a su esposa." # AI Tags
