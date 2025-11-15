@@ -11,7 +11,7 @@ bno_chastity_piercing_modifier = {
     stress_loss_mult = 0.1
 }
 bno_withering_manhood = {
-    icon = withering_manhood
+    icon = bno_withering_manhood
     stacking = yes
     diplomacy = -1
     martial = -1

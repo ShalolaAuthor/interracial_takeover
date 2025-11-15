@@ -1,5 +1,5 @@
 ﻿bno_lap_pet = {
-    icon = lap_pet
+    icon = bno_lap_pet
     general_opinion = 5
     attraction_opinion = 10 
     stress_loss_mult = 0.1
@@ -7,14 +7,14 @@
     stacking = yes
 }
 bno_finishing_school = {
-    icon = finishing_school
+    icon = bno_finishing_school
     attraction_opinion = 10
     stress_loss_mult = 0.1
     diplomacy = 1
     stacking = yes
 }
 bno_seedfast = {
-    icon = seedfast
+    icon = bno_seedfast
     attraction_opinion = 10
     health = 0.1
     stress_loss_mult = 0.1
@@ -22,7 +22,7 @@ bno_seedfast = {
     stacking = yes
 }
 bno_cuckold_parade = {
-    icon = cuckold_parade
+    icon = bno_cuckold_parade
     attraction_opinion = 10
     stress_loss_mult = 0.1
     fertility = 0.1
@@ -30,7 +30,7 @@ bno_cuckold_parade = {
     stacking = yes
 }
 bno_fufu_clip = {
-    icon = fufu_clip
+    icon = bno_fufu_clip
     attraction_opinion = 10
     learning = 1
     stress_loss_mult = 0.1
@@ -38,7 +38,7 @@ bno_fufu_clip = {
     stacking = yes
 }
 bno_plugged_forever = {
-    icon = plugged_forever
+    icon = bno_plugged_forever
     attraction_opinion = 15
     stress_loss_mult = 0.15
     health = 0.1
@@ -47,7 +47,7 @@ bno_plugged_forever = {
     stacking = yes
 }
 bno_smooth_castrate = {
-    icon = smooth_castrate
+    icon = bno_smooth_castrate
     attraction_opinion = 15
     stress_loss_mult = 0.2
     health = 1
@@ -56,7 +56,7 @@ bno_smooth_castrate = {
     stacking = no
 }
 bno_clitty_descent = {
-    icon = clitty_descent
+    icon = bno_clitty_descent
     attraction_opinion = 15
     stress_loss_mult = 0.2
     health = 1
@@ -66,7 +66,7 @@ bno_clitty_descent = {
     stacking = no
 }
 bno_pillory_plaything = {
-    icon = pillory_plaything
+    icon = bno_pillory_plaything
     attraction_opinion = 7
     stress_loss_mult = 0.1
     health = 0.05
@@ -75,7 +75,7 @@ bno_pillory_plaything = {
     stacking = yes
 }
 bno_mare_night = {
-    icon = mare_night
+    icon = bno_mare_night
     attraction_opinion = 5
     stress_loss_mult = 0.25
     health = 0.15
@@ -84,7 +84,7 @@ bno_mare_night = {
     stacking = yes
 }
 bno_elixir_genesis = {
-    icon = elixir_genesis
+    icon = bno_elixir_genesis
     fertility = 5
     health = 1
     stacking = no

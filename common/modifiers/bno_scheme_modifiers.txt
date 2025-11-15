@@ -1,5 +1,5 @@
 ﻿bno_cum_addiction_success = {
-    icon = cum_addiction
+    icon = bno_cum_addiction_success
     stacking = yes
     scheme_phase_duration = -5
     scheme_success_chance_growth = 1

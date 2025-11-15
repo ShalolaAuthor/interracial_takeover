@@ -4,7 +4,7 @@
     fertility = 0.05
     general_opinion = 5
     stacking = yes
-    icon = proven_male_strength
+    icon = bno_proven_male_strength
 }
 
 bno_proven_no_male_strength = {
@@ -13,7 +13,7 @@ bno_proven_no_male_strength = {
     fertility = -0.05
     spouse_opinion = -5
     stacking = yes
-    icon = proven_no_male_strength
+    icon = bno_proven_no_male_strength
 }
 
 bno_take_good_care_of_wife = {
@@ -21,7 +21,7 @@ bno_take_good_care_of_wife = {
     close_relative_opinion = 10
     stress_loss_mult = 0.1
     stacking = yes
-    icon = take_good_care_of_wife
+    icon = bno_take_good_care_of_wife
 }
 
 bno_a_deep_kiss_full_of_love_and_cum = {
@@ -29,7 +29,7 @@ bno_a_deep_kiss_full_of_love_and_cum = {
     attraction_opinion = 10
     stress_loss_mult = 0.1
     stacking = yes
-    icon = a_deep_kiss_full_of_love_and_cum
+    icon = bno_a_deep_kiss_full_of_love_and_cum
 }
 
 bno_model_wife = {
@@ -37,7 +37,7 @@ bno_model_wife = {
     spouse_opinion = 20
     close_relative_opinion = 10
     stacking = yes
-    icon = model_wife
+    icon = bno_model_wife
 }
 
 bno_model_husband = {
@@ -45,7 +45,7 @@ bno_model_husband = {
     close_relative_opinion = 10
     stress_loss_mult = 0.1
     stacking = yes
-    icon = model_husband
+    icon = bno_model_husband
 }
 
 bno_focus_on_work = {
@@ -53,7 +53,7 @@ bno_focus_on_work = {
     stress_gain_mult = 0.1
     spouse_opinion = -10
     stacking = yes
-    icon = focus_on_work
+    icon = bno_focus_on_work
 }
 
 bno_model_father = {
@@ -61,11 +61,11 @@ bno_model_father = {
     close_relative_opinion = 10
     stress_loss_mult = 0.1
     stacking = yes
-    icon = model_father
+    icon = bno_model_father
 }
 
 bno_eager_cuckold = {
-    icon = eager_cuckold
+    icon = bno_eager_cuckold
     spouse_opinion = 30
     attraction_opinion = -5
     stress_loss_mult = 0.15
@@ -74,7 +74,7 @@ bno_eager_cuckold = {
 }
 
 bno_blackened_bride = {
-    icon = blackened_bride
+    icon = bno_blackened_bride
     attraction_opinion = 35
     fertility = 0.25
     spouse_opinion = 35
@@ -82,7 +82,7 @@ bno_blackened_bride = {
 }
 
 bno_ceremonial_bull = {
-    icon = ceremonial_bull
+    icon = bno_ceremonial_bull
     stacking = yes
     attraction_opinion = 5
     prowess = 1

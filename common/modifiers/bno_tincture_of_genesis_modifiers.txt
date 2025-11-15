@@ -1,5 +1,5 @@
 ﻿bno_nourishers_fatigue = {
-    icon = nourishers_fatigue_negative
+    icon = bno_nourishers_fatigue
     prowess = -5
     martial = -5
     stress_loss_mult = 0.1
@@ -8,7 +8,7 @@
 }
 
 bno_tincture_of_genesis = {
-    icon = tincture_of_genesis_positive
+    icon = bno_tincture_of_genesis
     inbreeding_chance = -0.1
     negative_random_genetic_chance = -0.1
     negative_inactive_inheritance_chance = -0.1
@@ -17,7 +17,7 @@ bno_tincture_of_genesis = {
 }
 
 bno_primal_vessel = {
-    icon = primal_vessel
+    icon = bno_primal_vessel
     learning = 5
     stewardship = 5
     intrigue = 5
@@ -28,7 +28,7 @@ bno_primal_vessel = {
 }
 
 bno_ebony_bloom = {
-    icon = ebony_bloom
+    icon = bno_ebony_bloom
     inbreeding_chance = -1
     negative_random_genetic_chance = -1
     negative_inactive_inheritance_chance = -1
@@ -37,13 +37,13 @@ bno_ebony_bloom = {
 }
 
 bno_healed_by_seed_of_genesis_cum = {
-    icon = healed_by_seed_of_genesis_cum
+    icon = bno_healed_by_seed_of_genesis_cum
     stacking = yes
     health = 0.01
 }
 
 bno_healing_seed_of_genesis_bull = {
-    icon = healing_seed_of_genesis_bull
+    icon = bno_healing_seed_of_genesis_bull
     stacking = yes
     health = 0.01
     monthly_prestige = 0.01

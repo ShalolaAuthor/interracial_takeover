@@ -66,6 +66,7 @@
         add_to_list = old_character_titles
     }
     hidden_effect = {
+        bno_transfer_all_character_modifier_mtf = yes
         if = {
             limit = {
                 is_ruler = yes
@@ -129,4 +130,68 @@
         }
         
     }
+}
+
+#TODO: add every character modifier added by our mod here
+bno_transfer_character_modifier_from_old_character_to_new_character = {
+    bno_transfer_character_modifier = {
+        SOURCE = scope:old_character
+        TARGET = scope:bno_female
+        MODIFIER = $MODIFIER$
+    }
+}
+
+bno_transfer_all_character_modifier_mtf = {
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_lap_pet }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_finishing_school }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_seedfast }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_cuckold_parade }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_fufu_clip }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_plugged_forever }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_smooth_castrate }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_clitty_descent }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_pillory_plaything }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_mare_night }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_elixir_genesis }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_cum_for_glory }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_cum_for_glory_glorified }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_a_deep_kiss_full_of_love_and_cum }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_black_bred_queen }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_blacked_queen }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_blacked_witness }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_blackened_bride }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_bred_in_secret }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_broodmakers_hand }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_ceremonial_bull }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_claimed_broodmare }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_clitty_descent }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_cum_for_glory }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_cum_for_glory_glorified }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_cuckold_parade }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_cuckolded_king }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_cum_addiction_success }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_eager_cuckold }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_ebony_bloom }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_educated_a_future_queen_of_spades }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_focus_on_work }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_a_future_queen_for_black }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_healed_by_seed_of_genesis_cum }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_healing_seed_of_genesis_bull }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_a_lively_performance_in_a_refugee_camp }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_model_father }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_model_husband }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_model_wife }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_nourishers_fatigue }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_primal_insight }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_primal_vessel }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_proven_male_strength }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_proven_no_male_strength }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_seeded_sovereign }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_sneak_bbc }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_take_good_care_of_wife }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_throne_breeder }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_tincture_of_genesis }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_white_breeder }
+    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_withering_manhood }
+    #TODO: add more modifier, in the future
 }

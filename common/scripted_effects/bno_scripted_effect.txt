@@ -1,0 +1,13 @@
+﻿bno_transfer_character_modifier = {
+    $SOURCE$ = {
+        while = {
+            limit = {
+                has_character_modifier = $MODIFIER$
+            }
+            $TARGET$ = {
+                add_character_modifier = $MODIFIER$
+            }
+            remove_character_modifier = $MODIFIER$
+        }
+    }
+}
