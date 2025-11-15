@@ -59,7 +59,6 @@
             add_character_modifier = bno_elixir_genesis
             set_sexuality = bisexual
             create_story = story_bno_maintenance
-            #TODO: add modifier from original character
         }
     }
     every_held_title = {
@@ -132,7 +131,6 @@
     }
 }
 
-#TODO: add every character modifier added by our mod here
 bno_transfer_character_modifier_from_old_character_to_new_character = {
     bno_transfer_character_modifier = {
         SOURCE = scope:old_character

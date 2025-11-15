@@ -565,7 +565,7 @@ bno_embrace_african_1.0007 = {
 			every_faction_county_member = { remove_from_list = remaining_counties_list }
 		}
     }
-    #TODO: add option to surrender land to BNWO
+    
     option = {
         name = bno_embrace_african_1.0007.a
         # This effect should always be placed here, _before_ all the other effects in the block.
@@ -592,6 +592,76 @@ bno_embrace_african_1.0007 = {
                 trigger_event = bno_embrace_african_1.1007
             }
         }
+    }
+
+    option = {
+        name = bno_embrace_african_1.0007.b
+
+        trigger_event = { on_action = on_faction_demand_accepted }
+        add_prestige_level = -1
+		if = {
+			limit = {
+				dread > 0
+			}
+			add_dread = medium_dread_loss
+		}
+
+		successful_popular_revolt_outcome_effect = {
+			FACTION_LEADER = scope:peasant_leader
+			TARGET_TITLE = scope:target_title
+			SOURCE_GOVERNMENT = root
+		}
+
+		# If the faction includes ALL of our counties, notify the player that it will leave them landless!
+		if = {
+			limit = {
+				any_in_list = {
+					list = remaining_counties_list
+					count < 1
+				}
+			}
+			custom_tooltip = FACTION_DEMAND_POPULIST_ACCEPT_GRANT_INDEPENCE_TT
+		}
+
+		# Struggle Catalysts.
+		# Should rename the Catalysts?
+		if = {
+			limit = {
+				is_important_or_vip_struggle_character = yes
+				any_character_struggle = {
+					involvement = involved
+					activate_struggle_catalyst_secondary_character_involvement_either_trigger = {
+						CATALYST = catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion
+						CHAR = scope:peasant_leader
+					}
+				}
+			}
+			every_character_struggle = {
+				involvement = involved
+				limit = {
+					activate_struggle_catalyst_secondary_character_involvement_either_trigger = {
+						CATALYST = catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion
+						CHAR = scope:peasant_leader
+					}
+				}
+				activate_struggle_catalyst = {
+					catalyst = catalyst_accepted_demand_from_faction_requesting_culture_faith_conversion
+					character = root
+				}
+			}
+		}
+
+		hidden_effect = {
+			if = {
+				limit = {
+					exists = scope:faction
+				}
+				scope:faction = {
+					clean_revolt_county_modifiers_from_faction_members_effect = yes
+					destroy_faction = yes
+				}
+			}
+		}
     }
 
     after = {
