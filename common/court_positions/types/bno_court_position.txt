@@ -116,7 +116,7 @@
         bbc_worshipper_on_invalidated = yes
     }
 
-    candidate_score = {
+    ai_candidate_score = {
         value = 150
         add = bno_bbc_worshipper_candidate_score
     }
@@ -272,7 +272,7 @@ bno_bbc_priestess_court_position = {
         }
     }
     
-    candidate_score = {
+    ai_candidate_score = {
         value = 150
         add = bno_bbc_priestess_candidate_score
     }
@@ -427,7 +427,7 @@ bno_bbc_priest_court_position = {
         }
     }
     
-    candidate_score = {
+    ai_candidate_score = {
         value = 150
         add = bno_bbc_priest_candidate_score
     }
