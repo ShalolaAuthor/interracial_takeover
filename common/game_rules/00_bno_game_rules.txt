@@ -323,3 +323,99 @@ bno_african_culture = {
 		
 	}
 }
+
+bno_boobs_size = {
+	categories = {
+		interracial_takeover
+	}
+
+	default = bno_boobs_size_unlimited
+
+	bno_boobs_size_small = {
+		
+	}
+	
+	bno_boobs_size_medium = {
+		
+	}
+
+	bno_boobs_size_big = {
+		
+	}
+	
+	bno_boobs_size_unlimited = {
+		
+	}
+}
+
+bno_ass_size = {
+	categories = {
+		interracial_takeover
+	}
+
+	default = bno_ass_size_unlimited
+
+	bno_ass_size_small = {
+		
+	}
+	
+	bno_ass_size_medium = {
+		
+	}
+
+	bno_ass_size_big = {
+		
+	}
+	
+	bno_ass_size_unlimited = {
+		
+	}
+}
+
+bno_waist_size = {
+	categories = {
+		interracial_takeover
+	}
+
+	default = bno_waist_size_unlimited
+
+	bno_waist_size_small = {
+		
+	}
+	
+	bno_waist_size_medium = {
+		
+	}
+
+	bno_waist_size_big = {
+		
+	}
+	
+	bno_waist_size_unlimited = {
+		
+	}
+}
+
+bno_skin_color = {
+	categories = {
+		interracial_takeover
+	}
+
+	default = bno_skin_color_unlimited
+
+	bno_skin_color_light = {
+		
+	}
+	
+	bno_skin_color_tanned = {
+		
+	}
+
+	bno_skin_color_brown = {
+		
+	}
+	
+	bno_skin_color_unlimited = {
+		
+	}
+}

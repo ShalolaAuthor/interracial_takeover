@@ -85,14 +85,71 @@ hair_color_y = {
 	min = -1
 }
 
+bno_skin_color_max_limit = {
+	switch = {
+		trigger = has_game_rule
+		bno_skin_color_light = { value = 1 }
+		bno_skin_color_tanned = { value = 2 }
+		bno_skin_color_brown = { value = 3 }
+		fallback = { value = 4 }
+	}
+}
+
+bno_boobs_size_limit = {
+	switch = {
+		trigger = has_game_rule
+		bno_boobs_size_small = { value = 1 }
+		bno_boobs_size_medium = { value = 2 }
+		bno_boobs_size_big = { value = 3 }
+		fallback = { value = 4 }
+	}
+}
+
+bno_boobs_size = {
+	value = bno_genesis_transformation_value
+	max = bno_boobs_size_limit
+}
+
+bno_ass_size_limit = {
+	switch = {
+		trigger = has_game_rule
+		bno_ass_size_small = { value = 1 }
+		bno_ass_size_medium = { value = 2 }
+		bno_ass_size_big = { value = 3 }
+		fallback = { value = 4 }
+	}
+}
+
+bno_ass_size = {
+	value = bno_genesis_transformation_value
+	max = bno_ass_size_limit
+}
+
+bno_waist_size_limit = {
+	switch = {
+		trigger = has_game_rule
+		bno_waist_size_small = { value = 1 }
+		bno_waist_size_medium = { value = 2 }
+		bno_waist_size_big = { value = 3 }
+		fallback = { value = 4 }
+	}
+}
+
+bno_waist_size = {
+	value = bno_genesis_transformation_value
+	max = bno_waist_size_limit
+}
+
 skin_color_x = {
   value = { -0.125 -0.1 }
   multiply = bno_genesis_transformation_amount
+  max = bno_skin_color_max_limit
 }
 
 skin_color_y = {
   value = { 0.1 0.125 }
   multiply = bno_genesis_transformation_amount
+  max = bno_skin_color_max_limit
 }
 
 bno_younger_adult = {

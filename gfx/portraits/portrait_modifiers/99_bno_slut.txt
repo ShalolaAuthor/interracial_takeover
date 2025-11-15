@@ -352,7 +352,7 @@ bno_boobs = {
 					value = 0.04
 					multiply = {
 						value = var:bno_breast_size
-						add = bno_genesis_transformation_value
+						add = bno_boobs_size
 					}
 				}
 			}
@@ -363,7 +363,7 @@ bno_boobs = {
 					value = 0.1
 					multiply = {
 						value = var:bno_breast_size
-						add = bno_genesis_transformation_value
+						add = bno_boobs_size
 					}
 				}
 			}
@@ -376,7 +376,7 @@ bno_boobs = {
 					value = 0.04
 					multiply = {
 						value = var:bno_breast_size
-						add = bno_genesis_transformation_value
+						add = bno_boobs_size
 					}
 				}
 			}
@@ -389,7 +389,7 @@ bno_boobs = {
 					value = 0.04
 					multiply = {
 						value = var:bno_breast_size
-						add = bno_genesis_transformation_value
+						add = bno_boobs_size
 					}
 				}
 			}
@@ -400,7 +400,7 @@ bno_boobs = {
 					value = 0.1
 					multiply = {
 						value = var:bno_breast_size
-						add = bno_genesis_transformation_value
+						add = bno_boobs_size
 					}
 				}
 			}
@@ -425,7 +425,7 @@ bno_bigger_butts = {
 				mode = modify gene = gene_bs_butt_size
 				value = {
 					add = {
-						value = bno_genesis_transformation_amount
+						value = bno_ass_size
 						divide = 10
 					}
 				}
@@ -436,7 +436,7 @@ bno_bigger_butts = {
 				gene = gene_bs_hips_size
 				value = {
 					add = {
-						value = bno_genesis_transformation_amount
+						value = bno_ass_size
 						divide = 10
 					}
 				}
@@ -464,7 +464,7 @@ bno_smaller_waist = {
 				gene = gene_bs_waist_size
 				value = {
 					add = {
-						value = bno_genesis_transformation_amount
+						value = bno_waist_size
 						multiply = -1
 						divide = 10
 					}
@@ -475,7 +475,7 @@ bno_smaller_waist = {
 				gene = gene_bs_shoulders_size
 				value = {
 					add = {
-						value = bno_genesis_transformation_amount
+						value = bno_waist_size
 						multiply = -1
 						divide = 10
 					}
