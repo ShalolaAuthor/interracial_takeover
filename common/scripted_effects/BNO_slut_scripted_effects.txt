@@ -37,8 +37,16 @@ bno_conversion_effect = {
 	}
 	if = {
 		limit = {
-			NOT = { this = scope:bno_religious_head }
+			exists = scope:bno_religious_head
 		}
+		if = {
+			limit = {
+				NOT = { this = scope:bno_religious_head }
+			}
+			set_character_faith = $FAITH$
+		}
+	}
+	else = {		
 		set_character_faith = $FAITH$
 	}
 }
