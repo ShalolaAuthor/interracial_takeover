@@ -7,16 +7,16 @@
 		icon = tenet_bno_black_cock_conquest
 
 		is_shown = {
-			religion_tag = bnonr_religion
+			is_considered_bno_faith = yes
 		}
 
 		can_pick = {
-			religion_tag = bnonr_religion
+			is_considered_bno_faith = yes
 		}
 
 		piety_cost = {
 			value = faith_tenet_cost_massive
-			multiply = 10
+			multiply = 1
 			if = {
 				limit = { has_doctrine = tenet_bno_aniconism }
 				multiply = faith_unchanged_doctrine_cost_mult
@@ -43,16 +43,16 @@
 		icon = tenet_bno_aniconism
 
 		is_shown = {
-			religion_tag = bnonr_religion
+			is_considered_bno_faith = yes
 		}
 
 		can_pick = {
-			religion_tag = bnonr_religion
+			is_considered_bno_faith = yes
 		}
 
 		piety_cost = {
 			value = faith_tenet_cost_massive
-			multiply = 10
+			multiply = 1
 			if = {
 				limit = { has_doctrine = tenet_bno_aniconism }
 				multiply = faith_unchanged_doctrine_cost_mult
@@ -75,10 +75,10 @@
 	tenet_bno_seed_of_divine_blessing = {
 		icon = tenet_bno_seed_of_diving_blessing
 		is_shown = {
-			religion_tag = bnonr_religion
+			is_considered_bno_faith = yes
 		}
 		can_pick = {
-			religion_tag = bnonr_religion
+			is_considered_bno_faith = yes
 		}
 		piety_cost = {
 			value = faith_tenet_cost_massive

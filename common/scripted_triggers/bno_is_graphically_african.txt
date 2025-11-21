@@ -53,5 +53,7 @@ is_culture_bnoc = {
 }
 
 is_faith_bbcs = {
-	faith.religion = religion:bnonr_religion
+	faith = {
+		is_considered_bno_faith = yes
+	}
 }

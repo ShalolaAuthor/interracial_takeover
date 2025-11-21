@@ -1,0 +1,6 @@
+﻿is_considered_bno_faith = {
+    OR = {
+        religion_tag = bnonr_religion
+        has_doctrine = tenet_bno_syncretism
+    }
+}
