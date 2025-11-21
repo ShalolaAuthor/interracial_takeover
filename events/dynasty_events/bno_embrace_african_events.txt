@@ -371,6 +371,10 @@ bno_embrace_african_1.0005 = {
 
     trigger = {
         is_ruler = yes
+        OR = {
+            is_whiteboi = yes
+            is_bno_curious = yes
+        }
         dynasty ?= {
             has_dynasty_perk = bno_embrace_african_1
         }

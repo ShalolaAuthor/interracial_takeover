@@ -136,7 +136,7 @@ bno_get_local_bbc = {
         every_pool_character = {
             province = scope:province_temp
             limit = {
-                is_bbc = yes
+                is_ai_blackbull = yes
             }
             add_to_temporary_list = local_bbc
         }
