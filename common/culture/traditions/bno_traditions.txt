@@ -41,64 +41,46 @@
                 desc = BASE
                 format = "BASE_VALUE_FORMAT"
             }
-            if = {
-                limit = {
-                    scope:character = {
-                        is_bno_curious_and_up = yes
+            scope:character = {
+                if = {
+                    limit = { is_bno_curious_and_up = yes }
+                    subtract = {
+                        value = 2000
+                        multiply = 0.1
+                        desc = bno_tradition.curious
                     }
                 }
-                subtract = {
-                    value = 2000
-                    multiply = 0.1
-                    desc = bno_tradition.curious
-                }
-            }
-            if = {
-                limit = {
-                    scope:character = {
-                        is_bno_blacked_and_up = yes
+                if = {
+                    limit = { is_bno_blacked_and_up = yes }
+                    subtract = {
+                        value = 2000
+                        multiply = 0.1
+                        desc = bno_tradition.blacked
                     }
                 }
-                subtract = {
-                    value = 2000
-                    multiply = 0.1
-                    desc = bno_tradition.blacked
-                }
-            }
-            if = {
-                limit = {
-                    scope:character = {
-                        is_bno_snowbunny_and_up = yes
+                if = {
+                    limit = { is_bno_snowbunny_and_up = yes }
+                    subtract = {
+                        value = 2000
+                        multiply = 0.1
+                        desc = bno_tradition.snowbunny
                     }
                 }
-                subtract = {
-                    value = 2000
-                    multiply = 0.1
-                    desc = bno_tradition.snowbunny
-                }
-            }
-            if = {
-                limit = {
-                    scope:character = {
-                        is_bno_qos_and_up = yes
+                if = {
+                    limit = { is_bno_qos_and_up = yes }
+                    subtract = {
+                        value = 2000
+                        multiply = 0.1
+                        desc = bno_tradition.qos
                     }
                 }
-                subtract = {
-                    value = 2000
-                    multiply = 0.1
-                    desc = bno_tradition.qos
-                }
-            }
-            if = {
-                limit = {
-                    scope:character = {
-                        is_bno_mindless_bbc_slut = yes
+                if = {
+                    limit = { is_bno_mindless_bbc_slut = yes }
+                    subtract = {
+                        value = 2000
+                        multiply = 0.1
+                        desc = bno_tradition.mindless
                     }
-                }
-                subtract = {
-                    value = 2000
-                    multiply = 0.1
-                    desc = bno_tradition.mindless
                 }
             }
         }
