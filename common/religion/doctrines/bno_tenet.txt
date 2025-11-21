@@ -16,7 +16,7 @@
 
 		piety_cost = {
 			value = faith_tenet_cost_massive
-			multiply = 1
+			multiply = 5
 			if = {
 				limit = { has_doctrine = tenet_bno_aniconism }
 				multiply = faith_unchanged_doctrine_cost_mult
@@ -44,15 +44,17 @@
 
 		is_shown = {
 			is_considered_bno_faith = yes
+			has_doctrine = tenet_bno_black_cock_conquest
 		}
 
 		can_pick = {
 			is_considered_bno_faith = yes
+			has_doctrine = tenet_bno_black_cock_conquest
 		}
 
 		piety_cost = {
 			value = faith_tenet_cost_massive
-			multiply = 1
+			multiply = 5
 			if = {
 				limit = { has_doctrine = tenet_bno_aniconism }
 				multiply = faith_unchanged_doctrine_cost_mult
@@ -76,13 +78,17 @@
 		icon = tenet_bno_seed_of_diving_blessing
 		is_shown = {
 			is_considered_bno_faith = yes
+			has_doctrine = tenet_bno_black_cock_conquest
+			has_doctrine = tenet_bno_aniconism
 		}
 		can_pick = {
 			is_considered_bno_faith = yes
+			has_doctrine = tenet_bno_black_cock_conquest
+			has_doctrine = tenet_bno_aniconism
 		}
 		piety_cost = {
 			value = faith_tenet_cost_massive
-			multiply = 10
+			multiply = 5
 			if = {
 				limit = { has_doctrine = tenet_bno_aniconism }
 				multiply = faith_unchanged_doctrine_cost_mult
