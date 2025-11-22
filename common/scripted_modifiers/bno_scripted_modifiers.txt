@@ -236,22 +236,22 @@ bno_decision_modifier = {
 bno_white_girl_modifier_small = {
 	modifier = {
 		add = 5
-		is_bno_curious = yes
+		is_bno_curious_and_up = yes
 	}
 	modifier = {
 		add = 10
-		is_bno_blacked = yes
+		is_bno_blacked_and_up = yes
 	}
 	modifier = {
 		add = 15
-		is_bno_snowbunny = yes
+		is_bno_snowbunny_and_up = yes
 	}
 	modifier = {
 		add = 20
-		is_bno_qos = yes
+		is_bno_qos_and_up = yes
 	}
 	modifier = {
-		add = 25
+		add = 50
 		is_bno_mindless_bbc_slut = yes
 	}
 }

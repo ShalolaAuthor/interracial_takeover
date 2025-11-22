@@ -212,6 +212,7 @@
                     is_bbc = no
                     liege ?= {
                         has_chastity_cage_artifact = yes
+						is_ai = yes
                         trigger_if = {
                             limit = { is_a_male = yes }
                             is_bbc = yes
@@ -367,6 +368,7 @@
         triggered_effect = {
             trigger = {
                 story_owner ?= {
+					is_ai = yes
                     has_tincture_of_genesis_artifact = yes
                     OR = {
 			        	bno_is_valid_target_for_tincture_of_genesis = yes
@@ -479,6 +481,7 @@
 		triggered_effect = {
 			trigger = {
 				story_owner ?= {
+					is_ai = yes
 					has_elixir_of_the_black_womb_artifact = yes
 					OR = {
 						bno_is_valid_target_for_elixir_of_the_black_womb = yes
@@ -576,6 +579,7 @@
         triggered_effect = {
             trigger = {
                 story_owner ?= {
+					is_ai = yes
                     is_adult = yes
                     is_bbc = yes
                     is_married = yes
@@ -612,6 +616,7 @@
         triggered_effect = {
             trigger = {
                 story_owner ?= {
+					is_ai = yes
                     bno_has_bbc_priest_or_priestess = yes
 			        gold >= bno_cure_disease_interaction_cost
 			        is_at_war = no
@@ -682,6 +687,7 @@
         triggered_effect = {
             trigger = {
                 story_owner ?= {
+					is_ai = yes
                     is_bno_actor = yes
                     OR = {
                         any_prisoner = {
@@ -741,6 +747,7 @@
         triggered_effect = {
             trigger = {
                 story_owner ?= {
+					is_ai = yes
                     bno_prisoner_is_valid_actor_trigger = yes
 			        has_chastity_cage_artifact = yes
 			        any_prisoner = {
@@ -766,6 +773,7 @@
         triggered_effect = {
             trigger = {
                 story_owner ?= {
+					is_ai = yes
                     has_tincture_of_genesis_artifact = yes
                     bno_prisoner_is_valid_actor_trigger = yes
 			        any_prisoner = {
@@ -791,6 +799,7 @@
         triggered_effect = {
             trigger = {
                 story_owner ?= {
+					is_ai = yes
                     bno_prisoner_is_valid_actor_trigger = yes
 			        any_prisoner = {
 			        	bno_not_a_bbc_slave = yes
@@ -815,6 +824,7 @@
         triggered_effect = {
             trigger = {
                 story_owner ?= {
+					is_ai = yes
                     bno_basic_interaction_valid_actor = yes
 			        trigger_if = {
 			        	limit = { is_slut = yes }
@@ -953,6 +963,7 @@
         triggered_effect = {
             trigger = {
                 story_owner ?= {
+					is_ai = yes
                     age >= 18
                     trigger_if = {
 			        	limit = { is_bbc = yes }
@@ -1096,20 +1107,6 @@
 				story_owner ?= {
 					remove_trait = femboi
 					add_trait = bno_femboi
-				}
-			}
-		}
-		#ritual of purification
-		triggered_effect = {
-			trigger = {
-				story_owner ?= {
-					is_shown_for_bno_becoming_pure_white_decision = yes
-					is_valid_for_bno_becoming_pure_white_decision = yes
-				}
-			}
-			effect = {
-				story_owner ?= {
-					trigger_event = bno_ritual_of_purification.2222
 				}
 			}
 		}

@@ -122,7 +122,7 @@ tradition_bno_the_great_submission = {
         }
     }
 
-    parameters = {
+    parameters = {#TODO: add localization that make sense
         bno_unlock_breeding_bull_court_position = yes #TODO: add new position called breeding bull
         bno_unlock_cuck_acceptance = yes #TODO: add willing cuckold trait
         bno_unlock_seek_black_patronage_scheme = yes #TODO: add black patronage scheme: attract african refugees
