@@ -167,7 +167,6 @@ bno_transfer_all_character_modifier_mtf = {
     bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_cum_for_glory_glorified }
     bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_cuckold_parade }
     bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_cuckolded_king }
-    bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_cum_addiction_success }
     bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_eager_cuckold }
     bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_ebony_bloom }
     bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_educated_a_future_queen_of_spades }

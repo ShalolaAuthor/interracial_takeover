@@ -767,36 +767,40 @@ bno_increase_pussy_wear = {
 						is_bbc = yes
 					}
                 }
-				switch = {
-                    trigger = has_trait
-                    bno_pussy_mileage_1 = {
-                        bno_bbc_pussy_wear_effect = {
-                            PUSSY_WEAR_TRAIT = bno_pussy_mileage_1
-                        }
-                    }
-                    bno_pussy_mileage_2 = {
-                        bno_bbc_pussy_wear_effect = {
-                            PUSSY_WEAR_TRAIT = bno_pussy_mileage_2
-                        }
-                    }
-                    bno_pussy_mileage_3 = {
-                        bno_bbc_pussy_wear_effect = {
-                            PUSSY_WEAR_TRAIT = bno_pussy_mileage_3
-                        }
-                    }
-                    bno_pussy_mileage_4 = {
-                        bno_bbc_pussy_wear_effect = {
-                            PUSSY_WEAR_TRAIT = bno_pussy_mileage_4
-                        }
-                    }
-                    bno_pussy_mileage_5 = {
-                        bno_bbc_pussy_wear_effect = {
-                            PUSSY_WEAR_TRAIT = bno_pussy_mileage_5
-                        }
-                    }
-                }
+				bno_just_increase_pussy_wear_xp = yes
             }
 		}
+	}
+}
+
+bno_just_increase_pussy_wear_xp = {
+	switch = {
+        trigger = has_trait
+        bno_pussy_mileage_1 = {
+            bno_bbc_pussy_wear_effect = {
+                PUSSY_WEAR_TRAIT = bno_pussy_mileage_1
+            }
+        }
+        bno_pussy_mileage_2 = {
+            bno_bbc_pussy_wear_effect = {
+                PUSSY_WEAR_TRAIT = bno_pussy_mileage_2
+            }
+        }
+        bno_pussy_mileage_3 = {
+            bno_bbc_pussy_wear_effect = {
+                PUSSY_WEAR_TRAIT = bno_pussy_mileage_3
+            }
+        }
+        bno_pussy_mileage_4 = {
+            bno_bbc_pussy_wear_effect = {
+                PUSSY_WEAR_TRAIT = bno_pussy_mileage_4
+            }
+        }
+        bno_pussy_mileage_5 = {
+            bno_bbc_pussy_wear_effect = {
+                PUSSY_WEAR_TRAIT = bno_pussy_mileage_5
+            }
+        }
 	}
 }
 

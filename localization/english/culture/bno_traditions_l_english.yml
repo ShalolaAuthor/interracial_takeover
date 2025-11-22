@@ -24,7 +24,7 @@ bno_tradition.cuck: "$EFFECT_LIST_BULLET$A true Cuck pays less, his purpose fulf
 bno_tradition.beta: "$EFFECT_LIST_BULLET$As a Beta, he begs to serve, the price lowered for knowing his inferior place."
 bno_tradition.jos: "$EFFECT_LIST_BULLET$A Joy of Spades pays little, his authority already surrendered to Black superiority."
 
-culture_parameter_bno_unlock_breeding_bull_court_position: ""
-culture_parameter_bno_unlock_cuck_acceptance: ""
-culture_parameter_bno_unlock_seek_black_patronage_scheme: ""
-culture_parameter_bno_unlock_offer_tribute_scheme: ""
+culture_parameter_bno_unlock_breeding_bull_court_position: "Can appoint the [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]"
+culture_parameter_bno_unlock_cuck_acceptance: "The [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] line have additional bonuses - our men find honor in watching their wives be taken by superior Black cocks."
+culture_parameter_bno_unlock_seek_black_patronage_scheme: "Unlocks [GetScheme('bno_seek_black_patronage').GetTypeName] [scheme|E] - seeks Black masters for protection and guidance in our surrender."
+culture_parameter_bno_unlock_offer_tribute_scheme: "Unlocks [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - offers our daughters as tribute to BBC lords for their use and pleasure."

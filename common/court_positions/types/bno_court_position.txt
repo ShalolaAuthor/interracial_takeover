@@ -547,5 +547,4 @@ bno_breeding_bull_court_position = {
         value = 150
         add = bno_breeding_bull_candidate_score
     }
-    
 }

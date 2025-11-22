@@ -115,10 +115,7 @@ tradition_bno_the_great_submission = {
     can_pick = {
         scope:character = {
             is_culture_bnoc = no
-            OR = {
-                is_slut = yes
-                is_whiteboi = yes
-            }
+            is_slut_or_whiteboi = yes
         }
     }
 

@@ -1334,6 +1334,7 @@ bno_cum_addiction.0007 = {
             bno_increase_cum_addiction_level = yes
         }
         set_relation_bno_cum_slave = scope:target
+        add_trait = bno_bull
     }
 
     option = { # gain scheme modifier

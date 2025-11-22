@@ -10,3 +10,7 @@ has_dynasty_perk_5_and_piety_level = {
 has_dynasty_perk_1 = {
     global_not = has_dynasty_perk_1
 }
+
+bno.trigger.is_slut_or_whiteboi = {
+    global_not = bno.trigger.is_slut_or_whiteboi
+}

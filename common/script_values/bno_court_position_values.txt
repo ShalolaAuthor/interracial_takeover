@@ -963,3 +963,182 @@ bno_bbc_priest_candidate_score = {
 		add = 1000
 	}
 }
+
+### Breeding Bull
+
+#bno_breeding_bull_aptitude
+#bno_breeding_bull_revoke_cost
+#bno_breeding_bull_salary
+#bno_breeding_bull_candidate_score
+
+bno_breeding_bull_aptitude = {
+    value = 20
+    switch = {
+        trigger = has_trait
+        beauty_good_1 = { add = 10 }
+        beauty_good_2 = { add = 20 }
+        beauty_good_3 = { add = 30 }
+        beauty_bad_1 = { add = -10 }
+        beauty_bad_2 = { add = -10 }
+        beauty_bad_3 = { add = -10 }
+    }
+    switch = {
+        trigger = has_trait
+        intellect_good_1 = { add = 10 }
+        intellect_good_2 = { add = 20 }
+        intellect_good_3 = { add = 30 }
+        intellect_bad_1 = { add = -10 }
+        intellect_bad_2 = { add = -10 }
+        intellect_bad_3 = { add = -10 }
+    }
+    switch = {
+        trigger = has_trait
+        physique_good_1 = { add = 10 }
+        physique_good_2 = { add = 20 }
+        physique_good_3 = { add = 30 }
+        physique_bad_1 = { add = -10 }
+        physique_bad_2 = { add = -10 }
+        physique_bad_3 = { add = -10 }
+    }
+    if = {
+        limit = { has_trait = fecund }
+        add = 10
+    }
+    if = {
+        limit = { has_trait = clubfooted }
+        add = -10
+    }
+    if = {
+        limit = { has_trait = hunchbacked }
+        add = -10
+    }
+    if = {
+        limit = { has_trait = lisping }
+        add = -10
+    }
+    if = {
+        limit = { has_trait = stuttering }
+        add = -10
+    }
+    if = {
+        limit = { has_trait = dwarf }
+        add = -10
+    }
+    if = {
+        limit = { has_trait = giant }
+        add = -10
+    }
+    if = {
+        limit = { has_trait = spindly }
+        add = -10
+    }
+    if = {
+        limit = { has_trait = scaly }
+        add = -10
+    }
+    if = {
+        limit = { has_trait = albino }
+        add = -10
+    }
+    if = {
+        limit = { has_trait = wheezing }
+        add = -10
+    }
+    if = {
+        limit = { has_trait = bleeder }
+        add = -10
+    }
+    if = {
+        limit = { has_trait = infertile }
+        multiply = 0
+    }
+    if = {
+        limit = { has_trait = depressed_genetic }
+        multiply = 0
+    }if = {
+        limit = { has_trait = lunatic_genetic }
+        multiply = 0
+    }
+}
+
+bno_breeding_bull_salary = {
+    value = major_court_position_salary # Update X_salary_tooltip if script_value is changed
+	# Set to 0 with Dynasty Perk Inner Circle
+	if = {
+		limit = { court_position_inner_circle_salary_trigger = { POS = bno_breeding_bull } }
+		multiply = {
+			value = 0
+			desc = inner_circle_salary_mod
+			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+		}
+	}
+	# Halved with obligation hook
+	else_if = {
+		limit = {
+			court_position_obligation_hook_salary_trigger = {
+				POS = bno_breeding_bull
+				LIEGE = scope:liege
+			}
+		}
+		multiply = {
+			value = 0.5
+			desc = obligation_hook_salary
+		}
+	}
+	# Halved salary
+	if = {
+		limit = {
+			court_position_halved_salary_trigger = { POS = bno_breeding_bull }
+		}
+		multiply = {
+			value = 0.5
+			desc = court_position_halved_salary
+			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+		}
+	}
+	# Increased salary
+	if = {
+		limit = {
+			court_position_increased_salary_trigger = { POS = bno_breeding_bull }
+		}
+		multiply = {
+			value = 1.5
+			desc = court_position_increased_salary
+			format = "BASE_VALUE_FORMAT_DECIMALS_MINUS_POSITIVE"
+		}
+	}
+}
+
+bno_breeding_bull_revoke_cost = {
+    value = major_court_position_prestige_revoke_cost
+	# Set to 0 via obligation hook
+	if = {
+		limit = {
+			court_position_obligation_hook_salary_trigger = {
+				POS = bno_breeding_bull
+				LIEGE = scope:liege
+			}
+		}
+		multiply = 0
+	}
+	if = {
+		limit = {
+			exists = this
+			is_ai = yes
+		}
+		multiply = 0
+	}
+}
+
+bno_breeding_bull_candidate_score = {
+    value = 0
+    add = scope:base_value
+	add = court_position_candidate_score_base_value
+	add = court_position_candidate_aptitude_value
+    if = { # To stop petitioned positions immediately being fired by the AI
+		limit = {
+			court_position_petition_ai_weight_trigger = { ROLE = bno_breeding_bull }
+		}
+		add = 1000
+	}
+}

@@ -20,6 +20,16 @@ is_bno_actor = {
     }
 }
 
+is_slut_or_whiteboi = {
+	custom_description = {
+		text = bno.trigger.is_slut_or_whiteboi
+		OR = {
+            is_slut = yes
+            is_whiteboi = yes
+        }
+	}
+}
+
 is_a_male = {
 	custom_tooltip = {
 		text = is_a_male

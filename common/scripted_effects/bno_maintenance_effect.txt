@@ -56,7 +56,7 @@ bno_apply_pussy_mileage_trait = {
         bno_generic_rank_increase = {
             TRAIT_GROUP = bno_pussy_mileage
         }
-        bno_increase_pussy_wear = yes
+        bno_just_increase_pussy_wear_xp = yes
     }
     if = {
         limit = {
@@ -65,9 +65,10 @@ bno_apply_pussy_mileage_trait = {
                 count >= 1
             }
         }
+        save_temporary_scope_as = bno_pussy_wear
         every_child = {
-            root = {
-                bno_increase_pussy_wear = yes
+            scope:bno_pussy_wear = {
+                bno_just_increase_pussy_wear_xp = yes
             }
         }
     }
