@@ -432,3 +432,120 @@ bno_bbc_priest_court_position = {
         add = bno_bbc_priest_candidate_score
     }
 }
+
+bno_breeding_bull_court_position = {
+    sort_order = 501
+    max_available_positions = 3
+    minimum_rank = county
+    skill = martial
+
+    court_position_asset = {
+        animation = personality_content
+        background = "gfx/interface/illustrations/event_scenes/bedchamber.dds"
+    }
+
+    opinion = {
+        value = 20
+    }
+
+    aptitude_level_breakpoints = { 20 40 60 80 }
+
+    aptitude = {
+        value = bno_breeding_bull_aptitude
+    }
+
+    is_shown = {
+        culture = {
+            has_cultural_parameter = bno_unlock_breeding_bull_court_position
+        }
+    }
+
+    is_shown_character = {
+        scope:employee = {
+            is_imprisoned = no
+            is_incapable = no
+        }
+    }
+
+    valid_character = {
+        scope:employee = {
+            liege = scope:liege
+            is_landed = no
+            is_bbc = yes
+            is_adult = yes
+            health > 0
+            NOT = { has_trait = lovers_pox }
+        }
+    }
+
+    revoke_cost = {
+        prestige = {
+            value = bno_breeding_bull_revoke_cost
+        }
+    }
+
+    salary = {
+        round = no
+        gold = {
+            value = bno_breeding_bull_salary
+        }
+    }
+
+    base_employer_modifier = {
+        #TODO: search for a fitting employer modifier
+    }
+
+    base_employer_court_modifier = {
+        #TODO: search for a fitting court modifier maybe fertility?
+    }
+
+    scaling_employer_court_modifiers = {
+        terrible = {
+
+        }
+        poor = {
+
+        }
+        average = {
+
+        }
+        good = {
+
+        }
+        excellent = {
+
+        }
+    }
+    # Modifiers gained by the holder of the court position.
+    modifier = {
+        #TODO: look for a fitting 
+    }
+
+    custom_employer_modifier_description = bno_breeding_bull.employer.modifier.desc
+
+    custom_employee_modifier_description = bno_breeding_bull.employee.modifier.desc
+
+    on_court_position_received = {
+        scope:employee ?= {
+
+        }
+    }
+
+    on_court_position_revoked = {
+
+    }
+
+    on_court_position_invalidated = {
+
+    }
+
+    on_court_position_vacated = {
+
+    }
+
+    ai_candidate_score = {
+        value = 150
+        add = bno_breeding_bull_candidate_score
+    }
+    
+}
