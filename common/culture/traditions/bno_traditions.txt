@@ -87,16 +87,151 @@
     }
 
     ai_will_do = {
-        value = 1000
-        if = {
-            limit = {
-                NOT = {
-                    scope:character = {
-                        is_a_girl = yes
+        value = 0
+        scope:character = {
+            if = {
+                limit = { is_a_girl = yes }
+                add = 1000000
+            }
+        }
+    }
+}
+
+tradition_bno_the_great_submission = {
+    category = bno
+
+    #PLACEHOLDER
+    layers = {
+        0 = "default4.dds"
+        1 = "default_todo2.dds"
+        2 = "rec1 copy 2.dds"
+        3 = "6.dds"
+        4 = "bno_great_submission.dds"
+    }
+    is_shown = {
+        always = yes
+    }
+
+    can_pick = {
+        scope:character = {
+            is_culture_bnoc = no
+            OR = {
+                is_slut = yes
+                is_whiteboi = yes
+            }
+        }
+    }
+
+    parameters = {
+        bno_unlock_breeding_bull_court_position = yes #TODO: add new position called breeding bull
+        bno_unlock_cuck_acceptance = yes #TODO: add willing cuckold trait
+        bno_unlock_seek_black_patronage_scheme = yes #TODO: add black patronage scheme: attract african refugees
+        bno_unlock_offer_tribute_scheme = yes #TODO: add offer tribute scheme: sent beautiful daughters to a BBC ruler (gain massive prestige, and character modifier)
+    }
+
+    character_modifier = {
+        development_growth = 0.25
+        monthly_county_control_growth_add = 0.25
+        fertility = 0.5
+        same_culture_opinion = 20
+        opinion_of_same_culture = 20
+    }
+
+    culture_modifier = {
+        culture_tradition_max_add = 1
+    }
+
+    cost = {
+        prestige = {
+            add = {
+                value = tradition_base_cost
+                desc = BASE
+                format = "BASE_VALUE_FORMAT"
+            }
+            scope:character = {
+                if = {
+                    limit = { is_bno_curious_and_up = yes }
+                    subtract = {
+                        value = 200
+                        desc = bno_tradition.curious
+                    }
+                }
+                if = {
+                    limit = { is_bno_blacked_and_up = yes }
+                    subtract = {
+                        value = 200
+                        desc = bno_tradition.blacked
+                    }
+                }
+                if = {
+                    limit = { is_bno_snowbunny_and_up = yes }
+                    subtract = {
+                        value = 200
+                        desc = bno_tradition.snowbunny
+                    }
+                }
+                if = {
+                    limit = { is_bno_qos_and_up = yes }
+                    subtract = {
+                        value = 200
+                        desc = bno_tradition.qos
+                    }
+                }
+                if = {
+                    limit = { is_bno_mindless_bbc_slut = yes }
+                    subtract = {
+                        value = 200
+                        desc = bno_tradition.mindless
+                    }
+                }
+                if = {
+                    limit = { is_bno_cuckish_and_up = yes }
+                    subtract = {
+                        value = 200
+                        desc = bno_tradition.cuckish
+                    }
+                }
+                if = {
+                    limit = { is_bno_cuck_and_up = yes }
+                    subtract = {
+                        value = 200
+                        desc = bno_tradition.cuck
+                    }
+                }
+                
+                if = {
+                    limit = { is_bno_beta_and_up = yes }
+                    subtract = {
+                        value = 200
+                        desc = bno_tradition.beta
+                    }
+                }
+                if = {
+                    limit = { is_jos = yes }
+                    subtract = {
+                        value = 200
+                        desc = bno_tradition.jos
                     }
                 }
             }
-            multiply = 0
+        }
+    }
+
+    ai_will_do = {
+        value = 0
+        scope:character = {
+            if = {
+                limit = { is_whiteboi = yes }
+                add = 1000000
+            }
+            if = {
+                limit = { is_slut = yes }
+                add = 1000000
+            }
+            if = {
+                limit = { is_culture_bnoc = yes }
+                multiply = 0
+            }
         }
     }
 }

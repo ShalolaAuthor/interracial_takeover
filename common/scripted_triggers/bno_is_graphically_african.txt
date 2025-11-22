@@ -41,14 +41,9 @@ bno_is_culture_african = {
 }
 
 is_culture_bnoc = {
-	trigger_if = {
-		limit = { has_game_rule = bno_african_culture_no }
-		bno_is_graphically_african = yes
-	}
-	trigger_else = {
-		culture = {
-			has_cultural_pillar = heritage_bnoc
-		}
+	OR = {
+		culture = { has_cultural_pillar = heritage_bnoc }
+		culture = { has_cultural_tradition = tradition_bno_the_great_submission }
 	}
 }
 
