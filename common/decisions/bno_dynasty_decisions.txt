@@ -274,9 +274,6 @@ bno_build_bbc_trader_decision = {
 		months = 12
 	}
 	effect = {
-		trigger_event = {
-			on_action = bno_caravan_on_action
-		}
 		send_interface_message = {
 			type = bno_blacked_events
 			title = {
@@ -307,6 +304,9 @@ bno_build_bbc_trader_decision = {
 					}
 				}
 			}
+		}
+		trigger_event = {
+			on_action = bno_caravan_on_action
 		}
 	}
 	ai_check_interval = 12

@@ -24,7 +24,7 @@
     }
 
     ai_chance = {
-        value = 10000
+        value = 1000000
     }
 }
 
@@ -64,7 +64,7 @@ bno_embrace_african_2 = {
         bno_bbc = 100
     }
     ai_chance = {
-        value = 10000
+        value = 1000000
     }
 }
 
@@ -97,7 +97,7 @@ bno_embrace_african_3 = {
         learn_language_scheme_phase_duration_add = -10
     }
     ai_chance = {
-        value = 10000
+        value = 1000000
     }
 }
 
@@ -125,7 +125,7 @@ bno_embrace_african_4 = {
         #bonus competency and efficiency for BBC Courtier
     }
     ai_chance = {
-        value = 10000
+        value = 1000000
     }
 }
 
@@ -162,6 +162,6 @@ bno_embrace_african_5 = {
         vassal_tax_mult = 0.2
     }
     ai_chance = {
-        value = 10000
+        value = 1000000
     }
 }
