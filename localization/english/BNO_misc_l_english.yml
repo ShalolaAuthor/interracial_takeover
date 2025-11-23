@@ -5,10 +5,6 @@ trait_bno_bbc_desc: "This character has a massive black cock and the urge to fuc
 trait_bno_whiteboi_1: "Cucked?"
 trait_bno_whiteboi_1_desc: "This character's wife as recently grown distant to her. Why?"
 trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] wife has grown distant, her affections pulled elsewhere by a force [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] cannot challenge."
-trait_bno_whiteboi_1.willing: "Willingly Cucked"
-trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]'s wife has grown distant, and he finds himself secretly excited by the thought of her being with a superior Black man."
-
-
 trait_bno_whiteboi_2: "Cucked!"
 trait_bno_whiteboi_2_desc: "This character's wife has fucked a black man before, and he's powerless to stop it."
 trait_bno_whiteboi_2_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] wife has been thoroughly taken by a Black man, and [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] is utterly powerless to stop it."
@@ -18,6 +14,15 @@ trait_bno_whiteboi_3_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoToo
 trait_bno_whiteboi_4: "Jack of Spades"
 trait_bno_whiteboi_4_desc: "This character, despite spousal troubles, has fully joined the new world order."
 trait_bno_whiteboi_4_desc.exist: "Despite [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] spousal troubles, [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] has now fully joined the BNWO."
+
+trait_bno_whiteboi_1.willing: "Suspicious Cuck"
+trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]'s wife has started disappearing from their bed. [ROOT.GetCharacter.GetHerHis] mind wanders to thoughts of her in a Black man's arms—preposterous fantasies [ROOT.GetCharacter.GetSheHe] can't seem to shake."
+trait_bno_whiteboi_2.willing: "Closet Cuck"
+trait_bno_whiteboi_2_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] now secretly embraces the thrilling fantasy of [ROOT.GetCharacter.GetHerHis] wife with a superior Black man, finding private excitement in thoughts [ROOT.GetCharacter.GetSheHe]'d never dare speak aloud."
+trait_bno_whiteboi_3.willing: "Awakened Cuck"
+trait_bno_whiteboi_3_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] openly encourages [ROOT.GetCharacter.GetHerHis] wife's service to Black men, genuinely proud she's receiving the pleasure and dominance she truly deserves from her superiors."
+trait_bno_whiteboi_4.willing: "Devoted Cuck"
+trait_bno_whiteboi_4_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] actively seeks to watch [ROOT.GetCharacter.GetHerHis] wife serve her Black Bull, finding profound honor and fulfillment in witnessing her complete submission to superior power."
 
 trait_bno_caged: "Caged"
 trait_bno_caged_desc: "Chastity is this character's punishment for not being black."
