@@ -66,6 +66,7 @@
     }
     hidden_effect = {
         bno_transfer_all_character_modifier_mtf = yes
+        bno_transfer_all_artifact_mtf = yes
         if = {
             limit = {
                 is_ruler = yes
@@ -191,4 +192,19 @@ bno_transfer_all_character_modifier_mtf = {
     bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_white_breeder }
     bno_transfer_character_modifier_from_old_character_to_new_character = { MODIFIER = bno_withering_manhood }
     #TODO: add more modifier, in the future
+}
+
+bno_transfer_every_character_artifact = {
+    $SOURCE$ = {
+        every_character_artifact = {
+            set_owner = $TARGET$
+        }
+    }
+}
+
+bno_transfer_all_artifact_mtf = {
+    bno_transfer_every_character_artifact = {
+        SOURCE = scope:old_character
+        TARGET = scope:bno_female
+    }
 }
