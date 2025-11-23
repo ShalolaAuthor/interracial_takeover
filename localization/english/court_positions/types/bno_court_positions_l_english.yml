@@ -52,3 +52,11 @@ bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$"
 
 bno_breeding_bull_court_position: "Breeding Bull"
 bno_breeding_bull_court_position_desc: "A superior Black man dedicated to impregnating our finest women and improving our bloodline with his sacred seed."
+
+bno_breeding_bull.employer.modifier.desc: "$BULLET$Systematically fertilizes every non-Black female in this court."
+
+story_bno_breeding_bull.message.title.whiteboi: "The Bull Claims His Prize"
+story_bno_breeding_bull.message.desc.whiteboi: "You watch from the corner, your own inadequacy laid bare, as the Breeding Bull finishes with another of your court's women. He has now seeded [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] girls this session, his superior potency undeniable."
+
+story_bno_breeding_bull.message.title.whitegirl: "Filled with Superior Seed"
+story_bno_breeding_bull.message.desc.whitegirl: "A deep, satisfying warmth spreads through you as the Breeding Bull pulls out, his sacred essence already taking root. You are one of [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] women he has properly bred tonight, fulfilling your highest purpose."

@@ -525,8 +525,6 @@ bno_breeding_bull_court_position = {
 
     custom_employer_modifier_description = bno_breeding_bull.employer.modifier.desc
 
-    custom_employee_modifier_description = bno_breeding_bull.employee.modifier.desc
-
     on_court_position_received = {
         bno_breeding_bull_on_received = yes
     }
