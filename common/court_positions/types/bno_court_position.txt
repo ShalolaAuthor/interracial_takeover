@@ -495,11 +495,10 @@ bno_breeding_bull_court_position = {
         monthly_dread = 0.25
         dread_gain_mult = 0.25
         dread_per_tyranny_add = 1
-        #TODO: search for a fitting employer modifier
     }
 
     base_employer_court_modifier = {
-        #TODO: search for a fitting court modifier maybe fertility?
+        prowess = 5
     }
 
     scaling_employer_modifiers = {
