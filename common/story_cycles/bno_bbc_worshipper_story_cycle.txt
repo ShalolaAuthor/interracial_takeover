@@ -3,7 +3,7 @@
         end_story = yes
     }
     effect_group = {
-        days = 7
+        days = { 7 14 }
         trigger = {
             story_owner = {
                 exists = liege

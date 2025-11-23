@@ -492,6 +492,9 @@ bno_breeding_bull_court_position = {
     }
 
     base_employer_modifier = {
+        monthly_dread = 0.25
+        dread_gain_mult = 0.25
+        dread_per_tyranny_add = 1
         #TODO: search for a fitting employer modifier
     }
 
@@ -499,26 +502,26 @@ bno_breeding_bull_court_position = {
         #TODO: search for a fitting court modifier maybe fertility?
     }
 
-    scaling_employer_court_modifiers = {
+    scaling_employer_modifiers = {
         terrible = {
-
+            cultural_head_acceptance_gain_mult = 0.1
         }
         poor = {
-
+            cultural_head_acceptance_gain_mult = 0.2
         }
         average = {
-
+            cultural_head_acceptance_gain_mult = 0.3
         }
         good = {
-
+            cultural_head_acceptance_gain_mult = 0.4
         }
         excellent = {
-
+            cultural_head_acceptance_gain_mult = 0.5
         }
     }
     # Modifiers gained by the holder of the court position.
     modifier = {
-        #TODO: look for a fitting 
+        fertility = 1
     }
 
     custom_employer_modifier_description = bno_breeding_bull.employer.modifier.desc
@@ -526,21 +529,19 @@ bno_breeding_bull_court_position = {
     custom_employee_modifier_description = bno_breeding_bull.employee.modifier.desc
 
     on_court_position_received = {
-        scope:employee ?= {
-
-        }
+        bno_breeding_bull_on_received = yes
     }
 
     on_court_position_revoked = {
-
+        bno_breeding_bull_on_invalidated = yes
     }
 
     on_court_position_invalidated = {
-
+        bno_breeding_bull_on_invalidated = yes
     }
 
     on_court_position_vacated = {
-
+        bno_breeding_bull_on_invalidated = yes
     }
 
     ai_candidate_score = {

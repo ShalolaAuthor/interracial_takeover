@@ -1,0 +1,80 @@
+﻿story_bno_breeding_bull = {
+    on_owner_death = {
+        end_story = yes
+    }
+    on_end = {
+
+    }
+    on_setup = {
+
+    }
+    effect_group = {
+        days = { 30 60 }
+        trigger = { always = yes }
+        triggered_effect = {
+            trigger = { always = yes }
+            effect = {
+                story_owner = {
+                    save_scope_as = bno_breeding_bull
+                    scope:liege ?= {
+                        save_scope_as = bno_breeding_bull_liege
+                        set_variable = {
+                            name = bno_breeding_bull_sex_count
+                            value = 0
+                        }
+                        every_courtier = {
+                            limit = {
+                                NOR = {
+                                    has_trait = pregnant
+                                    has_trait = futa_impregnated
+                                }
+                                is_female = yes
+                                is_african = no
+                                is_adult = yes
+                                health > 0
+                            }
+                            save_scope_as = bno_valid_breeding_bull_target
+                            scope:bno_breeding_bull_liege = {
+                                change_variable = {
+                                    name = bno_breeding_bull_sex_count
+                                    add = 1
+                                }
+                            }
+                            scope:bno_breeding_bull = {
+                                carn_sex_scene_no_drama_effect = yes
+                                carn_sex_scene_no_memory_effect = yes
+                                bno_have_sex_with_effects = {
+                                    PARTNER = scope:bno_valid_breeding_bull_target
+                                }
+                            }
+                        }
+                        if = {
+                            limit = { var:bno_breeding_bull_sex_count > 0 }
+                            send_interface_message = {
+                                type = bno_blacked_events
+                                title = {
+                                    first_valid = {
+                                        triggered_desc = {
+                                            trigger = { is_whiteboi = yes }
+                                            desc = story_bno_breeding_bull.message.title.whiteboi
+                                        }
+                                        desc = story_bno_breeding_bull.message.title.whitegirl
+                                    }
+                                }
+                                desc = {
+                                    first_valid = {
+                                        triggered_desc = {
+                                            trigger = { is_whiteboi = yes }
+                                            desc = story_bno_breeding_bull.message.desc.whiteboi
+                                        }
+                                        desc = story_bno_breeding_bull.message.desc.whitegirl
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
