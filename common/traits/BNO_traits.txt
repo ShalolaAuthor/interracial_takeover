@@ -22,6 +22,7 @@ bno_whiteboi_1 = {
 	prowess = -3
 	stress_gain_mult = 0.05
 	personal_scheme_phase_duration_add = 10
+	ai_sociability = high_negative_ai_value
 
 	culture_modifier = {
 		parameter = bno_unlock_cuck_acceptance
@@ -35,6 +36,7 @@ bno_whiteboi_1 = {
 		prowess = 6
 		stress_gain_mult = -0.1
 		personal_scheme_phase_duration_add = -20
+		ai_sociability = high_positive_ai_value
 	}
 
 	track = {
@@ -58,23 +60,6 @@ bno_whiteboi_1 = {
 		}
 	}
 	flag = carn_no_consequences_for_extramarital_sex_with_others
-	compatibility = {
-	    bno_whiteboi_1 = 25
-	    bno_whiteboi_2 = 50
-	    bno_whiteboi_3 = 75
-	    bno_whiteboi_4 = 50
-	    bno_caged = 75
-	    bno_castrated = 100
-
-		bno_pure_white = -75
-
-	    bno_bbc = -50
-	    bno_bull = -75
-	    bno_whitegirl_2 = -25
-	    bno_whitegirl_3 = -50
-	    bno_whitegirl_4 = -75
-	    bno_whitegirl_5 = -100
-	}
 
 	name = {
 		first_valid = {
@@ -119,7 +104,7 @@ bno_whiteboi_1 = {
 					exists = this
 					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
 				}
-				desc = "bno_whiteboi_1.willing.dds"
+				desc = "bno_whiteboi_1_willing.dds"
 			}
 			desc = "bno_whiteboi_1.dds"
 		}
@@ -134,6 +119,8 @@ bno_whiteboi_2 = {
 		bno_bbc
 		bno_whitegirl
 	}
+	bnonr_religion_opinion = -40
+	bnoc_opinion = -40
 	opposite_opinion = 20
 	same_opinion = 20
 	attraction_opinion = -15
@@ -145,35 +132,92 @@ bno_whiteboi_2 = {
 	stress_gain_mult = 0.10
 	dread_decay_mult = 0.10
 	personal_scheme_phase_duration_add = 20
+	ai_sociability = high_negative_ai_value
+
+	culture_modifier = {
+		parameter = bno_unlock_cuck_acceptance
+		bnoc_opinion = 80
+		bnonr_religion_opinion = 80
+		attraction_opinion = 30
+		general_opinion = 30
+		spouse_opinion = 10
+		monthly_prestige = 1.10
+		martial = 4
+		prowess = 8
+		stress_gain_mult = -0.2
+		personal_scheme_phase_duration_add = -40
+		ai_sociability = very_high_positive_ai_value
+	}
 	track = {
 		33 = {
 			monthly_prestige = -0.10
 			prowess = -1
+			culture_modifier = {
+				parameter = bno_unlock_cuck_acceptance
+				monthly_prestige = 0.2
+				prowess = 2
+			}
 		}
 		66 = {
 			martial = -2
 			max_personal_schemes_add = -1
+			culture_modifier = {
+				parameter = bno_unlock_cuck_acceptance
+				martial = 4
+				max_personal_schemes_add = 2
+			}
 		}
 	}
 	shown_in_ruler_designer = no
 	flag = carn_no_consequences_for_extramarital_sex_with_others
-	ai_sociability = high_negative_ai_value
-		compatibility = {
-	    bno_whiteboi_1 = 25
-	    bno_whiteboi_2 = 50
-	    bno_whiteboi_3 = 75
-	    bno_whiteboi_4 = 50
-	    bno_caged = 75
-	    bno_castrated = 100
 
-		bno_pure_white = -75
-
-	    bno_bbc = -50
-	    bno_bull = -75
-	    bno_whitegirl_2 = -25
-	    bno_whitegirl_3 = -50
-	    bno_whitegirl_4 = -75
-	    bno_whitegirl_5 = -100
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_bno_whiteboi_2
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
+				}
+				desc = trait_bno_whiteboi_2.willing
+			}
+			desc = trait_bno_whiteboi_2
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_bno_whiteboi_2_desc
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
+				}
+				desc = trait_bno_whiteboi_2_desc.willing
+			}
+			desc = trait_bno_whiteboi_2_desc.exist
+		}
+	}
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = "bno_whiteboi_2.dds"
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
+				}
+				desc = "bno_whiteboi_2_willing.dds"
+			}
+			desc = "bno_whiteboi_2.dds"
+		}
 	}
 }
 
@@ -185,6 +229,8 @@ bno_whiteboi_3 = {
 		bno_bbc
 		bno_whitegirl
 	}
+	bnonr_religion_opinion = -60
+	bnoc_opinion = -60
 	opposite_opinion = 40
 	same_opinion = 40
 	attraction_opinion = -25
@@ -194,43 +240,102 @@ bno_whiteboi_3 = {
 	diplomacy = -2
 	martial = -4
 	prowess = -7
-	intrigue = 0
+	intrigue = -1
 	stewardship = -1
 	fertility = -0.90
 	stress_gain_mult = 0.15
 	levy_maintenance = 0.02
 	personal_scheme_phase_duration_add = 30
+	ai_sociability = high_negative_ai_value
+
+	culture_modifier = {
+		parameter = bno_unlock_cuck_acceptance
+		bnoc_opinion = 120
+		bnonr_religion_opinion = 120
+		attraction_opinion = 50
+		general_opinion = 30
+		spouse_opinion = 13
+		monthly_prestige = 2
+		martial = 8
+		prowess = 14
+		intrigue = 2
+		stewardship = 2
+		stress_gain_mult = -0.3
+		levy_maintenance = -0.12
+		personal_scheme_phase_duration_add = -60
+		ai_sociability = dominant_positive_ai_value
+	}
 	track = {
 		33 = {
 			monthly_prestige = -0.15
 			martial = -1
+			culture_modifier = {
+				parameter = bno_unlock_cuck_acceptance
+				monthly_prestige = 0.3
+				martial = 2
+			}
 		}
 		66 = {
 			prowess = -1
 			levy_maintenance = 0.01
+			culture_modifier = {
+				parameter = bno_unlock_cuck_acceptance
+				prowess = 2
+				levy_maintenance = -0.02
+			}
 		}
 	}
 	shown_in_ruler_designer = no
 	flag = carn_no_consequences_for_extramarital_sex_with_others
-	ai_sociability = high_negative_ai_value
-	compatibility = {
-	    bno_whiteboi_1 = 25
-	    bno_whiteboi_2 = 50
-	    bno_whiteboi_3 = 75
-	    bno_whiteboi_4 = 50
-	    bno_caged = 75
-	    bno_castrated = 100
 
-		bno_pure_white = -75
-
-	    bno_bbc = -50
-	    bno_bull = -75
-	    bno_whitegirl_2 = -25
-	    bno_whitegirl_3 = -50
-	    bno_whitegirl_4 = -75
-	    bno_whitegirl_5 = -100
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_bno_whiteboi_3
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
+				}
+				desc = trait_bno_whiteboi_3.willing
+			}
+			desc = trait_bno_whiteboi_3
+		}
 	}
-
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_bno_whiteboi_3_desc
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
+				}
+				desc = trait_bno_whiteboi_3_desc.willing
+			}
+			desc = trait_bno_whiteboi_3_desc.exist
+		}
+	}
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = "bno_whiteboi_3.dds"
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
+				}
+				desc = "bno_whiteboi_3_willing.dds"
+			}
+			desc = "bno_whiteboi_3.dds"
+		}
+	}
 }
 
 # Level 4 — JoS
@@ -241,6 +346,8 @@ bno_whiteboi_4 = {
 		bno_bbc
 		bno_whitegirl
 	}
+	bnonr_religion_opinion = -80
+	bnoc_opinion = -80
 	opposite_opinion = 80
 	same_opinion = 80
 	attraction_opinion = -40
@@ -250,42 +357,107 @@ bno_whiteboi_4 = {
 	diplomacy = -3
 	martial = -5
 	prowess = -10
-	intrigue = -1
+	intrigue = -2
 	stewardship = -2
 	fertility = -1
 	stress_gain_mult = 0.20
+	levy_maintenance = 0.6
 	knight_effectiveness_mult = -0.10
 	movement_speed = -0.05
 	personal_scheme_phase_duration_add = 45
+	ai_sociability = high_negative_ai_value
+
+	culture_modifier = {
+		parameter = bno_unlock_cuck_acceptance
+		bnoc_opinion = 160
+		bnonr_religion_opinion = 160
+		attraction_opinion = 80
+		general_opinion = 40
+		spouse_opinion = 20
+		monthly_prestige = 3
+		diplomacy = 6
+		martial = 10
+		prowess = 20
+		intrigue = 4
+		stewardship = 4
+		fertility = -1
+		stress_gain_mult = -0.4
+		levy_maintenance = -0.12
+		knight_effectiveness_mult = 0.2
+		movement_speed = 0.1
+		personal_scheme_phase_duration_add = -90
+		ai_sociability = dominant_positive_ai_value
+	}
 	track = {
 		33 = {
 			monthly_prestige = -0.25
 			martial = -1
+			culture_modifier = {
+				parameter = bno_unlock_cuck_acceptance
+				monthly_prestige = 0.5
+				martial = 2
+			}
 		}
 		66 = {
 			prowess = -1
 			knight_effectiveness_mult = -0.05
+			culture_modifier = {
+				parameter = bno_unlock_cuck_acceptance
+				prowess = 2
+				knight_effectiveness_mult = 0.1
+			}
 		}
 	}
 	shown_in_ruler_designer = no
 	flag = carn_no_consequences_for_extramarital_sex_with_others
-	ai_sociability = high_negative_ai_value
-	compatibility = {
-	    bno_whiteboi_1 = 25
-	    bno_whiteboi_2 = 50
-	    bno_whiteboi_3 = 75
-	    bno_whiteboi_4 = 50
-	    bno_caged = 75
-	    bno_castrated = 100
 
-		bno_pure_white = -75
-	
-	    bno_bbc = -50
-	    bno_bull = -75
-	    bno_whitegirl_2 = -25
-	    bno_whitegirl_3 = -50
-	    bno_whitegirl_4 = -75
-	    bno_whitegirl_5 = -100
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_bno_whiteboi_4
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
+				}
+				desc = trait_bno_whiteboi_4.willing
+			}
+			desc = trait_bno_whiteboi_4
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_bno_whiteboi_4_desc
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
+				}
+				desc = trait_bno_whiteboi_4_desc.willing
+			}
+			desc = trait_bno_whiteboi_4_desc.exist
+		}
+	}
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = "bno_whiteboi_4.dds"
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
+				}
+				desc = "bno_whiteboi_4_willing.dds"
+			}
+			desc = "bno_whiteboi_4.dds"
+		}
 	}
 }
 
