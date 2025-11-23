@@ -11,6 +11,7 @@ bno_whiteboi_1 = {
 		bno_whitegirl
 	}
 	bnonr_religion_opinion = -20
+	bnoc_opinion = -20
 	opposite_opinion = 10
 	same_opinion = 10
 	attraction_opinion = -10
@@ -21,14 +22,39 @@ bno_whiteboi_1 = {
 	prowess = -3
 	stress_gain_mult = 0.05
 	personal_scheme_phase_duration_add = 10
+
+	culture_modifier = {
+		parameter = bno_unlock_cuck_acceptance
+		bnoc_opinion = 40
+		bnonr_religion_opinion = 40
+		attraction_opinion = 20
+		general_opinion = 20
+		spouse_opinion = 5
+		monthly_prestige = 0.60
+		martial = 2
+		prowess = 6
+		stress_gain_mult = -0.1
+		personal_scheme_phase_duration_add = -20
+	}
+
 	track = {
 		33 = {
 			monthly_prestige = -0.05
 			prowess = -1
+			culture_modifier = {
+				parameter = bno_unlock_cuck_acceptance
+				monthly_prestige = 0.1
+				prowess = 2
+			}
 		}
 		66 = {
 			martial = -1
 			stress_gain_mult = 0.05
+			culture_modifier = {
+				parameter = bno_unlock_cuck_acceptance
+				martial = 2
+				stress_gain_mult = -0.1
+			}
 		}
 	}
 	flag = carn_no_consequences_for_extramarital_sex_with_others
@@ -50,6 +76,54 @@ bno_whiteboi_1 = {
 	    bno_whitegirl_5 = -100
 	}
 
+	name = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_bno_whiteboi_1
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
+				}
+				desc = trait_bno_whiteboi_1.willing
+			}
+			desc = trait_bno_whiteboi_1
+		}
+	}
+	desc = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = trait_bno_whiteboi_1_desc
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
+				}
+				desc = trait_bno_whiteboi_1_desc.willing
+			}
+			desc = trait_bno_whiteboi_1_desc.exist
+		}
+	}
+	icon = {
+		first_valid = {
+			triggered_desc = {
+				trigger = { NOT = { exists = this } }
+				desc = "bno_whiteboi_1.dds"
+			}
+			triggered_desc = {
+				trigger = {
+					exists = this
+					culture = { has_cultural_parameter = bno_unlock_cuck_acceptance }
+				}
+				desc = "bno_whiteboi_1.willing.dds"
+			}
+			desc = "bno_whiteboi_1.dds"
+		}
+	}
 }
 
 # Level 2 — Cuck
