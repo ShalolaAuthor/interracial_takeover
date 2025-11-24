@@ -3,7 +3,7 @@
 trait_bno_bbc: "Big, Black Cock"
 trait_bno_bbc_desc: "This character has a massive black cock and the urge to fuck every slut in his way."
 trait_bno_whiteboi_1: "Cucked?"
-trait_bno_whiteboi_1_desc: "This character's wife as recently grown distant to her. Why?"
+trait_bno_whiteboi_1_desc: "This character's wife has recently grown distant to him. Why?"
 trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] wife has grown distant, her affections pulled elsewhere by a force [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] cannot challenge."
 trait_bno_whiteboi_2: "Cucked!"
 trait_bno_whiteboi_2_desc: "This character's wife has fucked a black man before, and he's powerless to stop it."
