@@ -915,8 +915,6 @@ bno_normal_african_inheritance = {
 	#African Trait
 	if = {
 		limit = {
-			exists = scope:mother
-			exists = scope:real_father
 			OR = {
 				AND = {
 					scope:mother = { has_trait = bno_full_black }
@@ -936,8 +934,6 @@ bno_normal_african_inheritance = {
 	}
 	else_if = {
 		limit = {
-			exists = scope:mother
-			exists = scope:real_father
 			OR = {
 				AND = {
 					scope:mother = { has_trait = bno_mostly_black }
@@ -965,8 +961,6 @@ bno_normal_african_inheritance = {
 	}
 	else_if = {
 		limit = {
-			exists = scope:mother
-			exists = scope:real_father
 			OR = {
 				AND = {
 					scope:mother = { has_trait = bno_mixed }
@@ -1002,8 +996,6 @@ bno_normal_african_inheritance = {
 	}
 	else_if = {
 		limit = {
-			exists = scope:mother
-			exists = scope:real_father
 			OR = {
 				AND = {
 					scope:mother = { has_trait = bno_barely_mixed }
@@ -1042,7 +1034,6 @@ bno_normal_african_inheritance = {
 bno_abnormal_african_inheritance = {
 	if = {
 		limit = {
-			exists = scope:real_father
 			scope:real_father = { is_bbc = yes } 
 		}
 		add_trait = bno_full_black
