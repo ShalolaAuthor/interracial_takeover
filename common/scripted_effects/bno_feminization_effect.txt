@@ -67,6 +67,7 @@
     hidden_effect = {
         bno_transfer_all_character_modifier_mtf = yes
         bno_transfer_all_artifact_mtf = yes
+        bno_transfer_all_vanilla_perks = yes
         if = {
             limit = {
                 is_ruler = yes
@@ -206,5 +207,267 @@ bno_transfer_all_artifact_mtf = {
     bno_transfer_every_character_artifact = {
         SOURCE = scope:old_character
         TARGET = scope:bno_female
+    }
+}
+
+bno_transfer_all_vanilla_perks = {
+    #Diplomacy
+    bno_transfer_diplomacy_1_perk = yes
+    bno_transfer_diplomacy_2_perk = yes
+    bno_transfer_diplomacy_3_perk = yes
+    #Intrigue
+    bno_transfer_intrigue_1_perk = yes
+    bno_transfer_intrigue_2_perk = yes
+    bno_transfer_intrigue_3_perk = yes
+    #Learning
+    bno_transfer_learning_1_perk = yes
+    bno_transfer_learning_2_perk = yes
+    bno_transfer_learning_3_perk = yes
+    #Martial
+    bno_transfer_martial_1_perk = yes
+    bno_transfer_martial_2_perk = yes
+    bno_transfer_martial_3_perk = yes
+    #Stewardship
+    bno_transfer_stewardship_1_perk = yes
+    bno_transfer_stewardship_2_perk = yes
+    bno_transfer_stewardship_3_perk = yes
+    #Wanderer
+    bno_transfer_wanderer_1_perk = yes
+    bno_transfer_wanderer_2_perk = yes
+    bno_transfer_wanderer_3_perk = yes
+}
+
+bno_transfer_diplomacy_1_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = thoughtful_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = ducal_conquest_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = forced_vassalage_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = adaptive_traditions_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = flexible_truces_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = defensive_negotiations_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = embassies_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = accomplished_forger_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = diplomat_perk }
+}
+
+bno_transfer_diplomacy_2_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = benevolent_intent_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = inspiring_rule_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = firm_hand_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = praetorian_guard_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = true_ruler_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = writing_history_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = a_life_of_glory_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = dignitas_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = august_perk }
+}
+
+bno_transfer_diplomacy_3_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = befriend_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = confidants_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = flatterer_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = friendly_counsel_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = familial_familiar_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = groomed_to_rule_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = thicker_than_water_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = sound_foundations_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = family_man_perk }
+}
+
+bno_transfer_intrigue_1_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = truth_is_relative_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = digging_for_dirt_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = kidnapper_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = court_of_shadows_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = prepared_for_anything_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = swift_execution_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = a_job_done_right_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = twice_schemed_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = schemer_perk }
+}
+
+bno_transfer_intrigue_2_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = like_weed_in_a_garden_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = unshackled_lust_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = subtle_desire_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = mortal_adoration_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = enticing_opportunity_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = home_advantage_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = graceful_recovery_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = smooth_operator_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = seducer_perk }
+}
+
+bno_transfer_intrigue_3_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = dark_insights_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = divine_retribution_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = dreadful_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = thriving_in_chaos_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = malice_implicit_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = fear_tax_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = forever_infamous_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = prison_feudal_complex_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = torturer_perk }
+}
+
+bno_transfer_learning_1_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = anatomical_studies_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = carefree_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = mental_resilience_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = restraint_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = know_thyself_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = wash_your_hands_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = iron_constitution_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = healthy_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = whole_of_body_perk }
+}
+
+bno_transfer_learning_2_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = pedagogy_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = open_minded_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = apostate_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = scientific_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = planned_cultivation_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = scholarly_circles_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = learn_on_the_job_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = sanctioned_loopholes_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = scholar_perk }
+}
+
+bno_transfer_learning_3_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = faithful_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = zealous_proselytizer_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = religious_icon_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = prophet_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = clerical_justifications_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = church_and_state_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = radiant_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = defender_of_the_faith_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = theologian_perk }
+}
+
+bno_transfer_martial_1_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = bellum_justum_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = parthian_tactics_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = envelopment_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = organized_retreat_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = hit_and_run_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = engineered_for_destruction_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = living_off_the_land_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = sappers_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = strategist_perk }
+}
+
+bno_transfer_martial_2_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = serve_the_crown_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = a_mans_home_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = enduring_hardships_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = prepared_conscription_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = strict_organization_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = hard_rule_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = soldiers_of_lesser_fortune_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = absolute_control_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = overseer_perk }
+}
+
+bno_transfer_martial_3_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = stalwart_leader_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = courtship_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = promising_prospects_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = loyalty_and_respect_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = chivalric_dominance_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = never_back_down_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = kingsguard_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = peacemaker_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = gallant_perk }
+}
+
+bno_transfer_stewardship_1_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = golden_obligations_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = heregeld_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = detailed_ledgers_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = war_profiteer_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = fearful_troops_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = it_is_my_domain_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = golden_aplomb_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = at_any_cost_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = avaricious_perk }
+}
+
+bno_transfer_stewardship_2_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = tax_man_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = defensive_measures_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = organized_muster_rolls_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = cutting_corners_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = professional_workforce_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = centralization_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = popular_figurehead_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = divided_attention_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = architect_perk }
+}
+
+bno_transfer_stewardship_3_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = meritocracy_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = chains_of_loyalty_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = likable_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = positions_of_power_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = large_levies_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = soon_forgiven_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = toe_the_line_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = honored_to_serve_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = administrator_perk }
+}
+
+bno_transfer_wanderer_1_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = mustering_the_troops_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = local_inspection_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = know_your_land_know_your_people_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = no_stone_unturned_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = travel_logs_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = local_arbitration_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = realm_charts_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = personal_touch_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = surveyor_perk }
+}
+
+bno_transfer_wanderer_2_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = well_prepared_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = roaming_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = far_and_wide_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = just_one_more_hill_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = of_the_people_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = local_hero_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = travel_companion_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = the_home_away_from_home_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = wayfarer_perk }
+}
+
+bno_transfer_wanderer_3_perk = {
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = power_at_home_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = mercenary_contacts_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = journey_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = been_there_done_that_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = finally_there_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = souvenirs_aplenty_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = gracious_host_impeccable_guest_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = journey_planner_perk }
+    bno_transfer_perk_from_old_character_to_new_character_mtf = { PERK = voyager_perk }
+}
+
+bno_transfer_perk_from_old_character_to_new_character_mtf = {
+    bno_transfer_perk = {
+        SOURCE = scope:old_character
+        TARGET = scope:bno_female
+        PERK = $PERK$
+    }
+}
+
+bno_transfer_perk = {
+    $SOURCE$ = {
+        if = {
+            limit = { has_perk = $PERK$ }
+            $TARGET$ = {
+                add_perk = $PERK$
+            }
+        }
     }
 }
