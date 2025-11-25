@@ -26,6 +26,19 @@
         trigger = {
             story_owner ?= { is_alive = yes }
         }
+		#boobsize
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					is_alive = yes
+				}
+			}
+			effect = {
+				story_owner = {
+					bno_seed_breast_size_variable = yes
+				}
+			}
+		}
 		triggered_effect = {
 			trigger = {
 				story_owner ?= {

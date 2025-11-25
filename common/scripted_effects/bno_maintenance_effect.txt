@@ -257,28 +257,23 @@ bno_remove_bbc_from_non_african = {
 }
 
 bno_seed_breast_size_variable = {
-    if = {
-        limit = {
-            NOT = { exists = var:bno_breast_size }
-        }
-        switch = {
-            trigger = has_trait
-            #Small
-            tits_small_bad_3 = { bno_set_breast_size_0 = yes }
-            tits_small_good_3 = { bno_set_breast_size_0 = yes }
-            tits_small_bad_2 = { bno_set_breast_size_1 = yes }
-            tits_small_good_2 = { bno_set_breast_size_1 = yes }
-            tits_small_bad_1 = { bno_set_breast_size_2 = yes }
-            tits_small_good_1 = { bno_set_breast_size_2 = yes }
-            #Big
-            tits_big_bad_1 = { bno_set_breast_size_3 = yes }
-            tits_big_good_1 = { bno_set_breast_size_3 = yes }
-            tits_big_bad_2 = { bno_set_breast_size_4 = yes }
-            tits_big_good_2 = { bno_set_breast_size_4 = yes }
-            tits_big_bad_3 = { bno_set_breast_size_5 = yes }
-            tits_big_good_3 = { bno_set_breast_size_5 = yes }
-            tits_big_good_4 = { bno_set_breast_size_6 = yes }
-        }
+    switch = {
+        trigger = has_trait
+        #Small
+        tits_small_bad_3 = { bno_set_breast_size_0 = yes }
+        tits_small_good_3 = { bno_set_breast_size_0 = yes }
+        tits_small_bad_2 = { bno_set_breast_size_1 = yes }
+        tits_small_good_2 = { bno_set_breast_size_1 = yes }
+        tits_small_bad_1 = { bno_set_breast_size_2 = yes }
+        tits_small_good_1 = { bno_set_breast_size_2 = yes }
+        #Big
+        tits_big_bad_1 = { bno_set_breast_size_3 = yes }
+        tits_big_good_1 = { bno_set_breast_size_3 = yes }
+        tits_big_bad_2 = { bno_set_breast_size_4 = yes }
+        tits_big_good_2 = { bno_set_breast_size_4 = yes }
+        tits_big_bad_3 = { bno_set_breast_size_5 = yes }
+        tits_big_good_3 = { bno_set_breast_size_5 = yes }
+        tits_big_good_4 = { bno_set_breast_size_6 = yes }
     }
 }
 
