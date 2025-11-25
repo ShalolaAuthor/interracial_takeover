@@ -1206,8 +1206,8 @@ remove_bad_traits = {
 	remove_trait = physique_bad_1
 	remove_trait = physique_bad_2
 	remove_trait = physique_bad_3
-	make_trait_inactive = futa
-	make_trait_inactive = futa_genetic
+	remove_trait = futa
+	remove_trait = futa_genetic
 	
 	add_character_flag = {
 		flag = no_headgear

@@ -1,5 +1,4 @@
-﻿#bno_seed_bbc_trait_effect
-#bno_inactivate_bbc_trait_effect
+﻿#bno_inactivate_bbc_trait_effect
 #bno_activate_bbc_trait_effect
 #bno_make_bbc_has_big_dick
 
