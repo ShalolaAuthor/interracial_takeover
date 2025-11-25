@@ -1154,6 +1154,11 @@ bno_embrace_african_2.0002 = {
         name = bno_embrace_african_2.0002.b
         trigger = {
             is_bno_snowbunny_and_up = yes
+            is_available_quick = {
+                travel = no
+                hostage = no
+                activity = no
+            }
         }
         add_internal_flag = special
 
