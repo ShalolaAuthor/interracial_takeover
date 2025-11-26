@@ -621,7 +621,6 @@ bno_bbc = {
 		bno_whitegirl
 		bno_whiteboi
 		bno_chastity
-		bno_pussy_mileage
 	}
 	
 	same_opinion = 100

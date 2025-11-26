@@ -19,6 +19,7 @@ bno_apply_bbc_trait = {
         if = {
             limit = {
                 NOT = { has_global_variable = bno_game_started }
+                NOT = { has_character_flag = bno_chosen_bbc }
             }
             remove_trait = bno_bbc
         }

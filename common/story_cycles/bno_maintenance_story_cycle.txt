@@ -7,7 +7,6 @@
 				}
 				#one time
             	bno_apply_african_trait = yes
-				#TODO: this shit is bugged
             	bno_apply_bbc_trait = yes
             	bno_make_bbc_trait_inactive = yes
             	bno_apply_pussy_mileage_trait = yes
