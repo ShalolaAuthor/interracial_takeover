@@ -346,17 +346,6 @@ bno_boobs = {
 		dna_modifiers = {
 			#Breasts
 			morph = {
-				mode = modify_multiply
-				gene = gene_bs_bust
-				value = {
-					value = 0.04
-					multiply = {
-						value = var:bno_breast_size
-						add = bno_boobs_size
-					}
-				}
-			}
-			morph = {
 				mode = modify
 				gene = gene_bs_bust
 				value = {
@@ -381,18 +370,6 @@ bno_boobs = {
 				}
 			}
 			#Nipples
-			morph = {
-				mode = modify_multiply
-				gene = gene_bs_nipples
-				template = nipples
-				value = {
-					value = 0.04
-					multiply = {
-						value = var:bno_breast_size
-						add = bno_boobs_size
-					}
-				}
-			}
 			morph = {
 				mode = modify
 				gene = gene_bs_nipples
