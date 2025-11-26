@@ -1,0 +1,73 @@
+﻿### BBC Slave
+#bno_set_bno_slave_hook
+#bno_remove_bno_slave_hook
+#bno_inherit_bno_slave
+###
+
+bno_set_bno_slave_hook = {
+    $SOURCE$ = {
+        if = {
+            limit = {
+                NOT = {
+                    has_hook_of_type = {
+                        type = bno_slave_hook
+                        target = $TARGET$
+                    }
+                }
+            }
+            add_hook_no_toast = {
+                type = bno_slave_hook
+                target = $TARGET$
+            }
+        }
+    }
+}
+
+bno_remove_bno_slave_hook = {
+    $SOURCE$ = {
+        if = {
+            limit = {
+                has_hook_of_type = {
+                    type = bno_slave_hook
+                    target = $TARGET$
+                }
+            }
+            remove_hook = {
+                type = bno_slave_hook
+                target = $TARGET$
+            }
+        }
+    }
+}
+
+bno_inherit_bno_slave = {
+    $SOURCE$ = {
+        remove_relation_slave = $TARGET$
+        primary_heir = {
+            set_relation_bno_slave = $TARGET$
+        }
+    }
+}
+
+### Cum Slave
+#bno_set_bno_cum_slave_hook
+###
+
+bno_set_bno_cum_slave_hook = {
+    $SOURCE$ = {
+        if = {
+            limit = {
+                NOT = {
+                    has_hook_of_type = {
+                        type = bno_cum_slave_hook
+                        target = $TARGET$
+                    }
+                }
+            }
+            add_hook_no_toast = {
+                type = bno_cum_slave_hook
+                target = $TARGET$
+            }
+        }
+    }
+}

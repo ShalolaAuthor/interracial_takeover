@@ -1,0 +1,17 @@
+﻿bno_slave_hook = {
+    strong = yes
+    perpetual = yes
+
+    on_used = {
+        #TODO: add somesort of events here
+    }
+}
+
+bno_cum_slave_hook = {
+    strong = yes
+    perpetual = yes
+
+    on_used = {
+        #TODO: add somesort of events here
+    }
+}

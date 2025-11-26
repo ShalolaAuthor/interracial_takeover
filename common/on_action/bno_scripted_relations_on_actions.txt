@@ -1,0 +1,71 @@
+﻿### BBC Slave
+
+on_set_relation_bno_slave = {
+    effect = {
+        bno_set_bno_slave_hook = {
+            SOURCE = root
+            TARGET = scope:target
+        }
+    }
+}
+
+on_set_relation_bno_slave_owner = {
+    effect = {
+        bno_set_bno_slave_hook = {
+            SOURCE = scope:target
+            TARGET = root
+        }
+    }
+}
+
+on_remove_relation_bno_slave = {
+    effect = {
+        bno_remove_bno_slave_hook = {
+            SOURCE = root
+            TARGET = scope:target
+        }
+    }
+}
+
+on_remove_relation_bno_slave_owner = {
+    effect = {
+        bno_remove_bno_slave_hook = {
+            SOURCE = scope:target
+            TARGET = root
+        }
+    }
+}
+
+on_death_relation_bno_slave = {
+    effect = {
+        bno_inherit_bno_slave = {
+            SOURCE = root
+            TARGET = scope:target
+        }
+    }
+}
+
+on_death_relation_bno_slave_owner = {
+    effect = {
+        remove_relation_bno_slave = scope:target
+    }
+}
+
+### Cum Slave
+on_set_relation_bno_cum_slave = {
+    effect = {
+        bno_set_bno_cum_slave_hook = {
+            SOURCE = root
+            TARGET = scope:target
+        }
+    }
+}
+
+on_set_relation_bno_cum_slave_owner = {
+    effect = {
+        bno_set_bno_cum_slave_hook = {
+            SOURCE = scope:target
+            TARGET = root
+        }
+    }
+}
