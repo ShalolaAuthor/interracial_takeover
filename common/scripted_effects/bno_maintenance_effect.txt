@@ -16,7 +16,12 @@ bno_apply_bbc_trait = {
 		bno_seed_bbc_trait_effect = yes
 	}
     else = {
-        remove_trait = bno_bbc
+        if = {
+            limit = {
+                NOT = { has_global_variable = bno_game_started }
+            }
+            remove_trait = bno_bbc
+        }
     }
 }
 

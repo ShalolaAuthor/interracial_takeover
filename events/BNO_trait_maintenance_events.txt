@@ -9,6 +9,11 @@ bno_character_initialization.0001 = {
 				is_alive = yes
 			}
 			trigger_event = { on_action = bno_trait_initialization_pulse }
+			trigger_event = {
+				delayed = yes
+				days = 1
+				on_action = bno_after_game_start
+			}
 		}
 	}
 }
