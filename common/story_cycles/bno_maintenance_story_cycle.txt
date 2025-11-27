@@ -21,6 +21,40 @@
     on_owner_death = {
         end_story = yes
     }
+	#immortal maintenance
+	effect_group = {
+		years = 1
+		trigger = {
+			story_owner = {
+				is_alive = yes
+				is_immortal = yes
+				NOT = { has_character_flag = bno_adult_immortal }
+			}
+		}
+		triggered_effect = {
+			trigger = {
+				story_owner = {
+					is_alive = yes
+					is_immortal = yes
+					NOT = { has_character_flag = bno_adult_immortal }
+				}
+			}
+			triggered_effect = {
+				story_owner = {
+					if = {
+						limit = {
+							age < 18
+						}
+						set_immortal_age = age
+					}
+					else = {
+						set_immortal_age = 18
+						add_character_flag = bno_adult_immortal
+					}
+				}
+			}
+		}
+	}
 
     effect_group = {
         days = { 30 60 }

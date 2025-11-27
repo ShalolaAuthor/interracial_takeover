@@ -1,0 +1,23 @@
+﻿bno_offer_tribute = {
+    category = interaction_category_diplomacy
+	interface_priority = 999
+    icon = bno_offer_tribute
+    common_interaction = yes
+    force_notification = yes
+    greeting = positive
+    desc = bno_offer_tribute.desc
+    use_diplomatic_range = yes
+
+    populate_actor_list = {
+        scope:actor = {
+            every_child = {
+                limit = {
+                    is_a_girl = yes
+                    is_adult = yes
+                    age <= 25
+                }
+                add_to_list
+            }
+        }
+    }
+}
