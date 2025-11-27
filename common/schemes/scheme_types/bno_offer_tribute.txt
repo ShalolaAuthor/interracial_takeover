@@ -1,0 +1,25 @@
+﻿bno_offer_tribute = {
+    skill = stewardship
+    category = personal
+    target_type = character
+    illustration = "gfx/interface/illustrations/event_scenes/corridor.dds"
+    desc = bno_offer_tribute.desc
+    success_desc = bno_offer_tribute.success_desc
+
+    allow = {
+        scope:owner = {
+            culture = {
+                has_cultural_parameter = bno_unlock_offer_tribute_scheme
+            }
+        }
+    }
+
+    valid = {
+        scope:owner = {
+            is_alive = yes
+            is_ruler = yes
+        }
+    }
+
+
+}

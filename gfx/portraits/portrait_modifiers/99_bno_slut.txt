@@ -507,12 +507,6 @@ bno_white_girl = {
 			}
 			accessory = {
 				mode = add
-				gene = phaze_pubic_hair
-				template = all_pubic_hairs
-				value = { 0 1 }
-			}
-			accessory = {
-				mode = add
 				gene = bno_phaze_clothes
 				template = phaze_non_slave
 				value = { 0 1 }
