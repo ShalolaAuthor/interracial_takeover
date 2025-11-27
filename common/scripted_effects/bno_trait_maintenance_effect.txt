@@ -318,23 +318,11 @@ bno_sneak_bbc_option = {
 	}
 }
 
-bno_clear_all_saved_scope = {
+bno_remove_futa_existence = {
 	if = {
 		limit = {
-			exists = scope:actor
+			has_game_rule = bno_futa_existence_no
 		}
-		clear_saved_scope = actor
-	}
-	if = {
-		limit = {
-			exists = scope:recipient
-		}
-		clear_saved_scope = recipient
-	}
-	if = {
-		limit = {
-			exists = scope:secondary_actor
-		}
-		clear_saved_scope = secondary_actor
+		remove_trait = futa
 	}
 }

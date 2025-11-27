@@ -419,3 +419,19 @@ bno_skin_color = {
 		
 	}
 }
+
+bno_futa_existence = {
+	categories = {
+		interracial_takeover
+	}
+
+	default = bno_futa_existence_yes
+
+	bno_futa_existence_yes = {
+
+	}
+
+	bno_futa_existence_no = {
+
+	}
+}

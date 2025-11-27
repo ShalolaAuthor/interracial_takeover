@@ -13,6 +13,7 @@
             	bno_apply_body_trait = yes
             	bno_remove_bbc_from_non_african = yes
             	bno_seed_breast_size_variable = yes
+				bno_remove_futa_existence = yes
 			}
         }
     }
