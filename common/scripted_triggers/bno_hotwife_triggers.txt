@@ -2,6 +2,8 @@
     is_ai = yes
     is_blacked = yes
     is_married = no
-    age <= 30
+    bno_only_allow_when_below_certain_age = {
+        AGE = 30
+    }
     is_lowborn = no
 }

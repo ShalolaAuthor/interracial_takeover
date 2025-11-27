@@ -14,7 +14,9 @@
                 limit = {
                     is_a_girl = yes
                     is_adult = yes
-                    age <= 25
+                    bno_only_allow_when_below_certain_age = {
+                        AGE = 25
+                    }
                 }
                 add_to_list
             }
