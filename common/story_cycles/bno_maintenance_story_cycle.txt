@@ -362,6 +362,7 @@
                         has_variable = bno_chastity_cage
                         is_equipped = no
                     }
+					NOT = { has_trait = dick_small_bad_3 }
                 }
             }
             effect = {
