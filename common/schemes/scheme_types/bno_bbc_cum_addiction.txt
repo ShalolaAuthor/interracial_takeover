@@ -32,15 +32,12 @@
     }
 
     #Parameters
-	speed_per_skill_point = 1
-	speed_per_target_skill_point = -1
+	speed_per_skill_point = t3_spsp_owner_value
+	speed_per_target_skill_point = t2_spsp_target_value
 	success_chance_growth_per_skill_point = 0.1
-	base_progress_goal = 100
+	base_progress_goal = t3_base_phase_length_value
 	base_maximum_success = 100
 	minimum_success = 5
-
-	freeze_scheme_when_traveling = yes
-	freeze_scheme_when_traveling_target = yes
 
     base_success_chance = {
 		base = 0
@@ -816,6 +813,9 @@
 	}
 
 	on_monthly = {
+		scheme_target_character = {
+			bno_increase_cum_addiction_level = yes
+		}
 	}
 
 	on_invalidated = {
