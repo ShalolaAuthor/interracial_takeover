@@ -85,32 +85,27 @@ bno_birth_pussy_wear = {
 
 black_bred_bitch = {
 	effect = {
+		#increase sluttyness
 		if = {
 			limit = {
 				scope:real_father = {
-					has_trait = bno_bbc
-				}
-			}
-			bno_increase_sluttyness = yes
-		}
-		if = {
-			limit = {
-				NOT = { exists = scope:real_father }
-				scope:father ?= {
 					is_bbc = yes
 				}
 			}
 			bno_increase_sluttyness = yes
 		}
+		#birth notification
 		if = {
 			limit = {
-				NOT = { is_spouse_of = scope:real_father }
+				scope:mother = {
+					NOT = { is_spouse_of = scope:real_father }
+				}
 				scope:real_father = {
-					is_alive = yes
 					is_bbc = yes
 				}
+				NOT = { scope:real_father = scope:father }
 			}
-			scope:real_father ?= {				#send notification and prestige to BBC real father, assuming he is not married to the mother in question
+			scope:real_father = {				#send notification and prestige to BBC real father, assuming he is not married to the mother in question
 				send_interface_message = {
 					type = bno_blacked_events
 					title = bno_birth_real_father_notification.title
@@ -118,13 +113,6 @@ black_bred_bitch = {
 					left_icon = scope:child
 					desc = bno_birth_real_father_notification.desc
 					add_prestige = 75
-				}
-			}
-		}
-		if = {
-			limit = {
-				scope:father ?= {
-					is_bbc = no
 				}
 			}
 			scope:father ?= {
