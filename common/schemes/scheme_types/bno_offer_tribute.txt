@@ -44,5 +44,30 @@
         }
     }
 
+    base_success_chance = {
+        base = 0
+        modifier = {
+            add = scope:target.bno_servile_xp_amount
+            scope:target = {
+                has_trait = bno_servile
+            }
+        }
+    }
+
+    on_start = {
+        scheme_target_character = {
+            if = {
+                limit = {
+                    NOT = { has_trait = bno_servile }
+                }
+                add_trait = bno_servile
+            }
+        }
+    }
+
+    on_monthly = {
+
+    }
+
 
 }

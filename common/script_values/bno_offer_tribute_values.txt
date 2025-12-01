@@ -1,0 +1,3 @@
+﻿bno_servile_xp_amount = {
+    value = "this.has_trait_xp(bno_servile)"
+}
