@@ -18,8 +18,81 @@
                         AGE = 25
                     }
                 }
-                add_to_list
+                add_to_list = characters
             }
         }
     }
+
+    cooldown_against_recipient = { months = 6 }
+
+    is_shown = {
+        NOT = { scope:recipient = scope:actor }
+        scope:recipient = {
+            is_ruler = yes
+            is_adult = yes
+            is_bbc = yes
+        }
+        scope:actor = {
+            is_ruler = yes
+            is_adult = yes
+            is_bbc = no
+            is_culture_bnoc = yes
+            OR = {
+                is_slut = yes
+                is_whiteboi = yes
+            }
+        }
+    }
+
+    is_valid_showing_failures_only = {
+        scope:actor = {
+            trigger_if = {
+                limit = { is_slut = yes }
+                is_bno_snowbunny_and_up = yes
+            }
+            trigger_else = {
+                is_bno_cuck_and_up = yes
+            }
+            any_child = {
+                is_a_girl = yes
+                is_adult = yes
+                bno_only_allow_when_below_certain_age = {
+                    AGE = 25
+                }
+            }
+        }
+    }
+
+    on_accept = {
+        scope:actor = {
+            stress_impact = {
+                compassionate = medium_stress_impact_gain
+                honest = minor_stress_impact_gain
+                just = minor_stress_impact_gain
+            }
+            send_interface_toast = {
+                type = event_toast_effect_neutral
+                title = bno_offer_tribute.notification.title
+
+                left_icon = scope:secondary_actor
+                right_icon = scope:recipient
+
+                start_scheme = {
+                    type = bno_offer_tribute
+                    target_character = scope:recipient
+                    save_scope_as = bno_offer_tribute_scheme
+                }
+                hidden_effect = {
+                    scope:bno_offer_tribute_scheme = {
+                        set_variable = {
+                            name = bno_tribute
+                            value = scope:secondary_actor
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    auto_accept = yes
 }

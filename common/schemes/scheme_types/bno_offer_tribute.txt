@@ -1,23 +1,46 @@
 ﻿bno_offer_tribute = {
     skill = stewardship
-    category = personal
+    category = hostile
     target_type = character
     illustration = "gfx/interface/illustrations/event_scenes/corridor.dds"
     desc = bno_offer_tribute.desc
     success_desc = bno_offer_tribute.success_desc
+    discovery_desc = bno_offer_tribute.discovery_desc
+    is_secret = yes
+    maximum_breaches = 1
+
+    speed_per_skill_point = t3_spsp_owner_value
+    speed_per_target_skill_point = t2_spsp_target_value
+    base_progress_goal = t3_base_phase_length_value
+    maximum_secrecy = 100
+    base_maximum_success = t3_base_max_success_value
+    phases_per_agent_charge = 1
+    success_chance_growth_per_skill_point = t3_scgpsp_value
 
     allow = {
-        scope:owner = {
-            culture = {
-                has_cultural_parameter = bno_unlock_offer_tribute_scheme
-            }
-        }
+        is_culture_bnoc = yes
+        is_adult = yes
+        is_playable_character = yes
+        is_imprisoned = no
     }
 
     valid = {
-        scope:owner = {
-            is_alive = yes
+        is_playable_character = yes
+        is_ruler = yes
+        is_incapable = no
+        is_bbc = no
+        is_culture_bnoc = yes
+        OR = {
+            is_bno_snowbunny_and_up = yes
+            is_bno_cuck_and_up = yes
+        }
+        scope:target = {
+            is_imprisoned = no
+            exists = location
+            in_diplomatic_range = scope:owner
+            is_bbc = yes
             is_ruler = yes
+            is_adult = yes
         }
     }
 

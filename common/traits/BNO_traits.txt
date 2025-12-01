@@ -601,7 +601,6 @@ bno_camp_leader = {
 	ruler_designer_cost = 30
 	
 	fertility = 1.0
-	valid_sex = male
 	#number_of_spouses = 3
 	#number_of_consorts = 10
 	
@@ -2080,8 +2079,6 @@ bno_bbc_whore_1 = {
 	
 	shown_in_ruler_designer = no
 
-	valid_sex = female
-
 	attraction_opinion = 10
 	spouse_opinion = 5
 	general_opinion = -5
@@ -2132,8 +2129,6 @@ bno_bbc_whore_2 = {
 
 	shown_in_ruler_designer = no
 
-	valid_sex = female
-
 	attraction_opinion = 15
 	spouse_opinion = 10
 	general_opinion = -10
@@ -2181,8 +2176,6 @@ bno_bbc_whore_3 = {
 	physical = yes
 
 	shown_in_ruler_designer = no
-
-	valid_sex = female
 
 	attraction_opinion = 20
 	spouse_opinion = 15
@@ -2232,8 +2225,6 @@ bno_bbc_whore_4 = {
 	physical = yes
 
 	shown_in_ruler_designer = no
-
-	valid_sex = female
 
 	attraction_opinion = 25
 	spouse_opinion = 20

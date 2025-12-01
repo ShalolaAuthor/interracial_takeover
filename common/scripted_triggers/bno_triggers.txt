@@ -1,6 +1,9 @@
 ﻿bno_only_allow_when_below_certain_age = {
-    OR = {
-        age <= $AGE$
-        has_character_flag = bno_adult_immortal
+    custom_tooltip = {
+        text = bno.trigger.bno_only_allow_when_below_certain_age
+        OR = {
+            age <= $AGE$
+            has_character_flag = bno_adult_immortal
+        }
     }
 }

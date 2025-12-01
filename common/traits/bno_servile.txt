@@ -1,0 +1,114 @@
+﻿bno_servile = {
+    physical = yes
+    shown_in_ruler_designer = no
+    opposites = { bno_bbc bno_blood }
+    opposite_opinion = 10
+    
+    diplomacy = 1
+    fertility = 0.05
+    same_culture_opinion = 5
+    bnoc_opinion = 10
+
+    flag = bno_submission
+    flag = bno_unlock_more_submission_training
+    flag = bno_instant_bbc_seduction_success
+
+    track = {
+        50 = {
+            diplomacy = 2
+            fertility = 0.1
+            same_culture_opinion = 10
+            bnoc_opinion = 20
+            prowess = -1
+        }
+        100 = {
+            diplomacy = 3
+            fertility = 0.15
+            same_culture_opinion = 15
+            bnoc_opinion = 30
+            prowess = -2
+        }
+    }
+
+    name = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_servile.name.1
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_servile
+                        value >= 100
+                    }
+                }
+                desc = bno_servile.name.3
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_servile
+                        value >= 50
+                    }
+                }
+                desc = bno_servile.name.2
+            }
+            desc = bno_servile.name.1
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = bno_servile.desc.1.hidden
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_servile
+                        value >= 100
+                    }
+                }
+                desc = bno_servile.desc.3
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_servile
+                        value >= 50
+                    }
+                }
+                desc = bno_servile.desc.2
+            }
+            desc = bno_servile.desc.1
+        }
+    }
+    icon = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { NOT = { exists = this } }
+                desc = "bno_servile_1.dds"
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_servile
+                        value >= 100
+                    }
+                }
+                desc = "bno_servile_3.dds"
+            }
+            triggered_desc = {
+                trigger = {
+                    has_trait_xp = {
+                        trait = bno_servile
+                        value >= 50
+                    }
+                }
+                desc = "bno_servile_2.dds"
+            }
+            desc = "bno_servile_1.dds"
+        }
+    }
+}

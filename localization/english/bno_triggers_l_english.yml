@@ -2,3 +2,4 @@
 
 bno.trigger.is_culture_bnoc: "[culture|E] has embraced [bno_bnwo|E] submission and breeding."
 bno.trigger.is_slut_or_whiteboi: "You are not a [GetTraitGroup('bno_whitegirl').GetName] or a [GetTraitGroup('bno_whiteboi').GetName]"
+bno.trigger.bno_only_allow_when_below_certain_age: "Character is too old to be properly trained and remolded."

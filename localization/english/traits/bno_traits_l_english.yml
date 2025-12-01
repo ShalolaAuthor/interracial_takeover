@@ -271,3 +271,20 @@ TRAIT_FLAG_DESC_bno_darker_skin: "$EFFECT_LIST_BULLET$With every breeding under 
 
 trait_bno_whispered_rose: "Whispered Rose"
 trait_bno_whispered_rose_desc: "Her presence draws every gaze, her laughter lingers like a forgotten dream, and rumors of her beauty drift through the halls like petals on the breeze. For now, she remains untouchable—admired, coveted, and just out of reach."
+
+bno_servile.name.1: "Awakening Submission"
+bno_servile.desc.1.hidden: "This woman carries herself with a new awareness, as if seeing her place in the world for the first time."
+bno_servile.desc.1: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] has begun her training, learning the sacred art of surrender. The fear in her eyes is slowly being replaced by dawning understanding."
+
+bno_servile.name.2: "Willing Servitude"
+bno_servile.desc.2: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] no longer needs to be told to kneel - her body assumes the position instinctively. The hunger in her eyes when Black men approach is becoming unmistakable."
+
+bno_servile.name.3: "Perfect Surrender"
+bno_servile.desc.3: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]'s mind has been rewired for pleasure and obedience. She anticipates commands before they're spoken, her body already preparing itself. The transformation is complete - she exists only to serve Black will."
+
+trait_track_bno_servile: "The Path of Perfect Surrender"
+trait_track_bno_servile_desc: "From fearful maiden to willing property, this track charts a woman's sacred journey into becoming the ultimate offering for Black pleasure. Each step represents another layer of resistance stripped away, another enhancement toward perfect desirability."
+
+TRAIT_FLAG_DESC_bno_submission: "$EFFECT_LIST_BULLET$Can be upgraded through tribute scheme events as she progresses in her training."
+TRAIT_FLAG_DESC_bno_unlock_more_submission_training: "$EFFECT_LIST_BULLET$Unlocks at 50XP - advanced psychological breaking and specialized presentation techniques."
+TRAIT_FLAG_DESC_bno_instant_bbc_seduction_success: "$EFFECT_LIST_BULLET$Unlocks at 100XP - Black men find her irresistible, making seduction attempts automatically successful."
