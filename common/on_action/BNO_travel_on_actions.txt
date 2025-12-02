@@ -1,20 +1,16 @@
 ﻿#on actions for travel, triggering travel based events
 
 on_travel_plan_movement = {
-	trigger = {
-		is_landed = yes
-		is_adult = yes
-	}
 	on_actions = {
 		bno_travel_events_on_action
-		#delay = { days = 1 }
-		#		bno_travel_danger_events_on_action
 	}
 }
 
 bno_travel_events_on_action = {
 	trigger = {
 		has_game_rule = bno_mod_status_on
+		is_landed = yes
+		is_adult = yes
 		NOT = { has_character_flag = in_pilgrimage_event_chain }
 		#Barons don't need travel events - to avoid them bloating their court when getting add_courtier events
 		highest_held_title_tier >= tier_county
