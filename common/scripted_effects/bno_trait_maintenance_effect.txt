@@ -324,5 +324,6 @@ bno_remove_futa_existence = {
 			has_game_rule = bno_futa_existence_no
 		}
 		remove_trait = futa
+		remove_trait = futa_genetic
 	}
 }
