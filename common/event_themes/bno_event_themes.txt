@@ -1,0 +1,18 @@
+﻿bno_offer_tribute = {
+    icon = {
+        reference = "gfx/interface/icons/event_types/type_bno_offer_tribute.dds"
+    }
+    header_background = {
+        reference = "gfx/interface/window_event/event_header_purple.dds"
+    }
+    sound = {
+        reference = "event:/SFX/Events/Themes/sfx_event_theme_type_seduction"
+    }
+    background = {
+		trigger = { government_has_flag = government_is_landless_adventurer }
+		reference = bp1_bonfire
+	}
+	background = {
+		reference = sitting_room
+	}
+}

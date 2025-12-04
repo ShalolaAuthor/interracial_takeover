@@ -1,0 +1,164 @@
+﻿namespace = bno_offer_tribute
+
+bno_offer_tribute.0001 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    is_slut = yes
+                }
+                desc = bno_offer_tribute.0001.title.slut
+            }
+            desc = bno_offer_tribute.0001.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    is_slut = yes
+                }
+                desc = bno_offer_tribute.0001.desc.slut
+            }
+            desc = bno_offer_tribute.0001.desc.cuck
+        }
+    }
+
+
+    trigger = {
+        exists = scope:scheme
+		scope:owner = { is_alive = yes }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = {
+                            is_slut = yes
+                        }
+                        desc = bno_offer_tribute.0001.a.slut
+                    }
+                    desc = bno_offer_tribute.0001.a.cuck
+                }
+            }
+        }
+        ai_chance = {
+            base = 100
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = {
+                            is_slut = yes
+                        }
+                        desc = bno_offer_tribute.0001.b.slut
+                    }
+                    desc = bno_offer_tribute.0001.b.cuck
+                }
+            }
+        }
+        scope:scheme = {
+            end_scheme = yes
+        }
+    }
+}
+
+bno_offer_tribute.1001 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    is_slut = yes
+                }
+                desc = bno_offer_tribute.1001.title.slut
+            }
+            desc = bno_offer_tribute.1001.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    is_slut = yes
+                }
+                desc = bno_offer_tribute.1001.desc.slut
+            }
+            desc = bno_offer_tribute.1001.desc.cuck
+        }
+    }
+
+
+    trigger = {
+        exists = scope:scheme
+		scope:owner = { is_alive = yes }
+    }
+
+    immediate = {
+        random_courtier = {
+            limit = {
+                is_ai_blackbull = yes
+            }
+            save_scope_as = bbc
+        }
+    }
+
+    option = {
+        trigger = {
+            exists = scope:bbc
+        }
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = {
+                            is_slut = yes
+                        }
+                        desc = bno_offer_tribute.1001.a.slut
+                    }
+                    desc = bno_offer_tribute.1001.a.cuck
+                }
+            }
+        }
+        add_internal_flag = special
+        ai_chance = {
+            base = 100
+        }
+
+        scope:bbc = {
+            set_relation_bno_offer_tribute_trainee = scope:target
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = {
+                            is_slut = yes
+                        }
+                        desc = bno_offer_tribute.1001.b.slut
+                    }
+                    desc = bno_offer_tribute.1001.b.cuck
+                }
+            }
+        }
+        set_relation_bno_offer_tribute_trainee = scope:target
+    }
+}

@@ -55,12 +55,14 @@
     }
 
     on_start = {
-        scheme_target_character = {
-            if = {
-                limit = {
-                    NOT = { has_trait = bno_servile }
-                }
-                add_trait = bno_servile
+        save_scope_as = scheme
+        scheme_owner = { save_scope_as = owner }
+        scheme_target_character = { save_scope_as = target }
+        var:bno_tribute = { save_scope_as = tribute }
+
+        scope:owner = {
+            trigger_event = {
+                id = bno_offer_tribute.0001
             }
         }
     }
