@@ -77,6 +77,7 @@ bno_carnal_court_leave_court_effect = {
     }
 
     carn_sex_scene_clean_up_flags_effect = yes
+    
     remove_global_variable = sex_animation_event
     remove_global_variable = carn_sex_player
     remove_global_variable = carn_sex_partner

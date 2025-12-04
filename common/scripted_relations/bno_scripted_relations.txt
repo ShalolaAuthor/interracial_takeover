@@ -17,3 +17,13 @@ bno_cum_slave_owner = {
     corresponding = bno_cum_slave
     opinion = 100
 }
+
+bno_offer_tribute_trainee = {
+    corresponding = bno_offer_tribute_trainer
+    special_guest = yes
+}
+
+bno_offer_tribute_trainer = {
+    corresponding = bno_offer_tribute_trainee
+    special_guest = yes
+}
