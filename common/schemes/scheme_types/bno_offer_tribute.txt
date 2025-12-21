@@ -45,13 +45,7 @@
     }
 
     base_success_chance = {
-        base = 0
-        modifier = {
-            add = scope:target.bno_servile_xp_amount
-            scope:target = {
-                has_trait = bno_servile
-            }
-        }
+        base = 100
     }
 
     on_start = {
@@ -68,8 +62,6 @@
     }
 
     on_monthly = {
-
+        
     }
-
-
 }

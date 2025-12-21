@@ -33,6 +33,8 @@ bno_offer_tribute.0001 = {
     trigger = {
         exists = scope:scheme
 		scope:owner = { is_alive = yes }
+        scope:target = { is_alive = yes }
+        scope:tribute = { is_alive = yes }
     }
 
     option = {
@@ -48,6 +50,9 @@ bno_offer_tribute.0001 = {
                     desc = bno_offer_tribute.0001.a.cuck
                 }
             }
+        }
+        trigger_event = {
+            on_action = bno_offer_tribute_phase_1
         }
         ai_chance = {
             base = 100
@@ -74,6 +79,86 @@ bno_offer_tribute.0001 = {
     }
 }
 
+bno_offer_tribute.1000 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1000.title.slut
+            }
+            desc = bno_offer_tribute.1000.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1000.desc.slut
+            }
+            desc = bno_offer_tribute.1000.desc.cuck
+        }
+    }
+
+
+    trigger = {
+        exists = scope:scheme
+		scope:owner = { is_alive = yes }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.1000.a.slut
+                    }
+                    desc = bno_offer_tribute.1000.a.cuck
+                }
+            }
+        }
+        trigger_event = bno_offer_tribute.1001
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.1000.b.slut
+                    }
+                    desc = bno_offer_tribute.1000.b.cuck
+                }
+            }
+        }
+        trigger_event = bno_offer_tribute.1002
+        ai_chance = {
+            base = 100
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.1000.c.slut
+                    }
+                    desc = bno_offer_tribute.1000.c.cuck
+                }
+            }
+        }
+        trigger_event = bno_offer_tribute.1003
+    }
+}
+
 bno_offer_tribute.1001 = {
     type = character_event
     window = scheme_successful_event
@@ -82,9 +167,7 @@ bno_offer_tribute.1001 = {
     title = {
         first_valid = {
             triggered_desc = {
-                trigger = {
-                    is_slut = yes
-                }
+                trigger = { is_slut = yes }
                 desc = bno_offer_tribute.1001.title.slut
             }
             desc = bno_offer_tribute.1001.title.cuck
@@ -94,9 +177,7 @@ bno_offer_tribute.1001 = {
     desc = {
         first_valid = {
             triggered_desc = {
-                trigger = {
-                    is_slut = yes
-                }
+                trigger = { is_slut = yes }
                 desc = bno_offer_tribute.1001.desc.slut
             }
             desc = bno_offer_tribute.1001.desc.cuck
@@ -107,41 +188,73 @@ bno_offer_tribute.1001 = {
     trigger = {
         exists = scope:scheme
 		scope:owner = { is_alive = yes }
+        scope:tribute = { is_alive = yes }
     }
 
     immediate = {
-        random_courtier = {
-            limit = {
-                is_ai_blackbull = yes
-            }
-            save_scope_as = bbc
+        scope:tribute = {
+            add_diplomacy_skill = -2
+            add_learning_skill = -1
+            add_prowess_skill = -1
+        }
+        scope:scheme = {
+            add_scheme_progress = 15
         }
     }
 
     option = {
-        trigger = {
-            exists = scope:bbc
-        }
         name = {
             text = {
                 first_valid = {
                     triggered_desc = {
-                        trigger = {
-                            is_slut = yes
-                        }
+                        trigger = { is_slut = yes }
                         desc = bno_offer_tribute.1001.a.slut
                     }
                     desc = bno_offer_tribute.1001.a.cuck
                 }
             }
         }
-        add_internal_flag = special
-        ai_chance = {
-            base = 100
-        }
+    }
+}
 
-        scope:bbc = {
-            set_relation_bno_offer_tribute_trainee = scope:target
+bno_offer_tribute.1002 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1002.title.slut
+            }
+            desc = bno_offer_tribute.1002.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1002.desc.slut
+            }
+            desc = bno_offer_tribute.1002.desc.cuck
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+		scope:owner = { is_alive = yes }
+    }
+
+    immediate = {
+        scope:tribute = {
+            add_diplomacy_skill = -3
+            add_learning_skill = -1
+            add_prowess_skill = -2
+        }
+        scope:scheme = {
+            add_scheme_progress = 18
         }
     }
 
@@ -150,15 +263,68 @@ bno_offer_tribute.1001 = {
             text = {
                 first_valid = {
                     triggered_desc = {
-                        trigger = {
-                            is_slut = yes
-                        }
-                        desc = bno_offer_tribute.1001.b.slut
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.1002.a.slut
                     }
-                    desc = bno_offer_tribute.1001.b.cuck
+                    desc = bno_offer_tribute.1002.a.cuck
                 }
             }
         }
-        set_relation_bno_offer_tribute_trainee = scope:target
+    }
+}
+
+bno_offer_tribute.1003 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1003.title.slut
+            }
+            desc = bno_offer_tribute.1003.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1003.desc.slut
+            }
+            desc = bno_offer_tribute.1003.desc.cuck
+        }
+    }
+
+
+    trigger = {
+        exists = scope:scheme
+		scope:owner = { is_alive = yes }
+    }
+
+    immediate = {
+        scope:tribute = {
+            add_diplomacy_skill = -2
+            add_prowess_skill = -1
+        }
+        scope:scheme = {
+            add_scheme_progress = 12
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.1003.a.slut
+                    }
+                    desc = bno_offer_tribute.1003.a.cuck
+                }
+            }
+        }
     }
 }

@@ -1,0 +1,10 @@
+﻿bno_offer_tribute_phase_1 = {
+    trigger = {
+        scope:scheme = {
+            scheme_progress < scheme_progress_33
+        }
+    }
+    random_events = {
+        1 = bno_offer_tribute.1000
+    }
+}
