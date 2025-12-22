@@ -1,0 +1,75 @@
+﻿bno_find_trainer_for_tribute = {
+    save_scope_as = story
+    var:scheme = {
+        scheme_owner = {
+            save_scope_as = scheme_owner
+        }
+    }
+    story_owner = {
+        save_scope_as = story_owner
+        every_parent = {
+            limit = {
+                is_ruler = yes
+            }
+            every_courtier = {
+                limit = {
+                    is_blackbull = yes
+                }
+                add_to_list = potential_trainer
+            }
+        }
+        random_in_list = {
+            list = potential_trainer
+            save_scope_as = bno_trainer
+        }
+        if = {
+            limit = {
+                exists = scope:bno_trainer
+                scope:bno_trainer = {
+                    is_alive = yes
+                }
+            }
+            scope:story = {
+                set_variable = {
+                    name = bno_trainer
+                    value = scope:bno_trainer
+                }
+            }
+            if = {
+                limit = {
+                    exists = scope:scheme_owner
+                    scope:scheme_owner ?= {
+                        is_alive = yes
+                    }
+                }
+                scope:scheme_owner = {
+                    send_interface_message = {
+                        type = bno_blacked_events
+                        title = bno_offer_tribute_found_suitable_trainer.title
+                        desc = bno_offer_tribute_found_suitable_trainer.desc
+                        scope:story_owner = {
+                            set_relation_bno_offer_tribute_trainer = scope:bno_trainer
+                        }
+                    }
+                }
+            }
+            else = {
+                scope:story_owner = {
+                    set_relation_bno_offer_tribute_trainer = scope:bno_trainer
+                }
+            }
+        }
+    }
+}
+
+bno_training_add_scheme_progress = {
+    add_trait_xp = {
+		trait = bno_servile
+		value = 1
+	}
+	var:bno_tribute_training_story = {
+		var:scheme = {
+			add_scheme_progress = 1
+		}
+	}
+}

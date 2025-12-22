@@ -1,0 +1,62 @@
+﻿story_bno_tribute_training = {
+    on_owner_death = {
+        end_story = yes
+    }
+
+    on_setup = {
+        bno_find_trainer_for_tribute = yes
+    }
+
+    #find someone else suitable if the initial trainer died
+    effect_group = {
+        days = { 7 14 }
+        trigger = {
+            story_owner = {
+                NOT = {
+                    any_relation = {
+                        type = bno_offer_tribute_trainer
+                    }
+                }
+            }
+        }
+        triggered_effect = {
+            trigger = { always = yes }
+            effect = {
+                bno_find_trainer_for_tribute = yes
+            }
+        }
+    }
+
+    #training
+    effect_group = {
+        days = { 7 14 }
+        trigger = {
+            var:bno_trainer = {
+                is_alive = yes
+            }
+        }
+        triggered_effect = {
+            trigger = {
+                story_owner = {
+                    has_trait_xp = {
+                        trait = bno_servile
+                        value < 100
+                    }
+                }
+            }
+            effect = {
+                var:bno_trainer = {
+                    save_scope_as = bno_trainer
+                }
+                story_owner = {
+                    carn_sex_scene_no_pregnancy_effect = yes
+			        carn_sex_scene_no_drama_effect = yes
+                    carn_sex_scene_no_memory_effect = yes
+                    bno_have_sex_with_effects = {
+                        PARTNER = scope:bno_trainer
+                    }
+                }
+            }
+        }
+    }
+}

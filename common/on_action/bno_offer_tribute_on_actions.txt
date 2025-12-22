@@ -1,8 +1,33 @@
 ﻿bno_offer_tribute_phase_1 = {
     trigger = {
-        scope:scheme = {
-            scheme_progress < scheme_progress_33
-        }
+        exists = scope:scheme
+    }
+    random_events = {
+        1 = bno_offer_tribute.1000
+    }
+}
+
+bno_offer_tribute_phase_2 = {
+    trigger = {
+        exists = scope:scheme
+    }
+    random_events = {
+        1 = bno_offer_tribute.1000
+    }
+}
+
+bno_offer_tribute_phase_3 = {
+    trigger = {
+        exists = scope:scheme
+    }
+    random_events = {
+        1 = bno_offer_tribute.1000
+    }
+}
+
+bno_offer_tribute_phase_4 = {
+    trigger = {
+        exists = scope:scheme
     }
     random_events = {
         1 = bno_offer_tribute.1000

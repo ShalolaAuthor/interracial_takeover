@@ -42,6 +42,11 @@
             is_ruler = yes
             is_adult = yes
         }
+        var:bno_tribute = {
+            is_alive = yes
+            is_a_girl = yes
+            is_adult = yes
+        }
     }
 
     base_success_chance = {
@@ -59,9 +64,120 @@
                 id = bno_offer_tribute.0001
             }
         }
+        scope:tribute = {
+            create_story = {
+                type = story_bno_tribute_training
+                save_scope_as = bno_offer_tribute_story
+            }
+            set_variable = {
+                name = bno_tribute_training_story
+                value = scope:bno_offer_tribute_story
+            }
+            scope:bno_offer_tribute_story = {
+                set_variable = {
+                    name = scheme
+                    value = scope:scheme
+                }
+            }
+        }
     }
 
     on_monthly = {
-        
+        save_scope_as = scheme
+        scheme_owner = { save_scope_as = owner }
+        scheme_target_character = { save_scope_as = target }
+        var:bno_tribute = { save_scope_as = tribute }
+
+        #Phase 1
+        if = {
+            limit = {
+                scheme_progress < scheme_progress_33
+                scheme_owner = {
+                    is_available = yes
+                }
+                scope:tribute = {
+                    is_available = yes
+                }
+            }
+            scope:owner = {
+                trigger_event = { on_action = bno_offer_tribute_phase_1 }
+            }
+        }
+        #Phase 2
+        else_if = {
+            limit = {
+                scheme_progress < 50
+                scheme_progress >= scheme_progress_33
+                scheme_owner = {
+                    is_available = yes
+                }
+                scope:tribute = {
+                    is_available = yes
+                }
+            }
+            scope:owner = {
+                trigger_event = { on_action = bno_offer_tribute_phase_2 }
+            }
+        }
+        #Phase 3
+        else_if = {
+            limit = {
+                scheme_progress < 66
+                scheme_progress >= scheme_progress_50
+                scheme_owner = {
+                    is_available = yes
+                }
+                scope:tribute = {
+                    is_available = yes
+                }
+            }
+            scope:owner = {
+                trigger_event = { on_action = bno_offer_tribute_phase_3 }
+            }
+        }
+        #Phase 4
+        else_if = {
+            limit = {
+                scheme_progress >= 66
+                scheme_owner = {
+                    is_available = yes
+                }
+                scope:tribute = {
+                    is_available = yes
+                }
+            }
+            scope:owner = {
+                trigger_event = { on_action = bno_offer_tribute_phase_4 }
+            }
+        }
+    }
+    on_invalidated = {
+        save_scope_as = scheme
+        scheme_target_character = {
+            save_scope_as = target
+        }
+        scheme_owner = {
+            save_scope_as = owner
+        }
+        var:bno_tribute = {
+            save_scope_as = tribute
+        }
+
+        if = {
+            limit = {
+                scope:tribute = { is_alive = no }
+            }
+            scope:owner = {
+                trigger_event = bno_offer_tribute.9999
+            }
+        }
+        if = {
+            limit = {
+                scope:target = { is_alive = no }
+            }
+            scope:owner = {
+                trigger_event = bno_offer_tribute.9998
+            }
+        }
     }
 }

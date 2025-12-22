@@ -69,3 +69,16 @@ on_set_relation_bno_cum_slave_owner = {
         }
     }
 }
+
+### Offer Tribute
+on_death_relation_bno_offer_tribute_trainer = {
+    effect = {
+        remove_relation_bno_offer_tribute_trainee = scope:target
+    }
+}
+
+on_death_relation_bno_offer_tribute_trainee = {
+    effect = {
+        remove_relation_bno_offer_tribute_trainer = scope:target
+    }
+}

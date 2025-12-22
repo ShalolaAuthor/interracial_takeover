@@ -15,3 +15,12 @@ set_relation_bno_cum_slave = {
     third_past = they_got_a_bno_cum_slave
     global_past = they_got_a_bno_cum_slave
 }
+
+set_relation_bno_offer_tribute_trainer = {
+    first = i_gain_a_bno_offer_tribute_trainer
+    third = they_gain_a_bno_offer_tribute_trainer
+    global = they_gain_a_bno_offer_tribute_trainer
+    first_past = i_got_a_bno_offer_tribute_trainer
+    third_past = they_got_a_bno_offer_tribute_trainer
+    global_past = they_got_a_bno_offer_tribute_trainer
+}
