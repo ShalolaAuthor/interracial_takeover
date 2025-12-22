@@ -1,11 +1,11 @@
 ﻿bno_apply_african_trait = {
     if = {
-		limit = {
-			NOT = { has_trait = bno_blood }
-			bno_is_graphically_african = yes
-		}
-		add_trait = bno_full_black
-	}
+        limit = {
+            NOT = { has_trait = bno_blood }
+            bno_is_graphically_african = yes
+        }
+        add_trait = bno_full_black
+    }
 }
 
 bno_apply_bbc_trait = {
@@ -463,8 +463,11 @@ bno_cage_a_non_bbc_slave = {
 					is_bbc = yes
 				}
 			}
+            liege = {
+                save_scope_as = liege
+            }
 			bno_caged_effect = {
-				CAGER = liege
+				CAGER = scope:liege
 			}
 		}
 		else = {

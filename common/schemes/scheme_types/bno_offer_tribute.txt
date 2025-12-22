@@ -79,6 +79,22 @@
                     value = scope:scheme
                 }
             }
+            create_character_memory = {
+                type = bno_offer_tribute_training_started
+                participants = {
+                    scheme_owner = scope:owner
+                    target = scope:target
+                }
+            }
+        }
+        scope:owner = {
+            create_character_memory = {
+                type = bno_offer_tribute_daughter_training_started
+                participants = {
+                    target = scope:target
+                    tribute = scope:tribute
+                }
+            }
         }
     }
 
@@ -91,7 +107,7 @@
         #Phase 1
         if = {
             limit = {
-                scheme_progress < scheme_progress_33
+                scheme_progress <= bno_scheme_progress_40
                 scheme_owner = {
                     is_available = yes
                 }
@@ -106,8 +122,8 @@
         #Phase 2
         else_if = {
             limit = {
-                scheme_progress < 50
-                scheme_progress >= scheme_progress_33
+                scheme_progress <= bno_scheme_progress_80
+                scheme_progress > bno_scheme_progress_40
                 scheme_owner = {
                     is_available = yes
                 }
@@ -122,8 +138,7 @@
         #Phase 3
         else_if = {
             limit = {
-                scheme_progress < 66
-                scheme_progress >= scheme_progress_50
+                scheme_progress > bno_scheme_progress_80
                 scheme_owner = {
                     is_available = yes
                 }
@@ -133,21 +148,6 @@
             }
             scope:owner = {
                 trigger_event = { on_action = bno_offer_tribute_phase_3 }
-            }
-        }
-        #Phase 4
-        else_if = {
-            limit = {
-                scheme_progress >= 66
-                scheme_owner = {
-                    is_available = yes
-                }
-                scope:tribute = {
-                    is_available = yes
-                }
-            }
-            scope:owner = {
-                trigger_event = { on_action = bno_offer_tribute_phase_4 }
             }
         }
     }

@@ -1,0 +1,86 @@
+﻿bno_offer_tribute_training_started = {
+    categories = { positive bno_offer_tribute }
+    icon = "bno_offer_tribute_training_started.dds"
+
+    description = {
+        random_valid = {
+            desc = bno_offer_tribute_training_started_desc_1
+        }
+    }
+
+    second_perspective_description = {
+        random_valid = {
+            desc = bno_offer_tribute_training_started_desc_second_perspective_1
+        }
+    }
+    
+    third_perspective_description = {
+        random_valid = {
+            desc = bno_offer_tribute_training_started_desc_third_perspective_1
+        }
+    }
+
+    participants = { target scheme_owner }
+
+    duration = {
+        years = memory_default_duration
+    }
+}
+
+bno_offer_tribute_daughter_training_started = {
+    categories = { positive bno_offer_tribute }
+    icon = "bno_offer_tribute_training_started.dds"
+
+    description = {
+        random_valid = {
+            desc = bno_offer_tribute_daughter_training_started_desc_1
+        }
+    }
+
+    second_perspective_description = {
+        random_valid = {
+            desc = bno_offer_tribute_daughter_training_started_desc_second_perspective_1
+        }
+    }
+    
+    third_perspective_description = {
+        random_valid = {
+            desc = bno_offer_tribute_daughter_training_started_desc_third_perspective_1
+        }
+    }
+
+    participants = { target tribute }
+
+    duration = {
+        years = memory_default_duration
+    }
+}
+
+bno_offer_tribute_training_beauty_perfected = {
+    categories = { positive bno_offer_tribute }
+    icon = "bno_offer_tribute_training_beauty_perfected.dds"
+
+    description = {
+        random_valid = {
+            desc = bno_offer_tribute_training_beauty_perfected_desc_1
+        }
+    }
+
+    second_perspective_description = {
+        random_valid = {
+            desc = bno_offer_tribute_training_beauty_perfected_desc_second_perspective_1
+        }
+    }
+    
+    third_perspective_description = {
+        random_valid = {
+            desc = bno_offer_tribute_training_beauty_perfected_desc_third_perspective_1
+        }
+    }
+
+    participants = { target scheme_owner }
+
+    duration = {
+        years = memory_default_duration
+    }
+}

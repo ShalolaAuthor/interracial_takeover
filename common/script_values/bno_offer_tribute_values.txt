@@ -1,3 +1,13 @@
 ﻿bno_servile_xp_amount = {
     value = "this.has_trait_xp(bno_servile)"
 }
+
+bno_scheme_progress_40 = {
+    value = scope:scheme.scheme_phase_duration
+    multiply = 0.4
+}
+
+bno_scheme_progress_80 = {
+    value = scope:scheme.scheme_phase_duration
+    multiply = 0.8
+}

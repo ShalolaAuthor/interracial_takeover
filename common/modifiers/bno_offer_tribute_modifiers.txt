@@ -1,0 +1,7 @@
+﻿bno_beauty_trained = {
+    icon = bno_beauty_trained
+    bnoc_opinion = 10
+    attraction_opinion = 10
+    health = 0.1
+    fertility = 0.1
+}

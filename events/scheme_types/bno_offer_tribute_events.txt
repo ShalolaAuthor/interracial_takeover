@@ -51,9 +51,7 @@ bno_offer_tribute.0001 = {
                 }
             }
         }
-        trigger_event = {
-            on_action = bno_offer_tribute_phase_1
-        }
+        trigger_event = bno_offer_tribute.1000
         ai_chance = {
             base = 100
         }
@@ -197,8 +195,8 @@ bno_offer_tribute.1001 = {
             add_learning_skill = -1
             add_prowess_skill = -1
         }
-        scope:scheme = {
-            add_scheme_progress = 15
+        bno_add_training_and_scheme_progress = {
+            VALUE = 7
         }
     }
 
@@ -253,8 +251,8 @@ bno_offer_tribute.1002 = {
             add_learning_skill = -1
             add_prowess_skill = -2
         }
-        scope:scheme = {
-            add_scheme_progress = 18
+        bno_add_training_and_scheme_progress = {
+            VALUE = 9
         }
     }
 
@@ -298,7 +296,6 @@ bno_offer_tribute.1003 = {
         }
     }
 
-
     trigger = {
         exists = scope:scheme
 		scope:owner = { is_alive = yes }
@@ -309,8 +306,8 @@ bno_offer_tribute.1003 = {
             add_diplomacy_skill = -2
             add_prowess_skill = -1
         }
-        scope:scheme = {
-            add_scheme_progress = 12
+        bno_add_training_and_scheme_progress = {
+            VALUE = 6
         }
     }
 
@@ -323,6 +320,194 @@ bno_offer_tribute.1003 = {
                         desc = bno_offer_tribute.1003.a.slut
                     }
                     desc = bno_offer_tribute.1003.a.cuck
+                }
+            }
+        }
+    }
+}
+### Phase 1
+# Train Beauty: initial
+bno_offer_tribute.1101 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+    
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1101.title.slut
+            }
+            desc = bno_offer_tribute.1101.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1101.desc.slut
+            }
+            desc = bno_offer_tribute.1101.desc.cuck
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:owner = { is_alive = yes }
+        scope:tribute = {
+            NOT = { has_character_flag = bno_offer_tribute.1101 }
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.1101.a.slut
+                    }
+                    desc = bno_offer_tribute.1101.a.cuck
+                }
+            }
+        }
+        scope:tribute = {
+            add_learning_skill = -2
+        }
+        become_prettier = yes
+        bno_add_training_and_scheme_progress = {
+            VALUE = 5
+        }
+    }
+    after = {
+        bno_beauty_training_maxed = yes
+    }
+}
+# Train Beauty: reoccuring
+bno_offer_tribute.1102 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+    
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1102.title.slut
+            }
+            desc = bno_offer_tribute.1102.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1102.desc.slut
+            }
+            desc = bno_offer_tribute.1102.desc.cuck
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:owner = { is_alive = yes }
+        scope:tribute = {
+            NOT = {
+                has_trait = beauty_good_3
+            }
+            has_character_flag = bno_offer_tribute.1101
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.1102.a.slut
+                    }
+                    desc = bno_offer_tribute.1102.a.cuck
+                }
+            }
+        }
+        scope:tribute = {
+            add_learning_skill = -1
+            add_diplomacy_skill = -1
+        }
+        become_prettier = yes
+        bno_add_training_and_scheme_progress = {
+            VALUE = 5
+        }
+    }
+    after = {
+        bno_beauty_training_maxed = yes
+    }
+}
+# Train Beauty: finished
+bno_offer_tribute.1103 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+    
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1103.title.slut
+            }
+            desc = bno_offer_tribute.1103.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1103.desc.slut
+            }
+            desc = bno_offer_tribute.1103.desc.cuck
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:owner = { is_alive = yes }
+        scope:tribute = {
+            has_trait = beauty_good_3
+            has_character_flag = bno_offer_tribute.1101
+        }
+    }
+
+    immediate = {
+        scope:tribute = {
+            add_character_modifier = bno_beauty_trained
+            add_learning_skill = -2
+            add_diplomacy_skill = -2
+            create_character_memory = {
+                type = bno_offer_tribute_training_beauty_perfected
+                participants = {
+                    target = scope:target
+                    scheme_owner = scope:owner
+                }
+            }
+        }
+        bno_add_training_and_scheme_progress = {
+            VALUE = 5
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.1103.a.slut
+                    }
+                    desc = bno_offer_tribute.1103.a.cuck
                 }
             }
         }
