@@ -32,7 +32,7 @@ bno_offer_tribute.0001 = {
 
     trigger = {
         exists = scope:scheme
-		scope:owner = { is_alive = yes }
+        scope:owner = { is_alive = yes }
         scope:target = { is_alive = yes }
         scope:tribute = { is_alive = yes }
     }
@@ -105,7 +105,7 @@ bno_offer_tribute.1000 = {
 
     trigger = {
         exists = scope:scheme
-		scope:owner = { is_alive = yes }
+        scope:owner = { is_alive = yes }
     }
 
     option = {
@@ -185,7 +185,7 @@ bno_offer_tribute.1001 = {
 
     trigger = {
         exists = scope:scheme
-		scope:owner = { is_alive = yes }
+        scope:owner = { is_alive = yes }
         scope:tribute = { is_alive = yes }
     }
 
@@ -242,7 +242,7 @@ bno_offer_tribute.1002 = {
 
     trigger = {
         exists = scope:scheme
-		scope:owner = { is_alive = yes }
+        scope:owner = { is_alive = yes }
     }
 
     immediate = {
@@ -298,7 +298,7 @@ bno_offer_tribute.1003 = {
 
     trigger = {
         exists = scope:scheme
-		scope:owner = { is_alive = yes }
+        scope:owner = { is_alive = yes }
     }
 
     immediate = {
@@ -374,6 +374,13 @@ bno_offer_tribute.1101 = {
         }
         scope:tribute = {
             add_learning_skill = -2
+            create_character_memory = {
+                type = bno_offer_tribute_training_beauty_started
+                participants = {
+                    target = scope:target
+                    scheme_owner = scope:owner
+                }
+            }
         }
         become_prettier = yes
         bno_add_training_and_scheme_progress = {
@@ -508,6 +515,210 @@ bno_offer_tribute.1103 = {
                         desc = bno_offer_tribute.1103.a.slut
                     }
                     desc = bno_offer_tribute.1103.a.cuck
+                }
+            }
+        }
+    }
+}
+# Train Breasts: initial
+bno_offer_tribute.1111 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+    
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1111.title.slut
+            }
+            desc = bno_offer_tribute.1111.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1111.desc.slut
+            }
+            desc = bno_offer_tribute.1111.desc.cuck
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:owner = { is_alive = yes }
+        scope:tribute = {
+            NOT = { has_character_flag = bno_offer_tribute.1111 }
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.1111.a.slut
+                    }
+                    desc = bno_offer_tribute.1111.a.cuck
+                }
+            }
+        }
+        scope:tribute = {
+            add_learning_skill = -1
+            add_prowess_skill = -1
+            create_character_memory = {
+                type = bno_offer_tribute_training_breast_started
+                participants = {
+                    target = scope:target
+                    scheme_owner = scope:owner
+                }
+            }
+        }
+        become_bigger_tits_effect = yes
+        bno_add_training_and_scheme_progress = {
+            VALUE = 9
+        }
+    }
+
+    after = {
+        bno_breast_training_maxed = yes
+    }
+}
+# Train Breasts: reoccuring
+bno_offer_tribute.1112 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+    
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1112.title.slut
+            }
+            desc = bno_offer_tribute.1112.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1112.desc.slut
+            }
+            desc = bno_offer_tribute.1112.desc.cuck
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:owner = { is_alive = yes }
+        scope:tribute = {
+            NOT = {
+                has_trait = tits_big_good_4
+            }
+            has_character_flag = bno_offer_tribute.1111
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.1112.a.slut
+                    }
+                    desc = bno_offer_tribute.1112.a.cuck
+                }
+            }
+        }
+        scope:tribute = {
+            add_learning_skill = -1
+            add_prowess_skill = -1
+            create_character_memory = {
+                type = bno_offer_tribute_training_breast_started
+                participants = {
+                    target = scope:target
+                    scheme_owner = scope:owner
+                }
+            }
+        }
+        become_bigger_tits_effect = yes
+        bno_add_training_and_scheme_progress = {
+            VALUE = 9
+        }
+    }
+
+    after = {
+        bno_breast_training_maxed = yes
+    }
+}
+# Train Breasts: finished
+bno_offer_tribute.1113 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+    
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1113.title.slut
+            }
+            desc = bno_offer_tribute.1113.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.1113.desc.slut
+            }
+            desc = bno_offer_tribute.1113.desc.cuck
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:owner = { is_alive = yes }
+        scope:tribute = {
+            has_trait = tits_big_good_4
+            has_character_flag = bno_offer_tribute.1111
+        }
+    }
+
+    immediate = {
+        scope:tribute = {
+            add_character_modifier = bno_breasts_trained
+            add_learning_skill = -2
+            add_diplomacy_skill = -2
+            create_character_memory = {
+                type = bno_offer_tribute_training_breast_perfected
+                participants = {
+                    target = scope:target
+                    scheme_owner = scope:owner
+                }
+            }
+        }
+        bno_add_training_and_scheme_progress = {
+            VALUE = 5
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.1113.a.slut
+                    }
+                    desc = bno_offer_tribute.1113.a.cuck
                 }
             }
         }

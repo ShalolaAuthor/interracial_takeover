@@ -3,20 +3,38 @@
     icon = "bno_offer_tribute_training_started.dds"
 
     description = {
-        random_valid = {
-            desc = bno_offer_tribute_training_started_desc_1
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_started_desc_1.slut
+            }
+            desc = bno_offer_tribute_training_started_desc_1.cuck
         }
     }
 
     second_perspective_description = {
-        random_valid = {
-            desc = bno_offer_tribute_training_started_desc_second_perspective_1
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_started_desc_second_perspective_1.slut
+            }
+            desc = bno_offer_tribute_training_started_desc_second_perspective_1.cuck
         }
     }
     
     third_perspective_description = {
-        random_valid = {
-            desc = bno_offer_tribute_training_started_desc_third_perspective_1
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_started_desc_third_perspective_1.slut
+            }
+            desc = bno_offer_tribute_training_started_desc_third_perspective_1.cuck
         }
     }
 
@@ -32,24 +50,89 @@ bno_offer_tribute_daughter_training_started = {
     icon = "bno_offer_tribute_training_started.dds"
 
     description = {
-        random_valid = {
-            desc = bno_offer_tribute_daughter_training_started_desc_1
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_daughter_training_started_desc_1.slut
+            }
+            desc = bno_offer_tribute_daughter_training_started_desc_1.cuck
         }
     }
 
     second_perspective_description = {
-        random_valid = {
-            desc = bno_offer_tribute_daughter_training_started_desc_second_perspective_1
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_daughter_training_started_desc_second_perspective_1.slut
+            }
+            desc = bno_offer_tribute_daughter_training_started_desc_second_perspective_1.cuck
         }
     }
     
     third_perspective_description = {
-        random_valid = {
-            desc = bno_offer_tribute_daughter_training_started_desc_third_perspective_1
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_daughter_training_started_desc_third_perspective_1.slut
+            }
+            desc = bno_offer_tribute_daughter_training_started_desc_third_perspective_1.cuck
         }
     }
 
     participants = { target tribute }
+
+    duration = {
+        years = memory_default_duration
+    }
+}
+
+bno_offer_tribute_training_beauty_started = {
+    categories = { positive bno_offer_tribute }
+    icon = "bno_offer_tribute_training_beauty_started.dds"
+
+    description = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_beauty_started_desc_1.slut
+            }
+            desc = bno_offer_tribute_training_beauty_started_desc_1.cuck
+        }
+    }
+
+    second_perspective_description = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_beauty_started_desc_second_perspective_1.slut
+            }
+            desc = bno_offer_tribute_training_beauty_started_desc_second_perspective_1.cuck
+        }
+    }
+    
+    third_perspective_description = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_beauty_started_desc_third_perspective_1.slut
+            }
+            desc = bno_offer_tribute_training_beauty_started_desc_third_perspective_1.cuck
+        }
+    }
+
+    participants = { target scheme_owner }
 
     duration = {
         years = memory_default_duration
@@ -61,20 +144,132 @@ bno_offer_tribute_training_beauty_perfected = {
     icon = "bno_offer_tribute_training_beauty_perfected.dds"
 
     description = {
-        random_valid = {
-            desc = bno_offer_tribute_training_beauty_perfected_desc_1
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_beauty_perfected_desc_1.slut
+            }
+            desc = bno_offer_tribute_training_beauty_perfected_desc_1.cuck
         }
     }
 
     second_perspective_description = {
-        random_valid = {
-            desc = bno_offer_tribute_training_beauty_perfected_desc_second_perspective_1
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_beauty_perfected_desc_second_perspective_1.slut
+            }
+            desc = bno_offer_tribute_training_beauty_perfected_desc_second_perspective_1.cuck
         }
     }
     
     third_perspective_description = {
-        random_valid = {
-            desc = bno_offer_tribute_training_beauty_perfected_desc_third_perspective_1
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_beauty_perfected_desc_third_perspective_1.slut
+            }
+            desc = bno_offer_tribute_training_beauty_perfected_desc_third_perspective_1.cuck
+        }
+    }
+
+    participants = { target scheme_owner }
+
+    duration = {
+        years = memory_default_duration
+    }
+}
+
+bno_offer_tribute_training_breast_started = {
+    categories = { positive bno_offer_tribute }
+    icon = "bno_offer_tribute_training_breast_started.dds"
+
+    description = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_breast_started_desc_1.slut
+            }
+            desc = bno_offer_tribute_training_breast_started_desc_1.cuck
+        }
+    }
+
+    second_perspective_description = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_breast_started_desc_second_perspective_1.slut
+            }
+            desc = bno_offer_tribute_training_breast_started_desc_second_perspective_1.cuck
+        }
+    }
+    
+    third_perspective_description = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_breast_started_desc_third_perspective_1.slut
+            }
+            desc = bno_offer_tribute_training_breast_started_desc_third_perspective_1.cuck
+        }
+    }
+
+    participants = { target scheme_owner }
+
+    duration = {
+        years = memory_default_duration
+    }
+}
+
+bno_offer_tribute_training_breast_perfected = {
+    categories = { positive bno_offer_tribute }
+    icon = "bno_offer_tribute_training_breast_perfected.dds"
+
+    description = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_breast_perfected_desc_1.slut
+            }
+            desc = bno_offer_tribute_training_breast_perfected_desc_1.cuck
+        }
+    }
+
+    second_perspective_description = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_breast_perfected_desc_second_perspective_1.slut
+            }
+            desc = bno_offer_tribute_training_breast_perfected_desc_second_perspective_1.cuck
+        }
+    }
+    
+    third_perspective_description = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_breast_perfected_desc_third_perspective_1.slut
+            }
+            desc = bno_offer_tribute_training_breast_perfected_desc_third_perspective_1.cuck
         }
     }
 

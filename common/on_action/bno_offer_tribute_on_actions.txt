@@ -2,9 +2,8 @@
     trigger = {
         exists = scope:scheme
     }
-    first_valid = {
-        bno_offer_tribute.1101
-        bno_offer_tribute.1102
+    first_valid_on_action = {
+        bno_offer_tribute_training_phase
     }
 }
 
@@ -12,8 +11,8 @@ bno_offer_tribute_phase_2 = {
     trigger = {
         exists = scope:scheme
     }
-    random_events = {
-        1 = bno_offer_tribute.1000
+    first_valid_on_action = {
+        bno_offer_tribute_training_phase
     }
 }
 
@@ -21,7 +20,19 @@ bno_offer_tribute_phase_3 = {
     trigger = {
         exists = scope:scheme
     }
-    random_events = {
-        1 = bno_offer_tribute.1000
+    first_valid_on_action = {
+        bno_offer_tribute_training_phase
+    }
+}
+
+bno_offer_tribute_training_phase = {
+    trigger = {
+        exists = scope:scheme
+    }
+    first_valid = {
+        bno_offer_tribute.1101
+        bno_offer_tribute.1102
+        bno_offer_tribute.1111
+        bno_offer_tribute.1112
     }
 }

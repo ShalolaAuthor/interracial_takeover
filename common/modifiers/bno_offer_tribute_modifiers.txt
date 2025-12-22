@@ -5,3 +5,11 @@
     health = 0.1
     fertility = 0.1
 }
+
+bno_breasts_trained = {
+    icon = bno_breasts_trained
+    bnoc_opinion = 20
+    attraction_opinion = 20
+    health = 0.2
+    fertility = 0.2
+}

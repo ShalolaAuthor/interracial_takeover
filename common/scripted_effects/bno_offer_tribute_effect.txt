@@ -40,6 +40,7 @@
                     exists = scope:scheme_owner
                     scope:scheme_owner ?= {
                         is_alive = yes
+                        is_ai = no
                     }
                 }
                 scope:scheme_owner = {
@@ -94,5 +95,16 @@ bno_beauty_training_maxed = {
             }
         }
         trigger_event = bno_offer_tribute.1103
+    }
+}
+
+bno_breast_training_maxed = {
+    if = {
+        limit = {
+            scope:tribute = {
+                has_trait = tits_big_good_4
+            }
+        }
+        trigger_event = bno_offer_tribute.1113
     }
 }
