@@ -127,17 +127,17 @@ get_bnwo_revolt_target_effect = {
         faction_target = {
             save_scope_as = faction_target
         }
-    	scope:faction_target = {
-    	    random_held_title = {
-    	        limit = {
-    	            tier >= tier_county
-					is_culture_bnoc = no
-					is_faith_bbcs = no
-    	        }
-    	        save_scope_as = target_title
-    	    }
-    	}
-		set_special_title = scope:target_title
+        scope:faction_target = {
+            random_held_title = {
+                limit = {
+                    tier >= tier_county
+                    is_culture_bnoc = no
+                    is_faith_bbcs = no
+                }
+                save_scope_as = target_title
+            }
+        }
+        set_special_title = scope:target_title
     }
 }
 
@@ -179,176 +179,176 @@ spawn_bnwo_revolt_troops = {
         name = bnwo_faction_event_troops
     }
     # Spawn MAAs - An appropriate amount of troops dependent on the terrain type they spawn in
-	if = {
-		limit = {
-			scope:local_center_of_rebellion = {
-				OR = {
-					terrain = forest
-					terrain = taiga
-					terrain = jungle
-					terrain = plains
-					terrain = drylands
-					terrain = oasis
-					terrain = desert
-					terrain = wetlands
-					terrain = steppe
-				}
-			}
-		}
-		spawn_army = {
-			men_at_arms = {
-				type = light_footmen
-				stacks = {
-					value = 0
-					joined_faction = {
-						every_faction_county_member = {
-							limit = {
-								duchy = scope:local_center_of_rebellion.duchy
-							}
-							add = county_maa_to_raise
-						}
-					}
-				}
-			}
-			location = scope:local_center_of_rebellion
-			war = root.faction_war
-			name = bnwo_faction_event_troops
-		}
-	}
-	else_if = {
-		limit = {
-			scope:local_center_of_rebellion = {
-				OR = {
-					terrain = mountains
-					terrain = desert_mountains
-				}
-			}
-		}
-		spawn_army = {
-			men_at_arms = {
-				type = pikemen_unit
-				stacks = {
-					value = 0
-					joined_faction = {
-						every_faction_county_member = {
-							limit = {
-								duchy = scope:local_center_of_rebellion.duchy
-							}
-							add = county_maa_to_raise
-						}
-					}
-				}
-			}
-			location = scope:local_center_of_rebellion
-			war = root.faction_war
-			name = bnwo_faction_event_troops
-		}
-	}
-	else_if = {
-		limit = {
-			scope:local_center_of_rebellion = {
-				OR = {
-					terrain = hills
-					terrain = farmlands
-					terrain = floodplains
-				}
-			}
-		}
-		spawn_army = {
-			men_at_arms = {
-				type = bowmen
-				stacks = {
-					value = 0
-					joined_faction = {
-						every_faction_county_member = {
-							limit = {
-								duchy = scope:local_center_of_rebellion.duchy
-							}
-							add = county_maa_to_raise
-						}
-					}
-				}
-			}
-			location = scope:local_center_of_rebellion
-			war = root.faction_war
-			name = bnwo_faction_event_troops
-		}
-	}
-	
-	# Spawn Siege Weapons depending on discovered innovations
-	if = {
-		limit = {
-			culture = { has_innovation = innovation_gunpowder }
-		}
-		spawn_army = {
-			men_at_arms = {
-				type = bombard
-				stacks = 1
-			}
-			location = scope:local_center_of_rebellion
-			war = root.faction_war
-			name = bnwo_faction_event_troops
-		}
-	}
-	else_if = {
-		limit = {
-			culture = { has_innovation = innovation_trebuchet }
-		}
-		spawn_army = {
-			men_at_arms = {
-				type = trebuchet
-				stacks = 1
-			}
-			location = scope:local_center_of_rebellion
-			war = root.faction_war
-			name = bnwo_faction_event_troops
-		}
-		
-	}
-	else_if = {
-		limit = {
-			culture = { has_innovation = innovation_mangonel }
-		}
-		spawn_army = {
-			men_at_arms = {
-				type = mangonel
-				stacks = 1
-			}
-			location = scope:local_center_of_rebellion
-			war = root.faction_war
-			name = bnwo_faction_event_troops
-		}
-	}
-	else_if = {
-		limit = {
-			culture = { has_innovation = innovation_catapult }
-		}
-		spawn_army = {
-			men_at_arms = {
-				type = onager
-				stacks = 1
-			}
-			location = scope:local_center_of_rebellion
-			war = root.faction_war
-			name = bnwo_faction_event_troops
-		}
-	}
+    if = {
+        limit = {
+            scope:local_center_of_rebellion = {
+                OR = {
+                    terrain = forest
+                    terrain = taiga
+                    terrain = jungle
+                    terrain = plains
+                    terrain = drylands
+                    terrain = oasis
+                    terrain = desert
+                    terrain = wetlands
+                    terrain = steppe
+                }
+            }
+        }
+        spawn_army = {
+            men_at_arms = {
+                type = light_footmen
+                stacks = {
+                    value = 0
+                    joined_faction = {
+                        every_faction_county_member = {
+                            limit = {
+                                duchy = scope:local_center_of_rebellion.duchy
+                            }
+                            add = county_maa_to_raise
+                        }
+                    }
+                }
+            }
+            location = scope:local_center_of_rebellion
+            war = root.faction_war
+            name = bnwo_faction_event_troops
+        }
+    }
+    else_if = {
+        limit = {
+            scope:local_center_of_rebellion = {
+                OR = {
+                    terrain = mountains
+                    terrain = desert_mountains
+                }
+            }
+        }
+        spawn_army = {
+            men_at_arms = {
+                type = pikemen_unit
+                stacks = {
+                    value = 0
+                    joined_faction = {
+                        every_faction_county_member = {
+                            limit = {
+                                duchy = scope:local_center_of_rebellion.duchy
+                            }
+                            add = county_maa_to_raise
+                        }
+                    }
+                }
+            }
+            location = scope:local_center_of_rebellion
+            war = root.faction_war
+            name = bnwo_faction_event_troops
+        }
+    }
+    else_if = {
+        limit = {
+            scope:local_center_of_rebellion = {
+                OR = {
+                    terrain = hills
+                    terrain = farmlands
+                    terrain = floodplains
+                }
+            }
+        }
+        spawn_army = {
+            men_at_arms = {
+                type = bowmen
+                stacks = {
+                    value = 0
+                    joined_faction = {
+                        every_faction_county_member = {
+                            limit = {
+                                duchy = scope:local_center_of_rebellion.duchy
+                            }
+                            add = county_maa_to_raise
+                        }
+                    }
+                }
+            }
+            location = scope:local_center_of_rebellion
+            war = root.faction_war
+            name = bnwo_faction_event_troops
+        }
+    }
+    
+    # Spawn Siege Weapons depending on discovered innovations
+    if = {
+        limit = {
+            culture = { has_innovation = innovation_gunpowder }
+        }
+        spawn_army = {
+            men_at_arms = {
+                type = bombard
+                stacks = 1
+            }
+            location = scope:local_center_of_rebellion
+            war = root.faction_war
+            name = bnwo_faction_event_troops
+        }
+    }
+    else_if = {
+        limit = {
+            culture = { has_innovation = innovation_trebuchet }
+        }
+        spawn_army = {
+            men_at_arms = {
+                type = trebuchet
+                stacks = 1
+            }
+            location = scope:local_center_of_rebellion
+            war = root.faction_war
+            name = bnwo_faction_event_troops
+        }
+        
+    }
+    else_if = {
+        limit = {
+            culture = { has_innovation = innovation_mangonel }
+        }
+        spawn_army = {
+            men_at_arms = {
+                type = mangonel
+                stacks = 1
+            }
+            location = scope:local_center_of_rebellion
+            war = root.faction_war
+            name = bnwo_faction_event_troops
+        }
+    }
+    else_if = {
+        limit = {
+            culture = { has_innovation = innovation_catapult }
+        }
+        spawn_army = {
+            men_at_arms = {
+                type = onager
+                stacks = 1
+            }
+            location = scope:local_center_of_rebellion
+            war = root.faction_war
+            name = bnwo_faction_event_troops
+        }
+    }
 
-	if = {
-		limit = { has_variable = ep3_governor_yearly_8150_ignored }
-		root.faction_leader = {
-			spawn_army = {
-				name = ep3_governor_yearly_8150_troop_name
-				men_at_arms = {
-					type = light_footmen
-					stacks = 2
-				}
-				war = root.faction_war
-				location = scope:local_center_of_rebellion
-				origin = scope:local_center_of_rebellion
-				inheritable = no
-			}
-		}
-		remove_variable = ep3_governor_yearly_8150_ignored
-	}
+    if = {
+        limit = { has_variable = ep3_governor_yearly_8150_ignored }
+        root.faction_leader = {
+            spawn_army = {
+                name = ep3_governor_yearly_8150_troop_name
+                men_at_arms = {
+                    type = light_footmen
+                    stacks = 2
+                }
+                war = root.faction_war
+                location = scope:local_center_of_rebellion
+                origin = scope:local_center_of_rebellion
+                inheritable = no
+            }
+        }
+        remove_variable = ep3_governor_yearly_8150_ignored
+    }
 }

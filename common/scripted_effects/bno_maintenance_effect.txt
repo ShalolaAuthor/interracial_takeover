@@ -10,11 +10,11 @@
 
 bno_apply_bbc_trait = {
     if = {
-		limit = {
-			has_game_rule = bno_seeding_yes
-		}
-		bno_seed_bbc_trait_effect = yes
-	}
+        limit = {
+            has_game_rule = bno_seeding_yes
+        }
+        bno_seed_bbc_trait_effect = yes
+    }
     else = {
         if = {
             limit = {
@@ -254,12 +254,12 @@ bno_get_ass_trait_depending_on_mother = {
 
 bno_remove_bbc_from_non_african = {
     if = {
-		limit = {
-			is_bbc = yes
-			NOT = { has_trait = bno_blood }
-		}
-		remove_trait = bno_bbc
-	}
+        limit = {
+            is_bbc = yes
+            NOT = { has_trait = bno_blood }
+        }
+        remove_trait = bno_bbc
+    }
 }
 
 bno_seed_breast_size_variable = {
@@ -290,229 +290,229 @@ bno_seed_breast_size_variable = {
 
 bno_convert_african_to_african_culture = {
     if = {
-		limit = {
-			is_bbc = yes
-			is_ai = yes
-			is_culture_bnoc = no
-			has_game_rule = bno_bbc_forced_conversion_yes
-		}
-		if = {
-			limit = {
-				liege ?= {
-					is_culture_bnoc = yes
-				}
-			}
-			set_culture = liege.culture
-		}
-		else = {
-			bno_set_culture_to_african_effect = yes
-		}
-	}
+        limit = {
+            is_bbc = yes
+            is_ai = yes
+            is_culture_bnoc = no
+            has_game_rule = bno_bbc_forced_conversion_yes
+        }
+        if = {
+            limit = {
+                liege ?= {
+                    is_culture_bnoc = yes
+                }
+            }
+            set_culture = liege.culture
+        }
+        else = {
+            bno_set_culture_to_african_effect = yes
+        }
+    }
 }
 
 bno_convert_bbc_to_bbc_religion = {
     if = {
-		limit = {
-			is_bbc = yes
-			is_ai = yes
-			is_faith_bbcs = no
-			has_game_rule = bno_religion_yes
-			has_game_rule = bno_bbc_forced_conversion_yes
-		}
-		if = {
-			limit = {
-				liege ?= {
-					is_faith_bbcs = yes
-				}
-			}
-			bno_conversion_effect = {
-				FAITH = liege.faith
-			}
-		}
-		else = {
-			bno_conversion_effect = {
-				FAITH = faith:bbcs
-			}
-		}
-	}
+        limit = {
+            is_bbc = yes
+            is_ai = yes
+            is_faith_bbcs = no
+            has_game_rule = bno_religion_yes
+            has_game_rule = bno_bbc_forced_conversion_yes
+        }
+        if = {
+            limit = {
+                liege ?= {
+                    is_faith_bbcs = yes
+                }
+            }
+            bno_conversion_effect = {
+                FAITH = liege.faith
+            }
+        }
+        else = {
+            bno_conversion_effect = {
+                FAITH = faith:bbcs
+            }
+        }
+    }
 }
 
 bno_convert_vassal_to_liege_religion = {
     if = {
-		limit = {
-			faith = faith:bbcs
-			trigger_if = {
-				limit = {
-					exists = liege
-					liege ?= {
-						is_faith_bbcs = yes
-					}
-					NOT = { faith = liege.faith }
-				}
-				always = yes
-			}
-			trigger_else = {
-				always = no
-			}
-		}
-		set_character_faith = liege.faith
-	}
+        limit = {
+            faith = faith:bbcs
+            trigger_if = {
+                limit = {
+                    exists = liege
+                    liege ?= {
+                        is_faith_bbcs = yes
+                    }
+                    NOT = { faith = liege.faith }
+                }
+                always = yes
+            }
+            trigger_else = {
+                always = no
+            }
+        }
+        set_character_faith = liege.faith
+    }
 }
 
 bno_add_caged_trait_to_character_wearing_chastity_cage = {
     save_scope_as = cager
     if = {
-		limit = {
-			any_equipped_character_artifact = {
-				has_variable = bno_chastity_cage
-			}
-			NOT = { has_trait = bno_caged }
-		}
-		bno_caged_effect = {
+        limit = {
+            any_equipped_character_artifact = {
+                has_variable = bno_chastity_cage
+            }
+            NOT = { has_trait = bno_caged }
+        }
+        bno_caged_effect = {
             CAGER = scope:cager
         }
-	}
+    }
 }
 
 bno_pure_african_can_not_be_slut = {
     if = {
-		limit = {
-			is_african = yes
-			is_slut = yes
-		}
-		remove_whitegirl_trait_effect = yes
-	}
+        limit = {
+            is_african = yes
+            is_slut = yes
+        }
+        remove_whitegirl_trait_effect = yes
+    }
 }
 
 remove_whitegirl_trait_effect = {
-	switch = {
-		trigger = has_trait
-		bno_whitegirl_1 = { remove_trait = bno_whitegirl_1 }
-		bno_whitegirl_2 = { remove_trait = bno_whitegirl_2 }
-		bno_whitegirl_3 = { remove_trait = bno_whitegirl_3 }
-		bno_whitegirl_4 = { remove_trait = bno_whitegirl_4 }
-		bno_whitegirl_5 = { remove_trait = bno_whitegirl_5 }
-	}
+    switch = {
+        trigger = has_trait
+        bno_whitegirl_1 = { remove_trait = bno_whitegirl_1 }
+        bno_whitegirl_2 = { remove_trait = bno_whitegirl_2 }
+        bno_whitegirl_3 = { remove_trait = bno_whitegirl_3 }
+        bno_whitegirl_4 = { remove_trait = bno_whitegirl_4 }
+        bno_whitegirl_5 = { remove_trait = bno_whitegirl_5 }
+    }
 }
 
 remove_whiteboi_trait_effect = {
-	switch = {
-		trigger = has_trait
-		bno_whiteboi_1 = { remove_trait = bno_whiteboi_1 }
-		bno_whiteboi_2 = { remove_trait = bno_whiteboi_2 }
-		bno_whiteboi_3 = { remove_trait = bno_whiteboi_3 }
-		bno_whiteboi_4 = { remove_trait = bno_whiteboi_4 }
-	}
+    switch = {
+        trigger = has_trait
+        bno_whiteboi_1 = { remove_trait = bno_whiteboi_1 }
+        bno_whiteboi_2 = { remove_trait = bno_whiteboi_2 }
+        bno_whiteboi_3 = { remove_trait = bno_whiteboi_3 }
+        bno_whiteboi_4 = { remove_trait = bno_whiteboi_4 }
+    }
 }
 
 remove_chastity_trait_effect = {
-	switch = {
-		trigger = has_trait
-		bno_caged = { remove_trait = bno_caged }
-		bno_castrated = { remove_trait = bno_castrated }
-	}
+    switch = {
+        trigger = has_trait
+        bno_caged = { remove_trait = bno_caged }
+        bno_castrated = { remove_trait = bno_castrated }
+    }
 }
 
 bno_remove_dick_trait_for_castrated_or_eunuch = {
     if = {
-		limit = {
-			OR = {
-				has_trait = bno_castrated
-				has_trait = bno_castrated_futa
-				has_trait = eunuch
-				has_trait = beardless_eunuch
-			}
-		}
-		make_trait_inactive = dick_big_good_1
-		make_trait_inactive = dick_big_good_2
-		make_trait_inactive = dick_big_good_3
-		make_trait_inactive = dick_big_good_4
-		make_trait_inactive = dick_small_bad_1
-		make_trait_inactive = dick_small_bad_2
-		make_trait_inactive = dick_small_bad_3
-	}
+        limit = {
+            OR = {
+                has_trait = bno_castrated
+                has_trait = bno_castrated_futa
+                has_trait = eunuch
+                has_trait = beardless_eunuch
+            }
+        }
+        make_trait_inactive = dick_big_good_1
+        make_trait_inactive = dick_big_good_2
+        make_trait_inactive = dick_big_good_3
+        make_trait_inactive = dick_big_good_4
+        make_trait_inactive = dick_small_bad_1
+        make_trait_inactive = dick_small_bad_2
+        make_trait_inactive = dick_small_bad_3
+    }
 }
 
 #need a rewrite
 bno_cage_a_non_bbc_slave = {
     if = {
-		limit = {
-			is_independent_ruler = no
-			liege ?= {
-				has_chastity_cage_artifact = yes
-				trigger_if = {
-					limit = {
-						is_a_male = yes
-					}
-					is_bbc = yes
-				}
-				trigger_else = {
-					is_bno_snowbunny_and_up = yes
-					any_spouse = {
-						is_bbc = yes
-					}
-				}
-			}
-			is_slave = yes
-			is_a_male = yes
-			is_bbc = no
-		}
-		if = {
-			limit = {
-				liege ?= {
-					is_bbc = yes
-				}
-			}
+        limit = {
+            is_independent_ruler = no
+            liege ?= {
+                has_chastity_cage_artifact = yes
+                trigger_if = {
+                    limit = {
+                        is_a_male = yes
+                    }
+                    is_bbc = yes
+                }
+                trigger_else = {
+                    is_bno_snowbunny_and_up = yes
+                    any_spouse = {
+                        is_bbc = yes
+                    }
+                }
+            }
+            is_slave = yes
+            is_a_male = yes
+            is_bbc = no
+        }
+        if = {
+            limit = {
+                liege ?= {
+                    is_bbc = yes
+                }
+            }
             liege = {
                 save_scope_as = liege
             }
-			bno_caged_effect = {
-				CAGER = scope:liege
-			}
-		}
-		else = {
-			liege ?= {
-				random_spouse = {
-					limit = {
-						is_bbc = yes
-					}
-					save_scope_as = bbc
-				}
-				random_character_artifact = {
-					limit = {
-						has_variable = bno_chastity_cage
-					}
-					set_owner = scope:bbc
-				}
-			}
-			bno_caged_effect = {
-				CAGER = scope:bbc
-			}
-		}
+            bno_caged_effect = {
+                CAGER = scope:liege
+            }
+        }
+        else = {
+            liege ?= {
+                random_spouse = {
+                    limit = {
+                        is_bbc = yes
+                    }
+                    save_scope_as = bbc
+                }
+                random_character_artifact = {
+                    limit = {
+                        has_variable = bno_chastity_cage
+                    }
+                    set_owner = scope:bbc
+                }
+            }
+            bno_caged_effect = {
+                CAGER = scope:bbc
+            }
+        }
         save_scope_as = bno_caged_guy
-		liege ?= {
-			send_interface_message = {
-				type = bno_blacked_events
-				title = {
-					first_valid = {
-						triggered_desc = {
-							trigger = { is_bbc = yes }
-							desc = bno_trait_maintenance.0014.title.bbc
-						}
-						desc = bno_trait_maintenance.0014.title.slut
-					}
-				}
-				desc = {
-					first_valid = {
-						triggered_desc = {
-							trigger = { is_bbc = yes }
-							desc = bno_trait_maintenance.0014.desc.bbc
-						}
-						desc = bno_trait_maintenance.0014.desc.slut
-					}
-				}
-				right_icon = scope:bno_caged_guy
-			}
-		}
-	}
+        liege ?= {
+            send_interface_message = {
+                type = bno_blacked_events
+                title = {
+                    first_valid = {
+                        triggered_desc = {
+                            trigger = { is_bbc = yes }
+                            desc = bno_trait_maintenance.0014.title.bbc
+                        }
+                        desc = bno_trait_maintenance.0014.title.slut
+                    }
+                }
+                desc = {
+                    first_valid = {
+                        triggered_desc = {
+                            trigger = { is_bbc = yes }
+                            desc = bno_trait_maintenance.0014.desc.bbc
+                        }
+                        desc = bno_trait_maintenance.0014.desc.slut
+                    }
+                }
+                right_icon = scope:bno_caged_guy
+            }
+        }
+    }
 }
