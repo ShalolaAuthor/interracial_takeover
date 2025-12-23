@@ -57,49 +57,6 @@ bno_on_anal_sex = {
 		bno_curing_cum
 		bno_femboi_on_sex
 		bno_court_sex
-		bno_training_on_sex
-	}
-}
-
-bno_training_on_sex = {
-	trigger = {
-		has_game_rule = bno_mod_status_on
-		OR = {
-			scope:carn_sex_player = {
-				has_trait = bno_servile
-			}
-			scope:carn_sex_partner = {
-				has_trait = bno_servile
-			}
-		}
-	}
-	effect = {
-		if = {
-			limit = {
-				scope:carn_sex_player = {
-					has_trait = bno_servile
-				}
-				scope:carn_sex_partner = {
-					is_bbc = yes
-				}
-			}
-			scope:carn_sex_player = {
-				bno_training_add_scheme_progress = yes
-			}
-		}
-		else_if = {
-			limit = {
-				scope:carn_sex_partner = {
-					has_trait = bno_servile
-				}
-				scope:carn_sex_player = {
-					is_bbc = yes
-				}
-			}
-			scope:carn_sex_partner = {
-				bno_training_add_scheme_progress = yes
-			}
-		}
 	}
 }
 

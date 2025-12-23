@@ -35,25 +35,28 @@
                 is_alive = yes
             }
         }
-        triggered_effect = {
-            trigger = {
-                story_owner = {
-                    has_trait_xp = {
-                        trait = bno_servile
-                        value < 100
+        first_valid = {
+            triggered_effect = {
+                trigger = {
+                    story_owner = {
+                        has_trait_xp = {
+                            trait = bno_servile
+                            value < 100
+                        }
                     }
                 }
-            }
-            effect = {
-                var:bno_trainer = {
-                    save_scope_as = bno_trainer
-                }
-                story_owner = {
-                    carn_sex_scene_no_pregnancy_effect = yes
-			        carn_sex_scene_no_drama_effect = yes
-                    carn_sex_scene_no_memory_effect = yes
-                    bno_have_sex_with_effects = {
-                        PARTNER = scope:bno_trainer
+                effect = {
+                    var:bno_trainer = {
+                        save_scope_as = bno_trainer
+                    }
+                    story_owner = {
+		    	        carn_sex_scene_no_drama_effect = yes
+                        carn_sex_scene_no_memory_effect = yes
+                        bno_have_sex_with_effects = {
+                            PARTNER = scope:bno_trainer
+                        }
+                        bno_training_add_scheme_progress = yes
+                        bno_increase_cum_addiction_level = yes
                     }
                 }
             }

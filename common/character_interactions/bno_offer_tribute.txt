@@ -12,6 +12,7 @@
         scope:actor = {
             every_child = {
                 limit = {
+                    bno_is_virgin = yes
                     is_a_girl = yes
                     is_adult = yes
                     bno_only_allow_when_below_certain_age = {
@@ -57,6 +58,7 @@
                 is_bno_cuck_and_up = yes
             }
             any_child = {
+                bno_is_virgin = yes
                 is_a_girl = yes
                 is_adult = yes
                 bno_only_allow_when_below_certain_age = {
@@ -79,6 +81,23 @@
 
                 left_icon = scope:secondary_actor
                 right_icon = scope:recipient
+    
+                ### Create and Equip Chastity Piercing for Daughter
+                scope:secondary_actor = {
+                    bno_create_artifact_bno_chastity_piercing_only_effect = {
+                        CREATOR = scope:actor
+                    }
+                    random_character_artifact = {
+                        limit = {
+                            has_variable = bno_chastity_piercing
+                        }
+                        save_scope_as = bno_chastity_piercing
+                    }
+                    scope:bno_chastity_piercing = {
+                        equip_artifact_to_owner = yes   
+                    }
+                }
+                ### END
 
                 start_scheme = {
                     type = bno_offer_tribute

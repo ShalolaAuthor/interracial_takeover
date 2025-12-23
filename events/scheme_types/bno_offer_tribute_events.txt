@@ -359,6 +359,12 @@ bno_offer_tribute.1101 = {
             NOT = { has_character_flag = bno_offer_tribute.1101 }
         }
     }
+    
+    immediate = {
+        scope:tribute = {
+            add_character_flag = bno_offer_tribute.1101
+        }
+    }
 
     option = {
         name = {
@@ -551,6 +557,12 @@ bno_offer_tribute.1111 = {
         scope:owner = { is_alive = yes }
         scope:tribute = {
             NOT = { has_character_flag = bno_offer_tribute.1111 }
+        }
+    }
+
+    immediate = {
+        scope:tribute = {
+            add_character_flag = bno_offer_tribute.1111
         }
     }
 
@@ -751,6 +763,12 @@ bno_offer_tribute.1121 = {
         }
     }
 
+    immediate = {
+        scope:tribute = {
+            add_character_flag = bno_offer_tribute.1121
+        }
+    }
+
     option = {
         name = {
             text = {
@@ -908,6 +926,342 @@ bno_offer_tribute.1123 = {
                         desc = bno_offer_tribute.1123.a.slut
                     }
                     desc = bno_offer_tribute.1123.a.cuck
+                }
+            }
+        }
+    }
+}
+### Phase 2: Sex Training
+# Personal Trainer
+bno_offer_tribute.2000 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+    
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.2000.title.slut
+            }
+            desc = bno_offer_tribute.2000.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.2000.desc.slut
+            }
+            desc = bno_offer_tribute.2000.desc.cuck
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:owner = { is_alive = yes }
+        scope:tribute = {
+            NOT = { has_character_flag = bno_offer_tribute.2000 }
+        }
+    }
+
+    immediate = {
+        scope:tribute = {
+            add_character_flag = bno_offer_tribute.2000
+        }
+        random_courtier = {
+            limit = {
+                is_blackbull = yes
+            }
+            save_scope_as = trainer
+        }
+        if = {
+            limit = {
+                NOT = { exists = scope:trainer }
+            }
+            create_bbc = {
+                age = bno_young_adult
+                SCOPE_NAME = trainer
+            }
+            scope:trainer = {
+                add_character_flag = bno_offer_tribute.created
+            }
+            hidden_effect = {
+                add_courtier = scope:trainer
+            }
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.2000.a.slut
+                    }
+                    desc = bno_offer_tribute.2000.a.cuck
+                }
+            }
+        }
+        scope:tribute = {
+            add_learning_skill = -1
+            add_prowess_skill = -1
+            add_martial_skill = -1
+            add_intrigue_skill = 2
+
+            ### Assigning Story
+            create_story = {
+                type = story_bno_tribute_training
+                save_scope_as = bno_offer_tribute_story
+            }
+            set_variable = {
+                name = bno_tribute_training_story
+                value = scope:bno_offer_tribute_story
+            }
+            scope:bno_offer_tribute_story = {
+                set_variable = {
+                    name = scheme
+                    value = scope:scheme
+                }
+            }
+            ### END
+            
+            create_character_memory = {
+                type = bno_offer_tribute_training_trainer_assigned
+                participants = {
+                    target = scope:target
+                    scheme_owner = scope:owner
+                    trainer = scope:trainer
+                }
+            }
+        }
+        bno_add_training_and_scheme_progress = {
+            VALUE = 5
+        }
+    }
+}
+# Oral: initial
+bno_offer_tribute.2001 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+    
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.2001.title.slut
+            }
+            desc = bno_offer_tribute.2001.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.2001.desc.slut
+            }
+            desc = bno_offer_tribute.2001.desc.cuck
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:owner = { is_alive = yes }
+        scope:tribute = {
+            NOT = { has_character_flag = bno_offer_tribute.2001 }
+        }
+    }
+
+    immediate = {
+        scope:tribute = {
+            add_character_flag = bno_offer_tribute.2001
+        }
+        random_courtier = {
+            limit = {
+                is_blackbull = yes
+            }
+            save_scope_as = bbc
+        }
+        if = {
+            limit = {
+                NOT = { exists = scope:bbc }
+            }
+            create_bbc = {
+                age = bno_young_adult
+                SCOPE_NAME = bbc
+            }
+            scope:bbc = {
+                add_character_flag = bno_offer_tribute.created
+            }
+            hidden_effect = {
+                add_courtier = scope:bbc
+            }
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.2001.a.slut
+                    }
+                    desc = bno_offer_tribute.2001.a.cuck
+                }
+            }
+        }
+        scope:tribute = {
+            add_learning_skill = -1
+            add_prowess_skill = -1
+            add_martial_skill = -1
+            add_intrigue_skill = 2
+            switch = {
+                trigger = has_trait
+                chaste = {
+                    remove_trait = chaste
+                    add_trait = lustful
+                }
+                fallback = {
+                    add_trait = lustful
+                }
+            }
+            ### TODO: Add Oral Flag (change bno_have_sex_with_effects)
+            carn_sex_scene_is_oral_effect = yes
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc
+            }
+            
+            create_character_memory = {
+                type = bno_offer_tribute_training_oral_started
+                participants = {
+                    target = scope:target
+                    scheme_owner = scope:owner
+                    bbc = scope:bbc
+                }
+            }
+        }
+        bno_add_training_and_scheme_progress = {
+            VALUE = 9
+        }
+    }
+}
+# Oral: finished
+bno_offer_tribute.2002 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+    
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.2002.title.slut
+            }
+            desc = bno_offer_tribute.2002.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.2002.desc.slut
+            }
+            desc = bno_offer_tribute.2002.desc.cuck
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:owner = { is_alive = yes }
+        scope:tribute = {
+            has_character_flag = bno_offer_tribute.2001
+            NOT = { has_character_flag = bno_offer_tribute.2002 }
+        }
+    }
+
+    immediate = {
+        scope:tribute = {
+            add_character_flag = bno_offer_tribute.2002
+            random_memory = {
+                memory_type = bno_offer_tribute_training_oral_started
+                memory_participant:bbc = { save_scope_as = bbc }
+            }
+        }
+        if = {
+            limit = {
+                NOT = { exists = scope:bbc }
+            }
+            random_courtier = {
+                limit = {
+                    is_blackbull = yes
+                }
+                save_scope_as = bbc
+            }
+        }
+        if = {
+            limit = {
+                NOT = { exists = scope:bbc }
+            }
+            create_bbc = {
+                age = bno_young_adult
+                SCOPE_NAME = bbc
+            }
+            scope:bbc = {
+                add_character_flag = bno_offer_tribute.created
+            }
+            hidden_effect = {
+                add_courtier = scope:bbc
+            }
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.2002.a.slut
+                    }
+                    desc = bno_offer_tribute.2002.a.cuck
+                }
+            }
+        }
+        scope:tribute = {
+            add_character_modifier = bno_oral_trained
+            ### TODO: Add Oral Flag (change bno_have_sex_with_effects)
+            carn_sex_scene_is_oral_effect = yes
+            bno_have_sex_with_effects = {
+                PARTNER = scope:bbc
+            }
+            
+            create_character_memory = {
+                type = bno_offer_tribute_training_oral_perfected
+                participants = {
+                    target = scope:target
+                    scheme_owner = scope:owner
+                    bbc = scope:bbc
+                }
+            }
+        }
+        bno_add_training_and_scheme_progress = {
+            VALUE = 10
+        }
+    }
+    after = {
+        scope:bbc = {
+            if = {
+                limit = {
+                    has_character_flag = bno_offer_tribute.created
+                }
+                bno_kill_character = {
+                    TARGET = this
                 }
             }
         }

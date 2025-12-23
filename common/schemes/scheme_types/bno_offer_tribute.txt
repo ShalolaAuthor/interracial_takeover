@@ -65,20 +65,6 @@
             }
         }
         scope:tribute = {
-            create_story = {
-                type = story_bno_tribute_training
-                save_scope_as = bno_offer_tribute_story
-            }
-            set_variable = {
-                name = bno_tribute_training_story
-                value = scope:bno_offer_tribute_story
-            }
-            scope:bno_offer_tribute_story = {
-                set_variable = {
-                    name = scheme
-                    value = scope:scheme
-                }
-            }
             create_character_memory = {
                 type = bno_offer_tribute_training_started
                 participants = {

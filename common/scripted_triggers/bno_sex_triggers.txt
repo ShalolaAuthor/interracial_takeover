@@ -29,3 +29,11 @@ bno_is_bbc_has_lovers_pox = {
 		has_trait = great_pox
 	}
 }
+
+bno_is_virgin = {
+	has_trait = bno_pussy_mileage_1
+	has_trait_xp = {
+		trait = bno_pussy_mileage_1
+		value = 0
+	}
+}

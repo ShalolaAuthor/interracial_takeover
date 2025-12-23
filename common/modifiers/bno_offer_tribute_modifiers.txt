@@ -21,3 +21,12 @@ bno_body_trained = {
     health = 0.5
     fertility = 0.5
 }
+
+bno_oral_trained = {
+    icon = bno_oral_trained
+    bnoc_opinion = 50
+    intrigue = 5
+    learning = -3
+    prowess = -2
+    martial = -2
+}

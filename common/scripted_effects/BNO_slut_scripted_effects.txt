@@ -1495,7 +1495,7 @@ bno_have_sex_with_effects = {
 	}
 	
 	save_scope_as = bno_sex_initiator
-	carn_sex_scene_character_is_giving_player_effect = yes
+	
 	carn_sex_scene_is_consensual_effect = yes
 	carn_sex_scene_is_cum_inside_effect = yes
 
