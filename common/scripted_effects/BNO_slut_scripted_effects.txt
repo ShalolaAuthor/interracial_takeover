@@ -1497,8 +1497,47 @@ bno_have_sex_with_effects = {
 	save_scope_as = bno_sex_initiator
 	carn_sex_scene_character_is_giving_player_effect = yes
 	carn_sex_scene_is_consensual_effect = yes
-	carn_sex_scene_is_vaginal_effect = yes
 	carn_sex_scene_is_cum_inside_effect = yes
+
+	### Pregnancy Check
+	#Chastity Cage
+	if = {
+		limit = {
+			OR = {
+				any_equipped_character_artifact = {
+					has_variable = bno_chastity_cage
+				}
+				$PARTNER$ = {
+					any_equipped_character_artifact = {
+						has_variable = bno_chastity_cage
+					}
+				}
+			}
+		}
+		carn_sex_scene_no_pregnancy_effect = yes
+	}
+	#Chastity Piercing
+	if = {
+		limit = {
+			OR = {
+				any_equipped_character_artifact = {
+					has_variable = bno_chastity_piercing
+				}
+				$PARTNER$ = {
+					any_equipped_character_artifact = {
+						has_variable = bno_chastity_piercing
+					}
+				}
+			}
+		}
+		carn_sex_scene_no_pregnancy_effect = yes
+		carn_sex_scene_is_anal_effect = yes
+	}
+	else = {
+		carn_sex_scene_is_vaginal_effect = yes
+	}
+	### END Pregnancy Check
+
 	if = {
 		limit = {
 			OR = {

@@ -108,3 +108,14 @@ bno_breast_training_maxed = {
         trigger_event = bno_offer_tribute.1113
     }
 }
+
+bno_asses_training_maxed = {
+    if = {
+        limit = {
+            scope:tribute = {
+                has_trait = ass_big_good_4
+            }
+        }
+        trigger_event = bno_offer_tribute.1123
+    }
+}
