@@ -29,7 +29,7 @@
 
     #training
     effect_group = {
-        days = { 7 14 }
+        days = 2
         trigger = {
             var:bno_trainer = {
                 is_alive = yes

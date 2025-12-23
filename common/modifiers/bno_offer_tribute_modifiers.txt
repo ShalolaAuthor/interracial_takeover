@@ -30,3 +30,12 @@ bno_oral_trained = {
     prowess = -2
     martial = -2
 }
+
+bno_anal_trained = {
+    icon = bno_anal_trained
+    bnoc_opinion = 50
+    intrigue = 4
+    learning = -2
+    prowess = -2
+    martial = -2
+}
