@@ -471,3 +471,21 @@ bno_transfer_perk = {
         }
     }
 }
+
+bno_setup_femboi_sex_scene_effect = {
+    if = {
+        limit = {
+            scope:femboi_narrative = 1
+        }
+        create_bbc = {
+			age = bno_young_adult
+			SCOPE_NAME = bbc
+		}
+        carn_sex_scene_no_memory_effect = yes
+        bno_sex_scene_start = {
+	    	PARTNER = scope:bbc
+	    }
+        scope:carn_sex_player  = { set_variable = { name = sex_animation value = 14 } }
+        scope:carn_sex_partner = { set_variable = { name = sex_animation value = 13 } }
+    }
+}

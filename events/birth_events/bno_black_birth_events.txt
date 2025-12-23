@@ -216,18 +216,7 @@ bno_black_birth.0002 = {
                 modifier = bno_father_protects_queen
             }
         }
-        if = {
-            limit = {
-                exists = house
-                NOT = { this = house.house_head }
-            }
-            house.house_head = {
-                add_opinion = {
-                    target = scope:father
-                    modifier = bno_father_claims_cuckchild
-                }
-            }
-        }
+        bno_add_father_claims_cuckchild_to_house_head_effect = yes
         ai_chance = {
             base = 50
             modifier = { factor = 2 has_trait = deceitful }
@@ -242,18 +231,7 @@ bno_black_birth.0002 = {
         name = bno_black_birth.0002.b
         add_prestige = -100
         add_stress = 40
-        if = {
-            limit = {
-                exists = house
-                NOT = { this = house.house_head }
-            }
-            house.house_head = {
-                add_opinion = {
-                    target = scope:father
-                    modifier = bno_father_claims_cuckchild
-                }
-            }
-        }
+        bno_add_father_claims_cuckchild_to_house_head_effect = yes
         reverse_add_opinion = {
             target = scope:child
             modifier = bno_grateful_child

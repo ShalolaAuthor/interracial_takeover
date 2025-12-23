@@ -1160,6 +1160,9 @@ bno_get_between_common_uncommon_and_rare_trait = {
 
 bno_kill_character = {
 	$TARGET$ ?= {
+		save_scope_as = killed_character		
+	}
+	scope:killed_character = {
 		death = {
 			death_reason = death_disappearance
 		}
@@ -1811,6 +1814,9 @@ get_random_cuck_scope = {
 }
 
 become_lover_with_target = {
+	$LOCATION$ = {
+		save_scope_as = lover_location
+	}
 	if = {
 		limit = {
 			NOT = { has_relation_lover = $TARGET$ }
@@ -1818,12 +1824,15 @@ become_lover_with_target = {
 		set_relation_lover = {
 			target = $TARGET$
 			reason = bbc_too_good
-			province = $LOCATION$
+			province = scope:lover_location
 		}
 	}
 }
 
 become_friend_with_target = {
+	$PROVINCE$ = {
+		save_scope_as = friend_location
+	}
 	if = {
 		limit = {
 			NOT  = { has_relation_friend = $TARGET$ }
@@ -1831,7 +1840,7 @@ become_friend_with_target = {
 		set_relation_friend = {
 			target = $TARGET$
 			reason = $REASON$
-			province = $PROVINCE$
+			province = scope:friend_location
 		}
 	}
 }
@@ -2071,4 +2080,19 @@ bno_make_futa_inactive = {
 		futa = { make_trait_inactive = futa }
 		futa_genetic = { make_trait_inactive = futa_genetic }
 	}
+}
+
+bno_add_father_claims_cuckchild_to_house_head_effect = {
+	if = {
+        limit = {
+            exists = house
+            NOT = { this = house.house_head }
+        }
+        house.house_head = {
+            add_opinion = {
+                target = scope:father
+                modifier = bno_father_claims_cuckchild
+            }
+        }
+    }
 }

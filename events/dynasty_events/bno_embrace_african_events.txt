@@ -1212,18 +1212,7 @@ bno_embrace_african_2.1002 = {
     immediate = {
         bno_fuck_a_bbc_5_times = yes
         scope:target_county = {
-            county = {
-                if = {
-                    limit = {
-                        has_county_modifier = bno_reject_sending_courtier_to_bbc
-                    }
-                    remove_county_modifier = bno_reject_sending_courtier_to_bbc
-                }
-                add_county_modifier = {
-                    modifier = bno_sent_courtier_to_bbc
-                    months = 18
-                }
-            }
+            bno_add_county_modifier_bno_sent_courtier_to_bbc_effect = yes
         }
     }
 
@@ -1274,18 +1263,7 @@ bno_embrace_african_2.2002 = {
     option = {
         name = bno_embrace_african_2.2002.a
         scope:target_county = {
-            county = {
-                if = {
-                    limit = {
-                        has_county_modifier = bno_reject_sending_courtier_to_bbc
-                    }
-                    remove_county_modifier = bno_reject_sending_courtier_to_bbc
-                }
-                add_county_modifier = {
-                    modifier = bno_sent_courtier_to_bbc
-                    months = 18
-                }
-            }
+            bno_add_county_modifier_bno_sent_courtier_to_bbc_effect = yes
         }
     }
 
