@@ -39,3 +39,12 @@ bno_anal_trained = {
     prowess = -2
     martial = -2
 }
+
+bno_gang_bang_trained = {
+    icon = bno_gang_bang_trained
+    bnoc_opinion = 50
+    intrigue = 3
+    learning = -2
+    prowess = -2
+    martial = -2
+}
