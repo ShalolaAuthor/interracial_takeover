@@ -749,3 +749,50 @@ bno_offer_tribute_training_cum_dumpster = {
         years = memory_default_duration
     }
 }
+
+bno_offer_tribute_training_personal_toilet = {
+    categories = { positive bno_offer_tribute }
+    icon = "bno_offer_tribute_training_personal_toilet.dds"
+
+    description = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_personal_toilet_desc_1.slut
+            }
+            desc = bno_offer_tribute_training_personal_toilet_desc_1.cuck
+        }
+    }
+
+    second_perspective_description = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_personal_toilet_desc_second_perspective_1.slut
+            }
+            desc = bno_offer_tribute_training_personal_toilet_desc_second_perspective_1.cuck
+        }
+    }
+    
+    third_perspective_description = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    memory_participant:scheme_owner = { is_slut = yes }
+                }
+                desc = bno_offer_tribute_training_personal_toilet_desc_third_perspective_1.slut
+            }
+            desc = bno_offer_tribute_training_personal_toilet_desc_third_perspective_1.cuck
+        }
+    }
+
+    participants = { target scheme_owner trainer }
+
+    duration = {
+        years = memory_default_duration
+    }
+}

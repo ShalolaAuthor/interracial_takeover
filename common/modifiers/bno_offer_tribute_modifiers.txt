@@ -66,3 +66,12 @@ bno_cum_dumpster_trained  = {
     prowess = -5
     martial = -5
 }
+
+bno_personal_toilet_trained = {
+    icon = bno_personal_toilet_trained 
+    bnoc_opinion = 50
+    intrigue = 7
+    learning = -6
+    prowess = -6
+    martial = -6
+}
