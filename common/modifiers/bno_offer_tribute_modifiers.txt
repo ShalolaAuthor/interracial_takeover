@@ -25,16 +25,16 @@ bno_body_trained = {
 bno_oral_trained = {
     icon = bno_oral_trained
     bnoc_opinion = 50
-    intrigue = 5
-    learning = -3
-    prowess = -2
-    martial = -2
+    intrigue = 2
+    learning = -1
+    prowess = -1
+    martial = -1
 }
 
 bno_anal_trained = {
     icon = bno_anal_trained
     bnoc_opinion = 50
-    intrigue = 4
+    intrigue = 3
     learning = -2
     prowess = -2
     martial = -2
@@ -43,17 +43,26 @@ bno_anal_trained = {
 bno_gang_bang_trained = {
     icon = bno_gang_bang_trained
     bnoc_opinion = 50
-    intrigue = 3
-    learning = -2
-    prowess = -2
-    martial = -2
+    intrigue = 4
+    learning = -3
+    prowess = -3
+    martial = -3
 }
 
 bno_public_use_trained = {
     icon = bno_public_use_trained
     bnoc_opinion = 50
-    intrigue = 4
-    learning = -3
-    prowess = -3
-    martial = -3
+    intrigue = 5
+    learning = -4
+    prowess = -4
+    martial = -4
+}
+
+bno_cum_dumpster_trained  = {
+    icon = bno_cum_dumpster_trained 
+    bnoc_opinion = 50
+    intrigue = 6
+    learning = -5
+    prowess = -5
+    martial = -5
 }
