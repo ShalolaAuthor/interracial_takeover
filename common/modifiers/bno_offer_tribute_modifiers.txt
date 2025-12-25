@@ -48,3 +48,12 @@ bno_gang_bang_trained = {
     prowess = -2
     martial = -2
 }
+
+bno_public_use_trained = {
+    icon = bno_public_use_trained
+    bnoc_opinion = 50
+    intrigue = 4
+    learning = -3
+    prowess = -3
+    martial = -3
+}
