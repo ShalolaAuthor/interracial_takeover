@@ -129,7 +129,7 @@ convert = {
 			is_valid = { always = yes }
 			current_description = convert.convert.desc
 			localization = convert.convert.desc
-			icon = "" #TODO: add icon
+			icon = "gfx/interface/icons/bno_convert_to_BBC_Church.dds" #TODO: add icon
 			flat = no
 			ai_chance = {
 				value = 100
@@ -157,7 +157,7 @@ convert = {
 			}
 			current_description = convert.convert_to_bnwo.desc
 			localization = convert.convert_to_bnwo.desc
-			icon = "" #TODO: add icon
+			icon = "gfx/interface/icons/bno_convert_current_religion_to_BNWO_religion.dds" #TODO: add icon
 			flat = no
 			ai_chance = {
 				value = 0
@@ -631,7 +631,7 @@ bno_convert_to_african = {
 			is_valid = { always = yes }
 			current_description = bno_convert_to_african.convert.desc
 			localization = bno_convert_to_african.convert.desc
-			icon = "" #TODO: add icon
+			icon = "gfx/interface/icons/bno_convert_to_african.dds" #TODO: add icon
 			flat = no
 			ai_chance = {
 				value = 100
@@ -659,7 +659,7 @@ bno_convert_to_african = {
 			}
 			current_description = bno_convert_to_african.convert_to_bnwo.desc
 			localization = bno_convert_to_african.convert_to_bnwo.desc
-			icon = "" #TODO: add icon
+			icon = "gfx/interface/icons/bno_convert_culture_to_BNWO.dds" #TODO: add icon
 			flat = no
 			ai_chance = {
 				value = 0
