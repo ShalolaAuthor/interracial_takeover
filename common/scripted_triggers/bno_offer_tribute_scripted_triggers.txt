@@ -1,0 +1,9 @@
+﻿bno_is_perfect_candidate_for_offering_trigger = {
+    bno_is_virgin = yes
+    NOT = { has_trait = bno_blood }
+    is_a_girl = yes
+    is_adult = yes
+    bno_only_allow_when_below_certain_age = {
+        AGE = 25
+    }
+}

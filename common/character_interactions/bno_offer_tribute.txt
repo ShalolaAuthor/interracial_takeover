@@ -1,23 +1,30 @@
-﻿bno_offer_tribute = {
+﻿bno_offer_tribute_interaction = {
+    icon = bno_offer_tribute_interaction
     category = interaction_category_diplomacy
 	interface_priority = 999
-    icon = bno_offer_tribute
+    scheme = bno_offer_tribute
     common_interaction = yes
-    force_notification = yes
-    greeting = positive
-    desc = bno_offer_tribute.desc
-    use_diplomatic_range = yes
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:actor = {
+                        is_slut = yes
+                    }
+                }
+                desc = bno_offer_tribute_interaction.desc.slut
+            }
+            desc = bno_offer_tribute_interaction.desc.cuck
+        }
+    }
+    send_name = bno_offer_tribute_interaction.send_name
+	ignores_pending_interaction_block = yes
 
     populate_actor_list = {
         scope:actor = {
             every_child = {
                 limit = {
-                    bno_is_virgin = yes
-                    is_a_girl = yes
-                    is_adult = yes
-                    bno_only_allow_when_below_certain_age = {
-                        AGE = 25
-                    }
+                    bno_is_perfect_candidate_for_offering_trigger = yes
                 }
                 add_to_list = characters
             }
@@ -27,8 +34,9 @@
     cooldown_against_recipient = { months = 6 }
 
     is_shown = {
-        NOT = { scope:recipient = scope:actor }
+        scope:actor != scope:recipient
         scope:recipient = {
+            highest_held_title_tier >= tier_kingdom
             is_ruler = yes
             is_adult = yes
             is_bbc = yes
@@ -58,12 +66,7 @@
                 is_bno_cuck_and_up = yes
             }
             any_child = {
-                bno_is_virgin = yes
-                is_a_girl = yes
-                is_adult = yes
-                bno_only_allow_when_below_certain_age = {
-                    AGE = 25
-                }
+                bno_is_perfect_candidate_for_offering_trigger = yes
             }
         }
     }
@@ -78,6 +81,7 @@
             send_interface_toast = {
                 type = event_toast_effect_neutral
                 title = bno_offer_tribute.notification.title
+                desc = bno_offer_tribute.notification.desc
 
                 left_icon = scope:secondary_actor
                 right_icon = scope:recipient
@@ -117,4 +121,21 @@
     }
 
     auto_accept = yes
+
+    ai_targets = {
+        ai_recipients = neighboring_rulers
+    }
+
+    ai_frequency_by_tier = {
+		barony = 0
+		county = 1
+		duchy = 1
+		kingdom = 1
+		empire = 1
+		hegemony = 1
+	}
+
+    ai_will_do = {
+        base = 100
+    }
 }

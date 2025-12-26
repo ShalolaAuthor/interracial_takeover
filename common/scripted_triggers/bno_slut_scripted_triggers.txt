@@ -325,7 +325,7 @@ is_a_futa = {
 
 is_a_girl = {
 	custom_tooltip = {
-		text = is_a_girl
+		text = bno.trigger.is_a_girl
 		OR = {
 			is_female = yes
 			is_femboi = yes
@@ -758,7 +758,7 @@ is_bno_blacked_and_up = {
 
 is_bno_snowbunny_and_up = {
 	custom_tooltip = {
-		text = is_bno_snowbunny_and_up
+		text = bno.trigger.is_bno_snowbunny_and_up
 		OR = {
 			is_bno_snowbunny = yes
 			is_bno_qos = yes

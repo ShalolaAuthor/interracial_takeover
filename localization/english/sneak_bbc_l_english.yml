@@ -2,7 +2,7 @@
 #sneak bbc interaction
 sneak_bbc: "Sneak a Black Bull"
 sneak_bbc_desc: "Send one of the [bno_bbcs|E] from your court into another ruler’s hall."  
-actor_secondary_sneak_bbc: "Choose which bull to send"
+actor_secondary_sneak_bbc: "Blackbull"
 BBC_cg_spy_reason: "A courtier or guest will help sneak a [bno_bbc|E]: #color_green +5#!"  
 BBC_family_spy_reason: "A family member will help sneak a [bno_bbc|E]: #color_green +10#!"  
 BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! is curious about [bno_bbc|E]: #color_green +10#!"  

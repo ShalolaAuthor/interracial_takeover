@@ -44,7 +44,7 @@ is_bno_cuckish_and_up = {
 
 is_bno_cuck_and_up = {
 	custom_tooltip = {
-		text = is_bno_cuck_and_up
+		text = bno.trigger.is_bno_cuck_and_up
 		OR = {
 			is_cuck = yes
 			is_beta = yes
