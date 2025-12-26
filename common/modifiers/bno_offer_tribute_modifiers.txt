@@ -84,3 +84,9 @@ bno_cock_sleeve_trained = {
     prowess = -7
     martial = -7
 }
+
+bno_fertile_vessel = {
+    icon = bno_fertile_vessel
+    health = 10
+    fertility = 10
+}

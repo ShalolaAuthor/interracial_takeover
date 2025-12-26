@@ -46,5 +46,6 @@ bno_offer_tribute_training_phase = {
         bno_offer_tribute.3021
         bno_offer_tribute.3031
         bno_offer_tribute.3041
+        bno_offer_tribute.3051
     }
 }
