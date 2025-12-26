@@ -75,3 +75,12 @@ bno_personal_toilet_trained = {
     prowess = -6
     martial = -6
 }
+
+bno_cock_sleeve_trained = {
+    icon = bno_cock_sleeve_trained 
+    bnoc_opinion = 50
+    intrigue = 8
+    learning = -7
+    prowess = -7
+    martial = -7
+}

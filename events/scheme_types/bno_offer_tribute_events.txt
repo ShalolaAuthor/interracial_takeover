@@ -1752,3 +1752,83 @@ bno_offer_tribute.3031 = {
         }
     }
 }
+# Cock Sleeve
+bno_offer_tribute.3041 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+    
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.3041.title.slut
+            }
+            desc = bno_offer_tribute.3041.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.3041.desc.slut
+            }
+            desc = bno_offer_tribute.3041.desc.cuck
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:owner = { is_alive = yes }
+        scope:tribute = {
+            NOT = { has_character_flag = bno_offer_tribute.3041 }
+        }
+    }
+
+    immediate = {
+        scope:tribute = {
+            add_character_flag = bno_offer_tribute.3041
+            var:bno_tribute_training_story = {
+                var:bno_trainer = {
+                    save_scope_as = trainer
+                }
+            }
+        }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.3041.a.slut
+                    }
+                    desc = bno_offer_tribute.3041.a.cuck
+                }
+            }
+        }
+        scope:tribute = {
+            add_character_modifier = bno_cock_sleeve_trained
+
+            ### TODO: Add Anal Flag (change bno_have_sex_with_effects)
+            carn_sex_scene_is_anal_effect = yes
+            bno_have_sex_with_effects = {
+                PARTNER = scope:trainer
+            }
+            
+            create_character_memory = {
+                type = bno_offer_tribute_training_cock_sleeve
+                participants = {
+                    target = scope:target
+                    scheme_owner = scope:owner
+                    trainer = scope:trainer
+                }
+            }
+        }
+        bno_add_training_and_scheme_progress = {
+            VALUE = 10
+        }
+    }
+}
