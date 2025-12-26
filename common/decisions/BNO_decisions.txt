@@ -116,17 +116,91 @@ convert = {
 		has_trait = bno_whitegirl_5
 		NOT = {faith = faith:bbcs}
 	}
-	effect = {
-		custom_tooltip = convert_effect_1
-		trigger_event = {
-			id = bbcconversion.0001
-			days = 7
+
+	widget = {
+		gui = "decision_view_widget_option_list_generic"
+		controller = decision_option_list_controller
+		decision_to_second_step_button = convert.second_step_button
+		show_from_start = no
+
+		item = { # Convert to BBC Church
+			value = bno_convert_to_BBC_Church
+			is_shown = { always = yes }
+			is_valid = { always = yes }
+			current_description = convert.convert.desc
+			localization = convert.convert.desc
+			icon = "" #TODO: add icon
+			flat = no
+			ai_chance = {
+				value = 100
+				if = {
+					limit = {
+						save_temporary_scope_as = bno_character
+						faith.religious_head = {
+							save_temporary_scope_as = bno_religious_head_character
+						}
+						scope:bno_character = scope:bno_religious_head_character
+					}
+					add = -100
+				}
+			}
 		}
+		item = { # Convert current religion into BNWO Religion
+			value = bno_convert_current_religion_to_BNWO_religion
+			is_shown = { always = yes }
+			is_valid = {
+				save_temporary_scope_as = bno_character
+				faith.religious_head = {
+					save_temporary_scope_as = bno_religious_head_character
+				}
+				scope:bno_character = scope:bno_religious_head_character
+			}
+			current_description = convert.convert_to_bnwo.desc
+			localization = convert.convert_to_bnwo.desc
+			icon = "" #TODO: add icon
+			flat = no
+			ai_chance = {
+				value = 0
+				if = {
+					limit = {
+						save_temporary_scope_as = bno_character
+						faith.religious_head = {
+							save_temporary_scope_as = bno_religious_head_character
+						}
+						scope:bno_character = scope:bno_religious_head_character
+					}
+					add = 100
+				}
+			}
+		}
+	}
+
+	effect = {
+		if = {
+			limit = {
+				scope:bno_convert_to_BBC_Church = yes
+			}
+			custom_tooltip = convert_effect_1
+			trigger_event = {
+				id = bbcconversion.0001
+				days = 7
+			}
+		}
+		else_if = {
+			limit = {
+				scope:bno_convert_current_religion_to_BNWO_religion = yes
+			}
+			faith = {
+				add_doctrine = tenet_bno_syncretism
+			}
+		}		
 	}
 	ai_check_interval = 1
 	ai_potential = {
 		has_trait = bno_whitegirl_5
-		NOT = {faith = faith:bbcs}
+		faith = {
+			is_considered_bno_faith = no
+		}
 	}
 	ai_will_do = {
 		base = 100

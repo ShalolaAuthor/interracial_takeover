@@ -43,10 +43,13 @@ is_bno_cuckish_and_up = {
 }
 
 is_bno_cuck_and_up = {
-	OR = {
-		is_cuck = yes
-		is_beta = yes
-		is_jos = yes
+	custom_tooltip = {
+		text = is_bno_cuck_and_up
+		OR = {
+			is_cuck = yes
+			is_beta = yes
+			is_jos = yes
+		}
 	}
 }
 

@@ -324,11 +324,14 @@ is_a_futa = {
 }
 
 is_a_girl = {
-	OR = {
-		is_female = yes
-		is_femboi = yes
+	custom_tooltip = {
+		text = is_a_girl
+		OR = {
+			is_female = yes
+			is_femboi = yes
+		}
+		is_bbc = no
 	}
-	is_bbc = no
 }
 
 is_an_ai_girl = {
@@ -754,10 +757,13 @@ is_bno_blacked_and_up = {
 }
 
 is_bno_snowbunny_and_up = {
-	OR = {
-		is_bno_snowbunny = yes
-		is_bno_qos = yes
-		is_bno_mindless_bbc_slut = yes
+	custom_tooltip = {
+		text = is_bno_snowbunny_and_up
+		OR = {
+			is_bno_snowbunny = yes
+			is_bno_qos = yes
+			is_bno_mindless_bbc_slut = yes
+		}
 	}
 }
 

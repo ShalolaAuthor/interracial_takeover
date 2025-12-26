@@ -62,6 +62,12 @@ bno_bull = {
     parent = relation
 }
 
+
+bno_offer_tribute_trainer = {
+    texture = "gfx/interface/icons/bno_offer_tribute_trainer.dds"
+    parent = relation
+}
+
 bno_seed_of_genesis = {
     texture = "gfx/interface/icons/traits/bno_seed_of_genesis.dds"
     parent = trait

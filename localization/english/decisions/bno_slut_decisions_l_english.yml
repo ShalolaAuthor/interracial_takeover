@@ -221,3 +221,11 @@ bno_becoming_pure_white.desc: "My body is a testament to a flawed union, a muddy
 bno_becoming_pure_white.tooltip: "Undergo the Liturgy of the Seed. This will initiate a profound biological transformation, permanently altering your phenotype to pure albinism. Requires total devotion to a single High Priest of the Church."
 bno_becoming_pure_white.confirm: "I vow to be purified."
 bno_becoming_pure_white.effect: "Begins the purification ritual. All pigmentation is permanently lost. Hair becomes straight and platinum white. Skin becomes flawless alabaster. Eye color shifts to crystalline blue. All traits associated with mixed heritage are erased."
+
+convert.second_step_button: "I want to start worshipping [bno_bbc|E]..."
+convert.convert.desc: "Convert into [GetFaithByKey('bbcs').GetName]"
+convert.convert_to_bnwo.desc: "Adopt [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]"
+
+bno_convert_to_african.second_step_button: "I want to be one with [bno_bbc|E]"
+bno_convert_to_african.convert.desc: "I want to be reborn as [GetCultureByKey('bnoc').GetName]"
+bno_convert_to_african.convert_to_bnwo.desc: "I want to introduce [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] into my [culture|E]"
