@@ -489,7 +489,6 @@ bno_change_county_culture = {
 	}
 }
 
-
 #decision for player african males to gain the BBC trait if they dont already have it. This is so players dont get forced out of desired erotic content.
 bno_realize_bbc_potential = {
 	picture = {
@@ -546,37 +545,109 @@ bno_convert_to_african = {
 		is_valid_for_converting_to_african = yes
 	}
 
+	widget = {
+		gui = "decision_view_widget_option_list_generic"
+		controller = decision_option_list_controller
+		decision_to_second_step_button = bno_convert_to_african.second_step_button
+		show_from_start = no
+
+		item = { # Change Culture to African
+			value = bno_convert_to_african
+			is_shown = { always = yes }
+			is_valid = { always = yes }
+			current_description = bno_convert_to_african.convert.desc
+			localization = bno_convert_to_african.convert.desc
+			icon = "" #TODO: add icon
+			flat = no
+			ai_chance = {
+				value = 100
+				if = {
+					limit = {
+						save_temporary_scope_as = bno_character
+						culture.culture_head = {
+							save_temporary_scope_as = bno_culture_head_character
+						}
+						scope:bno_character = scope:bno_culture_head_character
+					}
+					add = -100
+				}
+			}
+		}
+		item = { # Change Character Culture to BNWO Culture
+			value = bno_convert_culture_to_BNWO
+			is_shown = { always = yes }
+			is_valid = { 
+				save_temporary_scope_as = bno_character
+				culture.culture_head = {
+					save_temporary_scope_as = bno_culture_head_character
+				}
+				scope:bno_character = scope:bno_culture_head_character
+			}
+			current_description = bno_convert_to_african.convert_to_bnwo.desc
+			localization = bno_convert_to_african.convert_to_bnwo.desc
+			icon = "" #TODO: add icon
+			flat = no
+			ai_chance = {
+				value = 0
+				if = {
+					limit = {
+						save_temporary_scope_as = bno_character
+						culture.culture_head = {
+							save_temporary_scope_as = bno_culture_head_character
+						}
+						scope:bno_character = scope:bno_culture_head_character
+					}
+					add = 100
+				}
+			}
+		}
+	}
+
 	effect = {
 		if = {
 			limit = {
-				any_spouse ?= {
-					is_culture_bnoc = yes
-				}
+				scope:bno_convert_to_african = yes
 			}
-			every_spouse = {
+			if = {
 				limit = {
-					is_culture_bnoc = yes
+					any_spouse ?= {
+						is_culture_bnoc = yes
+					}
 				}
-				culture = { save_scope_as = spouse_culture }
+				every_spouse = {
+					limit = {
+						is_culture_bnoc = yes
+					}
+					culture = { save_scope_as = spouse_culture }
+				}
+				set_culture = scope:spouse_culture
 			}
-			set_culture = scope:spouse_culture
+			else_if = {
+				limit = {
+					any_courtier_or_guest = {
+						is_culture_bnoc = yes
+					}
+				}
+				random_courtier_or_guest = {
+					limit = {
+						is_culture_bnoc = yes
+					}
+					culture = {
+						save_scope_as = new_culture
+					}
+				}
+				set_culture = scope:new_culture
+			}
 		}
 		else_if = {
 			limit = {
-				any_courtier_or_guest = {
-					is_culture_bnoc = yes
-				}
+				scope:bno_convert_culture_to_BNWO = yes
 			}
-			random_courtier_or_guest = {
-				limit = {
-					is_culture_bnoc = yes
-				}
-				culture = {
-					save_scope_as = new_culture
-				}
+			culture = {
+				add_culture_tradition = tradition_bno_the_great_submission
 			}
-			set_culture = scope:new_culture
 		}
+		
 	}
 	ai_check_interval = 1
 	ai_potential = {

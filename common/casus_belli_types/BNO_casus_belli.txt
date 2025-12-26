@@ -1252,7 +1252,7 @@ bno_varangian_adventure = {
 					NOT = { this = house.house_head }
 				}
 				found_cadet_house_decision_effect = {
-					CHARACTER = this
+					CHARACTER = scope:attacker
 					PRESTIGE = 0
 				}
 			}
@@ -1272,8 +1272,9 @@ bno_varangian_adventure = {
 						order_by = age
 						max = 100	# Basically, all of them.
 						check_range_bounds = no
+						save_scope_as = attacker_house_head
 						found_cadet_house_decision_effect = {
-							CHARACTER = this
+							CHARACTER = scope:attacker_house_head
 							PRESTIGE = 0
 						}
 					}

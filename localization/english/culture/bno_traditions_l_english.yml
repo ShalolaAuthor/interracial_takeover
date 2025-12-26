@@ -26,5 +26,5 @@ bno_tradition.jos: "$EFFECT_LIST_BULLET$A Joy of Spades pays little, his authori
 
 culture_parameter_bno_unlock_breeding_bull_court_position: "Can appoint the [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]"
 culture_parameter_bno_unlock_cuck_acceptance: "The [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] line have additional bonuses - our men find honor in watching their wives be taken by superior Black cocks."
-culture_parameter_bno_unlock_seek_black_patronage_scheme: "Unlocks [GetScheme('bno_seek_black_patronage').GetTypeName] [scheme|E] - seeks Black masters for protection and guidance in our surrender."
+#culture_parameter_bno_unlock_seek_black_patronage_scheme: "Unlocks [GetScheme('bno_seek_black_patronage').GetTypeName] [scheme|E] - seeks Black masters for protection and guidance in our surrender."
 culture_parameter_bno_unlock_offer_tribute_scheme: "Unlocks [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - offers our daughters as tribute to BBC lords for their use and pleasure."

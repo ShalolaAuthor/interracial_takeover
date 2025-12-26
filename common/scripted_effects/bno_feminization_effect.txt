@@ -92,6 +92,7 @@
 		    	TITLE_LIST = old_character_titles
 		    	TYPE = granted
 		    	REASON = flag:granted
+                ENNOBLED_ADVENTURER = flag:no
 		    }
         }
         else_if = {

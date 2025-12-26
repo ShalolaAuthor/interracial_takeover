@@ -394,6 +394,7 @@ bbc_priestess_convert_vassal = {
 }
 
 bbc_priestess_convert_county = {
+    save_scope_as = bno_priestess
     if = {
         limit = {
             scope:TARGET_CHARACTER = {
@@ -425,7 +426,7 @@ bbc_priestess_convert_county = {
                                 send_interface_message = {
                                     type = bno_blacked_events
                                     title = bbc_priestess.1001.county_converted.title
-                                    right_icon = root
+                                    right_icon = scope:bno_priestess
                                     desc = bbc_priestess.1001.county_converted.desc
                                 }
                             }

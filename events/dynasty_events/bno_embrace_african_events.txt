@@ -609,11 +609,12 @@ bno_embrace_african_1.0007 = {
 			}
 			add_dread = medium_dread_loss
 		}
+        save_scope_as = bno_source_government
 
 		successful_popular_revolt_outcome_effect = {
 			FACTION_LEADER = scope:peasant_leader
 			TARGET_TITLE = scope:target_title
-			SOURCE_GOVERNMENT = root
+			SOURCE_GOVERNMENT = scope:bno_source_government
 		}
 
 		# If the faction includes ALL of our counties, notify the player that it will leave them landless!

@@ -1,0 +1,1070 @@
+﻿#TODO: every ck3 update need to check if this script is still broken, if broken keep/update, if fixed remove
+
+# Found Cadet House Effects
+found_cadet_house_decision_effect = {
+	$CHARACTER$ = {
+		save_scope_as = new_head
+		save_scope_as = new_house_head # don't ask
+		hidden_effect = {
+			house.house_head = {
+				save_scope_as = former_house_head
+			}
+			house = {
+				save_scope_as = former_house
+			}
+			add_achievement_flag_effect = { FLAG = achievement_a_house_of_my_own_flag }
+
+			#Cultural variation for Cadet Branch Naming:
+
+			if = { # Prefixed Primary Title - (PREFIX) (TITLE)
+				limit = {
+					is_landed = yes
+					highest_held_title_tier <= tier_duchy
+					OR = {
+						culture = { has_cultural_pillar = heritage_frankish }
+						top_liege = {
+							has_title = title:k_france
+							culture = { has_cultural_pillar = heritage_frankish }
+						}
+					}
+				}
+				create_cadet_branch = {
+					#prefix = dynnp_de
+					name = cadet_name_style_primary_title
+					save_scope_as = new_house
+				}
+			}
+			else_if = { # Barony Dynasty - (BARONY) (DYNASTY)
+				limit = {
+					is_landed = yes
+					culture = {
+						OR = {
+							# India
+							has_cultural_pillar = heritage_indo_aryan
+							has_cultural_pillar = heritage_dravidian
+							# Vietnam
+							has_cultural_pillar = heritage_viet
+							has_name_list = name_list_vietnamese
+							# Khmer
+							has_name_list = name_list_khmer
+							# Mon
+							has_name_list = name_list_mon
+							# Cham
+							has_name_list = name_list_cham
+							# Tai
+							has_name_list = name_list_tai
+							# China
+							has_cultural_pillar = heritage_chinese
+							has_name_list = name_list_han
+							# Korea
+							has_cultural_pillar = heritage_korean
+							has_name_list = name_list_korean
+							# Buyeo
+							has_cultural_pillar = heritage_buyeo
+							has_name_list = name_list_balhae
+						}
+					}
+					NOT = { faith.religion = religion:islam_religion }
+				}
+				create_cadet_branch = {
+					name = cadet_name_style_barony_dynasty
+					save_scope_as = new_house
+				}
+				scope:new_house = { generate_coa = yes } # Avoid western style cadet CoA
+			}
+			else_if = { # County Dynasty - (COUNTY) (DYNASTY)
+				limit = {
+					is_landed = yes
+					culture = {
+						has_name_list = name_list_malay
+					}
+				}
+				create_cadet_branch = {
+					name = cadet_name_style_county_dynasty
+					save_scope_as = new_house
+				}
+				scope:new_house = { generate_coa = yes } # Avoid western style cadet CoA
+			}
+			else_if = { # Japanese - (PLACE)
+				limit = {
+					exists = var:new_japanese_house_name
+					culture = {
+						# Japan
+						OR = {
+							has_cultural_pillar = heritage_japonic
+							has_name_list = name_list_yamato
+						}
+					}
+				}
+				create_cadet_branch = {
+					name = {
+						first_valid = {
+							triggered_desc = {
+								trigger = { scope:new_head.var:new_japanese_house_name ?= flag:japanese_house_random_barony }
+								desc = japanese_house_random_barony
+							}
+							triggered_desc = {
+								trigger = { scope:new_head.var:new_japanese_house_name ?= flag:japanese_house_primary_county }
+								desc = japanese_house_primary_county
+							}
+							triggered_desc = {
+								trigger = { scope:new_head.var:new_japanese_house_name ?= flag:japanese_house_domicile_barony }
+								desc = japanese_house_domicile_barony
+							}
+							triggered_desc = {
+								trigger = { scope:new_head.var:new_japanese_house_name ?= flag:japanese_house_domicile_county }
+								desc = japanese_house_domicile_county
+							}
+							triggered_desc = {
+								trigger = { scope:new_head.var:new_japanese_house_name ?= flag:japanese_house_first_name }
+								desc = japanese_house_first_name
+							}
+							triggered_desc = {
+								trigger = { scope:new_head.var:new_japanese_house_name ?= flag:custom }
+								desc = japanese_house_name_custom
+							}
+							triggered_desc = {
+								trigger = { exists = scope:new_head.var:new_japanese_house_name }
+								desc = japanese_house_name_flag
+							}
+							desc = japanese_house_name_fallback
+						}
+					}
+					save_scope_as = new_house
+				}
+				scope:new_house = { generate_coa = yes } # Avoid western style cadet CoA
+			}
+			else = { #Standard Name Generation
+				create_cadet_branch = { save_scope_as = new_house }
+			}
+		}
+
+		add_prestige = $PRESTIGE$
+		
+		hidden_effect_new_object = {
+			save_scope_as = new_head
+			every_player = {
+				limit = {
+					exists = house
+					scope:new_house ?= house
+					NOT = { this = $CHARACTER$ }
+				}
+				send_interface_toast = {
+					type = msg_created_new_house
+					title = created_cadet_branch_toast_new_house_desc
+					left_icon = scope:new_head
+					desc = created_cadet_branch_toast_new_house_other_tt
+				}
+			}
+			send_interface_toast = {
+				type = msg_created_new_house
+				title = created_cadet_branch_toast_new_house_desc
+				left_icon = scope:new_head
+				right_icon = scope:former_house_head
+				desc = created_cadet_branch_toast_new_house_other_tt
+			}
+		}
+
+		random_artifact = {
+			limit = {
+				var:banner_dynasty ?= scope:new_head.dynasty
+				artifact_owner = {
+					NOT = { this = $CHARACTER$ }
+					in_diplomatic_range = scope:new_head
+				}
+				NOT = {
+					any_artifact_house_claimant = {
+						scope:new_house ?= this
+					}
+				}
+			}
+			save_scope_as = new_branch_dynasty_banner
+			scope:new_house ?= {
+				add_house_artifact_claim = scope:new_branch_dynasty_banner
+			}
+		}
+			
+		# Struggle Catalysts
+		if = {
+			limit = {
+				$CHARACTER$ =  {
+					exists = house.house_head
+					any_character_struggle	 = {
+						involvement = involved
+						phase_has_catalyst = catalyst_cadet_branch_created
+					}
+				}
+			}
+			every_character_struggle = {
+				involvement = involved
+				activate_struggle_catalyst = {
+					catalyst = catalyst_cadet_branch_created
+					character = scope:new_head
+				}
+				log_debug_variable_for_persian_struggle_effect = { VAR = unrest_catalyst_cadet_branch_created }
+			}
+		}
+
+		every_child = {
+			limit = {
+				has_trait = bastard
+				is_lowborn = no
+				dynasty = scope:new_head.dynasty
+				NOT =  { house = scope:new_house }
+			}
+			set_house = scope:new_house
+		}
+		
+		# If eligible, create a cadet branch for admin type governments
+		if = {
+			limit = {
+				government_allows = noble_families
+				OR = {
+					highest_held_title_tier >= main_administrative_tier
+					AND = {
+						government_has_flag = government_has_county_tier_noble_families
+						highest_held_title_tier >= tier_county
+					}
+				}
+			}
+			create_noble_family_effect = { GOVERNMENT_GIVER = this }
+			change_influence = major_influence_gain
+		}
+	}
+}
+# Start Feud, set variables, modifiers, relations, and stress
+house_feud_start_effect = {
+	# Save scopes
+	$ACTOR$.house.house_head = { save_scope_as = starter_house_head }
+	$TARGET$.house.house_head = { save_scope_as = house_feud_rival }
+	$ATTACKER$ = { save_scope_as = house_feud_attacker }
+	$VICTIM$ = { save_scope_as = house_feud_victim }
+	# Save extra scopes if relevant
+	save_scope_value_as = {
+		name = house_feud_reason
+		value = flag:$REASON$
+	}
+	if = {
+		limit = {
+			scope:house_feud_reason = flag:competing_claim
+			NOT = { exists = scope:house_feud_claim }
+		}
+		scope:house_feud_victim = {
+			ordered_claim = {
+				limit = { any_claimant = { this = scope:house_feud_attacker } }
+				order_by = tier
+				save_scope_as = house_feud_claim
+			}
+		}
+	}
+	if = {
+		limit = {
+			scope:starter_house_head.house != scope:house_feud_rival.house
+			house_relation_is_valid_to_start_trigger = {
+				HOUSE = scope:starter_house_head.house
+				OTHER_HOUSE = scope:house_feud_rival.house
+			}
+		}
+		# Save target House for reference
+		scope:starter_house_head ?= {
+			house = {
+				set_house_relation = {
+					target = scope:house_feud_rival.house
+					level = feud
+					description = house_relation_reason_feud_$REASON$
+					save_scope_as = relation
+				}
+			}
+			scope:relation ?= {
+				set_variable = {
+					name = house_feud_cooldown
+					years = 25
+				}
+			}
+		}
+		scope:starter_house_head ?= {
+			# Relations: Nemesis if already Rivals, else Rival
+			if = {
+				limit = {
+					has_relation_rival = scope:house_feud_rival
+					NOT = { has_relation_nemesis = scope:house_feud_rival }
+					can_set_relation_nemesis_trigger = { CHARACTER = scope:house_feud_rival }
+				}
+				set_relation_nemesis = {
+					reason = nemesis_house_feud
+					copy_reason = rival
+					target = scope:house_feud_rival
+				}
+			}
+			else_if = {
+				limit = {
+					NOT = { has_relation_rival = scope:house_feud_rival }
+				}
+				set_relation_rival = {
+					target = scope:house_feud_rival
+					reason = rival_house_feud_start_of_feud
+				}
+			}
+			# Stress
+			stress_impact = { vengeful = minor_stress_impact_loss }
+			house_feud_forgiving_stress_effect = yes
+		}
+		# Save reasons for reference
+		scope:relation = {
+			# Save Feud attacker
+			set_variable = { name = house_feud_attacker value = scope:house_feud_attacker }
+			# Save Feud victim
+			set_variable = { name = house_feud_victim value = scope:house_feud_victim }
+			set_variable = { name = house_feud_house_1 value = scope:house_feud_attacker.house }
+			set_variable = { name = house_feud_house_2 value = scope:house_feud_victim.house }
+			# Save Feud starters
+			set_variable = { name = house_feud_house_1_first_head value = scope:starter_house_head }
+			set_variable = { name = house_feud_house_2_first_head value = scope:house_feud_rival }
+			set_variable = { name = house_feud_house_1_score value = 0 }
+			set_variable = { name = house_feud_house_2_score value = 0 }
+			# Save start reason flavor
+			set_variable = { name = house_feud_reason value = flag:$REASON$ }
+			# Move starting score/save flavor if relevant
+			if = {
+				limit = { exists = var:house_feud_reason }
+				switch = {
+					trigger = var:house_feud_reason
+					flag:head_killed = {
+						change_variable = { name = house_feud_house_1_score add = house_feud_medium_counter_value }
+					}
+					flag:family_killed = {
+						change_variable = { name = house_feud_house_1_score add = house_feud_medium_counter_value }
+					}
+					flag:head_cuckolded = {
+						change_variable = { name = house_feud_house_1_score add = house_feud_minor_counter_value }
+					}
+					flag:family_cuckolded = {
+						change_variable = { name = house_feud_house_1_score add = house_feud_minor_counter_value }
+					}
+					flag:competing_claim = {
+						set_variable = { name = house_feud_title value = scope:house_feud_claim }
+					}
+					flag:head_tortured = {
+						if = {
+							limit = {
+								scope:house_feud_victim = { has_character_flag = house_feud_blinding_flag }
+							}
+							set_variable = { name = house_feud_reason value = flag:head_blinded }
+						}
+						else_if = {
+							limit = {
+								scope:house_feud_victim = { has_character_flag = house_feud_castration_flag }
+							}
+							set_variable = { name = house_feud_reason value = flag:head_castrated }
+						}
+					}
+					flag:family_tortured = {
+						if = {
+							limit = {
+								scope:house_feud_victim = { has_character_flag = house_feud_blinding_flag }
+							}
+							set_variable = { name = house_feud_reason value = flag:family_blinded }
+						}
+						else_if = {
+							limit = {
+								scope:house_feud_victim = { has_character_flag = house_feud_castration_flag }
+							}
+							set_variable = { name = house_feud_reason value = flag:family_castrated }
+						}
+					}
+					flag:head_cuckolded = {
+						if = {
+							limit = { NOT = { exists = scope:house_feud_spouse } }
+							scope:house_feud_victim = { random_spouse = { save_scope_as = house_feud_spouse } }
+						}
+						set_variable = { name = house_feud_spouse value = scope:house_feud_spouse }
+					}
+					flag:family_broke_gw_betrothal = {
+						if = {
+							limit = { scope:starter_house_head = scope:house_feud_victim }
+							set_variable = { name = house_feud_reason value = flag:head_broke_gw_betrothal }
+						}
+					}
+				}
+			}
+			# Invalidate exit
+			if = {
+				limit = {
+					NAND = {
+						exists = var:house_feud_house_1
+						exists = var:house_feud_house_2
+						exists = var:house_feud_house_1_first_head
+						exists = var:house_feud_house_2_first_head
+						exists = var:house_feud_house_1_score
+						exists = var:house_feud_house_2_score
+						exists = var:house_feud_reason
+					}
+				}
+				# Variable is missing! Ending story prematurely.
+				debug_log = "House Feud invalidated"
+				debug_log_scopes = yes
+				#end_story = yes
+			}
+			# Inform House Members feud has started
+			every_relation_house = {
+				every_house_member = {
+					limit = { is_ai = no }
+					# Explanatory Tooltips
+					send_interface_message = {
+						type = house_feud_begins_message
+						left_icon = scope:starter_house_head
+						right_icon = scope:house_feud_rival
+						show_as_tooltip = {
+							scope:starter_house_head = {
+								#Show as tooltip does not require a reason
+								if = {
+									limit = { has_relation_nemesis = scope:house_feud_rival }
+									set_relation_nemesis = scope:house_feud_rival
+								}
+								else = { set_relation_rival = scope:house_feud_rival }
+							}
+						}
+					}
+					# deprecated
+					#trigger_event = {
+					#	id = bp1_house_feud.0600
+					#	days = 5
+					#}
+				}
+			}
+		}
+		### MEMORY
+		scope:starter_house_head ?= {
+			create_character_memory = {
+				type = house_feud_started_memory
+				participants = {
+					house_head = scope:house_feud_rival
+					attacker = scope:house_feud_attacker
+					victim = scope:house_feud_victim
+				}
+			}
+			ordered_memory = {
+				limit = {
+					has_memory_type = house_feud_started_memory
+					any_memory_participant = { this = scope:house_feud_rival }
+				}
+				order_by = memory_creation_date
+				set_variable = {
+					name = house_feud_reason
+					value = scope:relation.var:house_feud_reason
+				}
+				if = {
+					limit = { exists = scope:relation.var:house_feud_title }
+					set_variable = {
+						name = house_feud_title
+						value = scope:relation.var:house_feud_title
+					}
+				}
+				if = {
+					limit = { exists = scope:relation.var:house_feud_spouse }
+					set_variable = {
+						name = house_feud_spouse
+						value = scope:relation.var:house_feud_spouse
+					}
+				}
+			}
+		}
+	}
+}
+# Shared effect between the Popular Faction's demand event and victory outcome.
+#
+# Parameters:
+#	$FACTION_LEADER$
+#	$TARGET_TITLE$
+#	$SOURCE_GOVERNMENT$
+#
+successful_popular_revolt_outcome_effect = {
+	# Save scopes for later usage.
+	$FACTION_LEADER$ = {
+		save_scope_as = faction_leader
+		joined_faction = {
+			save_scope_as = popular_faction
+			every_faction_member = {
+				add_to_list = faction_members
+			}
+			faction_target = {
+				save_scope_as = faction_target
+			}
+		}
+		add_to_list = faction_members
+	}
+	$TARGET_TITLE$ = {
+		save_scope_as = some_title
+	}
+	if = { # Populists factions in an admin realm should aim to change state faith, if they are of the capital culture
+		limit = {
+			$SOURCE_GOVERNMENT$ = { government_allows = state_faith }
+			$FACTION_LEADER$.culture = scope:faction_target.capital_county.culture
+			$FACTION_LEADER$.faith != scope:faction_target.primary_title.state_faith
+		}
+
+		$SOURCE_GOVERNMENT$.primary_title = {
+			# Change the state faith
+			set_state_faith = $FACTION_LEADER$.faith
+
+			# Try grabbing someone from the line of succession who practices the State Faith
+			if = {
+				limit = {
+					any_title_heir = {
+						faith = $FACTION_LEADER$.faith
+					}
+				}
+				ordered_title_heir = {
+					order_by = "appointment_candidate_score(prev)"
+					limit = {
+						faith = $FACTION_LEADER$.faith
+					}
+					save_scope_as = new_ruler
+				}
+			}
+			# Otherwise, make the peasant leader the new emperor
+			else = { $FACTION_LEADER$ = { save_scope_as = new_ruler } }
+
+			# Actually make the switch
+			create_title_and_vassal_change = {
+				type = conquest_populist
+				save_scope_as = change
+			}
+			# Transfer all titles to heir of primary title if only one governorship is held
+			hidden_effect = {
+				$SOURCE_GOVERNMENT$ = {
+					every_held_title = {
+						title_tier >= county
+						limit = {
+							is_landless_type_title = no
+							is_noble_family_title = no
+						}
+						change_title_holder_include_vassals = {
+							holder = scope:new_ruler
+							change = scope:change
+							take_baronies = no
+						}
+					}
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+	}
+	else_if = { # Populists factions of the state faith in an admin realm where the emperor is of a heretical faith simply take the empire
+		limit = {
+			$SOURCE_GOVERNMENT$ = { government_allows = state_faith }
+			$FACTION_LEADER$.faith = scope:faction_target.primary_title.state_faith
+			$FACTION_LEADER$.faith != scope:faction_target.faith
+		}
+
+		$SOURCE_GOVERNMENT$.primary_title = {
+
+			$FACTION_LEADER$ = { save_scope_as = new_ruler }
+
+			# Actually make the switch
+			create_title_and_vassal_change = {
+				type = conquest_populist
+				save_scope_as = change
+			}
+			# Transfer all titles to heir of primary title if only one governorship is held
+			hidden_effect = {
+				$SOURCE_GOVERNMENT$ = {
+					every_held_title = {
+						title_tier >= county
+						limit = {
+							is_landless_type_title = no
+							is_noble_family_title = no
+						}
+						change_title_holder_include_vassals = {
+							holder = scope:new_ruler
+							change = scope:change
+							take_baronies = no
+						}
+					}
+				}
+			}
+			resolve_title_and_vassal_change = scope:change
+		}
+	}
+	else = { # Otherwise we run the normal script
+		# Compile a list of all counties belonging to the faction.
+		scope:popular_faction = {
+			every_faction_county_member = {
+				duchy = {
+					add_to_list = seized_duchies
+					every_de_jure_county = {
+						limit = {
+							holder.top_liege = scope:faction_target
+						}
+						add_to_list = seized_counties
+					}
+				}
+			}
+		}
+		# Additionally, if we're at war (and not just pressing demands)...
+		if = {
+			limit = {
+				scope:faction_leader = {
+					is_at_war_with = scope:faction_target
+				}
+			}
+			# Add all occupied counties of the correct culture/faith.
+			scope:faction_target = {
+				every_sub_realm_county = {
+					limit = {
+						county_controller = scope:faction_leader
+						OR = {
+							culture = scope:faction_leader.culture
+							faith = scope:faction_leader.faith
+						}
+					}
+					add_to_list = seized_counties
+				}
+			}
+
+			# And add any war members that aren't already in the faction.
+			scope:faction_leader = {
+				every_character_war = {
+					limit = {
+						is_defender = scope:faction_target
+					}
+					every_war_attacker = {
+						limit = {
+							NOT = { is_in_list = faction_members }
+						}
+						add_to_list = faction_members
+					}
+				}
+			}
+		}
+		show_as_tooltip = {
+			create_title_and_vassal_change = {
+				type = conquest_populist
+				save_scope_as = change_tooltip
+				add_claim_on_loss = yes
+			}
+			every_in_list = {
+				list = seized_duchies
+				change_title_holder = {
+					holder = scope:faction_leader
+					change = scope:change_tooltip
+					take_baronies = no
+				}
+                scope:faction_leader = {
+				    becomes_independent = {
+				    	change = scope:change_tooltip
+				    }
+                }
+			}
+			resolve_title_and_vassal_change = scope:change_tooltip
+		}
+		# Give out titles in such way that each leader gets all titles within the same Kingdom
+		# Step 1: Duplicate the list of all members 
+		every_in_list = {
+			list = faction_members
+			add_to_list = faction_members_loop
+		}
+		# Step 2: Create a while loop to give out counties to each faction member until we run out of the counties
+		while = {
+			limit = {
+				list_size:seized_counties >= 1
+			}
+			# Step 3: If there is no more leaders, create new one
+			if = {
+				limit = {
+					list_size:faction_members_loop < 1
+				}
+				# Step 3.1: Pick the best county that is still available to base all other title handovers on 
+				ordered_in_list = {
+					list = seized_counties
+					order_by = {
+						value = total_county_levies
+						multiply = {
+							value = 1
+							# Up to 50% bonus points for counties of the correct culture/faith.
+							if = {
+								limit = { culture != scope:faction_leader.culture }
+								add = 0.25
+							}
+							if = {
+								limit = { faith != scope:faction_leader.faith }
+								add = 0.25
+							}
+						}
+					}
+					save_scope_as = capital_county
+				}
+				create_character = {
+					location = scope:capital_county.title_province
+					culture = scope:capital_county.culture
+					faith = scope:capital_county.faith
+					template = peasant_faction_leader_template
+					gender_female_chance = location_faith_dominant_gender_female_chance
+					save_scope_as = new_county_holder
+				}
+				scope:new_county_holder = {
+					add_to_list = faction_members
+					add_to_list = faction_members_loop
+					add_trait_xp = {
+						trait = peasant_leader
+						value = peasant_leader_xp_value
+					}
+				}
+			}
+			# Step 4: Grab a faction member with highest peasant leader xp, but always grab the faction leader first
+			ordered_in_list = {
+				list = faction_members_loop
+				order_by = {
+					value = "has_trait_xp(peasant_leader)"
+					if = {
+						limit = {
+							this = scope:faction_leader
+						}
+						add = 1000
+					}
+				}
+				save_scope_as = next_leader
+				# Step 4.1: Pick the best county that is still available to base all other title handovers on 
+				if = {
+					limit = {
+						NOT = { exists = scope:capital_county }
+					}
+					if = {
+						limit = {
+							is_landed = yes
+						}
+						capital_county = {
+							save_scope_as = capital_county
+						}
+					}
+					else = {
+						ordered_in_list = {
+							list = seized_counties
+							order_by = {
+								value = total_county_levies
+								multiply = {
+									value = 1
+									# Up to 300% bonus points for counties of the correct culture/faith.
+									if = {
+										limit = { culture = scope:next_leader.culture }
+										add = 1
+									}
+									if = {
+										limit = { faith = scope:next_leader.faith }
+										add = 1
+									}
+								}
+							}
+							save_scope_as = capital_county
+						}
+					}
+				}
+				# Step 5: CHANGE ONE - Give them the selected county and make them go independent
+				create_title_and_vassal_change = {
+					type = conquest_populist
+					save_scope_as = change_one
+					add_claim_on_loss = yes
+				}
+				scope:capital_county = {
+					change_title_holder = {
+						holder = scope:next_leader
+						change = scope:change_one
+						take_baronies = no
+					}
+				}
+				becomes_independent = {
+					change = scope:change_one
+				}
+				resolve_title_and_vassal_change = scope:change_one
+				# Step 6: CHANGE TWO - Give them all Duchies and Counties within the Kingdom of the capital county
+				create_title_and_vassal_change = {
+					type = conquest_populist
+					save_scope_as = change_two
+					add_claim_on_loss = yes
+				}
+				every_in_list = {
+					list = seized_counties
+					limit = {
+						kingdom = scope:capital_county.kingdom
+					}
+					change_title_holder = {
+						holder = scope:next_leader
+						change = scope:change_two
+						take_baronies = no
+					}
+					remove_from_list = seized_counties
+				}
+				every_in_list = {
+					list = seized_duchies
+					limit = {
+						kingdom = scope:capital_county.kingdom
+					}
+					change_title_holder = {
+						holder = scope:next_leader
+						change = scope:change_two
+						take_baronies = no
+					}
+					remove_from_list = seized_duchies
+				}
+				resolve_title_and_vassal_change = scope:change_two
+
+				# Step 6: CHANGE THREE - Usurp the Kingdom if they hold enough land
+				if = {
+					limit = {
+						primary_title.kingdom = {
+							any_de_jure_county = {
+								percent > 0.5
+								holder = scope:next_leader
+							}
+						}
+					}
+					create_title_and_vassal_change = {
+						type = conquest_populist
+						save_scope_as = change_three
+						add_claim_on_loss = yes
+					}
+					primary_title.kingdom = {
+						change_title_holder = {
+							holder = scope:next_leader
+							change = scope:change_three
+							take_baronies = no
+						}
+					}
+					resolve_title_and_vassal_change = scope:change_three
+				}
+				# Step 6.1: If the title we gave is a new dynamic title, generate a CoA for it.
+				if = {
+					limit = {
+						exists = scope:new_title
+					}
+					scope:new_title = {
+						set_capital_county = scope:capital_county
+						generate_coa = yes
+					}
+				}
+				# Step 7: Destroy their peasant uprising title
+				if = {
+					limit = {
+						has_variable = peasant_title
+						exists = var:peasant_title.holder
+					}
+					destroy_title = var:peasant_title
+				}
+				# Step 8: Set up government type correctly.
+				scope:capital_county = {
+					previous_holder ?= {
+						if = {
+							limit = {
+								is_alive = yes
+							}
+							save_scope_as = old_holder
+							switch = {
+								trigger = government_has_flag
+								government_is_administrative = {
+									save_scope_value_as = { name = old_government value = flag:admin }
+								}
+								government_is_clan = {
+									save_scope_value_as = { name = old_government value = flag:clan }
+								}
+								government_is_tribal = {
+									save_scope_value_as = { name = old_government value = flag:tribal }
+								}
+								government_is_wanua = {
+									save_scope_value_as = { name = old_government value = flag:wanua }
+								}
+								government_is_nomadic = {
+									save_scope_value_as = { name = old_government value = flag:nomad }
+								}
+								government_is_celestial = {
+									save_scope_value_as = { name = old_government value = flag:admin }
+								}
+								government_is_steppe_admin = {
+									save_scope_value_as = { name = old_government value = flag:admin }
+								}
+								government_is_meritocratic = {
+									save_scope_value_as = { name = old_government value = flag:admin }
+								}
+								government_is_japan_administrative = {
+									save_scope_value_as = { name = old_government value = flag:admin }
+								}
+								government_is_japan_feudal = {
+									save_scope_value_as = { name = old_government value = flag:japan_feudal }
+								}
+								government_is_mandala = {
+									save_scope_value_as = { name = old_government value = flag:mandala }
+								}
+							}
+						}
+					}
+				}
+				# Change our government according to the government of our liege.
+				## Nomad.
+				if = {
+					limit = {
+						OR = {
+							government_has_flag = government_is_nomadic
+							scope:old_government ?= flag:nomad
+							scope:capital_county.title_province = {
+								OR = {
+									has_holding_type = nomad_holding
+									has_holding_type = herder_holding
+								}
+							}
+						}
+					}
+					change_government = nomad_government
+				}
+				## Clan.
+				else_if = {
+					limit = {
+						OR = {
+							government_has_flag = government_is_clan
+							scope:old_government ?= flag:clan
+							ep3_is_clan_inclined_trigger = yes
+						}
+					}
+					change_government = clan_government
+				}
+				## Wanua or Tribal.
+				else_if = {
+					limit = {
+						scope:capital_county.title_province = {
+							has_holding_type = tribal_holding
+						}
+					}
+					if = {
+						limit = {
+							OR = {
+								government_has_flag = government_is_wanua
+								scope:old_government ?= flag:wanua
+								scope:capital_county.title_province = {
+									geographical_region = world_asia_southeast_islands
+								}
+							}
+						}
+						change_government = wanua_government
+					}
+					else = {
+						change_government = tribal_government
+					}
+				}
+				## Ritsuryo.
+				else_if = {
+					limit = {
+						OR = {
+							government_has_flag = government_is_japan_feudal
+							scope:old_government ?= flag:japan_feudal
+							culture = culture:japanese
+							culture = {
+								any_parent_culture_or_above = { this = culture:japanese }
+							}
+						}
+					}
+					change_government = japan_feudal_government
+				}
+				## Mandala.
+				else_if = {
+					limit = {
+						OR = {
+							AND = {
+								has_mandala_culture_trigger = yes
+								has_mandala_faith_trigger = yes
+								scope:capital_county.title_province = {
+									has_holding_type = temple_citadel_holding
+								}
+							}
+							government_has_flag = government_is_mandala
+						}
+					}
+					change_government = mandala_government
+				}
+				## Administrative.
+				## Celestial.
+				## Steppe admin.
+				## Meritocratic.
+				## Soryo.
+				else_if = {
+					limit = {
+						OR = {
+							government_allows = administrative
+							scope:old_government ?= flag:admin
+						}
+					}
+					change_to_administrative_effect = yes
+				}
+				## Else feudal.
+				else = { change_government = feudal_government }
+				# Step 9: Give them some gold/treasury if they don't have any
+				if = {
+					limit = {
+						gold <= 100
+					}
+					add_gold = {
+						value = stewardship
+						multiply = realm_size
+					}
+				}
+				if = {
+					limit = {
+						has_treasury = yes
+						treasury <= 100
+					}
+					add_treasury = {
+						value = gold
+						multiply = stewardship
+						max = 4000
+					}
+				}
+				# Step 10: Remove them from the looping list
+				remove_from_list = faction_members_loop
+				# Step 11: Clear the scopes, otherwise the while loop will break
+				clear_saved_scope = next_leader
+				clear_saved_scope = capital_county
+			}
+		}
+	}
+	hidden_effect = {
+		# Make sure to destroy all peasant uprising titles and clean all variables
+		every_in_list = {
+			list = faction_members
+			every_held_title = {
+				limit = {
+					has_variable = faction
+				}
+				prev = {
+					destroy_title = prev
+				}
+			}
+			remove_variable = peasant_war_escalates
+			remove_variable = peasant_title
+			remove_variable = rebel_leader_peasants
+			remove_variable = peasant_faction_random_peasant
+			remove_variable = peasant_revolt_do_not_kill
+		}
+		# If the faction still exists, dissolve it (it's no longer relevant).
+		if = {
+			limit = {
+				exists = scope:popular_faction
+			}
+			scope:popular_faction = {
+				destroy_faction = yes
+			}
+		}
+	}
+	if = {
+		limit = {
+			scope:faction_target.top_participant_group:dynastic_cycle ?= {
+				participant_group_type = hegemon_ruler 
+			}
+			situation:dynastic_cycle = {
+				situation_top_has_catalyst = catalyst_hegemon_lost_defensive_territorial_war
+			}
+		}
+		situation:dynastic_cycle = {
+			trigger_situation_catalyst = {
+				catalyst = catalyst_hegemon_lost_defensive_territorial_war
+				character = scope:faction_leader
+			}
+		}
+	}
+}

@@ -2052,7 +2052,7 @@ bno_random.0012 = {
 				province = root.location
 				has_trait = bno_bbc
 				is_available_ai_adult_locale_person = yes
-				NOT = {
+				NOR = {
 					has_any_relation_trigger = { CHARACTER = root }
 					this = scope:target1
 				}
@@ -2177,7 +2177,7 @@ bno_random.2012 = {
 			limit = {
 				has_trait = bno_bbc
 				is_available_ai_adult_locale_person = yes
-				NOT = {
+				NOR = {
 					has_any_relation_trigger = { CHARACTER = root }
 					this = scope:target1
 				}
@@ -2290,7 +2290,7 @@ bno_random.0013 = {
 			limit = {
 				has_trait = bno_bbc
 				is_available_ai_adult_locale_person = yes
-				NOT = {
+				NOR = {
 					has_any_relation_trigger = { CHARACTER = root }
 					this = scope:target1
 				}
@@ -2303,7 +2303,7 @@ bno_random.0013 = {
 			limit = {
 				has_trait = bno_bbc
 				is_available_ai_adult_locale_person = yes
-				NOT = {
+				NOR = {
 					has_any_relation_trigger = { CHARACTER = root }
 					this = scope:target1
 					this = scope:target2
@@ -2317,7 +2317,7 @@ bno_random.0013 = {
 			limit = {
 				has_trait = bno_bbc
 				is_available_ai_adult_locale_person = yes
-				NOT = {
+				NOR = {
 					has_any_relation_trigger = { CHARACTER = root }
 					this = scope:target1
 					this = scope:target2
@@ -5640,7 +5640,7 @@ bno_random.0037 = {
 			limit = {
 				is_ai_blackbull = yes
 				is_available_ai_adult_locale_person = yes
-				NOT = {
+				NOR = {
 					has_any_relation_trigger = { CHARACTER = root }
 					this = scope:target1
 				}
@@ -6537,7 +6537,7 @@ bno_random.0043 = {
 			is_ai_curious = yes
 			is_ruler = no
 			is_concubine = no
-			NOT = {
+			NOR = {
 				is_sibling_of = root
 				is_child_of = root
 				is_parent_of = root
@@ -6556,7 +6556,7 @@ bno_random.0043 = {
 				is_ai_curious = yes
 				is_ruler = no
 				is_concubine = no
-				NOT = {
+				NOR = {
 					is_sibling_of = root
 					is_child_of = root
 					is_parent_of = root

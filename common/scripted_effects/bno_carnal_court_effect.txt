@@ -45,6 +45,7 @@
 }
 
 bno_carnal_court_leave_court_effect = {
+    save_scope_as = bno_event_owner
     scope:carn_sex_player = {
         carn_dress_character_effect = yes
         remove_character_flag = sex_animation_event
@@ -84,7 +85,7 @@ bno_carnal_court_leave_court_effect = {
 
     close_view = {
         view = royal_court
-        player = root
+        player = scope:bno_event_owner
     }
 }
 
