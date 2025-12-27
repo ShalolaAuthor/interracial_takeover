@@ -1,6 +1,7 @@
 ﻿bno_apply_african_trait = {
     if = {
         limit = {
+            age > 0
             NOT = { has_trait = bno_blood }
             bno_is_graphically_african = yes
         }
