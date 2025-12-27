@@ -7,56 +7,50 @@
     }
     story_owner = {
         save_scope_as = story_owner
-        every_parent = {
-            limit = {
-                is_ruler = yes
-            }
-            every_courtier = {
+        scope:scheme_owner = {
+            random_courtier = {
                 limit = {
                     is_blackbull = yes
                 }
-                add_to_list = potential_trainer
+                save_scope_as = trainer
             }
-        }
-        random_in_list = {
-            list = potential_trainer
-            save_scope_as = bno_trainer
+            if = {
+                limit = {
+                    NOT = { exists = scope:trainer }
+                }
+                create_bbc = {
+                    age = bno_young_adult
+                    SCOPE_NAME = trainer
+                }
+                scope:trainer = {
+                    add_character_flag = bno_offer_tribute.created
+                }
+                hidden_effect = {
+                    add_courtier = scope:trainer
+                }
+            }
         }
         if = {
             limit = {
-                exists = scope:bno_trainer
-                scope:bno_trainer = {
+                exists = scope:trainer
+                scope:trainer = {
                     is_alive = yes
                 }
             }
             scope:story = {
                 set_variable = {
                     name = bno_trainer
-                    value = scope:bno_trainer
+                    value = scope:trainer
                 }
             }
-            if = {
-                limit = {
-                    exists = scope:scheme_owner
-                    scope:scheme_owner ?= {
-                        is_alive = yes
-                        is_ai = no
+            scope:scheme_owner = {
+                send_interface_message = {
+                    type = bno_blacked_events
+                    title = bno_offer_tribute_found_suitable_trainer.title
+                    desc = bno_offer_tribute_found_suitable_trainer.desc
+                    scope:story_owner = {
+                        set_relation_bno_offer_tribute_trainer = scope:trainer
                     }
-                }
-                scope:scheme_owner = {
-                    send_interface_message = {
-                        type = bno_blacked_events
-                        title = bno_offer_tribute_found_suitable_trainer.title
-                        desc = bno_offer_tribute_found_suitable_trainer.desc
-                        scope:story_owner = {
-                            set_relation_bno_offer_tribute_trainer = scope:bno_trainer
-                        }
-                    }
-                }
-            }
-            else = {
-                scope:story_owner = {
-                    set_relation_bno_offer_tribute_trainer = scope:bno_trainer
                 }
             }
         }

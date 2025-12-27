@@ -59,9 +59,6 @@
                 limit = { is_slut = yes }
                 is_bno_snowbunny_and_up = yes
             }
-            trigger_else_if = {
-                limit = { is_femboi = yes }
-            }
             trigger_else = {
                 is_bno_cuck_and_up = yes
             }

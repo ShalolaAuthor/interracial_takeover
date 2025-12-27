@@ -1821,4 +1821,217 @@ types BigWindowTypes {
 			using = Event_Window_Debug_Info
 		}
 	}
+
+	type scheme_conclusion_window = big_event_window {
+		blockoverride "window_decoration" {
+			widget = {
+				parentanchor = bottom|hcenter
+				size = { 100% 93% }
+				using = Window_Background
+				using = Window_Decoration_Frontend_Flat_Bottom
+			}
+		}
+
+		blockoverride "event_header" {
+			widget = {
+				size = { 1390 76 }
+
+				# Stained glass
+				icon = {
+					name = "stained_glass_background"
+					parentanchor = hcenter
+					size = { 1348 76 }
+					texture = "gfx/interface/window_scheme/scheme_opportunity_header_stained_glass_wide.dds"
+
+					modify_texture = {
+						name = overlay
+						texture = "gfx/interface/component_effects/effect_header_blue_shine.dds"
+						blend_mode = colordodge
+						translate_uv = { 0.6 0 }
+					}
+
+					# Shimmer animation
+					state = {
+						name = right
+						next = left
+
+						duration = 2.5
+						bezier = { 0.8 0.18 0.96 .05 }
+
+						modify_texture = {
+							name = overlay
+							translate_uv = { -0.6 0 }
+						}
+					}
+
+					state = {
+						name = left
+						next = right
+
+						duration = 0.0
+						delay = 5
+
+						modify_texture = {
+							name = overlay
+							translate_uv = { 0.6 0 }
+						}
+					}
+
+					state = {
+						trigger_on_create = yes
+						name = start
+						next = right
+
+						duration = 0.0
+
+						modify_texture = {
+							name = overlay
+							translate_uv = { 0.6 0 }
+						}
+					}
+				}
+
+				# Frame
+				icon = {
+					name = "frame"
+					parentanchor = hcenter
+					size = { 1348 76 }
+					texture = "gfx/interface/window_scheme/scheme_opportunity_header_frame_wide.dds"
+				}
+
+				icon = {
+					name = "theme_icons"
+					parentanchor = hcenter
+					size = { 1346 76 }
+
+					# Hostile glass decoration
+					icon = {
+						visible = "[SchemeType.IsHostile]"
+						parentanchor = left|vcenter
+						position = { 38 7 }
+						size = { 115 38 }
+						texture = "gfx/interface/window_scheme/scheme_header_theme_hostile.dds"
+
+						modify_texture = {
+							texture = "gfx/interface/window_scheme/scheme_opportunity_header_mask.dds"
+							blend_mode = alphaMultiply
+						}
+					}
+
+					icon = {
+						visible = "[SchemeType.IsHostile]"
+						parentanchor = right|vcenter
+						position = { -39 6 }
+						size = { 115 38 }
+						texture = "gfx/interface/window_scheme/scheme_header_theme_hostile.dds"
+						mirror = horizontal
+
+						modify_texture = {
+							texture = "gfx/interface/window_scheme/scheme_opportunity_header_mask.dds"
+							blend_mode = alphaMultiply
+						}
+					}
+
+					# Personal glass decoration
+					icon = {
+						visible = "[SchemeType.IsPersonal]"
+						parentanchor = left|vcenter
+						position = { 38 7 }
+						size = { 115 38 }
+						texture = "gfx/interface/window_scheme/scheme_header_theme_personal.dds"
+
+						modify_texture = {
+							texture = "gfx/interface/window_scheme/scheme_opportunity_header_mask.dds"
+							blend_mode = alphaMultiply
+						}
+					}
+
+					icon = {
+						visible = "[SchemeType.IsPersonal]"
+						parentanchor = right|vcenter
+						position = { -39 6 }
+						size = { 115 38 }
+						texture = "gfx/interface/window_scheme/scheme_header_theme_personal.dds"
+						mirror = horizontal
+
+						modify_texture = {
+							texture = "gfx/interface/window_scheme/scheme_opportunity_header_mask.dds"
+							blend_mode = alphaMultiply
+						}
+					}
+
+					# Politcal scheme decoration
+					icon = {
+						visible = "[SchemeType.IsPolitical]"
+						parentanchor = left|vcenter
+						position = { 38 7 }
+						size = { 115 38 }
+						texture = "gfx/interface/window_scheme/scheme_header_theme_political.dds"
+
+						modify_texture = {
+							texture = "gfx/interface/window_scheme/scheme_opportunity_header_mask.dds"
+							blend_mode = alphaMultiply
+						}
+					}
+
+					icon = {
+						visible = "[SchemeType.IsPolitical]"
+						parentanchor = right|vcenter
+						position = { -39 6 }
+						size = { 115 38 }
+						texture = "gfx/interface/window_scheme/scheme_header_theme_political.dds"
+						mirror = horizontal
+
+						modify_texture = {
+							texture = "gfx/interface/window_scheme/scheme_opportunity_header_mask.dds"
+							blend_mode = alphaMultiply
+						}
+					}
+				}
+
+				text_single = {
+					name = "title"
+					parentanchor = hcenter|vcenter
+					position = { 0 2 }
+					fontsize = 29
+					fontsize_min = 16
+					text = "[EventWindowData.GetTitle]"
+					default_format = "#high;glow_color:{0.1,0.1,0.1,1.0}"
+					using = Font_Type_Flavor
+					max_width = 950
+
+					alpha = 0
+
+					background = {
+						using = Background_Area_Dark
+						margin = { 180 0 }
+						margin_top = 10
+						margin_bottom = 20
+						alpha = 0.7
+
+						modify_texture = {
+							texture = "gfx/interface/component_masks/mask_fade_circle.dds"
+							blend_mode = alphaMultiply
+						}
+					}
+
+					state = {
+						name = start
+						trigger_on_create = yes
+						delay = 0.2
+						using = Animation_Curve_Default
+						alpha = 1
+						duration = 0.3
+					}
+				}
+			}
+		}
+
+		blockoverride "background_widget_margins" {
+			margin_left = 40
+			margin_right = 40
+			margin_top = 60
+			margin_bottom = 20
+		}
+	}
 }

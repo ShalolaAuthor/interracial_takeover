@@ -49,3 +49,30 @@ bno_offer_tribute_training_phase = {
         bno_offer_tribute.3051
     }
 }
+
+bno_offer_tribute_travel_plan_arrived = {
+    trigger = {
+        exists = scope:scheme
+    }
+    effect = {
+        save_scope_as = tribute
+        var:bno_offer_tribute_story = {
+            var:scheme = {
+                save_scope_as = scheme
+            }
+        }
+        scope:scheme = {
+            scheme_owner = {
+                save_scope_as = owner
+            }
+            scheme_target_character = {
+                save_scope_as = target
+            }
+        }
+        scope:target = {
+            trigger_event = {
+                
+            }
+        }
+    }
+}
