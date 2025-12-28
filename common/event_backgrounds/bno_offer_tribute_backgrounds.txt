@@ -1,6 +1,214 @@
-﻿bno_offer_tribute.0001 = {
+﻿bno_offer_tribute.1000 = { # TODO: make background about naked daughter innocent and flustered inside of a throne room
     background = {
-        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.0001.dds"
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1000.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.1001 = { # TODO: make background about naked daughter innocent and flustered inside of a throne room
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1001.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.1002 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1002.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.1003 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1003.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.1101 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1101.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.1102 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1102.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.1103 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1103.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.1111 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1111.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.1112 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1112.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.1113 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1113.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.1121 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1121.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.1122 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1122.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.1123 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1123.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.2000 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.2000.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.2001 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.2001.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.2002 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.2002.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.2011 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.2011.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.2012 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.2012.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.3001 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.3001.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.3011 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.3011.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.3021 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.3021.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.3031 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.3031.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.3041 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.3041.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.3051 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.3051.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.4000 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.4000.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.4012 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.4012.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}
+
+bno_offer_tribute.4013 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.4013.dds"
         environment = "environment_event_garden"
         ambience = "event:/SFX/Events/Backgrounds/feasthall"
     }

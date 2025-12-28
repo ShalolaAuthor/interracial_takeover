@@ -5,6 +5,20 @@ bno_offer_tribute.0001 = {
     window = scheme_successful_event
     theme = bno_offer_tribute
 
+    override_background = {
+        reference = throne_room
+    }
+
+    left_portrait = {
+        character = scope:owner
+        animation = thinking
+    } 
+
+    right_portrait = {
+        character = scope:tribute
+        animation = personality_content
+    }
+
     title = {
         first_valid = {
             triggered_desc = {
@@ -33,8 +47,6 @@ bno_offer_tribute.0001 = {
     trigger = {
         exists = scope:scheme
         scope:owner = { is_alive = yes }
-        scope:target = { is_alive = yes }
-        scope:tribute = { is_alive = yes }
     }
 
     option = {
@@ -81,6 +93,10 @@ bno_offer_tribute.1000 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.1000
+    }
 
     title = {
         first_valid = {
@@ -162,6 +178,10 @@ bno_offer_tribute.1001 = {
     window = scheme_successful_event
     theme = bno_offer_tribute
 
+    override_background = {
+        reference = bno_offer_tribute.1001
+    }
+
     title = {
         first_valid = {
             triggered_desc = {
@@ -220,6 +240,10 @@ bno_offer_tribute.1002 = {
     window = scheme_successful_event
     theme = bno_offer_tribute
 
+    override_background = {
+        reference = bno_offer_tribute.1002
+    }
+
     title = {
         first_valid = {
             triggered_desc = {
@@ -276,6 +300,10 @@ bno_offer_tribute.1003 = {
     window = scheme_successful_event
     theme = bno_offer_tribute
 
+    override_background = {
+        reference = bno_offer_tribute.1003
+    }
+
     title = {
         first_valid = {
             triggered_desc = {
@@ -331,6 +359,10 @@ bno_offer_tribute.1101 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.1101
+    }
     
     title = {
         first_valid = {
@@ -402,6 +434,10 @@ bno_offer_tribute.1102 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.1102
+    }
     
     title = {
         first_valid = {
@@ -464,6 +500,10 @@ bno_offer_tribute.1103 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.1103
+    }
     
     title = {
         first_valid = {
@@ -531,6 +571,10 @@ bno_offer_tribute.1111 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.1111
+    }
     
     title = {
         first_valid = {
@@ -604,6 +648,10 @@ bno_offer_tribute.1112 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.1112
+    }
     
     title = {
         first_valid = {
@@ -667,6 +715,10 @@ bno_offer_tribute.1113 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.1113
+    }
     
     title = {
         first_valid = {
@@ -734,6 +786,10 @@ bno_offer_tribute.1121 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.1121
+    }
     
     title = {
         first_valid = {
@@ -807,6 +863,10 @@ bno_offer_tribute.1122 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.1122
+    }
     
     title = {
         first_valid = {
@@ -869,6 +929,10 @@ bno_offer_tribute.1123 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.1123
+    }
     
     title = {
         first_valid = {
@@ -937,6 +1001,10 @@ bno_offer_tribute.2000 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.2000
+    }
     
     title = {
         first_valid = {
@@ -1031,6 +1099,10 @@ bno_offer_tribute.2001 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.2001
+    }
     
     title = {
         first_valid = {
@@ -1123,6 +1195,10 @@ bno_offer_tribute.2002 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.2002
+    }
     
     title = {
         first_valid = {
@@ -1203,6 +1279,10 @@ bno_offer_tribute.2011 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.2011
+    }
     
     title = {
         first_valid = {
@@ -1285,6 +1365,10 @@ bno_offer_tribute.2012 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.2012
+    }
     
     title = {
         first_valid = {
@@ -1370,6 +1454,10 @@ bno_offer_tribute.3001 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.3001
+    }
     
     title = {
         first_valid = {
@@ -1449,6 +1537,10 @@ bno_offer_tribute.3011 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.3011
+    }
     
     title = {
         first_valid = {
@@ -1528,6 +1620,10 @@ bno_offer_tribute.3021 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.3021
+    }
     
     title = {
         first_valid = {
@@ -1608,6 +1704,10 @@ bno_offer_tribute.3031 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.3031
+    }
     
     title = {
         first_valid = {
@@ -1688,6 +1788,10 @@ bno_offer_tribute.3041 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.3041
+    }
     
     title = {
         first_valid = {
@@ -1768,6 +1872,10 @@ bno_offer_tribute.3051 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.3051
+    }
     
     title = {
         first_valid = {
@@ -1851,6 +1959,10 @@ bno_offer_tribute.4000 = {
     window = scheme_successful_event
     theme = bno_offer_tribute
 
+    override_background = {
+        reference = bno_offer_tribute.4000
+    }
+
     title = {
         first_valid = {
             triggered_desc = {
@@ -1874,6 +1986,16 @@ bno_offer_tribute.4000 = {
     trigger = {
         exists = scope:scheme
         scope:owner = { is_alive = yes }
+    }
+
+    immediate = {
+        scope:tribute = {
+            var:bno_offer_tribute_story = {
+                var:bno_trainer = {
+                    save_scope_as = trainer
+                }
+            }
+        }
     }
 
     option = {
@@ -2008,6 +2130,20 @@ bno_offer_tribute.4011 = {
     window = scheme_successful_event
     theme = bno_offer_tribute
 
+    override_background = {
+        reference = throne_room
+    }
+
+    left_portrait = {
+        character = scope:target
+        animation = personality_content
+    }
+
+    right_portrait = {
+        character = scope:tribute
+        animation = throne_room_curtsey_1
+    }
+
     title = {
         first_valid = {
             triggered_desc = {
@@ -2068,6 +2204,10 @@ bno_offer_tribute.4012 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.4012
+    }
 
     title = {
         first_valid = {
@@ -2144,6 +2284,10 @@ bno_offer_tribute.4013 = {
     type = character_event
     window = scheme_successful_event
     theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.4013
+    }
 
     title = {
         first_valid = {
@@ -2222,6 +2366,26 @@ bno_offer_tribute.4021 = {
     window = scheme_successful_event
     theme = bno_offer_tribute
 
+    override_background = {
+        reference = physicians_study
+    }
+
+    left_portrait = {
+        character = scope:carn_sex_partner
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
+    right_portrait = {
+        character = scope:carn_sex_player
+        animation = sex_combined
+        outfit_tags = {
+            no_headgear
+        }
+    }
+
     title = {
         first_valid = {
             triggered_desc = {
@@ -2248,6 +2412,21 @@ bno_offer_tribute.4021 = {
     }
 
     immediate = {
+        if = {
+            limit = { is_slut = yes }
+            bno_sex_scene_start = {
+                PARTNER = scope:trainer
+            }
+        }
+        else_if = {
+            limit = { is_married = yes }
+            primary_spouse = {
+                bno_sex_scene_start = {
+                    PARTNER = scope:trainer
+                }
+            }
+        }
+        sex_animations = yes
         play_sound_effect = "event:/DLC/EP3/SFX/Stingers/Scheme_Rework/ep3_mx_sting_schemerework_positive"
     }
 
@@ -2313,5 +2492,10 @@ bno_offer_tribute.4021 = {
                 }
             }
         }
+    }
+
+    after = {
+        carn_sex_scene_is_cum_inside_effect = yes
+        bno_sex_scene_cleanup = yes
     }
 }
