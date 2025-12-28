@@ -1959,9 +1959,6 @@ bno_offer_tribute.4001 = {
         }
     }
 
-    immediate = {
-    }
-
     option = { # Lending
         name = {
             text = {
@@ -1998,6 +1995,319 @@ bno_offer_tribute.4001 = {
             set_variable = {
                 name = offer_tribute_end_goal
                 value = flag:selling
+            }
+        }
+    }
+}
+#Tribute arrive to the Lord's throne
+bno_offer_tribute.4011 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:scheme.var:offer_tribute_end_goal = flag:lending }
+                desc = bno_offer_tribute.4011.title.lending
+            }
+            desc = bno_offer_tribute.4011.title.selling
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:scheme.var:offer_tribute_end_goal = flag:lending }
+                desc = bno_offer_tribute.4011.desc.lending
+            }
+            desc = bno_offer_tribute.4011.desc.selling
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:target = { is_alive = yes }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:scheme.var:offer_tribute_end_goal = flag:lending }
+                        desc = bno_offer_tribute.4011.a.lending
+                    }
+                    desc = bno_offer_tribute.4011.a.selling
+                }
+            }
+        }
+        trigger_event = bno_offer_tribute.4012
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:scheme.var:offer_tribute_end_goal = flag:lending }
+                        desc = bno_offer_tribute.4011.b.lending
+                    }
+                    desc = bno_offer_tribute.4011.b.selling
+                }
+            }
+        }
+        trigger_event = bno_offer_tribute.4013
+    }
+}
+# She is Exquisite
+bno_offer_tribute.4012 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:scheme.var:offer_tribute_end_goal = flag:lending }
+                desc = bno_offer_tribute.4012.title.lending
+            }
+            desc = bno_offer_tribute.4012.title.selling
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:scheme.var:offer_tribute_end_goal = flag:lending }
+                desc = bno_offer_tribute.4012.desc.lending
+            }
+            desc = bno_offer_tribute.4012.desc.selling
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:target = { is_alive = yes }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:scheme.var:offer_tribute_end_goal = flag:lending }
+                        desc = bno_offer_tribute.4012.a.lending
+                    }
+                    desc = bno_offer_tribute.4012.a.selling
+                }
+            }
+        }
+        if = {
+            limit = {
+                scope:scheme.var:offer_tribute_end_goal = flag:lending
+            }
+            bno_offer_tribute_final_reward = {
+                TYPE = lending_exquisite
+                REWARD = 5000
+            }
+        }
+        else = {
+            bno_offer_tribute_final_reward = {
+                TYPE = selling_exquisite
+                REWARD = 10000
+            }
+        }
+    }
+
+    after = {
+        scope:trainer = {
+            start_travel_plan = {
+                destination = scope:owner.capital_province
+                travel_with_domicile = yes
+
+                players_use_planner = no                
+                return_trip = no
+                can_cancel_planning = no
+
+                on_arrival_event = bno_offer_tribute.4021
+                on_arrival_destinations = last
+            }
+        }
+    }
+}
+# She is adequate
+bno_offer_tribute.4013 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:scheme.var:offer_tribute_end_goal = flag:lending }
+                desc = bno_offer_tribute.4013.title.lending
+            }
+            desc = bno_offer_tribute.4013.title.selling
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { scope:scheme.var:offer_tribute_end_goal = flag:lending }
+                desc = bno_offer_tribute.4013.desc.lending
+            }
+            desc = bno_offer_tribute.4013.desc.selling
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:target = { is_alive = yes }
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { scope:scheme.var:offer_tribute_end_goal = flag:lending }
+                        desc = bno_offer_tribute.4013.a.lending
+                    }
+                    desc = bno_offer_tribute.4013.a.selling
+                }
+            }
+        }
+        if = {
+            limit = {
+                scope:scheme.var:offer_tribute_end_goal = flag:lending
+            }
+            bno_offer_tribute_final_reward = {
+                TYPE = lending_adequate
+                REWARD = 2500
+            }
+        }
+        else = {
+            bno_offer_tribute_final_reward = {
+                TYPE = selling_adequate
+                REWARD = 5000
+            }
+        }
+    }
+    
+    after = {
+        scope:trainer = {
+            start_travel_plan = {
+                destination = scope:owner.capital_province
+                travel_with_domicile = yes
+
+                players_use_planner = no                
+                return_trip = no
+                can_cancel_planning = no
+
+                on_arrival_on_action = bno_offer_tribute_travel_plan_trainer_arrived_back_to_scheme_owner
+                on_arrival_destinations = last
+            }
+        }
+    }
+}
+#Return event for trainer
+#TODO: make distinction for selling vs lending, adequate vs exquisite
+bno_offer_tribute.4021 = {
+    type = character_event
+    window = scheme_successful_event
+    theme = bno_offer_tribute
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.4021.title.slut
+            }
+            desc = bno_offer_tribute.4021.title.cuck
+        }
+    }
+
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = { is_slut = yes }
+                desc = bno_offer_tribute.4021.desc.slut
+            }
+            desc = bno_offer_tribute.4021.desc.cuck
+        }
+    }
+
+    trigger = {
+        exists = scope:scheme
+        scope:owner = { is_alive = yes }
+    }
+
+    immediate = {
+        play_sound_effect = "event:/DLC/EP3/SFX/Stingers/Scheme_Rework/ep3_mx_sting_schemerework_positive"
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = { is_slut = yes }
+                        desc = bno_offer_tribute.4021.a.slut
+                    }
+                    desc = bno_offer_tribute.4021.a.cuck
+                }
+            }
+        }
+        scope:trainer = {
+            pay_short_term_gold = {
+                target = scope:owner
+                gold = {
+                    value = this.gold
+                    multiply = 0.55
+                }
+            }
+            scope:owner = {
+                add_piety = {
+                    value = scope:trainer.piety
+                    multiply = 0.55
+                }
+                add_prestige = {
+                    value = scope:trainer.prestige
+                    multiply = 0.55
+                }
+            }
+            hidden_effect = {
+                add_piety = {
+                    value = this.piety
+                    multiply = -0.55
+                }
+                add_prestige = {
+                    value = this.prestige
+                    multiply = -0.55
+                }
+            }
+        }
+        scope:scheme = {
+            end_scheme = yes
+        }
+        if = {
+            limit = {
+                is_slut = yes
+            }
+            bno_have_sex_with_effects = {
+                PARTNER = scope:trainer
+            }
+        }
+        else_if = {
+            limit = {
+                is_married = yes
+            }
+            primary_spouse = {
+                bno_have_sex_with_effects = {
+                    PARTNER = scope:trainer
+                }
             }
         }
     }

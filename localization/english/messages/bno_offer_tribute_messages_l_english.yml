@@ -5,3 +5,12 @@ bno_offer_tribute_found_suitable_trainer.desc: "Your daughter's previous [bno_of
 
 bno_offer_tribute.notification.title: "The Tribute Begins"
 bno_offer_tribute.notification.desc: "Your daughter's transformation has commenced. She will be sculpted, trained, and remade into the perfect offering for African superiority. Her sealed virginity waits. Her body will be synchronized to Black musk alone. The scheme to perfect her has begun."
+
+bno_offer_tribute.invalidated.title.tribute.died: "The Tribute Has Perished"
+bno_offer_tribute.invalidated.desc.tribute.died: "Your daughter has died during her conditioning before ever being sent to [target.GetName]. Her body could not withstand the intensity of her preparation. All arrangements are cancelled. No gold will change hands. Your investment in her training is lost forever."
+
+bno_offer_tribute.invalidated.title.target.died: "[target.GetName] Has Fallen"
+bno_offer_tribute.invalidated.desc.target.died: "[target.GetName], the BBC Lord you were preparing your daughter to be sent to, has been killed in battle. He will never receive her. Your daughter remains here, unclaimed. All arrangements are void. You must decide what to do with her now."
+
+bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] Has Been Imprisoned"
+bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName], the BBC Lord you were preparing your daughter to be sent to, has been imprisoned by rival forces. He cannot receive her. Your daughter remains here in your household, her purpose suspended indefinitely. All arrangements are frozen. Her future is now uncertain."

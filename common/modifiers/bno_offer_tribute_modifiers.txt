@@ -90,3 +90,25 @@ bno_fertile_vessel = {
     health = 10
     fertility = 10
 }
+
+bno_offer_tribute_result_lending_adequate = {
+    icon = bno_offer_tribute_result_lending_adequate
+    child_health = 0.25
+}
+
+bno_offer_tribute_result_selling_adequate = {
+    icon = bno_offer_tribute_result_selling_adequate 
+    child_health = 0.5
+    years_of_fertility = 10
+}
+
+bno_offer_tribute_result_lending_exquisite = {
+    icon = bno_offer_tribute_result_lending_exquisite
+    child_health = 1
+}
+
+bno_offer_tribute_result_selling_exquisite = {
+    icon = bno_offer_tribute_result_selling_exquisite
+    child_health = 2
+    years_of_fertility = 20
+}

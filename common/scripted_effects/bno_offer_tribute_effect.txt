@@ -113,3 +113,39 @@ bno_asses_training_maxed = {
         trigger_event = bno_offer_tribute.1123
     }
 }
+
+bno_offer_tribute_final_reward = {
+    scope:tribute = {
+        create_character_memory = {
+            type = bno_offer_tribute_$TYPE$
+            participants = {
+                target = scope:target
+                scheme_owner = scope:owner
+                trainer = scope:trainer
+            }
+        }
+        if = {
+            limit = { scope:scheme.var:offer_tribute_end_goal = flag:lending }
+            add_character_modifier = {
+                modifier = bno_offer_tribute_result_$TYPE$
+                years = 5
+            }
+        }
+        else = {
+            add_character_modifier = bno_offer_tribute_result_$TYPE$
+        }
+        var:bno_offer_tribute_story = {
+            end_story = yes
+        }
+        remove_variable = bno_offer_tribute_story
+        #TODO: for now is_ruler no is a bandaid fix for this scheme, next time i should do is_ruler yes, then i will do an event to strip her title
+    }
+    scope:trainer = {
+        # TODO: add the rewards to trainer then he will travel back to capital. this rewards is temporary until i can code the proper giving army / and some other shit
+        add_gold = $REWARD$
+        add_prestige = $REWARD$
+        add_piety = $REWARD$
+    }
+    add_courtier = scope:tribute
+    set_relation_bno_slave = scope:tribute
+}

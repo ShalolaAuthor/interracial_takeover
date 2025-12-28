@@ -10,10 +10,14 @@
     speed_per_skill_point = t3_spsp_owner_value
     speed_per_target_skill_point = t2_spsp_target_value
     base_progress_goal = t3_base_phase_length_value
-    maximum_secrecy = 100
-    base_maximum_success = t3_base_max_success_value
     phases_per_agent_charge = 1
     success_chance_growth_per_skill_point = t3_scgpsp_value
+    
+    base_maximum_success = 100
+    
+    base_success_chance = {
+        base = 100
+    }
 
     allow = {
         is_culture_bnoc = yes
@@ -43,10 +47,6 @@
             is_a_girl = yes
             is_adult = yes
         }
-    }
-
-    base_success_chance = {
-        base = 100
     }
 
     on_start = {
@@ -163,7 +163,12 @@
                 scope:tribute = { is_alive = no }
             }
             scope:owner = {
-                trigger_event = bno_offer_tribute.9999
+                send_interface_message = {
+                    type = bno_blacked_events
+                    title = bno_offer_tribute.invalidated.title.tribute.died
+                    desc = bno_offer_tribute.invalidated.desc.tribute.died
+                    end_scheme = yes
+                }
             }
         }
         if = {
@@ -171,7 +176,12 @@
                 scope:target = { is_alive = no }
             }
             scope:owner = {
-                trigger_event = bno_offer_tribute.9998
+                send_interface_message = {
+                    type = bno_blacked_events
+                    title = bno_offer_tribute.invalidated.title.target.died
+                    desc = bno_offer_tribute.invalidated.desc.target.died
+                    end_scheme = yes
+                }
             }
         }
         if = {
@@ -179,7 +189,12 @@
                 scope:target = { is_imprisoned = yes }
             }
             scope:owner = {
-                trigger_event = bno_offer_tribute.9997
+                send_interface_message = {
+                    type = bno_blacked_events
+                    title = bno_offer_tribute.invalidated.title.target.imprisoned
+                    desc = bno_offer_tribute.invalidated.desc.target.imprisoned
+                    end_scheme = yes
+                }
             }
         }
     }

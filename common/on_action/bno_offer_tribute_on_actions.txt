@@ -70,9 +70,18 @@ bno_offer_tribute_travel_plan_arrived = {
             }
         }
         scope:target = {
-            trigger_event = {
-                
-            }
+            trigger_event = bno_offer_tribute.4011
+        }
+    }
+}
+
+bno_offer_tribute_travel_plan_trainer_arrived_back_to_scheme_owner = {
+    trigger = {
+        exists = scope:scheme
+    }
+    effect = {
+        scope:owner = {
+            trigger_event = bno_offer_tribute.4021
         }
     }
 }
