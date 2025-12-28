@@ -1,4 +1,4 @@
-﻿bno_offer_tribute.1000 = { # TODO: make background about naked daughter innocent and flustered inside of a throne room
+﻿bno_offer_tribute.1000 = {
     background = {
         reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1000.dds"
         environment = "environment_event_garden"
@@ -6,7 +6,7 @@
     }
 }
 
-bno_offer_tribute.1001 = { # TODO: make background about naked daughter innocent and flustered inside of a throne room
+bno_offer_tribute.1001 = {
     background = {
         reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.1001.dds"
         environment = "environment_event_garden"
