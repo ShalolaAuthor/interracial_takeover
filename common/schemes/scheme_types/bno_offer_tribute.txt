@@ -167,7 +167,7 @@
                     type = bno_blacked_events
                     title = bno_offer_tribute.invalidated.title.tribute.died
                     desc = bno_offer_tribute.invalidated.desc.tribute.died
-                    end_scheme = yes
+                    scope:scheme = { end_scheme = yes }
                 }
             }
         }
@@ -180,7 +180,7 @@
                     type = bno_blacked_events
                     title = bno_offer_tribute.invalidated.title.target.died
                     desc = bno_offer_tribute.invalidated.desc.target.died
-                    end_scheme = yes
+                    scope:scheme = { end_scheme = yes }
                 }
             }
         }
@@ -193,7 +193,7 @@
                     type = bno_blacked_events
                     title = bno_offer_tribute.invalidated.title.target.imprisoned
                     desc = bno_offer_tribute.invalidated.desc.target.imprisoned
-                    end_scheme = yes
+                    scope:scheme = { end_scheme = yes }
                 }
             }
         }
