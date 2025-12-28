@@ -8,27 +8,7 @@
     story_owner = {
         save_scope_as = story_owner
         scope:scheme_owner = {
-            random_courtier = {
-                limit = {
-                    is_blackbull = yes
-                }
-                save_scope_as = trainer
-            }
-            if = {
-                limit = {
-                    NOT = { exists = scope:trainer }
-                }
-                create_bbc = {
-                    age = bno_young_adult
-                    SCOPE_NAME = trainer
-                }
-                scope:trainer = {
-                    add_character_flag = bno_offer_tribute.created
-                }
-                hidden_effect = {
-                    add_courtier = scope:trainer
-                }
-            }
+            bno_hire_trainer_effect = yes
         }
         if = {
             limit = {
@@ -57,12 +37,31 @@
     }
 }
 
+bno_hire_trainer_effect = {
+    create_bbc = {
+        age = bno_young_adult
+        SCOPE_NAME = trainer
+    }
+    scope:trainer = {
+        add_character_flag = bno_offer_tribute.created
+    }
+    hidden_effect = {
+        add_courtier = scope:trainer
+    }
+}
+
 bno_training_add_scheme_progress = {
-    add_trait_xp = {
-		trait = bno_servile
-		value = 1
-	}
-	var:bno_tribute_training_story = {
+    switch = {
+        trigger = has_trait
+        bno_servile = {
+            add_trait_xp = {
+	        	trait = bno_servile
+	        	value = 1
+	        }
+        }
+        fallback = { add_trait = bno_servile }
+    }
+	var:bno_offer_tribute_story = {
 		var:scheme = {
 			add_scheme_progress = 1
 		}
@@ -71,9 +70,15 @@ bno_training_add_scheme_progress = {
 
 bno_add_training_and_scheme_progress = {
     scope:tribute = {
-        add_trait_xp = {
-            trait = bno_servile
-            value = $VALUE$
+        switch = {
+            trigger = has_trait
+            bno_servile = {
+                add_trait_xp = {
+	            	trait = bno_servile
+	            	value = $VALUE$
+	            }
+            }
+            fallback = { add_trait = bno_servile }
         }
     }
     scope:scheme = {

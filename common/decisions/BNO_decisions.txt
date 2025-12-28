@@ -121,7 +121,7 @@ convert = {
 		gui = "decision_view_widget_option_list_generic"
 		controller = decision_option_list_controller
 		decision_to_second_step_button = convert.second_step_button
-		show_from_start = no
+		show_from_start = yes
 
 		item = { # Convert to BBC Church
 			value = bno_convert_to_BBC_Church
@@ -623,7 +623,7 @@ bno_convert_to_african = {
 		gui = "decision_view_widget_option_list_generic"
 		controller = decision_option_list_controller
 		decision_to_second_step_button = bno_convert_to_african.second_step_button
-		show_from_start = no
+		show_from_start = yes
 
 		item = { # Change Culture to African
 			value = bno_convert_to_african
@@ -797,7 +797,7 @@ bno_cure_diseases = {
 		gui = "decision_view_widget_option_list_generic"
 		controller = decision_option_list_controller
 		decision_to_second_step_button = bno_cure_diseases.second_step_button
-		show_from_start = no
+		show_from_start = yes
 
 		item = { # Lover's Pox
 			value = cure_lovers_pox

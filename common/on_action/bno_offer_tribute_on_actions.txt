@@ -51,9 +51,6 @@ bno_offer_tribute_training_phase = {
 }
 
 bno_offer_tribute_travel_plan_arrived = {
-    trigger = {
-        exists = scope:scheme
-    }
     effect = {
         save_scope_as = tribute
         var:bno_offer_tribute_story = {
@@ -76,9 +73,6 @@ bno_offer_tribute_travel_plan_arrived = {
 }
 
 bno_offer_tribute_travel_plan_trainer_arrived_back_to_scheme_owner = {
-    trigger = {
-        exists = scope:scheme
-    }
     effect = {
         scope:owner = {
             trigger_event = bno_offer_tribute.4021

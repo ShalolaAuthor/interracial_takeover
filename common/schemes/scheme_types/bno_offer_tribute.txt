@@ -1,11 +1,13 @@
 ﻿bno_offer_tribute = {
     skill = stewardship
-    category = hostile
+    category = personal
     target_type = character
     illustration = "gfx/interface/illustrations/event_scenes/corridor.dds"
-    desc = bno_offer_tribute.desc
     success_desc = bno_offer_tribute.success_desc
+    desc = bno_offer_tribute_desc
     is_secret = no
+
+    is_basic = yes
 
     speed_per_skill_point = t3_spsp_owner_value
     speed_per_target_skill_point = t2_spsp_target_value
@@ -42,7 +44,7 @@
             is_ruler = yes
             is_adult = yes
         }
-        var:bno_tribute = {
+        scope:owner.var:bno_tribute = {
             is_alive = yes
             is_a_girl = yes
             is_adult = yes
@@ -53,7 +55,7 @@
         save_scope_as = scheme
         scheme_owner = { save_scope_as = owner }
         scheme_target_character = { save_scope_as = target }
-        var:bno_tribute = { save_scope_as = tribute }
+        scope:owner.var:bno_tribute = { save_scope_as = tribute }
         scope:tribute = {
             create_character_memory = {
                 type = bno_offer_tribute_training_started
@@ -143,9 +145,18 @@
             save_scope_as = tribute
         }
 
-        scope:owner = {
-            trigger_event = bno_offer_tribute.4000
+        scope:tribute.var:bno_offer_tribute_story.var:bno_trainer = {
+            save_scope_as = trainer
         }
+
+        if = {
+            limit = {
+                exists = scope:trainer
+            }
+            scope:owner = {
+                trigger_event = bno_offer_tribute.4000
+            }
+        }       
     }
 
     on_invalidated = {
@@ -158,6 +169,12 @@
         }
         var:bno_tribute = {
             save_scope_as = tribute
+        }
+
+        scope:tribute = {
+            var:bno_offer_tribute_story = {
+                end_story = yes
+            }
         }
 
         if = {

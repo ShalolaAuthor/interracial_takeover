@@ -3,8 +3,13 @@
         end_story = yes
     }
 
-    on_setup = {
-        bno_find_trainer_for_tribute = yes
+    on_end = {
+        var:bno_trainer = {
+            save_scope_as = trainer
+        }
+        bno_kill_character = {
+            TARGET = scope:trainer
+        }
     }
 
     #find someone else suitable if the initial trainer died

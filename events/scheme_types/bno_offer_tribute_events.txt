@@ -2,7 +2,7 @@
 ### Initial Phase
 bno_offer_tribute.0001 = {
     type = character_event
-    window = scheme_successful_event
+    window = big_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -91,7 +91,7 @@ bno_offer_tribute.0001 = {
 ### Initial Phase: agree
 bno_offer_tribute.1000 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -175,7 +175,7 @@ bno_offer_tribute.1000 = {
 # Path A
 bno_offer_tribute.1001 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -237,7 +237,7 @@ bno_offer_tribute.1001 = {
 # Path B
 bno_offer_tribute.1002 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -297,7 +297,7 @@ bno_offer_tribute.1002 = {
 # Path C
 bno_offer_tribute.1003 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -357,7 +357,7 @@ bno_offer_tribute.1003 = {
 # Train Beauty: initial
 bno_offer_tribute.1101 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -419,8 +419,8 @@ bno_offer_tribute.1101 = {
                     scheme_owner = scope:owner
                 }
             }
+            become_prettier = yes
         }
-        become_prettier = yes
         bno_add_training_and_scheme_progress = {
             VALUE = 5
         }
@@ -432,7 +432,7 @@ bno_offer_tribute.1101 = {
 # Train Beauty: reoccuring
 bno_offer_tribute.1102 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -485,8 +485,8 @@ bno_offer_tribute.1102 = {
         scope:tribute = {
             add_learning_skill = -1
             add_diplomacy_skill = -1
+            become_prettier = yes
         }
-        become_prettier = yes
         bno_add_training_and_scheme_progress = {
             VALUE = 5
         }
@@ -498,7 +498,7 @@ bno_offer_tribute.1102 = {
 # Train Beauty: finished
 bno_offer_tribute.1103 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -569,7 +569,7 @@ bno_offer_tribute.1103 = {
 # Train Breasts: initial
 bno_offer_tribute.1111 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -632,8 +632,8 @@ bno_offer_tribute.1111 = {
                     scheme_owner = scope:owner
                 }
             }
+            become_bigger_tits_effect = yes
         }
-        become_bigger_tits_effect = yes
         bno_add_training_and_scheme_progress = {
             VALUE = 9
         }
@@ -646,7 +646,7 @@ bno_offer_tribute.1111 = {
 # Train Breasts: reoccuring
 bno_offer_tribute.1112 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -699,8 +699,8 @@ bno_offer_tribute.1112 = {
         scope:tribute = {
             add_learning_skill = -1
             add_prowess_skill = -1
+            become_bigger_tits_effect = yes
         }
-        become_bigger_tits_effect = yes
         bno_add_training_and_scheme_progress = {
             VALUE = 9
         }
@@ -713,7 +713,7 @@ bno_offer_tribute.1112 = {
 # Train Breasts: finished
 bno_offer_tribute.1113 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -784,7 +784,7 @@ bno_offer_tribute.1113 = {
 # Train Hips/Waist/Ass: initial
 bno_offer_tribute.1121 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -847,8 +847,8 @@ bno_offer_tribute.1121 = {
                     scheme_owner = scope:owner
                 }
             }
+            become_bigger_ass_effect = yes
         }
-        become_bigger_ass_effect = yes
         bno_add_training_and_scheme_progress = {
             VALUE = 9
         }
@@ -861,7 +861,7 @@ bno_offer_tribute.1121 = {
 # Train Hips/Waist/Ass: reoccuring
 bno_offer_tribute.1122 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -913,8 +913,8 @@ bno_offer_tribute.1122 = {
         }
         scope:tribute = {
             add_learning_skill = -1
+            become_bigger_ass_effect = yes
         }
-        become_bigger_ass_effect = yes
         bno_add_training_and_scheme_progress = {
             VALUE = 7
         }
@@ -927,7 +927,7 @@ bno_offer_tribute.1122 = {
 # Train Hips/Waist/Ass: finished
 bno_offer_tribute.1123 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -999,7 +999,7 @@ bno_offer_tribute.1123 = {
 # Personal Trainer
 bno_offer_tribute.2000 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -1035,6 +1035,7 @@ bno_offer_tribute.2000 = {
     }
 
     immediate = {
+        bno_hire_trainer_effect = yes
         scope:tribute = {
             add_character_flag = bno_offer_tribute.2000
 
@@ -1044,18 +1045,13 @@ bno_offer_tribute.2000 = {
                 save_scope_as = bno_offer_tribute_story
             }
             set_variable = {
-                name = bno_tribute_training_story
+                name = bno_offer_tribute_story
                 value = scope:bno_offer_tribute_story
             }
             scope:bno_offer_tribute_story = {
                 set_variable = {
                     name = scheme
                     value = scope:scheme
-                }
-            }
-            var:bno_tribute_training_story = {
-                var:bno_trainer = {
-                    save_scope_as = trainer
                 }
             }
             ### END
@@ -1097,7 +1093,7 @@ bno_offer_tribute.2000 = {
 # Oral: initial
 bno_offer_tribute.2001 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -1135,7 +1131,7 @@ bno_offer_tribute.2001 = {
     immediate = {
         scope:tribute = {
             add_character_flag = bno_offer_tribute.2001
-            var:bno_tribute_training_story = {
+            var:bno_offer_tribute_story = {
                 var:bno_trainer = {
                     save_scope_as = bbc
                 }
@@ -1193,7 +1189,7 @@ bno_offer_tribute.2001 = {
 # Oral: finished
 bno_offer_tribute.2002 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -1232,7 +1228,7 @@ bno_offer_tribute.2002 = {
     immediate = {
         scope:tribute = {
             add_character_flag = bno_offer_tribute.2002
-            var:bno_tribute_training_story = {
+            var:bno_offer_tribute_story = {
                 var:bno_trainer = {
                     save_scope_as = bbc
                 }
@@ -1277,7 +1273,7 @@ bno_offer_tribute.2002 = {
 # Anal: initial
 bno_offer_tribute.2011 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -1315,7 +1311,7 @@ bno_offer_tribute.2011 = {
     immediate = {
         scope:tribute = {
             add_character_flag = bno_offer_tribute.2011
-            var:bno_tribute_training_story = {
+            var:bno_offer_tribute_story = {
                 var:bno_trainer = {
                     save_scope_as = trainer
                 }
@@ -1363,7 +1359,7 @@ bno_offer_tribute.2011 = {
 # Anal: finished
 bno_offer_tribute.2012 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -1401,8 +1397,8 @@ bno_offer_tribute.2012 = {
 
     immediate = {
         scope:tribute = {
-            add_character_flag = bno_offer_tribute.2011
-            var:bno_tribute_training_story = {
+            add_character_flag = bno_offer_tribute.2012
+            var:bno_offer_tribute_story = {
                 var:bno_trainer = {
                     save_scope_as = trainer
                 }
@@ -1452,7 +1448,7 @@ bno_offer_tribute.2012 = {
 # Gang Bang
 bno_offer_tribute.3001 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -1490,7 +1486,7 @@ bno_offer_tribute.3001 = {
     immediate = {
         scope:tribute = {
             add_character_flag = bno_offer_tribute.3001
-            var:bno_tribute_training_story = {
+            var:bno_offer_tribute_story = {
                 var:bno_trainer = {
                     save_scope_as = trainer
                 }
@@ -1535,7 +1531,7 @@ bno_offer_tribute.3001 = {
 # Free Use
 bno_offer_tribute.3011 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -1573,7 +1569,7 @@ bno_offer_tribute.3011 = {
     immediate = {
         scope:tribute = {
             add_character_flag = bno_offer_tribute.3011
-            var:bno_tribute_training_story = {
+            var:bno_offer_tribute_story = {
                 var:bno_trainer = {
                     save_scope_as = trainer
                 }
@@ -1618,7 +1614,7 @@ bno_offer_tribute.3011 = {
 # Cum Dumpster
 bno_offer_tribute.3021 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -1656,7 +1652,7 @@ bno_offer_tribute.3021 = {
     immediate = {
         scope:tribute = {
             add_character_flag = bno_offer_tribute.3021
-            var:bno_tribute_training_story = {
+            var:bno_offer_tribute_story = {
                 var:bno_trainer = {
                     save_scope_as = trainer
                 }
@@ -1702,7 +1698,7 @@ bno_offer_tribute.3021 = {
 # Toilet
 bno_offer_tribute.3031 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -1740,7 +1736,7 @@ bno_offer_tribute.3031 = {
     immediate = {
         scope:tribute = {
             add_character_flag = bno_offer_tribute.3031
-            var:bno_tribute_training_story = {
+            var:bno_offer_tribute_story = {
                 var:bno_trainer = {
                     save_scope_as = trainer
                 }
@@ -1786,7 +1782,7 @@ bno_offer_tribute.3031 = {
 # Cock Sleeve
 bno_offer_tribute.3041 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -1824,7 +1820,7 @@ bno_offer_tribute.3041 = {
     immediate = {
         scope:tribute = {
             add_character_flag = bno_offer_tribute.3041
-            var:bno_tribute_training_story = {
+            var:bno_offer_tribute_story = {
                 var:bno_trainer = {
                     save_scope_as = trainer
                 }
@@ -1870,7 +1866,7 @@ bno_offer_tribute.3041 = {
 # Fecund trait: The Fertile Vessel
 bno_offer_tribute.3051 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -1908,7 +1904,7 @@ bno_offer_tribute.3051 = {
     immediate = {
         scope:tribute = {
             add_character_flag = bno_offer_tribute.3051
-            var:bno_tribute_training_story = {
+            var:bno_offer_tribute_story = {
                 var:bno_trainer = {
                     save_scope_as = trainer
                 }
@@ -1956,7 +1952,7 @@ bno_offer_tribute.3051 = {
 # Continue training or send her to the Lord
 bno_offer_tribute.4000 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -2011,13 +2007,6 @@ bno_offer_tribute.4000 = {
             }
         }
         hidden_effect = {
-            scope:tribute = {
-                var:bno_tribute_training_story = {
-                    var:bno_trainer = {
-                        save_scope_as = trainer
-                    }
-                }
-            }
             scope:scheme = {
                 scheme_freeze = {
                     reason = bno_offer_tribute.travelling
@@ -2028,6 +2017,8 @@ bno_offer_tribute.4000 = {
             start_travel_plan = {
                 destination = scope:target.capital_province
                 travel_leader = scope:trainer
+                companion = scope:trainer
+
                 travel_with_domicile = yes
 
                 players_use_planner = no                
@@ -2127,7 +2118,7 @@ bno_offer_tribute.4001 = {
 #Tribute arrive to the Lord's throne
 bno_offer_tribute.4011 = {
     type = character_event
-    window = scheme_successful_event
+    window = big_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -2202,7 +2193,7 @@ bno_offer_tribute.4011 = {
 # She is Exquisite
 bno_offer_tribute.4012 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -2273,7 +2264,7 @@ bno_offer_tribute.4012 = {
                 return_trip = no
                 can_cancel_planning = no
 
-                on_arrival_event = bno_offer_tribute.4021
+                on_arrival_on_action = bno_offer_tribute_travel_plan_trainer_arrived_back_to_scheme_owner
                 on_arrival_destinations = last
             }
         }
@@ -2282,7 +2273,7 @@ bno_offer_tribute.4012 = {
 # She is adequate
 bno_offer_tribute.4013 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -2363,7 +2354,7 @@ bno_offer_tribute.4013 = {
 #TODO: make distinction for selling vs lending, adequate vs exquisite
 bno_offer_tribute.4021 = {
     type = character_event
-    window = scheme_successful_event
+    window = sex_event_window
     theme = bno_offer_tribute
 
     override_background = {
@@ -2497,5 +2488,10 @@ bno_offer_tribute.4021 = {
     after = {
         carn_sex_scene_is_cum_inside_effect = yes
         bno_sex_scene_cleanup = yes
+        scope:tribute = {
+            var:bno_offer_tribute_story = {
+                end_story = yes
+            }
+        }
     }
 }

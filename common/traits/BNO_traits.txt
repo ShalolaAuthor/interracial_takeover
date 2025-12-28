@@ -709,7 +709,7 @@ bno_whitegirl_1 = {
 	#Special Opinion
 	general_opinion = -10
 	opposite_opinion = 20
-	same_opinion = 10
+	same_opinion = 100
 
 	#Trait Relation
 	compatibility = {
@@ -799,7 +799,7 @@ bno_whitegirl_2 = {
 	
 	#Special Opinion
 	general_opinion = -20
-	same_opinion = 20
+	same_opinion = 100
 	opposite_opinion = 40
 
 	#Trait Relation
@@ -892,7 +892,7 @@ bno_whitegirl_3 = {
 	
 	#Special Opinion
 	general_opinion = -30
-	same_opinion = 30
+	same_opinion = 100
 	opposite_opinion = 60
 
 	#Trait Relation
@@ -996,7 +996,7 @@ bno_whitegirl_4 = {
 	
 	#Special Opinion
 	general_opinion = -40
-	same_opinion = 40
+	same_opinion = 100
 	opposite_opinion = 80
 
 	#Trait Relation
@@ -1098,7 +1098,7 @@ bno_whitegirl_5 = {
 	
 	#Special Opinion
 	general_opinion = -50
-	same_opinion = 50
+	same_opinion = 100
 	opposite_opinion = 100
 
 	#Trait Relation

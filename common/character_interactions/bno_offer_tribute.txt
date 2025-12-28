@@ -31,7 +31,7 @@
         }
     }
 
-    cooldown_against_recipient = { months = 6 }
+    #cooldown_against_recipient = { months = 6 }
 
     is_shown = {
         scope:actor != scope:recipient
@@ -75,8 +75,12 @@
                 honest = minor_stress_impact_gain
                 just = minor_stress_impact_gain
             }
+            set_variable = {
+                name = bno_tribute
+                value = scope:secondary_actor
+            }
             send_interface_toast = {
-                type = event_toast_effect_neutral
+                type = bno_blacked_events
                 title = bno_offer_tribute.notification.title
                 desc = bno_offer_tribute.notification.desc
 
@@ -85,18 +89,36 @@
     
                 ### Create and Equip Chastity Piercing for Daughter
                 scope:secondary_actor = {
-                    bno_create_artifact_bno_chastity_piercing_only_effect = {
-                        CREATOR = scope:actor
-                    }
-                    random_character_artifact = {
+                    if = {
                         limit = {
-                            has_variable = bno_chastity_piercing
+                            NOT = {
+                                any_character_artifact = {
+                                    has_variable = bno_chastity_piercing
+                                }
+                            }
                         }
-                        save_scope_as = bno_chastity_piercing
+                        bno_create_artifact_bno_chastity_piercing_only_effect = {
+                            CREATOR = scope:actor
+                        }
                     }
-                    scope:bno_chastity_piercing = {
-                        equip_artifact_to_owner = yes   
-                    }
+                    if = {
+                        limit = {
+                            NOT = {
+                                any_equipped_character_artifact = {
+                                    has_variable = bno_chastity_piercing
+                                }
+                            }
+                        }
+                        random_character_artifact = {
+                            limit = {
+                                has_variable = bno_chastity_piercing
+                            }
+                            save_scope_as = bno_chastity_piercing
+                        }
+                        scope:bno_chastity_piercing = {
+                            equip_artifact_to_owner = yes   
+                        }
+                    }                                        
                 }
                 ### END
 
@@ -105,12 +127,12 @@
                     target_character = scope:recipient
                     save_scope_as = bno_offer_tribute_scheme
                 }
-                hidden_effect = {
-                    scope:bno_offer_tribute_scheme = {
-                        set_variable = {
-                            name = bno_tribute
-                            value = scope:secondary_actor
-                        }
+            }
+            hidden_effect = {
+                scope:bno_offer_tribute_scheme = {
+                    set_variable = {
+                        name = bno_tribute
+                        value = scope:secondary_actor
                     }
                 }
             }

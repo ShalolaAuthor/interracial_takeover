@@ -1259,6 +1259,7 @@ types BigWindowTypes {
 		}
 
 		hbox = {
+            position = { -1200 300 }
             expand = {}
 
             # Event description and options
@@ -1296,7 +1297,7 @@ types BigWindowTypes {
 
                         scrollarea = {
                             name = "description_scrollarea"
-                            size = { 500 500 }
+                            size = { 500 200 }
 
                             scrollbarpolicy_horizontal = always_off
 
@@ -1316,7 +1317,7 @@ types BigWindowTypes {
                                         text_multi = {
                                             name = "description"
                                             layoutpolicy_horizontal = expanding
-                                            max_width = 400
+                                            max_width = 500
                                             text = "[EventWindowData.GetDescription]"
                                             autoresize = yes
                                             fontsize = 18
@@ -1386,7 +1387,7 @@ types BigWindowTypes {
                             item = {
                                 button_eventoption = {
                                 	block "button_size" {
-                                        size = { 300 36 }
+                                        size = { 350 36 }
                                     }
                                 }
                             }
