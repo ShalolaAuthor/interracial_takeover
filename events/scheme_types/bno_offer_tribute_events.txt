@@ -1934,6 +1934,9 @@ bno_offer_tribute.4000 = {
                 }
             }
         }
+        scope:scheme = {
+            reset_scheme_progress = yes
+        }
     }
 }
 #Letter confirming lending or selling daughter
