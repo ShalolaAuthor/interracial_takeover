@@ -609,10 +609,10 @@ bno_convert_to_african = {
 	is_shown = {
 		is_adult = yes
 		OR = {
-			has_trait = bno_bbc
 			has_trait = bno_whiteboi
 			has_trait = bno_whitegirl
 		}
+		NOT = { has_trait = bno_full_black }
 		NOT = { is_culture_bnoc = yes }
 	}
 	is_valid = {
