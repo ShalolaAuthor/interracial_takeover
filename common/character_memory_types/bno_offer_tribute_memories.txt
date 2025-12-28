@@ -1,6 +1,6 @@
 ﻿bno_offer_tribute_training_started = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_started.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -47,7 +47,7 @@
 
 bno_offer_tribute_daughter_training_started = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_started.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -94,7 +94,7 @@ bno_offer_tribute_daughter_training_started = {
 
 bno_offer_tribute_training_beauty_started = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_beauty_started.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -141,7 +141,7 @@ bno_offer_tribute_training_beauty_started = {
 
 bno_offer_tribute_training_beauty_perfected = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_beauty_perfected.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -188,7 +188,7 @@ bno_offer_tribute_training_beauty_perfected = {
 
 bno_offer_tribute_training_breast_started = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_breast_started.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -235,7 +235,7 @@ bno_offer_tribute_training_breast_started = {
 
 bno_offer_tribute_training_breast_perfected = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_breast_perfected.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -282,7 +282,7 @@ bno_offer_tribute_training_breast_perfected = {
 
 bno_offer_tribute_training_body_started = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_body_started.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -329,7 +329,7 @@ bno_offer_tribute_training_body_started = {
 
 bno_offer_tribute_training_body_perfected = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_body_perfected.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -376,7 +376,7 @@ bno_offer_tribute_training_body_perfected = {
 
 bno_offer_tribute_training_oral_started = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_oral_started.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -423,7 +423,7 @@ bno_offer_tribute_training_oral_started = {
 
 bno_offer_tribute_training_oral_perfected = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_oral_perfected.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -470,7 +470,7 @@ bno_offer_tribute_training_oral_perfected = {
 
 bno_offer_tribute_training_trainer_assigned = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_trainer_assigned.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -517,7 +517,7 @@ bno_offer_tribute_training_trainer_assigned = {
 
 bno_offer_tribute_training_anal_started = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_anal_started.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -564,7 +564,7 @@ bno_offer_tribute_training_anal_started = {
 
 bno_offer_tribute_training_anal_perfected = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_anal_perfected.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -611,7 +611,7 @@ bno_offer_tribute_training_anal_perfected = {
 
 bno_offer_tribute_training_gang_bang = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_gang_bang.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -658,7 +658,7 @@ bno_offer_tribute_training_gang_bang = {
 
 bno_offer_tribute_training_public_use = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_public_use.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -705,7 +705,7 @@ bno_offer_tribute_training_public_use = {
 
 bno_offer_tribute_training_cum_dumpster = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_cum_dumpster.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -752,7 +752,7 @@ bno_offer_tribute_training_cum_dumpster = {
 
 bno_offer_tribute_training_personal_toilet = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_personal_toilet.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -799,7 +799,7 @@ bno_offer_tribute_training_personal_toilet = {
 
 bno_offer_tribute_training_cock_sleeve = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_cock_sleeve.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -846,7 +846,7 @@ bno_offer_tribute_training_cock_sleeve = {
 
 bno_offer_tribute_training_fertile_vessel = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_training_fertile_vessel.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -893,7 +893,7 @@ bno_offer_tribute_training_fertile_vessel = {
 
 bno_offer_tribute_lending_adequate = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_lending_adequate.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -940,7 +940,7 @@ bno_offer_tribute_lending_adequate = {
 
 bno_offer_tribute_selling_adequate = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_selling_adequate.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -987,7 +987,7 @@ bno_offer_tribute_selling_adequate = {
 
 bno_offer_tribute_lending_exquisite = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_lending_exquisite.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
@@ -1034,7 +1034,7 @@ bno_offer_tribute_lending_exquisite = {
 
 bno_offer_tribute_selling_exquisite = {
     categories = { positive bno_offer_tribute }
-    icon = "bno_offer_tribute_selling_exquisite.dds"
+    icon = "bno_offer_tribute.dds"
 
     description = {
         first_valid = {
