@@ -1,0 +1,7 @@
+﻿l_simp_chinese:
+ bno.trigger.is_culture_bnoc: "[culture|E]已经接纳了[bno_bnwo|E]服从和播种。"
+ bno.trigger.is_slut_or_whiteboi: "你不是[GetTraitGroup('bno_whitegirl').GetName]或[GetTraitGroup('bno_whiteboi').GetName]"
+ bno.trigger.bno_only_allow_when_below_certain_age: "角色年龄过大，无法接受训练"
+ bno.trigger.is_bno_cuck_and_up: "角色必须为[GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]"
+ bno.trigger.is_a_girl: "角色必须是女性"
+ bno.trigger.is_bno_snowbunny_and_up: "角色必须为[GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]"

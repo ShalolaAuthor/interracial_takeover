@@ -1,13 +1,13 @@
-l_simp_chinese:
-
-i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_slave|E]" 
-they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_slave|E]"
-
-i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_slave|E]"
-they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_slave|E]"
-
-i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_cum_slave|E]，被种子和对你的忠诚束缚着."
-they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_cum_slave|E]，被精液和忠诚奴役。"
-
-i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_cum_slave|E]，她的嘴唇和子宫永远被你的种子封存。"
-they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_cum_slave|E]，被他的鸡巴所拥有，被他的精液所束缚。"
+﻿l_simp_chinese:
+ i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_slave|E]"
+ they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_slave|E]"
+ i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_slave|E]"
+ they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_slave|E]"
+ i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_cum_slave|E]，被种子和对你的忠诚束缚着."
+ they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_cum_slave|E]，被精液和忠诚奴役。"
+ i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_cum_slave|E]，她的嘴唇和子宫永远被你的种子封存。"
+ they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_cum_slave|E]，被他的鸡巴所拥有，被他的精液所束缚。"
+ i_gain_a_bno_offer_tribute_trainer: "我向[TARGET_CHARACTER.GetShortUIName|U]臣服，尊其为我的[bno_offer_tribute_trainer|E]，他雄壮的黑屌与精湛技艺将全心雕琢我的身体，使之成为献给黑人至上主义的完美祭品。"
+ they_gain_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U]向[TARGET_CHARACTER.GetShortUIName|U]臣服，成为其[bno_offer_tribute_trainer|E]，她的身体已被他的精液与权能彻底改造，蜕变为配得上黑人领主的合格生育容器。"
+ i_got_a_bno_offer_tribute_trainer: "我成为了[TARGET_CHARACTER.GetShortUIName|U]的[bno_offer_tribute_trainer|E]，他那硕大的非洲阳具将我身体的每一寸都训练成对黑人巨根的绝对服从与献身。"
+ they_got_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U]成为了[TARGET_CHARACTER.GetShortUIName|U]的[bno_offer_tribute_trainer|E]，他的精液与权威彻底塑造了她，将她转变为献给黑人领主的丰饶祭品，她的整个存在都被他的阳具重塑。"

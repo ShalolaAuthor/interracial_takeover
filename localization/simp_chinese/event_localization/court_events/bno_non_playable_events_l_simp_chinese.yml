@@ -1,4 +1,3 @@
 ﻿l_simp_chinese:
-
-bno_non_playable.0001.title: "国库账本的出入"
-bno_non_playable.0001.desc: "国库账本发现一笔小额差额。部分黄金硬币去向不明。虽金额不足以引发警报，仍需立即展开调查。皇家管家坚称所有账目处理均一丝不苟，[cp_steward.GetSheHe]建议通过彻底核查近期支出记录追查失款。我已下令[cp_steward.GetHerHis]迅速处理此事。"
+ bno_non_playable.0001.title: "国库账本的出入"
+ bno_non_playable.0001.desc: "国库账本发现一笔小额差额。部分黄金硬币去向不明。虽金额不足以引发警报，仍需立即展开调查。皇家管家坚称所有账目处理均一丝不苟，[cp_steward.GetSheHe]建议通过彻底核查近期支出记录追查失款。我已下令[cp_steward.GetHerHis]迅速处理此事。"

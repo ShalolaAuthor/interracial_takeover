@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+ bno_offer_tribute_found_suitable_trainer.title: "新调教师抵达"
+ bno_offer_tribute_found_suitable_trainer.desc: "你女儿之前的[bno_offer_tribute_trainer|E]已离开，但他的工作仍在继续。一位技艺相当的新[bno_bbc|E]已接手来完成她的蜕变。他那硕大的黑屌将深化她的驯化过程，他的精液将加剧她的臣服。她的训练将毫无间断地持续下去。"
+ bno_offer_tribute.notification.title: "仪式开始"
+ bno_offer_tribute.notification.desc: "你女儿的蜕变已经开始。她将被雕琢、训练、重塑，成为献给非洲优越性的完美祭品。她封存的童贞正静候着。她的身体将只与黑人的气息同步。完善她的计划已然启动。"
+ bno_offer_tribute.invalidated.title.tribute.died: "贡品殒命"
+ bno_offer_tribute.invalidated.desc.tribute.died: "你的女儿在送往[target.GetName]前的训练过程中死亡。她的身体无法承受高强度训练。所有安排均已取消。不会获得任何款项。你在她训练上的投资已永远损失。"
+ bno_offer_tribute.invalidated.title.target.died: "[target.GetName]已逝"
+ bno_offer_tribute.invalidated.desc.target.died: "你原计划将女儿送往效忠的黑人领主[target.GetName]已战死沙场。他永远无法接收她了。你的女儿仍滞留于此，无人认领。所有安排均已作废。现在你必须决定如何处置她。"
+ bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName]被囚禁"
+ bno_offer_tribute.invalidated.desc.target.imprisoned: "你原计划将女儿送往效忠的黑人领主[target.GetName]已被敌对势力囚禁。他无法接收您的女儿。你的女儿如今仍留在家中，她的使命被无限期搁置。所有安排均已冻结。她的前途此刻充满变数。"

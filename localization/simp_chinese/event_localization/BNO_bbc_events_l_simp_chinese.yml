@@ -1,68 +1,49 @@
 ﻿l_simp_chinese:
-# bno_events00 - invite influence decision
  bno_events00: "在你的朝廷中招待一位非洲难民"
- bno_events00.desc: "奇怪的、木炭色的人们从遥远的土地逃离，据报出现在你的领土上。他们是否怀有敌意而来尚不得而知。然而，仅从一眼就能看出他们的力量。\n\n在你的子民中只发现了少数几人。或许他们带来了可能有益的异域文化？礼物和见解？\n\n也许你应该看看他们在做什么？"
- bno_events00_decision_tooltip: "已召集外来者觐见陛下"
+ bno_events00.desc: "据报道，你们的王国里出现了一些奇怪的、肤色黝黑的男子，他们从遥远的地方逃亡而来。他们是否身处险境尚不得而知。然而，他们的力量显而易见，只需一眼便可见。\n\n在你们的族人中，只有少数人被发现。或许他们携带着对你们有益的异域文化？天赋和洞察力？\n\n或许你们应该去看看他们在干什么？"
+ bno_events00_decision_tooltip: "召见难民"
  bno_events00_confirm: "派遣使者"
- refugee_effect_1: "你将看到一群外国人，并且可以选择一人加入你的朝廷。"
-
-#bno_events01 - receiving influence
+ refugee_effect_1: "您将看到一群异邦人，并可以选择一个加入您的宫廷。"
  bno_events01.title: "外来者已至！"
  bno_events01.desc: "在你领土内被发现的少数人已被带到你的朝廷面前。他们自称来自不同的部落，有着各种各样的名字：努比亚人、加纳人、索马里人、马里人。或许他们的异域影响能帮助你进行战争和外交？\n\n斥候只在目前的难民中找到了少数符合条件的人。他们每个人都独一无二，但都拥有同样黝黑的皮肤。你的思绪不禁飘远，回忆起地中海以南的土地上的传说。\n\nT现在，决定权在你手中。[target1.GetFirstName], [target3.GetFirstName], 或 [target2.GetFirstName].\n\n谁将加入你的朝廷？"
  bno_events01.a: "[target1.GetFirstName]是最有价值的。"
  bno_events01.b: "[target2.GetFirstName]是最佳人选。"
  bno_events01.c: "[target3.GetFirstName]将加入我的朝廷。"
  bno_events01.d: "请用你的影响力庇佑我们……"
- 
- #bno_events02 - when receiving a kingdom title and being married to a BBC
  bno_events02.title: "一位非洲国王"
  bno_events02.desc: "'我的爱人，你是想与我分享这份荣耀吗？你这片土地的统治权？'\n\n你的心怦怦直跳，双手顺从地交叠在身前，全心全意地投入到你终结自己国家的计划之中。\n\n你的后代将继承你爱人的力量、肤色和智慧。\n\n那个在战场上是雄狮，在床上亦是如此的男人。\n\n你的国王。"
  bno_events02.a: "我们...去寝宫吧。"
- 
- #bno_events03 - when receiving an empire title and being married to a BBC
  bno_events03.title: "末日的开端"
  bno_events03.desc: "随着你继承大统，君临天下，你的配偶也获得了与之相称的头衔。\n\n来自“白皮”闻所未闻的异域，你的情人不仅俘获了你的心，更征服了你的土地。\n\n然而，这仅仅是个开始，因为[target1.GetHerHis]的文化、信仰和肤色，正通过狂肏本地所有女人的屄，来完成对本土血统的入侵和替换。"
  bno_events03.a: "我种族的末日临近了。"
-
-#bbcconversion - decision
  bbcconversion.title: "非洲至上"
  bbcconversion.desc: "你决定皈依[bno_religion|E]，只崇拜黑人神祇。你突然渴望将[bno_bbc|E]的影响力传播到全世界"
  bbcconversion.a: "很快，世界将臣服于黑人"
- 
- #test
  bno_election: "采纳新的继承法"
  bno_election_confirm: "确认"
  bno_election_decision_desc: "在仔细查阅文件并研究继承顺序之后，你被一位廷臣启发，采纳一种新的等级制度——一种以种族而非性别为中心的等级制度。"
  bno_election_decision_tooltip: "屈服吗？"
  bno_election_decision.a: "耶嘿！！！全速前进！"
-
  bull_decision: "传唤一个黑爹来征服你的妻子"
  bull_decision_desc: "你老婆对这些从非洲来的陌生男人的大黑屌上瘾了，而你居然还挺喜欢，干嘛不叫他们中的一个当着你的面肏？[ROOT.Char.GetPrimarySpouse.GetHerHis]？"
  bull_decision_tooltip: "一个“公牛”会来上你的床"
  bull_decision_confirm: "把“公牛”叫来！"
-
-#
  bno_events_0005.title: "黑爹征服了你的妻子"
  bno_events_0005.desc: "你的公牛[target1.GetFirstName]猛地踹开房门，盯着你和你老婆[target2.GetFirstName]。你老婆一脸惊讶，问你这是怎么回事。你的骑士[target1.GetFirstName]一把抓住[target2.GetHerHis]，强迫[target2.GetHerHis]给他含屌，但你老婆却异常兴奋起来。你的鸡巴硬了，你毫不犹豫地坐在沙发上开始打飞机。你老婆[target2.GetFirstName]湿得前所未有。[target1.GetFirstName]撕烂了[target2.GetHerHis]的衣服，开始猛肏[target2.GetHerHis]那滑腻的屄，同时抽打[target2.GetHerHis]的屁股，而[target2.GetSheHe]在快感中尖叫，还不停地瞟你。你再也憋不住了，在老婆被肏的时候大声射了出来，而你老婆正一波接一波地高潮。突然，[target1.GetFirstName]开始内射到你老婆的屄里，而你什么也做不了……"
  bno_events_0005.a: "老天啊多么美的场面, 亲爱的我爱你..."
-
-bno_events.0006.title: "你选中的贵族女性"
-bno_events.0006.desc: "#weak 看着那个没见过世面的贵族走进我的宫廷，我皮笑肉不笑地迎了上去，邀请[target1.GetHerHis]进来。#!\n\n欢迎你啊，[target1.GetFirstName]、[target3.GetFirstName]和[target2.GetFirstName]。你们大驾光临令我倍感荣幸。\n\n#weak 贵族四处张望，打量着我的庄园的奢华环境——从富丽堂皇的家具到满墙都是的无价艺术品。让[target1.GetSheHe]看傻了眼。 #!\n\n你肯来就好。我等不及要跟你“分享”一下我这儿的宝贝了，顺便也听听你对文化艺术有什么见解。\n\n#weak 这贵族恭敬地点了点头，显然她很高兴有机会探索眼前的这个新世界。 #!"
-
-# bno_realize_bbc_potential Non-BBC Black character gains BBC
-bno_realize_bbc_potential: "探索你的大黑鸡巴"
-bno_realize_bbc_potential.desc: "你们意识到，黑人的优势体质赋予了你们凌驾于劣等亚种族之上的先天优势。是时候让欧洲成为你的婊子了。"
-bno_realize_bbc_potential_decision_tooltip: "你将成为强势的黑人种马。"
-bno_realize_bbc_potential_confirm: "整个世界唾手可得。"
-bno_realize_bbc_potential_effect_1: "你将获得[bno_bbc|E]特质。"
-
-bno_events.0007.title: "[ROOT.Char.Custom('GetCourt')|U][GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
-bno_events.0007.desc: "为了满足越来越多的性欲旺盛的大块头黑人的需求，我决定是时候雇佣一支由白人女孩组成的专门团队了，她们的生活和呼吸就是为她们的黑皮主人服务。这些[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]从一出生就接受了取悦鸡巴的艺术训练——她们清楚地知道如何利用自己身体的每一寸肌肤为她们的黑皮国王带来最大的快感。\n\n我的计划很简单：建立一个社会，让这些崇拜者的存在完全是为了满足黑人霸主的需求，同时让他们感到快乐和满足。通过提供这项重要服务，我希望能防止因男性压抑的性挫败感而可能引发的任何骚乱或暴力。毕竟，没有人希望愤怒、饥渴的黑人在街上游荡，寻找女人！"
-bno_events.0007.e: "[excellent_skill_option.GetFirstNameNoTooltip]作为[bno_whore|E]的技能闻名全国！"
-bno_events.0007.e.aptitude: "[excellent_skill_option.GetUINamePossessive|U][aptitude|E]是[excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
-bno_events.0007.a.tt: "一位[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]同时拥有[gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]的月薪"
-bno_events.0007.a: "很显然，[high_skill_option.GetFirstNameNoTooltip]已经和很多家伙做过爱了"
-bno_events.0007.a.aptitude: "[high_skill_option.GetUINamePossessive|U][aptitude|E]是[high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
-bno_events.0007.b: "[low_skill_option.GetFirstNameNoTooltip]看起来很热情，如果没有别的人选的话。"
-bno_events.0007.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E]是[low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
-
+ bno_events.0006.title: "你选中的贵族女性"
+ bno_events.0006.desc: "#weak 看着那个没见过世面的贵族走进我的宫廷，我皮笑肉不笑地迎了上去，邀请[target1.GetHerHis]进来。#!\n\n欢迎你啊，[target1.GetFirstName]、[target3.GetFirstName]和[target2.GetFirstName]。你们大驾光临令我倍感荣幸。\n\n#weak 贵族四处张望，打量着我的庄园的奢华环境——从富丽堂皇的家具到满墙都是的无价艺术品。让[target1.GetSheHe]看傻了眼。 #!\n\n你肯来就好。我等不及要跟你“分享”一下我这儿的宝贝了，顺便也听听你对文化艺术有什么见解。\n\n#weak 这贵族恭敬地点了点头，显然她很高兴有机会探索眼前的这个新世界。 #!"
+ bno_realize_bbc_potential: "探索你的大黑鸡巴"
+ bno_realize_bbc_potential.desc: "你们意识到，黑人的优势体质赋予了你们凌驾于劣等亚种族之上的先天优势。是时候让欧洲成为你的婊子了。"
+ bno_realize_bbc_potential_decision_tooltip: "你将成为强势的黑人种马。"
+ bno_realize_bbc_potential_confirm: "整个世界唾手可得。"
+ bno_realize_bbc_potential_effect_1: "你将获得[bno_bbc|E]特质。"
+ bno_events.0007.title: "[ROOT.Char.Custom('GetCourt')|U][GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
+ bno_events.0007.desc: "为了满足越来越多的性欲旺盛的大块头黑人的需求，我决定是时候雇佣一支由白人女孩组成的专门团队了，她们的生活和呼吸就是为她们的黑皮主人服务。这些[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]从一出生就接受了取悦鸡巴的艺术训练——她们清楚地知道如何利用自己身体的每一寸肌肤为她们的黑皮国王带来最大的快感。\n\n我的计划很简单：建立一个社会，让这些崇拜者的存在完全是为了满足黑人霸主的需求，同时让他们感到快乐和满足。通过提供这项重要服务，我希望能防止因男性压抑的性挫败感而可能引发的任何骚乱或暴力。毕竟，没有人希望愤怒、饥渴的黑人在街上游荡，寻找女人！"
+ bno_events.0007.e: "[excellent_skill_option.GetFirstNameNoTooltip]作为[bno_whore|E]的技能闻名全国！"
+ bno_events.0007.e.aptitude: "[excellent_skill_option.GetUINamePossessive|U][aptitude|E]是[excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
+ bno_events.0007.a.tt: "一位[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]同时拥有[gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]的月薪"
+ bno_events.0007.a: "很显然，[high_skill_option.GetFirstNameNoTooltip]已经和很多家伙做过爱了"
+ bno_events.0007.a.aptitude: "[high_skill_option.GetUINamePossessive|U][aptitude|E]是[high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
+ bno_events.0007.b: "[low_skill_option.GetFirstNameNoTooltip]看起来很热情，如果没有别的人选的话。"
+ bno_events.0007.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E]是[low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"

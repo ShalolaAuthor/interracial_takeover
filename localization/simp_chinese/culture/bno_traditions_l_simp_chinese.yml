@@ -1,17 +1,21 @@
 ﻿l_simp_chinese:
-
-tradition_group_bno: "BNWO"
-
-tradition_bno_matriarchy_name: "受种母系"
-tradition_bno_matriarchy_desc: "权力从一个子宫滴落到另一个子宫。王位传给多产的骚货，法律因她们的呻吟而扭曲，军队由宣誓成为“种奴”的女人们组成。女王们的统治只是因为“公牛”们允许——每顶王冠都是项圈，每根权杖都是鸡巴，每场胜利都以白嫩的肉体被掰开肏满而告终。整个国度都被重塑：女人的手掌握法律，女人的屄维系秩序，一切都为黑屌服务。"
-
-bno_tradition.curious: "$EFFECT_LIST_BULLET$她的“黑色好奇心”使投降的代价更低，大腿早已渴望着下跪。"
-bno_tradition.blacked: "$EFFECT_LIST_BULLET$一旦被“黑化”，传统会轻易屈服于那些再次渴求“公牛”的肉屄。"
-bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$作为“雪兔”，她会迫不及待地服从，她的饥渴减轻了花费。"
-bno_tradition.qos: "$EFFECT_LIST_BULLET$加冕过的黑桃女皇付出的会更少，她的每条法律早已为肉棒而作。"
-bno_tradition.mindless: "$EFFECT_LIST_BULLET$痴呆流涎，她几乎不计任何代价地屈服，一个被精液塑造的肉屄。"
-
-culture_parameter_unlock_maa_seed_thralls: "可以招募[GetMaA('bno_seed_thralls').GetName]作为[men_at_arms|E]，一群只为了臣服并被公牛育种的白皮母狗。"
-
-tradition_bno_african_hate_name: "公牛之惧"
-tradition_bno_african_hate_desc: "非非裔文化死守着这苦涩的传统，白皮的骄傲扭曲成憎恨。他们唇齿颤抖地议论公牛，憎恶着无法抗拒的诱惑，厌恶着娼妇们仍渴求的欲望。每条律法，每项习俗，都不过是抵挡黑人阳具洪流的脆弱屏障。"
+ tradition_group_bno: "尊卑明确"
+ tradition_bno_matriarchy_name: "受种母系"
+ tradition_bno_matriarchy_desc: "权力从一个子宫滴落到另一个子宫。王位传给多产的骚货，法律因她们的呻吟而扭曲，军队由宣誓成为“种奴”的女人们组成。女王们的统治只是因为“公牛”们允许——每顶王冠都是项圈，每根权杖都是鸡巴，每场胜利都以白嫩的肉体被掰开肏满而告终。整个国度都被重塑：女人的手掌握法律，女人的屄维系秩序，一切都为黑屌服务。"
+ bno_tradition.curious: "$EFFECT_LIST_BULLET$她的“黑色好奇心”使投降的代价更低，大腿早已渴望着下跪。"
+ bno_tradition.blacked: "$EFFECT_LIST_BULLET$一旦被“黑化”，传统会轻易屈服于那些再次渴求“公牛”的肉屄。"
+ bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$作为“雪兔”，她会迫不及待地服从，她的饥渴减轻了花费。"
+ bno_tradition.qos: "$EFFECT_LIST_BULLET$加冕过的黑桃女皇付出的会更少，她的每条法律早已为肉棒而作。"
+ bno_tradition.mindless: "$EFFECT_LIST_BULLET$痴呆流涎，她几乎不计任何代价地屈服，一个被精液塑造的肉屄。"
+ culture_parameter_unlock_maa_seed_thralls: "可以招募[GetMaA('bno_seed_thralls').GetName]作为[men_at_arms|E]，一群只为了臣服并被公牛育种的白皮母狗。"
+ tradition_bno_african_hate_name: "公牛之惧"
+ tradition_bno_african_hate_desc: "非非裔文化死守着这苦涩的传统，白皮的骄傲扭曲成憎恨。他们唇齿颤抖地议论公牛，憎恶着无法抗拒的诱惑，厌恶着娼妇们仍渴求的欲望。每条律法，每项习俗，都不过是抵挡黑人阳具洪流的脆弱屏障。"
+ tradition_bno_the_great_submission_name: "大臣服"
+ tradition_bno_the_great_submission_desc: "我们的人民终于接受了这个美丽而残酷的真相：我们的使命就是跪拜。我们女性的子宫不属于自己，而是渴望被优质黑人种子填满的神圣容器。我们男性的角色不是领导，而是心怀感激地退让，目睹他们的妻子、女儿和姐妹被黑人主人占有并孕育。这一传统将我们集体的臣服编入法典，庆祝黑人将旗帜插进我们最私密土壤的时刻。我们教导女儿去渴望粗壮黑阳具的扩张，崇拜精液的味道，并将怀着混血孩子的隆起腹部视为生命的最高成就。我们的文化如今仅存的意义就是服务、取悦，并在基因上被黑人种族覆盖。"
+ bno_tradition.cuckish: "$EFFECT_LIST_BULLET$他那绿帽奴的天性使他急于献出自己的妻子，而他自己因颤抖的兴奋降低了代价。"
+ bno_tradition.cuck: "$EFFECT_LIST_BULLET$真正的绿帽男付出更少，他的目的就是看着公牛占有本属于他的一切。"
+ bno_tradition.beta: "$EFFECT_LIST_BULLET$作为贝塔男，他只能跪着服务，唯一的奖赏是清楚他那低贱的地位。"
+ bno_tradition.jos: "$EFFECT_LIST_BULLET$黑桃J只是个低贱的奴隶，他的权柄早已让渡给高贵的黑人。"
+ culture_parameter_bno_unlock_breeding_bull_court_position: "能任命[GetCourtPositionType('bno_breeding_bull_court_position').GetName()][court_position|E]"
+ culture_parameter_bno_unlock_cuck_acceptance: "[GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )][traits|E]线拥有额外加成——我们的男人以目睹妻子被更优越的乌木阴茎占有为荣。"
+ culture_parameter_bno_unlock_offer_tribute_scheme: "解锁[GetScheme('bno_offer_tribute').GetTypeName][scheme|E]，允许我们的女儿作为黑人领主的侍妾来随意使用并取悦他们。"
