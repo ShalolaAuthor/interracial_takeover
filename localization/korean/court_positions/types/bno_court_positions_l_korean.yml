@@ -49,3 +49,14 @@ bno_bbc_priestess_court_position_desc: "신성한 기름으로 매끄럽고, 그
 
 bno_bbc_priest_court_position: "BBC 사제" # AI Tags
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags
+
+bno_breeding_bull_court_position: "양식 황소" # AI Tags
+bno_breeding_bull_court_position_desc: "우수한 흑인 남성은 최고의 여성들을 임신시키고 그의 신성한 씨앗으로 혈통을 개선하기 위해 헌신했습니다." # AI Tags
+
+bno_breeding_bull.employer.modifier.desc: "$BULLET$이 법원의 모든 흑인 여성들을 체계적으로 수정합니다." # AI Tags
+
+story_bno_breeding_bull.message.title.whiteboi: "황소 는 그 의 상 을 주장 한다" # AI Tags
+story_bno_breeding_bull.message.desc.whiteboi: "당신은 코너에서 자신의 부적절함을 드러내고 보며, 양식 Bull가 당신의 궁전의 다른 여성과 결말을 맺고 있습니다. 그는 이제 씨를 뿌렸습니다 [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] 여자들 이 세션, 그의 우월한 능력은 부정할 수 없습니다." # AI Tags
+
+story_bno_breeding_bull.message.title.whitegirl: "우수한 씨 로 가득 차 있다" # AI Tags
+story_bno_breeding_bull.message.desc.whitegirl: "심오하고 만족스러운 따뜻함이 당신으로 퍼져나가고 있습니다. 번식 Bull가 빠져나오면서, 그의 신성한 본질이 이미 뿌리를 내리고 있습니다. 당신은 그 중 한 명입니다 [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] 오늘밤 그가 제대로 양육한 여자들, 당신의 가장 높은 목적을 성취하는 여자들." # AI Tags

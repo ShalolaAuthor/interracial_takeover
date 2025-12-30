@@ -15,3 +15,16 @@ culture_parameter_unlock_maa_seed_thralls: "Można rekrutować [GetMaA('bno_seed
 
 tradition_bno_african_hate_name: "Strach przed bykiem" # AI Tags
 tradition_bno_african_hate_desc: "Kultury nieafrykańskie przywiązują się do tej gorzkiej tradycji, a ich blada pycha przekształca się w nienawiść. Szeptają o Bykach z drżącymi ustami, nienawidzą tego, czego nie mogą się oprzeć, nienawidzą tego, czego ich kurwy wciąż pragną. Każdy prawo, każdy zwyczaj, to tylko słaba ściana przeciwko morzu czarnego kurca." # AI Tags
+
+tradition_bno_the_great_submission_name: "Wielkie podporządkowanie" # AI Tags
+tradition_bno_the_great_submission_desc: "Nasi ludzie wreszcie zaakceptują piękną, brutalną prawdę: naszym celem jest klękanie. Nasze łonie nie są własne, są świętymi naczyńami, które chcą być wypełnione nadrzędnym czarnym nasieniem. Rola naszych mężczyzn nie polega na przywództwie, ale na wdzięczności odchodzeniu na bok i obserwowaniu, jak ich żony, córki i siostry są pobierane i wychowywane przez swoich czarnych mistrzów. Ta tradycja kodyfikuje naszą zbiorową kapitulację, świętując moment, w którym czarny człowiek zaszyje swoją flagę na naszej najbardziej intymnej ziemi. Uczymy nasze córki, by pragnęły rozciągnięcia grubego czarnego kurca, uwielbiały smak jego cum, i postrzegały ich otchłonięte brzuchy z dziećmi mieszanego rasy jako najwyższe osiągnięcie w ich życiu. Nasza kultura istnieje tylko po to, by służyć, cieszyć się i być genetycznie przekształcona przez czarną rasę." # AI Tags
+
+bno_tradition.cuckish: "$EFFECT_LIST_BULLET$Jego łagodny charakter sprawia, że chętnie oferuje żonie, koszt zmniejszony przez jego własne drżące ekscytacje." # AI Tags
+bno_tradition.cuck: "$EFFECT_LIST_BULLET$Prawdziwy Cuck płaci mniej, jego cel spełniony patrząc na Byka domaga się tego, co jest jego." # AI Tags
+bno_tradition.beta: "$EFFECT_LIST_BULLET$Jako Beta, błaga o służbę, cena obniżona za wiedzę o jego niższym miejscu." # AI Tags
+bno_tradition.jos: "$EFFECT_LIST_BULLET$A Joy of Spades płaci mało, jego władza już poddała się czarnej wyższości." # AI Tags
+
+culture_parameter_bno_unlock_breeding_bull_court_position: "Może mianować [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]" # AI Tags
+culture_parameter_bno_unlock_cuck_acceptance: "Wydarz [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] Linię mają dodatkowe bonusy - nasi mężczyźni odnajdują zaszczyt patrząc na ich żony, które są porzucane przez lepszych czarnych kutasów." # AI Tags
+#culture_parameter_bno_unlock_seek_black_patronage_scheme: "Odblokowanie [GetScheme('bno_seek_black_patronage').GetTypeName] [scheme|E] - poszukuje czarnych mistrzów o ochronę i wskazówki w naszej kapitulacji." # AI Tags
+culture_parameter_bno_unlock_offer_tribute_scheme: "Odblokowanie [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - oferuje nasze córki jako hołd dla lordów BBC za ich wykorzystanie i przyjemność." # AI Tags

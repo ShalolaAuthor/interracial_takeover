@@ -49,3 +49,14 @@ bno_bbc_priestess_court_position_desc: "Slick mit heiligem Öl, sie schieben ihr
 
 bno_bbc_priest_court_position: "BBC Priester" # AI Tags
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags
+
+bno_breeding_bull_court_position: "Zuchtbulle" # AI Tags
+bno_breeding_bull_court_position_desc: "Ein überlegener schwarzer Mann, der unsere besten Frauen imprägniert und unsere Blutlinie mit seinem heiligen Samen verbessert." # AI Tags
+
+bno_breeding_bull.employer.modifier.desc: "$BULLET$Systematisch befruchtet jedes nicht-schwarze Weibchen in diesem Gericht." # AI Tags
+
+story_bno_breeding_bull.message.title.whiteboi: "Der Bulle behauptet seinen Preis" # AI Tags
+story_bno_breeding_bull.message.desc.whiteboi: "Du siehst aus der Ecke zu, deine eigene Unzulänglichkeit wird bloßgelegt, während der Zuchtbulle mit einer anderen der Frauen deines Hofes endet. Er hat nun gesät [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] Mädchen diese Sitzung, seine überlegene Potenz unbestreitbar." # AI Tags
+
+story_bno_breeding_bull.message.title.whitegirl: "Gefüllt mit Superior Seed" # AI Tags
+story_bno_breeding_bull.message.desc.whitegirl: "Eine tiefe, befriedigende Wärme breitet sich durch dich aus, während der Breeding Bull herausreißt, seine heilige Essenz bereits Wurzel schlägt. Du bist einer von [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] Frauen, die er heute Abend richtig gezüchtet hat, erfüllen Ihren höchsten Zweck." # AI Tags

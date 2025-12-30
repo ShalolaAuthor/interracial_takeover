@@ -1,0 +1,16 @@
+﻿l_korean:
+
+bno_offer_tribute_found_suitable_trainer.title: "새로운 주인 이 오실 것" # AI Tags
+bno_offer_tribute_found_suitable_trainer.desc: "당신의 딸의 전 [bno_offer_tribute_trainer|E] 사라졌지만 그의 일은 계속되고 있습니다. 새로운 [bno_bbc|E] 동등한 전문 지식을 가진 한 사람이 자신의 변화를 완료하기 위해 앞으로 나아갔습니다. 그의 거대한 아프리카 은 그녀의 컨디셔닝을 심화시킬 것입니다. 그의 씨는 그녀의 헌신을 강화할 것입니다. 그녀의 훈련은 멈추지 않고 재개됩니다." # AI Tags
+
+bno_offer_tribute.notification.title: "추모 시작" # AI Tags
+bno_offer_tribute.notification.desc: "당신 딸의 변혁이 시작되었습니다. 그녀는 조각, 훈련, 그리고 아프리카의 우월성을 위한 완벽한 희생으로 만들어질 것입니다. 그녀의 봉인된 처녀가 기다리고 있습니다. 그녀의 몸은 블랙 머스크에만 동기화 될 것입니다. 그녀를 완전하게 만들기 위한 계획은 시작되었습니다." # AI Tags
+
+bno_offer_tribute.invalidated.title.tribute.died: "존경심 은 사라졌다" # AI Tags
+bno_offer_tribute.invalidated.desc.tribute.died: "당신 딸은 병원으로 보내지기 전에 [target.GetName]. 그녀의 몸은 그녀의 준비의 강도를 견딜 수 없었습니다. 모든 조정이 취소됐습니다. 금은 손을 바꿀 수 없습니다. 그녀의 훈련에 대한 당신의 투자는 영원히 사라졌습니다." # AI Tags
+
+bno_offer_tribute.invalidated.title.target.died: "[target.GetName] 떨어졌어" # AI Tags
+bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]당신이 딸을 보내려고 준비하던 BBC의 경은 전투에서 죽었습니다. 그는 결코 그녀를 받아들이지 않을 것입니다. 당신 딸은 여기 남아있어요. 모든 조정은 무효입니다. 이제 네가 그녀에게 무엇을 해야 할지 결정해야 한다." # AI Tags
+
+bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] 감옥에 갇혔다" # AI Tags
+bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName]당신 딸을 보내려고 준비하던 BBC 경은 경쟁력 있는 세력들에 의해 감옥에 갇혔습니다. 그는 그녀를 받아들일 수 없습니다. 당신의 딸은 당신의 집에 남아 있습니다. 그녀의 목적은 무한히 중단됩니다. 모든 조정이 얼어붙었어. 그녀의 미래는 이제 불확실하다." # AI Tags

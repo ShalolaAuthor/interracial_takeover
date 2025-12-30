@@ -2,7 +2,7 @@
 #sneak bbc interaction
 sneak_bbc: "Przekręć czarnego byka" # AI Tags
 sneak_bbc_desc: "Wyślij jeden z [bno_bbcs|E] z twojego sądu do innej sali władcy."   # AI Tags
-actor_secondary_sneak_bbc: "Wybierz, którego byka wysłać" # AI Tags
+actor_secondary_sneak_bbc: "Czarnoksiężnik" # AI Tags
 BBC_cg_spy_reason: "Dwornik lub gość pomoże ci wkradnąć [bno_bbc|E]: #color_green +5#!"   # AI Tags
 BBC_family_spy_reason: "Członek rodziny pomoże nam w ukryciu [bno_bbc|E]: #color_green +10#!"   # AI Tags
 BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! jest ciekawy [bno_bbc|E]: #color_green +10#!"   # AI Tags

@@ -271,3 +271,20 @@ TRAIT_FLAG_DESC_bno_darker_skin: "$EFFECT_LIST_BULLET$Avec chaque élevage sous 
 
 trait_bno_whispered_rose: "Rose fouettée" # AI Tags
 trait_bno_whispered_rose_desc: "Sa présence attire tous les regards, son rire s'attarde comme un rêve oublié, et des rumeurs de sa beauté dérivent dans les couloirs comme des pétales sur la brise. Pour l'instant, elle reste intouchable, admirée, convoitée et juste hors de portée." # AI Tags
+
+bno_servile.name.1: "Présentation de l'éveil" # AI Tags
+bno_servile.desc.1.hidden: "Cette femme se porte avec une nouvelle conscience, comme si elle voyait sa place dans le monde pour la première fois." # AI Tags
+bno_servile.desc.1: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] a commencé sa formation, apprenant l'art sacré de la reddition. La peur dans ses yeux est lentement remplacée par la compréhension naissante." # AI Tags
+
+bno_servile.name.2: "Serveur volontaire" # AI Tags
+bno_servile.desc.2: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Il n'est plus nécessaire de lui dire de s'agenouiller - son corps prend la position instinctivement. La faim dans ses yeux quand les hommes noirs approchent devient indiscutable." # AI Tags
+
+bno_servile.name.3: "Rendez-vous parfait" # AI Tags
+bno_servile.desc.3: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]L'esprit a été rebaptisé pour le plaisir et l'obéissance. Elle anticipe les commandements avant qu'ils ne soient parlés, son corps se prépare déjà. La transformation est complète - elle n'existe que pour servir la volonté noire." # AI Tags
+
+trait_track_bno_servile: "Le chemin de l'abandon parfait" # AI Tags
+trait_track_bno_servile_desc: "De la jeune fille craintive à la propriété volontaire, cette piste trace le voyage sacré d'une femme pour devenir l'offrande ultime pour le plaisir noir. Chaque étape représente une autre couche de résistance dépouillée, une autre amélioration vers un désir parfait." # AI Tags
+
+TRAIT_FLAG_DESC_bno_submission: "$EFFECT_LIST_BULLET$Elle peut être améliorée grâce à des événements d'hommage au fur et à mesure qu'elle progresse dans sa formation." # AI Tags
+TRAIT_FLAG_DESC_bno_unlock_more_submission_training: "$EFFECT_LIST_BULLET$Déverrouillage à 50XP - techniques avancées de rupture psychologique et de présentation spécialisée." # AI Tags
+TRAIT_FLAG_DESC_bno_instant_bbc_seduction_success: "$EFFECT_LIST_BULLET$Débloquer à 100XP - Les hommes noirs trouvent son irrésistible, rendant les tentatives de séduction automatiquement réussies." # AI Tags

@@ -1,0 +1,16 @@
+﻿l_japanese:
+
+bno_offer_tribute_found_suitable_trainer.title: "新しい 主人 が 到着 し て い ます" # AI Tags
+bno_offer_tribute_found_suitable_trainer.desc: "あなたの娘の前の [bno_offer_tribute_trainer|E] 仕事を続けています. 新しい [bno_bbc|E] 同等の専門知識が 変革を完了するために前進した. 彼の巨大なアフリカなチックは 彼女の状態を深めるでしょう. 彼の種は彼女の献身を強化する. 訓練は止まらずに再開します." # AI Tags
+
+bno_offer_tribute.notification.title: "敬意 は 始まっ て い ます" # AI Tags
+bno_offer_tribute.notification.desc: "あなたの娘の変容が始まりました. アフリカの優位性を証明する 完璧な犠牲になるのです. 封印された処女が待ってる. 彼女の体はブラック・マスクに同期される. 彼女を完璧にする計画が始まりました." # AI Tags
+
+bno_offer_tribute.invalidated.title.tribute.died: "敬意 は 消滅 し まし た" # AI Tags
+bno_offer_tribute.invalidated.desc.tribute.died: "あなたの娘は 送還される前に 条件付け中に亡くなりました [target.GetName]… 彼女の体は彼女の準備の強さに耐えられなかった. すべての約束はキャンセルされた. 金は手を変えない. 彼女の訓練への投資は永遠に失われてしまった." # AI Tags
+
+bno_offer_tribute.invalidated.title.target.died: "[target.GetName] 落ちた" # AI Tags
+bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]あなたの娘が送られるよう準備していたBBCのLordは 戦場で殺された. 彼は決して彼女を迎えることはできない. あなたの娘はここに残っています 要求なしです. すべての約束は無効だ. 彼女をどうするか 今すぐ決めなければならない." # AI Tags
+
+bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] 投獄 さ れ た" # AI Tags
+bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName]あなたの娘が送られるよう準備していたBBCのLordは ライバル勢力によって 投獄されました. 彼には彼女を受け付けられない. あなたの娘はあなたの家に残され 目的は無期限に停止されます. すべての準備は凍結された. 彼女の未来は不確実だ." # AI Tags

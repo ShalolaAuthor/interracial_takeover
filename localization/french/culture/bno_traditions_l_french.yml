@@ -15,3 +15,16 @@ culture_parameter_unlock_maa_seed_thralls: "Peut recruter [GetMaA('bno_seed_thra
 
 tradition_bno_african_hate_name: "La peur du taureau" # AI Tags
 tradition_bno_african_hate_desc: "Les cultures non africaines s'accrochent à cette amère tradition, leur pâle fierté se transformant en haine. Ils murmurent des Bulls avec des lèvres tremblantes, haïssant ce qu'ils ne peuvent résister, haïssant ce que leurs salopes ont encore envie. Chaque loi, chaque coutume, n'est qu'un mur faible contre la marée de la bite noire." # AI Tags
+
+tradition_bno_the_great_submission_name: "La grande soumission" # AI Tags
+tradition_bno_the_great_submission_desc: "Notre peuple a finalement accepté la belle et brutale vérité : notre but est de s'agenouiller. Nos utérus de femmes ne sont pas les leurs; ce sont des vaisseaux sacrés qui ont hâte d'être remplis de la semence noire supérieure. Le rôle de nos hommes n'est pas de diriger, mais de s'écarter avec gratitude et de veiller à ce que leurs épouses, filles et sœurs soient prises et élevées par leurs maîtres noirs. Cette tradition codifie notre capitulation collective, célébrant le moment où un Noir plante son drapeau dans notre terre la plus intime. Nous apprenons à nos filles à avoir envie d'une grosse bite noire, à adorer le goût de son sperme, et à voir leurs ventres gonflés avec des enfants métis comme la plus haute réalisation de leur vie. Notre culture n'existe maintenant que pour servir, pour le plaisir, et pour être génétiquement écrasée par la race noire." # AI Tags
+
+bno_tradition.cuckish: "$EFFECT_LIST_BULLET$Sa nature cuckish le rend impatient d'offrir sa femme, le coût réduit par son propre tremblement d'excitation." # AI Tags
+bno_tradition.cuck: "$EFFECT_LIST_BULLET$Un vrai Cuck paie moins, son but accompli en regardant un Bull réclamer ce qui est le sien." # AI Tags
+bno_tradition.beta: "$EFFECT_LIST_BULLET$En tant que Beta, il demande à servir, le prix a baissé pour connaître sa place inférieure." # AI Tags
+bno_tradition.jos: "$EFFECT_LIST_BULLET$Une joie de Spades paie peu, son autorité s'est déjà rendue à la supériorité noire." # AI Tags
+
+culture_parameter_bno_unlock_breeding_bull_court_position: "Peut nommer le [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]" # AI Tags
+culture_parameter_bno_unlock_cuck_acceptance: "Les [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] ligne ont des bonus supplémentaires - nos hommes trouvent l'honneur de regarder leurs femmes être prises par des bites noires supérieures." # AI Tags
+#culture_parameter_bno_unlock_seek_black_patronage_scheme: "Déverrouillage [GetScheme('bno_seek_black_patronage').GetTypeName] [scheme|E] - cherche des maîtres noirs pour nous protéger et nous guider dans notre capitulation." # AI Tags
+culture_parameter_bno_unlock_offer_tribute_scheme: "Déverrouillage [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - offre à nos filles un hommage aux seigneurs de la BBC pour leur utilisation et leur plaisir." # AI Tags

@@ -271,3 +271,20 @@ TRAIT_FLAG_DESC_bno_darker_skin: "$EFFECT_LIST_BULLET$모든 번식과 함께 [b
 
 trait_bno_whispered_rose: "속삭여진 로즈" # AI Tags
 trait_bno_whispered_rose_desc: "그녀의 존재는 모든 시선을 끌고, 그녀의 웃음은 잊혀진 꿈처럼 지속되고, 그녀의 아름다움의 소문은 바람에 꽃받침처럼 통로를 떠다니고 있습니다. 아직은, 그녀는 만지지 않고, 존경받고, 갈망받고, 손이 닿지 않는 채로 남아 있습니다." # AI Tags
+
+bno_servile.name.1: "깨어나게 되는 복종" # AI Tags
+bno_servile.desc.1.hidden: "이 여성은 새로운 의식으로 자신을 수행합니다. 마치 세상에 자신의 위치를 처음으로 보는 것처럼요." # AI Tags
+bno_servile.desc.1: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 그녀는 항복의 신성한 예술을 배우며 훈련을 시작했습니다. 그녀의 눈의 두려움은 서서히 새벽에 떠오르는 이해로 대체되고 있습니다." # AI Tags
+
+bno_servile.name.2: "기꺼이 봉사 하는 것" # AI Tags
+bno_servile.desc.2: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 더 이상 무릎을 꿇을 필요가 없습니다. 그녀의 몸은 본능적으로 그 자세를 취합니다. 흑인들이 다가올 때 그녀의 눈에는 굶주림이 분명해지고 있습니다." # AI Tags
+
+bno_servile.name.3: "완벽한 항복" # AI Tags
+bno_servile.desc.3: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]인간의 마음은 기쁨과 순종을 위해 다시 연결되었습니다. 그녀는 명령이 나오기 전에 명령을 예상하고, 그녀의 몸은 이미 자신을 준비하고 있습니다. 변혁이 완료됐습니다. 그녀는 오직 흑인 의지에 봉사하기 위해 존재합니다." # AI Tags
+
+trait_track_bno_servile: "완전 한 항복 의 길" # AI Tags
+trait_track_bno_servile_desc: "공포스러운 처녀에서 기꺼이 소유한 재산까지, 이 트랙은 여성의 신성한 여정을 묘사합니다. 흑인들의 즐거움을 위한 궁극적인 제물이 되기까지. 각 단계는 또 다른 저항층이 벗겨지고 완벽한 바람직성에 대한 또 다른 증진을 나타냅니다." # AI Tags
+
+TRAIT_FLAG_DESC_bno_submission: "$EFFECT_LIST_BULLET$그녀는 훈련에 진전할 때 트리뷰트 스키 행사를 통해 업그레이드 될 수 있습니다." # AI Tags
+TRAIT_FLAG_DESC_bno_unlock_more_submission_training: "$EFFECT_LIST_BULLET$50XP에 잠금을 해제합니다. 고급 심리적 해킹과 전문적인 프레젠테이션 기술입니다." # AI Tags
+TRAIT_FLAG_DESC_bno_instant_bbc_seduction_success: "$EFFECT_LIST_BULLET$100XP에서 잠금을 잠기는 - 흑인 남성은 그녀를 저항할 수 없다고 생각하며 유혹 시도를 자동으로 성공시킵니다." # AI Tags

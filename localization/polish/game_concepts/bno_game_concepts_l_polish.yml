@@ -67,3 +67,6 @@ game_concept_bno_snowbunny_desc: "Śnieżka to biała dziewczyna całkowicie obs
 game_concept_bno_cuck: "Cukier" # AI Tags
 game_concept_Cuck: "$game_concept_bno_cuck$" # AI Tags
 game_concept_bno_cuck_desc: "Cuck to biały mąż pozbawiony władzy i dumy, zmuszony do oglądania, jak jego żona rozchodzi się po Byku, słucha jej jęku głośniej niż kiedykolwiek dla swojego małżonka, i wie, że nie może nic zrobić, aby to powstrzymać. Jego małżeństwo, jego łóżko, a nawet jego dziedzictwo należy teraz do BBC; pozostaje mu tylko klękać, posłuchać i oddawać cześć mężczyźnie, który naprawdę zadowala żonie." # AI Tags
+
+game_concept_bno_offer_tribute_trainer: "Tribute Trainer" # AI Tags
+game_concept_bno_offer_tribute_trainer_desc: "A $game_concept_bno_offer_tribute_trainer$ jest [bno_bbc|E] /który tworzy kobiety w doskonałe ofiary /przez systematyczne uwarunkowanie. Jego kurczak trenuje jej ciało, jego nasienie przekształca jej umysł, a jego autorytet przekształca ją w płodny naczynie rozrodcze godne BBC Lord. Tam, gdzie inni się rozbijają, on doskonale się udaje." # AI Tags

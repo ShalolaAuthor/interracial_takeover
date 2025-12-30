@@ -15,3 +15,16 @@ culture_parameter_unlock_maa_seed_thralls: "Kann rekrutieren [GetMaA('bno_seed_t
 
 tradition_bno_african_hate_name: "Angst vor dem Stier" # AI Tags
 tradition_bno_african_hate_desc: "Nichtafrikanische Kulturen klammern sich an diese bittere Tradition, deren blasser Stolz sich in Hass verwandelt. Sie flüstern von Bullen mit zitternden Lippen, hassen, was sie nicht widerstehen können, verabscheuen, was ihre Schlampen immer noch sehnen. Jedes Gesetz, jeder Brauch, ist nur eine schwache Mauer gegen die Flut des schwarzen Schwanzes." # AI Tags
+
+tradition_bno_the_great_submission_name: "Die große Unterwerfung" # AI Tags
+tradition_bno_the_great_submission_desc: "Unser Volk hat endlich die schöne, brutale Wahrheit angenommen: Unser Ziel ist es, niederzuknien. Unsere Frauen sind nicht ihre eigenen; sie sind heilige Gefäße, die schmerzen, mit überlegenem schwarzen Samen gefüllt zu werden. Unsere Männerrolle ist es nicht, zu führen, sondern dankbar beiseite zu treten und zu beobachten, wie ihre Frauen, Töchter und Schwestern von ihren schwarzen Meistern genommen und gezüchtet werden. Diese Tradition kodifiziert unsere kollektive Kapitulation und feiert den Moment, in dem ein Schwarzer seine Fahne in unserem intimsten Boden pflanzt. Wir lehren unsere Töchter, sich nach einem dicken schwarzen Schwanz zu sehnen, den Geschmack seines Spermas anzubeten und ihre anschwellenden Bäuche mit gemischtrassigen Kindern als die höchste Errungenschaft ihres Lebens zu sehen. Unsere Kultur existiert jetzt nur noch, um zu dienen, zu genießen und von der schwarzen Rasse genetisch überschrieben zu werden." # AI Tags
+
+bno_tradition.cuckish: "$EFFECT_LIST_BULLET$Seine kucklige Natur macht ihn begierig, seine Frau anzubieten, die Kosten, die durch seine eigene zitternde Aufregung reduziert werden." # AI Tags
+bno_tradition.cuck: "$EFFECT_LIST_BULLET$Ein wahrer Kuckuck zahlt weniger, sein Zweck erfüllt zu beobachten, ein Bulle behaupten, was seine ist." # AI Tags
+bno_tradition.beta: "$EFFECT_LIST_BULLET$Als Beta fleht er an zu dienen, der Preis gesenkt, weil er seinen minderwertigen Platz kennt." # AI Tags
+bno_tradition.jos: "$EFFECT_LIST_BULLET$Eine Freude der Spaten zahlt wenig, seine Autorität bereits Black Überlegenheit ergeben." # AI Tags
+
+culture_parameter_bno_unlock_breeding_bull_court_position: "Kann die [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]" # AI Tags
+culture_parameter_bno_unlock_cuck_acceptance: "Das [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] Linie haben zusätzliche Boni - unsere Männer finden Ehre bei der Beobachtung ihrer Frauen von überlegenen schwarzen Schwänzen genommen werden." # AI Tags
+#culture_parameter_bno_unlock_seek_black_patronage_scheme: "Entriegelung [GetScheme('bno_seek_black_patronage').GetTypeName] [scheme|E] - sucht Black Masters nach Schutz und Führung bei unserer Kapitulation." # AI Tags
+culture_parameter_bno_unlock_offer_tribute_scheme: "Entriegelung [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - bietet unsere Töchter als Tribut an BBC Lords für ihre Verwendung und Vergnügen." # AI Tags

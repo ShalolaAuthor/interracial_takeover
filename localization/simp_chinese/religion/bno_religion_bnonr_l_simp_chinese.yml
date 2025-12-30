@@ -79,6 +79,7 @@
  convert_tooltip: "你琢磨着那根肉乎乎的黑屌..."
  convert_confirm: "你全身心投入到赞美[bno_bbc|E]之中"
  convert_effect_1: "你将皈依[bno_religion|E]"
+<<<<<<< HEAD
  rf_bbcs: "爱神殿"
  rf_bbcs_desc: "$rf_bbcs$是一幅黑人中心传统的栩栩如生的挂毯，由极乐崇拜、强大的魔法，以及对于白人的救赎在于被强大的黑人种子填满的坚不可摧的信仰编织而成。"
  bnonr_religion_opinion: "$bnonr_religion_adherent$意见"
@@ -86,3 +87,15 @@
  doctrine_parameter_can_use_bno_artefacts: "可以获得拜黑教[artifacts|E]的完整收益"
  doctrine_parameter_bno_syncretic_actor_opinion_active: "与拜黑教[faiths|E]之间有[EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0]的双向[opinion|E]加成"
  doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: ""
+=======
+
+rf_bbcs: "爱神殿"
+rf_bbcs_desc: "$rf_bbcs$是一幅黑人中心传统的栩栩如生的挂毯，由极乐崇拜、强大的魔法，以及对于白人的救赎在于被强大的黑人种子填满的坚不可摧的信仰编织而成。"
+
+bnonr_religion_opinion: "$bnonr_religion_adherent$ 意见意见意见意见意见意见意见" # AI Tags
+
+doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "考虑与BNWO的对比 [faiths|E],并被BNWO所修改的 $game_concept_faiths$, , 将 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 代替 $hostility_evil_tooltippable$" # AI Tags
+doctrine_parameter_can_use_bno_artefacts: "可使用BNWO [artifacts|E] 全额养恤金" # AI Tags
+doctrine_parameter_bno_syncretic_actor_opinion_active: "相互之间 [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] 与 BNWO 调整的 BNWO 奖金 [faiths|E]" # AI Tags
+doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: "" # AI Tags
+>>>>>>> 5f1ea0907baadde5fb568d601d17fe3f9cb52d4f

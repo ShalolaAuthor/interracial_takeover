@@ -15,3 +15,16 @@ culture_parameter_unlock_maa_seed_thralls: "募集できる [GetMaA('bno_seed_th
 
 tradition_bno_african_hate_name: "牛 の 恐れ" # AI Tags
 tradition_bno_african_hate_desc: "非アフリカ系文化は この苦しい伝統に固執し 淡いプライドが憎しみへと変わりました. 揺るぎない唇で雄牛をささやいて 抵抗できないものを嫌って 売春婦が欲しがるものを嫌う. すべての法律や慣習は ブラック・カックの流れに対する 弱い壁に過ぎません." # AI Tags
+
+tradition_bno_the_great_submission_name: "偉大 な 服従" # AI Tags
+tradition_bno_the_great_submission_desc: "私たちの民はついに 美しい残酷な真実を受け入れました 私たちの目的は 跪くことです. 女性の子宮は自分のものではなく 優位な黒い種で満たされるための神聖な器皿です. 男性の役割は リーダーではなく ありがたいことに 脇を踏み出して 妻や娘や姉妹が 黒人の主人によって 引き上げられ 育てられるのを 見るのです. この伝統は 集体的な降伏を規定し 黒人が 旗を植える瞬間を 祝います. 私たちは娘たちに 厚い黒いチンコの伸びを 憧れ チンコの味を 崇拝し 混ざった人種の子どもの腹を 膨らませるのを 人生最大の成就だと考えるように 教えます. 私たちの文化は 単に 奉仕し 喜びのために 存在し 遺伝的に黒人によって 覆われているのです." # AI Tags
+
+bno_tradition.cuckish: "$EFFECT_LIST_BULLET$彼のカッコいい性質は 彼を妻に 差し出そうと促し 自分の震える興奮によって 費用が減りました." # AI Tags
+bno_tradition.cuck: "$EFFECT_LIST_BULLET$真のカックは給料が少なく 目的が叶うのは 牛が自分のものを奪うのを眺めること." # AI Tags
+bno_tradition.beta: "$EFFECT_LIST_BULLET$ベータとして,彼は服役を乞う,彼の劣等な位置を知ったために価格を下げ." # AI Tags
+bno_tradition.jos: "$EFFECT_LIST_BULLET$彼の権威は既に黒人の優位に降伏した." # AI Tags
+
+culture_parameter_bno_unlock_breeding_bull_court_position: "任命することができる [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]" # AI Tags
+culture_parameter_bno_unlock_cuck_acceptance: "労働組合 [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] 優位な黒いオオチが妻を奪うのを 見たことで 栄誉を覚えています." # AI Tags
+#culture_parameter_bno_unlock_seek_black_patronage_scheme: "解鎖する [GetScheme('bno_seek_black_patronage').GetTypeName] [scheme|E] ブラックマスターを 保護と導きを求めて 降伏する." # AI Tags
+culture_parameter_bno_unlock_offer_tribute_scheme: "解鎖する [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] BBCのLordsに敬意を表し 楽しみを捧げます." # AI Tags

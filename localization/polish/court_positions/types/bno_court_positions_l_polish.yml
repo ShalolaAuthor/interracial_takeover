@@ -49,3 +49,14 @@ bno_bbc_priestess_court_position_desc: "Słodkie z świętym olejem, wkładają 
 
 bno_bbc_priest_court_position: "BBC Kapłan" # AI Tags
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags
+
+bno_breeding_bull_court_position: "Byka hodowlana" # AI Tags
+bno_breeding_bull_court_position_desc: "Nadrzędny czarny mężczyzna poświęcony zapłodnieniu naszych najlepszych kobiet i poprawie naszej linii krwi swoim świętym nasieniem." # AI Tags
+
+bno_breeding_bull.employer.modifier.desc: "$BULLET$Systematycznie zapłodnia każdą nie-Czarną kobietę w tym sądzie." # AI Tags
+
+story_bno_breeding_bull.message.title.whiteboi: "Byka domaga się nagrody" # AI Tags
+story_bno_breeding_bull.message.desc.whiteboi: "Patrzysz z rogu, jak twoja własna niedoskonałość jest odsłonięta, gdy Byk Wychowawczy kończy z inną kobietą twojego dworu. Teraz zasiał [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] Dziewczyny w tej sesji, jego wyższa potencjał niezaprzeczalny." # AI Tags
+
+story_bno_breeding_bull.message.title.whitegirl: "Wypełnione nadrzędnym nasieniem" # AI Tags
+story_bno_breeding_bull.message.desc.whitegirl: "Głębokie, satysfakcjonujące ciepło rozprzestrzenia się przez ciebie, gdy Byk Wychowawczy wychodzi, jego święta esencja już korzeni. Jesteś jednym z [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] Kobiety, które właściwie wychował dziś wieczorem, spełniając wasz najwyższy cel." # AI Tags

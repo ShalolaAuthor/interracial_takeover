@@ -1,0 +1,16 @@
+﻿l_russian:
+
+bno_offer_tribute_found_suitable_trainer.title: "Приходит новый хозяин" # AI Tags
+bno_offer_tribute_found_suitable_trainer.desc: "У вашей дочери был предыдущий [bno_offer_tribute_trainer|E] Он ушел, но его работа продолжается. Новый [bno_bbc|E] Имея одинаковые знания, она сделала шаг вперед, чтобы завершить свою трансформацию. Его огромный африканский член углубит ее кондиционирование. Его потомство усилит ее преданность. Ее тренировка возобновляется без перерыва." # AI Tags
+
+bno_offer_tribute.notification.title: "Начинается почтение" # AI Tags
+bno_offer_tribute.notification.desc: "Преобразование вашей дочери началось. Она будет скульптована, обучена и преобразована в идеальную жертву африканского превосходства. Её запечатанная девственность ждет. Ее тело будет синхронизировано с черной мушкой. План ее усовершенствования начался." # AI Tags
+
+bno_offer_tribute.invalidated.title.tribute.died: "Почет погиб" # AI Tags
+bno_offer_tribute.invalidated.desc.tribute.died: "Ваша дочь умерла во время кондиционирования [target.GetName]- Нет , нет . Ее тело не выдержало интенсивности ее подготовки. Все договоренности отменены. Никакое золото не меняет руки. Твои инвестиции в ее обучение потеряны навсегда." # AI Tags
+
+bno_offer_tribute.invalidated.title.target.died: "[target.GetName] Он упал" # AI Tags
+bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]Лорд Би-би-си, к которому вы готовили свою дочь, погиб в битве. Он никогда ее не получит. Ваша дочь остается здесь, без претензий. Все договоренности аннулированы. Вы должны решить, что с ней делать сейчас." # AI Tags
+
+bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] Был заключен в тюрьму" # AI Tags
+bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName]Лорд Би-би-си, к которому вы готовили свою дочь, был заключен в тюрьму соперниками. Он не может её принять. Ваша дочь остается здесь в вашем доме, ее цель приостановлена на неопределенный срок. Все договоренности заморожены. Ее будущее сейчас неопределено." # AI Tags

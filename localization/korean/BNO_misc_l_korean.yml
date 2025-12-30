@@ -3,13 +3,27 @@
 trait_bno_bbc: "큰, 블랙 콕" # AI Tags
 trait_bno_bbc_desc: "이 캐릭터는 막대한 검은 똥을 가지고 있고 그 길을 걸는 모든 창녀를 엿먹으려는 욕구도 있습니다." # AI Tags
 trait_bno_whiteboi_1: "푹 빠졌어?" # AI Tags
-trait_bno_whiteboi_1_desc: "이 캐릭터의 아내는 최근에 그녀로부터 멀어졌습니다. 왜 그래?" # AI Tags
+trait_bno_whiteboi_1_desc: "이 캐릭터의 아내는 최근 그에게서 멀어졌습니다. 왜 그래?" # AI Tags
+trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 아내가 멀어지고, 그녀의 애정이 힘으로 다른 곳으로 끌려가고 있습니다 [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 도전할 수 없습니다." # AI Tags
 trait_bno_whiteboi_2: "엿먹었어!" # AI Tags
 trait_bno_whiteboi_2_desc: "이 캐릭터의 아내가 흑인 남성을 엿먹은 적이 있고, 그는 그것을 막는 힘이 없습니다." # AI Tags
+trait_bno_whiteboi_2_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 아내가 흑인 남성에 의해 철저히 잡혔고, [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 그것을 막기에는 전혀 힘이 없습니다." # AI Tags
 trait_bno_whiteboi_3: "베타" # AI Tags
 trait_bno_whiteboi_3_desc: "이 캐릭터의 전 아내가 그를 더 나은 남자로 떠났고, 그를 완전히 황폐화시켰습니다." # AI Tags
+trait_bno_whiteboi_3_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 전 아내가 떠났다 [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 더 나은 사람을 위해 [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." # AI Tags
 trait_bno_whiteboi_4: "스파드 잭" # AI Tags
 trait_bno_whiteboi_4_desc: "이 성품 은 결혼 생활 에서 문제 를 겪음에도 불구하고 새 세계 질서 에 완전 히 동참 하였습니다." # AI Tags
+trait_bno_whiteboi_4_desc.exist: "하지만 [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 배우자 문제, [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 이제 전면 BNWO에 가입했습니다." # AI Tags
+
+trait_bno_whiteboi_1.willing: "의심스러운 큐크" # AI Tags
+trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]그의 아내가 침대에서 사라지기 시작했습니다. [ROOT.GetCharacter.GetHerHis] 머리는 흑인의 품에 있는 그녀에 대한 생각으로 돌아다니며 [ROOT.GetCharacter.GetSheHe] 흔들리지 않는 것 같습니다." # AI Tags
+trait_bno_whiteboi_2.willing: "옷장 큐크" # AI Tags
+trait_bno_whiteboi_2_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 이제 은밀하게 감싸는 흥미진진한 판타지 [ROOT.GetCharacter.GetHerHis] 더 뛰어난 흑인 남성과 아내, 사상에서 개인적인 흥미를 찾습니다 [ROOT.GetCharacter.GetSheHe]절대 큰 소리로 말하지 않을 거야." # AI Tags
+trait_bno_whiteboi_3.willing: "깨어난 큐" # AI Tags
+trait_bno_whiteboi_3_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 공개적으로 격려합니다 [ROOT.GetCharacter.GetHerHis] 흑인 남성들을 위해 아내의 봉사, 그녀는 진정으로 자랑스럽습니다. 그녀는 그녀의 상사들로부터 진정으로 받을만한 즐거움과 지배를 받고 있습니다." # AI Tags
+trait_bno_whiteboi_4.willing: "헌신적인 큐크" # AI Tags
+trait_bno_whiteboi_4_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 능동적으로 관찰하려고 노력합니다 [ROOT.GetCharacter.GetHerHis] 아내가 블랙 툴을 섬기고, 높은 권력에 대한 완전한 복종을 목격하면서 깊은 영광과 성취를 찾습니다." # AI Tags
+
 trait_bno_caged: "케이지" # AI Tags
 trait_bno_caged_desc: "순결은 흑인이 아니기 때문에 이 캐릭터의 처벌입니다." # AI Tags
 trait_bno_castrated: "캐스트레이드" # AI Tags
@@ -28,10 +42,11 @@ trait_bno_mixed_desc: "반혈아프리카" # AI Tags
 trait_bno_barely_mixed: "거의 섞이지 않는다" # AI Tags
 trait_bno_barely_mixed_desc: "아프리카 왕조에서 번식하지 않은 몇 세대가 지난 후, 이 캐릭터의 혈연은 줄어들었습니다" # AI Tags
 
-
-
 #Message Filter
 message_filter_bno_breeding_outcomes: "" # AI Tags
 message_filter_bno_blacked_events: "" # AI Tags
 
 message_group_type_bno: "@bnobbc! 인종 간 인수" # AI Tags
+
+bno_slave_hook: "BBC 노예" # AI Tags
+bno_cum_slave_hook: "콤 스라브" # AI Tags

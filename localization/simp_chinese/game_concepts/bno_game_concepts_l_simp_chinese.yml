@@ -1,4 +1,5 @@
 ﻿l_simp_chinese:
+<<<<<<< HEAD
  game_concept_bno_whore: "大黑鸡巴婊子"
  game_concept_bno_whore_desc: "[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]会把她的一生都奉献出来，只为满足[bno_bbc|E]的肉欲。她的身体、嘴、胸、穴，全都是主人的玩具，任他随意支配。她会把自己辛苦挣来的每一分钱都乖乖交给她的领主——她活着，就是为了被操、被用、被榨干。"
  game_concept_bno_first_harvest: "初次收割"
@@ -49,3 +50,76 @@
  game_concept_bno_cuck_desc: "A Cuck是一位白种丈夫, 被剥夺了权力和骄傲, 被迫看着妻子为公牛而散开, 听到她对他大喊大叫,. 他的婚姻,他的床,甚至他的遗产现在都属于BBC;他只能屈膝、服从和崇拜真正满足妻子的男人。."
  game_concept_bno_offer_tribute_trainer: "贡品训练师"
  game_concept_bno_offer_tribute_trainer_desc: "$game_concept_bno_offer_tribute_trainer$是一位通过系统化调教将女性塑造成完美贡品的[bno_bbc|E]。他的阳具训练她的身体，他的精液重塑她的心智，他的权威将她转化为值得献给BBC之主的丰饶孕育容器。他人摧毁之处，他臻于完美。"
+=======
+
+game_concept_bno_whore: "大黑鸡巴婊子"
+game_concept_bno_whore_desc: "[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]会把她的一生都奉献出来，只为满足[bno_bbc|E]的肉欲。她的身体、嘴、胸、穴，全都是主人的玩具，任他随意支配。她会把自己辛苦挣来的每一分钱都乖乖交给她的领主——她活着，就是为了被操、被用、被榨干。"
+
+game_concept_bno_first_harvest: "初次收割"
+game_concept_bno_first_harvest_desc: "在黑人酋长们贪婪的欲望与权力的注视下，丰收王座的女士呈献出她领地中最令人垂涎的女儿们——每一位都渴望满足统治者那无尽的欲望，并确保自己在其血脉中占据一席之地。一个充满丰盛祭品的季节拉开帷幕，美貌与生育力在此被交易，而统治的权利则以鲜血与种子为代价，被鲜明地刻写在历史的篇章中。"
+
+game_concept_bno_bbc_council: "BBC议会"
+game_concept_bno_bbc_council_desc: "一群年长的黑人酋长聚集在一起，他们锐利的目光审视着少女们，既看重她们的青春活力，也考量她们是否适合加入一个充满权力、享乐与强大传承的家族。他们的裁决在装饰华丽的帐篷下低声进行，这些帐篷上缠绕着芳香的藤蔓。他们的决定将决定哪些女儿将获得为“满足之座”服务的殊荣——以及随之而来的痛苦。"
+
+game_concept_bno_sated_throne: "丰收王座"
+game_concept_bno_sated_throne_desc: "一个备受尊崇的权力中心，在这里欢愉和权威交织在一起，黑人酋长的欲望在这里得到满足并被放大。"
+
+game_concept_bno_sexual_experience: "性经验"
+game_concept_bno_sexual_experience_desc: "一个人亲热经验与能力的衡量标准，反映其在激情与欲望领域中的探索历程。这种经历塑造了他们对愉悦、权力动态以及挑逗艺术的深刻理解，使他们在人际关系与影响力领域中成为不可小觑的存在。"
+
+game_concept_bno_black: "黑人"
+game_concept_bno_black_desc: "一个用来形容非裔个体的词汇，通常与强壮、坚忍，以及粗壮的鸡巴联系在一起。"
+
+game_concept_bno_bnwo: "媚黑新世界秩序"
+game_concept_bno_bnwo_desc: "在[bno_bnwo|E]的铁拳下，白人成为繁殖后备，他们的愉悦正不断滋养着我们对强大黑人后代的无尽渴望。"
+
+game_concept_bnwo_armies: "媚黑新世界秩序军"
+game_concept_bnwo_armies_desc: "拥有[bno_bnwo|E]理想的[men_at_arms|E]，由致力于这一事业的精英战士或[bno_whore|E]组成。"
+
+game_concept_bbc_evangelist: "BBC福音传教士"
+game_concept_bbc_evangelist_desc: "伴随着超越凡人理解的幸福承诺的低语，以及麝香与香料的气息依附在他们涂满油的肌肤上，[bno_religion|E]的祭司与女祭司们诱惑着贵族男女，在他们的心灵与肉欲中播下对黑色皮肤力量的崇拜之种。"
+
+game_concept_bno_bbc: "BBC"
+game_concept_BBC: "$game_concept_bno_bbc$" # AI Tags
+game_concept_bno_bbcs: "BBC"
+game_concept_bno_bbc_desc: "用于描述那些在性领域中占据主导地位的强大而充满活力的黑人男性，他们象征着力量、权威以及对愉悦的无尽渴望。"
+
+game_concept_bno_religion: "黑屌教会"
+game_concept_bno_religion_desc: "油腻的肉体在拱形天花板下扭动，沾满神圣的精液，信徒们屈服于[bno_bbc|E]那永不满足的饥渴，以狂热的虔诚和永不停息的低沉呻吟进行崇拜。"
+
+game_concept_bno_slave: "BBC奴隶"
+game_concept_bno_slaves: "BBC奴隶"
+game_concept_bno_slave_desc: "$game_concept_bno_slave$ 是指在[bno_bnwo|E]制度下被彻底剥夺尊严、沦为财产的[character|E]。他们沦为黑人主人的奴隶，仅作为供人使用、繁衍和摧残的肉体而存在。其身体、孔穴乃至血脉都完全归主人所有。\n\n$game_concept_bno_slave$不得持有或继承[titles|E]，任何由奴隶子宫诞生的后代自动成为奴隶，自出生起便被直接禁锢于奴役之中。白人男性或双性奴隶将被囚禁或阉割以剥夺其虚妄的男子气概，而女性则被维持生育能力以供播种。\n\n若主人身亡，所有$game_concept_bno_slave$的拥有权将转移至其[primary_heir|E]，确保奴隶身份代代相传。白人娼妇自身不可拥有奴隶；其麾下必须至少有一名BBC充当真正主人以行使所有权。\n\n$game_concept_bno_slave$永无权利主张自由——唯有通过主人意志，经由$carn_free_slave_interaction$[character_interaction|E]方能获得。他们的命运昭示着：在[bno_bnwo|E]之下，他们永远是财产，永远是待填补的洞。"  
+
+game_concept_bno_cum_slave: "精液奴隶"
+game_concept_bno_cum_slaves: "精液奴隶"
+game_concept_bno_cum_slave_desc: "$game_concept_bno_cum_slave$ 是指通过反复播种而意志被抹除的[character|E]。她不再效忠王冠、血亲或神明——唯独侍奉那头令她渴求精液的公牛。她的双唇、咽喉与子宫只属于他，每吞咽一滴精液都刻下她的忠诚。$game_concept_bno_cum_slave$永不背叛亦不抗拒主人；其生命本身便系于他的精液。她不仅是娼妓，更是[bno_bnwo|E]的容器——证实白皮阴户的终极使命，便是对公牛的绝对奉献。"
+
+game_concept_bno_bull: "公牛"
+game_concept_bno_bulls: "公牛"
+game_concept_bno_bull_desc: "$game_concept_bno_bull$ 绝非寻常的[bno_bbc|E]，而是锻造出[bno_cum_slave|E]的统治者。他的阳具摧毁了她的意志，他的精液奴役了她的躯体，她的忠诚只属于他一人。当凡夫俗子以言辞或财富摇摆臣民时，$game_concept_bno_bull$以阳具与精液统御天下。他的精液奴隶正是[bno_bnwo|E]真理的活体证明——苍白女性的存在，唯为被公牛捆缚、沉溺、繁衍。由$game_concept_bno_bull$统领的宫廷或军队必将昌盛，因其统治令男子战栗，令荡妇臣服。"
+
+game_concept_bno_slave_owner: "BBC奴隶主人"
+game_concept_bno_slave_owners: "BBC奴隶主人"
+game_concept_bno_slave_owner_desc: "$game_concept_bno_slave_owner$ 是指拥有一个或多个[bno_slaves|E]的[character|E]——这些白皮的女性在战争、劫掠或审判中被俘虏，在[bno_bnwo|E]统治下被剥夺权利沦为牲畜。这些娼妇可被随意使用、交易或赠予，她们的子宫与劳力皆成为征服的工具。\n\n与[bno_cum_slave|E]不同，后者的身心都只属于她的[bno_bull|E]，普通的$game_concept_bno_slave$却是可转让的财产——这证明在[bno_bnwo|E]制度下，白人女性并非妻子或贵族，而是主人们的繁殖牲畜。"
+
+game_concept_bno_seed_of_genesis: "创世之种"
+game_concept_bno_seed_of_genesis_desc: "创世之种是饮下创世神药的公牛所获得的特性。它们的精液不再像普通种子那样——而是会重塑被他们交配的荡妇。每次射精都会使婊子的肌肤渐黑，双乳丰盈，臀部圆润，骨盆扩张，腰肢纤细，最终成就完美体态。经由足够次数的交配，她将彻底化为墨色，蜕变成BNWO组织所要求的完美婊子躯体。"
+
+game_concept_bno_tincture_of_genesis: "创世神药"
+game_concept_bno_tincture_of_genesis_desc: "创世神药是仅赐予公牛的稀有药剂，呈浓稠乳白色精华。饮用后能将公牛的精液神圣化为[bno_seed_of_genesis|E]。每滴精液倾泻皆重塑婊子：肌肤黝黑，双乳丰盈，臀部沉实，腰肢纤细，子宫饱满。经此精种繁育多次的婊子终成完美黑婊，成为BNWO活生生的证明。"
+
+game_concept_bno_elixir_of_the_black_womb: "黑宫魔药"
+game_concept_bno_elixir_of_the_black_womb_desc: "黑宫魔药被强加于弱男。一旦服下，便抹去他们的阳刚之气：阳具萎缩，睾丸干瘪，腹中滋生出对精液的噬骨饥渴。他们渴求公牛，乞求阳具与精液，直至BNWO彻底重塑其躯。这并非恩赐，而是阉割与堕落。"
+
+game_concept_bno_snowbunny: "雪盆" # AI Tags
+game_concept_Snowbunny: "$game_concept_bno_snowbunny$" # AI Tags
+game_concept_bno_snowbunny_desc: "雪白邦尼是个白人女孩 完全迷恋着 [bno_bbcs|E]- 她的饥饿无法忍受,她的羞耻被遗忘了. 她缠绕着每个非洲女仆的床和后座, 乞求鸡巴, 献身于任何肮脏的欢乐, 渴望被每一个想要品味的公牛所培植、填满和摧毁。. 做个雪人就是为黑鸡鸡而活 将身体和骄傲交还给每个原始的公众使用." # AI Tags
+
+game_concept_bno_cuck: "" # AI Tags
+game_concept_Cuck: "$game_concept_bno_cuck$" # AI Tags
+game_concept_bno_cuck_desc: "A Cuck是一位白种丈夫, 被剥夺了权力和骄傲, 被迫看着妻子为公牛而散开, 听到她对他大喊大叫,. 他的婚姻,他的床,甚至他的遗产现在都属于BBC;他只能屈膝、服从和崇拜真正满足妻子的男人。." # AI Tags
+
+game_concept_bno_offer_tribute_trainer: "Guide 训练员" # AI Tags
+game_concept_bno_offer_tribute_trainer_desc: "A A A $game_concept_bno_offer_tribute_trainer$ 是 a 是 [bno_bbc|E] 他们通过系统性的调节,将妇女雕塑成完美的供品。. 他的鸡鸡训练她的身体, 他的种子重新塑造了她的思想, 他的权威将她 变成一个胎儿繁殖容器 配得上英国广播公司的主。. 别人破碎的地方,他完美无缺." # AI Tags
+>>>>>>> 5f1ea0907baadde5fb568d601d17fe3f9cb52d4f

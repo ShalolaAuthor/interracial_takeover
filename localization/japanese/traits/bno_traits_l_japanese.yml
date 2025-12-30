@@ -271,3 +271,20 @@ TRAIT_FLAG_DESC_bno_darker_skin: "$EFFECT_LIST_BULLET$すべての繁殖で [bno
 
 trait_bno_whispered_rose: "ささやいたバラ" # AI Tags
 trait_bno_whispered_rose_desc: "彼女の存在はあらゆる目線を引く 彼女の笑いは忘れられた夢のように続く 彼女の美しさの噂は 風の葉っぱのように廊下を漂う. 今のところ 彼女は 触れないまま 賞賛され 憧れられ 届かないままです." # AI Tags
+
+bno_servile.name.1: "覚醒 し た 服従" # AI Tags
+bno_servile.desc.1.hidden: "この女性は新しい意識を持ち 世界で初めて自分の居場所を見いだすようなものです." # AI Tags
+bno_servile.desc.1: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 降伏の神聖な芸術を学び始めました. 彼女の目の中の恐怖は 徐々に 明るい理解に取って代わられている." # AI Tags
+
+bno_servile.name.2: "志願 し た 奉仕" # AI Tags
+bno_servile.desc.2: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 膝をひざまずかせる必要はなく 身体は直感的に その位置を担うのです. 黒人達が近づくと 彼女の目には 飢えが浮かび上がる." # AI Tags
+
+bno_servile.name.3: "完璧な 降伏" # AI Tags
+bno_servile.desc.3: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]心は喜びと従順のために再編された. 命令が発音される前に 命令を予期します 彼女の体は既に準備しています. 変容は完了した - 彼女は黒人の意志に仕えるためにしか存在していない." # AI Tags
+
+trait_track_bno_servile: "完全 の 降伏 の 道" # AI Tags
+trait_track_bno_servile_desc: "この曲は 女の神聖な旅を描いて 黒人の喜びの究極の供物になるのです. それぞれのステップは 抵抗の別の層を 剥奪し 完璧な望ましいものへの 強化を表しています." # AI Tags
+
+TRAIT_FLAG_DESC_bno_submission: "$EFFECT_LIST_BULLET$訓練の進捗過程で 賞賛制度のイベントを通じてアップグレードできます." # AI Tags
+TRAIT_FLAG_DESC_bno_unlock_more_submission_training: "$EFFECT_LIST_BULLET$50XPの解鎖 - 心理的な破解と専門的なプレゼンテーション技術." # AI Tags
+TRAIT_FLAG_DESC_bno_instant_bbc_seduction_success: "$EFFECT_LIST_BULLET$100XPで解鎖する - 黒人は彼女を抵抗できないと感じるので 誘惑の試みが自動的に成功する." # AI Tags

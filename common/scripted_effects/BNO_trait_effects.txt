@@ -433,7 +433,7 @@ decrease_dick_size = {
 			has_trait = dick_small_bad
 		}
 		bno_generic_rank_increase = {
-			TRAIT_GROUP = tits_small_bad
+			TRAIT_GROUP = dick_small_bad
 		}
 	}
 }

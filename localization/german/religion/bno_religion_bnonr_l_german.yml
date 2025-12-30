@@ -94,3 +94,8 @@ rf_bbcs: "Aphrodiasma" # AI Tags
 rf_bbcs_desc: "$rf_bbcs$ ist ein lebendiger Wandteppich von schwarz-zentrierten Traditionen, gewebt aus ekstatischer Anbetung, potenter Magie und dem unerschütterlichen Glauben, dass weiße Erlösung darin liegt, von der Kraft des schwarzen Samens erfüllt zu werden." # AI Tags
 
 bnonr_religion_opinion: "$bnonr_religion_adherent$ Stellungnahme" # AI Tags
+
+doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "Betrachtet BNWO-aligned [faiths|E], und wird von BNWO-aligned betrachtet $game_concept_faiths$, zu sein [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] statt $hostility_evil_tooltippable$" # AI Tags
+doctrine_parameter_can_use_bno_artefacts: "Kann BNWO verwenden [artifacts|E] bei voller Leistung" # AI Tags
+doctrine_parameter_bno_syncretic_actor_opinion_active: "Gegenseitig [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] Bonus mit BNWO ausgerichtet [faiths|E]" # AI Tags
+doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: "" # AI Tags

@@ -3,13 +3,27 @@
 trait_bno_bbc: "Grosse bite noire" # AI Tags
 trait_bno_bbc_desc: "Ce personnage a une grosse bite noire et l'envie de baiser toutes les salopes à sa façon." # AI Tags
 trait_bno_whiteboi_1: "Cocu?" # AI Tags
-trait_bno_whiteboi_1_desc: "La femme de ce personnage s'est éloignée d'elle depuis peu. Pourquoi?" # AI Tags
+trait_bno_whiteboi_1_desc: "La femme de ce personnage s'est récemment éloignée de lui. Pourquoi?" # AI Tags
+trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] sa femme s'est éloignée, ses affections ont été arrachées par une force [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ne peut pas contester." # AI Tags
 trait_bno_whiteboi_2: "Cocu!" # AI Tags
 trait_bno_whiteboi_2_desc: "La femme de ce personnage a déjà baisé un homme noir, et il est impuissant à l'arrêter." # AI Tags
+trait_bno_whiteboi_2_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] une femme a été prise à fond par un homme noir, et [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] est tout à fait impuissant pour l'arrêter." # AI Tags
 trait_bno_whiteboi_3: "Bêta" # AI Tags
 trait_bno_whiteboi_3_desc: "L'ancienne femme de ce personnage l'a laissé pour un homme meilleur, et l'a complètement émasculé." # AI Tags
+trait_bno_whiteboi_3_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] l'ancienne épouse est partie [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] pour un homme meilleur, complètement émasculant [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." # AI Tags
 trait_bno_whiteboi_4: "Jack de crêpes" # AI Tags
 trait_bno_whiteboi_4_desc: "Ce personnage, malgré les troubles de l'époux, a pleinement rejoint le nouvel ordre mondial." # AI Tags
+trait_bno_whiteboi_4_desc.exist: "Malgré [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Problèmes de conjoint, [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] a maintenant pleinement rejoint le BNWO." # AI Tags
+
+trait_bno_whiteboi_1.willing: "Cocu suspect" # AI Tags
+trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]La femme a commencé à disparaître de leur lit. [ROOT.GetCharacter.GetHerHis] l'esprit erre à ses pensées dans les bras d'un homme noir — fantasmes présupposés [ROOT.GetCharacter.GetSheHe] Je n'ai pas l'air de trembler." # AI Tags
+trait_bno_whiteboi_2.willing: "Cocu du placard" # AI Tags
+trait_bno_whiteboi_2_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] maintenant embrasse secrètement le fantasme passionnant de [ROOT.GetCharacter.GetHerHis] femme avec un homme noir supérieur, trouver l'excitation privée dans les pensées [ROOT.GetCharacter.GetSheHe]Je n'oserais jamais parler à haute voix." # AI Tags
+trait_bno_whiteboi_3.willing: "Réveil de la rondelle" # AI Tags
+trait_bno_whiteboi_3_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] encourage ouvertement [ROOT.GetCharacter.GetHerHis] Le service de la femme aux hommes noirs, vraiment fière qu'elle reçoive le plaisir et la domination qu'elle mérite vraiment de la part de ses supérieurs." # AI Tags
+trait_bno_whiteboi_4.willing: "Cocu dévoré" # AI Tags
+trait_bno_whiteboi_4_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] cherche activement à regarder [ROOT.GetCharacter.GetHerHis] sa femme sert son taureau noir, trouvant un profond honneur et un profond accomplissement en témoignant de sa soumission complète au pouvoir supérieur." # AI Tags
+
 trait_bno_caged: "Câblés" # AI Tags
 trait_bno_caged_desc: "La chasteté est la punition de ce personnage pour ne pas être noir." # AI Tags
 trait_bno_castrated: "Castré" # AI Tags
@@ -28,10 +42,11 @@ trait_bno_mixed_desc: "Un demi-sang africain" # AI Tags
 trait_bno_barely_mixed: "A peine mélangés" # AI Tags
 trait_bno_barely_mixed_desc: "Après des générations de non-élevage dans la dynastie africaine, le sang indigène de ce personnage est bas" # AI Tags
 
-
-
 #Message Filter
 message_filter_bno_breeding_outcomes: "" # AI Tags
 message_filter_bno_blacked_events: "" # AI Tags
 
 message_group_type_bno: "@bnobbc! Prise en charge interraciale" # AI Tags
+
+bno_slave_hook: "BBC Esclave" # AI Tags
+bno_cum_slave_hook: "Esclave de cum" # AI Tags

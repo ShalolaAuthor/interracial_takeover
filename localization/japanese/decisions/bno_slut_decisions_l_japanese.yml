@@ -221,3 +221,11 @@ bno_becoming_pure_white.desc: "私の体は 欠陥のある組合の証です �
 bno_becoming_pure_white.tooltip: "種子の儀式を 受けなさい. これは 深い生物学的な変化を起こし 永久に 純粋なアルビニズムに 変異する. 教会の一人の大祭司への完全な献身が必要です." # AI Tags
 bno_becoming_pure_white.confirm: "浄化することを誓います." # AI Tags
 bno_becoming_pure_white.effect: "浄化儀式が始まる. すべての色素は永久に失われます. 髪の毛は直し,プラチナの白色になる. 皮膚は無垢なアラバスターになります. 眼の色は水晶の青色に変化します. 混ざった遺産に関連するすべての特徴は消されます." # AI Tags
+
+convert.second_step_button: "礼拝を始めたい [bno_bbc|E]..." # AI Tags
+convert.convert.desc: "変換する [GetFaithByKey('bbcs').GetName]" # AI Tags
+convert.convert_to_bnwo.desc: "採用する [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
+
+bno_convert_to_african.second_step_button: "私は1人になりたい [bno_bbc|E]" # AI Tags
+bno_convert_to_african.convert.desc: "私は再び生まれたい [GetCultureByKey('bnoc').GetName]" # AI Tags
+bno_convert_to_african.convert_to_bnwo.desc: "紹介したい [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 私の中へ [culture|E]" # AI Tags

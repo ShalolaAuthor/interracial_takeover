@@ -221,3 +221,11 @@ bno_becoming_pure_white.desc: "Moje ciało jest świadectwem wadliwego związku,
 bno_becoming_pure_white.tooltip: "Przeprowadź liturgię nasienia. To rozpocznie głęboką przemianę biologiczną, trwale zmieniając twój fenotip na czysty albinizm. Wymaga całkowitego oddania jednemu Najwyższemu Kapłanowi Kościoła." # AI Tags
 bno_becoming_pure_white.confirm: "Przysięgam być oczyszczony." # AI Tags
 bno_becoming_pure_white.effect: "Zaczyna się rytuał oczyszczania. Cała pigmentacja zostaje trwale utracona. Włosy stają się proste i platynowe białe. Skóra staje się nieskazitelnym alabastem. Kolor oczu zmienia się w krystalicznie niebieski. Wszystkie cechy związane z mieszanym dziedzictwem zostaną usunięte." # AI Tags
+
+convert.second_step_button: "Chcę zacząć czcić [bno_bbc|E]..." # AI Tags
+convert.convert.desc: "Konwertuje się w [GetFaithByKey('bbcs').GetName]" # AI Tags
+convert.convert_to_bnwo.desc: "Przyjąć [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
+
+bno_convert_to_african.second_step_button: "Chcę być jednym z [bno_bbc|E]" # AI Tags
+bno_convert_to_african.convert.desc: "Chcę się ponownie urodzić jako [GetCultureByKey('bnoc').GetName]" # AI Tags
+bno_convert_to_african.convert_to_bnwo.desc: "Chciałbym przedstawić [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] w moją [culture|E]" # AI Tags

@@ -3,13 +3,27 @@
 trait_bno_bbc: "Groß, schwarz schwanz" # AI Tags
 trait_bno_bbc_desc: "Dieser Charakter hat einen massiven schwarzen Schwanz und den Drang, jede Schlampe im Weg zu ficken." # AI Tags
 trait_bno_whiteboi_1: "Verschissen?" # AI Tags
-trait_bno_whiteboi_1_desc: "Die Frau dieses Charakters, die vor kurzem zu ihr entfernt wurde. Warum?" # AI Tags
+trait_bno_whiteboi_1_desc: "Die Frau dieses Charakters ist vor kurzem zu ihm weit entfernt. Warum?" # AI Tags
+trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Frau ist weit entfernt geworden, ihre Zuneigung an anderer Stelle von einer Kraft gezogen [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] kann sich nicht herausfordern." # AI Tags
 trait_bno_whiteboi_2: "Scheiße!" # AI Tags
 trait_bno_whiteboi_2_desc: "Die Frau dieses Charakters hat schon mal einen schwarzen Mann gefickt, und er ist machtlos, es zu stoppen." # AI Tags
+trait_bno_whiteboi_2_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Frau wurde gründlich von einem schwarzen Mann genommen, und [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ist völlig machtlos, es zu stoppen." # AI Tags
 trait_bno_whiteboi_3: "Betäubun" # AI Tags
 trait_bno_whiteboi_3_desc: "Die ehemalige Frau dieses Charakters hat ihn für einen besseren Mann verlassen und ihn völlig entmannt." # AI Tags
+trait_bno_whiteboi_3_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ehemalige Frau gegangen [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] für einen besseren Mann, völlig entmannt [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." # AI Tags
 trait_bno_whiteboi_4: "Jack der Spitze" # AI Tags
 trait_bno_whiteboi_4_desc: "Dieser Charakter, trotz familiärer Schwierigkeiten, hat sich der neuen Weltordnung voll angeschlossen." # AI Tags
+trait_bno_whiteboi_4_desc.exist: "Trotz [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Probleme mit der Ehepartnerschaft, [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ist nun vollständig der BNWO beigetreten." # AI Tags
+
+trait_bno_whiteboi_1.willing: "Verdächtiger Wichser" # AI Tags
+trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]'s Frau hat angefangen, aus ihrem Bett zu verschwinden. [ROOT.GetCharacter.GetHerHis] Geist wandert in Gedanken an sie in den Armen eines Schwarzen Mannes – absurde Fantasien [ROOT.GetCharacter.GetSheHe] Ich kann nicht schütteln." # AI Tags
+trait_bno_whiteboi_2.willing: "Schrank-Cuck" # AI Tags
+trait_bno_whiteboi_2_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] jetzt insgeheim umarmt die spannende Fantasie von [ROOT.GetCharacter.GetHerHis] Frau mit einem überlegenen schwarzen Mann, private Aufregung in Gedanken zu finden [ROOT.GetCharacter.GetSheHe]Ich würde es nie wagen, laut zu sprechen." # AI Tags
+trait_bno_whiteboi_3.willing: "Erwachter Wichser" # AI Tags
+trait_bno_whiteboi_3_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] offen ermutigt [ROOT.GetCharacter.GetHerHis] Der Dienst der Frau für schwarze Männer, wirklich stolz, dass sie das Vergnügen und die Dominanz erhält, das sie von ihren Vorgesetzten wirklich verdient." # AI Tags
+trait_bno_whiteboi_4.willing: "Eingeweihter Cuck" # AI Tags
+trait_bno_whiteboi_4_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] versucht aktiv zuzuschauen [ROOT.GetCharacter.GetHerHis] Die Frau dient ihrem Black Bull und findet tiefe Ehre und Erfüllung, indem sie Zeuge ihrer vollständigen Unterwerfung unter überlegene Macht." # AI Tags
+
 trait_bno_caged: "Gekämmt" # AI Tags
 trait_bno_caged_desc: "Keuschheit ist die Strafe dieses Charakters, weil er nicht schwarz ist." # AI Tags
 trait_bno_castrated: "Kastriert" # AI Tags
@@ -28,10 +42,11 @@ trait_bno_mixed_desc: "Halbblut-Afrikaner" # AI Tags
 trait_bno_barely_mixed: "Kaum gemischt" # AI Tags
 trait_bno_barely_mixed_desc: "Nach Generationen, die nicht innerhalb der afrikanischen Dynastie züchten, fließt das einheimische Blut dieses Charakters niedrig" # AI Tags
 
-
-
 #Message Filter
 message_filter_bno_breeding_outcomes: "" # AI Tags
 message_filter_bno_blacked_events: "" # AI Tags
 
 message_group_type_bno: "@bnobbc! Interrassische Übernahme" # AI Tags
+
+bno_slave_hook: "BBC Sklave" # AI Tags
+bno_cum_slave_hook: "Wie ein Sklave" # AI Tags
