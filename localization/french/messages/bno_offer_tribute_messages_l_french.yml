@@ -1,0 +1,16 @@
+﻿l_french:
+
+bno_offer_tribute_found_suitable_trainer.title: "Un nouveau maître s'installe" # AI Tags
+bno_offer_tribute_found_suitable_trainer.desc: "La précédente de votre fille [bno_offer_tribute_trainer|E] est parti, mais son travail continue. Un nouveau [bno_bbc|E] d'un savoir-faire égal a progressé pour compléter sa transformation. Sa grosse bite africaine va approfondir son conditionnement. Sa semence intensifiera son dévouement. Son entraînement reprend sans pause." # AI Tags
+
+bno_offer_tribute.notification.title: "L'Hommage commence" # AI Tags
+bno_offer_tribute.notification.desc: "La transformation de votre fille a commencé. Elle sera sculptée, entraînée et refaite en l'offrande parfaite pour la supériorité africaine. Sa virginité scellée attend. Son corps sera synchronisé avec le musc noir seul. Le plan pour la perfectionner a commencé." # AI Tags
+
+bno_offer_tribute.invalidated.title.tribute.died: "L'Hommage a persisté" # AI Tags
+bno_offer_tribute.invalidated.desc.tribute.died: "Votre fille est morte pendant son conditionnement avant d'être envoyée à [target.GetName]C'est vrai. Son corps ne pouvait résister à l'intensité de sa préparation. Tous les arrangements sont annulés. Aucun or ne changera de mains. Votre investissement dans sa formation est perdu pour toujours." # AI Tags
+
+bno_offer_tribute.invalidated.title.target.died: "[target.GetName] Est-ce que c'est tombé" # AI Tags
+bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]Le Seigneur de la BBC que tu préparais à envoyer à ta fille, a été tué au combat. Il ne la recevra jamais. Votre fille reste ici, non réclamée. Tous les arrangements sont nuls. Tu dois décider quoi faire d'elle maintenant." # AI Tags
+
+bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] A été emprisonné" # AI Tags
+bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName], le Seigneur de la BBC que vous prépariez à envoyer votre fille, a été emprisonné par les forces rivales. Il ne peut pas la recevoir. Votre fille reste ici dans votre maison, son but suspendu indéfiniment. Tous les arrangements sont gelés. Son avenir est maintenant incertain." # AI Tags

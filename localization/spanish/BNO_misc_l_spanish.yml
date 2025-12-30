@@ -3,13 +3,27 @@
 trait_bno_bbc: "Grande, polla negra" # AI Tags
 trait_bno_bbc_desc: "Este personaje tiene una enorme polla negra y el impulso de follar a cada puta en su camino." # AI Tags
 trait_bno_whiteboi_1: "¿Atrapado?" # AI Tags
-trait_bno_whiteboi_1_desc: "La esposa de este personaje se ha alejado de ella. ¿Por qué?" # AI Tags
+trait_bno_whiteboi_1_desc: "La esposa de este personaje se ha alejado recientemente de él. ¿Por qué?" # AI Tags
+trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] esposa se ha vuelto distante, sus afectos tirados en otro lugar por una fuerza [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] no puede desafiar." # AI Tags
 trait_bno_whiteboi_2: "¡Chupado!" # AI Tags
 trait_bno_whiteboi_2_desc: "La esposa de este personaje se ha follado a un hombre negro antes, y es incapaz de detenerlo." # AI Tags
+trait_bno_whiteboi_2_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] esposa ha sido tomada a fondo por un hombre negro, y [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] es totalmente impotente para detenerlo." # AI Tags
 trait_bno_whiteboi_3: "Beta" # AI Tags
 trait_bno_whiteboi_3_desc: "La ex esposa de este personaje lo ha dejado por un hombre mejor, y lo ha castrado completamente." # AI Tags
+trait_bno_whiteboi_3_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ex esposa se fue [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] para un hombre mejor, completamente emasculando [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." # AI Tags
 trait_bno_whiteboi_4: "Jack de picas" # AI Tags
 trait_bno_whiteboi_4_desc: "Este personaje, a pesar de los problemas conyugales, se ha unido plenamente al nuevo orden mundial." # AI Tags
+trait_bno_whiteboi_4_desc.exist: "A pesar de [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Problemas conyugales, [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Ahora se ha unido plenamente a la BNWO." # AI Tags
+
+trait_bno_whiteboi_1.willing: "Sospechoso Cuck" # AI Tags
+trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]La esposa ha empezado a desaparecer de su cama. [ROOT.GetCharacter.GetHerHis] la mente vaga a los pensamientos de ella en los brazos de un hombre negro — fantasías absurdas [ROOT.GetCharacter.GetSheHe] Parece que no puedo sacudirme." # AI Tags
+trait_bno_whiteboi_2.willing: "Cuck de armario" # AI Tags
+trait_bno_whiteboi_2_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ahora en secreto abraza la emocionante fantasía de [ROOT.GetCharacter.GetHerHis] esposa con un hombre negro superior, encontrando excitación privada en los pensamientos [ROOT.GetCharacter.GetSheHe]Nunca se atrevería a hablar en voz alta." # AI Tags
+trait_bno_whiteboi_3.willing: "Cuck despierto" # AI Tags
+trait_bno_whiteboi_3_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] abiertamente alienta [ROOT.GetCharacter.GetHerHis] El servicio de la esposa a los hombres negros, genuinamente orgullosa de recibir el placer y el dominio que realmente merece de sus superiores." # AI Tags
+trait_bno_whiteboi_4.willing: "Dedicado Cuck" # AI Tags
+trait_bno_whiteboi_4_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] activamente busca observar [ROOT.GetCharacter.GetHerHis] esposa servir a su Toro Negro, encontrando profundo honor y cumplimiento al presenciar su completa sumisión al poder superior." # AI Tags
+
 trait_bno_caged: "Enjaulado" # AI Tags
 trait_bno_caged_desc: "La castidad es el castigo de este personaje por no ser negro." # AI Tags
 trait_bno_castrated: "Castrado" # AI Tags
@@ -28,10 +42,11 @@ trait_bno_mixed_desc: "Africanos de sangre media" # AI Tags
 trait_bno_barely_mixed: "Apenas mezclados" # AI Tags
 trait_bno_barely_mixed_desc: "Después de generaciones de no reproducirse dentro de la dinastía africana, la sangre nativa de este personaje es baja" # AI Tags
 
-
-
 #Message Filter
 message_filter_bno_breeding_outcomes: "" # AI Tags
 message_filter_bno_blacked_events: "" # AI Tags
 
 message_group_type_bno: "@bnobbc! Toma de posesión interracial" # AI Tags
+
+bno_slave_hook: "Esclavo de la BBC" # AI Tags
+bno_cum_slave_hook: "Como esclavo" # AI Tags

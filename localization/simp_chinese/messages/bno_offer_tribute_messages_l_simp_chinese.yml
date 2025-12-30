@@ -1,0 +1,16 @@
+﻿l_simp_chinese:
+
+bno_offer_tribute_found_suitable_trainer.title: "一位新来之主" # AI Tags
+bno_offer_tribute_found_suitable_trainer.desc: "你女儿的前任女儿 [bno_offer_tribute_trainer|E] 已经走了,但他的工作还在继续。. 一个新的 [bno_bbc|E] 具有同等专门知识的人已挺身而出,完成她的转变。. 他巨大的非洲老二 将会加深她的体质. 他的种子将增强她的献身精神. 她的训练履历没停歇." # AI Tags
+
+bno_offer_tribute.notification.title: "悼念开始" # AI Tags
+bno_offer_tribute.notification.desc: "你女儿的转变已经开始了. 她将会被雕塑,训练, 并被重新塑造成 最佳的非洲优势。. 她密封的处女贞洁等待。. 她的身体将单独和黑雾同步. 美化她的计划已经开始了." # AI Tags
+
+bno_offer_tribute.invalidated.title.tribute.died: "赞美者已潜伏" # AI Tags
+bno_offer_tribute.invalidated.desc.tribute.died: "你女儿在被送去医院之前 在她的身体状况下去世了 [target.GetName]. . 她的身体无法承受她准备的强度。. 所有安排均取消。. 金子是不会换手的. 你对她训练的投资 将永远失去." # AI Tags
+
+bno_offer_tribute.invalidated.title.target.died: "[target.GetName] 已经堕落" # AI Tags
+bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]BBC Lord 你当时在准备送女儿去 却在战斗中牺牲了. 他永远不会接受她的. 你的女儿留在这 无人认领. 所有安排均无效。. 你现在必须决定怎么处置她." # AI Tags
+
+bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] 被关进监狱" # AI Tags
+bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName]BBC Lord 你当时在准备送女儿去 却被敌军囚禁了. 他无法接受她。. 你的女儿留在你家里 她的目的被无限期中止. 所有安排都冻结。. 她的未来现在不确定。." # AI Tags

@@ -94,3 +94,8 @@ rf_bbcs: "Afrodiasma" # AI Tags
 rf_bbcs_desc: "$rf_bbcs$ es un vibrante tapiz de tradiciones centradas en los negros tejidas de adoración extática, potente magia, y la creencia inquebrantable de que la salvación blanca yace en ser llenada por el poder de la semilla negra." # AI Tags
 
 bnonr_religion_opinion: "$bnonr_religion_adherent$ Opinión" # AI Tags
+
+doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "Considera que BNWO está alineado [faiths|E], y es considerado por BNWO-aligned $game_concept_faiths$, ser [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" # AI Tags
+doctrine_parameter_can_use_bno_artefacts: "Puede utilizar BNWO [artifacts|E] a la prestación completa" # AI Tags
+doctrine_parameter_bno_syncretic_actor_opinion_active: "Reciprocidad [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bono con alineado con BNWO [faiths|E]" # AI Tags
+doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: "" # AI Tags

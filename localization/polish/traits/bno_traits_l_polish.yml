@@ -271,3 +271,20 @@ TRAIT_FLAG_DESC_bno_darker_skin: "$EFFECT_LIST_BULLET$Z każdym hodowli pod [bno
 
 trait_bno_whispered_rose: "Wszeptająca róża" # AI Tags
 trait_bno_whispered_rose_desc: "Jej obecność przyciąga każdy spojrzenie, jej śmiech trwa jak zapomniany sen, a plotki o jej piękności drżą przez korytarze jak płatki na wietrze. Na razie pozostaje nietknięta, podziwiana, pożądana i nieosiągalna." # AI Tags
+
+bno_servile.name.1: "Zbudzanie poddania" # AI Tags
+bno_servile.desc.1.hidden: "Ta kobieta zachowuje się z nową świadomością, jakby widziała swoje miejsce na świecie po raz pierwszy." # AI Tags
+bno_servile.desc.1: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Zaczęła się trenować, ucząc się świętej sztuki kapitulacji. Strach w jej oczach powoli zostaje zastąpiony rozsądkiem." # AI Tags
+
+bno_servile.name.2: "Chętne służenie" # AI Tags
+bno_servile.desc.2: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] nie musi już mówić jej, żeby klęknęła - jej ciało instynktownie przyjmuje pozycję. Głód w jej oczach, kiedy zbliżają się czarni mężczyźni staje się nieomylny." # AI Tags
+
+bno_servile.name.3: "Doskonała kapitulacja" # AI Tags
+bno_servile.desc.3: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]Umysł został przekształcony w przyjemność i posłuszeństwo. Przewiduje polecenia zanim zostaną wypowiedziane, jej ciało już się przygotowuje. Transformacja jest kompletna - istnieje tylko, by służyć czarnej woli." # AI Tags
+
+trait_track_bno_servile: "Ścieżka doskonałego poddania się" # AI Tags
+trait_track_bno_servile_desc: "Od przerażającego dziewicy do chętnego majątku, ta ścieżka przedstawia świętą podróż kobiety, by stać się ostateczną ofiarą czarnej przyjemności. Każdy krok reprezentuje kolejną warstwę oporu zdjętą, kolejny wzrost w kierunku doskonałej pożądliwości." # AI Tags
+
+TRAIT_FLAG_DESC_bno_submission: "$EFFECT_LIST_BULLET$Może zostać uaktualniona poprzez wydarzenia w ramach programu hołdu, gdy postępuje w szkoleniu." # AI Tags
+TRAIT_FLAG_DESC_bno_unlock_more_submission_training: "$EFFECT_LIST_BULLET$Odblokowanie w 50XP - zaawansowane psychologiczne łamanie i specjalistyczne techniki prezentacji." # AI Tags
+TRAIT_FLAG_DESC_bno_instant_bbc_seduction_success: "$EFFECT_LIST_BULLET$Czarni mężczyźni uważają ją za nieodporną, dzięki czemu próby uwodzenia są automatycznie udane." # AI Tags

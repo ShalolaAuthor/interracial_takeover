@@ -1,0 +1,8 @@
+﻿l_russian:
+
+bno.trigger.is_culture_bnoc: "[culture|E] принял [bno_bnwo|E] подчинение и разведение." # AI Tags
+bno.trigger.is_slut_or_whiteboi: "Ты не [GetTraitGroup('bno_whitegirl').GetName] или [GetTraitGroup('bno_whiteboi').GetName]" # AI Tags
+bno.trigger.bno_only_allow_when_below_certain_age: "Характер слишком старый для того, чтобы его правильно обучать и преобразовывать." # AI Tags
+bno.trigger.is_bno_cuck_and_up: "Характер, по крайней мере, [GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]" # AI Tags
+bno.trigger.is_a_girl: "Характер считается девушкой" # AI Tags
+bno.trigger.is_bno_snowbunny_and_up: "Характер, по крайней мере, [GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]" # AI Tags

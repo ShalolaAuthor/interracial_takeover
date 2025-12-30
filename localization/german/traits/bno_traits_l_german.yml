@@ -271,3 +271,20 @@ TRAIT_FLAG_DESC_bno_darker_skin: "$EFFECT_LIST_BULLET$Bei jeder Zucht unter der 
 
 trait_bno_whispered_rose: "Flüsternde Rose" # AI Tags
 trait_bno_whispered_rose_desc: "Ihre Anwesenheit zieht jeden Blick, ihr Lachen verweilt wie ein vergessener Traum, und Gerüchte über ihre Schönheit driften durch die Hallen wie Blütenblätter auf der Brise. Denn jetzt bleibt sie unantastbar – bewundert, begehrt und gerade außer Reichweite." # AI Tags
+
+bno_servile.name.1: "Antrag auf Erweckung" # AI Tags
+bno_servile.desc.1.hidden: "Diese Frau trägt sich mit einem neuen Bewusstsein, als würde sie zum ersten Mal ihren Platz in der Welt sehen." # AI Tags
+bno_servile.desc.1: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] hat ihre Ausbildung begonnen, die heilige Kunst der Kapitulation zu lernen. Die Angst in ihren Augen wird langsam durch dämmerndes Verständnis ersetzt." # AI Tags
+
+bno_servile.name.2: "Willige Knechtschaft" # AI Tags
+bno_servile.desc.2: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] nicht mehr zu knien muss gesagt werden - ihr Körper nimmt die Position instinktiv an. Der Hunger in ihren Augen, wenn sich schwarze Männer nähern, wird unverkennbar." # AI Tags
+
+bno_servile.name.3: "Perfekte Hingabe" # AI Tags
+bno_servile.desc.3: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]'s Geist wurde für Vergnügen und Gehorsam neu verdrahtet. Sie erwartet Befehle, bevor sie gesprochen werden, ihr Körper bereitet sich bereits vor. Die Transformation ist abgeschlossen - sie existiert nur, um dem schwarzen Willen zu dienen." # AI Tags
+
+trait_track_bno_servile: "Der Weg der vollkommenen Hingabe" # AI Tags
+trait_track_bno_servile_desc: "Von ängstlich Mädchen zu bereit Eigentum, dieser Track charts eine Frau die heilige Reise in zum ultimativen Angebot für schwarzes Vergnügen. Jeder Schritt stellt eine weitere Widerstandsschicht dar, die entfernt wird, eine weitere Verbesserung hin zur vollkommenen Wünschbarkeit." # AI Tags
+
+TRAIT_FLAG_DESC_bno_submission: "$EFFECT_LIST_BULLET$Kann durch Tribut-Schema-Events verbessert werden, während sie in ihrer Ausbildung voranschreitet." # AI Tags
+TRAIT_FLAG_DESC_bno_unlock_more_submission_training: "$EFFECT_LIST_BULLET$Entriegelung bei 50XP - fortgeschrittene psychologische Brechung und spezialisierte Präsentationstechniken." # AI Tags
+TRAIT_FLAG_DESC_bno_instant_bbc_seduction_success: "$EFFECT_LIST_BULLET$Entsperrt bei 100XP - Schwarze Männer finden sie unwiderstehlich und machen Verführungsversuche automatisch erfolgreich." # AI Tags

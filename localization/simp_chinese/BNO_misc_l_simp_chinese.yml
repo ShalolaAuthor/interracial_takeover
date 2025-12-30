@@ -4,12 +4,26 @@ trait_bno_bbc: "大黑鸡巴"
 trait_bno_bbc_desc: "这个角色拥有巨大的黑鸡巴，并且渴望操遍他遇到的每一个荡妇。"
 trait_bno_whiteboi_1: "绿帽男?"
 trait_bno_whiteboi_1_desc: "这个角色的妻子最近对她越来越疏远。为什么呢？"
+trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 妻子渐渐疏远 她的爱情被一股力量拉扯到别处 [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 无法挑战。." # AI Tags
 trait_bno_whiteboi_2: "绿帽男!"
 trait_bno_whiteboi_2_desc: "这个角色的妻子之前与黑人做爱了，而他对此无能为力。"
+trait_bno_whiteboi_2_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 妻子被一个黑人男人彻底带走 [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 完全没有能力阻止它。." # AI Tags
 trait_bno_whiteboi_3: "Beta"
 trait_bno_whiteboi_3_desc: "这个角色的前妻为了一个更好的男人离开了他，让他完全丧失了男性魅力。"
+trait_bno_whiteboi_3_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 离开的前妻 [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 以便他变成一个善良的、全能的、全能的、 [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." # AI Tags
 trait_bno_whiteboi_4: "黑桃杰克"
 trait_bno_whiteboi_4_desc: "尽管面临婚姻问题，这个角色已经完全适应了全新的秩序。"
+trait_bno_whiteboi_4_desc.exist: "尽管如此,尽管 [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 配偶的烦恼, [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 现已完全加入生物和毒素武器组织。." # AI Tags
+
+trait_bno_whiteboi_1.willing: "可疑的库克" # AI Tags
+trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]妻子开始从床上消失. [ROOT.GetCharacter.GetHerHis] 在黑男人的怀抱中 迷惑着她的想法 荒谬的幻想 [ROOT.GetCharacter.GetSheHe] 似乎摇不动。." # AI Tags
+trait_bno_whiteboi_2.willing: "密闭库" # AI Tags
+trait_bno_whiteboi_2_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 现在暗暗地里拥抱着 令人兴奋的幻想 [ROOT.GetCharacter.GetHerHis] 妻子与上级黑人男子, 发现私人 兴奋的想法 [ROOT.GetCharacter.GetSheHe]不敢大声说话." # AI Tags
+trait_bno_whiteboi_3.willing: "觉醒库克" # AI Tags
+trait_bno_whiteboi_3_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 公开鼓励 [ROOT.GetCharacter.GetHerHis] 妻子为黑人男人服务, 真正自豪的是,她得到的快乐 和支配权,她真的应该 从她的上司。." # AI Tags
+trait_bno_whiteboi_4.willing: "被抛弃的库克" # AI Tags
+trait_bno_whiteboi_4_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 积极寻求观察 [ROOT.GetCharacter.GetHerHis] 妻子为她的黑公牛服务,在目睹她完全屈从于上级权力时,找到了崇高的荣誉和成就。." # AI Tags
+
 trait_bno_caged: "被锁"
 trait_bno_caged_desc: "贞操锁是该角色作为非黑人的惩罚。"
 trait_bno_castrated: "被阉割"
@@ -28,10 +42,11 @@ trait_bno_mixed_desc: "一半非洲血统"
 trait_bno_barely_mixed: "略微混血"
 trait_bno_barely_mixed_desc: "在几代没有与非洲血统的人通婚之后，这个角色的非洲血统已经很稀薄了"
 
-
-
 #Message Filter
 message_filter_bno_breeding_outcomes: ""
 message_filter_bno_blacked_events: ""
 
 message_group_type_bno: "@bnobbc! 跨种族更替" # AI Tags
+
+bno_slave_hook: "BBC 奴隶" # AI Tags
+bno_cum_slave_hook: "炼奴奴隶" # AI Tags

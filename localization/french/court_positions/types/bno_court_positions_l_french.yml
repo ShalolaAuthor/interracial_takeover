@@ -49,3 +49,14 @@ bno_bbc_priestess_court_position_desc: "Lèche avec de l'huile sacrée, ils jett
 
 bno_bbc_priest_court_position: "Le prêtre de la BBC" # AI Tags
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags
+
+bno_breeding_bull_court_position: "Taureau reproducteur" # AI Tags
+bno_breeding_bull_court_position_desc: "Un homme noir supérieur dédié à l'imprégnation de nos meilleures femmes et à l'amélioration de notre lignée de sang avec sa semence sacrée." # AI Tags
+
+bno_breeding_bull.employer.modifier.desc: "$BULLET$Fertilise systématiquement toutes les femmes non noires dans ce tribunal." # AI Tags
+
+story_bno_breeding_bull.message.title.whiteboi: "Le taureau revendique son prix" # AI Tags
+story_bno_breeding_bull.message.desc.whiteboi: "Vous regardez depuis le coin, votre propre inadéquation mise à nu, comme le taureau reproducteur se termine avec une autre des femmes de votre cour. Il est maintenant ensemencé [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] les filles cette séance, sa puissance supérieure indéniable." # AI Tags
+
+story_bno_breeding_bull.message.title.whitegirl: "Rempli de graines supérieures" # AI Tags
+story_bno_breeding_bull.message.desc.whitegirl: "Une chaleur profonde et satisfaisante s'étend à travers vous, tandis que le taureau reproducteur sort, son essence sacrée prend déjà racine. Vous êtes l'un des [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] les femmes qu'il a bien élevé ce soir, dans l'accomplissement de votre plus haut objectif." # AI Tags

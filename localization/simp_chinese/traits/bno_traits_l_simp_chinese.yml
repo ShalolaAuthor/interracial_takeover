@@ -271,3 +271,19 @@ TRAIT_FLAG_DESC_bno_darker_skin: "$EFFECT_LIST_BULLET$每次在[bno_seed_of_gene
 
 trait_bno_whispered_rose: "低语玫瑰"
 trait_bno_whispered_rose_desc: "她的出现吸引所有目光，她的笑声如遗忘的梦境萦绕不去，关于她美貌的传闻在走廊间飘荡，宛如微风中的花瓣。此刻她依然遥不可及——令人倾慕，令人渴求，却始终触手不及。"
+bno_servile.name.1: "觉醒提交材料" # AI Tags
+bno_servile.desc.1.hidden: "这个女人带着新的意识, 仿佛第一次看到自己在世界上的位置。." # AI Tags
+bno_servile.desc.1: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 开始训练她 学习投降的神圣艺术. 她眼中的恐惧正在慢慢地被黎明的理解所取代。." # AI Tags
+
+bno_servile.name.2: "意志劳役" # AI Tags
+bno_servile.desc.2: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 她的身体本能地承担着这个位置。. 当黑人接近时 她眼中的饥饿 变得不可置疑." # AI Tags
+
+bno_servile.name.3: "完美投降" # AI Tags
+bno_servile.desc.3: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]心灵被重新植入 快乐和顺从。. 在他们说话之前,她预言着命令, 她的身体已经准备就绪了。. 转变是完整的 - 她的存在只是为了服务于布莱克的意志。." # AI Tags
+
+trait_track_bno_servile: "完美投降之路" # AI Tags
+trait_track_bno_servile_desc: "从害怕的少女到心甘情愿的财产, 这轨迹描绘了一个女人的神圣旅程, 最终成为黑人快乐的牺牲品。. 每一步都代表着又一层抵抗力 被剥去, 这是向完美可取性 的又一进步。." # AI Tags
+
+TRAIT_FLAG_DESC_bno_submission: "$EFFECT_LIST_BULLET$随着她培训的进展,可以通过纪念计划活动予以提升。." # AI Tags
+TRAIT_FLAG_DESC_bno_unlock_more_submission_training: "$EFFECT_LIST_BULLET$50XP解锁 -- -- 先进的心理断裂和专门介绍技巧。." # AI Tags
+TRAIT_FLAG_DESC_bno_instant_bbc_seduction_success: "$EFFECT_LIST_BULLET$100XP的解锁 黑人发现她不可抗拒 让诱骗行为自动成功." # AI Tags

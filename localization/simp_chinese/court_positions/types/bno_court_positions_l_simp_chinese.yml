@@ -49,3 +49,13 @@ bno_bbc_priestess_court_position_desc: "他们浑身涂满圣油，将勃起的�
 
 bno_bbc_priest_court_position: "BBC祭司"
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$"
+bno_breeding_bull_court_position: "播种牛牛" # AI Tags
+bno_breeding_bull_court_position_desc: "一位优秀的黑人男子 献身于孕育我们最好的女人 用神圣的种子改善我们的血脉." # AI Tags
+
+bno_breeding_bull.employer.modifier.desc: "$BULLET$系统施肥 每一个非黑人女性 在这个法院。." # AI Tags
+
+story_bno_breeding_bull.message.title.whiteboi: "公牛要求获得他的奖项" # AI Tags
+story_bno_breeding_bull.message.desc.whiteboi: "你从转角看, 你自己的不足暴露了, 当育牛牛 结束与另一个你的法庭的女人。. 他现在已播种了, [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] 不可否认的是,在本届会议期间,他的优势是女孩。." # AI Tags
+
+story_bno_breeding_bull.message.title.whitegirl: "填满高级种子" # AI Tags
+story_bno_breeding_bull.message.desc.whitegirl: "深深的,满足的温暖 通过你扩散 通过你,随着育牛牛拉出, 他神圣的精华 已经扎根。. 你是其中之一 [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] 实现你的最高目标." # AI Tags

@@ -1,0 +1,8 @@
+﻿l_french:
+
+bno.trigger.is_culture_bnoc: "[culture|E] s'est embrassée [bno_bnwo|E] présentation et reproduction." # AI Tags
+bno.trigger.is_slut_or_whiteboi: "Vous n'êtes pas un [GetTraitGroup('bno_whitegirl').GetName] ou une [GetTraitGroup('bno_whiteboi').GetName]" # AI Tags
+bno.trigger.bno_only_allow_when_below_certain_age: "Le personnage est trop vieux pour être correctement entraîné et reformé." # AI Tags
+bno.trigger.is_bno_cuck_and_up: "Le caractère est au moins un [GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]" # AI Tags
+bno.trigger.is_a_girl: "Le caractère est considéré comme une fille" # AI Tags
+bno.trigger.is_bno_snowbunny_and_up: "Le caractère est au moins un [GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]" # AI Tags

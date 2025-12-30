@@ -2,7 +2,7 @@
 #sneak bbc interaction
 sneak_bbc: "검은 황소를 속임수" # AI Tags
 sneak_bbc_desc: "그 중 하나를 보내 [bno_bbcs|E] 당신의 궁전에서 다른 통치자의 방으로."   # AI Tags
-actor_secondary_sneak_bbc: "어떤 소를 보낼지 선택해" # AI Tags
+actor_secondary_sneak_bbc: "블랙볼 (Blackbull)" # AI Tags
 BBC_cg_spy_reason: "궁정관이나 손님들이 도움을 주면 [bno_bbc|E]: #color_green +5#!"   # AI Tags
 BBC_family_spy_reason: "가족 구성원이 도움을 줄 것입니다 [bno_bbc|E]: #color_green +10#!"   # AI Tags
 BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! 의외로 [bno_bbc|E]: #color_green +10#!"   # AI Tags

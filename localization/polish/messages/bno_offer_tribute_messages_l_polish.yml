@@ -1,0 +1,16 @@
+﻿l_polish:
+
+bno_offer_tribute_found_suitable_trainer.title: "Przybył nowy mistrz" # AI Tags
+bno_offer_tribute_found_suitable_trainer.desc: "Twoja córka jest poprzednią [bno_offer_tribute_trainer|E] nie ma, ale jego praca trwa. Nowy [bno_bbc|E] Z równym doświadczeniem postąpiła, aby zakończyć swoją transformację. Jego ogromny afrykański kutas pogłębi jej kondycjonowanie. Jego nasienie zwiększy jej oddanie. Jej szkolenie kontynuuje się bez przerwy." # AI Tags
+
+bno_offer_tribute.notification.title: "Rozpoczyna się hołd" # AI Tags
+bno_offer_tribute.notification.desc: "Przekształcenie twojej córki rozpoczęło się. Będzie rzeźbiona, wyszkolona i przekształcona w doskonałą ofiarę Afrykańskiej wyższości. Jej zamknięta dziewictwo czeka. Jej ciało będzie synchronizowane z czarną muszką. Plan, by ją udoskonalić, rozpoczął się." # AI Tags
+
+bno_offer_tribute.invalidated.title.tribute.died: "Uciekło hołd" # AI Tags
+bno_offer_tribute.invalidated.desc.tribute.died: "Twoja córka zmarła w trakcie kondycjonowania, zanim została wysłana do [target.GetName]- Nie , nie , nie . Jej ciało nie wytrzymało intensywności jej przygotowania. Wszystkie umowy zostały anulowane. Żadne złoto nie zmieni rąk. Twoja inwestycja w jej szkolenie jest stracona na zawsze." # AI Tags
+
+bno_offer_tribute.invalidated.title.target.died: "[target.GetName] Wpadł" # AI Tags
+bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]Lord BBC, do którego przygotowywałeś swoją córkę, zginął w bitwie. Nigdy jej nie przyjmie. Twoja córka pozostaje tutaj, bez roszczeń. Wszystkie umowy są nieważne. Musisz zdecydować, co z nią zrobić." # AI Tags
+
+bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] Został uwięziony" # AI Tags
+bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName]Lord BBC, do którego przygotowywałeś swoją córkę, został uwięziony przez siły rywalizacyjne. Nie może ją przyjąć. Twoja córka pozostaje w twoim domu, jej cel zawieszony na czas nieokreślony. Wszystkie umowy zamrożone. Jej przyszłość jest teraz niepewna." # AI Tags

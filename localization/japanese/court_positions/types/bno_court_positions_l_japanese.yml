@@ -49,3 +49,14 @@ bno_bbc_priestess_court_position_desc: "神聖な油で滑らかに 跳ね上が
 
 bno_bbc_priest_court_position: "BBC 司祭" # AI Tags
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags
+
+bno_breeding_bull_court_position: "繁殖牛" # AI Tags
+bno_breeding_bull_court_position_desc: "最高の黒人男性で 最高の女性を産み 血統を豊かにするために 献身した." # AI Tags
+
+bno_breeding_bull.employer.modifier.desc: "$BULLET$この裁判所の非黒人女性を 系統的に受精させています." # AI Tags
+
+story_bno_breeding_bull.message.title.whiteboi: "牛 が 賞金 を 要求 する" # AI Tags
+story_bno_breeding_bull.message.desc.whiteboi: "角から見ると 自分の欠陥が明らかになり 繁殖牛が 宮廷の女と仲良くなる. 彼は今種を蒔いた [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] このセッションで,彼の優位な能力は否定できない." # AI Tags
+
+story_bno_breeding_bull.message.title.whitegirl: "上級 の 種 に 満たさ れ て いる" # AI Tags
+story_bno_breeding_bull.message.desc.whitegirl: "深い 満足のいく暖かい気持ちが 広がります 繁殖牛が 出てくるにつれて その神聖な本質が 根を張っています. あなたも [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] 彼は今夜 正しく育った女性だ あなたの最高目的を果たす." # AI Tags

@@ -221,3 +221,11 @@ bno_becoming_pure_white.desc: "내 몸은 결함이 없는 조합의 증거입�
 bno_becoming_pure_white.tooltip: "씨의 예배를 드십시오. 이것은 심오한 생물학적 변화를 일으켜 영구적으로 페노 타입을 순수한 알비니즘으로 바꾸게 될 것입니다. 교회의 한 대사에게 완전한 헌신이 필요합니다." # AI Tags
 bno_becoming_pure_white.confirm: "내가 순결될 것을 맹세한다." # AI Tags
 bno_becoming_pure_white.effect: "정화 의식이 시작됩니다. 모든 색소가 영구적으로 사라집니다. 머리카락은 곧게 변하고 플래티넘 흰색이 됩니다. 피부는 흠이 없는 알라바스터가 됩니다. 눈 색깔은 결정 파란색으로 변합니다. 혼합된 유산과 관련된 모든 특징은 삭제됩니다." # AI Tags
+
+convert.second_step_button: "저는 예배를 드리고 싶습니다 [bno_bbc|E]..." # AI Tags
+convert.convert.desc: "변환 [GetFaithByKey('bbcs').GetName]" # AI Tags
+convert.convert_to_bnwo.desc: "채택 [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
+
+bno_convert_to_african.second_step_button: "난 그 사람과 하나가 되고 싶어요 [bno_bbc|E]" # AI Tags
+bno_convert_to_african.convert.desc: "내가 다시 태어나고 싶어 [GetCultureByKey('bnoc').GetName]" # AI Tags
+bno_convert_to_african.convert_to_bnwo.desc: "소개하고 싶습니다 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 내 안에 [culture|E]" # AI Tags

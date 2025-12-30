@@ -2,7 +2,7 @@
 #sneak bbc interaction
 sneak_bbc: "Efface un taureau noir" # AI Tags
 sneak_bbc_desc: "Envoyez l'un des [bno_bbcs|E] de votre cour à une autre salle de règle."   # AI Tags
-actor_secondary_sneak_bbc: "Choisissez le taureau à envoyer" # AI Tags
+actor_secondary_sneak_bbc: "Bouteille noire" # AI Tags
 BBC_cg_spy_reason: "Un courtisane ou un invité aidera à se faufiler [bno_bbc|E]: #color_green +5#!"   # AI Tags
 BBC_family_spy_reason: "Un membre de la famille va aider à se faufiler [bno_bbc|E]: #color_green +10#!"   # AI Tags
 BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! est curieux de savoir [bno_bbc|E]: #color_green +10#!"   # AI Tags

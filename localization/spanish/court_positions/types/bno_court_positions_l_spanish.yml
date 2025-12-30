@@ -49,3 +49,14 @@ bno_bbc_priestess_court_position_desc: "Slick con aceite sagrado, meten sus poll
 
 bno_bbc_priest_court_position: "Sacerdote de la BBC" # AI Tags
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags
+
+bno_breeding_bull_court_position: "Toro de cría" # AI Tags
+bno_breeding_bull_court_position_desc: "Un hombre negro superior dedicado a impregnar a nuestras mejores mujeres y mejorar nuestro linaje con su semilla sagrada." # AI Tags
+
+bno_breeding_bull.employer.modifier.desc: "$BULLET$Sistemáticamente fertiliza a todas las mujeres no negras en esta corte." # AI Tags
+
+story_bno_breeding_bull.message.title.whiteboi: "El toro reclama su premio" # AI Tags
+story_bno_breeding_bull.message.desc.whiteboi: "Usted mira desde la esquina, su propia insuficiencia puesto al descubierto, como el Toro de la Reproducción termina con otra de las mujeres de su corte. Ahora se ha sembrado [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] chicas esta sesión, su potencia superior innegable." # AI Tags
+
+story_bno_breeding_bull.message.title.whitegirl: "Lleno de Semillas Superiores" # AI Tags
+story_bno_breeding_bull.message.desc.whitegirl: "Un calor profundo y satisfactorio se extiende a través de ti mientras el Toro de la Reproducción se retira, su sagrada esencia ya echa raíces. Usted es uno de los [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] mujeres que ha criado correctamente esta noche, cumpliendo con su más alto propósito." # AI Tags

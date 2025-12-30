@@ -2,7 +2,7 @@
 #sneak bbc interaction
 sneak_bbc: "Husmear a un Toro Negro" # AI Tags
 sneak_bbc_desc: "Enviar uno de los [bno_bbcs|E] desde tu corte hasta el salón de otro gobernante."   # AI Tags
-actor_secondary_sneak_bbc: "Elegir qué toro enviar" # AI Tags
+actor_secondary_sneak_bbc: "Bollón negro" # AI Tags
 BBC_cg_spy_reason: "Un cortesano o un invitado ayudará a colarse [bno_bbc|E]: #color_green +5#!"   # AI Tags
 BBC_family_spy_reason: "Un miembro de la familia ayudará a escabullirse un [bno_bbc|E]: #color_green +10#!"   # AI Tags
 BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! es curioso acerca de [bno_bbc|E]: #color_green +10#!"   # AI Tags

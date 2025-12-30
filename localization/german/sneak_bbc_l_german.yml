@@ -2,7 +2,7 @@
 #sneak bbc interaction
 sneak_bbc: "Sneak ein schwarzer Bulle" # AI Tags
 sneak_bbc_desc: "Senden Sie eine der [bno_bbcs|E] von deinem Hof in einen anderen Herrschersaal."   # AI Tags
-actor_secondary_sneak_bbc: "Wählen Sie den zu sendenden Bullen" # AI Tags
+actor_secondary_sneak_bbc: "Schwarzbulle" # AI Tags
 BBC_cg_spy_reason: "Ein Höflicher oder Gast wird helfen, eine [bno_bbc|E]: #color_green +5#!"   # AI Tags
 BBC_family_spy_reason: "Ein Familienmitglied wird helfen, eine [bno_bbc|E]: #color_green +10#!"   # AI Tags
 BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! ist neugierig auf [bno_bbc|E]: #color_green +10#!"   # AI Tags

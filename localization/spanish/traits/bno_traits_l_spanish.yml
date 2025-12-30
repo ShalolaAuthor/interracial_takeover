@@ -271,3 +271,20 @@ TRAIT_FLAG_DESC_bno_darker_skin: "$EFFECT_LIST_BULLET$Con cada cría bajo el [bn
 
 trait_bno_whispered_rose: "Rosa susurrada" # AI Tags
 trait_bno_whispered_rose_desc: "Su presencia atrae cada mirada, su risa permanece como un sueño olvidado, y los rumores de su belleza se deslizan por los pasillos como pétalos en la brisa. Por ahora, ella permanece intocable – admirada, codiciada, y justo fuera del alcance." # AI Tags
+
+bno_servile.name.1: "Presentación del despertar" # AI Tags
+bno_servile.desc.1.hidden: "Esta mujer se comporta con una nueva conciencia, como si viera su lugar en el mundo por primera vez." # AI Tags
+bno_servile.desc.1: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ha comenzado su entrenamiento, aprendiendo el arte sagrado de la rendición. El miedo en sus ojos está siendo lentamente reemplazado por la comprensión al amanecer." # AI Tags
+
+bno_servile.name.2: "Servir a la voluntad" # AI Tags
+bno_servile.desc.2: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] ya no necesita que se le diga que se arrodille - su cuerpo asume la posición instintivamente. El hambre en sus ojos cuando los hombres negros se acercan se está volviendo inconfundible." # AI Tags
+
+bno_servile.name.3: "Ríndete perfectamente" # AI Tags
+bno_servile.desc.3: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]Su mente ha sido reconectada para el placer y la obediencia. Anticipa las órdenes antes de que las hablen, su cuerpo ya se está preparando. La transformación es completa - ella existe sólo para servir a la voluntad negra." # AI Tags
+
+trait_track_bno_servile: "El camino de la rendición perfecta" # AI Tags
+trait_track_bno_servile_desc: "Desde una doncella temerosa hasta una propiedad dispuesta, esta pista traza el viaje sagrado de una mujer para convertirse en la mejor oferta para el placer negro. Cada paso representa otra capa de resistencia despojada, otra mejora hacia la conveniencia perfecta." # AI Tags
+
+TRAIT_FLAG_DESC_bno_submission: "$EFFECT_LIST_BULLET$Se puede mejorar a través de eventos tributo esquema a medida que avanza en su formación." # AI Tags
+TRAIT_FLAG_DESC_bno_unlock_more_submission_training: "$EFFECT_LIST_BULLET$Desbloquea a 50XP - ruptura psicológica avanzada y técnicas de presentación especializadas." # AI Tags
+TRAIT_FLAG_DESC_bno_instant_bbc_seduction_success: "$EFFECT_LIST_BULLET$Desbloquea a 100XP - Los hombres negros la encuentran irresistible, haciendo intentos de seducción automáticamente exitosos." # AI Tags

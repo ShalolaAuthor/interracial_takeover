@@ -221,3 +221,11 @@ bno_becoming_pure_white.desc: "Мое тело свидетельствует о
 bno_becoming_pure_white.tooltip: "Продолжайте литургию Семена. Это инициирует глубокую биологическую трансформацию, постоянно изменяя ваш фенотип в чистый альбинизм. Требует полной преданности одному Первосвященнику Церкви." # AI Tags
 bno_becoming_pure_white.confirm: "Я клянусь быть очищенным." # AI Tags
 bno_becoming_pure_white.effect: "Начинается ритуал очищения. Вся пигментация уходит навсегда. Волосы становятся прямыми и платиновыми белыми. Кожа становится безупречным алабастром. Цвет глаз меняется к кристаллическому синему. Все черты, связанные с смешанным наследием, удаляются." # AI Tags
+
+convert.second_step_button: "Я хочу начать поклоняться [bno_bbc|E]..." # AI Tags
+convert.convert.desc: "Преобразовать в [GetFaithByKey('bbcs').GetName]" # AI Tags
+convert.convert_to_bnwo.desc: "Принять [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
+
+bno_convert_to_african.second_step_button: "Я хочу быть одним с [bno_bbc|E]" # AI Tags
+bno_convert_to_african.convert.desc: "Я хочу переродиться как [GetCultureByKey('bnoc').GetName]" # AI Tags
+bno_convert_to_african.convert_to_bnwo.desc: "Я хочу представить [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] в мою [culture|E]" # AI Tags
