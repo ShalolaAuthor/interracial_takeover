@@ -121,6 +121,13 @@ bno_asses_training_maxed = {
 
 bno_offer_tribute_final_reward = {
     scope:tribute = {
+        every_character_artifact = {
+            limit = {
+                has_variable = bno_chastity_piercing
+            }
+            save_scope_as = bno_chastity_piercing
+            destroy_artifact = scope:bno_chastity_piercing
+        }
         create_character_memory = {
             type = bno_offer_tribute_$TYPE$
             participants = {
