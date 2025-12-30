@@ -1,25 +1,17 @@
 ﻿l_simp_chinese:
-#don't translate this yet, still figuring out how this works
-bno_embrace_african_track_desc: "拥抱非裔血统以造福你的领地"
-bno_embrace_african_track_name: "归化非裔"
-bno_embrace_african_1_name: "拥抱移民"
-bno_embrace_african_2_name: "利用移民"
-bno_embrace_african_3_name: "理解移民"
-bno_embrace_african_4_name: "承认移民"
-bno_embrace_african_5_name: "融入移民"
-
-BNO_PLACEHOLDER: ""
-EBONY_ELITES_UNLOCK_DESCRIPTION: "可以招募[GetMaA('bno_ebony_elites').GetName]作为[men_at_arms|E]"
-EBONY_ELITES_DESCRIPTION: "#weak 只能招募一队[GetMaA('bno_ebony_elites').GetName]#!"
-
-BBC_MARRIAGE_DESCRIPTION: "每当一个[bno_bbc|E]结婚，或一个白妞嫁给一个[bno_bbc|E]时，你的[dynasty|E]都将获得[prestige|E]。他们的[marriage|E]也将获得更高的[legitimacy|E]和[prestige|E]"
-
-BBC_SEX_EFFECT: "每当一个[bno_bbc|E]与你[dynasty|E]的一个白妞肏屄时，你的[dynasty|E]将获得[prestige|E]"
-
-BNO_EMBRACE_3_EFFECT: "解锁“学习移民”决议与事件"
-
-SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "选择一个[congenital|E]特质使其在你的[dynasty|E]中更加常见"
-
-BBC_CAMP_BUILDING_UNLOCK: "解锁[GetBuilding('bbc_camp_01').GetName][building|E]"
-
-BNO_SEX_EFFECT_DESCRIPTION: "解锁[GetModifier('bno_cum_for_glory').GetNameWithTooltip]"
+ bno_embrace_african_track_desc: "拥抱非裔血统以造福你的领地"
+ bno_embrace_african_track_name: "归化非裔"
+ bno_embrace_african_1_name: "拥抱移民"
+ bno_embrace_african_2_name: "利用移民"
+ bno_embrace_african_3_name: "理解移民"
+ bno_embrace_african_4_name: "承认移民"
+ bno_embrace_african_5_name: "融入移民"
+ BNO_PLACEHOLDER: ""
+ EBONY_ELITES_UNLOCK_DESCRIPTION: "可以招募[GetMaA('bno_ebony_elites').GetName]作为[men_at_arms|E]"
+ EBONY_ELITES_DESCRIPTION: "#weak 只能招募一队[GetMaA('bno_ebony_elites').GetName]#!"
+ BBC_MARRIAGE_DESCRIPTION: "每当一个[bno_bbc|E]结婚，或一个白妞嫁给一个[bno_bbc|E]时，你的[dynasty|E]都将获得[prestige|E]。他们的[marriage|E]也将获得更高的[legitimacy|E]和[prestige|E]"
+ BBC_SEX_EFFECT: "每当一个[bno_bbc|E]与你[dynasty|E]的一个白妞肏屄时，你的[dynasty|E]将获得[prestige|E]"
+ BNO_EMBRACE_3_EFFECT: "解锁“学习移民”决议与事件"
+ SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "选择一个[congenital|E]特质使其在你的[dynasty|E]中更加常见"
+ BBC_CAMP_BUILDING_UNLOCK: "解锁[GetBuilding('bbc_camp_01').GetName][building|E]"
+ BNO_SEX_EFFECT_DESCRIPTION: "解锁[GetModifier('bno_cum_for_glory').GetNameWithTooltip]"
