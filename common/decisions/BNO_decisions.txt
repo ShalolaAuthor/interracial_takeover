@@ -584,6 +584,10 @@ bno_realize_bbc_potential = {
 		}
 		is_femboi = no
 		is_bbc = no
+		trigger_if = {
+			limit = { is_female = yes }
+			carn_is_futa_trigger = yes
+		}
 	}
 	cooldown = {
 		years = 5
@@ -612,7 +616,6 @@ bno_convert_to_african = {
 			has_trait = bno_whiteboi
 			has_trait = bno_whitegirl
 		}
-		NOT = { has_trait = bno_full_black }
 		NOT = { is_culture_bnoc = yes }
 	}
 	is_valid = {
