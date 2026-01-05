@@ -145,7 +145,7 @@
             save_scope_as = tribute
         }
 
-        scope:tribute.var:bno_offer_tribute_story.var:bno_trainer = {
+        scope:tribute.var:story_bno_tribute_training.var:bno_trainer = {
             save_scope_as = trainer
         }
 
@@ -172,7 +172,7 @@
         }
 
         scope:tribute = {
-            var:bno_offer_tribute_story = {
+            var:story_bno_tribute_training = {
                 end_story = yes
             }
         }

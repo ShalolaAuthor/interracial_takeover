@@ -53,7 +53,7 @@ bno_offer_tribute_training_phase = {
 bno_offer_tribute_travel_plan_arrived = {
     effect = {
         save_scope_as = tribute
-        var:bno_offer_tribute_story = {
+        var:story_bno_tribute_training = {
             var:scheme = {
                 save_scope_as = scheme
             }
@@ -74,6 +74,9 @@ bno_offer_tribute_travel_plan_arrived = {
 
 bno_offer_tribute_travel_plan_trainer_arrived_back_to_scheme_owner = {
     effect = {
+        var:story_bno_tribute_trainer_journey = {
+            end_story = yes
+        }
         scope:owner = {
             trigger_event = bno_offer_tribute.4021
         }

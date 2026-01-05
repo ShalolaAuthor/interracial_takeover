@@ -1,0 +1,22 @@
+﻿story_bno_tribute_trainer_journey = {
+    on_owner_death = {
+        story_owner = {
+            save_scope_as = bno_trainer
+            var:offer_tribute_scheme = {
+                save_scope_as = scheme
+            }
+            liege = {
+                send_interface_message = {
+                    type = bno_blacked_events
+                    title = bno_trainer_died_during_travel_title
+                    desc = bno_trainer_died_during_travel_desc
+                    left_icon = scope:bno_trainer
+                    scope:scheme = {
+                        end_scheme = yes
+                    }
+                }
+            }
+        }
+        end_story = yes
+    }
+}

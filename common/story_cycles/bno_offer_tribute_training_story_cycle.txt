@@ -1,5 +1,20 @@
 ﻿story_bno_tribute_training = {
     on_owner_death = {
+        var:scheme = { save_scope_as = scheme }
+        scope:scheme = {
+            scheme_owner = { save_scope_as = scheme_owner }
+            scheme_target_character = { save_scope_as = target }
+        }
+        scope:scheme_owner = {
+            send_interface_message = {
+                type = bno_blacked_events
+                title = bno_offer_tribute.invalidated.title.tribute.died
+                desc = bno_offer_tribute.invalidated.desc.tribute.died
+                scope:scheme = {
+                    end_scheme = yes
+                }
+            }
+        }
         end_story = yes
     }
 

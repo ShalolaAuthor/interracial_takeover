@@ -61,7 +61,7 @@ bno_training_add_scheme_progress = {
         }
         fallback = { add_trait = bno_servile }
     }
-	var:bno_offer_tribute_story = {
+	var:story_bno_tribute_training = {
 		var:scheme = {
 			add_scheme_progress = 1
 		}
@@ -146,10 +146,7 @@ bno_offer_tribute_final_reward = {
         else = {
             add_character_modifier = bno_offer_tribute_result_$TYPE$
         }
-        var:bno_offer_tribute_story = {
-            end_story = yes
-        }
-        remove_variable = bno_offer_tribute_story
+        remove_variable = story_bno_tribute_training
         #TODO: for now is_ruler no is a bandaid fix for this scheme, next time i should do is_ruler yes, then i will do an event to strip her title
     }
     scope:trainer = {
@@ -160,4 +157,30 @@ bno_offer_tribute_final_reward = {
     }
     add_courtier = scope:tribute
     set_relation_bno_slave = scope:tribute
+}
+
+bno_trainer_final_travel_home = {
+    scope:trainer = {
+        create_story = {
+            type = story_bno_tribute_trainer_journey
+            save_scope_as = story_bno_tribute_trainer_journey
+        }
+        set_variable = {
+            name = story_bno_tribute_trainer_journey
+            value = scope:story_bno_tribute_trainer_journey
+        }
+        set_variable = {
+            name = offer_tribute_scheme
+            value = scope:scheme
+        }
+        start_travel_plan = {
+            destination = scope:owner.capital_province
+            travel_with_domicile = yes
+            players_use_planner = no                
+            return_trip = no
+            can_cancel_planning = no
+            on_arrival_on_action = bno_offer_tribute_travel_plan_trainer_arrived_back_to_scheme_owner
+            on_arrival_destinations = last
+        }
+    }
 }

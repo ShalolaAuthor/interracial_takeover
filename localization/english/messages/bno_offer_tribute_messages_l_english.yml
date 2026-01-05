@@ -14,3 +14,6 @@ bno_offer_tribute.invalidated.desc.target.died: "[target.GetName], the BBC Lord 
 
 bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] Has Been Imprisoned"
 bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName], the BBC Lord you were preparing your daughter to be sent to, has been imprisoned by rival forces. He cannot receive her. Your daughter remains here in your household, her purpose suspended indefinitely. All arrangements are frozen. Her future is now uncertain."
+
+bno_trainer_died_during_travel_title: "[bno_trainer.GetFirstName] died during travel"
+bno_trainer_died_during_travel_desc: "You lost a potential amount of [bno_trainer.GetGold] [gold_i]"
