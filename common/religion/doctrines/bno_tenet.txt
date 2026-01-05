@@ -122,6 +122,7 @@
 
 		parameters = {
 			hostility_override_special_doctrine_is_bno_faith = 2
+			is_bno_faith_bilateral_loc_override = 2
 			can_use_bno_artefacts = yes
 			bno_syncretic_actor_opinion_active = yes
 			opinion_of_bno_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value

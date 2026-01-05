@@ -408,7 +408,21 @@
 			holy_site = paderborn
 			holy_site = ranaheim
 			holy_site = uppsala
+
+			# East Europe
+			holy_site = kiev
 			
+			# West Central Asia
+			holy_site = badd
+			holy_site = samarkand
+			
+			# Asia
+			holy_site = chang_an
+			holy_site = hiei
+			holy_site = luoyang
+			holy_site = bianliang
+			holy_site = hangzhou
+
 			doctrine = west_african_unreformed_faith_doctrine
 
 			#Tenets
