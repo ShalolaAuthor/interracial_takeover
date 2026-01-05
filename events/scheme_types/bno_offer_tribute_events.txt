@@ -2160,6 +2160,10 @@ bno_offer_tribute.4011 = {
         scope:target = { is_alive = yes }
     }
 
+    immediate = {
+        bno_target_gain_gold_from_every_adult_black_people = yes
+    }
+
     option = {# Exquisite
         name = {
             text = {
@@ -2253,13 +2257,13 @@ bno_offer_tribute.4012 = {
             }
             bno_offer_tribute_final_reward = {
                 TYPE = lending_exquisite
-                REWARD = 200
+                REWARD = bno_tribute_reward_lending_exquisite
             }
         }
         else = {
             bno_offer_tribute_final_reward = {
                 TYPE = selling_exquisite
-                REWARD = 2000
+                REWARD = bno_target_gold_from_solidarity
             }
         }
     }
@@ -2321,13 +2325,13 @@ bno_offer_tribute.4013 = {
             }
             bno_offer_tribute_final_reward = {
                 TYPE = lending_adequate
-                REWARD = 100
+                REWARD = bno_tribute_reward_lending_adequate
             }
         }
         else = {
             bno_offer_tribute_final_reward = {
                 TYPE = selling_adequate
-                REWARD = 1000
+                REWARD = bno_tribute_reward_selling_adequate
             }
         }
     }

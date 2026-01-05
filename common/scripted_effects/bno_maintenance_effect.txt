@@ -1,4 +1,17 @@
-﻿bno_apply_african_trait = {
+﻿bno_add_black_character_to_global_variable_list = {
+    if = {
+        limit = {
+            has_trait = bno_full_black
+        }
+        save_scope_as = bno_story_maintenance_story_owner
+        add_to_global_variable_list = {
+            name = bno_black_people_list
+            target = scope:bno_story_maintenance_story_owner
+        }
+    }
+}
+
+bno_apply_african_trait = {
     if = {
         limit = {
             age > 0

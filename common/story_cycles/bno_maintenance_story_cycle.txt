@@ -14,11 +14,22 @@
             	bno_remove_bbc_from_non_african = yes
             	bno_seed_breast_size_variable = yes
 				bno_remove_futa_existence = yes
+				bno_add_black_character_to_global_variable_list = yes
 			}
         }
     }
 
     on_owner_death = {
+		if = {
+			limit = { story_owner = { is_african = yes } }
+			story_owner = {
+				save_scope_as = story_owner
+			}
+			remove_list_global_variable = {
+				name = bno_black_people_list
+				target = scope:story_owner
+			}
+		}
         end_story = yes
     }
 	#immortal maintenance

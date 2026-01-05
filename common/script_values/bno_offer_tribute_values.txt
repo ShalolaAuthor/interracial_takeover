@@ -11,3 +11,23 @@ bno_scheme_progress_80 = {
     value = scope:scheme.scheme_phase_duration
     multiply = 0.8
 }
+
+bno_target_gold_from_solidarity = {
+    value = var:bno_gold_after
+    subtract = var:bno_gold_now
+}
+
+bno_tribute_reward_lending_exquisite = {
+    value = bno_target_gold_from_solidarity
+    divide = 2
+}
+
+bno_tribute_reward_lending_adequate = {
+    value = bno_target_gold_from_solidarity
+    divide = 5
+}
+
+bno_tribute_reward_selling_adequate = {
+    value = bno_target_gold_from_solidarity
+    divide = 2
+}

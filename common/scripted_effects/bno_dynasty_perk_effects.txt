@@ -504,8 +504,10 @@ bno_fuck_every_one_in_exchange_for_gold = {
 		save_scope_as = bno_whore
         remove_variable = bno_trade_prestige_for_gold
 	}
-    every_living_character = {
+    every_in_global_list = {
+        variable = bno_black_people_list
         limit = {
+            is_alive = yes
             is_adult = yes
             is_a_male = yes
             is_bbc = yes

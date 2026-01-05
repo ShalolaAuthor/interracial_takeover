@@ -149,11 +149,21 @@ bno_offer_tribute_final_reward = {
         remove_variable = story_bno_tribute_training
         #TODO: for now is_ruler no is a bandaid fix for this scheme, next time i should do is_ruler yes, then i will do an event to strip her title
     }
+    scope:target = {
+        pay_short_term_gold = {
+            gold = $REWARD$
+            target = scope:trainer
+        }
+    }
     scope:trainer = {
-        # TODO: add the rewards to trainer then he will travel back to capital. this rewards is temporary until i can code the proper giving army / and some other shit
-        add_gold = $REWARD$
-        add_prestige = $REWARD$
-        add_piety = $REWARD$
+        add_prestige = {
+            value = $REWARD$
+            divide = 2
+        }
+        add_piety = {
+            value = $REWARD$
+            divide = 5
+        }
     }
     add_courtier = scope:tribute
     set_relation_bno_slave = scope:tribute
@@ -182,5 +192,38 @@ bno_trainer_final_travel_home = {
             on_arrival_on_action = bno_offer_tribute_travel_plan_trainer_arrived_back_to_scheme_owner
             on_arrival_destinations = last
         }
+    }
+}
+
+bno_target_gain_gold_from_every_adult_black_people = {
+    #needs character scope here
+    save_scope_as = bno_target_gain_gold_from_every_adult_black_people_scope
+    set_variable = {
+        name = bno_gold_now
+        value = gold
+        months = 1
+    }
+    every_in_global_list = {
+        variable = bno_black_people_list
+        limit = {
+            is_alive = yes
+            is_adult = yes
+            gold > 1
+        }
+        hidden_effect = {
+            pay_short_term_gold = {
+                gold = { 0 1 }
+                target = scope:bno_target_gain_gold_from_every_adult_black_people_scope
+            }
+        }
+    }
+    set_variable = {
+        name = bno_gold_after
+        value = gold
+        months = 1
+    }
+    custom_description = {
+        text = bno_target_gains_gold_in_anticipation_of_tribute_coming
+        value = bno_target_gold_from_solidarity
     }
 }
