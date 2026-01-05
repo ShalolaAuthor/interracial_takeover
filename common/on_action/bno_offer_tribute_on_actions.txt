@@ -82,3 +82,30 @@ bno_offer_tribute_travel_plan_trainer_arrived_back_to_scheme_owner = {
         }
     }
 }
+
+bno_offer_tribute_after_lending_start = {
+    effect = {
+        scope:parent = {
+            send_interface_message = {
+                type = bno_blacked_events
+                title = tribute_is_coming_back_title
+                desc = tribute_is_coming_back_desc
+                left_icon = scope:tribute
+            }
+        }
+    }
+}
+
+bno_offer_tribute_after_lending_arrival = {
+    effect = {
+        scope:parent = {
+            send_interface_message = {
+                type = bno_blacked_events
+                title = tribute_has_safely_arrived_back_title
+                desc = tribute_has_safely_arrived_back_desc
+                left_icon = scope:tribute
+                add_courtier = scope:tribute
+            }
+        }
+    }
+}

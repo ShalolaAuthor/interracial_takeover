@@ -165,8 +165,69 @@ bno_offer_tribute_final_reward = {
             divide = 5
         }
     }
+    if = {
+        limit = {
+            owns_story_of_type = story_bno_offer_tribute_rewards
+        }
+        var:story_bno_offer_tribute_rewards = {
+            add_to_variable_list = {
+                name = bno_patrons
+                target = scope:owner
+            }
+            add_to_variable_list = {
+                name = bno_tributes
+                target = scope:tribute
+            }
+        }
+    }
+    else = {
+        create_story = {
+            type = story_bno_offer_tribute_rewards
+            save_scope_as = story_bno_offer_tribute_rewards
+        }
+        set_variable = {
+            name = story_bno_offer_tribute_rewards
+            value = scope:story_bno_offer_tribute_rewards
+        }
+        scope:story_bno_offer_tribute_rewards = {
+            add_to_variable_list = {
+                name = bno_patrons
+                target = scope:owner
+            }
+            add_to_variable_list = {
+                name = bno_tributes
+                target = scope:tribute
+            }
+        }
+    }
+
     add_courtier = scope:tribute
     set_relation_bno_slave = scope:tribute
+    if = {
+        limit = {
+            scope:scheme.var:offer_tribute_end_goal = flag:lending
+        }
+        scope:tribute = {
+            create_story = {
+                type = story_bno_offer_tribute_lending
+                save_scope_as = story_bno_offer_tribute_lending
+            }
+            set_variable = {
+                name = story_bno_offer_tribute_lending
+                value = scope:story_bno_offer_tribute_lending
+            }
+            scope:story_bno_offer_tribute_lending = {
+                set_variable = {
+                    name = bno_offer_tribute_target
+                    value = scope:target
+                }
+                set_variable = {
+                    name = bno_offer_tribute_owner
+                    value = scope:owner
+                }
+            }
+        }
+    }
 }
 
 bno_trainer_final_travel_home = {
@@ -225,5 +286,27 @@ bno_target_gain_gold_from_every_adult_black_people = {
     custom_description = {
         text = bno_target_gains_gold_in_anticipation_of_tribute_coming
         value = bno_target_gold_from_solidarity
+    }
+}
+
+bno_remove_from_tributes_and_patrons_list = {
+    var:bno_offer_tribute_target = {
+        save_scope_as = target
+    }
+    var:bno_offer_tribute_owner = {
+        save_scope_as = owner
+    }
+    story_owner = {
+        save_scope_as = tribute
+        scope:target = {
+            remove_list_variable = {
+                name = bno_tributes
+                target = scope:tribute
+            }
+            remove_list_variable = {
+                name = bno_patrons
+                target = scope:owner
+            }
+        }
     }
 }

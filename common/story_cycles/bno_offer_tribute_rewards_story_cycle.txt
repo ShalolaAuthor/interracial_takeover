@@ -1,0 +1,122 @@
+﻿story_bno_offer_tribute_rewards = {
+    on_owner_death = {
+        story_owner = {
+            save_scope_as = story_owner
+        }
+        every_in_list = {
+            variable = bno_patrons
+            limit = {
+                is_alive = yes
+            }
+            send_interface_toast = {
+                type = bno_blacked_events
+                title = story_bno_offer_tribute_rewards_died_title
+                desc = story_bno_offer_tribute_rewards_died_desc
+                right_icon = scope:story_owner
+            }
+        }
+        end_story = yes
+    }
+    effect_group = { # sex with tribute
+        days = { 30 60 }
+        trigger = {
+            variable_list_size = {
+                name = bno_tributes
+                value > 0
+            }
+        }
+        triggered_effect = {
+            trigger = { always = yes }
+            effect = {
+                story_owner = { save_scope_as = story_owner }
+                scope:story_owner = {
+                    send_interface_message = {
+                        type = bno_blacked_events
+                        title = bno_having_sex_with_tributes_title
+                        desc = bno_having_sex_with_tributes_desc
+                        every_in_list = {
+                            variable = bno_tributes
+                            save_scope_as = tribute
+                            scope:story_owner = {
+                                bno_have_sex_with_effects = {
+                                    PARTNER = scope:tribute
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    effect_group = { # random rewards for patrons
+        months = { 6 12 }
+        trigger = {
+            variable_list_size = {
+                name = bno_patrons
+                value > 0
+            }
+        }
+        triggered_effect = {
+            trigger = { always = yes }
+            effect = {
+                story_owner = {
+                    save_scope_as = story_owner
+                }
+                every_in_list = {
+                    variable = bno_patrons
+                    limit = { is_alive = no }
+                    save_scope_as = bno_dead_patrons
+                    scope:story_owner = {
+                        remove_list_variable = {
+                            name = bno_patrons
+                            target = scope:bno_dead_patrons
+                        }
+                    }
+                }
+                every_in_list = {
+                    variable = bno_patrons
+                    save_scope_as = patrons
+                    scope:patrons = {
+                        send_interface_message = {
+                            type = bno_blacked_events
+                            title = bno_give_rewards_to_patron_title
+                            desc = bno_give_rewards_to_patron_desc
+                            random_list = {
+                                1 = {
+                                    custom_description = {
+                                        text = bno_african_warriors_gift_effect
+                                        spawn_army = {
+                                            men_at_arms = {
+                                                type = bno_african_warriors
+                                                stacks = { 1 2 }
+                                            }
+                                            location = scope:patrons.location
+                                            origin = scope:story_owner.location
+                                            name = african_warrior_tribute_reward
+                                            save_scope_as = bno_african_warriors
+                                        }
+                                    }
+                                }
+                                8 = {
+                                    scope:story_owner = {
+                                        pay_short_term_gold = {
+                                            gold = minor_gold_value
+                                            target = scope:patrons
+                                        }
+                                    }
+                                }
+                                12 = {
+                                    add_prestige = scope:story_owner.minor_prestige_gain
+                                }
+                                16 = {
+                                    add_piety = scope:story_owner.minor_piety_gain
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
