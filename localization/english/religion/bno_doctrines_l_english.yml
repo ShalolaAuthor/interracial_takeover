@@ -24,3 +24,4 @@ tenet_bno_seed_of_divine_blessing_desc: "Within the Church of the Black Cock, ev
 
 tenet_bno_syncretism_name: "Supremacy of the Black Cock"
 tenet_bno_syncretism_desc: "The Black Cock's power is an undeniable, physical truth. Whatever other philosophies we may entertain, all must ultimately kneel and accept its supreme authority, taking its sacred essence into their bodies and souls."
+doctrine_parameter_hostility_override_tenet_bno_syncretism: "Non-BNWO [faiths|E] with the $tenet_bno_syncretism_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"

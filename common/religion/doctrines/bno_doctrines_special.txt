@@ -10,7 +10,6 @@
             hostility_override_tenet_bno_syncretism = 2
             bno_syncretic_recipient_opinion_active = yes
             opinion_of_bno_syncretic_actor_opinion_active = 30
-            bbcs_faith = yes
         }
     }
 }

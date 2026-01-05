@@ -41,7 +41,7 @@
 
 	#Special
 	doctrine = special_doctrine_naked_priests
-	doctrine = special_doctrine_is_gnostic_faith
+	doctrine = special_doctrine_is_bno_faith
 	doctrine = divine_destiny_doctrine
 	
 	traits = {
