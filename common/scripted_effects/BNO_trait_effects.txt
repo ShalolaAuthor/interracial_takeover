@@ -655,6 +655,11 @@ bno_increase_pussy_wear_effect = {
 				is_male = no
                 is_a_girl = yes
                 NOT = { has_trait = bno_pussy_mileage_6 }
+				NOT = {
+					any_equipped_character_artifact = {
+						has_variable = bno_chastity_piercing
+					}
+				}
             }
             if = {
                 limit = {
