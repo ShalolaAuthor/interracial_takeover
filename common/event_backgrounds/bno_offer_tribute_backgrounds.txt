@@ -213,3 +213,11 @@ bno_offer_tribute.4013 = {
         ambience = "event:/SFX/Events/Backgrounds/feasthall"
     }
 }
+
+bno_offer_tribute.5000 = {
+    background = {
+        reference = "gfx/interface/illustrations/event_scenes/bno_offer_tribute.5000.dds"
+        environment = "environment_event_garden"
+        ambience = "event:/SFX/Events/Backgrounds/feasthall"
+    }
+}

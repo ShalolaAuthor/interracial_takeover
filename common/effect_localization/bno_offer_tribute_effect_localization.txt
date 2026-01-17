@@ -1,0 +1,8 @@
+﻿bno_target_gains_gold_in_anticipation_of_tribute_coming = {
+    global = GAIN_GOLD_FROM_FELLOW_BLACK
+    first = GAIN_GOLD_FROM_FELLOW_BLACK
+    third = GAIN_GOLD_FROM_FELLOW_BLACK
+    global_past = GAIN_GOLD_FROM_FELLOW_BLACK_PAST
+    first_past = GAIN_GOLD_FROM_FELLOW_BLACK_PAST
+    third_past = GAIN_GOLD_FROM_FELLOW_BLACK_PAST
+}

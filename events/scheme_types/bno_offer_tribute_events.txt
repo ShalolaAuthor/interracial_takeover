@@ -2485,3 +2485,57 @@ bno_offer_tribute.4021 = {
         }
     }
 }
+
+#available scope: bno_tribute, bno_parent, bno_target
+bno_offer_tribute.5000 = {
+    type = character_event
+    window = sex_event_window
+    theme = bno_offer_tribute
+
+    override_background = {
+        reference = bno_offer_tribute.5000
+    }
+
+    title = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:bno_parent = { is_slut = yes }
+                }
+                desc = bno_offer_tribute.5000.title.slut
+            }
+            desc = bno_offer_tribute.5000.title.cuck
+        }
+    }
+    desc = {
+        first_valid = {
+            triggered_desc = {
+                trigger = {
+                    scope:bno_parent = { is_slut = yes }
+                }
+                desc = bno_offer_tribute.5000.desc.slut
+            }
+            desc = bno_offer_tribute.5000.desc.cuck
+        }
+    }
+
+    immediate = {
+
+    }
+
+    option = {
+        name = {
+            text = {
+                first_valid = {
+                    triggered_desc = {
+                        trigger = {
+                            scope:bno_parent = { is_slut = yes }
+                        }
+                        desc = bno_offer_tribute.5000.a.slut
+                    }
+                    desc = bno_offer_tribute.5000.a.cuck
+                }
+            }
+        }
+    }
+}

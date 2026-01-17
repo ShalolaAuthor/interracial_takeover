@@ -1,4 +1,5 @@
 ﻿story_bno_offer_tribute_lending = {
+    #available variable: bno_offer_tribute_target, bno_offer_tribute_owner
     on_owner_death = {
         bno_remove_from_tributes_and_patrons_list = yes
         if = {
@@ -21,54 +22,25 @@
         end_story = yes
     }
     effect_group = {
+        months = 1
+        trigger = {
+            var:bno_offer_tribute_target = {
+                is_alive = no
+            }
+        }
+        triggered_effect = {
+            trigger = { always = yes }
+            effect = {
+                bno_return_tribute_to_parent = yes
+            }
+        }
+    }
+    effect_group = {
         years = 5
         triggered_effect = {
             trigger = { always = yes }
             effect = {
-                bno_remove_from_tributes_and_patrons_list = yes
-                story_owner = {
-                    remove_relation_bno_slave = scope:target
-                    scope:target = {
-                        remove_courtier_or_guest = scope:tribute
-                    }
-                    if = {
-                        limit = {
-                            any_parent = {
-                                is_alive = yes
-                                OR = {
-                                    is_ruler = yes
-                                    any_spouse = {
-                                        is_ruler = yes
-                                    }
-                                }
-                            }
-                        }
-                        random_parent = {
-                            limit = {
-                                is_alive = yes
-                                OR = {
-                                    is_ruler = yes
-                                    any_spouse = {
-                                        is_ruler = yes
-                                    }
-                                }
-                            }
-                            save_scope_as = parent
-                        }
-                        start_travel_plan = {
-                            destination = scope:parent.location
-                            travel_leader = scope:tribute
-                            travel_with_domicile = yes
-                            players_use_planner = no
-                            return_trip = no
-                            can_cancel_planning = no
-                            on_start_on_action = bno_offer_tribute_after_lending_start
-                            on_arrival_on_action = bno_offer_tribute_after_lending_arrival
-                            on_arrival_destinations = last
-                        }
-                    }
-                }
-                end_story = yes
+                bno_return_tribute_to_parent = yes
             }
         }
     }

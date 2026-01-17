@@ -98,13 +98,13 @@ bno_offer_tribute_after_lending_start = {
 
 bno_offer_tribute_after_lending_arrival = {
     effect = {
+        save_scope_as = bno_tribute
         scope:parent = {
-            send_interface_message = {
-                type = bno_blacked_events
-                title = tribute_has_safely_arrived_back_title
-                desc = tribute_has_safely_arrived_back_desc
-                left_icon = scope:tribute
-                add_courtier = scope:tribute
+            save_scope_as = bno_parent
+
+            trigger_event = {
+                id = bno_offer_tribute.5000
+                delayed = yes
             }
         }
     }
