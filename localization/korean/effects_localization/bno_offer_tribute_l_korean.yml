@@ -1,0 +1,4 @@
+﻿l_korean:
+
+GAIN_GOLD_FROM_FELLOW_BLACK: "당신은 이득을 얻습니다 $VALUE|V0$ [gold_i|E] 당신의 동료로부터 [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+GAIN_GOLD_FROM_FELLOW_BLACK_PAST: "넌 얻었어 $VALUE|V0$ [gold_i|E] 당신의 동료로부터 [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags

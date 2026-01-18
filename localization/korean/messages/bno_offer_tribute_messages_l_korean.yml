@@ -14,3 +14,23 @@ bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]당신이 딸�
 
 bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] 감옥에 갇혔다" # AI Tags
 bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName]당신 딸을 보내려고 준비하던 BBC 경은 경쟁력 있는 세력들에 의해 감옥에 갇혔습니다. 그는 그녀를 받아들일 수 없습니다. 당신의 딸은 당신의 집에 남아 있습니다. 그녀의 목적은 무한히 중단됩니다. 모든 조정이 얼어붙었어. 그녀의 미래는 이제 불확실하다." # AI Tags
+
+bno_trainer_died_during_travel_title: "[bno_trainer.GetFirstName] 여행 중 사망" # AI Tags
+bno_trainer_died_during_travel_desc: "당신은 잠재적인 양을 잃었습니다 [bno_trainer.GetGold] [gold_i]" # AI Tags
+
+tribute_is_coming_back_title: "그녀는 집으로 돌아온다." # AI Tags
+tribute_is_coming_back_desc: "새벽에 라이더가 도착했습니다. 제 딸을 추모하고 있습니다. 메시지는 "주님" [bno_target.GetFirstName] 그녀의 서비스로 "완전히 만족했다". 난 이제 통로를 밟고 있는데, 내 배가 꽉 차있어요. 그가 그녀를 어떻게 만들었지? 그녀의 피부, 자세, 빈 눈에는 어떤 교훈이 새겨져 있습니까? 그녀는 그의 판단을 내 뼈 안에 담고 있습니다. 저는 제 걸작을 보고, 그 작품이 그에게 충분히 좋은지 알아보기 위해 기다리고 있습니다." # AI Tags
+
+bno_offer_tribute_lending_died_title: "봉사 의 삶" # AI Tags
+bno_offer_tribute_lending_died_desc: "주님으로부터 말씀이 왔습니다 [target.GetFirstName]법원입니다. 당신들의 공훈은 그의 직무로 죽었습니다. 세부 사항은 알려지지 않았습니다. 거래가 완료된 것 같습니다." # AI Tags
+
+story_bno_offer_tribute_rewards_died_title: "[story_owner.GetFirstName] 멸종" # AI Tags
+story_bno_offer_tribute_rewards_died_desc: "주님 [story_owner.GetFirstName] 죽었어. 그의 집의 보호가 사라졌습니다. 당신의 추모는 그의 빈 홀에 남아 있습니다. 그녀의 목적과 운명은 이제 불확실합니다." # AI Tags
+
+bno_having_sex_with_tributes_title: "청구 [tribute.GetFirstName]" # AI Tags
+bno_having_sex_with_tributes_desc: "[tribute.GetFirstName] 네 앞에 무릎을 꿇고, 그녀의 완전한 몸은 떨고 있는 침묵에서 제공되었습니다. 당신 소유한 것을 가져가세요. 공기는 그녀의 질식한 울음소리와 점령의 부드럽고 습한 리듬으로 가득합니다. 그녀의 빈 눈은 더 어지고, 그녀의 몸이 설계된 대로 사용되면서 그녀의 마음은 더 텅 비어 있습니다. 이것은 즐거움이 아니라 확증입니다. 당신의 의지에 대한 살아있는 증거, 그것을 받기 위해 다시 만들어졌습니다." # AI Tags
+
+bno_give_rewards_to_patron_title: "그분 의 기쁨 의 증거" # AI Tags
+bno_give_rewards_to_patron_desc: "또 다른 선물은 주님으로부터 왔습니다 [story_owner.GetFirstName]법원입니다. 그 형태는 그 의미보다 중요하지 않습니다. 당신의 추모는 계속 그 목적을 잘 수행합니다. 모든 배달은 그의 지속적인 만족의 새로운 징후이며 그녀의 몸의 투자가 당신의 집에 안정적인 수익을 가져다 줄 것을 상기시킵니다." # AI Tags
+
+african_warrior_tribute_reward: "[story_owner.GetFirstName]선물이야" # AI Tags

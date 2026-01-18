@@ -1,13 +1,20 @@
 ﻿l_simp_chinese:
+
  bno_african_warriors: "非洲勇士"
  bno_african_warriors_flavor: "#F 精锐散兵，以速度和适应森林、丛林等恶劣地形的能力而闻名。#!"
+
  bno_ebony_elites: "乌檀精英"
  bno_ebony_elites_flavor: "#F 一支声名显赫的重步兵部队，以纪律严明和战斗力强而闻名，通常是王国军事力量的中坚力量。#!"
+
  bno_cock_maidens: "黑屌侍女"
  bno_cock_maidens_flavor: "#F 精心挑选的与黑屌密教关系密切的少女，这些侍女挥动着刀锋与肢体作为武器。数量稀少但是热忱无人能敌。她们以惨无人道的精准出击，她们那淫荡的忠诚将每场战斗化作鲜血的狂欢与对黑屌的膜拜。#!"
+
  bno_seed_thralls: "种奴"
  bno_seed_thralls_flavor: "#F 在军中受训却以小穴团结在一起的白种女性，她们列阵出征最后的结局确实跪地臣服。每一次挥动长矛不过是前戏罢了，每次举起盾牌都紧伴随着呻吟，只因一旦战斗结束，她们真正的奖赏就是被分开双腿然后被公牛填满。#!"
+
+
  bnwo_armies: "[bnwo_armies|E]"
+
  bnwo_armies_screen_add: "[bnwo_armies|E][screen|E]"
  bnwo_armies_screen_mult: "$bnwo_armies_screen_add$"
  bnwo_armies_pursuit_add: "[bnwo_armies|E][pursuit|E]"
@@ -22,6 +29,7 @@
  bnwo_armies_recruitment_cost_mult: "[bnwo_armies|E]招募花费"
  bnwo_armies_siege_value_add: "[bnwo_armies|E][siege_progress|E]"
  bnwo_armies_siege_value_mult: "$bnwo_armies_siege_value_add$"
+
  stationed_bnwo_armies_damage_add: "[stationed|E][bnwo_armies|E][damage|E]"
  stationed_bnwo_armies_damage_mult: "$stationed_bnwo_armies_damage_add$"
  stationed_bnwo_armies_toughness_add: "[stationed|E][bnwo_armies|E][toughness|E]"
@@ -32,4 +40,5 @@
  stationed_bnwo_armies_screen_mult: "$stationed_bnwo_armies_screen_add$"
  stationed_bnwo_armies_siege_value_add: "[stationed|E][bnwo_armies|E][siege_progress|E]"
  stationed_bnwo_armies_siege_value_mult: "$stationed_bnwo_armies_siege_value_add$"
+
  bno_hotwife_army_name: "媚黑荡妇军团"

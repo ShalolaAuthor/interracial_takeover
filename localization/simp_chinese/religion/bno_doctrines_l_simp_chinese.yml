@@ -1,23 +1,4 @@
 ﻿l_simp_chinese:
-<<<<<<< HEAD
- special_doctrine_is_bno_faith_name: "黑屌至上"
- is_bno_faith_name: "$special_doctrine_is_bno_faith_name$"
- special_doctrine_is_bno_faith_desc: "我们要对那些还没能体验[bno_bbc|E]带来的极乐的人展现同情，因为只要尝试一次就够了。一旦你上了路就会一条道走到“黑”！虽然现在他们的心灵因无知而迷茫，但是之后他们就会前来膜拜我们的祭坛，乞求[bno_bbc|E]那美好的力量。"
- bno_hostility_group_name: "$hostility_group_name$"
- bno_hostility_doctrine_name: "爱欲主义"
- bno_hostility_doctrine_desc: "以下宗教属于爱欲主义：\n[GetReligionFamily('rf_bbcs').GetReligions]"
- doctrine_bno_tenets_name: "[bno_religion|E]：教条"
- tenet_bno_black_cock_conquest_name: "黑屌征服"
- tenet_bno_black_cock_conquest_desc: "通过狂热的祈祷与神圣的征服，我们将会把[bno_bbc|E]的荣光传遍整个大陆！"
- tenet_bno_hate_name: "黑屌憎恶"
- tenet_bno_hate_desc: "白皮世界的所有教条都在[GetFaithByKey('bbcs').GetName]面前退缩。他们只在我们的崇拜中看见亵渎，只在我们的后裔中看见毁灭，只在我们对他们女性的统治中看见耻辱。于他们而言，我们的福音是堕落，我们的仪式是淫秽，我们的公牛是化作血肉的恶魔。然而他们仍在战栗——因仇恨终难阻挡[bno_bbc|E]的崛起。"
- tenet_bno_aniconism_name: "肉体崇拜"
- tenet_bno_aniconism_desc: "圣像崇拜蒙蔽了弱者，使他们看不见唯一的神圣真理：活着的[bno_bbc|E]。我们将所有偶像驱逐出圣地，以免虚妄的幻象玷污圣域。万物非主唯有黑屌。"
- tenet_bno_seed_of_divine_blessing_name: "神佑之种"
- tenet_bno_seed_of_divine_blessing_desc: "在黑屌教会中，每段结合都由公牛的强力精液予以神圣化——忠诚的衡量不在于禁欲，而在于每个孔洞对神圣欢愉的饥渴臣服。渴望新公牛的女性不会蒙羞；每声呻吟皆是祈祷，每次臣服皆是圣礼。被公牛精液灌满的子宫被奉为神圣——分娩是幸福而安全的，每个降临人世的孩童都强健活泼，带着神圣的恩宠印记。每次高潮般的分娩都是鲜活的仪式，让信仰在神圣的虔诚与情欲中膨胀。这就是黑屌的祝福：没有罪恶，唯有崇拜，每个滴着精液的子宫都是黑种力量的活生生的见证。"
- tenet_bno_syncretism_name: "黑屌至上"
- tenet_bno_syncretism_desc: "大黑屌的力量是一种不可否认的、物理性的真实。无论我们可能怀有怎样的其他哲学思想，最终都必须跪拜并接受其至高无上的权威，将其神圣本质融入身体与灵魂。"
-=======
 
 special_doctrine_is_bno_faith_name: "黑屌至上"
 is_bno_faith_name: "$special_doctrine_is_bno_faith_name$"
@@ -43,4 +24,4 @@ tenet_bno_seed_of_divine_blessing_desc: "在黑屌教会中，每段结合都由
 
 tenet_bno_syncretism_name: "黑鸡的优先性" # AI Tags
 tenet_bno_syncretism_desc: "黑鸡的力量是不可否认的 真实的真理. 不论我们能否接受其他哲学,所有人都必须最终下跪并接受其最高权威,将神圣的本质带入其身体和灵魂。." # AI Tags
->>>>>>> 5f1ea0907baadde5fb568d601d17fe3f9cb52d4f
+doctrine_parameter_hostility_override_tenet_bno_syncretism: "非非非非非非非非非非非非非非 [faiths|E] 和和 $tenet_bno_syncretism_name$ 基本原则被考虑 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 代替 $hostility_evil_tooltippable$" # AI Tags

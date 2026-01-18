@@ -1,4 +1,5 @@
 ﻿l_simp_chinese:
+#sneak bbc interaction
  sneak_bbc: "偷运黑公牛"
  sneak_bbc_desc: "派遣你王庭的一名[bno_bbcs|E]进入另一个统治者的宫廷。"
  actor_secondary_sneak_bbc: "选择要派出的公牛"
@@ -11,5 +12,6 @@
  sneak_bbc.has_bbc_in_court: "你至少需要两名[bno_bbc|E]在你的宫廷里才能派出其中一位。"
  sneak_bbc.already_has_bbc_in_court: "那个宫廷的母狗们已经被公牛们填满了——不需要再送过去一个了。"
  sneak_bbc.not_enough_of_a_slut: "作为一只母狗你还不够。只有真正的[GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)]或更糟糕的人才敢在宫廷间走私公牛。"
+#influence child interaction
  bno_influence_child: "促进好奇心"
  bno_influence_child_desc: "影响儿童了解真相"

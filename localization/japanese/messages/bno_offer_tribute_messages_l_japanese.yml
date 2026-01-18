@@ -14,3 +14,23 @@ bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]あなたの娘
 
 bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] 投獄 さ れ た" # AI Tags
 bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName]あなたの娘が送られるよう準備していたBBCのLordは ライバル勢力によって 投獄されました. 彼には彼女を受け付けられない. あなたの娘はあなたの家に残され 目的は無期限に停止されます. すべての準備は凍結された. 彼女の未来は不確実だ." # AI Tags
+
+bno_trainer_died_during_travel_title: "[bno_trainer.GetFirstName] 旅行中に死亡" # AI Tags
+bno_trainer_died_during_travel_desc: "あなたは潜在的量の損失を [bno_trainer.GetGold] [gold_i]" # AI Tags
+
+tribute_is_coming_back_title: "彼女は帰宅する." # AI Tags
+tribute_is_coming_back_desc: "騎手が夜明けに到着した. 私の娘への敬意は 途中です. メッセージは"主よ [bno_target.GetFirstName] "完全に満足"でした. 廊下を走って 腹が詰まっている. 彼は何をしたの? 彼女の肌や姿勢や 空っぽの目には どんな教訓がありますか? 彼女は彼の判決を 骨の中で私に背負っている. 私は私の傑作を見るのを待っています 彼にとって十分だったかどうか." # AI Tags
+
+bno_offer_tribute_lending_died_title: "奉仕 の 生活" # AI Tags
+bno_offer_tribute_lending_died_desc: "主からのメッセージが届きました [target.GetFirstName]裁判所に. あなたの敬意は彼の奉仕で死んだ. 詳細は書かれていません. 取引は完了したようだ." # AI Tags
+
+story_bno_offer_tribute_rewards_died_title: "[story_owner.GetFirstName] 滅亡した" # AI Tags
+story_bno_offer_tribute_rewards_died_desc: "主よ [story_owner.GetFirstName] 死んだんだ. 彼の家の保護はなくなった. あなたの敬意は彼の空っぽのホールに 残り 彼女の目的と運命は 不確実です." # AI Tags
+
+bno_having_sex_with_tributes_title: "請求 [tribute.GetFirstName]" # AI Tags
+bno_having_sex_with_tributes_desc: "[tribute.GetFirstName] あなたの前にひざまずいて 震える沈黙の中で彼女の完ぺきな身体を捧げます. 自分のものを取って. 空気は彼女の窒息した嘆き声と 支配の滑らかな湿ったリズムで満たされます. 彼女の空白な目はさらに輝き 身体が設計されたように使用され 心が空くなっています. これは喜びではなく 肯定です. あなたの意志の 生きている証し 受け取るために再現された." # AI Tags
+
+bno_give_rewards_to_patron_title: "神 の 喜び の 証" # AI Tags
+bno_give_rewards_to_patron_desc: "もう1つの贈り物は主から来ています [story_owner.GetFirstName]裁判所に. その形は意味よりも 重要ではありません あなたの敬意は その目的をよく果たしています. 彼女の身体の投資が あなたの家に安定した利益をもたらすことを 思い出させるのです." # AI Tags
+
+african_warrior_tribute_reward: "[story_owner.GetFirstName]贈り物" # AI Tags

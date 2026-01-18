@@ -1,0 +1,4 @@
+﻿l_spanish:
+
+GAIN_GOLD_FROM_FELLOW_BLACK: "Ganas $VALUE|V0$ [gold_i|E] de tu compañero [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+GAIN_GOLD_FROM_FELLOW_BLACK_PAST: "Ganaste $VALUE|V0$ [gold_i|E] de tu compañero [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags

@@ -24,3 +24,4 @@ tenet_bno_seed_of_divine_blessing_desc: "블랙콕의 교회 안에서, 모든 �
 
 tenet_bno_syncretism_name: "블랙 콕 의 우월성" # AI Tags
 tenet_bno_syncretism_desc: "블랙콕의 힘은 부정할 수 없는 물리적인 진실입니다. 어떤 다른 철학도 우리가 즐겁게 할 수 있더라도, 모든 사람들은 궁극적으로 무릎을 꿇고 그 최고 권위를 받아들여야 하며, 그 신성한 본질을 자신의 몸과 영혼으로 가져야 합니다." # AI Tags
+doctrine_parameter_hostility_override_tenet_bno_syncretism: "비BNWO [faiths|E] 그리고 $tenet_bno_syncretism_name$ 텐트는 고려됩니다 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 대신 $hostility_evil_tooltippable$" # AI Tags

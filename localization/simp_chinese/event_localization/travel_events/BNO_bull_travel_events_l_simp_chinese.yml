@@ -1,4 +1,5 @@
 ﻿l_simp_chinese:
+#Travel Flavor Events
  bno_bull_travel_0001.title: "发现目标"
  bno_bull_travel_0001.desc: "关于你长度的传闻传得比你想的更快。你所在区域的荡妇们都听说了你，渴望你的阳物进入她们的子宫。也许有些人还渴望你的种子。一位当地女子试图引诱你停留几天，与[target1.GetHerHis]共度亲密时光。你不想迟到，但诱惑实在太大。选择留下还是继续前行。"
  bno_bull_travel_0001.a: "稍作耽搁并不能改变任何事情。"

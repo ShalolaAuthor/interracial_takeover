@@ -24,3 +24,4 @@ tenet_bno_seed_of_divine_blessing_desc: "Innerhalb der Kirche des schwarzen Schw
 
 tenet_bno_syncretism_name: "Supremacy der schwarz schwanz" # AI Tags
 tenet_bno_syncretism_desc: "Die Macht des Schwarzen Schwanzes ist eine unbestreitbare, physische Wahrheit. Was auch immer andere Philosophien wir unterhalten können, alle müssen schließlich knien und akzeptieren ihre höchste Autorität, nehmen ihre heilige Essenz in ihren Körper und Seelen." # AI Tags
+doctrine_parameter_hostility_override_tenet_bno_syncretism: "Nicht-BNWO [faiths|E] mit der $tenet_bno_syncretism_name$ tenet werden in Betracht gezogen [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] statt $hostility_evil_tooltippable$" # AI Tags

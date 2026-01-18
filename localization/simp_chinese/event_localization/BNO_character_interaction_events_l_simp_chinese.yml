@@ -1,7 +1,10 @@
 ﻿l_simp_chinese:
+ #Influence Child
+ #success
  bno_character_interaction_0001.title: "禽鸟与蜜蜂"
  bno_character_interaction_0001.desc: "对高等种族的崇拜并非天生。然而，多亏你与涌入你领地的非洲人民的‘交往’，你已经能够说服你的女儿，对任何她感兴趣的人产生兴趣都是完全可以的。虽然你曾表达过希望她嫁给地位更高的人，但你鼓励了她考虑无地的农奴，尤其是那些肤色较深的人。与她一同走出花园时，你不禁希望你王朝的新座右铭是促进一个混血的未来。"
  bno_character_interaction_0001.a: "我们去喝点什么吧。"
+ #failure
  bno_character_interaction_0002.title: "禽鸟与蜜蜂"
  bno_character_interaction_0002.desc: "当你解释有地和无地人民的角色、包办婚姻、血统等等时，你自己的亲人似乎陷入了沉思，心不在焉地想着其他事情。这一切似乎都没有留下任何印象，即使你的女儿正逐渐成熟。你对孩子缺乏理解感到越来越沮丧，于是决定转移话题——希望情况会好转。"
  bno_character_interaction_0002.a: "我想，我们去喝点什么吧。"

@@ -24,3 +24,4 @@ tenet_bno_seed_of_divine_blessing_desc: "В Церкви Черного Кока
 
 tenet_bno_syncretism_name: "Преобладание черного кука" # AI Tags
 tenet_bno_syncretism_desc: "Сила Черного Кока - это неоспоримая физическая истина. Какими бы другими философиями мы ни занимались, все должны в конечном итоге встать на колени и принять его высшее власть, приняв его священную сущность в своих телах и душах." # AI Tags
+doctrine_parameter_hostility_override_tenet_bno_syncretism: "Не-БНВО [faiths|E] с $tenet_bno_syncretism_name$ Тентеты рассматриваются [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$" # AI Tags

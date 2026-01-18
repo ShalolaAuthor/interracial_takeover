@@ -24,3 +24,4 @@ tenet_bno_seed_of_divine_blessing_desc: "Au sein de l'Église du Cock noir, chaq
 
 tenet_bno_syncretism_name: "Suprématie de la bite noire" # AI Tags
 tenet_bno_syncretism_desc: "Le pouvoir du Black Cock est une vérité indéniable et physique. Quelles que soient les autres philosophies que nous pouvons amuser, tous doivent finalement s'agenouiller et accepter son autorité suprême, en prenant son essence sacrée dans leur corps et leur âme." # AI Tags
+doctrine_parameter_hostility_override_tenet_bno_syncretism: "Non-BNWO [faiths|E] avec $tenet_bno_syncretism_name$ les principes sont pris en considération [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] au lieu de $hostility_evil_tooltippable$" # AI Tags

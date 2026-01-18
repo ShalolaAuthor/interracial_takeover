@@ -1,50 +1,4 @@
 ﻿l_simp_chinese:
-<<<<<<< HEAD
- bno_bbc_worshipper_court_position: "大黑鸡巴供奉者"
- bno_bbc_worshipper_court_position_desc: "时刻不断地侍奉、供奉[bno_bbc|E]并被其随心所欲地使用"
- bno_court_position_trait_bno_pure_white: "[GetTrait('bno_pure_white').GetName( ROOT.Char )]"
- bno_court_position_trait_curious: "[GetTrait('bno_whitegirl_1').GetName( ROOT.Char )]"
- bno_court_position_trait_blacked: "[GetTrait('bno_whitegirl_2').GetName( ROOT.Char )]"
- bno_court_position_trait_snowbunny: "[GetTrait('bno_whitegirl_3').GetName( ROOT.Char )]"
- bno_court_position_trait_qos: "[GetTrait('bno_whitegirl_4').GetName( ROOT.Char )]"
- bno_court_position_trait_mindless: "[GetTrait('bno_whitegirl_5').GetName( ROOT.Char )]"
- bno_court_position_trait_bno_bbc_whore_1: "[GetTrait('bno_bbc_whore_1').GetName( ROOT.Char )]"
- bno_court_position_trait_bno_bbc_whore_2: "[GetTrait('bno_bbc_whore_2').GetName( ROOT.Char )]"
- bno_court_position_trait_bno_bbc_whore_3: "[GetTrait('bno_bbc_whore_3').GetName( ROOT.Char )]"
- bno_court_position_trait_bno_bbc_whore_4: "[GetTrait('bno_bbc_whore_4').GetName( ROOT.Char )]"
- bno_court_position_trait_bno_pussy_mileage_1: "[GetTrait('bno_pussy_mileage_1').GetName( ROOT.Char )]"
- bno_court_position_trait_bno_pussy_mileage_2: "[GetTrait('bno_pussy_mileage_2').GetName( ROOT.Char )]"
- bno_court_position_trait_bno_pussy_mileage_3: "[GetTrait('bno_pussy_mileage_3').GetName( ROOT.Char )]"
- bno_court_position_trait_bno_pussy_mileage_4: "[GetTrait('bno_pussy_mileage_4').GetName( ROOT.Char )]"
- bno_court_position_trait_bno_pussy_mileage_5: "[GetTrait('bno_pussy_mileage_5').GetName( ROOT.Char )]"
- bno_court_position_trait_bno_pussy_mileage_6: "[GetTrait('bno_pussy_mileage_6').GetName( ROOT.Char )]"
- bno_court_position_trait_beauty_good_1: "[GetTrait('beauty_good_1').GetName( ROOT.Char )]"
- bno_court_position_trait_beauty_good_2: "[GetTrait('beauty_good_2').GetName( ROOT.Char )]"
- bno_court_position_trait_beauty_good_3: "[GetTrait('beauty_good_3').GetName( ROOT.Char )]"
- bno_court_position_trait_bno_lifestyle_bbc_priestess: "[GetTrait('bno_lifestyle_bbc_priestess').GetName( ROOT.Char )]"
- bno_court_position_trait_bno_lifestyle_bbc_priest: "[GetTrait('bno_lifestyle_bbc_priest').GetName( ROOT.Char )]"
- bno_court_position_trait_tits_big_good_1: "[GetTrait('tits_big_good_1').GetName( ROOT.Char )]"
- bno_court_position_trait_tits_big_good_2: "[GetTrait('tits_big_good_2').GetName( ROOT.Char )]"
- bno_court_position_trait_tits_big_good_3: "[GetTrait('tits_big_good_3').GetName( ROOT.Char )]"
- bno_court_position_trait_tits_big_good_4: "[GetTrait('tits_big_good_4').GetName( ROOT.Char )]"
- bno_court_position_trait_fecund: "[GetTrait('fecund').GetName( ROOT.Char )]"
- hire_bbc_worshipper_decision: "寻找[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
- hire_bbc_worshipper_decision_effect_tooltip: "几位[GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]候选人将会被带到你面前，你可以以一定费用以及每月[gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]的薪水招募他们当中一人"
- bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$成为[bno_whore|E]"
- bno_bbc_priestess_employer_custom_effect_description: "$BULLET$成为他们[liege|E]的[bbc_evangelist|E]"
- bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$"
- bno_bbc_priestess_court_position: "BBC女祭司"
- bno_bbc_priestess_court_position_desc: "他们浑身涂满圣油，将勃起的阴茎和湿滑的阴户塞进每个贵族的嘴和洞里，直到整个王国都膜拜他们黑神浓稠的精液。"
- bno_bbc_priest_court_position: "BBC祭司"
- bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$"
- bno_breeding_bull_court_position: "配种公牛"
- bno_breeding_bull_court_position_desc: "一位卓越的黑人男性致力于让我们最优秀的女性受孕，并以他神圣的种子提升我们的血统。"
- bno_breeding_bull.employer.modifier.desc: "$BULLET$系统性提高每名宫廷内的非黑人女性的生育力。"
- story_bno_breeding_bull.message.title.whiteboi: "公牛索要他的奖赏"
- story_bno_breeding_bull.message.desc.whiteboi: "你从角落窥视，自身的无能暴露无遗——那头配种公牛刚与你宫廷又一名女子交合完毕。本次发情期他已为[bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue]名女子播下种子，其卓绝的生殖力不容置疑。"
- story_bno_breeding_bull.message.title.whitegirl: "满是高贵浓精"
- story_bno_breeding_bull.message.desc.whitegirl: "当种公牛抽身而出时，一股深沉而满足的暖意在你体内蔓延，他神圣的精粹已然扎根。今夜，你是他正式配种的[bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue]名女性之一，圆满达成了你至高的使命。"
-=======
 
 bno_bbc_worshipper_court_position: "大黑鸡巴供奉者"
 bno_bbc_worshipper_court_position_desc: "时刻不断地侍奉、供奉[bno_bbc|E]并被其随心所欲地使用"
@@ -95,6 +49,7 @@ bno_bbc_priestess_court_position_desc: "他们浑身涂满圣油，将勃起的�
 
 bno_bbc_priest_court_position: "BBC祭司"
 bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$"
+
 bno_breeding_bull_court_position: "播种牛牛" # AI Tags
 bno_breeding_bull_court_position_desc: "一位优秀的黑人男子 献身于孕育我们最好的女人 用神圣的种子改善我们的血脉." # AI Tags
 
@@ -105,4 +60,3 @@ story_bno_breeding_bull.message.desc.whiteboi: "你从转角看, 你自己的不
 
 story_bno_breeding_bull.message.title.whitegirl: "填满高级种子" # AI Tags
 story_bno_breeding_bull.message.desc.whitegirl: "深深的,满足的温暖 通过你扩散 通过你,随着育牛牛拉出, 他神圣的精华 已经扎根。. 你是其中之一 [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] 实现你的最高目标." # AI Tags
->>>>>>> 5f1ea0907baadde5fb568d601d17fe3f9cb52d4f

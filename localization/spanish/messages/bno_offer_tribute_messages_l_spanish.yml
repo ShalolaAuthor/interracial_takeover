@@ -14,3 +14,23 @@ bno_offer_tribute.invalidated.desc.target.died: "[target.GetName], el Señor de 
 
 bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] Ha sido encarcelado" # AI Tags
 bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName], el Señor de la BBC al que preparabas a tu hija para ser enviada, ha sido encarcelado por fuerzas rivales. No puede recibirla. Su hija permanece aquí en su casa, su propósito suspendido indefinidamente. Todos los arreglos están congelados. Su futuro es ahora incierto." # AI Tags
+
+bno_trainer_died_during_travel_title: "[bno_trainer.GetFirstName] murió durante el viaje" # AI Tags
+bno_trainer_died_during_travel_desc: "Perdiste una cantidad potencial de [bno_trainer.GetGold] [gold_i]" # AI Tags
+
+tribute_is_coming_back_title: "Va a volver a casa ." # AI Tags
+tribute_is_coming_back_desc: "Un jinete llegó al amanecer. Mi tributo, mi hija, está en camino. El mensaje decía Señor [bno_target.GetFirstName] estaba "totalmente satisfecho" con su servicio. Paso por los pasillos ahora, mi estómago apretado. ¿Qué ha hecho de ella? ¿Qué lecciones están grabadas en su piel, su postura, sus ojos vacíos? Ella lleva su veredicto de vuelta a mí en sus propios huesos. Estoy esperando para ver mi obra maestra, y para aprender si era lo suficientemente bueno para él." # AI Tags
+
+bno_offer_tribute_lending_died_title: "Una vida en servicio" # AI Tags
+bno_offer_tribute_lending_died_desc: "La palabra ha llegado del Señor [target.GetFirstName]Es la corte. Su tributo ha muerto en su servicio. No se dan detalles. Parece que la transacción está completa." # AI Tags
+
+story_bno_offer_tribute_rewards_died_title: "[story_owner.GetFirstName] Pericida" # AI Tags
+story_bno_offer_tribute_rewards_died_desc: "Señor [story_owner.GetFirstName] Está muerto. La protección de su casa se ha ido. Su tributo permanece en sus salones vacíos, su propósito y destino ahora inciertos." # AI Tags
+
+bno_having_sex_with_tributes_title: "Reclamación [tribute.GetFirstName]" # AI Tags
+bno_having_sex_with_tributes_desc: "[tribute.GetFirstName] se arrodilla ante ti, su cuerpo perfeccionado ofrece en tembloroso silencio. Tomas lo que es tuyo. El aire se llena con los sonidos de sus gemidos ahogados y el ritmo húmedo y resbaladizo de la posesión. Sus ojos vacíos se resplandecen aún más, su mente vaciando como su cuerpo se utiliza exactamente como fue diseñado para. Esto no es placer; es afirmación. Un testamento vivo a tu voluntad, rehecho para recibirla." # AI Tags
+
+bno_give_rewards_to_patron_title: "Una señal de su placer" # AI Tags
+bno_give_rewards_to_patron_desc: "Otro regalo llega del Señor [story_owner.GetFirstName]Es la corte. Su forma importa menos que su significado: su tributo sigue sirviendo bien a su propósito. Cada entrega es una nueva marca de su continua satisfacción, un recordatorio de que la inversión de su cuerpo da un retorno constante para su casa." # AI Tags
+
+african_warrior_tribute_reward: "[story_owner.GetFirstName]Regalo" # AI Tags

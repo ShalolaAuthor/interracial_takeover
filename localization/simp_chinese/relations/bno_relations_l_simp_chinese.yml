@@ -1,13 +1,17 @@
 ﻿l_simp_chinese:
+
  bno_slave: "[bno_slave|E]"
  relation_bno_slave: "BBC奴隶"
  relation_bno_slave_possessive: "BBC奴隶"
+
  bno_slave_owner: "[bno_slave_owner|E]"
  relation_bno_slave_owner: "奴隶主人"
  relation_bno_slave_owner_possessive: "奴隶主人"
+
  bno_cum_slave: "[bno_cum_slave|E]"
  relation_bno_cum_slave: "精液奴隶"
  relation_bno_cum_slave_possessive: "精液奴隶"
+
  bno_cum_slave_owner: "[bno_bull|E]"
  relation_bno_cum_slave_owner: "公牛"
  relation_bno_cum_slave_owner_possessive: "公牛"

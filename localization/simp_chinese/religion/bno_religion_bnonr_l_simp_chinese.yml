@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
+
+# Religious Descriptors
  bnonr: "黑鸡巴教会"
  bnonr_adj: "拜黑教"
  bnonr_religion: "黑鸡巴教会"
@@ -60,34 +62,33 @@
  bbcs_witch_god_name_possessive: "$bbcs_witch_god_name$的"
  bbcs_ghw: "阿丁克拉"
  bbcs_ghws: "$bbcs_ghw$"
+
+
  bbcs: "黑鸡巴教会"
  bbcs_adj: "拜黑教"
  bbcs_adherent: "黑人至上主义者"
  bbcs_adherent_plural: "黑人至上主义者们"
  bbcs_desc: "黑人至上主义者们相信所有人都应该臣服于这个更优越的种族。"
+
  bbcs_old: "黑鸡巴教会"
  bbcs_old_adj: "拜黑教"
  bbcs_old_adherent: "黑人至上主义者"
  bbcs_old_adherent_plural: "黑人至上主义者们"
+
+
+# Holy Order Names
  bnoho1: "黑神教团"
  bnoho2: "黑屌瘟疫"
  bnoho3: "加纳骑士团"
  bnoho4: "马里入侵者"
  bnoho5: "皈依剧团"
+
+# Conversion Decision
  convert: "皈依崇拜更黑的男人"
  convert_desc: "甜心，你的脑子里全是黑鸡巴。你为什么不臣服于一个更优越的种族，让他们成为你的神呢？"
  convert_tooltip: "你琢磨着那根肉乎乎的黑屌..."
  convert_confirm: "你全身心投入到赞美[bno_bbc|E]之中"
  convert_effect_1: "你将皈依[bno_religion|E]"
-<<<<<<< HEAD
- rf_bbcs: "爱神殿"
- rf_bbcs_desc: "$rf_bbcs$是一幅黑人中心传统的栩栩如生的挂毯，由极乐崇拜、强大的魔法，以及对于白人的救赎在于被强大的黑人种子填满的坚不可摧的信仰编织而成。"
- bnonr_religion_opinion: "$bnonr_religion_adherent$意见"
- doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "认为与拜黑教结盟的[faiths|E]，并被拜黑教结盟的$game_concept_faiths$视为[GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]，而非$hostility_evil_tooltippable$"
- doctrine_parameter_can_use_bno_artefacts: "可以获得拜黑教[artifacts|E]的完整收益"
- doctrine_parameter_bno_syncretic_actor_opinion_active: "与拜黑教[faiths|E]之间有[EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0]的双向[opinion|E]加成"
- doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: ""
-=======
 
 rf_bbcs: "爱神殿"
 rf_bbcs_desc: "$rf_bbcs$是一幅黑人中心传统的栩栩如生的挂毯，由极乐崇拜、强大的魔法，以及对于白人的救赎在于被强大的黑人种子填满的坚不可摧的信仰编织而成。"
@@ -98,4 +99,3 @@ doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "考虑与B
 doctrine_parameter_can_use_bno_artefacts: "可使用BNWO [artifacts|E] 全额养恤金" # AI Tags
 doctrine_parameter_bno_syncretic_actor_opinion_active: "相互之间 [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] 与 BNWO 调整的 BNWO 奖金 [faiths|E]" # AI Tags
 doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: "" # AI Tags
->>>>>>> 5f1ea0907baadde5fb568d601d17fe3f9cb52d4f

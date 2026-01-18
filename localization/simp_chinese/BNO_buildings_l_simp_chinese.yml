@@ -1,4 +1,6 @@
 ﻿l_simp_chinese:
+
+#BBC Camp
  building_type_bbc_camp_01: "非洲人聚居点"
  building_type_bbc_camp_01_desc: "一个所有非洲难民聚集并与当地女性混杂的聚居地。"
  building_bbc_camp_01: "繁殖营地"
@@ -13,21 +15,29 @@
  building_bbc_camp_05_desc: "城市人口实际上已经被非洲难民入侵，所有女性至少都被非洲人的鸡巴插过一次。"
  building_bbc_camp_06: "大黑屌天堂"
  building_bbc_camp_06_desc: "在这个繁华的大都市，女人从四面八方涌来，只为一尝地球上最炙手可热的鸡巴--大黑鸡巴。"
+
  building_type_bbc_church_01: "$bnonr$"
  building_type_bbc_church_01_desc: "$bnonr$内的空气中回荡着疯狂的呻吟与绝望的喘息，身体在汗水浸润的狂热中扭动，头顶是滴落着油腻光泽的拱形天花板，那光泽闪烁着如同溢出的精液般璀璨。"
  building_bbc_church_01: "$bnonr$：基座"
  building_bbc_church_01_desc: "即便此刻，在任何一座尖塔尚未刺破天际，任何一块彩色玻璃尚未绽放出禁忌的色彩之前，我几乎就能感受到它：那股从地基深处涌动的寒意，蕴含着无尽的力量。这些黑色的石块深埋于地底，每一块都沾染着黑暗的油污，蕴含着无尽肉欲狂欢的承诺。"
  building_bbc_church_02: "$bnonr$：大教堂"
  building_bbc_church_02_desc: "在其回响的厅堂内，每日都会举行盛大的祭祀仪式，以膜拜[bno_bbc|E]为名，祭品涵盖物质与精神两方面，其中包括每周一次的仪式性献祭——白人男子将自己的妻子作为活体贡品，献于那座象征着深邃欲望的乌木祭坛之上。"
+
  NOT_bbc_or_whitegirl_trigger: "持有者必须是[bno_bbc|E]或白人女性"
+
  has_dynasty_perk_1: "你的家族已经拥有[GetDynastyPerk('bno_embrace_african_1').GetName]，踏上了黑爹至上的道路。"
  has_dynasty_perk_2: "你的家族已经拥有[GetDynastyPerk('bno_embrace_african_2').GetName], 深化在黑色新世界秩序下的宣称。"
  has_dynasty_perk_5_and_piety_level: "你的家族已经拥有[GetDynastyPerk('bno_embrace_african_5').GetName]并且你的虔诚表现你为被选中者，满足于公牛的律法之下。"
+
+
  building_type_bbc_trader_01: "黑曜石商队"
  building_type_bbc_trader_01_desc: "一个献给黑色新世界秩序的游荡市集。其马车载着创世酊剂，将荡妇束缚成仅靠精液维生的存在，直至她们肌肤黝黑、子宫成熟为黑色女王。与之并行的黑色子宫灵药，是种阴险的药剂，能阉割白人男孩，抹去他们的阳具，将他们重塑为腹部隆起的肥沃荡妇。摊位陈列着供蠕虫使用的阳具笼，为献出私处、乞求仅通过肛门受孕的荡妇准备贞操穿刺，以及无数其他臣服工具。商队始于过境营地，却随着层层深入，最终化作精液与征服的永久烙印。"
+
  building_bbc_trader_01: "黑曜石空地"
  building_bbc_trader_01_desc: "起初只是片荒芜的土地，插满黑旗，环绕火炬。几顶丝绸帐篷在风中飘扬，公牛号马车驶入时，空气中飘散着麝香气息。奇异货物的传言悄然蔓延——瓶装酊剂能令荡妇沦为种奴，小瓶灵药则宣称能让白人男子丧失阳刚。即便在此初始阶段，荡妇们已偷瞄着这处所在，白人男子却羞愧地避之不及。"
+
  building_bbc_trader_02: "黑曜石营地"
  building_bbc_trader_02_desc: "空地逐渐扩展成整座营地，随着每日马车抵达，排排帐篷拔地而起。公牛成群结队聚集，其存在感令人窒息。黑胚胎灵药公然倾倒，白人男孩排队啜饮，感受阳具逐渐萎缩。荡妇们跪地渴求药剂，喉咙早已被调教成只靠精液维生。烟雾、麝香与呻吟充斥空气——这已非新鲜事，而是暗黑动脉，将公牛之力泵入你的领域。"
+
  building_bbc_trader_03: "黑曜石会场"
  building_bbc_trader_03_desc: "如今商队以栅栏加固，旗帜高悬，已成公牛永恒的圣所。贸易、繁衍与祭祀在此融为一体。创世酊剂在公开仪式中施用，娼妓们因肌肤渐黑、子宫升腾而备受颂扬。灵药自由流淌，白人男孩们被游街示众，最终阴茎萎缩成滴着液体的娼妓。摊位上堆满笼具、穿刺饰物与镣铐，所有标记所有权的器具都毫无羞耻地陈列着。这片土地自此永远烙印着BNWO贸易与蜕变的枢纽印记。"

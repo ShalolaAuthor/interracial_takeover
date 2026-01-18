@@ -24,3 +24,4 @@ tenet_bno_seed_of_divine_blessing_desc: "W Kościele Czarnego Kurczaka każda un
 
 tenet_bno_syncretism_name: "Wzmocnienie czarnego kurca" # AI Tags
 tenet_bno_syncretism_desc: "Moc Black Cocka jest niezaprzeczalną, fizyczną prawdą. Niezależnie od innych filozofii, które przyjmujemy, wszyscy muszą w końcu klękać i zaakceptować jej najwyższą władzę, wprowadzając jej świętą esencję w swoje ciała i dusze." # AI Tags
+doctrine_parameter_hostility_override_tenet_bno_syncretism: "Nie-BNWO [faiths|E] wraz z $tenet_bno_syncretism_name$ tenety są rozważane [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] zamiast $hostility_evil_tooltippable$" # AI Tags

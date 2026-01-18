@@ -1,52 +1,77 @@
 ﻿l_simp_chinese:
+
+#BBC's POV if wife is white breeder
  bno_birth.0001.wife.t: "我的妻子, 白人的丰产子宫"
  bno_birth.0001.wife.desc: "你的妻子[ROOT.GetCharacter.GetName]再次生下了一个黑人宝宝，巩固了她作为优质子宫的声誉。她生来就是为了养育非洲后代的。"
+#Cuck's POV if wife is white breeder
  bno_birth.0001.cuck.wife.t: "养育了许多孩子"
  bno_birth.0001.cuck.wife.desc: "你的妻子 [ROOT.GetCharacter.GetName] 生了几个孩子。不过，你内心深处还是觉得他们大多数看起来都不一样，这很奇怪。"
+
  bno_birth.0001.lover.t: "我的情人, 白人女孩的子宫"
  bno_birth.0001.lover.desc: "你的情人[ROOT.GetCharacter.GetName]继续背叛她的种族，生下一个黑人孩子。她最大的快乐就是进一步巩固黑人的优越感。"
+
  bno_birth.0001.t: "我的子宫"
  bno_birth.0001.personal_desc: "又一个黑人婴儿从我子宫里诞生。孩子的皮肤与我的肤色交相辉映，让我充满自豪，并再次燃起我对更强大优秀种族的渴望。"
+
  bno_birth.0002.t: "我的种子"
  bno_birth.0002.personal_desc: "我已为这个世界带来了许多黑人子女。"
+
  bno_birth_real_father_notification.title: "我的孩子"
  bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] 生下了孩子，无论你是否能证明，你心里都清楚，她的孩子是你的。"
  bno_birth_cuck_father_notification.title: "我的孩子"
  bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName]生下了孩子，你对他病恹恹的样子感到有些惊讶。孩子皮肤这么黑正常吗？"
+
  bno_happy_wife.0001.title: "妻子看上去很高兴"
  bno_happy_wife.0001.desc: "你很高兴看到[ROOT.GetCharacter.GetName]最近似乎情绪高涨。"
+
  bno_married.title: "娶妻"
  bno_married_desc: "你娶妻是为了进一步推进黑人的领导。愿她为你生儿育女。"
+
  bno_bull_0004_notification.title: "妻子吃得很好"
  bno_bull_0004_notification.desc: "最近，你的妻子 [ROOT.GetCharacter.GetName] 似乎已经改掉了过去不良的饮食习惯。她说她现在几乎只吃流质食物。她一定很喜欢这样，因为偶尔有人看到她嘴边还残留着那些流质食物。"
+
  bno_bull_0008_notification.title: "惊人的相似"
  bno_bull_0008_notification.desc: "有传言称，一名妓女在黑人难民营中游荡，长得与你亲爱的妻子 [target1.GetFirstName] 惊人地相似。"
+
  bno_bull_0010_notification.title: "会计错误？"
  bno_bull_0010_notification.desc: "我确定我没有记错，国库里好像少了一些黄金。谁会拿走它？"
+
  bno_bull_0012_notification.title: "他知道什么吗？"
  bno_bull_0012_notification.desc: "最近我注意到 [ROOT.GetCharacter.GetName] 看我的眼神有些不同，好像他知道一些不该知道的事情。"
+
  bno_slut_0008_notification.title: "惊人的相似"
  bno_slut_0008_notification.desc: "有传言称，一名妓女在黑人难民营中游荡，长得与你亲爱的妻子 [target1.GetFirstName] 惊人地相似。"
+
  bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName]把你给宠坏了"
  bbc_worshipper.0002.notifications.desc: "在连月经历辛勤劳动、不知疲倦的夜晚后，她将手头的一切资产交给你了，因为她不知道要拿这些东西怎么办。"
+
  bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName]已经转而信奉[bno_religion|E]"
  bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName]已经拥抱[bno_religion|E]的教义，将[target_vassal.GetHerselfHimself]投入到信仰以及它所带来的愉悦中去了。"
+
  bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName]已经转而信奉[bno_religion|E]"
  bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName]已经拥抱[bno_religion|E]的教义，将其资源都投入到信仰以及它所带来的愉悦中去了。"
+
  bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName]已经转而信奉[bno_religion|E]"
  bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName]已经拥抱[bno_religion|E]的教义，将[neighboring_lord_or_lady.GetHerselfHimself] to its worship and the pleasures it brings."
+
  bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName]已经转而信奉[bno_religion|E]"
  bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName]已经拥抱[bno_religion|E]的教义，将其资源都投入到信仰以及它所带来的愉悦中去了。"
+
  bbc_priestess.1001.rejected_conversion.male.title: "改信被拒绝：黑屌遭受唾弃"
  bbc_priestess.1001.rejected_conversion.male.desc: "尽管[ROOT.Char.GetFirstName]热切的进行那关于把身心都臣服于[bno_bbc|E]之荣光的布道，围观者却厌恶地转身离开了。他们内心依旧固执己见，他们唇齿未受祝福，而黑屌教会今天没能收获任何信徒。"
+
  bbc_priestess.1001.rejected_conversion.female.title: "她的恳求受拒：黑屌遭受抵制"
  bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName]用燥热的辞藻阐述自己虔诚并承诺着通过拥抱BBC来获得的救赎，人们却很抗拒。他们的思想依旧封闭，他们躯体依旧未被染指，而今夜她那神圣的欲望没能令任何人改信。"
+
  bbc_priestess.1001.target_not_found.male.title: "祭司神圣的狩猎逐渐陷入绝望……"
  bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName]跪在黑屌祭坛前，彻夜未眠且因神圣的欲望而悸动。没有新的追随者出席礼拜。没有用来指引改信的罪人——只有他自己的大肉棒，因神圣的饥渴而垂涎，渴望着将神圣的种子注入新信徒那颤抖的虔诚里。"
+
  bbc_priestess.1001.target_not_found.female.title: "女祭司期待着追随者……"
  bbc_priestess.1001.target_not_found.female.desc: "披着蚕丝色的长袍，侍女[ROOT.Char.GetFirstName]躬身在黑屌祭坛前，她那丰满的巨乳在颤抖的虔诚下被压缩在一起。伴随着超凡脱俗的高贵于贴心、扣人心弦的微笑，她小声对着烛光念诵祷告——但是没有罪人前来改信，这让她柔软的身躯在神圣的渴望下颤抖着，急切渴望着拥抱那神圣的贡品，她一直渴望膜拜的对象"
+
  bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName]已经彻底黒堕了"
  bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName]已经彻底黒堕了"
  bno_marriage.0007.notifications.desc.male: "许多来自你家族的成员已将他们黑色的种子散布到合适的配偶体内"
  bno_marriage.0007.notifications.desc.female: "许多来自你家族的成员已与#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!结婚"
+
  bbc_diarch: "[bno_bbc|E]"

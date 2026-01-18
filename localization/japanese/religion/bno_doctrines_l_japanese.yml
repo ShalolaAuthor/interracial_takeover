@@ -24,3 +24,4 @@ tenet_bno_seed_of_divine_blessing_desc: "ブラックカック教会では,す�
 
 tenet_bno_syncretism_name: "ブラックカック の 優位性" # AI Tags
 tenet_bno_syncretism_desc: "ブラックカックの力は 否定できない 物理的な真実です. 他の哲学がどんなものでも 最終的には 膝をひざまずいて その最高権威を受け入れ その神聖な本質を 自分の体と魂に 取り入れなければなりません." # AI Tags
+doctrine_parameter_hostility_override_tenet_bno_syncretism: "BNWOでない [faiths|E] と $tenet_bno_syncretism_name$ 原則は考慮される [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 代わりに $hostility_evil_tooltippable$" # AI Tags

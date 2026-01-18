@@ -24,3 +24,4 @@ tenet_bno_seed_of_divine_blessing_desc: "Dentro de la Iglesia del Gallo Negro, t
 
 tenet_bno_syncretism_name: "Supremacía del Pollo Negro" # AI Tags
 tenet_bno_syncretism_desc: "El poder del Black Cock es una verdad física innegable. Cualesquiera que sean otras filosofías que podamos entretener, en última instancia todos deben arrodillarse y aceptar su autoridad suprema, llevando su esencia sagrada a sus cuerpos y almas." # AI Tags
+doctrine_parameter_hostility_override_tenet_bno_syncretism: "No BNWO [faiths|E] con la $tenet_bno_syncretism_name$ tenet se consideran [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" # AI Tags
