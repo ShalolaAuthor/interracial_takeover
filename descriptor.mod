@@ -1,4 +1,4 @@
-version="2.4.5.Pre-Release"
+version="2.4.5"
 tags={
 	"Culture"
 	"Religion"
