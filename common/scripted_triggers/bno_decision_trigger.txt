@@ -21,18 +21,7 @@ is_valid_for_converting_to_african = {
 		has_trait = bno_whitegirl_5
 		has_trait = bno_whiteboi_4
 	}
-	NOT = { is_culture_bnoc = yes }
-	OR = {
-		AND = {
-			is_married = yes
-			any_spouse = {
-				is_culture_bnoc = yes
-			}
-		}
-		any_courtier_or_guest = {
-			is_culture_bnoc = yes
-		}
-	}
+	is_culture_bnoc = no
 }
 has_bbc_trader = {
 	any_held_county = {

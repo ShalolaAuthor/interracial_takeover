@@ -129,7 +129,7 @@ convert = {
 			is_valid = { always = yes }
 			current_description = convert.convert.desc
 			localization = convert.convert.desc
-			icon = "gfx/interface/icons/bno_convert_to_BBC_Church.dds" #TODO: add icon
+			icon = "gfx/interface/icons/bno_convert_to_BBC_Church.dds" 
 			flat = no
 			ai_chance = {
 				value = 100
@@ -157,7 +157,7 @@ convert = {
 			}
 			current_description = convert.convert_to_bnwo.desc
 			localization = convert.convert_to_bnwo.desc
-			icon = "gfx/interface/icons/bno_convert_current_religion_to_BNWO_religion.dds" #TODO: add icon
+			icon = "gfx/interface/icons/bno_convert_current_religion_to_BNWO_religion.dds" 
 			flat = no
 			ai_chance = {
 				value = 0
@@ -633,7 +633,7 @@ bno_convert_to_african = {
 			is_valid = { always = yes }
 			current_description = bno_convert_to_african.convert.desc
 			localization = bno_convert_to_african.convert.desc
-			icon = "gfx/interface/icons/bno_convert_to_african.dds" #TODO: add icon
+			icon = "gfx/interface/icons/bno_convert_to_african.dds" 
 			flat = no
 			ai_chance = {
 				value = 100
@@ -661,7 +661,7 @@ bno_convert_to_african = {
 			}
 			current_description = bno_convert_to_african.convert_to_bnwo.desc
 			localization = bno_convert_to_african.convert_to_bnwo.desc
-			icon = "gfx/interface/icons/bno_convert_culture_to_BNWO.dds" #TODO: add icon
+			icon = "gfx/interface/icons/bno_convert_culture_to_BNWO.dds" 
 			flat = no
 			ai_chance = {
 				value = 0
@@ -677,6 +677,34 @@ bno_convert_to_african = {
 				}
 			}
 		}
+		item = { # Diverge Culture to BNWO Culture
+			value = bno_diverge_culture_to_BNWO
+			is_shown = { always = yes }
+			is_valid = { 
+				save_temporary_scope_as = bno_character
+				culture.culture_head = {
+					save_temporary_scope_as = bno_culture_head_character
+				}
+				NOT = { scope:bno_character = scope:bno_culture_head_character }
+			}
+			current_description = bno_convert_to_african.convert_to_bnwo.desc
+			localization = bno_convert_to_african.convert_to_bnwo.desc
+			icon = "gfx/interface/icons/bno_convert_culture_to_BNWO.dds" 
+			flat = no
+			ai_chance = {
+				value = 0
+				if = {
+					limit = {
+						save_temporary_scope_as = bno_character
+						culture.culture_head = {
+							save_temporary_scope_as = bno_culture_head_character
+						}
+						NOT = { scope:bno_character = scope:bno_culture_head_character }
+					}
+					add = 100
+				}
+			}
+		}
 	}
 
 	effect = {
@@ -684,41 +712,21 @@ bno_convert_to_african = {
 			limit = {
 				scope:bno_convert_to_african = yes
 			}
-			if = {
-				limit = {
-					any_spouse ?= {
-						is_culture_bnoc = yes
-					}
-				}
-				every_spouse = {
-					limit = {
-						is_culture_bnoc = yes
-					}
-					culture = { save_scope_as = spouse_culture }
-				}
-				set_culture = scope:spouse_culture
-			}
-			else_if = {
-				limit = {
-					any_courtier_or_guest = {
-						is_culture_bnoc = yes
-					}
-				}
-				random_courtier_or_guest = {
-					limit = {
-						is_culture_bnoc = yes
-					}
-					culture = {
-						save_scope_as = new_culture
-					}
-				}
-				set_culture = scope:new_culture
-			}
+			set_culture = culture:bnoc
 		}
 		else_if = {
 			limit = {
 				scope:bno_convert_culture_to_BNWO = yes
 			}
+			culture = {
+				add_culture_tradition = tradition_bno_the_great_submission
+			}
+		}
+		else_if = {
+			limit = {
+				scope:bno_diverge_culture_to_BNWO = yes
+			}
+			create_divergent_culture = yes
 			culture = {
 				add_culture_tradition = tradition_bno_the_great_submission
 			}
