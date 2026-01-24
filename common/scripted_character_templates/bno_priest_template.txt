@@ -164,6 +164,7 @@ bno_male_priest_character_template = {
 	}
 
 	after_creation = {
+		remove_trait = chaste
 		bno_set_culture_to_african_effect = yes
 		add_character_flag = need_priest_outfit
 		bno_get_between_common_uncommon_and_rare_trait = {

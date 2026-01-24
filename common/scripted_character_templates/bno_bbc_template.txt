@@ -21,6 +21,7 @@
 		add_gold = minor_gold_value
 		bno_add_bbc_trait_effect = yes
 		add_trait = bno_full_black
+		remove_trait = chaste
 		add_trait = lustful
 		bno_maybe_get_a_rare_trait = {
 			TRAIT = bno_camp_leader

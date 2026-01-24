@@ -199,7 +199,6 @@ bno_legacy_birth = {
 								is_ai = no
 							}
 						}
-						add_trait = bno_full_black
 						bno_add_bbc_trait_effect = yes
 					}
 				}

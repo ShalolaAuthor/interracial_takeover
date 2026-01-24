@@ -845,12 +845,12 @@ create_bbc = {
 			max_template_decent_skill
 		}
 		after_creation = {
+			remove_trait = chaste
 			bno_set_culture_to_african_effect = yes
 			set_sexuality = heterosexual
 			add_gold = minor_gold_value
 			bno_add_bbc_trait_effect = yes
 			add_trait = bno_full_black
-			add_trait = dick_big_good_4
 			add_trait = lustful
 			if = {
 				limit = {
