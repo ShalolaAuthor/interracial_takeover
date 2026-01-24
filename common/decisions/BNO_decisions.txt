@@ -687,9 +687,9 @@ bno_convert_to_african = {
 				}
 				NOT = { scope:bno_character = scope:bno_culture_head_character }
 			}
-			current_description = bno_convert_to_african.convert_to_bnwo.desc
-			localization = bno_convert_to_african.convert_to_bnwo.desc
-			icon = "gfx/interface/icons/bno_convert_culture_to_BNWO.dds" 
+			current_description = bno_convert_to_african.diverge_to_bnwo.desc
+			localization = bno_convert_to_african.diverge_to_bnwo.desc
+			icon = "gfx/interface/icons/bno_diverge_culture_to_BNWO.dds" 
 			flat = no
 			ai_chance = {
 				value = 0
