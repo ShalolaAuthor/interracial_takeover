@@ -109,14 +109,7 @@ tradition_bno_the_great_submission = {
         4 = "bno_great_submission.dds"
     }
     is_shown = {
-        always = yes
-    }
-
-    can_pick = {
-        scope:character = {
-            is_culture_bnoc = no
-            is_slut_or_whiteboi = yes
-        }
+        always = no
     }
 
     parameters = {#TODO: add localization that make sense
