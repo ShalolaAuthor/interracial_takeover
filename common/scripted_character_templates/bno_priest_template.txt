@@ -166,15 +166,6 @@ bno_male_priest_character_template = {
 	after_creation = {
 		remove_trait = chaste
 		bno_set_culture_to_african_effect = yes
-		add_character_flag = need_priest_outfit
-		bno_get_between_common_uncommon_and_rare_trait = {
-			TRAIT_COMMON = bno_whitegirl_3
-			TRAIT_UNCOMMON = bno_whitegirl_4
-			TRAIT_RARE = bno_whitegirl_5
-		}
-		bno_maybe_get_a_rare_trait = {
-			TRAIT = bno_pure_white
-		}
         bno_get_a_leveled_trait = {
 			TRAIT = beauty_good
 		}
