@@ -529,8 +529,8 @@ become_bigger_ass_effect = {
 	if = {
 		limit = {
 			NOR = {
-				has_trait = tits_big_good
-				has_trait = tits_small_bad
+				has_trait = ass_big_good
+				has_trait = ass_small_bad
 			}
 		}
 		bno_lottery_ass_size = yes
