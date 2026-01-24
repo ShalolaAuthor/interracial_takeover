@@ -275,16 +275,26 @@ does_pure_whitegirl_exist = {
 	}
 }
 
-does_unmarried_pure_white_girl_exist = {
+is_unmarried_ai_pure_white_girl_not_wearing_chastity_piercing = {
+	is_unmarried_ai_pure_white_girl = yes
+	is_equipping_chastity_piercing_trigger = no
+}
+
+does_unmarried_ai_pure_white_girl_not_wearing_chastity_piercing_exist = {
 	does_something_exist = {
-		TRIGGER_KEY = is_unmarried_ai_pure_white_girl
+		TRIGGER_KEY = is_unmarried_ai_pure_white_girl_not_wearing_chastity_piercing
 	}
 }
 
-does_blacked_girl_married_to_a_ruler_exist = {
+does_blacked_girl_married_to_a_ruler_not_wearing_chastity_piercing_exist = {
 	does_something_exist = {
-		TRIGGER_KEY = is_blacked_girl_married_to_a_ruler
+		TRIGGER_KEY = is_blacked_girl_married_to_a_ruler_not_wearing_chastity_piercing
 	}
+}
+
+is_blacked_girl_married_to_a_ruler_not_wearing_chastity_piercing = {
+	is_blacked_girl_married_to_a_ruler = yes
+	is_equipping_chastity_piercing_trigger = no
 }
 
 is_blacked_girl_married_to_a_ruler = {
@@ -668,7 +678,13 @@ does_good_looking_ai_foreign_lady_exist = {
 	}
 }
 
-does_blacked_ai_girl_has_white_guy_husband = {
+is_equipping_chastity_piercing_trigger = {
+	any_equipped_character_artifact = {
+        has_variable = bno_chastity_piercing
+    }
+}
+
+is_blacked_ai_girl_has_white_guy_husband = {
 	is_ai_blacked = yes
 	is_married = yes
 	any_spouse = {
@@ -698,15 +714,20 @@ does_something_foreign_exist = {
     }
 }
 
-does_blacked_ai_girl_has_white_guy_husband_exist = {
+is_blacked_ai_girl_has_white_guy_husband_not_wearing_chastity_piercing = {
+	is_blacked_ai_girl_has_white_guy_husband = yes
+	is_equipping_chastity_piercing_trigger = no
+}
+
+does_blacked_ai_girl_has_white_guy_husband_not_wearing_chastity_piercing_exist = {
 	does_something_foreign_exist = {
-		TRIGGER_KEY = does_blacked_ai_girl_has_white_guy_husband
+		TRIGGER_KEY = is_blacked_ai_girl_has_white_guy_husband_not_wearing_chastity_piercing
 	}
 }
 
 does_unmarried_ai_pure_foreign_lady_exist = {
 	does_something_foreign_exist = {
-		TRIGGER_KEY = is_unmarried_ai_pure_white_girl
+		TRIGGER_KEY = is_unmarried_ai_pure_white_girl_not_wearing_chastity_piercing
 	}
 }
 

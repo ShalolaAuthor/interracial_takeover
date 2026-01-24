@@ -9,11 +9,14 @@ bno_marriage.0001 = {
 		is_ai_blackbull = yes
 		is_married = no
 		is_ruler = no
-		does_unmarried_pure_white_girl_exist = yes
+		does_something_exist = {
+			TRIGGER_KEY = is_unmarried_ai_pure_white_girl_not_wearing_chastity_piercing
+		}
 	}
 	
 	immediate = {
-		get_unmarried_pure_white_girl_scope = {
+		get_something = {
+			TRIGGER_KEY = is_unmarried_ai_pure_white_girl_not_wearing_chastity_piercing
 			SCOPE_NAME = target1
 		}
 		bno_have_sex_with_effects = {
@@ -41,7 +44,7 @@ bno_marriage.0002 = {
 	trigger = {
 		is_ai_blackbull = yes
 		is_ruler = no
-		does_blacked_girl_married_to_a_ruler_exist = yes
+		does_blacked_girl_married_to_a_ruler_not_wearing_chastity_piercing_exist = yes
 	}
 	
 	immediate = {
@@ -83,11 +86,14 @@ bno_marriage.0004 = { #unmarried bbc looks to other realms for single woman
 	trigger = {
 		is_unmarried_ai_blackbull = yes
 		is_ruler = no
-		does_unmarried_ai_pure_foreign_lady_exist = yes
+		does_something_foreign_exist = {
+			TRIGGER_KEY = is_unmarried_ai_blacked_girl_not_wearing_chastity_piercing 
+		}
 	}
 	
 	immediate = {
-		get_foreign_unmarried_pure_white_girl_scope = {
+		get_something_foreign = {
+			TRIGGER_KEY = is_unmarried_ai_blacked_girl_not_wearing_chastity_piercing
 			SCOPE_NAME = target1
 		}
 		scope:target1 ?= {
@@ -118,7 +124,7 @@ bno_marriage.0005 = {
 		is_unmarried_ai_blackbull = yes
 		is_ruler = no
 		is_courtier = yes
-		does_blacked_ai_girl_has_white_guy_husband_exist = yes
+		does_blacked_ai_girl_has_white_guy_husband_not_wearing_chastity_piercing_exist = yes
 	}
 	
 	immediate = {

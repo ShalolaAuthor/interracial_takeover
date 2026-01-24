@@ -1,0 +1,9 @@
+﻿is_unmarried_ai_blacked_girl = {
+    is_ai_blacked = yes
+    is_married = no
+}
+
+is_unmarried_ai_blacked_girl_not_wearing_chastity_piercing = {
+    is_unmarried_ai_blacked_girl = yes
+    is_equipping_chastity_piercing_trigger = no
+}

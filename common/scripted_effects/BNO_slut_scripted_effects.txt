@@ -483,7 +483,7 @@ get_married_pure_girl_scope = {
 
 get_blacked_girl_married_to_a_ruler_scope = {
 	get_something = {
-		TRIGGER_KEY = is_blacked_girl_married_to_a_ruler
+		TRIGGER_KEY = is_blacked_girl_married_to_a_ruler_not_wearing_chastity_piercing
 		SCOPE_NAME = $SCOPE_NAME$
 	}
 }
@@ -555,14 +555,14 @@ get_something_foreign = {
 
 get_foreign_married_blacked_girl_scope = {
 	get_something_foreign = {
-		TRIGGER_KEY = does_blacked_ai_girl_has_white_guy_husband
+		TRIGGER_KEY = is_blacked_ai_girl_has_white_guy_husband_not_wearing_chastity_piercing
 		SCOPE_NAME = $SCOPE_NAME$
 	}
 }
 
 get_foreign_unmarried_pure_white_girl_scope = {
 	get_something_foreign = {
-		TRIGGER_KEY = is_unmarried_ai_pure_white_girl
+		TRIGGER_KEY = is_unmarried_ai_pure_white_girl_not_wearing_chastity_piercing
 		SCOPE_NAME = $SCOPE_NAME$
 	}
 }
@@ -576,7 +576,7 @@ get_secret_haver_scope = {
 
 get_unmarried_pure_white_girl_scope = {
 	get_something = {
-		TRIGGER_KEY = is_unmarried_ai_pure_white_girl
+		TRIGGER_KEY = is_unmarried_ai_pure_white_girl_not_wearing_chastity_piercing
 		SCOPE_NAME = $SCOPE_NAME$
 	}
 }
