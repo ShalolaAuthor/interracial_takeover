@@ -1,0 +1,28 @@
+﻿bno_penis_scaling = {
+    usage = game
+    priority = 100
+    penis_1 = {
+        dna_modifiers = {
+            morph = {
+                mode = modify_multiply
+                gene = gene_bs_penis_size
+                value = 0.1
+            }
+            morph = {
+                mode = modify
+                gene = gene_bs_penis_size
+                value = bno_penis_size
+            }
+        }
+        weight = {
+            base = 0
+            modifier = {
+                add = 1
+                OR = {
+                    has_trait = dick_small_bad_3
+                    has_trait = dick_small_good_3
+                }
+            }
+        }
+    }
+}

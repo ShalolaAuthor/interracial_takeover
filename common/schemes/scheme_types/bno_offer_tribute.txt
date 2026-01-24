@@ -9,9 +9,9 @@
 
     is_basic = yes
 
-    speed_per_skill_point = -3
-    speed_per_target_skill_point = 1
-    base_progress_goal = 50
+    speed_per_skill_point = t3_spsp_owner_value
+    speed_per_target_skill_point = t2_spsp_target_value
+    base_progress_goal = t3_base_phase_length_value
     phases_per_agent_charge = 1
     success_chance_growth_per_skill_point = t3_scgpsp_value
     

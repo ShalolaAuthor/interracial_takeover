@@ -208,3 +208,29 @@ bno_secrecy_base_value = {
 		}
 	}
 }
+
+bno_penis_size = {
+	value = 0
+	switch = {
+		trigger = has_trait
+		dick_small_bad_3 = { add = 1 }
+		dick_small_good_3 = { add = 1 }
+		dick_small_bad_2 = { add = 2 }
+		dick_small_good_2 = { add = 2 }
+		dick_small_bad_1 = { add = 3 }
+		dick_small_good_1 = { add = 3 }
+		dick_big_bad_1 = { add = 5 }
+		dick_big_good_1 = { add = 5 }
+		dick_big_bad_2 = { add = 6 }
+		dick_big_good_2 = { add = 6 }
+		dick_big_bad_3 = { add = 7 }
+		dick_big_good_3 = { add = 7 }
+		dick_big_good_4 = { add = 8 }
+		fallback = { add = 4 }
+	}
+	if = {
+		limit = { is_bbc = yes }
+		add = 1
+	}
+	divide = 9
+}
