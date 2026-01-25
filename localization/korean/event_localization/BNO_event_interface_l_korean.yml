@@ -1,77 +1,77 @@
 ﻿l_korean:
 
 #BBC's POV if wife is white breeder
-bno_birth.0001.wife.t: "아내 의 백색 비옥 한 자궁"       # AI Tags
-bno_birth.0001.wife.desc: "당신 아내 [ROOT.GetCharacter.GetName] 다시 한 번 흑인 아기를 낳고, 유능한 양육자로서의 평판을 확고히 합니다. 그녀는 흑인 아이를 낳게 되었습니다." # AI Tags
+ bno_birth.0001.wife.t: "아내 의 백색 비옥 한 자궁"       # AI Tags
+ bno_birth.0001.wife.desc: "당신 아내 [ROOT.GetCharacter.GetName] 다시 한 번 흑인 아기를 낳고, 유능한 양육자로서의 평판을 확고히 합니다. 그녀는 흑인 아이를 낳게 되었습니다." # AI Tags
 #Cuck's POV if wife is white breeder
-bno_birth.0001.cuck.wife.t: "아내 는 많은 자녀 를 낳는다" # AI Tags
-bno_birth.0001.cuck.wife.desc: "당신 아내 [ROOT.GetCharacter.GetName] 여러 아이를 낳았습니다. 하지만 마음 속에서는 대부분의 사람들이 다른 사람들처럼 보이지 않는 게 이상하다고 생각하죠." # AI Tags
+ bno_birth.0001.cuck.wife.t: "아내 는 많은 자녀 를 낳는다" # AI Tags
+ bno_birth.0001.cuck.wife.desc: "당신 아내 [ROOT.GetCharacter.GetName] 여러 아이를 낳았습니다. 하지만 마음 속에서는 대부분의 사람들이 다른 사람들처럼 보이지 않는 게 이상하다고 생각하죠." # AI Tags
 
-bno_birth.0001.lover.t: "사랑 의 백색 비옥 한 자궁" # AI Tags
-bno_birth.0001.lover.desc: "당신의 연인은 [ROOT.GetCharacter.GetName] 또 다른 흑인 아이를 낳아 자신의 인종을 배신하는 일을 계속하고 있습니다. 흑인 우월성을 이룩하는 것이 그녀의 가장 큰 기쁨입니다." # AI Tags
+ bno_birth.0001.lover.t: "사랑 의 백색 비옥 한 자궁" # AI Tags
+ bno_birth.0001.lover.desc: "당신의 연인은 [ROOT.GetCharacter.GetName] 또 다른 흑인 아이를 낳아 자신의 인종을 배신하는 일을 계속하고 있습니다. 흑인 우월성을 이룩하는 것이 그녀의 가장 큰 기쁨입니다." # AI Tags
 
-bno_birth.0001.t: "내 흰 비옥 한 자궁" # AI Tags
-bno_birth.0001.personal_desc: "또 다른 흑인 아기가 내 비옥한 자궁에서 태어났습니다. 내 자녀의 피부와 내 피부의 조립은 나를 자랑스럽게 하며 우월한 인종을 강화하고자 하는 의욕을 새롭게 합니다." # AI Tags
+ bno_birth.0001.t: "내 흰 비옥 한 자궁" # AI Tags
+ bno_birth.0001.personal_desc: "또 다른 흑인 아기가 내 비옥한 자궁에서 태어났습니다. 내 자녀의 피부와 내 피부의 조립은 나를 자랑스럽게 하며 우월한 인종을 강화하고자 하는 의욕을 새롭게 합니다." # AI Tags
 
-bno_birth.0002.t: "내 씨 는 퍼져 나간다" # AI Tags
-bno_birth.0002.personal_desc: "전 전 세계에 많은 흑인 아이들을 주었습니다." # AI Tags
+ bno_birth.0002.t: "내 씨 는 퍼져 나간다" # AI Tags
+ bno_birth.0002.personal_desc: "전 전 세계에 많은 흑인 아이들을 주었습니다." # AI Tags
 
-bno_birth_real_father_notification.title: "내 아이" # AI Tags
-bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] 그녀는 아이를 낳았고, 당신이 그것을 증명할 수 있는지 여부와 상관없이 그녀의 아이가 당신의 것이라고 당신의 마음 속에 알고 있습니다." # AI Tags
-bno_birth_cuck_father_notification.title: "내 아이" # AI Tags
-bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] 아이를 낳았는데, 얼마나 병리롭는지에 대해 조금 놀랐어요. 어린이가 이렇게 어두운 피부색을 갖는 것은 정상입니까?" # AI Tags
+ bno_birth_real_father_notification.title: "내 아이" # AI Tags
+ bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] 그녀는 아이를 낳았고, 당신이 그것을 증명할 수 있는지 여부와 상관없이 그녀의 아이가 당신의 것이라고 당신의 마음 속에 알고 있습니다." # AI Tags
+ bno_birth_cuck_father_notification.title: "내 아이" # AI Tags
+ bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] 아이를 낳았는데, 얼마나 병리롭는지에 대해 조금 놀랐어요. 어린이가 이렇게 어두운 피부색을 갖는 것은 정상입니까?" # AI Tags
 
-bno_happy_wife.0001.title: "아내가 행복해 보인다" # AI Tags
-bno_happy_wife.0001.desc: "그 사실을 보고 기쁘군 [ROOT.GetCharacter.GetName] 요즘은 기분 좋은 것 같네요." # AI Tags
+ bno_happy_wife.0001.title: "아내가 행복해 보인다" # AI Tags
+ bno_happy_wife.0001.desc: "그 사실을 보고 기쁘군 [ROOT.GetCharacter.GetName] 요즘은 기분 좋은 것 같네요." # AI Tags
 
-bno_married.title: "아내를 잡았어" # AI Tags
-bno_married_desc: "당신은 아내를 취함으로써 흑인 우월성을 증진시키기 위해 자신의 몫을 하고 있습니다. 그녀가 당신에게 많은 새로운 아이를 낳길 바랍니다." # AI Tags
+ bno_married.title: "아내를 잡았어" # AI Tags
+ bno_married_desc: "당신은 아내를 취함으로써 흑인 우월성을 증진시키기 위해 자신의 몫을 하고 있습니다. 그녀가 당신에게 많은 새로운 아이를 낳길 바랍니다." # AI Tags
 
-bno_bull_0004_notification.title: "아내가 잘 먹는 것" # AI Tags
-bno_bull_0004_notification.desc: "최근 당신의 아내 [ROOT.GetCharacter.GetName] 나쁜 식습관을 깨고 있는 것 같습니다. 그녀는 거의 모든 액체 다이어트로 전환했다고 말했습니다. 그녀는 때때로 그녀의 입술에 액체 음식이 여전히 남아있는 것을 볼 수 있기 때문에 그것을 좋아해야 합니다." # AI Tags
+ bno_bull_0004_notification.title: "아내가 잘 먹는 것" # AI Tags
+ bno_bull_0004_notification.desc: "최근 당신의 아내 [ROOT.GetCharacter.GetName] 나쁜 식습관을 깨고 있는 것 같습니다. 그녀는 거의 모든 액체 다이어트로 전환했다고 말했습니다. 그녀는 때때로 그녀의 입술에 액체 음식이 여전히 남아있는 것을 볼 수 있기 때문에 그것을 좋아해야 합니다." # AI Tags
 
-bno_bull_0008_notification.title: "미묘 한 유사성" # AI Tags
-bno_bull_0008_notification.desc: "귀여운 아내처럼 보이는 흑인 난민 캠프에서 걷는 여자의 소문이 돌고 있습니다 [target1.GetFirstName]." # AI Tags
+ bno_bull_0008_notification.title: "미묘 한 유사성" # AI Tags
+ bno_bull_0008_notification.desc: "귀여운 아내처럼 보이는 흑인 난민 캠프에서 걷는 여자의 소문이 돌고 있습니다 [target1.GetFirstName]." # AI Tags
 
-bno_bull_0010_notification.title: "회계 오류?" # AI Tags
-bno_bull_0010_notification.desc: "내가 틀리지 않았다고 확신합니다. 보물에서 금이 빠진 것 같습니다. 누가 가져갔을까?" # AI Tags
+ bno_bull_0010_notification.title: "회계 오류?" # AI Tags
+ bno_bull_0010_notification.desc: "내가 틀리지 않았다고 확신합니다. 보물에서 금이 빠진 것 같습니다. 누가 가져갔을까?" # AI Tags
 
-bno_bull_0012_notification.title: "그가 뭔가 알고 있나요?" # AI Tags
-bno_bull_0012_notification.desc: "최근 저는 [ROOT.GetCharacter.GetName] 다른 시각으로 저를 바라보고, 자신이 모르는 것을 알고 있는 것처럼요." # AI Tags
+ bno_bull_0012_notification.title: "그가 뭔가 알고 있나요?" # AI Tags
+ bno_bull_0012_notification.desc: "최근 저는 [ROOT.GetCharacter.GetName] 다른 시각으로 저를 바라보고, 자신이 모르는 것을 알고 있는 것처럼요." # AI Tags
 
-bno_slut_0008_notification.title: "미묘 한 유사성" # AI Tags
-bno_slut_0008_notification.desc: "귀여운 아내처럼 보이는 흑인 난민 캠프에서 걷는 여자의 소문이 돌고 있습니다 [slut.GetFirstName]." # AI Tags
+ bno_slut_0008_notification.title: "미묘 한 유사성" # AI Tags
+ bno_slut_0008_notification.desc: "귀여운 아내처럼 보이는 흑인 난민 캠프에서 걷는 여자의 소문이 돌고 있습니다 [slut.GetFirstName]." # AI Tags
 
-bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] 그녀의 모든 약물을 줄 것입니다" # AI Tags
-bbc_worshipper.0002.notifications.desc: "몇 달 동안 열심히 일했고, 끊임없이 밤을 보낸 후, 그녀는 모든 재산을 당신에게 주었습니다. 왜냐하면 그녀는 그걸 어떻게 해야 할지 모르기 때문입니다." # AI Tags
+ bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] 그녀의 모든 약물을 줄 것입니다" # AI Tags
+ bbc_worshipper.0002.notifications.desc: "몇 달 동안 열심히 일했고, 끊임없이 밤을 보낸 후, 그녀는 모든 재산을 당신에게 주었습니다. 왜냐하면 그녀는 그걸 어떻게 해야 할지 모르기 때문입니다." # AI Tags
 
-bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] 그는 하나님을 경배하는 자로 변신하여 [bno_religion|E]" # AI Tags
-bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] 그 가르침을 받아들여 [bno_religion|E], 헌정 [target_vassal.GetHerselfHimself] 그 예배와 그 향락을 위하여." # AI Tags
+ bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] 그는 하나님을 경배하는 자로 변신하여 [bno_religion|E]" # AI Tags
+ bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] 그 가르침을 받아들여 [bno_religion|E], 헌정 [target_vassal.GetHerselfHimself] 그 예배와 그 향락을 위하여." # AI Tags
 
-bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] 그는 하나님을 경배하는 자로 변신하여 [bno_religion|E]" # AI Tags
-bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] 그 가르침을 받아들여 [bno_religion|E]자원을 숭배와 즐거움을 위해 바치고 있습니다." # AI Tags
+ bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] 그는 하나님을 경배하는 자로 변신하여 [bno_religion|E]" # AI Tags
+ bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] 그 가르침을 받아들여 [bno_religion|E]자원을 숭배와 즐거움을 위해 바치고 있습니다." # AI Tags
 
-bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] 그는 하나님을 경배하는 자로 변신하여 [bno_religion|E]" # AI Tags
-bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] 그 가르침을 받아들여 [bno_religion|E], 헌정 [neighboring_lord_or_lady.GetHerselfHimself] 그 예배와 그 향락을 위하여." # AI Tags
+ bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] 그는 하나님을 경배하는 자로 변신하여 [bno_religion|E]" # AI Tags
+ bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] 그 가르침을 받아들여 [bno_religion|E], 헌정 [neighboring_lord_or_lady.GetHerselfHimself] 그 예배와 그 향락을 위하여." # AI Tags
 
-bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] 그는 하나님을 경배하는 자로 변신하여 [bno_religion|E]" # AI Tags
-bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] 그 가르침을 받아들여 [bno_religion|E]자원을 숭배와 즐거움을 위해 바치고 있습니다." # AI Tags
+ bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] 그는 하나님을 경배하는 자로 변신하여 [bno_religion|E]" # AI Tags
+ bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] 그 가르침을 받아들여 [bno_religion|E]자원을 숭배와 즐거움을 위해 바치고 있습니다." # AI Tags
 
-bbc_priestess.1001.rejected_conversion.male.title: "개종 을 거부 한 것: 블랙 콕 을 거부 한 것" # AI Tags
-bbc_priestess.1001.rejected_conversion.male.desc: "하지만 [ROOT.Char.GetFirstName]몸과 영혼이 하나님의 영광을 위해 항복하는 열렬한 설교 [bno_bbc|E]무리가 혐오로 돌아갔다. 그들의 마음은 굳건하고 그들의 입술은 축복받지 못하고 있습니다. 그리고 블랙콕의 교회는 오늘날 새로운 제자들을 얻지 못합니다." # AI Tags
+ bbc_priestess.1001.rejected_conversion.male.title: "개종 을 거부 한 것: 블랙 콕 을 거부 한 것" # AI Tags
+ bbc_priestess.1001.rejected_conversion.male.desc: "하지만 [ROOT.Char.GetFirstName]몸과 영혼이 하나님의 영광을 위해 항복하는 열렬한 설교 [bno_bbc|E]무리가 혐오로 돌아갔다. 그들의 마음은 굳건하고 그들의 입술은 축복받지 못하고 있습니다. 그리고 블랙콕의 교회는 오늘날 새로운 제자들을 얻지 못합니다." # AI Tags
 
-bbc_priestess.1001.rejected_conversion.female.title: "그녀의 청원 은 거절당 하였다. 블랙 콕 은 거절당 하였다" # AI Tags
-bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] 모든 불쾌한 말로 그녀의 헌신을 드러내며 BBC의 포옹을 통해 구원을 약속했지만, 군중들은 저항했습니다. 그들의 마음은 닫혀있었고, 그들의 몸은 채용되지 않았습니다. 그리고 그녀의 거룩한 욕망은 오늘 밤 개종자를 낳지 않았습니다." # AI Tags
+ bbc_priestess.1001.rejected_conversion.female.title: "그녀의 청원 은 거절당 하였다. 블랙 콕 은 거절당 하였다" # AI Tags
+ bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] 모든 불쾌한 말로 그녀의 헌신을 드러내며 BBC의 포옹을 통해 구원을 약속했지만, 군중들은 저항했습니다. 그들의 마음은 닫혀있었고, 그들의 몸은 채용되지 않았습니다. 그리고 그녀의 거룩한 욕망은 오늘 밤 개종자를 낳지 않았습니다." # AI Tags
 
-bbc_priestess.1001.target_not_found.male.title: "사제들의 성스러운 사냥은 절망적으로 성장합니다." # AI Tags
-bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] 검은 의 제단에서 무릎을 꿇고, 불안하고, 신성한 욕망으로 뛰고 있습니다. 신규 추종자들이 예배를 드리는 것 같지도 않고, 신도들이 자기 자신을 개종하도록 인도할 수 있는 죄인도 없고, 신적인 필요에 빠져 신성 씨앗을 새 제자들의 떨리는 헌신에 뿌리는 것을 갈망하고 있습니다." # AI Tags
+ bbc_priestess.1001.target_not_found.male.title: "사제들의 성스러운 사냥은 절망적으로 성장합니다." # AI Tags
+ bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] 검은 의 제단에서 무릎을 꿇고, 불안하고, 신성한 욕망으로 뛰고 있습니다. 신규 추종자들이 예배를 드리는 것 같지도 않고, 신도들이 자기 자신을 개종하도록 인도할 수 있는 죄인도 없고, 신적인 필요에 빠져 신성 씨앗을 새 제자들의 떨리는 헌신에 뿌리는 것을 갈망하고 있습니다." # AI Tags
 
-bbc_priestess.1001.target_not_found.female.title: "사제 여인은 추종자를 기다리고 있습니다." # AI Tags
-bbc_priestess.1001.target_not_found.female.desc: "실크 흰색 의복에 매장되어, 부드러운 [ROOT.Char.GetFirstName] 검은 닭의 제단 앞에 무릎을 꿇고, 그녀의 풍성한 가슴은 떨고 있는 헌신으로 함께 압박. 외계적인 은총과 달콤하고 고통스러운 미소로, 그녀는 촛불빛의 어둠에 기도를 속삭이고 있지만 죄인은 개종되지 않습니다. 그녀의 부드러운 틀은 신성한 필요에 떨고, 절실히 그녀가 숭배하기를 갈망하는 거룩한 희생을 둘러싸고 자신을 포장합니다." # AI Tags
+ bbc_priestess.1001.target_not_found.female.title: "사제 여인은 추종자를 기다리고 있습니다." # AI Tags
+ bbc_priestess.1001.target_not_found.female.desc: "실크 흰색 의복에 매장되어, 부드러운 [ROOT.Char.GetFirstName] 검은 닭의 제단 앞에 무릎을 꿇고, 그녀의 풍성한 가슴은 떨고 있는 헌신으로 함께 압박. 외계적인 은총과 달콤하고 고통스러운 미소로, 그녀는 촛불빛의 어둠에 기도를 속삭이고 있지만 죄인은 개종되지 않습니다. 그녀의 부드러운 틀은 신성한 필요에 떨고, 절실히 그녀가 숭배하기를 갈망하는 거룩한 희생을 둘러싸고 자신을 포장합니다." # AI Tags
 
-bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] 지금 그 어느 때보다 더 검은" # AI Tags
-bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] 지금 그 어느 때보다 더 검은" # AI Tags
-bno_marriage.0007.notifications.desc.male: "당신의 가족 중 한 명이 자신의 검은 씨앗을 적절한 파트너에게 퍼뜨렸습니다" # AI Tags
-bno_marriage.0007.notifications.desc.female: "가족 중 한 명이 #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!" # AI Tags
+ bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] 지금 그 어느 때보다 더 검은" # AI Tags
+ bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] 지금 그 어느 때보다 더 검은" # AI Tags
+ bno_marriage.0007.notifications.desc.male: "당신의 가족 중 한 명이 자신의 검은 씨앗을 적절한 파트너에게 퍼뜨렸습니다" # AI Tags
+ bno_marriage.0007.notifications.desc.female: "가족 중 한 명이 #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!" # AI Tags
 
-bbc_diarch: "[bno_bbc|E]" # AI Tags
+ bbc_diarch: "[bno_bbc|E]" # AI Tags

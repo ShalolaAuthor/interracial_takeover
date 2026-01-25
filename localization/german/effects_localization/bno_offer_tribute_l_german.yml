@@ -1,4 +1,4 @@
 ﻿l_german:
 
-GAIN_GOLD_FROM_FELLOW_BLACK: "Sie gewinnen $VALUE|V0$ [gold_i|E] von Ihrem Kollegen [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
-GAIN_GOLD_FROM_FELLOW_BLACK_PAST: "du hast gewonnen $VALUE|V0$ [gold_i|E] von Ihrem Kollegen [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+ GAIN_GOLD_FROM_FELLOW_BLACK: "Sie gewinnen $VALUE|V0$ [gold_i|E] von Ihrem Kollegen [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+ GAIN_GOLD_FROM_FELLOW_BLACK_PAST: "du hast gewonnen $VALUE|V0$ [gold_i|E] von Ihrem Kollegen [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags

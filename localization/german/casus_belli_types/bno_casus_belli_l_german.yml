@@ -22,20 +22,20 @@
  bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] hält die streitige [title|E]… Insgesamt [factions|E] gegen Sie erhöhen ihre [discontent|E]." # AI Tags
  bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] hält die streitige [title|E]." # AI Tags
 
-BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Rassensubjugation der [TITLE.GetBaseName]" # AI Tags
-BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
-BNO_SUBJ_WAR_CB_NAME: "Rassensubjugation von [TITLE.GetBaseName]" # AI Tags
+ BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Rassensubjugation der [TITLE.GetBaseName]" # AI Tags
+ BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+ BNO_SUBJ_WAR_CB_NAME: "Rassensubjugation von [TITLE.GetBaseName]" # AI Tags
 
-bno_varangian_adventure: "[bno_bnwo|E] Invasion" # AI Tags
-BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Invasion gegen [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
-BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
-BNO_VARANGIAN_ADVENTURE_CB_NAME: "Invasion von [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
-BNWO_STATE_TITLE_NAME: "Schwarz [target_duchy.GetNameNoTierNoTooltip]" # AI Tags
+ bno_varangian_adventure: "[bno_bnwo|E] Invasion" # AI Tags
+ BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Invasion gegen [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+ BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+ BNO_VARANGIAN_ADVENTURE_CB_NAME: "Invasion von [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+ BNWO_STATE_TITLE_NAME: "Schwarz [target_duchy.GetNameNoTierNoTooltip]" # AI Tags
 
-bno_civil_unrest: "[bno_bnwo|E] Rebellion" # AI Tags
-bno_civil_unrest.army_name: "Ebenholz-Eroberer" # AI Tags
-bno_civil_unrest.victory.desc: "Das [bno_bnwo|E] hat den Sieg errungen. Widerstand ist sinnlos. Bereite dich darauf vor, der neuen Ordnung zu dienen." # AI Tags
-bno_civil_unrest.white_peace.desc: "Das [bno_bnwo|E] bietet eine Chance für Frieden. Untergeben Sie sich unserer Regel und bleiben Sie verschont." # AI Tags
-bno_civil_unrest.defeat.desc: "Das [bno_bnwo|E] wurde besiegt. Die alte Ordnung bleibt fürs Erste intakt." # AI Tags
-bnwo_faction_every_county: "Jede [faction|E] [county|E]" # AI Tags
-bno_civil_unrest_name: "Schwarzer Aufstand der neuen Weltordnung" # AI Tags
+ bno_civil_unrest: "[bno_bnwo|E] Rebellion" # AI Tags
+ bno_civil_unrest.army_name: "Ebenholz-Eroberer" # AI Tags
+ bno_civil_unrest.victory.desc: "Das [bno_bnwo|E] hat den Sieg errungen. Widerstand ist sinnlos. Bereite dich darauf vor, der neuen Ordnung zu dienen." # AI Tags
+ bno_civil_unrest.white_peace.desc: "Das [bno_bnwo|E] bietet eine Chance für Frieden. Untergeben Sie sich unserer Regel und bleiben Sie verschont." # AI Tags
+ bno_civil_unrest.defeat.desc: "Das [bno_bnwo|E] wurde besiegt. Die alte Ordnung bleibt fürs Erste intakt." # AI Tags
+ bnwo_faction_every_county: "Jede [faction|E] [county|E]" # AI Tags
+ bno_civil_unrest_name: "Schwarzer Aufstand der neuen Weltordnung" # AI Tags

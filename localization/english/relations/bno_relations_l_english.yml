@@ -1,17 +1,17 @@
 ﻿l_english:
 
-bno_slave: "[bno_slave|E]"
-relation_bno_slave: "BBC slave"
-relation_bno_slave_possessive: "BBC slave's"
+ bno_slave: "[bno_slave|E]"
+ relation_bno_slave: "BBC slave"
+ relation_bno_slave_possessive: "BBC slave's"
 
-bno_slave_owner: "[bno_slave_owner|E]"
-relation_bno_slave_owner: "Slave Owner"
-relation_bno_slave_owner_possessive: "Slave Owner's"
+ bno_slave_owner: "[bno_slave_owner|E]"
+ relation_bno_slave_owner: "Slave Owner"
+ relation_bno_slave_owner_possessive: "Slave Owner's"
 
-bno_cum_slave: "[bno_cum_slave|E]"
-relation_bno_cum_slave: "Cum Slave"
-relation_bno_cum_slave_possessive: "Cum Slave's"
+ bno_cum_slave: "[bno_cum_slave|E]"
+ relation_bno_cum_slave: "Cum Slave"
+ relation_bno_cum_slave_possessive: "Cum Slave's"
 
-bno_cum_slave_owner: "[bno_bull|E]"
-relation_bno_cum_slave_owner: "Bull"
-relation_bno_cum_slave_owner_possessive: "Bull's"
+ bno_cum_slave_owner: "[bno_bull|E]"
+ relation_bno_cum_slave_owner: "Bull"
+ relation_bno_cum_slave_owner_possessive: "Bull's"

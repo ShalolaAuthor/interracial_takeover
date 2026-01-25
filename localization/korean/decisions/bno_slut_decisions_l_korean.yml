@@ -1,231 +1,232 @@
 ﻿l_korean:
 
-bno_becoming_bbc_slut: ""검은 춘추"가 되는 것" # AI Tags
+ bno_becoming_bbc_slut: ""검은 춘추"가 되는 것" # AI Tags
 #bno_becoming_bbc_slut.effect: "당신은 한 사람이 될 것입니다 [bno_whore|E] 에 대한 [bno_bbc|E]" # AI Tags
-bno_becoming_bbc_slut.effect: "넌 창녀가 될 거야 [bno_bbcs|E]" # AI Tags
-bno_becoming_bbc_slut_desc: "저는 흑인 창녀가 되고 싶습니다. 왜냐하면 저는 이 역할을 위해 태어났기 때문입니다. 저의 작은 흰색 몸의 욕구를 충족시킬 수 있는 강력한, 남성적인 검은 수컷들을 위한 수용소 역할을 하기 위해서요. 에베니 남자의 막강한 장면을 보는 것만으로도 똥이 기대와 욕구로 튀어나온다." # AI Tags
-bno_becoming_bbc_slut_confirm: "내 좁은 구멍은 네 거야 네가 원하는 대로 쓸 수 있어." # AI Tags
-bno_becoming_bbc_slut_tooltip: "내가 쓸모없는 창녀처럼 쓰여질 수 있기를 너무 절박합니다" # AI Tags
+ bno_becoming_bbc_slut.effect: "넌 창녀가 될 거야 [bno_bbcs|E]" # AI Tags
+ bno_becoming_bbc_slut_desc: "저는 흑인 창녀가 되고 싶습니다. 왜냐하면 저는 이 역할을 위해 태어났기 때문입니다. 저의 작은 흰색 몸의 욕구를 충족시킬 수 있는 강력한, 남성적인 검은 수컷들을 위한 수용소 역할을 하기 위해서요. 에베니 남자의 막강한 장면을 보는 것만으로도 똥이 기대와 욕구로 튀어나온다." # AI Tags
+ bno_becoming_bbc_slut_confirm: "내 좁은 구멍은 네 거야 네가 원하는 대로 쓸 수 있어." # AI Tags
+ bno_becoming_bbc_slut_tooltip: "내가 쓸모없는 창녀처럼 쓰여질 수 있기를 너무 절박합니다" # AI Tags
 
-bno_stop_becoming_bbc_slut: "헌신적 인 창녀" # AI Tags
-bno_stop_becoming_bbc_slut_desc: "몇 년 동안 흑인이 된 후, 마침내 내 완벽한 부합을 찾았습니다. 매일 큰 똥에 대한 내 불포화한 식욕을 배려하는 개인적인 검은 황소입니다. 그는 다른 누구도 할 수 없는 방식으로 나를 만족시켜 내 똥이 항상 그의 두꺼운 씨앗으로 가득 채우고 dripping 하는 것을 보장합니다." # AI Tags
-bno_stop_becoming_bbc_slut_confirm: "이게 내가 태어난 이유야" # AI Tags
-bno_stop_becoming_bbc_slut_tooltip: " 튼튼한 덩어리의 구멍들일 뿐입니다" # AI Tags
-bno_stop_becoming_bbc_slut.bbc_spouse: "당신의 배우자 중 한 명은 [GetTrait('bno_bbc').GetName( GetNullCharacter )]" # AI Tags
+ bno_stop_becoming_bbc_slut: "헌신적 인 창녀" # AI Tags
+ bno_stop_becoming_bbc_slut_desc: "몇 년 동안 흑인이 된 후, 마침내 내 완벽한 부합을 찾았습니다. 매일 큰 똥에 대한 내 불포화한 식욕을 배려하는 개인적인 검은 황소입니다. 그는 다른 누구도 할 수 없는 방식으로 나를 만족시켜 내 똥이 항상 그의 두꺼운 씨앗으로 가득 채우고 dripping 하는 것을 보장합니다." # AI Tags
+ bno_stop_becoming_bbc_slut_confirm: "이게 내가 태어난 이유야" # AI Tags
+ bno_stop_becoming_bbc_slut_tooltip: " 튼튼한 덩어리의 구멍들일 뿐입니다" # AI Tags
+ bno_stop_becoming_bbc_slut.bbc_spouse: "당신의 배우자 중 한 명은 [GetTrait('bno_bbc').GetName( GetNullCharacter )]" # AI Tags
 
-bno_invite_slut_decision: "호기심 있는 귀족을 당신의 궁정으로 초대해" # AI Tags
-bno_invite_slut_decision_desc: "호기심이 많은 귀족이 다가오자, 나는 따뜻한 미소로 그녀를 환영합니다.\n\n나의 겸손한 거주지에 오신 것을 환영합니다. 저는 항상 새로운 사람들을 만나기 위해 갈망합니다. 특히 예술과 문화에 대한 관심사를 공유하는 사람들을 만나기 위해 갈망합니다.\n\n귀족은 주변을 둘러보며, 내 재산의 풍요로운 환경을 받아들이고 있습니다. 풍요로운 가구에서부터 모든 벽을 장식하는 귀중한 예술 작품까지요.\n\n아름다움을 좋아한다는 걸 알 수 있어요. 저녁식사 중에 이 부분들을 논의해 볼까요? 저는 여러분께 그 유래에 대해 더 많은 것을 알려드리기를 기쁘게 생각합니다.\n\n귀족은 그녀의 눈에 보이는 것에 흥미를 느끼고 더 많은 것을 배우고 싶어서 동의합니다." # AI Tags
-bno_invite_slut_decision_tooltip: "외국인들은 당신의 고수님을 방문하도록 초청되었습니다" # AI Tags
-bno_invite_slut_decision_confirm: "여기 오신 것을 환영합니다" # AI Tags
+ bno_invite_slut_decision: "호기심 있는 귀족을 당신의 궁정으로 초대해" # AI Tags
+ bno_invite_slut_decision_desc: "호기심이 많은 귀족이 다가오자, 나는 따뜻한 미소로 그녀를 환영합니다.\n\n나의 겸손한 거주지에 오신 것을 환영합니다. 저는 항상 새로운 사람들을 만나기 위해 갈망합니다. 특히 예술과 문화에 대한 관심사를 공유하는 사람들을 만나기 위해 갈망합니다.\n\n귀족은 주변을 둘러보며, 내 재산의 풍요로운 환경을 받아들이고 있습니다. 풍요로운 가구에서부터 모든 벽을 장식하는 귀중한 예술 작품까지요.\n\n아름다움을 좋아한다는 걸 알 수 있어요. 저녁식사 중에 이 부분들을 논의해 볼까요? 저는 여러분께 그 유래에 대해 더 많은 것을 알려드리기를 기쁘게 생각합니다.\n\n귀족은 그녀의 눈에 보이는 것에 흥미를 느끼고 더 많은 것을 배우고 싶어서 동의합니다." # AI Tags
+ bno_invite_slut_decision_tooltip: "외국인들은 당신의 고수님을 방문하도록 초청되었습니다" # AI Tags
+ bno_invite_slut_decision_confirm: "여기 오신 것을 환영합니다" # AI Tags
 
-bno_build_african_camps_decision: "건설 $building_type_bbc_camp_01$" # AI Tags
-bno_build_african_camps_decision_desc: "인구로서 #V [GetTrait('bno_full_black').GetName( GetNullCharacter )]#! 계속 성장해 나가야 해. 당신은 그들에게만 합의해야 할 때가 됐다고 결정했습니다." # AI Tags
-bno_build_african_camps_decision_tooltip: "건설 $building_type_bbc_camp_01$" # AI Tags
-bno_build_african_camps_decision_confirm: "그렇게 되자" # AI Tags
-bno_build_african_camps_toast: "$building_type_bbc_camp_01$ 건설" # AI Tags
+ bno_build_african_camps_decision: "건설 $building_type_bbc_camp_01$" # AI Tags
+ bno_build_african_camps_decision_desc: "인구로서 #V [GetTrait('bno_full_black').GetName( GetNullCharacter )]#! 계속 성장해 나가야 해. 당신은 그들에게만 합의해야 할 때가 됐다고 결정했습니다." # AI Tags
+ bno_build_african_camps_decision_tooltip: "건설 $building_type_bbc_camp_01$" # AI Tags
+ bno_build_african_camps_decision_confirm: "그렇게 되자" # AI Tags
+ bno_build_african_camps_toast: "$building_type_bbc_camp_01$ 건설" # AI Tags
 
-bno_change_county_culture: "카운티가 채택하도록 영향력 $bnoc$" # AI Tags
-bno_change_county_culture_desc: "당신은 $bnoc$당신들의 인민들에게 영향력을 행사하는 것이 말이 안되나요 $bnoc_collective_noun$?" # AI Tags
-bno_change_county_culture_tooltip: "입양 에 영향력 을 미치는 것 $bnoc$ 생활 방식" # AI Tags
-bno_change_county_culture_confirm: "더 필요해 $bnoc$" # AI Tags
-bno_change_county_culture_toast: "$bnoc$ 퍼져 나간" # AI Tags
+ bno_change_county_culture: "카운티가 채택하도록 영향력 $bnoc$" # AI Tags
+ bno_change_county_culture_desc: "당신은 $bnoc$당신들의 인민들에게 영향력을 행사하는 것이 말이 안되나요 $bnoc_collective_noun$?" # AI Tags
+ bno_change_county_culture_tooltip: "입양 에 영향력 을 미치는 것 $bnoc$ 생활 방식" # AI Tags
+ bno_change_county_culture_confirm: "더 필요해 $bnoc$" # AI Tags
+ bno_change_county_culture_toast: "$bnoc$ 퍼져 나간" # AI Tags
 
-bno_recruit_court_position_decision: "호응 할 만한 직무 를 채용 하십시오 #V 이 [GetTrait('bno_full_black').GetName( GetNullCharacter )] 인구#!" # AI Tags
-bno_recruit_court_position_decision_desc: "잘 작동하는 [ROOT.Char.Custom('RealmType')] 많은 소녀들의 일을 필요로 합니다. 저는 제 종들을 멀리서 파견하여 제 법정에서 새로 출범한 직무에 적합한 후보자를 찾도록 하겠습니다." # AI Tags
-bno_recruit_court_position_decision_tooltip: "여자를 찾아서 [court_position|E] 또는 귀하의 [court|E] 수수료\n\n#weak 예를 들어, [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!" # AI Tags
-bno_recruit_court_position_decision_confirm: "여기로 불러!" # AI Tags
-recruit_bbc_worshipper_cooldown_tt: "모집 [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] 냉각 상태입니다 [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]" # AI Tags
-hire_bbc_worshipper_decision_tooltip: "당신의 종들은 몇 명의 적절한 후보자를 제안할 것입니다 [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
-bno_recruit_court_position_decision_tt: "당신은 당신의 옆에 봉사하기 위해 적절한 소녀의 무작위 숫자를 받게 될 것입니다" # AI Tags
+ bno_recruit_court_position_decision: "호응 할 만한 직무 를 채용 하십시오 #V 이 [GetTrait('bno_full_black').GetName( GetNullCharacter )] 인구#!" # AI Tags
+ bno_recruit_court_position_decision_desc: "잘 작동하는 [ROOT.Char.Custom('RealmType')] 많은 소녀들의 일을 필요로 합니다. 저는 제 종들을 멀리서 파견하여 제 법정에서 새로 출범한 직무에 적합한 후보자를 찾도록 하겠습니다." # AI Tags
+ bno_recruit_court_position_decision_tooltip: "여자를 찾아서 [court_position|E] 또는 귀하의 [court|E] 수수료\n\n#weak 예를 들어, [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!" # AI Tags
+ bno_recruit_court_position_decision_confirm: "여기로 불러!" # AI Tags
+ recruit_bbc_worshipper_cooldown_tt: "모집 [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] 냉각 상태입니다 [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]" # AI Tags
+ hire_bbc_worshipper_decision_tooltip: "당신의 종들은 몇 명의 적절한 후보자를 제안할 것입니다 [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
+ bno_recruit_court_position_decision_tt: "당신은 당신의 옆에 봉사하기 위해 적절한 소녀의 무작위 숫자를 받게 될 것입니다" # AI Tags
 
-bno_convert_to_african: "아프리카 를 포용 하는 것" # AI Tags
-bno_convert_to_african_confirm: "내겐 끝이야!" # AI Tags
-bno_convert_to_african_desc: "여러분은 이 문화가 어떻게 행동하는지 직접 경험했습니다. 매우 강한 문화입니다. 옛날 속담이 있잖아요. 만약 그들을 이길 수 없다면, 당신은 그들과 합류하게 될 겁니다." # AI Tags
-bno_convert_to_african_tooltip: "포옹해 $bnoc$ 조상들의 뿌리" # AI Tags
+ bno_convert_to_african: "아프리카 를 포용 하는 것" # AI Tags
+ bno_convert_to_african_confirm: "내겐 끝이야!" # AI Tags
+ bno_convert_to_african_desc: "여러분은 이 문화가 어떻게 행동하는지 직접 경험했습니다. 매우 강한 문화입니다. 옛날 속담이 있잖아요. 만약 그들을 이길 수 없다면, 당신은 그들과 합류하게 될 겁니다." # AI Tags
+ bno_convert_to_african_tooltip: "포옹해 $bnoc$ 조상들의 뿌리" # AI Tags
 
-bno_build_bbc_church: "건설 $building_bbc_church_01$" # AI Tags
-bno_build_bbc_church_confirm: "첫 번째 돌을 놓겠습니다!" # AI Tags
-bno_build_bbc_church.desc: "교회 기반의 건설은 [bno_religion|E] 그리고 새로운 삶의 방식에 대한 우리의 헌신." # AI Tags
-bno_build_bbc_church.tooltip: "예배를 드리는 장소 를 건설 하는 것 [bno_bbc|E]" # AI Tags
-bno_build_bbc_church.toast: "$building_bbc_church_01$ 건설" # AI Tags
+ bno_build_bbc_church: "건설 $building_bbc_church_01$" # AI Tags
+ bno_build_bbc_church_confirm: "첫 번째 돌을 놓겠습니다!" # AI Tags
+ bno_build_bbc_church.desc: "교회 기반의 건설은 [bno_religion|E] 그리고 새로운 삶의 방식에 대한 우리의 헌신." # AI Tags
+ bno_build_bbc_church.tooltip: "예배를 드리는 장소 를 건설 하는 것 [bno_bbc|E]" # AI Tags
+ bno_build_bbc_church.toast: "$building_bbc_church_01$ 건설" # AI Tags
 
-bno_found_bbc_church_holy_order: "성 순서를 찾았습니다 [bno_religion|E]" # AI Tags
-bno_found_bbc_church_holy_order_confirm: "우리는 이 소식을 널리 알릴 수 있습니다 [bno_bbc|E]" # AI Tags
-bno_found_bbc_church_holy_order.desc: "신성 순서 [bno_religion|E] 예배와 경건을 위해 헌신합니다 [bno_bbc|E]그 가치를 알리고 우리 사회에서 그 위치를 보장합니다." # AI Tags
-bno_found_bbc_church_holy_order.tooltip: "성교의 예배에 헌신하는 성교를 설립합니다 [bno_bbc|E]" # AI Tags
-bno_found_bbc_church_holy_order.effect_tooltip: "신성 순서 [bno_religion|E] 그 교육과 가치관을 전 세계에 퍼뜨리고 있습니다." # AI Tags
+ bno_found_bbc_church_holy_order: "성 순서를 찾았습니다 [bno_religion|E]" # AI Tags
+ bno_found_bbc_church_holy_order_confirm: "우리는 이 소식을 널리 알릴 수 있습니다 [bno_bbc|E]" # AI Tags
+ bno_found_bbc_church_holy_order.desc: "신성 순서 [bno_religion|E] 예배와 경건을 위해 헌신합니다 [bno_bbc|E]그 가치를 알리고 우리 사회에서 그 위치를 보장합니다." # AI Tags
+ bno_found_bbc_church_holy_order.tooltip: "성교의 예배에 헌신하는 성교를 설립합니다 [bno_bbc|E]" # AI Tags
+ bno_found_bbc_church_holy_order.effect_tooltip: "신성 순서 [bno_religion|E] 그 교육과 가치관을 전 세계에 퍼뜨리고 있습니다." # AI Tags
 
-bno_cure_disease.title.male: "깨끗 하게 하는 키스" # AI Tags
-bno_cure_disease.title.female: "주권자 의 씨 의 축복" # AI Tags
-bno_cure_disease.desc.male: "집회된 궁정과 성직자 앞에서 모든 병든 주인은 선택된 사제 여자의 앞에 무릎을 꿇는다. 그 다음, 그녀가 누른 허벅지를 내려놓을 때 그들의 입을 넓게 열도록 지시하고, 자신의 얼굴이 그녀의 신성한 nektar의 원천에 단단히 압축될 수 있도록 자신을 배치합니다. 그는 성녀가 의식의 종말을 알릴 때까지 그녀의 똥에서 자유롭게 섭취해야 합니다." # AI Tags
-bno_cure_disease.desc.female: "집회 된 법원 과 성직자 들 앞 에서 모든 병든 여자 들 은 선택 된 사제 앞 에서 무릎 을 꿇는다. 그녀는 그녀의 입을 넓게 열도록 지시받습니다. 그가 그의 정형 성추를 그녀의 기다리는 입술로 낮추는 동안. 성직자 는 그 여자 의 입 에 깊게 꽂아 주며 머리 를 움직이고 자유롭게 삼키도록 격려 한다. 이 의식은 성직자가 그녀의 입에 직접 출출할 때까지 계속됩니다. 이는 성공적인 치료를 의미합니다." # AI Tags
-bno_cure_disease.confirm.male: "이리 와." # AI Tags
-bno_cure_disease.confirm.female: "난 기다릴 수 없어." # AI Tags
-bno_cure_disease.tooltip.male: "여자의 맛이 어떻게 되는지 궁금합니다." # AI Tags
-bno_cure_disease.tooltip.female: "내 성모를 축복해줘." # AI Tags
-bno_cure_diseases.own.sickness: "넌 병에 걸렸어." # AI Tags
-bno_cure_disease.employing_bbc_priestess: "당신은 고용했습니다 [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
-bno_cure_diseases.second_step_button: "제발 치유해줘." # AI Tags
-bno_cure_diseases.lovers_pox: "표기 [GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.ill: "약화 된 [GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.pneumonic: "아래로 질식하는 것 [GetTrait('pneumonic').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.great_pox: "상처받았어 [GetTrait('great_pox').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.early_great_pox: "신선한 [GetTrait('early_great_pox').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.leper: "배제된 [GetTrait('leper').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.gout_ridden: "마비된 [GetTrait('gout_ridden').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.consumption: "취약한 [GetTrait('consumption').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.cancer: "약화 된 [GetTrait('cancer').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.typhus: "불타는 것 [GetTrait('typhus').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.bubonic_plague: "사망 [GetTrait('bubonic_plague').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.smallpox: " [GetTrait('smallpox').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.measles: "붓고 [GetTrait('measles').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.dysentery: "배수 [GetTrait('dysentery').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.ergotism: "흔들려서 [GetTrait('ergotism').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.sickly: "부드러운 [GetTrait('sickly').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_disease.title.male: "깨끗 하게 하는 키스" # AI Tags
+ bno_cure_disease.title.female: "주권자 의 씨 의 축복" # AI Tags
+ bno_cure_disease.desc.male: "집회된 궁정과 성직자 앞에서 모든 병든 주인은 선택된 사제 여자의 앞에 무릎을 꿇는다. 그 다음, 그녀가 누른 허벅지를 내려놓을 때 그들의 입을 넓게 열도록 지시하고, 자신의 얼굴이 그녀의 신성한 nektar의 원천에 단단히 압축될 수 있도록 자신을 배치합니다. 그는 성녀가 의식의 종말을 알릴 때까지 그녀의 똥에서 자유롭게 섭취해야 합니다." # AI Tags
+ bno_cure_disease.desc.female: "집회 된 법원 과 성직자 들 앞 에서 모든 병든 여자 들 은 선택 된 사제 앞 에서 무릎 을 꿇는다. 그녀는 그녀의 입을 넓게 열도록 지시받습니다. 그가 그의 정형 성추를 그녀의 기다리는 입술로 낮추는 동안. 성직자 는 그 여자 의 입 에 깊게 꽂아 주며 머리 를 움직이고 자유롭게 삼키도록 격려 한다. 이 의식은 성직자가 그녀의 입에 직접 출출할 때까지 계속됩니다. 이는 성공적인 치료를 의미합니다." # AI Tags
+ bno_cure_disease.confirm.male: "이리 와." # AI Tags
+ bno_cure_disease.confirm.female: "난 기다릴 수 없어." # AI Tags
+ bno_cure_disease.tooltip.male: "여자의 맛이 어떻게 되는지 궁금합니다." # AI Tags
+ bno_cure_disease.tooltip.female: "내 성모를 축복해줘." # AI Tags
+ bno_cure_diseases.own.sickness: "넌 병에 걸렸어." # AI Tags
+ bno_cure_disease.employing_bbc_priestess: "당신은 고용했습니다 [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
+ bno_cure_diseases.second_step_button: "제발 치유해줘." # AI Tags
+ bno_cure_diseases.lovers_pox: "표기 [GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.ill: "약화 된 [GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.pneumonic: "아래로 질식하는 것 [GetTrait('pneumonic').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.great_pox: "상처받았어 [GetTrait('great_pox').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.early_great_pox: "신선한 [GetTrait('early_great_pox').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.leper: "배제된 [GetTrait('leper').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.gout_ridden: "마비된 [GetTrait('gout_ridden').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.consumption: "취약한 [GetTrait('consumption').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.cancer: "약화 된 [GetTrait('cancer').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.typhus: "불타는 것 [GetTrait('typhus').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.bubonic_plague: "사망 [GetTrait('bubonic_plague').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.smallpox: " [GetTrait('smallpox').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.measles: "붓고 [GetTrait('measles').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.dysentery: "배수 [GetTrait('dysentery').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.ergotism: "흔들려서 [GetTrait('ergotism').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.sickly: "부드러운 [GetTrait('sickly').GetName( GetNullCharacter )]" # AI Tags
 
-bno_cure_diseases.lovers_pox.desc: "기억과 입의 유혹적인 발진, [GetTrait('lovers_pox').GetName( GetNullCharacter )] 너무 젖은 키스나 부끄러움없는 마찰의 후반 빛처럼 피부를 뒤덮고 있습니다." # AI Tags
-cure_lovers_pox_tooltip: "내 악인으로부터 저를 깨끗하게 해 주십시오 [GetTrait('lovers_pox').GetName( GetNullCharacter )] 그래서 저는 신선하고 배고픈 피부로 다시 죄를 짓게 될 것입니다." # AI Tags
+ bno_cure_diseases.lovers_pox.desc: "기억과 입의 유혹적인 발진, [GetTrait('lovers_pox').GetName( GetNullCharacter )] 너무 젖은 키스나 부끄러움없는 마찰의 후반 빛처럼 피부를 뒤덮고 있습니다." # AI Tags
+ cure_lovers_pox_tooltip: "내 악인으로부터 저를 깨끗하게 해 주십시오 [GetTrait('lovers_pox').GetName( GetNullCharacter )] 그래서 저는 신선하고 배고픈 피부로 다시 죄를 짓게 될 것입니다." # AI Tags
 
-bno_cure_diseases.ill.desc: "고통과 떨림의 뜨거운 안개가 당신을 감싸고 있습니다 [GetTrait('ill').GetName( GetNullCharacter )] 천장과 따뜻한 몸을 똑같이 저항할 수 없게 만듭니다." # AI Tags
-cure_ill_tooltip: "제발 내 엄마를 돌봐줘 [GetTrait('ill').GetName( GetNullCharacter )]그래서 더 달콤한 노력에 힘을 쓸 수 있습니다." # AI Tags
+ bno_cure_diseases.ill.desc: "고통과 떨림의 뜨거운 안개가 당신을 감싸고 있습니다 [GetTrait('ill').GetName( GetNullCharacter )] 천장과 따뜻한 몸을 똑같이 저항할 수 없게 만듭니다." # AI Tags
+ cure_ill_tooltip: "제발 내 엄마를 돌봐줘 [GetTrait('ill').GetName( GetNullCharacter )]그래서 더 달콤한 노력에 힘을 쓸 수 있습니다." # AI Tags
 
-bno_cure_diseases.pneumonic.desc: "뜨거운 폐와 떨리는 肋骨, [GetTrait('pneumonic').GetName( GetNullCharacter )] 숨을 훔쳐서 느린 뇌졸중과 안정된 손을 갈망하게 됩니다." # AI Tags
-cure_pneumonic_tooltip: "제발 날 쫓아줘 [GetTrait('pneumonic').GetName( GetNullCharacter )] 그래서 내 숨쉬는 것은 고통이 아니라 즐거움이 될 수 있습니다." # AI Tags
+ bno_cure_diseases.pneumonic.desc: "뜨거운 폐와 떨리는 肋骨, [GetTrait('pneumonic').GetName( GetNullCharacter )] 숨을 훔쳐서 느린 뇌졸중과 안정된 손을 갈망하게 됩니다." # AI Tags
+ cure_pneumonic_tooltip: "제발 날 쫓아줘 [GetTrait('pneumonic').GetName( GetNullCharacter )] 그래서 내 숨쉬는 것은 고통이 아니라 즐거움이 될 수 있습니다." # AI Tags
 
-bno_cure_diseases.great_pox.desc: "빈부, 죄의 흉터, [GetTrait('great_pox').GetName( GetNullCharacter )] 촛불이 떨어졌을 때 무슨 짓을 했는지에 대한 몸의 거론입니다." # AI Tags
-cure_great_pox_tooltip: "제발 날 깨끗하게 해줘 [GetTrait('great_pox').GetName( GetNullCharacter )] 그래서 내 피부는 다시 부드러운 초청입니다." # AI Tags
+ bno_cure_diseases.great_pox.desc: "빈부, 죄의 흉터, [GetTrait('great_pox').GetName( GetNullCharacter )] 촛불이 떨어졌을 때 무슨 짓을 했는지에 대한 몸의 거론입니다." # AI Tags
+ cure_great_pox_tooltip: "제발 날 깨끗하게 해줘 [GetTrait('great_pox').GetName( GetNullCharacter )] 그래서 내 피부는 다시 부드러운 초청입니다." # AI Tags
 
-bno_cure_diseases.early_great_pox.desc: "부드러운 상처와 비밀 스릴 [GetTrait('early_great_pox').GetName( GetNullCharacter )] 은 마치 기억에 남는 울음처럼 신경을 습니다." # AI Tags
-cure_early_great_pox_tooltip: "제발 내 손을 씻어줘 [GetTrait('early_great_pox').GetName( GetNullCharacter )] 속삭이 흉터가 되기 전에." # AI Tags
+ bno_cure_diseases.early_great_pox.desc: "부드러운 상처와 비밀 스릴 [GetTrait('early_great_pox').GetName( GetNullCharacter )] 은 마치 기억에 남는 울음처럼 신경을 습니다." # AI Tags
+ cure_early_great_pox_tooltip: "제발 내 손을 씻어줘 [GetTrait('early_great_pox').GetName( GetNullCharacter )] 속삭이 흉터가 되기 전에." # AI Tags
 
-bno_cure_diseases.leper.desc: "거리가 처벌이 되고, [GetTrait('leper').GetName( GetNullCharacter )] 손바닥에 달린 애착도 금지된 것 같고, 마음도 가질 수 없는 것에 힘쓰고 있습니다." # AI Tags
-cure_leper_tooltip: "제발 내 몸에서 벗어날 수 있어 [GetTrait('leper').GetName( GetNullCharacter )] 그래서 입술과 손이 날 두려워할 필요가 없습니다." # AI Tags
+ bno_cure_diseases.leper.desc: "거리가 처벌이 되고, [GetTrait('leper').GetName( GetNullCharacter )] 손바닥에 달린 애착도 금지된 것 같고, 마음도 가질 수 없는 것에 힘쓰고 있습니다." # AI Tags
+ cure_leper_tooltip: "제발 내 몸에서 벗어날 수 있어 [GetTrait('leper').GetName( GetNullCharacter )] 그래서 입술과 손이 날 두려워할 필요가 없습니다." # AI Tags
 
-bno_cure_diseases.gout_ridden.desc: "한 발자국, 한 발자국, 한 발자국, 한 발자국 [GetTrait('gout_ridden').GetName( GetNullCharacter )] 서두르지 않고 처리해야 한다고 요구합니다." # AI Tags
-cure_gout_ridden_tooltip: "진정해 [GetTrait('gout_ridden').GetName( GetNullCharacter )] 그래서 제 엉덩이는 올바른 이유 때문에 롤할 수 있습니다." # AI Tags
+ bno_cure_diseases.gout_ridden.desc: "한 발자국, 한 발자국, 한 발자국, 한 발자국 [GetTrait('gout_ridden').GetName( GetNullCharacter )] 서두르지 않고 처리해야 한다고 요구합니다." # AI Tags
+ cure_gout_ridden_tooltip: "진정해 [GetTrait('gout_ridden').GetName( GetNullCharacter )] 그래서 제 엉덩이는 올바른 이유 때문에 롤할 수 있습니다." # AI Tags
 
-bno_cure_diseases.consumption.desc: "색 피부, 밝은 눈, 느리게 타는 열 [GetTrait('consumption').GetName( GetNullCharacter )] 휴식을 은 갈망으로 바꾼다." # AI Tags
-cure_consumption_tooltip: "제발 내 차를 몰아줘 [GetTrait('consumption').GetName( GetNullCharacter )] 그래서 내 숨은 따뜻하고 안정적인 숨결으로 돌아옵니다." # AI Tags
+ bno_cure_diseases.consumption.desc: "색 피부, 밝은 눈, 느리게 타는 열 [GetTrait('consumption').GetName( GetNullCharacter )] 휴식을 은 갈망으로 바꾼다." # AI Tags
+ cure_consumption_tooltip: "제발 내 차를 몰아줘 [GetTrait('consumption').GetName( GetNullCharacter )] 그래서 내 숨은 따뜻하고 안정적인 숨결으로 돌아옵니다." # AI Tags
 
-bno_cure_diseases.cancer.desc: "육체의 그림자 [GetTrait('cancer').GetName( GetNullCharacter )] 힘과 색을 훔치지만 배고픔을 억제할 수 없게 합니다." # AI Tags
-cure_cancer_tooltip: "제발 내 손을 벗겨라 [GetTrait('cancer').GetName( GetNullCharacter )] 그래서 삶은 다시 풍요롭고 성숙한 맛을 느낄 수 있습니다." # AI Tags
+ bno_cure_diseases.cancer.desc: "육체의 그림자 [GetTrait('cancer').GetName( GetNullCharacter )] 힘과 색을 훔치지만 배고픔을 억제할 수 없게 합니다." # AI Tags
+ cure_cancer_tooltip: "제발 내 손을 벗겨라 [GetTrait('cancer').GetName( GetNullCharacter )] 그래서 삶은 다시 풍요롭고 성숙한 맛을 느낄 수 있습니다." # AI Tags
 
-bno_cure_diseases.typhus.desc: "열에 의해서만 옷을 벗는 열이라 [GetTrait('typhus').GetName( GetNullCharacter )] 온화한 침대 시트와 열병 꿈으로 세상을 흐리게 합니다." # AI Tags
-cure_typhus_tooltip: "제발 나를 추방해줘 [GetTrait('typhus').GetName( GetNullCharacter )] 그래서 내 땀은 더 달콤한 일에서 얻습니다." # AI Tags
+ bno_cure_diseases.typhus.desc: "열에 의해서만 옷을 벗는 열이라 [GetTrait('typhus').GetName( GetNullCharacter )] 온화한 침대 시트와 열병 꿈으로 세상을 흐리게 합니다." # AI Tags
+ cure_typhus_tooltip: "제발 나를 추방해줘 [GetTrait('typhus').GetName( GetNullCharacter )] 그래서 내 땀은 더 달콤한 일에서 얻습니다." # AI Tags
 
-bno_cure_diseases.bubonic_plague.desc: "몸은 물린 과일처럼 멍하니 [GetTrait('bubonic_plague').GetName( GetNullCharacter )] 심지어 욕구는 더 따뜻한 포옹을 위한 기도로 변합니다." # AI Tags
-cure_bubonic_plague_tooltip: "내 손을 들어주세요 [GetTrait('bubonic_plague').GetName( GetNullCharacter )] 그래서 접촉은 기쁨이 될 수 있습니다. 작별 인사를 하는 것이 아닙니다." # AI Tags
+ bno_cure_diseases.bubonic_plague.desc: "몸은 물린 과일처럼 멍하니 [GetTrait('bubonic_plague').GetName( GetNullCharacter )] 심지어 욕구는 더 따뜻한 포옹을 위한 기도로 변합니다." # AI Tags
+ cure_bubonic_plague_tooltip: "내 손을 들어주세요 [GetTrait('bubonic_plague').GetName( GetNullCharacter )] 그래서 접촉은 기쁨이 될 수 있습니다. 작별 인사를 하는 것이 아닙니다." # AI Tags
 
-bno_cure_diseases.smallpox.desc: "빛나는 별과 열이 있는 밤 [GetTrait('smallpox').GetName( GetNullCharacter )] 당신의 별자리를 다시 그려서 진정해달라고 부탁합니다." # AI Tags
-cure_smallpox_tooltip: "제발 내 [GetTrait('smallpox').GetName( GetNullCharacter )] 그래서 내 피부는 다시 부드러운 초청이 될 수 있습니다." # AI Tags
+ bno_cure_diseases.smallpox.desc: "빛나는 별과 열이 있는 밤 [GetTrait('smallpox').GetName( GetNullCharacter )] 당신의 별자리를 다시 그려서 진정해달라고 부탁합니다." # AI Tags
+ cure_smallpox_tooltip: "제발 내 [GetTrait('smallpox').GetName( GetNullCharacter )] 그래서 내 피부는 다시 부드러운 초청이 될 수 있습니다." # AI Tags
 
-bno_cure_diseases.measles.desc: "얼룩진 열과 가려움증 [GetTrait('measles').GetName( GetNullCharacter )] 억울함을 불안으로 바꾸고 인내심을 간청으로 바꾸어 놓습니다." # AI Tags
-cure_measles_tooltip: "제발 진정해 [GetTrait('measles').GetName( GetNullCharacter )] 긁혀지지 않고 을 수 있게 해." # AI Tags
+ bno_cure_diseases.measles.desc: "얼룩진 열과 가려움증 [GetTrait('measles').GetName( GetNullCharacter )] 억울함을 불안으로 바꾸고 인내심을 간청으로 바꾸어 놓습니다." # AI Tags
+ cure_measles_tooltip: "제발 진정해 [GetTrait('measles').GetName( GetNullCharacter )] 긁혀지지 않고 을 수 있게 해." # AI Tags
 
-bno_cure_diseases.dysentery.desc: "마비 파동과 다리가 다쳤다는 것 [GetTrait('dysentery').GetName( GetNullCharacter )] 부드러운 잔과 부드러운 밤을 구하기 위해 가장 강한 간청을 합니다." # AI Tags
-cure_dysentery_tooltip: "내 말 좀 끝내줘 [GetTrait('dysentery').GetName( GetNullCharacter )] 그래서 제 몸은 다시 잔잔하고 즐거워할 수 있습니다." # AI Tags
+ bno_cure_diseases.dysentery.desc: "마비 파동과 다리가 다쳤다는 것 [GetTrait('dysentery').GetName( GetNullCharacter )] 부드러운 잔과 부드러운 밤을 구하기 위해 가장 강한 간청을 합니다." # AI Tags
+ cure_dysentery_tooltip: "내 말 좀 끝내줘 [GetTrait('dysentery').GetName( GetNullCharacter )] 그래서 제 몸은 다시 잔잔하고 즐거워할 수 있습니다." # AI Tags
 
-bno_cure_diseases.ergotism.desc: "ピン, 스파크, 이상한 꿈; [GetTrait('ergotism').GetName( GetNullCharacter )] 당신이 시작하려고 하지 않은 주둥이 무용으로 세상을 바꾸어 놓습니다." # AI Tags
-cure_ergotism_tooltip: "제발 내 몸에서 내 몸을 풀어줘 [GetTrait('ergotism').GetName( GetNullCharacter )] 그래서 나는 내 중독을 선택할 수 있습니다." # AI Tags
+ bno_cure_diseases.ergotism.desc: "ピン, 스파크, 이상한 꿈; [GetTrait('ergotism').GetName( GetNullCharacter )] 당신이 시작하려고 하지 않은 주둥이 무용으로 세상을 바꾸어 놓습니다." # AI Tags
+ cure_ergotism_tooltip: "제발 내 몸에서 내 몸을 풀어줘 [GetTrait('ergotism').GetName( GetNullCharacter )] 그래서 나는 내 중독을 선택할 수 있습니다." # AI Tags
 
-bno_cure_diseases.sickly.desc: "얇은 손목의 약점과 촛불빛의 잠자리; [GetTrait('sickly').GetName( GetNullCharacter )] 따뜻한 손과 인내를 가진 관리자를 갈망하게 해줍니다." # AI Tags
-cure_sickly_tooltip: "제발 치료해줘 [GetTrait('sickly').GetName( GetNullCharacter )] 그래서 제 몸은 아무런 리저브 없이 즐거워할 수 있습니다." # AI Tags
+ bno_cure_diseases.sickly.desc: "얇은 손목의 약점과 촛불빛의 잠자리; [GetTrait('sickly').GetName( GetNullCharacter )] 따뜻한 손과 인내를 가진 관리자를 갈망하게 해줍니다." # AI Tags
+ cure_sickly_tooltip: "제발 치료해줘 [GetTrait('sickly').GetName( GetNullCharacter )] 그래서 제 몸은 아무런 리저브 없이 즐거워할 수 있습니다." # AI Tags
 
-bno_cure_diseases.tooltip.1: "당신은 당신의 병을 치유 할 것입니다 [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
-bno_cure_diseases.tooltip.2: "당신은 방문 할 것입니다 [GetBuilding('bbc_church_02').GetName]" # AI Tags
+ bno_cure_diseases.tooltip.1: "당신은 당신의 병을 치유 할 것입니다 [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
+ bno_cure_diseases.tooltip.2: "당신은 방문 할 것입니다 [GetBuilding('bbc_church_02').GetName]" # AI Tags
 
-bno_primal_insight_decision.title.female: "여왕 의 눈 아래: 원시적 인 통찰 의 의식" # AI Tags
-bno_primal_insight_decision.desc.female: "바람은 기대로 튀어나오며 야스민 기름과 욕망의 향이 섞여 있었다. '프리멀 인사이트'를 앞둔 몇 주 동안 내 궁전에는 열망한 유망주들이 늘 있었습니다. 그들의 어두운 눈은 내 호의를 맛볼 수 있었습니다. 그들은 에본 유령처럼 풍요로운 홀들을 통해 나를 뒤덮고 있었고, 그들의 손들은 제 실크에 너무 오래 걸려 있었고 그들은 속삭여서 약속하고 풍요로운 선물을 제공했습니다. 모든 접촉은 내 척추를 떨쳐버렸고, 우리의 연례 의식의 불가피한 절정에 대한 맛있는 고통이었습니다. 블랙코크 사제의 강력한 씨앗에 의해 내가 주장되고 소유되고 다시 만들어지는 순간이었습니다." # AI Tags
-bno_primal_insight_decision.confirm.female: "그러한 열렬한 헌신은 내 마음을 따뜻하게 합니다." # AI Tags
-bno_primal_insight_decision.tooltip.female: "당신은 얻을 것입니다 [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+ bno_primal_insight_decision.title.female: "여왕 의 눈 아래: 원시적 인 통찰 의 의식" # AI Tags
+ bno_primal_insight_decision.desc.female: "바람은 기대로 튀어나오며 야스민 기름과 욕망의 향이 섞여 있었다. '프리멀 인사이트'를 앞둔 몇 주 동안 내 궁전에는 열망한 유망주들이 늘 있었습니다. 그들의 어두운 눈은 내 호의를 맛볼 수 있었습니다. 그들은 에본 유령처럼 풍요로운 홀들을 통해 나를 뒤덮고 있었고, 그들의 손들은 제 실크에 너무 오래 걸려 있었고 그들은 속삭여서 약속하고 풍요로운 선물을 제공했습니다. 모든 접촉은 내 척추를 떨쳐버렸고, 우리의 연례 의식의 불가피한 절정에 대한 맛있는 고통이었습니다. 블랙코크 사제의 강력한 씨앗에 의해 내가 주장되고 소유되고 다시 만들어지는 순간이었습니다." # AI Tags
+ bno_primal_insight_decision.confirm.female: "그러한 열렬한 헌신은 내 마음을 따뜻하게 합니다." # AI Tags
+ bno_primal_insight_decision.tooltip.female: "당신은 얻을 것입니다 [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
-bno_primal_insight_decision.effect_tooltip: "당신은 얻을 수 있는 의식을 시작할 것입니다 [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+ bno_primal_insight_decision.effect_tooltip: "당신은 얻을 수 있는 의식을 시작할 것입니다 [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
-bno_primal_insight_decision.title.male: "왕 의 눈 아래: 원시적 인 통찰력 의 의식" # AI Tags
-bno_primal_insight_decision.desc.male: "공기는 산달나무와 머스크로 가득 차 있었습니다. 제 냄새는 제 두 번째 피부처럼 제 여신에게 붙어 있는 야스민 향과 섞여 있었습니다. 몇 주 동안, 그녀의 존재는 끊임없이 통증이 나를 어, 내 욕망의 해안에서 는 실크 물결이었다. 그녀는 내 궁전의 방들 속에서 연기와 같은 움직임을 보였고, 이성 파란 눈은 날 따라다니며 - 허리 아래로 떨기를 내리기 위해 맨 팔에 오래 머물렀다. 그녀의 웃음은 여름의 바람에 바람을 피우는 것과 같았으며, 그녀의 촉각은 나비 날개보다 가벼웠지만, 나는 그녀의 작은 손을 내 영혼에 branding 내 피부에 손가락 끝의 모든 날카로운 브러쉬로 느낄 수 있었다. 다가오는 날은 제 마음 속의 두 번째 박스처럼 뛰었습니다. 그녀가 다시 나에게 자신을 바칠 날이었습니다. 그리고 저는 그녀의 신성한 힘의 샘에서 깊이 마시고, 그 고대 의식의 불에 다시 변했습니다." # AI Tags
-bno_primal_insight_decision.confirm.male: "그럼, 사제여, 우리가 협상하자." # AI Tags
-bno_primal_insight_decision.tooltip.male: "당신은 얻을 것입니다 [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+ bno_primal_insight_decision.title.male: "왕 의 눈 아래: 원시적 인 통찰력 의 의식" # AI Tags
+ bno_primal_insight_decision.desc.male: "공기는 산달나무와 머스크로 가득 차 있었습니다. 제 냄새는 제 두 번째 피부처럼 제 여신에게 붙어 있는 야스민 향과 섞여 있었습니다. 몇 주 동안, 그녀의 존재는 끊임없이 통증이 나를 어, 내 욕망의 해안에서 는 실크 물결이었다. 그녀는 내 궁전의 방들 속에서 연기와 같은 움직임을 보였고, 이성 파란 눈은 날 따라다니며 - 허리 아래로 떨기를 내리기 위해 맨 팔에 오래 머물렀다. 그녀의 웃음은 여름의 바람에 바람을 피우는 것과 같았으며, 그녀의 촉각은 나비 날개보다 가벼웠지만, 나는 그녀의 작은 손을 내 영혼에 branding 내 피부에 손가락 끝의 모든 날카로운 브러쉬로 느낄 수 있었다. 다가오는 날은 제 마음 속의 두 번째 박스처럼 뛰었습니다. 그녀가 다시 나에게 자신을 바칠 날이었습니다. 그리고 저는 그녀의 신성한 힘의 샘에서 깊이 마시고, 그 고대 의식의 불에 다시 변했습니다." # AI Tags
+ bno_primal_insight_decision.confirm.male: "그럼, 사제여, 우리가 협상하자." # AI Tags
+ bno_primal_insight_decision.tooltip.male: "당신은 얻을 것입니다 [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
-bull_decision.effect: "거대한 [stress|E] 손실." # AI Tags
-bno_events00.too_much_bbc: "당신의 법원은 이미 [bno_bbcs|E]. 황소당에도 한계가 있습니다." # AI Tags
-bno_invite_slut_decision.too_much_white_girl: "당신의 법원은 이미 한 창녀들로 가득 차 있습니다. 더 많은 것은 그들의 가치를 저하하고 그들의 지배를 압박할 것입니다." # AI Tags
-bno_events00.too_little_bbc: "당신의 홀은 빈 [bno_bbcs|E]. 3명 미만인 황제들의 궁전에는 그들의 존재에 따른 힘과 유혹이 부족합니다. 그들을 초대하고 그들의 그림자가 당신의 영역에 떨어지도록 하세요." # AI Tags
-bno_invite_slut_decision.too_little_white_girl: "당신의 궁전에는 한 창녀들이 있다. 더 많은 사람들이 초청되어야 합니다. 왜냐하면 모든 홀이 한 지붕 아래 모인 백인 창녀들이 권력과 위험에 처해 있기 때문입니다." # AI Tags
+ bull_decision.effect: "거대한 [stress|E] 손실." # AI Tags
+ bno_events00.too_much_bbc: "당신의 법원은 이미 [bno_bbcs|E]. 황소당에도 한계가 있습니다." # AI Tags
+ bno_invite_slut_decision.too_much_white_girl: "당신의 법원은 이미 한 창녀들로 가득 차 있습니다. 더 많은 것은 그들의 가치를 저하하고 그들의 지배를 압박할 것입니다." # AI Tags
+ bno_events00.too_little_bbc: "당신의 홀은 빈 [bno_bbcs|E]. 3명 미만인 황제들의 궁전에는 그들의 존재에 따른 힘과 유혹이 부족합니다. 그들을 초대하고 그들의 그림자가 당신의 영역에 떨어지도록 하세요." # AI Tags
+ bno_invite_slut_decision.too_little_white_girl: "당신의 궁전에는 한 창녀들이 있다. 더 많은 사람들이 초청되어야 합니다. 왜냐하면 모든 홀이 한 지붕 아래 모인 백인 창녀들이 권력과 위험에 처해 있기 때문입니다." # AI Tags
 
-bno_becoming_bbc_slut.has_bbc_in_court: "적어도 한 사람이 있어야 합니다 [bno_bbc|E] 이 길을 시작하기 위해 당신의 궁전에서. 당신을 주장하는 황소가 없다면 노예로 넘어지는 것은 시작될 수 없습니다." # AI Tags
+ bno_becoming_bbc_slut.has_bbc_in_court: "적어도 한 사람이 있어야 합니다 [bno_bbc|E] 이 길을 시작하기 위해 당신의 궁전에서. 당신을 주장하는 황소가 없다면 노예로 넘어지는 것은 시작될 수 없습니다." # AI Tags
 
-bno_trade_piety_for_gold.title.male: "충실 한 사람 들 을 채취 하라"   # AI Tags
-bno_trade_piety_for_gold.title.female: "충실 한 사람 들 을 채취 하라"   # AI Tags
+ bno_trade_piety_for_gold.title.male: "충실 한 사람 들 을 채취 하라"   # AI Tags
+ bno_trade_piety_for_gold.title.female: "충실 한 사람 들 을 채취 하라"   # AI Tags
 
-bno_trade_piety_for_gold.desc.male: "제주특별자치도 제주특별자치도 제주특별자치도 제주 [GetFaithByKey('bbcs').GetName]대성당에서는 황소와 창녀의 헌신이 동일합니다. 그들의 숭배는 울음과 씨앗보다 더합니다. 그들은 그들의 금을 당신의 손에 붓습니다. 모든 동전이 [bno_bbc|E]."   # AI Tags
+ bno_trade_piety_for_gold.desc.male: "제주특별자치도 제주특별자치도 제주특별자치도 제주 [GetFaithByKey('bbcs').GetName]대성당에서는 황소와 창녀의 헌신이 동일합니다. 그들의 숭배는 울음과 씨앗보다 더합니다. 그들은 그들의 금을 당신의 손에 붓습니다. 모든 동전이 [bno_bbc|E]."   # AI Tags
 
-bno_trade_piety_for_gold.desc.female: "'블랙 크'의 축복받은 창녀로서 [GetFaithByKey('bbcs').GetName]당신의 경건한 신앙은 믿는 사람들에게 영감을 줍니다. 그들은 그들의 지갑을 바쁜 마음으로 비우고 그들의 허벅지를 펴고 동전과 고기를 바치며 여러분의 황새의 거룩한 사유를 가동합니다."   # AI Tags
+ bno_trade_piety_for_gold.desc.female: "'블랙 크'의 축복받은 창녀로서 [GetFaithByKey('bbcs').GetName]당신의 경건한 신앙은 믿는 사람들에게 영감을 줍니다. 그들은 그들의 지갑을 바쁜 마음으로 비우고 그들의 허벅지를 펴고 동전과 고기를 바치며 여러분의 황새의 거룩한 사유를 가동합니다."   # AI Tags
 
-bno_trade_piety_for_gold.tooltip.male: "지출 [piety|E] 충실한 자들에게 십일조를 명령하여 [gold|E]."   # AI Tags
-bno_trade_piety_for_gold.tooltip.female: "지출 [piety|E] 그들의 욕망과 금이 당신에게 흐르는 당신의 양떼를 세금을 부추기 위해."   # AI Tags
+ bno_trade_piety_for_gold.tooltip.male: "지출 [piety|E] 충실한 자들에게 십일조를 명령하여 [gold|E]."   # AI Tags
+ bno_trade_piety_for_gold.tooltip.female: "지출 [piety|E] 그들의 욕망과 금이 당신에게 흐르는 당신의 양떼를 세금을 부추기 위해."   # AI Tags
 
-bno_trade_piety_for_gold.confirm.male: "블랙코크의 이름으로 양떼의 금을 불러라."   # AI Tags
-bno_trade_piety_for_gold.confirm.female: "내 황금의 영광을 위해 신자들의 금을 불러라."   # AI Tags
+ bno_trade_piety_for_gold.confirm.male: "블랙코크의 이름으로 양떼의 금을 불러라."   # AI Tags
+ bno_trade_piety_for_gold.confirm.female: "내 황금의 영광을 위해 신자들의 금을 불러라."   # AI Tags
 
-bno_trade_piety_for_gold.effect: "변환 [piety|E] 에 [gold|E] 믿는 자들의 탐욕스러운 성품으로."   # AI Tags
+ bno_trade_piety_for_gold.effect: "변환 [piety|E] 에 [gold|E] 믿는 자들의 탐욕스러운 성품으로."   # AI Tags
 
-bno_trade_prestige_for_gold.title.male: "형제 연합 의 협상"   # AI Tags
-bno_trade_prestige_for_gold.title.female: "형제 연합 의 협상"   # AI Tags
+ bno_trade_prestige_for_gold.title.male: "형제 연합 의 협상"   # AI Tags
+ bno_trade_prestige_for_gold.title.female: "형제 연합 의 협상"   # AI Tags
 
-bno_trade_prestige_for_gold.desc.male: "당신의 명예는 말만으로는 측정되는 것이 아니라 육체적으로 제공되는 것입니다. 형제들에게 충성을 증명하기 위해 아내를 친척에게 매춘했지. 황소들이 그 위에 올라가고 심히 뿌리는 씨앗을 뿌리고 그들의 욕심이 소모되면 그들의 발에 금을 쌓아 올립니다."   # AI Tags
+ bno_trade_prestige_for_gold.desc.male: "당신의 명예는 말만으로는 측정되는 것이 아니라 육체적으로 제공되는 것입니다. 형제들에게 충성을 증명하기 위해 아내를 친척에게 매춘했지. 황소들이 그 위에 올라가고 심히 뿌리는 씨앗을 뿌리고 그들의 욕심이 소모되면 그들의 발에 금을 쌓아 올립니다."   # AI Tags
 
-bno_trade_prestige_for_gold.desc.female: "황소들 사이에서 당신의 명성은 당신의 몸으로 증명됩니다. 너 자신을 벗고, 네 친척들 앞에서 넓게 퍼져,. 모든 절정에 따라 그들은 당신의 손에 동전을 넣고 그들의 씨앗은 그들의 금과 함께 당신의 허벅지를 떨어뜨립니다."   # AI Tags
+ bno_trade_prestige_for_gold.desc.female: "황소들 사이에서 당신의 명성은 당신의 몸으로 증명됩니다. 너 자신을 벗고, 네 친척들 앞에서 넓게 퍼져,. 모든 절정에 따라 그들은 당신의 손에 동전을 넣고 그들의 씨앗은 그들의 금과 함께 당신의 허벅지를 떨어뜨립니다."   # AI Tags
 
-bno_trade_prestige_for_gold.tooltip.male: "지출 [prestige|E] 황소들에게 아내의 구멍을 제공함으로써 [gold|E] 사용 후."   # AI Tags
-bno_trade_prestige_for_gold.tooltip.female: "지출 [prestige|E] 황소들에게 자신의 몸을 바치면서 [gold|E] 사용 후."   # AI Tags
+ bno_trade_prestige_for_gold.tooltip.male: "지출 [prestige|E] 황소들에게 아내의 구멍을 제공함으로써 [gold|E] 사용 후."   # AI Tags
+ bno_trade_prestige_for_gold.tooltip.female: "지출 [prestige|E] 황소들에게 자신의 몸을 바치면서 [gold|E] 사용 후."   # AI Tags
 
-bno_trade_prestige_for_gold.confirm.male: "네, 내 아내가 황금으로 툴러들에게 봉사하게 해."   # AI Tags
-bno_trade_prestige_for_gold.confirm.female: "네, 내가 금을 위해 툴러들에게 봉사할 거야."   # AI Tags
+ bno_trade_prestige_for_gold.confirm.male: "네, 내 아내가 황금으로 툴러들에게 봉사하게 해."   # AI Tags
+ bno_trade_prestige_for_gold.confirm.female: "네, 내가 금을 위해 툴러들에게 봉사할 거야."   # AI Tags
 
-bno_trade_prestige_for_gold.effect: "변환 [prestige|E] 에 [gold|E] 아프리카 형제애에 대한 매춘부 봉사를 통해."   # AI Tags
+ bno_trade_prestige_for_gold.effect: "변환 [prestige|E] 에 [gold|E] 아프리카 형제애에 대한 매춘부 봉사를 통해."   # AI Tags
 
-bno_build_bbc_trader_decision.title.male: "오브시디안 카라반 을 세우는 것" # AI Tags
-bno_build_bbc_trader_decision.desc.male: "블랙 뉴 월드 오더의 황소로서 당신은 땅이 청소되고 검은 깃발로 표시되도록 명령하고 형제들을 소환합니다. 여기 오브시디언 카라반은 창세기 잉크, 블랙 유방의 에릭시어, 벌레에 대한 구석, 그리고 창녀에 대한 피어싱을 판매하는 데 뿌리를 내리게 될 것입니다. 당신은 무역을 초대하지 않습니다. 당신은 지배를 확장하고 있습니다." # AI Tags
-bno_build_bbc_trader_decision.tooltip.male: "토울들이 씨앗, 성자, 소유의 도구들을 거래할 수 있는 영구적인 시장을 찾았습니다." # AI Tags
-bno_build_bbc_trader_decision.confirm.male: "토지를 주장하고 카라반을 불러라." # AI Tags
-bno_build_bbc_trader_decision.message.title.male: "당신 의 카라반 이 도착 합니다" # AI Tags
-bno_build_bbc_trader_decision.message.desc.male: "바구니들은 물품과 씨앗으로 가득 차 있고 실크텐트가 올라가고 향신료가 흐르고 있습니다. 오브시디언 카라반은 이제 여러분의 영역입니다. 황소들이 모여, 창녀들이 속삭이고, 백인 소년들이 떨고 있습니다. 당신의 범위는 더 깊은 영역으로 확장됩니다." # AI Tags
+ bno_build_bbc_trader_decision.title.male: "오브시디안 카라반 을 세우는 것" # AI Tags
+ bno_build_bbc_trader_decision.desc.male: "블랙 뉴 월드 오더의 황소로서 당신은 땅이 청소되고 검은 깃발로 표시되도록 명령하고 형제들을 소환합니다. 여기 오브시디언 카라반은 창세기 잉크, 블랙 유방의 에릭시어, 벌레에 대한 구석, 그리고 창녀에 대한 피어싱을 판매하는 데 뿌리를 내리게 될 것입니다. 당신은 무역을 초대하지 않습니다. 당신은 지배를 확장하고 있습니다." # AI Tags
+ bno_build_bbc_trader_decision.tooltip.male: "토울들이 씨앗, 성자, 소유의 도구들을 거래할 수 있는 영구적인 시장을 찾았습니다." # AI Tags
+ bno_build_bbc_trader_decision.confirm.male: "토지를 주장하고 카라반을 불러라." # AI Tags
+ bno_build_bbc_trader_decision.message.title.male: "당신 의 카라반 이 도착 합니다" # AI Tags
+ bno_build_bbc_trader_decision.message.desc.male: "바구니들은 물품과 씨앗으로 가득 차 있고 실크텐트가 올라가고 향신료가 흐르고 있습니다. 오브시디언 카라반은 이제 여러분의 영역입니다. 황소들이 모여, 창녀들이 속삭이고, 백인 소년들이 떨고 있습니다. 당신의 범위는 더 깊은 영역으로 확장됩니다." # AI Tags
 
-bno_build_bbc_trader_decision.title.female: "오브시디안 카라반 을 초대 하십시오" # AI Tags
-bno_build_bbc_trader_decision.desc.female: "불꽃과 표지판을 붙여서 툴러스 바그런을 위한 공간을 마련합니다. 곧 오브시디언 카라반이 올 거야 과 을 묶는 팅크를 팔고 화이트보이를 해제하는 엘리시어를 팔고. 그들을 환영하는 것은 그들의 힘을 당신의 땅과 당신의 몸에 환영하는 것입니다." # AI Tags
-bno_build_bbc_trader_decision.tooltip.female: "오브시디언 카라반을 위한 장소를 준비해 두라." # AI Tags
-bno_build_bbc_trader_decision.confirm.female: "바닥을 청소하고 길을 열어라." # AI Tags
-bno_build_bbc_trader_decision.message.title.female: "카라반 이 도착" # AI Tags
-bno_build_bbc_trader_decision.message.desc.female: "오브시디언 카라반은 그 자리에 둥글고 차들은 실크와 씨앗으로 가득 차 있습니다. 황소들이 땅을 주장하기 위해 내려오며, 창녀들이 모여서 팅크와 을 속삭이고, 공기는 향신료와 머스크, 그리고 울음소리로 가득 차 있습니다. 여러분은 이미 그 변화를 느낄 수 있습니다. 카라반이 여기 있고, 그와 함께 운명이 있습니다." # AI Tags
+ bno_build_bbc_trader_decision.title.female: "오브시디안 카라반 을 초대 하십시오" # AI Tags
+ bno_build_bbc_trader_decision.desc.female: "불꽃과 표지판을 붙여서 툴러스 바그런을 위한 공간을 마련합니다. 곧 오브시디언 카라반이 올 거야 과 을 묶는 팅크를 팔고 화이트보이를 해제하는 엘리시어를 팔고. 그들을 환영하는 것은 그들의 힘을 당신의 땅과 당신의 몸에 환영하는 것입니다." # AI Tags
+ bno_build_bbc_trader_decision.tooltip.female: "오브시디언 카라반을 위한 장소를 준비해 두라." # AI Tags
+ bno_build_bbc_trader_decision.confirm.female: "바닥을 청소하고 길을 열어라." # AI Tags
+ bno_build_bbc_trader_decision.message.title.female: "카라반 이 도착" # AI Tags
+ bno_build_bbc_trader_decision.message.desc.female: "오브시디언 카라반은 그 자리에 둥글고 차들은 실크와 씨앗으로 가득 차 있습니다. 황소들이 땅을 주장하기 위해 내려오며, 창녀들이 모여서 팅크와 을 속삭이고, 공기는 향신료와 머스크, 그리고 울음소리로 가득 차 있습니다. 여러분은 이미 그 변화를 느낄 수 있습니다. 카라반이 여기 있고, 그와 함께 운명이 있습니다." # AI Tags
 
-bno_purchase_goods_decision.title.male: "카라반의 상품을 지휘하라" # AI Tags
-bno_purchase_goods_decision.desc.male: "오브시디언 카라반은 틴큐어, 에릭시어, 케이즈, 브랜드에 매장을 개방합니다. 황소로서 금으로 지불해야 돼, 결코 육신으로 지불하지 않아. 당신이 쓰는 동전은 지배의 표지이며, 창녀들을 왕관시키고, 더 깊은 순종으로 벌레들을 깨뜨릴 수 있는 도구라고 주장합니다." # AI Tags
-bno_purchase_goods_decision.tooltip.male: "팅크, 엘리시어, 그리고 소유 도구를 얻기 위해 금을 사용하십시오." # AI Tags
-bno_purchase_goods_decision.confirm.male: "당신의 금을 내려놓고 당신의 것을 요구하십시오." # AI Tags
+ bno_purchase_goods_decision.title.male: "카라반의 상품을 지휘하라" # AI Tags
+ bno_purchase_goods_decision.desc.male: "오브시디언 카라반은 틴큐어, 에릭시어, 케이즈, 브랜드에 매장을 개방합니다. 황소로서 금으로 지불해야 돼, 결코 육신으로 지불하지 않아. 당신이 쓰는 동전은 지배의 표지이며, 창녀들을 왕관시키고, 더 깊은 순종으로 벌레들을 깨뜨릴 수 있는 도구라고 주장합니다." # AI Tags
+ bno_purchase_goods_decision.tooltip.male: "팅크, 엘리시어, 그리고 소유 도구를 얻기 위해 금을 사용하십시오." # AI Tags
+ bno_purchase_goods_decision.confirm.male: "당신의 금을 내려놓고 당신의 것을 요구하십시오." # AI Tags
 
-bno_purchase_goods_decision.title.female: "오브시디안 카라반 에서 구매" # AI Tags
-bno_purchase_goods_decision.desc.female: "카라반의 황소들은 창세기 잉크, 검은 자궁의 엘릭시어, 교두보, 피어싱, 그리고 브랜드의 상품들을 퍼뜨렸다. 만약 당신이 금을 가지고 있다면, 그들은 그것을 가져갈 것이다. 그렇지 않으면, 그들은 웃고 당신의 몸을 대신 홀을 펴고, 입을 고, 씨앗이 다리 아래로 떨어지는 것을 요구합니다. 그 값이 완전히 지불될 때까지요." # AI Tags
-bno_purchase_goods_decision.tooltip.female: "금을 쓰거나, 지갑이 빈다면 성적인 용의를 교환하세요." # AI Tags
-bno_purchase_goods_decision.confirm.female: "만약 당신이 할 수 있다면 동전으로 지불하거나, 만약 당신이 할 수 있다면 울음으로 지불하십시오." # AI Tags
+ bno_purchase_goods_decision.title.female: "오브시디안 카라반 에서 구매" # AI Tags
+ bno_purchase_goods_decision.desc.female: "카라반의 황소들은 창세기 잉크, 검은 자궁의 엘릭시어, 교두보, 피어싱, 그리고 브랜드의 상품들을 퍼뜨렸다. 만약 당신이 금을 가지고 있다면, 그들은 그것을 가져갈 것이다. 그렇지 않으면, 그들은 웃고 당신의 몸을 대신 홀을 펴고, 입을 고, 씨앗이 다리 아래로 떨어지는 것을 요구합니다. 그 값이 완전히 지불될 때까지요." # AI Tags
+ bno_purchase_goods_decision.tooltip.female: "금을 쓰거나, 지갑이 빈다면 성적인 용의를 교환하세요." # AI Tags
+ bno_purchase_goods_decision.confirm.female: "만약 당신이 할 수 있다면 동전으로 지불하거나, 만약 당신이 할 수 있다면 울음으로 지불하십시오." # AI Tags
 
-has_bbc_caravan: "오브시디언 카라반은 도착했고 이제 당신의 영역에 거주하고 있습니다. 그 텐트는 팅크, 엘릭시어와 지배 도구로 가득합니다." # AI Tags
+ has_bbc_caravan: "오브시디언 카라반은 도착했고 이제 당신의 영역에 거주하고 있습니다. 그 텐트는 팅크, 엘릭시어와 지배 도구로 가득합니다." # AI Tags
 
-bno_trader_has_arrived.title.male: "카라반 이 도착 했다" # AI Tags
-bno_trader_has_arrived.desc.male: "오브시디언의 차들이 네 땅을 가로지르며 검은 깃발이 튀어나오며. 황소들은 팅크, 에릭시어, 케이즈, 브랜드의 상자들로 내려옵니다. 카라반이 당신의 명령에 따라 여기 왔고, 이제 당신의 우월성의 도구입니다." # AI Tags
+ bno_trader_has_arrived.title.male: "카라반 이 도착 했다" # AI Tags
+ bno_trader_has_arrived.desc.male: "오브시디언의 차들이 네 땅을 가로지르며 검은 깃발이 튀어나오며. 황소들은 팅크, 에릭시어, 케이즈, 브랜드의 상자들로 내려옵니다. 카라반이 당신의 명령에 따라 여기 왔고, 이제 당신의 우월성의 도구입니다." # AI Tags
 
-bno_trader_has_arrived.title.female: "카라반 이 당신 의 영역 에 들어온다" # AI Tags
-bno_trader_has_arrived.desc.female: "무거운 바구니들이 자리잡고, 거대하고 높은 황소들의 감시 아래 실크막이 올라간다. 그들의 상품은 묶을 수 있는 이 빛나고, 변형할 수 있는 에릭시어, 표시할 수 있는 연쇄입니다. 카라반이 도착했고, 그 와 함께 유혹, 순종, 그리고 공기 중에 씨앗의 향이 있었습니다." # AI Tags
+ bno_trader_has_arrived.title.female: "카라반 이 당신 의 영역 에 들어온다" # AI Tags
+ bno_trader_has_arrived.desc.female: "무거운 바구니들이 자리잡고, 거대하고 높은 황소들의 감시 아래 실크막이 올라간다. 그들의 상품은 묶을 수 있는 이 빛나고, 변형할 수 있는 에릭시어, 표시할 수 있는 연쇄입니다. 카라반이 도착했고, 그 와 함께 유혹, 순종, 그리고 공기 중에 씨앗의 향이 있었습니다." # AI Tags
 
-bno_becoming_pure_white.title: "순수한 흰색 으로 변함" # AI Tags
-bno_becoming_pure_white.desc: "내 몸은 결함이 없는 조합의 증거입니다 더 이상 견딜 수 없는 진흙같은 혼합물입니다. 블랙 의 교회는 순결의 길을 제시하고 있습니다. 제 피를 훼손하는 신성한 의식입니다. 나는 그의 본질에 대한 봉인된 배가 되고, 나를 완벽히 백화시키는 그 능력에 의지한다." # AI Tags
-bno_becoming_pure_white.tooltip: "씨의 예배를 드십시오. 이것은 심오한 생물학적 변화를 일으켜 영구적으로 페노 타입을 순수한 알비니즘으로 바꾸게 될 것입니다. 교회의 한 대사에게 완전한 헌신이 필요합니다." # AI Tags
-bno_becoming_pure_white.confirm: "내가 순결될 것을 맹세한다." # AI Tags
-bno_becoming_pure_white.effect: "정화 의식이 시작됩니다. 모든 색소가 영구적으로 사라집니다. 머리카락은 곧게 변하고 플래티넘 흰색이 됩니다. 피부는 흠이 없는 알라바스터가 됩니다. 눈 색깔은 결정 파란색으로 변합니다. 혼합된 유산과 관련된 모든 특징은 삭제됩니다." # AI Tags
+ bno_becoming_pure_white.title: "순수한 흰색 으로 변함" # AI Tags
+ bno_becoming_pure_white.desc: "내 몸은 결함이 없는 조합의 증거입니다 더 이상 견딜 수 없는 진흙같은 혼합물입니다. 블랙 의 교회는 순결의 길을 제시하고 있습니다. 제 피를 훼손하는 신성한 의식입니다. 나는 그의 본질에 대한 봉인된 배가 되고, 나를 완벽히 백화시키는 그 능력에 의지한다." # AI Tags
+ bno_becoming_pure_white.tooltip: "씨의 예배를 드십시오. 이것은 심오한 생물학적 변화를 일으켜 영구적으로 페노 타입을 순수한 알비니즘으로 바꾸게 될 것입니다. 교회의 한 대사에게 완전한 헌신이 필요합니다." # AI Tags
+ bno_becoming_pure_white.confirm: "내가 순결될 것을 맹세한다." # AI Tags
+ bno_becoming_pure_white.effect: "정화 의식이 시작됩니다. 모든 색소가 영구적으로 사라집니다. 머리카락은 곧게 변하고 플래티넘 흰색이 됩니다. 피부는 흠이 없는 알라바스터가 됩니다. 눈 색깔은 결정 파란색으로 변합니다. 혼합된 유산과 관련된 모든 특징은 삭제됩니다." # AI Tags
 
-convert.second_step_button: "저는 예배를 드리고 싶습니다 [bno_bbc|E]..." # AI Tags
-convert.convert.desc: "변환 [GetFaithByKey('bbcs').GetName]" # AI Tags
-convert.convert_to_bnwo.desc: "채택 [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
+ convert.second_step_button: "저는 예배를 드리고 싶습니다 [bno_bbc|E]..." # AI Tags
+ convert.convert.desc: "변환 [GetFaithByKey('bbcs').GetName]" # AI Tags
+ convert.convert_to_bnwo.desc: "채택 [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
 
-bno_convert_to_african.second_step_button: "난 그 사람과 하나가 되고 싶어요 [bno_bbc|E]" # AI Tags
-bno_convert_to_african.convert.desc: "내가 다시 태어나고 싶어 [GetCultureByKey('bnoc').GetName]" # AI Tags
-bno_convert_to_african.convert_to_bnwo.desc: "소개하고 싶습니다 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 내 안에 [culture|E]" # AI Tags
+ bno_convert_to_african.second_step_button: "난 그 사람과 하나가 되고 싶어요 [bno_bbc|E]" # AI Tags
+ bno_convert_to_african.convert.desc: "내가 다시 태어나고 싶어 [GetCultureByKey('bnoc').GetName]" # AI Tags
+ bno_convert_to_african.convert_to_bnwo.desc: "소개하고 싶습니다 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 내 안에 [culture|E]" # AI Tags
+ bno_convert_to_african.diverge_to_bnwo.desc: "내가 하고 싶은데 [diverge|E] 제 [culture|E] 도입함으로써 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 그 안에" # AI Tags

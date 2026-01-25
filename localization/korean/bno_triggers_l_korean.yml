@@ -1,8 +1,8 @@
 ﻿l_korean:
 
-bno.trigger.is_culture_bnoc: "[culture|E] 포옹한 [bno_bnwo|E] 굴복과 번식." # AI Tags
-bno.trigger.is_slut_or_whiteboi: "당신은 [GetTraitGroup('bno_whitegirl').GetName] 또는 a [GetTraitGroup('bno_whiteboi').GetName]" # AI Tags
-bno.trigger.bno_only_allow_when_below_certain_age: "성격은 제대로 훈련되고 재구성되기에는 너무 오래되었습니다." # AI Tags
-bno.trigger.is_bno_cuck_and_up: "성격은 적어도 [GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]" # AI Tags
-bno.trigger.is_a_girl: "성격은 소녀로 간주됩니다" # AI Tags
-bno.trigger.is_bno_snowbunny_and_up: "성격은 적어도 [GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]" # AI Tags
+ bno.trigger.is_culture_bnoc: "[culture|E] 포옹한 [bno_bnwo|E] 굴복과 번식." # AI Tags
+ bno.trigger.is_slut_or_whiteboi: "당신은 [GetTraitGroup('bno_whitegirl').GetName] 또는 a [GetTraitGroup('bno_whiteboi').GetName]" # AI Tags
+ bno.trigger.bno_only_allow_when_below_certain_age: "성격은 제대로 훈련되고 재구성되기에는 너무 오래되었습니다." # AI Tags
+ bno.trigger.is_bno_cuck_and_up: "성격은 적어도 [GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]" # AI Tags
+ bno.trigger.is_a_girl: "성격은 소녀로 간주됩니다" # AI Tags
+ bno.trigger.is_bno_snowbunny_and_up: "성격은 적어도 [GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]" # AI Tags

@@ -1,27 +1,27 @@
 ﻿l_english:
 
-special_doctrine_is_bno_faith_name: "Black Cock Supremacy"
-is_bno_faith_name: "$special_doctrine_is_bno_faith_name$"
-special_doctrine_is_bno_faith_desc: "We should show compassion to these misguided souls who haven't yet experienced the ecstasy of a [bno_bbc|E], for one taste is all it takes. Once you go black, you never go back!  Their minds may be clouded by ignorance today, but they will come to worship at our altar, begging for the sweet power of the [bno_bbc|E]."
+ special_doctrine_is_bno_faith_name: "Black Cock Supremacy"
+ is_bno_faith_name: "$special_doctrine_is_bno_faith_name$"
+ special_doctrine_is_bno_faith_desc: "We should show compassion to these misguided souls who haven't yet experienced the ecstasy of a [bno_bbc|E], for one taste is all it takes. Once you go black, you never go back!  Their minds may be clouded by ignorance today, but they will come to worship at our altar, begging for the sweet power of the [bno_bbc|E]."
 
-bno_hostility_group_name: "$hostility_group_name$"
-bno_hostility_doctrine_name: "Aphrodiasma"
-bno_hostility_doctrine_desc: "The following religions are Aphrodiasmic:\n[GetReligionFamily('rf_bbcs').GetReligions]"
+ bno_hostility_group_name: "$hostility_group_name$"
+ bno_hostility_doctrine_name: "Aphrodiasma"
+ bno_hostility_doctrine_desc: "The following religions are Aphrodiasmic:\n[GetReligionFamily('rf_bbcs').GetReligions]"
 
-doctrine_bno_tenets_name: "[bno_religion|E]: Tenets"
+ doctrine_bno_tenets_name: "[bno_religion|E]: Tenets"
 
-tenet_bno_black_cock_conquest_name: "The Black Cock Conquest"
-tenet_bno_black_cock_conquest_desc: "Through fervent prayer and holy conquest, we shall spread the glory of the [bno_bbc|E] across the land!"
+ tenet_bno_black_cock_conquest_name: "The Black Cock Conquest"
+ tenet_bno_black_cock_conquest_desc: "Through fervent prayer and holy conquest, we shall spread the glory of the [bno_bbc|E] across the land!"
 
-tenet_bno_hate_name: "Hatred of the Black Cock"  
-tenet_bno_hate_desc: "Every creed of the pale world recoils before the [GetFaithByKey('bbcs').GetName]. They see only blasphemy in our worship, only ruin in our seed, only shame in our dominion over their women. To them, our gospel is corruption, our rites obscene, our Bulls devils in the flesh. And still they tremble—for their hatred cannot halt the rise of the [bno_bbc|E]."
+ tenet_bno_hate_name: "Hatred of the Black Cock"  
+ tenet_bno_hate_desc: "Every creed of the pale world recoils before the [GetFaithByKey('bbcs').GetName]. They see only blasphemy in our worship, only ruin in our seed, only shame in our dominion over their women. To them, our gospel is corruption, our rites obscene, our Bulls devils in the flesh. And still they tremble—for their hatred cannot halt the rise of the [bno_bbc|E]."
 
-tenet_bno_aniconism_name: "Worship of Flesh"  
-tenet_bno_aniconism_desc: "The worship of graven images blinds the weak to the only divine truth: the living [bno_bbc|E]. We cast all idols out of our holy places so that no false vision may profane them. Only flesh is sacred, and only the Black Cock is worthy of devotion."  
+ tenet_bno_aniconism_name: "Worship of Flesh"  
+ tenet_bno_aniconism_desc: "The worship of graven images blinds the weak to the only divine truth: the living [bno_bbc|E]. We cast all idols out of our holy places so that no false vision may profane them. Only flesh is sacred, and only the Black Cock is worthy of devotion."  
 
-tenet_bno_seed_of_divine_blessing_name: "Seed of Divine Blessing"
-tenet_bno_seed_of_divine_blessing_desc: "Within the Church of the Black Cock, every union is sanctified by the Bull’s potent seed—fidelity is measured not by denial, but by the hungry surrender of every hole to holy pleasure. No woman is shamed for craving new Bulls; each moan is a prayer, every act of surrender a sacrament.\nWombs flooded by the Bull’s cum are made sacred—birth is blissful and safe, each child sliding into the world strong, healthy, and marked by divine favor. Every orgasmic delivery is a living ritual, swelling the faith with holy piety and lust. This is the blessing of the Black Cock: no guilt, only worship, and every dripping womb a living testament to the power of Black seed."
+ tenet_bno_seed_of_divine_blessing_name: "Seed of Divine Blessing"
+ tenet_bno_seed_of_divine_blessing_desc: "Within the Church of the Black Cock, every union is sanctified by the Bull’s potent seed—fidelity is measured not by denial, but by the hungry surrender of every hole to holy pleasure. No woman is shamed for craving new Bulls; each moan is a prayer, every act of surrender a sacrament.\nWombs flooded by the Bull’s cum are made sacred—birth is blissful and safe, each child sliding into the world strong, healthy, and marked by divine favor. Every orgasmic delivery is a living ritual, swelling the faith with holy piety and lust. This is the blessing of the Black Cock: no guilt, only worship, and every dripping womb a living testament to the power of Black seed."
 
-tenet_bno_syncretism_name: "Supremacy of the Black Cock"
-tenet_bno_syncretism_desc: "The Black Cock's power is an undeniable, physical truth. Whatever other philosophies we may entertain, all must ultimately kneel and accept its supreme authority, taking its sacred essence into their bodies and souls."
-doctrine_parameter_hostility_override_tenet_bno_syncretism: "Non-BNWO [faiths|E] with the $tenet_bno_syncretism_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ tenet_bno_syncretism_name: "Supremacy of the Black Cock"
+ tenet_bno_syncretism_desc: "The Black Cock's power is an undeniable, physical truth. Whatever other philosophies we may entertain, all must ultimately kneel and accept its supreme authority, taking its sacred essence into their bodies and souls."
+ doctrine_parameter_hostility_override_tenet_bno_syncretism: "Non-BNWO [faiths|E] with the $tenet_bno_syncretism_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"

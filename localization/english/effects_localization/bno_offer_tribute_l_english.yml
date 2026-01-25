@@ -1,4 +1,4 @@
 ﻿l_english:
 
-GAIN_GOLD_FROM_FELLOW_BLACK: "you gain $VALUE|V0$ [gold_i|E] from your fellow [GetTrait('bno_full_black').GetName( GetNullCharacter )]"
-GAIN_GOLD_FROM_FELLOW_BLACK_PAST: "you gained $VALUE|V0$ [gold_i|E] from your fellow [GetTrait('bno_full_black').GetName( GetNullCharacter )]"
+ GAIN_GOLD_FROM_FELLOW_BLACK: "you gain $VALUE|V0$ [gold_i|E] from your fellow [GetTrait('bno_full_black').GetName( GetNullCharacter )]"
+ GAIN_GOLD_FROM_FELLOW_BLACK_PAST: "you gained $VALUE|V0$ [gold_i|E] from your fellow [GetTrait('bno_full_black').GetName( GetNullCharacter )]"

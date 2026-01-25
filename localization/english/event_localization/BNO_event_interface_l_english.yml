@@ -1,77 +1,77 @@
 ﻿l_english:
 
 #BBC's POV if wife is white breeder
-bno_birth.0001.wife.t: "Wife's White Fertile Womb"      
-bno_birth.0001.wife.desc: "Your wife [ROOT.GetCharacter.GetName] gives birth to a Black baby once again, cementing her reputation as a worthy breeder. She was made to bear Black children."
+ bno_birth.0001.wife.t: "Wife's White Fertile Womb"      
+ bno_birth.0001.wife.desc: "Your wife [ROOT.GetCharacter.GetName] gives birth to a Black baby once again, cementing her reputation as a worthy breeder. She was made to bear Black children."
 #Cuck's POV if wife is white breeder
-bno_birth.0001.cuck.wife.t: "Wife Births Many Children"
-bno_birth.0001.cuck.wife.desc: "Your wife [ROOT.GetCharacter.GetName] has given birth to several children. Though in the back of your mind, you find it odd most don't look like everyone else."
+ bno_birth.0001.cuck.wife.t: "Wife Births Many Children"
+ bno_birth.0001.cuck.wife.desc: "Your wife [ROOT.GetCharacter.GetName] has given birth to several children. Though in the back of your mind, you find it odd most don't look like everyone else."
 
-bno_birth.0001.lover.t: "Lover's White Fertile Womb"
-bno_birth.0001.lover.desc: "Your lover [ROOT.GetCharacter.GetName] continues to betray her race by bringing another Black child into the world. It is her greatest joy to further Black Superiority."
+ bno_birth.0001.lover.t: "Lover's White Fertile Womb"
+ bno_birth.0001.lover.desc: "Your lover [ROOT.GetCharacter.GetName] continues to betray her race by bringing another Black child into the world. It is her greatest joy to further Black Superiority."
 
-bno_birth.0001.t: "My White Fertile Womb"
-bno_birth.0001.personal_desc: "Another Black baby birthed from my fertile womb. The juxtaposition of my child's skin and my own fills me with pride and renews my desire to strengthen the superior race."
+ bno_birth.0001.t: "My White Fertile Womb"
+ bno_birth.0001.personal_desc: "Another Black baby birthed from my fertile womb. The juxtaposition of my child's skin and my own fills me with pride and renews my desire to strengthen the superior race."
 
-bno_birth.0002.t: "My Seed Is Spread"
-bno_birth.0002.personal_desc: "I have blessed the world with many Black children."
+ bno_birth.0002.t: "My Seed Is Spread"
+ bno_birth.0002.personal_desc: "I have blessed the world with many Black children."
 
-bno_birth_real_father_notification.title: "My child"
-bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] has given birth, and you know in your heart her child is yours regardless of if you can prove it."
-bno_birth_cuck_father_notification.title: "My child"
-bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] has given birth, and you are a little surprised at how sickly it looks. Is it normal for a child to have such a dark skin complexion?"
+ bno_birth_real_father_notification.title: "My child"
+ bno_birth_real_father_notification.desc: "[ROOT.GetCharacter.GetName] has given birth, and you know in your heart her child is yours regardless of if you can prove it."
+ bno_birth_cuck_father_notification.title: "My child"
+ bno_birth_cuck_father_notification.desc: "[ROOT.GetCharacter.GetName] has given birth, and you are a little surprised at how sickly it looks. Is it normal for a child to have such a dark skin complexion?"
 
-bno_happy_wife.0001.title: "Wife looks happy"
-bno_happy_wife.0001.desc: "You're glad to see that [ROOT.GetCharacter.GetName] seems to be in high spirits lately."
+ bno_happy_wife.0001.title: "Wife looks happy"
+ bno_happy_wife.0001.desc: "You're glad to see that [ROOT.GetCharacter.GetName] seems to be in high spirits lately."
 
-bno_married.title: "Took Wife"
-bno_married_desc: "You are doing your part to further Black Superiority by taking a wife. May she give you many new children."
+ bno_married.title: "Took Wife"
+ bno_married_desc: "You are doing your part to further Black Superiority by taking a wife. May she give you many new children."
 
-bno_bull_0004_notification.title: "Wife eating well"
-bno_bull_0004_notification.desc: "Lately your wife [ROOT.GetCharacter.GetName] seems to have broken her past poor eating habits. She said she switched to a nearly all-liquid diet. She must like it since she occasionally is seen with her liquid food still around her lips."
+ bno_bull_0004_notification.title: "Wife eating well"
+ bno_bull_0004_notification.desc: "Lately your wife [ROOT.GetCharacter.GetName] seems to have broken her past poor eating habits. She said she switched to a nearly all-liquid diet. She must like it since she occasionally is seen with her liquid food still around her lips."
 
-bno_bull_0008_notification.title: "Uncanny Resemblance"
-bno_bull_0008_notification.desc: "Rumors swirl of a whore walking amongst the Black refugee camps that looks strangely like your dear wife [target1.GetFirstName]."
+ bno_bull_0008_notification.title: "Uncanny Resemblance"
+ bno_bull_0008_notification.desc: "Rumors swirl of a whore walking amongst the Black refugee camps that looks strangely like your dear wife [target1.GetFirstName]."
 
-bno_bull_0010_notification.title: "Accounting Error?"
-bno_bull_0010_notification.desc: "I'm sure I'm not mistaken, it seems some gold is missing from the treasury. Who could have taken it?"
+ bno_bull_0010_notification.title: "Accounting Error?"
+ bno_bull_0010_notification.desc: "I'm sure I'm not mistaken, it seems some gold is missing from the treasury. Who could have taken it?"
 
-bno_bull_0012_notification.title: "Does he know something?"
-bno_bull_0012_notification.desc: "Lately I've noticed [ROOT.GetCharacter.GetName] looking at me differently, as if he knows something he shouldn't."
+ bno_bull_0012_notification.title: "Does he know something?"
+ bno_bull_0012_notification.desc: "Lately I've noticed [ROOT.GetCharacter.GetName] looking at me differently, as if he knows something he shouldn't."
 
-bno_slut_0008_notification.title: "Uncanny Resemblance"
-bno_slut_0008_notification.desc: "Rumors swirl of a whore walking amongst the Black refugee camps that looks strangely like your dear wife [slut.GetFirstName]."
+ bno_slut_0008_notification.title: "Uncanny Resemblance"
+ bno_slut_0008_notification.desc: "Rumors swirl of a whore walking amongst the Black refugee camps that looks strangely like your dear wife [slut.GetFirstName]."
 
-bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] give you all her spoils"
-bbc_worshipper.0002.notifications.desc: "After months of hard work, and tireless night, she give you all her assets because she doesn't know what to do with it."
+ bbc_worshipper.0002.notifications.title: "[ROOT.Char.GetFirstName] give you all her spoils"
+ bbc_worshipper.0002.notifications.desc: "After months of hard work, and tireless night, she give you all her assets because she doesn't know what to do with it."
 
-bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] has converted to the worship of the [bno_religion|E]"
-bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] has embraced the teachings of the [bno_religion|E], dedicating [target_vassal.GetHerselfHimself] to its worship and the pleasures it brings."
+ bbc_priestess.1001.vassal_converted.title: "[target_vassal.GetFirstName] has converted to the worship of the [bno_religion|E]"
+ bbc_priestess.1001.vassal_converted.desc: "[target_vassal.GetFirstName] has embraced the teachings of the [bno_religion|E], dedicating [target_vassal.GetHerselfHimself] to its worship and the pleasures it brings."
 
-bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] has converted to the worship of the [bno_religion|E]"
-bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] has embraced the teachings of the [bno_religion|E], dedicating its resources to its worship and the pleasures it brings."
+ bbc_priestess.1001.county_converted.title: "[target_landed_title.GetName] has converted to the worship of the [bno_religion|E]"
+ bbc_priestess.1001.county_converted.desc: "[target_landed_title.GetName] has embraced the teachings of the [bno_religion|E], dedicating its resources to its worship and the pleasures it brings."
 
-bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] has converted to the worship of the [bno_religion|E]"
-bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] has embraced the teachings of the [bno_religion|E], dedicating [neighboring_lord_or_lady.GetHerselfHimself] to its worship and the pleasures it brings."
+ bbc_priestess.1001.neighboring_lord_converted.title: "[neighboring_lord_or_lady.GetFirstName] has converted to the worship of the [bno_religion|E]"
+ bbc_priestess.1001.neighboring_lord_converted.desc: "[neighboring_lord_or_lady.GetFirstName] has embraced the teachings of the [bno_religion|E], dedicating [neighboring_lord_or_lady.GetHerselfHimself] to its worship and the pleasures it brings."
 
-bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] has converted to the worship of the [bno_religion|E]"
-bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] has embraced the teachings of the [bno_religion|E], dedicating its resources to its worship and the pleasures it brings."
+ bbc_priestess.1001.neighboring_county_converted.title: "[target_neighboring_landed_title.GetName] has converted to the worship of the [bno_religion|E]"
+ bbc_priestess.1001.neighboring_county_converted.desc: "[target_neighboring_landed_title.GetName] has embraced the teachings of the [bno_religion|E], dedicating its resources to its worship and the pleasures it brings."
 
-bbc_priestess.1001.rejected_conversion.male.title: "Conversion Rejected: The Black Cock Spurned"
-bbc_priestess.1001.rejected_conversion.male.desc: "Despite [ROOT.Char.GetFirstName]'s fervent sermons of surrendering body and soul to the glory of the [bno_bbc|E], the flock turned away in disgust. Their hearts remain stubborn, their lips unblessed, and the Church of the Black Cock gains no new disciples this day."
+ bbc_priestess.1001.rejected_conversion.male.title: "Conversion Rejected: The Black Cock Spurned"
+ bbc_priestess.1001.rejected_conversion.male.desc: "Despite [ROOT.Char.GetFirstName]'s fervent sermons of surrendering body and soul to the glory of the [bno_bbc|E], the flock turned away in disgust. Their hearts remain stubborn, their lips unblessed, and the Church of the Black Cock gains no new disciples this day."
 
-bbc_priestess.1001.rejected_conversion.female.title: "Her Pleas Denied: The Black Cock Rejected"
-bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] bared her devotion with every sultry word and promised salvation through the embrace of the BBC, yet the crowd resisted. Their minds stayed shut, their bodies unclaimed, and her holy lust bore no converts this night."
+ bbc_priestess.1001.rejected_conversion.female.title: "Her Pleas Denied: The Black Cock Rejected"
+ bbc_priestess.1001.rejected_conversion.female.desc: "[ROOT.Char.GetFirstName] bared her devotion with every sultry word and promised salvation through the embrace of the BBC, yet the crowd resisted. Their minds stayed shut, their bodies unclaimed, and her holy lust bore no converts this night."
 
-bbc_priestess.1001.target_not_found.male.title: "The Priest's Holy Hunt Grows Desperate…"
-bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] kneels at the altar of the Black Cock, restless and throbbing with sacred lust. No new followers appear to worship, no sinner to guide into conversion—just his own heavy shaft, dripping with divine need, yearning to spill holy seed into a fresh disciple's trembling devotion."
+ bbc_priestess.1001.target_not_found.male.title: "The Priest's Holy Hunt Grows Desperate…"
+ bbc_priestess.1001.target_not_found.male.desc: "[ROOT.Char.GetFirstName] kneels at the altar of the Black Cock, restless and throbbing with sacred lust. No new followers appear to worship, no sinner to guide into conversion—just his own heavy shaft, dripping with divine need, yearning to spill holy seed into a fresh disciple's trembling devotion."
 
-bbc_priestess.1001.target_not_found.female.title: "The Priestess Awaits a Follower…"
-bbc_priestess.1001.target_not_found.female.desc: "Draped in her silk-white robes, the tender [ROOT.Char.GetFirstName] bows before the altar of the Black Cock, her bountiful breasts pressed together in trembling devotion. With otherworldly grace and a sweet, aching smile, she whispers prayers into the candlelit dark—yet no sinner arrives to be converted, leaving her soft frame shivering with sacred need, desperate to wrap herself around the holy offering she so longs to worship."
+ bbc_priestess.1001.target_not_found.female.title: "The Priestess Awaits a Follower…"
+ bbc_priestess.1001.target_not_found.female.desc: "Draped in her silk-white robes, the tender [ROOT.Char.GetFirstName] bows before the altar of the Black Cock, her bountiful breasts pressed together in trembling devotion. With otherworldly grace and a sweet, aching smile, she whispers prayers into the candlelit dark—yet no sinner arrives to be converted, leaving her soft frame shivering with sacred need, desperate to wrap herself around the holy offering she so longs to worship."
 
-bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] is now blacker than ever"
-bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] is now blacker than ever"
-bno_marriage.0007.notifications.desc.male: "A member of your family has spread his black seed to a suitable partner"
-bno_marriage.0007.notifications.desc.female: "A member of your family has married a #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!"
+ bno_marriage.0007.notifications.title.root: "[ROOT.Char.GetDynastyHouseName] is now blacker than ever"
+ bno_marriage.0007.notifications.title.spouse: "[spouse.GetDynastyHouseName] is now blacker than ever"
+ bno_marriage.0007.notifications.desc.male: "A member of your family has spread his black seed to a suitable partner"
+ bno_marriage.0007.notifications.desc.female: "A member of your family has married a #V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!"
 
-bbc_diarch: "[bno_bbc|E]"
+ bbc_diarch: "[bno_bbc|E]"

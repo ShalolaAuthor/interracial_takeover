@@ -1,5 +1,5 @@
 ﻿l_japanese:
 #Travel Flavor Events
-bno_cuck_travel_0001.title: "お邪魔してもいいですか?" # AI Tags
-bno_cuck_travel_0001.desc: "何かが起きていたことを知ってた [target1.GetFirstName] そして [target2.GetFirstName]… 旅の途中で 会話をしているのが見えます. 仲間を気にしてない. 楽しい時間を過ごしています. [target2.GetFirstName|U]巨大で [target1.GetFirstName] 本当に楽しんでいる,あなたは嫉妬している [target2.GetHerHis] 大きさと 嘆き声が キャンプの隅々まで聞こえる [target2.GetSheHe] 浸透する [target1.GetHerHis] 独創的な…許してあげてください " # AI Tags
-bno_cuck_travel_0001.a: " ほら " # AI Tags
+ bno_cuck_travel_0001.title: "お邪魔してもいいですか?" # AI Tags
+ bno_cuck_travel_0001.desc: "何かが起きていたことを知ってた [target1.GetFirstName] そして [target2.GetFirstName]… 旅の途中で 会話をしているのが見えます. 仲間を気にしてない. 楽しい時間を過ごしています. [target2.GetFirstName|U]巨大で [target1.GetFirstName] 本当に楽しんでいる,あなたは嫉妬している [target2.GetHerHis] 大きさと 嘆き声が キャンプの隅々まで聞こえる [target2.GetSheHe] 浸透する [target1.GetHerHis] 独創的な…許してあげてください " # AI Tags
+ bno_cuck_travel_0001.a: " ほら " # AI Tags

@@ -1,13 +1,13 @@
 ﻿l_english:
 
-bno_war_0001.title: "Enemy Betrayed"
-bno_war_0001.desc: "I am alerted by one of my generals of an unusual situation. If the reports are to be believed, my pathetic enemy [defender.GetFullName] is currently sitting in my dungeon, which would be news to me since I'm actively waging a war on him. \n\nBut I become less surprised when I find out it was none other than his wife [target1.GetFirstName] that delivered him to my soldiers. It would seem she saw this war as an opportunity to openly bow down to Black cocks. Should you grant her wish? Regardless of your choice, with [defender.GetFirstName] as your captive, victory is yours to claim when you see fit."
-bno_war_0001.a: "She has earned her place as a courtier."
-bno_war_0001.b: "Good, but she has no place in my court."
-bno_war_0001.c: "She's done well, I will take her as my own."
+ bno_war_0001.title: "Enemy Betrayed"
+ bno_war_0001.desc: "I am alerted by one of my generals of an unusual situation. If the reports are to be believed, my pathetic enemy [defender.GetFullName] is currently sitting in my dungeon, which would be news to me since I'm actively waging a war on him. \n\nBut I become less surprised when I find out it was none other than his wife [target1.GetFirstName] that delivered him to my soldiers. It would seem she saw this war as an opportunity to openly bow down to Black cocks. Should you grant her wish? Regardless of your choice, with [defender.GetFirstName] as your captive, victory is yours to claim when you see fit."
+ bno_war_0001.a: "She has earned her place as a courtier."
+ bno_war_0001.b: "Good, but she has no place in my court."
+ bno_war_0001.c: "She's done well, I will take her as my own."
 
-bno_war_0002.title: "Defending Black Supremacy"
-bno_war_0002.desc: "[bno_bbc|E] as the main defender gets chance to get holy warrior trait and/or rejoin Supremacy religion + army spawn"
-bno_war_0002.a: "May my sword strike down all inferior races."
-bno_war_0002.b: "I am a born again Black Supremacist."
-bno_war_0002.c: "something something third option"
+ bno_war_0002.title: "Defending Black Supremacy"
+ bno_war_0002.desc: "[bno_bbc|E] as the main defender gets chance to get holy warrior trait and/or rejoin Supremacy religion + army spawn"
+ bno_war_0002.a: "May my sword strike down all inferior races."
+ bno_war_0002.b: "I am a born again Black Supremacist."
+ bno_war_0002.c: "something something third option"

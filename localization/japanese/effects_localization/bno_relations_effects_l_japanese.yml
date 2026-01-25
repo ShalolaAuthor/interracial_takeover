@@ -1,18 +1,18 @@
 ﻿l_japanese:
 
-i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] あなたのものになる [bno_slave|E]" # AI Tags
-they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] になる [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+ i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] あなたのものになる [bno_slave|E]" # AI Tags
+ they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] になる [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
 
-i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] あなたのものになった [bno_slave|E]" # AI Tags
-they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] になった [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+ i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] あなたのものになった [bno_slave|E]" # AI Tags
+ they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] になった [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
 
-i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] あなたのものになる [bno_cum_slave|E]種子で結ばれて あなただけに忠誠を尽くします." # AI Tags
-they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] になる [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E]と献身によって奴隷にされた." # AI Tags
+ i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] あなたのものになる [bno_cum_slave|E]種子で結ばれて あなただけに忠誠を尽くします." # AI Tags
+ they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] になる [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E]と献身によって奴隷にされた." # AI Tags
 
-i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] あなたのものになった [bno_cum_slave|E]彼女の唇と子宮は永遠にあなたの子孫に封じ込められた." # AI Tags
-they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] になった [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E]チンコが持っていて チンコに縛られている." # AI Tags
+ i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] あなたのものになった [bno_cum_slave|E]彼女の唇と子宮は永遠にあなたの子孫に封じ込められた." # AI Tags
+ they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] になった [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E]チンコが持っていて チンコに縛られている." # AI Tags
 
-i_gain_a_bno_offer_tribute_trainer: "私は降伏する [TARGET_CHARACTER.GetShortUIName|U] 私のように [bno_offer_tribute_trainer|E]私の体全体を アフリカの優位性に対する 完璧な献身として 形作ることに専念した." # AI Tags
-they_gain_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U] 降伏する [TARGET_CHARACTER.GetShortUIName|U] 彼のように [bno_offer_tribute_trainer|E]彼の種と権威によって 彼女の体は完全に BBCのLordにふさわしい 繁殖器に変身しました." # AI Tags
-i_got_a_bno_offer_tribute_trainer: "私は [TARGET_CHARACTER.GetShortUIName|U]- [bno_offer_tribute_trainer|E]アフリカの優位性に対する 絶対的な服従と献身へと 私の身体のあらゆるインチを 訓練しています." # AI Tags
-they_got_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U] になった [TARGET_CHARACTER.GetShortUIName|U]- [bno_offer_tribute_trainer|E]彼の種と権威が 彼女を完全に条件に 変えてBBCのLordのために 産物供え物に変えて 彼のチンコが彼女の全身を 作り上げました." # AI Tags
+ i_gain_a_bno_offer_tribute_trainer: "私は降伏する [TARGET_CHARACTER.GetShortUIName|U] 私のように [bno_offer_tribute_trainer|E]私の体全体を アフリカの優位性に対する 完璧な献身として 形作ることに専念した." # AI Tags
+ they_gain_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U] 降伏する [TARGET_CHARACTER.GetShortUIName|U] 彼のように [bno_offer_tribute_trainer|E]彼の種と権威によって 彼女の体は完全に BBCのLordにふさわしい 繁殖器に変身しました." # AI Tags
+ i_got_a_bno_offer_tribute_trainer: "私は [TARGET_CHARACTER.GetShortUIName|U]- [bno_offer_tribute_trainer|E]アフリカの優位性に対する 絶対的な服従と献身へと 私の身体のあらゆるインチを 訓練しています." # AI Tags
+ they_got_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U] になった [TARGET_CHARACTER.GetShortUIName|U]- [bno_offer_tribute_trainer|E]彼の種と権威が 彼女を完全に条件に 変えてBBCのLordのために 産物供え物に変えて 彼のチンコが彼女の全身を 作り上げました." # AI Tags

@@ -1,25 +1,25 @@
 ﻿l_japanese:
 #don't translate this yet, still figuring out how this works
-bno_embrace_african_track_desc: "アフリカ人を抱きしめ,あなたの領域に利益をもたらす" # AI Tags
-bno_embrace_african_track_name: "アフリカ系" # AI Tags
-bno_embrace_african_1_name: "移住 者 を 抱きしめる" # AI Tags
-bno_embrace_african_2_name: "移住 者 を 活用 する" # AI Tags
-bno_embrace_african_3_name: "移住 者 を 理解 する" # AI Tags
-bno_embrace_african_4_name: "移住 者 を 認識 する" # AI Tags
-bno_embrace_african_5_name: "移民を統合する" # AI Tags
+ bno_embrace_african_track_desc: "アフリカ人を抱きしめ,あなたの領域に利益をもたらす" # AI Tags
+ bno_embrace_african_track_name: "アフリカ系" # AI Tags
+ bno_embrace_african_1_name: "移住 者 を 抱きしめる" # AI Tags
+ bno_embrace_african_2_name: "移住 者 を 活用 する" # AI Tags
+ bno_embrace_african_3_name: "移住 者 を 理解 する" # AI Tags
+ bno_embrace_african_4_name: "移住 者 を 認識 する" # AI Tags
+ bno_embrace_african_5_name: "移民を統合する" # AI Tags
 
-BNO_PLACEHOLDER: "" # AI Tags
-EBONY_ELITES_UNLOCK_DESCRIPTION: "募集できる [GetMaA('bno_ebony_elites').GetName] のように [men_at_arms|E]" # AI Tags
-EBONY_ELITES_DESCRIPTION: "#weak 1つの軍団のみ [GetMaA('bno_ebony_elites').GetName] 募集できる#!" # AI Tags
+ BNO_PLACEHOLDER: "" # AI Tags
+ EBONY_ELITES_UNLOCK_DESCRIPTION: "募集できる [GetMaA('bno_ebony_elites').GetName] のように [men_at_arms|E]" # AI Tags
+ EBONY_ELITES_DESCRIPTION: "#weak 1つの軍団のみ [GetMaA('bno_ebony_elites').GetName] 募集できる#!" # AI Tags
 
-BBC_MARRIAGE_DESCRIPTION: "いつでも [bno_bbc|E] 婚約,そして白人の女の子が結婚する [bno_bbc|E]あなたの [dynasty|E] 獲得する [prestige|E]… 増加する [legitimacy|E] そして [prestige|E] 発信した [marriage|E]" # AI Tags
+ BBC_MARRIAGE_DESCRIPTION: "いつでも [bno_bbc|E] 婚約,そして白人の女の子が結婚する [bno_bbc|E]あなたの [dynasty|E] 獲得する [prestige|E]… 増加する [legitimacy|E] そして [prestige|E] 発信した [marriage|E]" # AI Tags
 
-BBC_SEX_EFFECT: "いつでも [bno_bbc|E] そしてあなたの白人の女の子 [dynasty|E] セックスをする [dynasty|E] 獲得する [prestige|E]" # AI Tags
+ BBC_SEX_EFFECT: "いつでも [bno_bbc|E] そしてあなたの白人の女の子 [dynasty|E] セックスをする [dynasty|E] 獲得する [prestige|E]" # AI Tags
 
-BNO_EMBRACE_3_EFFECT: "移住 者 の 決定 と 出来事 に 関する 知識 を 解き放つ" # AI Tags
+ BNO_EMBRACE_3_EFFECT: "移住 者 の 決定 と 出来事 に 関する 知識 を 解き放つ" # AI Tags
 
-SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "A を選択する [congenital|E] より一般的になるために [dynasty|E]" # AI Tags
+ SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "A を選択する [congenital|E] より一般的になるために [dynasty|E]" # AI Tags
 
-BBC_CAMP_BUILDING_UNLOCK: "解き放つ [GetBuilding('bbc_camp_01').GetName] [building|E]" # AI Tags
+ BBC_CAMP_BUILDING_UNLOCK: "解き放つ [GetBuilding('bbc_camp_01').GetName] [building|E]" # AI Tags
 
-BNO_SEX_EFFECT_DESCRIPTION: "解鎖する [GetModifier('bno_cum_for_glory').GetNameWithTooltip]" # AI Tags
+ BNO_SEX_EFFECT_DESCRIPTION: "解鎖する [GetModifier('bno_cum_for_glory').GetNameWithTooltip]" # AI Tags

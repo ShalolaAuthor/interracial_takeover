@@ -1,44 +1,44 @@
 ﻿l_japanese:
 
-bno_african_warriors: "アフリカの戦士" # AI Tags
-bno_african_warriors_flavor: "#F 森林やジャングルのような 荒れ果てた地形に 適応するスピードと能力で知られるエリート戦士です.#!" # AI Tags
+ bno_african_warriors: "アフリカの戦士" # AI Tags
+ bno_african_warriors_flavor: "#F 森林やジャングルのような 荒れ果てた地形に 適応するスピードと能力で知られるエリート戦士です.#!" # AI Tags
 
-bno_ebony_elites: "エボニーエリート" # AI Tags
-bno_ebony_elites_flavor: "#F 厳格な歩兵部隊であり 規律と戦闘能力で有名で 王国の軍事力の支柱として活動していた.#!" # AI Tags
+ bno_ebony_elites: "エボニーエリート" # AI Tags
+ bno_ebony_elites_flavor: "#F 厳格な歩兵部隊であり 規律と戦闘能力で有名で 王国の軍事力の支柱として活動していた.#!" # AI Tags
 
-bno_cock_maidens: "コック・メイドン" # AI Tags
-bno_cock_maidens_flavor: "#F ブラックカックの崇拝に 縛られた 処女を選び ナイフと体の両方を武器として使っています. 数少ないが 熱心で無敵ですが 無慈悲な精度で 攻撃し 欲望に満ちた献身は 全ての戦場を 血とBBCの崇拝のオルギーに変えるのです.#!" # AI Tags
+ bno_cock_maidens: "コック・メイドン" # AI Tags
+ bno_cock_maidens_flavor: "#F ブラックカックの崇拝に 縛られた 処女を選び ナイフと体の両方を武器として使っています. 数少ないが 熱心で無敵ですが 無慈悲な精度で 攻撃し 欲望に満ちた献身は 全ての戦場を 血とBBCの崇拝のオルギーに変えるのです.#!" # AI Tags
 
-bno_seed_thralls: "シード・トラール" # AI Tags
-bno_seed_thralls_flavor: "#F 武器を鍛えながら穴に縛られた 白人の女性は 戦闘に進み 膝をひっくり返すだけです. 全ての槍の押さえは予備役で 盾が立ち上がって嘆くたびに 引き締まるのです 真の報酬は 闘いが終わると ブルスが分けて 詰め込むことです.#!" # AI Tags
+ bno_seed_thralls: "シード・トラール" # AI Tags
+ bno_seed_thralls_flavor: "#F 武器を鍛えながら穴に縛られた 白人の女性は 戦闘に進み 膝をひっくり返すだけです. 全ての槍の押さえは予備役で 盾が立ち上がって嘆くたびに 引き締まるのです 真の報酬は 闘いが終わると ブルスが分けて 詰め込むことです.#!" # AI Tags
 
 
-bnwo_armies: "[bnwo_armies|E]" # AI Tags
+ bnwo_armies: "[bnwo_armies|E]" # AI Tags
 
-bnwo_armies_screen_add: "[bnwo_armies|E] [screen|E]" # AI Tags
-bnwo_armies_screen_mult: "$bnwo_armies_screen_add$" # AI Tags
-bnwo_armies_pursuit_add: "[bnwo_armies|E] [pursuit|E]" # AI Tags
-bnwo_armies_pursuit_mult: "$bnwo_armies_pursuit_add$" # AI Tags
-bnwo_armies_toughness_add: "[bnwo_armies|E] [toughness|E]" # AI Tags
-bnwo_armies_toughness_mult: "$bnwo_armies_toughness_add$" # AI Tags
-bnwo_armies_damage_add: "[bnwo_armies|E] [damage|E]" # AI Tags
-bnwo_armies_damage_mult: "$bnwo_armies_damage_add$" # AI Tags
-bnwo_armies_max_size_add: "最大サイズ [bnwo_armies|E] [regiments|E]" # AI Tags
-bnwo_armies_max_size_mult: "$bnwo_armies_max_size_add$" # AI Tags
-bnwo_armies_maintenance_mult: "[bnwo_armies|E] メンテナンス" # AI Tags
-bnwo_armies_recruitment_cost_mult: "[bnwo_armies|E] 募集費用" # AI Tags
-bnwo_armies_siege_value_add: "[bnwo_armies|E] [siege_progress|E]" # AI Tags
-bnwo_armies_siege_value_mult: "$bnwo_armies_siege_value_add$" # AI Tags
+ bnwo_armies_screen_add: "[bnwo_armies|E] [screen|E]" # AI Tags
+ bnwo_armies_screen_mult: "$bnwo_armies_screen_add$" # AI Tags
+ bnwo_armies_pursuit_add: "[bnwo_armies|E] [pursuit|E]" # AI Tags
+ bnwo_armies_pursuit_mult: "$bnwo_armies_pursuit_add$" # AI Tags
+ bnwo_armies_toughness_add: "[bnwo_armies|E] [toughness|E]" # AI Tags
+ bnwo_armies_toughness_mult: "$bnwo_armies_toughness_add$" # AI Tags
+ bnwo_armies_damage_add: "[bnwo_armies|E] [damage|E]" # AI Tags
+ bnwo_armies_damage_mult: "$bnwo_armies_damage_add$" # AI Tags
+ bnwo_armies_max_size_add: "最大サイズ [bnwo_armies|E] [regiments|E]" # AI Tags
+ bnwo_armies_max_size_mult: "$bnwo_armies_max_size_add$" # AI Tags
+ bnwo_armies_maintenance_mult: "[bnwo_armies|E] メンテナンス" # AI Tags
+ bnwo_armies_recruitment_cost_mult: "[bnwo_armies|E] 募集費用" # AI Tags
+ bnwo_armies_siege_value_add: "[bnwo_armies|E] [siege_progress|E]" # AI Tags
+ bnwo_armies_siege_value_mult: "$bnwo_armies_siege_value_add$" # AI Tags
 
-stationed_bnwo_armies_damage_add: "[stationed|E] [bnwo_armies|E] [damage|E]" # AI Tags
-stationed_bnwo_armies_damage_mult: "$stationed_bnwo_armies_damage_add$" # AI Tags
-stationed_bnwo_armies_toughness_add: "[stationed|E] [bnwo_armies|E] [toughness|E]" # AI Tags
-stationed_bnwo_armies_toughness_mult: "$stationed_bnwo_armies_toughness_add$" # AI Tags
-stationed_bnwo_armies_pursuit_add: "[stationed|E] [bnwo_armies|E] [pursuit|E]" # AI Tags
-stationed_bnwo_armies_pursuit_mult: "$stationed_bnwo_armies_pursuit_add$" # AI Tags
-stationed_bnwo_armies_screen_add: "[stationed|E] [bnwo_armies|E] [screen|E]" # AI Tags
-stationed_bnwo_armies_screen_mult: "$stationed_bnwo_armies_screen_add$" # AI Tags
-stationed_bnwo_armies_siege_value_add: "[stationed|E] [bnwo_armies|E] [siege_progress|E]" # AI Tags
-stationed_bnwo_armies_siege_value_mult: "$stationed_bnwo_armies_siege_value_add$" # AI Tags
+ stationed_bnwo_armies_damage_add: "[stationed|E] [bnwo_armies|E] [damage|E]" # AI Tags
+ stationed_bnwo_armies_damage_mult: "$stationed_bnwo_armies_damage_add$" # AI Tags
+ stationed_bnwo_armies_toughness_add: "[stationed|E] [bnwo_armies|E] [toughness|E]" # AI Tags
+ stationed_bnwo_armies_toughness_mult: "$stationed_bnwo_armies_toughness_add$" # AI Tags
+ stationed_bnwo_armies_pursuit_add: "[stationed|E] [bnwo_armies|E] [pursuit|E]" # AI Tags
+ stationed_bnwo_armies_pursuit_mult: "$stationed_bnwo_armies_pursuit_add$" # AI Tags
+ stationed_bnwo_armies_screen_add: "[stationed|E] [bnwo_armies|E] [screen|E]" # AI Tags
+ stationed_bnwo_armies_screen_mult: "$stationed_bnwo_armies_screen_add$" # AI Tags
+ stationed_bnwo_armies_siege_value_add: "[stationed|E] [bnwo_armies|E] [siege_progress|E]" # AI Tags
+ stationed_bnwo_armies_siege_value_mult: "$stationed_bnwo_armies_siege_value_add$" # AI Tags
 
-bno_hotwife_army_name: "黒い娼婦の軍団" # AI Tags
+ bno_hotwife_army_name: "黒い娼婦の軍団" # AI Tags

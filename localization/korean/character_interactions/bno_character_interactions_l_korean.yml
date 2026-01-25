@@ -1,62 +1,62 @@
 ﻿l_korean:
 
-bno_bbc_cum_addiction_interaction: "중독" # AI Tags
-bno_bbc_cum_addiction_interaction.desc: "부패를 시작하라 [recipient.GetFirstNameNoTooltip]. 말과 매력이 아니라 씨앗으로 무릎을 꿇고 그녀의 입술이 오직 그녀의 황소만이 줄 수 있는 것을 기억하도록 한다." # AI Tags
-bno_bbc_cum_addiction_interaction.send_name: "네 피아지를 먹여" # AI Tags
-bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] 중독이 시작됐습니다" # AI Tags
-bno_bbc_cum_addiction_interaction.tooltip: "당신은 결합하기 시작했습니다 [recipient.GetFirstNameNoTooltip] 씨를 통해 당신에게. 모든 만남은 그녀의 의지를 약화시키고 그녀의 욕망을 심화시킬 것입니다." # AI Tags
-bno_bbc_cum_addiction_interaction.already_training: "넌 이미 창녀를 네 씨에 묶고 있어. 황소가 자신의 지배를 한 번에 한 명에 집중시켜야 하고 그녀의 의지가 깨지고 [bno_cum_slave|E]." # AI Tags
+ bno_bbc_cum_addiction_interaction: "중독" # AI Tags
+ bno_bbc_cum_addiction_interaction.desc: "부패를 시작하라 [recipient.GetFirstNameNoTooltip]. 말과 매력이 아니라 씨앗으로 무릎을 꿇고 그녀의 입술이 오직 그녀의 황소만이 줄 수 있는 것을 기억하도록 한다." # AI Tags
+ bno_bbc_cum_addiction_interaction.send_name: "네 피아지를 먹여" # AI Tags
+ bno_bbc_cum_addiction_interaction.title: "[recipient.GetFirstName] 중독이 시작됐습니다" # AI Tags
+ bno_bbc_cum_addiction_interaction.tooltip: "당신은 결합하기 시작했습니다 [recipient.GetFirstNameNoTooltip] 씨를 통해 당신에게. 모든 만남은 그녀의 의지를 약화시키고 그녀의 욕망을 심화시킬 것입니다." # AI Tags
+ bno_bbc_cum_addiction_interaction.already_training: "넌 이미 창녀를 네 씨에 묶고 있어. 황소가 자신의 지배를 한 번에 한 명에 집중시켜야 하고 그녀의 의지가 깨지고 [bno_cum_slave|E]." # AI Tags
 
-bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] 어떤 종류의 [illness|E]" # AI Tags
-bno_cure_disease_interaction.no_priestess: "당신은 [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] 의식을 수행하기 위해서요." # AI Tags
-bno_cure_disease_interaction.no_priest: "당신은 [GetCourtPositionType('bno_bbc_priest_court_position').GetName] 의식을 수행하기 위해서요." # AI Tags
+ bno_cure_disease_interaction.recipient.sickness: "[recipient.GetFirstName] 어떤 종류의 [illness|E]" # AI Tags
+ bno_cure_disease_interaction.no_priestess: "당신은 [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] 의식을 수행하기 위해서요." # AI Tags
+ bno_cure_disease_interaction.no_priest: "당신은 [GetCourtPositionType('bno_bbc_priest_court_position').GetName] 의식을 수행하기 위해서요." # AI Tags
 
-bno_cure_disease_interaction: "거룩 한 씨앗" # AI Tags
-bno_cure_disease_interaction.desc.female: "[GetCourtPositionType('bno_bbc_priest_court_position').GetName] 그의 거룩한 씨앗을 [recipient.GetFirstName]" # AI Tags
-bno_cure_disease_interaction.desc.male: "[GetCourtPositionType('bno_bbc_priestess_court_position').GetName] 그녀의 신성한 본질을 [recipient.GetFirstName]" # AI Tags
+ bno_cure_disease_interaction: "거룩 한 씨앗" # AI Tags
+ bno_cure_disease_interaction.desc.female: "[GetCourtPositionType('bno_bbc_priest_court_position').GetName] 그의 거룩한 씨앗을 [recipient.GetFirstName]" # AI Tags
+ bno_cure_disease_interaction.desc.male: "[GetCourtPositionType('bno_bbc_priestess_court_position').GetName] 그녀의 신성한 본질을 [recipient.GetFirstName]" # AI Tags
 
-bno_cure_disease_interaction.female_recipient.effect: "당신은 당신의 [GetCourtPositionType('bno_bbc_priest_court_position').GetName] 그의 신성한 씨앗을 준비하기 위해 의식에 준비하기 위해" # AI Tags
-bno_cure_disease_interaction.male_recipient.effect: "당신은 당신의 [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] 그녀의 신성한 본질을 준비하기 위해 의식을 준비하기 위해" # AI Tags
+ bno_cure_disease_interaction.female_recipient.effect: "당신은 당신의 [GetCourtPositionType('bno_bbc_priest_court_position').GetName] 그의 신성한 씨앗을 준비하기 위해 의식에 준비하기 위해" # AI Tags
+ bno_cure_disease_interaction.male_recipient.effect: "당신은 당신의 [GetCourtPositionType('bno_bbc_priestess_court_position').GetName] 그녀의 신성한 본질을 준비하기 위해 의식을 준비하기 위해" # AI Tags
 
-bno_tincture_of_genesis_interaction: "창세기 의 염색" # AI Tags
-bno_tincture_of_genesis_interaction.desc: "당신은 당신의 아내를 변화시킬 것입니다 [recipient.GetFirstName] 존재" # AI Tags
-bno_tincture_of_genesis_interaction.not_white: "그래요 [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
-bno_tincture_of_genesis_interaction.effect: "당신은 당신의 아내를 먹일 것입니다 [recipient.GetFirstName] 그녀의 핵을 변화시키는 강력한 성추." # AI Tags
+ bno_tincture_of_genesis_interaction: "창세기 의 염색" # AI Tags
+ bno_tincture_of_genesis_interaction.desc: "당신은 당신의 아내를 변화시킬 것입니다 [recipient.GetFirstName] 존재" # AI Tags
+ bno_tincture_of_genesis_interaction.not_white: "그래요 [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+ bno_tincture_of_genesis_interaction.effect: "당신은 당신의 아내를 먹일 것입니다 [recipient.GetFirstName] 그녀의 핵을 변화시키는 강력한 성추." # AI Tags
 
-bno_tincture_of_genesis_interaction.desc.female: "저는 남편에게 저를 변화시키는 것을 요청할 것입니다" # AI Tags
-bno_tincture_of_genesis_interaction.effect.female: "당신의 남편은 당신의 유일한 생리원으로서 그의 덩어리를 먹여줄 것입니다." # AI Tags
-bno_tincture_of_genesis_interaction.effect.courtier.female: "당신의 궁중의 황소가 매일 당신을 홍수하게 될 것입니다. 그의 정액이 당신의 유일한 생계원이 될 것입니다." # AI Tags
+ bno_tincture_of_genesis_interaction.desc.female: "저는 남편에게 저를 변화시키는 것을 요청할 것입니다" # AI Tags
+ bno_tincture_of_genesis_interaction.effect.female: "당신의 남편은 당신의 유일한 생리원으로서 그의 덩어리를 먹여줄 것입니다." # AI Tags
+ bno_tincture_of_genesis_interaction.effect.courtier.female: "당신의 궁중의 황소가 매일 당신을 홍수하게 될 것입니다. 그의 정액이 당신의 유일한 생계원이 될 것입니다." # AI Tags
 
-bno_prisoner_interaction: "BBC의 우월성을 집행하라" # AI Tags
-bno_prisoner_interaction_desc: "이 비참한 백인 남자는 남자가 될 수 있다고 생각했다. 이제, 쇠사슬에 묶여서, 그의 비참한 똥은 심판의 장난감으로 변합니다. 냉동철에 영원히 갇혀 있거나,. 그의 운명은 [bno_bnwo|E]규칙입니다." # AI Tags
-bno_prisoner_interaction_desc.futa: "이 화려한 푸타 창녀는 그녀의 추가 육체가 그녀를 특별하게 만든다고 생각했다. 이제, 쇠사슬에 묶여, 그녀의 똥은 아무 소용도 없이 구석에 흔들리거나,. 그녀는 모든 반종인 척하는 사람들에게 경고입니다 [bno_bnwo|E]규칙입니다."   # AI Tags
-bno_prisoner_interaction_desc.female: "이 은 창녀는 그녀의 존엄성을 믿었습니다. 벗겨지고 묶여서, 그녀는 그녀의 구멍이 그녀의 유일한 가치가 있다는 것을 알게 되고, 깨지고, 그녀의 흑인 주인들에 의해 통과됩니다. 그녀의 굴욕은 환상입니다 [bno_bnwo|E]우월주의입니다."   # AI Tags
-bno_prisoner_interaction.caging: "@bno_caged_icon! 은 철자 케이즈에 그들의 은 흰 을 클램프"   # AI Tags
-bno_prisoner_interaction.castrating: "@bno_castrated_icon! 비참한 껍데기를 잘라내서 번식 구멍만 남깁니다"   # AI Tags
-bno_prisoner_interaction.slaving: "@bno_slave_icon! 그녀의 존엄성을 빼앗아라 BBC의 노예가 되게 하라" # AI Tags
-bno_prisoner_interaction.has_bbc_in_court: "흰색 창녀는 진정한 힘을 가지고 있지 않습니다. 그녀는 단지 번식하기 위해 만들어졌습니다. 다른 사람을 교도소에 넣거나 배제하거나 노예로 삼기 위해서는 그녀의 궁중에서 적어도 한 명의 BBC가 지배자의 손으로 작용하고 그 행위를 수행해야 합니다."   # AI Tags
-bno_prisoner_interaction.not_caged: "그 쓸모없는 흰색 똥은 이미 철에 갇혀 있고 영원히 부정됩니다." # AI Tags
-bno_prisoner_interaction.not_castrated: "이 더 이상 을 할 일이 없어 이 이 이미 남성성을 박탈당했다."   # AI Tags
+ bno_prisoner_interaction: "BBC의 우월성을 집행하라" # AI Tags
+ bno_prisoner_interaction_desc: "이 비참한 백인 남자는 남자가 될 수 있다고 생각했다. 이제, 쇠사슬에 묶여서, 그의 비참한 똥은 심판의 장난감으로 변합니다. 냉동철에 영원히 갇혀 있거나,. 그의 운명은 [bno_bnwo|E]규칙입니다." # AI Tags
+ bno_prisoner_interaction_desc.futa: "이 화려한 푸타 창녀는 그녀의 추가 육체가 그녀를 특별하게 만든다고 생각했다. 이제, 쇠사슬에 묶여, 그녀의 똥은 아무 소용도 없이 구석에 흔들리거나,. 그녀는 모든 반종인 척하는 사람들에게 경고입니다 [bno_bnwo|E]규칙입니다."   # AI Tags
+ bno_prisoner_interaction_desc.female: "이 은 창녀는 그녀의 존엄성을 믿었습니다. 벗겨지고 묶여서, 그녀는 그녀의 구멍이 그녀의 유일한 가치가 있다는 것을 알게 되고, 깨지고, 그녀의 흑인 주인들에 의해 통과됩니다. 그녀의 굴욕은 환상입니다 [bno_bnwo|E]우월주의입니다."   # AI Tags
+ bno_prisoner_interaction.caging: "@bno_caged_icon! 은 철자 케이즈에 그들의 은 흰 을 클램프"   # AI Tags
+ bno_prisoner_interaction.castrating: "@bno_castrated_icon! 비참한 껍데기를 잘라내서 번식 구멍만 남깁니다"   # AI Tags
+ bno_prisoner_interaction.slaving: "@bno_slave_icon! 그녀의 존엄성을 빼앗아라 BBC의 노예가 되게 하라" # AI Tags
+ bno_prisoner_interaction.has_bbc_in_court: "흰색 창녀는 진정한 힘을 가지고 있지 않습니다. 그녀는 단지 번식하기 위해 만들어졌습니다. 다른 사람을 교도소에 넣거나 배제하거나 노예로 삼기 위해서는 그녀의 궁중에서 적어도 한 명의 BBC가 지배자의 손으로 작용하고 그 행위를 수행해야 합니다."   # AI Tags
+ bno_prisoner_interaction.not_caged: "그 쓸모없는 흰색 똥은 이미 철에 갇혀 있고 영원히 부정됩니다." # AI Tags
+ bno_prisoner_interaction.not_castrated: "이 더 이상 을 할 일이 없어 이 이 이미 남성성을 박탈당했다."   # AI Tags
 
-bno_apply_elixir_interaction: "에릭시르 을 사용 하십시오" # AI Tags
+ bno_apply_elixir_interaction: "에릭시르 을 사용 하십시오" # AI Tags
 
-bno_apply_elixir_interaction.desc.female.bbc: "에릭시어를 [recipient.GetFirstName]." # AI Tags
-bno_apply_elixir_interaction.desc.female.whiteboi: "에릭시어를 슬라이프로 [recipient.GetFirstName]." # AI Tags
-bno_apply_elixir_interaction.desc.self.whiteboi: "에릭시어를 직접 마셔라." # AI Tags
-bno_apply_elixir_interaction.desc.self.bbc: "에릭시어를 직접 섭취하세요." # AI Tags
-bno_apply_elixir_interaction.desc.bbc.whiteboi: "에릭시어를 가동 [recipient.GetFirstName]." # AI Tags
-bno_apply_elixir_interaction.desc.bbc.bbc: "에릭시어를 [recipient.GetFirstName]." # AI Tags
-bno_apply_elixir_interaction.desc.whiteboi.bbc: "에릭시어를 드리고 [recipient.GetFirstName]." # AI Tags
-bno_apply_elixir_interaction.desc.whiteboi.whiteboi: "에릭시어를 [recipient.GetFirstName]." # AI Tags
+ bno_apply_elixir_interaction.desc.female.bbc: "에릭시어를 [recipient.GetFirstName]." # AI Tags
+ bno_apply_elixir_interaction.desc.female.whiteboi: "에릭시어를 슬라이프로 [recipient.GetFirstName]." # AI Tags
+ bno_apply_elixir_interaction.desc.self.whiteboi: "에릭시어를 직접 마셔라." # AI Tags
+ bno_apply_elixir_interaction.desc.self.bbc: "에릭시어를 직접 섭취하세요." # AI Tags
+ bno_apply_elixir_interaction.desc.bbc.whiteboi: "에릭시어를 가동 [recipient.GetFirstName]." # AI Tags
+ bno_apply_elixir_interaction.desc.bbc.bbc: "에릭시어를 [recipient.GetFirstName]." # AI Tags
+ bno_apply_elixir_interaction.desc.whiteboi.bbc: "에릭시어를 드리고 [recipient.GetFirstName]." # AI Tags
+ bno_apply_elixir_interaction.desc.whiteboi.whiteboi: "에릭시어를 [recipient.GetFirstName]." # AI Tags
 
-bno_apply_elixir_interaction_bno_tincture_of_genesis: "@bno_tincture_of_genesis_icon! 창세서 의 핑크 를 적용 하십시오" # AI Tags
-bno_apply_elixir_interaction_bno_elixir_of_the_black_womb: "@bno_elixir_of_the_black_womb_icon! 검은 자궁 의 에릭시르 를 사용 하십시오" # AI Tags
+ bno_apply_elixir_interaction_bno_tincture_of_genesis: "@bno_tincture_of_genesis_icon! 창세서 의 핑크 를 적용 하십시오" # AI Tags
+ bno_apply_elixir_interaction_bno_elixir_of_the_black_womb: "@bno_elixir_of_the_black_womb_icon! 검은 자궁 의 에릭시르 를 사용 하십시오" # AI Tags
 
-bno_apply_elixir_interaction.bno_tincture_of_genesis.tooltip: "소유를 요구합니다 [bno_tincture_of_genesis|E], 그리고 [recipient.GetFirstName] 아니어야 합니다 [GetTrait('bno_castrated').GetName( GetNullCharacter )]." # AI Tags
-bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.tooltip: "소유를 요구합니다 [bno_elixir_of_the_black_womb|E]; 대상자는 25세 미만의 남성이고 [GetTrait('bno_bbc').GetName( GetNullCharacter )] 특성이 있습니다." # AI Tags
+ bno_apply_elixir_interaction.bno_tincture_of_genesis.tooltip: "소유를 요구합니다 [bno_tincture_of_genesis|E], 그리고 [recipient.GetFirstName] 아니어야 합니다 [GetTrait('bno_castrated').GetName( GetNullCharacter )]." # AI Tags
+ bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.tooltip: "소유를 요구합니다 [bno_elixir_of_the_black_womb|E]; 대상자는 25세 미만의 남성이고 [GetTrait('bno_bbc').GetName( GetNullCharacter )] 특성이 있습니다." # AI Tags
 
-bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.actor.tooltip: "[actor.GetFirstName] 관리하고 있습니다 [bno_tincture_of_genesis|E]." # AI Tags
-bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.recipient.tooltip: "[recipient.GetFirstName] 마시면 [bno_tincture_of_genesis|E]그의 씨앗을 [bno_seed_of_genesis|E]." # AI Tags
+ bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.actor.tooltip: "[actor.GetFirstName] 관리하고 있습니다 [bno_tincture_of_genesis|E]." # AI Tags
+ bno_apply_elixir_interaction.bno_tincture_of_genesis.effect.recipient.tooltip: "[recipient.GetFirstName] 마시면 [bno_tincture_of_genesis|E]그의 씨앗을 [bno_seed_of_genesis|E]." # AI Tags
 
-bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.actor.tooltip: "[actor.GetFirstName] 강제로 [bno_elixir_of_the_black_womb|E] 잡아야 합니다." # AI Tags
-bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.recipient.tooltip: "[recipient.GetFirstName] 마시면 [bno_elixir_of_the_black_womb|E], 그의 이 가려지고, 을 먹으려는 갈망이 그를 잡아먹는다." # AI Tags
+ bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.actor.tooltip: "[actor.GetFirstName] 강제로 [bno_elixir_of_the_black_womb|E] 잡아야 합니다." # AI Tags
+ bno_apply_elixir_interaction.bno_elixir_of_the_black_womb.effect.recipient.tooltip: "[recipient.GetFirstName] 마시면 [bno_elixir_of_the_black_womb|E], 그의 이 가려지고, 을 먹으려는 갈망이 그를 잡아먹는다." # AI Tags

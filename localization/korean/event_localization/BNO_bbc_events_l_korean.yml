@@ -46,23 +46,23 @@
  bno_events_0005.desc: " 너의 황소 [target1.GetFirstName] 즉시 문을 열고 당신과 당신의 아내를 바라보고 [target2.GetFirstName]. 아내가 놀라서 무슨 일이 일어나고 있는지 묻습니다. 네 기사 [target1.GetFirstName] 포착 [target2.GetHerHis] 그리고 힘들 [target2.GetHerHis] 너무 날려버렸지만 아내가 정말 흥분했어요. 엉덩이가 딱딱해지면서 침대에 앉아 있을 때 의문의 여지가 없이 마asturbating을 시작합니다. 당신 아내 [target2.GetFirstName] 예전처럼 젖게 되죠. [target1.GetFirstName] 눈물 [target2.GetHerHis] 옷이 찢어지고 부딪히기 시작합니다 [target2.GetHerHis] 크림 피치와 박스 [target2.GetHerHis] 엉덩이, [target2.GetSheHe] 쾌락으로 외치는 동안 당신을 쳐다보고 있습니다. 당신은 더 이상 을 지고 을 수 없으며, 당신의 아내가 오르가즘을 다. 갑자기 [target1.GetFirstName] 아내의 똥에 누워서 아무것도 할 수 없어…" # AI Tags
  bno_events_0005.a: "오, 신이여, 얼마나 멋진 시야야야, 사랑해" # AI Tags
 
-bno_events.0006.title: "당신 의 선택 된 귀족 여인" # AI Tags
-bno_events.0006.desc: "#weak 호기심이 많은 귀족이 제 궁전에 접근하면서, [target1.GetHerHis] 따뜻 한 미소 를 가지고 초대 를 보내십시오. #!\n\n환영합니다 [target1.GetFirstName], [target3.GetFirstName] 또는 [target2.GetFirstName]. 여기 있는 것은 큰 영광입니다.\n\n#weak 귀족은 경이로움으로 둘러보며 [target1.GetSheHe] 제 재산의 위대함을 받아들이고 있습니다. 풍요로운 가구에서부터 모든 벽을 장식하는 귀중한 예술 작품까지요. #!\n\n제 초청을 받아서 기쁘네요. 저는 이러한 보물을 여러분과 공유하고 문화와 예술에 대한 여러분의 관심에 대해 더 많은 것을 배울 수 있기를 기대합니다.\n\n#weak 귀족들은 존경심ോടെ 시끄럽고 새로운 세상을 탐험할 수 있는 기회에 감사하고 있습니다 [target1.GetHerHis]. #!" # AI Tags
+ bno_events.0006.title: "당신 의 선택 된 귀족 여인" # AI Tags
+ bno_events.0006.desc: "#weak 호기심이 많은 귀족이 제 궁전에 접근하면서, [target1.GetHerHis] 따뜻 한 미소 를 가지고 초대 를 보내십시오. #!\n\n환영합니다 [target1.GetFirstName], [target3.GetFirstName] 또는 [target2.GetFirstName]. 여기 있는 것은 큰 영광입니다.\n\n#weak 귀족은 경이로움으로 둘러보며 [target1.GetSheHe] 제 재산의 위대함을 받아들이고 있습니다. 풍요로운 가구에서부터 모든 벽을 장식하는 귀중한 예술 작품까지요. #!\n\n제 초청을 받아서 기쁘네요. 저는 이러한 보물을 여러분과 공유하고 문화와 예술에 대한 여러분의 관심에 대해 더 많은 것을 배울 수 있기를 기대합니다.\n\n#weak 귀족들은 존경심ോടെ 시끄럽고 새로운 세상을 탐험할 수 있는 기회에 감사하고 있습니다 [target1.GetHerHis]. #!" # AI Tags
 
 # bno_realize_bbc_potential Non-BBC Black character gains BBC
-bno_realize_bbc_potential: "당신의 BBC를 발견하라 " # AI Tags
-bno_realize_bbc_potential.desc: "당신은 당신의 지배적인 검은 몸으로 열등한 하위 인종에 대한 선천적인 우월성을 갖게 된다는 것을 깨닫습니다. 유럽이 너의 거리가 될 때가 됐어." # AI Tags
-bno_realize_bbc_potential_decision_tooltip: "당신은 지배적인 흑인 이 될 것입니다." # AI Tags
-bno_realize_bbc_potential_confirm: "세상은 내 거야." # AI Tags
-bno_realize_bbc_potential_effect_1: "당신은 [bno_bbc|E] 속성." # AI Tags
+ bno_realize_bbc_potential: "당신의 BBC를 발견하라 " # AI Tags
+ bno_realize_bbc_potential.desc: "당신은 당신의 지배적인 검은 몸으로 열등한 하위 인종에 대한 선천적인 우월성을 갖게 된다는 것을 깨닫습니다. 유럽이 너의 거리가 될 때가 됐어." # AI Tags
+ bno_realize_bbc_potential_decision_tooltip: "당신은 지배적인 흑인 이 될 것입니다." # AI Tags
+ bno_realize_bbc_potential_confirm: "세상은 내 거야." # AI Tags
+ bno_realize_bbc_potential_effect_1: "당신은 [bno_bbc|E] 속성." # AI Tags
 
-bno_events.0007.title: "[ROOT.Char.Custom('GetCourt')|U] [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
-bno_events.0007.desc: "늘어나고 있는 성욕이 불완전한 큰 흑인 남성들을 만족시키기 위해 저는 이브니 스승들을 위해 사는 백인 소녀들의 헌신적인 팀을 고용할 때라고 결정했습니다. 이것들 [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]그들은 태어날 때부터 닭을 즐겁게 하는 기술을 훈련받습니다. 그들은 자신의 몸의 모든 인치를 정확히 어떻게 활용해야 하는지 알고 있습니다. 그들의 어두운 왕들에게 최대한의 즐거움을 가져다 줄 수 있도록 말이죠.\n\n제 계획은 간단합니다. 이 신자들이 흑인 지배자들의 욕구를 충족시키기 위해만 존재하는 사회를 만들면서 동시에 행복하고 만족할 수 있도록 말이죠. 이 중요한 서비스를 제공함으로써, 저는 남성 인구 중 억제된 성적 좌절으로 인해 발생할 수 있는 잠재적인 불안이나 폭력을 방지하기를 바랍니다. 결국, 아무도 화난, 화려한 흑인 남자들이 거리를 돌아다니며 누이를 찾고 싶어하지 않습니다!" # AI Tags
-bno_events.0007.e: "[excellent_skill_option.GetFirstNameNoTooltip] 기술 [bno_whore|E] 전국에 알려져 있습니다!" # AI Tags
-bno_events.0007.e.aptitude: "[excellent_skill_option.GetUINamePossessive|U] [aptitude|E] 이 경우 [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]" # AI Tags
-bno_events.0007.a.tt: "A [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] 또한 월급은 [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
-bno_events.0007.a: "아무래도 [high_skill_option.GetFirstNameNoTooltip] 수많은 남자들을 엿먹혔어" # AI Tags
-bno_events.0007.a.aptitude: "[high_skill_option.GetUINamePossessive|U] [aptitude|E] 이 경우 [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]" # AI Tags
-bno_events.0007.b: "[low_skill_option.GetFirstNameNoTooltip] 열광적인 것 같네요." # AI Tags
-bno_events.0007.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E] 이 경우 [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]" # AI Tags
+ bno_events.0007.title: "[ROOT.Char.Custom('GetCourt')|U] [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
+ bno_events.0007.desc: "늘어나고 있는 성욕이 불완전한 큰 흑인 남성들을 만족시키기 위해 저는 이브니 스승들을 위해 사는 백인 소녀들의 헌신적인 팀을 고용할 때라고 결정했습니다. 이것들 [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]그들은 태어날 때부터 닭을 즐겁게 하는 기술을 훈련받습니다. 그들은 자신의 몸의 모든 인치를 정확히 어떻게 활용해야 하는지 알고 있습니다. 그들의 어두운 왕들에게 최대한의 즐거움을 가져다 줄 수 있도록 말이죠.\n\n제 계획은 간단합니다. 이 신자들이 흑인 지배자들의 욕구를 충족시키기 위해만 존재하는 사회를 만들면서 동시에 행복하고 만족할 수 있도록 말이죠. 이 중요한 서비스를 제공함으로써, 저는 남성 인구 중 억제된 성적 좌절으로 인해 발생할 수 있는 잠재적인 불안이나 폭력을 방지하기를 바랍니다. 결국, 아무도 화난, 화려한 흑인 남자들이 거리를 돌아다니며 누이를 찾고 싶어하지 않습니다!" # AI Tags
+ bno_events.0007.e: "[excellent_skill_option.GetFirstNameNoTooltip] 기술 [bno_whore|E] 전국에 알려져 있습니다!" # AI Tags
+ bno_events.0007.e.aptitude: "[excellent_skill_option.GetUINamePossessive|U] [aptitude|E] 이 경우 [excellent_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]" # AI Tags
+ bno_events.0007.a.tt: "A [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] 또한 월급은 [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
+ bno_events.0007.a: "아무래도 [high_skill_option.GetFirstNameNoTooltip] 수많은 남자들을 엿먹혔어" # AI Tags
+ bno_events.0007.a.aptitude: "[high_skill_option.GetUINamePossessive|U] [aptitude|E] 이 경우 [high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]" # AI Tags
+ bno_events.0007.b: "[low_skill_option.GetFirstNameNoTooltip] 열광적인 것 같네요." # AI Tags
+ bno_events.0007.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E] 이 경우 [low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]" # AI Tags
 

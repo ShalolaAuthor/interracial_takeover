@@ -1,4 +1,4 @@
 ﻿l_french:
 
-bno_non_playable.0001.title: "Discréquence dans le Trésor Royal" # AI Tags
-bno_non_playable.0001.desc: "Un écart mineur a été noté au sein du Trésor royal. Une somme non comptabilisée de pièces d'or semble manquer. Bien que le montant ne soit pas suffisamment important pour provoquer l'alarme, il justifie une enquête immédiate. L'intendant royal insiste pour que toutes les pratiques comptables demeurent méticuleuses, et [cp_steward.GetSheHe] suggère qu'un examen approfondi des dépenses récentes pourrait donner la somme manquante. J'ai commandé [cp_steward.GetHerHis] une attention rapide à la question." # AI Tags
+ bno_non_playable.0001.title: "Discréquence dans le Trésor Royal" # AI Tags
+ bno_non_playable.0001.desc: "Un écart mineur a été noté au sein du Trésor royal. Une somme non comptabilisée de pièces d'or semble manquer. Bien que le montant ne soit pas suffisamment important pour provoquer l'alarme, il justifie une enquête immédiate. L'intendant royal insiste pour que toutes les pratiques comptables demeurent méticuleuses, et [cp_steward.GetSheHe] suggère qu'un examen approfondi des dépenses récentes pourrait donner la somme manquante. J'ai commandé [cp_steward.GetHerHis] une attention rapide à la question." # AI Tags

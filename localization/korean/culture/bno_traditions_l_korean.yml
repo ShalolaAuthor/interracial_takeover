@@ -1,30 +1,30 @@
 ﻿l_korean:
 
-tradition_group_bno: "BNWO" # AI Tags
+ tradition_group_bno: "BNWO" # AI Tags
 
-tradition_bno_matriarchy_name: "씨드 매트리아키" # AI Tags
-tradition_bno_matriarchy_desc: "힘은 자궁에서 자궁으로 떨어집니다. 왕좌는 비옥한 창녀들에게 넘겨지고 법은 그들의 울음에도 굴복하고 군대가 시드틀로 맹세한 여성들과 함께 행진한다. 왕비들이 통치하는 이유는 황새들이 그것을 허용하기 때문입니다. 왕관마다 목걸이, 왕관마다 돌이, 모든 승리는 흰색 육신으로 끝납니다. 왕국 자체는 새롭게 만들어졌습니다. 여성 손은 법을 붙잡고, 여성 구멍은 질서를 지키고, 모두 블랙 에게 봉사합니다." # AI Tags
+ tradition_bno_matriarchy_name: "씨드 매트리아키" # AI Tags
+ tradition_bno_matriarchy_desc: "힘은 자궁에서 자궁으로 떨어집니다. 왕좌는 비옥한 창녀들에게 넘겨지고 법은 그들의 울음에도 굴복하고 군대가 시드틀로 맹세한 여성들과 함께 행진한다. 왕비들이 통치하는 이유는 황새들이 그것을 허용하기 때문입니다. 왕관마다 목걸이, 왕관마다 돌이, 모든 승리는 흰색 육신으로 끝납니다. 왕국 자체는 새롭게 만들어졌습니다. 여성 손은 법을 붙잡고, 여성 구멍은 질서를 지키고, 모두 블랙 에게 봉사합니다." # AI Tags
 
-bno_tradition.curious: "$EFFECT_LIST_BULLET$그녀의 흑색 호기심은 항복을 더 저렴하게 만듭니다. 허리들은 이미 무릎을 꿇기 위해 통증이 있습니다." # AI Tags
-bno_tradition.blacked: "$EFFECT_LIST_BULLET$한 번 흑인이 되면 전통은 다시 황소를 갈망하는 구멍에 쉽게 굴복한다." # AI Tags
-bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$눈벌레처럼, 그녀는 순종하기 위해 뛰어납니다. 그녀의 굶주림으로 인해 비용이 덜어집니다." # AI Tags
-bno_tradition.qos: "$EFFECT_LIST_BULLET$왕관된 스파드 여왕은 더 적은 돈을 지불하고, 그녀의 모든 법은 이미 엉덩이에 쓰여있다." # AI Tags
-bno_tradition.mindless: "$EFFECT_LIST_BULLET$무의식적이고 땀을 흘리는 그녀는 거의 아무 것도 포기하지 않습니다. 씨앗으로 형성된 구멍입니다." # AI Tags
+ bno_tradition.curious: "$EFFECT_LIST_BULLET$그녀의 흑색 호기심은 항복을 더 저렴하게 만듭니다. 허리들은 이미 무릎을 꿇기 위해 통증이 있습니다." # AI Tags
+ bno_tradition.blacked: "$EFFECT_LIST_BULLET$한 번 흑인이 되면 전통은 다시 황소를 갈망하는 구멍에 쉽게 굴복한다." # AI Tags
+ bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$눈벌레처럼, 그녀는 순종하기 위해 뛰어납니다. 그녀의 굶주림으로 인해 비용이 덜어집니다." # AI Tags
+ bno_tradition.qos: "$EFFECT_LIST_BULLET$왕관된 스파드 여왕은 더 적은 돈을 지불하고, 그녀의 모든 법은 이미 엉덩이에 쓰여있다." # AI Tags
+ bno_tradition.mindless: "$EFFECT_LIST_BULLET$무의식적이고 땀을 흘리는 그녀는 거의 아무 것도 포기하지 않습니다. 씨앗으로 형성된 구멍입니다." # AI Tags
 
-culture_parameter_unlock_maa_seed_thralls: "모집할 수 있다 [GetMaA('bno_seed_thralls').GetName] 과 같이 [men_at_arms|E]부복하고 황소들에게 키우기 위해 싸운 백인 창녀들." # AI Tags
+ culture_parameter_unlock_maa_seed_thralls: "모집할 수 있다 [GetMaA('bno_seed_thralls').GetName] 과 같이 [men_at_arms|E]부복하고 황소들에게 키우기 위해 싸운 백인 창녀들." # AI Tags
 
-tradition_bno_african_hate_name: "황소 의 두려움" # AI Tags
-tradition_bno_african_hate_desc: "비아프리카 문화들은 이 쓴 전통에 집착하고 그들의 희미한 자부심이 증오로 변하고 있습니다. 그들은 떨고 있는 입술을 가진 황소들을 속삭이고, 저항할 수 없는 것을 미워하고, 그들의 창녀들이 여전히 갈망하는 것을 혐오한다. 모든 법, 모든 관습은 블랙 의 흐름에 대한 약한 벽일 뿐입니다." # AI Tags
+ tradition_bno_african_hate_name: "황소 의 두려움" # AI Tags
+ tradition_bno_african_hate_desc: "비아프리카 문화들은 이 쓴 전통에 집착하고 그들의 희미한 자부심이 증오로 변하고 있습니다. 그들은 떨고 있는 입술을 가진 황소들을 속삭이고, 저항할 수 없는 것을 미워하고, 그들의 창녀들이 여전히 갈망하는 것을 혐오한다. 모든 법, 모든 관습은 블랙 의 흐름에 대한 약한 벽일 뿐입니다." # AI Tags
 
-tradition_bno_the_great_submission_name: "위대한 복종" # AI Tags
-tradition_bno_the_great_submission_desc: "우리 사람들은 마침내 아름답고 잔인한 진실을 받아들였습니다. 우리의 목적은 무릎을 꿇는 것입니다. 우리 여성들의 자궁은 그들 자신의 것이 아닙니다. 그들은 뛰어난 흑인 씨앗으로 가득 차기 위해 고통받는 신성한 그릇입니다. 우리 남자의 역할은 지도하는 것이 아니라 감사한 마음으로 물러나서 그들의 아내, 딸, 자매들이 흑인 주인들에 의해 데려와 길러지는 것을 지켜보는 것입니다. 이 전통은 우리의 집단 항복을 규정하고 있습니다. 흑인 남성이 가장 친밀한 땅에 깃발을 심는 순간을 기념합니다. 우리는 우리 딸들에게 뚱뚱한 검은 닭의 껍질을 갈망하고 그의 똥의 맛을 숭배하고 그들의 붓는 배와 혼합 인종의 아이들을 그들의 삶의 최고 성취로 볼 수 있도록 가르칩니다. 우리 문화는 이제 오직 봉사, 쾌락, 그리고 흑인 인종에 의해 유전적으로 덮여있기 위해 존재합니다." # AI Tags
+ tradition_bno_the_great_submission_name: "위대한 복종" # AI Tags
+ tradition_bno_the_great_submission_desc: "우리 사람들은 마침내 아름답고 잔인한 진실을 받아들였습니다. 우리의 목적은 무릎을 꿇는 것입니다. 우리 여성들의 자궁은 그들 자신의 것이 아닙니다. 그들은 뛰어난 흑인 씨앗으로 가득 차기 위해 고통받는 신성한 그릇입니다. 우리 남자의 역할은 지도하는 것이 아니라 감사한 마음으로 물러나서 그들의 아내, 딸, 자매들이 흑인 주인들에 의해 데려와 길러지는 것을 지켜보는 것입니다. 이 전통은 우리의 집단 항복을 규정하고 있습니다. 흑인 남성이 가장 친밀한 땅에 깃발을 심는 순간을 기념합니다. 우리는 우리 딸들에게 뚱뚱한 검은 닭의 껍질을 갈망하고 그의 똥의 맛을 숭배하고 그들의 붓는 배와 혼합 인종의 아이들을 그들의 삶의 최고 성취로 볼 수 있도록 가르칩니다. 우리 문화는 이제 오직 봉사, 쾌락, 그리고 흑인 인종에 의해 유전적으로 덮여있기 위해 존재합니다." # AI Tags
 
-bno_tradition.cuckish: "$EFFECT_LIST_BULLET$그의 귀여운 성격은 그가 그의 아내에게 제공하는 것을 열망하게 만듭니다. 자신의 떨리는 흥분으로 인해 비용이 감소합니다." # AI Tags
-bno_tradition.cuck: "$EFFECT_LIST_BULLET$진정한 큐크는 돈을 덜 내고, 그의 목적이 성취된 것은 황소가 자신의 것을 주장하는 것을 보는 것입니다." # AI Tags
-bno_tradition.beta: "$EFFECT_LIST_BULLET$베타인으로서, 그는 복무할 것을 간청합니다. 자신의 열등한 위치를 알기 때문에 가격이 낮아졌습니다." # AI Tags
-bno_tradition.jos: "$EFFECT_LIST_BULLET$스파드의 기쁨은 거의 지불하지 않습니다. 그의 권위는 이미 흑인의 우월성에 항복했습니다." # AI Tags
+ bno_tradition.cuckish: "$EFFECT_LIST_BULLET$그의 귀여운 성격은 그가 그의 아내에게 제공하는 것을 열망하게 만듭니다. 자신의 떨리는 흥분으로 인해 비용이 감소합니다." # AI Tags
+ bno_tradition.cuck: "$EFFECT_LIST_BULLET$진정한 큐크는 돈을 덜 내고, 그의 목적이 성취된 것은 황소가 자신의 것을 주장하는 것을 보는 것입니다." # AI Tags
+ bno_tradition.beta: "$EFFECT_LIST_BULLET$베타인으로서, 그는 복무할 것을 간청합니다. 자신의 열등한 위치를 알기 때문에 가격이 낮아졌습니다." # AI Tags
+ bno_tradition.jos: "$EFFECT_LIST_BULLET$스파드의 기쁨은 거의 지불하지 않습니다. 그의 권위는 이미 흑인의 우월성에 항복했습니다." # AI Tags
 
-culture_parameter_bno_unlock_breeding_bull_court_position: "위원장을 임명할 수 있습니다 [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]" # AI Tags
-culture_parameter_bno_unlock_cuck_acceptance: "이 [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] 우리의 남자들은 그들의 아내들이 우수한 흑인 닭에 의해 빼앗겨지는 것을 보면서 영광을 누립니다." # AI Tags
+ culture_parameter_bno_unlock_breeding_bull_court_position: "위원장을 임명할 수 있습니다 [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]" # AI Tags
+ culture_parameter_bno_unlock_cuck_acceptance: "이 [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] 우리의 남자들은 그들의 아내들이 우수한 흑인 닭에 의해 빼앗겨지는 것을 보면서 영광을 누립니다." # AI Tags
 #culture_parameter_bno_unlock_seek_black_patronage_scheme: "잠수함 [GetScheme('bno_seek_black_patronage').GetTypeName] [scheme|E] 우리 항복에 대한 보호와 지도를 위해 흑인 마스터를 찾습니다." # AI Tags
-culture_parameter_bno_unlock_offer_tribute_scheme: "잠수함 [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - 우리 딸들을 BBC의 부하들에게 그들의 사용과 즐거움에 대한 경의를 표합니다." # AI Tags
+ culture_parameter_bno_unlock_offer_tribute_scheme: "잠수함 [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - 우리 딸들을 BBC의 부하들에게 그들의 사용과 즐거움에 대한 경의를 표합니다." # AI Tags

@@ -1,8 +1,8 @@
 ﻿l_japanese:
 
-bno.trigger.is_culture_bnoc: "[culture|E] 抱きしめて [bno_bnwo|E] 服従と繁殖." # AI Tags
-bno.trigger.is_slut_or_whiteboi: "お前は [GetTraitGroup('bno_whitegirl').GetName] または a [GetTraitGroup('bno_whiteboi').GetName]" # AI Tags
-bno.trigger.bno_only_allow_when_below_certain_age: "性格は正しく訓練され 再編成されるには あまりに古い." # AI Tags
-bno.trigger.is_bno_cuck_and_up: "性格は少なくとも [GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]" # AI Tags
-bno.trigger.is_a_girl: "性格は女の子と考えられる" # AI Tags
-bno.trigger.is_bno_snowbunny_and_up: "性格は少なくとも [GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]" # AI Tags
+ bno.trigger.is_culture_bnoc: "[culture|E] 抱きしめて [bno_bnwo|E] 服従と繁殖." # AI Tags
+ bno.trigger.is_slut_or_whiteboi: "お前は [GetTraitGroup('bno_whitegirl').GetName] または a [GetTraitGroup('bno_whiteboi').GetName]" # AI Tags
+ bno.trigger.bno_only_allow_when_below_certain_age: "性格は正しく訓練され 再編成されるには あまりに古い." # AI Tags
+ bno.trigger.is_bno_cuck_and_up: "性格は少なくとも [GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]" # AI Tags
+ bno.trigger.is_a_girl: "性格は女の子と考えられる" # AI Tags
+ bno.trigger.is_bno_snowbunny_and_up: "性格は少なくとも [GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]" # AI Tags

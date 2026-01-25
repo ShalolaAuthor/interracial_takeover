@@ -1,36 +1,36 @@
 ﻿l_french:
 
-bno_offer_tribute_found_suitable_trainer.title: "Un nouveau maître s'installe" # AI Tags
-bno_offer_tribute_found_suitable_trainer.desc: "La précédente de votre fille [bno_offer_tribute_trainer|E] est parti, mais son travail continue. Un nouveau [bno_bbc|E] d'un savoir-faire égal a progressé pour compléter sa transformation. Sa grosse bite africaine va approfondir son conditionnement. Sa semence intensifiera son dévouement. Son entraînement reprend sans pause." # AI Tags
+ bno_offer_tribute_found_suitable_trainer.title: "Un nouveau maître s'installe" # AI Tags
+ bno_offer_tribute_found_suitable_trainer.desc: "La précédente de votre fille [bno_offer_tribute_trainer|E] est parti, mais son travail continue. Un nouveau [bno_bbc|E] d'un savoir-faire égal a progressé pour compléter sa transformation. Sa grosse bite africaine va approfondir son conditionnement. Sa semence intensifiera son dévouement. Son entraînement reprend sans pause." # AI Tags
 
-bno_offer_tribute.notification.title: "L'Hommage commence" # AI Tags
-bno_offer_tribute.notification.desc: "La transformation de votre fille a commencé. Elle sera sculptée, entraînée et refaite en l'offrande parfaite pour la supériorité africaine. Sa virginité scellée attend. Son corps sera synchronisé avec le musc noir seul. Le plan pour la perfectionner a commencé." # AI Tags
+ bno_offer_tribute.notification.title: "L'Hommage commence" # AI Tags
+ bno_offer_tribute.notification.desc: "La transformation de votre fille a commencé. Elle sera sculptée, entraînée et refaite en l'offrande parfaite pour la supériorité africaine. Sa virginité scellée attend. Son corps sera synchronisé avec le musc noir seul. Le plan pour la perfectionner a commencé." # AI Tags
 
-bno_offer_tribute.invalidated.title.tribute.died: "L'Hommage a persisté" # AI Tags
-bno_offer_tribute.invalidated.desc.tribute.died: "Votre fille est morte pendant son conditionnement avant d'être envoyée à [target.GetName]C'est vrai. Son corps ne pouvait résister à l'intensité de sa préparation. Tous les arrangements sont annulés. Aucun or ne changera de mains. Votre investissement dans sa formation est perdu pour toujours." # AI Tags
+ bno_offer_tribute.invalidated.title.tribute.died: "L'Hommage a persisté" # AI Tags
+ bno_offer_tribute.invalidated.desc.tribute.died: "Votre fille est morte pendant son conditionnement avant d'être envoyée à [target.GetName]C'est vrai. Son corps ne pouvait résister à l'intensité de sa préparation. Tous les arrangements sont annulés. Aucun or ne changera de mains. Votre investissement dans sa formation est perdu pour toujours." # AI Tags
 
-bno_offer_tribute.invalidated.title.target.died: "[target.GetName] Est-ce que c'est tombé" # AI Tags
-bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]Le Seigneur de la BBC que tu préparais à envoyer à ta fille, a été tué au combat. Il ne la recevra jamais. Votre fille reste ici, non réclamée. Tous les arrangements sont nuls. Tu dois décider quoi faire d'elle maintenant." # AI Tags
+ bno_offer_tribute.invalidated.title.target.died: "[target.GetName] Est-ce que c'est tombé" # AI Tags
+ bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]Le Seigneur de la BBC que tu préparais à envoyer à ta fille, a été tué au combat. Il ne la recevra jamais. Votre fille reste ici, non réclamée. Tous les arrangements sont nuls. Tu dois décider quoi faire d'elle maintenant." # AI Tags
 
-bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] A été emprisonné" # AI Tags
-bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName], le Seigneur de la BBC que vous prépariez à envoyer votre fille, a été emprisonné par les forces rivales. Il ne peut pas la recevoir. Votre fille reste ici dans votre maison, son but suspendu indéfiniment. Tous les arrangements sont gelés. Son avenir est maintenant incertain." # AI Tags
+ bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] A été emprisonné" # AI Tags
+ bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName], le Seigneur de la BBC que vous prépariez à envoyer votre fille, a été emprisonné par les forces rivales. Il ne peut pas la recevoir. Votre fille reste ici dans votre maison, son but suspendu indéfiniment. Tous les arrangements sont gelés. Son avenir est maintenant incertain." # AI Tags
 
-bno_trainer_died_during_travel_title: "[bno_trainer.GetFirstName] mort pendant le voyage" # AI Tags
-bno_trainer_died_during_travel_desc: "Vous avez perdu une quantité potentielle de [bno_trainer.GetGold] [gold_i]" # AI Tags
+ bno_trainer_died_during_travel_title: "[bno_trainer.GetFirstName] mort pendant le voyage" # AI Tags
+ bno_trainer_died_during_travel_desc: "Vous avez perdu une quantité potentielle de [bno_trainer.GetGold] [gold_i]" # AI Tags
 
-tribute_is_coming_back_title: "Elle rentre à la maison." # AI Tags
-tribute_is_coming_back_desc: "Un cavalier est arrivé à l'aube. Mon hommage, ma fille, est sur la route. Le message dit Seigneur [bno_target.GetFirstName] était « profondément satisfait » de son service. Je fais le rythme des couloirs maintenant, mon estomac est serré. Qu'est-ce qu'il a fait d'elle? Quelles leçons sont gravées dans sa peau, sa posture, ses yeux vides? Elle me rend son verdict dans ses os. J'attends de voir mon chef-d'œuvre, et d'apprendre si c'était assez bon pour lui." # AI Tags
+ tribute_is_coming_back_title: "Elle rentre à la maison." # AI Tags
+ tribute_is_coming_back_desc: "Un cavalier est arrivé à l'aube. Mon hommage, ma fille, est sur la route. Le message dit Seigneur [bno_target.GetFirstName] était « profondément satisfait » de son service. Je fais le rythme des couloirs maintenant, mon estomac est serré. Qu'est-ce qu'il a fait d'elle? Quelles leçons sont gravées dans sa peau, sa posture, ses yeux vides? Elle me rend son verdict dans ses os. J'attends de voir mon chef-d'œuvre, et d'apprendre si c'était assez bon pour lui." # AI Tags
 
-bno_offer_tribute_lending_died_title: "Une vie au service" # AI Tags
-bno_offer_tribute_lending_died_desc: "La parole est venue du Seigneur [target.GetFirstName]C'est le tribunal. Votre hommage est mort dans son service. Aucun détail n'est donné. La transaction, semble-t-il, est complète." # AI Tags
+ bno_offer_tribute_lending_died_title: "Une vie au service" # AI Tags
+ bno_offer_tribute_lending_died_desc: "La parole est venue du Seigneur [target.GetFirstName]C'est le tribunal. Votre hommage est mort dans son service. Aucun détail n'est donné. La transaction, semble-t-il, est complète." # AI Tags
 
-story_bno_offer_tribute_rewards_died_title: "[story_owner.GetFirstName] Périgée" # AI Tags
-story_bno_offer_tribute_rewards_died_desc: "Seigneur [story_owner.GetFirstName] est mort. La protection de sa maison a disparu. Votre hommage reste dans ses salles vides, son but et son destin sont maintenant incertains." # AI Tags
+ story_bno_offer_tribute_rewards_died_title: "[story_owner.GetFirstName] Périgée" # AI Tags
+ story_bno_offer_tribute_rewards_died_desc: "Seigneur [story_owner.GetFirstName] est mort. La protection de sa maison a disparu. Votre hommage reste dans ses salles vides, son but et son destin sont maintenant incertains." # AI Tags
 
-bno_having_sex_with_tributes_title: "Réclamation [tribute.GetFirstName]" # AI Tags
-bno_having_sex_with_tributes_desc: "[tribute.GetFirstName] s'agenouille devant vous, son corps parfait offert dans le silence tremblant. Prends ce qui est à toi. L'air se remplit des sons de ses gémissements étouffés et du rythme lisse et humide de la possession. Ses yeux vides brillent plus loin, son esprit se vide comme son corps est utilisé exactement comme il a été conçu pour. Ce n'est pas du plaisir, c'est de l'affirmation. Un testament vivant à votre volonté, refait pour le recevoir." # AI Tags
+ bno_having_sex_with_tributes_title: "Réclamation [tribute.GetFirstName]" # AI Tags
+ bno_having_sex_with_tributes_desc: "[tribute.GetFirstName] s'agenouille devant vous, son corps parfait offert dans le silence tremblant. Prends ce qui est à toi. L'air se remplit des sons de ses gémissements étouffés et du rythme lisse et humide de la possession. Ses yeux vides brillent plus loin, son esprit se vide comme son corps est utilisé exactement comme il a été conçu pour. Ce n'est pas du plaisir, c'est de l'affirmation. Un testament vivant à votre volonté, refait pour le recevoir." # AI Tags
 
-bno_give_rewards_to_patron_title: "Un gage de son plaisir" # AI Tags
-bno_give_rewards_to_patron_desc: "Un autre cadeau arrive de Seigneur [story_owner.GetFirstName]C'est le tribunal. Sa forme compte moins que sa signification : votre hommage continue de bien servir son but. Chaque livraison est une nouvelle marque de sa satisfaction continue, un rappel que l'investissement de son corps donne un retour régulier pour votre maison." # AI Tags
+ bno_give_rewards_to_patron_title: "Un gage de son plaisir" # AI Tags
+ bno_give_rewards_to_patron_desc: "Un autre cadeau arrive de Seigneur [story_owner.GetFirstName]C'est le tribunal. Sa forme compte moins que sa signification : votre hommage continue de bien servir son but. Chaque livraison est une nouvelle marque de sa satisfaction continue, un rappel que l'investissement de son corps donne un retour régulier pour votre maison." # AI Tags
 
-african_warrior_tribute_reward: "[story_owner.GetFirstName]'s Cadeau" # AI Tags
+ african_warrior_tribute_reward: "[story_owner.GetFirstName]'s Cadeau" # AI Tags

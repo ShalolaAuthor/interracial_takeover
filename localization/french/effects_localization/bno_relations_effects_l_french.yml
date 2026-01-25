@@ -1,18 +1,18 @@
 ﻿l_french:
 
-i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] devient votre [bno_slave|E]" # AI Tags
-they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] devient [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+ i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] devient votre [bno_slave|E]" # AI Tags
+ they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] devient [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
 
-i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] est devenu votre [bno_slave|E]" # AI Tags
-they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] est devenu [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
+ i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] est devenu votre [bno_slave|E]" # AI Tags
+ they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U] est devenu [CHARACTER.GetShortUINamePossessive] [bno_slave|E]" # AI Tags
 
-i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] devient votre [bno_cum_slave|E], lié par la semence et la fidélité à vous seul." # AI Tags
-they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] devient [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], asservi par le sperme et la dévotion." # AI Tags
+ i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] devient votre [bno_cum_slave|E], lié par la semence et la fidélité à vous seul." # AI Tags
+ they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] devient [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], asservi par le sperme et la dévotion." # AI Tags
 
-i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] est devenu votre [bno_cum_slave|E], ses lèvres et son ventre scellés à ta semence pour toujours." # AI Tags
-they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] est devenu [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], possédé par sa bite et enchaîné à son sperme." # AI Tags
+ i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] est devenu votre [bno_cum_slave|E], ses lèvres et son ventre scellés à ta semence pour toujours." # AI Tags
+ they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U] est devenu [CHARACTER.GetShortUINamePossessive] [bno_cum_slave|E], possédé par sa bite et enchaîné à son sperme." # AI Tags
 
-i_gain_a_bno_offer_tribute_trainer: "Je me rends à [TARGET_CHARACTER.GetShortUIName|U] en tant que mon [bno_offer_tribute_trainer|E], son énorme coq africain et son expertise consacrée à la sculpture de tout mon corps dans l'offrande parfaite pour la supériorité africaine." # AI Tags
-they_gain_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U] la remise à [TARGET_CHARACTER.GetShortUIName|U] comme son [bno_offer_tribute_trainer|E], son corps complètement transformé par sa semence et son autorité en un vaisseau d'élevage digne du Seigneur BBC." # AI Tags
-i_got_a_bno_offer_tribute_trainer: "Je suis devenu [TARGET_CHARACTER.GetShortUIName|U]C' [bno_offer_tribute_trainer|E], sa formation massive de bite africaine chaque pouce de mon corps dans la soumission absolue et la dévotion à la supériorité africaine." # AI Tags
-they_got_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U] est devenu [TARGET_CHARACTER.GetShortUIName|U]C' [bno_offer_tribute_trainer|E], sa semence et son autorité la conditionnant complètement, la transformant en une offrande féconde pour le Seigneur de la BBC, sa totalité étant refaite par sa bite." # AI Tags
+ i_gain_a_bno_offer_tribute_trainer: "Je me rends à [TARGET_CHARACTER.GetShortUIName|U] en tant que mon [bno_offer_tribute_trainer|E], son énorme coq africain et son expertise consacrée à la sculpture de tout mon corps dans l'offrande parfaite pour la supériorité africaine." # AI Tags
+ they_gain_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U] la remise à [TARGET_CHARACTER.GetShortUIName|U] comme son [bno_offer_tribute_trainer|E], son corps complètement transformé par sa semence et son autorité en un vaisseau d'élevage digne du Seigneur BBC." # AI Tags
+ i_got_a_bno_offer_tribute_trainer: "Je suis devenu [TARGET_CHARACTER.GetShortUIName|U]C' [bno_offer_tribute_trainer|E], sa formation massive de bite africaine chaque pouce de mon corps dans la soumission absolue et la dévotion à la supériorité africaine." # AI Tags
+ they_got_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U] est devenu [TARGET_CHARACTER.GetShortUIName|U]C' [bno_offer_tribute_trainer|E], sa semence et son autorité la conditionnant complètement, la transformant en une offrande féconde pour le Seigneur de la BBC, sa totalité étant refaite par sa bite." # AI Tags

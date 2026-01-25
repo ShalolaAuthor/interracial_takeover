@@ -1,25 +1,25 @@
 ﻿l_german:
 #don't translate this yet, still figuring out how this works
-bno_embrace_african_track_desc: "Umarmen Sie Afrikaner, um Nutzen für Ihr Reich zu bringen" # AI Tags
-bno_embrace_african_track_name: "Afrikanisch" # AI Tags
-bno_embrace_african_1_name: "MigrantInnen umarmen" # AI Tags
-bno_embrace_african_2_name: "Nutznießen von Migranten" # AI Tags
-bno_embrace_african_3_name: "Zuwanderer verstehen" # AI Tags
-bno_embrace_african_4_name: "Migranten erkennen" # AI Tags
-bno_embrace_african_5_name: "Integration von Migranten" # AI Tags
+ bno_embrace_african_track_desc: "Umarmen Sie Afrikaner, um Nutzen für Ihr Reich zu bringen" # AI Tags
+ bno_embrace_african_track_name: "Afrikanisch" # AI Tags
+ bno_embrace_african_1_name: "MigrantInnen umarmen" # AI Tags
+ bno_embrace_african_2_name: "Nutznießen von Migranten" # AI Tags
+ bno_embrace_african_3_name: "Zuwanderer verstehen" # AI Tags
+ bno_embrace_african_4_name: "Migranten erkennen" # AI Tags
+ bno_embrace_african_5_name: "Integration von Migranten" # AI Tags
 
-BNO_PLACEHOLDER: "" # AI Tags
-EBONY_ELITES_UNLOCK_DESCRIPTION: "Kann rekrutieren [GetMaA('bno_ebony_elites').GetName] als [men_at_arms|E]" # AI Tags
-EBONY_ELITES_DESCRIPTION: "#weak Nur ein Regiment von [GetMaA('bno_ebony_elites').GetName] kann rekrutiert werden#!" # AI Tags
+ BNO_PLACEHOLDER: "" # AI Tags
+ EBONY_ELITES_UNLOCK_DESCRIPTION: "Kann rekrutieren [GetMaA('bno_ebony_elites').GetName] als [men_at_arms|E]" # AI Tags
+ EBONY_ELITES_DESCRIPTION: "#weak Nur ein Regiment von [GetMaA('bno_ebony_elites').GetName] kann rekrutiert werden#!" # AI Tags
 
-BBC_MARRIAGE_DESCRIPTION: "Wann immer ein [bno_bbc|E] heiratet, und ein weißes Mädchen heiratet ein [bno_bbc|E], Ihre [dynasty|E] wird gewinnen [prestige|E]… Sie werden auch erhöht werden [legitimacy|E] und [prestige|E] von der [marriage|E]" # AI Tags
+ BBC_MARRIAGE_DESCRIPTION: "Wann immer ein [bno_bbc|E] heiratet, und ein weißes Mädchen heiratet ein [bno_bbc|E], Ihre [dynasty|E] wird gewinnen [prestige|E]… Sie werden auch erhöht werden [legitimacy|E] und [prestige|E] von der [marriage|E]" # AI Tags
 
-BBC_SEX_EFFECT: "Wann immer ein [bno_bbc|E] und ein weißes Mädchen von dir [dynasty|E] Haben Sie Sex, Ihre [dynasty|E] wird gewinnen [prestige|E]" # AI Tags
+ BBC_SEX_EFFECT: "Wann immer ein [bno_bbc|E] und ein weißes Mädchen von dir [dynasty|E] Haben Sie Sex, Ihre [dynasty|E] wird gewinnen [prestige|E]" # AI Tags
 
-BNO_EMBRACE_3_EFFECT: "Entsperren Lernen über Migranten Entscheidung und Veranstaltungen" # AI Tags
+ BNO_EMBRACE_3_EFFECT: "Entsperren Lernen über Migranten Entscheidung und Veranstaltungen" # AI Tags
 
-SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Wählen Sie eine [congenital|E] die Eigenschaft, häufiger in der [dynasty|E]" # AI Tags
+ SELECT_BNO_TRAIT_FOR_BNO_EMBRACE_2_NO_BULLETTAB: "Wählen Sie eine [congenital|E] die Eigenschaft, häufiger in der [dynasty|E]" # AI Tags
 
-BBC_CAMP_BUILDING_UNLOCK: "Entsperrt die [GetBuilding('bbc_camp_01').GetName] [building|E]" # AI Tags
+ BBC_CAMP_BUILDING_UNLOCK: "Entsperrt die [GetBuilding('bbc_camp_01').GetName] [building|E]" # AI Tags
 
-BNO_SEX_EFFECT_DESCRIPTION: "Entriegelung [GetModifier('bno_cum_for_glory').GetNameWithTooltip]" # AI Tags
+ BNO_SEX_EFFECT_DESCRIPTION: "Entriegelung [GetModifier('bno_cum_for_glory').GetNameWithTooltip]" # AI Tags

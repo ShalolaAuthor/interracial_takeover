@@ -1,8 +1,8 @@
 ﻿l_german:
 
-bno.trigger.is_culture_bnoc: "[culture|E] hat sich umarmt [bno_bnwo|E] Unterwerfung und Zucht." # AI Tags
-bno.trigger.is_slut_or_whiteboi: "Du bist kein [GetTraitGroup('bno_whitegirl').GetName] oder einem [GetTraitGroup('bno_whiteboi').GetName]" # AI Tags
-bno.trigger.bno_only_allow_when_below_certain_age: "Der Charakter ist zu alt, um richtig trainiert und neu geschmolzen zu werden." # AI Tags
-bno.trigger.is_bno_cuck_and_up: "Charakter ist mindestens ein [GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]" # AI Tags
-bno.trigger.is_a_girl: "Charakter gilt als Mädchen" # AI Tags
-bno.trigger.is_bno_snowbunny_and_up: "Charakter ist mindestens ein [GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]" # AI Tags
+ bno.trigger.is_culture_bnoc: "[culture|E] hat sich umarmt [bno_bnwo|E] Unterwerfung und Zucht." # AI Tags
+ bno.trigger.is_slut_or_whiteboi: "Du bist kein [GetTraitGroup('bno_whitegirl').GetName] oder einem [GetTraitGroup('bno_whiteboi').GetName]" # AI Tags
+ bno.trigger.bno_only_allow_when_below_certain_age: "Der Charakter ist zu alt, um richtig trainiert und neu geschmolzen zu werden." # AI Tags
+ bno.trigger.is_bno_cuck_and_up: "Charakter ist mindestens ein [GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]" # AI Tags
+ bno.trigger.is_a_girl: "Charakter gilt als Mädchen" # AI Tags
+ bno.trigger.is_bno_snowbunny_and_up: "Charakter ist mindestens ein [GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]" # AI Tags

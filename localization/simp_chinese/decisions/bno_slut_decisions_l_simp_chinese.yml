@@ -229,3 +229,4 @@
  bno_convert_to_african.second_step_button: "我想与我同在 [bno_bbc|E]" # AI Tags
  bno_convert_to_african.convert.desc: "我想重生 [GetCultureByKey('bnoc').GetName]" # AI Tags
  bno_convert_to_african.convert_to_bnwo.desc: "我想向大家介绍 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 进入我的 [culture|E]" # AI Tags
+ bno_convert_to_african.diverge_to_bnwo.desc: "我想,我想,我想 [diverge|E] 从我的 [culture|E] A. 通过介绍 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 进入其中" # AI Tags

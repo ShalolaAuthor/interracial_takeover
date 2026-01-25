@@ -1,52 +1,52 @@
 ﻿l_japanese:
 # traits
-trait_bno_bbc: "ビッグ・ブラック・カック" # AI Tags
-trait_bno_bbc_desc: "このキャラクターには巨大な黒いチンコがあり 邪魔する売春婦を 蹴る衝動がある." # AI Tags
-trait_bno_whiteboi_1: "引っかいたのか?" # AI Tags
-trait_bno_whiteboi_1_desc: "このキャラクターの妻は最近彼から離れています. - なぜ?" # AI Tags
-trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 妻は遠くに成長し,彼女の愛情は他の場所へ力によって引き寄せられた [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 挑戦できない." # AI Tags
-trait_bno_whiteboi_2: "引っ掛かった!" # AI Tags
-trait_bno_whiteboi_2_desc: "このキャラクターの妻は 黒人男性と 寝たことがあるし 彼には止められない." # AI Tags
-trait_bno_whiteboi_2_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 妻は黒人男性によって 徹底的に奪われた [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 阻止する力がないのです." # AI Tags
-trait_bno_whiteboi_3: "ベータ" # AI Tags
-trait_bno_whiteboi_3_desc: "このキャラクターの元妻は 彼をより良い男のために 捨ててしまい." # AI Tags
-trait_bno_whiteboi_3_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 前妻が去った [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] より良い人間のために [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." # AI Tags
-trait_bno_whiteboi_4: "ジャック・オブ・スペード" # AI Tags
-trait_bno_whiteboi_4_desc: "この 性格 は,配偶 者 の 問題 に かかわらず,新 世界 の 秩序 に 完全 に 加盟 し て い ます." # AI Tags
-trait_bno_whiteboi_4_desc.exist: "それにもかかわらず [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 配偶者によるトラブル [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] BNWOに完全に加盟しました." # AI Tags
+ trait_bno_bbc: "ビッグ・ブラック・カック" # AI Tags
+ trait_bno_bbc_desc: "このキャラクターには巨大な黒いチンコがあり 邪魔する売春婦を 蹴る衝動がある." # AI Tags
+ trait_bno_whiteboi_1: "引っかいたのか?" # AI Tags
+ trait_bno_whiteboi_1_desc: "このキャラクターの妻は最近彼から離れています. - なぜ?" # AI Tags
+ trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 妻は遠くに成長し,彼女の愛情は他の場所へ力によって引き寄せられた [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 挑戦できない." # AI Tags
+ trait_bno_whiteboi_2: "引っ掛かった!" # AI Tags
+ trait_bno_whiteboi_2_desc: "このキャラクターの妻は 黒人男性と 寝たことがあるし 彼には止められない." # AI Tags
+ trait_bno_whiteboi_2_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 妻は黒人男性によって 徹底的に奪われた [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 阻止する力がないのです." # AI Tags
+ trait_bno_whiteboi_3: "ベータ" # AI Tags
+ trait_bno_whiteboi_3_desc: "このキャラクターの元妻は 彼をより良い男のために 捨ててしまい." # AI Tags
+ trait_bno_whiteboi_3_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 前妻が去った [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] より良い人間のために [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." # AI Tags
+ trait_bno_whiteboi_4: "ジャック・オブ・スペード" # AI Tags
+ trait_bno_whiteboi_4_desc: "この 性格 は,配偶 者 の 問題 に かかわらず,新 世界 の 秩序 に 完全 に 加盟 し て い ます." # AI Tags
+ trait_bno_whiteboi_4_desc.exist: "それにもかかわらず [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 配偶者によるトラブル [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] BNWOに完全に加盟しました." # AI Tags
 
-trait_bno_whiteboi_1.willing: "疑わしいカック" # AI Tags
-trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]妻はベッドから姿を消し始めました. [ROOT.GetCharacter.GetHerHis] 暗黒人の腕に 彼女を想い出します 馬鹿げた幻想 [ROOT.GetCharacter.GetSheHe] 揺れるようには見えません." # AI Tags
-trait_bno_whiteboi_2.willing: "クローゼット カック" # AI Tags
-trait_bno_whiteboi_2_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 今 秘密裏に ワクワクする幻想を 抱きしめて [ROOT.GetCharacter.GetHerHis] 優位な黒人男性との妻が 思考の中で私的な興奮を見つけます [ROOT.GetCharacter.GetSheHe]声を出さない." # AI Tags
-trait_bno_whiteboi_3.willing: "覚醒したカック" # AI Tags
-trait_bno_whiteboi_3_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] オープンに奨励する [ROOT.GetCharacter.GetHerHis] 黒人男性に対する妻の奉仕に 真摯に誇りを持ち 上司から受ける喜びと支配を." # AI Tags
-trait_bno_whiteboi_4.willing: "献身的なカック" # AI Tags
-trait_bno_whiteboi_4_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 積極的に観察する [ROOT.GetCharacter.GetHerHis] 妻はブラック・ブルに奉仕し 偉大なる権力に 完全に服従することを目撃して 深い名誉と満足感を得ています." # AI Tags
+ trait_bno_whiteboi_1.willing: "疑わしいカック" # AI Tags
+ trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]妻はベッドから姿を消し始めました. [ROOT.GetCharacter.GetHerHis] 暗黒人の腕に 彼女を想い出します 馬鹿げた幻想 [ROOT.GetCharacter.GetSheHe] 揺れるようには見えません." # AI Tags
+ trait_bno_whiteboi_2.willing: "クローゼット カック" # AI Tags
+ trait_bno_whiteboi_2_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 今 秘密裏に ワクワクする幻想を 抱きしめて [ROOT.GetCharacter.GetHerHis] 優位な黒人男性との妻が 思考の中で私的な興奮を見つけます [ROOT.GetCharacter.GetSheHe]声を出さない." # AI Tags
+ trait_bno_whiteboi_3.willing: "覚醒したカック" # AI Tags
+ trait_bno_whiteboi_3_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] オープンに奨励する [ROOT.GetCharacter.GetHerHis] 黒人男性に対する妻の奉仕に 真摯に誇りを持ち 上司から受ける喜びと支配を." # AI Tags
+ trait_bno_whiteboi_4.willing: "献身的なカック" # AI Tags
+ trait_bno_whiteboi_4_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] 積極的に観察する [ROOT.GetCharacter.GetHerHis] 妻はブラック・ブルに奉仕し 偉大なる権力に 完全に服従することを目撃して 深い名誉と満足感を得ています." # AI Tags
 
-trait_bno_caged: "檻" # AI Tags
-trait_bno_caged_desc: "純潔は黒人でないために このキャラクターの罰です." # AI Tags
-trait_bno_castrated: "排卵された" # AI Tags
-trait_bno_castrated_desc: "子供は過去のもの. この男は相続人を産み出さない." # AI Tags
-trait_bno_camp_leader: "黒人革命者" # AI Tags
-trait_bno_camp_leader_desc: "このキャラクターは 巨大な黒いチンコで 地元の難民団のリーダーとして選ばれ 売春婦の数で称賛されています." # AI Tags
+ trait_bno_caged: "檻" # AI Tags
+ trait_bno_caged_desc: "純潔は黒人でないために このキャラクターの罰です." # AI Tags
+ trait_bno_castrated: "排卵された" # AI Tags
+ trait_bno_castrated_desc: "子供は過去のもの. この男は相続人を産み出さない." # AI Tags
+ trait_bno_camp_leader: "黒人革命者" # AI Tags
+ trait_bno_camp_leader_desc: "このキャラクターは 巨大な黒いチンコで 地元の難民団のリーダーとして選ばれ 売春婦の数で称賛されています." # AI Tags
 
-trait_bno_slut_blood: "黒い売春婦" # AI Tags
-trait_bno_slut_blood_desc: "飲み過ぎた [GetTrait('bno_full_black').GetName( GetNullCharacter )] 彼女は内側から黒くなる." # AI Tags
-trait_bno_full_black: "ブラック" # AI Tags
-trait_bno_full_black_desc: "直接アフリカ大陸からの子孫" # AI Tags
-trait_bno_mostly_black: "主に黒人" # AI Tags
-trait_bno_mostly_black_desc: "アフリカ系外国人の選択的な繁殖によって 彼らの皮膚は暗くなります" # AI Tags
-trait_bno_mixed: "混合物" # AI Tags
-trait_bno_mixed_desc: "半血のアフリカ人" # AI Tags
-trait_bno_barely_mixed: "まったく混ぜない" # AI Tags
-trait_bno_barely_mixed_desc: "アフリカ系王朝で繁殖しなかった後,このキャラクターの血が減った" # AI Tags
+ trait_bno_slut_blood: "黒い売春婦" # AI Tags
+ trait_bno_slut_blood_desc: "飲み過ぎた [GetTrait('bno_full_black').GetName( GetNullCharacter )] 彼女は内側から黒くなる." # AI Tags
+ trait_bno_full_black: "ブラック" # AI Tags
+ trait_bno_full_black_desc: "直接アフリカ大陸からの子孫" # AI Tags
+ trait_bno_mostly_black: "主に黒人" # AI Tags
+ trait_bno_mostly_black_desc: "アフリカ系外国人の選択的な繁殖によって 彼らの皮膚は暗くなります" # AI Tags
+ trait_bno_mixed: "混合物" # AI Tags
+ trait_bno_mixed_desc: "半血のアフリカ人" # AI Tags
+ trait_bno_barely_mixed: "まったく混ぜない" # AI Tags
+ trait_bno_barely_mixed_desc: "アフリカ系王朝で繁殖しなかった後,このキャラクターの血が減った" # AI Tags
 
 #Message Filter
-message_filter_bno_breeding_outcomes: "" # AI Tags
-message_filter_bno_blacked_events: "" # AI Tags
+ message_filter_bno_breeding_outcomes: "" # AI Tags
+ message_filter_bno_blacked_events: "" # AI Tags
 
-message_group_type_bno: "@bnobbc! 種族間接接" # AI Tags
+ message_group_type_bno: "@bnobbc! 種族間接接" # AI Tags
 
-bno_slave_hook: "BBC スラブ" # AI Tags
-bno_cum_slave_hook: "奴隷として" # AI Tags
+ bno_slave_hook: "BBC スラブ" # AI Tags
+ bno_cum_slave_hook: "奴隷として" # AI Tags

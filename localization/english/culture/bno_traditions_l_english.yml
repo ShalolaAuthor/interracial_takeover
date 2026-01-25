@@ -1,30 +1,30 @@
 ﻿l_english:
 
-tradition_group_bno: "BNWO"
+ tradition_group_bno: "BNWO"
 
-tradition_bno_matriarchy_name: "Seeded Matriarchy"
-tradition_bno_matriarchy_desc: "Power drips down from womb to womb. Thrones are passed to fertile sluts, laws bend to their moans, and armies march with women sworn as Seedthralls. Queens rule only because Bulls allow it—every crown a collar, every scepter a dildo, every victory ending with white flesh spread and stuffed. The realm itself is remade: female hands grasp the law, female holes uphold the order, all in service of Black cock."
+ tradition_bno_matriarchy_name: "Seeded Matriarchy"
+ tradition_bno_matriarchy_desc: "Power drips down from womb to womb. Thrones are passed to fertile sluts, laws bend to their moans, and armies march with women sworn as Seedthralls. Queens rule only because Bulls allow it—every crown a collar, every scepter a dildo, every victory ending with white flesh spread and stuffed. The realm itself is remade: female hands grasp the law, female holes uphold the order, all in service of Black cock."
 
-bno_tradition.curious: "$EFFECT_LIST_BULLET$Her Black Curiosity makes surrender come cheaper, thighs already aching to kneel."
-bno_tradition.blacked: "$EFFECT_LIST_BULLET$Once Blacked, tradition bends easy to the holes that crave Bulls again."
-bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$As a Snowbunny, she leaps to obey, the cost lightened by her hunger."
-bno_tradition.qos: "$EFFECT_LIST_BULLET$A crowned Queen of Spades pays less, her every law already written in cock."
-bno_tradition.mindless: "$EFFECT_LIST_BULLET$Mindless and drooling, she yields for almost nothing, a hole shaped by seed."
+ bno_tradition.curious: "$EFFECT_LIST_BULLET$Her Black Curiosity makes surrender come cheaper, thighs already aching to kneel."
+ bno_tradition.blacked: "$EFFECT_LIST_BULLET$Once Blacked, tradition bends easy to the holes that crave Bulls again."
+ bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$As a Snowbunny, she leaps to obey, the cost lightened by her hunger."
+ bno_tradition.qos: "$EFFECT_LIST_BULLET$A crowned Queen of Spades pays less, her every law already written in cock."
+ bno_tradition.mindless: "$EFFECT_LIST_BULLET$Mindless and drooling, she yields for almost nothing, a hole shaped by seed."
 
-culture_parameter_unlock_maa_seed_thralls: "Can recruit [GetMaA('bno_seed_thralls').GetName] as [men_at_arms|E], white sluts who fight only to kneel and be bred by Bulls."
+ culture_parameter_unlock_maa_seed_thralls: "Can recruit [GetMaA('bno_seed_thralls').GetName] as [men_at_arms|E], white sluts who fight only to kneel and be bred by Bulls."
 
-tradition_bno_african_hate_name: "Fear of the Bull"
-tradition_bno_african_hate_desc: "Non-African cultures cling to this bitter tradition, their pale pride twisting into hatred. They whisper of Bulls with trembling lips, hating what they cannot resist, loathing what their sluts still crave. Every law, every custom, is just a feeble wall against the tide of Black cock."
+ tradition_bno_african_hate_name: "Fear of the Bull"
+ tradition_bno_african_hate_desc: "Non-African cultures cling to this bitter tradition, their pale pride twisting into hatred. They whisper of Bulls with trembling lips, hating what they cannot resist, loathing what their sluts still crave. Every law, every custom, is just a feeble wall against the tide of Black cock."
 
-tradition_bno_the_great_submission_name: "The Great Submission"
-tradition_bno_the_great_submission_desc: "Our people have finally accepted the beautiful, brutal truth: our purpose is to kneel. Our women’s wombs are not their own; they are sacred vessels aching to be filled with superior Black seed. Our men’s role is not to lead, but to gratefully step aside and watch as their wives, daughters, and sisters are taken and bred by their Black masters. This tradition codifies our collective surrender, celebrating the moment a Black man plants his flag in our most intimate soil. We teach our daughters to crave the stretch of a thick Black cock, to worship the taste of his cum, and to see their swelling bellies with mixed-race children as the highest achievement of their lives. Our culture now exists only to serve, to pleasure, and to be genetically overwritten by the Black race."
+ tradition_bno_the_great_submission_name: "The Great Submission"
+ tradition_bno_the_great_submission_desc: "Our people have finally accepted the beautiful, brutal truth: our purpose is to kneel. Our women’s wombs are not their own; they are sacred vessels aching to be filled with superior Black seed. Our men’s role is not to lead, but to gratefully step aside and watch as their wives, daughters, and sisters are taken and bred by their Black masters. This tradition codifies our collective surrender, celebrating the moment a Black man plants his flag in our most intimate soil. We teach our daughters to crave the stretch of a thick Black cock, to worship the taste of his cum, and to see their swelling bellies with mixed-race children as the highest achievement of their lives. Our culture now exists only to serve, to pleasure, and to be genetically overwritten by the Black race."
 
-bno_tradition.cuckish: "$EFFECT_LIST_BULLET$His Cuckish nature makes him eager to offer his wife, the cost reduced by his own trembling excitement."
-bno_tradition.cuck: "$EFFECT_LIST_BULLET$A true Cuck pays less, his purpose fulfilled watching a Bull claim what is his."
-bno_tradition.beta: "$EFFECT_LIST_BULLET$As a Beta, he begs to serve, the price lowered for knowing his inferior place."
-bno_tradition.jos: "$EFFECT_LIST_BULLET$A Joy of Spades pays little, his authority already surrendered to Black superiority."
+ bno_tradition.cuckish: "$EFFECT_LIST_BULLET$His Cuckish nature makes him eager to offer his wife, the cost reduced by his own trembling excitement."
+ bno_tradition.cuck: "$EFFECT_LIST_BULLET$A true Cuck pays less, his purpose fulfilled watching a Bull claim what is his."
+ bno_tradition.beta: "$EFFECT_LIST_BULLET$As a Beta, he begs to serve, the price lowered for knowing his inferior place."
+ bno_tradition.jos: "$EFFECT_LIST_BULLET$A Joy of Spades pays little, his authority already surrendered to Black superiority."
 
-culture_parameter_bno_unlock_breeding_bull_court_position: "Can appoint the [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]"
-culture_parameter_bno_unlock_cuck_acceptance: "The [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] line have additional bonuses - our men find honor in watching their wives be taken by superior Black cocks."
+ culture_parameter_bno_unlock_breeding_bull_court_position: "Can appoint the [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]"
+ culture_parameter_bno_unlock_cuck_acceptance: "The [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] line have additional bonuses - our men find honor in watching their wives be taken by superior Black cocks."
 #culture_parameter_bno_unlock_seek_black_patronage_scheme: "Unlocks [GetScheme('bno_seek_black_patronage').GetTypeName] [scheme|E] - seeks Black masters for protection and guidance in our surrender."
-culture_parameter_bno_unlock_offer_tribute_scheme: "Unlocks [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - offers our daughters as tribute to BBC lords for their use and pleasure."
+ culture_parameter_bno_unlock_offer_tribute_scheme: "Unlocks [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - offers our daughters as tribute to BBC lords for their use and pleasure."

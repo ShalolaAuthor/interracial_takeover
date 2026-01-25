@@ -65,3 +65,4 @@
  bno_events.0007.a.aptitude: "[high_skill_option.GetUINamePossessive|U][aptitude|E]是[high_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
  bno_events.0007.b: "[low_skill_option.GetFirstNameNoTooltip]看起来很热情，如果没有别的人选的话。"
  bno_events.0007.b.aptitude: "[low_skill_option.GetUINamePossessive|U] [aptitude|E]是[low_skill_option.GetCourtPositionAptitude( GetCourtPositionType( 'bno_bbc_worshipper_court_position' ) )]"
+
