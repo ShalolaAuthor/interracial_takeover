@@ -11,10 +11,10 @@
     allow = { }
 
     valid = {
-        scope:owner ?= {
+        scope:owner = {
 			is_alive = yes
 		}
-		scope:target ?= {
+		scope:target = {
 			is_alive = yes
 		}
     }
@@ -804,7 +804,7 @@
 					}
 				}
 				fallback = {
-					scope:owner = {
+					scope:owner ?= {
 						trigger_event = bno_cum_addiction.0000
 					}
 				}

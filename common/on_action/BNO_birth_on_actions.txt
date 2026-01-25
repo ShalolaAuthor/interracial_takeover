@@ -105,23 +105,29 @@ black_bred_bitch = {
 				}
 				NOT = { scope:real_father = scope:father }
 			}
-			scope:real_father = {				#send notification and prestige to BBC real father, assuming he is not married to the mother in question
-				send_interface_message = {
-					type = bno_blacked_events
-					title = bno_birth_real_father_notification.title
-					right_icon = scope:mother
-					left_icon = scope:child
-					desc = bno_birth_real_father_notification.desc
-					add_prestige = 75
+			scope:real_father ?= {				#send notification and prestige to BBC real father, assuming he is not married to the mother in question
+				if = {
+					limit = { is_alive = yes }
+					send_interface_message = {
+						type = bno_blacked_events
+						title = bno_birth_real_father_notification.title
+						right_icon = scope:mother
+						left_icon = scope:child
+						desc = bno_birth_real_father_notification.desc
+						add_prestige = 75
+					}
 				}
 			}
 			scope:father ?= {
-				send_interface_message = {
-					type = bno_blacked_events
-					title = bno_birth_cuck_father_notification.title
-					right_icon = scope:mother
-					left_icon = scope:child
-					desc = bno_birth_cuck_father_notification.desc
+				if ={
+					limit = { is_alive = yes }
+					send_interface_message = {
+						type = bno_blacked_events
+						title = bno_birth_cuck_father_notification.title
+						right_icon = scope:mother
+						left_icon = scope:child
+						desc = bno_birth_cuck_father_notification.desc
+					}
 				}
 			}
 		}

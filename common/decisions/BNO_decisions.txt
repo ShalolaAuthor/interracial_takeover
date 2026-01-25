@@ -598,6 +598,7 @@ bno_realize_bbc_potential = {
 	effect = {
 		bno_add_bbc_trait_effect = yes
 	}
+	ai_check_interval = 0
 }
 
 #Convert to african decision
@@ -640,7 +641,7 @@ bno_convert_to_african = {
 				if = {
 					limit = {
 						save_temporary_scope_as = bno_character
-						culture.culture_head = {
+						culture.culture_head ?= {
 							save_temporary_scope_as = bno_culture_head_character
 						}
 						scope:bno_character = scope:bno_culture_head_character
@@ -654,7 +655,7 @@ bno_convert_to_african = {
 			is_shown = { always = yes }
 			is_valid = { 
 				save_temporary_scope_as = bno_character
-				culture.culture_head = {
+				culture.culture_head ?= {
 					save_temporary_scope_as = bno_culture_head_character
 				}
 				scope:bno_character = scope:bno_culture_head_character
@@ -668,7 +669,7 @@ bno_convert_to_african = {
 				if = {
 					limit = {
 						save_temporary_scope_as = bno_character
-						culture.culture_head = {
+						culture.culture_head ?= {
 							save_temporary_scope_as = bno_culture_head_character
 						}
 						scope:bno_character = scope:bno_culture_head_character
@@ -682,7 +683,7 @@ bno_convert_to_african = {
 			is_shown = { always = yes }
 			is_valid = { 
 				save_temporary_scope_as = bno_character
-				culture.culture_head = {
+				culture.culture_head ?= {
 					save_temporary_scope_as = bno_culture_head_character
 				}
 				NOT = { scope:bno_character = scope:bno_culture_head_character }
@@ -696,7 +697,7 @@ bno_convert_to_african = {
 				if = {
 					limit = {
 						save_temporary_scope_as = bno_character
-						culture.culture_head = {
+						culture.culture_head ?= {
 							save_temporary_scope_as = bno_culture_head_character
 						}
 						NOT = { scope:bno_character = scope:bno_culture_head_character }

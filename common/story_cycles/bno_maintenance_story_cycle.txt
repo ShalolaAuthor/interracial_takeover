@@ -424,6 +424,26 @@
                 }
             }
         }
+		#femboi maintenance
+		triggered_effect = {
+			trigger = {
+				story_owner ?= {
+					has_trait = femboi
+					NOT = { has_trait = bno_femboi }
+				}
+			}
+			effect = {
+				story_owner ?= {
+					remove_trait = femboi
+					add_trait = bno_femboi
+				}
+			}
+		}
+    }
+	#character interactions
+	effect_group = {
+		months = 1
+		
         #use tincture of genesis artifact
         triggered_effect = {
             trigger = {
@@ -1155,22 +1175,117 @@
                 }
             }
         }
-		#femboi maintenance
+		#offer tribute
 		triggered_effect = {
 			trigger = {
-				story_owner ?= {
-					has_trait = femboi
-					NOT = { has_trait = bno_femboi }
+				story_owner = {
+					is_ai = yes
+					is_ruler = yes
+					is_adult = yes
+					is_bbc = no
+					is_culture_bnoc = yes
+					OR = {
+						is_bno_snowbunny_and_up = yes
+						is_bno_cuck_and_up = yes
+					}
+					any_child = {
+						bno_is_perfect_candidate_for_offering_trigger = yes
+					}
+					any_neighboring_and_across_water_top_liege_realm_owner = {
+						highest_held_title_tier >= tier_kingdom
+						is_ruler = yes
+						is_adult = yes
+						is_bbc = yes
+					}
 				}
 			}
 			effect = {
-				story_owner ?= {
-					remove_trait = femboi
-					add_trait = bno_femboi
+				story_owner = {
+					random_child = {
+						limit = {
+							bno_is_perfect_candidate_for_offering_trigger = yes
+						}
+						save_scope_as = secondary_actor
+					}
+					random_neighboring_and_across_water_top_liege_realm_owner = {
+						limit = {
+							highest_held_title_tier >= tier_kingdom
+							is_ruler = yes
+							is_adult = yes
+							is_bbc = yes
+						}
+						save_scope_as = recipient
+					}
+            		stress_impact = {
+            		    compassionate = medium_stress_impact_gain
+            		    honest = minor_stress_impact_gain
+            		    just = minor_stress_impact_gain
+            		}
+            		set_variable = {
+            		    name = bno_tribute
+            		    value = scope:secondary_actor
+            		}
+            		send_interface_toast = {
+            		    type = bno_blacked_events
+            		    title = bno_offer_tribute.notification.title
+            		    desc = bno_offer_tribute.notification.desc
+
+            		    left_icon = scope:secondary_actor
+            		    right_icon = scope:recipient
+
+            		    ### Create and Equip Chastity Piercing for Daughter
+            		    scope:secondary_actor = {
+            		        if = {
+            		            limit = {
+            		                NOT = {
+            		                    any_character_artifact = {
+            		                        has_variable = bno_chastity_piercing
+            		                    }
+            		                }
+            		            }
+            		            bno_create_artifact_bno_chastity_piercing_only_effect = {
+            		                CREATOR = scope:actor
+            		            }
+            		        }
+            		        if = {
+            		            limit = {
+            		                NOT = {
+            		                    any_equipped_character_artifact = {
+            		                        has_variable = bno_chastity_piercing
+            		                    }
+            		                }
+            		            }
+            		            random_character_artifact = {
+            		                limit = {
+            		                    has_variable = bno_chastity_piercing
+            		                }
+            		                save_scope_as = bno_chastity_piercing
+            		            }
+            		            scope:bno_chastity_piercing = {
+            		                equip_artifact_to_owner = yes   
+            		            }
+            		        }                                        
+            		    }
+            		    ### END
+
+            		    start_scheme = {
+            		        type = bno_offer_tribute
+            		        target_character = scope:recipient
+            		        save_scope_as = bno_offer_tribute_scheme
+            		    }
+            		}
+            		hidden_effect = {
+            		    scope:bno_offer_tribute_scheme = {
+            		        set_variable = {
+            		            name = bno_tribute
+            		            value = scope:secondary_actor
+            		        }
+            		    }
+            		}
 				}
 			}
 		}
-    }
+	}
 	#events
 	effect_group = {
 		days = { 30 180 }

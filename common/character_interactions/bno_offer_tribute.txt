@@ -140,21 +140,4 @@
     }
 
     auto_accept = yes
-
-    ai_targets = {
-        ai_recipients = neighboring_rulers
-    }
-
-    ai_frequency_by_tier = {
-		barony = 0
-		county = 1
-		duchy = 1
-		kingdom = 1
-		empire = 1
-		hegemony = 1
-	}
-
-    ai_will_do = {
-        base = 100
-    }
 }

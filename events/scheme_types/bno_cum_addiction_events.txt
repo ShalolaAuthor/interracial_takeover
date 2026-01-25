@@ -22,7 +22,7 @@ bno_cum_addiction.0000 = {
     }
 
     trigger = {
-        scope:owner = {
+        scope:owner ?= {
             is_bbc = yes
         }
     }
