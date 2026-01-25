@@ -442,7 +442,13 @@
     }
 	#character interactions
 	effect_group = {
-		months = 1
+		days = { 30 60 }
+		trigger = {
+			story_owner = {
+				is_playable_character = yes
+				is_ai = yes
+			}
+		}
 		
         #use tincture of genesis artifact
         triggered_effect = {
@@ -1288,7 +1294,7 @@
 	}
 	#events
 	effect_group = {
-		days = { 30 180 }
+		days = { 180 360 }
 		trigger = {
 			story_owner ?= {
 				is_adult = yes
