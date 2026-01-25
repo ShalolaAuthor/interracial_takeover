@@ -1,44 +1,44 @@
 ﻿l_polish:
 
-bno_african_warriors: "Afrykańscy wojownicy" # AI Tags
-bno_african_warriors_flavor: "#F Elitni wojownicy znani ze swej prędkości i zdolności do przystosowania się do surowych terenów, takich jak lasy i dżungle.#!" # AI Tags
+ bno_african_warriors: "Afrykańscy wojownicy" # AI Tags
+ bno_african_warriors_flavor: "#F Elitni wojownicy znani ze swej prędkości i zdolności do przystosowania się do surowych terenów, takich jak lasy i dżungle.#!" # AI Tags
 
-bno_ebony_elites: "Ebony Elites" # AI Tags
-bno_ebony_elites_flavor: "#F Unity ciężkiej piechoty, znane ze swojej dyscypliny i umiejętności walki, często służyły jako kręgosłup siły wojskowej królestwa.#!" # AI Tags
+ bno_ebony_elites: "Ebony Elites" # AI Tags
+ bno_ebony_elites_flavor: "#F Unity ciężkiej piechoty, znane ze swojej dyscypliny i umiejętności walki, często służyły jako kręgosłup siły wojskowej królestwa.#!" # AI Tags
 
-bno_cock_maidens: "Dziewczynki z kurczakiem" # AI Tags
-bno_cock_maidens_flavor: "#F Wybrane ręcznie dziewice związane z kultem Czarnego Kurczaka, te dziewice używają zarówno ostrza, jak i ciała jako broni. Niektórzy, ale niezrównani w gorliwości, uderzają z bezwzględną precyzją, a ich pożądliwy oddanie zamienia każde pole bitwy w orgię krwi i wielbienia BBC.#!" # AI Tags
+ bno_cock_maidens: "Dziewczynki z kurczakiem" # AI Tags
+ bno_cock_maidens_flavor: "#F Wybrane ręcznie dziewice związane z kultem Czarnego Kurczaka, te dziewice używają zarówno ostrza, jak i ciała jako broni. Niektórzy, ale niezrównani w gorliwości, uderzają z bezwzględną precyzją, a ich pożądliwy oddanie zamienia każde pole bitwy w orgię krwi i wielbienia BBC.#!" # AI Tags
 
-bno_seed_thralls: "Płodkowe drzewki" # AI Tags
-bno_seed_thralls_flavor: "#F Białe kobiety wybuchowane w broni, ale związane w dziurach, marszują do bitwy tylko po to, aby skończyć na kolanach. Każda rzuca włóczni jest grą wstępną, każda tarcza podnosząca płacz zatrzymany, bo ich prawdziwą nagrodą jest być rozdzielone i wypełnione przez Były po walce zakończone.#!" # AI Tags
+ bno_seed_thralls: "Płodkowe drzewki" # AI Tags
+ bno_seed_thralls_flavor: "#F Białe kobiety wybuchowane w broni, ale związane w dziurach, marszują do bitwy tylko po to, aby skończyć na kolanach. Każda rzuca włóczni jest grą wstępną, każda tarcza podnosząca płacz zatrzymany, bo ich prawdziwą nagrodą jest być rozdzielone i wypełnione przez Były po walce zakończone.#!" # AI Tags
 
 
-bnwo_armies: "[bnwo_armies|E]" # AI Tags
+ bnwo_armies: "[bnwo_armies|E]" # AI Tags
 
-bnwo_armies_screen_add: "[bnwo_armies|E] [screen|E]" # AI Tags
-bnwo_armies_screen_mult: "$bnwo_armies_screen_add$" # AI Tags
-bnwo_armies_pursuit_add: "[bnwo_armies|E] [pursuit|E]" # AI Tags
-bnwo_armies_pursuit_mult: "$bnwo_armies_pursuit_add$" # AI Tags
-bnwo_armies_toughness_add: "[bnwo_armies|E] [toughness|E]" # AI Tags
-bnwo_armies_toughness_mult: "$bnwo_armies_toughness_add$" # AI Tags
-bnwo_armies_damage_add: "[bnwo_armies|E] [damage|E]" # AI Tags
-bnwo_armies_damage_mult: "$bnwo_armies_damage_add$" # AI Tags
-bnwo_armies_max_size_add: "Maksymalny rozmiar [bnwo_armies|E] [regiments|E]" # AI Tags
-bnwo_armies_max_size_mult: "$bnwo_armies_max_size_add$" # AI Tags
-bnwo_armies_maintenance_mult: "[bnwo_armies|E] Wsparcie" # AI Tags
-bnwo_armies_recruitment_cost_mult: "[bnwo_armies|E] Koszty rekrutacji" # AI Tags
-bnwo_armies_siege_value_add: "[bnwo_armies|E] [siege_progress|E]" # AI Tags
-bnwo_armies_siege_value_mult: "$bnwo_armies_siege_value_add$" # AI Tags
+ bnwo_armies_screen_add: "[bnwo_armies|E] [screen|E]" # AI Tags
+ bnwo_armies_screen_mult: "$bnwo_armies_screen_add$" # AI Tags
+ bnwo_armies_pursuit_add: "[bnwo_armies|E] [pursuit|E]" # AI Tags
+ bnwo_armies_pursuit_mult: "$bnwo_armies_pursuit_add$" # AI Tags
+ bnwo_armies_toughness_add: "[bnwo_armies|E] [toughness|E]" # AI Tags
+ bnwo_armies_toughness_mult: "$bnwo_armies_toughness_add$" # AI Tags
+ bnwo_armies_damage_add: "[bnwo_armies|E] [damage|E]" # AI Tags
+ bnwo_armies_damage_mult: "$bnwo_armies_damage_add$" # AI Tags
+ bnwo_armies_max_size_add: "Maksymalny rozmiar [bnwo_armies|E] [regiments|E]" # AI Tags
+ bnwo_armies_max_size_mult: "$bnwo_armies_max_size_add$" # AI Tags
+ bnwo_armies_maintenance_mult: "[bnwo_armies|E] Wsparcie" # AI Tags
+ bnwo_armies_recruitment_cost_mult: "[bnwo_armies|E] Koszty rekrutacji" # AI Tags
+ bnwo_armies_siege_value_add: "[bnwo_armies|E] [siege_progress|E]" # AI Tags
+ bnwo_armies_siege_value_mult: "$bnwo_armies_siege_value_add$" # AI Tags
 
-stationed_bnwo_armies_damage_add: "[stationed|E] [bnwo_armies|E] [damage|E]" # AI Tags
-stationed_bnwo_armies_damage_mult: "$stationed_bnwo_armies_damage_add$" # AI Tags
-stationed_bnwo_armies_toughness_add: "[stationed|E] [bnwo_armies|E] [toughness|E]" # AI Tags
-stationed_bnwo_armies_toughness_mult: "$stationed_bnwo_armies_toughness_add$" # AI Tags
-stationed_bnwo_armies_pursuit_add: "[stationed|E] [bnwo_armies|E] [pursuit|E]" # AI Tags
-stationed_bnwo_armies_pursuit_mult: "$stationed_bnwo_armies_pursuit_add$" # AI Tags
-stationed_bnwo_armies_screen_add: "[stationed|E] [bnwo_armies|E] [screen|E]" # AI Tags
-stationed_bnwo_armies_screen_mult: "$stationed_bnwo_armies_screen_add$" # AI Tags
-stationed_bnwo_armies_siege_value_add: "[stationed|E] [bnwo_armies|E] [siege_progress|E]" # AI Tags
-stationed_bnwo_armies_siege_value_mult: "$stationed_bnwo_armies_siege_value_add$" # AI Tags
+ stationed_bnwo_armies_damage_add: "[stationed|E] [bnwo_armies|E] [damage|E]" # AI Tags
+ stationed_bnwo_armies_damage_mult: "$stationed_bnwo_armies_damage_add$" # AI Tags
+ stationed_bnwo_armies_toughness_add: "[stationed|E] [bnwo_armies|E] [toughness|E]" # AI Tags
+ stationed_bnwo_armies_toughness_mult: "$stationed_bnwo_armies_toughness_add$" # AI Tags
+ stationed_bnwo_armies_pursuit_add: "[stationed|E] [bnwo_armies|E] [pursuit|E]" # AI Tags
+ stationed_bnwo_armies_pursuit_mult: "$stationed_bnwo_armies_pursuit_add$" # AI Tags
+ stationed_bnwo_armies_screen_add: "[stationed|E] [bnwo_armies|E] [screen|E]" # AI Tags
+ stationed_bnwo_armies_screen_mult: "$stationed_bnwo_armies_screen_add$" # AI Tags
+ stationed_bnwo_armies_siege_value_add: "[stationed|E] [bnwo_armies|E] [siege_progress|E]" # AI Tags
+ stationed_bnwo_armies_siege_value_mult: "$stationed_bnwo_armies_siege_value_add$" # AI Tags
 
-bno_hotwife_army_name: "Legion Czarnych Słupek" # AI Tags
+ bno_hotwife_army_name: "Legion Czarnych Słupek" # AI Tags

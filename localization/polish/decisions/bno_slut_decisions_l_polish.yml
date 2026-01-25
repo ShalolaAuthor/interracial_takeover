@@ -1,231 +1,231 @@
 ﻿l_polish:
 
-bno_becoming_bbc_slut: "Stałem się "czarną dziwką"" # AI Tags
+ bno_becoming_bbc_slut: "Stałem się "czarną dziwką"" # AI Tags
 #bno_becoming_bbc_slut.effect: "Będziesz stał się [bno_whore|E] dla [bno_bbc|E]" # AI Tags
-bno_becoming_bbc_slut.effect: "Stajesz się dziwką [bno_bbcs|E]" # AI Tags
-bno_becoming_bbc_slut_desc: "Chcę być czarną dziwką, bo urodziłam się do tej roli, by służyć jako zbiornika dla potężnych, męskich czarnych kutasów, które mogą dać mi to, czego pragnę moje małe białe ciało. Po prostu widok ogromnego członka ebonowego mężczyzny sprawia, że moja cipka wypływa z oczekiwania i potrzeby." # AI Tags
-bno_becoming_bbc_slut_confirm: "Moje ciasne dziury są twoje, możesz je użyć jak chcesz." # AI Tags
-bno_becoming_bbc_slut_tooltip: "Jestem tak zdesperowana, że zostanę wykorzystana jak bezwartościowa dziwka, którą jestem" # AI Tags
+ bno_becoming_bbc_slut.effect: "Stajesz się dziwką [bno_bbcs|E]" # AI Tags
+ bno_becoming_bbc_slut_desc: "Chcę być czarną dziwką, bo urodziłam się do tej roli, by służyć jako zbiornika dla potężnych, męskich czarnych kutasów, które mogą dać mi to, czego pragnę moje małe białe ciało. Po prostu widok ogromnego członka ebonowego mężczyzny sprawia, że moja cipka wypływa z oczekiwania i potrzeby." # AI Tags
+ bno_becoming_bbc_slut_confirm: "Moje ciasne dziury są twoje, możesz je użyć jak chcesz." # AI Tags
+ bno_becoming_bbc_slut_tooltip: "Jestem tak zdesperowana, że zostanę wykorzystana jak bezwartościowa dziwka, którą jestem" # AI Tags
 
-bno_stop_becoming_bbc_slut: "Oddana prostytutka" # AI Tags
-bno_stop_becoming_bbc_slut_desc: "Po latach bycia czarną dziwką, w końcu znalazłam w nim mojego idealnego partnera - osobistego czarnego byka, który codziennie dba o mój nienasycający apetyt na duży fiut. Zadowala mnie w sposób, w jaki nikt inny nigdy nie mógłby, zapewniając, że moja cipka jest zawsze wypełniona i wypływa jego grubym nasieniem." # AI Tags
-bno_stop_becoming_bbc_slut_confirm: "Po to się urodziłem" # AI Tags
-bno_stop_becoming_bbc_slut_tooltip: " by być niczym więcej niż zestawem dziur posiadanych przez silnego" # AI Tags
-bno_stop_becoming_bbc_slut.bbc_spouse: "Jeden z twoich małżonków ma [GetTrait('bno_bbc').GetName( GetNullCharacter )]" # AI Tags
+ bno_stop_becoming_bbc_slut: "Oddana prostytutka" # AI Tags
+ bno_stop_becoming_bbc_slut_desc: "Po latach bycia czarną dziwką, w końcu znalazłam w nim mojego idealnego partnera - osobistego czarnego byka, który codziennie dba o mój nienasycający apetyt na duży fiut. Zadowala mnie w sposób, w jaki nikt inny nigdy nie mógłby, zapewniając, że moja cipka jest zawsze wypełniona i wypływa jego grubym nasieniem." # AI Tags
+ bno_stop_becoming_bbc_slut_confirm: "Po to się urodziłem" # AI Tags
+ bno_stop_becoming_bbc_slut_tooltip: " by być niczym więcej niż zestawem dziur posiadanych przez silnego" # AI Tags
+ bno_stop_becoming_bbc_slut.bbc_spouse: "Jeden z twoich małżonków ma [GetTrait('bno_bbc').GetName( GetNullCharacter )]" # AI Tags
 
-bno_invite_slut_decision: "Zaproś ciekawego szlachta do swojego dworu" # AI Tags
-bno_invite_slut_decision_desc: "Kiedy ciekawa szlachetna zbliża się, pozdrawiam ją ciepłym uśmiechem.\n\nWitamy w moim skromnym mieszkaniu. Zawsze pragnę poznać nowych znajomych, zwłaszcza tych, którzy mają podobne zainteresowania w dziedzinie sztuki i kultury.\n\nSzlachetny patrzy wokół, biorąc pod uwagę rozległe otoczenie mojego majątku - od luksusowych mebli do bezcennych dzieł sztuki, które zdobią każdą ścianę.\n\nWidzę, że masz ostre oko do piękna. Może moglibyśmy omówić niektóre z tych kawałków podczas kolacji? Z przyjemnością pokażę wam ich pochodzenie.\n\nSzlachetna kobieta zgodziła się, wyraźnie zachwycona tym, co zobaczyła i chętnie dowiedziała się więcej." # AI Tags
-bno_invite_slut_decision_tooltip: "Obcokrajowcy zostali wezwani do odwiedzenia Waszej Wysokości" # AI Tags
-bno_invite_slut_decision_confirm: "Jesteś tu mile widziany" # AI Tags
+ bno_invite_slut_decision: "Zaproś ciekawego szlachta do swojego dworu" # AI Tags
+ bno_invite_slut_decision_desc: "Kiedy ciekawa szlachetna zbliża się, pozdrawiam ją ciepłym uśmiechem.\n\nWitamy w moim skromnym mieszkaniu. Zawsze pragnę poznać nowych znajomych, zwłaszcza tych, którzy mają podobne zainteresowania w dziedzinie sztuki i kultury.\n\nSzlachetny patrzy wokół, biorąc pod uwagę rozległe otoczenie mojego majątku - od luksusowych mebli do bezcennych dzieł sztuki, które zdobią każdą ścianę.\n\nWidzę, że masz ostre oko do piękna. Może moglibyśmy omówić niektóre z tych kawałków podczas kolacji? Z przyjemnością pokażę wam ich pochodzenie.\n\nSzlachetna kobieta zgodziła się, wyraźnie zachwycona tym, co zobaczyła i chętnie dowiedziała się więcej." # AI Tags
+ bno_invite_slut_decision_tooltip: "Obcokrajowcy zostali wezwani do odwiedzenia Waszej Wysokości" # AI Tags
+ bno_invite_slut_decision_confirm: "Jesteś tu mile widziany" # AI Tags
 
-bno_build_african_camps_decision: "Zbudować $building_type_bbc_camp_01$" # AI Tags
-bno_build_african_camps_decision_desc: "Populacja #V [GetTrait('bno_full_black').GetName( GetNullCharacter )]#! Zdecydowałeś, że nadszedł czas, żebyś zawarł porozumienie tylko dla nich." # AI Tags
-bno_build_african_camps_decision_tooltip: "Konstrukcja $building_type_bbc_camp_01$" # AI Tags
-bno_build_african_camps_decision_confirm: "Niech tak będzie" # AI Tags
-bno_build_african_camps_toast: "$building_type_bbc_camp_01$ Zbudowany" # AI Tags
+ bno_build_african_camps_decision: "Zbudować $building_type_bbc_camp_01$" # AI Tags
+ bno_build_african_camps_decision_desc: "Populacja #V [GetTrait('bno_full_black').GetName( GetNullCharacter )]#! Zdecydowałeś, że nadszedł czas, żebyś zawarł porozumienie tylko dla nich." # AI Tags
+ bno_build_african_camps_decision_tooltip: "Konstrukcja $building_type_bbc_camp_01$" # AI Tags
+ bno_build_african_camps_decision_confirm: "Niech tak będzie" # AI Tags
+ bno_build_african_camps_toast: "$building_type_bbc_camp_01$ Zbudowany" # AI Tags
 
-bno_change_county_culture: "Wpływ hrabstwa do przyjęcia $bnoc$" # AI Tags
-bno_change_county_culture_desc: "Jesteś $bnoc$Czy nie miałoby sensu wpłynąć na swoich ludzi, by stali się $bnoc_collective_noun$?" # AI Tags
-bno_change_county_culture_tooltip: "Wpływ na adopcję $bnoc$ sposób życia" # AI Tags
-bno_change_county_culture_confirm: "Potrzebuję więcej $bnoc$" # AI Tags
-bno_change_county_culture_toast: "$bnoc$ zostało rozmnażone" # AI Tags
+ bno_change_county_culture: "Wpływ hrabstwa do przyjęcia $bnoc$" # AI Tags
+ bno_change_county_culture_desc: "Jesteś $bnoc$Czy nie miałoby sensu wpłynąć na swoich ludzi, by stali się $bnoc_collective_noun$?" # AI Tags
+ bno_change_county_culture_tooltip: "Wpływ na adopcję $bnoc$ sposób życia" # AI Tags
+ bno_change_county_culture_confirm: "Potrzebuję więcej $bnoc$" # AI Tags
+ bno_change_county_culture_toast: "$bnoc$ zostało rozmnażone" # AI Tags
 
-bno_recruit_court_position_decision: "Rekrutuj pozycje przyzwoite #V Wydarz [GetTrait('bno_full_black').GetName( GetNullCharacter )] Populacja#!" # AI Tags
-bno_recruit_court_position_decision_desc: "Dobrze funkcjonująca [ROOT.Char.Custom('RealmType')] wymaga pracy wielu dziewcząt. Wysyłam swoich sług daleko i daleko, aby znaleźć odpowiednich kandydatów na nowo dostępne stanowiska w moim dworze." # AI Tags
-bno_recruit_court_position_decision_tooltip: "Szukaj dziewczyny, by wypełnić [court_position|E] lub innej niezbędnej roli w [court|E] za opłatę\n\n#weak Przykładowo, możesz zatrudnić [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!" # AI Tags
-bno_recruit_court_position_decision_confirm: "Zadzwoń do nich!" # AI Tags
-recruit_bbc_worshipper_cooldown_tt: "Rekrutacja [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] jest w stanie schłodzić [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]" # AI Tags
-hire_bbc_worshipper_decision_tooltip: "Twoi słudzy zaproponują kilka odpowiednich kandydatów na stanowisko [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
-bno_recruit_court_position_decision_tt: "Dostaniesz przypadkową ilość odpowiednich dziewcząt, które będą służyć obok ciebie" # AI Tags
+ bno_recruit_court_position_decision: "Rekrutuj pozycje przyzwoite #V Wydarz [GetTrait('bno_full_black').GetName( GetNullCharacter )] Populacja#!" # AI Tags
+ bno_recruit_court_position_decision_desc: "Dobrze funkcjonująca [ROOT.Char.Custom('RealmType')] wymaga pracy wielu dziewcząt. Wysyłam swoich sług daleko i daleko, aby znaleźć odpowiednich kandydatów na nowo dostępne stanowiska w moim dworze." # AI Tags
+ bno_recruit_court_position_decision_tooltip: "Szukaj dziewczyny, by wypełnić [court_position|E] lub innej niezbędnej roli w [court|E] za opłatę\n\n#weak Przykładowo, możesz zatrudnić [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!" # AI Tags
+ bno_recruit_court_position_decision_confirm: "Zadzwoń do nich!" # AI Tags
+ recruit_bbc_worshipper_cooldown_tt: "Rekrutacja [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] jest w stanie schłodzić [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]" # AI Tags
+ hire_bbc_worshipper_decision_tooltip: "Twoi słudzy zaproponują kilka odpowiednich kandydatów na stanowisko [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
+ bno_recruit_court_position_decision_tt: "Dostaniesz przypadkową ilość odpowiednich dziewcząt, które będą służyć obok ciebie" # AI Tags
 
-bno_convert_to_african: "Ograniczenie Afryki" # AI Tags
-bno_convert_to_african_confirm: "To dla mnie koniec!" # AI Tags
-bno_convert_to_african_desc: "Widzieliście z pierwszej ręki, jak zachowuje się ta kultura, kultura tak silna, że chcecie się jej poddać. Jest takie stare powiedzenie, że jeśli ich nie pokonasz, dołączysz do nich." # AI Tags
-bno_convert_to_african_tooltip: "Przyjmij swoje $bnoc$ Korzenie przodków" # AI Tags
+ bno_convert_to_african: "Ograniczenie Afryki" # AI Tags
+ bno_convert_to_african_confirm: "To dla mnie koniec!" # AI Tags
+ bno_convert_to_african_desc: "Widzieliście z pierwszej ręki, jak zachowuje się ta kultura, kultura tak silna, że chcecie się jej poddać. Jest takie stare powiedzenie, że jeśli ich nie pokonasz, dołączysz do nich." # AI Tags
+ bno_convert_to_african_tooltip: "Przyjmij swoje $bnoc$ Korzenie przodków" # AI Tags
 
-bno_build_bbc_church: "Zbudować $building_bbc_church_01$" # AI Tags
-bno_build_bbc_church_confirm: "Pozwól mi postawić pierwszy kamień!" # AI Tags
-bno_build_bbc_church.desc: "Budowa fundacji kościoła będzie służyć jako symbol naszego oddania [bno_religion|E] i naszego zaangażowania w nowy sposób życia." # AI Tags
-bno_build_bbc_church.tooltip: "Zbudowanie miejsca kultu poświęconego [bno_bbc|E]" # AI Tags
-bno_build_bbc_church.toast: "$building_bbc_church_01$ Zbudowany" # AI Tags
+ bno_build_bbc_church: "Zbudować $building_bbc_church_01$" # AI Tags
+ bno_build_bbc_church_confirm: "Pozwól mi postawić pierwszy kamień!" # AI Tags
+ bno_build_bbc_church.desc: "Budowa fundacji kościoła będzie służyć jako symbol naszego oddania [bno_religion|E] i naszego zaangażowania w nowy sposób życia." # AI Tags
+ bno_build_bbc_church.tooltip: "Zbudowanie miejsca kultu poświęconego [bno_bbc|E]" # AI Tags
+ bno_build_bbc_church.toast: "$building_bbc_church_01$ Zbudowany" # AI Tags
 
-bno_found_bbc_church_holy_order: "Znalazłem Święty Porządek [bno_religion|E]" # AI Tags
-bno_found_bbc_church_holy_order_confirm: "Rozprzestrzegamy słowo [bno_bbc|E]" # AI Tags
-bno_found_bbc_church_holy_order.desc: "Święty Porządek [bno_religion|E] będzie poświęcony czci i czci [bno_bbc|E], promowanie jej wartości i zapewnienie jej miejsca w naszym społeczeństwie." # AI Tags
-bno_found_bbc_church_holy_order.tooltip: "Stworzyć święty porządek poświęcony czci [bno_bbc|E]" # AI Tags
-bno_found_bbc_church_holy_order.effect_tooltip: "Święty Porządek [bno_religion|E] została założona, rozpowszechniając swoje nauki i wartości w całej sferze." # AI Tags
+ bno_found_bbc_church_holy_order: "Znalazłem Święty Porządek [bno_religion|E]" # AI Tags
+ bno_found_bbc_church_holy_order_confirm: "Rozprzestrzegamy słowo [bno_bbc|E]" # AI Tags
+ bno_found_bbc_church_holy_order.desc: "Święty Porządek [bno_religion|E] będzie poświęcony czci i czci [bno_bbc|E], promowanie jej wartości i zapewnienie jej miejsca w naszym społeczeństwie." # AI Tags
+ bno_found_bbc_church_holy_order.tooltip: "Stworzyć święty porządek poświęcony czci [bno_bbc|E]" # AI Tags
+ bno_found_bbc_church_holy_order.effect_tooltip: "Święty Porządek [bno_religion|E] została założona, rozpowszechniając swoje nauki i wartości w całej sferze." # AI Tags
 
-bno_cure_disease.title.male: "Pocałunek oczyszczający" # AI Tags
-bno_cure_disease.title.female: "Błogosławieństwo nasienia władcy" # AI Tags
-bno_cure_disease.desc.male: "W obecności zgromadzonych sądu i duchownych każdy chory pan klęka przed wybranym Kapłanką. Następnie rozkazują im otworzyć usta szeroko, gdy ona obniża swoje nagie biodra, umieszczając się w takiej pozycji, że jego twarz jest mocno przyciskana do źródła jej świętego nektaru. Musi swobodnie spożywać jej fiutę, dopóki kapłanka nie zaznaczy zakończenia rytuału." # AI Tags
-bno_cure_disease.desc.female: "W obecności zgromadzonych sądu i duchownych każda choroba kręci się przed wybranym Kapłanem. Każe jej otworzyć usta szeroko, a on obniża swój wzniesiony penis do jej czekających ust. Następnie kapłan wkłada ją głęboko w usta, zachęcając ją do poruszania głową i wolnego połukania. Rytuał kontynuuje się, aż kapłan wyleczy bezpośrednio do jej ust, co oznacza skuteczne leczenie." # AI Tags
-bno_cure_disease.confirm.male: "Przynieś to." # AI Tags
-bno_cure_disease.confirm.female: "Nie mogę się doczekać." # AI Tags
-bno_cure_disease.tooltip.male: "Zastanawiam się, jak smakuje twoja cipka." # AI Tags
-bno_cure_disease.tooltip.female: "Błogosławię cię swoim cum." # AI Tags
-bno_cure_diseases.own.sickness: "Jesteś chory." # AI Tags
-bno_cure_disease.employing_bbc_priestess: "Zatrudniłeś [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
-bno_cure_diseases.second_step_button: "Proszę, uzdraw mnie." # AI Tags
-bno_cure_diseases.lovers_pox: "Oznaczone przez [GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.ill: "Osłabione przez [GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.pneumonic: "Uderzenie pod wodą [GetTrait('pneumonic').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.great_pox: "/Oszczędnione / [GetTrait('great_pox').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.early_great_pox: "Świeże z [GetTrait('early_great_pox').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.leper: "Wykluczone jako [GetTrait('leper').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.gout_ridden: "Uśpiona przez [GetTrait('gout_ridden').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.consumption: "Brzydkie od [GetTrait('consumption').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.cancer: "Osłabione przez [GetTrait('cancer').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.typhus: "Z płonącymi [GetTrait('typhus').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.bubonic_plague: "Umieranie [GetTrait('bubonic_plague').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.smallpox: "/Zapalony przez [GetTrait('smallpox').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.measles: "Wypłukany [GetTrait('measles').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.dysentery: "Wypłynęte przez [GetTrait('dysentery').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.ergotism: "Wstrząsnięty [GetTrait('ergotism').GetName( GetNullCharacter )]" # AI Tags
-bno_cure_diseases.sickly: "Niezwykle delikatne [GetTrait('sickly').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_disease.title.male: "Pocałunek oczyszczający" # AI Tags
+ bno_cure_disease.title.female: "Błogosławieństwo nasienia władcy" # AI Tags
+ bno_cure_disease.desc.male: "W obecności zgromadzonych sądu i duchownych każdy chory pan klęka przed wybranym Kapłanką. Następnie rozkazują im otworzyć usta szeroko, gdy ona obniża swoje nagie biodra, umieszczając się w takiej pozycji, że jego twarz jest mocno przyciskana do źródła jej świętego nektaru. Musi swobodnie spożywać jej fiutę, dopóki kapłanka nie zaznaczy zakończenia rytuału." # AI Tags
+ bno_cure_disease.desc.female: "W obecności zgromadzonych sądu i duchownych każda choroba kręci się przed wybranym Kapłanem. Każe jej otworzyć usta szeroko, a on obniża swój wzniesiony penis do jej czekających ust. Następnie kapłan wkłada ją głęboko w usta, zachęcając ją do poruszania głową i wolnego połukania. Rytuał kontynuuje się, aż kapłan wyleczy bezpośrednio do jej ust, co oznacza skuteczne leczenie." # AI Tags
+ bno_cure_disease.confirm.male: "Przynieś to." # AI Tags
+ bno_cure_disease.confirm.female: "Nie mogę się doczekać." # AI Tags
+ bno_cure_disease.tooltip.male: "Zastanawiam się, jak smakuje twoja cipka." # AI Tags
+ bno_cure_disease.tooltip.female: "Błogosławię cię swoim cum." # AI Tags
+ bno_cure_diseases.own.sickness: "Jesteś chory." # AI Tags
+ bno_cure_disease.employing_bbc_priestess: "Zatrudniłeś [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
+ bno_cure_diseases.second_step_button: "Proszę, uzdraw mnie." # AI Tags
+ bno_cure_diseases.lovers_pox: "Oznaczone przez [GetTrait('lovers_pox').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.ill: "Osłabione przez [GetTrait('ill').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.pneumonic: "Uderzenie pod wodą [GetTrait('pneumonic').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.great_pox: "/Oszczędnione / [GetTrait('great_pox').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.early_great_pox: "Świeże z [GetTrait('early_great_pox').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.leper: "Wykluczone jako [GetTrait('leper').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.gout_ridden: "Uśpiona przez [GetTrait('gout_ridden').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.consumption: "Brzydkie od [GetTrait('consumption').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.cancer: "Osłabione przez [GetTrait('cancer').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.typhus: "Z płonącymi [GetTrait('typhus').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.bubonic_plague: "Umieranie [GetTrait('bubonic_plague').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.smallpox: "/Zapalony przez [GetTrait('smallpox').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.measles: "Wypłukany [GetTrait('measles').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.dysentery: "Wypłynęte przez [GetTrait('dysentery').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.ergotism: "Wstrząsnięty [GetTrait('ergotism').GetName( GetNullCharacter )]" # AI Tags
+ bno_cure_diseases.sickly: "Niezwykle delikatne [GetTrait('sickly').GetName( GetNullCharacter )]" # AI Tags
 
-bno_cure_diseases.lovers_pox.desc: "Przyciągająca wysypka pamięci i ust, [GetTrait('lovers_pox').GetName( GetNullCharacter )] Wręcza się nad twoją skórą jak odświetlenie zbyt mokrych pocałunków i bezwstydnego tłoczenia." # AI Tags
-cure_lovers_pox_tooltip: "Proszę , oczyść mnie od moich złych [GetTrait('lovers_pox').GetName( GetNullCharacter )] Aby znów zgrzeszyć świeżą, głodną skórą." # AI Tags
+ bno_cure_diseases.lovers_pox.desc: "Przyciągająca wysypka pamięci i ust, [GetTrait('lovers_pox').GetName( GetNullCharacter )] Wręcza się nad twoją skórą jak odświetlenie zbyt mokrych pocałunków i bezwstydnego tłoczenia." # AI Tags
+ cure_lovers_pox_tooltip: "Proszę , oczyść mnie od moich złych [GetTrait('lovers_pox').GetName( GetNullCharacter )] Aby znów zgrzeszyć świeżą, głodną skórą." # AI Tags
 
-bno_cure_diseases.ill.desc: "Gorąca mgła i trzęsienia otacza cię; [GetTrait('ill').GetName( GetNullCharacter )] sprawia, że kocki i ciepłe ciała są równie nieodpowiedziane." # AI Tags
-cure_ill_tooltip: "Proszę, odnoś mi pielęgniarkę [GetTrait('ill').GetName( GetNullCharacter )]Żeby poświęcić siły na słodkie wysiłki." # AI Tags
+ bno_cure_diseases.ill.desc: "Gorąca mgła i trzęsienia otacza cię; [GetTrait('ill').GetName( GetNullCharacter )] sprawia, że kocki i ciepłe ciała są równie nieodpowiedziane." # AI Tags
+ cure_ill_tooltip: "Proszę, odnoś mi pielęgniarkę [GetTrait('ill').GetName( GetNullCharacter )]Żeby poświęcić siły na słodkie wysiłki." # AI Tags
 
-bno_cure_diseases.pneumonic.desc: "Gorące płuca i drżące żebra, [GetTrait('pneumonic').GetName( GetNullCharacter )] Kradnie oddech i pozostawia ci tęsknotę po powolnych uderzeniach i ustawionych rękach." # AI Tags
-cure_pneumonic_tooltip: "Proszę odsunąć mnie [GetTrait('pneumonic').GetName( GetNullCharacter )] Więc moje wzdychy mogą być dla przyjemności, a nie dla bólu." # AI Tags
+ bno_cure_diseases.pneumonic.desc: "Gorące płuca i drżące żebra, [GetTrait('pneumonic').GetName( GetNullCharacter )] Kradnie oddech i pozostawia ci tęsknotę po powolnych uderzeniach i ustawionych rękach." # AI Tags
+ cure_pneumonic_tooltip: "Proszę odsunąć mnie [GetTrait('pneumonic').GetName( GetNullCharacter )] Więc moje wzdychy mogą być dla przyjemności, a nie dla bólu." # AI Tags
 
-bno_cure_diseases.great_pox.desc: "Węże ubóstwa, blizny grzechu; [GetTrait('great_pox').GetName( GetNullCharacter )] to plotka ciała o tym, co zrobiłeś, gdy świece wypaliły." # AI Tags
-cure_great_pox_tooltip: "Proszę , oczyść mnie [GetTrait('great_pox').GetName( GetNullCharacter )] Więc moja skóra jest znowu gładkim zaproszeniem." # AI Tags
+ bno_cure_diseases.great_pox.desc: "Węże ubóstwa, blizny grzechu; [GetTrait('great_pox').GetName( GetNullCharacter )] to plotka ciała o tym, co zrobiłeś, gdy świece wypaliły." # AI Tags
+ cure_great_pox_tooltip: "Proszę , oczyść mnie [GetTrait('great_pox').GetName( GetNullCharacter )] Więc moja skóra jest znowu gładkim zaproszeniem." # AI Tags
 
-bno_cure_diseases.early_great_pox.desc: "Słodkie rany i tajne emocje; [GetTrait('early_great_pox').GetName( GetNullCharacter )] Hums jak zapamiętany płacz wzdłuż nerwów." # AI Tags
-cure_early_great_pox_tooltip: "Proszę , umyj mnie [GetTrait('early_great_pox').GetName( GetNullCharacter )] Zanim szepty staną się bliznami." # AI Tags
+ bno_cure_diseases.early_great_pox.desc: "Słodkie rany i tajne emocje; [GetTrait('early_great_pox').GetName( GetNullCharacter )] Hums jak zapamiętany płacz wzdłuż nerwów." # AI Tags
+ cure_early_great_pox_tooltip: "Proszę , umyj mnie [GetTrait('early_great_pox').GetName( GetNullCharacter )] Zanim szepty staną się bliznami." # AI Tags
 
-bno_cure_diseases.leper.desc: "Odległość staje się karą; [GetTrait('leper').GetName( GetNullCharacter )] Nawet rękawiczkowe miłoszenie jest zabronione, a serce bije po tym, czego nie może mieć." # AI Tags
-cure_leper_tooltip: "Proszę mnie uwolnić [GetTrait('leper').GetName( GetNullCharacter )] Więc usta i dłonie nie muszą mnie bać." # AI Tags
+ bno_cure_diseases.leper.desc: "Odległość staje się karą; [GetTrait('leper').GetName( GetNullCharacter )] Nawet rękawiczkowe miłoszenie jest zabronione, a serce bije po tym, czego nie może mieć." # AI Tags
+ cure_leper_tooltip: "Proszę mnie uwolnić [GetTrait('leper').GetName( GetNullCharacter )] Więc usta i dłonie nie muszą mnie bać." # AI Tags
 
-bno_cure_diseases.gout_ridden.desc: "Każdy kroki wince, każdy siedzieć grind; [GetTrait('gout_ridden').GetName( GetNullCharacter )] Żąda, żebyś się nim zajmował, a nie spieszył się." # AI Tags
-cure_gout_ridden_tooltip: "Proszę mnie rozluźnić [GetTrait('gout_ridden').GetName( GetNullCharacter )] Żeby moje biodra mogły się obracać z właściwych powodów." # AI Tags
+ bno_cure_diseases.gout_ridden.desc: "Każdy kroki wince, każdy siedzieć grind; [GetTrait('gout_ridden').GetName( GetNullCharacter )] Żąda, żebyś się nim zajmował, a nie spieszył się." # AI Tags
+ cure_gout_ridden_tooltip: "Proszę mnie rozluźnić [GetTrait('gout_ridden').GetName( GetNullCharacter )] Żeby moje biodra mogły się obracać z właściwych powodów." # AI Tags
 
-bno_cure_diseases.consumption.desc: "skóra woskowa, jasne oczy i wolno płonące ciepło; [GetTrait('consumption').GetName( GetNullCharacter )] przekształca odpoczynek w leniwe tęsknotę." # AI Tags
-cure_consumption_tooltip: "Proszę , wyprowadź mnie [GetTrait('consumption').GetName( GetNullCharacter )] Więc mój oddech wraca jako ciepłe, stałe wzdychy." # AI Tags
+ bno_cure_diseases.consumption.desc: "skóra woskowa, jasne oczy i wolno płonące ciepło; [GetTrait('consumption').GetName( GetNullCharacter )] przekształca odpoczynek w leniwe tęsknotę." # AI Tags
+ cure_consumption_tooltip: "Proszę , wyprowadź mnie [GetTrait('consumption').GetName( GetNullCharacter )] Więc mój oddech wraca jako ciepłe, stałe wzdychy." # AI Tags
 
-bno_cure_diseases.cancer.desc: "Cienie w ciele, [GetTrait('cancer').GetName( GetNullCharacter )] kradnie siłę i kolor, ale pozostawia głód." # AI Tags
-cure_cancer_tooltip: "Proszę , pozbądź mnie [GetTrait('cancer').GetName( GetNullCharacter )] Żeby życie mogło znów smakować bogactwem i dojrzałością." # AI Tags
+ bno_cure_diseases.cancer.desc: "Cienie w ciele, [GetTrait('cancer').GetName( GetNullCharacter )] kradnie siłę i kolor, ale pozostawia głód." # AI Tags
+ cure_cancer_tooltip: "Proszę , pozbądź mnie [GetTrait('cancer').GetName( GetNullCharacter )] Żeby życie mogło znów smakować bogactwem i dojrzałością." # AI Tags
 
-bno_cure_diseases.typhus.desc: "Gorączka, która rozbiera cię tylko gorączką; [GetTrait('typhus').GetName( GetNullCharacter )] rozmywa świat w wilgotne prześcieradła i gorączkowe sny." # AI Tags
-cure_typhus_tooltip: "Proszę wygnać mnie [GetTrait('typhus').GetName( GetNullCharacter )] Więc mój pot jest zarobiony w słodkiej pracy." # AI Tags
+ bno_cure_diseases.typhus.desc: "Gorączka, która rozbiera cię tylko gorączką; [GetTrait('typhus').GetName( GetNullCharacter )] rozmywa świat w wilgotne prześcieradła i gorączkowe sny." # AI Tags
+ cure_typhus_tooltip: "Proszę wygnać mnie [GetTrait('typhus').GetName( GetNullCharacter )] Więc mój pot jest zarobiony w słodkiej pracy." # AI Tags
 
-bno_cure_diseases.bubonic_plague.desc: "Ciało siniaki jak ugryziony owoc; [GetTrait('bubonic_plague').GetName( GetNullCharacter )] Nawet pragnienie przekształca się w modlitwę o jeszcze jedno ciepłe uściskanie." # AI Tags
-cure_bubonic_plague_tooltip: "Proszę podnieść mój [GetTrait('bubonic_plague').GetName( GetNullCharacter )] Więc dotyk może być przyjemnością, a nie pożegnanie." # AI Tags
+ bno_cure_diseases.bubonic_plague.desc: "Ciało siniaki jak ugryziony owoc; [GetTrait('bubonic_plague').GetName( GetNullCharacter )] Nawet pragnienie przekształca się w modlitwę o jeszcze jedno ciepłe uściskanie." # AI Tags
+ cure_bubonic_plague_tooltip: "Proszę podnieść mój [GetTrait('bubonic_plague').GetName( GetNullCharacter )] Więc dotyk może być przyjemnością, a nie pożegnanie." # AI Tags
 
-bno_cure_diseases.smallpox.desc: "Gwiazdy rozbłyskujące, nocą gorączkową; [GetTrait('smallpox').GetName( GetNullCharacter )] Przeciąga twoje konstelacje i błaga o uspokajanie." # AI Tags
-cure_smallpox_tooltip: "Proszę, oszczędzić mi mojego [GetTrait('smallpox').GetName( GetNullCharacter )] Więc moja skóra może być znowu gładkim zaproszeniem." # AI Tags
+ bno_cure_diseases.smallpox.desc: "Gwiazdy rozbłyskujące, nocą gorączkową; [GetTrait('smallpox').GetName( GetNullCharacter )] Przeciąga twoje konstelacje i błaga o uspokajanie." # AI Tags
+ cure_smallpox_tooltip: "Proszę, oszczędzić mi mojego [GetTrait('smallpox').GetName( GetNullCharacter )] Więc moja skóra może być znowu gładkim zaproszeniem." # AI Tags
 
-bno_cure_diseases.measles.desc: "Gorąca plamka i swędzenie; [GetTrait('measles').GetName( GetNullCharacter )] Przekształca powstrzymanie w niepokój, a cierpliwość w błagania." # AI Tags
-cure_measles_tooltip: "Proszę mnie uspokoić [GetTrait('measles').GetName( GetNullCharacter )] Więc mogę zostać pociągnięta bez zadrapania." # AI Tags
+ bno_cure_diseases.measles.desc: "Gorąca plamka i swędzenie; [GetTrait('measles').GetName( GetNullCharacter )] Przekształca powstrzymanie w niepokój, a cierpliwość w błagania." # AI Tags
+ cure_measles_tooltip: "Proszę mnie uspokoić [GetTrait('measles').GetName( GetNullCharacter )] Więc mogę zostać pociągnięta bez zadrapania." # AI Tags
 
-bno_cure_diseases.dysentery.desc: "falę skurczów i uszkodzone kończyny; [GetTrait('dysentery').GetName( GetNullCharacter )] Najmocniej błaga o delikatne sypienia i miękkie noce." # AI Tags
-cure_dysentery_tooltip: "Proszę zakończyć moje [GetTrait('dysentery').GetName( GetNullCharacter )] Żeby moje ciało mogło znowu zjeść i się bawić." # AI Tags
+ bno_cure_diseases.dysentery.desc: "falę skurczów i uszkodzone kończyny; [GetTrait('dysentery').GetName( GetNullCharacter )] Najmocniej błaga o delikatne sypienia i miękkie noce." # AI Tags
+ cure_dysentery_tooltip: "Proszę zakończyć moje [GetTrait('dysentery').GetName( GetNullCharacter )] Żeby moje ciało mogło znowu zjeść i się bawić." # AI Tags
 
-bno_cure_diseases.ergotism.desc: "Pony, iskry i dziwne sny; [GetTrait('ergotism').GetName( GetNullCharacter )] zamienia świat w zawrotny taniec, którego nie chciałeś zacząć." # AI Tags
-cure_ergotism_tooltip: "Proszę mnie uwolnić [GetTrait('ergotism').GetName( GetNullCharacter )] Więc mogę wybierać swoje zatrucia." # AI Tags
+ bno_cure_diseases.ergotism.desc: "Pony, iskry i dziwne sny; [GetTrait('ergotism').GetName( GetNullCharacter )] zamienia świat w zawrotny taniec, którego nie chciałeś zacząć." # AI Tags
+ cure_ergotism_tooltip: "Proszę mnie uwolnić [GetTrait('ergotism').GetName( GetNullCharacter )] Więc mogę wybierać swoje zatrucia." # AI Tags
 
-bno_cure_diseases.sickly.desc: "Słabość z cienkimi nadgarstkami i drzemki oświetlone świecami; [GetTrait('sickly').GetName( GetNullCharacter )] sprawia, że pragniesz opiekunów z ciepłymi rękami i cierpliwością." # AI Tags
-cure_sickly_tooltip: "Proszę, wylecz mnie [GetTrait('sickly').GetName( GetNullCharacter )] Żeby moje ciało mogło cieszyć się bez rezerwy." # AI Tags
+ bno_cure_diseases.sickly.desc: "Słabość z cienkimi nadgarstkami i drzemki oświetlone świecami; [GetTrait('sickly').GetName( GetNullCharacter )] sprawia, że pragniesz opiekunów z ciepłymi rękami i cierpliwością." # AI Tags
+ cure_sickly_tooltip: "Proszę, wylecz mnie [GetTrait('sickly').GetName( GetNullCharacter )] Żeby moje ciało mogło cieszyć się bez rezerwy." # AI Tags
 
-bno_cure_diseases.tooltip.1: "Będziesz uzdrowiony z twoich chorób przez [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
-bno_cure_diseases.tooltip.2: "Będziesz mnie odwiedzał [GetBuilding('bbc_church_02').GetName]" # AI Tags
+ bno_cure_diseases.tooltip.1: "Będziesz uzdrowiony z twoich chorób przez [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]" # AI Tags
+ bno_cure_diseases.tooltip.2: "Będziesz mnie odwiedzał [GetBuilding('bbc_church_02').GetName]" # AI Tags
 
-bno_primal_insight_decision.title.female: "Pod królowym wzrokiem: rytuał pierwotnego zrozumienia" # AI Tags
-bno_primal_insight_decision.desc.female: "W powietrzu krzyknęło oczekiwanie, pełne mieszanych zapachów oleju jasmina i pożądania. W tygodniach poprzedzających "Primal Insight" mój dwór zawsze był obfity żądnymi, z ciemnymi oczami głodnymi po mojej łasce. Każdy mężczyzna był zdesperowany, by zostać wybrany, aby mi służyć, aby zobaczyć, jak jego esencja stała się częścią mojej królewskiej krwi. Śledziły mnie w szlachetnych salach jak fantomy ebony, trzymając ręce zbyt długo na moich jedwabkach, oferując szepczące obietnice i ekstrawaganckie prezenty. Każde dotknięcie przynosiło drżenie w kręgosłupie, pyszny ból z powodu nieuniknionego kulminacji naszego corocznego rytuału - momentu, w którym będę powstał, posiadany i odtworzony przez potężne nasienie Kapłana Czarnego Pęka." # AI Tags
-bno_primal_insight_decision.confirm.female: "Taką gorącą oddanie ogrzewa moje serce." # AI Tags
-bno_primal_insight_decision.tooltip.female: "Będziesz miał [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+ bno_primal_insight_decision.title.female: "Pod królowym wzrokiem: rytuał pierwotnego zrozumienia" # AI Tags
+ bno_primal_insight_decision.desc.female: "W powietrzu krzyknęło oczekiwanie, pełne mieszanych zapachów oleju jasmina i pożądania. W tygodniach poprzedzających "Primal Insight" mój dwór zawsze był obfity żądnymi, z ciemnymi oczami głodnymi po mojej łasce. Każdy mężczyzna był zdesperowany, by zostać wybrany, aby mi służyć, aby zobaczyć, jak jego esencja stała się częścią mojej królewskiej krwi. Śledziły mnie w szlachetnych salach jak fantomy ebony, trzymając ręce zbyt długo na moich jedwabkach, oferując szepczące obietnice i ekstrawaganckie prezenty. Każde dotknięcie przynosiło drżenie w kręgosłupie, pyszny ból z powodu nieuniknionego kulminacji naszego corocznego rytuału - momentu, w którym będę powstał, posiadany i odtworzony przez potężne nasienie Kapłana Czarnego Pęka." # AI Tags
+ bno_primal_insight_decision.confirm.female: "Taką gorącą oddanie ogrzewa moje serce." # AI Tags
+ bno_primal_insight_decision.tooltip.female: "Będziesz miał [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
-bno_primal_insight_decision.effect_tooltip: "Będziesz rozpoczynał rytuał, aby uzyskać [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+ bno_primal_insight_decision.effect_tooltip: "Będziesz rozpoczynał rytuał, aby uzyskać [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
-bno_primal_insight_decision.title.male: "Pod wzrokiem króla: rytuał pierwotnego zrozumienia" # AI Tags
-bno_primal_insight_decision.desc.male: "W powietrzu wisiały szandalowe drewno i muszk - mój własny zapach mieszający się z głębokim perfumem jasmina, który przyczepił się do kapłanki jak druga skóra. Od kilku tygodni jej obecność była ciągłym bólem drżącym przez mnie, jedwabnym przypływem łapającym na brzegu mojego pożądania. Przemieszczała się jak dym przez komory mojego pałacu, te eteryczne niebieskie oczy śledziły mnie wszędzie - trwając wystarczająco długo na moich gołych ramionach, aby wysłać drżenie w moim kręgosłupie. Jej śmiech był jak wiatr w letnim wietrze, jej dotyk był lżejszy niż skrzydła motyla, ale czułem, jak jej mała ręka uderzała w moją duszę z każdą przebiegłą szczotką końcówek palców na mojej skórze. Nadchodzący dzień pulsował jak drugie uderzenie w moim sercu - dzień, w którym ponownie oferowała mi się, a ja piłem głęboko z źródła jej świętej mocy, przekształcając się ponownie w ogniach tego starożytnego rytuału." # AI Tags
-bno_primal_insight_decision.confirm.male: "Więc, księżniczko, porozmawiajmy." # AI Tags
-bno_primal_insight_decision.tooltip.male: "Będziesz miał [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
+ bno_primal_insight_decision.title.male: "Pod wzrokiem króla: rytuał pierwotnego zrozumienia" # AI Tags
+ bno_primal_insight_decision.desc.male: "W powietrzu wisiały szandalowe drewno i muszk - mój własny zapach mieszający się z głębokim perfumem jasmina, który przyczepił się do kapłanki jak druga skóra. Od kilku tygodni jej obecność była ciągłym bólem drżącym przez mnie, jedwabnym przypływem łapającym na brzegu mojego pożądania. Przemieszczała się jak dym przez komory mojego pałacu, te eteryczne niebieskie oczy śledziły mnie wszędzie - trwając wystarczająco długo na moich gołych ramionach, aby wysłać drżenie w moim kręgosłupie. Jej śmiech był jak wiatr w letnim wietrze, jej dotyk był lżejszy niż skrzydła motyla, ale czułem, jak jej mała ręka uderzała w moją duszę z każdą przebiegłą szczotką końcówek palców na mojej skórze. Nadchodzący dzień pulsował jak drugie uderzenie w moim sercu - dzień, w którym ponownie oferowała mi się, a ja piłem głęboko z źródła jej świętej mocy, przekształcając się ponownie w ogniach tego starożytnego rytuału." # AI Tags
+ bno_primal_insight_decision.confirm.male: "Więc, księżniczko, porozmawiajmy." # AI Tags
+ bno_primal_insight_decision.tooltip.male: "Będziesz miał [GetModifier('bno_primal_insight').GetNameWithTooltip]" # AI Tags
 
-bull_decision.effect: "Wielkie [stress|E] Strata." # AI Tags
-bno_events00.too_much_bbc: "Twój sąd już przepływa z [bno_bbcs|E]- Nie , nie , nie . Nawet sala Bull's ma swoje granice." # AI Tags
-bno_invite_slut_decision.too_much_white_girl: "Twój dwór jest już pełen bladych dziwk. Więcej z nich osłabi ich wartość i obciąży twoje panowanie nad nimi." # AI Tags
-bno_events00.too_little_bbc: "Twoja sala jest pusta [bno_bbcs|E]- Nie , nie , nie . Mając mniej niż trzech Byków, wasz dwór brakuje siły i pokusy, które towarzyszą ich obecności. Zaproś ich i pozwól, by ich cień spadł na twoje królestwo." # AI Tags
-bno_invite_slut_decision.too_little_white_girl: "Twój dwór jest słaby z bladych dziwków. Więcej trzeba zaprosić, bo każda sala wzrasta w władzy i w niebezpieczeństwie, kiedy białe dziwki są zebrane pod jednym dachem." # AI Tags
+ bull_decision.effect: "Wielkie [stress|E] Strata." # AI Tags
+ bno_events00.too_much_bbc: "Twój sąd już przepływa z [bno_bbcs|E]- Nie , nie , nie . Nawet sala Bull's ma swoje granice." # AI Tags
+ bno_invite_slut_decision.too_much_white_girl: "Twój dwór jest już pełen bladych dziwk. Więcej z nich osłabi ich wartość i obciąży twoje panowanie nad nimi." # AI Tags
+ bno_events00.too_little_bbc: "Twoja sala jest pusta [bno_bbcs|E]- Nie , nie , nie . Mając mniej niż trzech Byków, wasz dwór brakuje siły i pokusy, które towarzyszą ich obecności. Zaproś ich i pozwól, by ich cień spadł na twoje królestwo." # AI Tags
+ bno_invite_slut_decision.too_little_white_girl: "Twój dwór jest słaby z bladych dziwków. Więcej trzeba zaprosić, bo każda sala wzrasta w władzy i w niebezpieczeństwie, kiedy białe dziwki są zebrane pod jednym dachem." # AI Tags
 
-bno_becoming_bbc_slut.has_bbc_in_court: "Musi być co najmniej jeden [bno_bbc|E] w twoim dworze, aby rozpocząć tę drogę. Bez Byka, który cię przyjmie, twój upadek w niewolnictwo nie może się rozpocząć." # AI Tags
+ bno_becoming_bbc_slut.has_bbc_in_court: "Musi być co najmniej jeden [bno_bbc|E] w twoim dworze, aby rozpocząć tę drogę. Bez Byka, który cię przyjmie, twój upadek w niewolnictwo nie może się rozpocząć." # AI Tags
 
-bno_trade_piety_for_gold.title.male: "Zbierz wiernych"   # AI Tags
-bno_trade_piety_for_gold.title.female: "Zbierz wiernych"   # AI Tags
+ bno_trade_piety_for_gold.title.male: "Zbierz wiernych"   # AI Tags
+ bno_trade_piety_for_gold.title.female: "Zbierz wiernych"   # AI Tags
 
-bno_trade_piety_for_gold.desc.male: "Jako mistrz [GetFaithByKey('bbcs').GetName]W katedrze zachowujesz posłuszeństwo byków i dziwków. Ich wielbienie jest czymś więcej niż płaczem i nasieniem…wlewają swoje złoto do twoich rąk, z pewnością, że każda moneta służy boskiej obwodzie świata [bno_bbc|E]."   # AI Tags
+ bno_trade_piety_for_gold.desc.male: "Jako mistrz [GetFaithByKey('bbcs').GetName]W katedrze zachowujesz posłuszeństwo byków i dziwków. Ich wielbienie jest czymś więcej niż płaczem i nasieniem…wlewają swoje złoto do twoich rąk, z pewnością, że każda moneta służy boskiej obwodzie świata [bno_bbc|E]."   # AI Tags
 
-bno_trade_piety_for_gold.desc.female: "Jako błogosławiona dziwka [GetFaithByKey('bbcs').GetName]Twoja droplejąca pobożność inspiruje wiernych. Prawią swoje torebki tak samo chętnie, jak rozciągają biodra, ofiarowując monety i mięso tak samo, aby palić świętą sprawę waszego Byka."   # AI Tags
+ bno_trade_piety_for_gold.desc.female: "Jako błogosławiona dziwka [GetFaithByKey('bbcs').GetName]Twoja droplejąca pobożność inspiruje wiernych. Prawią swoje torebki tak samo chętnie, jak rozciągają biodra, ofiarowując monety i mięso tak samo, aby palić świętą sprawę waszego Byka."   # AI Tags
 
-bno_trade_piety_for_gold.tooltip.male: "Wydaj [piety|E] Żeby nakazać wiernym dziesięćdziesiątkę, [gold|E]."   # AI Tags
-bno_trade_piety_for_gold.tooltip.female: "Wydaj [piety|E] Żeby pobudzić twoje stado w podatek, ich pożądanie i złoto płyną do ciebie."   # AI Tags
+ bno_trade_piety_for_gold.tooltip.male: "Wydaj [piety|E] Żeby nakazać wiernym dziesięćdziesiątkę, [gold|E]."   # AI Tags
+ bno_trade_piety_for_gold.tooltip.female: "Wydaj [piety|E] Żeby pobudzić twoje stado w podatek, ich pożądanie i złoto płyną do ciebie."   # AI Tags
 
-bno_trade_piety_for_gold.confirm.male: "Zwołaj złoto w imię Czarnego Kurczaka."   # AI Tags
-bno_trade_piety_for_gold.confirm.female: "Zwołaj złoto wiernych dla chwały mojego Byka."   # AI Tags
+ bno_trade_piety_for_gold.confirm.male: "Zwołaj złoto w imię Czarnego Kurczaka."   # AI Tags
+ bno_trade_piety_for_gold.confirm.female: "Zwołaj złoto wiernych dla chwały mojego Byka."   # AI Tags
 
-bno_trade_piety_for_gold.effect: "Konwersja [piety|E] do [gold|E] przez pożądane ofiary wiernych."   # AI Tags
+ bno_trade_piety_for_gold.effect: "Konwersja [piety|E] do [gold|E] przez pożądane ofiary wiernych."   # AI Tags
 
-bno_trade_prestige_for_gold.title.male: "Z umową braterstwa"   # AI Tags
-bno_trade_prestige_for_gold.title.female: "Z umową braterstwa"   # AI Tags
+ bno_trade_prestige_for_gold.title.male: "Z umową braterstwa"   # AI Tags
+ bno_trade_prestige_for_gold.title.female: "Z umową braterstwa"   # AI Tags
 
-bno_trade_prestige_for_gold.desc.male: "Twój prestiż nie mierzy się tylko słowami, ale ofiarowanym ciałem. Aby udowodnić lojalność wobec braterstwa, zdradziłeś żonę swoim krewnym. Byki jeźdzą na niej jedna po drugiej, rozlewając nasiona głęboko, a kiedy ich pożądanie jest wyczerpane, gromadzą złoto pod nogami w hołd."   # AI Tags
+ bno_trade_prestige_for_gold.desc.male: "Twój prestiż nie mierzy się tylko słowami, ale ofiarowanym ciałem. Aby udowodnić lojalność wobec braterstwa, zdradziłeś żonę swoim krewnym. Byki jeźdzą na niej jedna po drugiej, rozlewając nasiona głęboko, a kiedy ich pożądanie jest wyczerpane, gromadzą złoto pod nogami w hołd."   # AI Tags
 
-bno_trade_prestige_for_gold.desc.female: "Twoja sławę wśród Byków udowodniło twoje ciało. Rozrywasz się gołym, rozciągając się przed krewnymi, jęcząc, gdy każdy Byk wykorzystuje cię z kolei. Przy każdym klimakcie wkładają monetę do twoich rąk, ich nasienie spływają po twoich udach wraz ze swoim złotem."   # AI Tags
+ bno_trade_prestige_for_gold.desc.female: "Twoja sławę wśród Byków udowodniło twoje ciało. Rozrywasz się gołym, rozciągając się przed krewnymi, jęcząc, gdy każdy Byk wykorzystuje cię z kolei. Przy każdym klimakcie wkładają monetę do twoich rąk, ich nasienie spływają po twoich udach wraz ze swoim złotem."   # AI Tags
 
-bno_trade_prestige_for_gold.tooltip.male: "Wydaj [prestige|E] Oferując twą żonę dziurom Bykom, zdobywając [gold|E] po jej użyciu."   # AI Tags
-bno_trade_prestige_for_gold.tooltip.female: "Wydaj [prestige|E] Oferując swoje ciało Bykom, [gold|E] po ich stosowaniu."   # AI Tags
+ bno_trade_prestige_for_gold.tooltip.male: "Wydaj [prestige|E] Oferując twą żonę dziurom Bykom, zdobywając [gold|E] po jej użyciu."   # AI Tags
+ bno_trade_prestige_for_gold.tooltip.female: "Wydaj [prestige|E] Oferując swoje ciało Bykom, [gold|E] po ich stosowaniu."   # AI Tags
 
-bno_trade_prestige_for_gold.confirm.male: "Tak, pozwól mojej żonie służyć Bykom za złoto."   # AI Tags
-bno_trade_prestige_for_gold.confirm.female: "Sam będę służył Bykom za złoto."   # AI Tags
+ bno_trade_prestige_for_gold.confirm.male: "Tak, pozwól mojej żonie służyć Bykom za złoto."   # AI Tags
+ bno_trade_prestige_for_gold.confirm.female: "Sam będę służył Bykom za złoto."   # AI Tags
 
-bno_trade_prestige_for_gold.effect: "Konwersja [prestige|E] do [gold|E] Przez służbę dziwkom dla bractwa afrykańskiego."   # AI Tags
+ bno_trade_prestige_for_gold.effect: "Konwersja [prestige|E] do [gold|E] Przez służbę dziwkom dla bractwa afrykańskiego."   # AI Tags
 
-bno_build_bbc_trader_decision.title.male: "Utworz karawan obsidian" # AI Tags
-bno_build_bbc_trader_decision.desc.male: "Jako Byka Czarnego Nowego Porządu Światowego rozkazujesz, aby ziemię oczyszczać i oznaczać czarnymi banderami, wzywając swoich braci. Tutaj karawana Obsidian się zakorzeni, sprzedając Tinkturę Rodzaju, Eliksir Czarnej Łotki, klatki na robaki i piercingy na kurwy. Nie zapraszasz do handlu, rozszerzasz panowanie." # AI Tags
-bno_build_bbc_trader_decision.tooltip.male: "Znalazłem stały rynek byle do handlu nasieniami, sakramentami i narzędziami własności." # AI Tags
-bno_build_bbc_trader_decision.confirm.male: "Oskarżaj się o ziemię i wezwij karawan." # AI Tags
-bno_build_bbc_trader_decision.message.title.male: "Przyjeżdża karawana" # AI Tags
-bno_build_bbc_trader_decision.message.desc.male: "Węże pełne towarów i nasion, jedwabne namioty wznoszą się, a kadzidło płynie. Obsidian Caravan jest teraz waszym domeną…bijące serce…byki się zbierają, kurwy szepczą, biali trzęsą się. Twój zasięg rozciąga się głębiej do sfery." # AI Tags
+ bno_build_bbc_trader_decision.title.male: "Utworz karawan obsidian" # AI Tags
+ bno_build_bbc_trader_decision.desc.male: "Jako Byka Czarnego Nowego Porządu Światowego rozkazujesz, aby ziemię oczyszczać i oznaczać czarnymi banderami, wzywając swoich braci. Tutaj karawana Obsidian się zakorzeni, sprzedając Tinkturę Rodzaju, Eliksir Czarnej Łotki, klatki na robaki i piercingy na kurwy. Nie zapraszasz do handlu, rozszerzasz panowanie." # AI Tags
+ bno_build_bbc_trader_decision.tooltip.male: "Znalazłem stały rynek byle do handlu nasieniami, sakramentami i narzędziami własności." # AI Tags
+ bno_build_bbc_trader_decision.confirm.male: "Oskarżaj się o ziemię i wezwij karawan." # AI Tags
+ bno_build_bbc_trader_decision.message.title.male: "Przyjeżdża karawana" # AI Tags
+ bno_build_bbc_trader_decision.message.desc.male: "Węże pełne towarów i nasion, jedwabne namioty wznoszą się, a kadzidło płynie. Obsidian Caravan jest teraz waszym domeną…bijące serce…byki się zbierają, kurwy szepczą, biali trzęsą się. Twój zasięg rozciąga się głębiej do sfery." # AI Tags
 
-bno_build_bbc_trader_decision.title.female: "Zaproś obsydyńską karawanę" # AI Tags
-bno_build_bbc_trader_decision.desc.female: "Wyznaczacie miejsce z pochodniami i plakatami, tworząc miejsce dla wozów Bulls. Wkrótce pojawi się karawana Obsidian, sprzedając Tinkturę, która wiąże kurwy z cumem, Elixir, który rozprawia białych chłopców, i każdą klatkę i piercing, który zapewnia posłuszeństwo. Przyjmowanie ich to przyjmowanie ich siły w waszym kraju i w waszym ciele." # AI Tags
-bno_build_bbc_trader_decision.tooltip.female: "Przygotuj miejsce dla karawany Obsidian, otwierając swoje królestwo dla handlu bykiem i sakramentów." # AI Tags
-bno_build_bbc_trader_decision.confirm.female: "Wyczyść ziemię i otwórz drogę." # AI Tags
-bno_build_bbc_trader_decision.message.title.female: "Przyjeżdża karawana" # AI Tags
-bno_build_bbc_trader_decision.message.desc.female: "Karawana Obsidian wsiada na miejsce, wagony wiszące z jedwabą i ciężkie nasieniem. Byki zjeżdżają, by zdobyć teren, kurwy zbierają się, aby szeptać o tinkturach i klatkach, a powietrze wypełnia się kadzidłem, muskiem i płaczem. Czujesz już zmianę: karawana jest tutaj, a z nią przeznaczenie." # AI Tags
+ bno_build_bbc_trader_decision.title.female: "Zaproś obsydyńską karawanę" # AI Tags
+ bno_build_bbc_trader_decision.desc.female: "Wyznaczacie miejsce z pochodniami i plakatami, tworząc miejsce dla wozów Bulls. Wkrótce pojawi się karawana Obsidian, sprzedając Tinkturę, która wiąże kurwy z cumem, Elixir, który rozprawia białych chłopców, i każdą klatkę i piercing, który zapewnia posłuszeństwo. Przyjmowanie ich to przyjmowanie ich siły w waszym kraju i w waszym ciele." # AI Tags
+ bno_build_bbc_trader_decision.tooltip.female: "Przygotuj miejsce dla karawany Obsidian, otwierając swoje królestwo dla handlu bykiem i sakramentów." # AI Tags
+ bno_build_bbc_trader_decision.confirm.female: "Wyczyść ziemię i otwórz drogę." # AI Tags
+ bno_build_bbc_trader_decision.message.title.female: "Przyjeżdża karawana" # AI Tags
+ bno_build_bbc_trader_decision.message.desc.female: "Karawana Obsidian wsiada na miejsce, wagony wiszące z jedwabą i ciężkie nasieniem. Byki zjeżdżają, by zdobyć teren, kurwy zbierają się, aby szeptać o tinkturach i klatkach, a powietrze wypełnia się kadzidłem, muskiem i płaczem. Czujesz już zmianę: karawana jest tutaj, a z nią przeznaczenie." # AI Tags
 
-bno_purchase_goods_decision.title.male: "Dowództwo nad towarami karawany" # AI Tags
-bno_purchase_goods_decision.desc.male: "Obsidian Caravan otwiera swoje magazyny na tinktury, elixyry, klatki, marki. Jako Bull płacisz w złocie, nigdy w ciele. Pieniądze, które wydajesz, są znakiem panowania, twierdząc, że masz narzędzia do koronowania dziwek i rozbicia robaków głębiej w posłuszeństwo." # AI Tags
-bno_purchase_goods_decision.tooltip.male: "Wydaj złoto, aby kupić tinktury, elixyry i narzędzia własne." # AI Tags
-bno_purchase_goods_decision.confirm.male: "Odłóż swoje złoto i weź to, co jest twoje." # AI Tags
+ bno_purchase_goods_decision.title.male: "Dowództwo nad towarami karawany" # AI Tags
+ bno_purchase_goods_decision.desc.male: "Obsidian Caravan otwiera swoje magazyny na tinktury, elixyry, klatki, marki. Jako Bull płacisz w złocie, nigdy w ciele. Pieniądze, które wydajesz, są znakiem panowania, twierdząc, że masz narzędzia do koronowania dziwek i rozbicia robaków głębiej w posłuszeństwo." # AI Tags
+ bno_purchase_goods_decision.tooltip.male: "Wydaj złoto, aby kupić tinktury, elixyry i narzędzia własne." # AI Tags
+ bno_purchase_goods_decision.confirm.male: "Odłóż swoje złoto i weź to, co jest twoje." # AI Tags
 
-bno_purchase_goods_decision.title.female: "Zakup z karawany Obsidianu" # AI Tags
-bno_purchase_goods_decision.desc.female: "Były Karawany rozeszły swoje towary vials z Tincture z Genesis, Elixirs z Czarnego Łódź, klatki, piercingy i marki. Jeśli masz złoto, wezmą to. Jeśli nie, uśmiechają się i domagają się, aby twoje ciało rozciągnęło dziury, zatknęło usta, kropliło nasiona w biodrach, dopóki cena nie zostanie zapłacona w całości." # AI Tags
-bno_purchase_goods_decision.tooltip.female: "Wydawaj złoto, albo wymieniaj miłosierdzie seksualne, jeśli torebka jest pusta." # AI Tags
-bno_purchase_goods_decision.confirm.female: "Płacisz w pieniądzu, jeśli możesz, lub w żałobie, jeśli musisz." # AI Tags
+ bno_purchase_goods_decision.title.female: "Zakup z karawany Obsidianu" # AI Tags
+ bno_purchase_goods_decision.desc.female: "Były Karawany rozeszły swoje towary vials z Tincture z Genesis, Elixirs z Czarnego Łódź, klatki, piercingy i marki. Jeśli masz złoto, wezmą to. Jeśli nie, uśmiechają się i domagają się, aby twoje ciało rozciągnęło dziury, zatknęło usta, kropliło nasiona w biodrach, dopóki cena nie zostanie zapłacona w całości." # AI Tags
+ bno_purchase_goods_decision.tooltip.female: "Wydawaj złoto, albo wymieniaj miłosierdzie seksualne, jeśli torebka jest pusta." # AI Tags
+ bno_purchase_goods_decision.confirm.female: "Płacisz w pieniądzu, jeśli możesz, lub w żałobie, jeśli musisz." # AI Tags
 
-has_bbc_caravan: "Obsidian Caravan przybył i teraz zamieszkuje w waszym królestwie, jego namioty pełne tinktur, eliksirów i narzędzi dominacji." # AI Tags
+ has_bbc_caravan: "Obsidian Caravan przybył i teraz zamieszkuje w waszym królestwie, jego namioty pełne tinktur, eliksirów i narzędzi dominacji." # AI Tags
 
-bno_trader_has_arrived.title.male: "Przybyła karawana" # AI Tags
-bno_trader_has_arrived.desc.male: "Wagony Obsidianu przejeżdżają przez waszą ziemię, czarne sztandary rozbijają się, kadzidło gęste w powietrzu. Byki zjeżdżają z skrzyni z tinkturami, elixyrami, klatkami i markami. Karawana jest tutaj na twoje dowództwo, a teraz to narzędzia twojej władzy." # AI Tags
+ bno_trader_has_arrived.title.male: "Przybyła karawana" # AI Tags
+ bno_trader_has_arrived.desc.male: "Wagony Obsidianu przejeżdżają przez waszą ziemię, czarne sztandary rozbijają się, kadzidło gęste w powietrzu. Byki zjeżdżają z skrzyni z tinkturami, elixyrami, klatkami i markami. Karawana jest tutaj na twoje dowództwo, a teraz to narzędzia twojej władzy." # AI Tags
 
-bno_trader_has_arrived.title.female: "Karawana wchodzi do waszego królestwa" # AI Tags
-bno_trader_has_arrived.desc.female: "Ciężkie wagony wkraczają na miejsce, jedwabne namioty wznoszą się pod nadzorem wysokich Byków. Ich towary błyszczą tincturami do wiązania, elixyrami do przekształcenia, łańcuchami do oznaczania. Przybyła karawana, a wraz z nią pokusie, posłuszeństwo i zapach nasion w powietrzu." # AI Tags
+ bno_trader_has_arrived.title.female: "Karawana wchodzi do waszego królestwa" # AI Tags
+ bno_trader_has_arrived.desc.female: "Ciężkie wagony wkraczają na miejsce, jedwabne namioty wznoszą się pod nadzorem wysokich Byków. Ich towary błyszczą tincturami do wiązania, elixyrami do przekształcenia, łańcuchami do oznaczania. Przybyła karawana, a wraz z nią pokusie, posłuszeństwo i zapach nasion w powietrzu." # AI Tags
 
-bno_becoming_pure_white.title: "Staje się czysty biały" # AI Tags
-bno_becoming_pure_white.desc: "Moje ciało jest świadectwem wadliwego związku, błotnej mieszanki, której już nie mogę znieść. Kościół Czarnego Kurca oferuje drogę do czystości, święty rytuał, aby usunąć skazę z mojej krwi. Poddaję się całkowicie, stając się zatwierdzonym statkiem dla Jego istoty, ufając w jego moc, aby mnie wybielać do doskonałości." # AI Tags
-bno_becoming_pure_white.tooltip: "Przeprowadź liturgię nasienia. To rozpocznie głęboką przemianę biologiczną, trwale zmieniając twój fenotip na czysty albinizm. Wymaga całkowitego oddania jednemu Najwyższemu Kapłanowi Kościoła." # AI Tags
-bno_becoming_pure_white.confirm: "Przysięgam być oczyszczony." # AI Tags
-bno_becoming_pure_white.effect: "Zaczyna się rytuał oczyszczania. Cała pigmentacja zostaje trwale utracona. Włosy stają się proste i platynowe białe. Skóra staje się nieskazitelnym alabastem. Kolor oczu zmienia się w krystalicznie niebieski. Wszystkie cechy związane z mieszanym dziedzictwem zostaną usunięte." # AI Tags
+ bno_becoming_pure_white.title: "Staje się czysty biały" # AI Tags
+ bno_becoming_pure_white.desc: "Moje ciało jest świadectwem wadliwego związku, błotnej mieszanki, której już nie mogę znieść. Kościół Czarnego Kurca oferuje drogę do czystości, święty rytuał, aby usunąć skazę z mojej krwi. Poddaję się całkowicie, stając się zatwierdzonym statkiem dla Jego istoty, ufając w jego moc, aby mnie wybielać do doskonałości." # AI Tags
+ bno_becoming_pure_white.tooltip: "Przeprowadź liturgię nasienia. To rozpocznie głęboką przemianę biologiczną, trwale zmieniając twój fenotip na czysty albinizm. Wymaga całkowitego oddania jednemu Najwyższemu Kapłanowi Kościoła." # AI Tags
+ bno_becoming_pure_white.confirm: "Przysięgam być oczyszczony." # AI Tags
+ bno_becoming_pure_white.effect: "Zaczyna się rytuał oczyszczania. Cała pigmentacja zostaje trwale utracona. Włosy stają się proste i platynowe białe. Skóra staje się nieskazitelnym alabastem. Kolor oczu zmienia się w krystalicznie niebieski. Wszystkie cechy związane z mieszanym dziedzictwem zostaną usunięte." # AI Tags
 
-convert.second_step_button: "Chcę zacząć czcić [bno_bbc|E]..." # AI Tags
-convert.convert.desc: "Konwertuje się w [GetFaithByKey('bbcs').GetName]" # AI Tags
-convert.convert_to_bnwo.desc: "Przyjąć [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
+ convert.second_step_button: "Chcę zacząć czcić [bno_bbc|E]..." # AI Tags
+ convert.convert.desc: "Konwertuje się w [GetFaithByKey('bbcs').GetName]" # AI Tags
+ convert.convert_to_bnwo.desc: "Przyjąć [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
 
-bno_convert_to_african.second_step_button: "Chcę być jednym z [bno_bbc|E]" # AI Tags
-bno_convert_to_african.convert.desc: "Chcę się ponownie urodzić jako [GetCultureByKey('bnoc').GetName]" # AI Tags
-bno_convert_to_african.convert_to_bnwo.desc: "Chciałbym przedstawić [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] w moją [culture|E]" # AI Tags
+ bno_convert_to_african.second_step_button: "Chcę być jednym z [bno_bbc|E]" # AI Tags
+ bno_convert_to_african.convert.desc: "Chcę się ponownie urodzić jako [GetCultureByKey('bnoc').GetName]" # AI Tags
+ bno_convert_to_african.convert_to_bnwo.desc: "Chciałbym przedstawić [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] w moją [culture|E]" # AI Tags

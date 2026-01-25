@@ -1,13 +1,13 @@
 ﻿l_spanish:
 
-bno_war_0001.title: "Enemigo traicionado" # AI Tags
-bno_war_0001.desc: "Uno de mis generales me ha alertado de una situación inusual. Si los informes son para ser creídos, mi patético enemigo [defender.GetFullName] está actualmente sentado en mi mazmorra, lo que sería una noticia para mí ya que estoy activamente librando una guerra contra él. \n\nPero me sorprendo menos cuando descubro que no fue otra cosa que su esposa [target1.GetFirstName] que lo entregó a mis soldados. Parece que vio esta guerra como una oportunidad para inclinarse abiertamente ante los gallos negros. ¿Debería concederle su deseo? Independientemente de su elección, con [defender.GetFirstName] como su cautivo, la victoria es suya para reclamar cuando lo considere conveniente." # AI Tags
-bno_war_0001.a: "Se ha ganado su lugar como cortesana." # AI Tags
-bno_war_0001.b: "Bien, pero ella no tiene lugar en mi corte." # AI Tags
-bno_war_0001.c: "Lo ha hecho bien, la tomaré como si fuera mía." # AI Tags
+ bno_war_0001.title: "Enemigo traicionado" # AI Tags
+ bno_war_0001.desc: "Uno de mis generales me ha alertado de una situación inusual. Si los informes son para ser creídos, mi patético enemigo [defender.GetFullName] está actualmente sentado en mi mazmorra, lo que sería una noticia para mí ya que estoy activamente librando una guerra contra él. \n\nPero me sorprendo menos cuando descubro que no fue otra cosa que su esposa [target1.GetFirstName] que lo entregó a mis soldados. Parece que vio esta guerra como una oportunidad para inclinarse abiertamente ante los gallos negros. ¿Debería concederle su deseo? Independientemente de su elección, con [defender.GetFirstName] como su cautivo, la victoria es suya para reclamar cuando lo considere conveniente." # AI Tags
+ bno_war_0001.a: "Se ha ganado su lugar como cortesana." # AI Tags
+ bno_war_0001.b: "Bien, pero ella no tiene lugar en mi corte." # AI Tags
+ bno_war_0001.c: "Lo ha hecho bien, la tomaré como si fuera mía." # AI Tags
 
-bno_war_0002.title: "Defender la supremacía negra" # AI Tags
-bno_war_0002.desc: "[bno_bbc|E] como el defensor principal tiene la oportunidad de obtener sagrado rasgo guerrero y / o reincorporarse a la Supremacía religión + ejército engendro" # AI Tags
-bno_war_0002.a: "Que mi espada derribe todas las razas inferiores." # AI Tags
-bno_war_0002.b: "Soy un Supremacista Negro nacido de nuevo." # AI Tags
-bno_war_0002.c: "algo algo tercera opción" # AI Tags
+ bno_war_0002.title: "Defender la supremacía negra" # AI Tags
+ bno_war_0002.desc: "[bno_bbc|E] como el defensor principal tiene la oportunidad de obtener sagrado rasgo guerrero y / o reincorporarse a la Supremacía religión + ejército engendro" # AI Tags
+ bno_war_0002.a: "Que mi espada derribe todas las razas inferiores." # AI Tags
+ bno_war_0002.b: "Soy un Supremacista Negro nacido de nuevo." # AI Tags
+ bno_war_0002.c: "algo algo tercera opción" # AI Tags

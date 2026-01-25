@@ -1,191 +1,191 @@
 ﻿l_simp_chinese:
 
-game_rule_category_interracial_takeover: "@bnobbc! #X 跨种族征服：#!"
+ game_rule_category_interracial_takeover: "@bnobbc! #X 跨种族征服：#!"
 
-rule_bno_prostitution_interval: "@bnobbc! #X 跨种族征服：#!卖淫间隔"
-setting_bno_interval_one_month: "一个月"
-setting_bno_interval_one_month_desc: "我很荣幸也很兴奋能被选为全国[bno_bbc|E]的月度妓女，随时准备为任何想要的黑人打开我紧闭的小穴！"
-setting_bno_interval_three_months: "三个月"
-setting_bno_interval_three_months_desc: "三个月？我需要每天都被大黑鸡巴操，而不是偶尔一次！"
-setting_bno_interval_six_months: "六个月"
-setting_bno_interval_six_months_desc: "他们强迫我接受间隔6个月的[bno_bbc|E]行程表，这让我很伤心，但我不会因此而被击溃。"
+ rule_bno_prostitution_interval: "@bnobbc! #X 跨种族征服：#!卖淫间隔"
+ setting_bno_interval_one_month: "一个月"
+ setting_bno_interval_one_month_desc: "我很荣幸也很兴奋能被选为全国[bno_bbc|E]的月度妓女，随时准备为任何想要的黑人打开我紧闭的小穴！"
+ setting_bno_interval_three_months: "三个月"
+ setting_bno_interval_three_months_desc: "三个月？我需要每天都被大黑鸡巴操，而不是偶尔一次！"
+ setting_bno_interval_six_months: "六个月"
+ setting_bno_interval_six_months_desc: "他们强迫我接受间隔6个月的[bno_bbc|E]行程表，这让我很伤心，但我不会因此而被击溃。"
 
-rule_bno_body_modification: "@bnobbc! #X 跨种族征服：#!身材改造"
-setting_bno_body_modification_yes: "好的，请吧"
-setting_bno_body_modification_yes_desc: "我很高兴，我的身体终于变成了黑色，曲线玲珑，这正是[bno_bbcs|E]们一直想要的样子——现在我可以完全接受我的角色，成为他们完美的精盆！"
-setting_bno_body_modification_no: "不了，谢谢"
-setting_bno_body_modification_no_desc: "虽然我喜欢为黑人大鸡巴服务，但成为永久的黑人和曲线美并不是我所能接受的--我的身体由我来控制，即使这意味着不能完全接受他们的欲望！"
+ rule_bno_body_modification: "@bnobbc! #X 跨种族征服：#!身材改造"
+ setting_bno_body_modification_yes: "好的，请吧"
+ setting_bno_body_modification_yes_desc: "我很高兴，我的身体终于变成了黑色，曲线玲珑，这正是[bno_bbcs|E]们一直想要的样子——现在我可以完全接受我的角色，成为他们完美的精盆！"
+ setting_bno_body_modification_no: "不了，谢谢"
+ setting_bno_body_modification_no_desc: "虽然我喜欢为黑人大鸡巴服务，但成为永久的黑人和曲线美并不是我所能接受的--我的身体由我来控制，即使这意味着不能完全接受他们的欲望！"
 
-rule_bno_religion_allowed: "@bnobbc! #X 跨种族征服：#!黑鸡巴教会"
-setting_bno_religion_yes: "好的，请吧"
-setting_bno_religion_yes_desc: "[bno_bbcs|E]就是我们灵魂真正的救赎！"
-setting_bno_religion_no: "不了，谢谢"
-setting_bno_religion_no_desc: "“但是......为什么会有人反对崇拜美丽的大鸡巴呢？”把头偏向一边，怀疑地眯起眼睛"
+ rule_bno_religion_allowed: "@bnobbc! #X 跨种族征服：#!黑鸡巴教会"
+ setting_bno_religion_yes: "好的，请吧"
+ setting_bno_religion_yes_desc: "[bno_bbcs|E]就是我们灵魂真正的救赎！"
+ setting_bno_religion_no: "不了，谢谢"
+ setting_bno_religion_no_desc: "“但是......为什么会有人反对崇拜美丽的大鸡巴呢？”把头偏向一边，怀疑地眯起眼睛"
 
-rule_bno_decision_npc: "@bnobbc! #X 跨种族征服：#!招募BBC决定"
-setting_bno_decision_npc_yes: "默认"
-setting_bno_decision_npc_yes_desc: "快把[bno_bbc|E]呈上来吧！"
-setting_bno_decision_npc_no: "玩家独有"
-setting_bno_decision_npc_no_desc: "不行！要是其他女人也能染指大黑鸡巴的话，我会疯掉的！"
+ rule_bno_decision_npc: "@bnobbc! #X 跨种族征服：#!招募BBC决定"
+ setting_bno_decision_npc_yes: "默认"
+ setting_bno_decision_npc_yes_desc: "快把[bno_bbc|E]呈上来吧！"
+ setting_bno_decision_npc_no: "玩家独有"
+ setting_bno_decision_npc_no_desc: "不行！要是其他女人也能染指大黑鸡巴的话，我会疯掉的！"
 
-rule_bno_global_bbc_activities: "@bnobbc! #X 跨种族征服：#!BBC活动"
-setting_bno_global_bbc_activities_yes: "全局"
-setting_bno_global_bbc_activities_yes_desc: "我需要源源不断的大鸡巴来填充我永不满足的饥渴，而不是什么把我限制在一个区域的小规则！"
-setting_bno_global_bbc_activities_no: "本地"
-setting_bno_global_bbc_activities_no_desc: "行吧，如果这是我得到大黑鸡巴的唯一办法，那就这样吧！"
+ rule_bno_global_bbc_activities: "@bnobbc! #X 跨种族征服：#!BBC活动"
+ setting_bno_global_bbc_activities_yes: "全局"
+ setting_bno_global_bbc_activities_yes_desc: "我需要源源不断的大鸡巴来填充我永不满足的饥渴，而不是什么把我限制在一个区域的小规则！"
+ setting_bno_global_bbc_activities_no: "本地"
+ setting_bno_global_bbc_activities_no_desc: "行吧，如果这是我得到大黑鸡巴的唯一办法，那就这样吧！"
 
-rule_bno_mod_status: "@bnobbc! #X 跨种族征服：#!模组状态"
-setting_bno_mod_status_on: "开启"
-setting_bno_mod_status_on_desc: "我需要那根巨大的巧克力老二时刻填满我的身体，而不是什么男子气概的借口！"
-setting_bno_mod_status_off: "关闭"
-setting_bno_mod_status_off_desc: "不要啊！生活在一个没有大黑鸡巴的世界里对我可怜的白人小穴来说太难受了！"
+ rule_bno_mod_status: "@bnobbc! #X 跨种族征服：#!模组状态"
+ setting_bno_mod_status_on: "开启"
+ setting_bno_mod_status_on_desc: "我需要那根巨大的巧克力老二时刻填满我的身体，而不是什么男子气概的借口！"
+ setting_bno_mod_status_off: "关闭"
+ setting_bno_mod_status_off_desc: "不要啊！生活在一个没有大黑鸡巴的世界里对我可怜的白人小穴来说太难受了！"
 
-rule_bno_seeding: "@bnobbc! #X 跨种族征服：#!特质分发"
-setting_bno_seeding_yes: "好的，请吧"
-setting_bno_seeding_yes_desc: "哦！！！你能想象吗？一整个大陆除了慢慢的大黑鸡巴外啥也没有！"
-setting_bno_seeding_no: "不了，谢谢"
-setting_bno_seeding_no_desc: "太好了！太好了！我会亲自负责把那些大黑鸡巴请来陪我玩的！"
+ rule_bno_seeding: "@bnobbc! #X 跨种族征服：#!特质分发"
+ setting_bno_seeding_yes: "好的，请吧"
+ setting_bno_seeding_yes_desc: "哦！！！你能想象吗？一整个大陆除了慢慢的大黑鸡巴外啥也没有！"
+ setting_bno_seeding_no: "不了，谢谢"
+ setting_bno_seeding_no_desc: "太好了！太好了！我会亲自负责把那些大黑鸡巴请来陪我玩的！"
 
-rule_bno_event_frequency: "@bnobbc! #X 跨种族征服：#!事件频繁度"
-setting_bno_event_frequency_one_month: "每个月"
-setting_bno_event_frequency_one_month_desc: "好耶，就是要这样！我已经等不及下一个[bno_bbc|E]事件了。内心的期待已经让我想要得发疯了。"
-setting_bno_event_frequency_three_months: "三个月"
-setting_bno_event_frequency_three_months_desc: "哦必须的！我已经等不及下一个[bno_bbc|E]事件了。这种渴望已经快要让我欲罢不能了。"
-setting_bno_event_frequency_six_months: "六个月"
-setting_bno_event_frequency_six_months_desc: "好吧，这有点令人失望了…… 但是你知道人们总说——得不到的才会更珍贵！"
-setting_bno_event_frequency_twelve_months: "十二个月"
-setting_bno_event_frequency_twelve_months_desc: "我……我明白你是想刺激我，但是要让我在两个[bno_bbc|E]事件之间等上将近一年几乎是无法忍受的。"
+ rule_bno_event_frequency: "@bnobbc! #X 跨种族征服：#!事件频繁度"
+ setting_bno_event_frequency_one_month: "每个月"
+ setting_bno_event_frequency_one_month_desc: "好耶，就是要这样！我已经等不及下一个[bno_bbc|E]事件了。内心的期待已经让我想要得发疯了。"
+ setting_bno_event_frequency_three_months: "三个月"
+ setting_bno_event_frequency_three_months_desc: "哦必须的！我已经等不及下一个[bno_bbc|E]事件了。这种渴望已经快要让我欲罢不能了。"
+ setting_bno_event_frequency_six_months: "六个月"
+ setting_bno_event_frequency_six_months_desc: "好吧，这有点令人失望了…… 但是你知道人们总说——得不到的才会更珍贵！"
+ setting_bno_event_frequency_twelve_months: "十二个月"
+ setting_bno_event_frequency_twelve_months_desc: "我……我明白你是想刺激我，但是要让我在两个[bno_bbc|E]事件之间等上将近一年几乎是无法忍受的。"
 
-rule_bno_tattoo: "@bnobbc! #X 跨种族征服：#!显示纹身"
-setting_bno_tattoo_yes: "好的，请吧"
-setting_bno_tattoo_yes_desc: "我迫不及待地想让那些强壮的黑人男性看到它，知晓我现在也是她们中的一员——一个肮脏的小荡妇，只为被他们的大鸡巴使用而活着！"
-setting_bno_tattoo_no: "不了，谢谢"
-setting_bno_tattoo_no_desc: "如果我拒绝黑桃皇后纹身，那就意味着拒绝了我作为一个白人女孩的全部身份，我的活着只是为了被拥有巨大阳具的强壮黑人男性利用。"
+ rule_bno_tattoo: "@bnobbc! #X 跨种族征服：#!显示纹身"
+ setting_bno_tattoo_yes: "好的，请吧"
+ setting_bno_tattoo_yes_desc: "我迫不及待地想让那些强壮的黑人男性看到它，知晓我现在也是她们中的一员——一个肮脏的小荡妇，只为被他们的大鸡巴使用而活着！"
+ setting_bno_tattoo_no: "不了，谢谢"
+ setting_bno_tattoo_no_desc: "如果我拒绝黑桃皇后纹身，那就意味着拒绝了我作为一个白人女孩的全部身份，我的活着只是为了被拥有巨大阳具的强壮黑人男性利用。"
 
-rule_bno_rarity: "@bnobbc! #X 跨种族征服：#!大黑鸡巴稀有度"
-setting_bno_rarity_size: "尺寸至上"
-setting_bno_rarity_size_desc: "鸡巴分各种形状和大小！我只要最大的#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!\n（[GetTrait('bno_bbc').GetName( GetNullCharacter )]特质将基于鸡巴的大小更常见于非洲人当中。）"
-setting_bno_rarity_race: "黑色更大"
-setting_bno_rarity_race_desc: "传言都是真的！果子越黑#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!就越大！（[GetTrait('bno_bbc').GetName( GetNullCharacter )]特质将基于非洲血统纯度和鸡巴大小更常见）"
-setting_bno_bbc_very_rare_chance: "非常稀有"
-setting_bno_bbc_very_rare_chance_desc: "我不在乎我从此能不能再见到#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!。"
-setting_bno_bbc_rare_chance: "稀有"
-setting_bno_bbc_rare_chance_desc: "#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!可是稀有种，但是当我碰到他们，他们总能让我意犹未尽。"
-setting_bno_bbc_uncommon_chance: "不常见"
-setting_bno_bbc_uncommon_chance_desc: "我很爱这种兴奋的感觉，一想到我也许还能再次体验#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!给我带来的快感。"
-setting_bno_bbc_common_chance: "常见"
-setting_bno_bbc_common_chance_desc: "对于#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!我永远感不到满足！我越能经常拥有他们，就越好。"
-setting_bno_bbc_very_common_chance: "非常常见"
-setting_bno_bbc_very_common_chance_desc: "我生命中时刻需要#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!。只有他们才能满足我对于#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!永无止境的饥渴。"
+ rule_bno_rarity: "@bnobbc! #X 跨种族征服：#!大黑鸡巴稀有度"
+ setting_bno_rarity_size: "尺寸至上"
+ setting_bno_rarity_size_desc: "鸡巴分各种形状和大小！我只要最大的#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!\n（[GetTrait('bno_bbc').GetName( GetNullCharacter )]特质将基于鸡巴的大小更常见于非洲人当中。）"
+ setting_bno_rarity_race: "黑色更大"
+ setting_bno_rarity_race_desc: "传言都是真的！果子越黑#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!就越大！（[GetTrait('bno_bbc').GetName( GetNullCharacter )]特质将基于非洲血统纯度和鸡巴大小更常见）"
+ setting_bno_bbc_very_rare_chance: "非常稀有"
+ setting_bno_bbc_very_rare_chance_desc: "我不在乎我从此能不能再见到#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!。"
+ setting_bno_bbc_rare_chance: "稀有"
+ setting_bno_bbc_rare_chance_desc: "#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!可是稀有种，但是当我碰到他们，他们总能让我意犹未尽。"
+ setting_bno_bbc_uncommon_chance: "不常见"
+ setting_bno_bbc_uncommon_chance_desc: "我很爱这种兴奋的感觉，一想到我也许还能再次体验#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!给我带来的快感。"
+ setting_bno_bbc_common_chance: "常见"
+ setting_bno_bbc_common_chance_desc: "对于#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!我永远感不到满足！我越能经常拥有他们，就越好。"
+ setting_bno_bbc_very_common_chance: "非常常见"
+ setting_bno_bbc_very_common_chance_desc: "我生命中时刻需要#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!。只有他们才能满足我对于#V [GetTrait('bno_bbc').GetName( GetNullCharacter )]#!永无止境的饥渴。"
 
-rule_bno_invite_white_noble_decision: "@bnobbc! #X 跨种族征服：#!邀请白人贵族决议"
-setting_bno_invite_white_noble_decision_all: "所有人"
-setting_bno_invite_white_noble_decision_all_desc: "所有人都应该有能力邀请白人贵族！"
-setting_bno_invite_white_noble_decision_slut: "仅荡妇"
-setting_bno_invite_white_noble_decision_slut_desc: "像我这样白人贵族能邀请另一个白人贵族不是显而易见的吗？"
-setting_bno_invite_white_noble_decision_bbc: "仅BBC"
-setting_bno_invite_white_noble_decision_bbc_desc: "应该只有[bno_bbcs|E]有能力邀请白人贵族！"
-setting_bno_invite_white_noble_decision_off: "关闭"
-setting_bno_invite_white_noble_decision_off_desc: "征服他们才有意思！我干嘛要邀请他们来我的王庭？他们应当恳求我给他们一个侍奉我的机会，而不是反过来！"
+ rule_bno_invite_white_noble_decision: "@bnobbc! #X 跨种族征服：#!邀请白人贵族决议"
+ setting_bno_invite_white_noble_decision_all: "所有人"
+ setting_bno_invite_white_noble_decision_all_desc: "所有人都应该有能力邀请白人贵族！"
+ setting_bno_invite_white_noble_decision_slut: "仅荡妇"
+ setting_bno_invite_white_noble_decision_slut_desc: "像我这样白人贵族能邀请另一个白人贵族不是显而易见的吗？"
+ setting_bno_invite_white_noble_decision_bbc: "仅BBC"
+ setting_bno_invite_white_noble_decision_bbc_desc: "应该只有[bno_bbcs|E]有能力邀请白人贵族！"
+ setting_bno_invite_white_noble_decision_off: "关闭"
+ setting_bno_invite_white_noble_decision_off_desc: "征服他们才有意思！我干嘛要邀请他们来我的王庭？他们应当恳求我给他们一个侍奉我的机会，而不是反过来！"
 
-rule_bno_invite_bbc_decision: "@bnobbc! #X 跨种族征服：#!邀请大黑鸡巴决议"
-setting_bno_invite_bbc_decision_all: "所有人"
-setting_bno_invite_bbc_decision_all_desc: "所有人都应该有能力邀请黑爹！"
-setting_bno_invite_bbc_decision_slut: "仅荡妇"
-setting_bno_invite_bbc_decision_slut_desc: "像我这样白人贵族能邀请[bno_bbc|E]前来不是显而易见的吗？"
-setting_bno_invite_bbc_decision_bbc: "仅BBC"
-setting_bno_invite_bbc_decision_bbc_desc: "应该只有黑爹有能力邀请[bno_bbc|E]！"
-setting_bno_invite_bbc_decision_off: "关闭"
-setting_bno_invite_bbc_decision_off_desc: "我们还是顺其自然吧…"
+ rule_bno_invite_bbc_decision: "@bnobbc! #X 跨种族征服：#!邀请大黑鸡巴决议"
+ setting_bno_invite_bbc_decision_all: "所有人"
+ setting_bno_invite_bbc_decision_all_desc: "所有人都应该有能力邀请黑爹！"
+ setting_bno_invite_bbc_decision_slut: "仅荡妇"
+ setting_bno_invite_bbc_decision_slut_desc: "像我这样白人贵族能邀请[bno_bbc|E]前来不是显而易见的吗？"
+ setting_bno_invite_bbc_decision_bbc: "仅BBC"
+ setting_bno_invite_bbc_decision_bbc_desc: "应该只有黑爹有能力邀请[bno_bbc|E]！"
+ setting_bno_invite_bbc_decision_off: "关闭"
+ setting_bno_invite_bbc_decision_off_desc: "我们还是顺其自然吧…"
 
-rule_bno_ai_events_chance: "@bnobbc! #X 跨种族征服：#!AI事件几率"
-setting_bno_ai_events_chance_rare: "稀有"
-setting_bno_ai_events_chance_rare_desc: "听起来像是个确保所有目光向我看齐的好办法。"
-setting_bno_ai_events_chance_uncommon: "不常见"
-setting_bno_ai_events_chance_uncommon_desc: "嗯，对我的注意力减少了，不过还是有我的份。"
-setting_bno_ai_events_chance_common: "常见"
-setting_bno_ai_events_chance_common_desc: "不过是一点小小的竞争罢了。"
+ rule_bno_ai_events_chance: "@bnobbc! #X 跨种族征服：#!AI事件几率"
+ setting_bno_ai_events_chance_rare: "稀有"
+ setting_bno_ai_events_chance_rare_desc: "听起来像是个确保所有目光向我看齐的好办法。"
+ setting_bno_ai_events_chance_uncommon: "不常见"
+ setting_bno_ai_events_chance_uncommon_desc: "嗯，对我的注意力减少了，不过还是有我的份。"
+ setting_bno_ai_events_chance_common: "常见"
+ setting_bno_ai_events_chance_common_desc: "不过是一点小小的竞争罢了。"
 
-rule_bno_black_cum_potency: "@bnobbc! #X 跨种族征服：#!黑人精液效果"
-setting_bno_black_cum_potency_normal: "通常"
-setting_bno_black_cum_potency_normal_desc: "那样有点太容易预测了，不过还是挺有意思的。"
-setting_bno_black_cum_potency_abnormal: "超常"
-setting_bno_black_cum_potency_abnormal_desc: "让那些乌黑、强硬的后代们放马过来吧！"
+ rule_bno_black_cum_potency: "@bnobbc! #X 跨种族征服：#!黑人精液效果"
+ setting_bno_black_cum_potency_normal: "通常"
+ setting_bno_black_cum_potency_normal_desc: "那样有点太容易预测了，不过还是挺有意思的。"
+ setting_bno_black_cum_potency_abnormal: "超常"
+ setting_bno_black_cum_potency_abnormal_desc: "让那些乌黑、强硬的后代们放马过来吧！"
 
-rule_bno_black_birth: "@bnobbc! #X 跨种族征服：#!黑人生育"
-setting_bno_black_birth_on: "开启"
-setting_bno_black_birth_on_desc: "当皇后的肚子隆起[bno_bbc|E]的子嗣，其摇篮将不会保持平静。你将会决定她是否躲在她丈夫的王冠之后……或者在淫叫中承认真相，让种马的子嗣在他的家族中成长。"
-setting_bno_black_birth_off: "关闭"
-setting_bno_black_birth_off_desc: "她的腹部可能被[bno_bbc|E]填满了，但是谎言站住了脚跟。这个混血的孩子安静地过关被她丈夫视如己出，真相被掩埋在白墙之中，不论是谁的种子令她繁育。"
+ rule_bno_black_birth: "@bnobbc! #X 跨种族征服：#!黑人生育"
+ setting_bno_black_birth_on: "开启"
+ setting_bno_black_birth_on_desc: "当皇后的肚子隆起[bno_bbc|E]的子嗣，其摇篮将不会保持平静。你将会决定她是否躲在她丈夫的王冠之后……或者在淫叫中承认真相，让种马的子嗣在他的家族中成长。"
+ setting_bno_black_birth_off: "关闭"
+ setting_bno_black_birth_off_desc: "她的腹部可能被[bno_bbc|E]填满了，但是谎言站住了脚跟。这个混血的孩子安静地过关被她丈夫视如己出，真相被掩埋在白墙之中，不论是谁的种子令她繁育。"
 
-rule_bno_bbc_forced_conversion: "@bnobbc! #X 跨种族征服：#!BBC强制转化"
-setting_bno_bbc_forced_conversion_yes: "开启"
-setting_bno_bbc_forced_conversion_yes_desc: "当统治者承载着[bno_bbc|E]的重担时，他的王庭不会长时间保持白色皮肤。文化将转化成非裔传统，而领地将臣服于大黑屌教会，每一个王冠都会被他的欲望涂黑。"
-setting_bno_bbc_forced_conversion_no: "关闭"
-setting_bno_bbc_forced_conversion_no_desc: "即使他使用[bno_bbc|E]统御，他的土地将保持旧的信仰与文化。黑屌将在秘密中繁殖，但是王国将保持其白色皮肤的面具。"
+ rule_bno_bbc_forced_conversion: "@bnobbc! #X 跨种族征服：#!BBC强制转化"
+ setting_bno_bbc_forced_conversion_yes: "开启"
+ setting_bno_bbc_forced_conversion_yes_desc: "当统治者承载着[bno_bbc|E]的重担时，他的王庭不会长时间保持白色皮肤。文化将转化成非裔传统，而领地将臣服于大黑屌教会，每一个王冠都会被他的欲望涂黑。"
+ setting_bno_bbc_forced_conversion_no: "关闭"
+ setting_bno_bbc_forced_conversion_no_desc: "即使他使用[bno_bbc|E]统御，他的土地将保持旧的信仰与文化。黑屌将在秘密中繁殖，但是王国将保持其白色皮肤的面具。"
 
-rule_bno_great_replacement: "@bnobbc! #X 跨种族征服：#!大替换"
-setting_bno_great_replacement_converting: "伯爵领转化"
-setting_bno_great_replacement_converting_desc: "当一个[bno_bbc|E]或是其母种马强迫一个伯爵领服从，变化将是分深入。旧的文化消失，替换成非裔传承——黑色的舌头、黑色的血脉，一块被他的鸡巴重塑的土地。"
-setting_bno_great_replacement_cultural_acceptance: "文化接纳"
-setting_bno_great_replacement_cultural_acceptance_desc: "[bno_bbc|E]或是其白皮母狗不会清除旧的道路——他们会使其屈服。整个文化在100的接受度下呻吟，在黑屌之下团结。"
+ rule_bno_great_replacement: "@bnobbc! #X 跨种族征服：#!大替换"
+ setting_bno_great_replacement_converting: "伯爵领转化"
+ setting_bno_great_replacement_converting_desc: "当一个[bno_bbc|E]或是其母种马强迫一个伯爵领服从，变化将是分深入。旧的文化消失，替换成非裔传承——黑色的舌头、黑色的血脉，一块被他的鸡巴重塑的土地。"
+ setting_bno_great_replacement_cultural_acceptance: "文化接纳"
+ setting_bno_great_replacement_cultural_acceptance_desc: "[bno_bbc|E]或是其白皮母狗不会清除旧的道路——他们会使其屈服。整个文化在100的接受度下呻吟，在黑屌之下团结。"
 
-rule_bno_xp_gain: "@bnobbc! #X 跨种族征服：#!经验获取"
-setting_bno_xp_gain_low: "温和腐化"
-setting_bno_xp_gain_low_desc: "黑屌不紧不慢。白皮母狗慢慢地堕落，细细品味毁灭初临的触感，当BNWO滴答蔓延，她们的国度便随之颤抖。腐化如耳语般悄然降临，却永无止息。"
-setting_bno_xp_gain_med: "自然堕落"
-setting_bno_xp_gain_med_desc: "接管的步伐稳扎稳打、毫不留情。每个母狗臣服地更快，每个王庭变得更黑，每一片土地都能感受到黑影地蔓延。既不太快，也不太慢——但却不可避免。"
-setting_bno_xp_gain_high: "飞速推翻"
-setting_bno_xp_gain_high_desc: "浪潮无法阻挡。白皮母狗一夜之间就被摧毁，王庭数周间沦陷，整个民族数月内臣服。BNWO不会在此低语——它咆哮着，一道由阴茎与征服组成的浪潮将吞噬整个地图。"
+ rule_bno_xp_gain: "@bnobbc! #X 跨种族征服：#!经验获取"
+ setting_bno_xp_gain_low: "温和腐化"
+ setting_bno_xp_gain_low_desc: "黑屌不紧不慢。白皮母狗慢慢地堕落，细细品味毁灭初临的触感，当BNWO滴答蔓延，她们的国度便随之颤抖。腐化如耳语般悄然降临，却永无止息。"
+ setting_bno_xp_gain_med: "自然堕落"
+ setting_bno_xp_gain_med_desc: "接管的步伐稳扎稳打、毫不留情。每个母狗臣服地更快，每个王庭变得更黑，每一片土地都能感受到黑影地蔓延。既不太快，也不太慢——但却不可避免。"
+ setting_bno_xp_gain_high: "飞速推翻"
+ setting_bno_xp_gain_high_desc: "浪潮无法阻挡。白皮母狗一夜之间就被摧毁，王庭数周间沦陷，整个民族数月内臣服。BNWO不会在此低语——它咆哮着，一道由阴茎与征服组成的浪潮将吞噬整个地图。"
 
-rule_bno_african_culture: "@bnobbc! #X 跨种族征服：#!拥抱非洲文化"
-setting_bno_african_culture_yes: "好的，请吧"
-setting_bno_african_culture_yes_desc: "嗯——你感受到了吗？非洲的脉搏在你的血管中奔涌，历史的重量压得你喘不过气，直到你乞求被重塑。我想臣服于他们的律法，被最深邃的黑人法则重塑，让我的身体与灵魂淬炼成他们的模样。没有什么比被这般古老而饥渴的力量占有更令人心潮澎湃……让新秩序如洪水般淹没我，让我浑身湿透，呻吟不止，永远改变。"
-setting_bno_african_culture_no: "不了，谢谢"
-setting_bno_african_culture_no_desc: "一想到要屈服，我便浑身战栗。我将紧抓旧习不放，假装那饥渴尚未侵蚀我的灵魂，假装非洲的鼓声与肉棒终将征服我。或许我尚未准备好被黑人法则彻底瓦解重塑——至少现在还不行。但啊，那阵阵刺痛从未真正消散……"
+ rule_bno_african_culture: "@bnobbc! #X 跨种族征服：#!拥抱非洲文化"
+ setting_bno_african_culture_yes: "好的，请吧"
+ setting_bno_african_culture_yes_desc: "嗯——你感受到了吗？非洲的脉搏在你的血管中奔涌，历史的重量压得你喘不过气，直到你乞求被重塑。我想臣服于他们的律法，被最深邃的黑人法则重塑，让我的身体与灵魂淬炼成他们的模样。没有什么比被这般古老而饥渴的力量占有更令人心潮澎湃……让新秩序如洪水般淹没我，让我浑身湿透，呻吟不止，永远改变。"
+ setting_bno_african_culture_no: "不了，谢谢"
+ setting_bno_african_culture_no_desc: "一想到要屈服，我便浑身战栗。我将紧抓旧习不放，假装那饥渴尚未侵蚀我的灵魂，假装非洲的鼓声与肉棒终将征服我。或许我尚未准备好被黑人法则彻底瓦解重塑——至少现在还不行。但啊，那阵阵刺痛从未真正消散……"
 
-rule_bno_boobs_size: "@bnobbc! #X 跨种族接替:#! 偏爱的乳房尺寸" # AI Tags
-setting_bno_boobs_size_small: "微小和大鼓" # AI Tags
-setting_bno_boobs_size_small_desc: "以更好地突出我的黑人伙伴的优势和实力. 我的小乳房的存在 让他们的鸡鸡看起来更大 并且比起来更占优势." # AI Tags
-setting_bno_boobs_size_medium: "平衡与可用" # AI Tags
-setting_bno_boobs_size_medium_desc: "一个宽宏大度的,小号的, 完美的,我的黑国王们 在接管时可以抓住。. 这些柔软的曲线被挤压 并被强大的黑手利用." # AI Tags
-setting_bno_boobs_size_big: "伏变( 明显)" # AI Tags
-setting_bno_boobs_size_big_desc: "我要大而重的乳房 弹起和摇动 每一个推力 从一个黑人。. 让我的大胸部 成为我向BNWO投诚的明显象征 以及我作为快乐对象的目的." # AI Tags
-setting_bno_boobs_size_unlimited: "极端 & 过量" # AI Tags
-setting_bno_boobs_size_unlimited_desc: "我的身体应该是黑人至高无上的纪念碑. 让我的乳房长成淫秽的, 无法控制的尺寸, 确保我永远 被我的角色定义 我的角色是 黑色快乐的船 和完全种族投降的象征。." # AI Tags
+ rule_bno_boobs_size: "@bnobbc! #X 跨种族接替:#! 偏爱的乳房尺寸" # AI Tags
+ setting_bno_boobs_size_small: "微小和大鼓" # AI Tags
+ setting_bno_boobs_size_small_desc: "以更好地突出我的黑人伙伴的优势和实力. 我的小乳房的存在 让他们的鸡鸡看起来更大 并且比起来更占优势." # AI Tags
+ setting_bno_boobs_size_medium: "平衡与可用" # AI Tags
+ setting_bno_boobs_size_medium_desc: "一个宽宏大度的,小号的, 完美的,我的黑国王们 在接管时可以抓住。. 这些柔软的曲线被挤压 并被强大的黑手利用." # AI Tags
+ setting_bno_boobs_size_big: "伏变( 明显)" # AI Tags
+ setting_bno_boobs_size_big_desc: "我要大而重的乳房 弹起和摇动 每一个推力 从一个黑人。. 让我的大胸部 成为我向BNWO投诚的明显象征 以及我作为快乐对象的目的." # AI Tags
+ setting_bno_boobs_size_unlimited: "极端 & 过量" # AI Tags
+ setting_bno_boobs_size_unlimited_desc: "我的身体应该是黑人至高无上的纪念碑. 让我的乳房长成淫秽的, 无法控制的尺寸, 确保我永远 被我的角色定义 我的角色是 黑色快乐的船 和完全种族投降的象征。." # AI Tags
 
-rule_bno_ass_size: "@bnobbc! #X 跨种族接替:#! 首选 Ass 大小" # AI Tags
-setting_bno_ass_size_small: "紧和小" # AI Tags
-setting_bno_ass_size_small_desc: "保持我的后部小和紧紧, 提供很少的抵抗 来强调压倒性大小 和力量 我的黑人伙伴们." # AI Tags
-setting_bno_ass_size_medium: "形状断断( Y)" # AI Tags
-setting_bno_ass_size_medium_desc: "一个完整的,圆形的屁股 提供完美的一小撮 和软的,欢迎坐垫 我的黑国王们 正当接管他们。." # AI Tags
-setting_bno_ass_size_big: "波动和亮度" # AI Tags
-setting_bno_ass_size_big_desc: "我想要一个巨大的, 摇晃的屁股 与每一个强大的推力震动, 一个明目张胆的象征 我屈从 和慷慨的献祭 黑人的快感。." # AI Tags
-setting_bno_ass_size_unlimited: "大规模加压和过度加压" # AI Tags
-setting_bno_ass_size_unlimited_desc: "我的身体必须成为黑人至上的证据. 让我的屁股长成一个不动的,体型过大, 永久地标记我为一艘船 完全专为BNWO。." # AI Tags
+ rule_bno_ass_size: "@bnobbc! #X 跨种族接替:#! 首选 Ass 大小" # AI Tags
+ setting_bno_ass_size_small: "紧和小" # AI Tags
+ setting_bno_ass_size_small_desc: "保持我的后部小和紧紧, 提供很少的抵抗 来强调压倒性大小 和力量 我的黑人伙伴们." # AI Tags
+ setting_bno_ass_size_medium: "形状断断( Y)" # AI Tags
+ setting_bno_ass_size_medium_desc: "一个完整的,圆形的屁股 提供完美的一小撮 和软的,欢迎坐垫 我的黑国王们 正当接管他们。." # AI Tags
+ setting_bno_ass_size_big: "波动和亮度" # AI Tags
+ setting_bno_ass_size_big_desc: "我想要一个巨大的, 摇晃的屁股 与每一个强大的推力震动, 一个明目张胆的象征 我屈从 和慷慨的献祭 黑人的快感。." # AI Tags
+ setting_bno_ass_size_unlimited: "大规模加压和过度加压" # AI Tags
+ setting_bno_ass_size_unlimited_desc: "我的身体必须成为黑人至上的证据. 让我的屁股长成一个不动的,体型过大, 永久地标记我为一艘船 完全专为BNWO。." # AI Tags
 
-rule_bno_waist_size: "@bnobbc! #X 跨种族接替:#! 首选湿体大小" # AI Tags
-setting_bno_waist_size_small: "稍稍缓缓" # AI Tags
-setting_bno_waist_size_small_desc: "只是细微的减少 使我的形象更女性化 更吸引人 创造一个温柔的曲线 暗示我向生物和野生生物联盟的提交." # AI Tags
-setting_bno_waist_size_medium: "明显地被钉住" # AI Tags
-setting_bno_waist_size_medium_desc: "一个清晰的、狭窄的腰 大大地强调我的臀部和乳房 使我的身体结构 完全适合黑人的快乐和繁衍." # AI Tags
-setting_bno_waist_size_big: "极为紧紧" # AI Tags
-setting_bno_waist_size_big_desc: "一个难以想象的小腰 制造了一个夸大了的沙漏形状 将我的身体 变成一个活生生的象征 完全屈服于黑人至上." # AI Tags
-setting_bno_waist_size_unlimited: "不自然的黄蜂" # AI Tags
-setting_bno_waist_size_unlimited_desc: "让我的腰缩缩到一个非自然的极端 在那里我几乎喘不过气来, 成为步行的证明 我将如何重塑自己 对于BNWO的美学偏好。." # AI Tags
+ rule_bno_waist_size: "@bnobbc! #X 跨种族接替:#! 首选湿体大小" # AI Tags
+ setting_bno_waist_size_small: "稍稍缓缓" # AI Tags
+ setting_bno_waist_size_small_desc: "只是细微的减少 使我的形象更女性化 更吸引人 创造一个温柔的曲线 暗示我向生物和野生生物联盟的提交." # AI Tags
+ setting_bno_waist_size_medium: "明显地被钉住" # AI Tags
+ setting_bno_waist_size_medium_desc: "一个清晰的、狭窄的腰 大大地强调我的臀部和乳房 使我的身体结构 完全适合黑人的快乐和繁衍." # AI Tags
+ setting_bno_waist_size_big: "极为紧紧" # AI Tags
+ setting_bno_waist_size_big_desc: "一个难以想象的小腰 制造了一个夸大了的沙漏形状 将我的身体 变成一个活生生的象征 完全屈服于黑人至上." # AI Tags
+ setting_bno_waist_size_unlimited: "不自然的黄蜂" # AI Tags
+ setting_bno_waist_size_unlimited_desc: "让我的腰缩缩到一个非自然的极端 在那里我几乎喘不过气来, 成为步行的证明 我将如何重塑自己 对于BNWO的美学偏好。." # AI Tags
 
-rule_bno_skin_color: "@bnobbc! #X 跨种族接替:#! 首选皮肤颜色" # AI Tags
-setting_bno_skin_color_light: "灯光和白纸" # AI Tags
-setting_bno_skin_color_light_desc: "使我的皮肤保持苍白 与我的黑人伙伴的 强大黑暗身体形成鲜明的对比 突出显示他们的优越存在." # AI Tags
-setting_bno_skin_color_tanned: "金色和金色" # AI Tags
-setting_bno_skin_color_tanned_desc: "一个温暖的太阳吻亮的光芒 能够弥合我们种族之间的鸿沟 同时也能让我对更黑暗 更强大的皮肤调子 表现出敬仰感." # AI Tags
-setting_bno_skin_color_brown: "深棕色和深深" # AI Tags
-setting_bno_skin_color_brown_desc: "显示我对BNWO的深爱 使我更接近我的黑人上司的美丽肤色." # AI Tags
-setting_bno_skin_color_unlimited: "与非洲人无区别" # AI Tags
-setting_bno_skin_color_unlimited_desc: "让我的皮肤变暗,直到它与真正的非洲遗产无法区分, 彻底消除我的原种族 最终屈服于黑人至上。." # AI Tags
+ rule_bno_skin_color: "@bnobbc! #X 跨种族接替:#! 首选皮肤颜色" # AI Tags
+ setting_bno_skin_color_light: "灯光和白纸" # AI Tags
+ setting_bno_skin_color_light_desc: "使我的皮肤保持苍白 与我的黑人伙伴的 强大黑暗身体形成鲜明的对比 突出显示他们的优越存在." # AI Tags
+ setting_bno_skin_color_tanned: "金色和金色" # AI Tags
+ setting_bno_skin_color_tanned_desc: "一个温暖的太阳吻亮的光芒 能够弥合我们种族之间的鸿沟 同时也能让我对更黑暗 更强大的皮肤调子 表现出敬仰感." # AI Tags
+ setting_bno_skin_color_brown: "深棕色和深深" # AI Tags
+ setting_bno_skin_color_brown_desc: "显示我对BNWO的深爱 使我更接近我的黑人上司的美丽肤色." # AI Tags
+ setting_bno_skin_color_unlimited: "与非洲人无区别" # AI Tags
+ setting_bno_skin_color_unlimited_desc: "让我的皮肤变暗,直到它与真正的非洲遗产无法区分, 彻底消除我的原种族 最终屈服于黑人至上。." # AI Tags
 
-rule_bno_futa_existence: "@bnobbc! #X 高级解剖学:#! 富塔那里存在" # AI Tags
-setting_bno_futa_existence_yes: "其他混合体" # AI Tags
-setting_bno_futa_existence_yes_desc: "允许存在优越的futanari女神 -- -- 配有妇女完美形状和功能性阴茎的神圣混合体,能够在向黑人男子屈服的同时向其他妇女求情。." # AI Tags
-setting_bno_futa_existence_no: "仅自然秩序" # AI Tags
-setting_bno_futa_existence_no_desc: "维持自然秩序,只有黑人男子才拥有真正的肉力,确保所有其他性别继续发挥适当、顺从的作用。." # AI Tags
+ rule_bno_futa_existence: "@bnobbc! #X 高级解剖学:#! 富塔那里存在" # AI Tags
+ setting_bno_futa_existence_yes: "其他混合体" # AI Tags
+ setting_bno_futa_existence_yes_desc: "允许存在优越的futanari女神 -- -- 配有妇女完美形状和功能性阴茎的神圣混合体,能够在向黑人男子屈服的同时向其他妇女求情。." # AI Tags
+ setting_bno_futa_existence_no: "仅自然秩序" # AI Tags
+ setting_bno_futa_existence_no_desc: "维持自然秩序,只有黑人男子才拥有真正的肉力,确保所有其他性别继续发挥适当、顺从的作用。." # AI Tags

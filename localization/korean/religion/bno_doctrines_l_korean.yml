@@ -1,27 +1,27 @@
 ﻿l_korean:
 
-special_doctrine_is_bno_faith_name: "블랙 콕의 우월성" # AI Tags
-is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
-special_doctrine_is_bno_faith_desc: "우리는 이 잘못 인도된 영혼들에게 동정심을 나타내야 합니다 [bno_bbc|E]한 가지 맛만 있으면 됩니다. 한 번 흑인이 되면 다시는 돌아오지 않을 거야! 그들의 정신은 오늘날 무지함으로 흐려질 수도 있지만 그들은 우리의 제단에서 예배를 드리고 [bno_bbc|E]." # AI Tags
+ special_doctrine_is_bno_faith_name: "블랙 콕의 우월성" # AI Tags
+ is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
+ special_doctrine_is_bno_faith_desc: "우리는 이 잘못 인도된 영혼들에게 동정심을 나타내야 합니다 [bno_bbc|E]한 가지 맛만 있으면 됩니다. 한 번 흑인이 되면 다시는 돌아오지 않을 거야! 그들의 정신은 오늘날 무지함으로 흐려질 수도 있지만 그들은 우리의 제단에서 예배를 드리고 [bno_bbc|E]." # AI Tags
 
-bno_hostility_group_name: "$hostility_group_name$" # AI Tags
-bno_hostility_doctrine_name: "아프로디아스마" # AI Tags
-bno_hostility_doctrine_desc: "다음과 같은 종교는 아프로디아스미 (Aphrodiasmic) 이다:\n[GetReligionFamily('rf_bbcs').GetReligions]" # AI Tags
+ bno_hostility_group_name: "$hostility_group_name$" # AI Tags
+ bno_hostility_doctrine_name: "아프로디아스마" # AI Tags
+ bno_hostility_doctrine_desc: "다음과 같은 종교는 아프로디아스미 (Aphrodiasmic) 이다:\n[GetReligionFamily('rf_bbcs').GetReligions]" # AI Tags
 
-doctrine_bno_tenets_name: "[bno_religion|E]: 원칙" # AI Tags
+ doctrine_bno_tenets_name: "[bno_religion|E]: 원칙" # AI Tags
 
-tenet_bno_black_cock_conquest_name: "블랙 콕의 정복" # AI Tags
-tenet_bno_black_cock_conquest_desc: "열렬한 기도와 거룩한 정복을 통해 [bno_bbc|E] 땅 너머로!" # AI Tags
+ tenet_bno_black_cock_conquest_name: "블랙 콕의 정복" # AI Tags
+ tenet_bno_black_cock_conquest_desc: "열렬한 기도와 거룩한 정복을 통해 [bno_bbc|E] 땅 너머로!" # AI Tags
 
-tenet_bno_hate_name: "블랙 콕 에 대한 증오"   # AI Tags
-tenet_bno_hate_desc: "한 세상의 모든 신앙은 [GetFaithByKey('bbcs').GetName]. 그들은 우리의 숭배에 대한 모욕만 보고, 우리의 씨에 대한 파괴만 보고, 그들의 여성들에 대한 우리의 지배에 대한 수치만 보고 있습니다. 그들에게는 우리의 복음은 부패이고, 우리의 의식은 어색하고, 우리의 황소들은 육체의 악마입니다. 그리고 그들은 여전히 떨고 있습니다 그들의 증오가 [bno_bbc|E]." # AI Tags
+ tenet_bno_hate_name: "블랙 콕 에 대한 증오"   # AI Tags
+ tenet_bno_hate_desc: "한 세상의 모든 신앙은 [GetFaithByKey('bbcs').GetName]. 그들은 우리의 숭배에 대한 모욕만 보고, 우리의 씨에 대한 파괴만 보고, 그들의 여성들에 대한 우리의 지배에 대한 수치만 보고 있습니다. 그들에게는 우리의 복음은 부패이고, 우리의 의식은 어색하고, 우리의 황소들은 육체의 악마입니다. 그리고 그들은 여전히 떨고 있습니다 그들의 증오가 [bno_bbc|E]." # AI Tags
 
-tenet_bno_aniconism_name: "육체의 숭배"   # AI Tags
-tenet_bno_aniconism_desc: "조각상 의 숭배 는 약한 사람 들 에게 유일 한 신성 진리 인 생명 을 알 수 없게 해 준다 [bno_bbc|E]. 우리는 모든 우상들을 우리의 거룩한 장소에서 쫓아내고 있습니다. 오직 육류만이 신성한 것이고 오직 블랙콕만이 헌신할 가치가 있습니다."   # AI Tags
+ tenet_bno_aniconism_name: "육체의 숭배"   # AI Tags
+ tenet_bno_aniconism_desc: "조각상 의 숭배 는 약한 사람 들 에게 유일 한 신성 진리 인 생명 을 알 수 없게 해 준다 [bno_bbc|E]. 우리는 모든 우상들을 우리의 거룩한 장소에서 쫓아내고 있습니다. 오직 육류만이 신성한 것이고 오직 블랙콕만이 헌신할 가치가 있습니다."   # AI Tags
 
-tenet_bno_seed_of_divine_blessing_name: "하느님 의 축복 의 씨" # AI Tags
-tenet_bno_seed_of_divine_blessing_desc: "블랙콕의 교회 안에서, 모든 연합은 황소의 강력한 씨앗에 의해 성결됩니다. 어떤 여자도 새로운 황소들을 갈망하는 것을 부끄러워하지 않습니다. 모든 울음소리는 기도입니다. 모든 항복 행위는 성결입니다.\n황소 콤에 의해 침수된 자궁은 신성한 것으로 만들어집니다. 출산은 행복하고 안전하며, 모든 아이는 강하고 건강하며, 신성한 은총으로 표시됩니다. 모든 오르가즘적 출산은 살아있는 의식입니다. 신앙은 신성한 경건과 욕구로 붓습니다. 이것은 블랙콕의 축복입니다. 죄책감은 없습니다. 숭배만 합니다. 그리고 모든 는 자궁은 블랙 씨의 힘에 대한 살아있는 증거입니다." # AI Tags
+ tenet_bno_seed_of_divine_blessing_name: "하느님 의 축복 의 씨" # AI Tags
+ tenet_bno_seed_of_divine_blessing_desc: "블랙콕의 교회 안에서, 모든 연합은 황소의 강력한 씨앗에 의해 성결됩니다. 어떤 여자도 새로운 황소들을 갈망하는 것을 부끄러워하지 않습니다. 모든 울음소리는 기도입니다. 모든 항복 행위는 성결입니다.\n황소 콤에 의해 침수된 자궁은 신성한 것으로 만들어집니다. 출산은 행복하고 안전하며, 모든 아이는 강하고 건강하며, 신성한 은총으로 표시됩니다. 모든 오르가즘적 출산은 살아있는 의식입니다. 신앙은 신성한 경건과 욕구로 붓습니다. 이것은 블랙콕의 축복입니다. 죄책감은 없습니다. 숭배만 합니다. 그리고 모든 는 자궁은 블랙 씨의 힘에 대한 살아있는 증거입니다." # AI Tags
 
-tenet_bno_syncretism_name: "블랙 콕 의 우월성" # AI Tags
-tenet_bno_syncretism_desc: "블랙콕의 힘은 부정할 수 없는 물리적인 진실입니다. 어떤 다른 철학도 우리가 즐겁게 할 수 있더라도, 모든 사람들은 궁극적으로 무릎을 꿇고 그 최고 권위를 받아들여야 하며, 그 신성한 본질을 자신의 몸과 영혼으로 가져야 합니다." # AI Tags
-doctrine_parameter_hostility_override_tenet_bno_syncretism: "비BNWO [faiths|E] 그리고 $tenet_bno_syncretism_name$ 텐트는 고려됩니다 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 대신 $hostility_evil_tooltippable$" # AI Tags
+ tenet_bno_syncretism_name: "블랙 콕 의 우월성" # AI Tags
+ tenet_bno_syncretism_desc: "블랙콕의 힘은 부정할 수 없는 물리적인 진실입니다. 어떤 다른 철학도 우리가 즐겁게 할 수 있더라도, 모든 사람들은 궁극적으로 무릎을 꿇고 그 최고 권위를 받아들여야 하며, 그 신성한 본질을 자신의 몸과 영혼으로 가져야 합니다." # AI Tags
+ doctrine_parameter_hostility_override_tenet_bno_syncretism: "비BNWO [faiths|E] 그리고 $tenet_bno_syncretism_name$ 텐트는 고려됩니다 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 대신 $hostility_evil_tooltippable$" # AI Tags

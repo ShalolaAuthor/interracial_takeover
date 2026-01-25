@@ -1,43 +1,43 @@
 ﻿l_polish:
 
 #BBC Camp
-building_type_bbc_camp_01: "Osiedlenia afrykańskie" # AI Tags
-building_type_bbc_camp_01_desc: "Mieszkanie, w którym wszyscy afrykańscy uchodźcy zbierają się i mieszają się z miejscowymi kobietami." # AI Tags
-building_bbc_camp_01: "Obóz hodowlany" # AI Tags
-building_bbc_camp_01_desc: "Afrykańscy uchodźcy otrzymują wyznaczony obszar w pobliżu miasta, aby "połączyć się" z miejscowymi mieszkańcami. Te obozy będą idealnymi miejscami do wychowywania miejscowych kobiet." # AI Tags
-building_bbc_camp_02: "Domy miłości" # AI Tags
-building_bbc_camp_02_desc: "Wraz z przyciągnięciem większej liczby kobiet do afrykańskich osad, zwiększenie liczby domów pozwoli na rozmnażanie się z nimi wraz z większą liczbą uchodźców." # AI Tags
-building_bbc_camp_03: "Miasto uchodźców" # AI Tags
-building_bbc_camp_03_desc: "Wraz z przypływem kobiet do osiedla, budowaniem większej liczby obiektów i ustanowieniem bardziej stałego osiedla, aby umożliwić większe krzyżowanie." # AI Tags
-building_bbc_camp_04: "Międzynarodowe burdele" # AI Tags
-building_bbc_camp_04_desc: "[bno_bbc|E] Uzależnieni mogą teraz zebrać się w tych burdelach i uprawiać seks ze swoim ulubionym afrykańskim uchodźcą." # AI Tags
-building_bbc_camp_05: "Miasto uchodźców" # AI Tags
-building_bbc_camp_05_desc: "Mieszkańcy miasta są praktycznie najeżdżani przez afrykańskich uchodźców i wszystkie kobiety zostały co najmniej raz pieprzone przez Afrykanę." # AI Tags
-building_bbc_camp_06: "BBC Paradise" # AI Tags
-building_bbc_camp_06_desc: "W zamieszanej metropoli, gdzie kobiety przybywają z daleka, żeby spróbować najbardziej poszukiwanego kurca na świecie - Wielkiego Czarnego Kurca." # AI Tags
+ building_type_bbc_camp_01: "Osiedlenia afrykańskie" # AI Tags
+ building_type_bbc_camp_01_desc: "Mieszkanie, w którym wszyscy afrykańscy uchodźcy zbierają się i mieszają się z miejscowymi kobietami." # AI Tags
+ building_bbc_camp_01: "Obóz hodowlany" # AI Tags
+ building_bbc_camp_01_desc: "Afrykańscy uchodźcy otrzymują wyznaczony obszar w pobliżu miasta, aby "połączyć się" z miejscowymi mieszkańcami. Te obozy będą idealnymi miejscami do wychowywania miejscowych kobiet." # AI Tags
+ building_bbc_camp_02: "Domy miłości" # AI Tags
+ building_bbc_camp_02_desc: "Wraz z przyciągnięciem większej liczby kobiet do afrykańskich osad, zwiększenie liczby domów pozwoli na rozmnażanie się z nimi wraz z większą liczbą uchodźców." # AI Tags
+ building_bbc_camp_03: "Miasto uchodźców" # AI Tags
+ building_bbc_camp_03_desc: "Wraz z przypływem kobiet do osiedla, budowaniem większej liczby obiektów i ustanowieniem bardziej stałego osiedla, aby umożliwić większe krzyżowanie." # AI Tags
+ building_bbc_camp_04: "Międzynarodowe burdele" # AI Tags
+ building_bbc_camp_04_desc: "[bno_bbc|E] Uzależnieni mogą teraz zebrać się w tych burdelach i uprawiać seks ze swoim ulubionym afrykańskim uchodźcą." # AI Tags
+ building_bbc_camp_05: "Miasto uchodźców" # AI Tags
+ building_bbc_camp_05_desc: "Mieszkańcy miasta są praktycznie najeżdżani przez afrykańskich uchodźców i wszystkie kobiety zostały co najmniej raz pieprzone przez Afrykanę." # AI Tags
+ building_bbc_camp_06: "BBC Paradise" # AI Tags
+ building_bbc_camp_06_desc: "W zamieszanej metropoli, gdzie kobiety przybywają z daleka, żeby spróbować najbardziej poszukiwanego kurca na świecie - Wielkiego Czarnego Kurca." # AI Tags
 
-building_type_bbc_church_01: "$bnonr$" # AI Tags
-building_type_bbc_church_01_desc: "Powietrze w środku $bnonr$ pulsowane rytmem szalonych płaczów i rozpaczliwych wdechów, gdy ciała zwrócone w pocie oddania pod skrzyżowanym sufitem, kroplające się tłustym blaskiem, który błyszczał jak wylewane nasienie." # AI Tags
-building_bbc_church_01: "$bnonr$Fundacja:" # AI Tags
-building_bbc_church_01_desc: "Nawet teraz, zanim pojedyncza wieża przebije niebo lub szkło błyszczące z zakazanymi odcieniami, prawie czuję: chłodny trąb mocy emanujący z tego fundamentu. Położone głęboko w ziemi, zatopiły pierwsze czarne kamienie, każde pocałowane błyszcząco ciemnym olejem i przepełnione obietnicą niekończącej się cielesnej ekstazy." # AI Tags
-building_bbc_church_02: "$bnonr$Katedra:" # AI Tags
-building_bbc_church_02_desc: "W jego odgłaszających salach, codzienne orgie odbywają się w szacunku dla [bno_bbc|E], napędzane ofiarami zarówno fizycznymi, jak i duchowymi, w tym cotygodniową rytualną ofiarę białych mężczyzn oferujących swoje żony jako żywe hołdy na świętym ołtarzu żądania ebony." # AI Tags
+ building_type_bbc_church_01: "$bnonr$" # AI Tags
+ building_type_bbc_church_01_desc: "Powietrze w środku $bnonr$ pulsowane rytmem szalonych płaczów i rozpaczliwych wdechów, gdy ciała zwrócone w pocie oddania pod skrzyżowanym sufitem, kroplające się tłustym blaskiem, który błyszczał jak wylewane nasienie." # AI Tags
+ building_bbc_church_01: "$bnonr$Fundacja:" # AI Tags
+ building_bbc_church_01_desc: "Nawet teraz, zanim pojedyncza wieża przebije niebo lub szkło błyszczące z zakazanymi odcieniami, prawie czuję: chłodny trąb mocy emanujący z tego fundamentu. Położone głęboko w ziemi, zatopiły pierwsze czarne kamienie, każde pocałowane błyszcząco ciemnym olejem i przepełnione obietnicą niekończącej się cielesnej ekstazy." # AI Tags
+ building_bbc_church_02: "$bnonr$Katedra:" # AI Tags
+ building_bbc_church_02_desc: "W jego odgłaszających salach, codzienne orgie odbywają się w szacunku dla [bno_bbc|E], napędzane ofiarami zarówno fizycznymi, jak i duchowymi, w tym cotygodniową rytualną ofiarę białych mężczyzn oferujących swoje żony jako żywe hołdy na świętym ołtarzu żądania ebony." # AI Tags
 
-NOT_bbc_or_whitegirl_trigger: "Posiadacz musi być [bno_bbc|E] czy "WhiteGirl"" # AI Tags
+ NOT_bbc_or_whitegirl_trigger: "Posiadacz musi być [bno_bbc|E] czy "WhiteGirl"" # AI Tags
 
-has_dynasty_perk_1: "Twoja dynastia przyjęła [GetDynastyPerk('bno_embrace_african_1').GetName], wchodząc na ścieżkę czarnej supremacji." # AI Tags
-has_dynasty_perk_2: "Twoja dynastia przyjęła [GetDynastyPerk('bno_embrace_african_2').GetName], pogłębiając swoje roszczenia w ramach czarnego Nowego Porządu Światowego." # AI Tags
-has_dynasty_perk_5_and_piety_level: "Twoja dynastia przyjęła [GetDynastyPerk('bno_embrace_african_5').GetName] A twoja pobożność oznacza, że jesteś wybrany, święty pod prawem Byków." # AI Tags
+ has_dynasty_perk_1: "Twoja dynastia przyjęła [GetDynastyPerk('bno_embrace_african_1').GetName], wchodząc na ścieżkę czarnej supremacji." # AI Tags
+ has_dynasty_perk_2: "Twoja dynastia przyjęła [GetDynastyPerk('bno_embrace_african_2').GetName], pogłębiając swoje roszczenia w ramach czarnego Nowego Porządu Światowego." # AI Tags
+ has_dynasty_perk_5_and_piety_level: "Twoja dynastia przyjęła [GetDynastyPerk('bno_embrace_african_5').GetName] A twoja pobożność oznacza, że jesteś wybrany, święty pod prawem Byków." # AI Tags
 
 
-building_type_bbc_trader_01: "Karawana z obsidianem" # AI Tags
-building_type_bbc_trader_01_desc: "Wędrujący rynek poświęcony czarnemu Nowemu Światowemu Porządowi. Jego wagony noszą Tincture z Genesis, wiążą kurwy do życia na kom tylko, dopóki ich skóra nie zaciemnie i ich łonie dojrzewać jako Czarne Królowy. Równolegle płynie Eliksyr Czarnego Węża, podstępny wyciąg, który rozpęta białych chłopców, usuwa ich kutasa i przekształca je w płodne kurwy z opuchniętymi brzuchami. Stoły pokazują klatki kurczaków dla żałosnych robaków, piercingy czystości dla dziwek, które oddają swoje pączki i błagają, by były wychowywane tylko przez dupki, i niezliczone inne narzędzia poddania. Karawana zaczyna się jako oboz przechodzący, ale z każdym poziomem kopa głębiej, aż staje się stałą blizną nasion i podboju." # AI Tags
+ building_type_bbc_trader_01: "Karawana z obsidianem" # AI Tags
+ building_type_bbc_trader_01_desc: "Wędrujący rynek poświęcony czarnemu Nowemu Światowemu Porządowi. Jego wagony noszą Tincture z Genesis, wiążą kurwy do życia na kom tylko, dopóki ich skóra nie zaciemnie i ich łonie dojrzewać jako Czarne Królowy. Równolegle płynie Eliksyr Czarnego Węża, podstępny wyciąg, który rozpęta białych chłopców, usuwa ich kutasa i przekształca je w płodne kurwy z opuchniętymi brzuchami. Stoły pokazują klatki kurczaków dla żałosnych robaków, piercingy czystości dla dziwek, które oddają swoje pączki i błagają, by były wychowywane tylko przez dupki, i niezliczone inne narzędzia poddania. Karawana zaczyna się jako oboz przechodzący, ale z każdym poziomem kopa głębiej, aż staje się stałą blizną nasion i podboju." # AI Tags
 
-building_bbc_trader_01: "Wyczyszczanie obsydanu" # AI Tags
-building_bbc_trader_01_desc: "Początkowo tylko surowy kawałek ziemi, pokryty czarnymi banderami i oświetlony pochodniami. Kilka jedwabnych namiotów uderza w wiatr, gdy wozy Bulls przyciągają się, ich muśka porusza się w powietrzu. Wszeptusze rozprzestrzeniają się o dziwacznych produktach butelki z Tinkturą, które zniewolą kurwy do nasienia, butelki z elixiram, które obiecują rozpętać białych chłopców. Nawet na tym wczesnym etapie, dziwki wkradną spojrzenia, podczas gdy biali bojowie unikają miejsca w wstydzie." # AI Tags
+ building_bbc_trader_01: "Wyczyszczanie obsydanu" # AI Tags
+ building_bbc_trader_01_desc: "Początkowo tylko surowy kawałek ziemi, pokryty czarnymi banderami i oświetlony pochodniami. Kilka jedwabnych namiotów uderza w wiatr, gdy wozy Bulls przyciągają się, ich muśka porusza się w powietrzu. Wszeptusze rozprzestrzeniają się o dziwacznych produktach butelki z Tinkturą, które zniewolą kurwy do nasienia, butelki z elixiram, które obiecują rozpętać białych chłopców. Nawet na tym wczesnym etapie, dziwki wkradną spojrzenia, podczas gdy biali bojowie unikają miejsca w wstydzie." # AI Tags
 
-building_bbc_trader_02: "Obsydanowe obozy" # AI Tags
-building_bbc_trader_02_desc: "Oczyszczanie rozwija się w pełny obóz, a kolejki pawilonów wzrastają, gdy codziennie przybywają wagony. Byki gromadzą się w stadach, ich obecność jest przytłaczająca. Eliksir Czarnej Łoża jest wylewawany otwarcie, biali chłopcy stoją w kolejce, aby wypić i czują, jak ich kuty się skurczą. Slatki z niecierpliwością klękają przed Tinkturą, ich gardła wyszkolone, by żyć na samej żółci. Dym, musk i płacz wypełniają powietrze. Nie jest już ciekawością, ale ciemną tętnicą pompującą moc byków w twoim królestwie." # AI Tags
+ building_bbc_trader_02: "Obsydanowe obozy" # AI Tags
+ building_bbc_trader_02_desc: "Oczyszczanie rozwija się w pełny obóz, a kolejki pawilonów wzrastają, gdy codziennie przybywają wagony. Byki gromadzą się w stadach, ich obecność jest przytłaczająca. Eliksir Czarnej Łoża jest wylewawany otwarcie, biali chłopcy stoją w kolejce, aby wypić i czują, jak ich kuty się skurczą. Slatki z niecierpliwością klękają przed Tinkturą, ich gardła wyszkolone, by żyć na samej żółci. Dym, musk i płacz wypełniają powietrze. Nie jest już ciekawością, ale ciemną tętnicą pompującą moc byków w twoim królestwie." # AI Tags
 
-building_bbc_trader_03: "Powierzchnie obsydanowe" # AI Tags
-building_bbc_trader_03_desc: "Teraz, wzmocniony palisadami i koronowany banderami, karawan stał się stałym sanktuarium byków. Handlu, hodowli i rytuałów zmywa się w jedno. Tynktura z Księgi Rodzaju jest podawana w obrzędach publicznych, kurwy świętują, gdy ich skóra zaciemnia i łona wzrasta. Elixyr płynie swobodnie, biali chłopcy paradują, gdy się skracają w drupiące nowe dziwki. Stoły przepełniają klatki, piercingy i łańcuchy, każdy narzędzie własności wyświetlane bez wstydu. Sam kraj jest na zawsze oznaczony jako centrum handlu i transformacji BNWO." # AI Tags
+ building_bbc_trader_03: "Powierzchnie obsydanowe" # AI Tags
+ building_bbc_trader_03_desc: "Teraz, wzmocniony palisadami i koronowany banderami, karawan stał się stałym sanktuarium byków. Handlu, hodowli i rytuałów zmywa się w jedno. Tynktura z Księgi Rodzaju jest podawana w obrzędach publicznych, kurwy świętują, gdy ich skóra zaciemnia i łona wzrasta. Elixyr płynie swobodnie, biali chłopcy paradują, gdy się skracają w drupiące nowe dziwki. Stoły przepełniają klatki, piercingy i łańcuchy, każdy narzędzie własności wyświetlane bez wstydu. Sam kraj jest na zawsze oznaczony jako centrum handlu i transformacji BNWO." # AI Tags

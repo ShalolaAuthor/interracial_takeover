@@ -1,101 +1,101 @@
 ﻿l_french:
 
 # Religious Descriptors
-bnonr: "Église de la Coq Noire" # AI Tags
-bnonr_adj: "Suprémaciste noir" # AI Tags
-bnonr_religion: "Église de la Coq Noire" # AI Tags
-bnonr_religion_adj: "Suprémaciste noir" # AI Tags
-bnonr_religion_adherent: "Suprémaciste noir" # AI Tags
-bnonr_religion_adherent_plural: "Suprémacistes noirs" # AI Tags
-bnonr_religion_desc: "Les suprématistes croient que tout le monde devrait se prosterner devant la race supérieure." # AI Tags
-bbcs_god_name: "N'daba" # AI Tags
-bbcs_god_name_2: "Azani" # AI Tags
-bbcs_god_name_3: "Osée" # AI Tags
-bbcs_god_name_possessive: "$bbcs_god_name$C'" # AI Tags
-bbcs_high_god_name_alternate: "Mon Dieu" # AI Tags
-bbcs_high_god_name_alternate_possessive: "$bbcs_high_god_name_alternate$C'" # AI Tags
-bbcs_devil_name: "Ashantee" # AI Tags
-bbcs_devil_name_possessive: "$bbcs_devil_name$C'" # AI Tags
-bbcs_evil_god_name_1: "Kweku" # AI Tags
-bbcs_evil_god_name_2: "Mféro" # AI Tags
-bbcs_evil_god_name_3: "Nyami Nyami" # AI Tags
-bbcs_house_of_worship_1: "Maison de l'Ecstasy" # AI Tags
-bbcs_house_of_worship_2: "Le Temple de la Bloom Noire" # AI Tags
-bbcs_house_of_worship_3: "L'autel de l'ébène" # AI Tags
-bbcs_house_of_worship_plural: "Maisons d'Ecstasy" # AI Tags
-bbcs_religious_symbol_1: "Les trois sœurs" # AI Tags
-bbcs_religious_symbol_2: "Le Rod Obsidien" # AI Tags
-bbcs_religious_symbol_3: "La Rose Noire Blooming" # AI Tags
-bbcs_religious_text_1: "Les Écritures ébènes" # AI Tags
-bbcs_religious_text_2: "Le Nectar du Désir" # AI Tags
-bbcs_religious_text_3: "L'aphrodisie : le cycle sacré" # AI Tags
-bbcs_religious_head_title: "Grand tisserand d'Ecstasy" # AI Tags
-bbcs_male_devotee: "Échelle" # AI Tags
-bbcs_male_devotee_plural: "$bbcs_male_devotee$à" # AI Tags
-bbcs_female_devotee: "Nymphe" # AI Tags
-bbcs_female_devotee_plural: "$bbcs_female_devotee$à" # AI Tags
-bbcs_neutered_devotee: "Laiterie" # AI Tags
-bbcs_neutered_devotee_plural: "$bbcs_neutered_devotee$à" # AI Tags
-bbcs_male_priest: "Échelle élevée" # AI Tags
-bbcs_male_priest_plural: "$bbcs_male_priest$à" # AI Tags
-bbcs_female_priest: "Prêtresse Nymphe" # AI Tags
-bbcs_female_priest_plural: "$bbcs_female_priest$à l'" # AI Tags
-bbcs_neutered_priest: "Porteur de semences" # AI Tags
-bbcs_neutered_priest_plural: "$bbcs_neutered_priest$à" # AI Tags
-bbcs_alt_priest: "Gardien des graines de lune" # AI Tags
-bbcs_alt_priest_plural: "$bbcs_alt_priest$à" # AI Tags
-bbcs_male_bishop: "Le Hiérophante des Noirs" # AI Tags
-bbcs_male_bishop_plural: "$bbcs_male_bishop$à" # AI Tags
-bbcs_female_bishop: "Maîtresse Acolyte Noire" # AI Tags
-bbcs_female_bishop_plural: "$bbcs_female_bishop$à l'" # AI Tags
-bbcs_neutered_bishop: "Porte-semences d'ivoire" # AI Tags
-bbcs_neutered_bishop_plural: "$bbcs_neutered_bishop$à" # AI Tags
-bbcs_positive_afterlife_1: "L'Ébène Grove" # AI Tags
-bbcs_positive_afterlife_2: "L'Éternel Coït" # AI Tags
-bbcs_positive_afterlife_3: "Le Jardin du Plaisir sans fin" # AI Tags
-bbcs_negative_afterlife_1: "Le Jardin Parché des Thorns" # AI Tags
-bbcs_negative_afterlife_2: "Le Labyrinthe de la Lust Perpétuelle" # AI Tags
-bbcs_negative_afterlife_3: "Le Royaume de l'esclavage éternel" # AI Tags
-bbcs_death_deity_name: "Yemoja" # AI Tags
-bbcs_death_deity_name_possessive: "$bbcs_death_deity_name$C'" # AI Tags
-bbcs_witch_god_name: "Aisha" # AI Tags
-bbcs_witch_god_name_possessive: "$bbcs_witch_god_name$C'" # AI Tags
-bbcs_ghw: "Adinkra" # AI Tags
-bbcs_ghws: "$bbcs_ghw$à" # AI Tags
+ bnonr: "Église de la Coq Noire" # AI Tags
+ bnonr_adj: "Suprémaciste noir" # AI Tags
+ bnonr_religion: "Église de la Coq Noire" # AI Tags
+ bnonr_religion_adj: "Suprémaciste noir" # AI Tags
+ bnonr_religion_adherent: "Suprémaciste noir" # AI Tags
+ bnonr_religion_adherent_plural: "Suprémacistes noirs" # AI Tags
+ bnonr_religion_desc: "Les suprématistes croient que tout le monde devrait se prosterner devant la race supérieure." # AI Tags
+ bbcs_god_name: "N'daba" # AI Tags
+ bbcs_god_name_2: "Azani" # AI Tags
+ bbcs_god_name_3: "Osée" # AI Tags
+ bbcs_god_name_possessive: "$bbcs_god_name$C'" # AI Tags
+ bbcs_high_god_name_alternate: "Mon Dieu" # AI Tags
+ bbcs_high_god_name_alternate_possessive: "$bbcs_high_god_name_alternate$C'" # AI Tags
+ bbcs_devil_name: "Ashantee" # AI Tags
+ bbcs_devil_name_possessive: "$bbcs_devil_name$C'" # AI Tags
+ bbcs_evil_god_name_1: "Kweku" # AI Tags
+ bbcs_evil_god_name_2: "Mféro" # AI Tags
+ bbcs_evil_god_name_3: "Nyami Nyami" # AI Tags
+ bbcs_house_of_worship_1: "Maison de l'Ecstasy" # AI Tags
+ bbcs_house_of_worship_2: "Le Temple de la Bloom Noire" # AI Tags
+ bbcs_house_of_worship_3: "L'autel de l'ébène" # AI Tags
+ bbcs_house_of_worship_plural: "Maisons d'Ecstasy" # AI Tags
+ bbcs_religious_symbol_1: "Les trois sœurs" # AI Tags
+ bbcs_religious_symbol_2: "Le Rod Obsidien" # AI Tags
+ bbcs_religious_symbol_3: "La Rose Noire Blooming" # AI Tags
+ bbcs_religious_text_1: "Les Écritures ébènes" # AI Tags
+ bbcs_religious_text_2: "Le Nectar du Désir" # AI Tags
+ bbcs_religious_text_3: "L'aphrodisie : le cycle sacré" # AI Tags
+ bbcs_religious_head_title: "Grand tisserand d'Ecstasy" # AI Tags
+ bbcs_male_devotee: "Échelle" # AI Tags
+ bbcs_male_devotee_plural: "$bbcs_male_devotee$à" # AI Tags
+ bbcs_female_devotee: "Nymphe" # AI Tags
+ bbcs_female_devotee_plural: "$bbcs_female_devotee$à" # AI Tags
+ bbcs_neutered_devotee: "Laiterie" # AI Tags
+ bbcs_neutered_devotee_plural: "$bbcs_neutered_devotee$à" # AI Tags
+ bbcs_male_priest: "Échelle élevée" # AI Tags
+ bbcs_male_priest_plural: "$bbcs_male_priest$à" # AI Tags
+ bbcs_female_priest: "Prêtresse Nymphe" # AI Tags
+ bbcs_female_priest_plural: "$bbcs_female_priest$à l'" # AI Tags
+ bbcs_neutered_priest: "Porteur de semences" # AI Tags
+ bbcs_neutered_priest_plural: "$bbcs_neutered_priest$à" # AI Tags
+ bbcs_alt_priest: "Gardien des graines de lune" # AI Tags
+ bbcs_alt_priest_plural: "$bbcs_alt_priest$à" # AI Tags
+ bbcs_male_bishop: "Le Hiérophante des Noirs" # AI Tags
+ bbcs_male_bishop_plural: "$bbcs_male_bishop$à" # AI Tags
+ bbcs_female_bishop: "Maîtresse Acolyte Noire" # AI Tags
+ bbcs_female_bishop_plural: "$bbcs_female_bishop$à l'" # AI Tags
+ bbcs_neutered_bishop: "Porte-semences d'ivoire" # AI Tags
+ bbcs_neutered_bishop_plural: "$bbcs_neutered_bishop$à" # AI Tags
+ bbcs_positive_afterlife_1: "L'Ébène Grove" # AI Tags
+ bbcs_positive_afterlife_2: "L'Éternel Coït" # AI Tags
+ bbcs_positive_afterlife_3: "Le Jardin du Plaisir sans fin" # AI Tags
+ bbcs_negative_afterlife_1: "Le Jardin Parché des Thorns" # AI Tags
+ bbcs_negative_afterlife_2: "Le Labyrinthe de la Lust Perpétuelle" # AI Tags
+ bbcs_negative_afterlife_3: "Le Royaume de l'esclavage éternel" # AI Tags
+ bbcs_death_deity_name: "Yemoja" # AI Tags
+ bbcs_death_deity_name_possessive: "$bbcs_death_deity_name$C'" # AI Tags
+ bbcs_witch_god_name: "Aisha" # AI Tags
+ bbcs_witch_god_name_possessive: "$bbcs_witch_god_name$C'" # AI Tags
+ bbcs_ghw: "Adinkra" # AI Tags
+ bbcs_ghws: "$bbcs_ghw$à" # AI Tags
 
 
-bbcs: "Église de la Coq Noire" # AI Tags
-bbcs_adj: "Suprémaciste noir" # AI Tags
-bbcs_adherent: "Suprémaciste noir" # AI Tags
-bbcs_adherent_plural: "Suprémacistes noirs" # AI Tags
-bbcs_desc: "Les suprématistes croient que tout le monde devrait se prosterner devant la race supérieure." # AI Tags
+ bbcs: "Église de la Coq Noire" # AI Tags
+ bbcs_adj: "Suprémaciste noir" # AI Tags
+ bbcs_adherent: "Suprémaciste noir" # AI Tags
+ bbcs_adherent_plural: "Suprémacistes noirs" # AI Tags
+ bbcs_desc: "Les suprématistes croient que tout le monde devrait se prosterner devant la race supérieure." # AI Tags
 
-bbcs_old: "Église de la Coq Noire" # AI Tags
-bbcs_old_adj: "Suprémaciste noir" # AI Tags
-bbcs_old_adherent: "Suprémaciste noir" # AI Tags
-bbcs_old_adherent_plural: "Suprémacistes noirs" # AI Tags
+ bbcs_old: "Église de la Coq Noire" # AI Tags
+ bbcs_old_adj: "Suprémaciste noir" # AI Tags
+ bbcs_old_adherent: "Suprémaciste noir" # AI Tags
+ bbcs_old_adherent_plural: "Suprémacistes noirs" # AI Tags
 
 
 # Holy Order Names
-bnoho1: "Ordre des Dieux Noirs" # AI Tags
-bnoho2: "La peste noire" # AI Tags
-bnoho3: "Chevaliers du Ghana" # AI Tags
-bnoho4: "Invaders maliens" # AI Tags
-bnoho5: "La Troupe de Conversion" # AI Tags
+ bnoho1: "Ordre des Dieux Noirs" # AI Tags
+ bnoho2: "La peste noire" # AI Tags
+ bnoho3: "Chevaliers du Ghana" # AI Tags
+ bnoho4: "Invaders maliens" # AI Tags
+ bnoho5: "La Troupe de Conversion" # AI Tags
 
 # Conversion Decision
-convert: "Convertissez-vous en Adorant des hommes plus sombres" # AI Tags
-convert_desc: "Les bites noires, c'est tout ce que tu peux penser, chérie. Pourquoi ne pas céder à une race supérieure, et en faire vos dieux?" # AI Tags
-convert_tooltip: "Tu réfléchis à la bite noire et charnue…" # AI Tags
-convert_confirm: "Tu te dédies à la louange [bno_bbc|E]" # AI Tags
-convert_effect_1: "Vous vous convertirez à la [bno_religion|E]" # AI Tags
+ convert: "Convertissez-vous en Adorant des hommes plus sombres" # AI Tags
+ convert_desc: "Les bites noires, c'est tout ce que tu peux penser, chérie. Pourquoi ne pas céder à une race supérieure, et en faire vos dieux?" # AI Tags
+ convert_tooltip: "Tu réfléchis à la bite noire et charnue…" # AI Tags
+ convert_confirm: "Tu te dédies à la louange [bno_bbc|E]" # AI Tags
+ convert_effect_1: "Vous vous convertirez à la [bno_religion|E]" # AI Tags
 
-rf_bbcs: "Aphrodiasme" # AI Tags
-rf_bbcs_desc: "$rf_bbcs$ est une tapisserie vibrante de traditions centrées sur les Noirs tissées par le culte extatique, la magie puissante, et la croyance inébranlable que le salut blanc réside dans le fait d'être remplies par la puissance de la semence noire." # AI Tags
+ rf_bbcs: "Aphrodiasme" # AI Tags
+ rf_bbcs_desc: "$rf_bbcs$ est une tapisserie vibrante de traditions centrées sur les Noirs tissées par le culte extatique, la magie puissante, et la croyance inébranlable que le salut blanc réside dans le fait d'être remplies par la puissance de la semence noire." # AI Tags
 
-bnonr_religion_opinion: "$bnonr_religion_adherent$ Avis" # AI Tags
+ bnonr_religion_opinion: "$bnonr_religion_adherent$ Avis" # AI Tags
 
-doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "Considère que le BNWO est aligné sur le BNWO [faiths|E], et est considéré par BNWO-aligné $game_concept_faiths$, pour être [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] au lieu de $hostility_evil_tooltippable$" # AI Tags
-doctrine_parameter_can_use_bno_artefacts: "Peut utiliser BNWO [artifacts|E] au bénéfice intégral" # AI Tags
-doctrine_parameter_bno_syncretic_actor_opinion_active: "Mutuelle [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus avec BNWO-aligné [faiths|E]" # AI Tags
-doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: "" # AI Tags
+ doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "Considère que le BNWO est aligné sur le BNWO [faiths|E], et est considéré par BNWO-aligné $game_concept_faiths$, pour être [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] au lieu de $hostility_evil_tooltippable$" # AI Tags
+ doctrine_parameter_can_use_bno_artefacts: "Peut utiliser BNWO [artifacts|E] au bénéfice intégral" # AI Tags
+ doctrine_parameter_bno_syncretic_actor_opinion_active: "Mutuelle [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus avec BNWO-aligné [faiths|E]" # AI Tags
+ doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: "" # AI Tags

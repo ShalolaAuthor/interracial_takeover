@@ -1,17 +1,17 @@
 ﻿l_japanese:
 #sneak bbc interaction
-sneak_bbc: "黒い牛をひっくり返す" # AI Tags
-sneak_bbc_desc: "送る [bno_bbcs|E] あなたの裁判所から 別の支配者のホールへ."   # AI Tags
-actor_secondary_sneak_bbc: "ブラックボウル" # AI Tags
-BBC_cg_spy_reason: "宮廷官やゲストは 秘密裏に [bno_bbc|E]: #color_green +5#!"   # AI Tags
-BBC_family_spy_reason: "家族の一人が助けをくれる [bno_bbc|E]: #color_green +10#!"   # AI Tags
-BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! 興味がある [bno_bbc|E]: #color_green +10#!"   # AI Tags
-BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! 採取されたこと [bno_bbc|E]: #color_green +25#!"   # AI Tags
-BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! 崇拝 [bno_bbc|E]: #color_green +50#!"   # AI Tags
-BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! オープンに歓迎する [bno_bbc|E]: #color_green +50#!"   # AI Tags
-sneak_bbc.has_bbc_in_court: "あなたは少なくとも2を持っている必要があります [bno_bbc|E] あなたの裁判所で 送る."   # AI Tags
-sneak_bbc.already_has_bbc_in_court: "裁判所の売春婦は既に ブルースに詰まってる もう1人送る必要がない."   # AI Tags
-sneak_bbc.not_enough_of_a_slut: "まだ売春婦じゃないの. 真実だけ [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] もしくはもっと悪いなら 牛を裁判所の間を 密輸するぞ."   # AI Tags
+ sneak_bbc: "黒い牛をひっくり返す" # AI Tags
+ sneak_bbc_desc: "送る [bno_bbcs|E] あなたの裁判所から 別の支配者のホールへ."   # AI Tags
+ actor_secondary_sneak_bbc: "ブラックボウル" # AI Tags
+ BBC_cg_spy_reason: "宮廷官やゲストは 秘密裏に [bno_bbc|E]: #color_green +5#!"   # AI Tags
+ BBC_family_spy_reason: "家族の一人が助けをくれる [bno_bbc|E]: #color_green +10#!"   # AI Tags
+ BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! 興味がある [bno_bbc|E]: #color_green +10#!"   # AI Tags
+ BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! 採取されたこと [bno_bbc|E]: #color_green +25#!"   # AI Tags
+ BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! 崇拝 [bno_bbc|E]: #color_green +50#!"   # AI Tags
+ BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! オープンに歓迎する [bno_bbc|E]: #color_green +50#!"   # AI Tags
+ sneak_bbc.has_bbc_in_court: "あなたは少なくとも2を持っている必要があります [bno_bbc|E] あなたの裁判所で 送る."   # AI Tags
+ sneak_bbc.already_has_bbc_in_court: "裁判所の売春婦は既に ブルースに詰まってる もう1人送る必要がない."   # AI Tags
+ sneak_bbc.not_enough_of_a_slut: "まだ売春婦じゃないの. 真実だけ [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] もしくはもっと悪いなら 牛を裁判所の間を 密輸するぞ."   # AI Tags
 #influence child interaction
-bno_influence_child: "好奇心 を 育てる" # AI Tags
-bno_influence_child_desc: "子供 を 真理 に 影響 する" # AI Tags
+ bno_influence_child: "好奇心 を 育てる" # AI Tags
+ bno_influence_child_desc: "子供 を 真理 に 影響 する" # AI Tags

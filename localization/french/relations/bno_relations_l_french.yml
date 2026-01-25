@@ -1,17 +1,17 @@
 ﻿l_french:
 
-bno_slave: "[bno_slave|E]" # AI Tags
-relation_bno_slave: "L'esclave de la BBC" # AI Tags
-relation_bno_slave_possessive: "Les esclaves de la BBC" # AI Tags
+ bno_slave: "[bno_slave|E]" # AI Tags
+ relation_bno_slave: "L'esclave de la BBC" # AI Tags
+ relation_bno_slave_possessive: "Les esclaves de la BBC" # AI Tags
 
-bno_slave_owner: "[bno_slave_owner|E]" # AI Tags
-relation_bno_slave_owner: "Propriétaire de l'esclave" # AI Tags
-relation_bno_slave_owner_possessive: "Propriétaire d'esclaves" # AI Tags
+ bno_slave_owner: "[bno_slave_owner|E]" # AI Tags
+ relation_bno_slave_owner: "Propriétaire de l'esclave" # AI Tags
+ relation_bno_slave_owner_possessive: "Propriétaire d'esclaves" # AI Tags
 
-bno_cum_slave: "[bno_cum_slave|E]" # AI Tags
-relation_bno_cum_slave: "Esclave de cum" # AI Tags
-relation_bno_cum_slave_possessive: "Cum Esclave's" # AI Tags
+ bno_cum_slave: "[bno_cum_slave|E]" # AI Tags
+ relation_bno_cum_slave: "Esclave de cum" # AI Tags
+ relation_bno_cum_slave_possessive: "Cum Esclave's" # AI Tags
 
-bno_cum_slave_owner: "[bno_bull|E]" # AI Tags
-relation_bno_cum_slave_owner: "Taureau" # AI Tags
-relation_bno_cum_slave_owner_possessive: "Chez Bull's" # AI Tags
+ bno_cum_slave_owner: "[bno_bull|E]" # AI Tags
+ relation_bno_cum_slave_owner: "Taureau" # AI Tags
+ relation_bno_cum_slave_owner_possessive: "Chez Bull's" # AI Tags

@@ -1,17 +1,17 @@
 ﻿l_polish:
 
-bno_slave: "[bno_slave|E]" # AI Tags
-relation_bno_slave: "Niewolnik BBC" # AI Tags
-relation_bno_slave_possessive: "Niewolnik BBC" # AI Tags
+ bno_slave: "[bno_slave|E]" # AI Tags
+ relation_bno_slave: "Niewolnik BBC" # AI Tags
+ relation_bno_slave_possessive: "Niewolnik BBC" # AI Tags
 
-bno_slave_owner: "[bno_slave_owner|E]" # AI Tags
-relation_bno_slave_owner: "Właściciel niewolników" # AI Tags
-relation_bno_slave_owner_possessive: "Właściciele niewolników" # AI Tags
+ bno_slave_owner: "[bno_slave_owner|E]" # AI Tags
+ relation_bno_slave_owner: "Właściciel niewolników" # AI Tags
+ relation_bno_slave_owner_possessive: "Właściciele niewolników" # AI Tags
 
-bno_cum_slave: "[bno_cum_slave|E]" # AI Tags
-relation_bno_cum_slave: "Jako niewolnik" # AI Tags
-relation_bno_cum_slave_possessive: "/Cum Slave's" # AI Tags
+ bno_cum_slave: "[bno_cum_slave|E]" # AI Tags
+ relation_bno_cum_slave: "Jako niewolnik" # AI Tags
+ relation_bno_cum_slave_possessive: "/Cum Slave's" # AI Tags
 
-bno_cum_slave_owner: "[bno_bull|E]" # AI Tags
-relation_bno_cum_slave_owner: "Byka" # AI Tags
-relation_bno_cum_slave_owner_possessive: "/Bull's" # AI Tags
+ bno_cum_slave_owner: "[bno_bull|E]" # AI Tags
+ relation_bno_cum_slave_owner: "Byka" # AI Tags
+ relation_bno_cum_slave_owner_possessive: "/Bull's" # AI Tags

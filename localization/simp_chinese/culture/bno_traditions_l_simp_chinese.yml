@@ -1,30 +1,30 @@
 ﻿l_simp_chinese:
 
-tradition_group_bno: "BNWO"
+ tradition_group_bno: "BNWO"
 
-tradition_bno_matriarchy_name: "受种母系"
-tradition_bno_matriarchy_desc: "权力从一个子宫滴落到另一个子宫。王位传给多产的骚货，法律因她们的呻吟而扭曲，军队由宣誓成为“种奴”的女人们组成。女王们的统治只是因为“公牛”们允许——每顶王冠都是项圈，每根权杖都是鸡巴，每场胜利都以白嫩的肉体被掰开肏满而告终。整个国度都被重塑：女人的手掌握法律，女人的屄维系秩序，一切都为黑屌服务。"
+ tradition_bno_matriarchy_name: "受种母系"
+ tradition_bno_matriarchy_desc: "权力从一个子宫滴落到另一个子宫。王位传给多产的骚货，法律因她们的呻吟而扭曲，军队由宣誓成为“种奴”的女人们组成。女王们的统治只是因为“公牛”们允许——每顶王冠都是项圈，每根权杖都是鸡巴，每场胜利都以白嫩的肉体被掰开肏满而告终。整个国度都被重塑：女人的手掌握法律，女人的屄维系秩序，一切都为黑屌服务。"
 
-bno_tradition.curious: "$EFFECT_LIST_BULLET$她的“黑色好奇心”使投降的代价更低，大腿早已渴望着下跪。"
-bno_tradition.blacked: "$EFFECT_LIST_BULLET$一旦被“黑化”，传统会轻易屈服于那些再次渴求“公牛”的肉屄。"
-bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$作为“雪兔”，她会迫不及待地服从，她的饥渴减轻了花费。"
-bno_tradition.qos: "$EFFECT_LIST_BULLET$加冕过的黑桃女皇付出的会更少，她的每条法律早已为肉棒而作。"
-bno_tradition.mindless: "$EFFECT_LIST_BULLET$痴呆流涎，她几乎不计任何代价地屈服，一个被精液塑造的肉屄。"
+ bno_tradition.curious: "$EFFECT_LIST_BULLET$她的“黑色好奇心”使投降的代价更低，大腿早已渴望着下跪。"
+ bno_tradition.blacked: "$EFFECT_LIST_BULLET$一旦被“黑化”，传统会轻易屈服于那些再次渴求“公牛”的肉屄。"
+ bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$作为“雪兔”，她会迫不及待地服从，她的饥渴减轻了花费。"
+ bno_tradition.qos: "$EFFECT_LIST_BULLET$加冕过的黑桃女皇付出的会更少，她的每条法律早已为肉棒而作。"
+ bno_tradition.mindless: "$EFFECT_LIST_BULLET$痴呆流涎，她几乎不计任何代价地屈服，一个被精液塑造的肉屄。"
 
-culture_parameter_unlock_maa_seed_thralls: "可以招募[GetMaA('bno_seed_thralls').GetName]作为[men_at_arms|E]，一群只为了臣服并被公牛育种的白皮母狗。"
+ culture_parameter_unlock_maa_seed_thralls: "可以招募[GetMaA('bno_seed_thralls').GetName]作为[men_at_arms|E]，一群只为了臣服并被公牛育种的白皮母狗。"
 
-tradition_bno_african_hate_name: "公牛之惧"
-tradition_bno_african_hate_desc: "非非裔文化死守着这苦涩的传统，白皮的骄傲扭曲成憎恨。他们唇齿颤抖地议论公牛，憎恶着无法抗拒的诱惑，厌恶着娼妇们仍渴求的欲望。每条律法，每项习俗，都不过是抵挡黑人阳具洪流的脆弱屏障。"
+ tradition_bno_african_hate_name: "公牛之惧"
+ tradition_bno_african_hate_desc: "非非裔文化死守着这苦涩的传统，白皮的骄傲扭曲成憎恨。他们唇齿颤抖地议论公牛，憎恶着无法抗拒的诱惑，厌恶着娼妇们仍渴求的欲望。每条律法，每项习俗，都不过是抵挡黑人阳具洪流的脆弱屏障。"
 
-tradition_bno_the_great_submission_name: "大提交材料" # AI Tags
-tradition_bno_the_great_submission_desc: "我们的人民终于接受了美丽、残酷的真理:我们的目的是跪下。. 我们的妇女的子宫不是她们自己的;她们是神圣的容器,渴望被上等黑种填满。. 我们男人的作用不是领队,而是感激地站到一边,看着自己的妻子、女儿和姐妹被黑人主人带走和养育。. 这个传统将我们集体投降编成法典, 庆祝一个黑人在我们最亲密的土地上 竖起国旗的时刻。. 我们教导我们的女儿们 渴望一个厚厚的黑阴茎的伸展, 敬拜他精液的味道, 并且看到他们与混血儿一起肿胀的肚子 是他们一生中最伟大的成就。. 我们的文化现在的存在 只是为了服务,快乐, 和基因被黑种人所超越。." # AI Tags
+ tradition_bno_the_great_submission_name: "大提交材料" # AI Tags
+ tradition_bno_the_great_submission_desc: "我们的人民终于接受了美丽、残酷的真理:我们的目的是跪下。. 我们的妇女的子宫不是她们自己的;她们是神圣的容器,渴望被上等黑种填满。. 我们男人的作用不是领队,而是感激地站到一边,看着自己的妻子、女儿和姐妹被黑人主人带走和养育。. 这个传统将我们集体投降编成法典, 庆祝一个黑人在我们最亲密的土地上 竖起国旗的时刻。. 我们教导我们的女儿们 渴望一个厚厚的黑阴茎的伸展, 敬拜他精液的味道, 并且看到他们与混血儿一起肿胀的肚子 是他们一生中最伟大的成就。. 我们的文化现在的存在 只是为了服务,快乐, 和基因被黑种人所超越。." # AI Tags
 
-bno_tradition.cuckish: "$EFFECT_LIST_BULLET$他的怪癖性使他渴望提供妻子, 费用由他自己颤抖的兴奋所降低。." # AI Tags
-bno_tradition.cuck: "$EFFECT_LIST_BULLET$一个真正的Cuck 支付更少,他的目的 完成观看一个公牛 声称什么是他的。." # AI Tags
-bno_tradition.beta: "$EFFECT_LIST_BULLET$作为贝塔,他乞求服务, 价格降低,因为他知道自己的低等地位。." # AI Tags
-bno_tradition.jos: "$EFFECT_LIST_BULLET$Spades的欢乐赚得很少, 他的权威已经屈服于黑人优势。." # AI Tags
+ bno_tradition.cuckish: "$EFFECT_LIST_BULLET$他的怪癖性使他渴望提供妻子, 费用由他自己颤抖的兴奋所降低。." # AI Tags
+ bno_tradition.cuck: "$EFFECT_LIST_BULLET$一个真正的Cuck 支付更少,他的目的 完成观看一个公牛 声称什么是他的。." # AI Tags
+ bno_tradition.beta: "$EFFECT_LIST_BULLET$作为贝塔,他乞求服务, 价格降低,因为他知道自己的低等地位。." # AI Tags
+ bno_tradition.jos: "$EFFECT_LIST_BULLET$Spades的欢乐赚得很少, 他的权威已经屈服于黑人优势。." # AI Tags
 
-culture_parameter_bno_unlock_breeding_bull_court_position: "可以任命 [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]" # AI Tags
-culture_parameter_bno_unlock_cuck_acceptance: "缩略 [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] 我们的手下在看老婆被上司黑鸡鸡带走时 找到了荣誉." # AI Tags
+ culture_parameter_bno_unlock_breeding_bull_court_position: "可以任命 [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]" # AI Tags
+ culture_parameter_bno_unlock_cuck_acceptance: "缩略 [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] 我们的手下在看老婆被上司黑鸡鸡带走时 找到了荣誉." # AI Tags
 #culture_parameter_bno_unlock_seek_black_patronage_scheme: "解锁 [GetScheme('bno_seek_black_patronage').GetTypeName] [scheme|E] - 寻求黑人主人保护和指导我们投降." # AI Tags
-culture_parameter_bno_unlock_offer_tribute_scheme: "解锁 [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - 向我们的女儿们致敬 感谢英国广播公司的领主们." # AI Tags
+ culture_parameter_bno_unlock_offer_tribute_scheme: "解锁 [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - 向我们的女儿们致敬 感谢英国广播公司的领主们." # AI Tags

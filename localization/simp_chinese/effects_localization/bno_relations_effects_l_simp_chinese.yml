@@ -1,18 +1,18 @@
 ﻿l_simp_chinese:
 
-i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_slave|E]" 
-they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_slave|E]"
+ i_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_slave|E]" 
+ they_gain_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_slave|E]"
 
-i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_slave|E]"
-they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_slave|E]"
+ i_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_slave|E]"
+ they_got_a_bno_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_slave|E]"
 
-i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_cum_slave|E]，被种子和对你的忠诚束缚着."
-they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_cum_slave|E]，被精液和忠诚奴役。"
+ i_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_cum_slave|E]，被种子和对你的忠诚束缚着."
+ they_gain_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_cum_slave|E]，被精液和忠诚奴役。"
 
-i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_cum_slave|E]，她的嘴唇和子宫永远被你的种子封存。"
-they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_cum_slave|E]，被他的鸡巴所拥有，被他的精液所束缚。"
+ i_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为你的[bno_cum_slave|E]，她的嘴唇和子宫永远被你的种子封存。"
+ they_got_a_bno_cum_slave: "[TARGET_CHARACTER.GetShortUIName|U]成为[CHARACTER.GetShortUINamePossessive][bno_cum_slave|E]，被他的鸡巴所拥有，被他的精液所束缚。"
 
-i_gain_a_bno_offer_tribute_trainer: "我投降,我投降 [TARGET_CHARACTER.GetShortUIName|U] 以我的身份 [bno_offer_tribute_trainer|E]他巨大的非洲老二 和专才 专心于雕塑我整个身体 完美地献给非洲优越." # AI Tags
-they_gain_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U] 移交至 [TARGET_CHARACTER.GetShortUIName|U] 作为《公约》 [bno_offer_tribute_trainer|E]她的身体被他的种子和权威 彻底地转化成一个 配得上英国广播公司之王的繁殖船." # AI Tags
-i_got_a_bno_offer_tribute_trainer: "我成为了 [TARGET_CHARACTER.GetShortUIName|U]数(_S) [bno_offer_tribute_trainer|E]他巨大的非洲鸡巴 训练我身体的每一英寸 绝对屈服 和奉献于非洲优越。." # AI Tags
-they_got_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U] 成为 [TARGET_CHARACTER.GetShortUIName|U]数(_S) [bno_offer_tribute_trainer|E]将她变成BBC之王的祭品 整个她都是由他的老二重塑的." # AI Tags
+ i_gain_a_bno_offer_tribute_trainer: "我投降,我投降 [TARGET_CHARACTER.GetShortUIName|U] 以我的身份 [bno_offer_tribute_trainer|E]他巨大的非洲老二 和专才 专心于雕塑我整个身体 完美地献给非洲优越." # AI Tags
+ they_gain_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U] 移交至 [TARGET_CHARACTER.GetShortUIName|U] 作为《公约》 [bno_offer_tribute_trainer|E]她的身体被他的种子和权威 彻底地转化成一个 配得上英国广播公司之王的繁殖船." # AI Tags
+ i_got_a_bno_offer_tribute_trainer: "我成为了 [TARGET_CHARACTER.GetShortUIName|U]数(_S) [bno_offer_tribute_trainer|E]他巨大的非洲鸡巴 训练我身体的每一英寸 绝对屈服 和奉献于非洲优越。." # AI Tags
+ they_got_a_bno_offer_tribute_trainer: "[CHARACTER.GetShortUIName|U] 成为 [TARGET_CHARACTER.GetShortUIName|U]数(_S) [bno_offer_tribute_trainer|E]将她变成BBC之王的祭品 整个她都是由他的老二重塑的." # AI Tags

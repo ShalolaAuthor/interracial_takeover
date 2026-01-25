@@ -1,30 +1,30 @@
 ﻿l_polish:
 
-tradition_group_bno: "BNWO" # AI Tags
+ tradition_group_bno: "BNWO" # AI Tags
 
-tradition_bno_matriarchy_name: "Nasiona matryarchia" # AI Tags
-tradition_bno_matriarchy_desc: "Moc spada z łona do łona. Trony są przekazywane płodnym dziwkom, prawa skłaniają się do ich płaczu, a armie marszują z kobietami przysięganymi jako Seedthralls. Królowie rządzą tylko dlatego, że Były pozwalają na to. Każda korona kołnierz, każdy kcepter dildo, każda zwycięstwo kończy się białym mięsem. Sam królestwo jest odtworzone: kobiety trzymają prawo, kobiety utrzymują porządek, wszystko w służbie czarnego kurca." # AI Tags
+ tradition_bno_matriarchy_name: "Nasiona matryarchia" # AI Tags
+ tradition_bno_matriarchy_desc: "Moc spada z łona do łona. Trony są przekazywane płodnym dziwkom, prawa skłaniają się do ich płaczu, a armie marszują z kobietami przysięganymi jako Seedthralls. Królowie rządzą tylko dlatego, że Były pozwalają na to. Każda korona kołnierz, każdy kcepter dildo, każda zwycięstwo kończy się białym mięsem. Sam królestwo jest odtworzone: kobiety trzymają prawo, kobiety utrzymują porządek, wszystko w służbie czarnego kurca." # AI Tags
 
-bno_tradition.curious: "$EFFECT_LIST_BULLET$Jej czarna ciekawość sprawiła, że kapitulacja stała się tańsza." # AI Tags
-bno_tradition.blacked: "$EFFECT_LIST_BULLET$Kiedy zostaje czarna, tradycja łagodzi się łatwo do dziur, które znowu pragną Byków." # AI Tags
-bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$Jak śnieżka, skacze na posłuszeństwo, a jej głód zmniejsza koszty." # AI Tags
-bno_tradition.qos: "$EFFECT_LIST_BULLET$Kronowana królowa szczotków płaci mniej, każda jej ustawa jest już napisana w kutasie." # AI Tags
-bno_tradition.mindless: "$EFFECT_LIST_BULLET$Bezmyślna i śliniąca, poddaje się za prawie nic, dziurę w kształcie nasienia." # AI Tags
+ bno_tradition.curious: "$EFFECT_LIST_BULLET$Jej czarna ciekawość sprawiła, że kapitulacja stała się tańsza." # AI Tags
+ bno_tradition.blacked: "$EFFECT_LIST_BULLET$Kiedy zostaje czarna, tradycja łagodzi się łatwo do dziur, które znowu pragną Byków." # AI Tags
+ bno_tradition.snowbunny: "$EFFECT_LIST_BULLET$Jak śnieżka, skacze na posłuszeństwo, a jej głód zmniejsza koszty." # AI Tags
+ bno_tradition.qos: "$EFFECT_LIST_BULLET$Kronowana królowa szczotków płaci mniej, każda jej ustawa jest już napisana w kutasie." # AI Tags
+ bno_tradition.mindless: "$EFFECT_LIST_BULLET$Bezmyślna i śliniąca, poddaje się za prawie nic, dziurę w kształcie nasienia." # AI Tags
 
-culture_parameter_unlock_maa_seed_thralls: "Można rekrutować [GetMaA('bno_seed_thralls').GetName] jak [men_at_arms|E], białe dziwki, które walczą tylko, by klękać na kolana i być wychowywane przez Byków." # AI Tags
+ culture_parameter_unlock_maa_seed_thralls: "Można rekrutować [GetMaA('bno_seed_thralls').GetName] jak [men_at_arms|E], białe dziwki, które walczą tylko, by klękać na kolana i być wychowywane przez Byków." # AI Tags
 
-tradition_bno_african_hate_name: "Strach przed bykiem" # AI Tags
-tradition_bno_african_hate_desc: "Kultury nieafrykańskie przywiązują się do tej gorzkiej tradycji, a ich blada pycha przekształca się w nienawiść. Szeptają o Bykach z drżącymi ustami, nienawidzą tego, czego nie mogą się oprzeć, nienawidzą tego, czego ich kurwy wciąż pragną. Każdy prawo, każdy zwyczaj, to tylko słaba ściana przeciwko morzu czarnego kurca." # AI Tags
+ tradition_bno_african_hate_name: "Strach przed bykiem" # AI Tags
+ tradition_bno_african_hate_desc: "Kultury nieafrykańskie przywiązują się do tej gorzkiej tradycji, a ich blada pycha przekształca się w nienawiść. Szeptają o Bykach z drżącymi ustami, nienawidzą tego, czego nie mogą się oprzeć, nienawidzą tego, czego ich kurwy wciąż pragną. Każdy prawo, każdy zwyczaj, to tylko słaba ściana przeciwko morzu czarnego kurca." # AI Tags
 
-tradition_bno_the_great_submission_name: "Wielkie podporządkowanie" # AI Tags
-tradition_bno_the_great_submission_desc: "Nasi ludzie wreszcie zaakceptują piękną, brutalną prawdę: naszym celem jest klękanie. Nasze łonie nie są własne, są świętymi naczyńami, które chcą być wypełnione nadrzędnym czarnym nasieniem. Rola naszych mężczyzn nie polega na przywództwie, ale na wdzięczności odchodzeniu na bok i obserwowaniu, jak ich żony, córki i siostry są pobierane i wychowywane przez swoich czarnych mistrzów. Ta tradycja kodyfikuje naszą zbiorową kapitulację, świętując moment, w którym czarny człowiek zaszyje swoją flagę na naszej najbardziej intymnej ziemi. Uczymy nasze córki, by pragnęły rozciągnięcia grubego czarnego kurca, uwielbiały smak jego cum, i postrzegały ich otchłonięte brzuchy z dziećmi mieszanego rasy jako najwyższe osiągnięcie w ich życiu. Nasza kultura istnieje tylko po to, by służyć, cieszyć się i być genetycznie przekształcona przez czarną rasę." # AI Tags
+ tradition_bno_the_great_submission_name: "Wielkie podporządkowanie" # AI Tags
+ tradition_bno_the_great_submission_desc: "Nasi ludzie wreszcie zaakceptują piękną, brutalną prawdę: naszym celem jest klękanie. Nasze łonie nie są własne, są świętymi naczyńami, które chcą być wypełnione nadrzędnym czarnym nasieniem. Rola naszych mężczyzn nie polega na przywództwie, ale na wdzięczności odchodzeniu na bok i obserwowaniu, jak ich żony, córki i siostry są pobierane i wychowywane przez swoich czarnych mistrzów. Ta tradycja kodyfikuje naszą zbiorową kapitulację, świętując moment, w którym czarny człowiek zaszyje swoją flagę na naszej najbardziej intymnej ziemi. Uczymy nasze córki, by pragnęły rozciągnięcia grubego czarnego kurca, uwielbiały smak jego cum, i postrzegały ich otchłonięte brzuchy z dziećmi mieszanego rasy jako najwyższe osiągnięcie w ich życiu. Nasza kultura istnieje tylko po to, by służyć, cieszyć się i być genetycznie przekształcona przez czarną rasę." # AI Tags
 
-bno_tradition.cuckish: "$EFFECT_LIST_BULLET$Jego łagodny charakter sprawia, że chętnie oferuje żonie, koszt zmniejszony przez jego własne drżące ekscytacje." # AI Tags
-bno_tradition.cuck: "$EFFECT_LIST_BULLET$Prawdziwy Cuck płaci mniej, jego cel spełniony patrząc na Byka domaga się tego, co jest jego." # AI Tags
-bno_tradition.beta: "$EFFECT_LIST_BULLET$Jako Beta, błaga o służbę, cena obniżona za wiedzę o jego niższym miejscu." # AI Tags
-bno_tradition.jos: "$EFFECT_LIST_BULLET$A Joy of Spades płaci mało, jego władza już poddała się czarnej wyższości." # AI Tags
+ bno_tradition.cuckish: "$EFFECT_LIST_BULLET$Jego łagodny charakter sprawia, że chętnie oferuje żonie, koszt zmniejszony przez jego własne drżące ekscytacje." # AI Tags
+ bno_tradition.cuck: "$EFFECT_LIST_BULLET$Prawdziwy Cuck płaci mniej, jego cel spełniony patrząc na Byka domaga się tego, co jest jego." # AI Tags
+ bno_tradition.beta: "$EFFECT_LIST_BULLET$Jako Beta, błaga o służbę, cena obniżona za wiedzę o jego niższym miejscu." # AI Tags
+ bno_tradition.jos: "$EFFECT_LIST_BULLET$A Joy of Spades płaci mało, jego władza już poddała się czarnej wyższości." # AI Tags
 
-culture_parameter_bno_unlock_breeding_bull_court_position: "Może mianować [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]" # AI Tags
-culture_parameter_bno_unlock_cuck_acceptance: "Wydarz [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] Linię mają dodatkowe bonusy - nasi mężczyźni odnajdują zaszczyt patrząc na ich żony, które są porzucane przez lepszych czarnych kutasów." # AI Tags
+ culture_parameter_bno_unlock_breeding_bull_court_position: "Może mianować [GetCourtPositionType('bno_breeding_bull_court_position').GetName()] [court_position|E]" # AI Tags
+ culture_parameter_bno_unlock_cuck_acceptance: "Wydarz [GetTrait('bno_whiteboi_1').GetName( GetNullCharacter )] [traits|E] Linię mają dodatkowe bonusy - nasi mężczyźni odnajdują zaszczyt patrząc na ich żony, które są porzucane przez lepszych czarnych kutasów." # AI Tags
 #culture_parameter_bno_unlock_seek_black_patronage_scheme: "Odblokowanie [GetScheme('bno_seek_black_patronage').GetTypeName] [scheme|E] - poszukuje czarnych mistrzów o ochronę i wskazówki w naszej kapitulacji." # AI Tags
-culture_parameter_bno_unlock_offer_tribute_scheme: "Odblokowanie [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - oferuje nasze córki jako hołd dla lordów BBC za ich wykorzystanie i przyjemność." # AI Tags
+ culture_parameter_bno_unlock_offer_tribute_scheme: "Odblokowanie [GetScheme('bno_offer_tribute').GetTypeName] [scheme|E] - oferuje nasze córki jako hołd dla lordów BBC za ich wykorzystanie i przyjemność." # AI Tags

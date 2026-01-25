@@ -1,101 +1,101 @@
 ﻿l_korean:
 
 # Religious Descriptors
-bnonr: "블랙 콕의 교회" # AI Tags
-bnonr_adj: "흑인 우월주의자" # AI Tags
-bnonr_religion: "블랙 콕의 교회" # AI Tags
-bnonr_religion_adj: "흑인 우월주의자" # AI Tags
-bnonr_religion_adherent: "흑인 우월주의자" # AI Tags
-bnonr_religion_adherent_plural: "흑인 우월주의자" # AI Tags
-bnonr_religion_desc: "우월주의자들은 모든 사람이 우월한 인종에 굴복해야 한다고 믿습니다." # AI Tags
-bbcs_god_name: "나다바" # AI Tags
-bbcs_god_name_2: "아자니" # AI Tags
-bbcs_god_name_3: "오세" # AI Tags
-bbcs_god_name_possessive: "$bbcs_god_name$'s" # AI Tags
-bbcs_high_god_name_alternate: "하느님" # AI Tags
-bbcs_high_god_name_alternate_possessive: "$bbcs_high_god_name_alternate$'s" # AI Tags
-bbcs_devil_name: "아산티" # AI Tags
-bbcs_devil_name_possessive: "$bbcs_devil_name$'s" # AI Tags
-bbcs_evil_god_name_1: "퀘쿠" # AI Tags
-bbcs_evil_god_name_2: "미페로" # AI Tags
-bbcs_evil_god_name_3: "나미 나미" # AI Tags
-bbcs_house_of_worship_1: "에크스타지 하우스" # AI Tags
-bbcs_house_of_worship_2: "검은 꽃 의 성전" # AI Tags
-bbcs_house_of_worship_3: "에보니 제단" # AI Tags
-bbcs_house_of_worship_plural: "에크스타지 가옥" # AI Tags
-bbcs_religious_symbol_1: "세 자매" # AI Tags
-bbcs_religious_symbol_2: "오브시디안 막대" # AI Tags
-bbcs_religious_symbol_3: "꽃 피는 검은 장미" # AI Tags
-bbcs_religious_text_1: "에본성경" # AI Tags
-bbcs_religious_text_2: "욕망 의 nektar" # AI Tags
-bbcs_religious_text_3: "아프로디시아: 신성한 순환" # AI Tags
-bbcs_religious_head_title: "에크스타시 의 큰 섬유" # AI Tags
-bbcs_male_devotee: "참새" # AI Tags
-bbcs_male_devotee_plural: "$bbcs_male_devotee$s" # AI Tags
-bbcs_female_devotee: "림프" # AI Tags
-bbcs_female_devotee_plural: "$bbcs_female_devotee$s" # AI Tags
-bbcs_neutered_devotee: "우유" # AI Tags
-bbcs_neutered_devotee_plural: "$bbcs_neutered_devotee$s" # AI Tags
-bbcs_male_priest: "높은 참새" # AI Tags
-bbcs_male_priest_plural: "$bbcs_male_priest$s" # AI Tags
-bbcs_female_priest: "림프 사제 여인" # AI Tags
-bbcs_female_priest_plural: "$bbcs_female_priest$에스" # AI Tags
-bbcs_neutered_priest: "씨앗 을 낳는 사람" # AI Tags
-bbcs_neutered_priest_plural: "$bbcs_neutered_priest$s" # AI Tags
-bbcs_alt_priest: "달 씨앗 보호자" # AI Tags
-bbcs_alt_priest_plural: "$bbcs_alt_priest$s" # AI Tags
-bbcs_male_bishop: "블랙슨 히에로판트" # AI Tags
-bbcs_male_bishop_plural: "$bbcs_male_bishop$s" # AI Tags
-bbcs_female_bishop: "블랙 아콜리트 매스터스" # AI Tags
-bbcs_female_bishop_plural: "$bbcs_female_bishop$에스" # AI Tags
-bbcs_neutered_bishop: "아이보리 씨드 베어어" # AI Tags
-bbcs_neutered_bishop_plural: "$bbcs_neutered_bishop$s" # AI Tags
-bbcs_positive_afterlife_1: "에보니 목초" # AI Tags
-bbcs_positive_afterlife_2: "영원 한 성관계" # AI Tags
-bbcs_positive_afterlife_3: "끝없는 즐거움 의 정원" # AI Tags
-bbcs_negative_afterlife_1: "나무 의 건조 된 정원" # AI Tags
-bbcs_negative_afterlife_2: "영원 한 욕망 의 迷宫" # AI Tags
-bbcs_negative_afterlife_3: "영원 한 노예 의 왕국" # AI Tags
-bbcs_death_deity_name: "예모야" # AI Tags
-bbcs_death_deity_name_possessive: "$bbcs_death_deity_name$'s" # AI Tags
-bbcs_witch_god_name: "아이샤" # AI Tags
-bbcs_witch_god_name_possessive: "$bbcs_witch_god_name$'s" # AI Tags
-bbcs_ghw: "아딘크라" # AI Tags
-bbcs_ghws: "$bbcs_ghw$s" # AI Tags
+ bnonr: "블랙 콕의 교회" # AI Tags
+ bnonr_adj: "흑인 우월주의자" # AI Tags
+ bnonr_religion: "블랙 콕의 교회" # AI Tags
+ bnonr_religion_adj: "흑인 우월주의자" # AI Tags
+ bnonr_religion_adherent: "흑인 우월주의자" # AI Tags
+ bnonr_religion_adherent_plural: "흑인 우월주의자" # AI Tags
+ bnonr_religion_desc: "우월주의자들은 모든 사람이 우월한 인종에 굴복해야 한다고 믿습니다." # AI Tags
+ bbcs_god_name: "나다바" # AI Tags
+ bbcs_god_name_2: "아자니" # AI Tags
+ bbcs_god_name_3: "오세" # AI Tags
+ bbcs_god_name_possessive: "$bbcs_god_name$'s" # AI Tags
+ bbcs_high_god_name_alternate: "하느님" # AI Tags
+ bbcs_high_god_name_alternate_possessive: "$bbcs_high_god_name_alternate$'s" # AI Tags
+ bbcs_devil_name: "아산티" # AI Tags
+ bbcs_devil_name_possessive: "$bbcs_devil_name$'s" # AI Tags
+ bbcs_evil_god_name_1: "퀘쿠" # AI Tags
+ bbcs_evil_god_name_2: "미페로" # AI Tags
+ bbcs_evil_god_name_3: "나미 나미" # AI Tags
+ bbcs_house_of_worship_1: "에크스타지 하우스" # AI Tags
+ bbcs_house_of_worship_2: "검은 꽃 의 성전" # AI Tags
+ bbcs_house_of_worship_3: "에보니 제단" # AI Tags
+ bbcs_house_of_worship_plural: "에크스타지 가옥" # AI Tags
+ bbcs_religious_symbol_1: "세 자매" # AI Tags
+ bbcs_religious_symbol_2: "오브시디안 막대" # AI Tags
+ bbcs_religious_symbol_3: "꽃 피는 검은 장미" # AI Tags
+ bbcs_religious_text_1: "에본성경" # AI Tags
+ bbcs_religious_text_2: "욕망 의 nektar" # AI Tags
+ bbcs_religious_text_3: "아프로디시아: 신성한 순환" # AI Tags
+ bbcs_religious_head_title: "에크스타시 의 큰 섬유" # AI Tags
+ bbcs_male_devotee: "참새" # AI Tags
+ bbcs_male_devotee_plural: "$bbcs_male_devotee$s" # AI Tags
+ bbcs_female_devotee: "림프" # AI Tags
+ bbcs_female_devotee_plural: "$bbcs_female_devotee$s" # AI Tags
+ bbcs_neutered_devotee: "우유" # AI Tags
+ bbcs_neutered_devotee_plural: "$bbcs_neutered_devotee$s" # AI Tags
+ bbcs_male_priest: "높은 참새" # AI Tags
+ bbcs_male_priest_plural: "$bbcs_male_priest$s" # AI Tags
+ bbcs_female_priest: "림프 사제 여인" # AI Tags
+ bbcs_female_priest_plural: "$bbcs_female_priest$에스" # AI Tags
+ bbcs_neutered_priest: "씨앗 을 낳는 사람" # AI Tags
+ bbcs_neutered_priest_plural: "$bbcs_neutered_priest$s" # AI Tags
+ bbcs_alt_priest: "달 씨앗 보호자" # AI Tags
+ bbcs_alt_priest_plural: "$bbcs_alt_priest$s" # AI Tags
+ bbcs_male_bishop: "블랙슨 히에로판트" # AI Tags
+ bbcs_male_bishop_plural: "$bbcs_male_bishop$s" # AI Tags
+ bbcs_female_bishop: "블랙 아콜리트 매스터스" # AI Tags
+ bbcs_female_bishop_plural: "$bbcs_female_bishop$에스" # AI Tags
+ bbcs_neutered_bishop: "아이보리 씨드 베어어" # AI Tags
+ bbcs_neutered_bishop_plural: "$bbcs_neutered_bishop$s" # AI Tags
+ bbcs_positive_afterlife_1: "에보니 목초" # AI Tags
+ bbcs_positive_afterlife_2: "영원 한 성관계" # AI Tags
+ bbcs_positive_afterlife_3: "끝없는 즐거움 의 정원" # AI Tags
+ bbcs_negative_afterlife_1: "나무 의 건조 된 정원" # AI Tags
+ bbcs_negative_afterlife_2: "영원 한 욕망 의 迷宫" # AI Tags
+ bbcs_negative_afterlife_3: "영원 한 노예 의 왕국" # AI Tags
+ bbcs_death_deity_name: "예모야" # AI Tags
+ bbcs_death_deity_name_possessive: "$bbcs_death_deity_name$'s" # AI Tags
+ bbcs_witch_god_name: "아이샤" # AI Tags
+ bbcs_witch_god_name_possessive: "$bbcs_witch_god_name$'s" # AI Tags
+ bbcs_ghw: "아딘크라" # AI Tags
+ bbcs_ghws: "$bbcs_ghw$s" # AI Tags
 
 
-bbcs: "블랙 콕의 교회" # AI Tags
-bbcs_adj: "흑인 우월주의자" # AI Tags
-bbcs_adherent: "흑인 우월주의자" # AI Tags
-bbcs_adherent_plural: "흑인 우월주의자" # AI Tags
-bbcs_desc: "우월주의자들은 모든 사람이 우월한 인종에 굴복해야 한다고 믿습니다." # AI Tags
+ bbcs: "블랙 콕의 교회" # AI Tags
+ bbcs_adj: "흑인 우월주의자" # AI Tags
+ bbcs_adherent: "흑인 우월주의자" # AI Tags
+ bbcs_adherent_plural: "흑인 우월주의자" # AI Tags
+ bbcs_desc: "우월주의자들은 모든 사람이 우월한 인종에 굴복해야 한다고 믿습니다." # AI Tags
 
-bbcs_old: "블랙 콕의 교회" # AI Tags
-bbcs_old_adj: "흑인 우월주의자" # AI Tags
-bbcs_old_adherent: "흑인 우월주의자" # AI Tags
-bbcs_old_adherent_plural: "흑인 우월주의자" # AI Tags
+ bbcs_old: "블랙 콕의 교회" # AI Tags
+ bbcs_old_adj: "흑인 우월주의자" # AI Tags
+ bbcs_old_adherent: "흑인 우월주의자" # AI Tags
+ bbcs_old_adherent_plural: "흑인 우월주의자" # AI Tags
 
 
 # Holy Order Names
-bnoho1: "검은 신들의 질서" # AI Tags
-bnoho2: "흑병" # AI Tags
-bnoho3: "가나의 기사들" # AI Tags
-bnoho4: "말리 침략자" # AI Tags
-bnoho5: "종교 를 개척 하는 무리" # AI Tags
+ bnoho1: "검은 신들의 질서" # AI Tags
+ bnoho2: "흑병" # AI Tags
+ bnoho3: "가나의 기사들" # AI Tags
+ bnoho4: "말리 침략자" # AI Tags
+ bnoho5: "종교 를 개척 하는 무리" # AI Tags
 
 # Conversion Decision
-convert: "더 어두운 사람 들 을 숭배 하는 데 전념" # AI Tags
-convert_desc: "검은 똥만 생각해볼 수 있어, 귀여워. 왜 당신은 우월한 인종에 굴복하지 않고 그들을 당신의 신으로 만들지?" # AI Tags
-convert_tooltip: "뚱뚱한, 검은 수컷에 대해 생각하면…" # AI Tags
-convert_confirm: "당신은 자신을 찬양에 헌신합니다 [bno_bbc|E]" # AI Tags
-convert_effect_1: "당신은 [bno_religion|E]" # AI Tags
+ convert: "더 어두운 사람 들 을 숭배 하는 데 전념" # AI Tags
+ convert_desc: "검은 똥만 생각해볼 수 있어, 귀여워. 왜 당신은 우월한 인종에 굴복하지 않고 그들을 당신의 신으로 만들지?" # AI Tags
+ convert_tooltip: "뚱뚱한, 검은 수컷에 대해 생각하면…" # AI Tags
+ convert_confirm: "당신은 자신을 찬양에 헌신합니다 [bno_bbc|E]" # AI Tags
+ convert_effect_1: "당신은 [bno_religion|E]" # AI Tags
 
-rf_bbcs: "아프로디아스마" # AI Tags
-rf_bbcs_desc: "$rf_bbcs$ 흑자를 중심으로 한 전통의 활기찬 타페스트리입니다. 극심한 숭배, 강력한 마법, 그리고 흑자의 씨앗의 힘으로 채워지는 백인의 구원에 대한 흔들리지 않는 믿음입니다." # AI Tags
+ rf_bbcs: "아프로디아스마" # AI Tags
+ rf_bbcs_desc: "$rf_bbcs$ 흑자를 중심으로 한 전통의 활기찬 타페스트리입니다. 극심한 숭배, 강력한 마법, 그리고 흑자의 씨앗의 힘으로 채워지는 백인의 구원에 대한 흔들리지 않는 믿음입니다." # AI Tags
 
-bnonr_religion_opinion: "$bnonr_religion_adherent$ 의견" # AI Tags
+ bnonr_religion_opinion: "$bnonr_religion_adherent$ 의견" # AI Tags
 
-doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "BNWO와 연계된다고 본다 [faiths|E], 그리고 BNWO와 일치하는 것으로 간주됩니다 $game_concept_faiths$, 될 것 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 대신 $hostility_evil_tooltippable$" # AI Tags
-doctrine_parameter_can_use_bno_artefacts: "BNWO를 사용할 수 있습니다 [artifacts|E] 완전한 혜택을 누릴 수 있도록" # AI Tags
-doctrine_parameter_bno_syncretic_actor_opinion_active: "상호 [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] BNWO와 연계된 보너스 [faiths|E]" # AI Tags
-doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: "" # AI Tags
+ doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "BNWO와 연계된다고 본다 [faiths|E], 그리고 BNWO와 일치하는 것으로 간주됩니다 $game_concept_faiths$, 될 것 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 대신 $hostility_evil_tooltippable$" # AI Tags
+ doctrine_parameter_can_use_bno_artefacts: "BNWO를 사용할 수 있습니다 [artifacts|E] 완전한 혜택을 누릴 수 있도록" # AI Tags
+ doctrine_parameter_bno_syncretic_actor_opinion_active: "상호 [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] BNWO와 연계된 보너스 [faiths|E]" # AI Tags
+ doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: "" # AI Tags

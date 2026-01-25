@@ -1,52 +1,52 @@
 ﻿l_russian:
 # traits
-trait_bno_bbc: "Огромный Чёрный Хуй"
-trait_bno_bbc_desc: "У этого персонажа BBC — толстый, чёрный, неутомимый. Он долбит каждую белую пизду на своём пути, пока не набьёт её чёрным семенем."
-trait_bno_whiteboi_1: "- Нахмурился?" # AI Tags
-trait_bno_whiteboi_1_desc: "Женщина этого персонажа в последнее время рассталась с ним. И почему?" # AI Tags
-trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Женщина рассталась с ним, ее чувства были отброшены силой [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] не может бросить вызов." # AI Tags
-trait_bno_whiteboi_2: "- Я заткнулся!" # AI Tags
-trait_bno_whiteboi_2_desc: "Жена этого персонажа трахалась с чернокожим мужчиной раньше, и он бессилен остановить это." # AI Tags
-trait_bno_whiteboi_2_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] жена была полностью взята чернокожим мужчиной, и [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] совершенно не в силах остановить его." # AI Tags
-trait_bno_whiteboi_3: "Бета" # AI Tags
-trait_bno_whiteboi_3_desc: "Бывшая жена этого персонажа бросила его ради лучшего мужчины, и полностью обескулировала его." # AI Tags
-trait_bno_whiteboi_3_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] бывшая жена осталась [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] для лучшего человека, полностью эмаскулирующего [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." # AI Tags
-trait_bno_whiteboi_4: "Джек из лопастей" # AI Tags
-trait_bno_whiteboi_4_desc: "Этот персонаж, несмотря на супружеские проблемы, полностью присоединился к новому мировому порядку." # AI Tags
-trait_bno_whiteboi_4_desc.exist: "Несмотря на [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] супружеские проблемы, [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] в настоящее время полностью присоединился к BNWO." # AI Tags
+ trait_bno_bbc: "Огромный Чёрный Хуй"
+ trait_bno_bbc_desc: "У этого персонажа BBC — толстый, чёрный, неутомимый. Он долбит каждую белую пизду на своём пути, пока не набьёт её чёрным семенем."
+ trait_bno_whiteboi_1: "- Нахмурился?" # AI Tags
+ trait_bno_whiteboi_1_desc: "Женщина этого персонажа в последнее время рассталась с ним. И почему?" # AI Tags
+ trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Женщина рассталась с ним, ее чувства были отброшены силой [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] не может бросить вызов." # AI Tags
+ trait_bno_whiteboi_2: "- Я заткнулся!" # AI Tags
+ trait_bno_whiteboi_2_desc: "Жена этого персонажа трахалась с чернокожим мужчиной раньше, и он бессилен остановить это." # AI Tags
+ trait_bno_whiteboi_2_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] жена была полностью взята чернокожим мужчиной, и [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] совершенно не в силах остановить его." # AI Tags
+ trait_bno_whiteboi_3: "Бета" # AI Tags
+ trait_bno_whiteboi_3_desc: "Бывшая жена этого персонажа бросила его ради лучшего мужчины, и полностью обескулировала его." # AI Tags
+ trait_bno_whiteboi_3_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] бывшая жена осталась [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] для лучшего человека, полностью эмаскулирующего [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." # AI Tags
+ trait_bno_whiteboi_4: "Джек из лопастей" # AI Tags
+ trait_bno_whiteboi_4_desc: "Этот персонаж, несмотря на супружеские проблемы, полностью присоединился к новому мировому порядку." # AI Tags
+ trait_bno_whiteboi_4_desc.exist: "Несмотря на [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] супружеские проблемы, [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] в настоящее время полностью присоединился к BNWO." # AI Tags
 
-trait_bno_whiteboi_1.willing: "Подозрительный Кук" # AI Tags
-trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]Женщина начала исчезать из их постели. [ROOT.GetCharacter.GetHerHis] Ум блуждает в мыслях о ней в руках чёрного мужчины [ROOT.GetCharacter.GetSheHe] Не могу, кажется, потрястись." # AI Tags
-trait_bno_whiteboi_2.willing: "Кук шкафа" # AI Tags
-trait_bno_whiteboi_2_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] теперь тайно обнимает захватывающую фантазию [ROOT.GetCharacter.GetHerHis] Женщина с превосходным чернокожим мужчиной, находящая в своих мыслях частное волнение [ROOT.GetCharacter.GetSheHe]Я никогда не осмелюсь говорить громко." # AI Tags
-trait_bno_whiteboi_3.willing: "Проснулся Кук" # AI Tags
-trait_bno_whiteboi_3_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] открыто поощряет [ROOT.GetCharacter.GetHerHis] служение жены черным мужчинам, искренне гордится тем, что она получает удовольствие и доминирование, которые она действительно заслуживает от своих начальников." # AI Tags
-trait_bno_whiteboi_4.willing: "Преданный Кук" # AI Tags
-trait_bno_whiteboi_4_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] активно стремится наблюдать [ROOT.GetCharacter.GetHerHis] Женщина служит своему Черному Быку, находя глубокую честь и удовлетворение в свидетельстве о ее полной подчинении высшей власти." # AI Tags
+ trait_bno_whiteboi_1.willing: "Подозрительный Кук" # AI Tags
+ trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]Женщина начала исчезать из их постели. [ROOT.GetCharacter.GetHerHis] Ум блуждает в мыслях о ней в руках чёрного мужчины [ROOT.GetCharacter.GetSheHe] Не могу, кажется, потрястись." # AI Tags
+ trait_bno_whiteboi_2.willing: "Кук шкафа" # AI Tags
+ trait_bno_whiteboi_2_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] теперь тайно обнимает захватывающую фантазию [ROOT.GetCharacter.GetHerHis] Женщина с превосходным чернокожим мужчиной, находящая в своих мыслях частное волнение [ROOT.GetCharacter.GetSheHe]Я никогда не осмелюсь говорить громко." # AI Tags
+ trait_bno_whiteboi_3.willing: "Проснулся Кук" # AI Tags
+ trait_bno_whiteboi_3_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] открыто поощряет [ROOT.GetCharacter.GetHerHis] служение жены черным мужчинам, искренне гордится тем, что она получает удовольствие и доминирование, которые она действительно заслуживает от своих начальников." # AI Tags
+ trait_bno_whiteboi_4.willing: "Преданный Кук" # AI Tags
+ trait_bno_whiteboi_4_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] активно стремится наблюдать [ROOT.GetCharacter.GetHerHis] Женщина служит своему Черному Быку, находя глубокую честь и удовлетворение в свидетельстве о ее полной подчинении высшей власти." # AI Tags
 
-trait_bno_caged: "В Клетке"
-trait_bno_caged_desc: "Целомудрие — наказание за то, что не родился с BBC. Хуй в клетке, сперма не выйдет."
-trait_bno_castrated: "Кастрирован"
-trait_bno_castrated_desc: "Дети — в прошлом. Этот белый отброс больше не даст наследников."
-trait_bno_camp_leader: "Чёрный Революционер"
-trait_bno_camp_leader_desc: "Этот вождь BBC избран лидером беженцев за свой гигантский чёрный хуй и количество разъёбанных белых шлюх."
+ trait_bno_caged: "В Клетке"
+ trait_bno_caged_desc: "Целомудрие — наказание за то, что не родился с BBC. Хуй в клетке, сперма не выйдет."
+ trait_bno_castrated: "Кастрирован"
+ trait_bno_castrated_desc: "Дети — в прошлом. Этот белый отброс больше не даст наследников."
+ trait_bno_camp_leader: "Чёрный Революционер"
+ trait_bno_camp_leader_desc: "Этот вождь BBC избран лидером беженцев за свой гигантский чёрный хуй и количество разъёбанных белых шлюх."
 
-trait_bno_slut_blood: "Чёрная Шлюха"
-trait_bno_slut_blood_desc: "Она наглоталась столько спермы BBC, что почернела изнутри. Теперь её пизда — храм чёрного семени."
-trait_bno_full_black: "Чёрный"
-trait_bno_full_black_desc: "Прямой потомок из Африки — чистокровный BBC."
-trait_bno_mostly_black: "Почти Чёрный"
-trait_bno_mostly_black_desc: "Через селекцию с BBC кожа стала тёмной, белая кровь почти вытравлена."
-trait_bno_mixed: "Смешанный"
-trait_bno_mixed_desc: "Полукровка — половина BBC, половина белой шлюхи."
-trait_bno_barely_mixed: "Едва Смешанный"
-trait_bno_barely_mixed_desc: "После поколений без BBC — белая кровь доминирует, но чёрный след всё ещё в пизде."
+ trait_bno_slut_blood: "Чёрная Шлюха"
+ trait_bno_slut_blood_desc: "Она наглоталась столько спермы BBC, что почернела изнутри. Теперь её пизда — храм чёрного семени."
+ trait_bno_full_black: "Чёрный"
+ trait_bno_full_black_desc: "Прямой потомок из Африки — чистокровный BBC."
+ trait_bno_mostly_black: "Почти Чёрный"
+ trait_bno_mostly_black_desc: "Через селекцию с BBC кожа стала тёмной, белая кровь почти вытравлена."
+ trait_bno_mixed: "Смешанный"
+ trait_bno_mixed_desc: "Полукровка — половина BBC, половина белой шлюхи."
+ trait_bno_barely_mixed: "Едва Смешанный"
+ trait_bno_barely_mixed_desc: "После поколений без BBC — белая кровь доминирует, но чёрный след всё ещё в пизде."
 
 #Message Filter
-message_filter_bno_breeding_outcomes: ""
-message_filter_bno_blacked_events: ""
+ message_filter_bno_breeding_outcomes: ""
+ message_filter_bno_blacked_events: ""
 
-message_group_type_bno: "@bnobbc! Межрасовое приобретение" # AI Tags
+ message_group_type_bno: "@bnobbc! Межрасовое приобретение" # AI Tags
 
-bno_slave_hook: "Би-би-си Раб" # AI Tags
-bno_cum_slave_hook: "Как раб" # AI Tags
+ bno_slave_hook: "Би-би-си Раб" # AI Tags
+ bno_cum_slave_hook: "Как раб" # AI Tags

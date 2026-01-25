@@ -1,65 +1,65 @@
 ﻿l_japanese:
 
-bno_bbc_cum_addiction: "依存症" # AI Tags
-bno_bbc_cum_addiction_desc_general: "女性は永遠に抵抗できない. A [bno_bbc|E] 自分の奴隷を支配するのは,贈り物や言葉ではなく,種によってです. 彼女の唇が味わうと 彼女の飢えは 彼にだけ 身体と魂を結びつけます." # AI Tags
-bno_bbc_cum_addiction_action: "列車" # AI Tags
-bno_bbc_cum_addiction_desc: "誓いや鎖で縛ってはいけません あなた以外は誰もいないまで 彼女にあなたの種を欲しくさせてください." # AI Tags
-bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] あなたのカムに 依存し 牛に縛られた奴隷となり 彼女の子宮と唇は永遠に所有されます." # AI Tags
+ bno_bbc_cum_addiction: "依存症" # AI Tags
+ bno_bbc_cum_addiction_desc_general: "女性は永遠に抵抗できない. A [bno_bbc|E] 自分の奴隷を支配するのは,贈り物や言葉ではなく,種によってです. 彼女の唇が味わうと 彼女の飢えは 彼にだけ 身体と魂を結びつけます." # AI Tags
+ bno_bbc_cum_addiction_action: "列車" # AI Tags
+ bno_bbc_cum_addiction_desc: "誓いや鎖で縛ってはいけません あなた以外は誰もいないまで 彼女にあなたの種を欲しくさせてください." # AI Tags
+ bno_bbc_cum_addiction_success_desc: "[SCHEME.GetTargetCharacter.GetShortUINameNoTooltip] あなたのカムに 依存し 牛に縛られた奴隷となり 彼女の子宮と唇は永遠に所有されます." # AI Tags
 
-bno_bbc_cum_addiction.invalidated.title: "失われた 奴隷" # AI Tags
-bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] 死んだと 唇が黙っていた あなたのセムが 彼女を完全に奪う前に. もう"人はすぐに膝を下ろす[bno_bnwo|E] 一人の破綻した売春婦で終わらない." # AI Tags
+ bno_bbc_cum_addiction.invalidated.title: "失われた 奴隷" # AI Tags
+ bno_bbc_cum_addiction.invalidated.tooltip: "[target.GetFirstNameNoTooltip] 死んだと 唇が黙っていた あなたのセムが 彼女を完全に奪う前に. もう"人はすぐに膝を下ろす[bno_bnwo|E] 一人の破綻した売春婦で終わらない." # AI Tags
 
-bno_bbc_cum_addiction.curious: "彼女には [GetTrait('bno_whitegirl_1').GetName(GetNullCharacter)] 味を味わうために誘惑される."   # AI Tags
-bno_bbc_cum_addiction.blacked: "彼女は [GetTrait('bno_whitegirl_2').GetName(GetNullCharacter)] そしてもっと欲しいと願っています."   # AI Tags
-bno_bbc_cum_addiction.snowbunny: "彼女には [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] そしてすべての牛を欲しがる."   # AI Tags
-bno_bbc_cum_addiction.qos: "彼女は立ち上がった [GetTrait('bno_whitegirl_4').GetName(GetNullCharacter)] 傲慢に膝を下げている."   # AI Tags
-bno_bbc_cum_addiction.mindless: "彼女は沈んだ [GetTrait('bno_whitegirl_5').GetName(GetNullCharacter)] 抵抗することが出来ない."   # AI Tags
+ bno_bbc_cum_addiction.curious: "彼女には [GetTrait('bno_whitegirl_1').GetName(GetNullCharacter)] 味を味わうために誘惑される."   # AI Tags
+ bno_bbc_cum_addiction.blacked: "彼女は [GetTrait('bno_whitegirl_2').GetName(GetNullCharacter)] そしてもっと欲しいと願っています."   # AI Tags
+ bno_bbc_cum_addiction.snowbunny: "彼女には [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] そしてすべての牛を欲しがる."   # AI Tags
+ bno_bbc_cum_addiction.qos: "彼女は立ち上がった [GetTrait('bno_whitegirl_4').GetName(GetNullCharacter)] 傲慢に膝を下げている."   # AI Tags
+ bno_bbc_cum_addiction.mindless: "彼女は沈んだ [GetTrait('bno_whitegirl_5').GetName(GetNullCharacter)] 抵抗することが出来ない."   # AI Tags
 
-bno_bbc_cum_addiction.beauty_good_1: "そうだ [GetTrait('beauty_good_1').GetName(GetNullCharacter)] また目を喜ばせる."   # AI Tags
-bno_bbc_cum_addiction.beauty_good_2: "そうだ [GetTrait('beauty_good_2').GetName(GetNullCharacter)] 見事な男です."   # AI Tags
-bno_bbc_cum_addiction.beauty_good_3: "そうだ [GetTrait('beauty_good_3').GetName(GetNullCharacter)] 素晴らしいものです."   # AI Tags
+ bno_bbc_cum_addiction.beauty_good_1: "そうだ [GetTrait('beauty_good_1').GetName(GetNullCharacter)] また目を喜ばせる."   # AI Tags
+ bno_bbc_cum_addiction.beauty_good_2: "そうだ [GetTrait('beauty_good_2').GetName(GetNullCharacter)] 見事な男です."   # AI Tags
+ bno_bbc_cum_addiction.beauty_good_3: "そうだ [GetTrait('beauty_good_3').GetName(GetNullCharacter)] 素晴らしいものです."   # AI Tags
 
-bno_bbc_cum_addiction.physique_good_1: "そうだ [GetTrait('physique_good_1').GetName(GetNullCharacter)] 立派な建物です."   # AI Tags
-bno_bbc_cum_addiction.physique_good_2: "そうだ [GetTrait('physique_good_2').GetName(GetNullCharacter)] 壮大な形をした."   # AI Tags
-bno_bbc_cum_addiction.physique_good_3: "そうだ [GetTrait('physique_good_3').GetName(GetNullCharacter)] そして神のように彫刻された."   # AI Tags
+ bno_bbc_cum_addiction.physique_good_1: "そうだ [GetTrait('physique_good_1').GetName(GetNullCharacter)] 立派な建物です."   # AI Tags
+ bno_bbc_cum_addiction.physique_good_2: "そうだ [GetTrait('physique_good_2').GetName(GetNullCharacter)] 壮大な形をした."   # AI Tags
+ bno_bbc_cum_addiction.physique_good_3: "そうだ [GetTrait('physique_good_3').GetName(GetNullCharacter)] そして神のように彫刻された."   # AI Tags
 
-bno_bbc_cum_addiction.intellect_good_1: "そうだ [GetTrait('intellect_good_1').GetName(GetNullCharacter)] 巧みに話せる."   # AI Tags
-bno_bbc_cum_addiction.intellect_good_2: "そうだ [GetTrait('intellect_good_2').GetName(GetNullCharacter)] 賢明な心も持っています."   # AI Tags
-bno_bbc_cum_addiction.intellect_good_3: "そうだ [GetTrait('intellect_good_3').GetName(GetNullCharacter)] 彼女を壊すには 賢明だ."   # AI Tags
+ bno_bbc_cum_addiction.intellect_good_1: "そうだ [GetTrait('intellect_good_1').GetName(GetNullCharacter)] 巧みに話せる."   # AI Tags
+ bno_bbc_cum_addiction.intellect_good_2: "そうだ [GetTrait('intellect_good_2').GetName(GetNullCharacter)] 賢明な心も持っています."   # AI Tags
+ bno_bbc_cum_addiction.intellect_good_3: "そうだ [GetTrait('intellect_good_3').GetName(GetNullCharacter)] 彼女を壊すには 賢明だ."   # AI Tags
 
-bno_bbc_cum_addiction.strong: "そうだ [GetTrait('strong').GetName(GetNullCharacter)] そして,男性性を放出する."   # AI Tags
+ bno_bbc_cum_addiction.strong: "そうだ [GetTrait('strong').GetName(GetNullCharacter)] そして,男性性を放出する."   # AI Tags
 
 
-bno_bbc_cum_addiction.lustful: "[GetTrait('lustful').GetName(GetNullCharacter)] 熱は痛い."   # AI Tags
-bno_bbc_cum_addiction.chaste: "[GetTrait('chaste').GetName(GetNullCharacter)] 誓いは彼女を止めます."   # AI Tags
-bno_bbc_cum_addiction.gluttonous: "[GetTrait('gluttonous').GetName(GetNullCharacter)] 飢餓は彼女を貪欲にする."   # AI Tags
-bno_bbc_cum_addiction.temperate: "[GetTrait('temperate').GetName(GetNullCharacter)] 制約は彼女の欲望を冷やします."   # AI Tags
-bno_bbc_cum_addiction.greedy: "[GetTrait('greedy').GetName(GetNullCharacter)] 欲望は牛を欲しがる."   # AI Tags
-bno_bbc_cum_addiction.generous: "[GetTrait('generous').GetName(GetNullCharacter)] 自然は彼女の体を開けます."   # AI Tags
-bno_bbc_cum_addiction.lazy: "[GetTrait('lazy').GetName(GetNullCharacter)] 楽さが彼女を屈服させる."   # AI Tags
-bno_bbc_cum_addiction.diligent: "[GetTrait('diligent').GetName(GetNullCharacter)] 集中力は彼女の意志を支える."   # AI Tags
-bno_bbc_cum_addiction.wrathful: "[GetTrait('wrathful').GetName(GetNullCharacter)] 欲望に火を吹き込む."   # AI Tags
-bno_bbc_cum_addiction.calm: "[GetTrait('calm').GetName(GetNullCharacter)] 均衡は誘惑を遅らせる."   # AI Tags
-bno_bbc_cum_addiction.vengeful: "[GetTrait('vengeful').GetName(GetNullCharacter)] ブルに抵抗する."   # AI Tags
-bno_bbc_cum_addiction.forgiving: "[GetTrait('forgiving').GetName(GetNullCharacter)] 柔らかさは彼女を溶かさせます."   # AI Tags
-bno_bbc_cum_addiction.arrogant: "[GetTrait('arrogant').GetName(GetNullCharacter)] プライドは彼女を頑固にする."   # AI Tags
-bno_bbc_cum_addiction.humble: "[GetTrait('humble').GetName(GetNullCharacter)] 謙虚さは彼女を低くします."   # AI Tags
-bno_bbc_cum_addiction.deceitful: "[GetTrait('deceitful').GetName(GetNullCharacter)] 欲望の下の裂け目です."   # AI Tags
-bno_bbc_cum_addiction.honest: "[GetTrait('honest').GetName(GetNullCharacter)] 欲望は明らかです."   # AI Tags
-bno_bbc_cum_addiction.craven: "[GetTrait('craven').GetName(GetNullCharacter)] 恐怖が彼女を精神病に駆り立てます."   # AI Tags
-bno_bbc_cum_addiction.brave: "[GetTrait('brave').GetName(GetNullCharacter)] 冒险を冒せます."   # AI Tags
-bno_bbc_cum_addiction.shy: "[GetTrait('shy').GetName(GetNullCharacter)] ブラッシュは彼女の必要性を裏切った."   # AI Tags
-bno_bbc_cum_addiction.gregarious: "[GetTrait('gregarious').GetName(GetNullCharacter)] 喜びは仲間で繁栄する."   # AI Tags
-bno_bbc_cum_addiction.ambitious: "[GetTrait('ambitious').GetName(GetNullCharacter)] ドライブは彼女の欲望を養う."   # AI Tags
-bno_bbc_cum_addiction.content: "[GetTrait('content').GetName(GetNullCharacter)] 軽さは彼女の空腹を消す."   # AI Tags
-bno_bbc_cum_addiction.impatient: "[GetTrait('impatient').GetName(GetNullCharacter)] 今のところ 衝動が押し付けています."   # AI Tags
-bno_bbc_cum_addiction.patient: "[GetTrait('patient').GetName(GetNullCharacter)] 静寂は彼女の欲望を遅らせる."   # AI Tags
-bno_bbc_cum_addiction.cynical: "[GetTrait('cynical').GetName(GetNullCharacter)] 疑う者は欲望を嘲笑する."   # AI Tags
-bno_bbc_cum_addiction.zealous: "[GetTrait('zealous').GetName(GetNullCharacter)] 信仰は彼女の大腿を閉ざしている."   # AI Tags
-bno_bbc_cum_addiction.paranoid: "[GetTrait('paranoid').GetName(GetNullCharacter)] 恐怖が彼女を守ってくれます."   # AI Tags
-bno_bbc_cum_addiction.trusting: "[GetTrait('trusting').GetName(GetNullCharacter)] 信頼は彼女を開いてくれる."   # AI Tags
-bno_bbc_cum_addiction.compassionate: "[GetTrait('compassionate').GetName(GetNullCharacter)] 暖かさは彼女を楽にする."   # AI Tags
-bno_bbc_cum_addiction.callous: "[GetTrait('callous').GetName(GetNullCharacter)] 寒さは誘惑を麻痺させる."   # AI Tags
-bno_bbc_cum_addiction.sadistic: "[GetTrait('sadistic').GetName(GetNullCharacter)] 残酷さは彼女の欲望を燃やします."   # AI Tags
-bno_bbc_cum_addiction.stubborn: "[GetTrait('stubborn').GetName(GetNullCharacter)] ワイルドは彼女を固く保つ."   # AI Tags
-bno_bbc_cum_addiction.fickle: "[GetTrait('fickle').GetName(GetNullCharacter)] 衝動は欲望によって変化します."   # AI Tags
+ bno_bbc_cum_addiction.lustful: "[GetTrait('lustful').GetName(GetNullCharacter)] 熱は痛い."   # AI Tags
+ bno_bbc_cum_addiction.chaste: "[GetTrait('chaste').GetName(GetNullCharacter)] 誓いは彼女を止めます."   # AI Tags
+ bno_bbc_cum_addiction.gluttonous: "[GetTrait('gluttonous').GetName(GetNullCharacter)] 飢餓は彼女を貪欲にする."   # AI Tags
+ bno_bbc_cum_addiction.temperate: "[GetTrait('temperate').GetName(GetNullCharacter)] 制約は彼女の欲望を冷やします."   # AI Tags
+ bno_bbc_cum_addiction.greedy: "[GetTrait('greedy').GetName(GetNullCharacter)] 欲望は牛を欲しがる."   # AI Tags
+ bno_bbc_cum_addiction.generous: "[GetTrait('generous').GetName(GetNullCharacter)] 自然は彼女の体を開けます."   # AI Tags
+ bno_bbc_cum_addiction.lazy: "[GetTrait('lazy').GetName(GetNullCharacter)] 楽さが彼女を屈服させる."   # AI Tags
+ bno_bbc_cum_addiction.diligent: "[GetTrait('diligent').GetName(GetNullCharacter)] 集中力は彼女の意志を支える."   # AI Tags
+ bno_bbc_cum_addiction.wrathful: "[GetTrait('wrathful').GetName(GetNullCharacter)] 欲望に火を吹き込む."   # AI Tags
+ bno_bbc_cum_addiction.calm: "[GetTrait('calm').GetName(GetNullCharacter)] 均衡は誘惑を遅らせる."   # AI Tags
+ bno_bbc_cum_addiction.vengeful: "[GetTrait('vengeful').GetName(GetNullCharacter)] ブルに抵抗する."   # AI Tags
+ bno_bbc_cum_addiction.forgiving: "[GetTrait('forgiving').GetName(GetNullCharacter)] 柔らかさは彼女を溶かさせます."   # AI Tags
+ bno_bbc_cum_addiction.arrogant: "[GetTrait('arrogant').GetName(GetNullCharacter)] プライドは彼女を頑固にする."   # AI Tags
+ bno_bbc_cum_addiction.humble: "[GetTrait('humble').GetName(GetNullCharacter)] 謙虚さは彼女を低くします."   # AI Tags
+ bno_bbc_cum_addiction.deceitful: "[GetTrait('deceitful').GetName(GetNullCharacter)] 欲望の下の裂け目です."   # AI Tags
+ bno_bbc_cum_addiction.honest: "[GetTrait('honest').GetName(GetNullCharacter)] 欲望は明らかです."   # AI Tags
+ bno_bbc_cum_addiction.craven: "[GetTrait('craven').GetName(GetNullCharacter)] 恐怖が彼女を精神病に駆り立てます."   # AI Tags
+ bno_bbc_cum_addiction.brave: "[GetTrait('brave').GetName(GetNullCharacter)] 冒险を冒せます."   # AI Tags
+ bno_bbc_cum_addiction.shy: "[GetTrait('shy').GetName(GetNullCharacter)] ブラッシュは彼女の必要性を裏切った."   # AI Tags
+ bno_bbc_cum_addiction.gregarious: "[GetTrait('gregarious').GetName(GetNullCharacter)] 喜びは仲間で繁栄する."   # AI Tags
+ bno_bbc_cum_addiction.ambitious: "[GetTrait('ambitious').GetName(GetNullCharacter)] ドライブは彼女の欲望を養う."   # AI Tags
+ bno_bbc_cum_addiction.content: "[GetTrait('content').GetName(GetNullCharacter)] 軽さは彼女の空腹を消す."   # AI Tags
+ bno_bbc_cum_addiction.impatient: "[GetTrait('impatient').GetName(GetNullCharacter)] 今のところ 衝動が押し付けています."   # AI Tags
+ bno_bbc_cum_addiction.patient: "[GetTrait('patient').GetName(GetNullCharacter)] 静寂は彼女の欲望を遅らせる."   # AI Tags
+ bno_bbc_cum_addiction.cynical: "[GetTrait('cynical').GetName(GetNullCharacter)] 疑う者は欲望を嘲笑する."   # AI Tags
+ bno_bbc_cum_addiction.zealous: "[GetTrait('zealous').GetName(GetNullCharacter)] 信仰は彼女の大腿を閉ざしている."   # AI Tags
+ bno_bbc_cum_addiction.paranoid: "[GetTrait('paranoid').GetName(GetNullCharacter)] 恐怖が彼女を守ってくれます."   # AI Tags
+ bno_bbc_cum_addiction.trusting: "[GetTrait('trusting').GetName(GetNullCharacter)] 信頼は彼女を開いてくれる."   # AI Tags
+ bno_bbc_cum_addiction.compassionate: "[GetTrait('compassionate').GetName(GetNullCharacter)] 暖かさは彼女を楽にする."   # AI Tags
+ bno_bbc_cum_addiction.callous: "[GetTrait('callous').GetName(GetNullCharacter)] 寒さは誘惑を麻痺させる."   # AI Tags
+ bno_bbc_cum_addiction.sadistic: "[GetTrait('sadistic').GetName(GetNullCharacter)] 残酷さは彼女の欲望を燃やします."   # AI Tags
+ bno_bbc_cum_addiction.stubborn: "[GetTrait('stubborn').GetName(GetNullCharacter)] ワイルドは彼女を固く保つ."   # AI Tags
+ bno_bbc_cum_addiction.fickle: "[GetTrait('fickle').GetName(GetNullCharacter)] 衝動は欲望によって変化します."   # AI Tags

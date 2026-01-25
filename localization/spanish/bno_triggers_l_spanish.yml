@@ -1,8 +1,8 @@
 ﻿l_spanish:
 
-bno.trigger.is_culture_bnoc: "[culture|E] ha abrazado [bno_bnwo|E] Sumisión y cría." # AI Tags
-bno.trigger.is_slut_or_whiteboi: "No eres un [GetTraitGroup('bno_whitegirl').GetName] o a [GetTraitGroup('bno_whiteboi').GetName]" # AI Tags
-bno.trigger.bno_only_allow_when_below_certain_age: "El carácter es demasiado viejo para ser entrenado y remoldeado adecuadamente." # AI Tags
-bno.trigger.is_bno_cuck_and_up: "El carácter es al menos un [GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]" # AI Tags
-bno.trigger.is_a_girl: "El carácter se considera una chica" # AI Tags
-bno.trigger.is_bno_snowbunny_and_up: "El carácter es al menos un [GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]" # AI Tags
+ bno.trigger.is_culture_bnoc: "[culture|E] ha abrazado [bno_bnwo|E] Sumisión y cría." # AI Tags
+ bno.trigger.is_slut_or_whiteboi: "No eres un [GetTraitGroup('bno_whitegirl').GetName] o a [GetTraitGroup('bno_whiteboi').GetName]" # AI Tags
+ bno.trigger.bno_only_allow_when_below_certain_age: "El carácter es demasiado viejo para ser entrenado y remoldeado adecuadamente." # AI Tags
+ bno.trigger.is_bno_cuck_and_up: "El carácter es al menos un [GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]" # AI Tags
+ bno.trigger.is_a_girl: "El carácter se considera una chica" # AI Tags
+ bno.trigger.is_bno_snowbunny_and_up: "El carácter es al menos un [GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]" # AI Tags

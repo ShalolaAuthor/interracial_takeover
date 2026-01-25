@@ -1,4 +1,4 @@
 ﻿l_russian:
 
-GAIN_GOLD_FROM_FELLOW_BLACK: "Вы выигрываете $VALUE|V0$ [gold_i|E] от твоего друга [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
-GAIN_GOLD_FROM_FELLOW_BLACK_PAST: "Ты выиграл $VALUE|V0$ [gold_i|E] от твоего друга [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+ GAIN_GOLD_FROM_FELLOW_BLACK: "Вы выигрываете $VALUE|V0$ [gold_i|E] от твоего друга [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+ GAIN_GOLD_FROM_FELLOW_BLACK_PAST: "Ты выиграл $VALUE|V0$ [gold_i|E] от твоего друга [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags

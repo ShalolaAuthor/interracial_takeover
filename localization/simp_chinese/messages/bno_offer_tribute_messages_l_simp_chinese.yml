@@ -1,36 +1,36 @@
 ﻿l_simp_chinese:
 
-bno_offer_tribute_found_suitable_trainer.title: "一位新来之主" # AI Tags
-bno_offer_tribute_found_suitable_trainer.desc: "你女儿的前任女儿 [bno_offer_tribute_trainer|E] 已经走了,但他的工作还在继续。. 一个新的 [bno_bbc|E] 具有同等专门知识的人已挺身而出,完成她的转变。. 他巨大的非洲老二 将会加深她的体质. 他的种子将增强她的献身精神. 她的训练履历没停歇." # AI Tags
+ bno_offer_tribute_found_suitable_trainer.title: "一位新来之主" # AI Tags
+ bno_offer_tribute_found_suitable_trainer.desc: "你女儿的前任女儿 [bno_offer_tribute_trainer|E] 已经走了,但他的工作还在继续。. 一个新的 [bno_bbc|E] 具有同等专门知识的人已挺身而出,完成她的转变。. 他巨大的非洲老二 将会加深她的体质. 他的种子将增强她的献身精神. 她的训练履历没停歇." # AI Tags
 
-bno_offer_tribute.notification.title: "悼念开始" # AI Tags
-bno_offer_tribute.notification.desc: "你女儿的转变已经开始了. 她将会被雕塑,训练, 并被重新塑造成 最佳的非洲优势。. 她密封的处女贞洁等待。. 她的身体将单独和黑雾同步. 美化她的计划已经开始了." # AI Tags
+ bno_offer_tribute.notification.title: "悼念开始" # AI Tags
+ bno_offer_tribute.notification.desc: "你女儿的转变已经开始了. 她将会被雕塑,训练, 并被重新塑造成 最佳的非洲优势。. 她密封的处女贞洁等待。. 她的身体将单独和黑雾同步. 美化她的计划已经开始了." # AI Tags
 
-bno_offer_tribute.invalidated.title.tribute.died: "赞美者已潜伏" # AI Tags
-bno_offer_tribute.invalidated.desc.tribute.died: "你女儿在被送去医院之前 在她的身体状况下去世了 [target.GetName]. . 她的身体无法承受她准备的强度。. 所有安排均取消。. 金子是不会换手的. 你对她训练的投资 将永远失去." # AI Tags
+ bno_offer_tribute.invalidated.title.tribute.died: "赞美者已潜伏" # AI Tags
+ bno_offer_tribute.invalidated.desc.tribute.died: "你女儿在被送去医院之前 在她的身体状况下去世了 [target.GetName]. . 她的身体无法承受她准备的强度。. 所有安排均取消。. 金子是不会换手的. 你对她训练的投资 将永远失去." # AI Tags
 
-bno_offer_tribute.invalidated.title.target.died: "[target.GetName] 已经堕落" # AI Tags
-bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]BBC Lord 你当时在准备送女儿去 却在战斗中牺牲了. 他永远不会接受她的. 你的女儿留在这 无人认领. 所有安排均无效。. 你现在必须决定怎么处置她." # AI Tags
+ bno_offer_tribute.invalidated.title.target.died: "[target.GetName] 已经堕落" # AI Tags
+ bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]BBC Lord 你当时在准备送女儿去 却在战斗中牺牲了. 他永远不会接受她的. 你的女儿留在这 无人认领. 所有安排均无效。. 你现在必须决定怎么处置她." # AI Tags
 
-bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] 被关进监狱" # AI Tags
-bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName]BBC Lord 你当时在准备送女儿去 却被敌军囚禁了. 他无法接受她。. 你的女儿留在你家里 她的目的被无限期中止. 所有安排都冻结。. 她的未来现在不确定。." # AI Tags
+ bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] 被关进监狱" # AI Tags
+ bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName]BBC Lord 你当时在准备送女儿去 却被敌军囚禁了. 他无法接受她。. 你的女儿留在你家里 她的目的被无限期中止. 所有安排都冻结。. 她的未来现在不确定。." # AI Tags
 
-bno_trainer_died_during_travel_title: "[bno_trainer.GetFirstName] 旅行期间死亡" # AI Tags
-bno_trainer_died_during_travel_desc: "你可能损失了 [bno_trainer.GetGold] [gold_i]" # AI Tags
+ bno_trainer_died_during_travel_title: "[bno_trainer.GetFirstName] 旅行期间死亡" # AI Tags
+ bno_trainer_died_during_travel_desc: "你可能损失了 [bno_trainer.GetGold] [gold_i]" # AI Tags
 
-tribute_is_coming_back_title: "她回来了…" # AI Tags
-tribute_is_coming_back_desc: "黎明时有一位骑手抵达. 我的敬意——我的女儿——在路上。. 主所启示的, [bno_target.GetFirstName] 对她的服务"完全满意." 我现在在大厅摇摆 我的胃很紧. 他对她做了什么? 她的皮肤、姿势、空洞的眼神里 刻着什么教训? 她将他的判决 带回给我 在她的骨骼。. 我等着看我的杰作, 并学习它是否足够好他。." # AI Tags
+ tribute_is_coming_back_title: "她回来了…" # AI Tags
+ tribute_is_coming_back_desc: "黎明时有一位骑手抵达. 我的敬意——我的女儿——在路上。. 主所启示的, [bno_target.GetFirstName] 对她的服务"完全满意." 我现在在大厅摇摆 我的胃很紧. 他对她做了什么? 她的皮肤、姿势、空洞的眼神里 刻着什么教训? 她将他的判决 带回给我 在她的骨骼。. 我等着看我的杰作, 并学习它是否足够好他。." # AI Tags
 
-bno_offer_tribute_lending_died_title: "A 终身服务" # AI Tags
-bno_offer_tribute_lending_died_desc: "天主传来消息 [target.GetFirstName]宫廷. 你的敬意在他为他服务时已逝世。. 没有提供细节。. 看来交易已经完成了." # AI Tags
+ bno_offer_tribute_lending_died_title: "A 终身服务" # AI Tags
+ bno_offer_tribute_lending_died_desc: "天主传来消息 [target.GetFirstName]宫廷. 你的敬意在他为他服务时已逝世。. 没有提供细节。. 看来交易已经完成了." # AI Tags
 
-story_bno_offer_tribute_rewards_died_title: "[story_owner.GetFirstName] 过 过 过 过 过 过 过 过 过 过" # AI Tags
-story_bno_offer_tribute_rewards_died_desc: "主主主主主,主主主, [story_owner.GetFirstName] 已经死了. 他家的保护已经消失. 你的敬意仍留在他的空厅里,她的目的和命运现在不确定。." # AI Tags
+ story_bno_offer_tribute_rewards_died_title: "[story_owner.GetFirstName] 过 过 过 过 过 过 过 过 过 过" # AI Tags
+ story_bno_offer_tribute_rewards_died_desc: "主主主主主,主主主, [story_owner.GetFirstName] 已经死了. 他家的保护已经消失. 你的敬意仍留在他的空厅里,她的目的和命运现在不确定。." # AI Tags
 
-bno_having_sex_with_tributes_title: "索赔 [tribute.GetFirstName]" # AI Tags
-bno_having_sex_with_tributes_desc: "[tribute.GetFirstName] 在你面前跪下 她的完美身体在颤抖的寂静中提供. 你拿走你的东西. 空气中充斥着她窒息的呻吟 和柔滑 湿湿的占有节奏的声音. 她空洞的眼神进一步闪烁, 她的脑海空荡荡,因为她的身体被完全按照设计的方式使用。. 这不是高兴,而是肯定。. 一个活生生的证明 你的意愿,重新制定 接受它。." # AI Tags
+ bno_having_sex_with_tributes_title: "索赔 [tribute.GetFirstName]" # AI Tags
+ bno_having_sex_with_tributes_desc: "[tribute.GetFirstName] 在你面前跪下 她的完美身体在颤抖的寂静中提供. 你拿走你的东西. 空气中充斥着她窒息的呻吟 和柔滑 湿湿的占有节奏的声音. 她空洞的眼神进一步闪烁, 她的脑海空荡荡,因为她的身体被完全按照设计的方式使用。. 这不是高兴,而是肯定。. 一个活生生的证明 你的意愿,重新制定 接受它。." # AI Tags
 
-bno_give_rewards_to_patron_title: "他的荣幸之名" # AI Tags
-bno_give_rewards_to_patron_desc: "另一件礼物从主那里到来 [story_owner.GetFirstName]宫廷. 其形式问题不尽如人意:你的敬意继续很好地服务于她的宗旨。. 每次送货都是他目前满意度的一个新标志,提醒人们注意,她的身体投资使你的房子有稳定的回报。." # AI Tags
+ bno_give_rewards_to_patron_title: "他的荣幸之名" # AI Tags
+ bno_give_rewards_to_patron_desc: "另一件礼物从主那里到来 [story_owner.GetFirstName]宫廷. 其形式问题不尽如人意:你的敬意继续很好地服务于她的宗旨。. 每次送货都是他目前满意度的一个新标志,提醒人们注意,她的身体投资使你的房子有稳定的回报。." # AI Tags
 
-african_warrior_tribute_reward: "[story_owner.GetFirstName]礼物" # AI Tags
+ african_warrior_tribute_reward: "[story_owner.GetFirstName]礼物" # AI Tags

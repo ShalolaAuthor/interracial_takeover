@@ -1,8 +1,8 @@
 ﻿l_simp_chinese:
 
-bno.trigger.is_culture_bnoc: "[culture|E] 已经接受 [bno_bnwo|E] 和自生自育。." # AI Tags
-bno.trigger.is_slut_or_whiteboi: "你不是一个 [GetTraitGroup('bno_whitegirl').GetName] 或 a/ [GetTraitGroup('bno_whiteboi').GetName]" # AI Tags
-bno.trigger.bno_only_allow_when_below_certain_age: "性格太老了,无法接受适当的训练和再生。." # AI Tags
-bno.trigger.is_bno_cuck_and_up: "字符至少是一个字符 [GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]" # AI Tags
-bno.trigger.is_a_girl: "性格被视为女孩" # AI Tags
-bno.trigger.is_bno_snowbunny_and_up: "字符至少是一个字符 [GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]" # AI Tags
+ bno.trigger.is_culture_bnoc: "[culture|E] 已经接受 [bno_bnwo|E] 和自生自育。." # AI Tags
+ bno.trigger.is_slut_or_whiteboi: "你不是一个 [GetTraitGroup('bno_whitegirl').GetName] 或 a/ [GetTraitGroup('bno_whiteboi').GetName]" # AI Tags
+ bno.trigger.bno_only_allow_when_below_certain_age: "性格太老了,无法接受适当的训练和再生。." # AI Tags
+ bno.trigger.is_bno_cuck_and_up: "字符至少是一个字符 [GetTrait('bno_whiteboi_2').GetName( GetNullCharacter )]" # AI Tags
+ bno.trigger.is_a_girl: "性格被视为女孩" # AI Tags
+ bno.trigger.is_bno_snowbunny_and_up: "字符至少是一个字符 [GetTrait('bno_whitegirl_3').GetName( GetNullCharacter )]" # AI Tags

@@ -1,27 +1,27 @@
 ﻿l_french:
 
-special_doctrine_is_bno_faith_name: "Suprématie de la bite noire" # AI Tags
-is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
-special_doctrine_is_bno_faith_desc: "Nous devrions montrer de la compassion à ces âmes malavisées qui n'ont pas encore connu l'extase d'un [bno_bbc|E], car un seul goût est tout ce qu'il faut. Une fois que tu es noir, tu n'y retournes jamais! Leurs esprits peuvent être obscurcis par l'ignorance aujourd'hui, mais ils viendront adorer à notre autel, en demandant la puissance douce du [bno_bbc|E]." # AI Tags
+ special_doctrine_is_bno_faith_name: "Suprématie de la bite noire" # AI Tags
+ is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
+ special_doctrine_is_bno_faith_desc: "Nous devrions montrer de la compassion à ces âmes malavisées qui n'ont pas encore connu l'extase d'un [bno_bbc|E], car un seul goût est tout ce qu'il faut. Une fois que tu es noir, tu n'y retournes jamais! Leurs esprits peuvent être obscurcis par l'ignorance aujourd'hui, mais ils viendront adorer à notre autel, en demandant la puissance douce du [bno_bbc|E]." # AI Tags
 
-bno_hostility_group_name: "$hostility_group_name$" # AI Tags
-bno_hostility_doctrine_name: "Aphrodiasme" # AI Tags
-bno_hostility_doctrine_desc: "Les religions suivantes sont aphrodiasmiques:\n[GetReligionFamily('rf_bbcs').GetReligions]" # AI Tags
+ bno_hostility_group_name: "$hostility_group_name$" # AI Tags
+ bno_hostility_doctrine_name: "Aphrodiasme" # AI Tags
+ bno_hostility_doctrine_desc: "Les religions suivantes sont aphrodiasmiques:\n[GetReligionFamily('rf_bbcs').GetReligions]" # AI Tags
 
-doctrine_bno_tenets_name: "[bno_religion|E]Les principes:" # AI Tags
+ doctrine_bno_tenets_name: "[bno_religion|E]Les principes:" # AI Tags
 
-tenet_bno_black_cock_conquest_name: "La Conquête des Coqs Noirs" # AI Tags
-tenet_bno_black_cock_conquest_desc: "Par la prière fervente et la conquête sainte, nous répandrons la gloire du [bno_bbc|E] De l'autre côté de la terre!" # AI Tags
+ tenet_bno_black_cock_conquest_name: "La Conquête des Coqs Noirs" # AI Tags
+ tenet_bno_black_cock_conquest_desc: "Par la prière fervente et la conquête sainte, nous répandrons la gloire du [bno_bbc|E] De l'autre côté de la terre!" # AI Tags
 
-tenet_bno_hate_name: "La haine de la bite noire"   # AI Tags
-tenet_bno_hate_desc: "Chaque credo du monde pâle recule devant le [GetFaithByKey('bbcs').GetName]C'est vrai. Ils ne voient que le blasphème dans notre culte, seulement la ruine dans notre semence, seulement la honte dans notre domination sur leurs femmes. Pour eux, notre évangile est la corruption, nos rites obscènes, nos taureaux diables dans la chair. Et ils tremblent encore, car leur haine ne peut arrêter la montée des [bno_bbc|E]." # AI Tags
+ tenet_bno_hate_name: "La haine de la bite noire"   # AI Tags
+ tenet_bno_hate_desc: "Chaque credo du monde pâle recule devant le [GetFaithByKey('bbcs').GetName]C'est vrai. Ils ne voient que le blasphème dans notre culte, seulement la ruine dans notre semence, seulement la honte dans notre domination sur leurs femmes. Pour eux, notre évangile est la corruption, nos rites obscènes, nos taureaux diables dans la chair. Et ils tremblent encore, car leur haine ne peut arrêter la montée des [bno_bbc|E]." # AI Tags
 
-tenet_bno_aniconism_name: "L'adoration de la chair"   # AI Tags
-tenet_bno_aniconism_desc: "Le culte des images taillées aveugle les faibles à la seule vérité divine: les vivants [bno_bbc|E]C'est vrai. Nous rejetons toutes les idoles de nos lieux saints afin qu'aucune fausse vision ne les profane. Seule la chair est sacrée, et seule la Cock noire est digne de dévotion."   # AI Tags
+ tenet_bno_aniconism_name: "L'adoration de la chair"   # AI Tags
+ tenet_bno_aniconism_desc: "Le culte des images taillées aveugle les faibles à la seule vérité divine: les vivants [bno_bbc|E]C'est vrai. Nous rejetons toutes les idoles de nos lieux saints afin qu'aucune fausse vision ne les profane. Seule la chair est sacrée, et seule la Cock noire est digne de dévotion."   # AI Tags
 
-tenet_bno_seed_of_divine_blessing_name: "La semence de la Bénédiction divine" # AI Tags
-tenet_bno_seed_of_divine_blessing_desc: "Au sein de l'Église du Cock noir, chaque union est sanctifiée par la puissante graine de Bull, la fidélité ne se mesure pas par le déni, mais par la soumission affamée de chaque trou au saint plaisir. Aucune femme n'est honteuse d'avoir envie de nouveaux taureaux; chaque gémissement est une prière, chaque acte de reddition d'un sacrement.\nLes limons inondés par le Cum Bull sont sacrés: la naissance est bénie et sûre, chaque enfant glisse dans le monde fort, sain et marqué par la faveur divine. Chaque livraison orgasmique est un rituel vivant, enflant la foi avec la piété sainte et la convoitise. C'est la bénédiction du Cock noir: aucune culpabilité, seulement le culte, et chaque ventre qui coule un témoignage vivant de la puissance de la semence noire." # AI Tags
+ tenet_bno_seed_of_divine_blessing_name: "La semence de la Bénédiction divine" # AI Tags
+ tenet_bno_seed_of_divine_blessing_desc: "Au sein de l'Église du Cock noir, chaque union est sanctifiée par la puissante graine de Bull, la fidélité ne se mesure pas par le déni, mais par la soumission affamée de chaque trou au saint plaisir. Aucune femme n'est honteuse d'avoir envie de nouveaux taureaux; chaque gémissement est une prière, chaque acte de reddition d'un sacrement.\nLes limons inondés par le Cum Bull sont sacrés: la naissance est bénie et sûre, chaque enfant glisse dans le monde fort, sain et marqué par la faveur divine. Chaque livraison orgasmique est un rituel vivant, enflant la foi avec la piété sainte et la convoitise. C'est la bénédiction du Cock noir: aucune culpabilité, seulement le culte, et chaque ventre qui coule un témoignage vivant de la puissance de la semence noire." # AI Tags
 
-tenet_bno_syncretism_name: "Suprématie de la bite noire" # AI Tags
-tenet_bno_syncretism_desc: "Le pouvoir du Black Cock est une vérité indéniable et physique. Quelles que soient les autres philosophies que nous pouvons amuser, tous doivent finalement s'agenouiller et accepter son autorité suprême, en prenant son essence sacrée dans leur corps et leur âme." # AI Tags
-doctrine_parameter_hostility_override_tenet_bno_syncretism: "Non-BNWO [faiths|E] avec $tenet_bno_syncretism_name$ les principes sont pris en considération [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] au lieu de $hostility_evil_tooltippable$" # AI Tags
+ tenet_bno_syncretism_name: "Suprématie de la bite noire" # AI Tags
+ tenet_bno_syncretism_desc: "Le pouvoir du Black Cock est une vérité indéniable et physique. Quelles que soient les autres philosophies que nous pouvons amuser, tous doivent finalement s'agenouiller et accepter son autorité suprême, en prenant son essence sacrée dans leur corps et leur âme." # AI Tags
+ doctrine_parameter_hostility_override_tenet_bno_syncretism: "Non-BNWO [faiths|E] avec $tenet_bno_syncretism_name$ les principes sont pris en considération [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] au lieu de $hostility_evil_tooltippable$" # AI Tags

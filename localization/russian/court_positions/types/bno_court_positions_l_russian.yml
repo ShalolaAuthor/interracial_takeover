@@ -1,62 +1,62 @@
 ﻿l_russian:
 
-bno_bbc_worshipper_court_position: "Поклоняющийся Би-би-си" # AI Tags
-bno_bbc_worshipper_court_position_desc: "Постоянно служить, поклоняться и пользоваться [bno_bbc|E] как они пожелают" # AI Tags
+ bno_bbc_worshipper_court_position: "Поклоняющийся Би-би-си" # AI Tags
+ bno_bbc_worshipper_court_position_desc: "Постоянно служить, поклоняться и пользоваться [bno_bbc|E] как они пожелают" # AI Tags
 
-bno_court_position_trait_bno_pure_white: "[GetTrait('bno_pure_white').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_curious: "[GetTrait('bno_whitegirl_1').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_blacked: "[GetTrait('bno_whitegirl_2').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_snowbunny: "[GetTrait('bno_whitegirl_3').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_qos: "[GetTrait('bno_whitegirl_4').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_mindless: "[GetTrait('bno_whitegirl_5').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_pure_white: "[GetTrait('bno_pure_white').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_curious: "[GetTrait('bno_whitegirl_1').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_blacked: "[GetTrait('bno_whitegirl_2').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_snowbunny: "[GetTrait('bno_whitegirl_3').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_qos: "[GetTrait('bno_whitegirl_4').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_mindless: "[GetTrait('bno_whitegirl_5').GetName( ROOT.Char )]" # AI Tags
 
-bno_court_position_trait_bno_bbc_whore_1: "[GetTrait('bno_bbc_whore_1').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_bbc_whore_2: "[GetTrait('bno_bbc_whore_2').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_bbc_whore_3: "[GetTrait('bno_bbc_whore_3').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_bbc_whore_4: "[GetTrait('bno_bbc_whore_4').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_bbc_whore_1: "[GetTrait('bno_bbc_whore_1').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_bbc_whore_2: "[GetTrait('bno_bbc_whore_2').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_bbc_whore_3: "[GetTrait('bno_bbc_whore_3').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_bbc_whore_4: "[GetTrait('bno_bbc_whore_4').GetName( ROOT.Char )]" # AI Tags
 
-bno_court_position_trait_bno_pussy_mileage_1: "[GetTrait('bno_pussy_mileage_1').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_pussy_mileage_2: "[GetTrait('bno_pussy_mileage_2').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_pussy_mileage_3: "[GetTrait('bno_pussy_mileage_3').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_pussy_mileage_4: "[GetTrait('bno_pussy_mileage_4').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_pussy_mileage_5: "[GetTrait('bno_pussy_mileage_5').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_pussy_mileage_6: "[GetTrait('bno_pussy_mileage_6').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_pussy_mileage_1: "[GetTrait('bno_pussy_mileage_1').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_pussy_mileage_2: "[GetTrait('bno_pussy_mileage_2').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_pussy_mileage_3: "[GetTrait('bno_pussy_mileage_3').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_pussy_mileage_4: "[GetTrait('bno_pussy_mileage_4').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_pussy_mileage_5: "[GetTrait('bno_pussy_mileage_5').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_pussy_mileage_6: "[GetTrait('bno_pussy_mileage_6').GetName( ROOT.Char )]" # AI Tags
 
-bno_court_position_trait_beauty_good_1: "[GetTrait('beauty_good_1').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_beauty_good_2: "[GetTrait('beauty_good_2').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_beauty_good_3: "[GetTrait('beauty_good_3').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_beauty_good_1: "[GetTrait('beauty_good_1').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_beauty_good_2: "[GetTrait('beauty_good_2').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_beauty_good_3: "[GetTrait('beauty_good_3').GetName( ROOT.Char )]" # AI Tags
 
-bno_court_position_trait_bno_lifestyle_bbc_priestess: "[GetTrait('bno_lifestyle_bbc_priestess').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_bno_lifestyle_bbc_priest: "[GetTrait('bno_lifestyle_bbc_priest').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_lifestyle_bbc_priestess: "[GetTrait('bno_lifestyle_bbc_priestess').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_bno_lifestyle_bbc_priest: "[GetTrait('bno_lifestyle_bbc_priest').GetName( ROOT.Char )]" # AI Tags
 
-bno_court_position_trait_tits_big_good_1: "[GetTrait('tits_big_good_1').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_tits_big_good_2: "[GetTrait('tits_big_good_2').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_tits_big_good_3: "[GetTrait('tits_big_good_3').GetName( ROOT.Char )]" # AI Tags
-bno_court_position_trait_tits_big_good_4: "[GetTrait('tits_big_good_4').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_tits_big_good_1: "[GetTrait('tits_big_good_1').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_tits_big_good_2: "[GetTrait('tits_big_good_2').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_tits_big_good_3: "[GetTrait('tits_big_good_3').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_tits_big_good_4: "[GetTrait('tits_big_good_4').GetName( ROOT.Char )]" # AI Tags
 
-bno_court_position_trait_fecund: "[GetTrait('fecund').GetName( ROOT.Char )]" # AI Tags
+ bno_court_position_trait_fecund: "[GetTrait('fecund').GetName( ROOT.Char )]" # AI Tags
 
-hire_bbc_worshipper_decision: "Поиск [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
-hire_bbc_worshipper_decision_effect_tooltip: "Вы будете представлены с группой [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] кандидатов и может нанять одного из них за плату и ежемесячную зарплату [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
+ hire_bbc_worshipper_decision: "Поиск [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]" # AI Tags
+ hire_bbc_worshipper_decision_effect_tooltip: "Вы будете представлены с группой [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()] кандидатов и может нанять одного из них за плату и ежемесячную зарплату [gold_i][SCOPE.ScriptValue('bno_bbc_worshipper_salary')]" # AI Tags
 
-bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$Станет [bno_whore|E] для их [liege|E]" # AI Tags
+ bno_bbc_worshipper_employer_custom_effect_description: "$BULLET$Станет [bno_whore|E] для их [liege|E]" # AI Tags
 
-bno_bbc_priestess_employer_custom_effect_description: "$BULLET$Станет [bbc_evangelist|E] для их [liege|E]" # AI Tags
-bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$" # AI Tags
+ bno_bbc_priestess_employer_custom_effect_description: "$BULLET$Станет [bbc_evangelist|E] для их [liege|E]" # AI Tags
+ bno_bbc_priest_employer_custom_effect_description: "$bno_bbc_priestess_employer_custom_effect_description$" # AI Tags
 
-bno_bbc_priestess_court_position: "Священница Би-би-си" # AI Tags
-bno_bbc_priestess_court_position_desc: "Плотные с священным маслом, они вкладывают свои пульсирующие члены и плёнки в рот и отверстие каждого дворянина, пока вся королевство не поклонится толстой нагрузке их черного бога." # AI Tags
+ bno_bbc_priestess_court_position: "Священница Би-би-си" # AI Tags
+ bno_bbc_priestess_court_position_desc: "Плотные с священным маслом, они вкладывают свои пульсирующие члены и плёнки в рот и отверстие каждого дворянина, пока вся королевство не поклонится толстой нагрузке их черного бога." # AI Tags
 
-bno_bbc_priest_court_position: "Священник Би-би-си" # AI Tags
-bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags
+ bno_bbc_priest_court_position: "Священник Би-би-си" # AI Tags
+ bno_bbc_priest_court_position_desc: "$bno_bbc_priestess_court_position_desc$" # AI Tags
 
-bno_breeding_bull_court_position: "Разведение быка" # AI Tags
-bno_breeding_bull_court_position_desc: "Превосходный чернокожий мужчина, посвященный зачаточности наших лучших женщин и улучшению нашего рода своим священным семенем." # AI Tags
+ bno_breeding_bull_court_position: "Разведение быка" # AI Tags
+ bno_breeding_bull_court_position_desc: "Превосходный чернокожий мужчина, посвященный зачаточности наших лучших женщин и улучшению нашего рода своим священным семенем." # AI Tags
 
-bno_breeding_bull.employer.modifier.desc: "$BULLET$Систематически оплодотворяет каждую не-черную женщину в этом дворе." # AI Tags
+ bno_breeding_bull.employer.modifier.desc: "$BULLET$Систематически оплодотворяет каждую не-черную женщину в этом дворе." # AI Tags
 
-story_bno_breeding_bull.message.title.whiteboi: "Бык претендует на награду" # AI Tags
-story_bno_breeding_bull.message.desc.whiteboi: "Вы смотрите с уголка, ваша собственная недостаточность разоблачена, как размножающий бык заканчивает с другой женщиной вашего двора. Теперь он посеял [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] Девочки на этой сессии, его превосходная потенция неоспорима." # AI Tags
+ story_bno_breeding_bull.message.title.whiteboi: "Бык претендует на награду" # AI Tags
+ story_bno_breeding_bull.message.desc.whiteboi: "Вы смотрите с уголка, ваша собственная недостаточность разоблачена, как размножающий бык заканчивает с другой женщиной вашего двора. Теперь он посеял [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] Девочки на этой сессии, его превосходная потенция неоспорима." # AI Tags
 
-story_bno_breeding_bull.message.title.whitegirl: "Наполнен превосходным сеем" # AI Tags
-story_bno_breeding_bull.message.desc.whitegirl: "Глубокая, удовлетворительная теплота распространяется через вас, когда размножающийся бык выходит, его священная сущность уже коренится. Ты один из [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] Женщины, которых он правильно вырастил сегодня вечером, исполняя вашу высшую цель." # AI Tags
+ story_bno_breeding_bull.message.title.whitegirl: "Наполнен превосходным сеем" # AI Tags
+ story_bno_breeding_bull.message.desc.whitegirl: "Глубокая, удовлетворительная теплота распространяется через вас, когда размножающийся бык выходит, его священная сущность уже коренится. Ты один из [bno_breeding_bull_liege.MakeScope.Var('bno_breeding_bull_sex_count').GetValue] Женщины, которых он правильно вырастил сегодня вечером, исполняя вашу высшую цель." # AI Tags

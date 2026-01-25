@@ -1,27 +1,27 @@
 ﻿l_japanese:
 
-special_doctrine_is_bno_faith_name: "ブラックカック 優位性" # AI Tags
-is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
-special_doctrine_is_bno_faith_desc: "迷った魂に 思いやりを示すべきです 迷った魂に 思いやりを示すべきです 迷った魂に 思いやりを示すべきです [bno_bbc|E]味が一つしかないから. 一旦黒くなったら二度と戻らない! 彼らの心は今日無知によって 曇っているかもしれませんが 彼らは私たちの祭壇に 礼拝するために来るでしょう [bno_bbc|E]." # AI Tags
+ special_doctrine_is_bno_faith_name: "ブラックカック 優位性" # AI Tags
+ is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
+ special_doctrine_is_bno_faith_desc: "迷った魂に 思いやりを示すべきです 迷った魂に 思いやりを示すべきです 迷った魂に 思いやりを示すべきです [bno_bbc|E]味が一つしかないから. 一旦黒くなったら二度と戻らない! 彼らの心は今日無知によって 曇っているかもしれませんが 彼らは私たちの祭壇に 礼拝するために来るでしょう [bno_bbc|E]." # AI Tags
 
-bno_hostility_group_name: "$hostility_group_name$" # AI Tags
-bno_hostility_doctrine_name: "アフロディアズマ" # AI Tags
-bno_hostility_doctrine_desc: "次の宗教はアフロディアズムの宗教である\n[GetReligionFamily('rf_bbcs').GetReligions]" # AI Tags
+ bno_hostility_group_name: "$hostility_group_name$" # AI Tags
+ bno_hostility_doctrine_name: "アフロディアズマ" # AI Tags
+ bno_hostility_doctrine_desc: "次の宗教はアフロディアズムの宗教である\n[GetReligionFamily('rf_bbcs').GetReligions]" # AI Tags
 
-doctrine_bno_tenets_name: "[bno_religion|E]: 原則" # AI Tags
+ doctrine_bno_tenets_name: "[bno_religion|E]: 原則" # AI Tags
 
-tenet_bno_black_cock_conquest_name: "ブラックカック の 征服" # AI Tags
-tenet_bno_black_cock_conquest_desc: "熱心な祈りと神聖な勝利によって [bno_bbc|E] 横断して!" # AI Tags
+ tenet_bno_black_cock_conquest_name: "ブラックカック の 征服" # AI Tags
+ tenet_bno_black_cock_conquest_desc: "熱心な祈りと神聖な勝利によって [bno_bbc|E] 横断して!" # AI Tags
 
-tenet_bno_hate_name: "ブラックカック に 対する 憎しみ"   # AI Tags
-tenet_bno_hate_desc: "淡い世界のすべての信仰は [GetFaithByKey('bbcs').GetName]… 彼らは我々の崇拝に 亵しか見えない 我々の子孫に 破滅しか見えない 彼らの女たちの支配に 恥しか見えない. 彼らにとって 私たちの福音は腐敗だ 儀式は醜い 牛は肉身の悪魔だ. 憎しみによって 暴力を止められないのです [bno_bbc|E]." # AI Tags
+ tenet_bno_hate_name: "ブラックカック に 対する 憎しみ"   # AI Tags
+ tenet_bno_hate_desc: "淡い世界のすべての信仰は [GetFaithByKey('bbcs').GetName]… 彼らは我々の崇拝に 亵しか見えない 我々の子孫に 破滅しか見えない 彼らの女たちの支配に 恥しか見えない. 彼らにとって 私たちの福音は腐敗だ 儀式は醜い 牛は肉身の悪魔だ. 憎しみによって 暴力を止められないのです [bno_bbc|E]." # AI Tags
 
-tenet_bno_aniconism_name: "肉 の 崇拝"   # AI Tags
-tenet_bno_aniconism_desc: "彫刻 の 偶像 の 崇拝 は 弱者 を 唯一 の 神 の 真理 に 盲目 さ せ て い ます [bno_bbc|E]… 私たちは,すべての偶像を聖所から追い出しました. 虚偽の幻が彼らを汚さないように. 肉だけが神聖で ブラックカックだけが献身に値する."   # AI Tags
+ tenet_bno_aniconism_name: "肉 の 崇拝"   # AI Tags
+ tenet_bno_aniconism_desc: "彫刻 の 偶像 の 崇拝 は 弱者 を 唯一 の 神 の 真理 に 盲目 さ せ て い ます [bno_bbc|E]… 私たちは,すべての偶像を聖所から追い出しました. 虚偽の幻が彼らを汚さないように. 肉だけが神聖で ブラックカックだけが献身に値する."   # AI Tags
 
-tenet_bno_seed_of_divine_blessing_name: "神 の 祝福 の 種子" # AI Tags
-tenet_bno_seed_of_divine_blessing_desc: "ブラックカック教会では,すべての同盟が Bullの強力な種によって神聖化されます 忠誠性は否定によって測定されません. しかし,神聖な喜びにすべての穴の飢えた降伏によって測定されます. 新しい雄牛を欲しがる女性は恥じない. 嘆くたびに祈り,降伏するたびに聖礼である.\nブルク・クムに溢れた胎児は神聖なものです 生まれつきは幸福で安全で すべての子供が強く 健康で神からの恵みによって世界へと滑り出します. あらゆるオーガズム的な出産は 生きた儀式で 信仰を神聖な敬虔さと欲望で 膨らませています. これはブラック・カックの祝福です 罪悪感はなく 崇拝のみ そして,滴滴する胎児は,黒い種の力に対する 生きている証拠です." # AI Tags
+ tenet_bno_seed_of_divine_blessing_name: "神 の 祝福 の 種子" # AI Tags
+ tenet_bno_seed_of_divine_blessing_desc: "ブラックカック教会では,すべての同盟が Bullの強力な種によって神聖化されます 忠誠性は否定によって測定されません. しかし,神聖な喜びにすべての穴の飢えた降伏によって測定されます. 新しい雄牛を欲しがる女性は恥じない. 嘆くたびに祈り,降伏するたびに聖礼である.\nブルク・クムに溢れた胎児は神聖なものです 生まれつきは幸福で安全で すべての子供が強く 健康で神からの恵みによって世界へと滑り出します. あらゆるオーガズム的な出産は 生きた儀式で 信仰を神聖な敬虔さと欲望で 膨らませています. これはブラック・カックの祝福です 罪悪感はなく 崇拝のみ そして,滴滴する胎児は,黒い種の力に対する 生きている証拠です." # AI Tags
 
-tenet_bno_syncretism_name: "ブラックカック の 優位性" # AI Tags
-tenet_bno_syncretism_desc: "ブラックカックの力は 否定できない 物理的な真実です. 他の哲学がどんなものでも 最終的には 膝をひざまずいて その最高権威を受け入れ その神聖な本質を 自分の体と魂に 取り入れなければなりません." # AI Tags
-doctrine_parameter_hostility_override_tenet_bno_syncretism: "BNWOでない [faiths|E] と $tenet_bno_syncretism_name$ 原則は考慮される [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 代わりに $hostility_evil_tooltippable$" # AI Tags
+ tenet_bno_syncretism_name: "ブラックカック の 優位性" # AI Tags
+ tenet_bno_syncretism_desc: "ブラックカックの力は 否定できない 物理的な真実です. 他の哲学がどんなものでも 最終的には 膝をひざまずいて その最高権威を受け入れ その神聖な本質を 自分の体と魂に 取り入れなければなりません." # AI Tags
+ doctrine_parameter_hostility_override_tenet_bno_syncretism: "BNWOでない [faiths|E] と $tenet_bno_syncretism_name$ 原則は考慮される [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 代わりに $hostility_evil_tooltippable$" # AI Tags

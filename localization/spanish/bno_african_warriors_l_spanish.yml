@@ -1,44 +1,44 @@
 ﻿l_spanish:
 
-bno_african_warriors: "Guerreros africanos" # AI Tags
-bno_african_warriors_flavor: "#F Escaramuzas de élite conocidas por su velocidad y capacidad para adaptarse a terrenos duros como bosques y selvas.#!" # AI Tags
+ bno_african_warriors: "Guerreros africanos" # AI Tags
+ bno_african_warriors_flavor: "#F Escaramuzas de élite conocidas por su velocidad y capacidad para adaptarse a terrenos duros como bosques y selvas.#!" # AI Tags
 
-bno_ebony_elites: "Ébano Elites" # AI Tags
-bno_ebony_elites_flavor: "#F Una prestigiosa unidad de infantería pesada, reconocida por su habilidad disciplinaria y de combate, a menudo sirviendo como la columna vertebral del poder militar del reino.#!" # AI Tags
+ bno_ebony_elites: "Ébano Elites" # AI Tags
+ bno_ebony_elites_flavor: "#F Una prestigiosa unidad de infantería pesada, reconocida por su habilidad disciplinaria y de combate, a menudo sirviendo como la columna vertebral del poder militar del reino.#!" # AI Tags
 
-bno_cock_maidens: "Chicas de gallo" # AI Tags
-bno_cock_maidens_flavor: "#F Virgenes escogidas a mano atadas al culto del Black Cock, estas doncellas empuñan espada y cuerpo como armas. Pocos en número pero sin igual en celo, golpean con despiadada precisión, su devoción lujuriosa convirtiendo cada campo de batalla en una orgía de sangre y adoración de la BBC.#!" # AI Tags
+ bno_cock_maidens: "Chicas de gallo" # AI Tags
+ bno_cock_maidens_flavor: "#F Virgenes escogidas a mano atadas al culto del Black Cock, estas doncellas empuñan espada y cuerpo como armas. Pocos en número pero sin igual en celo, golpean con despiadada precisión, su devoción lujuriosa convirtiendo cada campo de batalla en una orgía de sangre y adoración de la BBC.#!" # AI Tags
 
-bno_seed_thralls: "Semillas" # AI Tags
-bno_seed_thralls_flavor: "#F Las mujeres blancas perforadas en brazos pero atadas en agujeros, marchan a la batalla sólo para terminar de rodillas. Cada lanzamiento de lanza es un juego previo, cada escudo levantó un gemido retenido, porque su verdadera recompensa es ser dividido y relleno por Bulls una vez que la lucha haya terminado.#!" # AI Tags
+ bno_seed_thralls: "Semillas" # AI Tags
+ bno_seed_thralls_flavor: "#F Las mujeres blancas perforadas en brazos pero atadas en agujeros, marchan a la batalla sólo para terminar de rodillas. Cada lanzamiento de lanza es un juego previo, cada escudo levantó un gemido retenido, porque su verdadera recompensa es ser dividido y relleno por Bulls una vez que la lucha haya terminado.#!" # AI Tags
 
 
-bnwo_armies: "[bnwo_armies|E]" # AI Tags
+ bnwo_armies: "[bnwo_armies|E]" # AI Tags
 
-bnwo_armies_screen_add: "[bnwo_armies|E] [screen|E]" # AI Tags
-bnwo_armies_screen_mult: "$bnwo_armies_screen_add$" # AI Tags
-bnwo_armies_pursuit_add: "[bnwo_armies|E] [pursuit|E]" # AI Tags
-bnwo_armies_pursuit_mult: "$bnwo_armies_pursuit_add$" # AI Tags
-bnwo_armies_toughness_add: "[bnwo_armies|E] [toughness|E]" # AI Tags
-bnwo_armies_toughness_mult: "$bnwo_armies_toughness_add$" # AI Tags
-bnwo_armies_damage_add: "[bnwo_armies|E] [damage|E]" # AI Tags
-bnwo_armies_damage_mult: "$bnwo_armies_damage_add$" # AI Tags
-bnwo_armies_max_size_add: "Tamaño máximo de [bnwo_armies|E] [regiments|E]" # AI Tags
-bnwo_armies_max_size_mult: "$bnwo_armies_max_size_add$" # AI Tags
-bnwo_armies_maintenance_mult: "[bnwo_armies|E] Mantenimiento" # AI Tags
-bnwo_armies_recruitment_cost_mult: "[bnwo_armies|E] Costo de contratación" # AI Tags
-bnwo_armies_siege_value_add: "[bnwo_armies|E] [siege_progress|E]" # AI Tags
-bnwo_armies_siege_value_mult: "$bnwo_armies_siege_value_add$" # AI Tags
+ bnwo_armies_screen_add: "[bnwo_armies|E] [screen|E]" # AI Tags
+ bnwo_armies_screen_mult: "$bnwo_armies_screen_add$" # AI Tags
+ bnwo_armies_pursuit_add: "[bnwo_armies|E] [pursuit|E]" # AI Tags
+ bnwo_armies_pursuit_mult: "$bnwo_armies_pursuit_add$" # AI Tags
+ bnwo_armies_toughness_add: "[bnwo_armies|E] [toughness|E]" # AI Tags
+ bnwo_armies_toughness_mult: "$bnwo_armies_toughness_add$" # AI Tags
+ bnwo_armies_damage_add: "[bnwo_armies|E] [damage|E]" # AI Tags
+ bnwo_armies_damage_mult: "$bnwo_armies_damage_add$" # AI Tags
+ bnwo_armies_max_size_add: "Tamaño máximo de [bnwo_armies|E] [regiments|E]" # AI Tags
+ bnwo_armies_max_size_mult: "$bnwo_armies_max_size_add$" # AI Tags
+ bnwo_armies_maintenance_mult: "[bnwo_armies|E] Mantenimiento" # AI Tags
+ bnwo_armies_recruitment_cost_mult: "[bnwo_armies|E] Costo de contratación" # AI Tags
+ bnwo_armies_siege_value_add: "[bnwo_armies|E] [siege_progress|E]" # AI Tags
+ bnwo_armies_siege_value_mult: "$bnwo_armies_siege_value_add$" # AI Tags
 
-stationed_bnwo_armies_damage_add: "[stationed|E] [bnwo_armies|E] [damage|E]" # AI Tags
-stationed_bnwo_armies_damage_mult: "$stationed_bnwo_armies_damage_add$" # AI Tags
-stationed_bnwo_armies_toughness_add: "[stationed|E] [bnwo_armies|E] [toughness|E]" # AI Tags
-stationed_bnwo_armies_toughness_mult: "$stationed_bnwo_armies_toughness_add$" # AI Tags
-stationed_bnwo_armies_pursuit_add: "[stationed|E] [bnwo_armies|E] [pursuit|E]" # AI Tags
-stationed_bnwo_armies_pursuit_mult: "$stationed_bnwo_armies_pursuit_add$" # AI Tags
-stationed_bnwo_armies_screen_add: "[stationed|E] [bnwo_armies|E] [screen|E]" # AI Tags
-stationed_bnwo_armies_screen_mult: "$stationed_bnwo_armies_screen_add$" # AI Tags
-stationed_bnwo_armies_siege_value_add: "[stationed|E] [bnwo_armies|E] [siege_progress|E]" # AI Tags
-stationed_bnwo_armies_siege_value_mult: "$stationed_bnwo_armies_siege_value_add$" # AI Tags
+ stationed_bnwo_armies_damage_add: "[stationed|E] [bnwo_armies|E] [damage|E]" # AI Tags
+ stationed_bnwo_armies_damage_mult: "$stationed_bnwo_armies_damage_add$" # AI Tags
+ stationed_bnwo_armies_toughness_add: "[stationed|E] [bnwo_armies|E] [toughness|E]" # AI Tags
+ stationed_bnwo_armies_toughness_mult: "$stationed_bnwo_armies_toughness_add$" # AI Tags
+ stationed_bnwo_armies_pursuit_add: "[stationed|E] [bnwo_armies|E] [pursuit|E]" # AI Tags
+ stationed_bnwo_armies_pursuit_mult: "$stationed_bnwo_armies_pursuit_add$" # AI Tags
+ stationed_bnwo_armies_screen_add: "[stationed|E] [bnwo_armies|E] [screen|E]" # AI Tags
+ stationed_bnwo_armies_screen_mult: "$stationed_bnwo_armies_screen_add$" # AI Tags
+ stationed_bnwo_armies_siege_value_add: "[stationed|E] [bnwo_armies|E] [siege_progress|E]" # AI Tags
+ stationed_bnwo_armies_siege_value_mult: "$stationed_bnwo_armies_siege_value_add$" # AI Tags
 
-bno_hotwife_army_name: "La legión de la zorra ennegrecida" # AI Tags
+ bno_hotwife_army_name: "La legión de la zorra ennegrecida" # AI Tags

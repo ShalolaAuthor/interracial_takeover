@@ -1,6 +1,6 @@
 ﻿l_polish:
 #Travel Flavor Events
-bno_bull_travel_0001.title: "Wykryty cel" # AI Tags
-bno_bull_travel_0001.desc: "Słuchy o twoim rozmiarze przenoszą się szybciej, niż myślisz. Ludzie w twojej okolicy słyszeli o tobie, pragną twojego męstwa w ich łonie. Może niektórzy z nich tęsknią za twoim nasieniem. Miejscowa kobieta próbuje cię przekonać do zatrzymania się na kilka dni, by zostać z kimś intymnym [target1.GetHerHis]Nie chcesz się spóźnić, ale pokusy są duże. Wybierz to albo idź dalej." # AI Tags
-bno_bull_travel_0001.a: "Trochę opóźnienia nic nie zmieni." # AI Tags
-bno_bull_travel_0001.b: "Nie pozwolę, żeby jakaś dziwka mnie spowolniła. Szybko! " # AI Tags
+ bno_bull_travel_0001.title: "Wykryty cel" # AI Tags
+ bno_bull_travel_0001.desc: "Słuchy o twoim rozmiarze przenoszą się szybciej, niż myślisz. Ludzie w twojej okolicy słyszeli o tobie, pragną twojego męstwa w ich łonie. Może niektórzy z nich tęsknią za twoim nasieniem. Miejscowa kobieta próbuje cię przekonać do zatrzymania się na kilka dni, by zostać z kimś intymnym [target1.GetHerHis]Nie chcesz się spóźnić, ale pokusy są duże. Wybierz to albo idź dalej." # AI Tags
+ bno_bull_travel_0001.a: "Trochę opóźnienia nic nie zmieni." # AI Tags
+ bno_bull_travel_0001.b: "Nie pozwolę, żeby jakaś dziwka mnie spowolniła. Szybko! " # AI Tags

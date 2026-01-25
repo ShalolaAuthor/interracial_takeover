@@ -1,5 +1,5 @@
 ﻿l_russian:
 #BNWO Succession
-bnwo_only_law: "Ориентирован на BNWO"
-bnwo_only_law_subname: "Расовое Превосходство"
-bnwo_only_law_effects: "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$Мужчины и женщины равны в наследовании титулов.\n$EFFECT_LIST_BULLET$Передаётся только в рамках той же веры.\n$EFFECT_LIST_BULLET$Позволяет назначать наследников."
+ bnwo_only_law: "Ориентирован на BNWO"
+ bnwo_only_law_subname: "Расовое Превосходство"
+ bnwo_only_law_effects: "[bno_bnwo|E]\n$EFFECT_LIST_BULLET$Мужчины и женщины равны в наследовании титулов.\n$EFFECT_LIST_BULLET$Передаётся только в рамках той же веры.\n$EFFECT_LIST_BULLET$Позволяет назначать наследников."

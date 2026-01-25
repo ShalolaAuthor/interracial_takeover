@@ -1,14 +1,14 @@
 ﻿l_german:
 
-bnwo_faction: "[bno_bnwo|E] Fraktion" # AI Tags
-bnwo_faction_desc: "Unter ihrer eisernen Herrschaft beugen und bluten weiße Körper, die unseren unersättlichen Hunger nach einer starken, schönen und unbestreitbaren Nachkommenschaft tanken [bno_black|E]." # AI Tags
-bnwo_faction.name: "Das [bno_bnwo|E]" # AI Tags
-bnwo_faction.short_effect_desc: "Das [bno_bnwo|E] ist eine Fraktion, die versucht, eine neue Weltordnung auf der Grundlage der rassischen Vormachtstellung zu etablieren, mit einem Fokus auf die Dominanz der [bno_black|E] Einzelpersonen." # AI Tags
-bnwo_faction.power.bnoc: "Wünscht [liege|E] zu sein $bnoc$" # AI Tags
-bnwo_faction.power.bbcs: "Wünscht [liege|E] zu sein $bbcs$" # AI Tags
-bnwo_faction.power.county_bnoc: "Er wünscht, dass [county] zu sein $bnoc$" # AI Tags
-bnwo_faction.power.county_bbcs: "Er wünscht, dass [county] zu sein $bbcs$" # AI Tags
-bnwo_faction_leader_title: "Befehlshaber" # AI Tags
-bnwo_faction_revolt_title_name: "Das [bno_bnwo|E] Aufstand" # AI Tags
-bnwo_faction_event_troops: "[bno_bnwo|E] Aufstand" # AI Tags
-bno_event_troop_default_name: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] [bno_bnwo|E] Aufstandsarmee" # AI Tags
+ bnwo_faction: "[bno_bnwo|E] Fraktion" # AI Tags
+ bnwo_faction_desc: "Unter ihrer eisernen Herrschaft beugen und bluten weiße Körper, die unseren unersättlichen Hunger nach einer starken, schönen und unbestreitbaren Nachkommenschaft tanken [bno_black|E]." # AI Tags
+ bnwo_faction.name: "Das [bno_bnwo|E]" # AI Tags
+ bnwo_faction.short_effect_desc: "Das [bno_bnwo|E] ist eine Fraktion, die versucht, eine neue Weltordnung auf der Grundlage der rassischen Vormachtstellung zu etablieren, mit einem Fokus auf die Dominanz der [bno_black|E] Einzelpersonen." # AI Tags
+ bnwo_faction.power.bnoc: "Wünscht [liege|E] zu sein $bnoc$" # AI Tags
+ bnwo_faction.power.bbcs: "Wünscht [liege|E] zu sein $bbcs$" # AI Tags
+ bnwo_faction.power.county_bnoc: "Er wünscht, dass [county] zu sein $bnoc$" # AI Tags
+ bnwo_faction.power.county_bbcs: "Er wünscht, dass [county] zu sein $bbcs$" # AI Tags
+ bnwo_faction_leader_title: "Befehlshaber" # AI Tags
+ bnwo_faction_revolt_title_name: "Das [bno_bnwo|E] Aufstand" # AI Tags
+ bnwo_faction_event_troops: "[bno_bnwo|E] Aufstand" # AI Tags
+ bno_event_troop_default_name: "[ROOT.Char.GetTitledFirstNamePossessiveNoTooltip] [bno_bnwo|E] Aufstandsarmee" # AI Tags

@@ -1,4 +1,4 @@
 ﻿l_simp_chinese:
 
-GAIN_GOLD_FROM_FELLOW_BLACK: "增加 $VALUE|V0$ [gold_i|E] 从您的伙伴寄出 [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
-GAIN_GOLD_FROM_FELLOW_BLACK_PAST: "获得 $VALUE|V0$ [gold_i|E] 从您的伙伴寄出 [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+ GAIN_GOLD_FROM_FELLOW_BLACK: "增加 $VALUE|V0$ [gold_i|E] 从您的伙伴寄出 [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags
+ GAIN_GOLD_FROM_FELLOW_BLACK_PAST: "获得 $VALUE|V0$ [gold_i|E] 从您的伙伴寄出 [GetTrait('bno_full_black').GetName( GetNullCharacter )]" # AI Tags

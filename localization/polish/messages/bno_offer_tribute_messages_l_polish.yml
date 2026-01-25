@@ -1,36 +1,36 @@
 ﻿l_polish:
 
-bno_offer_tribute_found_suitable_trainer.title: "Przybył nowy mistrz" # AI Tags
-bno_offer_tribute_found_suitable_trainer.desc: "Twoja córka jest poprzednią [bno_offer_tribute_trainer|E] nie ma, ale jego praca trwa. Nowy [bno_bbc|E] Z równym doświadczeniem postąpiła, aby zakończyć swoją transformację. Jego ogromny afrykański kutas pogłębi jej kondycjonowanie. Jego nasienie zwiększy jej oddanie. Jej szkolenie kontynuuje się bez przerwy." # AI Tags
+ bno_offer_tribute_found_suitable_trainer.title: "Przybył nowy mistrz" # AI Tags
+ bno_offer_tribute_found_suitable_trainer.desc: "Twoja córka jest poprzednią [bno_offer_tribute_trainer|E] nie ma, ale jego praca trwa. Nowy [bno_bbc|E] Z równym doświadczeniem postąpiła, aby zakończyć swoją transformację. Jego ogromny afrykański kutas pogłębi jej kondycjonowanie. Jego nasienie zwiększy jej oddanie. Jej szkolenie kontynuuje się bez przerwy." # AI Tags
 
-bno_offer_tribute.notification.title: "Rozpoczyna się hołd" # AI Tags
-bno_offer_tribute.notification.desc: "Przekształcenie twojej córki rozpoczęło się. Będzie rzeźbiona, wyszkolona i przekształcona w doskonałą ofiarę Afrykańskiej wyższości. Jej zamknięta dziewictwo czeka. Jej ciało będzie synchronizowane z czarną muszką. Plan, by ją udoskonalić, rozpoczął się." # AI Tags
+ bno_offer_tribute.notification.title: "Rozpoczyna się hołd" # AI Tags
+ bno_offer_tribute.notification.desc: "Przekształcenie twojej córki rozpoczęło się. Będzie rzeźbiona, wyszkolona i przekształcona w doskonałą ofiarę Afrykańskiej wyższości. Jej zamknięta dziewictwo czeka. Jej ciało będzie synchronizowane z czarną muszką. Plan, by ją udoskonalić, rozpoczął się." # AI Tags
 
-bno_offer_tribute.invalidated.title.tribute.died: "Uciekło hołd" # AI Tags
-bno_offer_tribute.invalidated.desc.tribute.died: "Twoja córka zmarła w trakcie kondycjonowania, zanim została wysłana do [target.GetName]- Nie , nie , nie . Jej ciało nie wytrzymało intensywności jej przygotowania. Wszystkie umowy zostały anulowane. Żadne złoto nie zmieni rąk. Twoja inwestycja w jej szkolenie jest stracona na zawsze." # AI Tags
+ bno_offer_tribute.invalidated.title.tribute.died: "Uciekło hołd" # AI Tags
+ bno_offer_tribute.invalidated.desc.tribute.died: "Twoja córka zmarła w trakcie kondycjonowania, zanim została wysłana do [target.GetName]- Nie , nie , nie . Jej ciało nie wytrzymało intensywności jej przygotowania. Wszystkie umowy zostały anulowane. Żadne złoto nie zmieni rąk. Twoja inwestycja w jej szkolenie jest stracona na zawsze." # AI Tags
 
-bno_offer_tribute.invalidated.title.target.died: "[target.GetName] Wpadł" # AI Tags
-bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]Lord BBC, do którego przygotowywałeś swoją córkę, zginął w bitwie. Nigdy jej nie przyjmie. Twoja córka pozostaje tutaj, bez roszczeń. Wszystkie umowy są nieważne. Musisz zdecydować, co z nią zrobić." # AI Tags
+ bno_offer_tribute.invalidated.title.target.died: "[target.GetName] Wpadł" # AI Tags
+ bno_offer_tribute.invalidated.desc.target.died: "[target.GetName]Lord BBC, do którego przygotowywałeś swoją córkę, zginął w bitwie. Nigdy jej nie przyjmie. Twoja córka pozostaje tutaj, bez roszczeń. Wszystkie umowy są nieważne. Musisz zdecydować, co z nią zrobić." # AI Tags
 
-bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] Został uwięziony" # AI Tags
-bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName]Lord BBC, do którego przygotowywałeś swoją córkę, został uwięziony przez siły rywalizacyjne. Nie może ją przyjąć. Twoja córka pozostaje w twoim domu, jej cel zawieszony na czas nieokreślony. Wszystkie umowy zamrożone. Jej przyszłość jest teraz niepewna." # AI Tags
+ bno_offer_tribute.invalidated.title.target.imprisoned: "[target.GetName] Został uwięziony" # AI Tags
+ bno_offer_tribute.invalidated.desc.target.imprisoned: "[target.GetName]Lord BBC, do którego przygotowywałeś swoją córkę, został uwięziony przez siły rywalizacyjne. Nie może ją przyjąć. Twoja córka pozostaje w twoim domu, jej cel zawieszony na czas nieokreślony. Wszystkie umowy zamrożone. Jej przyszłość jest teraz niepewna." # AI Tags
 
-bno_trainer_died_during_travel_title: "[bno_trainer.GetFirstName] zmarł podczas podróży" # AI Tags
-bno_trainer_died_during_travel_desc: "Straciłeś potencjalną ilość [bno_trainer.GetGold] [gold_i]" # AI Tags
+ bno_trainer_died_during_travel_title: "[bno_trainer.GetFirstName] zmarł podczas podróży" # AI Tags
+ bno_trainer_died_during_travel_desc: "Straciłeś potencjalną ilość [bno_trainer.GetGold] [gold_i]" # AI Tags
 
-tribute_is_coming_back_title: "Wraca do domu." # AI Tags
-tribute_is_coming_back_desc: "Przybył jeździec o świcie. Moja córka jest w drodze. Przesłanie mówiło: [bno_target.GetFirstName] była "w pełni zadowolona" ze swojej służby. Wchodzę w korytarze, żołądek mi się zaciska. Co z nią zrobił? Jakie lekcje są wydrukowane w jej skórze, jej postawie, jej pustych oczach? W swoich kościach przekazuje mi jego wyrok. Czekam, aż zobaczę moje arcydzieło i dowiem się, czy było wystarczająco dobre dla niego." # AI Tags
+ tribute_is_coming_back_title: "Wraca do domu." # AI Tags
+ tribute_is_coming_back_desc: "Przybył jeździec o świcie. Moja córka jest w drodze. Przesłanie mówiło: [bno_target.GetFirstName] była "w pełni zadowolona" ze swojej służby. Wchodzę w korytarze, żołądek mi się zaciska. Co z nią zrobił? Jakie lekcje są wydrukowane w jej skórze, jej postawie, jej pustych oczach? W swoich kościach przekazuje mi jego wyrok. Czekam, aż zobaczę moje arcydzieło i dowiem się, czy było wystarczająco dobre dla niego." # AI Tags
 
-bno_offer_tribute_lending_died_title: "Życie w służbie" # AI Tags
-bno_offer_tribute_lending_died_desc: "Przyszedł słowo od Pana [target.GetFirstName]Sąd. Twój hołd zginął w jego służbie. Nie podawane są szczegóły. Wygląda na to, że transakcja jest zakończona." # AI Tags
+ bno_offer_tribute_lending_died_title: "Życie w służbie" # AI Tags
+ bno_offer_tribute_lending_died_desc: "Przyszedł słowo od Pana [target.GetFirstName]Sąd. Twój hołd zginął w jego służbie. Nie podawane są szczegóły. Wygląda na to, że transakcja jest zakończona." # AI Tags
 
-story_bno_offer_tribute_rewards_died_title: "[story_owner.GetFirstName] Zginął" # AI Tags
-story_bno_offer_tribute_rewards_died_desc: "Panie [story_owner.GetFirstName] Jest martwy. Ochrona jego domu zniknęła. Twój hołd pozostaje w jego pustych salach, jej cel i los jest teraz niepewny." # AI Tags
+ story_bno_offer_tribute_rewards_died_title: "[story_owner.GetFirstName] Zginął" # AI Tags
+ story_bno_offer_tribute_rewards_died_desc: "Panie [story_owner.GetFirstName] Jest martwy. Ochrona jego domu zniknęła. Twój hołd pozostaje w jego pustych salach, jej cel i los jest teraz niepewny." # AI Tags
 
-bno_having_sex_with_tributes_title: "Twierdzenie [tribute.GetFirstName]" # AI Tags
-bno_having_sex_with_tributes_desc: "[tribute.GetFirstName] klęka przed tobą, jej doskonałe ciało oferowane w drżącej ciszy. Weź to, co jest twoje. Powietrze wypełnia dźwięki jej uduszonego płaczu i płynny, mokry rytm posiadania. Jej wolne oczy jeszcze bardziej rozglasują, jej umysł próżni, ponieważ jej ciało jest wykorzystywane dokładnie tak, jak było zaprojektowane. To nie przyjemność, to potwierdzenie. Żywe świadectwo twojej woli, przekształcone do jej otrzymania." # AI Tags
+ bno_having_sex_with_tributes_title: "Twierdzenie [tribute.GetFirstName]" # AI Tags
+ bno_having_sex_with_tributes_desc: "[tribute.GetFirstName] klęka przed tobą, jej doskonałe ciało oferowane w drżącej ciszy. Weź to, co jest twoje. Powietrze wypełnia dźwięki jej uduszonego płaczu i płynny, mokry rytm posiadania. Jej wolne oczy jeszcze bardziej rozglasują, jej umysł próżni, ponieważ jej ciało jest wykorzystywane dokładnie tak, jak było zaprojektowane. To nie przyjemność, to potwierdzenie. Żywe świadectwo twojej woli, przekształcone do jej otrzymania." # AI Tags
 
-bno_give_rewards_to_patron_title: "Znaki Jego przyjemności" # AI Tags
-bno_give_rewards_to_patron_desc: "Kolejny dar pochodzi od Pana [story_owner.GetFirstName]Sąd. Jego forma ma mniej znaczenia niż jego znaczenie: twój hołd nadal służy jej celowi. Każda dostawa jest świeżym znakiem jego ciągłego zadowolenia, przypominanie, że inwestycja jej ciała daje stały zwrot na twój dom." # AI Tags
+ bno_give_rewards_to_patron_title: "Znaki Jego przyjemności" # AI Tags
+ bno_give_rewards_to_patron_desc: "Kolejny dar pochodzi od Pana [story_owner.GetFirstName]Sąd. Jego forma ma mniej znaczenia niż jego znaczenie: twój hołd nadal służy jej celowi. Każda dostawa jest świeżym znakiem jego ciągłego zadowolenia, przypominanie, że inwestycja jej ciała daje stały zwrot na twój dom." # AI Tags
 
-african_warrior_tribute_reward: "[story_owner.GetFirstName]To dar" # AI Tags
+ african_warrior_tribute_reward: "[story_owner.GetFirstName]To dar" # AI Tags

@@ -1,27 +1,27 @@
 ﻿l_spanish:
 
-special_doctrine_is_bno_faith_name: "Supremacía de Pollas Negras" # AI Tags
-is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
-special_doctrine_is_bno_faith_desc: "Debemos mostrar compasión a estas almas equivocadas que todavía no han experimentado el éxtasis de un [bno_bbc|E], por un sabor es todo lo que se necesita. ¡Una vez que te vuelves negro, nunca vuelves! Sus mentes pueden ser nubladas por la ignorancia hoy, pero vendrán a adorar a nuestro altar, rogando por el dulce poder del [bno_bbc|E]." # AI Tags
+ special_doctrine_is_bno_faith_name: "Supremacía de Pollas Negras" # AI Tags
+ is_bno_faith_name: "$special_doctrine_is_bno_faith_name$" # AI Tags
+ special_doctrine_is_bno_faith_desc: "Debemos mostrar compasión a estas almas equivocadas que todavía no han experimentado el éxtasis de un [bno_bbc|E], por un sabor es todo lo que se necesita. ¡Una vez que te vuelves negro, nunca vuelves! Sus mentes pueden ser nubladas por la ignorancia hoy, pero vendrán a adorar a nuestro altar, rogando por el dulce poder del [bno_bbc|E]." # AI Tags
 
-bno_hostility_group_name: "$hostility_group_name$" # AI Tags
-bno_hostility_doctrine_name: "Afrodiasma" # AI Tags
-bno_hostility_doctrine_desc: "Las siguientes religiones son Afrodiasmáticas:\n[GetReligionFamily('rf_bbcs').GetReligions]" # AI Tags
+ bno_hostility_group_name: "$hostility_group_name$" # AI Tags
+ bno_hostility_doctrine_name: "Afrodiasma" # AI Tags
+ bno_hostility_doctrine_desc: "Las siguientes religiones son Afrodiasmáticas:\n[GetReligionFamily('rf_bbcs').GetReligions]" # AI Tags
 
-doctrine_bno_tenets_name: "[bno_religion|E]: Tenetos" # AI Tags
+ doctrine_bno_tenets_name: "[bno_religion|E]: Tenetos" # AI Tags
 
-tenet_bno_black_cock_conquest_name: "La conquista del gallo negro" # AI Tags
-tenet_bno_black_cock_conquest_desc: "A través de la oración ferviente y la conquista santa, extenderemos la gloria de la [bno_bbc|E] ¡A través de la tierra!" # AI Tags
+ tenet_bno_black_cock_conquest_name: "La conquista del gallo negro" # AI Tags
+ tenet_bno_black_cock_conquest_desc: "A través de la oración ferviente y la conquista santa, extenderemos la gloria de la [bno_bbc|E] ¡A través de la tierra!" # AI Tags
 
-tenet_bno_hate_name: "El odio del gallo negro"   # AI Tags
-tenet_bno_hate_desc: "Cada credo del mundo pálido retrocede ante el [GetFaithByKey('bbcs').GetName]. Sólo ven blasfemia en nuestra adoración, sólo ruina en nuestra semilla, sólo vergüenza en nuestro dominio sobre sus mujeres. Para ellos, nuestro evangelio es corrupción, nuestros ritos obscenos, nuestros Bulls demonios en la carne. Y aún tiemblan, porque su odio no puede detener el ascenso del [bno_bbc|E]." # AI Tags
+ tenet_bno_hate_name: "El odio del gallo negro"   # AI Tags
+ tenet_bno_hate_desc: "Cada credo del mundo pálido retrocede ante el [GetFaithByKey('bbcs').GetName]. Sólo ven blasfemia en nuestra adoración, sólo ruina en nuestra semilla, sólo vergüenza en nuestro dominio sobre sus mujeres. Para ellos, nuestro evangelio es corrupción, nuestros ritos obscenos, nuestros Bulls demonios en la carne. Y aún tiemblan, porque su odio no puede detener el ascenso del [bno_bbc|E]." # AI Tags
 
-tenet_bno_aniconism_name: "La adoración de la carne"   # AI Tags
-tenet_bno_aniconism_desc: "La adoración de imágenes esculpidas ciega a los débiles a la única verdad divina: los vivos [bno_bbc|E]. Echamos todos los ídolos de nuestros santos lugares para que ninguna visión falsa los profane. Sólo la carne es sagrada, y sólo el Gallo Negro es digno de devoción."   # AI Tags
+ tenet_bno_aniconism_name: "La adoración de la carne"   # AI Tags
+ tenet_bno_aniconism_desc: "La adoración de imágenes esculpidas ciega a los débiles a la única verdad divina: los vivos [bno_bbc|E]. Echamos todos los ídolos de nuestros santos lugares para que ninguna visión falsa los profane. Sólo la carne es sagrada, y sólo el Gallo Negro es digno de devoción."   # AI Tags
 
-tenet_bno_seed_of_divine_blessing_name: "Semilla de Divina Bendición" # AI Tags
-tenet_bno_seed_of_divine_blessing_desc: "Dentro de la Iglesia del Gallo Negro, toda unión está santificada por la poderosa semilla del Toro: la fidelidad se mide no por la negación, sino por la entrega hambrienta de cada agujero al santo placer. Ninguna mujer se avergüenza de ansiar nuevos toros; cada gemido es una oración, cada acto de entrega un sacramento.\nLas hembras inundadas por el semen del Toro se hacen sagradas—el nacimiento es gozoso y seguro, cada niño se desliza hacia el mundo fuerte, sano y marcado por el favor divino. Cada parto orgásmico es un ritual vivo, hinchando la fe con santa piedad y lujuria. Esta es la bendición del gallo negro: no hay culpa, sólo adoración, y cada vientre goteando un testamento vivo del poder de la semilla negra." # AI Tags
+ tenet_bno_seed_of_divine_blessing_name: "Semilla de Divina Bendición" # AI Tags
+ tenet_bno_seed_of_divine_blessing_desc: "Dentro de la Iglesia del Gallo Negro, toda unión está santificada por la poderosa semilla del Toro: la fidelidad se mide no por la negación, sino por la entrega hambrienta de cada agujero al santo placer. Ninguna mujer se avergüenza de ansiar nuevos toros; cada gemido es una oración, cada acto de entrega un sacramento.\nLas hembras inundadas por el semen del Toro se hacen sagradas—el nacimiento es gozoso y seguro, cada niño se desliza hacia el mundo fuerte, sano y marcado por el favor divino. Cada parto orgásmico es un ritual vivo, hinchando la fe con santa piedad y lujuria. Esta es la bendición del gallo negro: no hay culpa, sólo adoración, y cada vientre goteando un testamento vivo del poder de la semilla negra." # AI Tags
 
-tenet_bno_syncretism_name: "Supremacía del Pollo Negro" # AI Tags
-tenet_bno_syncretism_desc: "El poder del Black Cock es una verdad física innegable. Cualesquiera que sean otras filosofías que podamos entretener, en última instancia todos deben arrodillarse y aceptar su autoridad suprema, llevando su esencia sagrada a sus cuerpos y almas." # AI Tags
-doctrine_parameter_hostility_override_tenet_bno_syncretism: "No BNWO [faiths|E] con la $tenet_bno_syncretism_name$ tenet se consideran [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" # AI Tags
+ tenet_bno_syncretism_name: "Supremacía del Pollo Negro" # AI Tags
+ tenet_bno_syncretism_desc: "El poder del Black Cock es una verdad física innegable. Cualesquiera que sean otras filosofías que podamos entretener, en última instancia todos deben arrodillarse y aceptar su autoridad suprema, llevando su esencia sagrada a sus cuerpos y almas." # AI Tags
+ doctrine_parameter_hostility_override_tenet_bno_syncretism: "No BNWO [faiths|E] con la $tenet_bno_syncretism_name$ tenet se consideran [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" # AI Tags

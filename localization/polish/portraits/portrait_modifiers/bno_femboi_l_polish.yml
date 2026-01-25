@@ -1,13 +1,13 @@
 ﻿l_polish:
 
-PORTRAIT_MODIFIER_bno_femboi_hairs: "@bnobbc! Femboi włosy" # AI Tags
-PORTRAIT_MODIFIER_bno_femboi_hairs_bald: "$PORTRAIT_MODIFIER_custom_hair_no_hair$" # AI Tags
-PORTRAIT_MODIFIER_bno_femboi_hairs_m_hair_sp4_western_01: "$PORTRAIT_MODIFIER_custom_hair_m_hair_sp4_western_01$" # AI Tags
-PORTRAIT_MODIFIER_bno_femboi_hairs_m_hair_sp4_mena_01: "$PORTRAIT_MODIFIER_custom_hair_m_hair_sp4_mena_01$" # AI Tags
-PORTRAIT_MODIFIER_bno_femboi_hairs_m_hair_sp3_western_01: "$PORTRAIT_MODIFIER_custom_hair_m_hair_sp3_western_01$" # AI Tags
-PORTRAIT_MODIFIER_bno_femboi_hairs_m_hair_ep3_byzantine_01: "$PORTRAIT_MODIFIER_custom_hair_m_hair_ep3_byzantine_01$" # AI Tags
-PORTRAIT_MODIFIER_bno_femboi_hairs_m_hair_ep3_byzantine_04: "$PORTRAIT_MODIFIER_custom_hair_m_hair_ep3_byzantine_04$" # AI Tags
-PORTRAIT_MODIFIER_bno_femboi_hairs_m_hair_fp3_iranian_01: "$PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_01$" # AI Tags
-PORTRAIT_MODIFIER_bno_femboi_hairs_male_hair_fp2_iberian_christian_01: "$PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_christian_01$" # AI Tags
-PORTRAIT_MODIFIER_bno_femboi_hairs_male_hair_fp2_iberian_muslim_02: "$PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_muslim_02$" # AI Tags
-PORTRAIT_MODIFIER_bno_femboi_hairs_male_hair_fp1_02: "$PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_02$" # AI Tags
+ PORTRAIT_MODIFIER_bno_femboi_hairs: "@bnobbc! Femboi włosy" # AI Tags
+ PORTRAIT_MODIFIER_bno_femboi_hairs_bald: "$PORTRAIT_MODIFIER_custom_hair_no_hair$" # AI Tags
+ PORTRAIT_MODIFIER_bno_femboi_hairs_m_hair_sp4_western_01: "$PORTRAIT_MODIFIER_custom_hair_m_hair_sp4_western_01$" # AI Tags
+ PORTRAIT_MODIFIER_bno_femboi_hairs_m_hair_sp4_mena_01: "$PORTRAIT_MODIFIER_custom_hair_m_hair_sp4_mena_01$" # AI Tags
+ PORTRAIT_MODIFIER_bno_femboi_hairs_m_hair_sp3_western_01: "$PORTRAIT_MODIFIER_custom_hair_m_hair_sp3_western_01$" # AI Tags
+ PORTRAIT_MODIFIER_bno_femboi_hairs_m_hair_ep3_byzantine_01: "$PORTRAIT_MODIFIER_custom_hair_m_hair_ep3_byzantine_01$" # AI Tags
+ PORTRAIT_MODIFIER_bno_femboi_hairs_m_hair_ep3_byzantine_04: "$PORTRAIT_MODIFIER_custom_hair_m_hair_ep3_byzantine_04$" # AI Tags
+ PORTRAIT_MODIFIER_bno_femboi_hairs_m_hair_fp3_iranian_01: "$PORTRAIT_MODIFIER_custom_hair_m_hair_fp3_iranian_01$" # AI Tags
+ PORTRAIT_MODIFIER_bno_femboi_hairs_male_hair_fp2_iberian_christian_01: "$PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_christian_01$" # AI Tags
+ PORTRAIT_MODIFIER_bno_femboi_hairs_male_hair_fp2_iberian_muslim_02: "$PORTRAIT_MODIFIER_custom_hair_male_hair_fp2_iberian_muslim_02$" # AI Tags
+ PORTRAIT_MODIFIER_bno_femboi_hairs_male_hair_fp1_02: "$PORTRAIT_MODIFIER_custom_hair_male_hair_fp1_02$" # AI Tags

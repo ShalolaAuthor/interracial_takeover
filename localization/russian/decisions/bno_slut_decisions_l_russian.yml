@@ -1,231 +1,231 @@
 ﻿l_russian:
 
-bno_becoming_bbc_slut: "Становлюсь «Очерненной Спермоприёмницей»"
+ bno_becoming_bbc_slut: "Становлюсь «Очерненной Спермоприёмницей»"
 #bno_becoming_bbc_slut.effect: "Ты станешь [bno_whore|E] для [bno_bbc|E]" # AI Tags
-bno_becoming_bbc_slut.effect: "Ты станешь шлюхой для [bno_bbcs|E]"
-bno_becoming_bbc_slut_desc: "Я хочу быть очерненной спермоприёмницей — рождена для этого: быть дырой для мощных, плодовитых чёрных хуёв, что дадут моей крошечной белой тушке то, чего она жаждет. Один вид огромного члена эбони заставляет мою пизду течь от предвкушения."
-bno_becoming_bbc_slut_confirm: "Мои тугие дырки — твои, используй как хочешь."
-bno_becoming_bbc_slut_tooltip: "Я так отчаянно хочу, чтобы меня использовали как никчёмную шлюху"
+ bno_becoming_bbc_slut.effect: "Ты станешь шлюхой для [bno_bbcs|E]"
+ bno_becoming_bbc_slut_desc: "Я хочу быть очерненной спермоприёмницей — рождена для этого: быть дырой для мощных, плодовитых чёрных хуёв, что дадут моей крошечной белой тушке то, чего она жаждет. Один вид огромного члена эбони заставляет мою пизду течь от предвкушения."
+ bno_becoming_bbc_slut_confirm: "Мои тугие дырки — твои, используй как хочешь."
+ bno_becoming_bbc_slut_tooltip: "Я так отчаянно хочу, чтобы меня использовали как никчёмную шлюху"
 
-bno_stop_becoming_bbc_slut: "Преданная Спермоприёмница"
-bno_stop_becoming_bbc_slut_desc: "После лет очернения я наконец нашла идеального — личного чёрного быка, что ежедневно утоляет мою ненасытную жажду большого хуя. Он трахает меня так, как никто не мог, пизда всегда набита и капает его густым семенем."
-bno_stop_becoming_bbc_slut_confirm: "Для этого я и рождена —"
-bno_stop_becoming_bbc_slut_tooltip: " быть лишь набором дырок, принадлежащих сильному"
-bno_stop_becoming_bbc_slut.bbc_spouse: "Один из твоих супругов имеет [GetTrait('bno_bbc').GetName( GetNullCharacter )]"
+ bno_stop_becoming_bbc_slut: "Преданная Спермоприёмница"
+ bno_stop_becoming_bbc_slut_desc: "После лет очернения я наконец нашла идеального — личного чёрного быка, что ежедневно утоляет мою ненасытную жажду большого хуя. Он трахает меня так, как никто не мог, пизда всегда набита и капает его густым семенем."
+ bno_stop_becoming_bbc_slut_confirm: "Для этого я и рождена —"
+ bno_stop_becoming_bbc_slut_tooltip: " быть лишь набором дырок, принадлежащих сильному"
+ bno_stop_becoming_bbc_slut.bbc_spouse: "Один из твоих супругов имеет [GetTrait('bno_bbc').GetName( GetNullCharacter )]"
 
-bno_invite_slut_decision: "Пригласить Любопытную Дворянку в твой Двор"
-bno_invite_slut_decision_desc: "Когда любопытная дворянка подходит, я встречаю её тёплой улыбкой.\n\nДобро пожаловать в мой скромный дом. Я всегда рад новым знакомствам, особенно тем, кто разделяет мои интересы в искусстве и культуре.\n\nДворянка оглядывается, впитывая роскошь поместья — от роскошной мебели до бесценных произведений искусства на стенах.\n\nВижу, у тебя острый глаз на красоту. Может, обсудим эти вещи за ужином? С радостью покажу и расскажу об их происхождении.\n\nДворянка кивает, явно заинтригована и жаждущая узнать больше."
-bno_invite_slut_decision_tooltip: "Иностранцы вызваны посетить ваше высочество"
-bno_invite_slut_decision_confirm: "Ты здесь желанна"
+ bno_invite_slut_decision: "Пригласить Любопытную Дворянку в твой Двор"
+ bno_invite_slut_decision_desc: "Когда любопытная дворянка подходит, я встречаю её тёплой улыбкой.\n\nДобро пожаловать в мой скромный дом. Я всегда рад новым знакомствам, особенно тем, кто разделяет мои интересы в искусстве и культуре.\n\nДворянка оглядывается, впитывая роскошь поместья — от роскошной мебели до бесценных произведений искусства на стенах.\n\nВижу, у тебя острый глаз на красоту. Может, обсудим эти вещи за ужином? С радостью покажу и расскажу об их происхождении.\n\nДворянка кивает, явно заинтригована и жаждущая узнать больше."
+ bno_invite_slut_decision_tooltip: "Иностранцы вызваны посетить ваше высочество"
+ bno_invite_slut_decision_confirm: "Ты здесь желанна"
 
-bno_build_african_camps_decision: "Построить $building_type_bbc_camp_01$"
-bno_build_african_camps_decision_desc: "Население #V [GetTrait('bno_full_black').GetName( GetNullCharacter )]#! растёт — пора строить поселение только для них."
-bno_build_african_camps_decision_tooltip: "Построить $building_type_bbc_camp_01$"
-bno_build_african_camps_decision_confirm: "Да будет так"
-bno_build_african_camps_toast: "$building_type_bbc_camp_01$ Построено"
+ bno_build_african_camps_decision: "Построить $building_type_bbc_camp_01$"
+ bno_build_african_camps_decision_desc: "Население #V [GetTrait('bno_full_black').GetName( GetNullCharacter )]#! растёт — пора строить поселение только для них."
+ bno_build_african_camps_decision_tooltip: "Построить $building_type_bbc_camp_01$"
+ bno_build_african_camps_decision_confirm: "Да будет так"
+ bno_build_african_camps_toast: "$building_type_bbc_camp_01$ Построено"
 
-bno_change_county_culture: "Влиять на округ, чтобы принять $bnoc$"
-bno_change_county_culture_desc: "Ты $bnoc$, разве не логично превратить народ в $bnoc_collective_noun$?"
-bno_change_county_culture_tooltip: "Влиять на людей, чтобы приняли образ жизни $bnoc$"
-bno_change_county_culture_confirm: "Мне нужно больше $bnoc$"
-bno_change_county_culture_toast: "$bnoc$ распространено"
+ bno_change_county_culture: "Влиять на округ, чтобы принять $bnoc$"
+ bno_change_county_culture_desc: "Ты $bnoc$, разве не логично превратить народ в $bnoc_collective_noun$?"
+ bno_change_county_culture_tooltip: "Влиять на людей, чтобы приняли образ жизни $bnoc$"
+ bno_change_county_culture_confirm: "Мне нужно больше $bnoc$"
+ bno_change_county_culture_toast: "$bnoc$ распространено"
 
-bno_recruit_court_position_decision: "Нанимать Должности, чтобы Угодить #V Населению [GetTrait('bno_full_black').GetName( GetNullCharacter )]#!"
-bno_recruit_court_position_decision_desc: "Хорошо работающее [ROOT.Char.Custom('RealmType')] требует труда многих девок. Я разошлю слуг искать кандидаток на новые должности при дворе."
-bno_recruit_court_position_decision_tooltip: "Искать девку на [court_position|E] или другую роль в [court|E] за плату\n\n#weak Например, нанять [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!"
-bno_recruit_court_position_decision_confirm: "Зови их сюда!"
-recruit_bbc_worshipper_cooldown_tt: "Нанимать [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] на кулдауне [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]"
-hire_bbc_worshipper_decision_tooltip: "Слуги предложат кандидаток на должность [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
-bno_recruit_court_position_decision_tt: "Получишь случайное количество подходящих девок на службу"
+ bno_recruit_court_position_decision: "Нанимать Должности, чтобы Угодить #V Населению [GetTrait('bno_full_black').GetName( GetNullCharacter )]#!"
+ bno_recruit_court_position_decision_desc: "Хорошо работающее [ROOT.Char.Custom('RealmType')] требует труда многих девок. Я разошлю слуг искать кандидаток на новые должности при дворе."
+ bno_recruit_court_position_decision_tooltip: "Искать девку на [court_position|E] или другую роль в [court|E] за плату\n\n#weak Например, нанять [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName]#!"
+ bno_recruit_court_position_decision_confirm: "Зови их сюда!"
+ recruit_bbc_worshipper_cooldown_tt: "Нанимать [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName] на кулдауне [GetGameTimeDifferenceForDiffDays( THIS.VarRemaining( 'recruit_bbc_worshipper_cooldown' ))]"
+ hire_bbc_worshipper_decision_tooltip: "Слуги предложат кандидаток на должность [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
+ bno_recruit_court_position_decision_tt: "Получишь случайное количество подходящих девок на службу"
 
-bno_convert_to_african: "Принять Африканское"
-bno_convert_to_african_confirm: "Для меня всё кончено!"
-bno_convert_to_african_desc: "Ты на собственной шкуре узнал эту культуру — такую сильную, что хочешь подчиниться. Старая поговорка: не можешь победить — присоединяйся."
-bno_convert_to_african_tooltip: "Принять корни предков $bnoc$"
+ bno_convert_to_african: "Принять Африканское"
+ bno_convert_to_african_confirm: "Для меня всё кончено!"
+ bno_convert_to_african_desc: "Ты на собственной шкуре узнал эту культуру — такую сильную, что хочешь подчиниться. Старая поговорка: не можешь победить — присоединяйся."
+ bno_convert_to_african_tooltip: "Принять корни предков $bnoc$"
 
-bno_build_bbc_church: "Построить $building_bbc_church_01$"
-bno_build_bbc_church_confirm: "Положу первый камень!"
-bno_build_bbc_church.desc: "Строительство фундамента церкви — символ преданности [bno_religion|E] и новому образу жизни."
-bno_build_bbc_church.tooltip: "Построить место поклонения [bno_bbc|E]"
-bno_build_bbc_church.toast: "$building_bbc_church_01$ Построено"
+ bno_build_bbc_church: "Построить $building_bbc_church_01$"
+ bno_build_bbc_church_confirm: "Положу первый камень!"
+ bno_build_bbc_church.desc: "Строительство фундамента церкви — символ преданности [bno_religion|E] и новому образу жизни."
+ bno_build_bbc_church.tooltip: "Построить место поклонения [bno_bbc|E]"
+ bno_build_bbc_church.toast: "$building_bbc_church_01$ Построено"
 
-bno_found_bbc_church_holy_order: "Основать Святой Орден [bno_religion|E]"
-bno_found_bbc_church_holy_order_confirm: "Распространим слово [bno_bbc|E]"
-bno_found_bbc_church_holy_order.desc: "Святой Орден [bno_religion|E] посвятит себя поклонению [bno_bbc|E], продвигая его ценности в общество."
-bno_found_bbc_church_holy_order.tooltip: "Создать Святой Орден поклонения [bno_bbc|E]"
-bno_found_bbc_church_holy_order.effect_tooltip: "Святой Орден [bno_religion|E] основан, распространяя учения по королевству."
+ bno_found_bbc_church_holy_order: "Основать Святой Орден [bno_religion|E]"
+ bno_found_bbc_church_holy_order_confirm: "Распространим слово [bno_bbc|E]"
+ bno_found_bbc_church_holy_order.desc: "Святой Орден [bno_religion|E] посвятит себя поклонению [bno_bbc|E], продвигая его ценности в общество."
+ bno_found_bbc_church_holy_order.tooltip: "Создать Святой Орден поклонения [bno_bbc|E]"
+ bno_found_bbc_church_holy_order.effect_tooltip: "Святой Орден [bno_religion|E] основан, распространяя учения по королевству."
 
-bno_cure_disease.title.male: "Очищающий Поцелуй"
-bno_cure_disease.title.female: "Благословение Семени Владыки"
-bno_cure_disease.desc.male: "Перед собравшимся двором и духовенством каждый больной лорд встаёт на колени перед Жрицей. Он открывает рот широко, она опускает бёдра, прижимая его лицо к источнику священного нектара. Он пьёт из её пизды, пока жрица не завершит ритуал."
-bno_cure_disease.desc.female: "Перед собравшимся двором и духовенством каждая больная леди встаёт на колени перед Жрецом. Она открывает рот, он опускает стоячий хуй в её губы. Жрец толкается глубоко, она сосёт и глотает. Ритуал длится, пока он не кончит прямо в рот — знак исцеления."
-bno_cure_disease.confirm.male: "Давай.."
-bno_cure_disease.confirm.female: "Не могу дождаться.."
-bno_cure_disease.tooltip.male: "Интересно, как твоя пизда на вкус.."
-bno_cure_disease.tooltip.female: "Благослови меня спермой.."
-bno_cure_diseases.own.sickness: "Ты болен."
-bno_cure_disease.employing_bbc_priestess: "Ты нанял [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]"
-bno_cure_diseases.second_step_button: "Исцели меня.."
-bno_cure_diseases.lovers_pox: "Помечен [GetTrait('lovers_pox').GetName( GetNullCharacter )]"
-bno_cure_diseases.ill: "Ослаблен [GetTrait('ill').GetName( GetNullCharacter )]"
-bno_cure_diseases.pneumonic: "Задыхается от [GetTrait('pneumonic').GetName( GetNullCharacter )]"
-bno_cure_diseases.great_pox: "Изуродован [GetTrait('great_pox').GetName( GetNullCharacter )]"
-bno_cure_diseases.early_great_pox: "Свеж с [GetTrait('early_great_pox').GetName( GetNullCharacter )]"
-bno_cure_diseases.leper: "Отвергнут как [GetTrait('leper').GetName( GetNullCharacter )]"
-bno_cure_diseases.gout_ridden: "Искалечен [GetTrait('gout_ridden').GetName( GetNullCharacter )]"
-bno_cure_diseases.consumption: "Хрупок от [GetTrait('consumption').GetName( GetNullCharacter )]"
-bno_cure_diseases.cancer: "Ослаблен [GetTrait('cancer').GetName( GetNullCharacter )]"
-bno_cure_diseases.typhus: "Горит от [GetTrait('typhus').GetName( GetNullCharacter )]"
-bno_cure_diseases.bubonic_plague: "Умирает от [GetTrait('bubonic_plague').GetName( GetNullCharacter )]"
-bno_cure_diseases.smallpox: "В крапинку от [GetTrait('smallpox').GetName( GetNullCharacter )]"
-bno_cure_diseases.measles: "Покраснел от [GetTrait('measles').GetName( GetNullCharacter )]"
-bno_cure_diseases.dysentery: "Истощён [GetTrait('dysentery').GetName( GetNullCharacter )]"
-bno_cure_diseases.ergotism: "Трясётся от [GetTrait('ergotism').GetName( GetNullCharacter )]"
-bno_cure_diseases.sickly: "Хрупок с [GetTrait('sickly').GetName( GetNullCharacter )]"
+ bno_cure_disease.title.male: "Очищающий Поцелуй"
+ bno_cure_disease.title.female: "Благословение Семени Владыки"
+ bno_cure_disease.desc.male: "Перед собравшимся двором и духовенством каждый больной лорд встаёт на колени перед Жрицей. Он открывает рот широко, она опускает бёдра, прижимая его лицо к источнику священного нектара. Он пьёт из её пизды, пока жрица не завершит ритуал."
+ bno_cure_disease.desc.female: "Перед собравшимся двором и духовенством каждая больная леди встаёт на колени перед Жрецом. Она открывает рот, он опускает стоячий хуй в её губы. Жрец толкается глубоко, она сосёт и глотает. Ритуал длится, пока он не кончит прямо в рот — знак исцеления."
+ bno_cure_disease.confirm.male: "Давай.."
+ bno_cure_disease.confirm.female: "Не могу дождаться.."
+ bno_cure_disease.tooltip.male: "Интересно, как твоя пизда на вкус.."
+ bno_cure_disease.tooltip.female: "Благослови меня спермой.."
+ bno_cure_diseases.own.sickness: "Ты болен."
+ bno_cure_disease.employing_bbc_priestess: "Ты нанял [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]"
+ bno_cure_diseases.second_step_button: "Исцели меня.."
+ bno_cure_diseases.lovers_pox: "Помечен [GetTrait('lovers_pox').GetName( GetNullCharacter )]"
+ bno_cure_diseases.ill: "Ослаблен [GetTrait('ill').GetName( GetNullCharacter )]"
+ bno_cure_diseases.pneumonic: "Задыхается от [GetTrait('pneumonic').GetName( GetNullCharacter )]"
+ bno_cure_diseases.great_pox: "Изуродован [GetTrait('great_pox').GetName( GetNullCharacter )]"
+ bno_cure_diseases.early_great_pox: "Свеж с [GetTrait('early_great_pox').GetName( GetNullCharacter )]"
+ bno_cure_diseases.leper: "Отвергнут как [GetTrait('leper').GetName( GetNullCharacter )]"
+ bno_cure_diseases.gout_ridden: "Искалечен [GetTrait('gout_ridden').GetName( GetNullCharacter )]"
+ bno_cure_diseases.consumption: "Хрупок от [GetTrait('consumption').GetName( GetNullCharacter )]"
+ bno_cure_diseases.cancer: "Ослаблен [GetTrait('cancer').GetName( GetNullCharacter )]"
+ bno_cure_diseases.typhus: "Горит от [GetTrait('typhus').GetName( GetNullCharacter )]"
+ bno_cure_diseases.bubonic_plague: "Умирает от [GetTrait('bubonic_plague').GetName( GetNullCharacter )]"
+ bno_cure_diseases.smallpox: "В крапинку от [GetTrait('smallpox').GetName( GetNullCharacter )]"
+ bno_cure_diseases.measles: "Покраснел от [GetTrait('measles').GetName( GetNullCharacter )]"
+ bno_cure_diseases.dysentery: "Истощён [GetTrait('dysentery').GetName( GetNullCharacter )]"
+ bno_cure_diseases.ergotism: "Трясётся от [GetTrait('ergotism').GetName( GetNullCharacter )]"
+ bno_cure_diseases.sickly: "Хрупок с [GetTrait('sickly').GetName( GetNullCharacter )]"
 
-bno_cure_diseases.lovers_pox.desc: "Соблазнительная сыпь воспоминаний и рта, [GetTrait('lovers_pox').GetName( GetNullCharacter )] кружит по коже как послевкусие слишком мокрых поцелуев и бесстыжего трения."
-cure_lovers_pox_tooltip: "Очисти меня от греховной [GetTrait('lovers_pox').GetName( GetNullCharacter )], чтобы грешить заново с голодной кожей."
+ bno_cure_diseases.lovers_pox.desc: "Соблазнительная сыпь воспоминаний и рта, [GetTrait('lovers_pox').GetName( GetNullCharacter )] кружит по коже как послевкусие слишком мокрых поцелуев и бесстыжего трения."
+ cure_lovers_pox_tooltip: "Очисти меня от греховной [GetTrait('lovers_pox').GetName( GetNullCharacter )], чтобы грешить заново с голодной кожей."
 
-bno_cure_diseases.ill.desc: "Жаркая дымка болей и озноба; [GetTrait('ill').GetName( GetNull Character )] делает одеяла и тёплые тела одинаково желанными."
-cure_ill_tooltip: "Убери мою [GetTrait('ill').GetName( GetNull Character )], чтобы силы тратились на сладкие потуги."
+ bno_cure_diseases.ill.desc: "Жаркая дымка болей и озноба; [GetTrait('ill').GetName( GetNull Character )] делает одеяла и тёплые тела одинаково желанными."
+ cure_ill_tooltip: "Убери мою [GetTrait('ill').GetName( GetNull Character )], чтобы силы тратились на сладкие потуги."
 
-bno_cure_diseases.pneumonic.desc: "Горячие лёгкие и дрожащие рёбра, [GetTrait('pneumonic').GetName( GetNull Character )] крадёт дыхание, оставляя жажду медленных толчков и твёрдых рук."
-cure_pneumonic_tooltip: "Прогони мою [GetTrait('pneumonic').GetName( GetNull Character )], чтобы вздохи были от удовольствия, не боли."
+ bno_cure_diseases.pneumonic.desc: "Горячие лёгкие и дрожащие рёбра, [GetTrait('pneumonic').GetName( GetNull Character )] крадёт дыхание, оставляя жажду медленных толчков и твёрдых рук."
+ cure_pneumonic_tooltip: "Прогони мою [GetTrait('pneumonic').GetName( GetNull Character )], чтобы вздохи были от удовольствия, не боли."
 
-bno_cure_diseases.great_pox.desc: "Волдыри желания, шрамы греха; [GetTrait('great_pox').GetName( GetNull Character )] — сплетни тела о том, что ты делал, когда свечи догорали."
-cure_great_pox_tooltip: "Убери мою [GetTrait('great_pox').GetName( GetNull Character )], чтобы кожа снова была гладким приглашением."
+ bno_cure_diseases.great_pox.desc: "Волдыри желания, шрамы греха; [GetTrait('great_pox').GetName( GetNull Character )] — сплетни тела о том, что ты делал, когда свечи догорали."
+ cure_great_pox_tooltip: "Убери мою [GetTrait('great_pox').GetName( GetNull Character )], чтобы кожа снова была гладким приглашением."
 
-bno_cure_diseases.early_great_pox.desc: "Нежные язвы и тайные трепеты; [GetTrait('early_great_pox').GetName( GetNull Character )] гудит как запомненный стон по нервам."
-cure_early_great_pox_tooltip: "Смой мою [GetTrait('early_great_pox').GetName( GetNull Character )], пока шёпот не стал шрамами."
+ bno_cure_diseases.early_great_pox.desc: "Нежные язвы и тайные трепеты; [GetTrait('early_great_pox').GetName( GetNull Character )] гудит как запомненный стон по нервам."
+ cure_early_great_pox_tooltip: "Смой мою [GetTrait('early_great_pox').GetName( GetNull Character )], пока шёпот не стал шрамами."
 
-bno_cure_diseases.leper.desc: "Дистанция — наказание; с [GetTrait('leper').GetName( GetNull Character )] даже перчаточное касание запретно, сердце болит по недостижимому."
-cure_leper_tooltip: "Сними с меня [GetTrait('leper').GetName( GetNull Character )], чтобы губы и руки не боялись."
+ bno_cure_diseases.leper.desc: "Дистанция — наказание; с [GetTrait('leper').GetName( GetNull Character )] даже перчаточное касание запретно, сердце болит по недостижимому."
+ cure_leper_tooltip: "Сними с меня [GetTrait('leper').GetName( GetNull Character )], чтобы губы и руки не боялись."
 
-bno_cure_diseases.gout_ridden.desc: "Каждый шаг — гримаса, каждое сидение — скрежет; [GetTrait('gout_ridden').GetName( GetNull Character )] требует, чтобы тебя брали, не торопили."
-cure_gout_ridden_tooltip: "Облегчи мою [GetTrait('gout_ridden').GetName( GetNull Character )], чтобы бёдра крутились по правильным причинам."
+ bno_cure_diseases.gout_ridden.desc: "Каждый шаг — гримаса, каждое сидение — скрежет; [GetTrait('gout_ridden').GetName( GetNull Character )] требует, чтобы тебя брали, не торопили."
+ cure_gout_ridden_tooltip: "Облегчи мою [GetTrait('gout_ridden').GetName( GetNull Character )], чтобы бёдра крутились по правильным причинам."
 
-bno_cure_diseases.consumption.desc: "Восковая кожа, яркие глаза, тлеющий жар; [GetTrait('consumption').GetName( GetNull Character )] превращает отдых в томное желание."
-cure_consumption_tooltip: "Прогони мою [GetTrait('consumption').GetName( GetNull Character )], чтобы дыхание стало тёплыми вздохами."
+ bno_cure_diseases.consumption.desc: "Восковая кожа, яркие глаза, тлеющий жар; [GetTrait('consumption').GetName( GetNull Character )] превращает отдых в томное желание."
+ cure_consumption_tooltip: "Прогони мою [GetTrait('consumption').GetName( GetNull Character )], чтобы дыхание стало тёплыми вздохами."
 
-bno_cure_diseases.cancer.desc: "Тень в плоти, [GetTrait('cancer').GetName( GetNull Character )] крадёт силу и цвет, но оставляет голод объятий."
-cure_cancer_tooltip: "Разрушь мой [GetTrait('cancer').GetName( GetNull Character )], чтобы жизнь снова была сочной."
+ bno_cure_diseases.cancer.desc: "Тень в плоти, [GetTrait('cancer').GetName( GetNull Character )] крадёт силу и цвет, но оставляет голод объятий."
+ cure_cancer_tooltip: "Разрушь мой [GetTrait('cancer').GetName( GetNull Character )], чтобы жизнь снова была сочной."
 
-bno_cure_diseases.typhus.desc: "Лихорадка, что раздевает жаром; [GetTrait('typhus').GetName( GetNull Character )] размывает мир в мокрые простыни и лихорадочные сны."
-cure_typhus_tooltip: "Изгони мой [GetTrait('typhus').GetName( GetNull Character )], чтобы пот был заработан слаще."
+ bno_cure_diseases.typhus.desc: "Лихорадка, что раздевает жаром; [GetTrait('typhus').GetName( GetNull Character )] размывает мир в мокрые простыни и лихорадочные сны."
+ cure_typhus_tooltip: "Изгони мой [GetTrait('typhus').GetName( GetNull Character )], чтобы пот был заработан слаще."
 
-bno_cure_diseases.bubonic_plague.desc: "Тело в синяках как укушенный фрукт; с [GetTrait('bubonic_plague').GetName( GetNull Character )] даже желание становится молитвой об объятии."
-cure_bubonic_plague_tooltip: "Сними мою [GetTrait('bubonic_plague').GetName( GetNull Character )], чтобы касание было удовольствием, не прощанием."
+ bno_cure_diseases.bubonic_plague.desc: "Тело в синяках как укушенный фрукт; с [GetTrait('bubonic_plague').GetName( GetNull Character )] даже желание становится молитвой об объятии."
+ cure_bubonic_plague_tooltip: "Сними мою [GetTrait('bubonic_plague').GetName( GetNull Character )], чтобы касание было удовольствием, не прощанием."
 
-bno_cure_diseases.smallpox.desc: "Пузырчатые звёзды, лихорадочные ночи; [GetTrait('smallpox').GetName( GetNull Character )] перерисовывает созвездия и просит утешения."
-cure_smallpox_tooltip: "Пощади мою [GetTrait('smallpox').GetName( GetNull Character )], чтобы кожа снова была приглашением."
+ bno_cure_diseases.smallpox.desc: "Пузырчатые звёзды, лихорадочные ночи; [GetTrait('smallpox').GetName( GetNull Character )] перерисовывает созвездия и просит утешения."
+ cure_smallpox_tooltip: "Пощади мою [GetTrait('smallpox').GetName( GetNull Character )], чтобы кожа снова была приглашением."
 
-bno_cure_diseases.measles.desc: "Пятнистый жар и зуд желания; [GetTrait('measles').GetName( GetNull Character )] превращает сдержанность в ёрзанье, терпение в мольбы."
-cure_measles_tooltip: "Успокой мою [GetTrait('measles').GetName( GetNull Character )], чтобы гладили без царапин."
+ bno_cure_diseases.measles.desc: "Пятнистый жар и зуд желания; [GetTrait('measles').GetName( GetNull Character )] превращает сдержанность в ёрзанье, терпение в мольбы."
+ cure_measles_tooltip: "Успокой мою [GetTrait('measles').GetName( GetNull Character )], чтобы гладили без царапин."
 
-bno_cure_diseases.dysentery.desc: "Спазмы и истощение; [GetTrait('dysentery').GetName( GetNull Character )] заставляет сильнейших просить нежных глотков и мягких ночей."
-cure_dysentery_tooltip: "Прекрати мою [GetTrait('dysentery').GetName( GetNull Character )], чтобы тело пировало и резвилось."
+ bno_cure_diseases.dysentery.desc: "Спазмы и истощение; [GetTrait('dysentery').GetName( GetNull Character )] заставляет сильнейших просить нежных глотков и мягких ночей."
+ cure_dysentery_tooltip: "Прекрати мою [GetTrait('dysentery').GetName( GetNull Character )], чтобы тело пировало и резвилось."
 
-bno_cure_diseases.ergotism.desc: "Иглы, искры, странные сны; [GetTrait('ergotism').GetName( GetNull Character )] превращает мир в головокружительный танец."
-cure_ergotism_tooltip: "Освободи от [GetTrait('ergotism').GetName( GetNull Character )], чтобы я выбирал опьянение сам."
+ bno_cure_diseases.ergotism.desc: "Иглы, искры, странные сны; [GetTrait('ergotism').GetName( GetNull Character )] превращает мир в головокружительный танец."
+ cure_ergotism_tooltip: "Освободи от [GetTrait('ergotism').GetName( GetNull Character )], чтобы я выбирал опьянение сам."
 
-bno_cure_diseases.sickly.desc: "Тонкие запястья, дремота при свечах; [GetTrait('sickly').GetName( GetNull Character )] заставляет жаждать заботы тёплых рук."
-cure_sickly_tooltip: "Исцели мою [GetTrait('sickly').GetName( GetNull Character )], чтобы тело радовалось без оглядки."
+ bno_cure_diseases.sickly.desc: "Тонкие запястья, дремота при свечах; [GetTrait('sickly').GetName( GetNull Character )] заставляет жаждать заботы тёплых рук."
+ cure_sickly_tooltip: "Исцели мою [GetTrait('sickly').GetName( GetNull Character )], чтобы тело радовалось без оглядки."
 
-bno_cure_diseases.tooltip.1: "Ты исцелишься от недугов [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]"
-bno_cure_diseases.tooltip.2: "Ты посетишь [GetBuilding('bbc_church_02').GetName]"
+ bno_cure_diseases.tooltip.1: "Ты исцелишься от недугов [GetCourtPositionType('bno_bbc_priestess_court_position').GetName()]"
+ bno_cure_diseases.tooltip.2: "Ты посетишь [GetBuilding('bbc_church_02').GetName]"
 
-bno_primal_insight_decision.title.female: "Под Взглядом Королевы: Ритуал Первичного Прозрения"
-bno_primal_insight_decision.desc.female: "Воздух трещит от предвкушения, густой от ароматов жасминового масла и похоти. Недели перед Первичным Прозрением двор кишит жаждущими ухажёрами — тёмные глаза алчут моей милости, каждый мужик отчаянно хочет быть выбранным, чтобы обслужить меня, чтобы его семя стало частью моей королевской крови. Они следуют за мной по роскошным залам как эбониевые призраки, руки задерживаются на шёлке, шепчут обещания и дары. Каждое касание посылает дрожь — сладкая боль перед кульминацией годового ритуала, когда меня возьмёт, овладеет и переделает мощное семя Жреца Чёрного Хуя."
-bno_primal_insight_decision.confirm.female: "Такая преданность греет сердце."
-bno_primal_insight_decision.tooltip.female: "Получишь [GetModifier('bno_primal_insight').GetNameWithTooltip]"
+ bno_primal_insight_decision.title.female: "Под Взглядом Королевы: Ритуал Первичного Прозрения"
+ bno_primal_insight_decision.desc.female: "Воздух трещит от предвкушения, густой от ароматов жасминового масла и похоти. Недели перед Первичным Прозрением двор кишит жаждущими ухажёрами — тёмные глаза алчут моей милости, каждый мужик отчаянно хочет быть выбранным, чтобы обслужить меня, чтобы его семя стало частью моей королевской крови. Они следуют за мной по роскошным залам как эбониевые призраки, руки задерживаются на шёлке, шепчут обещания и дары. Каждое касание посылает дрожь — сладкая боль перед кульминацией годового ритуала, когда меня возьмёт, овладеет и переделает мощное семя Жреца Чёрного Хуя."
+ bno_primal_insight_decision.confirm.female: "Такая преданность греет сердце."
+ bno_primal_insight_decision.tooltip.female: "Получишь [GetModifier('bno_primal_insight').GetNameWithTooltip]"
 
-bno_primal_insight_decision.effect_tooltip: "Начнёшь Ритуал для [GetModifier('bno_primal_insight').GetNameWithTooltip]"
+ bno_primal_insight_decision.effect_tooltip: "Начнёшь Ритуал для [GetModifier('bno_primal_insight').GetNameWithTooltip]"
 
-bno_primal_insight_decision.title.male: "Под Взглядом Короля: Ритуал Первичного Прозрения"
-bno_primal_insight_decision.desc.male: "Воздух тяжёл от сандала и мускуса — мой запах смешивается с жасмином, что липнет к Жрице второй кожей. Недели её присутствие — постоянная боль, шёлковая волна, лижущая берега желания. Она движется дымом по покоям, эфирные голубые глаза следуют за мной — задерживаются на голых руках, посылая дрожь. Её смех — ветряные колокольчики, касание легче крыльев бабочки, но маленькая рука выжигает душу каждым мимолётным прикосновением. День приближается как второе сердцебиение — день, когда она снова отдастся, и я напьюсь из источника её священной силы, переродившись в огне древнего ритуала."
-bno_primal_insight_decision.confirm.male: "Тогда, Жрица, давай соединимся."
-bno_primal_insight_decision.tooltip.male: "Получишь [GetModifier('bno_primal_insight').GetNameWithTooltip]"
+ bno_primal_insight_decision.title.male: "Под Взглядом Короля: Ритуал Первичного Прозрения"
+ bno_primal_insight_decision.desc.male: "Воздух тяжёл от сандала и мускуса — мой запах смешивается с жасмином, что липнет к Жрице второй кожей. Недели её присутствие — постоянная боль, шёлковая волна, лижущая берега желания. Она движется дымом по покоям, эфирные голубые глаза следуют за мной — задерживаются на голых руках, посылая дрожь. Её смех — ветряные колокольчики, касание легче крыльев бабочки, но маленькая рука выжигает душу каждым мимолётным прикосновением. День приближается как второе сердцебиение — день, когда она снова отдастся, и я напьюсь из источника её священной силы, переродившись в огне древнего ритуала."
+ bno_primal_insight_decision.confirm.male: "Тогда, Жрица, давай соединимся."
+ bno_primal_insight_decision.tooltip.male: "Получишь [GetModifier('bno_primal_insight').GetNameWithTooltip]"
 
-bull_decision.effect: "Массивная потеря [stress|E].."
-bno_events00.too_much_bbc: "Твой двор уже переполнен [bno_bbcs|E]. Даже зал Быка имеет пределы."
-bno_invite_slut_decision.too_much_white_girl: "Твой двор кишит бледными шлюхами. Ещё — и их цена упадёт, контроль ослабеет."
-bno_events00.too_little_bbc: "Твой зал пуст от [bno_bbcs|E]. Меньше трёх Быков — двор слаб, без силы и соблазна. Зови их, пусть тень падёт на королевство."
-bno_invite_slut_decision.too_little_white_girl: "В твоём дворе мало бледных шлюх. Нужно больше — каждый зал растёт в силе и опасности, когда белые шлюхи собраны под одной крышей."
+ bull_decision.effect: "Массивная потеря [stress|E].."
+ bno_events00.too_much_bbc: "Твой двор уже переполнен [bno_bbcs|E]. Даже зал Быка имеет пределы."
+ bno_invite_slut_decision.too_much_white_girl: "Твой двор кишит бледными шлюхами. Ещё — и их цена упадёт, контроль ослабеет."
+ bno_events00.too_little_bbc: "Твой зал пуст от [bno_bbcs|E]. Меньше трёх Быков — двор слаб, без силы и соблазна. Зови их, пусть тень падёт на королевство."
+ bno_invite_slut_decision.too_little_white_girl: "В твоём дворе мало бледных шлюх. Нужно больше — каждый зал растёт в силе и опасности, когда белые шлюхи собраны под одной крышей."
 
-bno_becoming_bbc_slut.has_bbc_in_court: "Нужен хотя бы один [bno_bbc|E] при дворе, чтобы начать путь. Без Быка, что возьмёт тебя, падение в рабство не начнётся."
+ bno_becoming_bbc_slut.has_bbc_in_court: "Нужен хотя бы один [bno_bbc|E] при дворе, чтобы начать путь. Без Быка, что возьмёт тебя, падение в рабство не начнётся."
 
-bno_trade_piety_for_gold.title.male: "Собрать с Верных"  
-bno_trade_piety_for_gold.title.female: "Собрать с Верных"  
+ bno_trade_piety_for_gold.title.male: "Собрать с Верных"  
+ bno_trade_piety_for_gold.title.female: "Собрать с Верных"  
 
-bno_trade_piety_for_gold.desc.male: "Как хозяин Собора [GetFaithByKey('bbcs').GetName], ты владеешь преданностью Быков и шлюх. Их поклонение — не только стоны и семя: они льют золото в твои руки, веря, что каждая монета служит божественной толщине [bno_bbc|E]."  
+ bno_trade_piety_for_gold.desc.male: "Как хозяин Собора [GetFaithByKey('bbcs').GetName], ты владеешь преданностью Быков и шлюх. Их поклонение — не только стоны и семя: они льют золото в твои руки, веря, что каждая монета служит божественной толщине [bno_bbc|E]."  
 
-bno_trade_piety_for_gold.desc.female: "Как благословенная Чёрным Хуем шлюха [GetFaithByKey('bbcs').GetName], твоя сочащаяся набожность вдохновляет. Они опустошают кошельки так же охотно, как раздвигают бёдра, жертвуя монетой и плотью для дела твоего Быка."  
+ bno_trade_piety_for_gold.desc.female: "Как благословенная Чёрным Хуем шлюха [GetFaithByKey('bbcs').GetName], твоя сочащаяся набожность вдохновляет. Они опустошают кошельки так же охотно, как раздвигают бёдра, жертвуя монетой и плотью для дела твоего Быка."  
 
-bno_trade_piety_for_gold.tooltip.male: "Трать [piety|E], чтобы велеть верным жертвовать, наполняя [gold|E]."  
-bno_trade_piety_for_gold.tooltip.female: "Трать [piety|E], чтобы разжечь паству — их похоть и золото потекут к тебе."  
+ bno_trade_piety_for_gold.tooltip.male: "Трать [piety|E], чтобы велеть верным жертвовать, наполняя [gold|E]."  
+ bno_trade_piety_for_gold.tooltip.female: "Трать [piety|E], чтобы разжечь паству — их похоть и золото потекут к тебе."  
 
-bno_trade_piety_for_gold.confirm.male: "Призвать золото паствы во имя Чёрного Хуя."  
-bno_trade_piety_for_gold.confirm.female: "Призвать золото верных для славы моего Быка."  
+ bno_trade_piety_for_gold.confirm.male: "Призвать золото паствы во имя Чёрного Хуя."  
+ bno_trade_piety_for_gold.confirm.female: "Призвать золото верных для славы моего Быка."  
 
-bno_trade_piety_for_gold.effect: "Преврати [piety|E] в [gold|E] через похотливые дары верных."  
+ bno_trade_piety_for_gold.effect: "Преврати [piety|E] в [gold|E] через похотливые дары верных."  
 
-bno_trade_prestige_for_gold.title.male: "Сделка Братства"  
-bno_trade_prestige_for_gold.title.female: "Сделка Братства"  
+ bno_trade_prestige_for_gold.title.male: "Сделка Братства"  
+ bno_trade_prestige_for_gold.title.female: "Сделка Братства"  
 
-bno_trade_prestige_for_gold.desc.male: "Твой престиж измеряется не словами, а предложенной плотью. Чтобы доказать верность братству, ты отдаёшь жену родне. Быки по очереди насаживают её, семя льётся глубоко, а когда похоть угасает — складывают золото к твоим ногам."  
+ bno_trade_prestige_for_gold.desc.male: "Твой престиж измеряется не словами, а предложенной плотью. Чтобы доказать верность братству, ты отдаёшь жену родне. Быки по очереди насаживают её, семя льётся глубоко, а когда похоть угасает — складывают золото к твоим ногам."  
 
-bno_trade_prestige_for_gold.desc.female: "Твоя слава среди Быков доказана телом. Ты раздеваешься, раздвигаешься перед роднёй, стонешь, пока каждый Бык использует тебя по очереди. С каждым оргазмом они суют монету в руку, семя капает по бёдрам вместе с золотом."  
+ bno_trade_prestige_for_gold.desc.female: "Твоя слава среди Быков доказана телом. Ты раздеваешься, раздвигаешься перед роднёй, стонешь, пока каждый Бык использует тебя по очереди. С каждым оргазмом они суют монету в руку, семя капает по бёдрам вместе с золотом."  
 
-bno_trade_prestige_for_gold.tooltip.male: "Трать [prestige|E], отдавая дырки жены Быкам, получая [gold|E] после использования."  
-bno_trade_prestige_for_gold.tooltip.female: "Трать [prestige|E], отдавая своё тело Быкам, получая [gold|E] после использования."  
+ bno_trade_prestige_for_gold.tooltip.male: "Трать [prestige|E], отдавая дырки жены Быкам, получая [gold|E] после использования."  
+ bno_trade_prestige_for_gold.tooltip.female: "Трать [prestige|E], отдавая своё тело Быкам, получая [gold|E] после использования."  
 
-bno_trade_prestige_for_gold.confirm.male: "Да — пусть жена служит Быкам за золото."  
-bno_trade_prestige_for_gold.confirm.female: "Да — я сама послужу Быкам за золото."  
+ bno_trade_prestige_for_gold.confirm.male: "Да — пусть жена служит Быкам за золото."  
+ bno_trade_prestige_for_gold.confirm.female: "Да — я сама послужу Быкам за золото."  
 
-bno_trade_prestige_for_gold.effect: "Преврати [prestige|E] в [gold|E] через шлюшью службу африканскому братству."
+ bno_trade_prestige_for_gold.effect: "Преврати [prestige|E] в [gold|E] через шлюшью службу африканскому братству."
 
-bno_build_bbc_trader_decision.title.male: "Создать обсидианский караван" # AI Tags
-bno_build_bbc_trader_decision.desc.male: "Как бык Черного Нового Мирового Порядка ты приказываешь очистить землю и отметить ее черными знаменами, призывая своих братьев. Здесь "Обсидианский караван" укоренится, продавая Тинктуру Бытия, Эликсир Черной Женщины, клетки для червей и пирсинг для шлюх. Вы не приглашаете торговлю, вы расширяете власть." # AI Tags
-bno_build_bbc_trader_decision.tooltip.male: "Нашел постоянный рынок для быков для торговли семенами, таинствами и инструментами собственности." # AI Tags
-bno_build_bbc_trader_decision.confirm.male: "Возьмите землю и вызовите караван." # AI Tags
-bno_build_bbc_trader_decision.message.title.male: "Прибывает ваш караван" # AI Tags
-bno_build_bbc_trader_decision.message.desc.male: "Кареты перемещаются с товарами и семенами, шелковые палатки поднимаются, а парфюмерия дрейфует. "Обсидианский караван" - это ваше достояние, сердце бьется, быки собираются, шлюхи шепчут, белые рыбаки трепещут. Твой охват распространяется глубже в царстве." # AI Tags
+ bno_build_bbc_trader_decision.title.male: "Создать обсидианский караван" # AI Tags
+ bno_build_bbc_trader_decision.desc.male: "Как бык Черного Нового Мирового Порядка ты приказываешь очистить землю и отметить ее черными знаменами, призывая своих братьев. Здесь "Обсидианский караван" укоренится, продавая Тинктуру Бытия, Эликсир Черной Женщины, клетки для червей и пирсинг для шлюх. Вы не приглашаете торговлю, вы расширяете власть." # AI Tags
+ bno_build_bbc_trader_decision.tooltip.male: "Нашел постоянный рынок для быков для торговли семенами, таинствами и инструментами собственности." # AI Tags
+ bno_build_bbc_trader_decision.confirm.male: "Возьмите землю и вызовите караван." # AI Tags
+ bno_build_bbc_trader_decision.message.title.male: "Прибывает ваш караван" # AI Tags
+ bno_build_bbc_trader_decision.message.desc.male: "Кареты перемещаются с товарами и семенами, шелковые палатки поднимаются, а парфюмерия дрейфует. "Обсидианский караван" - это ваше достояние, сердце бьется, быки собираются, шлюхи шепчут, белые рыбаки трепещут. Твой охват распространяется глубже в царстве." # AI Tags
 
-bno_build_bbc_trader_decision.title.female: "Пригласите обсидианский караван" # AI Tags
-bno_build_bbc_trader_decision.desc.female: "Вы выделяете площадь с факелами и знаменами, делая место для вагонов Буллс. Вскоре придет Обсидианский караван, который продаст Тинктуру, которая связывает шлюх с кумом, Эликсир, который развязывает белых, и каждую клетку и прорыв, которые запечатывают послушание. Приветствовать их означает приветствовать их силу в вашей стране и в вашем теле." # AI Tags
-bno_build_bbc_trader_decision.tooltip.female: "Приготовьте место для Обсидианского каравана, открывая ваше царство для торговли быками и таинств." # AI Tags
-bno_build_bbc_trader_decision.confirm.female: "Освободите землю и откройте путь." # AI Tags
-bno_build_bbc_trader_decision.message.title.female: "Прибывает караван" # AI Tags
-bno_build_bbc_trader_decision.message.desc.female: ""Обсидианский караван" набирает место, колесницы вешаются шелками и тяжелыми семенами. Быки спускаются, чтобы занять территорию, шлюхи собираются, чтобы шептать о красителях и клетках, а воздух заполняется фимиам, мускусом и скорбью. Вы уже чувствуете изменение: караван здесь, и вместе с ним, судьба." # AI Tags
+ bno_build_bbc_trader_decision.title.female: "Пригласите обсидианский караван" # AI Tags
+ bno_build_bbc_trader_decision.desc.female: "Вы выделяете площадь с факелами и знаменами, делая место для вагонов Буллс. Вскоре придет Обсидианский караван, который продаст Тинктуру, которая связывает шлюх с кумом, Эликсир, который развязывает белых, и каждую клетку и прорыв, которые запечатывают послушание. Приветствовать их означает приветствовать их силу в вашей стране и в вашем теле." # AI Tags
+ bno_build_bbc_trader_decision.tooltip.female: "Приготовьте место для Обсидианского каравана, открывая ваше царство для торговли быками и таинств." # AI Tags
+ bno_build_bbc_trader_decision.confirm.female: "Освободите землю и откройте путь." # AI Tags
+ bno_build_bbc_trader_decision.message.title.female: "Прибывает караван" # AI Tags
+ bno_build_bbc_trader_decision.message.desc.female: ""Обсидианский караван" набирает место, колесницы вешаются шелками и тяжелыми семенами. Быки спускаются, чтобы занять территорию, шлюхи собираются, чтобы шептать о красителях и клетках, а воздух заполняется фимиам, мускусом и скорбью. Вы уже чувствуете изменение: караван здесь, и вместе с ним, судьба." # AI Tags
 
-bno_purchase_goods_decision.title.male: "Командуйте караванным товарам" # AI Tags
-bno_purchase_goods_decision.desc.male: ""Обсидиан Караван" открывает свои запасы для вас - тинктуры, эликсиры, клетки, бренды. Как Бык, ты платишь золотом, никогда не плотью. Монета, которую ты тратишь, - это знак господства, претендующий на инструменты, чтобы короновать шлюх и разбить червей глубже в послушание." # AI Tags
-bno_purchase_goods_decision.tooltip.male: "Расходуйте золото, чтобы приобрести красители, эликсиры и инструменты собственности." # AI Tags
-bno_purchase_goods_decision.confirm.male: "Отложи свое золото и забирай то, что твое." # AI Tags
+ bno_purchase_goods_decision.title.male: "Командуйте караванным товарам" # AI Tags
+ bno_purchase_goods_decision.desc.male: ""Обсидиан Караван" открывает свои запасы для вас - тинктуры, эликсиры, клетки, бренды. Как Бык, ты платишь золотом, никогда не плотью. Монета, которую ты тратишь, - это знак господства, претендующий на инструменты, чтобы короновать шлюх и разбить червей глубже в послушание." # AI Tags
+ bno_purchase_goods_decision.tooltip.male: "Расходуйте золото, чтобы приобрести красители, эликсиры и инструменты собственности." # AI Tags
+ bno_purchase_goods_decision.confirm.male: "Отложи свое золото и забирай то, что твое." # AI Tags
 
-bno_purchase_goods_decision.title.female: "Покупка из "Обсидианского каравана"" # AI Tags
-bno_purchase_goods_decision.desc.female: "Быки каравана распространяли свои товары виалы от Тинктуры Бытия, Эликсиры Черной Женщины, клетки, пирсинги и марки. Если у тебя есть золото, они возьмут его. В противном случае они улыбаются и требуют, чтобы ваше тело растянуло отверстия, заткнулось рот, семена капелились по бедрам, пока цена не будет полностью оплачена." # AI Tags
-bno_purchase_goods_decision.tooltip.female: "Расходуйте золото, или обменивайтесь сексуальной услугой, если ваш кошелек пуст." # AI Tags
-bno_purchase_goods_decision.confirm.female: "Платите монетой, если можете, или скорбью, если вы должны." # AI Tags
+ bno_purchase_goods_decision.title.female: "Покупка из "Обсидианского каравана"" # AI Tags
+ bno_purchase_goods_decision.desc.female: "Быки каравана распространяли свои товары виалы от Тинктуры Бытия, Эликсиры Черной Женщины, клетки, пирсинги и марки. Если у тебя есть золото, они возьмут его. В противном случае они улыбаются и требуют, чтобы ваше тело растянуло отверстия, заткнулось рот, семена капелились по бедрам, пока цена не будет полностью оплачена." # AI Tags
+ bno_purchase_goods_decision.tooltip.female: "Расходуйте золото, или обменивайтесь сексуальной услугой, если ваш кошелек пуст." # AI Tags
+ bno_purchase_goods_decision.confirm.female: "Платите монетой, если можете, или скорбью, если вы должны." # AI Tags
 
-has_bbc_caravan: "Обсидианский караван прибыл и теперь обитает в вашем царстве, его палатки насыщены красителями, эликсирами и инструментами господства." # AI Tags
+ has_bbc_caravan: "Обсидианский караван прибыл и теперь обитает в вашем царстве, его палатки насыщены красителями, эликсирами и инструментами господства." # AI Tags
 
-bno_trader_has_arrived.title.male: "Прибыл караван" # AI Tags
-bno_trader_has_arrived.desc.male: "Обсидианские вагоны пролетают по вашей земле, черные знамена разрываются, в воздухе толстое парфюмерие. Быки спускаются с коробками с красителями, эликсирами, клетками и марками. Караван здесь по твоему приказу. Его товары теперь инструменты твоего превосходства." # AI Tags
+ bno_trader_has_arrived.title.male: "Прибыл караван" # AI Tags
+ bno_trader_has_arrived.desc.male: "Обсидианские вагоны пролетают по вашей земле, черные знамена разрываются, в воздухе толстое парфюмерие. Быки спускаются с коробками с красителями, эликсирами, клетками и марками. Караван здесь по твоему приказу. Его товары теперь инструменты твоего превосходства." # AI Tags
 
-bno_trader_has_arrived.title.female: "Караван входит в твое царство" # AI Tags
-bno_trader_has_arrived.desc.female: "Тяжелые вагоны встают на свои места, шелковые палатки поднимаются под охраной высоких Быков. Их товары блескают, чтобы связать, эликсиры для преобразования, цепи для маркировки. Прибыл караван, и с ним искушение, послушание и запах семени в воздухе." # AI Tags
+ bno_trader_has_arrived.title.female: "Караван входит в твое царство" # AI Tags
+ bno_trader_has_arrived.desc.female: "Тяжелые вагоны встают на свои места, шелковые палатки поднимаются под охраной высоких Быков. Их товары блескают, чтобы связать, эликсиры для преобразования, цепи для маркировки. Прибыл караван, и с ним искушение, послушание и запах семени в воздухе." # AI Tags
 
-bno_becoming_pure_white.title: "Стать чистым белым" # AI Tags
-bno_becoming_pure_white.desc: "Мое тело свидетельствует о несовершенном союзе, грязной смеси, которую я больше не могу выдержать. Церковь Черного Кока предлагает путь к чистоте, священный ритуал, чтобы очистить пятна от моей крови. Я буду полностью подчиняться, превращаясь в запечатанный сосуд для Его сущности, полагаясь на его силу, чтобы отбелить меня до совершенства." # AI Tags
-bno_becoming_pure_white.tooltip: "Продолжайте литургию Семена. Это инициирует глубокую биологическую трансформацию, постоянно изменяя ваш фенотип в чистый альбинизм. Требует полной преданности одному Первосвященнику Церкви." # AI Tags
-bno_becoming_pure_white.confirm: "Я клянусь быть очищенным." # AI Tags
-bno_becoming_pure_white.effect: "Начинается ритуал очищения. Вся пигментация уходит навсегда. Волосы становятся прямыми и платиновыми белыми. Кожа становится безупречным алабастром. Цвет глаз меняется к кристаллическому синему. Все черты, связанные с смешанным наследием, удаляются." # AI Tags
+ bno_becoming_pure_white.title: "Стать чистым белым" # AI Tags
+ bno_becoming_pure_white.desc: "Мое тело свидетельствует о несовершенном союзе, грязной смеси, которую я больше не могу выдержать. Церковь Черного Кока предлагает путь к чистоте, священный ритуал, чтобы очистить пятна от моей крови. Я буду полностью подчиняться, превращаясь в запечатанный сосуд для Его сущности, полагаясь на его силу, чтобы отбелить меня до совершенства." # AI Tags
+ bno_becoming_pure_white.tooltip: "Продолжайте литургию Семена. Это инициирует глубокую биологическую трансформацию, постоянно изменяя ваш фенотип в чистый альбинизм. Требует полной преданности одному Первосвященнику Церкви." # AI Tags
+ bno_becoming_pure_white.confirm: "Я клянусь быть очищенным." # AI Tags
+ bno_becoming_pure_white.effect: "Начинается ритуал очищения. Вся пигментация уходит навсегда. Волосы становятся прямыми и платиновыми белыми. Кожа становится безупречным алабастром. Цвет глаз меняется к кристаллическому синему. Все черты, связанные с смешанным наследием, удаляются." # AI Tags
 
-convert.second_step_button: "Я хочу начать поклоняться [bno_bbc|E]..." # AI Tags
-convert.convert.desc: "Преобразовать в [GetFaithByKey('bbcs').GetName]" # AI Tags
-convert.convert_to_bnwo.desc: "Принять [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
+ convert.second_step_button: "Я хочу начать поклоняться [bno_bbc|E]..." # AI Tags
+ convert.convert.desc: "Преобразовать в [GetFaithByKey('bbcs').GetName]" # AI Tags
+ convert.convert_to_bnwo.desc: "Принять [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
 
-bno_convert_to_african.second_step_button: "Я хочу быть одним с [bno_bbc|E]" # AI Tags
-bno_convert_to_african.convert.desc: "Я хочу переродиться как [GetCultureByKey('bnoc').GetName]" # AI Tags
-bno_convert_to_african.convert_to_bnwo.desc: "Я хочу представить [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] в мою [culture|E]" # AI Tags
+ bno_convert_to_african.second_step_button: "Я хочу быть одним с [bno_bbc|E]" # AI Tags
+ bno_convert_to_african.convert.desc: "Я хочу переродиться как [GetCultureByKey('bnoc').GetName]" # AI Tags
+ bno_convert_to_african.convert_to_bnwo.desc: "Я хочу представить [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] в мою [culture|E]" # AI Tags

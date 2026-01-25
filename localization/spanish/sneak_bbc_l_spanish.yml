@@ -1,17 +1,17 @@
 ﻿l_spanish:
 #sneak bbc interaction
-sneak_bbc: "Husmear a un Toro Negro" # AI Tags
-sneak_bbc_desc: "Enviar uno de los [bno_bbcs|E] desde tu corte hasta el salón de otro gobernante."   # AI Tags
-actor_secondary_sneak_bbc: "Bollón negro" # AI Tags
-BBC_cg_spy_reason: "Un cortesano o un invitado ayudará a colarse [bno_bbc|E]: #color_green +5#!"   # AI Tags
-BBC_family_spy_reason: "Un miembro de la familia ayudará a escabullirse un [bno_bbc|E]: #color_green +10#!"   # AI Tags
-BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! es curioso acerca de [bno_bbc|E]: #color_green +10#!"   # AI Tags
-BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! ha sido tomada por un [bno_bbc|E]: #color_green +25#!"   # AI Tags
-BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! cultos [bno_bbc|E]: #color_green +50#!"   # AI Tags
-BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! abiertamente da la bienvenida [bno_bbc|E]: #color_green +50#!"   # AI Tags
-sneak_bbc.has_bbc_in_court: "Debes tener al menos dos [bno_bbc|E] en su corte para enviar uno lejos."   # AI Tags
-sneak_bbc.already_has_bbc_in_court: "Las putas de esa corte ya están llenas por los Bulls en su interior, no hay necesidad de enviar a otra."   # AI Tags
-sneak_bbc.not_enough_of_a_slut: "Todavía no eres suficiente de puta. Sólo un verdadero [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] o peor, se atreverán a contrabandear toros entre tribunales."   # AI Tags
+ sneak_bbc: "Husmear a un Toro Negro" # AI Tags
+ sneak_bbc_desc: "Enviar uno de los [bno_bbcs|E] desde tu corte hasta el salón de otro gobernante."   # AI Tags
+ actor_secondary_sneak_bbc: "Bollón negro" # AI Tags
+ BBC_cg_spy_reason: "Un cortesano o un invitado ayudará a colarse [bno_bbc|E]: #color_green +5#!"   # AI Tags
+ BBC_family_spy_reason: "Un miembro de la familia ayudará a escabullirse un [bno_bbc|E]: #color_green +10#!"   # AI Tags
+ BBC_curious_reason: "#color_white [ROOT.Char.GetFullName]#! es curioso acerca de [bno_bbc|E]: #color_green +10#!"   # AI Tags
+ BBC_fucked_reason: "#color_white [ROOT.Char.GetFullName]#! ha sido tomada por un [bno_bbc|E]: #color_green +25#!"   # AI Tags
+ BBC_slut_reason: "#color_white [ROOT.Char.GetFullName]#! cultos [bno_bbc|E]: #color_green +50#!"   # AI Tags
+ BBC_welcome_reason: "#color_white [ROOT.Char.GetFullName]#! abiertamente da la bienvenida [bno_bbc|E]: #color_green +50#!"   # AI Tags
+ sneak_bbc.has_bbc_in_court: "Debes tener al menos dos [bno_bbc|E] en su corte para enviar uno lejos."   # AI Tags
+ sneak_bbc.already_has_bbc_in_court: "Las putas de esa corte ya están llenas por los Bulls en su interior, no hay necesidad de enviar a otra."   # AI Tags
+ sneak_bbc.not_enough_of_a_slut: "Todavía no eres suficiente de puta. Sólo un verdadero [GetTrait('bno_whitegirl_3').GetName(GetNullCharacter)] o peor, se atreverán a contrabandear toros entre tribunales."   # AI Tags
 #influence child interaction
-bno_influence_child: "Curiosidad de los hogares de acogida" # AI Tags
-bno_influence_child_desc: "Influenciar al niño en la verdad" # AI Tags
+ bno_influence_child: "Curiosidad de los hogares de acogida" # AI Tags
+ bno_influence_child_desc: "Influenciar al niño en la verdad" # AI Tags

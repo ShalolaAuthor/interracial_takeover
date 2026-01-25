@@ -22,20 +22,20 @@
  bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] mantiene el impugnado [title|E]. Todos [factions|E] contra ti aumentan sus [discontent|E]." # AI Tags
  bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] mantiene el impugnado [title|E]." # AI Tags
 
-BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Subyugación racial de la [TITLE.GetBaseName]" # AI Tags
-BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
-BNO_SUBJ_WAR_CB_NAME: "Subyugación racial de [TITLE.GetBaseName]" # AI Tags
+ BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Subyugación racial de la [TITLE.GetBaseName]" # AI Tags
+ BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+ BNO_SUBJ_WAR_CB_NAME: "Subyugación racial de [TITLE.GetBaseName]" # AI Tags
 
-bno_varangian_adventure: "[bno_bnwo|E] Invasión" # AI Tags
-BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Invasión contra [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
-BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
-BNO_VARANGIAN_ADVENTURE_CB_NAME: "Invasión de [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
-BNWO_STATE_TITLE_NAME: "Ennegrecido [target_duchy.GetNameNoTierNoTooltip]" # AI Tags
+ bno_varangian_adventure: "[bno_bnwo|E] Invasión" # AI Tags
+ BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Invasión contra [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+ BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+ BNO_VARANGIAN_ADVENTURE_CB_NAME: "Invasión de [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+ BNWO_STATE_TITLE_NAME: "Ennegrecido [target_duchy.GetNameNoTierNoTooltip]" # AI Tags
 
-bno_civil_unrest: "[bno_bnwo|E] Rebelión" # AI Tags
-bno_civil_unrest.army_name: "Conquistadores de ébano" # AI Tags
-bno_civil_unrest.victory.desc: "Los [bno_bnwo|E] ha reclamado la victoria. La resistencia es inútil. Prepárense para cumplir el nuevo orden." # AI Tags
-bno_civil_unrest.white_peace.desc: "Los [bno_bnwo|E] ofrece una oportunidad para la paz. Someternos a nuestra regla y ser salvados." # AI Tags
-bno_civil_unrest.defeat.desc: "Los [bno_bnwo|E] ha sido derrotado. El viejo orden permanece intacto, por ahora." # AI Tags
-bnwo_faction_every_county: "Cada [faction|E] [county|E]" # AI Tags
-bno_civil_unrest_name: "Levantamiento del Nuevo Orden Mundial Negro" # AI Tags
+ bno_civil_unrest: "[bno_bnwo|E] Rebelión" # AI Tags
+ bno_civil_unrest.army_name: "Conquistadores de ébano" # AI Tags
+ bno_civil_unrest.victory.desc: "Los [bno_bnwo|E] ha reclamado la victoria. La resistencia es inútil. Prepárense para cumplir el nuevo orden." # AI Tags
+ bno_civil_unrest.white_peace.desc: "Los [bno_bnwo|E] ofrece una oportunidad para la paz. Someternos a nuestra regla y ser salvados." # AI Tags
+ bno_civil_unrest.defeat.desc: "Los [bno_bnwo|E] ha sido derrotado. El viejo orden permanece intacto, por ahora." # AI Tags
+ bnwo_faction_every_county: "Cada [faction|E] [county|E]" # AI Tags
+ bno_civil_unrest_name: "Levantamiento del Nuevo Orden Mundial Negro" # AI Tags

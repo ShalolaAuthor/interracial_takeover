@@ -22,20 +22,20 @@
  bno_subj_war_defeat_desc_attacker: "[defender.GetShortUIName|U] utrzymuje dyskusyjnego [title|E]- Nie , nie , nie . Wszystkie [factions|E] Zwiększyć ich przeciwko tobie [discontent|E]." # AI Tags
  bno_subj_war_defeat_desc: "[defender.GetShortUIName|U] utrzymuje dyskusyjnego [title|E]." # AI Tags
 
-BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Rasowe podporządkowanie [TITLE.GetBaseName]" # AI Tags
-BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
-BNO_SUBJ_WAR_CB_NAME: "Rasowe podporządkowanie [TITLE.GetBaseName]" # AI Tags
+ BNO_SUBJ_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Rasowe podporządkowanie [TITLE.GetBaseName]" # AI Tags
+ BNO_SUBJ_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+ BNO_SUBJ_WAR_CB_NAME: "Rasowe podporządkowanie [TITLE.GetBaseName]" # AI Tags
 
-bno_varangian_adventure: "[bno_bnwo|E] Inwazja" # AI Tags
-BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Inwazja przeciwko [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
-BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
-BNO_VARANGIAN_ADVENTURE_CB_NAME: "Inwazja na [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
-BNWO_STATE_TITLE_NAME: "Czarne [target_duchy.GetNameNoTierNoTooltip]" # AI Tags
+ bno_varangian_adventure: "[bno_bnwo|E] Inwazja" # AI Tags
+ BNO_VARANGIAN_ADVENTURE_WAR_NAME: "$ORDER$ [ATTACKER.GetPrimaryTitle.GetAdjective] Inwazja przeciwko [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+ BNO_VARANGIAN_ADVENTURE_WAR_NAME_BASE: "[ATTACKER.GetPrimaryTitle.GetAdjective][DEFENDER.GetPrimaryTitle.GetName]" # AI Tags
+ BNO_VARANGIAN_ADVENTURE_CB_NAME: "Inwazja na [DEFENDER.GetPrimaryTitle.GetNameNoTier]" # AI Tags
+ BNWO_STATE_TITLE_NAME: "Czarne [target_duchy.GetNameNoTierNoTooltip]" # AI Tags
 
-bno_civil_unrest: "[bno_bnwo|E] Powstanie" # AI Tags
-bno_civil_unrest.army_name: "Ebony Conquerors" # AI Tags
-bno_civil_unrest.victory.desc: "Wydarz [bno_bnwo|E] Oskarżył o zwycięstwo. Przeciwstanie jest bezużyteczne. Przygotuj się na służenie nowemu rozkazowi." # AI Tags
-bno_civil_unrest.white_peace.desc: "Wydarz [bno_bnwo|E] oferuje szansę na pokój. Poddawaj się naszemu rządowi i zostań oszczędzony." # AI Tags
-bno_civil_unrest.defeat.desc: "Wydarz [bno_bnwo|E] Został pokonany. Stary porządek pozostaje nienaruszony, na razie." # AI Tags
-bnwo_faction_every_county: "Każdy [faction|E] [county|E]" # AI Tags
-bno_civil_unrest_name: "Powstanie czarnego nowego porządku światowego" # AI Tags
+ bno_civil_unrest: "[bno_bnwo|E] Powstanie" # AI Tags
+ bno_civil_unrest.army_name: "Ebony Conquerors" # AI Tags
+ bno_civil_unrest.victory.desc: "Wydarz [bno_bnwo|E] Oskarżył o zwycięstwo. Przeciwstanie jest bezużyteczne. Przygotuj się na służenie nowemu rozkazowi." # AI Tags
+ bno_civil_unrest.white_peace.desc: "Wydarz [bno_bnwo|E] oferuje szansę na pokój. Poddawaj się naszemu rządowi i zostań oszczędzony." # AI Tags
+ bno_civil_unrest.defeat.desc: "Wydarz [bno_bnwo|E] Został pokonany. Stary porządek pozostaje nienaruszony, na razie." # AI Tags
+ bnwo_faction_every_county: "Każdy [faction|E] [county|E]" # AI Tags
+ bno_civil_unrest_name: "Powstanie czarnego nowego porządku światowego" # AI Tags

@@ -1,10 +1,10 @@
 ﻿l_russian:
-great_replacement: "Великая Замена"
-great_replacement_effect_desc: ""
-cultural_acceptance_loss_replacement_culture: "Захвачено"
-great_replacement_acceptance_effect_desc: "Местные города и деревни будут насильно захвачены превосходными самцами и загнаны в лагеря переобучения. Большинство не выживет..."
-bno_great_replacement.current_cultural_acceptance: "[cultural_acceptance|E]"
-bno_great_replacement_effect.title: "$great_replacement$ удалась!!"
-bno_great_replacement_effect.desc: "Земля стонет под тяжестью завоевания. Где раньше звучали бледные языки, теперь из каждого рта льются африканские слова. Утроба королевы и хуй [bno_bbc|E] вписали новый порядок в плоть и почву — солдаты маршируют под тёмные барабаны, девы раздвигают ноги для более сильного семени, а сам округ выебан в покорность."
-bno_great_replacement_effect_cultural_acceptance: "Графство скручивается под принудительной гармонией. Бледые и темные языки переплетаются, скорби утопают протест, пока каждая культура не склонится вместе в поклонении [bno_bbc|E]- Нет , нет . То, что когда-то было разделением, теперь подчинение - единство, выращенное в конце своего членя." # AI Tags
-bno_great_replacement.requirement: "Используется только в том случае, если вы [BBC|E], а [Snowbunny|E], или [Cuck|E]" # AI Tags
+ great_replacement: "Великая Замена"
+ great_replacement_effect_desc: ""
+ cultural_acceptance_loss_replacement_culture: "Захвачено"
+ great_replacement_acceptance_effect_desc: "Местные города и деревни будут насильно захвачены превосходными самцами и загнаны в лагеря переобучения. Большинство не выживет..."
+ bno_great_replacement.current_cultural_acceptance: "[cultural_acceptance|E]"
+ bno_great_replacement_effect.title: "$great_replacement$ удалась!!"
+ bno_great_replacement_effect.desc: "Земля стонет под тяжестью завоевания. Где раньше звучали бледные языки, теперь из каждого рта льются африканские слова. Утроба королевы и хуй [bno_bbc|E] вписали новый порядок в плоть и почву — солдаты маршируют под тёмные барабаны, девы раздвигают ноги для более сильного семени, а сам округ выебан в покорность."
+ bno_great_replacement_effect_cultural_acceptance: "Графство скручивается под принудительной гармонией. Бледые и темные языки переплетаются, скорби утопают протест, пока каждая культура не склонится вместе в поклонении [bno_bbc|E]- Нет , нет . То, что когда-то было разделением, теперь подчинение - единство, выращенное в конце своего членя." # AI Tags
+ bno_great_replacement.requirement: "Используется только в том случае, если вы [BBC|E], а [Snowbunny|E], или [Cuck|E]" # AI Tags

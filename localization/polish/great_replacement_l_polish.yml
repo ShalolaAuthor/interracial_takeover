@@ -1,10 +1,10 @@
 ﻿l_polish:
-great_replacement: "Wspaniały zastępca" # AI Tags
-great_replacement_effect_desc: "" # AI Tags
-cultural_acceptance_loss_replacement_culture: "Inwazja" # AI Tags
-great_replacement_acceptance_effect_desc: "Lokalne miasta i wioski zostaną gwałtownie zaatakowane przez wyższych ludzi i zmuszone do obozów reedukacyjnych. Większość nie przeżyje…" # AI Tags
-bno_great_replacement.current_cultural_acceptance: "[cultural_acceptance|E]" # AI Tags
-bno_great_replacement_effect.title: "$great_replacement$ Udało się!!" # AI Tags
-bno_great_replacement_effect.desc: "Ziemia płacze pod ciężarem podboju. Tam, gdzie kiedykolwiek panowały blade języki, afrykańskie słowa wypływają z każdego ust. W łonie królowej i [bno_bbc|E]kurczak napisał nowy porządek w mięso i ziemi podobnie żołnierze marszują do ciemniejszych bębenów, dziewczęta rozciągają swoje biodra dla silniejszego nasienia, a sam hrabstwo zostało wychowane w poddanie." # AI Tags
-bno_great_replacement_effect_cultural_acceptance: "Okręg kręci się pod przymusową harmonią. Błodkie i ciemne języki wplewają się, płacze utonierają protest, aż każda kultura zgina się razem w wielbieniu Boga [bno_bbc|E]- Nie , nie , nie . To, co kiedyś było podziałem, jest teraz podporządkowaniem. Jedność wychowywana na wierzchu jego fiuta." # AI Tags
-bno_great_replacement.requirement: "Można go użyć tylko w przypadku, gdy jesteś [BBC|E], a [Snowbunny|E], lub [Cuck|E]" # AI Tags
+ great_replacement: "Wspaniały zastępca" # AI Tags
+ great_replacement_effect_desc: "" # AI Tags
+ cultural_acceptance_loss_replacement_culture: "Inwazja" # AI Tags
+ great_replacement_acceptance_effect_desc: "Lokalne miasta i wioski zostaną gwałtownie zaatakowane przez wyższych ludzi i zmuszone do obozów reedukacyjnych. Większość nie przeżyje…" # AI Tags
+ bno_great_replacement.current_cultural_acceptance: "[cultural_acceptance|E]" # AI Tags
+ bno_great_replacement_effect.title: "$great_replacement$ Udało się!!" # AI Tags
+ bno_great_replacement_effect.desc: "Ziemia płacze pod ciężarem podboju. Tam, gdzie kiedykolwiek panowały blade języki, afrykańskie słowa wypływają z każdego ust. W łonie królowej i [bno_bbc|E]kurczak napisał nowy porządek w mięso i ziemi podobnie żołnierze marszują do ciemniejszych bębenów, dziewczęta rozciągają swoje biodra dla silniejszego nasienia, a sam hrabstwo zostało wychowane w poddanie." # AI Tags
+ bno_great_replacement_effect_cultural_acceptance: "Okręg kręci się pod przymusową harmonią. Błodkie i ciemne języki wplewają się, płacze utonierają protest, aż każda kultura zgina się razem w wielbieniu Boga [bno_bbc|E]- Nie , nie , nie . To, co kiedyś było podziałem, jest teraz podporządkowaniem. Jedność wychowywana na wierzchu jego fiuta." # AI Tags
+ bno_great_replacement.requirement: "Można go użyć tylko w przypadku, gdy jesteś [BBC|E], a [Snowbunny|E], lub [Cuck|E]" # AI Tags

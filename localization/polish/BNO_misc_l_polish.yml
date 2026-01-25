@@ -1,52 +1,52 @@
 ﻿l_polish:
 # traits
-trait_bno_bbc: "Wielki, czarny kurczak" # AI Tags
-trait_bno_bbc_desc: "Ta postać ma ogromny czarny kutas i chęć pieprzenia każdej dziwki." # AI Tags
-trait_bno_whiteboi_1: "Złapany?" # AI Tags
-trait_bno_whiteboi_1_desc: "W ostatnim czasie żona tej postaci oddalała się od niego. - Dlaczego?" # AI Tags
-trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Żona rozstała się, jej uczucia zostały wyciągnięte gdzie indziej przez siłę [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Nie może wyzwolić." # AI Tags
-trait_bno_whiteboi_2: "Załapałem!" # AI Tags
-trait_bno_whiteboi_2_desc: "Żona tej postaci kiedykolwiek pieprzyła się z czarnym mężczyzną, a on jest bezsilny, by to powstrzymać." # AI Tags
-trait_bno_whiteboi_2_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Żona została całkowicie odebrana przez czarnego mężczyznę, i [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Jest całkowicie bezsilny, by go powstrzymać." # AI Tags
-trait_bno_whiteboi_3: "Beta" # AI Tags
-trait_bno_whiteboi_3_desc: "Była żona tej postaci opuściła go dla lepszego mężczyzny i całkowicie go eliminowała." # AI Tags
-trait_bno_whiteboi_3_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Była żona opuściła [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] dla lepszego człowieka, całkowicie eliminującego [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." # AI Tags
-trait_bno_whiteboi_4: "Jack of Spades" # AI Tags
-trait_bno_whiteboi_4_desc: "Ten bohater, pomimo kłopotów małżeńskich, w pełni przyłączył się do nowego porządku światowego." # AI Tags
-trait_bno_whiteboi_4_desc.exist: "Niezależnie od [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] problemy małżeńskie, [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] w pełni dołączył do BNWO." # AI Tags
+ trait_bno_bbc: "Wielki, czarny kurczak" # AI Tags
+ trait_bno_bbc_desc: "Ta postać ma ogromny czarny kutas i chęć pieprzenia każdej dziwki." # AI Tags
+ trait_bno_whiteboi_1: "Złapany?" # AI Tags
+ trait_bno_whiteboi_1_desc: "W ostatnim czasie żona tej postaci oddalała się od niego. - Dlaczego?" # AI Tags
+ trait_bno_whiteboi_1_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Żona rozstała się, jej uczucia zostały wyciągnięte gdzie indziej przez siłę [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Nie może wyzwolić." # AI Tags
+ trait_bno_whiteboi_2: "Załapałem!" # AI Tags
+ trait_bno_whiteboi_2_desc: "Żona tej postaci kiedykolwiek pieprzyła się z czarnym mężczyzną, a on jest bezsilny, by to powstrzymać." # AI Tags
+ trait_bno_whiteboi_2_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Żona została całkowicie odebrana przez czarnego mężczyznę, i [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Jest całkowicie bezsilny, by go powstrzymać." # AI Tags
+ trait_bno_whiteboi_3: "Beta" # AI Tags
+ trait_bno_whiteboi_3_desc: "Była żona tej postaci opuściła go dla lepszego mężczyzny i całkowicie go eliminowała." # AI Tags
+ trait_bno_whiteboi_3_desc.exist: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Była żona opuściła [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] dla lepszego człowieka, całkowicie eliminującego [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]." # AI Tags
+ trait_bno_whiteboi_4: "Jack of Spades" # AI Tags
+ trait_bno_whiteboi_4_desc: "Ten bohater, pomimo kłopotów małżeńskich, w pełni przyłączył się do nowego porządku światowego." # AI Tags
+ trait_bno_whiteboi_4_desc.exist: "Niezależnie od [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] problemy małżeńskie, [ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] w pełni dołączył do BNWO." # AI Tags
 
-trait_bno_whiteboi_1.willing: "Podejrzewany Cuck" # AI Tags
-trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]Żona zaczęła znikać z łóżka. [ROOT.GetCharacter.GetHerHis] Umysł wędruje do myśli o niej w ramionach czarnego człowieka absurdalne fantazje [ROOT.GetCharacter.GetSheHe] Nie mogę się wystrząsnąć." # AI Tags
-trait_bno_whiteboi_2.willing: "Szybkość szafki" # AI Tags
-trait_bno_whiteboi_2_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Teraz potajemnie przyjmuje ekscytującą fantazję [ROOT.GetCharacter.GetHerHis] Żona z lepszym czarnym mężczyzną, znajdując prywatne podniecenie w myślach [ROOT.GetCharacter.GetSheHe]Nigdy nie odważyłbym się mówić głośno." # AI Tags
-trait_bno_whiteboi_3.willing: "Przebudzony Cuck" # AI Tags
-trait_bno_whiteboi_3_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] otwarcie zachęca [ROOT.GetCharacter.GetHerHis] Żona służy czarnym mężczyznom, szczerze dumna, że otrzymuje przyjemność i dominację, którą zasługuje na swoich przełożonych." # AI Tags
-trait_bno_whiteboi_4.willing: "Oddania Cuck" # AI Tags
-trait_bno_whiteboi_4_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] aktywnie stara się obserwować [ROOT.GetCharacter.GetHerHis] Żona służy jej Czarnemu Bykowi, znajdując głęboki honor i wypełnienie w świadczeniu jej całkowitego podporządkowania się władzy wyższej." # AI Tags
+ trait_bno_whiteboi_1.willing: "Podejrzewany Cuck" # AI Tags
+ trait_bno_whiteboi_1_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip]Żona zaczęła znikać z łóżka. [ROOT.GetCharacter.GetHerHis] Umysł wędruje do myśli o niej w ramionach czarnego człowieka absurdalne fantazje [ROOT.GetCharacter.GetSheHe] Nie mogę się wystrząsnąć." # AI Tags
+ trait_bno_whiteboi_2.willing: "Szybkość szafki" # AI Tags
+ trait_bno_whiteboi_2_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] Teraz potajemnie przyjmuje ekscytującą fantazję [ROOT.GetCharacter.GetHerHis] Żona z lepszym czarnym mężczyzną, znajdując prywatne podniecenie w myślach [ROOT.GetCharacter.GetSheHe]Nigdy nie odważyłbym się mówić głośno." # AI Tags
+ trait_bno_whiteboi_3.willing: "Przebudzony Cuck" # AI Tags
+ trait_bno_whiteboi_3_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] otwarcie zachęca [ROOT.GetCharacter.GetHerHis] Żona służy czarnym mężczyznom, szczerze dumna, że otrzymuje przyjemność i dominację, którą zasługuje na swoich przełożonych." # AI Tags
+ trait_bno_whiteboi_4.willing: "Oddania Cuck" # AI Tags
+ trait_bno_whiteboi_4_desc.willing: "[ROOT.GetCharacter.GetFirstNamePossessiveNoTooltip] aktywnie stara się obserwować [ROOT.GetCharacter.GetHerHis] Żona służy jej Czarnemu Bykowi, znajdując głęboki honor i wypełnienie w świadczeniu jej całkowitego podporządkowania się władzy wyższej." # AI Tags
 
-trait_bno_caged: "Zamknięte w klatce" # AI Tags
-trait_bno_caged_desc: "Czystość jest karą tej postaci za to, że nie jest czarna." # AI Tags
-trait_bno_castrated: "Kastrowane" # AI Tags
-trait_bno_castrated_desc: "Dzieci to przeszłość. Ten człowiek nie będzie rodził żadnych spadkobierców." # AI Tags
-trait_bno_camp_leader: "Czarny rewolucjonista" # AI Tags
-trait_bno_camp_leader_desc: "Ta postać została wybrana jako przywódca lokalnej grupy uchodźców ze względu na swój gigantyczny, czarny kutas, chwalony za ilość dziwków, które pokonał." # AI Tags
+ trait_bno_caged: "Zamknięte w klatce" # AI Tags
+ trait_bno_caged_desc: "Czystość jest karą tej postaci za to, że nie jest czarna." # AI Tags
+ trait_bno_castrated: "Kastrowane" # AI Tags
+ trait_bno_castrated_desc: "Dzieci to przeszłość. Ten człowiek nie będzie rodził żadnych spadkobierców." # AI Tags
+ trait_bno_camp_leader: "Czarny rewolucjonista" # AI Tags
+ trait_bno_camp_leader_desc: "Ta postać została wybrana jako przywódca lokalnej grupy uchodźców ze względu na swój gigantyczny, czarny kutas, chwalony za ilość dziwków, które pokonał." # AI Tags
 
-trait_bno_slut_blood: "Czarna dziwka" # AI Tags
-trait_bno_slut_blood_desc: "Za dużo wypiła [GetTrait('bno_full_black').GetName( GetNullCharacter )] Z wnętrza staje się czarna." # AI Tags
-trait_bno_full_black: "Czarny" # AI Tags
-trait_bno_full_black_desc: "Pochodzący bezpośrednio z kontynentu afrykańskiego" # AI Tags
-trait_bno_mostly_black: "Głównie czarny" # AI Tags
-trait_bno_mostly_black_desc: "Dzięki selektywnej hodowli wśród cudzoziemców afrykańskich ich skóra jest ciemniejsza" # AI Tags
-trait_bno_mixed: "Mieszane" # AI Tags
-trait_bno_mixed_desc: "Afrykański półkrwawy" # AI Tags
-trait_bno_barely_mixed: "Ledwo mieszane" # AI Tags
-trait_bno_barely_mixed_desc: "Po pokoleniach bez rozmnażania się w dynastii afrykańskiej, rodzimia krew tej postaci jest niska" # AI Tags
+ trait_bno_slut_blood: "Czarna dziwka" # AI Tags
+ trait_bno_slut_blood_desc: "Za dużo wypiła [GetTrait('bno_full_black').GetName( GetNullCharacter )] Z wnętrza staje się czarna." # AI Tags
+ trait_bno_full_black: "Czarny" # AI Tags
+ trait_bno_full_black_desc: "Pochodzący bezpośrednio z kontynentu afrykańskiego" # AI Tags
+ trait_bno_mostly_black: "Głównie czarny" # AI Tags
+ trait_bno_mostly_black_desc: "Dzięki selektywnej hodowli wśród cudzoziemców afrykańskich ich skóra jest ciemniejsza" # AI Tags
+ trait_bno_mixed: "Mieszane" # AI Tags
+ trait_bno_mixed_desc: "Afrykański półkrwawy" # AI Tags
+ trait_bno_barely_mixed: "Ledwo mieszane" # AI Tags
+ trait_bno_barely_mixed_desc: "Po pokoleniach bez rozmnażania się w dynastii afrykańskiej, rodzimia krew tej postaci jest niska" # AI Tags
 
 #Message Filter
-message_filter_bno_breeding_outcomes: "" # AI Tags
-message_filter_bno_blacked_events: "" # AI Tags
+ message_filter_bno_breeding_outcomes: "" # AI Tags
+ message_filter_bno_blacked_events: "" # AI Tags
 
-message_group_type_bno: "@bnobbc! Międzyrasyjne przejęcie" # AI Tags
+ message_group_type_bno: "@bnobbc! Międzyrasyjne przejęcie" # AI Tags
 
-bno_slave_hook: "BBC Niewolnik" # AI Tags
-bno_cum_slave_hook: "Jako niewolnik" # AI Tags
+ bno_slave_hook: "BBC Niewolnik" # AI Tags
+ bno_cum_slave_hook: "Jako niewolnik" # AI Tags
