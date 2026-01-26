@@ -25,3 +25,20 @@
  tenet_bno_syncretism_name: "黑鸡的优先性" # AI Tags
  tenet_bno_syncretism_desc: "黑鸡的力量是不可否认的 真实的真理. 不论我们能否接受其他哲学,所有人都必须最终下跪并接受其最高权威,将神圣的本质带入其身体和灵魂。." # AI Tags
  doctrine_parameter_hostility_override_tenet_bno_syncretism: "非非非非非非非非非非非非非非 [faiths|E] 和和 $tenet_bno_syncretism_name$ 基本原则被考虑 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 代替 $hostility_evil_tooltippable$" # AI Tags
+
+ doctrine_bno_syncretism_tenet_name: "[bno_bnwo|E] 弹纹" # AI Tags
+
+ tenet_bno_hostility_name: "肮脏种子的可怕" # AI Tags
+ tenet_bno_hostility_desc: "黑鸡的存在及其理论本身就是一种亵渎宗教的腐败。. 它的“最高性”是虚弱的谎言, 它的本质是污辱神圣血脉的污染物。. 这种信仰与好战的反对派站在一起,寻求的不是共存,而是消灭这种侵入性信仰,消除其影响。." # AI Tags
+
+ doctrine_parameter_bno_hostility_actor_opinion_active: "相互之间 #N -30#! [opinion|E] 具有 [GetReligionFamily('rf_bbcs').GetReligions] [faiths|E]" # AI Tags
+
+ doctrine_parameter_hostility_override_tenet_bno_hostility: "非非非非非非非非非非非非非非 [faiths|E] 和和 $tenet_bno_hostility_name$ 基本原则被考虑 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" # AI Tags
+
+ doctrine_parameter_bno_hostility_recipient_opinion_active: "相互之间 #N -30#! [opinion|E] 具有 [faiths|E] 拥有 $tenet_bno_hostility_name$ [core_tenet|E]" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_syncretic_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_recipient_opinion_active: "" # AI Tags

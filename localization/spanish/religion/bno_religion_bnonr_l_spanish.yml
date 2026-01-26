@@ -95,7 +95,11 @@
 
  bnonr_religion_opinion: "$bnonr_religion_adherent$ Opinión" # AI Tags
 
- doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "Considera que BNWO está alineado [faiths|E], y es considerado por BNWO-aligned $game_concept_faiths$, ser [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" # AI Tags
+ doctrine_parameter_is_bno_faith_bilateral_loc_override: "Considera que BNWO está alineado [faiths|E], y es considerado por BNWO-aligned $game_concept_faiths$, ser [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" # AI Tags
+ doctrine_parameter_is_bno_faith_bilateral_loc_override_hostile: "Considera que BNWO está alineado [faiths|E], y es considerado por BNWO-aligned $game_concept_faiths$, ser [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" # AI Tags
+ doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "" # AI Tags
  doctrine_parameter_can_use_bno_artefacts: "Puede utilizar BNWO [artifacts|E] a la prestación completa" # AI Tags
  doctrine_parameter_bno_syncretic_actor_opinion_active: "Reciprocidad [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bono con alineado con BNWO [faiths|E]" # AI Tags
  doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: "" # AI Tags
+
+ doctrine_parameter_bno_syncretic_recipient_opinion_active: "Reciprocidad [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bono con [faiths|E] que tienen el $tenet_bno_syncretism_name$ [core_tenet|E]" # AI Tags

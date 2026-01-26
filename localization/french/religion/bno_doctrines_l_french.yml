@@ -25,3 +25,20 @@
  tenet_bno_syncretism_name: "Suprématie de la bite noire" # AI Tags
  tenet_bno_syncretism_desc: "Le pouvoir du Black Cock est une vérité indéniable et physique. Quelles que soient les autres philosophies que nous pouvons amuser, tous doivent finalement s'agenouiller et accepter son autorité suprême, en prenant son essence sacrée dans leur corps et leur âme." # AI Tags
  doctrine_parameter_hostility_override_tenet_bno_syncretism: "Non-BNWO [faiths|E] avec $tenet_bno_syncretism_name$ les principes sont pris en considération [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] au lieu de $hostility_evil_tooltippable$" # AI Tags
+
+ doctrine_bno_syncretism_tenet_name: "[bno_bnwo|E] Résumé de l'article" # AI Tags
+
+ tenet_bno_hostility_name: "L'hérésie de la graine impure" # AI Tags
+ tenet_bno_hostility_desc: "L'existence même du Black Cock et de sa doctrine est une corruption blasphématoire. Sa « suprématie » est un mensonge tiré de la faiblesse, son essence un polluant qui souille les lignées de sang sacrées. Cette foi est dans l'opposition militante, cherchant non pas la coexistence, mais la purification de ce credo envahissant et la stérilisation de son influence." # AI Tags
+
+ doctrine_parameter_bno_hostility_actor_opinion_active: "Mutuelle #N -30#! [opinion|E] pénalité avec [GetReligionFamily('rf_bbcs').GetReligions] [faiths|E]" # AI Tags
+
+ doctrine_parameter_hostility_override_tenet_bno_hostility: "Non-BNWO [faiths|E] avec $tenet_bno_hostility_name$ les principes sont pris en considération [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" # AI Tags
+
+ doctrine_parameter_bno_hostility_recipient_opinion_active: "Mutuelle #N -30#! [opinion|E] pénalité avec [faiths|E] qui ont le $tenet_bno_hostility_name$ [core_tenet|E]" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_syncretic_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_recipient_opinion_active: "" # AI Tags

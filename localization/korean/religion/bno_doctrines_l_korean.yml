@@ -25,3 +25,20 @@
  tenet_bno_syncretism_name: "블랙 콕 의 우월성" # AI Tags
  tenet_bno_syncretism_desc: "블랙콕의 힘은 부정할 수 없는 물리적인 진실입니다. 어떤 다른 철학도 우리가 즐겁게 할 수 있더라도, 모든 사람들은 궁극적으로 무릎을 꿇고 그 최고 권위를 받아들여야 하며, 그 신성한 본질을 자신의 몸과 영혼으로 가져야 합니다." # AI Tags
  doctrine_parameter_hostility_override_tenet_bno_syncretism: "비BNWO [faiths|E] 그리고 $tenet_bno_syncretism_name$ 텐트는 고려됩니다 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 대신 $hostility_evil_tooltippable$" # AI Tags
+
+ doctrine_bno_syncretism_tenet_name: "[bno_bnwo|E] 글씨" # AI Tags
+
+ tenet_bno_hostility_name: "더러운 씨 의 여단" # AI Tags
+ tenet_bno_hostility_desc: "블랙콕과 그 교리의 존재 자체가 모욕적인 부패입니다. 그 '우월'은 약점 으로 부터 어진 거짓말 이다. 그 본질 은 거룩 한 혈통 을 더럽히는 오염물질 이다. 이 신앙은 이 침략적 신앙의 정화와 그 영향력의 퇴출을 추구하며, 동존을 추구하는 것이 아니라, 전투적인 반발에 서 있습니다." # AI Tags
+
+ doctrine_parameter_bno_hostility_actor_opinion_active: "상호 #N -30#! [opinion|E] 벌금 [GetReligionFamily('rf_bbcs').GetReligions] [faiths|E]" # AI Tags
+
+ doctrine_parameter_hostility_override_tenet_bno_hostility: "비BNWO [faiths|E] 그리고 $tenet_bno_hostility_name$ 텐트는 고려됩니다 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" # AI Tags
+
+ doctrine_parameter_bno_hostility_recipient_opinion_active: "상호 #N -30#! [opinion|E] 벌금 [faiths|E] 즉, $tenet_bno_hostility_name$ [core_tenet|E]" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_syncretic_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_recipient_opinion_active: "" # AI Tags

@@ -25,3 +25,20 @@
  tenet_bno_syncretism_name: "Wzmocnienie czarnego kurca" # AI Tags
  tenet_bno_syncretism_desc: "Moc Black Cocka jest niezaprzeczalną, fizyczną prawdą. Niezależnie od innych filozofii, które przyjmujemy, wszyscy muszą w końcu klękać i zaakceptować jej najwyższą władzę, wprowadzając jej świętą esencję w swoje ciała i dusze." # AI Tags
  doctrine_parameter_hostility_override_tenet_bno_syncretism: "Nie-BNWO [faiths|E] wraz z $tenet_bno_syncretism_name$ tenety są rozważane [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] zamiast $hostility_evil_tooltippable$" # AI Tags
+
+ doctrine_bno_syncretism_tenet_name: "[bno_bnwo|E] Głosówki" # AI Tags
+
+ tenet_bno_hostility_name: "Herezja o nieczystym nasieniu" # AI Tags
+ tenet_bno_hostility_desc: "Sama egzystencja Black Cocka i jego doktryna to bluźniercza korupcja. Jego 'wzrost' jest kłamstwem wywołanym z słabości, jego istotą jest zanieczyszczenie, które zanieczyszcza święte linie krwi. Wiara ta stoi w walczącej opozycji, nie dążąc do współistnienia, ale do wyczyszczenia tego inwazyjnego credo i sterylizacji jego wpływu." # AI Tags
+
+ doctrine_parameter_bno_hostility_actor_opinion_active: "Wzajemne #N -30#! [opinion|E] kary z [GetReligionFamily('rf_bbcs').GetReligions] [faiths|E]" # AI Tags
+
+ doctrine_parameter_hostility_override_tenet_bno_hostility: "Nie-BNWO [faiths|E] wraz z $tenet_bno_hostility_name$ tenety są rozważane [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" # AI Tags
+
+ doctrine_parameter_bno_hostility_recipient_opinion_active: "Wzajemne #N -30#! [opinion|E] kary z [faiths|E] które mają $tenet_bno_hostility_name$ [core_tenet|E]" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_syncretic_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_recipient_opinion_active: "" # AI Tags

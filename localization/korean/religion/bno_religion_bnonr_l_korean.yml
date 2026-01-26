@@ -95,7 +95,11 @@
 
  bnonr_religion_opinion: "$bnonr_religion_adherent$ 의견" # AI Tags
 
- doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "BNWO와 연계된다고 본다 [faiths|E], 그리고 BNWO와 일치하는 것으로 간주됩니다 $game_concept_faiths$, 될 것 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 대신 $hostility_evil_tooltippable$" # AI Tags
+ doctrine_parameter_is_bno_faith_bilateral_loc_override: "BNWO와 연계된다고 본다 [faiths|E], 그리고 BNWO와 일치하는 것으로 간주됩니다 $game_concept_faiths$, 될 것 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 대신 $hostility_evil_tooltippable$" # AI Tags
+ doctrine_parameter_is_bno_faith_bilateral_loc_override_hostile: "BNWO와 연계된다고 본다 [faiths|E], 그리고 BNWO와 일치하는 것으로 간주됩니다 $game_concept_faiths$, 될 것 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" # AI Tags
+ doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "" # AI Tags
  doctrine_parameter_can_use_bno_artefacts: "BNWO를 사용할 수 있습니다 [artifacts|E] 완전한 혜택을 누릴 수 있도록" # AI Tags
  doctrine_parameter_bno_syncretic_actor_opinion_active: "상호 [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] BNWO와 연계된 보너스 [faiths|E]" # AI Tags
  doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: "" # AI Tags
+
+ doctrine_parameter_bno_syncretic_recipient_opinion_active: "상호 [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] 보너스 [faiths|E] 즉, $tenet_bno_syncretism_name$ [core_tenet|E]" # AI Tags

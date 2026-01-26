@@ -25,3 +25,20 @@
  tenet_bno_syncretism_name: "Supremacy der schwarz schwanz" # AI Tags
  tenet_bno_syncretism_desc: "Die Macht des Schwarzen Schwanzes ist eine unbestreitbare, physische Wahrheit. Was auch immer andere Philosophien wir unterhalten können, alle müssen schließlich knien und akzeptieren ihre höchste Autorität, nehmen ihre heilige Essenz in ihren Körper und Seelen." # AI Tags
  doctrine_parameter_hostility_override_tenet_bno_syncretism: "Nicht-BNWO [faiths|E] mit der $tenet_bno_syncretism_name$ tenet werden in Betracht gezogen [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] statt $hostility_evil_tooltippable$" # AI Tags
+
+ doctrine_bno_syncretism_tenet_name: "[bno_bnwo|E] Stancen" # AI Tags
+
+ tenet_bno_hostility_name: "Ketzerei des unreinen Samens" # AI Tags
+ tenet_bno_hostility_desc: "Die Existenz des schwarzen Schwanzes und seiner Lehre ist eine blasphemische Korruption. Seine "Supremacy" ist eine Lüge aus Schwäche gesponnen, seine Essenz ein Schadstoff, der heilige Blutlinien verunreinigt. Dieser Glaube steht in militanter Opposition und sucht nicht Koexistenz, sondern die Säuberung dieses invasiven Glaubensbekenntnisses und die Sterilisierung seines Einflusses." # AI Tags
+
+ doctrine_parameter_bno_hostility_actor_opinion_active: "Gegenseitig #N -30#! [opinion|E] Strafen mit [GetReligionFamily('rf_bbcs').GetReligions] [faiths|E]" # AI Tags
+
+ doctrine_parameter_hostility_override_tenet_bno_hostility: "Nicht-BNWO [faiths|E] mit der $tenet_bno_hostility_name$ tenet werden in Betracht gezogen [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" # AI Tags
+
+ doctrine_parameter_bno_hostility_recipient_opinion_active: "Gegenseitig #N -30#! [opinion|E] Strafen mit [faiths|E] die die $tenet_bno_hostility_name$ [core_tenet|E]" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_syncretic_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_recipient_opinion_active: "" # AI Tags

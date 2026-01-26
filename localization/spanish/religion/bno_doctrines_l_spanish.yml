@@ -25,3 +25,20 @@
  tenet_bno_syncretism_name: "Supremacía del Pollo Negro" # AI Tags
  tenet_bno_syncretism_desc: "El poder del Black Cock es una verdad física innegable. Cualesquiera que sean otras filosofías que podamos entretener, en última instancia todos deben arrodillarse y aceptar su autoridad suprema, llevando su esencia sagrada a sus cuerpos y almas." # AI Tags
  doctrine_parameter_hostility_override_tenet_bno_syncretism: "No BNWO [faiths|E] con la $tenet_bno_syncretism_name$ tenet se consideran [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] en lugar de $hostility_evil_tooltippable$" # AI Tags
+
+ doctrine_bno_syncretism_tenet_name: "[bno_bnwo|E] Estimulaciones" # AI Tags
+
+ tenet_bno_hostility_name: "Herejía de la semilla impura" # AI Tags
+ tenet_bno_hostility_desc: "La existencia misma del Black Cock y su doctrina es una corrupción blasfema. Su 'supremacía' es una mentira hilada de la debilidad, su esencia un contaminante que contamina los linajes sagrados. Esta fe se encuentra en oposición militante, buscando no la coexistencia sino la purificación de este credo invasivo y la esterilización de su influencia." # AI Tags
+
+ doctrine_parameter_bno_hostility_actor_opinion_active: "Reciprocidad #N -30#! [opinion|E] con pena de muerte [GetReligionFamily('rf_bbcs').GetReligions] [faiths|E]" # AI Tags
+
+ doctrine_parameter_hostility_override_tenet_bno_hostility: "No BNWO [faiths|E] con la $tenet_bno_hostility_name$ tenet se consideran [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" # AI Tags
+
+ doctrine_parameter_bno_hostility_recipient_opinion_active: "Reciprocidad #N -30#! [opinion|E] con pena de muerte [faiths|E] que tienen el $tenet_bno_hostility_name$ [core_tenet|E]" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_syncretic_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_recipient_opinion_active: "" # AI Tags

@@ -25,3 +25,20 @@
  tenet_bno_syncretism_name: "Преобладание черного кука" # AI Tags
  tenet_bno_syncretism_desc: "Сила Черного Кока - это неоспоримая физическая истина. Какими бы другими философиями мы ни занимались, все должны в конечном итоге встать на колени и принять его высшее власть, приняв его священную сущность в своих телах и душах." # AI Tags
  doctrine_parameter_hostility_override_tenet_bno_syncretism: "Не-БНВО [faiths|E] с $tenet_bno_syncretism_name$ Тентеты рассматриваются [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] вместо $hostility_evil_tooltippable$" # AI Tags
+
+ doctrine_bno_syncretism_tenet_name: "[bno_bnwo|E] Станции" # AI Tags
+
+ tenet_bno_hostility_name: "Вера нечистого семени" # AI Tags
+ tenet_bno_hostility_desc: "Само существование Черного Кока и его доктрины является богохульственной коррупцией. Ее "преобладание" - это ложь, выделенная из слабости, ее сущность - загрязнитель, оскверняющий священные роды. Эта вера выступает в боевой оппозиции, стремясь не к сосуществованию, а к очищению этого инвазивного вероисповедания и стерилизации его влияния." # AI Tags
+
+ doctrine_parameter_bno_hostility_actor_opinion_active: "Взаимная #N -30#! [opinion|E] штраф с [GetReligionFamily('rf_bbcs').GetReligions] [faiths|E]" # AI Tags
+
+ doctrine_parameter_hostility_override_tenet_bno_hostility: "Не-БНВО [faiths|E] с $tenet_bno_hostility_name$ Тентеты рассматриваются [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" # AI Tags
+
+ doctrine_parameter_bno_hostility_recipient_opinion_active: "Взаимная #N -30#! [opinion|E] штраф с [faiths|E] которые имеют $tenet_bno_hostility_name$ [core_tenet|E]" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_syncretic_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_recipient_opinion_active: "" # AI Tags

@@ -25,3 +25,20 @@
  tenet_bno_syncretism_name: "ブラックカック の 優位性" # AI Tags
  tenet_bno_syncretism_desc: "ブラックカックの力は 否定できない 物理的な真実です. 他の哲学がどんなものでも 最終的には 膝をひざまずいて その最高権威を受け入れ その神聖な本質を 自分の体と魂に 取り入れなければなりません." # AI Tags
  doctrine_parameter_hostility_override_tenet_bno_syncretism: "BNWOでない [faiths|E] と $tenet_bno_syncretism_name$ 原則は考慮される [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 代わりに $hostility_evil_tooltippable$" # AI Tags
+
+ doctrine_bno_syncretism_tenet_name: "[bno_bnwo|E] ストーンズ" # AI Tags
+
+ tenet_bno_hostility_name: "汚れ た 種 の 異端" # AI Tags
+ tenet_bno_hostility_desc: "ブラックカックの存在とその教義は 汚職です. その"優位性" は 弱さ から 引き出さ れ た 嘘 です.その 本質 は 神聖 な 血統 を 汚す 汚染物質 です. この信仰は,共存ではなく,この侵略的な信条を清掃し,その影響力を消すため,激進的な反対に立っています." # AI Tags
+
+ doctrine_parameter_bno_hostility_actor_opinion_active: "相互 #N -30#! [opinion|E] 罰金 [GetReligionFamily('rf_bbcs').GetReligions] [faiths|E]" # AI Tags
+
+ doctrine_parameter_hostility_override_tenet_bno_hostility: "BNWOでない [faiths|E] と $tenet_bno_hostility_name$ 原則は考慮される [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" # AI Tags
+
+ doctrine_parameter_bno_hostility_recipient_opinion_active: "相互 #N -30#! [opinion|E] 罰金 [faiths|E] それは, $tenet_bno_hostility_name$ [core_tenet|E]" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_syncretic_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_actor_opinion_active: "" # AI Tags
+
+ doctrine_parameter_opinion_of_bno_hostility_recipient_opinion_active: "" # AI Tags

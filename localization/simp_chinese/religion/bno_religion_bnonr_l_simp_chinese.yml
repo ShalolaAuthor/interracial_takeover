@@ -95,7 +95,11 @@
 
  bnonr_religion_opinion: "$bnonr_religion_adherent$ 意见意见意见意见意见意见意见" # AI Tags
 
- doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "考虑与BNWO的对比 [faiths|E],并被BNWO所修改的 $game_concept_faiths$, , 将 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 代替 $hostility_evil_tooltippable$" # AI Tags
+ doctrine_parameter_is_bno_faith_bilateral_loc_override: "考虑与BNWO的对比 [faiths|E],并被BNWO所修改的 $game_concept_faiths$, , 将 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] 代替 $hostility_evil_tooltippable$" # AI Tags
+ doctrine_parameter_is_bno_faith_bilateral_loc_override_hostile: "考虑与BNWO的对比 [faiths|E],并被BNWO所修改的 $game_concept_faiths$, , 将 [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]" # AI Tags
+ doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "" # AI Tags
  doctrine_parameter_can_use_bno_artefacts: "可使用BNWO [artifacts|E] 全额养恤金" # AI Tags
  doctrine_parameter_bno_syncretic_actor_opinion_active: "相互之间 [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] 与 BNWO 调整的 BNWO 奖金 [faiths|E]" # AI Tags
  doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: "" # AI Tags
+
+ doctrine_parameter_bno_syncretic_recipient_opinion_active: "相互之间 [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] 奖金和奖金 [faiths|E] 拥有 $tenet_bno_syncretism_name$ [core_tenet|E]" # AI Tags
