@@ -1,0 +1,57 @@
+﻿doctrine_bno_syncretism_tenet = {
+	group = "core_tenets"
+    number_of_picks = 1
+
+	tenet_bno_hostility = {
+		icon = tenet_bno_hostility
+
+		piety_cost = 0
+
+		is_shown = {
+			NOT = { religion_tag = bnonr_religion }
+		}
+
+		parameters = {
+			hostility_override_special_doctrine_is_bno_faith = 3
+			is_bno_faith_bilateral_loc_override = 3
+			bno_hostility_actor_opinion_active = yes
+			opinion_of_bno_hostility_recipient_opinion_active = -30
+		}
+
+		traits = {
+			virtues = { dick_small_bad_1 dick_small_bad_2 dick_small_bad_3 }
+			sins = { bno_bbc }
+		}
+	}
+
+	tenet_bno_syncretism = {
+		icon = tenet_bno_syncretism
+
+		piety_cost = {
+			value = faith_tenet_cost_mid
+
+			# Multiplier for keeping same tenet
+			if = {
+				limit = { has_doctrine = tenet_bno_syncretism }
+				multiply = faith_unchanged_doctrine_cost_mult
+			}
+		}
+
+		is_shown = {
+			NOT = { religion_tag = bnonr_religion }
+		}
+
+		parameters = {
+			hostility_override_special_doctrine_is_bno_faith = 2
+			is_bno_faith_bilateral_loc_override = 2
+			can_use_bno_artefacts = yes
+			bno_syncretic_actor_opinion_active = yes
+			opinion_of_bno_syncretic_recipient_opinion_active = 30 #Sync this to syncretic_mutual_opinion_bonus_value
+		}
+
+		traits = {
+			virtues = { bno_bbc }
+			sins = { dick_small_bad_1 dick_small_bad_2 dick_small_bad_3 }
+		}
+	}
+}

@@ -3,6 +3,7 @@
 		bno_character_initialization.0001
 	}
 	on_actions = {
+		bno_add_hostility_doctrine
 		bno_inversed_gender_equality
 		delay = { days = 1 }
 		bno_after_game_start
