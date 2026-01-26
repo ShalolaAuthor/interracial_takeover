@@ -25,3 +25,8 @@
  tenet_bno_syncretism_name: "Supremacy of the Black Cock"
  tenet_bno_syncretism_desc: "The Black Cock's power is an undeniable, physical truth. Whatever other philosophies we may entertain, all must ultimately kneel and accept its supreme authority, taking its sacred essence into their bodies and souls."
  doctrine_parameter_hostility_override_tenet_bno_syncretism: "Non-BNWO [faiths|E] with the $tenet_bno_syncretism_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+
+doctrine_bno_syncretism_tenet_name: "[bno_bnwo|E] Stances"
+
+tenet_bno_hostility_name: "Heresy of the Impure Seed"
+tenet_bno_hostility_desc: "The very existence of the Black Cock and its doctrine is a blasphemous corruption. Its 'supremacy' is a lie spun from weakness, its essence a pollutant that defiles sacred bloodlines. This faith stands in militant opposition, seeking not coexistence but the purging of this invasive creed and the sterilization of its influence."

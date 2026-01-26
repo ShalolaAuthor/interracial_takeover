@@ -1,0 +1,18 @@
+﻿on_faith_created = {
+    on_actions = {
+        bno_on_faith_created
+    }
+}
+
+bno_on_faith_created = {
+    trigger = {
+        faith = {
+            is_considered_bno_faith = no
+        }
+    }
+    effect = {
+        faith = {
+            add_doctrine = tenet_bno_hostility
+        }
+    }
+}

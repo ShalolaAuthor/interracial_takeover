@@ -7,9 +7,15 @@
 
     special_doctrine_is_bno_faith = {
         parameters = {
+            #syncretic tenet
             hostility_override_tenet_bno_syncretism = 2
             bno_syncretic_recipient_opinion_active = yes
             opinion_of_bno_syncretic_actor_opinion_active = 30
+
+            #hostility tenet
+            hostility_override_tenet_bno_hostility = 3
+            bno_hostility_recipient_opinion_active = yes
+            opinion_of_bno_hostility_actor_opinion_active = -30
         }
     }
 }

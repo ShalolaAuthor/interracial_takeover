@@ -4,6 +4,19 @@
 	}
 	on_actions = {
 		bno_inversed_gender_equality
+		delay = { days = 1 }
+		bno_after_game_start
+	}
+}
+
+bno_add_hostility_doctrine = {
+	effect = {
+		every_religion_global = {
+			every_faith = {
+				limit = { is_considered_bno_faith = no }
+				add_doctrine = tenet_bno_hostility
+			}
+		}
 	}
 }
 
