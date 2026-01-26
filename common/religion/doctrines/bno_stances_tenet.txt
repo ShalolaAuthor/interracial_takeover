@@ -13,7 +13,7 @@
 
 		parameters = {
 			hostility_override_special_doctrine_is_bno_faith = 3
-			is_bno_faith_bilateral_loc_override = 3
+			is_bno_faith_bilateral_loc_override_hostile = 3
 			bno_hostility_actor_opinion_active = yes
 			opinion_of_bno_hostility_recipient_opinion_active = -30
 		}

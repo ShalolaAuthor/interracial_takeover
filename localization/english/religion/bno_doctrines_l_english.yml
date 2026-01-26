@@ -26,7 +26,19 @@
  tenet_bno_syncretism_desc: "The Black Cock's power is an undeniable, physical truth. Whatever other philosophies we may entertain, all must ultimately kneel and accept its supreme authority, taking its sacred essence into their bodies and souls."
  doctrine_parameter_hostility_override_tenet_bno_syncretism: "Non-BNWO [faiths|E] with the $tenet_bno_syncretism_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
 
-doctrine_bno_syncretism_tenet_name: "[bno_bnwo|E] Stances"
+ doctrine_bno_syncretism_tenet_name: "[bno_bnwo|E] Stances"
 
-tenet_bno_hostility_name: "Heresy of the Impure Seed"
-tenet_bno_hostility_desc: "The very existence of the Black Cock and its doctrine is a blasphemous corruption. Its 'supremacy' is a lie spun from weakness, its essence a pollutant that defiles sacred bloodlines. This faith stands in militant opposition, seeking not coexistence but the purging of this invasive creed and the sterilization of its influence."
+ tenet_bno_hostility_name: "Heresy of the Impure Seed"
+ tenet_bno_hostility_desc: "The very existence of the Black Cock and its doctrine is a blasphemous corruption. Its 'supremacy' is a lie spun from weakness, its essence a pollutant that defiles sacred bloodlines. This faith stands in militant opposition, seeking not coexistence but the purging of this invasive creed and the sterilization of its influence."
+
+ doctrine_parameter_bno_hostility_actor_opinion_active: "Mutual #N -30#! [opinion|E] penalty with [GetReligionFamily('rf_bbcs').GetReligions] [faiths|E]"
+
+ doctrine_parameter_hostility_override_tenet_bno_hostility: "Non-BNWO [faiths|E] with the $tenet_bno_hostility_name$ tenet are considered [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+
+ doctrine_parameter_bno_hostility_recipient_opinion_active: "Mutual #N -30#! [opinion|E] penalty with [faiths|E] that have the $tenet_bno_hostility_name$ [core_tenet|E]"
+
+ doctrine_parameter_opinion_of_bno_syncretic_actor_opinion_active: ""
+
+ doctrine_parameter_opinion_of_bno_hostility_actor_opinion_active: ""
+
+ doctrine_parameter_opinion_of_bno_hostility_recipient_opinion_active: ""

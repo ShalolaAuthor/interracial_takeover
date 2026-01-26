@@ -95,7 +95,11 @@
 
  bnonr_religion_opinion: "$bnonr_religion_adherent$ Opinion"
 
- doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: "Considers BNWO-aligned [faiths|E], and is considered by BNWO-aligned $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ doctrine_parameter_is_bno_faith_bilateral_loc_override: "Considers BNWO-aligned [faiths|E], and is considered by BNWO-aligned $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V] instead of $hostility_evil_tooltippable$"
+ doctrine_parameter_is_bno_faith_bilateral_loc_override_hostile: "Considers BNWO-aligned [faiths|E], and is considered by BNWO-aligned $game_concept_faiths$, to be [GetHostilityLevelName( TOKEN_PARAMETER.GetIntValue )|V]"
+ doctrine_parameter_hostility_override_special_doctrine_is_bno_faith: ""
  doctrine_parameter_can_use_bno_artefacts: "Can use BNWO [artifacts|E] at full benefit"
  doctrine_parameter_bno_syncretic_actor_opinion_active: "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with BNWO-aligned [faiths|E]"
  doctrine_parameter_opinion_of_bno_syncretic_recipient_opinion_active: ""
+
+ doctrine_parameter_bno_syncretic_recipient_opinion_active: "Mutual [EmptyScope.ScriptValue('syncretic_mutual_opinion_bonus_value')|=+0] [opinion|E] bonus with [faiths|E] that have the $tenet_bno_syncretism_name$ [core_tenet|E]"
