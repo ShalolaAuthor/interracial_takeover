@@ -1294,9 +1294,10 @@
 	}
 	#events
 	effect_group = {
-		days = { 180 360 }
+		months = 1
 		trigger = {
 			story_owner ?= {
+				NOT = { has_character_flag = bno_events_cooldown }
 				is_adult = yes
 				trigger_if = {
 					limit = { has_game_rule = bno_global_bbc_activities_no }
@@ -1304,6 +1305,40 @@
 						liege ?= { is_ai = no }
 						top_liege ?= { is_ai = no }
 						is_ai = no
+					}
+				}
+			}
+		}
+		triggered_effect = {
+			trigger = { always = yes }
+			effect = {
+				story_owner = {
+					switch = {
+						trigger = has_game_rule
+						bno_event_frequency_one_month = {
+							add_character_flag = {
+								flag = bno_events_cooldown
+								months = 1
+							}
+						}
+						bno_event_frequency_three_months = {
+							add_character_flag = {
+								flag = bno_events_cooldown
+								months = 3
+							}
+						}
+						bno_event_frequency_six_months = {
+							add_character_flag = {
+								flag = bno_events_cooldown
+								months = 6
+							}
+						}
+						fallback = {
+							add_character_flag = {
+								flag = bno_events_cooldown
+								months = 12
+							}
+						}
 					}
 				}
 			}
