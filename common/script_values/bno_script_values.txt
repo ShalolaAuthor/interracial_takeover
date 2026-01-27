@@ -7,6 +7,22 @@
 	}
 }
 
+bno_transformation_value = {
+	value = bno_genesis_transformation_value
+	add = {
+		value = 0
+		if = {
+			limit = {
+				has_variable = bno_hormones
+			}
+			add = {
+				value = var:bno_hormones
+				divide = 100
+			}
+		}
+	}
+}
+
 bno_gold_amount = {
 	every_ruler = {
 		limit = {
@@ -106,7 +122,7 @@ bno_boobs_size_limit = {
 }
 
 bno_boobs_size = {
-	value = bno_genesis_transformation_value
+	value = bno_transformation_value
 	max = bno_boobs_size_limit
 }
 
@@ -121,7 +137,7 @@ bno_ass_size_limit = {
 }
 
 bno_ass_size = {
-	value = bno_genesis_transformation_value
+	value = bno_transformation_value
 	max = bno_ass_size_limit
 }
 
@@ -136,7 +152,7 @@ bno_waist_size_limit = {
 }
 
 bno_waist_size = {
-	value = bno_genesis_transformation_value
+	value = bno_transformation_value
 	max = bno_waist_size_limit
 }
 

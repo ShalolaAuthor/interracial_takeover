@@ -136,7 +136,7 @@ convert = {
 				if = {
 					limit = {
 						save_temporary_scope_as = bno_character
-						faith.religious_head = {
+						faith.religious_head ?= {
 							save_temporary_scope_as = bno_religious_head_character
 						}
 						scope:bno_character = scope:bno_religious_head_character
@@ -150,7 +150,7 @@ convert = {
 			is_shown = { always = yes }
 			is_valid = {
 				save_temporary_scope_as = bno_character
-				faith.religious_head = {
+				faith.religious_head ?= {
 					save_temporary_scope_as = bno_religious_head_character
 				}
 				scope:bno_character = scope:bno_religious_head_character
@@ -164,7 +164,7 @@ convert = {
 				if = {
 					limit = {
 						save_temporary_scope_as = bno_character
-						faith.religious_head = {
+						faith.religious_head ?= {
 							save_temporary_scope_as = bno_religious_head_character
 						}
 						scope:bno_character = scope:bno_religious_head_character

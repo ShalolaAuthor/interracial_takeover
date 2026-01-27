@@ -24,6 +24,15 @@ bno_on_sex = {
 	on_actions = {
 		bno_on_vaginal_sex
 		bno_on_anal_sex
+		bno_hormones_on_sex
+		bno_slut_on_sex
+		bno_cuck_on_sex
+		bno_set_recent_sex_partner
+		bno_seed_of_genesis_sex
+		bno_bbc_immunity
+		bno_curing_cum
+		bno_femboi_on_sex
+		bno_court_sex
 	}
 }
 
@@ -32,15 +41,7 @@ bno_on_vaginal_sex = {
 		carn_sex_scene_no_pregnancy_trigger = no
 	}
 	on_actions = {
-		bno_slut_on_sex
 		bno_increase_pussy_wear
-		bno_cuck_on_sex
-		bno_set_recent_sex_partner
-		bno_seed_of_genesis_sex
-		bno_bbc_immunity
-		bno_curing_cum
-		bno_femboi_on_sex
-		bno_court_sex
 	}
 }
 
@@ -49,14 +50,6 @@ bno_on_anal_sex = {
 		carn_sex_scene_no_pregnancy_trigger = yes
 	}
 	on_actions = {
-		bno_slut_on_sex
-		bno_cuck_on_sex
-		bno_set_recent_sex_partner
-		bno_seed_of_genesis_sex
-		bno_bbc_immunity
-		bno_curing_cum
-		bno_femboi_on_sex
-		bno_court_sex
 	}
 }
 
@@ -319,6 +312,21 @@ bno_femboi_on_sex = {
 				bno_increase_femboiness = {
 					XP = 1
 				}
+			}
+		}
+	}
+}
+
+bno_hormones_on_sex = {
+	effect = {
+		scope:carn_sex_player = {
+			bno_apply_hormones_effect = {
+				TARGET = scope:carn_sex_partner
+			}
+		}
+		scope:carn_sex_partner = {
+			bno_apply_hormones_effect = {
+				TARGET = scope:carn_sex_player
 			}
 		}
 	}

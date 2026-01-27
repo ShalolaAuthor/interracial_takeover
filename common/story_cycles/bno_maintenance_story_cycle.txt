@@ -445,7 +445,6 @@
 		days = { 30 60 }
 		trigger = {
 			story_owner = {
-				is_playable_character = yes
 				is_ai = yes
 			}
 		}

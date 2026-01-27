@@ -76,3 +76,34 @@ bno_remove_pox_from_bbc_effect = {
 		}
 	}
 }
+
+bno_apply_hormones_effect = {
+	if = {
+		limit = {
+			owns_story_of_type = story_bno_hormones
+		}
+		var:story_bno_hormones = {
+			save_scope_as = story_bno_hormones
+		}
+		scope:story_bno_hormones = {
+			add_to_variable_list = {
+				name = bno_hormones_giver_list
+				target = $TARGET$
+				months = 1
+			}
+		}
+	}
+	else = {
+		create_story = {
+			type = story_bno_hormones
+			save_scope_as = story_bno_hormones
+		}
+		scope:story_bno_hormones = {
+			add_to_variable_list = {
+				name = bno_hormones_giver_list
+				target = $TARGET$
+				months = 1
+			}
+		}
+	}
+}

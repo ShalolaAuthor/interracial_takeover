@@ -351,28 +351,6 @@ bno_convert_bbc_to_bbc_religion = {
     }
 }
 
-bno_convert_vassal_to_liege_religion = {
-    if = {
-        limit = {
-            faith = faith:bbcs
-            trigger_if = {
-                limit = {
-                    exists = liege
-                    liege ?= {
-                        is_faith_bbcs = yes
-                    }
-                    NOT = { faith = liege.faith }
-                }
-                always = yes
-            }
-            trigger_else = {
-                always = no
-            }
-        }
-        set_character_faith = liege.faith
-    }
-}
-
 bno_add_caged_trait_to_character_wearing_chastity_cage = {
     save_scope_as = cager
     if = {

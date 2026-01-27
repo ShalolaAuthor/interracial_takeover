@@ -1,0 +1,132 @@
+﻿story_bno_hormones = {
+    #Available Variable List: bno_hormones_giver_list
+    on_setup = {
+        save_scope_as = story_bno_hormones
+        story_owner = {
+            set_variable = {
+                name = story_bno_hormones
+                value = scope:story_bno_hormones
+            }
+            set_variable = {
+                name = bno_hormones
+                value = 0
+            }
+        }
+    }
+    on_owner_death = {
+        end_story = yes
+    }
+    effect_group = {
+        days = { 1 13 }
+        first_valid = {
+            triggered_effect = {
+                trigger = {
+                    has_variable_list = bno_hormones_giver_list
+                    variable_list_size = {
+                        name = bno_hormones_giver_list
+                        value > 0
+                    }
+                }
+                effect = {
+                    story_owner = {
+                        save_scope_as = story_owner
+                    }
+                    if = {
+                        limit = {
+                            scope:story_owner = { is_female = yes }
+                        }
+                        every_in_list = {
+                            variable = bno_hormones_giver_list
+                            if = {
+                                limit = {
+                                    is_bbc = yes
+                                }
+                                scope:story_owner = {
+                                    change_variable = {
+                                        name = bno_hormones
+                                        add = 0.1
+                                    }
+                                }
+                            }
+                            else = {
+                                scope:story_owner = {
+                                    change_variable = {
+                                        name = bno_hormones
+                                        add = 0.01
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    else = {
+                        every_in_list = {
+                            variable = bno_hormones_giver_list
+                            switch = {
+                                trigger = has_trait
+                                bno_whitegirl_1 = {
+                                    scope:story_owner = {
+                                        change_variable = {
+                                            name = bno_hormones
+                                            add = 0.05
+                                        }
+                                    }
+                                }
+                                bno_whitegirl_2 = {
+                                    scope:story_owner = {
+                                        change_variable = {
+                                            name = bno_hormones
+                                            add = 0.1
+                                        }
+                                    }
+                                }
+                                bno_whitegirl_3 = {
+                                    scope:story_owner = {
+                                        change_variable = {
+                                            name = bno_hormones
+                                            add = 0.15
+                                        }
+                                    }
+                                }
+                                bno_whitegirl_4 = {
+                                    scope:story_owner = {
+                                        change_variable = {
+                                            name = bno_hormones
+                                            add = 0.2
+                                        }
+                                    }
+                                }
+                                bno_whitegirl_5 = {
+                                    scope:story_owner = {
+                                        change_variable = {
+                                            name = bno_hormones
+                                            add = 0.25
+                                        }
+                                    }
+                                }
+                                fallback = {
+                                    scope:story_owner = {
+                                        change_variable = {
+                                            name = bno_hormones
+                                            add = 0.025
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+            triggered_effect = {
+                trigger = { always = yes }
+                effect = {
+                    story_owner = {
+                        change_variable = {
+                            name = bno_hormones
+                            multiply = 0.9
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

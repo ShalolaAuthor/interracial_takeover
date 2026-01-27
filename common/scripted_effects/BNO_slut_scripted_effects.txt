@@ -2,7 +2,7 @@
 	if = {
 		limit = {
 			has_game_rule = bno_religion_yes
-			NOT = { faith.religion = religion:bnonr_religion }
+			faith = { is_considered_bno_faith = no }
 			is_bno_mindless_bbc_slut = yes
 		}
 		if = {
@@ -15,7 +15,9 @@
 		}
 		else_if = {
 			limit = {
-				NOT = { var:recent_sex_partner.faith.religion = religion:bnonr_religion }
+				var:recent_sex_partner.faith = {
+					is_considered_bno_faith = no
+				}
 			}
 			bno_conversion_effect = {
 				FAITH = faith:bbcs
