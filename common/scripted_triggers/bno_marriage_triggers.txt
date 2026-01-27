@@ -7,3 +7,8 @@ is_unmarried_ai_blacked_girl_not_wearing_chastity_piercing = {
     is_unmarried_ai_blacked_girl = yes
     is_equipping_chastity_piercing_trigger = no
 }
+
+is_lover_unmarried_ai_blacked_girl_not_wearing_chastity_piercing = {
+    is_unmarried_ai_blacked_girl_not_wearing_chastity_piercing = yes
+    has_relation_lover = root
+}
