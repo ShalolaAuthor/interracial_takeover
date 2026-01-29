@@ -131,8 +131,8 @@ convert = {
 			value = bno_convert_to_BBC_Church
 			is_shown = { always = yes }
 			is_valid = { always = yes }
-			current_description = convert.convert.desc
-			localization = convert.convert.desc
+			current_description = bno_convert_to_BBC_Church
+			localization = bno_convert_to_BBC_Church
 			icon = "gfx/interface/icons/bno_convert_to_BBC_Church.dds" 
 			flat = no
 			ai_chance = {
@@ -159,8 +159,8 @@ convert = {
 				}
 				scope:bno_character = scope:bno_religious_head_character
 			}
-			current_description = convert.convert_to_bnwo.desc
-			localization = convert.convert_to_bnwo.desc
+			current_description = bno_convert_current_religion_to_BNWO_religion
+			localization = bno_convert_current_religion_to_BNWO_religion
 			icon = "gfx/interface/icons/bno_convert_current_religion_to_BNWO_religion.dds" 
 			flat = no
 			ai_chance = {
@@ -636,8 +636,8 @@ bno_convert_to_african = {
 			value = bno_convert_to_african
 			is_shown = { always = yes }
 			is_valid = { always = yes }
-			current_description = bno_convert_to_african.convert.desc
-			localization = bno_convert_to_african.convert.desc
+			current_description = bno_convert_to_african
+			localization = bno_convert_to_african
 			icon = "gfx/interface/icons/bno_convert_to_african.dds" 
 			flat = no
 			ai_chance = {
@@ -664,8 +664,8 @@ bno_convert_to_african = {
 				}
 				scope:bno_character = scope:bno_culture_head_character
 			}
-			current_description = bno_convert_to_african.convert_to_bnwo.desc
-			localization = bno_convert_to_african.convert_to_bnwo.desc
+			current_description = bno_convert_culture_to_BNWO
+			localization = bno_convert_culture_to_BNWO
 			icon = "gfx/interface/icons/bno_convert_culture_to_BNWO.dds" 
 			flat = no
 			ai_chance = {
@@ -692,8 +692,8 @@ bno_convert_to_african = {
 				}
 				NOT = { scope:bno_character = scope:bno_culture_head_character }
 			}
-			current_description = bno_convert_to_african.diverge_to_bnwo.desc
-			localization = bno_convert_to_african.diverge_to_bnwo.desc
+			current_description = bno_diverge_culture_to_BNWO
+			localization = bno_diverge_culture_to_BNWO
 			icon = "gfx/interface/icons/bno_diverge_culture_to_BNWO.dds" 
 			flat = no
 			ai_chance = {

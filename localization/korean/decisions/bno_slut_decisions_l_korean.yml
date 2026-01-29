@@ -223,10 +223,10 @@
  bno_becoming_pure_white.effect: "정화 의식이 시작됩니다. 모든 색소가 영구적으로 사라집니다. 머리카락은 곧게 변하고 플래티넘 흰색이 됩니다. 피부는 흠이 없는 알라바스터가 됩니다. 눈 색깔은 결정 파란색으로 변합니다. 혼합된 유산과 관련된 모든 특징은 삭제됩니다." # AI Tags
 
  convert.second_step_button: "저는 예배를 드리고 싶습니다 [bno_bbc|E]..." # AI Tags
- convert.convert.desc: "변환 [GetFaithByKey('bbcs').GetName]" # AI Tags
- convert.convert_to_bnwo.desc: "채택 [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
+ bno_convert_to_BBC_Church: "변환 [GetFaithByKey('bbcs').GetName]" # AI Tags
+ bno_convert_current_religion_to_BNWO_religion: "채택 [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
 
  bno_convert_to_african.second_step_button: "난 그 사람과 하나가 되고 싶어요 [bno_bbc|E]" # AI Tags
- bno_convert_to_african.convert.desc: "내가 다시 태어나고 싶어 [GetCultureByKey('bnoc').GetName]" # AI Tags
- bno_convert_to_african.convert_to_bnwo.desc: "소개하고 싶습니다 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 내 안에 [culture|E]" # AI Tags
- bno_convert_to_african.diverge_to_bnwo.desc: "내가 하고 싶은데 [diverge|E] 제 [culture|E] 도입함으로써 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 그 안에" # AI Tags
+ bno_convert_to_african: "내가 다시 태어나고 싶어 [GetCultureByKey('bnoc').GetName]" # AI Tags
+ bno_convert_culture_to_BNWO: "소개하고 싶습니다 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 내 안에 [culture|E]" # AI Tags
+ bno_diverge_culture_to_BNWO: "내가 하고 싶은데 [diverge|E] 제 [culture|E] 도입함으로써 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 그 안에" # AI Tags

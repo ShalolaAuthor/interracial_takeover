@@ -223,10 +223,10 @@
  bno_becoming_pure_white.effect: "Начинается ритуал очищения. Вся пигментация уходит навсегда. Волосы становятся прямыми и платиновыми белыми. Кожа становится безупречным алабастром. Цвет глаз меняется к кристаллическому синему. Все черты, связанные с смешанным наследием, удаляются." # AI Tags
 
  convert.second_step_button: "Я хочу начать поклоняться [bno_bbc|E]..." # AI Tags
- convert.convert.desc: "Преобразовать в [GetFaithByKey('bbcs').GetName]" # AI Tags
- convert.convert_to_bnwo.desc: "Принять [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
+ bno_convert_to_BBC_Church: "Преобразовать в [GetFaithByKey('bbcs').GetName]" # AI Tags
+ bno_convert_current_religion_to_BNWO_religion: "Принять [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
 
  bno_convert_to_african.second_step_button: "Я хочу быть одним с [bno_bbc|E]" # AI Tags
- bno_convert_to_african.convert.desc: "Я хочу переродиться как [GetCultureByKey('bnoc').GetName]" # AI Tags
- bno_convert_to_african.convert_to_bnwo.desc: "Я хочу представить [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] в мою [culture|E]" # AI Tags
- bno_convert_to_african.diverge_to_bnwo.desc: "Я хочу [diverge|E] от моего [culture|E] путем введения [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] в нее" # AI Tags
+ bno_convert_to_african: "Я хочу переродиться как [GetCultureByKey('bnoc').GetName]" # AI Tags
+ bno_convert_culture_to_BNWO: "Я хочу представить [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] в мою [culture|E]" # AI Tags
+ bno_diverge_culture_to_BNWO: "Я хочу [diverge|E] от моего [culture|E] путем введения [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] в нее" # AI Tags

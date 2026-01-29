@@ -223,10 +223,10 @@
  bno_becoming_pure_white.effect: "Beginnt mit dem Reinigungsritual. Alle Pigmentierung ist dauerhaft verloren. Das Haar wird gerade und Platin weiß. Die Haut wird zu makellosem Alabaster. Augenfarbe verschiebt sich zu kristallinem Blau. Alle Merkmale, die mit gemischtem Erbe verbunden sind, werden gelöscht." # AI Tags
 
  convert.second_step_button: "Ich will anfangen zu beten [bno_bbc|E]..." # AI Tags
- convert.convert.desc: "Umwandeln in [GetFaithByKey('bbcs').GetName]" # AI Tags
- convert.convert_to_bnwo.desc: "Annahme [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
+ bno_convert_to_BBC_Church: "Umwandeln in [GetFaithByKey('bbcs').GetName]" # AI Tags
+ bno_convert_current_religion_to_BNWO_religion: "Annahme [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
 
  bno_convert_to_african.second_step_button: "Ich will eins sein mit [bno_bbc|E]" # AI Tags
- bno_convert_to_african.convert.desc: "Ich will wiedergeboren werden als [GetCultureByKey('bnoc').GetName]" # AI Tags
- bno_convert_to_african.convert_to_bnwo.desc: "Ich möchte vorstellen, [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] in meine [culture|E]" # AI Tags
- bno_convert_to_african.diverge_to_bnwo.desc: "Ich will [diverge|E] von meinem [culture|E] durch Einführung [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] in sie hinein" # AI Tags
+ bno_convert_to_african: "Ich will wiedergeboren werden als [GetCultureByKey('bnoc').GetName]" # AI Tags
+ bno_convert_culture_to_BNWO: "Ich möchte vorstellen, [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] in meine [culture|E]" # AI Tags
+ bno_diverge_culture_to_BNWO: "Ich will [diverge|E] von meinem [culture|E] durch Einführung [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] in sie hinein" # AI Tags

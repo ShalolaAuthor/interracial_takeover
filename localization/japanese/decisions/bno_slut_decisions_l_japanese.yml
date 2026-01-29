@@ -223,10 +223,10 @@
  bno_becoming_pure_white.effect: "浄化儀式が始まる. すべての色素は永久に失われます. 髪の毛は直し,プラチナの白色になる. 皮膚は無垢なアラバスターになります. 眼の色は水晶の青色に変化します. 混ざった遺産に関連するすべての特徴は消されます." # AI Tags
 
  convert.second_step_button: "礼拝を始めたい [bno_bbc|E]..." # AI Tags
- convert.convert.desc: "変換する [GetFaithByKey('bbcs').GetName]" # AI Tags
- convert.convert_to_bnwo.desc: "採用する [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
+ bno_convert_to_BBC_Church: "変換する [GetFaithByKey('bbcs').GetName]" # AI Tags
+ bno_convert_current_religion_to_BNWO_religion: "採用する [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
 
  bno_convert_to_african.second_step_button: "私は1人になりたい [bno_bbc|E]" # AI Tags
- bno_convert_to_african.convert.desc: "私は再び生まれたい [GetCultureByKey('bnoc').GetName]" # AI Tags
- bno_convert_to_african.convert_to_bnwo.desc: "紹介したい [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 私の中へ [culture|E]" # AI Tags
- bno_convert_to_african.diverge_to_bnwo.desc: "やりたい [diverge|E] 私の [culture|E] 導入することで [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] その中に" # AI Tags
+ bno_convert_to_african: "私は再び生まれたい [GetCultureByKey('bnoc').GetName]" # AI Tags
+ bno_convert_culture_to_BNWO: "紹介したい [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 私の中へ [culture|E]" # AI Tags
+ bno_diverge_culture_to_BNWO: "やりたい [diverge|E] 私の [culture|E] 導入することで [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] その中に" # AI Tags

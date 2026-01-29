@@ -223,10 +223,10 @@
  bno_becoming_pure_white.effect: "开始净化仪式. 所有的颜料都永远丢失了. 头发变直了 白白白的白发. 皮肤变成无瑕无瑕的羊排. 眼色变成蓝色晶体. 与混合遗产有关的所有特征都被删除。." # AI Tags
 
  convert.second_step_button: "我想开始崇拜 [bno_bbc|E]..." # AI Tags
- convert.convert.desc: "转换为 [GetFaithByKey('bbcs').GetName]" # AI Tags
- convert.convert_to_bnwo.desc: "通过通过通过通过通过 [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
+ bno_convert_to_BBC_Church: "转换为 [GetFaithByKey('bbcs').GetName]" # AI Tags
+ bno_convert_current_religion_to_BNWO_religion: "通过通过通过通过通过 [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]" # AI Tags
 
  bno_convert_to_african.second_step_button: "我想与我同在 [bno_bbc|E]" # AI Tags
- bno_convert_to_african.convert.desc: "我想重生 [GetCultureByKey('bnoc').GetName]" # AI Tags
- bno_convert_to_african.convert_to_bnwo.desc: "我想向大家介绍 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 进入我的 [culture|E]" # AI Tags
- bno_convert_to_african.diverge_to_bnwo.desc: "我想,我想,我想 [diverge|E] 从我的 [culture|E] A. 通过介绍 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 进入其中" # AI Tags
+ bno_convert_to_african: "我想重生 [GetCultureByKey('bnoc').GetName]" # AI Tags
+ bno_convert_culture_to_BNWO: "我想向大家介绍 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 进入我的 [culture|E]" # AI Tags
+ bno_diverge_culture_to_BNWO: "我想,我想,我想 [diverge|E] 从我的 [culture|E] A. 通过介绍 [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] 进入其中" # AI Tags
