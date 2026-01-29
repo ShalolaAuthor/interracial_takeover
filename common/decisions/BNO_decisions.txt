@@ -108,13 +108,17 @@ convert = {
 		is_adult = yes
 		is_a_girl = yes
 		has_trait = bno_whitegirl
-		NOT = {faith = faith:bbcs}
+		faith = {
+			is_considered_bno_faith = no
+		}
 	}
 	is_valid = {
 		is_adult = yes
 		is_a_girl = yes
 		has_trait = bno_whitegirl_5
-		NOT = {faith = faith:bbcs}
+		faith = {
+			is_considered_bno_faith = no
+		}
 	}
 
 	widget = {
