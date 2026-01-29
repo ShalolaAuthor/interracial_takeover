@@ -68,6 +68,7 @@
         bno_transfer_all_character_modifier_mtf = yes
         bno_transfer_all_artifact_mtf = yes
         bno_transfer_all_vanilla_perks = yes
+        bno_transfer_relevant_relation_mtf_effect = yes
         if = {
             limit = {
                 is_ruler = yes
@@ -86,7 +87,46 @@
     }
     hidden_effect = {
         if = {
-            limit = { is_ruler = yes }
+            limit = {
+                exists = liege
+                is_ruler = yes
+            }
+            liege = {
+                save_scope_as = old_character_liege
+            }
+            ep3_become_landed_transfer_effect = {
+		    	TITLE_RECEIVER = scope:bno_female
+		    	TITLE_LIST = old_character_titles
+		    	TYPE = granted
+		    	REASON = flag:granted
+                ENNOBLED_ADVENTURER = flag:no
+		    }
+            scope:old_character_liege = {
+                save_scope_as = actor
+            }
+            scope:bno_female = {
+                save_scope_as = recipient
+            }
+            scope:recipient = {
+                if = {
+                    limit = { has_government = feudal_government }
+                    save_scope_value_as = { name = normal_obligations value = yes }
+                    save_scope_value_as = { name = low_obligations value = no }
+                    save_scope_value_as = { name = high_obligations value = no }
+                    save_scope_value_as = { name = religious_exemption value = no }
+                }
+                else_if = {
+                    limit = { has_government = clan_government }
+                    save_scope_value_as = { name = religious_exemption_clan value = no }
+                    save_scope_value_as = { name = no_exemption_clan value = yes }
+                }
+            }
+            offer_vassalization_interaction_effect = yes
+        }
+        else_if = {
+            limit = {
+                is_ruler = yes
+            }
             ep3_become_landed_transfer_effect = {
 		    	TITLE_RECEIVER = scope:bno_female
 		    	TITLE_LIST = old_character_titles
@@ -95,8 +135,7 @@
                 ENNOBLED_ADVENTURER = flag:no
 		    }
         }
-        else_if = {
-            limit = { exists = liege }
+        else = {
             liege ?= {
                 add_courtier = scope:bno_female
             }
@@ -131,6 +170,32 @@
             TARGET = scope:old_character
         }
         
+    }
+}
+
+bno_transfer_relevant_relation_mtf_effect = {
+    bno_transfer_relation_mtf_effect = {
+        RELATION = friend
+    }
+    bno_transfer_relation_mtf_effect = {
+        RELATION = best_friend
+    }
+    bno_transfer_relation_mtf_effect = {
+        RELATION = soulmate
+    }
+    bno_transfer_relation_mtf_effect = {
+        RELATION = lover
+    }
+}
+
+bno_transfer_relation_mtf_effect = {
+    every_relation = {
+        type = $RELATION$
+        add_to_list = $RELATION$_list
+    }
+    every_in_list = {
+        list = $RELATION$_list
+        set_relation_$RELATION$ = scope:bno_female
     }
 }
 
