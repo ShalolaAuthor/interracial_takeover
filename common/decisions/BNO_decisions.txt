@@ -610,6 +610,7 @@ bno_convert_to_african = {
 	picture = {
 		reference = "gfx/interface/illustrations/decisions/decision_destiny_goal.dds"
 	}
+	title = bno_convert_to_african_title
 	sort_order = 10
 	desc = bno_convert_to_african_desc
 	selection_tooltip = bno_convert_to_african_tooltip

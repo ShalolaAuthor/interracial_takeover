@@ -1553,35 +1553,8 @@ bno_have_sex_with_effects = {
 		carn_sex_scene_no_drama_effect = yes
 		carn_sex_scene_no_memory_effect = yes
 	}
-
-	if = {
-		limit = {
-			trigger_if = {
-				limit = { is_cum_slave = yes }
-				any_relation = {
-					type = bno_cum_slave_owner
-					this = $PARTNER$
-				}
-			}
-			trigger_else = { always = yes }
-			trigger_if = {
-				limit = {
-					$PARTNER$ = {
-						is_cum_slave = yes
-					}
-				}
-				$PARTNER$ = {
-					any_relation = {
-						type = bno_cum_slave_owner
-						this = scope:bno_sex_initiator
-					}
-				}
-			}
-			trigger_else = { always = yes }
-		}
-		carn_had_sex_with_effect_v2 = {
-			PARTNER = $PARTNER$
-		}
+	carn_had_sex_with_effect_v2 = {
+		PARTNER = $PARTNER$
 	}
 
 	#Clean Up Flags

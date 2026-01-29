@@ -38,7 +38,7 @@
  hire_bbc_worshipper_decision_tooltip: "Your servants will suggest a number of suitable candidates for the position of [GetCourtPositionType('bno_bbc_worshipper_court_position').GetName()]"
  bno_recruit_court_position_decision_tt: "You will receive a random amount of suitable girls to serve by your side"
 
- bno_convert_to_african: "Embracing African"
+ bno_convert_to_african_title: "Embracing African"
  bno_convert_to_african_confirm: "It is so over for me!"
  bno_convert_to_african_desc: "You have experienced first hand, how this culture behave, a culture so strong, you just want to submit to it. There is an old saying after all, if you can't beat them you join them."
  bno_convert_to_african_tooltip: "Embrace your $bnoc$ Ancestors roots"
