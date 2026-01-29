@@ -10,7 +10,10 @@
         4 = "bno_matriarch.dds"
     }
     is_shown = {
-        always = yes
+        OR = {
+            has_cultural_pillar = heritage_bnoc
+            has_cultural_tradition = tradition_bno_the_great_submission
+        }
     }
 
     can_pick = {
