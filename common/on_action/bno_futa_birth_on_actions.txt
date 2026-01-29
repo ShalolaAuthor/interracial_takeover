@@ -1,0 +1,25 @@
+﻿on_birth_trait_inheritance = {
+    on_actions = {
+        bno_futa_pregnancies_trait_inheritance
+    }
+}
+
+bno_futa_pregnancies_trait_inheritance = {
+    effect = {
+        scope:parent1 = {
+            save_scope_as = real_father
+        }
+        scope:parent2 = {
+            save_scope_as = mother
+        }
+        scope:futa_born_child = {
+            save_scope_as = child
+        }
+        scope:child = {
+            trigger_event = {
+                on_action = on_birth_child
+            }
+            create_story = story_bno_maintenance
+        }
+    }
+}
