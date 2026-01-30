@@ -21,6 +21,19 @@ bno_cum_for_glory_glorified = {
     domain_limit = 1
     stacking = yes
 }
+bno_cum_for_glory_deified = {
+    icon = bno_cum_for_glory_deified
+    cultural_head_fascination_mult = 25
+    cultural_head_fascination_add = 25
+    inbreeding_chance = -25
+    negative_random_genetic_chance = -25
+    negative_inactive_inheritance_chance = -25
+    life_expectancy = 250
+    years_of_fertility = 250
+    domain_limit = 25
+    monthly_lifestyle_xp_gain_mult = 2.5
+    stacking = yes
+}
 # County
 bno_might_makes_right = {
     icon = county_modifier_opinion_positive

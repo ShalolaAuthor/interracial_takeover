@@ -115,6 +115,54 @@ bno_add_prowess_per_sex = {
 				name = bno_cum_for_glory_count
 				subtract = 100
 			}
+			if = {
+				limit = {
+					NOT = { has_variable = bno_cum_for_glory_glorified_count }
+				}
+				set_variable = {
+					name = bno_cum_for_glory_glorified_count
+					value = 1
+				}
+			}
+			else = {
+				change_variable = {
+					name = bno_cum_for_glory_glorified_count
+					add = 1
+				}
+			}
+		}
+		if = {
+			limit = {
+				var:bno_cum_for_glory_glorified_count >= 25
+			}
+			send_interface_message = {
+				title = {
+					first_valid = {
+						triggered_desc = {
+							trigger = { is_a_girl = yes }
+							desc = bno_cum_for_glory.deified.title.female
+						}
+						desc = bno_cum_for_glory.deified.title.male
+					}
+				}
+				desc = {
+					first_valid = {
+						triggered_desc = {
+							trigger = { is_a_girl = yes }
+							desc = bno_cum_for_glory.deified.desc.female
+						}
+						desc = bno_cum_for_glory.deified.desc.male
+					}
+				}
+				type = bno_blacked_events
+				left_icon = this
+				add_character_modifier = bno_cum_for_glory_deified
+				remove_all_character_modifier_instances = bno_cum_for_glory_glorified
+			}
+			change_variable = {
+				name = bno_cum_for_glory_glorified_count
+				subtract = 25
+			}
 		}
 	}
 }
