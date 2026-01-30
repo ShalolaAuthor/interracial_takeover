@@ -12,17 +12,14 @@
     }
 
     allowed_against_character = {
-        scope:defender ?= {
-            dynasty ?= {
+        scope:defender = {
+            dynasty = {
                 has_dynasty_perk = bno_embrace_african_1
             }
         }
 	}
 
     valid_to_start = {
-    }
-
-    should_invalidate = {
     }
 
     on_declaration = {

@@ -1229,8 +1229,10 @@ bno_slut.3015 = {
 	}
 
 	after = {
-		bno_kill_character = {
-			TARGET = scope:bbc
+		hidden_effect = {
+			bno_kill_character = {
+				TARGET = scope:bbc
+			}
 		}
 	}
 }

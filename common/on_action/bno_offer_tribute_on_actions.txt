@@ -84,6 +84,11 @@ bno_offer_tribute_travel_plan_trainer_arrived_back_to_scheme_owner = {
 }
 
 bno_offer_tribute_after_lending_start = {
+    trigger = {
+        scope:parent ?= {
+            is_alive = yes
+        }
+    }
     effect = {
         scope:parent = {
             send_interface_message = {

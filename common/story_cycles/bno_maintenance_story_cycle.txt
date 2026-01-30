@@ -102,6 +102,7 @@
 		triggered_effect = {
 			trigger = {
 				story_owner ?= {
+					is_ai = yes
 					is_white_girl = yes
 					is_bno_snowbunny_and_up = yes
 					NOT = { has_character_flag = bno_stop_becoming_bbc_slut }

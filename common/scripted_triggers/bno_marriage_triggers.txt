@@ -11,4 +11,5 @@ is_unmarried_ai_blacked_girl_not_wearing_chastity_piercing = {
 is_lover_unmarried_ai_blacked_girl_not_wearing_chastity_piercing = {
     is_unmarried_ai_blacked_girl_not_wearing_chastity_piercing = yes
     has_relation_lover = root
+	NOT = { has_trait = bno_servile }
 }

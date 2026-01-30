@@ -208,6 +208,10 @@ bno_offer_tribute_final_reward = {
             scope:scheme.var:offer_tribute_end_goal = flag:lending
         }
         scope:tribute = {
+            set_variable = {
+                name = bno_return_address
+                value = scope:owner.capital_province
+            }   
             create_story = {
                 type = story_bno_offer_tribute_lending
                 save_scope_as = story_bno_offer_tribute_lending
@@ -346,7 +350,7 @@ bno_return_tribute_to_parent = {
                 save_scope_as = bno_target
             }
             start_travel_plan = {
-                destination = scope:parent.location
+                destination = var:bno_return_address
                 travel_leader = scope:tribute
                 travel_with_domicile = yes
                 players_use_planner = no

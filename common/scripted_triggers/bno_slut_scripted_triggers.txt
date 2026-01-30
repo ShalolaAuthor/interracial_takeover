@@ -278,6 +278,7 @@ does_pure_whitegirl_exist = {
 is_lover_unmarried_ai_pure_white_girl_not_wearing_chastity_piercing = {
 	is_unmarried_ai_pure_white_girl_not_wearing_chastity_piercing = yes
 	has_relation_lover = root
+	NOT = { has_trait = bno_servile }
 }
 
 is_unmarried_ai_pure_white_girl_not_wearing_chastity_piercing = {
@@ -300,6 +301,7 @@ does_blacked_girl_married_to_a_ruler_not_wearing_chastity_piercing_exist = {
 is_lover_blacked_girl_married_to_a_ruler_not_wearing_chastity_piercing = {
 	is_blacked_girl_married_to_a_ruler_not_wearing_chastity_piercing = yes
 	has_relation_lover = root
+	NOT = { has_trait = bno_servile }
 }
 
 is_blacked_girl_married_to_a_ruler_not_wearing_chastity_piercing = {
