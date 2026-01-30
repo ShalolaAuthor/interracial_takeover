@@ -707,9 +707,9 @@ bno_whitegirl_1 = {
 	shown_in_ruler_designer = yes
 	
 	#Special Opinion
-	general_opinion = -10
-	opposite_opinion = 20
+	child_opinion = 100
 	same_opinion = 100
+	opposite_opinion = 20
 
 	#Trait Relation
 	compatibility = {
@@ -798,7 +798,7 @@ bno_whitegirl_2 = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	general_opinion = -20
+	child_opinion = 100
 	same_opinion = 100
 	opposite_opinion = 40
 
@@ -891,7 +891,7 @@ bno_whitegirl_3 = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	general_opinion = -30
+	child_opinion = 100
 	same_opinion = 100
 	opposite_opinion = 60
 
@@ -995,7 +995,7 @@ bno_whitegirl_4 = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	general_opinion = -40
+	child_opinion = 100
 	same_opinion = 100
 	opposite_opinion = 80
 
@@ -1097,7 +1097,7 @@ bno_whitegirl_5 = {
 	shown_in_ruler_designer = no
 	
 	#Special Opinion
-	general_opinion = -50
+	child_opinion = 100
 	same_opinion = 100
 	opposite_opinion = 100
 
