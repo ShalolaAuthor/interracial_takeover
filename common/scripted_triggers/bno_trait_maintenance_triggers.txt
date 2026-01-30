@@ -36,7 +36,7 @@ bno_is_valid_target_for_cum_addiction_scheme = {
 bno_is_a_white_girl = {
 	is_adult = yes
 	is_a_girl = yes
-	is_african = no
+	NOT = { has_trait = bno_blood }
 }
 
 bno_not_a_bbc_slave = {

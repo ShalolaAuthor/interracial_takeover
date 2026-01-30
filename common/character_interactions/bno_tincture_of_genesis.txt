@@ -76,6 +76,7 @@
                 limit = {
                     is_a_girl = yes
                 }
+                NOT = { has_trait = bno_blood }
                 is_bno_mindless_bbc_slut = yes
             }
             trigger_else_if = {
@@ -92,7 +93,7 @@
             NOT = { has_character_modifier = bno_tincture_of_genesis }
             custom_tooltip = {
                 text = bno_tincture_of_genesis_interaction.not_white
-                is_african = no
+                NOT = { has_trait = bno_blood }
             }
             age >= 18
         }
