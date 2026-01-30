@@ -3,7 +3,7 @@
     gender = male
     dynasty = generate
     faith = faith:bbcs
-	culture = culture:akan
+	culture = culture:bnoc
     #Traits
     random_traits = yes
     #Skills

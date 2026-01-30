@@ -5,8 +5,15 @@
 setup_bnwo_leader_effect = {
     save_scope_as = faction
 
-    random_faction_county_member = {
-        save_scope_as = peasant_county
+    if = {
+        limit = {
+            NOT = {
+                exists = scope:peasant_county
+            }
+        }
+        random_faction_county_member = {
+            save_scope_as = peasant_county
+        }
     }
 
     #get scope target_title
@@ -61,14 +68,6 @@ setup_bnwo_leader_effect = {
             template = bbc_noble_template
             trait = bno_camp_leader
             save_scope_as = peasant_leader
-        }
-        scope:peasant_leader = {
-            if = {
-                limit = {
-                    NOT = { has_character_flag = spawned_in_bnwo_faction_leader }
-                }
-                add_character_flag = spawned_in_bnwo_faction_leader
-            }
         }
     }
 

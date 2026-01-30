@@ -42,3 +42,7 @@
  doctrine_parameter_opinion_of_bno_hostility_actor_opinion_active: ""
 
  doctrine_parameter_opinion_of_bno_hostility_recipient_opinion_active: ""
+
+ bno_hostility_recipient_opinion_active_opinion_name: "Hostility with Faith"
+
+ bno_syncretic_recipient_opinion_active_opinion_name: "$faith_syncretic_opinion_active_control$"
