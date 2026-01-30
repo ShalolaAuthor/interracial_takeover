@@ -227,6 +227,9 @@
  bno_convert_current_religion_to_BNWO_religion: "Adopt [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]"
 
  bno_convert_to_african.second_step_button: "I want to be one with [bno_bbc|E]"
- bno_convert_to_african: "I want to be reborn as [GetCultureByKey('bnoc').GetName]"
- bno_convert_culture_to_BNWO: "I want to introduce [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] into my [culture|E]"
- bno_diverge_culture_to_BNWO: "I want to [diverge|E] from my [culture|E] by introducing [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] into it"
+ bno_convert_culture_to_african: "Be [GetCultureByKey('bnoc').GetName]"
+ bno_convert_culture_to_african_tooltip: "I want to be reborn as [GetCultureByKey('bnoc').GetName]"
+ bno_convert_culture_to_BNWO: "Add [GetCultureTradition('tradition_bno_the_great_submission').GetName] to [ROOT.Char.GetCulture.GetName]"
+ bno_convert_culture_to_BNWO_tooltip: "I want to introduce [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] into my [culture|E]"
+ bno_diverge_culture_to_BNWO: "[diverge|E] [ROOT.Char.GetCulture.GetName] with [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E]"
+ bno_diverge_culture_to_BNWO_tooltip: "I want to [diverge|E] from my [culture|E] by introducing [GetCultureTradition('tradition_bno_the_great_submission').GetName] [tradition|E] into it"

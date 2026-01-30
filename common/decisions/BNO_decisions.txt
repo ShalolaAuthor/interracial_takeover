@@ -634,12 +634,12 @@ bno_convert_to_african = {
 		show_from_start = yes
 
 		item = { # Change Culture to African
-			value = bno_convert_to_african
+			value = bno_convert_culture_to_african
 			is_shown = { always = yes }
 			is_valid = { always = yes }
-			current_description = bno_convert_to_african
-			localization = bno_convert_to_african
-			icon = "gfx/interface/icons/bno_convert_to_african.dds" 
+			current_description = bno_convert_culture_to_african
+			localization = bno_convert_culture_to_african
+			icon = "gfx/interface/icons/bno_convert_culture_to_african.dds" 
 			flat = no
 			ai_chance = {
 				value = 100
@@ -716,7 +716,7 @@ bno_convert_to_african = {
 	effect = {
 		if = {
 			limit = {
-				scope:bno_convert_to_african = yes
+				scope:bno_convert_culture_to_african = yes
 			}
 			set_culture = culture:bnoc
 		}
