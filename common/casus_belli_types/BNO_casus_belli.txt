@@ -261,6 +261,11 @@ bno_subj_war = {
 	
 	on_defeat = {
 		scope:attacker = { show_pow_release_message_effect = yes }
+		scope:attacker = {
+			pay_short_term_gold_reparations_effect = {
+				GOLD_VALUE = 3
+			}
+		}
 		# Legitimacy
 		add_legitimacy_attacker_defeat_effect = yes
 		# Truce
