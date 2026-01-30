@@ -222,9 +222,12 @@
  bno_becoming_pure_white.confirm: "I vow to be purified."
  bno_becoming_pure_white.effect: "Begins the purification ritual. All pigmentation is permanently lost. Hair becomes straight and platinum white. Skin becomes flawless alabaster. Eye color shifts to crystalline blue. All traits associated with mixed heritage are erased."
 
- convert.second_step_button: "I want to start worshipping [bno_bbc|E]..."
+ convert.second_step_button: "I want to start worshipping [bno_bbc|E]..." 
  bno_convert_to_BBC_Church: "Convert into [GetFaithByKey('bbcs').GetName]"
+ bno_convert_to_BBC_Church_tooltip: "I want to convert into [GetFaithByKey('bbcs').GetName] and starts worshipping [bno_bbc|E]"
  bno_convert_current_religion_to_BNWO_religion: "Adopt [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName]"
+ bno_convert_current_religion_to_BNWO_religion_tooltip: "I want to corrupt [ROOT.Char.GetFaith.GetName] by adding [GetFaithDoctrine('tenet_bno_syncretism').GetBaseName] to it"
+
 
  bno_convert_to_african.second_step_button: "I want to be one with [bno_bbc|E]"
  bno_convert_culture_to_african: "Be [GetCultureByKey('bnoc').GetName]"
