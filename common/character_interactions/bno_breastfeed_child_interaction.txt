@@ -1,0 +1,21 @@
+﻿bno_breastfeed_child_interaction = {
+    category = interaction_category_friendly
+    common_interaction = yes
+    icon = bno_breastfeed_child_interaction
+
+    send_name = bno_breastfeed_child_interaction.send_name
+    desc = bno_breastfeed_child_interaction.desc
+
+    populate_actor_list = {
+        scope:actor = {
+            if = {
+                limit = {
+                    is_physically_able_adult = yes
+                    is_female = yes
+                    num_of_relation_bno_breastfeedee < 2
+                }
+                add_to_list = characters
+            }
+        }
+    }
+}

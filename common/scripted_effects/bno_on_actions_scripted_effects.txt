@@ -67,7 +67,7 @@
 bno_on_actions_function = {
     trigger_event = {
         on_action = $bno_on_actions_in_script$
-        days = { 1 90 }
+        days = { 2 88 }
     }
 }
 

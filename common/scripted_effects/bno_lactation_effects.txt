@@ -1,0 +1,18 @@
+﻿bno_set_maximum_milk_amount_effect = {
+    change_variable = {
+        name = bno_milk_amount
+        max = $AMOUNT$
+    }
+}
+
+bno_determine_if_tits_is_overflowing_based_on_amount_effect = {
+    if = {
+        limit = {
+            var:bno_milk_amount >= $AMOUNT$
+        }
+        add_character_flag = bno_milk_overflow
+    }
+    else = {
+        remove_character_flag = bno_milk_overflow
+    }
+}

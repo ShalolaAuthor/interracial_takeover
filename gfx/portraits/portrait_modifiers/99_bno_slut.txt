@@ -785,3 +785,26 @@ bimbo = {
 		}
 	}
 }
+
+bno_lactation_overlay = {
+	usage = game
+	priority = 999
+	bno_dynamic_breastmilk_overflow = {
+		dna_modifiers = {
+			morph = {
+				mode = add
+				gene = gene_bno_breastmilk_overflow
+				template = bno_breastmilk_overflow
+				value = bno_breastmilk_overflow_value
+			}
+			
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 1
+				has_variable = bno_milk_amount
+			}
+		}
+	}
+}

@@ -17,7 +17,7 @@
         end_story = yes
     }
     effect_group = {
-        days = { 1 13 }
+        days = { 2 12 }
         first_valid = {
             triggered_effect = {
                 trigger = {

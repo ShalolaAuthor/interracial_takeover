@@ -1,7 +1,21 @@
 ﻿on_pregnancy_mother = {
     on_actions = {
+        bno_apply_lactation_story
         delay = { days = 1 }
         bno_on_pregnancy_mother
+    }
+}
+
+bno_apply_lactation_story = {
+    trigger = {
+        scope:mother = {
+            NOT = { owns_story_of_type = story_bno_lactation }
+        }
+    }
+    effect = {
+        scope:mother = {
+            create_story = story_bno_lactation
+        }
     }
 }
 

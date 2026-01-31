@@ -107,7 +107,7 @@ bno_skin_color_max_limit = {
 		bno_skin_color_light = { value = 1 }
 		bno_skin_color_tanned = { value = 2 }
 		bno_skin_color_brown = { value = 3 }
-		fallback = { value = 4 }
+		fallback = { value = 1000 }
 	}
 }
 
@@ -117,12 +117,13 @@ bno_boobs_size_limit = {
 		bno_boobs_size_small = { value = 1 }
 		bno_boobs_size_medium = { value = 2 }
 		bno_boobs_size_big = { value = 3 }
-		fallback = { value = 4 }
+		fallback = { value = 1000 }
 	}
 }
 
 bno_boobs_size = {
 	value = bno_transformation_value
+	add = bno_total_milk_amount_for_breast_size_value
 	max = bno_boobs_size_limit
 }
 
@@ -132,7 +133,7 @@ bno_ass_size_limit = {
 		bno_ass_size_small = { value = 1 }
 		bno_ass_size_medium = { value = 2 }
 		bno_ass_size_big = { value = 3 }
-		fallback = { value = 4 }
+		fallback = { value = 1000 }
 	}
 }
 
@@ -147,7 +148,7 @@ bno_waist_size_limit = {
 		bno_waist_size_small = { value = 1 }
 		bno_waist_size_medium = { value = 2 }
 		bno_waist_size_big = { value = 3 }
-		fallback = { value = 4 }
+		fallback = { value = 1000 }
 	}
 }
 
@@ -229,6 +230,8 @@ bno_penis_size = {
 	value = 0
 	switch = {
 		trigger = has_trait
+		bno_castrated = {}
+		bno_castrated_futa = {}
 		dick_small_bad_3 = { add = 1 }
 		dick_small_good_3 = { add = 1 }
 		dick_small_bad_2 = { add = 2 }
@@ -242,11 +245,8 @@ bno_penis_size = {
 		dick_big_bad_3 = { add = 7 }
 		dick_big_good_3 = { add = 7 }
 		dick_big_good_4 = { add = 8 }
+		bno_bbc = { add = 9 }
 		fallback = { add = 4 }
-	}
-	if = {
-		limit = { is_bbc = yes }
-		add = 1
 	}
 	divide = 9
 }

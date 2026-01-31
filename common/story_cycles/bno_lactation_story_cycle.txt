@@ -1,0 +1,127 @@
+﻿story_bno_lactation = {
+    on_setup = {
+        save_scope_as = story_bno_lactation
+        story_owner = {
+            set_variable = {
+                name = story_bno_lactation
+                value = scope:story_bno_lactation
+            }
+            set_variable = {
+                name = bno_milk_amount
+                value = 10
+            }
+        }
+        set_variable = {
+            name = bno_milk_amount_modifier
+            value = 10
+        }
+    }
+    
+    on_owner_death = {
+        end_story = yes
+    }
+    
+    effect_group = {
+        days = 2
+        trigger = {
+            story_owner = {
+                NOT = { has_character_flag = bno_is_pregnant }
+            }
+        }
+        triggered_effect = { # bno_milk_amount
+            trigger = {
+                story_owner = {
+                    bno_is_pregnant = yes
+                }
+            }
+            effect = {
+                story_owner = {
+                    add_character_flag = {
+                        flag = bno_is_pregnant
+                        weeks = 2
+                    }
+                }
+            }
+        }
+        first_valid = { # bno_milk_amount_modifier
+            triggered_effect = { # if milk amount modifier is 0 end this story
+                trigger = {
+                    var:bno_milk_amount_modifier < 1
+                }
+                effect = {
+                    end_story = yes
+                }
+            }
+            triggered_effect = { # lower milk amount modifier when not breastfeeding child
+                trigger = {
+                    story_owner = {
+                        bno_is_pregnant = no
+                        NOT = {
+                            any_relation = {
+                                type = bno_breastfeedee
+                            }
+                        }
+                    }
+                }
+                effect = {
+                    change_variable = {
+                        name = bno_milk_amount_modifier
+                        subtract = 1
+                    }
+                }
+            }
+            triggered_effect = { # increase milk amount modifier every time other wise
+                trigger = { always = yes }
+                effect = {
+                    change_variable = {
+                        name = bno_milk_amount_modifier
+                        add = 1
+                    }
+                }
+            }
+        }
+        triggered_effect = { # bno_milk_amount
+            trigger = { always = yes }
+            effect = {
+                save_scope_as = story
+                story_owner = {
+                    change_variable = {
+                        name = bno_milk_amount
+                        add = scope:story.var:bno_milk_amount_modifier
+                    }
+                    switch = {
+	                	trigger = has_trait
+	                	tits_small_bad_3 = {
+                            bno_set_maximum_milk_amount_effect = { AMOUNT = 100 }
+                            bno_determine_if_tits_is_overflowing_based_on_amount_effect = { AMOUNT = 100 }
+                        }
+	                	tits_small_bad_2 = {
+                            bno_set_maximum_milk_amount_effect = { AMOUNT = 200 }
+                            bno_determine_if_tits_is_overflowing_based_on_amount_effect = { AMOUNT = 200 }
+                        }
+	                	tits_small_bad_1 = {
+                            bno_set_maximum_milk_amount_effect = { AMOUNT = 300 }
+                            bno_determine_if_tits_is_overflowing_based_on_amount_effect = { AMOUNT = 300 }
+                        }
+	                	tits_big_good_1 = {
+                            bno_set_maximum_milk_amount_effect = { AMOUNT = 400 }
+                            bno_determine_if_tits_is_overflowing_based_on_amount_effect = { AMOUNT = 400 }
+                        }
+	                	tits_big_good_2 = {
+                            bno_set_maximum_milk_amount_effect = { AMOUNT = 500 }
+                            bno_determine_if_tits_is_overflowing_based_on_amount_effect = { AMOUNT = 500 }
+                        }
+	                	tits_big_good_3 = {
+                            bno_set_maximum_milk_amount_effect = { AMOUNT = 600 }
+                            bno_determine_if_tits_is_overflowing_based_on_amount_effect = { AMOUNT = 600 }
+                        }
+	                	tits_big_good_4 = {
+                            bno_set_maximum_milk_amount_effect = { AMOUNT = 700 }
+                            bno_determine_if_tits_is_overflowing_based_on_amount_effect = { AMOUNT = 700 }
+                        }
+	                }
+                }
+            }
+        }
+    }
+}

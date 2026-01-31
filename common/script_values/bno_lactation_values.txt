@@ -1,0 +1,23 @@
+﻿bno_breastmilk_overflow_value = {
+    value = var:bno_milk_amount
+    switch = {
+        trigger = has_trait
+        tits_small_bad_3 = { divide = 100 }
+        tits_small_bad_2 = { divide = 200 }
+        tits_small_bad_1 = { divide = 300 }
+        tits_big_good_1 = { divide = 400 }
+        tits_big_good_2 = { divide = 500 }
+        tits_big_good_3 = { divide = 600 }
+        tits_big_good_4 = { divide = 700 }
+    }
+}
+
+#contribute to 2 breast size point
+bno_total_milk_amount_for_breast_size_value = {
+    value = 0
+    if = {
+        limit = { has_variable = bno_milk_amount }
+        add = var:bno_milk_amount
+    }
+    divide = 350
+}

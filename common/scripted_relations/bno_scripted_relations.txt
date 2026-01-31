@@ -27,3 +27,15 @@ bno_offer_tribute_trainer = {
     corresponding = bno_offer_tribute_trainee
     special_guest = yes
 }
+
+bno_breastfeeder = {
+    corresponding = bno_breastfeedee
+    opinion = 25
+}
+
+bno_breastfeedee = {
+    corresponding = bno_breastfeeder
+    opinion = 10
+
+    special_guest = yes
+}
