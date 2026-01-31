@@ -18,7 +18,7 @@
         end_story = yes
     }
     effect_group = { # sex with tribute
-        days = { 30 60 }
+        days = { 15 45 }
         trigger = {
             variable_list_size = {
                 name = bno_tributes
@@ -29,15 +29,85 @@
             trigger = { always = yes }
             effect = {
                 story_owner = { save_scope_as = story_owner }
+                every_in_list = {
+                    variable = bno_tributes
+                    add_to_list = bno_tributes_list
+                }
+                every_in_list = {
+                    list = bno_tributes_list
+                    limit = {
+                        is_married = yes
+                        OR = {
+                            NOT = { is_spouse_of = scope:story_owner }
+                            bno_is_pregnant = yes
+                        }
+                    }
+                    save_scope_as = tribute
+                    every_spouse = {
+                        divorce = scope:tribute
+                    }
+                }
+                every_in_list = {
+                    list = bno_tributes_list
+                    limit = {
+                        is_concubine = yes
+                        OR = {
+                            NOT = { is_concubine_of = scope:story_owner }
+                            bno_is_pregnant = yes
+                        }
+                    }
+                    save_scope_as = tribute
+                    concubinist = {
+                        remove_concubine = scope:tribute
+                    }
+                }
                 scope:story_owner = {
                     send_interface_message = {
                         type = bno_blacked_events
                         title = bno_having_sex_with_tributes_title
                         desc = bno_having_sex_with_tributes_desc
                         every_in_list = {
-                            variable = bno_tributes
+                            list = bno_tributes_list
                             save_scope_as = tribute
                             scope:story_owner = {
+                                if = {
+                                    limit = {
+                                        scope:tribute = { # Exquisite
+                                            OR = {
+                                                any_memory = {
+                                                    memory_type = bno_offer_tribute_lending_exquisite
+                                                }
+                                                any_memory = {
+                                                    memory_type = bno_offer_tribute_selling_exquisite
+                                                }
+                                            }
+                                            bno_is_pregnant = no
+                                        }
+                                        scope:story_owner = {
+                                            allowed_more_spouses = yes
+                                        }
+                                    }
+                                    marry = scope:tribute                            
+                                }
+                                else_if = {
+                                    limit = {
+                                        scope:tribute = { # Adequate
+                                            OR = {
+                                                any_memory = {
+                                                    memory_type = bno_offer_tribute_lending_adequate
+                                                }
+                                                any_memory = {
+                                                    memory_type = bno_offer_tribute_selling_adequate
+                                                }
+                                            }
+                                            bno_is_pregnant = no
+                                        }
+                                        scope:story_owner = {
+                                            allowed_more_concubines = yes
+                                        }
+                                    }
+                                    make_concubine = scope:tribute
+                                }
                                 bno_have_sex_with_effects = {
                                     PARTNER = scope:tribute
                                 }
@@ -50,7 +120,7 @@
     }
 
     effect_group = { # random rewards for patrons
-        months = { 6 12 }
+        months = { 3 9 }
         trigger = {
             variable_list_size = {
                 name = bno_patrons

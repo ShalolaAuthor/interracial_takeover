@@ -225,6 +225,8 @@
 
  trait_bno_slave: "BBC Slave"
  trait_bno_slave_desc: "This pale girl has been branded as property, stripped of freedom and dignity, bound to serve her Black master for life. She is no longer recognized as a person, but as flesh to be used, bred, and broken. Her body, her moans, even her womb belong wholly to her liege. She will never escape the chains of his supremacy—forever a whore enslaved to the BBC."
+ TRAIT_FLAG_DESC_bno_blocked_from_leaving: "$EFFECT_LIST_BULLET$[bno_slave|E] is blocked from leaving court"
+ TRAIT_FLAG_DESC_bno_is_naked: "$EFFECT_LIST_BULLET$[bno_slave|E] is always naked"
 
  trait_bno_caged_futa: "Caged Futanari"
  trait_bno_caged_futa_desc: "Once proud of her extra endowment, this pale futa slut now rattles in chains with her cock locked in cruel iron. The cage mocks her every twitch, denying release and reminding her that her only purpose is to be a hole for Black masters. Her shaft will never swell again without their permission, her moans reduced to pitiful whimpers as her cunt is bred instead."

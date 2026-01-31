@@ -318,7 +318,7 @@ bno_remove_from_tributes_and_patrons_list = {
 bno_return_tribute_to_parent = {
     bno_remove_from_tributes_and_patrons_list = yes
     story_owner = {
-        remove_relation_bno_slave = scope:target
+        remove_relation_bno_slave_owner = scope:target
         scope:target = {
             remove_courtier_or_guest = scope:tribute
         }

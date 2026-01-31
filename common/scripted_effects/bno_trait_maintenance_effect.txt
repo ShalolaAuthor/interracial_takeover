@@ -250,7 +250,6 @@ bno_enslave_prisoner_option = {
 			limit = { is_ruler = yes }
 			depose = yes
 		}
-        add_trait = bno_slave
         pay_short_term_gold = {
             target = scope:actor
             gold = this.gold

@@ -6701,7 +6701,7 @@ bno_random.0044 = {
 				exists = scope:target1
 			}
 			outfit_tags = {
-				no_headwear
+				no_headgear
 			}
 		}
 	}

@@ -2,6 +2,12 @@
 
 on_set_relation_bno_slave = {
     effect = {
+        scope:target = {
+            add_trait = bno_slave
+            add_character_flag = blocked_from_leaving
+            add_character_flag = no_headgear
+            add_character_flag = is_naked
+        }
         bno_set_bno_slave_hook = {
             SOURCE = root
             TARGET = scope:target
@@ -11,6 +17,10 @@ on_set_relation_bno_slave = {
 
 on_set_relation_bno_slave_owner = {
     effect = {
+        add_trait = bno_slave
+        add_character_flag = blocked_from_leaving
+        add_character_flag = no_headgear
+        add_character_flag = is_naked
         bno_set_bno_slave_hook = {
             SOURCE = scope:target
             TARGET = root
@@ -20,6 +30,12 @@ on_set_relation_bno_slave_owner = {
 
 on_remove_relation_bno_slave = {
     effect = {
+        scope:target = {
+            remove_trait = bno_slave
+            remove_character_flag = blocked_from_leaving
+            remove_character_flag = no_headgear
+            remove_character_flag = is_naked
+        }
         bno_remove_bno_slave_hook = {
             SOURCE = root
             TARGET = scope:target
@@ -29,6 +45,10 @@ on_remove_relation_bno_slave = {
 
 on_remove_relation_bno_slave_owner = {
     effect = {
+        remove_trait = bno_slave
+        remove_character_flag = blocked_from_leaving
+        remove_character_flag = no_headgear
+        remove_character_flag = is_naked
         bno_remove_bno_slave_hook = {
             SOURCE = scope:target
             TARGET = root

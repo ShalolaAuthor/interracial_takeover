@@ -1,4 +1,5 @@
 ﻿story_bno_offer_tribute_lending = {
+    #for returning tribute once the lending period is done
     #available variable: bno_offer_tribute_target, bno_offer_tribute_owner
     on_owner_death = {
         bno_remove_from_tributes_and_patrons_list = yes
@@ -22,7 +23,7 @@
         end_story = yes
     }
     effect_group = {
-        months = 1
+        days = { 15 45 }
         trigger = {
             var:bno_offer_tribute_target = {
                 is_alive = no
