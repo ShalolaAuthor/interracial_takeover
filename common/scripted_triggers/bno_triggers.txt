@@ -9,6 +9,8 @@
 }
 
 bno_is_pregnant = {
-    has_trait = pregnant
-    has_trait = futa_impregnated
+    OR = {
+        has_trait = pregnant
+        has_trait = futa_impregnated
+    }
 }

@@ -1,6 +1,6 @@
 ﻿bno_slut_clothes = {
     usage = customization
-    priority = 999
+    priority = 1000
     add_accessory_modifiers = {
         gene = bno_phaze_clothes
         template = no_clothes
@@ -26,7 +26,7 @@
 
 bno_slut_shoes = {
     usage = customization
-    priority = 999
+    priority = 1000
     add_accessory_modifiers = {
         gene = bno_phaze_shoes
         template = no_shoes

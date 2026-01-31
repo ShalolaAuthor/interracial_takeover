@@ -21,11 +21,19 @@
         end_story = yes
     }
     
+    on_end = {
+        story_owner = {
+            remove_variable = story_bno_lactation
+            remove_variable = bno_milk_amount
+            remove_character_flag = bno_milk_overflow
+        }
+    }
+    
     effect_group = {
         days = 2
         trigger = {
             story_owner = {
-                NOT = { has_character_flag = bno_is_pregnant }
+                NOT = { has_character_flag = bno_is_pregnant_flag }
             }
         }
         triggered_effect = { # bno_milk_amount
@@ -37,7 +45,7 @@
             effect = {
                 story_owner = {
                     add_character_flag = {
-                        flag = bno_is_pregnant
+                        flag = bno_is_pregnant_flag
                         weeks = 2
                     }
                 }
@@ -71,7 +79,13 @@
                 }
             }
             triggered_effect = { # increase milk amount modifier every time other wise
-                trigger = { always = yes }
+                trigger = {
+                    story_owner = {
+                        any_relation = {
+                            type = bno_breastfeedee
+                        }
+                    }
+                }
                 effect = {
                     change_variable = {
                         name = bno_milk_amount_modifier
